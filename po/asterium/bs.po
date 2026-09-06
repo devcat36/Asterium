@@ -1,0 +1,2584 @@
+# Asterium interface translation for bs.
+# Copyright (C) 2026 the Asterium authors
+# This file is distributed under the same licence as the Asterium package.
+#
+# MACHINE TRANSLATION, not reviewed by a speaker of this language.
+# Terminology follows upstream Stellarium's own bs catalogue, which was used
+# as a glossary, and every entry keeps the source's printf placeholders.
+# Corrections from a human translator are welcome and should simply replace these.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: asterium\n"
+"Language: bs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%d bodies"
+msgstr "%d tijela"
+
+msgid "%d object"
+msgstr "%d objekat"
+
+msgid "%d objects"
+msgstr "%d objekata"
+
+msgid "%s colour"
+msgstr "%s boja"
+
+msgid "%s from %s, ±%.0f m"
+msgstr "%s iz %s, ±%.0f m"
+
+msgid "12-hour"
+msgstr "12-satna"
+
+msgid "1× below"
+msgstr "1× ispod"
+
+msgid "24-hour"
+msgstr "24-satna"
+
+msgid "A button to mark every object of the current observing list on the sky."
+msgstr "Dugme za označavanje svakog objekta sa trenutne liste posmatranja na nebu."
+
+msgid "A button to toggle ecliptic grid of date"
+msgstr "Dugme za prikaz/sakrivanje ekliptičke mreže datuma"
+
+msgid "A button to toggle equatorial J2000 grid"
+msgstr "Dugme za prikaz/sakrivanje ekvatorijalne J2000 mreže"
+
+msgid "A button to toggle galactic grid"
+msgstr "Dugme za prikaz/sakrivanje galaktičke mreže"
+
+msgid "A polygonal model for some small moons, asteroids and comets instead of a sphere"
+msgstr "Poligonalni model za neka mala mjeseca, asteroide i komete umjesto sfere"
+
+msgid "A touch-first planetarium forked from Stellarium, whose astronomy engine it uses unchanged. The interface is new; everything that draws the sky is upstream's work."
+msgstr "Planetarijum fokusiran na dodire, odvojen od Stellariumа, čiji astronomski motor koristi bez izmjene. Sučelje je novo; sve što crta nebo dolazi od originalnog Stellariumа."
+
+msgid "Abbreviated names"
+msgstr "Skraćena imena"
+
+msgid "About this sky culture"
+msgstr "O ovoj kulturi neba"
+
+msgid "Above altitude, °"
+msgstr "Iznad visine, °"
+
+msgid "Absolute scale"
+msgstr "Apsolutna skala"
+
+msgid "Activate this option to calculate azimuth from south towards west."
+msgstr "Aktiviraj ovu opciju da izračunaš azimut od juga prema zapadu."
+
+msgid "Active galaxies"
+msgstr "Aktivne galaksije"
+
+msgid "Add %s"
+msgstr "Dodaj %s"
+
+msgid "Additional information settings"
+msgstr "Postavke dodatnih informacija"
+
+msgid "Adjust brightness to bright objects"
+msgstr "Prilagodi osvjetljenost sjajnim objektima"
+
+msgid "Algol-type eclipsing systems"
+msgstr "Sistemi Algolovog tipa"
+
+msgid "Algorithm of ΔT"
+msgstr "Algoritam ΔT"
+
+msgid "All IDs"
+msgstr "Svi ID-ji"
+
+msgid "All naked-eye planets"
+msgstr "Sve planeta vidljive golim okom"
+
+msgid "All solar eclipses"
+msgstr "Sva solarnih pomračenja"
+
+msgid "Allow negative hour angles"
+msgstr "Dozvoli negativne satne uglove"
+
+msgid "Allow results outside the recommended time range of the orbital elements"
+msgstr "Dozvoli rezultate izvan preporučenog vremenskog raspona orbitalnih elemenata"
+
+msgid "Almanac"
+msgstr "Almanah"
+
+msgid "Almanac: Sun, Moon and naked-eye planets"
+msgstr "Almanah: Sunce, Mjesec i golim okom vidljive planete"
+
+msgid "Also find"
+msgstr "Također pronađi"
+
+msgid "Also plot"
+msgstr "Također nacrtaj"
+
+msgid "Also show moons of selected object or planets"
+msgstr "Također prikaži mjesece izabranog objekta ili planeta"
+
+msgid "Altitude limit, °"
+msgstr "Ograničenje visine, °"
+
+msgid "Amount"
+msgstr "Količina"
+
+msgid "An observer floats above its planet, so there is nowhere on it to stand. Choose another planet to come back down."
+msgstr "Posmatrač lebdi iznad njegove planete, tako da nema nigdje na njoj da stane. Odaberi drugu planetu da se vratiš dolje."
+
+msgid "And"
+msgstr "I"
+
+msgid "And also"
+msgstr "I također"
+
+msgid "And the next (years)"
+msgstr "I sledeće (godine)"
+
+msgid "Ang. Size"
+msgstr "Ang. Veličina"
+
+msgid "Angular distance"
+msgstr "Uglovna distanca"
+
+msgid "Angular distance between the Moon and selected object"
+msgstr "Kutna udaljenost između Mjeseca i odabranog objekta"
+
+msgid "Angular distance from the Moon"
+msgstr "Kutna udaljenost od Mjeseca"
+
+msgid "Angular distance from the Moon for second object"
+msgstr "Kutna udaljenost od Mjeseca za drugi objekat"
+
+msgid "Angular distance from the Sun"
+msgstr "Kutna udaljenost od Sunca"
+
+msgid "Angular distance from the Sun for second object"
+msgstr "Kutna udaljenost od Sunca za drugi objekat"
+
+msgid "Angular size"
+msgstr "Kutna veličina"
+
+msgid "Annual drift"
+msgstr "Godišnje pomjeranje"
+
+msgid "Antisolar point"
+msgstr "Antisolarni poenta"
+
+msgid "Apex points"
+msgstr "Vrhnje tačke"
+
+msgid "Aphelion"
+msgstr "Afelion"
+
+msgid "Appearance"
+msgstr "Izgled"
+
+msgid "Apply time interval limits to list"
+msgstr "Primijeni vremenská ograničenja na listu"
+
+msgid "Art"
+msgstr "Umetnost"
+
+msgid "Artificial satellites and unnamed stars are excluded from calculation."
+msgstr "Vještački sateliti i neimenovane zvijezde su isključeni iz izračuna."
+
+msgid "Asking for permission…"
+msgstr "Tražim dozvolu…"
+
+msgid "Asks SIMBAD what it holds around the object that is selected now, and prints the answer as it comes back."
+msgstr "Pita SIMBAD šta ima oko objekta koji je sada izabran, i ispisuje odgovor kako dolazi."
+
+msgid "Ast. lines"
+msgstr "Ast. linije"
+
+msgid "Ast. names"
+msgstr "Ast. nazivi"
+
+msgid "Asterism labels"
+msgstr "Natpisi asterizama"
+
+msgid "Asterism lines"
+msgstr "Linije asterizama"
+
+msgid "Asterisms"
+msgstr "Asterizmi"
+
+msgid "Asterisms font size"
+msgstr "Veličina fonta asterizama"
+
+msgid "Astronomical Almanac (1984)"
+msgstr "Astronomski Almanah (1984)"
+
+msgid "Astronomical Almanac (default) enlarges by 2%; Danjon (1951) differs slightly"
+msgstr "Astronomski almanah (početni) se povećava za 2%; Danjon (1951) se malo razlikuje"
+
+msgid "Astronomical Twilight"
+msgstr "Astronomski sumrak"
+
+msgid "Astronomical calculations"
+msgstr "Astronomski izračuni"
+
+msgid "Astronomical night"
+msgstr "Astronomska noć"
+
+msgid "At"
+msgstr "U"
+
+msgid "Atmosph."
+msgstr "Atmosf."
+
+msgid "Atmosphere visualization"
+msgstr "Vizuelizacija atmosfere"
+
+msgid "Automatic closing dialog"
+msgstr "Automatski zatvarajući dijalog"
+
+msgid "Automatic transparency"
+msgstr "Automatska prozirnost"
+
+msgid "Axis distance"
+msgstr "Distanca ose"
+
+msgid "Azi. grid"
+msgstr "Azim. mreža"
+
+msgid "Azimuth and altitude rather than right ascension and declination"
+msgstr "Azimut i visina umjesto desnog uspona i deklinacije"
+
+msgid "Azimuth from South"
+msgstr "Azimut od juga"
+
+msgid "Azimuth vs. Time"
+msgstr "Azimut vs. Vrijeme"
+
+msgid "Back"
+msgstr "Nazad"
+
+msgid "Bad visibility conditions for current location"
+msgstr "Loši uslovi vidljivosti za trenutnu lokaciju"
+
+msgid "Beginning of center line; central eclipse begins"
+msgstr "Početak linije centra; centralna pomrčina počinje"
+
+msgid "Below the horizon here."
+msgstr "Ispod horizonta ovdje."
+
+msgid "Between objects"
+msgstr "Između objekata"
+
+msgid "Boundless"
+msgstr "Neograničeno"
+
+msgid "Bounds"
+msgstr "Granice"
+
+msgid "Bright Solar system objects (<%1 mag)"
+msgstr "Sjajni objekti Sunčevog sistema (<%1 mag)"
+
+msgid "Bright barium stars"
+msgstr "Sjajne barijumske zvijezde"
+
+msgid "Bright carbon stars"
+msgstr "Sjajne ugljenične zvijezde"
+
+msgid "Bright double stars"
+msgstr "Sjajne dvostukie zvijezde"
+
+msgid "Bright double stars (<%1 mag)"
+msgstr "Sjajne dvostukie zvijezde (<%1 mag)"
+
+msgid "Bright galaxies (<%1 mag)"
+msgstr "Sjajne galaksije (<%1 mag)"
+
+msgid "Bright nebulae"
+msgstr "Sjajne magline"
+
+msgid "Bright nebulae (<%1 mag)"
+msgstr "Sjajne magline (<%1 mag)"
+
+msgid "Bright nova stars"
+msgstr "Sjajne nova zvijezde"
+
+msgid "Bright star clusters (<%1 mag)"
+msgstr "Sjajni zvjezdani skupovi (<%1 mag)"
+
+msgid "Bright stars"
+msgstr "Sjajne zvijezde"
+
+msgid "Bright stars (<%1 mag)"
+msgstr "Sjajne zvijezde (<%1 mag)"
+
+msgid "Bright stars with high proper motion"
+msgstr "Sjajne zvijezde sa visokim sopstvenim kretanjem"
+
+msgid "Bright supernova stars"
+msgstr "Sjajne supernova zvijezde"
+
+msgid "Bright variable stars"
+msgstr "Sjajne promenljive zvijezde"
+
+msgid "Bright variable stars (<%1 mag)"
+msgstr "Sjajne promenljive zvijezde (<%1 mag)"
+
+msgid "Brighter than"
+msgstr "Svjetlije od"
+
+msgid "By object type"
+msgstr "Po tipu objekta"
+
+msgid "By planet"
+msgstr "Po planeti"
+
+msgid "Calculate"
+msgstr "Izračunaj"
+
+msgid "Calculating…"
+msgstr "Izračunavam…"
+
+msgid "Caldwell objects"
+msgstr "Caldwellovi objekti"
+
+msgid "Cardinals"
+msgstr "Kardinal."
+
+msgid "Catalogue numbers instead of common names"
+msgstr "Brojevi kataloga umjesto čestih imena"
+
+msgid "Category"
+msgstr "Kategorija"
+
+msgid "Celestial body"
+msgstr "Nebesko tijelo"
+
+msgid "Celestial poles (J2000)"
+msgstr "Nebeski polovi (J2000)"
+
+msgid "Celestial poles (of date)"
+msgstr "Nebeski polovi (od datuma)"
+
+msgid "Center of FOV"
+msgstr "Centar FOV-a"
+
+msgid "Centering button"
+msgstr "Dugme centriranja"
+
+msgid "Central duration"
+msgstr "Centralna trajanja"
+
+msgid "Central eclipse begins"
+msgstr "Centralno pomračenje počinje"
+
+msgid "Central eclipse ends"
+msgstr "Centralno pomračenje završava"
+
+msgid "Centre"
+msgstr "Centar"
+
+msgid "Centre on object"
+msgstr "Centriraj na objekt"
+
+msgid "Centre point"
+msgstr "Tačka centra"
+
+msgid "Circles"
+msgstr "Krugovi"
+
+msgid "Circular FOV"
+msgstr "Kružni FOV"
+
+msgid "Circumpolar circles"
+msgstr "Cirkumpolarne kružnice"
+
+msgid "City"
+msgstr "Grad"
+
+msgid "Civil Twilight"
+msgstr "Građanski sumrak"
+
+msgid "Cleanup"
+msgstr "Čišćenje"
+
+msgid "Clear"
+msgstr "Očisti"
+
+msgid "Clear recent searches"
+msgstr "Očisti nedavne pretrage"
+
+msgid "Clear the selection - a touch screen has no right button"
+msgstr "Očisti izbor - ekran dodira nema desnog dugmeta"
+
+msgid "Cleared."
+msgstr "Očišćeno."
+
+msgid "Click on star to show its constellation"
+msgstr "Klikni na zvijezdu da prikaženjas njna sazviježđa"
+
+msgid "Close"
+msgstr "Zatvori"
+
+msgid "Close what is open; from the sky, leave the app running"
+msgstr "Zatvori šta je otvoreno; sa neba, ostavi aplikaciju da radi"
+
+msgid "Clusters of galaxies"
+msgstr "Skupovi galaksija"
+
+msgid "Coarse"
+msgstr "Gruba"
+
+msgid "Color"
+msgstr "Boja"
+
+msgid "Color channel"
+msgstr "Boja kanala"
+
+msgid "Color of Lunar station lines"
+msgstr "Boja linija lunarne stanice"
+
+msgid "Color of asterism lines"
+msgstr "Boja linija asterizama"
+
+msgid "Color of asterism names"
+msgstr "Boja imena asterizama"
+
+msgid "Color of nomenclature labels"
+msgstr "Boja natpisa nomenklature"
+
+msgid "Color of orbits"
+msgstr "Boja orbita"
+
+msgid "Color of planet labels"
+msgstr "Boja natpisa planeta"
+
+msgid "Color of ray helpers"
+msgstr "Boja pomoćnih zraka"
+
+msgid "Color of trails"
+msgstr "Boja traga"
+
+msgid "Color of zodiac lines"
+msgstr "Boja horoskopskih linija"
+
+msgid "Colors of orbit lines"
+msgstr "Boje orbitalnih linija"
+
+msgid "Colures"
+msgstr "Kolures"
+
+msgid "Comets up to mag."
+msgstr "Komete do mag."
+
+msgid "Compass"
+msgstr "Kompas"
+
+msgid "Config"
+msgstr "Konfiguracija"
+
+msgid "Configure colors of markers"
+msgstr "Konfiguruj boje oznaka"
+
+msgid "Configure colors of orbit lines"
+msgstr "Konfiguruj boje orbitalnih linija"
+
+msgid "Conjunction"
+msgstr "Konjunkcija"
+
+msgid "Connecting line"
+msgstr "Linija povezanosti"
+
+msgid "Const."
+msgstr "Sazv."
+
+msgid "Constellations font size"
+msgstr "Veličina fonta sazviježđa"
+
+msgid "Contrast"
+msgstr "Kontrast"
+
+msgid "Coordinate system"
+msgstr "Koordinatni sistem"
+
+msgid "Coordinates"
+msgstr "Koordinate"
+
+msgid "Copyright"
+msgstr "Autorska prava"
+
+msgid "Credits"
+msgstr "Zasluge"
+
+msgid "Cubewanos"
+msgstr "Kubevania"
+
+msgid "Culmination altitude"
+msgstr "Visina kulminacije"
+
+msgid "Current FoV"
+msgstr "Trenutni FOV"
+
+msgid "Custom"
+msgstr "Prilagođeno"
+
+msgid "Custom FoV limit"
+msgstr "Prilagođeno ograničenje FOV-a"
+
+msgid "Custom altitude of the Moon, °"
+msgstr "Prilagođena visina Mjeseca, °"
+
+msgid "Custom altitude of the Sun, °"
+msgstr "Prilagođena visina Sunca, °"
+
+msgid "Custom settings for position of GRS"
+msgstr "Prilagođene postavke za položaj GRS-a"
+
+msgid "Custom values"
+msgstr "Prilagođene vrijednosti"
+
+msgid "Cut the scale off below the limit"
+msgstr "Odreži skalu ispod ograničenja"
+
+msgid "DATE AND TIME (UTC)"
+msgstr "DATUM I VRIJEME (UTC)"
+
+msgid "DSS survey"
+msgstr "DSS pregled"
+
+msgid "Dark nebulae"
+msgstr "Tamne magline"
+
+msgid "Data"
+msgstr "Podaci"
+
+msgid "Date"
+msgstr "Datum"
+
+msgid "Date and time"
+msgstr "Datum i vrijeme"
+
+msgid "Date/time"
+msgstr "Datum/vrijeme"
+
+msgid "Dates"
+msgstr "Datumi"
+
+msgid "Dawn"
+msgstr "Zora"
+
+msgid "Dbl. stars"
+msgstr "Dvostruke zvijezde"
+
+msgid "December solstice"
+msgstr "Zimski solsticij"
+
+msgid "Decimal degrees. −33.87 means 33.87° south. Elevation is metres above sea level; it moves the horizon down by a few arcminutes."
+msgstr "Decimalni stupnjevi. −33,87 znači 33,87° jug. Elevacija je metrija iznad razine mora; spušta horizont za nekoliko arkominuta."
+
+msgid "Deep Sky"
+msgstr "Duboko nebo"
+
+msgid "Deep-sky objects"
+msgstr "Objekti dubokog neba"
+
+msgid "Degrees per year the longitude moves by"
+msgstr "Stupnjevi godišnje koje dužina premješta"
+
+msgid "Degrees, hours and minutes as they are written - 12h30m49s, +41°16'09\", 187.7 - or plain decimal degrees."
+msgstr "Stupnjevi, sati i minute kako su napisani - 12h30m49s, +41°16'09\", 187.7 - ili obični decimalni stupnjevi."
+
+msgid "Deletes all recent search object data, and the objects SIMBAD contributed."
+msgstr "Briše sve nedavne podatke o objektima pretrage i objekte koje je SIMBAD dao."
+
+msgid "Designations for celestial coordinate systems"
+msgstr "Oznake za nebeske koordinatne sisteme"
+
+msgid "Designations for double stars"
+msgstr "Oznake za dvostruke zvijezde"
+
+msgid "Designations for variable stars"
+msgstr "Oznake za varijabilne zvijezde"
+
+msgid "Dim a survey near the horizon, as the air does"
+msgstr "Potamni pregled blizu horizonta, kao što zrak radi"
+
+msgid "Dimensions"
+msgstr "Dimenzije"
+
+msgid "Display formats of date and time"
+msgstr "Formati prikaza datuma i vremena"
+
+msgid "Display objects from catalogs"
+msgstr "Prikaži objekte iz kataloga"
+
+msgid "Dist."
+msgstr "Udal."
+
+msgid "Distance, AU"
+msgstr "Udaljenost, AU"
+
+msgid "Done"
+msgstr "Gotovo"
+
+msgid "Drag"
+msgstr "Vuci"
+
+msgid "Draw deep-sky objects at all"
+msgstr "Crtaj objekte dubokog neba uopće"
+
+msgid "Draw only polygon"
+msgstr "Crtaj samo poligon"
+
+msgid "Draw the enabled sky surveys"
+msgstr "Crtaj omogućene preglede neba"
+
+msgid "Draw the planets, moons and minor bodies"
+msgstr "Crtaj planete, mjesece i male članove"
+
+msgid "Drawn larger than life, so a body that is a few arcseconds wide is visible at all. The position stays true."
+msgstr "Crtano veće od životne veličine, tako da je tijelo koje je nekoliko arkosekundi široko vidljivo. Položaj ostaje pravi."
+
+msgid "Duration"
+msgstr "Trajanje"
+
+msgid "Duration (years)"
+msgstr "Trajanje (godine)"
+
+msgid "Duration, months"
+msgstr "Trajanje, mjeseci"
+
+msgid "Dusk"
+msgstr "Sumrak"
+
+msgid "Dwarf planets"
+msgstr "Patuljaste planete"
+
+msgid "Dynamic (FOV-based) Moon size"
+msgstr "Dinamička (zasnovana na FOV-u) veličina Mjeseca"
+
+msgid "Earth"
+msgstr "Zemlja"
+
+msgid "Earth penumbra"
+msgstr "Zemljina penumbra"
+
+msgid "Earth shadow enlargement after Danjon"
+msgstr "Zemljina sjena proširenja nakon Danjon-a"
+
+msgid "Earth umbra"
+msgstr "Zemljina umbra"
+
+msgid "Eastern quadrature"
+msgstr "Istočna kvadratura"
+
+msgid "Ecl. grid"
+msgstr "Ekl. mreža"
+
+msgid "Eclipse"
+msgstr "Pomrčina"
+
+msgid "Eclipse begins; first contact with Earth"
+msgstr "Pomrčina počinje; prvi kontakt sa Zemljom"
+
+msgid "Eclipse ends; last contact with Earth"
+msgstr "Pomrčina se završava; poslednji kontakt sa Zemljom"
+
+msgid "Eclipse magnitude"
+msgstr "Pomračenja magnituda"
+
+msgid "Eclipses"
+msgstr "Pomračenja"
+
+msgid "Eclipses are computed for observers on Earth."
+msgstr "Pomračenja se računaju za posmatrače na Zemlji."
+
+msgid "Ecliptic (J2000)"
+msgstr "Ekliptička (J2000)"
+
+msgid "Ecliptic (J2000.0)"
+msgstr "Ekliptička (J2000.0)"
+
+msgid "Ecliptic (of date)"
+msgstr "Ekliptička (od datuma)"
+
+msgid "Ecliptic grid"
+msgstr "Ekliptička mreža"
+
+msgid "Ecliptic grid (J2000)"
+msgstr "Ekliptička mreža (J2000)"
+
+msgid "Ecliptic grid (of date)"
+msgstr "Ekliptička mreža (od datuma)"
+
+msgid "Ecliptic poles (J2000)"
+msgstr "Ekliptički polovi (J2000)"
+
+msgid "Ecliptic poles (of date)"
+msgstr "Ekliptički polovi (od datuma)"
+
+msgid "Elev."
+msgstr "Vis."
+
+msgid "Elevation"
+msgstr "Elevacija"
+
+msgid "Elevation in metres"
+msgstr "Elevacija u metrima"
+
+msgid "Elong."
+msgstr "Elon."
+
+msgid "Elongation"
+msgstr "Elongacija"
+
+msgid "Elongations and quadratures"
+msgstr "Elongacije i kvadrature"
+
+msgid "Emission-line stars"
+msgstr "Zvijezde sa emisijskim linijama"
+
+msgid "Enabled only"
+msgstr "Samo omogućeno"
+
+msgid "End of center line; central eclipse ends"
+msgstr "Kraj linije centra; centralna pomrčina se završava"
+
+msgid "Enter Culture..."
+msgstr "Unesite kulturu..."
+
+msgid "Ephemeris"
+msgstr "Efemerida"
+
+msgid "Equ. grid"
+msgstr "Ekv. mreža"
+
+msgid "Equ. mount"
+msgstr "Ekv. mont."
+
+msgid "Equator (J2000)"
+msgstr "Ekvator (J2000)"
+
+msgid "Equator (of date)"
+msgstr "Ekvator (od datuma)"
+
+msgid "Equatorial (J2000.0)"
+msgstr "Ekvatorijalna (J2000.0)"
+
+msgid "Equatorial grid (J2000)"
+msgstr "Ekvatorijalna mreža (J2000)"
+
+msgid "Equatorial grid (of date)"
+msgstr "Ekvatorijalna mreža (od datuma)"
+
+msgid "Equatorial radii ratio"
+msgstr "Odnos ekvatorijalni radijusa"
+
+msgid "Equinoxes (J2000)"
+msgstr "Ekvinociji (J2000)"
+
+msgid "Equinoxes (of date)"
+msgstr "Ekvinociji (od datuma)"
+
+msgid "Evening"
+msgstr "Večer"
+
+msgid "Every"
+msgstr "Svaki"
+
+msgid "Every name the object is catalogued under"
+msgstr "Svako ime pod koje je objekat katalogiziuan"
+
+msgid "Exoplanetary systems"
+msgstr "Egzoplanetarni sistemi"
+
+msgid "Explanatory Supplement (1992)"
+msgstr "Objašnjujući dodatak (1992)"
+
+msgid "Explanatory Supplement (2013)"
+msgstr "Objašnjujući dodatak (2013)"
+
+msgid "Exterior egress"
+msgstr "Vanjski izlaz"
+
+msgid "Exterior ingress"
+msgstr "Vanjski ulazak"
+
+msgid "Extras"
+msgstr "Dodatni"
+
+msgid "Fades the ground as you look below the horizon or zoom in"
+msgstr "Blijedi tlo dok gledate ispod horizonta ili uveličavate"
+
+msgid "Fading duration"
+msgstr "Trajanje brzog gasnuća"
+
+msgid "Faintest shown"
+msgstr "Najslabije prikazano"
+
+msgid "Favorites"
+msgstr "Omiljeni"
+
+msgid "Fetching the survey lists…"
+msgstr "Preuzimam liste pregledа…"
+
+msgid "Find a city"
+msgstr "Pronađi grad"
+
+msgid "Fine"
+msgstr "Fino"
+
+msgid "First %d of %d - filter to narrow it."
+msgstr "Prvo %d od %d - filtriraj da ga suzbiješ."
+
+msgid "First body"
+msgstr "Prvo tijelo"
+
+msgid "First celestial body"
+msgstr "Prvo nebesko tijelo"
+
+msgid "First graph"
+msgstr "Prvo grafiko"
+
+msgid "Fix"
+msgstr "Popravka"
+
+msgid "Fixed Equator"
+msgstr "Fiksni ekvator"
+
+msgid "Fixed Equatorial grid"
+msgstr "Fiksna ekvatorijalna mreža"
+
+msgid "Fixed instant"
+msgstr "Fiksni trenutak"
+
+msgid "Flip buttons"
+msgstr "Okreni dugmad"
+
+msgid "Flip horiz."
+msgstr "Okr. hor."
+
+msgid "Flip vert."
+msgstr "Okr. vert."
+
+msgid "Font size"
+msgstr "Veličina fonta"
+
+msgid "Frame rate"
+msgstr "Stopa okvira"
+
+msgid "From"
+msgstr "Od"
+
+msgid "From year"
+msgstr "Od godine"
+
+msgid "Full screen"
+msgstr "Pun ekran"
+
+msgid "Fullscreen button"
+msgstr "Dugme punog ekrana"
+
+msgid "Further reading"
+msgstr "Dalje čitanje"
+
+msgid "GRS details…"
+msgstr "Detaljі GRS…"
+
+msgid "Gal. grid"
+msgstr "Gal. mreža"
+
+msgid "Galactic center and anticenter"
+msgstr "Galaktički centar i anticentar"
+
+msgid "Galactic equator"
+msgstr "Galaktički ekvator"
+
+msgid "Galactic poles"
+msgstr "Galaktički polovi"
+
+msgid "Gamma"
+msgstr "Gama"
+
+msgid "Gamma, saturation, brightness, contrast, opacity, colour channel and inverted colours belong to one survey. Open a survey to set them."
+msgstr "Gama, zasićenost, osvjetljenost, kontrast, neprozirnost, kanal boje i izokrenutе boje pripadaju jednoj anketi. Otvori anketu da ih postaviš."
+
+msgid "Gestures"
+msgstr "Geste"
+
+msgid "Globular star clusters"
+msgstr "Globularni zvjezdani skupovi"
+
+msgid "Go there"
+msgstr "Idi tamo"
+
+msgid "Go to position"
+msgstr "Idi na položaj"
+
+msgid "Go to this eclipse"
+msgstr "Idi na ovu pomračenju"
+
+msgid "Go to this moment"
+msgstr "Idi u ovaj trenutak"
+
+msgid "Go to this transit"
+msgstr "Idi na ovaj tranzit"
+
+msgid "Good visibility conditions for current location"
+msgstr "Dobri uslovi vidljivosti za trenutnu lokaciju"
+
+msgid "Graphs"
+msgstr "Grafovi"
+
+msgid "Great Red Spot"
+msgstr "Velika crvena mrlja"
+
+msgid "Great Red Spot details"
+msgstr "Detalji Velike crvene mrlje"
+
+msgid "Greatest eastern elongation"
+msgstr "Najveća istočna elongacija"
+
+msgid "Greatest eclipse"
+msgstr "Najveća pomrčina"
+
+msgid "Greatest elongation for an inner planet, quadrature for an outer one"
+msgstr "Najveća elongacija za unutrašnju planetu, kvadratura za vanjsku"
+
+msgid "Greatest western elongation"
+msgstr "Najveća zapadna elongacija"
+
+msgid "Greek letters"
+msgstr "Grčka slova"
+
+msgid "Grid density"
+msgstr "Gustoća mreže"
+
+msgid "Grids"
+msgstr "Mreže"
+
+msgid "Ground"
+msgstr "Tlo"
+
+msgid "Gyro"
+msgstr "Žiro"
+
+msgid "Gyro mode"
+msgstr "Režim žiroskopa"
+
+msgid "Harvard-Smithsonian Center for Astrophysics (USA)"
+msgstr "Harvard-Smithsonian Center za astrofiziku (SAD)"
+
+msgid "Height"
+msgstr "Visina"
+
+msgid "Heliocentric distance"
+msgstr "Heliocentrična udaljenost"
+
+msgid "Heliocentric ecliptic positions of the major planets."
+msgstr "Heliocentrični ekliptički položaji velikih planeta."
+
+msgid "Herschel 400 objects"
+msgstr "Herschelovi 400 objekti"
+
+msgid "HiPS"
+msgstr "HiPS"
+
+msgid "HiPS Surveys"
+msgstr "HiPS ankete"
+
+msgid "Hide controls"
+msgstr "Sakrij kontrole"
+
+msgid "Hide deep-sky objects fainter than the limit"
+msgstr "Sakrij dubokonebeske objekte slabije od ograničenja"
+
+msgid "Hide nomenclature on the celestial body of observer"
+msgstr "Sakrij nomenklaturu na nebeskom tijelu posmatrača"
+
+msgid "Hide orbits of minor bodies"
+msgstr "Sakrij orbite manjih tijela"
+
+msgid "Highlight"
+msgstr "Istakni"
+
+msgid "Highlight the objects of the observing list"
+msgstr "Istaknite objekte sa liste posmatranja"
+
+msgid "Hint circles marking each planet"
+msgstr "Krugovi savjeta koji označavaju svaku planetu"
+
+msgid "Hints"
+msgstr "Savjeti"
+
+msgid "Hints brightness"
+msgstr "Osvjetljenost savjeta"
+
+msgid "Hipparcos designations"
+msgstr "Hiparhove oznake"
+
+msgid "Horizontal"
+msgstr "Vodoravno"
+
+msgid "Hour angles usually run 0...24h. This counts -12h...12h."
+msgstr "Satni uglovi obično idu 0...24h. Ovo broji -12h...12h."
+
+msgid "How many"
+msgstr "Koliko"
+
+msgid "ICRS grid"
+msgstr "ICRS mreža"
+
+msgid "Include"
+msgstr "Uključi"
+
+msgid "Include bright comets"
+msgstr "Uključi sjajne komete"
+
+msgid "Include selected minor planets"
+msgstr "Uključi odabrane male planete"
+
+msgid "Inferior conjunction"
+msgstr "Donja konjunkcija"
+
+msgid "Info label"
+msgstr "Oznaka infoa"
+
+msgid "Interacting galaxies"
+msgstr "Galaksije u interakciji"
+
+msgid "Intercardinal points"
+msgstr "Bočne strane svijeta"
+
+msgid "Interior egress"
+msgstr "Unutrašnji izlaz"
+
+msgid "Interior ingress"
+msgstr "Unutrašnji ulazak"
+
+msgid "Interstellar objects"
+msgstr "Međuzvezdani objekti"
+
+msgid "Invariable plane of the Solar system"
+msgstr "Nepromjenljiva ravan Sunčevog sistema"
+
+msgid "Isolated"
+msgstr "Izolirano"
+
+msgid "Its elevation, and the civil, nautical and astronomical twilights"
+msgstr "Njegova elevacija i građanska, morska i astronomska sumraka"
+
+msgid "Jovigraphic longitude of the spot in System II, in degrees"
+msgstr "Jovigrafska dužina mrlje u sistemu II, u stepenima"
+
+msgid "Julian day"
+msgstr "Julijanski dan"
+
+msgid "June solstice"
+msgstr "Letnji solsticij"
+
+msgid "Label"
+msgstr "Oznaka"
+
+msgid "Label colour"
+msgstr "Boja oznake"
+
+msgid "Label only features along the terminator"
+msgstr "Označi samo karakteristike uz terminator"
+
+msgid "Labels and Markers amount"
+msgstr "Količina naziva i oznaka"
+
+msgid "Labels brightness"
+msgstr "Osvjetljenost natpisa"
+
+msgid "Landscape labels"
+msgstr "Natpisi krajolika"
+
+msgid "Largest, ′"
+msgstr "Najveći, ′"
+
+msgid "Last known position"
+msgstr "Zadnji poznati položaj"
+
+msgid "Lasting"
+msgstr "Trajajući"
+
+msgid "Latest selected object"
+msgstr "Poslednje odabrani objekat"
+
+msgid "Latitude"
+msgstr "Latituda"
+
+msgid "Latitude −90…90, longitude −180…180."
+msgstr "Latituda −90…90, dužina −180…180."
+
+msgid "Layer appearance"
+msgstr "Izgled sloja"
+
+msgid "Leaves the landscape visible in darkness"
+msgstr "Ostavlja krajolik vidljiv u mraku"
+
+msgid "Licence"
+msgstr "Licenca"
+
+msgid "Light pollution"
+msgstr "Zagađenje svjetlošću"
+
+msgid "Light pollution from database"
+msgstr "Zagađenje svjetlošću iz baze podataka"
+
+msgid "Limit angular separation"
+msgstr "Ograniči kutnu separaciju"
+
+msgid "Limit angular size"
+msgstr "Ograniči kutnu veličinu"
+
+msgid "Limit magnitude"
+msgstr "Ograniči magnitudu"
+
+msgid "Limit the magnitude of solar system objects"
+msgstr "Ograniči magnitudu objekata Sunčevog sistema"
+
+msgid "Line"
+msgstr "Linija"
+
+msgid "Line thickness"
+msgstr "Debljina linije"
+
+msgid "Linear and angular distances between selected objects"
+msgstr "Linearne i kutne udaljenosti između odabranih objekata"
+
+msgid "Linear distance"
+msgstr "Linearna udaljenost"
+
+msgid "Lines"
+msgstr "Linije"
+
+msgid "Lines and circles"
+msgstr "Linije i krugovi"
+
+msgid "List"
+msgstr "Lista"
+
+msgid "List name"
+msgstr "Naziv liste"
+
+msgid "Lit windows, street lighting and the like"
+msgstr "Osvijetljeni prozori, javna rasvjeta i slično"
+
+msgid "Loading…"
+msgstr "Učitavanje…"
+
+msgid "Local Mean Solar Time"
+msgstr "Lokalno srednje sunčevo vrijeme"
+
+msgid "Local True Solar Time"
+msgstr "Lokalno pravo sunčevo vrijeme"
+
+msgid "Local solar eclipses"
+msgstr "Lokalne sunčeve pomračnje"
+
+msgid "Local time"
+msgstr "Lokalno vrijeme"
+
+msgid "Local time, h"
+msgstr "Lokalno vrijeme, h"
+
+msgid "Locate me"
+msgstr "Pronađi me"
+
+msgid "Locating…"
+msgstr "Pronalaženje…"
+
+msgid "Location from landscape"
+msgstr "Lokacija iz krajolika"
+
+msgid "Location is switched off in the system settings."
+msgstr "Lokacija je isključena u postavkama sistema."
+
+msgid "Location permission refused. The other two ways still work."
+msgstr "Dozvola za lokaciju odbijena. Druga dva načina još uvijek rade."
+
+msgid "Lock position when coordinates are used"
+msgstr "Zaključaj položaj kada se koriste koordinate"
+
+msgid "Long press"
+msgstr "Dugi pritisak"
+
+msgid "Longitude of GRS"
+msgstr "Dužina GRS"
+
+msgid "Lunar Elongation"
+msgstr "Lunarna elongacija"
+
+msgid "Lunar Stations"
+msgstr "Mjesečeve stanice"
+
+msgid "Lunar eclipses"
+msgstr "Mjesečeve pomračnje"
+
+msgid "Lunar elongation"
+msgstr "Mjesečeva elongacija"
+
+msgid "Magnitude"
+msgstr "Magnituda"
+
+msgid "Magnitudes"
+msgstr "Magnituda"
+
+msgid "Major planets"
+msgstr "Velike planete"
+
+msgid "Major planets by planet, minor bodies by type"
+msgstr "Velike planete po planeti, manja tijela po tipu"
+
+msgid "Map of the planet. Tap to set the observer's place."
+msgstr "Mapa planete. Dotakni da postaviš mjesto posmatrača."
+
+msgid "March equinox"
+msgstr "Proljetna ravnodnevica"
+
+msgid "Mark impact features with ellipses"
+msgstr "Označi udarajuće karakteristike sa elipsama"
+
+msgid "Mark minor bodies"
+msgstr "Označi manja tijela"
+
+msgid "Markers"
+msgstr "Oznake"
+
+msgid "Markers sized by the object's angular size"
+msgstr "Oznake veličine prema kutnoj veličini objekta"
+
+msgid "Master switch for the grids, lines and points below"
+msgstr "Glavni prekidač za mreže, linije i točke ispod"
+
+msgid "Max"
+msgstr "Maks"
+
+msgid "Max items to display"
+msgstr "Maks stavki za prikaz"
+
+msgid "Max. results"
+msgstr "Maks. rezultati"
+
+msgid "Max. search radius"
+msgstr "Maks. radijus pretrage"
+
+msgid "Maximum Solar altitude"
+msgstr "Maksimalna solarna visina"
+
+msgid "Maximum allowed separation"
+msgstr "Maksimalna dozvoljena separacija"
+
+msgid "Maximum angular size"
+msgstr "Maksimalna kutna veličina"
+
+msgid "Maximum eclipse"
+msgstr "Maksimalna pomračenja"
+
+msgid "Maximum year"
+msgstr "Maksimalna godina"
+
+msgid "Mean motion"
+msgstr "Srednje kretanje"
+
+msgid "Mercury, Venus, Mars, Jupiter and Saturn at once. Earth only."
+msgstr "Merkur, Venera, Mars, Jupiter i Saturn odjednom. Samo Zemlja."
+
+msgid "Messier objects"
+msgstr "Messierovi objekti"
+
+msgid "Mid-transit"
+msgstr "Sredina tranzita"
+
+msgid "Milky Way brightness"
+msgstr "Osvjetljenost Mliječnog puta"
+
+msgid "Milky Way saturation"
+msgstr "Zasićenost Mliječnog puta"
+
+msgid "Minimal angular size"
+msgstr "Minimalna kutna veličina"
+
+msgid "Minimal brightness"
+msgstr "Minimalna osvjetljenost"
+
+msgid "Minimum Solar altitude"
+msgstr "Minimalna solarna visina"
+
+msgid "Minimum year"
+msgstr "Minimalna godina"
+
+msgid "Minor bodies"
+msgstr "Manja tijela"
+
+msgid "Minutes before sunrise / after sunset"
+msgstr "Minuta prije izlaska / nakon zalaska Sunca"
+
+msgid "Month"
+msgstr "Mjesec"
+
+msgid "Monthly Elevation"
+msgstr "Mjesečna elevacija"
+
+msgid "Moon at"
+msgstr "Mjesec u"
+
+msgid "Moon enters penumbra"
+msgstr "Mjesec ulazi u polusenku"
+
+msgid "Moon enters umbra"
+msgstr "Mjesec ulazi u senku"
+
+msgid "Moon in zenith at"
+msgstr "Mjesec u zenitu u"
+
+msgid "Moon leaves penumbra"
+msgstr "Mjesec napušta polusenku"
+
+msgid "Moon leaves umbra"
+msgstr "Mjesec napušta senku"
+
+msgid "Moon's halo"
+msgstr "Mjesečev halo"
+
+msgid "Moons of first body"
+msgstr "Mjeseci prvog tela"
+
+msgid "Morning"
+msgstr "Jutro"
+
+msgid "Morph. Descr."
+msgstr "Morf. Opisi"
+
+msgid "Morphological description"
+msgstr "Morfološki opis"
+
+msgid "Move the sky by pointing the phone at it"
+msgstr "Pomjeri nebo pokazivanjem telefona na nj"
+
+msgid "Move the sky with the phone"
+msgstr "Pomjeri nebo sa telefonom"
+
+msgid "NGC/IC objects"
+msgstr "NGC/IC objekti"
+
+msgid "Name for the new list"
+msgstr "Naziv za novu listu"
+
+msgid "Named features the landscape marks"
+msgstr "Imenovane karakteristike koje krajolik označava"
+
+msgid "Names"
+msgstr "Nazivi"
+
+msgid "Names beside the planets and their markers"
+msgstr "Nazivi pored planeta i njihovih oznaka"
+
+msgid "Names in English"
+msgstr "Nazivi na engleskom"
+
+msgid "Nautical Twilight"
+msgstr "Nautički sumrak"
+
+msgid "Neb. bg"
+msgstr "Magl. bg"
+
+msgid "Nebula background"
+msgstr "Pozadina nebule"
+
+msgid "Nebulae"
+msgstr "Magline"
+
+msgid "New list"
+msgstr "Nova lista"
+
+msgid "Next"
+msgstr "Sljedeće"
+
+msgid "Night"
+msgstr "Noć"
+
+msgid "No city matches that."
+msgstr "Nema grada koji se poklapa sa tim."
+
+msgid "No eclipses found. Pick a range and calculate."
+msgstr "Nema pronađenih pomračenja. Odaberi raspon i izračunaj."
+
+msgid "No fresh fix - the receiver may have no sky. Try again outdoors, or set the place another way."
+msgstr "Nema svježe korekcije - prijemnik možda nema neba. Pokušaj ponovno vani, ili postavi mjesto na drugi način."
+
+msgid "No surveys were found. The lists are downloaded, so this needs a connection."
+msgstr "Nema pronađenih anketa. Liste se preuzimaju, pa ovo trebá vezu."
+
+msgid "None downloaded yet"
+msgstr "Ništa preuzeto do sada"
+
+msgid "Normal"
+msgstr "Normalno"
+
+msgid "Not observable eclipse"
+msgstr "Neposmatrana pomrčina"
+
+msgid "Note: Local circumstances for eclipses during thousands of years in the past and future are not reliable due to uncertainty in ΔT which is caused by fluctuations in Earth's rotation."
+msgstr "Napomena: Lokalne okolnosti za pomrčine tokom hiljade godina u prošlosti i budućnosti nisu pouzdane zbog neizvesnosti u ΔT što je uzrokovano fluktuacijama rotacije Zemlje."
+
+msgid "Note: artificial satellites and unnamed stars are excluded from calculation"
+msgstr "Napomena: Veštački sateliti i neimenovane zvijezde su isključene iz proračuna"
+
+msgid "Note: this tool doesn't apply the refraction correction for coordinates. Horizontal coordinates stop the clock, or the sky would turn away from the point while you arrive at it."
+msgstr "Napomena: ovaj alat ne primjenjuje korekciju refrakcije na koordinate. Vodoravne koordinate zaustavljaju sat, ili bi se nebo okrenulo od točke dok stigneš do nje."
+
+msgid "Notes: The quantity gamma is the minimum distance from the axis of lunar shadow cone to the center of Earth, in units of Earth’s equatorial radius. This distance is positive or negative, depending on whether the axis of the shadow cone passes north or south of the Earth's center. Path of solar eclipses during thousands of years in the past and future are not reliable due to uncertainty in ΔT which is caused by fluctuations in Earth's rotation."
+msgstr "Napomena: Količina gamma je minimalna udaljenost od ose mjesečnog sjenovitog stošca do centra Zemlje, u jedinicama ekvatorijalni radijusa Zemlje. Ova udaljenost je pozitivna ili negativna, zavisno od toga da li os sjenovitog stošca prolazi sjeverno ili južno od centra Zemlje. Putanja solarnih pomrčina tokom hiljade godina u prošlosti i budućnosti nije pouzdana zbog neizvesnosti u ΔT što je uzrokovano fluktuacijama rotacije Zemlje."
+
+msgid "Notes: The quantity gamma is the minimum distance from the center of the Moon to the axis of Earth’s umbral shadow cone, in units of Earth’s equatorial radius. This distance is positive or negative, depending on whether the Moon passes north or south of the shadow cone axis. Local circumstances for eclipses during thousands of years in the past and future are not reliable due to uncertainty in ΔT which is caused by fluctuations in Earth's rotation."
+msgstr "Napomena: Količina gamma je minimalna udaljenost od centra Mjeseca do ose Zemljinog sjenovitog stošca, u jedinicama ekvatorijalni radijusa Zemlje. Ova udaljenost je pozitivna ili negativna, zavisno od toga da li Mjesec prolazi sjeverno ili južno od ose sjenovitog stošca. Lokalne okolnosti za pomrčine tokom hiljade godina u prošlosti i budućnosti nisu pouzdane zbog neizvesnosti u ΔT što je uzrokovano fluktuacijama rotacije Zemlje."
+
+msgid "Notes: Time in parentheses means the contact is invisible at current location. Transit times during thousands of years in the past and future are not reliable due to uncertainty in ΔT which is caused by fluctuations in Earth's rotation."
+msgstr "Napomena: Vrijeme u zagradama znači da je kontakt nevidljiv na trenutnoj lokaciji. Vremenske vrednosti tranzita tokom hiljade godina u prošlosti i budućnosti nisu pouzdane zbog neizvesnosti u ΔT što je uzrokovano fluktuacijama rotacije Zemlje."
+
+msgid "Nothing computed yet, or nothing in this category is up."
+msgstr "Ništa izračunato do sada, ili ništa u ovoj kategoriji nije gore."
+
+msgid "Nothing computed yet."
+msgstr "Ništa izračunato do sada."
+
+msgid "Nothing found for “%s”."
+msgstr "Ništa nije nađeno za \"%s\"."
+
+msgid "Nothing in this list matches."
+msgstr "Ništa u ovoj listi se ne poklapa."
+
+msgid "Nothing in this list yet. Pick something out of the sky and tap the star on its card to keep it here."
+msgstr "Ništa u ovoj listi do sada. Odaberi nešto sa neba i dotakni zvijezdu na njegovoj kartici da je zadržiš ovdje."
+
+msgid "Nothing is selected. Pick an object in the sky first."
+msgstr "Ništa nije odabrano. Prvo odaberi objekat na nebu."
+
+msgid "Nothing matches."
+msgstr "Ništa se ne poklapa."
+
+msgid "Nothing selected"
+msgstr "Ništa odabrano"
+
+msgid "Nothing to plot."
+msgstr "Ništa za crtanje."
+
+msgid "Nothing to show."
+msgstr "Ništa za prikazivanje."
+
+msgid "Now"
+msgstr "Sada"
+
+msgid "N× above"
+msgstr "N× gore"
+
+msgid "O./C. longitude"
+msgstr "Ob./Civ. dužina"
+
+msgid "OBJECT"
+msgstr "OBJEKAT"
+
+msgid "OBJECTS"
+msgstr "OBJEKTI"
+
+msgid "Objects which are up"
+msgstr "Objekti koji su gore"
+
+msgid "Observable duration"
+msgstr "Vidljivo trajanje"
+
+msgid "Observing list"
+msgstr "Lista promatranja"
+
+msgid "Observing list highlight"
+msgstr "Isticanje liste promatranja"
+
+msgid "Observing lists"
+msgstr "Liste promatranja"
+
+msgid "Occultation"
+msgstr "Okultacija"
+
+msgid "On the sky"
+msgstr "Na nebu"
+
+msgid "One color"
+msgstr "Jedna boja"
+
+msgid "One color for all orbits"
+msgstr "Jedna boja za sve orbite"
+
+msgid "Only for N latest selected objects"
+msgstr "Samo za N zadnjih odabranih objekata"
+
+msgid "Only for Solar elevation"
+msgstr "Samo za solarnu elevaciju"
+
+msgid "Only list"
+msgstr "Samo lista"
+
+msgid "Only one at a time"
+msgstr "Samo jedan odjednom"
+
+msgid "Only orbit for selected object…"
+msgstr "Samo orbita za odabranog objekta…"
+
+msgid "Only orbits of major planets…"
+msgstr "Samo orbite velikih planeta…"
+
+msgid "Oort cloud objects"
+msgstr "Objekti Oortovog oblaka"
+
+msgid "Opac."
+msgstr "Neprozir."
+
+msgid "Opacity"
+msgstr "Neprozirnost"
+
+msgid "Open date and time"
+msgstr "Otvori datum i vrijeme"
+
+msgid "Open location"
+msgstr "Otvori lokaciju"
+
+msgid "Open star clusters"
+msgstr "Otvoreni zvjezdani skupovi"
+
+msgid "Opens the JUPOS project in a browser"
+msgstr "Otvara projekt JUPOS u pregledniku"
+
+msgid "Opposition of"
+msgstr "Opozicija"
+
+msgid "Oppositions"
+msgstr "Opozicije"
+
+msgid "Orbit colors"
+msgstr "Boje orbita"
+
+msgid "Orbital periods ratio"
+msgstr "Odnos orbitalnih perioda"
+
+msgid "Orbital velocity"
+msgstr "Orbitalna brzina"
+
+msgid "Orbits"
+msgstr "Orbite"
+
+msgid "Orbits of Oort cloud objects"
+msgstr "Orbite Oort oblaka objekata"
+
+msgid "Orbits of comets"
+msgstr "Orbite kometa"
+
+msgid "Orbits of cubewanos"
+msgstr "Orbite kubevana"
+
+msgid "Orbits of dwarf planets"
+msgstr "Orbite patuljastih planeta"
+
+msgid "Orbits of interstellar objects"
+msgstr "Orbite međuzvijednih objekata"
+
+msgid "Orbits of major planets"
+msgstr "Orbite velikih planeta"
+
+msgid "Orbits of minor planets"
+msgstr "Orbite malih planeta"
+
+msgid "Orbits of moons"
+msgstr "Orbite mjeseci"
+
+msgid "Orbits of plutinos"
+msgstr "Orbite plutina"
+
+msgid "Orbits of scattered disk objects"
+msgstr "Orbite rasute disk objekata"
+
+msgid "Orbits of sednoids"
+msgstr "Orbite sednida"
+
+msgid "Otherwise every move adopts the zone of the new place."
+msgstr "Inače svaki potez usvaja zonu novog mjesta."
+
+msgid "Outline craters"
+msgstr "Skiciraj kratore"
+
+msgid "Pan the sky"
+msgstr "Pomjeri nebo"
+
+msgid "Partial eclipse begins"
+msgstr "Parcijalna pomračenja počinje"
+
+msgid "Partial eclipse ends"
+msgstr "Parcijalna pomračenja završava"
+
+msgid "Partitions"
+msgstr "Particije"
+
+msgid "Partitions thickness"
+msgstr "Debljina particija"
+
+msgid "Path width"
+msgstr "Širina putanje"
+
+msgid "Pause"
+msgstr "Pauziraj"
+
+msgid "Paused - start"
+msgstr "Pauziran - počni"
+
+msgid "Penumbral magnitude"
+msgstr "Penumbralna magnituda"
+
+msgid "Perfect visibility conditions for current location"
+msgstr "Savršeni uslovi vidljivosti za trenutnu lokaciju"
+
+msgid "Perihelion and aphelion"
+msgstr "Perihelion i afelion"
+
+msgid "Phase"
+msgstr "Faza"
+
+msgid "Phase angle"
+msgstr "Fazni ugao"
+
+msgid "Phenomena"
+msgstr "Fenomeni"
+
+msgid "Pick two different bodies to see how their distance changes."
+msgstr "Odaberi dva različita tijela da vidiš kako se njihova udaljenost mijenja."
+
+msgid "Pinch"
+msgstr "Stisni"
+
+msgid "Planet"
+msgstr "Planeta"
+
+msgid "Planet and time zone"
+msgstr "Planeta i vremenska zona"
+
+msgid "Planet markers"
+msgstr "Oznake planeta"
+
+msgid "Planetary nebulae (<%1 mag)"
+msgstr "Planetarne magline (<%1 mag)"
+
+msgid "Planetary nomenclature"
+msgstr "Planetarna nomenklatura"
+
+msgid "Planetary transits"
+msgstr "Planetarni tranziti"
+
+msgid "Planets"
+msgstr "Planete"
+
+msgid "Planets and Sun"
+msgstr "Planete i Sunce"
+
+msgid "Planets magnitude algorithm"
+msgstr "Algoritam magnitudo planeta"
+
+msgid "Please select object to plot its 'Monthly Elevation' graph for the current year at selected time."
+msgstr "Molim odaberite objekat da nacrtam njegov grafikon 'Mjesečne elevacije' za trenutnu godinu u odabranom vremenu."
+
+msgid "Please select object to plot its graph 'Altitude vs. Time'."
+msgstr "Molim odaberite objekat da nacrtam njegov grafikon 'Visina vs. Vrijeme'."
+
+msgid "Please select object to plot its graph 'Azimuth vs. Time'."
+msgstr "Molim odaberite objekat da nacrtam njegov grafikon 'Azimut vs. Vrijeme'."
+
+msgid "Plutinos"
+msgstr "Plutini"
+
+msgid "Pluto, Ceres, Pallas, Juno and Vesta"
+msgstr "Pluton, Ceres, Pallas, Juno i Vesta"
+
+msgid "Point size"
+msgstr "Veličina točke"
+
+msgid "Pointing"
+msgstr "Usmjeravanje"
+
+msgid "Polar distance"
+msgstr "Polarna udaljenost"
+
+msgid "Polar distance, not declination"
+msgstr "Polarna udaljenost, ne deklinacija"
+
+msgid "Poles and points"
+msgstr "Polovi i točke"
+
+msgid "Polygon colour"
+msgstr "Boja poligona"
+
+msgid "Position angle"
+msgstr "Kut pozicije"
+
+msgid "Positive values only"
+msgstr "Samo pozitivne vrijednosti"
+
+msgid "Precession circles"
+msgstr "Krugovi precesije"
+
+msgid "Previous"
+msgstr "Prethodna"
+
+msgid "Prime Vertical"
+msgstr "Vrhunski vertikali"
+
+msgid "Program Language"
+msgstr "Jezik programa"
+
+msgid "Projected Solar Equator"
+msgstr "Projicirani Sunčev ekvator"
+
+msgid "Pronounce"
+msgstr "Izgovori"
+
+msgid "Quadrature circle"
+msgstr "Kvadraturni krug"
+
+msgid "Query SIMBAD about selected object"
+msgstr "Pretraži SIMBAD za odabrani objekat"
+
+msgid "Query options"
+msgstr "Opcije pretrage"
+
+msgid "Quit"
+msgstr "Izađi"
+
+msgid "Quit button"
+msgstr "Dugme za izlaz"
+
+msgid "Range"
+msgstr "Raspon"
+
+msgid "Ray helpers"
+msgstr "Pomoćne zrake"
+
+msgid "Reading…"
+msgstr "Čitam…"
+
+msgid "Real time speed"
+msgstr "Brzina u stvarnom vremenu"
+
+msgid "Recent Searches"
+msgstr "Nedavne pretrage"
+
+msgid "Rectangular FOV"
+msgstr "Pravokutno polje pregleda"
+
+msgid "Refraction, extinction, sky brightness"
+msgstr "Refrakcija, gašenje, sjaj neba"
+
+msgid "Regions of the sky"
+msgstr "Oblasti neba"
+
+msgid "Relative scale"
+msgstr "Relativna skala"
+
+msgid "Remove %s"
+msgstr "Ukloni %s"
+
+msgid "Remove from observing list"
+msgstr "Ukloni sa liste promatranja"
+
+msgid "Rename"
+msgstr "Preimenuj"
+
+msgid "Reset"
+msgstr "Vrati"
+
+msgid "Reset all"
+msgstr "Vrati sve"
+
+msgid "Restarting…"
+msgstr "Ponovno pokrećem…"
+
+msgid "Right ascension"
+msgstr "Rektascenzija"
+
+msgid "Rise"
+msgstr "Izlazak"
+
+msgid "Rises"
+msgstr "Izlazi"
+
+msgid "Rotation"
+msgstr "Rotacija"
+
+msgid "Running"
+msgstr "U toku"
+
+msgid "SIMBAD did not answer."
+msgstr "SIMBAD nije odgovorio."
+
+msgid "SIMBAD is switched off in the search options."
+msgstr "SIMBAD je isključen u opcijama pretrage."
+
+msgid "SIMBAD is switched off. Turn it on under Options to look objects up online."
+msgstr "SIMBAD je isključen. Uključi ga u Opcije da bi pogledao objekte na mreži."
+
+msgid "Saturation"
+msgstr "Zasićenost"
+
+msgid "Save"
+msgstr "Spremi"
+
+msgid "Save either the current FOV and direction of view or all the current options for use at next startup. Restoring default settings requires a restart of the app."
+msgstr "Spremi ili trenutno polje pregleda i smjer pregleda ili sve trenutne opcije za upotrebu pri sljedećem pokretu. Vraćanje početnih postavki zahtijeva ponovno pokretanje programa."
+
+msgid "Save to observing list"
+msgstr "Spremi na listu promatranja"
+
+msgid "Save view"
+msgstr "Spremi pogled"
+
+msgid "Scale"
+msgstr "Skala"
+
+msgid "Scale factor"
+msgstr "Faktor skaliranja"
+
+msgid "Scale marker and label visibility by surface brightness"
+msgstr "Skalira vidljivost markera i natpisa prema sjaju površine"
+
+msgid "Scales smoothly between 1× at the minimum field of view and the factor above at the maximum"
+msgstr "Glatko skalira između 1× na minimalnom polju pregleda i faktora gore na maksimalnom"
+
+msgid "Scattered disc objects"
+msgstr "Objekti rasutog diska"
+
+msgid "Screen label"
+msgstr "Natpis na ekranu"
+
+msgid "Search in list"
+msgstr "Pretraži u listi"
+
+msgid "Search options"
+msgstr "Opcije pretrage"
+
+msgid "Seasons"
+msgstr "Godišnja doba"
+
+msgid "Second body"
+msgstr "Drugo tijelo"
+
+msgid "Second celestial body"
+msgstr "Drugo nebesko tijelo"
+
+msgid "Second graph"
+msgstr "Drugi graf"
+
+msgid "Second object"
+msgstr "Drugi objekat"
+
+msgid "Secondary intercardinal points"
+msgstr "Sekundarne međukardinalane točke"
+
+msgid "Sednoids"
+msgstr "Sednoidi"
+
+msgid "See the sky through the ground"
+msgstr "Vidi nebo kroz tlo"
+
+msgid "Seen now"
+msgstr "Vidljivo sada"
+
+msgid "Select an object first: this asks SIMBAD what it holds around it."
+msgstr "Prvo odaberite objekat: ovo pita SIMBAD šta drži oko njega."
+
+msgid "Select it and show its card"
+msgstr "Odaberi i prikaži njegovu karticu"
+
+msgid "Select something in the sky first — this page works on the selection."
+msgstr "Prvo odaberi nešto na nebu — ova stranica radi sa odabirom."
+
+msgid "Selected object"
+msgstr "Odabrani objekat"
+
+msgid "Separate colors for orbits by object type"
+msgstr "Odvojene boje za orbite prema vrsti objekta"
+
+msgid "Separate colors for orbits of major planets"
+msgstr "Odvojene boje za orbite glavnih planeta"
+
+msgid "Separation"
+msgstr "Separacija"
+
+msgid "September equinox"
+msgstr "Jesenja ravnodnevica"
+
+msgid "Set"
+msgstr "Postavi"
+
+msgid "Set the clock to %s"
+msgstr "Postavi sat na %s"
+
+msgid "Set the place"
+msgstr "Postavi lokaciju"
+
+msgid "Set to now"
+msgstr "Postavi na sada"
+
+msgid "Sets"
+msgstr "Skupovi"
+
+msgid "Shadow map for non-convex bodies. May coarsen the penumbra on some objects"
+msgstr "Mapa sjene za nekonveksna tijela. Može grubo učiniti polutjenu na nekim objektima"
+
+msgid "Shadow transit"
+msgstr "Tranzit sjenke"
+
+msgid "Shooting stars"
+msgstr "Padavice"
+
+msgid "Short notation for units of surface brightness"
+msgstr "Kratka notacija za jedinice sjaja površine"
+
+msgid "Short steps over a long duration are slow."
+msgstr "Kratki koraci tokom duge trajanja su spori."
+
+msgid "Show"
+msgstr "Prikaži"
+
+msgid "Show FOV center marker when position is search"
+msgstr "Prikaži marker centra polja pregleda kada je pozicija pretraživanje"
+
+msgid "Show additional buttons"
+msgstr "Prikaži dodatna dugmad"
+
+msgid "Show additional star names"
+msgstr "Prikaži dodatne nazive zvijezda"
+
+msgid "Show all information"
+msgstr "Prikaži sve informacije"
+
+msgid "Show atmospheric extinction"
+msgstr "Prikaži atmosfersko gašenje"
+
+msgid "Show boundaries of constellations"
+msgstr "Prikaži granice sazviježđa"
+
+msgid "Show button in addition to keyboard shortcut?"
+msgstr "Prikaži dugme osim prečice sa tastature?"
+
+msgid "Show controls"
+msgstr "Prikaži kontrole"
+
+msgid "Show each body where it was when the light left it (recommended)"
+msgstr "Prikaži svako tijelo gdje je bilo kada je svjetlo od njega otišlo (preporučeno)"
+
+msgid "Show frames per second beside the field of view"
+msgstr "Prikaži sličica po sekundi pored polja pregleda"
+
+msgid "Show hints and labels for planetary features"
+msgstr "Prikaži savjete i natpise za planetarne karakteristike"
+
+msgid "Show illumination"
+msgstr "Prikaži osvjetljenje"
+
+msgid "Show in sky"
+msgstr "Prikaži na nebu"
+
+msgid "Show less"
+msgstr "Prikaži manje"
+
+msgid "Show lunar stations (if defined)"
+msgstr "Prikaži mjesečeve stanice (ako su definirane)"
+
+msgid "Show more"
+msgstr "Prikaži više"
+
+msgid "Show objects which are up"
+msgstr "Prikaži objekte koji su gore"
+
+msgid "Show only named DSO"
+msgstr "Prikaži samo imenovane DSO"
+
+msgid "Show only objects between the two sizes"
+msgstr "Prikaži samo objekte između dvije veličine"
+
+msgid "Show only the kinds ticked below"
+msgstr "Prikaži samo vrste zaokružene dolje"
+
+msgid "Show or hide the two rails of controls"
+msgstr "Prikaži ili sakrij dvije tračnice kontrola"
+
+msgid "Show orbit even if object is off screen"
+msgstr "Prikaži orbitu čak i ako je objekat van ekrana"
+
+msgid "Show orbit only for selected SSO"
+msgstr "Prikaži orbitu samo za odabrani SSO"
+
+msgid "Show orbits"
+msgstr "Prikaži orbite"
+
+msgid "Show orbits of major planets"
+msgstr "Prikaži orbite glavnih planeta"
+
+msgid "Show planetary nomenclature"
+msgstr "Prikaži planetarnu nomenklaturu"
+
+msgid "Show special nomenclature points only"
+msgstr "Prikaži samo posebne točke nomenklature"
+
+msgid "Show surveys"
+msgstr "Prikaži preglede"
+
+msgid "Show this survey"
+msgstr "Prikaži ovaj pregled"
+
+msgid "Show tiny circles for minor bodies regardless of magnitude"
+msgstr "Prikaži male krugove za manja tijela bez obzira na magnitudo"
+
+msgid "Show trails"
+msgstr "Prikaži tragove"
+
+msgid "Show zodiac (if defined)"
+msgstr "Prikaži horoskop (ako je definiran)"
+
+msgid "Simbad Lookup Error: %s"
+msgstr "Simbad greška pretrage: %s"
+
+msgid "Simbad Lookup: querying"
+msgstr "Simbad pretraga: upita se"
+
+msgid "Simulate self-shadowing"
+msgstr "Simuliraj sjenu od sebe"
+
+msgid "Simulation"
+msgstr "Simulacija"
+
+msgid "Sky Culture"
+msgstr "Kultura neba"
+
+msgid "Sky and viewing options"
+msgstr "Opcije neba i pregleda"
+
+msgid "Sky culture"
+msgstr "Kultura neba"
+
+msgid "Slow down"
+msgstr "Uspori"
+
+msgid "Smallest, ′"
+msgstr "Najmanja, ′"
+
+msgid "Solar altitude for Twilight Finder"
+msgstr "Sunčeva nadmorska visina za Twilight Finder"
+
+msgid "Solar elongation"
+msgstr "Sunčeva elongacija"
+
+msgid "Solar system objects"
+msgstr "Objekti Sunčevog sistema"
+
+msgid "Solar system objects: comets"
+msgstr "Objekti Sunčevog sistema: komete"
+
+msgid "Solar system objects: minor bodies"
+msgstr "Objekti Sunčevog sistema: manji objekti"
+
+msgid "Solar system objects: planets"
+msgstr "Objekti Sunčevog sistema: planete"
+
+msgid "Solstices (J2000)"
+msgstr "Solsticiji (J2000)"
+
+msgid "Solstices (of date)"
+msgstr "Solsticiji (datuma)"
+
+msgid "Some objects may be found after activation respective plug-ins"
+msgstr "Neki objekti mogu biti nađeni nakon aktivacije odgovarajućih dodataka"
+
+msgid "Special points only"
+msgstr "Samo posebne točke"
+
+msgid "Spectral Class"
+msgstr "Spektralna klasa"
+
+msgid "Speed up"
+msgstr "Ubrzi"
+
+msgid "Spiky stars"
+msgstr "Zvijezde sa iglama"
+
+msgid "Stand where the landscape was shot, on the planet it names"
+msgstr "Stani gdje je pejzaž fotografiran, na planeti koju nosi"
+
+msgid "Star, planet, catalogue number…"
+msgstr "Zvijezda, planeta, broj u katalogu…"
+
+msgid "Started"
+msgstr "Pokrenuto"
+
+msgid "Startup FOV"
+msgstr "Početno polje pregleda"
+
+msgid "Startup direction of view"
+msgstr "Početni smjer pregleda"
+
+msgid "Stationary (begin prograde motion)"
+msgstr "Stacionarno (počni progradnu kretnju)"
+
+msgid "Stationary (begin retrograde motion)"
+msgstr "Stacionarno (počni retrogradnu kretnju)"
+
+msgid "Stellarium's user guide covers the astronomy this app shares with it: stellarium.org/documentation"
+msgstr "Priručnik korisnika programa Stellarium pokriva astronomiju koju ova aplikacija dijeli sa njim: stellarium.org/documentation"
+
+msgid "Step, hours"
+msgstr "Korak, sati"
+
+msgid "Stop clock when starting"
+msgstr "Zaustavi sat kada počinje"
+
+msgid "Strasbourg astronomical Data Center (France)"
+msgstr "Strasbourg astronomski centar podataka (Francuska)"
+
+msgid "Style"
+msgstr "Stil"
+
+msgid "Sun altitude"
+msgstr "Sunčeva nadmorska visina"
+
+msgid "Sun at"
+msgstr "Sunce u"
+
+msgid "Sun's altitude"
+msgstr "Sunčeva nadmorska visina"
+
+msgid "Sun's corona"
+msgstr "Sunčeva kruna"
+
+msgid "Sun's glare"
+msgstr "Sunčevo blještanje"
+
+msgid "Sun, planets and moons of first body and observer's planet"
+msgstr "Sunce, planete i mjeseci prvog tela i posmatračeve planete"
+
+msgid "Sun, planets and moons of observer's planet"
+msgstr "Sunce, planete i mjeseci posmatračeve planete"
+
+msgid "Sunlight scattered by interplanetary dust"
+msgstr "Sunčeva svjetlost raspršena međuplanetarnom prašinom"
+
+msgid "Supergalactic"
+msgstr "Supergalaktička"
+
+msgid "Supergalactic equator"
+msgstr "Supergalaktički ekvator"
+
+msgid "Supergalactic grid"
+msgstr "Supergalaktička mreža"
+
+msgid "Supergalactic poles"
+msgstr "Supergalaktički polovi"
+
+msgid "Superior conjunction"
+msgstr "Gornja konjunkcija"
+
+msgid "Supernova candidates"
+msgstr "Kandidati za supernove"
+
+msgid "Supernova remnant candidates"
+msgstr "Kandidati za ostatke supernove"
+
+msgid "Supernova remnants"
+msgstr "Ostaci supernove"
+
+msgid "Surveys"
+msgstr "Pregledi"
+
+msgid "Switch this off to see the trails for all Solar system bodies"
+msgstr "Isključi ovo da vidiš tragove za sva tijela Sunčevog sistema"
+
+msgid "Symbiotic stars"
+msgstr "Simbiotske zvijezde"
+
+msgid "Synodic period"
+msgstr "Sinodski period"
+
+msgid "System date at"
+msgstr "Sistemski datum u"
+
+msgid "Table"
+msgstr "Tablica"
+
+msgid "Tabular output for coordinates and time"
+msgstr "Tabelarni izlaz za koordinate i vrijeme"
+
+msgid "Tap a colour to change it. Changes show on the sky at once and are kept."
+msgstr "Dodirni boju da je promijeniš. Promjene se pokazuju na nebu odmah i čuvaju se."
+
+msgid "Tap again to confirm"
+msgstr "Dodirni opet da potvurdiš"
+
+msgid "Tap an object"
+msgstr "Dodirni objekat"
+
+msgid "Tap the chart to read a value."
+msgstr "Dodirni graf da pročitaš vrijednost."
+
+msgid "Tap the clock"
+msgstr "Dodirni sat"
+
+msgid "Tap the gear"
+msgstr "Dodirni zupčanik"
+
+msgid "Tap the map to stand there."
+msgstr "Dodirni mapu da stanis tamo."
+
+msgid "Tap the place"
+msgstr "Dodirni lokaciju"
+
+msgid "Tap to confirm"
+msgstr "Dodirni da potvurdiš"
+
+msgid "Tertiary intercardinal points"
+msgstr "Tercijarne međukardinalane točke"
+
+msgid "Text angle"
+msgstr "Kut teksta"
+
+msgid "The Great Red Spot drifts in System II longitude. Enter a recent measurement and the drift rate to carry it forward from."
+msgstr "Veliki crveni mrljica drifa u sistemu II dužine. Unesi nedavno mjerenje i stopu drifta da ga nesis dalje."
+
+msgid "The algorithm is based on visual observations 1877-1891 by G. Müller and was still republished in the Explanatory Supplement to the Astronomical Ephemeris (1961)."
+msgstr "Algoritam je zasnovan na vizuelnim posmatranjima 1877-1891 od strane G. Müllera i još je ponovno objavljen u objašnjujućem dopunskom materijalu za Astronomsku efemeridu (1961)."
+
+msgid "The algorithm was published by A. Mallama & J. L. Hilton: Computing apparent planetary magnitudes for the Astronomical Almanac. Astronomy&Computing 25 (2018) 10-24."
+msgstr "Algoritam je objavljen od strane A. Mallame i J. L. Hiltona: Računanje vidljive magnitudo planeta za Astronomski almanah. Astronomy&Computing 25 (2018) 10-24."
+
+msgid "The algorithm was published in the 2nd edition of the Explanatory Supplement to the Astronomical Almanac (1992)."
+msgstr "Algoritam je objavljen u drugom izdanju objašnjujućeg dopunskog materijala Astronomskog almanaha (1992)."
+
+msgid "The algorithm was published in the 3rd edition of the Explanatory Supplement to the Astronomical Almanac (2013)."
+msgstr "Algoritam je objavljen u trećem izdanju objašnjujućeg dopunskog materijala Astronomskog almanaha (2013)."
+
+msgid "The algorithm was used in the Astronomical Almanac (1984 and later) and gives V (instrumental) magnitudes (allegedly from D.L. Harris)."
+msgstr "Algoritam je korišten u Astronomskom almanacu (1984 i kasnije) i daje V (instrumentalne) magnitudo (navodno od D.L. Harrisa)."
+
+msgid "The classical cepheids"
+msgstr "Klasični cefeidi"
+
+msgid "The colour each kind of object is drawn in"
+msgstr "Boja u kojoj je svaka vrsta objekta nacrtana"
+
+msgid "The engine did not answer with any colours."
+msgstr "Motor nije odgovorio sa nijednom bojom."
+
+msgid "The galactic band"
+msgstr "Galaktička pruga"
+
+msgid "The greatest eclipse is invisible in current location"
+msgstr "Najveća pomrčina je nevidljiva na trenutnoj lokaciji"
+
+msgid "The horizon outline instead of the panorama"
+msgstr "Horizont umjesto panorame"
+
+msgid "The path each body has taken across the sky"
+msgstr "Put koji je svako tijelo prešlo preko neba"
+
+msgid "The shortest label the culture defines"
+msgstr "Najkraći natpis koji kultura definiše"
+
+msgid "Thickness"
+msgstr "Debljina"
+
+msgid "This copy ships no scripts."
+msgstr "Ova kopija ne dostavlja nikakve skripte."
+
+msgid "This device has no location service."
+msgstr "Ovaj uređaj nema usluge lokacije."
+
+msgid "This part of the engine exposes no settings on this build."
+msgstr "Ovaj dio motora ne otkriva nikakve postavke na ovoj verziji."
+
+msgid "This tool works on Earth only!"
+msgstr "Ovaj alat radi samo na Zemlji!"
+
+msgid "This tool works on Earth only. Short steps over a long duration are slow."
+msgstr "Ovaj alat radi samo na Zemlji. Kratki koraci tokom duge trajanja su spori."
+
+msgid "This year"
+msgstr "Ove godine"
+
+msgid "Time correction"
+msgstr "Ispravka vremena"
+
+msgid "Time of day"
+msgstr "Vrijeme dana"
+
+msgid "Time span"
+msgstr "Vremenski raspon"
+
+msgid "Time step"
+msgstr "Vremenski korak"
+
+msgid "To the next (mths)"
+msgstr "Do slijedećeg (mjeseca)"
+
+msgid "To the next, months"
+msgstr "Do slijedećeg, mjeseci"
+
+msgid "Today"
+msgstr "Danas"
+
+msgid "Toggle display of nebula images."
+msgstr "Preuključi prikaz slika maglina."
+
+msgid "Toggle display of the button for the Digitized Sky Survey."
+msgstr "Preuključi prikaz dugmeta za Digitizovanu nebesku anketu."
+
+msgid "Toggle display of the button for the HiPS Surveys. Select a survey in the View settings."
+msgstr "Preuključi prikaz dugmeta za HiPS ankete. Odaberi anketu u postavkama pregleda."
+
+msgid "Toggle drawing Sun's glare"
+msgstr "Preuključi crtanje Sunčevog blještanja"
+
+msgid "Toggle drawing halo around the Moon"
+msgstr "Preuključi crtanje sjaja oko Mjeseca"
+
+msgid "Toggle permanent drawing of Sun's corona when atmosphere is disabled"
+msgstr "Preuključi trajno crtanje Sunčeve krune kada je atmosfera onemogućena"
+
+msgid "Toggle the usage of background under GUI buttons"
+msgstr "Preuključi upotrebu pozadine ispod dugmadi GUI-ja"
+
+msgid "Total eclipse begins"
+msgstr "Totalna pomrčina počinje"
+
+msgid "Total eclipse ends"
+msgstr "Totalna pomrčina se završava"
+
+msgid "Trails"
+msgstr "Tragovi"
+
+msgid "Translated"
+msgstr "Prevedeno"
+
+msgid "Transparency"
+msgstr "Prozirnost"
+
+msgid "Twilight"
+msgstr "Sumrak"
+
+msgid "Twilight and rise and set times are worked out for an observer on Earth. Move back to Earth to see them."
+msgstr "Sumerak i vrijeme izlaska i zalaska se računaju za promatrača na Zemlji. Vrati se na Zemlju da ih vidiš."
+
+msgid "Twinkle"
+msgstr "Trepet"
+
+msgid "Twinkle amount"
+msgstr "Količina trepeta"
+
+msgid "Twinkle even without atmosphere"
+msgstr "Trepet čak i bez atmosfere"
+
+msgid "Twinkle is caused by atmospheric turbulence; this shows it regardless"
+msgstr "Trepet je uzrokovan atmosferskom turbulencijom; ovo ga prikazuje bez obzira"
+
+msgid "Type a name, a Bayer letter or a catalogue number - Vega, α Lyr, M 31, NGC 224."
+msgstr "Upiši naziv, Bayerovo slovo ili broj u katalogu - Vega, α Lyr, M 31, NGC 224."
+
+msgid "Types"
+msgstr "Vrste"
+
+msgid "Umbral magnitude"
+msgstr "Umbralna magnitudo"
+
+msgid "Unnamed star"
+msgstr "Neimenovana zvijezda"
+
+msgid "Up to mag."
+msgstr "Do mag."
+
+msgid "Use SIMBAD"
+msgstr "Koristi SIMBAD"
+
+msgid "Use additional names of DSO"
+msgstr "Koristi dodatne nazive DSO-ja"
+
+msgid "Use autofill only from the beginning of words"
+msgstr "Koristi automatsko popunjavanje samo od početka riječi"
+
+msgid "Use buttons background"
+msgstr "Koristi pozadinu dugmadi"
+
+msgid "Use common symbols for coordinate systems"
+msgstr "Koristi zajedničke simbole za koordinatne sisteme"
+
+msgid "Use custom time zone"
+msgstr "Koristi prilagođenu vremensku zonu"
+
+msgid "Use decimal degrees"
+msgstr "Koristi decimalne stepene"
+
+msgid "Use decimal degrees for coordinates"
+msgstr "Koristi decimalne stepene za koordinate"
+
+msgid "Use designations for screen labels"
+msgstr "Koristi oznake za naljepnice na ekranu"
+
+msgid "Use distance from North Celestial Pole, not declination from equator in equatorial coordinates"
+msgstr "Koristi udaljenost od Sjevernog nebeskog pola, a ne deklinaciju od ekvatora u ekvatorijanskim koordinatama"
+
+msgid "Use mag/arcsec^2 for surface brightness"
+msgstr "Koristi mag/arcsec^2 za površinsku osvjetljenost"
+
+msgid "Use more accurate 3D models (where available)"
+msgstr "Koristi precizniji 3D modele (gdje su dostupni)"
+
+msgid "Use my location"
+msgstr "Koristi moju lokaciju"
+
+msgid "Use on-line astronomical database SIMBAD"
+msgstr "Koristi mrežnu astronomsku bazu podataka SIMBAD"
+
+msgid "Use outlines for big deep-sky objects"
+msgstr "Koristi obrise za velike objekti dubokog neba"
+
+msgid "Use proportional hints"
+msgstr "Koristi proporcionalne savjete"
+
+msgid "Use sorting by string length"
+msgstr "Koristi sortiranje po dužini stringa"
+
+msgid "Use surface brightness"
+msgstr "Koristi osvjetljenje površine"
+
+msgid "Use the date now shown in the sky"
+msgstr "Koristi datum prikazan na nebu"
+
+msgid "Use the value in landscape.ini when it has one"
+msgstr "Koristi vrijednost iz landscape.ini kada je dostupna"
+
+msgid "Use the value stored for this location"
+msgstr "Koristi vrijednost pohranjenu za ovu lokaciju"
+
+msgid "Var. stars"
+msgstr "Promj. zvijezde"
+
+msgid "Version %s  ·  Qt %s"
+msgstr "Verzija %s  ·  Qt %s"
+
+msgid "Vertical viewport offset"
+msgstr "Vertikalni offset prigleda"
+
+msgid "View recent GRS measurements"
+msgstr "Pogledaj nedavna GRS mjerenja"
+
+msgid "Visibility"
+msgstr "Vidljivost"
+
+msgid "Visual magnitude based on phase angle and albedo."
+msgstr "Vizuelna magnituda zasnovana na kutu faze i albeda."
+
+msgid "Western quadrature"
+msgstr "Zapadna kvadratura"
+
+msgid "When a search result is chosen"
+msgstr "Kada se rezultat pretrage odabere"
+
+msgid "Where Jupiter's Great Red Spot was, and when"
+msgstr "Gdje je bio Jupiternov Veliki Crveni Spot, i kada"
+
+msgid "Width"
+msgstr "Širina"
+
+msgid "Working out the contact times…"
+msgstr "Izračunavam vremenske kontakte…"
+
+msgid "Year"
+msgstr "Godina"
+
+msgid "Zenith and Nadir"
+msgstr "Zenit i Nadir"
+
+msgid "Zodiac and lunar stations"
+msgstr "Horoskop i mjesečeve stanice"
+
+msgid "Zodiacal Light"
+msgstr "Zodijačko svjetlo"
+
+msgid "Zodiacal Light brightness"
+msgstr "Osvjetljenje Zodijačkog svjetla"
+
+msgid "Zoom in and out"
+msgstr "Uveličaj i umanji"
+
+msgid "after sunset"
+msgstr "nakon zalaska sunca"
+
+msgid "before sunrise"
+msgstr "prije izlaska sunca"
+
+msgid "bright suburban"
+msgstr "svijetlo predgrađe"
+
+msgid "east +"
+msgstr "istok +"
+
+msgid "engine ready, interface going live"
+msgstr "motor spreman, sučelje je aktivno"
+
+msgid "excellent dark sky"
+msgstr "odličan tamno nebo"
+
+msgid "from landscape, if given"
+msgstr "iz krajolika, ako je dat"
+
+msgid "inner city"
+msgstr "centar grada"
+
+msgid "max %s"
+msgstr "maks %s"
+
+msgid "mid %s"
+msgstr "sre %s"
+
+msgid "north +"
+msgstr "sjever +"
+
+msgid "rural/suburban"
+msgstr "seosko/prigradsko"
+
+msgid "sci. translit."
+msgstr "naučna transliteracija"
+
+msgid "select all"
+msgstr "odaberi sve"
+
+msgid "select none"
+msgstr "odaberi ništa"
+
+msgid "select preference"
+msgstr "odaberi preferencu"
+
+msgid "select standard"
+msgstr "odaberi standard"
+
+msgid "store preference"
+msgstr "spremi preferencu"
+
+msgid "suburban/urban"
+msgstr "prigradsko/urbano"
+
+msgid "truly dark"
+msgstr "potpuno tamno"
+
+msgid "unreadable snapshot"
+msgstr "neučitljiva snimka"
+
+msgid "with Solar Dates"
+msgstr "sa Sunčevim datumima"
+
+msgid "… and moons"
+msgstr "… i mjeseci"

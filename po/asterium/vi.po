@@ -1,0 +1,2422 @@
+# Asterium interface translation for vi.
+# Copyright (C) 2026 the Asterium authors
+# This file is distributed under the same licence as the Asterium package.
+#
+# MACHINE TRANSLATION, not reviewed by a speaker of this language.
+# Terminology follows upstream Stellarium's own vi catalogue, which was used
+# as a glossary, and every entry keeps the source's printf placeholders.
+# Corrections from a human translator are welcome and should simply replace these.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: asterium\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%d bodies"
+msgstr "%d thiên thể"
+
+msgid "%d object"
+msgstr "%d đối tượng"
+
+msgid "%d objects"
+msgstr "%d đối tượng"
+
+msgid "%s colour"
+msgstr "%s màu sắc"
+
+msgid "%s from %s, ±%.0f m"
+msgstr "%s từ %s, ±%.0f m"
+
+msgid "12-hour"
+msgstr "12 giờ"
+
+msgid "1× below"
+msgstr "1× dưới"
+
+msgid "24-hour"
+msgstr "24 giờ"
+
+msgid "A button to mark every object of the current observing list on the sky."
+msgstr "Nút để đánh dấu mọi đối tượng từ danh sách quan sát hiện tại trên bầu trời."
+
+msgid "A button to toggle ecliptic grid of date"
+msgstr "Nút chuyển đổi lưới hoàng đạo (của ngày)"
+
+msgid "A button to toggle equatorial J2000 grid"
+msgstr "Nút chuyển đổi lưới xích đạo (J2000)"
+
+msgid "A button to toggle galactic grid"
+msgstr "Nút chuyển đổi lưới Ngân hà"
+
+msgid "A polygonal model for some small moons, asteroids and comets instead of a sphere"
+msgstr "Mô hình đa giác cho một số vệ tinh nhỏ, tiểu hành tinh và sao chổi thay vì hình cầu"
+
+msgid "A touch-first planetarium forked from Stellarium, whose astronomy engine it uses unchanged. The interface is new; everything that draws the sky is upstream's work."
+msgstr "Một ứng dụng thiên văn dành cho cảm ứng được phân nhánh từ Stellarium, sử dụng công cụ thiên văn của nó không thay đổi. Giao diện là mới; tất cả những gì vẽ bầu trời là công việc của phiên bản gốc."
+
+msgid "Abbreviated names"
+msgstr "Tên viết tắt"
+
+msgid "About this sky culture"
+msgstr "Về nền văn hóa bầu trời này"
+
+msgid "Above altitude, °"
+msgstr "Trên độ cao, °"
+
+msgid "Absolute scale"
+msgstr "Thang đo tuyệt đối"
+
+msgid "Add %s"
+msgstr "Thêm %s"
+
+msgid "Additional information settings"
+msgstr "Cài đặt thông tin bổ sung"
+
+msgid "Adjust brightness to bright objects"
+msgstr "Điều chỉnh độ sáng cho các vật thể sáng"
+
+msgid "Algol-type eclipsing systems"
+msgstr "Hệ nhị nguyên kiểu Algol"
+
+msgid "Algorithm of ΔT"
+msgstr "Thuật toán của ΔT"
+
+msgid "All IDs"
+msgstr "Tất cả ID"
+
+msgid "All naked-eye planets"
+msgstr "Tất cả hành tinh nhìn thấy bằng mắt thường"
+
+msgid "All solar eclipses"
+msgstr "Tất cả nhật thực"
+
+msgid "Allow negative hour angles"
+msgstr "Cho phép góc giờ âm"
+
+msgid "Allow results outside the recommended time range of the orbital elements"
+msgstr "Cho phép kết quả ngoài khoảng thời gian được khuyến cáo của các phần tử quỹ đạo"
+
+msgid "Almanac"
+msgstr "Lịch thiên văn"
+
+msgid "Almanac: Sun, Moon and naked-eye planets"
+msgstr "Lịch thiên văn: Mặt Trời, Mặt Trăng và hành tinh nhìn bằng mắt thường"
+
+msgid "Also find"
+msgstr "Cũng tìm"
+
+msgid "Also plot"
+msgstr "Cũng vẽ"
+
+msgid "Also show moons of selected object or planets"
+msgstr "Cũng hiển thị các mặt trăng của đối tượng hoặc hành tinh đã chọn"
+
+msgid "Altitude limit, °"
+msgstr "Giới hạn độ cao, °"
+
+msgid "Altitude vs. Time"
+msgstr "Độ cao so với Thời gian"
+
+msgid "Amount"
+msgstr "Số lượng"
+
+msgid "An observer floats above its planet, so there is nowhere on it to stand. Choose another planet to come back down."
+msgstr "Người quan sát nổi trên hành tinh, vì vậy không có nơi nào để đứng. Chọn hành tinh khác để trở lại."
+
+msgid "And"
+msgstr "Và"
+
+msgid "And also"
+msgstr "Và cũng"
+
+msgid "And the next (years)"
+msgstr "Và cái tiếp theo (năm)"
+
+msgid "Ang. Size"
+msgstr "Kích thước góc"
+
+msgid "Angular distance"
+msgstr "Khoảng cách góc"
+
+msgid "Angular distance between the Moon and selected object"
+msgstr "Khoảng cách góc giữa Mặt Trăng và đối tượng được chọn"
+
+msgid "Angular distance from the Moon"
+msgstr "Khoảng cách góc từ Mặt Trăng"
+
+msgid "Angular distance from the Moon for second object"
+msgstr "Khoảng cách góc từ Mặt Trăng cho đối tượng thứ hai"
+
+msgid "Angular distance from the Sun"
+msgstr "Khoảng cách góc từ Mặt Trời"
+
+msgid "Angular distance from the Sun for second object"
+msgstr "Khoảng cách góc từ Mặt Trời cho đối tượng thứ hai"
+
+msgid "Angular size"
+msgstr "Kích thước góc"
+
+msgid "Annual drift"
+msgstr "Trôi dạt hàng năm"
+
+msgid "Aphelion"
+msgstr "Điểm viễn nhật"
+
+msgid "Appearance"
+msgstr "Ngoại hình"
+
+msgid "Apply time interval limits to list"
+msgstr "Áp dụng giới hạn khoảng thời gian cho danh sách"
+
+msgid "Art"
+msgstr "Tranh"
+
+msgid "Artificial satellites and unnamed stars are excluded from calculation."
+msgstr "Vệ tinh nhân tạo và các ngôi sao vô danh được loại trừ từ tính toán."
+
+msgid "Asking for permission…"
+msgstr "Đang yêu cầu quyền truy cập…"
+
+msgid "Asks SIMBAD what it holds around the object that is selected now, and prints the answer as it comes back."
+msgstr "Hỏi SIMBAD những gì nó chứa xung quanh đối tượng đang được chọn và in câu trả lời khi có."
+
+msgid "Ast. lines"
+msgstr "Đường sao"
+
+msgid "Ast. names"
+msgstr "Tên sao"
+
+msgid "Asterisms"
+msgstr "Nhóm sao"
+
+msgid "Asterisms font size"
+msgstr "Kích thước phông chữ nhóm sao"
+
+msgid "Astronomical Almanac (1984)"
+msgstr "Lịch thiên văn (1984)"
+
+msgid "Astronomical Almanac (default) enlarges by 2%; Danjon (1951) differs slightly"
+msgstr "Lịch Thiên Văn (mặc định) phóng to 2%; Danjon (1951) khác một chút"
+
+msgid "Astronomical Twilight"
+msgstr "Chtwilight Thiên văn"
+
+msgid "Astronomical calculations"
+msgstr "Các tính toán thiên văn học"
+
+msgid "Astronomical night"
+msgstr "Đêm Thiên văn"
+
+msgid "At"
+msgstr "Tại"
+
+msgid "Atmosph."
+msgstr "Khí quyển"
+
+msgid "Atmosphere visualization"
+msgstr "Trực quan hóa bầu khí quyển"
+
+msgid "Automatic closing dialog"
+msgstr "Tự động đóng hộp thoại"
+
+msgid "Automatic transparency"
+msgstr "Độ trong suốt tự động"
+
+msgid "Axis distance"
+msgstr "Khoảng cách trục"
+
+msgid "Azi. grid"
+msgstr "Phương vị"
+
+msgid "Azimuth and altitude rather than right ascension and declination"
+msgstr "Góc phương vị và độ cao thay vì xích kinh và xích vĩ"
+
+msgid "Azimuth vs. Time"
+msgstr "Góc phương vị so với Thời gian"
+
+msgid "Back"
+msgstr "Quay lại"
+
+msgid "Bad visibility conditions for current location"
+msgstr "Điều kiện tầm nhìn tồi tệ cho vị trí hiện tại"
+
+msgid "Beginning of center line; central eclipse begins"
+msgstr "Bắt đầu đường trung tâm; nhật thực trung tâm bắt đầu"
+
+msgid "Below the horizon here."
+msgstr "Dưới chân trời ở đây."
+
+msgid "Between objects"
+msgstr "Giữa các đối tượng"
+
+msgid "Boundless"
+msgstr "Vô hạn"
+
+msgid "Bounds"
+msgstr "Ranh giới"
+
+msgid "Bright Solar system objects (<%1 mag)"
+msgstr "Vật thể Hệ Mặt Trời sáng (<%1 cấp độ)"
+
+msgid "Bright barium stars"
+msgstr "Sao Bari sáng"
+
+msgid "Bright carbon stars"
+msgstr "Sao carbon sáng"
+
+msgid "Bright double stars"
+msgstr "Sao đôi sáng"
+
+msgid "Bright double stars (<%1 mag)"
+msgstr "Sao đôi sáng (<%1 cấp độ)"
+
+msgid "Bright galaxies (<%1 mag)"
+msgstr "Thiên hà sáng (<%1 cấp độ)"
+
+msgid "Bright nebulae"
+msgstr "Tinh vân sáng"
+
+msgid "Bright nebulae (<%1 mag)"
+msgstr "Tinh vân sáng (<%1 cấp độ)"
+
+msgid "Bright nova stars"
+msgstr "Sao tân tinh sáng"
+
+msgid "Bright star clusters (<%1 mag)"
+msgstr "Cụm sao sáng (<%1 cấp độ)"
+
+msgid "Bright stars"
+msgstr "Sao sáng"
+
+msgid "Bright stars (<%1 mag)"
+msgstr "Sao sáng (<%1 cấp độ)"
+
+msgid "Bright stars with high proper motion"
+msgstr "Sao sáng có chuyển động riêng lớn"
+
+msgid "Bright supernova stars"
+msgstr "Sao siêu tân tinh sáng"
+
+msgid "Bright variable stars"
+msgstr "Sao biến sáng"
+
+msgid "Bright variable stars (<%1 mag)"
+msgstr "Sao biến sáng (<%1 cấp độ)"
+
+msgid "Brighter than"
+msgstr "Sáng hơn"
+
+msgid "By object type"
+msgstr "Theo loại đối tượng"
+
+msgid "By planet"
+msgstr "Theo hành tinh"
+
+msgid "Calculate"
+msgstr "Tính toán"
+
+msgid "Calculating…"
+msgstr "Đang tính toán…"
+
+msgid "Caldwell objects"
+msgstr "Vật thể Caldwell"
+
+msgid "Cardinals"
+msgstr "Hướng chính"
+
+msgid "Catalogue numbers instead of common names"
+msgstr "Số danh mục thay vì tên thông dụng"
+
+msgid "Category"
+msgstr "Danh mục"
+
+msgid "Celestial body"
+msgstr "Thiên thể"
+
+msgid "Celestial poles (J2000)"
+msgstr "Cực thiên cầu (J2000)"
+
+msgid "Celestial poles (of date)"
+msgstr "Cực thiên cầu (của ngày)"
+
+msgid "Center of FOV"
+msgstr "Tâm của FOV"
+
+msgid "Centering button"
+msgstr "Nút căn chỉnh"
+
+msgid "Central duration"
+msgstr "Thời lượng trung tâm"
+
+msgid "Central eclipse begins"
+msgstr "Nhật/nguyệt thực toàn phần bắt đầu"
+
+msgid "Central eclipse ends"
+msgstr "Nhật/nguyệt thực toàn phần kết thúc"
+
+msgid "Centre"
+msgstr "Trung tâm"
+
+msgid "Centre on object"
+msgstr "Căn chỉnh trên đối tượng"
+
+msgid "Centre point"
+msgstr "Điểm trung tâm"
+
+msgid "Circles"
+msgstr "Hình tròn"
+
+msgid "Circular FOV"
+msgstr "FOV hình tròn"
+
+msgid "Circumpolar circles"
+msgstr "Vòng tròn xung quanh cực"
+
+msgid "City"
+msgstr "Thành phố"
+
+msgid "Civil Twilight"
+msgstr "Chtwilight Dân sự"
+
+msgid "Cleanup"
+msgstr "Dọn dẹp"
+
+msgid "Clear"
+msgstr "Xóa"
+
+msgid "Clear recent searches"
+msgstr "Xóa các tìm kiếm gần đây"
+
+msgid "Clear the selection - a touch screen has no right button"
+msgstr "Xóa lựa chọn - màn hình cảm ứng không có nút bên phải"
+
+msgid "Cleared."
+msgstr "Đã xóa."
+
+msgid "Click on star to show its constellation"
+msgstr "Nhấp vào sao để hiển thị chòm sao của nó"
+
+msgid "Close"
+msgstr "Đóng"
+
+msgid "Close what is open; from the sky, leave the app running"
+msgstr "Đóng cái đang mở; từ bầu trời, để ứng dụng chạy"
+
+msgid "Clusters of galaxies"
+msgstr "Cụm thiên hà"
+
+msgid "Coarse"
+msgstr "Thô"
+
+msgid "Color"
+msgstr "Màu sắc"
+
+msgid "Color channel"
+msgstr "Kênh màu"
+
+msgid "Color of Lunar station lines"
+msgstr "Màu của đường trạm Mặt Trăng"
+
+msgid "Color of asterism lines"
+msgstr "Màu của đường nhóm sao"
+
+msgid "Color of asterism names"
+msgstr "Màu của tên nhóm sao"
+
+msgid "Color of constellation boundaries"
+msgstr "Màu của ranh giới chòm sao"
+
+msgid "Color of constellation lines"
+msgstr "Màu của các đường chòm sao"
+
+msgid "Color of constellation names"
+msgstr "Màu của tên chòm sao"
+
+msgid "Color of nomenclature labels"
+msgstr "Màu của nhãn danh pháp"
+
+msgid "Color of orbits"
+msgstr "Màu của quỹ đạo"
+
+msgid "Color of planet labels"
+msgstr "Màu của nhãn hành tinh"
+
+msgid "Color of ray helpers"
+msgstr "Màu của trợ giúp tia"
+
+msgid "Color of trails"
+msgstr "Màu của vệt"
+
+msgid "Color of zodiac lines"
+msgstr "Màu của đường hoàng đạo"
+
+msgid "Colors of orbit lines"
+msgstr "Màu của đường quỹ đạo"
+
+msgid "Comets up to mag."
+msgstr "Các sao chổi lên tới cấp độ sáng"
+
+msgid "Compass"
+msgstr "La bàn"
+
+msgid "Config"
+msgstr "Cấu hình"
+
+msgid "Configure colors of markers"
+msgstr "Cấu hình màu sắc của các đánh dấu"
+
+msgid "Configure colors of orbit lines"
+msgstr "Cấu hình màu sắc của các đường quỹ đạo"
+
+msgid "Connecting line"
+msgstr "Đường kết nối"
+
+msgid "Const."
+msgstr "Chòm s."
+
+msgid "Constellations font size"
+msgstr "Kích thước phông chữ chòm sao"
+
+msgid "Contrast"
+msgstr "Độ tương phản"
+
+msgid "Coordinate system"
+msgstr "Hệ tọa độ"
+
+msgid "Coordinates"
+msgstr "Tọa độ"
+
+msgid "Copyright"
+msgstr "Bản quyền"
+
+msgid "Credits"
+msgstr "Tín dụng"
+
+msgid "Culmination altitude"
+msgstr "Độ cao của điểm cao nhất"
+
+msgid "Current FoV"
+msgstr "FOV hiện tại"
+
+msgid "Custom"
+msgstr "Tùy chỉnh"
+
+msgid "Custom FoV limit"
+msgstr "Giới hạn FOV tùy chỉnh"
+
+msgid "Custom altitude of the Moon, °"
+msgstr "Độ cao tùy chỉnh của Mặt Trăng, °"
+
+msgid "Custom altitude of the Sun, °"
+msgstr "Độ cao tùy chỉnh của Mặt Trời, °"
+
+msgid "Custom values"
+msgstr "Giá trị tùy chỉnh"
+
+msgid "Cut the scale off below the limit"
+msgstr "Cắt thang đo dưới giới hạn"
+
+msgid "DATE AND TIME (UTC)"
+msgstr "NGÀY VÀ GIỜ (UTC)"
+
+msgid "DSS survey"
+msgstr "Khảo sát DSS"
+
+msgid "Data"
+msgstr "Dữ liệu"
+
+msgid "Date"
+msgstr "Ngày"
+
+msgid "Date and time"
+msgstr "Ngày và giờ"
+
+msgid "Date/time"
+msgstr "Ngày/giờ"
+
+msgid "Dates"
+msgstr "Ngày tháng"
+
+msgid "Dawn"
+msgstr "Bình minh"
+
+msgid "Dbl. stars"
+msgstr "Sao đôi"
+
+msgid "December solstice"
+msgstr "Chí tuyến tháng 12"
+
+msgid "Decimal degrees. −33.87 means 33.87° south. Elevation is metres above sea level; it moves the horizon down by a few arcminutes."
+msgstr "Độ thập phân. −33.87 có nghĩa là 33.87° về phía nam. Độ cao là mét so với mực nước biển; nó hạ chân trời xuống một vài phút cung."
+
+msgid "Deep Sky"
+msgstr "Bầu trời sâu"
+
+msgid "Degrees per year the longitude moves by"
+msgstr "Độ mỗi năm kinh độ di chuyển"
+
+msgid "Degrees, hours and minutes as they are written - 12h30m49s, +41°16'09\", 187.7 - or plain decimal degrees."
+msgstr "Độ, giờ và phút như chúng được viết - 12h30m49s, +41°16'09\", 187.7 - hoặc độ thập phân đơn giản."
+
+msgid "Deletes all recent search object data, and the objects SIMBAD contributed."
+msgstr "Xóa tất cả dữ liệu đối tượng tìm kiếm gần đây và các đối tượng SIMBAD đóng góp."
+
+msgid "Designations for celestial coordinate systems"
+msgstr "Ký hiệu cho các hệ tọa độ thiên cầu"
+
+msgid "Designations for double stars"
+msgstr "Ký hiệu cho các sao đôi"
+
+msgid "Designations for variable stars"
+msgstr "Ký hiệu cho các sao biến"
+
+msgid "Dim a survey near the horizon, as the air does"
+msgstr "Làm mờ một khảo sát gần chân trời, như không khí làm"
+
+msgid "Dimensions"
+msgstr "Kích thước"
+
+msgid "Display formats of date and time"
+msgstr "Hiển thị các định dạng ngày và giờ"
+
+msgid "Dist."
+msgstr "Khoảng cách"
+
+msgid "Distance, AU"
+msgstr "Khoảng cách, AU"
+
+msgid "Done"
+msgstr "Hoàn thành"
+
+msgid "Drag"
+msgstr "Kéo"
+
+msgid "Draw deep-sky objects at all"
+msgstr "Vẽ các đối tượng bầu trời sâu"
+
+msgid "Draw only polygon"
+msgstr "Chỉ vẽ đa giác"
+
+msgid "Draw the enabled sky surveys"
+msgstr "Vẽ các khảo sát bầu trời được bật"
+
+msgid "Draw the planets, moons and minor bodies"
+msgstr "Vẽ các hành tinh, mặt trăng và các thiên thể nhỏ"
+
+msgid "Drawn larger than life, so a body that is a few arcseconds wide is visible at all. The position stays true."
+msgstr "Vẽ lớn hơn tự nhiên, vì vậy một thiên thể rộng vài arcsecond vẫn hiển thị. Vị trí vẫn chính xác."
+
+msgid "Duration"
+msgstr "Khoảng thời gian"
+
+msgid "Duration (years)"
+msgstr "Khoảng thời gian (năm)"
+
+msgid "Duration, months"
+msgstr "Khoảng thời gian, tháng"
+
+msgid "Dusk"
+msgstr "Chtwilight tối"
+
+msgid "Dynamic (FOV-based) Moon size"
+msgstr "Kích thước Mặt Trăng động (dựa trên FOV)"
+
+msgid "ELEV. M"
+msgstr "ĐỘ CAO. M"
+
+msgid "Earth penumbra"
+msgstr "Bán ánh của Trái Đất"
+
+msgid "Earth shadow enlargement after Danjon"
+msgstr "Phóng to bóng Trái Đất sau Danjon"
+
+msgid "Earth umbra"
+msgstr "Toàn ánh của Trái Đất"
+
+msgid "Eastern quadrature"
+msgstr "Tứ phân phương Đông"
+
+msgid "Ecl. grid"
+msgstr "Hoàng đạo"
+
+msgid "Eclipse"
+msgstr "Nhật thực"
+
+msgid "Eclipse begins; first contact with Earth"
+msgstr "Nhật thực bắt đầu; tiếp xúc đầu tiên với Trái Đất"
+
+msgid "Eclipse ends; last contact with Earth"
+msgstr "Nhật thực kết thúc; tiếp xúc cuối cùng với Trái Đất"
+
+msgid "Eclipse magnitude"
+msgstr "Cấp độ nhật/nguyệt thực"
+
+msgid "Eclipses"
+msgstr "Nhật/nguyệt thực"
+
+msgid "Eclipses are computed for observers on Earth."
+msgstr "Nhật/nguyệt thực được tính toán cho những người quan sát trên Trái Đất."
+
+msgid "Ecliptic poles (J2000)"
+msgstr "Cực hoàng đạo (J2000)"
+
+msgid "Ecliptic poles (of date)"
+msgstr "Cực hoàng đạo (của ngày)"
+
+msgid "Elev."
+msgstr "Độ c."
+
+msgid "Elevation"
+msgstr "Độ cao"
+
+msgid "Elevation in metres"
+msgstr "Độ cao tính bằng mét"
+
+msgid "Elong."
+msgstr "Khoảng"
+
+msgid "Elongation"
+msgstr "Độ tách biệt"
+
+msgid "Elongations and quadratures"
+msgstr "Khoảng cách góc lớn nhất và phương vị vuông góc"
+
+msgid "Emission-line stars"
+msgstr "Sao phát xạ đường"
+
+msgid "Enabled only"
+msgstr "Chỉ được bật"
+
+msgid "End of center line; central eclipse ends"
+msgstr "Kết thúc đường trung tâm; nhật thực trung tâm kết thúc"
+
+msgid "Enter Culture..."
+msgstr "Nhập Nền Văn Hóa..."
+
+msgid "Equ. grid"
+msgstr "Xích đạo"
+
+msgid "Equ. mount"
+msgstr "Giá xích"
+
+msgid "Equatorial radii ratio"
+msgstr "Tỷ lệ bán kính Xích đạo"
+
+msgid "Equinoxes (J2000)"
+msgstr "Điểm phân (J2000)"
+
+msgid "Equinoxes (of date)"
+msgstr "Điểm phân (của ngày)"
+
+msgid "Evening"
+msgstr "Buổi tối"
+
+msgid "Every"
+msgstr "Mỗi"
+
+msgid "Every name the object is catalogued under"
+msgstr "Mọi tên đối tượng được lập danh mục dưới"
+
+msgid "Exoplanetary systems"
+msgstr "Hệ thống hành tinh ngoài"
+
+msgid "Explanatory Supplement (1992)"
+msgstr "Phụ lục giải thích (1992)"
+
+msgid "Explanatory Supplement (2013)"
+msgstr "Phụ lục giải thích (2013)"
+
+msgid "Exterior egress"
+msgstr "Ra khỏi bên ngoài"
+
+msgid "Exterior ingress"
+msgstr "Vào từ bên ngoài"
+
+msgid "Extras"
+msgstr "Bổ sung"
+
+msgid "Fades the ground as you look below the horizon or zoom in"
+msgstr "Làm mờ mặt đất khi bạn nhìn xuống dưới chân trời hoặc phóng to"
+
+msgid "Fading duration"
+msgstr "Thời lượng phai toàn"
+
+msgid "Faintest shown"
+msgstr "Mờ nhất được hiển thị"
+
+msgid "Favorites"
+msgstr "Yêu thích"
+
+msgid "Fetching the survey lists…"
+msgstr "Đang tìm nạp danh sách khảo sát…"
+
+msgid "Filter"
+msgstr "Bộ lọc"
+
+msgid "Find a city"
+msgstr "Tìm một thành phố"
+
+msgid "Fine"
+msgstr "Tốt"
+
+msgid "First %d of %d - filter to narrow it."
+msgstr "Đầu tiên %d của %d - bộ lọc để thu hẹp."
+
+msgid "First body"
+msgstr "Thiên thể đầu tiên"
+
+msgid "First celestial body"
+msgstr "Thiên thể thiên cầu đầu tiên"
+
+msgid "First graph"
+msgstr "Biểu đồ đầu tiên"
+
+msgid "Fix"
+msgstr "Sửa chữa"
+
+msgid "Fixed Equator"
+msgstr "Xích đạo cố định"
+
+msgid "Fixed instant"
+msgstr "Thời điểm cố định"
+
+msgid "Flip buttons"
+msgstr "Lật nút"
+
+msgid "Flip horiz."
+msgstr "Lật ngang"
+
+msgid "Flip vert."
+msgstr "Lật dọc"
+
+msgid "Font size"
+msgstr "Kích thước phông chữ"
+
+msgid "Frame rate"
+msgstr "Tốc độ khung hình"
+
+msgid "From"
+msgstr "Từ"
+
+msgid "From year"
+msgstr "Từ năm"
+
+msgid "Full screen"
+msgstr "Toàn màn"
+
+msgid "Fullscreen button"
+msgstr "Nút toàn màn hình"
+
+msgid "Further reading"
+msgstr "Đọc thêm"
+
+msgid "GRS details…"
+msgstr "Chi tiết VĐL…"
+
+msgid "Gal. grid"
+msgstr "Thiên hà"
+
+msgid "Gamma, saturation, brightness, contrast, opacity, colour channel and inverted colours belong to one survey. Open a survey to set them."
+msgstr "Gamma, độ bão hòa, độ sáng, độ tương phản, độ mờ, kênh màu và màu sắc đảo ngược thuộc một khảo sát. Mở một khảo sát để đặt chúng."
+
+msgid "Gestures"
+msgstr "Cử chỉ"
+
+msgid "Go there"
+msgstr "Đi đó"
+
+msgid "Go to position"
+msgstr "Đi tới vị trí"
+
+msgid "Go to this eclipse"
+msgstr "Đi tới nhật/nguyệt thực này"
+
+msgid "Go to this moment"
+msgstr "Đi tới thời điểm này"
+
+msgid "Go to this transit"
+msgstr "Đi tới lần qua này"
+
+msgid "Good visibility conditions for current location"
+msgstr "Điều kiện tầm nhìn tốt cho vị trí hiện tại"
+
+msgid "Graphs"
+msgstr "Biểu đồ"
+
+msgid "Great Red Spot"
+msgstr "Vết Đỏ Lớn"
+
+msgid "Great Red Spot details"
+msgstr "Chi tiết Vết Đỏ Lớn"
+
+msgid "Greatest eastern elongation"
+msgstr "Độ tách biệt Đông lớn nhất"
+
+msgid "Greatest eclipse"
+msgstr "Nhật thực lớn nhất"
+
+msgid "Greatest elongation for an inner planet, quadrature for an outer one"
+msgstr "Khoảng cách góc lớn nhất cho hành tinh phía trong, phương vị vuông góc cho hành tinh bên ngoài"
+
+msgid "Greatest western elongation"
+msgstr "Độ tách biệt Tây lớn nhất"
+
+msgid "Greek letters"
+msgstr "Chữ cái Hy Lạp"
+
+msgid "Grid density"
+msgstr "Mật độ lưới"
+
+msgid "Grids"
+msgstr "Lưới"
+
+msgid "Ground"
+msgstr "Mặt đất"
+
+msgid "Gyro"
+msgstr "Con quay"
+
+msgid "Gyro mode"
+msgstr "Chế độ Gyro"
+
+msgid "Harvard-Smithsonian Center for Astrophysics (USA)"
+msgstr "Trung tâm Vật lý Thiên văn Harvard-Smithsonian (USA)"
+
+msgid "Height"
+msgstr "Chiều cao"
+
+msgid "Heliocentric distance"
+msgstr "Khoảng cách heliocentric"
+
+msgid "Heliocentric ecliptic positions of the major planets."
+msgstr "Vị trí hoàng đạo tâm Mặt Trời của các hành tinh lớn."
+
+msgid "Herschel 400 objects"
+msgstr "Vật thể Herschel 400"
+
+msgid "HiPS"
+msgstr "HiPS"
+
+msgid "HiPS Surveys"
+msgstr "Khảo sát HiPS"
+
+msgid "Hide controls"
+msgstr "Ẩn điều khiển"
+
+msgid "Hide deep-sky objects fainter than the limit"
+msgstr "Ẩn các vật thể bầu trời sâu mờ hơn giới hạn"
+
+msgid "Hide nomenclature on the celestial body of observer"
+msgstr "Ẩn danh pháp trên thể thiên thể của người quan sát"
+
+msgid "Hide orbits of minor bodies"
+msgstr "Ẩn quỹ đạo của các thiên thể nhỏ"
+
+msgid "Highlight"
+msgstr "Nổi bật"
+
+msgid "Highlight the objects of the observing list"
+msgstr "Làm nổi bật các vật thể trong danh sách quan sát"
+
+msgid "Hint circles marking each planet"
+msgstr "Vòng tròn gợi ý đánh dấu mỗi hành tinh"
+
+msgid "Hints brightness"
+msgstr "Độ sáng gợi ý"
+
+msgid "Hipparcos designations"
+msgstr "Ký hiệu Hipparcos"
+
+msgid "Hour angles usually run 0...24h. This counts -12h...12h."
+msgstr "Các góc giờ thường chạy từ 0...24h. Cái này tính từ -12h...12h."
+
+msgid "How many"
+msgstr "Bao nhiêu"
+
+msgid "ICRS grid"
+msgstr "Lưới ICRS"
+
+msgid "Include"
+msgstr "Bao gồm"
+
+msgid "Include bright comets"
+msgstr "Bao gồm các sao chổi sáng"
+
+msgid "Include selected minor planets"
+msgstr "Bao gồm các hành tinh nhỏ được chọn"
+
+msgid "Inferior conjunction"
+msgstr "Giao hội dưới"
+
+msgid "Info label"
+msgstr "Nhãn thông tin"
+
+msgid "Intercardinal points"
+msgstr "Điểm phương hướng trung gian"
+
+msgid "Interior egress"
+msgstr "Thoát ra bên trong"
+
+msgid "Interior ingress"
+msgstr "Xâm nhập bên trong"
+
+msgid "Interstellar objects"
+msgstr "Vật thể liên sao"
+
+msgid "Invariable plane of the Solar system"
+msgstr "Mặt phẳng bất biến của Hệ Mặt Trời"
+
+msgid "Isolated"
+msgstr "Cô lập"
+
+msgid "Its elevation, and the civil, nautical and astronomical twilights"
+msgstr "Độ cao của nó, và chtwilight dân sự, hàng hải và thiên văn"
+
+msgid "Jovigraphic longitude of the spot in System II, in degrees"
+msgstr "Kinh độ Jovigraphic của đốm trong Hệ thống II, tính bằng độ"
+
+msgid "Julian day"
+msgstr "Ngày Julian"
+
+msgid "June solstice"
+msgstr "Chí tuyến tháng 6"
+
+msgid "Label"
+msgstr "Nhãn"
+
+msgid "Label colour"
+msgstr "Màu nhãn"
+
+msgid "Label only features along the terminator"
+msgstr "Chỉ đánh nhãn các đặc điểm dọc theo ranh giới sáng tối"
+
+msgid "Labels and Markers amount"
+msgstr "Số lượng nhãn và đánh dấu"
+
+msgid "Labels brightness"
+msgstr "Độ sáng nhãn"
+
+msgid "Largest, ′"
+msgstr "Lớn nhất, ′"
+
+msgid "Last known position"
+msgstr "Vị trí cuối cùng được biết đến"
+
+msgid "Lasting"
+msgstr "Kéo dài"
+
+msgid "Latest selected object"
+msgstr "Đối tượng được chọn gần đây nhất"
+
+msgid "Latitude −90…90, longitude −180…180."
+msgstr "Vĩ độ −90…90, kinh độ −180…180."
+
+msgid "Layer appearance"
+msgstr "Giao diện lớp"
+
+msgid "Leaves the landscape visible in darkness"
+msgstr "Để phong cảnh hiển thị được trong bóng tối"
+
+msgid "Licence"
+msgstr "Giấy Phép"
+
+msgid "Light pollution"
+msgstr "Ô nhiễm ánh sáng"
+
+msgid "Light pollution from database"
+msgstr "Ô nhiễm ánh sáng từ cơ sở dữ liệu"
+
+msgid "Limit angular separation"
+msgstr "Giới hạn cách biệt góc"
+
+msgid "Limit angular size"
+msgstr "Giới hạn kích thước góc"
+
+msgid "Limit magnitude"
+msgstr "Giới hạn cấp độ sáng"
+
+msgid "Line"
+msgstr "Đường"
+
+msgid "Line thickness"
+msgstr "Độ dày đường"
+
+msgid "Linear and angular distances between selected objects"
+msgstr "Khoảng cách tuyến tính và góc giữa các đối tượng được chọn"
+
+msgid "Linear distance"
+msgstr "Khoảng cách tuyến tính"
+
+msgid "Lines"
+msgstr "Các dòng"
+
+msgid "Lines and circles"
+msgstr "Các dòng và vòng tròn"
+
+msgid "List"
+msgstr "Danh sách"
+
+msgid "List name"
+msgstr "Tên danh sách"
+
+msgid "Lit windows, street lighting and the like"
+msgstr "Cửa sổ sáng, đèn đường và tương tự"
+
+msgid "Loading…"
+msgstr "Đang tải…"
+
+msgid "Local Mean Solar Time"
+msgstr "Giờ Mặt Trời Trung bình Địa phương"
+
+msgid "Local Time"
+msgstr "Giờ địa phương"
+
+msgid "Local True Solar Time"
+msgstr "Giờ Mặt Trời Thực sự Địa phương"
+
+msgid "Local solar eclipses"
+msgstr "Nhật thực cục bộ"
+
+msgid "Local time"
+msgstr "Giờ địa phương"
+
+msgid "Local time, h"
+msgstr "Giờ địa phương, h"
+
+msgid "Locate me"
+msgstr "Định vị tôi"
+
+msgid "Locating…"
+msgstr "Đang định vị…"
+
+msgid "Location from landscape"
+msgstr "Vị trí từ phong cảnh"
+
+msgid "Location is switched off in the system settings."
+msgstr "Vị trí bị tắt trong cài đặt hệ thống."
+
+msgid "Location permission refused. The other two ways still work."
+msgstr "Quyền vị trí bị từ chối. Hai cách khác vẫn hoạt động."
+
+msgid "Lock position when coordinates are used"
+msgstr "Khóa vị trí khi sử dụng tọa độ"
+
+msgid "Long press"
+msgstr "Nhấn lâu"
+
+msgid "Longitude of GRS"
+msgstr "Kinh độ của GRS"
+
+msgid "Lunar Elongation"
+msgstr "Giãn cách Mặt Trăng"
+
+msgid "Lunar Stations"
+msgstr "Trạm Mặt Trăng"
+
+msgid "Lunar eclipses"
+msgstr "Nguyệt thực"
+
+msgid "Lunar elongation"
+msgstr "Giãn cách mặt trăng"
+
+msgid "Mag."
+msgstr "Cấp độ"
+
+msgid "Mag. 1"
+msgstr "Độ sáng. 1"
+
+msgid "Mag. 2"
+msgstr "Độ sáng. 2"
+
+msgid "Magnitudes"
+msgstr "Cấp độ sáng"
+
+msgid "Major planets"
+msgstr "Hành tinh lớn"
+
+msgid "Major planets by planet, minor bodies by type"
+msgstr "Hành tinh lớn theo hành tinh, thiên thể nhỏ theo loại"
+
+msgid "Map of the planet. Tap to set the observer's place."
+msgstr "Bản đồ hành tinh. Chạm để đặt vị trí của người quan sát."
+
+msgid "March equinox"
+msgstr "Phân điểm tháng 3"
+
+msgid "Mark impact features with ellipses"
+msgstr "Đánh dấu các đặc điểm tác động bằng hình bầu dục"
+
+msgid "Mark minor bodies"
+msgstr "Đánh dấu các thiên thể nhỏ"
+
+msgid "Markers"
+msgstr "Đánh dấu"
+
+msgid "Markers sized by the object's angular size"
+msgstr "Đánh dấu được định kích thước theo kích thước góc của vật thể"
+
+msgid "Master switch for the grids, lines and points below"
+msgstr "Công tắc chính cho các lưới, đường và điểm bên dưới"
+
+msgid "Max"
+msgstr "Tối đa"
+
+msgid "Max items to display"
+msgstr "Mục tối đa để hiển thị"
+
+msgid "Max. results"
+msgstr "Kết quả tối đa"
+
+msgid "Max. search radius"
+msgstr "Bán kính tìm kiếm tối đa"
+
+msgid "Maximum Solar altitude"
+msgstr "Độ cao Mặt Trời tối đa"
+
+msgid "Maximum allowed separation"
+msgstr "Cách xa tối đa được phép"
+
+msgid "Maximum angular size"
+msgstr "Kích thước góc tối đa"
+
+msgid "Maximum eclipse"
+msgstr "Nhật thực tối đa"
+
+msgid "Maximum year"
+msgstr "Năm tối đa"
+
+msgid "Mean motion"
+msgstr "Chuyển động trung bình"
+
+msgid "Mercury, Venus, Mars, Jupiter and Saturn at once. Earth only."
+msgstr "Thuỷ tinh, Kim tinh, Hỏa tinh, Mộc tinh và Thổ tinh cùng lúc. Chỉ Trái Đất."
+
+msgid "Messier objects"
+msgstr "Vật thể Messier"
+
+msgid "Mid-transit"
+msgstr "Giữa quá cảnh"
+
+msgid "Milky Way brightness"
+msgstr "Độ sáng Dải Ngân Hà"
+
+msgid "Milky Way saturation"
+msgstr "Bão hòa Dải Ngân Hà"
+
+msgid "Min"
+msgstr "Tối thiểu"
+
+msgid "Minimal angular size"
+msgstr "Kích thước góc tối thiểu"
+
+msgid "Minimal brightness"
+msgstr "Độ sáng tối thiểu"
+
+msgid "Minimum Solar altitude"
+msgstr "Độ cao Mặt Trời tối thiểu"
+
+msgid "Minimum year"
+msgstr "Năm tối thiểu"
+
+msgid "Minor bodies"
+msgstr "Các thiên thể nhỏ"
+
+msgid "Minutes before sunrise / after sunset"
+msgstr "Phút trước khi mặt trời mọc / sau khi mặt trời lặn"
+
+msgid "Month"
+msgstr "Tháng"
+
+msgid "Monthly Elevation"
+msgstr "Độ cao hàng tháng"
+
+msgid "Moon at"
+msgstr "Mặt Trăng tại"
+
+msgid "Moon enters penumbra"
+msgstr "Mặt Trăng vào bán tối"
+
+msgid "Moon enters umbra"
+msgstr "Mặt Trăng vào toàn tối"
+
+msgid "Moon in zenith at"
+msgstr "Mặt Trăng ở đỉnh tại"
+
+msgid "Moon leaves penumbra"
+msgstr "Mặt Trăng rời khỏi bán tối"
+
+msgid "Moon leaves umbra"
+msgstr "Mặt Trăng rời khỏi toàn tối"
+
+msgid "Moon's halo"
+msgstr "Vòng quanh Mặt Trăng"
+
+msgid "Moons of first body"
+msgstr "Mặt trăng của vật thể đầu tiên"
+
+msgid "Morning"
+msgstr "Sáng"
+
+msgid "Morph. Descr."
+msgstr "Mô tả Hình thái"
+
+msgid "Morphological description"
+msgstr "Mô tả hình thái"
+
+msgid "Move the sky by pointing the phone at it"
+msgstr "Di chuyển bầu trời bằng cách hướng điện thoại vào nó"
+
+msgid "Move the sky with the phone"
+msgstr "Di chuyển bầu trời cùng điện thoại"
+
+msgid "NGC/IC objects"
+msgstr "Vật thể NGC/IC"
+
+msgid "Name for the new list"
+msgstr "Tên cho danh sách mới"
+
+msgid "Named features the landscape marks"
+msgstr "Các tính năng được đặt tên mà phong cảnh đánh dấu"
+
+msgid "Names"
+msgstr "Tên"
+
+msgid "Names beside the planets and their markers"
+msgstr "Tên bên cạnh các hành tinh và đánh dấu của chúng"
+
+msgid "Names in English"
+msgstr "Tên bằng tiếng Anh"
+
+msgid "Nautical Twilight"
+msgstr "Chtwilight Hàng hải"
+
+msgid "Neb. bg"
+msgstr "Ảnh nền"
+
+msgid "Nebula background"
+msgstr "Nền tinh vân"
+
+msgid "Nebulae"
+msgstr "Tinh vân"
+
+msgid "New list"
+msgstr "Danh sách mới"
+
+msgid "Next"
+msgstr "Tiếp theo"
+
+msgid "Night"
+msgstr "Đêm"
+
+msgid "No city matches that."
+msgstr "Không có thành phố nào khớp."
+
+msgid "No eclipses found. Pick a range and calculate."
+msgstr "Không tìm thấy nhật thực. Chọn một khoảng và tính toán."
+
+msgid "No fresh fix - the receiver may have no sky. Try again outdoors, or set the place another way."
+msgstr "Không có vị trí mới - máy thu có thể không có tín hiệu. Thử lại ngoài trời hoặc đặt vị trí theo cách khác."
+
+msgid "No surveys were found. The lists are downloaded, so this needs a connection."
+msgstr "Không tìm thấy khảo sát nào. Các danh sách được tải xuống, vì vậy điều này cần kết nối."
+
+msgid "None downloaded yet"
+msgstr "Chưa tải xuống cái nào"
+
+msgid "Normal"
+msgstr "Bình thường"
+
+msgid "Not observable eclipse"
+msgstr "Nhật thực không thể quan sát"
+
+msgid "Note: Local circumstances for eclipses during thousands of years in the past and future are not reliable due to uncertainty in ΔT which is caused by fluctuations in Earth's rotation."
+msgstr "Lưu ý: Hoàn cảnh địa phương cho các nhật thực trong hàng ngàn năm trong quá khứ và tương lai không đáng tin cậy do sự không chắc chắn trong ΔT được gây ra bởi những biến động trong sự quay của Trái Đất."
+
+msgid "Note: artificial satellites and unnamed stars are excluded from calculation"
+msgstr "Lưu ý: các vệ tinh nhân tạo và sao không tên được loại trừ khỏi tính toán"
+
+msgid "Note: this tool doesn't apply the refraction correction for coordinates. Horizontal coordinates stop the clock, or the sky would turn away from the point while you arrive at it."
+msgstr "Lưu ý: công cụ này không áp dụng hiệu chỉnh khúc xạ cho tọa độ. Tọa độ chân trời dừng đồng hồ, hoặc bầu trời sẽ quay đi khỏi điểm trong khi bạn đến đó."
+
+msgid "Notes: The quantity gamma is the minimum distance from the axis of lunar shadow cone to the center of Earth, in units of Earth’s equatorial radius. This distance is positive or negative, depending on whether the axis of the shadow cone passes north or south of the Earth's center. Path of solar eclipses during thousands of years in the past and future are not reliable due to uncertainty in ΔT which is caused by fluctuations in Earth's rotation."
+msgstr "Lưu ý: Đại lượng gamma là khoảng cách tối thiểu từ trục nón bóng mặt trăng đến tâm Trái Đất, tính bằng đơn vị bán kính xích đạo Trái Đất. Khoảng cách này dương hoặc âm, tùy thuộc vào trục nón bóng đi qua phía bắc hay phía nam tâm Trái Đất. Đường đi của các nhật thực mặt trời trong hàng ngàn năm trong quá khứ và tương lai không đáng tin cậy do sự không chắc chắn trong ΔT được gây ra bởi những biến động trong sự quay của Trái Đất."
+
+msgid "Notes: The quantity gamma is the minimum distance from the center of the Moon to the axis of Earth’s umbral shadow cone, in units of Earth’s equatorial radius. This distance is positive or negative, depending on whether the Moon passes north or south of the shadow cone axis. Local circumstances for eclipses during thousands of years in the past and future are not reliable due to uncertainty in ΔT which is caused by fluctuations in Earth's rotation."
+msgstr "Lưu ý: Đại lượng gamma là khoảng cách tối thiểu từ tâm Mặt Trăng đến trục nón bóng toàn tối của Trái Đất, tính bằng đơn vị bán kính xích đạo Trái Đất. Khoảng cách này dương hoặc âm, tùy thuộc vào Mặt Trăng đi qua phía bắc hay phía nam trục nón bóng. Hoàn cảnh địa phương cho các nhật thực trong hàng ngàn năm trong quá khứ và tương lai không đáng tin cậy do sự không chắc chắn trong ΔT được gây ra bởi những biến động trong sự quay của Trái Đất."
+
+msgid "Notes: Time in parentheses means the contact is invisible at current location. Transit times during thousands of years in the past and future are not reliable due to uncertainty in ΔT which is caused by fluctuations in Earth's rotation."
+msgstr "Lưu ý: Thời gian trong dấu ngoặc đơn có nghĩa là tiếp xúc không thể nhìn thấy ở vị trí hiện tại. Thời gian vận hành trong hàng ngàn năm trong quá khứ và tương lai không đáng tin cậy do sự không chắc chắn trong ΔT được gây ra bởi những biến động trong sự quay của Trái Đất."
+
+msgid "Nothing computed yet, or nothing in this category is up."
+msgstr "Chưa có gì được tính toán, hoặc không có gì trong danh mục này được nêu."
+
+msgid "Nothing computed yet."
+msgstr "Chưa có gì được tính toán."
+
+msgid "Nothing found for “%s”."
+msgstr "Không tìm thấy \"%s\"."
+
+msgid "Nothing in this list matches."
+msgstr "Không có gì trong danh sách này khớp."
+
+msgid "Nothing in this list yet. Pick something out of the sky and tap the star on its card to keep it here."
+msgstr "Chưa có gì trong danh sách này. Chọn một thứ gì đó ngoài bầu trời và chạm vào ngôi sao trên thẻ của nó để giữ ở đây."
+
+msgid "Nothing is selected. Pick an object in the sky first."
+msgstr "Không có gì được chọn. Chọn một vật thể ngoài bầu trời trước."
+
+msgid "Nothing matches."
+msgstr "Không có gì khớp."
+
+msgid "Nothing selected"
+msgstr "Không chọn gì"
+
+msgid "Nothing to plot."
+msgstr "Không có gì để vẽ."
+
+msgid "Nothing to show."
+msgstr "Không có gì để hiển thị."
+
+msgid "Now"
+msgstr "Bây giờ"
+
+msgid "N× above"
+msgstr "N× ở trên"
+
+msgid "OBJECT"
+msgstr "ĐỐI TƯỢNG"
+
+msgid "OBJECTS"
+msgstr "ĐỐI TƯỢNG"
+
+msgid "Objects which are up"
+msgstr "Các vật thể đang ở trên"
+
+msgid "Observable duration"
+msgstr "Khoảng thời gian có thể quan sát"
+
+msgid "Observing list"
+msgstr "Danh sách quan sát"
+
+msgid "Observing list highlight"
+msgstr "Làm nổi bật danh sách quan sát"
+
+msgid "Observing lists"
+msgstr "Danh sách quan sát"
+
+msgid "Occultation"
+msgstr "Che khuất"
+
+msgid "On the sky"
+msgstr "Trên bầu trời"
+
+msgid "One color"
+msgstr "Một màu"
+
+msgid "One color for all orbits"
+msgstr "Một màu cho tất cả quỹ đạo"
+
+msgid "Only for N latest selected objects"
+msgstr "Chỉ cho N vật thể được chọn gần đây"
+
+msgid "Only for Solar elevation"
+msgstr "Chỉ cho độ cao Mặt Trời"
+
+msgid "Only list"
+msgstr "Chỉ danh sách"
+
+msgid "Only one at a time"
+msgstr "Chỉ một lần"
+
+msgid "Only orbit for selected object…"
+msgstr "Chỉ quỹ đạo cho vật thể được chọn…"
+
+msgid "Only orbits of major planets…"
+msgstr "Chỉ quỹ đạo của các hành tinh lớn…"
+
+msgid "Opac."
+msgstr "Mờ đục"
+
+msgid "Opacity"
+msgstr "Độ mờ"
+
+msgid "Open date and time"
+msgstr "Mở ngày và giờ"
+
+msgid "Open location"
+msgstr "Mở vị trí"
+
+msgid "Opens the JUPOS project in a browser"
+msgstr "Mở dự án JUPOS trong trình duyệt"
+
+msgid "Opposition of"
+msgstr "Đối xứng của"
+
+msgid "Oppositions"
+msgstr "Các đối xứng"
+
+msgid "Orbit colors"
+msgstr "Màu quỹ đạo"
+
+msgid "Orbital periods ratio"
+msgstr "Tỷ lệ chu kỳ quỹ đạo"
+
+msgid "Orbital velocity"
+msgstr "Vận tốc quỹ đạo"
+
+msgid "Orbits"
+msgstr "Quỹ đạo"
+
+msgid "Orbits of Oort cloud objects"
+msgstr "Quỹ đạo của các vật thể đám mây Oort"
+
+msgid "Orbits of comets"
+msgstr "Quỹ đạo của các sao chổi"
+
+msgid "Orbits of cubewanos"
+msgstr "Quỹ đạo của các cubewano"
+
+msgid "Orbits of dwarf planets"
+msgstr "Quỹ đạo của các hành tinh lùn"
+
+msgid "Orbits of interstellar objects"
+msgstr "Quỹ đạo của các vật thể giữa các sao"
+
+msgid "Orbits of major planets"
+msgstr "Quỹ đạo của các hành tinh lớn"
+
+msgid "Orbits of minor planets"
+msgstr "Quỹ đạo của các hành tinh nhỏ"
+
+msgid "Orbits of moons"
+msgstr "Quỹ đạo của các mặt trăng"
+
+msgid "Orbits of plutinos"
+msgstr "Quỹ đạo của các plutino"
+
+msgid "Orbits of scattered disk objects"
+msgstr "Quỹ đạo của các vật thể đĩa phân tán"
+
+msgid "Orbits of sednoids"
+msgstr "Quỹ đạo của các sednoid"
+
+msgid "Otherwise every move adopts the zone of the new place."
+msgstr "Ngược lại, mọi lần di chuyển sẽ nhận vùng của địa điểm mới."
+
+msgid "Outline craters"
+msgstr "Viền miệng hố"
+
+msgid "Pan the sky"
+msgstr "Di chuyển bầu trời"
+
+msgid "Partial eclipse begins"
+msgstr "Nhật thực riêng phần bắt đầu"
+
+msgid "Partial eclipse ends"
+msgstr "Nhật thực riêng phần kết thúc"
+
+msgid "Partitions"
+msgstr "Phân chia"
+
+msgid "Partitions thickness"
+msgstr "Độ dày phân chia"
+
+msgid "Path width"
+msgstr "Độ rộng đường dẫn"
+
+msgid "Pause"
+msgstr "Tạm dừng"
+
+msgid "Paused - start"
+msgstr "Tạm dừng - Bắt đầu"
+
+msgid "Penumbral magnitude"
+msgstr "Cấp độ sáng bóng nửa"
+
+msgid "Per."
+msgstr "Chu kỳ"
+
+msgid "Perfect visibility conditions for current location"
+msgstr "Điều kiện tầm nhìn hoàn hảo cho vị trí hiện tại"
+
+msgid "Perihelion"
+msgstr "Điểm cận nhật"
+
+msgid "Perihelion and aphelion"
+msgstr "Cận nhật và viễn nhật"
+
+msgid "Phase"
+msgstr "Pha"
+
+msgid "Phase angle"
+msgstr "Góc pha"
+
+msgid "Pick two different bodies to see how their distance changes."
+msgstr "Chọn hai vật thể khác nhau để xem khoảng cách của chúng thay đổi như thế nào."
+
+msgid "Pinch"
+msgstr "Vặn"
+
+msgid "Planet"
+msgstr "Hành tinh"
+
+msgid "Planet and time zone"
+msgstr "Hành tinh và múi giờ"
+
+msgid "Planetary nebulae (<%1 mag)"
+msgstr "Tinh vân hành tinh (<%1 cấp độ)"
+
+msgid "Planetary nomenclature"
+msgstr "Danh pháp hành tinh"
+
+msgid "Planetary transits"
+msgstr "Quá cảnh hành tinh"
+
+msgid "Planets"
+msgstr "Hành tinh"
+
+msgid "Planets and Sun"
+msgstr "Hành tinh và Mặt Trời"
+
+msgid "Planets magnitude algorithm"
+msgstr "Thuật toán cấp độ sáng hành tinh"
+
+msgid "Please select object to plot its 'Monthly Elevation' graph for the current year at selected time."
+msgstr "Vui lòng chọn đối tượng để vẽ biểu đồ 'Độ cao hàng tháng' của nó cho năm hiện tại vào thời gian được chọn."
+
+msgid "Please select object to plot its graph 'Altitude vs. Time'."
+msgstr "Vui lòng chọn đối tượng để vẽ biểu đồ 'Độ cao so với Thời gian' của nó."
+
+msgid "Please select object to plot its graph 'Azimuth vs. Time'."
+msgstr "Vui lòng chọn đối tượng để vẽ biểu đồ 'Góc phương vị so với Thời gian' của nó."
+
+msgid "Pluto, Ceres, Pallas, Juno and Vesta"
+msgstr "Sao Diêm Vương, Ceres, Pallas, Juno và Vesta"
+
+msgid "Point size"
+msgstr "Kích thước điểm"
+
+msgid "Pointing"
+msgstr "Chỉ"
+
+msgid "Polar distance"
+msgstr "Khoảng cách cực"
+
+msgid "Polar distance, not declination"
+msgstr "Khoảng cách cực, không phải xích vĩ"
+
+msgid "Poles and points"
+msgstr "Cực và điểm"
+
+msgid "Polygon colour"
+msgstr "Màu đa giác"
+
+msgid "Positions"
+msgstr "Vị trí"
+
+msgid "Positive values only"
+msgstr "Chỉ giá trị dương"
+
+msgid "Previous"
+msgstr "Trước đó"
+
+msgid "Projected Solar Equator"
+msgstr "Xích đạo Mặt Trời được chiếu"
+
+msgid "Pronounce"
+msgstr "Phát âm"
+
+msgid "Quadrature circle"
+msgstr "Vòng tròn góc phần tư"
+
+msgid "Query SIMBAD about selected object"
+msgstr "Truy vấn SIMBAD về vật thể được chọn"
+
+msgid "Query options"
+msgstr "Tùy chọn truy vấn"
+
+msgid "Quit"
+msgstr "Thoát"
+
+msgid "Quit button"
+msgstr "Nút thoát"
+
+msgid "Range"
+msgstr "Khoảng"
+
+msgid "Ray helpers"
+msgstr "Trợ giúp tia"
+
+msgid "Reading…"
+msgstr "Đang đọc…"
+
+msgid "Real time speed"
+msgstr "Tốc độ thời gian thực"
+
+msgid "Recent Searches"
+msgstr "Tìm kiếm gần đây"
+
+msgid "Rectangular FOV"
+msgstr "FOV Hình chữ nhật"
+
+msgid "Refraction, extinction, sky brightness"
+msgstr "Khúc xạ, tuyệt chủng, độ sáng bầu trời"
+
+msgid "Regions of the sky"
+msgstr "Vùng bầu trời"
+
+msgid "Relative scale"
+msgstr "Tỷ lệ tương đối"
+
+msgid "Remove %s"
+msgstr "Xóa %s"
+
+msgid "Remove from observing list"
+msgstr "Xóa khỏi danh sách quan sát"
+
+msgid "Rename"
+msgstr "Đổi tên"
+
+msgid "Reset all"
+msgstr "Đặt lại tất cả"
+
+msgid "Restarting…"
+msgstr "Đang khởi động lại…"
+
+msgid "Rise"
+msgstr "Mọc"
+
+msgid "Rises"
+msgstr "Mọc lên"
+
+msgid "Rotation"
+msgstr "Chuyển động quay"
+
+msgid "Running"
+msgstr "Đang chạy"
+
+msgid "SIMBAD did not answer."
+msgstr "SIMBAD không trả lời."
+
+msgid "SIMBAD is switched off in the search options."
+msgstr "SIMBAD bị tắt trong tùy chọn tìm kiếm."
+
+msgid "SIMBAD is switched off. Turn it on under Options to look objects up online."
+msgstr "SIMBAD bị tắt. Bật nó trong Tùy chọn để tra cứu các vật thể trực tuyến."
+
+msgid "SIMBAD server"
+msgstr "Máy chủ SIMBAD"
+
+msgid "Saturation"
+msgstr "Độ bão hòa"
+
+msgid "Save"
+msgstr "Lưu"
+
+msgid "Save either the current FOV and direction of view or all the current options for use at next startup. Restoring default settings requires a restart of the app."
+msgstr "Lưu FOV hiện tại và hướng xem hoặc tất cả các tùy chọn hiện tại để sử dụng ở lần khởi động tiếp theo. Khôi phục cài đặt mặc định yêu cầu khởi động lại ứng dụng."
+
+msgid "Save to observing list"
+msgstr "Lưu vào danh sách quan sát"
+
+msgid "Save view"
+msgstr "Lưu chế độ xem"
+
+msgid "Scale"
+msgstr "Tỉ lệ"
+
+msgid "Scale marker and label visibility by surface brightness"
+msgstr "Tỉ lệ khả năng hiển thị dấu và nhãn theo độ sáng bề mặt"
+
+msgid "Scales smoothly between 1× at the minimum field of view and the factor above at the maximum"
+msgstr "Tỉ lệ mịn giữa 1× ở trường nhìn tối thiểu và hệ số trên cùng ở mức tối đa"
+
+msgid "Screen label"
+msgstr "Nhãn màn hình"
+
+msgid "Search in list"
+msgstr "Tìm trong danh sách..."
+
+msgid "Seasons"
+msgstr "Mùa"
+
+msgid "Second body"
+msgstr "Vật thể thứ hai"
+
+msgid "Second celestial body"
+msgstr "Vật thể thiên cầu thứ hai"
+
+msgid "Second graph"
+msgstr "Đồ thị thứ hai"
+
+msgid "Second object"
+msgstr "Đối tượng thứ hai"
+
+msgid "Secondary intercardinal points"
+msgstr "Các điểm hướng phụ"
+
+msgid "See the sky through the ground"
+msgstr "Nhìn xuyên qua mặt đất"
+
+msgid "Seen now"
+msgstr "Nhìn thấy bây giờ"
+
+msgid "Select an object first: this asks SIMBAD what it holds around it."
+msgstr "Chọn một đối tượng trước: điều này hỏi SIMBAD nó giữ cái gì xung quanh nó."
+
+msgid "Select it and show its card"
+msgstr "Chọn nó và hiển thị thẻ của nó"
+
+msgid "Select something in the sky first — this page works on the selection."
+msgstr "Chọn một cái gì đó trên bầu trời trước tiên — trang này hoạt động trên lựa chọn."
+
+msgid "Selected object"
+msgstr "Đối tượng được chọn"
+
+msgid "Sep."
+msgstr "Cách xa"
+
+msgid "Separate colors for orbits by object type"
+msgstr "Các màu riêng biệt cho quỹ đạo theo loại đối tượng"
+
+msgid "Separate colors for orbits of major planets"
+msgstr "Các màu riêng biệt cho quỹ đạo của các hành tinh chính"
+
+msgid "September equinox"
+msgstr "Phân điểm tháng 9"
+
+msgid "Server"
+msgstr "Máy chủ"
+
+msgid "Set"
+msgstr "Đặt"
+
+msgid "Set the clock to %s"
+msgstr "Đặt đồng hồ thành %s"
+
+msgid "Set the place"
+msgstr "Đặt vị trí"
+
+msgid "Set to now"
+msgstr "Đặt thành bây giờ"
+
+msgid "Sets"
+msgstr "Lặn"
+
+msgid "Shadow map for non-convex bodies. May coarsen the penumbra on some objects"
+msgstr "Bản đồ bóng cho các vật thể không lồi. Có thể làm thô bóng nửa tối trên một số vật thể"
+
+msgid "Shadow transit"
+msgstr "Vận hành bóng"
+
+msgid "Shooting stars"
+msgstr "Sao băng"
+
+msgid "Short notation for units of surface brightness"
+msgstr "Kí hiệu ngắn cho đơn vị độ sáng bề mặt"
+
+msgid "Short steps over a long duration are slow."
+msgstr "Những bước ngắn trong khoảng thời gian dài rất chậm."
+
+msgid "Show"
+msgstr "Hiển thị"
+
+msgid "Show FOV center marker when position is search"
+msgstr "Hiển thị dấu trung tâm FOV khi vị trí được tìm kiếm"
+
+msgid "Show additional buttons"
+msgstr "Hiển thị các nút bổ sung"
+
+msgid "Show additional star names"
+msgstr "Hiển thị tên sao bổ sung"
+
+msgid "Show all information"
+msgstr "Hiển thị tất cả thông tin"
+
+msgid "Show atmospheric extinction"
+msgstr "Hiển thị sự tuyệt diệt khí quyển"
+
+msgid "Show boundaries of constellations"
+msgstr "Hiển thị ranh giới của các chòm sao"
+
+msgid "Show button in addition to keyboard shortcut?"
+msgstr "Hiển thị nút ngoài phím tắt bàn phím?"
+
+msgid "Show controls"
+msgstr "Hiển thị điều khiển"
+
+msgid "Show each body where it was when the light left it (recommended)"
+msgstr "Hiển thị mỗi vật thể nơi nó khi ánh sáng rời khỏi nó (được khuyến cáo)"
+
+msgid "Show frames per second beside the field of view"
+msgstr "Hiển thị khung hình trên giây bên cạnh trường nhìn"
+
+msgid "Show hints and labels for planetary features"
+msgstr "Hiển thị gợi ý và nhãn cho các tính năng hành tinh"
+
+msgid "Show illumination"
+msgstr "Hiển thị chiếu sáng"
+
+msgid "Show in sky"
+msgstr "Hiển thị trên bầu trời"
+
+msgid "Show less"
+msgstr "Hiển thị ít hơn"
+
+msgid "Show lunar stations (if defined)"
+msgstr "Hiển thị các trạm mặt trăng (nếu được xác định)"
+
+msgid "Show more"
+msgstr "Hiển thị thêm"
+
+msgid "Show objects which are up"
+msgstr "Hiển thị các đối tượng đang nổi"
+
+msgid "Show only named DSO"
+msgstr "Chỉ hiển thị DSO có tên"
+
+msgid "Show only objects between the two sizes"
+msgstr "Chỉ hiển thị các đối tượng giữa hai kích thước"
+
+msgid "Show only the kinds ticked below"
+msgstr "Chỉ hiển thị các loại được đánh dấu dưới đây"
+
+msgid "Show or hide the two rails of controls"
+msgstr "Hiển thị hoặc ẩn hai thanh điều khiển"
+
+msgid "Show orbit even if object is off screen"
+msgstr "Hiển thị quỹ đạo ngay cả khi đối tượng ngoài màn hình"
+
+msgid "Show orbit only for selected SSO"
+msgstr "Chỉ hiển thị quỹ đạo cho SSO được chọn"
+
+msgid "Show orbits"
+msgstr "Hiển thị quỹ đạo"
+
+msgid "Show orbits of major planets"
+msgstr "Hiển thị quỹ đạo của các hành tinh chính"
+
+msgid "Show planetary nomenclature"
+msgstr "Hiển thị bộ tiếng của hành tinh"
+
+msgid "Show special nomenclature points only"
+msgstr "Chỉ hiển thị các điểm bộ tiếng đặc biệt"
+
+msgid "Show surveys"
+msgstr "Hiển thị các khảo sát"
+
+msgid "Show this survey"
+msgstr "Hiển thị khảo sát này"
+
+msgid "Show tiny circles for minor bodies regardless of magnitude"
+msgstr "Hiển thị các vòng tròn nhỏ cho các vật thể nhỏ bất kể độ sáng"
+
+msgid "Show trails"
+msgstr "Hiển thị dấu vết"
+
+msgid "Show zodiac (if defined)"
+msgstr "Hiển thị hoàng đạo (nếu được xác định)"
+
+msgid "Sidereal time"
+msgstr "Thời gian sao"
+
+msgid "Simbad Lookup Error: %s"
+msgstr "Lỗi tìm kiếm Simbad: %s"
+
+msgid "Simbad Lookup: querying"
+msgstr "Tìm kiếm Simbad: truy vấn"
+
+msgid "Simulate self-shadowing"
+msgstr "Mô phỏng bóng tự"
+
+msgid "Simulation"
+msgstr "Mô phỏng"
+
+msgid "Sky Culture"
+msgstr "Văn hóa bầu trời"
+
+msgid "Sky and viewing options"
+msgstr "Bầu trời và tùy chọn xem"
+
+msgid "Sky culture"
+msgstr "Văn hóa bầu trời"
+
+msgid "Slow down"
+msgstr "Chậm lại"
+
+msgid "Smallest, ′"
+msgstr "Nhỏ nhất, ′"
+
+msgid "Solar altitude for Twilight Finder"
+msgstr "Độ cao mặt trời cho Trình tìm chtwilight"
+
+msgid "Solar elongation"
+msgstr "Kéo dài mặt trời"
+
+msgid "Solar system objects"
+msgstr "Vật thể hệ Mặt Trời"
+
+msgid "Solar system objects: comets"
+msgstr "Vật thể hệ Mặt Trời: sao chổi"
+
+msgid "Solar system objects: minor bodies"
+msgstr "Vật thể hệ Mặt Trời: vật thể nhỏ"
+
+msgid "Solar system objects: planets"
+msgstr "Vật thể hệ Mặt Trời: hành tinh"
+
+msgid "Solstices (J2000)"
+msgstr "Chí điểm (J2000)"
+
+msgid "Solstices (of date)"
+msgstr "Chí điểm (của ngày)"
+
+msgid "Special points only"
+msgstr "Chỉ các điểm đặc biệt"
+
+msgid "Spectral Class"
+msgstr "Loại phổ"
+
+msgid "Speed up"
+msgstr "Tăng tốc"
+
+msgid "Spiky stars"
+msgstr "Sao gai"
+
+msgid "Stand where the landscape was shot, on the planet it names"
+msgstr "Đứng nơi cảnh quan được chụp, trên hành tinh nó chỉ định"
+
+msgid "Star, planet, catalogue number…"
+msgstr "Sao, hành tinh, số danh mục…"
+
+msgid "Started"
+msgstr "Đã bắt đầu"
+
+msgid "Startup FOV"
+msgstr "FOV khởi động"
+
+msgid "Startup direction of view"
+msgstr "Hướng xem khởi động"
+
+msgid "Stationary (begin prograde motion)"
+msgstr "Đứng yên (bắt đầu chuyển động xuôi)"
+
+msgid "Stationary (begin retrograde motion)"
+msgstr "Đứng yên (bắt đầu chuyển động ngược)"
+
+msgid "Stellarium's user guide covers the astronomy this app shares with it: stellarium.org/documentation"
+msgstr "Hướng dẫn người dùng của Stellarium bao gồm kiến thức thiên văn mà ứng dụng này chia sẻ với nó: stellarium.org/documentation"
+
+msgid "Step, hours"
+msgstr "Bước, giờ"
+
+msgid "Stop clock when starting"
+msgstr "Dừng đồng hồ khi khởi động"
+
+msgid "Strasbourg astronomical Data Center (France)"
+msgstr "Trung tâm Dữ liệu Thiên văn Strasbourg (Pháp)"
+
+msgid "Style"
+msgstr "Kiểu dáng"
+
+msgid "Sun altitude"
+msgstr "Độ cao mặt trời"
+
+msgid "Sun at"
+msgstr "Mặt Trời tại"
+
+msgid "Sun's altitude"
+msgstr "Độ cao của mặt trời"
+
+msgid "Sun's corona"
+msgstr "Vành ngoài của mặt trời"
+
+msgid "Sun's glare"
+msgstr "Chớp mắt của mặt trời"
+
+msgid "Sun, planets and moons of first body and observer's planet"
+msgstr "Mặt Trời, hành tinh và mặt trăng của vật thể đầu tiên và hành tinh của người quan sát"
+
+msgid "Sun, planets and moons of observer's planet"
+msgstr "Mặt Trời, hành tinh và mặt trăng của hành tinh người quan sát"
+
+msgid "Sunlight scattered by interplanetary dust"
+msgstr "Ánh sáng mặt trời tán xạ bởi bụi giữa các hành tinh"
+
+msgid "Supergalactic"
+msgstr "Siêu thiên hà"
+
+msgid "Superior conjunction"
+msgstr "Giao hội trên"
+
+msgid "Supernova candidates"
+msgstr "Ứng cử viên siêu tân tinh"
+
+msgid "Supernova remnant candidates"
+msgstr "Ứng cử viên dấu vết siêu tân tinh"
+
+msgid "Surveys"
+msgstr "Khảo sát"
+
+msgid "Switch this off to see the trails for all Solar system bodies"
+msgstr "Tắt cái này để xem dấu vết cho tất cả các vật thể Hệ mặt trời"
+
+msgid "Symbiotic stars"
+msgstr "Sao sinh biệt"
+
+msgid "Synodic period"
+msgstr "Chu kỳ hợp"
+
+msgid "System date at"
+msgstr "Ngày hệ thống tại"
+
+msgid "Table"
+msgstr "Bảng"
+
+msgid "Tabular output for coordinates and time"
+msgstr "Đầu ra dạng bảng cho tọa độ và thời gian"
+
+msgid "Tap a colour to change it. Changes show on the sky at once and are kept."
+msgstr "Nhấn vào một màu để thay đổi nó. Các thay đổi được hiển thị trên bầu trời ngay lập tức và được giữ lại."
+
+msgid "Tap again to confirm"
+msgstr "Nhấn lại để xác nhận"
+
+msgid "Tap an object"
+msgstr "Nhấn vào một đối tượng"
+
+msgid "Tap the chart to read a value."
+msgstr "Nhấn vào biểu đồ để đọc giá trị."
+
+msgid "Tap the clock"
+msgstr "Nhấn vào đồng hồ"
+
+msgid "Tap the gear"
+msgstr "Nhấn vào bánh xe"
+
+msgid "Tap the map to stand there."
+msgstr "Nhấn vào bản đồ để đứng ở đó."
+
+msgid "Tap the place"
+msgstr "Nhấn vào vị trí"
+
+msgid "Tap to confirm"
+msgstr "Nhấn để xác nhận"
+
+msgid "Tertiary intercardinal points"
+msgstr "Các điểm hướng ba cấp"
+
+msgid "Text angle"
+msgstr "Góc văn bản"
+
+msgid "The Great Red Spot drifts in System II longitude. Enter a recent measurement and the drift rate to carry it forward from."
+msgstr "Vết Đỏ Lớn trôi dạt trong kinh độ Hệ thống II. Nhập một phép đo gần đây và tốc độ trôi dạt để mang nó về phía trước."
+
+msgid "The algorithm is based on visual observations 1877-1891 by G. Müller and was still republished in the Explanatory Supplement to the Astronomical Ephemeris (1961)."
+msgstr "Thuật toán dựa trên quan sát trực quan 1877-1891 của G. Müller và vẫn được tái xuất bản trong Phần phụ lục Giải thích cho Ephemeris Thiên văn (1961)."
+
+msgid "The algorithm was published by A. Mallama & J. L. Hilton: Computing apparent planetary magnitudes for the Astronomical Almanac. Astronomy&Computing 25 (2018) 10-24."
+msgstr "Thuật toán được công bố bởi A. Mallama & J. L. Hilton: Computing apparent planetary magnitudes for the Astronomical Almanac. Astronomy&Computing 25 (2018) 10-24."
+
+msgid "The algorithm was published in the 2nd edition of the Explanatory Supplement to the Astronomical Almanac (1992)."
+msgstr "Thuật toán được công bố trong ấn bản lần thứ 2 của Phần phụ lục Giải thích cho Almanac Thiên văn (1992)."
+
+msgid "The algorithm was published in the 3rd edition of the Explanatory Supplement to the Astronomical Almanac (2013)."
+msgstr "Thuật toán được công bố trong ấn bản lần thứ 3 của Phần phụ lục Giải thích cho Almanac Thiên văn (2013)."
+
+msgid "The algorithm was used in the Astronomical Almanac (1984 and later) and gives V (instrumental) magnitudes (allegedly from D.L. Harris)."
+msgstr "Thuật toán được sử dụng trong Astronomical Almanac (1984 và sau này) và cho độ sáng V (instrumental) (được cho là từ D.L. Harris)."
+
+msgid "The classical cepheids"
+msgstr "Cepheid cổ điển"
+
+msgid "The colour each kind of object is drawn in"
+msgstr "Màu mà mỗi loại đối tượng được vẽ"
+
+msgid "The engine did not answer with any colours."
+msgstr "Động cơ không trả lời với bất kỳ màu nào."
+
+msgid "The galactic band"
+msgstr "Dải thiên hà"
+
+msgid "The greatest eclipse is invisible in current location"
+msgstr "Nhật thực lớn nhất không nhìn thấy ở vị trí hiện tại"
+
+msgid "The horizon outline instead of the panorama"
+msgstr "Đường viền chân trời thay vì toàn cảnh"
+
+msgid "The path each body has taken across the sky"
+msgstr "Đường dẫn mà mỗi vật thể đã đi qua bầu trời"
+
+msgid "The shortest label the culture defines"
+msgstr "Nhãn ngắn nhất mà nền văn hóa xác định"
+
+msgid "Thickness"
+msgstr "Độ dày"
+
+msgid "This copy ships no scripts."
+msgstr "Bản sao này không chứa tập lệnh."
+
+msgid "This device has no location service."
+msgstr "Thiết bị này không có dịch vụ vị trí."
+
+msgid "This part of the engine exposes no settings on this build."
+msgstr "Phần này của động cơ không tiếp xúc với cài đặt trong bản xây dựng này."
+
+msgid "This tool works on Earth only!"
+msgstr "Công cụ này chỉ hoạt động trên Trái Đất!"
+
+msgid "This tool works on Earth only. Short steps over a long duration are slow."
+msgstr "Công cụ này chỉ hoạt động trên Trái Đất. Những bước ngắn trong khoảng thời gian dài rất chậm."
+
+msgid "This year"
+msgstr "Năm này"
+
+msgid "Time of day"
+msgstr "Thời gian trong ngày"
+
+msgid "Time span"
+msgstr "Khoảng thời gian"
+
+msgid "Time step"
+msgstr "Bước thời gian"
+
+msgid "To the next (mths)"
+msgstr "Đến tiếp theo (tháng)"
+
+msgid "To the next, months"
+msgstr "Đến tiếp theo, tháng"
+
+msgid "Today"
+msgstr "Hôm nay"
+
+msgid "Toggle display of nebula images."
+msgstr "Chuyển đổi hiển thị hình ảnh tinh vân."
+
+msgid "Toggle display of the button for the Digitized Sky Survey."
+msgstr "Chuyển đổi hiển thị nút cho Khảo sát Bầu trời Kỹ thuật số."
+
+msgid "Toggle display of the button for the HiPS Surveys. Select a survey in the View settings."
+msgstr "Chuyển đổi hiển thị nút cho Khảo sát HiPS. Chọn một khảo sát trong cài đặt Xem."
+
+msgid "Toggle drawing Sun's glare"
+msgstr "Chuyển đổi vẽ chớp mắt của mặt trời"
+
+msgid "Toggle drawing halo around the Moon"
+msgstr "Chuyển đổi vẽ quầng hào quang xung quanh mặt trăng"
+
+msgid "Toggle permanent drawing of Sun's corona when atmosphere is disabled"
+msgstr "Chuyển đổi vẽ vành ngoài của mặt trời khi khí quyển bị vô hiệu hóa"
+
+msgid "Toggle the usage of background under GUI buttons"
+msgstr "Chuyển đổi sử dụng nền dưới các nút GUI"
+
+msgid "Total eclipse begins"
+msgstr "Nhật thực toàn phần bắt đầu"
+
+msgid "Total eclipse ends"
+msgstr "Nhật thực toàn phần kết thúc"
+
+msgid "Trails"
+msgstr "Dấu vết"
+
+msgid "Transit"
+msgstr "Giao thông"
+
+msgid "Translated"
+msgstr "Được dịch"
+
+msgid "Transparency"
+msgstr "Độ trong suốt"
+
+msgid "Twilight"
+msgstr "Chtwilight"
+
+msgid "Twilight and rise and set times are worked out for an observer on Earth. Move back to Earth to see them."
+msgstr "Thời gian chtwilight, mọc và lặn được tính toán cho người quan sát trên Trái Đất. Quay lại Trái Đất để xem chúng."
+
+msgid "Twinkle"
+msgstr "Lấp lánh"
+
+msgid "Twinkle amount"
+msgstr "Lượng lấp lánh"
+
+msgid "Twinkle even without atmosphere"
+msgstr "Lấp lánh thậm chí không có khí quyển"
+
+msgid "Twinkle is caused by atmospheric turbulence; this shows it regardless"
+msgstr "Lấp lánh do rối loạn khí quyển gây ra; điều này cho thấy nó bất kể"
+
+msgid "Type a name, a Bayer letter or a catalogue number - Vega, α Lyr, M 31, NGC 224."
+msgstr "Nhập một tên, một chữ cái Bayer hoặc một số danh mục - Vega, α Lyr, M 31, NGC 224."
+
+msgid "Types"
+msgstr "Loại"
+
+msgid "Umbral magnitude"
+msgstr "Độ sáng bóng tối"
+
+msgid "Unnamed star"
+msgstr "Sao không tên"
+
+msgid "Up to mag."
+msgstr "Lên đến cấp độ."
+
+msgid "Use SIMBAD"
+msgstr "Sử dụng SIMBAD"
+
+msgid "Use additional names of DSO"
+msgstr "Sử dụng tên bổ sung của DSO"
+
+msgid "Use buttons background"
+msgstr "Sử dụng nền nút"
+
+msgid "Use common symbols for coordinate systems"
+msgstr "Sử dụng ký hiệu chung cho hệ tọa độ"
+
+msgid "Use custom time zone"
+msgstr "Sử dụng múi giờ tùy chỉnh"
+
+msgid "Use distance from North Celestial Pole, not declination from equator in equatorial coordinates"
+msgstr "Sử dụng khoảng cách từ Cực Thiên Cầu Bắc, không phải xích vĩ từ xích đạo trong tọa độ xích đạo"
+
+msgid "Use mag/arcsec^2 for surface brightness"
+msgstr "Sử dụng mag/arcsec^2 cho độ sáng bề mặt"
+
+msgid "Use more accurate 3D models (where available)"
+msgstr "Sử dụng các mô hình 3D chính xác hơn (nếu có)"
+
+msgid "Use my location"
+msgstr "Sử dụng vị trí của tôi"
+
+msgid "Use on-line astronomical database SIMBAD"
+msgstr "Sử dụng cơ sở dữ liệu thiên văn trực tuyến SIMBAD"
+
+msgid "Use outlines for big deep-sky objects"
+msgstr "Sử dụng đường viền cho các đối tượng bầu trời sâu lớn"
+
+msgid "Use sorting by string length"
+msgstr "Sử dụng sắp xếp theo độ dài chuỗi"
+
+msgid "Use the date now shown in the sky"
+msgstr "Sử dụng ngày được hiển thị trên bầu trời"
+
+msgid "Use the value in landscape.ini when it has one"
+msgstr "Sử dụng giá trị trong landscape.ini khi nó có giá trị"
+
+msgid "Use the value stored for this location"
+msgstr "Sử dụng giá trị được lưu cho vị trí này"
+
+msgid "Var. stars"
+msgstr "Sao thay đổi"
+
+msgid "Version %s  ·  Qt %s"
+msgstr "Phiên bản %s  ·  Qt %s"
+
+msgid "View recent GRS measurements"
+msgstr "Xem các phép đo GRS gần đây"
+
+msgid "Visibility"
+msgstr "Tầm nhìn"
+
+msgid "Visual magnitude based on phase angle and albedo."
+msgstr "Độ sáng trực quan dựa trên góc pha và albedo."
+
+msgid "Western quadrature"
+msgstr "Tứ phân phương Tây"
+
+msgid "When a search result is chosen"
+msgstr "Khi một kết quả tìm kiếm được chọn"
+
+msgid "Where Jupiter's Great Red Spot was, and when"
+msgstr "Nơi Vết Đỏ Lớn của Sao Mộc và khi nào"
+
+msgid "Width"
+msgstr "Chiều rộng"
+
+msgid "Working out the contact times…"
+msgstr "Tính toán thời gian liên hệ…"
+
+msgid "Year"
+msgstr "Năm"
+
+msgid "Zenith and Nadir"
+msgstr "Thiên đỉnh và Địa tây dương"
+
+msgid "Zodiac and lunar stations"
+msgstr "Hoàng đạo và các trạm mặt trăng"
+
+msgid "Zodiacal Light brightness"
+msgstr "Độ sáng Ánh sáng Hoàng đạo"
+
+msgid "Zoom in and out"
+msgstr "Phóng to và thu nhỏ"
+
+msgid "after sunset"
+msgstr "sau khi mặt trời lặn"
+
+msgid "before sunrise"
+msgstr "trước khi mặt trời mọc"
+
+msgid "bright suburban"
+msgstr "ngoại ô sáng"
+
+msgid "east +"
+msgstr "đông +"
+
+msgid "engine ready, interface going live"
+msgstr "công cụ sẵn sàng, giao diện đi vào hoạt động"
+
+msgid "excellent dark sky"
+msgstr "bầu trời tối xuất sắc"
+
+msgid "inner city"
+msgstr "thành phố trong"
+
+msgid "mag %s"
+msgstr "cấp độ sáng %s"
+
+msgid "max %s"
+msgstr "cực đại %s"
+
+msgid "mid %s"
+msgstr "giữa %s"
+
+msgid "north +"
+msgstr "bắc +"
+
+msgid "rural/suburban"
+msgstr "nông thôn/ngoại ô"
+
+msgid "select all"
+msgstr "chọn tất cả"
+
+msgid "select none"
+msgstr "chọn không có"
+
+msgid "select preference"
+msgstr "chọn sở thích"
+
+msgid "select standard"
+msgstr "chọn chuẩn"
+
+msgid "store preference"
+msgstr "lưu tùy chọn"
+
+msgid "suburban/urban"
+msgstr "ngoại ô/thành phố"
+
+msgid "truly dark"
+msgstr "thực sự tối"
+
+msgid "unreadable snapshot"
+msgstr "ảnh không đọc được"
+
+msgid "with Solar Dates"
+msgstr "với Ngày Mặt Trời"
+
+msgid "… and moons"
+msgstr "… và các mặt trăng"

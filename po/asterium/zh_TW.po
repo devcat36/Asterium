@@ -1,0 +1,1498 @@
+# Asterium interface translation for zh_TW.
+# Copyright (C) 2026 the Asterium authors
+# This file is distributed under the same licence as the Asterium package.
+#
+# MACHINE TRANSLATION, not reviewed by a speaker of this language.
+# Terminology follows upstream Stellarium's own zh_TW catalogue, which was used
+# as a glossary, and every entry keeps the source's printf placeholders.
+# Corrections from a human translator are welcome and should simply replace these.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: asterium\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%d bodies"
+msgstr "%d 個天體"
+
+msgid "%d object"
+msgstr "%d 個天體"
+
+msgid "%d objects"
+msgstr "%d 個天體"
+
+msgid "%s colour"
+msgstr "%s 色彩"
+
+msgid "%s from %s, ±%.0f m"
+msgstr "來自 %s，%s，±%.0f 公尺"
+
+msgid "12-hour"
+msgstr "12小時制"
+
+msgid "1× below"
+msgstr "低1倍"
+
+msgid "24-hour"
+msgstr "24小時制"
+
+msgid "A button to mark every object of the current observing list on the sky."
+msgstr "在天空上標記當前觀測列表中每個天體的按鍵"
+
+msgid "A polygonal model for some small moons, asteroids and comets instead of a sphere"
+msgstr "用多邊形模型表示某些小衛星、小行星和彗星而非球形"
+
+msgid "A touch-first planetarium forked from Stellarium, whose astronomy engine it uses unchanged. The interface is new; everything that draws the sky is upstream's work."
+msgstr "源自Stellarium的觸控優先星象儀，其天文演算引擎未加改動。介面是全新的；所有繪製天空的內容都來自上游。"
+
+msgid "Abbreviated names"
+msgstr "簡稱名稱"
+
+msgid "About this sky culture"
+msgstr "關於此星空述語"
+
+msgid "Above altitude, °"
+msgstr "高度以上，°"
+
+msgid "Absolute scale"
+msgstr "絕對標度"
+
+msgid "Add %s"
+msgstr "新增 %s"
+
+msgid "Adjust brightness to bright objects"
+msgstr "對亮天體調整亮度"
+
+msgid "Algorithm of ΔT"
+msgstr "ΔT 演算法"
+
+msgid "All naked-eye planets"
+msgstr "所有肉眼可見行星"
+
+msgid "All solar eclipses"
+msgstr "所有日食"
+
+msgid "Allow negative hour angles"
+msgstr "允許負時角"
+
+msgid "Allow results outside the recommended time range of the orbital elements"
+msgstr "允許軌道要素推薦時間範圍外的結果"
+
+msgid "Almanac"
+msgstr "年鑑"
+
+msgid "Also find"
+msgstr "也尋找"
+
+msgid "Also plot"
+msgstr "也繪製"
+
+msgid "Also show moons of selected object or planets"
+msgstr "也顯示選定物體或行星的衛星"
+
+msgid "Altitude limit, °"
+msgstr "高度角限制，°"
+
+msgid "Amount"
+msgstr "數量"
+
+msgid "An observer floats above its planet, so there is nowhere on it to stand. Choose another planet to come back down."
+msgstr "觀測者漂浮在其行星上方，無處可立足。選擇另一個行星以返回地面。"
+
+msgid "And"
+msgstr "且"
+
+msgid "And also"
+msgstr "也"
+
+msgid "And the next (years)"
+msgstr "及下一個（年數）"
+
+msgid "Annual drift"
+msgstr "年度漂移"
+
+msgid "Appearance"
+msgstr "外觀"
+
+msgid "Apply time interval limits to list"
+msgstr "應用時間間隔限制至列表"
+
+msgid "Art"
+msgstr "圖繪"
+
+msgid "Artificial satellites and unnamed stars are excluded from calculation."
+msgstr "人工衛星和未命名恆星已排除於計算外。"
+
+msgid "Asking for permission…"
+msgstr "正在請求權限…"
+
+msgid "Asks SIMBAD what it holds around the object that is selected now, and prints the answer as it comes back."
+msgstr "查詢SIMBAD在當前選定天體周圍所持有的資訊，並打印返回的答案。"
+
+msgid "Ast. lines"
+msgstr "星群線"
+
+msgid "Ast. names"
+msgstr "星群名"
+
+msgid "Astronomical Almanac (default) enlarges by 2%; Danjon (1951) differs slightly"
+msgstr "天文年鑑（預設）放大 2%；Danjon（1951）略有差異"
+
+msgid "Astronomical night"
+msgstr "天文夜間"
+
+msgid "At"
+msgstr "於"
+
+msgid "Atmosph."
+msgstr "大氣"
+
+msgid "Automatic closing dialog"
+msgstr "自動關閉對話框"
+
+msgid "Automatic transparency"
+msgstr "自動透明度"
+
+msgid "Axis distance"
+msgstr "軸距"
+
+msgid "Azi. grid"
+msgstr "方位網"
+
+msgid "Azimuth and altitude rather than right ascension and declination"
+msgstr "方位角和高度角而非赤經和赤緯"
+
+msgid "Below the horizon here."
+msgstr "在此處地平線以下。"
+
+msgid "Between objects"
+msgstr "天體之間"
+
+msgid "Boundless"
+msgstr "無邊界"
+
+msgid "Bounds"
+msgstr "界線"
+
+msgid "Brighter than"
+msgstr "比…亮"
+
+msgid "By object type"
+msgstr "按天體類型"
+
+msgid "By planet"
+msgstr "按行星"
+
+msgid "Calculating…"
+msgstr "計算中…"
+
+msgid "Cardinals"
+msgstr "方位點"
+
+msgid "Catalogue numbers instead of common names"
+msgstr "目錄編號而非常用名稱"
+
+msgid "Category"
+msgstr "分類"
+
+msgid "Central duration"
+msgstr "中心食持續時間"
+
+msgid "Centre"
+msgstr "中心"
+
+msgid "Centre on object"
+msgstr "在天體上置中"
+
+msgid "Centre point"
+msgstr "中心點"
+
+msgid "Circles"
+msgstr "圓形"
+
+msgid "City"
+msgstr "城市"
+
+msgid "Cleanup"
+msgstr "清除"
+
+msgid "Clear recent searches"
+msgstr "清除最近的搜尋"
+
+msgid "Clear the selection - a touch screen has no right button"
+msgstr "清除選擇 - 觸控螢幕沒有右鍵"
+
+msgid "Cleared."
+msgstr "已清除。"
+
+msgid "Close"
+msgstr "關閉"
+
+msgid "Close what is open; from the sky, leave the app running"
+msgstr "關閉開啟的內容；從天空離開，保持應用程式執行"
+
+msgid "Coarse"
+msgstr "粗糙"
+
+msgid "Color"
+msgstr "色彩"
+
+msgid "Color channel"
+msgstr "色彩通道"
+
+msgid "Color of Lunar station lines"
+msgstr "月宮線的色彩"
+
+msgid "Color of orbits"
+msgstr "軌道的色彩"
+
+msgid "Color of zodiac lines"
+msgstr "黃道線的色彩"
+
+msgid "Colors of orbit lines"
+msgstr "軌道線的色彩"
+
+msgid "Comets up to mag."
+msgstr "星等達到的彗星"
+
+msgid "Compass"
+msgstr "羅盤"
+
+msgid "Connecting line"
+msgstr "連接線"
+
+msgid "Contrast"
+msgstr "對比"
+
+msgid "Coordinate system"
+msgstr "座標系統"
+
+msgid "Coordinates"
+msgstr "座標"
+
+msgid "Copyright"
+msgstr "著作權"
+
+msgid "Credits"
+msgstr "製作人員"
+
+msgid "Custom"
+msgstr "自訂"
+
+msgid "Custom altitude of the Moon, °"
+msgstr "月球的自訂高度角，°"
+
+msgid "Custom altitude of the Sun, °"
+msgstr "太陽的自訂高度角，°"
+
+msgid "Custom values"
+msgstr "自訂值"
+
+msgid "Cut the scale off below the limit"
+msgstr "在限制以下切斷標度"
+
+msgid "DATE AND TIME (UTC)"
+msgstr "日期和時間 (UTC)"
+
+msgid "Date and time"
+msgstr "日期和時間"
+
+msgid "Date/time"
+msgstr "日期/時間"
+
+msgid "Dates"
+msgstr "日期"
+
+msgid "December solstice"
+msgstr "冬至"
+
+msgid "Decimal degrees. −33.87 means 33.87° south. Elevation is metres above sea level; it moves the horizon down by a few arcminutes."
+msgstr "十進位度數。−33.87 表示南方 33.87°。高度是海面上方的公尺；它將地平線向下移動幾角分。"
+
+msgid "Degrees per year the longitude moves by"
+msgstr "經度每年移動的度數"
+
+msgid "Degrees, hours and minutes as they are written - 12h30m49s, +41°16'09\", 187.7 - or plain decimal degrees."
+msgstr "按其書寫方式的度、時、分 - 12h30m49s、+41°16'09\"、187.7 - 或純十進位度數。"
+
+msgid "Deletes all recent search object data, and the objects SIMBAD contributed."
+msgstr "刪除所有最近的搜尋天體資料及SIMBAD貢獻的天體。"
+
+msgid "Designations for celestial coordinate systems"
+msgstr "天球座標系統的稱號"
+
+msgid "Designations for double stars"
+msgstr "雙星的稱號"
+
+msgid "Designations for variable stars"
+msgstr "變星的稱號"
+
+msgid "Dim a survey near the horizon, as the air does"
+msgstr "淡化地平線附近的巡測，如空氣所做的那樣"
+
+msgid "Done"
+msgstr "完成"
+
+msgid "Drag"
+msgstr "拖曳"
+
+msgid "Draw deep-sky objects at all"
+msgstr "繪製深空天體"
+
+msgid "Draw the enabled sky surveys"
+msgstr "繪製啟用的天空巡測"
+
+msgid "Draw the planets, moons and minor bodies"
+msgstr "繪製行星、衛星和小天體"
+
+msgid "Drawn larger than life, so a body that is a few arcseconds wide is visible at all. The position stays true."
+msgstr "繪製得比實際大，因此寬度為幾角秒的天體仍可見。位置保持正確。"
+
+msgid "Duration (years)"
+msgstr "持續時間（年數）"
+
+msgid "Duration, months"
+msgstr "持續時間，月份"
+
+msgid "Dusk"
+msgstr "薄暮"
+
+msgid "Dynamic (FOV-based) Moon size"
+msgstr "動態（基於FOV）月球大小"
+
+msgid "ELEV. M"
+msgstr "高度 M"
+
+msgid "Ecl. grid"
+msgstr "黃道網"
+
+msgid "Eclipses are computed for observers on Earth."
+msgstr "食是為地球上的觀測者計算的。"
+
+msgid "Elevation in metres"
+msgstr "海拔高度（公尺）"
+
+msgid "Elongations and quadratures"
+msgstr "伸長和方照"
+
+msgid "Enabled only"
+msgstr "僅啟用"
+
+msgid "Enter Culture..."
+msgstr "輸入星空述語…"
+
+msgid "Equ. grid"
+msgstr "赤道網"
+
+msgid "Equ. mount"
+msgstr "赤道儀"
+
+msgid "Equatorial radii ratio"
+msgstr "赤道半徑比"
+
+msgid "Evening"
+msgstr "傍晚"
+
+msgid "Every"
+msgstr "每"
+
+msgid "Every name the object is catalogued under"
+msgstr "天體的每個編目名稱"
+
+msgid "Exterior egress"
+msgstr "外部離開"
+
+msgid "Exterior ingress"
+msgstr "外部進入"
+
+msgid "Fades the ground as you look below the horizon or zoom in"
+msgstr "看向地平線以下或放大時，地面會逐漸透明"
+
+msgid "Fading duration"
+msgstr "淡出持續時間"
+
+msgid "Faintest shown"
+msgstr "最暗顯示"
+
+msgid "Favorites"
+msgstr "收藏"
+
+msgid "Fetching the survey lists…"
+msgstr "正在獲取巡測列表…"
+
+msgid "Filter"
+msgstr "篩選"
+
+msgid "Find a city"
+msgstr "尋找城市"
+
+msgid "Fine"
+msgstr "精細"
+
+msgid "First %d of %d - filter to narrow it."
+msgstr "前 %d 個（共 %d 個）- 篩選以縮小範圍。"
+
+msgid "First body"
+msgstr "第一個天體"
+
+msgid "First graph"
+msgstr "第一個圖表"
+
+msgid "Fixed instant"
+msgstr "固定時刻"
+
+msgid "Flip horiz."
+msgstr "水平翻"
+
+msgid "Flip vert."
+msgstr "垂直翻"
+
+msgid "Frame rate"
+msgstr "幀率"
+
+msgid "From"
+msgstr "從"
+
+msgid "Full screen"
+msgstr "全屏"
+
+msgid "Further reading"
+msgstr "進一步閱讀"
+
+msgid "GRS details…"
+msgstr "GRS 詳細資訊…"
+
+msgid "Gal. grid"
+msgstr "銀河網"
+
+msgid "Gamma, saturation, brightness, contrast, opacity, colour channel and inverted colours belong to one survey. Open a survey to set them."
+msgstr "Gamma、飽和度、亮度、對比、不透明度、色彩通道和反轉色彩屬於一個巡測。打開巡測以設定它們。"
+
+msgid "Gestures"
+msgstr "手勢"
+
+msgid "Go there"
+msgstr "前往該處"
+
+msgid "Go to this eclipse"
+msgstr "前往此食"
+
+msgid "Go to this moment"
+msgstr "前往此時刻"
+
+msgid "Go to this transit"
+msgstr "前往此凌日"
+
+msgid "Great Red Spot"
+msgstr "大紅斑"
+
+msgid "Great Red Spot details"
+msgstr "大紅斑詳細資訊"
+
+msgid "Greatest elongation for an inner planet, quadrature for an outer one"
+msgstr "內行星的最大伸長，外行星的方照"
+
+msgid "Greek letters"
+msgstr "希臘字母"
+
+msgid "Grid density"
+msgstr "格線密度"
+
+msgid "Grids"
+msgstr "格線"
+
+msgid "Ground"
+msgstr "地面"
+
+msgid "Gyro"
+msgstr "陀螺儀"
+
+msgid "Gyro mode"
+msgstr "陀螺儀模式"
+
+msgid "Height"
+msgstr "高度"
+
+msgid "Heliocentric ecliptic positions of the major planets."
+msgstr "主要行星的日心黃道位置。"
+
+msgid "HiPS"
+msgstr "HiPS"
+
+msgid "Hide controls"
+msgstr "隱藏控制項"
+
+msgid "Hide deep-sky objects fainter than the limit"
+msgstr "隱藏亮度低於限制的深空天體"
+
+msgid "Hide orbits of minor bodies"
+msgstr "隱藏小天體的軌道"
+
+msgid "Highlight"
+msgstr "強調"
+
+msgid "Highlight the objects of the observing list"
+msgstr "醒目顯示觀測列表中的天體"
+
+msgid "Hint circles marking each planet"
+msgstr "標記每個行星的提示圓形"
+
+msgid "Hints brightness"
+msgstr "提示亮度"
+
+msgid "Hipparcos designations"
+msgstr "Hipparcos 稱號"
+
+msgid "Hour angles usually run 0...24h. This counts -12h...12h."
+msgstr "時角通常為 0...24h。這個計算為 -12h...12h。"
+
+msgid "How many"
+msgstr "多少"
+
+msgid "ICRS grid"
+msgstr "ICRS 格"
+
+msgid "Include"
+msgstr "包含"
+
+msgid "Include bright comets"
+msgstr "包含明亮彗星"
+
+msgid "Info label"
+msgstr "資訊標籤"
+
+msgid "Intercardinal points"
+msgstr "間隙方位點"
+
+msgid "Interior egress"
+msgstr "內部離開"
+
+msgid "Interior ingress"
+msgstr "內部進入"
+
+msgid "Isolated"
+msgstr "隔離"
+
+msgid "Its elevation, and the civil, nautical and astronomical twilights"
+msgstr "其高度角，以及民間、航海和天文暮光"
+
+msgid "Jovigraphic longitude of the spot in System II, in degrees"
+msgstr "系統II中該點的木星測地經度（度數）"
+
+msgid "June solstice"
+msgstr "夏至"
+
+msgid "Label"
+msgstr "標籤"
+
+msgid "Label colour"
+msgstr "標籤色彩"
+
+msgid "Labels and Markers amount"
+msgstr "標籤和標記數量"
+
+msgid "Labels brightness"
+msgstr "標籤亮度"
+
+msgid "Largest, ′"
+msgstr "最大，′"
+
+msgid "Last known position"
+msgstr "最後已知位置"
+
+msgid "Lasting"
+msgstr "持續"
+
+msgid "Latitude −90…90, longitude −180…180."
+msgstr "緯度 −90…90，經度 −180…180。"
+
+msgid "Layer appearance"
+msgstr "圖層外觀"
+
+msgid "Leaves the landscape visible in darkness"
+msgstr "在黑暗中保持地景可見"
+
+msgid "Licence"
+msgstr "授權條款"
+
+msgid "Light pollution"
+msgstr "光污染"
+
+msgid "Light pollution from database"
+msgstr "資料庫中的光污染"
+
+msgid "Limit angular separation"
+msgstr "限制角間距"
+
+msgid "Limit angular size"
+msgstr "限制角度大小"
+
+msgid "Limit magnitude"
+msgstr "限制星等"
+
+msgid "Linear distance"
+msgstr "直線距離"
+
+msgid "Lines"
+msgstr "連線"
+
+msgid "Lines and circles"
+msgstr "連線和圓形"
+
+msgid "List"
+msgstr "列表"
+
+msgid "List name"
+msgstr "列表名稱"
+
+msgid "Lit windows, street lighting and the like"
+msgstr "點亮的窗戶、街道照明等"
+
+msgid "Loading…"
+msgstr "載入中…"
+
+msgid "Local solar eclipses"
+msgstr "本地日食"
+
+msgid "Local time"
+msgstr "當地時間"
+
+msgid "Local time, h"
+msgstr "當地時間，小時"
+
+msgid "Locate me"
+msgstr "定位我"
+
+msgid "Locating…"
+msgstr "正在定位…"
+
+msgid "Location is switched off in the system settings."
+msgstr "位置在系統設定中已關閉。"
+
+msgid "Location permission refused. The other two ways still work."
+msgstr "位置權限已拒絕。另外兩種方法仍可行。"
+
+msgid "Long press"
+msgstr "長按"
+
+msgid "Longitude of GRS"
+msgstr "GRS 的經度"
+
+msgid "Lunar Stations"
+msgstr "月宮"
+
+msgid "Lunar eclipses"
+msgstr "月食"
+
+msgid "Magnitudes"
+msgstr "星等"
+
+msgid "Major planets by planet, minor bodies by type"
+msgstr "按行星分組主要行星，按類型分組小天體"
+
+msgid "Map of the planet. Tap to set the observer's place."
+msgstr "行星地圖。點擊以設定觀測者的位置。"
+
+msgid "March equinox"
+msgstr "春分"
+
+msgid "Markers"
+msgstr "標記"
+
+msgid "Markers sized by the object's angular size"
+msgstr "按天體的角度大小調整標記大小"
+
+msgid "Master switch for the grids, lines and points below"
+msgstr "下方格線、連線和點的主開關"
+
+msgid "Max items to display"
+msgstr "最多顯示項目"
+
+msgid "Max. results"
+msgstr "最多結果"
+
+msgid "Maximum allowed separation"
+msgstr "最大允許間距"
+
+msgid "Maximum angular size"
+msgstr "最大角度大小"
+
+msgid "Maximum year"
+msgstr "最大年份"
+
+msgid "Mean motion"
+msgstr "平均運動"
+
+msgid "Mercury, Venus, Mars, Jupiter and Saturn at once. Earth only."
+msgstr "同時顯示水星、金星、火星、木星和土星。僅地球。"
+
+msgid "Milky Way brightness"
+msgstr "銀河亮度"
+
+msgid "Milky Way saturation"
+msgstr "銀河飽和度"
+
+msgid "Minimal angular size"
+msgstr "最小角度大小"
+
+msgid "Minimal brightness"
+msgstr "最小亮度"
+
+msgid "Minimum year"
+msgstr "最小年份"
+
+msgid "Minutes before sunrise / after sunset"
+msgstr "日出前/日落後的分鐘"
+
+msgid "Moon at"
+msgstr "月球在"
+
+msgid "Moon in zenith at"
+msgstr "月球在天頂處於"
+
+msgid "Morning"
+msgstr "上午"
+
+msgid "Move the sky by pointing the phone at it"
+msgstr "通過指著天空移動天空"
+
+msgid "Move the sky with the phone"
+msgstr "用手機移動天空"
+
+msgid "Name for the new list"
+msgstr "新列表的名稱"
+
+msgid "Named features the landscape marks"
+msgstr "地景標記的已命名特徵"
+
+msgid "Names"
+msgstr "名稱"
+
+msgid "Names beside the planets and their markers"
+msgstr "行星及其標記旁的名稱"
+
+msgid "Names in English"
+msgstr "英文名稱"
+
+msgid "Neb. bg"
+msgstr "星雲背"
+
+msgid "Nebulae"
+msgstr "星雲"
+
+msgid "Next"
+msgstr "下一個"
+
+msgid "Night"
+msgstr "夜間"
+
+msgid "No city matches that."
+msgstr "沒有城市符合該搜尋。"
+
+msgid "No eclipses found. Pick a range and calculate."
+msgstr "未找到食象。選擇日期範圍並計算。"
+
+msgid "No fresh fix - the receiver may have no sky. Try again outdoors, or set the place another way."
+msgstr "無新位置資訊 - 接收器可能無法接收信號。請在戶外重試，或以其他方式設定位置。"
+
+msgid "No surveys were found. The lists are downloaded, so this needs a connection."
+msgstr "找不到巡測。列表已下載，這需要網路連線。"
+
+msgid "None downloaded yet"
+msgstr "尚未下載任何內容"
+
+msgid "Normal"
+msgstr "標準"
+
+msgid "Note: this tool doesn't apply the refraction correction for coordinates. Horizontal coordinates stop the clock, or the sky would turn away from the point while you arrive at it."
+msgstr "注意：此工具不套用座標的折射校正。地平座標系會停止時間，否則當您到達該點時天空會轉向。"
+
+msgid "Nothing computed yet, or nothing in this category is up."
+msgstr "尚未計算，或此類別中沒有天體升起。"
+
+msgid "Nothing computed yet."
+msgstr "尚未計算。"
+
+msgid "Nothing found for “%s”."
+msgstr "找不到「%s」。"
+
+msgid "Nothing in this list matches."
+msgstr "此列表中沒有符合項目。"
+
+msgid "Nothing in this list yet. Pick something out of the sky and tap the star on its card to keep it here."
+msgstr "此列表中還沒有內容。從天空中選擇天體，並在其卡片上點選星星以保存於此。"
+
+msgid "Nothing is selected. Pick an object in the sky first."
+msgstr "未選取任何內容。先在天空中選擇一個天體。"
+
+msgid "Nothing matches."
+msgstr "無符合項目。"
+
+msgid "Nothing selected"
+msgstr "未選取任何內容"
+
+msgid "Nothing to plot."
+msgstr "無內容可繪製。"
+
+msgid "Nothing to show."
+msgstr "無內容可顯示。"
+
+msgid "N× above"
+msgstr "N× 上方"
+
+msgid "OBJECT"
+msgstr "天體"
+
+msgid "OBJECTS"
+msgstr "天體"
+
+msgid "Objects which are up"
+msgstr "升起的天體"
+
+msgid "Observable duration"
+msgstr "可觀測時間"
+
+msgid "Observing list highlight"
+msgstr "觀測列表標示"
+
+msgid "On the sky"
+msgstr "在天空上"
+
+msgid "One color"
+msgstr "單一顏色"
+
+msgid "Only for N latest selected objects"
+msgstr "僅針對最新選取的 N 個天體"
+
+msgid "Only list"
+msgstr "僅列表"
+
+msgid "Only one at a time"
+msgstr "一次只能一個"
+
+msgid "Only orbit for selected object…"
+msgstr "僅顯示選取天體的軌道…"
+
+msgid "Only orbits of major planets…"
+msgstr "僅顯示主要行星的軌道…"
+
+msgid "Open date and time"
+msgstr "開啟日期和時間"
+
+msgid "Open location"
+msgstr "開啟位置"
+
+msgid "Opens the JUPOS project in a browser"
+msgstr "在瀏覽器中開啟 JUPOS 專案"
+
+msgid "Opposition of"
+msgstr "對沖"
+
+msgid "Oppositions"
+msgstr "對沖"
+
+msgid "Orbit colors"
+msgstr "軌道顏色"
+
+msgid "Orbital periods ratio"
+msgstr "軌道週期比"
+
+msgid "Orbits"
+msgstr "軌道"
+
+msgid "Orbits of interstellar objects"
+msgstr "星際天體的軌道"
+
+msgid "Orbits of moons"
+msgstr "衛星的軌道"
+
+msgid "Otherwise every move adopts the zone of the new place."
+msgstr "否則每次移動都會採用新位置的時區。"
+
+msgid "Pan the sky"
+msgstr "平移天空"
+
+msgid "Partial eclipse begins"
+msgstr "偏食開始"
+
+msgid "Partial eclipse ends"
+msgstr "偏食結束"
+
+msgid "Partitions"
+msgstr "分割線"
+
+msgid "Partitions thickness"
+msgstr "分割線粗細"
+
+msgid "Path width"
+msgstr "路徑寬度"
+
+msgid "Pause"
+msgstr "暫停"
+
+msgid "Paused - start"
+msgstr "暫停 - 開始"
+
+msgid "Penumbral magnitude"
+msgstr "半影食分"
+
+msgid "Perihelion and aphelion"
+msgstr "近日點和遠日點"
+
+msgid "Pick two different bodies to see how their distance changes."
+msgstr "選擇兩個不同的天體以查看其距離如何變化。"
+
+msgid "Pinch"
+msgstr "捏動"
+
+msgid "Planet and time zone"
+msgstr "行星和時區"
+
+msgid "Planetary nomenclature"
+msgstr "行星命名"
+
+msgid "Planetary transits"
+msgstr "行星凌"
+
+msgid "Planets"
+msgstr "行星"
+
+msgid "Pluto, Ceres, Pallas, Juno and Vesta"
+msgstr "冥王星、穀神星、智神星、朱諾和灶神星"
+
+msgid "Point size"
+msgstr "點大小"
+
+msgid "Pointing"
+msgstr "指向"
+
+msgid "Polar distance"
+msgstr "極距"
+
+msgid "Polar distance, not declination"
+msgstr "極距，不是赤緯"
+
+msgid "Poles and points"
+msgstr "極點和特殊點"
+
+msgid "Polygon colour"
+msgstr "多邊形顏色"
+
+msgid "Positive values only"
+msgstr "僅正值"
+
+msgid "Previous"
+msgstr "上一個"
+
+msgid "Pronounce"
+msgstr "發音"
+
+msgid "Query options"
+msgstr "查詢選項"
+
+msgid "Quit"
+msgstr "離開"
+
+msgid "Reading…"
+msgstr "讀取中…"
+
+msgid "Real time speed"
+msgstr "實時速度"
+
+msgid "Refraction, extinction, sky brightness"
+msgstr "折射、消光、天空亮度"
+
+msgid "Relative scale"
+msgstr "相對尺度"
+
+msgid "Remove %s"
+msgstr "移除 %s"
+
+msgid "Remove from observing list"
+msgstr "從觀測列表移除"
+
+msgid "Rename"
+msgstr "重新命名"
+
+msgid "Reset all"
+msgstr "重置全部"
+
+msgid "Restarting…"
+msgstr "重新啟動中…"
+
+msgid "Rises"
+msgstr "升起"
+
+msgid "Rotation"
+msgstr "旋轉"
+
+msgid "Running"
+msgstr "執行中"
+
+msgid "SIMBAD did not answer."
+msgstr "SIMBAD 無回應。"
+
+msgid "SIMBAD is switched off in the search options."
+msgstr "SIMBAD 在搜尋選項中已關閉。"
+
+msgid "SIMBAD is switched off. Turn it on under Options to look objects up online."
+msgstr "SIMBAD 已關閉。在「選項」中開啟以線上查詢天體。"
+
+msgid "SIMBAD server"
+msgstr "SIMBAD 伺服器"
+
+msgid "Saros %s"
+msgstr "沙羅周期 %s"
+
+msgid "Saturation"
+msgstr "飽和度"
+
+msgid "Save either the current FOV and direction of view or all the current options for use at next startup. Restoring default settings requires a restart of the app."
+msgstr "保存當前的視野和視角，或保存所有當前選項以供下次啟動時使用。還原預設設置需要重新啟動應用程式。"
+
+msgid "Save to observing list"
+msgstr "保存到觀測列表"
+
+msgid "Scale"
+msgstr "縮放"
+
+msgid "Scale marker and label visibility by surface brightness"
+msgstr "根據表面亮度調整標記和標籤的可見性"
+
+msgid "Scales smoothly between 1× at the minimum field of view and the factor above at the maximum"
+msgstr "在最小視野的 1× 和最大視野的上述係數之間平滑縮放"
+
+msgid "Screen label"
+msgstr "螢幕標籤"
+
+msgid "Search in list"
+msgstr "在列表中搜尋"
+
+msgid "Seasons"
+msgstr "季節"
+
+msgid "Second body"
+msgstr "第二個天體"
+
+msgid "Second graph"
+msgstr "第二張圖表"
+
+msgid "Second object"
+msgstr "第二個天體"
+
+msgid "Secondary intercardinal points"
+msgstr "次要中間方位點"
+
+msgid "See the sky through the ground"
+msgstr "透過地景查看天空"
+
+msgid "Select an object first: this asks SIMBAD what it holds around it."
+msgstr "請先選擇一個天體：此舉會詢問 SIMBAD 其周圍的天體。"
+
+msgid "Select it and show its card"
+msgstr "選取它並顯示其卡片"
+
+msgid "Select something in the sky first — this page works on the selection."
+msgstr "先在天空中選擇東西 — 此頁面針對選取項目。"
+
+msgid "Selected object"
+msgstr "已選取的天體"
+
+msgid "Separate colors for orbits of major planets"
+msgstr "主要行星的軌道使用不同顏色"
+
+msgid "September equinox"
+msgstr "秋分"
+
+msgid "Server"
+msgstr "伺服器"
+
+msgid "Set the clock to %s"
+msgstr "將時鐘設定為 %s"
+
+msgid "Set the place"
+msgstr "設定位置"
+
+msgid "Set to now"
+msgstr "設定為現在"
+
+msgid "Sets"
+msgstr "落下"
+
+msgid "Shadow map for non-convex bodies. May coarsen the penumbra on some objects"
+msgstr "非凸體的陰影貼圖。可能會粗化某些天體的半影"
+
+msgid "Shooting stars"
+msgstr "流星"
+
+msgid "Short notation for units of surface brightness"
+msgstr "表面亮度單位的簡寫"
+
+msgid "Short steps over a long duration are slow."
+msgstr "長時間內的短步長很慢。"
+
+msgid "Show"
+msgstr "顯示"
+
+msgid "Show all information"
+msgstr "顯示所有資訊"
+
+msgid "Show atmospheric extinction"
+msgstr "顯示大氣消光"
+
+msgid "Show controls"
+msgstr "顯示控制項"
+
+msgid "Show each body where it was when the light left it (recommended)"
+msgstr "顯示每個天體發出光線時所在的位置（推薦）"
+
+msgid "Show frames per second beside the field of view"
+msgstr "在視野旁顯示每秒幀數"
+
+msgid "Show illumination"
+msgstr "顯示照度"
+
+msgid "Show in sky"
+msgstr "在天空中顯示"
+
+msgid "Show less"
+msgstr "顯示較少"
+
+msgid "Show lunar stations (if defined)"
+msgstr "顯示月宿（如果已定義）"
+
+msgid "Show more"
+msgstr "顯示更多"
+
+msgid "Show objects which are up"
+msgstr "顯示升起的天體"
+
+msgid "Show only objects between the two sizes"
+msgstr "僅顯示這兩個尺寸之間的天體"
+
+msgid "Show only the kinds ticked below"
+msgstr "僅顯示下方勾選的類型"
+
+msgid "Show or hide the two rails of controls"
+msgstr "顯示或隱藏兩個控制軌道"
+
+msgid "Show surveys"
+msgstr "顯示巡測"
+
+msgid "Show this survey"
+msgstr "顯示此巡測"
+
+msgid "Show zodiac (if defined)"
+msgstr "顯示黃道（如果已定義）"
+
+msgid "Simbad Lookup Error: %s"
+msgstr "SIMBAD 查詢錯誤：%s"
+
+msgid "Simbad Lookup: querying"
+msgstr "SIMBAD 查詢：查詢中"
+
+msgid "Simulation"
+msgstr "模擬"
+
+msgid "Sky and viewing options"
+msgstr "天空和檢視選項"
+
+msgid "Sky culture"
+msgstr "星空述語"
+
+msgid "Slow down"
+msgstr "減速"
+
+msgid "Smallest, ′"
+msgstr "最小，′"
+
+msgid "Solar altitude for Twilight Finder"
+msgstr "暮光尋星工具的太陽高度"
+
+msgid "Solar elongation"
+msgstr "太陽離角"
+
+msgid "Speed up"
+msgstr "加速"
+
+msgid "Stand where the landscape was shot, on the planet it names"
+msgstr "站在地景拍攝位置，在其標示的星球上"
+
+msgid "Star, planet, catalogue number…"
+msgstr "恆星、行星、星表編號…"
+
+msgid "Started"
+msgstr "已啟動"
+
+msgid "Startup FOV"
+msgstr "啟動視野"
+
+msgid "Startup direction of view"
+msgstr "啟動視角"
+
+msgid "Stellarium's user guide covers the astronomy this app shares with it: stellarium.org/documentation"
+msgstr "Stellarium 使用指南涵蓋此應用程式與其共享的天文學：stellarium.org/documentation"
+
+msgid "Step, hours"
+msgstr "步長，小時"
+
+msgid "Style"
+msgstr "風格"
+
+msgid "Sun altitude"
+msgstr "太陽高度"
+
+msgid "Sun at"
+msgstr "太陽在"
+
+msgid "Sun's altitude"
+msgstr "太陽高度"
+
+msgid "Sunlight scattered by interplanetary dust"
+msgstr "行星間塵埃散射的陽光"
+
+msgid "Switch this off to see the trails for all Solar system bodies"
+msgstr "關閉此選項以查看所有太陽系天體的軌跡"
+
+msgid "System date at"
+msgstr "系統日期於"
+
+msgid "Tabular output for coordinates and time"
+msgstr "座標和時間的表格輸出"
+
+msgid "Tap a colour to change it. Changes show on the sky at once and are kept."
+msgstr "點選顏色以更改。更改會立即顯示在天空上並保存。"
+
+msgid "Tap again to confirm"
+msgstr "再次點選以確認"
+
+msgid "Tap an object"
+msgstr "點選天體"
+
+msgid "Tap the chart to read a value."
+msgstr "點選圖表以讀取數值。"
+
+msgid "Tap the clock"
+msgstr "點選時鐘"
+
+msgid "Tap the gear"
+msgstr "點選齒輪"
+
+msgid "Tap the map to stand there."
+msgstr "點選地圖以站在該位置。"
+
+msgid "Tap the place"
+msgstr "點選位置"
+
+msgid "Tap to confirm"
+msgstr "點選以確認"
+
+msgid "Tertiary intercardinal points"
+msgstr "第三級中間方位點"
+
+msgid "The Great Red Spot drifts in System II longitude. Enter a recent measurement and the drift rate to carry it forward from."
+msgstr "大紅斑在系統 II 經度中漂移。輸入最近的測量值和漂移速率以向前推導。"
+
+msgid "The algorithm is based on visual observations 1877-1891 by G. Müller and was still republished in the Explanatory Supplement to the Astronomical Ephemeris (1961)."
+msgstr "該演算法基於 G. Müller 在 1877-1891 年間的視覺觀測，後來在《天文星曆補充說明》(1961) 中重新發表。"
+
+msgid "The algorithm was published by A. Mallama & J. L. Hilton: Computing apparent planetary magnitudes for the Astronomical Almanac. Astronomy&Computing 25 (2018) 10-24."
+msgstr "該演算法由 A. Mallama 和 J. L. Hilton 發表：為《天文年鑑》計算視星等。Astronomy&Computing 25 (2018) 10-24。"
+
+msgid "The algorithm was published in the 2nd edition of the Explanatory Supplement to the Astronomical Almanac (1992)."
+msgstr "該演算法發表於《天文年鑑補充說明》第 2 版 (1992)。"
+
+msgid "The algorithm was published in the 3rd edition of the Explanatory Supplement to the Astronomical Almanac (2013)."
+msgstr "該演算法發表於《天文年鑑補充說明》第 3 版 (2013)。"
+
+msgid "The algorithm was used in the Astronomical Almanac (1984 and later) and gives V (instrumental) magnitudes (allegedly from D.L. Harris)."
+msgstr "該演算法用於《天文年鑑》(1984 及以後)，給出 V（儀器）星等（據稱來自 D.L. Harris）。"
+
+msgid "The colour each kind of object is drawn in"
+msgstr "繪製每種天體的顏色"
+
+msgid "The engine did not answer with any colours."
+msgstr "引擎未傳回任何顏色。"
+
+msgid "The galactic band"
+msgstr "銀河帶"
+
+msgid "The horizon outline instead of the panorama"
+msgstr "地平線輪廓而不是全景"
+
+msgid "The path each body has taken across the sky"
+msgstr "每個天體在天空中走過的路徑"
+
+msgid "The shortest label the culture defines"
+msgstr "該星空述語定義的最短標籤"
+
+msgid "Thickness"
+msgstr "粗細"
+
+msgid "This copy ships no scripts."
+msgstr "此版本不提供腳本。"
+
+msgid "This device has no location service."
+msgstr "此設備沒有位置服務。"
+
+msgid "This part of the engine exposes no settings on this build."
+msgstr "引擎的此部分在此構建中未公開任何設定。"
+
+msgid "This tool works on Earth only!"
+msgstr "此工具僅在地球上有效！"
+
+msgid "This tool works on Earth only. Short steps over a long duration are slow."
+msgstr "此工具僅適用於地球。長時間內的短步長很慢。"
+
+msgid "This year"
+msgstr "今年"
+
+msgid "Time of day"
+msgstr "一天中的時間"
+
+msgid "Time span"
+msgstr "時間跨度"
+
+msgid "Time step"
+msgstr "時間步長"
+
+msgid "To the next (mths)"
+msgstr "到下一個（月份）"
+
+msgid "To the next, months"
+msgstr "到下一個，月份"
+
+msgid "Trails"
+msgstr "軌跡"
+
+msgid "Translated"
+msgstr "已翻譯"
+
+msgid "Transparency"
+msgstr "透明度"
+
+msgid "Twilight and rise and set times are worked out for an observer on Earth. Move back to Earth to see them."
+msgstr "暮光和升起及落下時間是為地球上的觀測者計算的。移動回地球以查看它們。"
+
+msgid "Twinkle"
+msgstr "閃爍"
+
+msgid "Twinkle amount"
+msgstr "閃爍程度"
+
+msgid "Twinkle even without atmosphere"
+msgstr "即使沒有大氣也閃爍"
+
+msgid "Twinkle is caused by atmospheric turbulence; this shows it regardless"
+msgstr "閃爍由大氣湍流引起；無論如何都會顯示它"
+
+msgid "Type a name, a Bayer letter or a catalogue number - Vega, α Lyr, M 31, NGC 224."
+msgstr "輸入名稱、拜耳字母或星表編號 - Vega、α Lyr、M 31、NGC 224。"
+
+msgid "Umbral magnitude"
+msgstr "本影食分"
+
+msgid "Up to mag."
+msgstr "至星等"
+
+msgid "Use common symbols for coordinate systems"
+msgstr "對座標系統使用通用符號"
+
+msgid "Use distance from North Celestial Pole, not declination from equator in equatorial coordinates"
+msgstr "在赤道座標系中使用與北天極的距離，而不是與赤道的赤緯"
+
+msgid "Use mag/arcsec^2 for surface brightness"
+msgstr "表面亮度使用星等/平方弧秒"
+
+msgid "Use my location"
+msgstr "使用我的位置"
+
+msgid "Use the date now shown in the sky"
+msgstr "使用當前在天空中顯示的日期"
+
+msgid "Use the value in landscape.ini when it has one"
+msgstr "當 landscape.ini 中有值時使用它"
+
+msgid "Use the value stored for this location"
+msgstr "使用為此位置保存的值"
+
+msgid "Version %s  ·  Qt %s"
+msgstr "版本 %s  ·  Qt %s"
+
+msgid "Visibility"
+msgstr "可見性"
+
+msgid "When a search result is chosen"
+msgstr "選擇搜尋結果時"
+
+msgid "Where Jupiter's Great Red Spot was, and when"
+msgstr "木星大紅斑曾經在何處，以及何時"
+
+msgid "Width"
+msgstr "寬度"
+
+msgid "Working out the contact times…"
+msgstr "計算接觸時間中…"
+
+msgid "Zodiac and lunar stations"
+msgstr "黃道和月宿"
+
+msgid "Zodiacal Light brightness"
+msgstr "黃道光亮度"
+
+msgid "Zoom in and out"
+msgstr "放大和縮小"
+
+msgid "after sunset"
+msgstr "日落後"
+
+msgid "before sunrise"
+msgstr "日出前"
+
+msgid "bright suburban"
+msgstr "明亮郊區"
+
+msgid "east +"
+msgstr "東 +"
+
+msgid "engine ready, interface going live"
+msgstr "引擎就緒，介面上線"
+
+msgid "excellent dark sky"
+msgstr "極佳暗空"
+
+msgid "inner city"
+msgstr "市區"
+
+msgid "mag %s"
+msgstr "星等 %s"
+
+msgid "max %s"
+msgstr "極大值 %s"
+
+msgid "mid %s"
+msgstr "中值 %s"
+
+msgid "north +"
+msgstr "北 +"
+
+msgid "rural/suburban"
+msgstr "鄉村/郊區"
+
+msgid "sci. translit."
+msgstr "科學音譯"
+
+msgid "suburban/urban"
+msgstr "郊區/城市"
+
+msgid "truly dark"
+msgstr "完全暗空"
+
+msgid "unreadable snapshot"
+msgstr "無法讀取快照"
+
+msgid "… and moons"
+msgstr "… 及衛星"

@@ -1,0 +1,43 @@
+{
+	"version": 28,
+	"hipSpectralFile": "stars_hip_sp_0v0_4.cat",
+	"objecttypesFile": "object_types_v0_1.cat",
+	"catalogs": [
+		{
+			"id": "stars0",
+			"fileName": "stars_0_0v0_1.cat",
+			"count": 0.005,
+			"magRange": [-2.0, 6.0],
+			"sizeMb": 0.2,
+			"checksum": "e26db6a20b6828ab574e2bde81cf91f3",
+			"checked": true
+		},
+		{
+			"id": "stars1",
+			"fileName": "stars_1_0v0_1.cat",
+			"count": 0.022,
+			"magRange": [6.0, 7.5],
+			"sizeMb": 1.0,
+			"checksum": "ed1cea8d994b8d5b8a7e22ef0eef5790",
+			"checked": true
+		},
+		{
+			"id": "stars2",
+			"fileName": "stars_2_0v0_1.cat",
+			"count": 0.151,
+			"magRange": [7.5, 9.0],
+			"sizeMb": 7.2,
+			"checksum": "139c5177d1b0b49803b623c05570f261",
+			"checked": true
+		},
+		{
+			"id": "stars3",
+			"fileName": "stars_3_1v0_1.cat",
+			"count": 0.426,
+			"magRange": [9.0, 10.5],
+			"sizeMb": 13.6,
+			"checksum": "7f0d1cd6dd47970f50fe55a794db81ca",
+			"checked": true
+		}
+	]
+}

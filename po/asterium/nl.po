@@ -1,0 +1,1318 @@
+# Asterium interface translation for nl.
+# Copyright (C) 2026 the Asterium authors
+# This file is distributed under the same licence as the Asterium package.
+#
+# MACHINE TRANSLATION, not reviewed by a speaker of this language.
+# Terminology follows upstream Stellarium's own nl catalogue, which was used
+# as a glossary, and every entry keeps the source's printf placeholders.
+# Corrections from a human translator are welcome and should simply replace these.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: asterium\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%d bodies"
+msgstr "%d hemellichamen"
+
+msgid "%d objects"
+msgstr "%d objecten"
+
+msgid "%s colour"
+msgstr "%s kleur"
+
+msgid "%s from %s, ±%.0f m"
+msgstr "%s van %s, ±%.0f m"
+
+msgid "12-hour"
+msgstr "12-uur"
+
+msgid "24-hour"
+msgstr "24-uur"
+
+msgid "A button to mark every object of the current observing list on the sky."
+msgstr "Een knop om elk object van de huidige observatielijst op de hemel te markeren."
+
+msgid "A polygonal model for some small moons, asteroids and comets instead of a sphere"
+msgstr "Een veelhoekig model voor enkele kleine manen, asteroïden en kometen in plaats van een bol"
+
+msgid "A touch-first planetarium forked from Stellarium, whose astronomy engine it uses unchanged. The interface is new; everything that draws the sky is upstream's work."
+msgstr "Een aanraakgestuurd planetarium afgeleid van Stellarium, waarvan het ongewijzigde astronomie-engine wordt gebruikt. De interface is nieuw; alles wat de hemel tekent is werk van upstream."
+
+msgid "About this sky culture"
+msgstr "Over deze hemelcultuur"
+
+msgid "Above altitude, °"
+msgstr "Boven hoogte, °"
+
+msgid "Absolute scale"
+msgstr "Absolute schaal"
+
+msgid "Add %s"
+msgstr "Voeg %s toe"
+
+msgid "Adjust brightness to bright objects"
+msgstr "Helderheid aanpassen aan heldere objecten"
+
+msgid "Algorithm of ΔT"
+msgstr "Algoritme van ΔT"
+
+msgid "All naked-eye planets"
+msgstr "Alle naaktoogplaneten"
+
+msgid "All solar eclipses"
+msgstr "Alle zonneverduisteringen"
+
+msgid "Allow negative hour angles"
+msgstr "Negatieve uurhoeken toestaan"
+
+msgid "Allow results outside the recommended time range of the orbital elements"
+msgstr "Resultaten buiten het aanbevolen tijdsbereik van de baanelementen toestaan"
+
+msgid "Also find"
+msgstr "Ook zoeken naar"
+
+msgid "Also plot"
+msgstr "Ook uitzetten"
+
+msgid "Also show moons of selected object or planets"
+msgstr "Ook manen van geselecteerd object of planeten tonen"
+
+msgid "Altitude limit, °"
+msgstr "Hoogtegrens, °"
+
+msgid "Amount"
+msgstr "Hoeveelheid"
+
+msgid "An observer floats above its planet, so there is nowhere on it to stand. Choose another planet to come back down."
+msgstr "Een waarnemer zweeft boven zijn planeet, dus er is nergens op om te staan. Kies een ander planet om terug te gaan."
+
+msgid "And"
+msgstr "En"
+
+msgid "And also"
+msgstr "En ook"
+
+msgid "And the next (years)"
+msgstr "En de volgende (jaren)"
+
+msgid "Annual drift"
+msgstr "Jaarlijkse drift"
+
+msgid "Appearance"
+msgstr "Weergave"
+
+msgid "Art"
+msgstr "Kunst"
+
+msgid "Artificial satellites and unnamed stars are excluded from calculation."
+msgstr "Kunstmatige satellieten en naamloze sterren zijn uitgesloten van berekening."
+
+msgid "Asking for permission…"
+msgstr "Toestemming aanvragen…"
+
+msgid "Asks SIMBAD what it holds around the object that is selected now, and prints the answer as it comes back."
+msgstr "Vraagt SIMBAD wat het omgeeft het nu geselecteerde object en drukt het antwoord af wanneer het terugkomt."
+
+msgid "Ast. lines"
+msgstr "Ast. lijnen"
+
+msgid "Ast. names"
+msgstr "Ast. namen"
+
+msgid "Astronomical Almanac (default) enlarges by 2%; Danjon (1951) differs slightly"
+msgstr "Astronomical Almanac (standaard) vergroten met 2%; Danjon (1951) verschilt enigszins"
+
+msgid "Astronomical night"
+msgstr "Astronomische nacht"
+
+msgid "At"
+msgstr "Bij"
+
+msgid "Atmosph."
+msgstr "Atmosf."
+
+msgid "Automatic transparency"
+msgstr "Automatische transparantie"
+
+msgid "Axis distance"
+msgstr "As-afstand"
+
+msgid "Azi. grid"
+msgstr "Az. raster"
+
+msgid "Azimuth and altitude rather than right ascension and declination"
+msgstr "Azimut en hoogte in plaats van rechte klimming en declinatie"
+
+msgid "Below the horizon here."
+msgstr "Beneden de horizon hier."
+
+msgid "Between objects"
+msgstr "Tussen objecten"
+
+msgid "Boundless"
+msgstr "Grenzeloos"
+
+msgid "Bounds"
+msgstr "Grenzen"
+
+msgid "Brighter than"
+msgstr "Helderder dan"
+
+msgid "By object type"
+msgstr "Op objecttype"
+
+msgid "By planet"
+msgstr "Op planeet"
+
+msgid "Calculating…"
+msgstr "Berekenen…"
+
+msgid "Cardinals"
+msgstr "Windstreken"
+
+msgid "Catalogue numbers instead of common names"
+msgstr "Catalogusnummers in plaats van algemene namen"
+
+msgid "Category"
+msgstr "Categorie"
+
+msgid "Central duration"
+msgstr "Centrale duur"
+
+msgid "Centre"
+msgstr "Midden"
+
+msgid "Centre on object"
+msgstr "Centreer op object"
+
+msgid "Centre point"
+msgstr "Centrumpunt"
+
+msgid "Circles"
+msgstr "Cirkels"
+
+msgid "City"
+msgstr "Plaats"
+
+msgid "Cleanup"
+msgstr "Opschonen"
+
+msgid "Clear recent searches"
+msgstr "Recente zoekacties wissen"
+
+msgid "Clear the selection - a touch screen has no right button"
+msgstr "Wis de selectie - een aanraakscherm heeft geen rechterknop"
+
+msgid "Cleared."
+msgstr "Gewist."
+
+msgid "Close"
+msgstr "Sluiten"
+
+msgid "Close what is open; from the sky, leave the app running"
+msgstr "Sluit wat open is; verlaat de app niet"
+
+msgid "Color"
+msgstr "Kleur"
+
+msgid "Color channel"
+msgstr "Kleurkanaal"
+
+msgid "Color of orbits"
+msgstr "Kleur van banen"
+
+msgid "Colors of orbit lines"
+msgstr "Kleuren van baanlijnen"
+
+msgid "Comets up to mag."
+msgstr "Kometen tot mag."
+
+msgid "Compass"
+msgstr "Kompas"
+
+msgid "Connecting line"
+msgstr "Verbindingslijn"
+
+msgid "Coordinate system"
+msgstr "Coördinatenstelsel"
+
+msgid "Coordinates"
+msgstr "Coördinaten"
+
+msgid "Custom"
+msgstr "Aangepast"
+
+msgid "Custom altitude of the Moon, °"
+msgstr "Aangepaste hoogte van de Maan, °"
+
+msgid "Custom altitude of the Sun, °"
+msgstr "Aangepaste hoogte van de Zon, °"
+
+msgid "Custom values"
+msgstr "Aangepaste waarden"
+
+msgid "Cut the scale off below the limit"
+msgstr "Schaal onder de limiet afsnijden"
+
+msgid "DATE AND TIME (UTC)"
+msgstr "DATUM EN TIJD (UTC)"
+
+msgid "Date and time"
+msgstr "Datum en tijd"
+
+msgid "Date/time"
+msgstr "Datum/tijd"
+
+msgid "Dates"
+msgstr "Data"
+
+msgid "December solstice"
+msgstr "Decemberzonnewende"
+
+msgid "Decimal degrees. −33.87 means 33.87° south. Elevation is metres above sea level; it moves the horizon down by a few arcminutes."
+msgstr "Decimale graden. −33,87 betekent 33,87° zuid. Hoogte is in meters boven zeeniveau; het verplaatst de horizon enkele boogseconden naar beneden."
+
+msgid "Degrees per year the longitude moves by"
+msgstr "Graden per jaar verplaatst de lengtegraad zich met"
+
+msgid "Degrees, hours and minutes as they are written - 12h30m49s, +41°16'09\", 187.7 - or plain decimal degrees."
+msgstr "Graden, uren en minuten zoals geschreven - 12u30m49s, +41°16'09\", 187,7 - of gewoon decimale graden."
+
+msgid "Deletes all recent search object data, and the objects SIMBAD contributed."
+msgstr "Verwijdert alle recente zoekobjectgegevens en de objecten die SIMBAD heeft bijgedragen."
+
+msgid "Designations for double stars"
+msgstr "Aanduidingen voor dubbelsterren"
+
+msgid "Designations for variable stars"
+msgstr "Aanduidingen voor veranderlijke sterren"
+
+msgid "Dim a survey near the horizon, as the air does"
+msgstr "Verzwak een opmetingen nabij de horizon, zoals de lucht doet"
+
+msgid "Done"
+msgstr "Klaar"
+
+msgid "Drag"
+msgstr "Sleep"
+
+msgid "Draw deep-sky objects at all"
+msgstr "Deepsky objecten helemaal tekenen"
+
+msgid "Draw the enabled sky surveys"
+msgstr "De ingeschakelde hemelopmetingen tekenen"
+
+msgid "Draw the planets, moons and minor bodies"
+msgstr "Teken de planeten, manen en kleine hemellichamen"
+
+msgid "Drawn larger than life, so a body that is a few arcseconds wide is visible at all. The position stays true."
+msgstr "Getekend groter dan het leven, dus een hemellichaam dat enkele boogseconden breed is, is toch zichtbaar. De positie blijft correct."
+
+msgid "Duration (years)"
+msgstr "Duur (jaren)"
+
+msgid "Duration, months"
+msgstr "Duur, maanden"
+
+msgid "ELEV. M"
+msgstr "HOOGTE. M"
+
+msgid "Ecl. grid"
+msgstr "Ecl. raster"
+
+msgid "Eclipses are computed for observers on Earth."
+msgstr "Eclipsen worden berekend voor waarnemers op aarde."
+
+msgid "Elevation in metres"
+msgstr "Hoogte in meters"
+
+msgid "Elongations and quadratures"
+msgstr "Elongaties en kwadraturen"
+
+msgid "Equ. grid"
+msgstr "Eq. raster"
+
+msgid "Equ. mount"
+msgstr "Eq. opst."
+
+msgid "Equatorial radii ratio"
+msgstr "Equatoriale radiïverhouding"
+
+msgid "Every"
+msgstr "Elke"
+
+msgid "Every name the object is catalogued under"
+msgstr "Alle namen waaronder het object in de catalogus staat"
+
+msgid "Exterior egress"
+msgstr "Externe uitgang"
+
+msgid "Exterior ingress"
+msgstr "Externe ingang"
+
+msgid "Fades the ground as you look below the horizon or zoom in"
+msgstr "Vervaagt de grond wanneer u onder de horizon kijkt of inzoomt"
+
+msgid "Fading duration"
+msgstr "Vervagingsduur"
+
+msgid "Faintest shown"
+msgstr "Zwakste weergegeven"
+
+msgid "Favorites"
+msgstr "Favorieten"
+
+msgid "Fetching the survey lists…"
+msgstr "De opmetingslijsten ophalen…"
+
+msgid "Find a city"
+msgstr "Een plaats zoeken"
+
+msgid "First %d of %d - filter to narrow it."
+msgstr "Eerste %d van %d - filter om in te beperken."
+
+msgid "First body"
+msgstr "Eerste hemellichaam"
+
+msgid "First graph"
+msgstr "Eerste grafiek"
+
+msgid "Fixed instant"
+msgstr "Vast moment"
+
+msgid "Flip horiz."
+msgstr "H. spiegel"
+
+msgid "Flip vert."
+msgstr "V. spiegel"
+
+msgid "Frame rate"
+msgstr "Frame-rate"
+
+msgid "From"
+msgstr "Van"
+
+msgid "Full screen"
+msgstr "Vollscherm"
+
+msgid "Further reading"
+msgstr "Verdere lectuur"
+
+msgid "Gal. grid"
+msgstr "Gal. raster"
+
+msgid "Gamma, saturation, brightness, contrast, opacity, colour channel and inverted colours belong to one survey. Open a survey to set them."
+msgstr "Gamma, verzadiging, helderheid, contrast, transparantie, kleurkanaal en omgekeerde kleuren behoren tot één opmetingen. Open een opmetingen om deze in te stellen."
+
+msgid "Gestures"
+msgstr "Gebaren"
+
+msgid "Go there"
+msgstr "Ga daar heen"
+
+msgid "Go to this eclipse"
+msgstr "Ga naar deze verduistering"
+
+msgid "Go to this moment"
+msgstr "Ga naar dit moment"
+
+msgid "Go to this transit"
+msgstr "Ga naar deze doorgang"
+
+msgid "Greatest elongation for an inner planet, quadrature for an outer one"
+msgstr "Grootste elongatie voor een binnelplaneet, kwadratuur voor een buitenplaneet"
+
+msgid "Greek letters"
+msgstr "Griekse letters"
+
+msgid "Grid density"
+msgstr "Rasterdichtheid"
+
+msgid "Grids"
+msgstr "Rasters"
+
+msgid "Ground"
+msgstr "Grond"
+
+msgid "Gyro"
+msgstr "Beweging"
+
+msgid "Gyro mode"
+msgstr "Gyromodus"
+
+msgid "Height"
+msgstr "Hoogte"
+
+msgid "Heliocentric ecliptic positions of the major planets."
+msgstr "Heliocentrische eclipticapositie van de grote planeten."
+
+msgid "HiPS"
+msgstr "HiPS"
+
+msgid "Hide controls"
+msgstr "Verberg besturingselementen"
+
+msgid "Hide deep-sky objects fainter than the limit"
+msgstr "Verberg deepsky objecten zwakker dan de limiet"
+
+msgid "Hide orbits of minor bodies"
+msgstr "Verberg banen van kleine hemellichamen"
+
+msgid "Highlight"
+msgstr "Markeer"
+
+msgid "Highlight the objects of the observing list"
+msgstr "Markeer de objecten van de observatielijst"
+
+msgid "Hint circles marking each planet"
+msgstr "Hintcirkels die elke planeet markeren"
+
+msgid "Hints brightness"
+msgstr "Helderheid van hints"
+
+msgid "Hipparcos designations"
+msgstr "Hipparcos aanduidingen"
+
+msgid "How many"
+msgstr "Hoeveel"
+
+msgid "ICRS grid"
+msgstr "ICRS raster"
+
+msgid "Include"
+msgstr "Opnemen"
+
+msgid "Include bright comets"
+msgstr "Heldere kometen opnemen"
+
+msgid "Intercardinal points"
+msgstr "Intercardiale punten"
+
+msgid "Interior egress"
+msgstr "Interne uitgang"
+
+msgid "Interior ingress"
+msgstr "Interne ingang"
+
+msgid "Its elevation, and the civil, nautical and astronomical twilights"
+msgstr "De hoogte ervan en de burgerlijke, nautische en astronomische schemering"
+
+msgid "Jovigraphic longitude of the spot in System II, in degrees"
+msgstr "Jovigrafische lengtegraad van de vlek in Systeem II, in graden"
+
+msgid "June solstice"
+msgstr "Junizonnewende"
+
+msgid "Label colour"
+msgstr "Labelkleur"
+
+msgid "Labels and Markers amount"
+msgstr "Aantal labels en markeringen"
+
+msgid "Labels brightness"
+msgstr "Helderheid van labels"
+
+msgid "Largest, ′"
+msgstr "Grootste, ′"
+
+msgid "Last known position"
+msgstr "Laatst bekende positie"
+
+msgid "Lasting"
+msgstr "Duur"
+
+msgid "Latitude −90…90, longitude −180…180."
+msgstr "Breedtegraad −90…90, lengtegraad −180…180."
+
+msgid "Leaves the landscape visible in darkness"
+msgstr "Laat het landschap zichtbaar in het donker"
+
+msgid "Licence"
+msgstr "Licentie"
+
+msgid "Light pollution"
+msgstr "Lichtverontreiniging"
+
+msgid "Light pollution from database"
+msgstr "Lichtverontreiniging uit database"
+
+msgid "Limit angular separation"
+msgstr "Hoekscheiding beperken"
+
+msgid "Limit angular size"
+msgstr "Hoekgrootte begrenzen"
+
+msgid "Limit magnitude"
+msgstr "Magnitude begrenzen"
+
+msgid "Linear distance"
+msgstr "Lineaire afstand"
+
+msgid "Lines"
+msgstr "Lijnen"
+
+msgid "Lines and circles"
+msgstr "Lijnen en cirkels"
+
+msgid "List"
+msgstr "Lijst"
+
+msgid "List name"
+msgstr "Lijstnaam"
+
+msgid "Lit windows, street lighting and the like"
+msgstr "Verlichte ramen, straatverlichting en dergelijke"
+
+msgid "Loading…"
+msgstr "Laden…"
+
+msgid "Local solar eclipses"
+msgstr "Lokale zonneverduisteringen"
+
+msgid "Local time"
+msgstr "Lokale tijd"
+
+msgid "Local time, h"
+msgstr "Lokale tijd, u"
+
+msgid "Locate me"
+msgstr "Zoek me"
+
+msgid "Locating…"
+msgstr "Zoeken…"
+
+msgid "Location is switched off in the system settings."
+msgstr "Locatie is uitgeschakeld in de systeeminstellingen."
+
+msgid "Location permission refused. The other two ways still work."
+msgstr "Locatietoestemming geweigerd. De andere twee manieren werken nog steeds."
+
+msgid "Long press"
+msgstr "Lange druk"
+
+msgid "Longitude of GRS"
+msgstr "Lengtegraad van GRS"
+
+msgid "Lunar eclipses"
+msgstr "Maanverduisteringen"
+
+msgid "Major planets by planet, minor bodies by type"
+msgstr "Grote planeten per planeet, kleine hemellichamen per type"
+
+msgid "Map of the planet. Tap to set the observer's place."
+msgstr "Kaart van de planeet. Tik om plaats van waarnemer in te stellen."
+
+msgid "March equinox"
+msgstr "Maart-equinox"
+
+msgid "Markers"
+msgstr "Markeringen"
+
+msgid "Markers sized by the object's angular size"
+msgstr "Markeringen die in grootte passen bij de hoekgrootte van het object"
+
+msgid "Master switch for the grids, lines and points below"
+msgstr "Hoofdschakelaar voor de onderstaande rasters, lijnen en punten"
+
+msgid "Max items to display"
+msgstr "Maximaal aantal items weer te geven"
+
+msgid "Max. results"
+msgstr "Max. resultaten"
+
+msgid "Maximum allowed separation"
+msgstr "Maximaal toegestane separatie"
+
+msgid "Maximum angular size"
+msgstr "Maximale hoekgrootte"
+
+msgid "Mean motion"
+msgstr "Gemiddelde beweging"
+
+msgid "Mercury, Venus, Mars, Jupiter and Saturn at once. Earth only."
+msgstr "Merkurius, Venus, Mars, Jupiter en Saturnus tegelijk. Alleen Aarde."
+
+msgid "Milky Way brightness"
+msgstr "Melkweg helderheid"
+
+msgid "Milky Way saturation"
+msgstr "Melkweg verzadiging"
+
+msgid "Minimal angular size"
+msgstr "Minimale hoekgrootte"
+
+msgid "Minimal brightness"
+msgstr "Minimale helderheid"
+
+msgid "Minutes before sunrise / after sunset"
+msgstr "Minuten voor zonsopgang / na zonsondergang"
+
+msgid "Moon at"
+msgstr "Maan op"
+
+msgid "Moon in zenith at"
+msgstr "Maan in zenit op"
+
+msgid "Move the sky by pointing the phone at it"
+msgstr "Verplaats de hemel door de telefoon ernaar te wijzen"
+
+msgid "Move the sky with the phone"
+msgstr "Verplaats de hemel met de telefoon"
+
+msgid "Name for the new list"
+msgstr "Naam voor de nieuwe lijst"
+
+msgid "Named features the landscape marks"
+msgstr "Benoemde kenmerken die het landschap markeert"
+
+msgid "Names"
+msgstr "Namen"
+
+msgid "Names beside the planets and their markers"
+msgstr "Namen naast de planeten en hun markeringen"
+
+msgid "Names in English"
+msgstr "Namen in het Engels"
+
+msgid "Neb. bg"
+msgstr "Nevel acht."
+
+msgid "Nebulae"
+msgstr "Nevels"
+
+msgid "Night"
+msgstr "Nacht"
+
+msgid "No city matches that."
+msgstr "Geen plaats komt daarmee overeen."
+
+msgid "No eclipses found. Pick a range and calculate."
+msgstr "Geen verduisteringen gevonden. Kies een bereik en bereken."
+
+msgid "No fresh fix - the receiver may have no sky. Try again outdoors, or set the place another way."
+msgstr "Geen nieuwe fix - de ontvanger heeft misschien geen uitzicht op de hemel. Probeer het buiten opnieuw, of stel de plaats op een ander manier in."
+
+msgid "No surveys were found. The lists are downloaded, so this needs a connection."
+msgstr "Geen opmetingen gevonden. De lijsten worden gedownload, dus dit vereist een verbinding."
+
+msgid "None downloaded yet"
+msgstr "Nog niet gedownload"
+
+msgid "Note: this tool doesn't apply the refraction correction for coordinates. Horizontal coordinates stop the clock, or the sky would turn away from the point while you arrive at it."
+msgstr "Opmerking: deze tool past geen refractiecorrectie toe voor coördinaten. Horizontale coördinaten stoppen de klok, anders zou de hemel wegdraaien van het punt terwijl je er aankomt."
+
+msgid "Nothing computed yet, or nothing in this category is up."
+msgstr "Nog niet berekend, of niets in deze categorie is zichtbaar."
+
+msgid "Nothing computed yet."
+msgstr "Nog niet berekend."
+
+msgid "Nothing found for “%s”."
+msgstr "Niets gevonden voor \"%s\"."
+
+msgid "Nothing in this list matches."
+msgstr "Niets in deze lijst komt overeen."
+
+msgid "Nothing in this list yet. Pick something out of the sky and tap the star on its card to keep it here."
+msgstr "Nog niets in deze lijst. Kies iets uit de hemel en tik op de ster op de kaart om het hier te bewaren."
+
+msgid "Nothing is selected. Pick an object in the sky first."
+msgstr "Niets is geselecteerd. Kies eerst een object in de hemel."
+
+msgid "Nothing matches."
+msgstr "Niets komt overeen."
+
+msgid "Nothing selected"
+msgstr "Niets geselecteerd"
+
+msgid "Nothing to plot."
+msgstr "Niets om uit te zetten."
+
+msgid "Nothing to show."
+msgstr "Niets om te tonen."
+
+msgid "N× above"
+msgstr "N× boven"
+
+msgid "OBJECTS"
+msgstr "OBJECTEN"
+
+msgid "Objects which are up"
+msgstr "Objecten die zichtbaar zijn"
+
+msgid "Observable duration"
+msgstr "Observable duur"
+
+msgid "Observing list highlight"
+msgstr "Observatielijst markering"
+
+msgid "On the sky"
+msgstr "In de hemel"
+
+msgid "One color"
+msgstr "Één kleur"
+
+msgid "Only for N latest selected objects"
+msgstr "Alleen voor N laatst geselecteerde objecten"
+
+msgid "Only list"
+msgstr "Alleen lijst"
+
+msgid "Only orbit for selected object…"
+msgstr "Alleen baan voor geselecteerd object…"
+
+msgid "Only orbits of major planets…"
+msgstr "Alleen banen van grote planeten…"
+
+msgid "Open date and time"
+msgstr "Datum en tijd openen"
+
+msgid "Open location"
+msgstr "Locatie openen"
+
+msgid "Opens the JUPOS project in a browser"
+msgstr "Opent het JUPOS-project in een browser"
+
+msgid "Opposition of"
+msgstr "Oppositie van"
+
+msgid "Oppositions"
+msgstr "Opposities"
+
+msgid "Orbit colors"
+msgstr "Baankleuren"
+
+msgid "Orbital periods ratio"
+msgstr "Verhouding omloopsperioden"
+
+msgid "Orbits"
+msgstr "Banen"
+
+msgid "Orbits of interstellar objects"
+msgstr "Banen van interstellaire objecten"
+
+msgid "Orbits of moons"
+msgstr "Banen van manen"
+
+msgid "Otherwise every move adopts the zone of the new place."
+msgstr "Anders neemt elke beweging de zone van de nieuwe plaats over."
+
+msgid "Pan the sky"
+msgstr "Hemel verschuiven"
+
+msgid "Partial eclipse begins"
+msgstr "Gedeeltelijke verduistering begint"
+
+msgid "Partial eclipse ends"
+msgstr "Gedeeltelijke verduistering eindigt"
+
+msgid "Partitions"
+msgstr "Verdelingen"
+
+msgid "Partitions thickness"
+msgstr "Dikte van verdelingen"
+
+msgid "Path width"
+msgstr "Padbreedte"
+
+msgid "Pause"
+msgstr "Pauze"
+
+msgid "Paused - start"
+msgstr "Gepauzeerd - starten"
+
+msgid "Penumbral magnitude"
+msgstr "Bijschaduw magnitude"
+
+msgid "Perihelion and aphelion"
+msgstr "Perihelium en aphelium"
+
+msgid "Pick two different bodies to see how their distance changes."
+msgstr "Kies twee verschillende hemellichamen om te zien hoe hun afstand verandert."
+
+msgid "Pinch"
+msgstr "Knijpen"
+
+msgid "Planet and time zone"
+msgstr "Planeet en tijdzone"
+
+msgid "Planetary nomenclature"
+msgstr "Planetaire terminologie"
+
+msgid "Planetary transits"
+msgstr "Planetaire doorgangen"
+
+msgid "Planets"
+msgstr "Planeten"
+
+msgid "Pluto, Ceres, Pallas, Juno and Vesta"
+msgstr "Pluto, Ceres, Pallas, Juno en Vesta"
+
+msgid "Point size"
+msgstr "Puntgrootte"
+
+msgid "Pointing"
+msgstr "Aanwijzing"
+
+msgid "Poles and points"
+msgstr "Polen en punten"
+
+msgid "Polygon colour"
+msgstr "Veelhoekkleur"
+
+msgid "Positive values only"
+msgstr "Alleen positieve waarden"
+
+msgid "Query options"
+msgstr "Queryopties"
+
+msgid "Quit"
+msgstr "Afsluiten"
+
+msgid "Reading…"
+msgstr "Lezen…"
+
+msgid "Real time speed"
+msgstr "Werkelijke snelheid"
+
+msgid "Refraction, extinction, sky brightness"
+msgstr "Breking, uitdoving, hemelhelderheid"
+
+msgid "Relative scale"
+msgstr "Relatieve schaal"
+
+msgid "Remove %s"
+msgstr "Verwijder %s"
+
+msgid "Remove from observing list"
+msgstr "Uit observatielijst verwijderen"
+
+msgid "Rename"
+msgstr "Hernoemen"
+
+msgid "Restarting…"
+msgstr "Opnieuw starten…"
+
+msgid "Rises"
+msgstr "Opkomsten"
+
+msgid "Rotation"
+msgstr "Rotatie"
+
+msgid "Running"
+msgstr "In werking"
+
+msgid "SIMBAD did not answer."
+msgstr "SIMBAD antwoordde niet."
+
+msgid "SIMBAD is switched off in the search options."
+msgstr "SIMBAD is uitgeschakeld in de zoekopties."
+
+msgid "SIMBAD is switched off. Turn it on under Options to look objects up online."
+msgstr "SIMBAD is uitgeschakeld. Zet het in onder Opties om objecten online op te zoeken."
+
+msgid "SIMBAD server"
+msgstr "SIMBAD-server"
+
+msgid "Saturation"
+msgstr "Verzadiging"
+
+msgid "Save either the current FOV and direction of view or all the current options for use at next startup. Restoring default settings requires a restart of the app."
+msgstr "Sla het huidige gezichtsveld en de weergaverichting op, of alle huidige opties voor gebruik bij de volgende opstart. Herstellen van standaardinstellingen vereist een herstart van de app."
+
+msgid "Save to observing list"
+msgstr "Opslaan in observatielijst"
+
+msgid "Scale"
+msgstr "Schaal"
+
+msgid "Scale marker and label visibility by surface brightness"
+msgstr "Zichtbaarheid van markering en label schalen naar oppervlaktehelderheid"
+
+msgid "Scales smoothly between 1× at the minimum field of view and the factor above at the maximum"
+msgstr "Schaalt soepel tussen 1× bij het minimale gezichtsveld en de factor hierboven bij het maximale"
+
+msgid "Search in list"
+msgstr "Zoeken in lijst"
+
+msgid "Second body"
+msgstr "Tweede hemellichaam"
+
+msgid "Second graph"
+msgstr "Tweede grafiek"
+
+msgid "Second object"
+msgstr "Tweede object"
+
+msgid "Secondary intercardinal points"
+msgstr "Secundaire intercardiale punten"
+
+msgid "See the sky through the ground"
+msgstr "Zie de hemel door de grond heen"
+
+msgid "Select an object first: this asks SIMBAD what it holds around it."
+msgstr "Selecteer eerst een object: dit vraagt SIMBAD wat het eromheen bevat."
+
+msgid "Select it and show its card"
+msgstr "Selecteer het en toon zijn kaart"
+
+msgid "Select something in the sky first — this page works on the selection."
+msgstr "Selecteer eerst iets aan de hemel — deze pagina werkt op de selectie."
+
+msgid "Separate colors for orbits of major planets"
+msgstr "Aparte kleuren voor banen van grote planeten"
+
+msgid "September equinox"
+msgstr "September-equinox"
+
+msgid "Set the clock to %s"
+msgstr "Stel de klok in op %s"
+
+msgid "Set the place"
+msgstr "Plaats instellen"
+
+msgid "Set to now"
+msgstr "Ingesteld op nu"
+
+msgid "Sets"
+msgstr "Ondergangen"
+
+msgid "Shadow map for non-convex bodies. May coarsen the penumbra on some objects"
+msgstr "Schaduwkaart voor niet-convexe hemellichamen. Kan de halfschaduw bij sommige objecten grover maken"
+
+msgid "Shooting stars"
+msgstr "Vallende sterren"
+
+msgid "Short steps over a long duration are slow."
+msgstr "Korte stappen over een lange duur zijn langzaam."
+
+msgid "Show"
+msgstr "Toon"
+
+msgid "Show all information"
+msgstr "Toon alle informatie"
+
+msgid "Show controls"
+msgstr "Toon besturingselementen"
+
+msgid "Show each body where it was when the light left it (recommended)"
+msgstr "Toon elk hemellichaam waar het was toen het licht vertrok (aanbevolen)"
+
+msgid "Show frames per second beside the field of view"
+msgstr "Toon frames per seconde naast het gezichtsveld"
+
+msgid "Show illumination"
+msgstr "Toon verlichting"
+
+msgid "Show in sky"
+msgstr "Toon in hemel"
+
+msgid "Show less"
+msgstr "Toon minder"
+
+msgid "Show more"
+msgstr "Toon meer"
+
+msgid "Show objects which are up"
+msgstr "Toon zichtbare objecten"
+
+msgid "Show only objects between the two sizes"
+msgstr "Toon alleen objecten tussen de twee maten"
+
+msgid "Show only the kinds ticked below"
+msgstr "Toon alleen de soorten die hieronder zijn aangevinkt"
+
+msgid "Show or hide the two rails of controls"
+msgstr "Toon of verberg de twee controlebalken"
+
+msgid "Show surveys"
+msgstr "Toon overzichten"
+
+msgid "Show this survey"
+msgstr "Toon dit overzicht"
+
+msgid "Simbad Lookup Error: %s"
+msgstr "SIMBAD zoekfout: %s"
+
+msgid "Simbad Lookup: querying"
+msgstr "SIMBAD zoeken: opvragen"
+
+msgid "Simulation"
+msgstr "Simulatie"
+
+msgid "Sky and viewing options"
+msgstr "Hemel- en weergaveopties"
+
+msgid "Sky culture"
+msgstr "Sterrenbeeldencultuur"
+
+msgid "Slow down"
+msgstr "Vertraag"
+
+msgid "Smallest, ′"
+msgstr "Kleinste, ′"
+
+msgid "Solar altitude for Twilight Finder"
+msgstr "Zonshoogte voor Twilight Finder"
+
+msgid "Solar elongation"
+msgstr "Zonne-elongatie"
+
+msgid "Speed up"
+msgstr "Versnellen"
+
+msgid "Stand where the landscape was shot, on the planet it names"
+msgstr "Sta waar het landschap werd gefotografeerd, op de planeet die het benoemt"
+
+msgid "Star, planet, catalogue number…"
+msgstr "Ster, planeet, catalogusnummer…"
+
+msgid "Started"
+msgstr "Gestart"
+
+msgid "Startup FOV"
+msgstr "Opstart gezichtsveld"
+
+msgid "Startup direction of view"
+msgstr "Opstart weergaverichting"
+
+msgid "Stellarium's user guide covers the astronomy this app shares with it: stellarium.org/documentation"
+msgstr "De gebruikershandleiding van Stellarium behandelt de astronomie die deze app deelt: stellarium.org/documentation"
+
+msgid "Step, hours"
+msgstr "Stap, uren"
+
+msgid "Style"
+msgstr "Stijl"
+
+msgid "Sun altitude"
+msgstr "Zonshoogte"
+
+msgid "Sun at"
+msgstr "Zon op"
+
+msgid "Sun's altitude"
+msgstr "Zonshoogte"
+
+msgid "Sunlight scattered by interplanetary dust"
+msgstr "Zonlicht verspreid door interplanetair stof"
+
+msgid "Switch this off to see the trails for all Solar system bodies"
+msgstr "Schakel dit uit om de sporen van alle zonnestelselobjecten te zien"
+
+msgid "System date at"
+msgstr "Systeemdatum op"
+
+msgid "Tap a colour to change it. Changes show on the sky at once and are kept."
+msgstr "Tik op een kleur om deze te wijzigen. Wijzigingen verschijnen onmiddellijk aan de hemel en blijven behouden."
+
+msgid "Tap again to confirm"
+msgstr "Tik nogmaals om te bevestigen"
+
+msgid "Tap an object"
+msgstr "Tik op een object"
+
+msgid "Tap the chart to read a value."
+msgstr "Tik op de grafiek om een waarde af te lezen."
+
+msgid "Tap the clock"
+msgstr "Tik op de klok"
+
+msgid "Tap the gear"
+msgstr "Tik op het tandwiel"
+
+msgid "Tap the map to stand there."
+msgstr "Tik op de kaart om daar te staan."
+
+msgid "Tap the place"
+msgstr "Tik op de plaats"
+
+msgid "Tap to confirm"
+msgstr "Tik om te bevestigen"
+
+msgid "Tertiary intercardinal points"
+msgstr "Tertiaire intercardiale punten"
+
+msgid "The Great Red Spot drifts in System II longitude. Enter a recent measurement and the drift rate to carry it forward from."
+msgstr "De Grote Rode Vlek drijft in System II lengtegraad. Voer een recente meting en de driftsnelheid in om vanaf daar vooruit te rekenen."
+
+msgid "The algorithm is based on visual observations 1877-1891 by G. Müller and was still republished in the Explanatory Supplement to the Astronomical Ephemeris (1961)."
+msgstr "Het algoritme is gebaseerd op visuele waarnemingen 1877-1891 door G. Müller en werd nog heruitgegeven in de Explanatory Supplement to the Astronomical Ephemeris (1961)."
+
+msgid "The algorithm was published by A. Mallama & J. L. Hilton: Computing apparent planetary magnitudes for the Astronomical Almanac. Astronomy&Computing 25 (2018) 10-24."
+msgstr "Het algoritme werd gepubliceerd door A. Mallama & J. L. Hilton: Computing apparent planetary magnitudes for the Astronomical Almanac. Astronomy&Computing 25 (2018) 10-24."
+
+msgid "The algorithm was published in the 2nd edition of the Explanatory Supplement to the Astronomical Almanac (1992)."
+msgstr "Het algoritme werd gepubliceerd in de 2de editie van de Explanatory Supplement to the Astronomical Almanac (1992)."
+
+msgid "The algorithm was published in the 3rd edition of the Explanatory Supplement to the Astronomical Almanac (2013)."
+msgstr "Het algoritme werd gepubliceerd in de 3de editie van de Explanatory Supplement to the Astronomical Almanac (2013)."
+
+msgid "The algorithm was used in the Astronomical Almanac (1984 and later) and gives V (instrumental) magnitudes (allegedly from D.L. Harris)."
+msgstr "Het algoritme werd gebruikt in de Astronomical Almanac (1984 en later) en geeft V (instrumentaal) magnitudes (naar verluidt van D.L. Harris)."
+
+msgid "The colour each kind of object is drawn in"
+msgstr "De kleur waarin elk soort object wordt getekend"
+
+msgid "The engine did not answer with any colours."
+msgstr "De engine antwoordde niet met enige kleuren."
+
+msgid "The galactic band"
+msgstr "De galactische band"
+
+msgid "The horizon outline instead of the panorama"
+msgstr "De horizonomtrek in plaats van het panorama"
+
+msgid "The path each body has taken across the sky"
+msgstr "Het pad dat elk hemellichaam langs de hemel heeft afgelegd"
+
+msgid "The shortest label the culture defines"
+msgstr "Het kortste label dat de cultuur definieert"
+
+msgid "Thickness"
+msgstr "Dikte"
+
+msgid "This copy ships no scripts."
+msgstr "Deze kopie bevat geen scripts."
+
+msgid "This device has no location service."
+msgstr "Dit apparaat heeft geen locatieservice."
+
+msgid "This part of the engine exposes no settings on this build."
+msgstr "Dit deel van de engine stelt geen instellingen beschikbaar in deze build."
+
+msgid "This tool works on Earth only!"
+msgstr "Dit hulpmiddel werkt alleen op Aarde!"
+
+msgid "This tool works on Earth only. Short steps over a long duration are slow."
+msgstr "Deze tool werkt alleen op Aarde. Korte stappen over een lange duur zijn langzaam."
+
+msgid "This year"
+msgstr "Dit jaar"
+
+msgid "Time of day"
+msgstr "Dagelijks moment"
+
+msgid "Time span"
+msgstr "Tijdspanne"
+
+msgid "Time step"
+msgstr "Tijdstap"
+
+msgid "To the next (mths)"
+msgstr "Tot de volgende (mnd)"
+
+msgid "To the next, months"
+msgstr "Tot de volgende, maanden"
+
+msgid "Trails"
+msgstr "Sporen"
+
+msgid "Translated"
+msgstr "Vertaald"
+
+msgid "Transparency"
+msgstr "Transparantie"
+
+msgid "Twilight and rise and set times are worked out for an observer on Earth. Move back to Earth to see them."
+msgstr "Twilight en opkomst- en ondergangstijden zijn berekend voor een waarnemer op Aarde. Keer terug naar Aarde om ze te zien."
+
+msgid "Twinkle"
+msgstr "Flikkering"
+
+msgid "Twinkle amount"
+msgstr "Flikkering hoeveelheid"
+
+msgid "Twinkle even without atmosphere"
+msgstr "Flikkering ook zonder atmosfeer"
+
+msgid "Twinkle is caused by atmospheric turbulence; this shows it regardless"
+msgstr "Flikkering wordt veroorzaakt door atmosferische turbulentie; dit toont het in elk geval"
+
+msgid "Type a name, a Bayer letter or a catalogue number - Vega, α Lyr, M 31, NGC 224."
+msgstr "Typ een naam, een Bayer-letter of een catalogusnummer - Vega, α Lyr, M 31, NGC 224."
+
+msgid "Umbral magnitude"
+msgstr "Kernschaduw magnitude"
+
+msgid "Up to mag."
+msgstr "Tot mag."
+
+msgid "Use my location"
+msgstr "Gebruik mijn locatie"
+
+msgid "Use the date now shown in the sky"
+msgstr "Gebruik de datum die nu aan de hemel wordt weergegeven"
+
+msgid "Use the value in landscape.ini when it has one"
+msgstr "Gebruik de waarde in landscape.ini als deze aanwezig is"
+
+msgid "Use the value stored for this location"
+msgstr "Gebruik de opgeslagen waarde voor deze locatie"
+
+msgid "Version %s  ·  Qt %s"
+msgstr "Versie %s  ·  Qt %s"
+
+msgid "When a search result is chosen"
+msgstr "Wanneer een zoekresultaat wordt gekozen"
+
+msgid "Where Jupiter's Great Red Spot was, and when"
+msgstr "Waar de Grote Rode Vlek van Jupiter was, en wanneer"
+
+msgid "Width"
+msgstr "Breedte"
+
+msgid "Working out the contact times…"
+msgstr "Contacttijden bepalen…"
+
+msgid "Zodiac and lunar stations"
+msgstr "Dierenriem en maanstations"
+
+msgid "Zodiacal Light brightness"
+msgstr "Zodiakaal lichthelderheid"
+
+msgid "Zoom in and out"
+msgstr "In- en uitzoomen"
+
+msgid "after sunset"
+msgstr "na ondergang"
+
+msgid "before sunrise"
+msgstr "voor opkomst"
+
+msgid "bright suburban"
+msgstr "helder suburbaan"
+
+msgid "east +"
+msgstr "oost +"
+
+msgid "engine ready, interface going live"
+msgstr "engine gereed, interface komt online"
+
+msgid "excellent dark sky"
+msgstr "uitstekend donkere hemel"
+
+msgid "inner city"
+msgstr "binnenstad"
+
+msgid "north +"
+msgstr "noord +"
+
+msgid "rural/suburban"
+msgstr "landelijk/suburbaan"
+
+msgid "suburban/urban"
+msgstr "suburbaan/stedelijk"
+
+msgid "truly dark"
+msgstr "echt donker"
+
+msgid "unreadable snapshot"
+msgstr "onleesbare snapshot"
+
+msgid "… and moons"
+msgstr "… en manen"

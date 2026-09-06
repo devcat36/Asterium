@@ -1,0 +1,1936 @@
+# Asterium interface translation for sc.
+# Copyright (C) 2026 the Asterium authors
+# This file is distributed under the same licence as the Asterium package.
+#
+# MACHINE TRANSLATION, not reviewed by a speaker of this language.
+# Terminology follows upstream Stellarium's own sc catalogue, which was used
+# as a glossary, and every entry keeps the source's printf placeholders.
+# Corrections from a human translator are welcome and should simply replace these.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: asterium\n"
+"Language: sc\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%d bodies"
+msgstr "%d corpusos"
+
+msgid "%d object"
+msgstr "%d ogettu"
+
+msgid "%d objects"
+msgstr "%d ogettos"
+
+msgid "%s colour"
+msgstr "colore %s"
+
+msgid "%s from %s, ±%.0f m"
+msgstr "%s dae %s, ±%.0f m"
+
+msgid "12-hour"
+msgstr "12 oras"
+
+msgid "1× below"
+msgstr "1× sotta"
+
+msgid "24-hour"
+msgstr "24 oras"
+
+msgid "A button to mark every object of the current observing list on the sky."
+msgstr "Unu tastu po marcare onni ogettu de sa lista de s'osservatzione in su chelu."
+
+msgid "A polygonal model for some small moons, asteroids and comets instead of a sphere"
+msgstr "Unu modellu poligonale po certos satellitis mannos, asteroides et isteddos coilongos in logu de una sfera"
+
+msgid "A touch-first planetarium forked from Stellarium, whose astronomy engine it uses unchanged. The interface is new; everything that draws the sky is upstream's work."
+msgstr "Unu planetariu a toccu primu isportzau dae Stellarium, chelu imperat su motore d'astronomia inalberadu. S'interface est noa; totu cale chi deseniat su chelu est uffiza de a cabedda."
+
+msgid "Abbreviated names"
+msgstr "Numenes abbreviados"
+
+msgid "About this sky culture"
+msgstr "A propositu de custa cultura de su chelu"
+
+msgid "Above altitude, °"
+msgstr "In arcus de altaria, °"
+
+msgid "Absolute scale"
+msgstr "Scala assolutas"
+
+msgid "Add %s"
+msgstr "Cuntza %s"
+
+msgid "Adjust brightness to bright objects"
+msgstr "Aggiusta su lugore sos ogettos mas lugosos"
+
+msgid "Algol-type eclipsing systems"
+msgstr "Sistemi eclissantes tipo Algol"
+
+msgid "Algorithm of ΔT"
+msgstr "Algoritmu de ΔT"
+
+msgid "All IDs"
+msgstr "Totu sos IDs"
+
+msgid "All naked-eye planets"
+msgstr "Totu sos pianetas a oclju nuu"
+
+msgid "All solar eclipses"
+msgstr "Totu sas eclisses solares"
+
+msgid "Allow negative hour angles"
+msgstr "Permite angulos de oras negativos"
+
+msgid "Allow results outside the recommended time range of the orbital elements"
+msgstr "Permite resurtaos foras de s'intervallu de tempus recomandau de sos elementos orbitales"
+
+msgid "Almanac"
+msgstr "Almanaccu"
+
+msgid "Almanac: Sun, Moon and naked-eye planets"
+msgstr "Almanaccu: Dom, Sa Luna et pianetas a s'ogu-na nu"
+
+msgid "Also find"
+msgstr "Atri a attepatza"
+
+msgid "Also plot"
+msgstr "Disinna atri"
+
+msgid "Also show moons of selected object or planets"
+msgstr "Fae biere atras sa Lunas de s'ogettu serbidu o de sos pianetas"
+
+msgid "Altitude limit, °"
+msgstr "Limite de artaria, °"
+
+msgid "Amount"
+msgstr "Quantidade"
+
+msgid "An observer floats above its planet, so there is nowhere on it to stand. Choose another planet to come back down."
+msgstr "Unu osservadore flutat in arcus de su pianeta, gasi no est ue in isso po istase in pía. Serberi unu alteru pianeta po torrare a sotta."
+
+msgid "And"
+msgstr "Et"
+
+msgid "And also"
+msgstr "Et atras"
+
+msgid "And the next (years)"
+msgstr "Et su seguinte (annos)"
+
+msgid "Angular distance between the Moon and selected object"
+msgstr "Distantzia angulare tra sa Luna et s'ogettu seberau"
+
+msgid "Annual drift"
+msgstr "Andada anuales"
+
+msgid "Appearance"
+msgstr "Apparentzia"
+
+msgid "Apply time interval limits to list"
+msgstr "Applica limites de intervallu de tempus a sa lista"
+
+msgid "Art"
+msgstr "Artu"
+
+msgid "Artificial satellites and unnamed stars are excluded from calculation."
+msgstr "Sos satellitis artificiales et sas stelias sen numene suni essuldidas dae su calcoliu."
+
+msgid "Asking for permission…"
+msgstr "Ispeditzia permesu…"
+
+msgid "Asks SIMBAD what it holds around the object that is selected now, and prints the answer as it comes back."
+msgstr "Domanda a SIMBAD cale tenet in giru de s'ogettu chi est serbidu in custu momentu, et imprenta sa resposta como torrat."
+
+msgid "Ast. lines"
+msgstr "Lin. ast."
+
+msgid "Ast. names"
+msgstr "Nom. ast."
+
+msgid "Astronomical Almanac (1984)"
+msgstr "Almanaccu Astronomicu (1984)"
+
+msgid "Astronomical Almanac (default) enlarges by 2%; Danjon (1951) differs slightly"
+msgstr "Almanaccu astronomicu (predefiniu) s'alarga de su 2%; Danjon (1951) difera levemente"
+
+msgid "Astronomical Twilight"
+msgstr "Crepuscolo astronomicu"
+
+msgid "Astronomical night"
+msgstr "Notte astronomica"
+
+msgid "At"
+msgstr "A"
+
+msgid "Atmosph."
+msgstr "Atmosf."
+
+msgid "Automatic closing dialog"
+msgstr "Fenestra de serialu automaticu"
+
+msgid "Automatic transparency"
+msgstr "Transparentzia automàtica"
+
+msgid "Axis distance"
+msgstr "Distantzia de s'assu"
+
+msgid "Azi. grid"
+msgstr "Gril. azi."
+
+msgid "Azimuth and altitude rather than right ascension and declination"
+msgstr "Azimut et artaria in logu de ascensione retta et declinatzione"
+
+msgid "Bad visibility conditions for current location"
+msgstr "Mala conditziones de vista po sa logu currente"
+
+msgid "Beginning of center line; central eclipse begins"
+msgstr "Comintzamentu de sa linea de centru; eclisse centrale comintzat"
+
+msgid "Below the horizon here."
+msgstr "Sotta de s'orizonte in cue."
+
+msgid "Between objects"
+msgstr "Inter ogettos"
+
+msgid "Boundless"
+msgstr "Sensa limites"
+
+msgid "Bounds"
+msgstr "Lacanas"
+
+msgid "Bright barium stars"
+msgstr "Istellas lughentes de bario"
+
+msgid "Bright carbon stars"
+msgstr "Istellas lughentes de carbonio"
+
+msgid "Bright nova stars"
+msgstr "Istellas lughentes nova"
+
+msgid "Bright supernova stars"
+msgstr "Istellas lughentes de supernova"
+
+msgid "Brighter than"
+msgstr "Prus lugu ca"
+
+msgid "By object type"
+msgstr "Po tipu de ogettu"
+
+msgid "By planet"
+msgstr "Po pianeta"
+
+msgid "Calculate"
+msgstr "Calcula"
+
+msgid "Calculating…"
+msgstr "Calculande…"
+
+msgid "Caldwell objects"
+msgstr "Ogettos Caldwell"
+
+msgid "Cardinals"
+msgstr "Cardinales"
+
+msgid "Catalogue numbers instead of common names"
+msgstr "Numeros de catalogu in logu de numenes comunos"
+
+msgid "Category"
+msgstr "Categoria"
+
+msgid "Center of FOV"
+msgstr "Centru de sa FOV"
+
+msgid "Centering button"
+msgstr "Tastu de centramentu"
+
+msgid "Central duration"
+msgstr "Durada centrale"
+
+msgid "Central eclipse begins"
+msgstr "Comintza s'eclisse centrale"
+
+msgid "Central eclipse ends"
+msgstr "Finet s'eclisse centrale"
+
+msgid "Centre"
+msgstr "Centru"
+
+msgid "Centre on object"
+msgstr "Centru in s'ogettu"
+
+msgid "Centre point"
+msgstr "Puntu centrale"
+
+msgid "Circles"
+msgstr "Tzirculos"
+
+msgid "Circular FOV"
+msgstr "FOV tzircolare"
+
+msgid "City"
+msgstr "Cidadde"
+
+msgid "Civil Twilight"
+msgstr "Crepuscolo civile"
+
+msgid "Cleanup"
+msgstr "Munda"
+
+msgid "Clear"
+msgstr "Mundiga"
+
+msgid "Clear recent searches"
+msgstr "Mundiga sos circamientos recentis"
+
+msgid "Clear the selection - a touch screen has no right button"
+msgstr "Mundiga sa seberatzione - unu skerimu a tutu non tenet tastu de dritu"
+
+msgid "Cleared."
+msgstr "Mundiau."
+
+msgid "Click on star to show its constellation"
+msgstr "Tinka in una stelía po fae biere sa susta costellatzione"
+
+msgid "Close"
+msgstr "Cchiudi"
+
+msgid "Close what is open; from the sky, leave the app running"
+msgstr "Cchiudi cale est abertu; dae su chelu, lassa s'app andrande"
+
+msgid "Coarse"
+msgstr "Grosu"
+
+msgid "Color"
+msgstr "Colore"
+
+msgid "Color channel"
+msgstr "Canale de colore"
+
+msgid "Color of Lunar station lines"
+msgstr "Colore de sas rigas de sas statziones lunares"
+
+msgid "Color of orbits"
+msgstr "Colore de sas orbitas"
+
+msgid "Color of zodiac lines"
+msgstr "Colore de sas lineas de su Zodiagu"
+
+msgid "Colors of orbit lines"
+msgstr "Colores de sas lineas de sas orbitas"
+
+msgid "Comets up to mag."
+msgstr "Isteddos coilongos finu a mag."
+
+msgid "Compass"
+msgstr "Bussola"
+
+msgid "Config"
+msgstr "Configuratzione"
+
+msgid "Connecting line"
+msgstr "Linea de cunnetzione"
+
+msgid "Const."
+msgstr "Cost."
+
+msgid "Contrast"
+msgstr "Contrasu"
+
+msgid "Coordinate system"
+msgstr "Istema de coordinadas"
+
+msgid "Coordinates"
+msgstr "Coordinadas"
+
+msgid "Copyright"
+msgstr "Protettzione de s'auturadiu"
+
+msgid "Credits"
+msgstr "Meritus"
+
+msgid "Culmination altitude"
+msgstr "Artaria de culminatzione"
+
+msgid "Current FoV"
+msgstr "FOV currente"
+
+msgid "Custom"
+msgstr "Personalizau"
+
+msgid "Custom FoV limit"
+msgstr "Limite de FOV personalizadu"
+
+msgid "Custom altitude of the Moon, °"
+msgstr "Artaria personalizada de sa Luna, °"
+
+msgid "Custom altitude of the Sun, °"
+msgstr "Artaria personalizada de su Dom, °"
+
+msgid "Custom values"
+msgstr "Valores personalizados"
+
+msgid "Cut the scale off below the limit"
+msgstr "Taia sa scala in sotta de su limite"
+
+msgid "DATE AND TIME (UTC)"
+msgstr "DATA ET TEMPUS (UTC)"
+
+msgid "DSS survey"
+msgstr "Inchiesta DSS"
+
+msgid "Date and time"
+msgstr "Data et tempus"
+
+msgid "Date/time"
+msgstr "Data/tempus"
+
+msgid "Dates"
+msgstr "Datas"
+
+msgid "Dawn"
+msgstr "Albada"
+
+msgid "Dbl. stars"
+msgstr "Stelias duppias"
+
+msgid "December solstice"
+msgstr "Solstitziu de decembri"
+
+msgid "Decimal degrees. −33.87 means 33.87° south. Elevation is metres above sea level; it moves the horizon down by a few arcminutes."
+msgstr "Grados decimales. −33.87 signifia 33.87° a su sud. Elevatzione est metros in arcus de su libellu de su mare; imbata s'orizonte in sotta po cala arcominutos."
+
+msgid "Degrees per year the longitude moves by"
+msgstr "Grados po annu cale sa longitudine si mobet"
+
+msgid "Degrees, hours and minutes as they are written - 12h30m49s, +41°16'09\", 187.7 - or plain decimal degrees."
+msgstr "Grados, oras et minutos comente suni scriitos - 12h30m49s, +41°16'09\", 187.7 - o semplicemente grados decimales."
+
+msgid "Deletes all recent search object data, and the objects SIMBAD contributed."
+msgstr "Cantzella totu sos datos de sos ogettos circos recentis, et sos ogettos chi SIMBAD apportau."
+
+msgid "Designations for celestial coordinate systems"
+msgstr "Denominatziones po sos istemas de coordinadas celestes"
+
+msgid "Designations for double stars"
+msgstr "Denominatziones po sas stelias duppias"
+
+msgid "Designations for variable stars"
+msgstr "Denominatziones po sas stelias variabiles"
+
+msgid "Dim a survey near the horizon, as the air does"
+msgstr "Abbuia unu inchiesta in presu s'orizonte, comente s'aria"
+
+msgid "Dimensions"
+msgstr "Dimensiones"
+
+msgid "Distance, AU"
+msgstr "Distantzia, UA"
+
+msgid "Done"
+msgstr "Fettu"
+
+msgid "Drag"
+msgstr "Tira"
+
+msgid "Draw deep-sky objects at all"
+msgstr "Disinna ogettos de su chelu profundu"
+
+msgid "Draw only polygon"
+msgstr "Disinna somente poligonu"
+
+msgid "Draw the enabled sky surveys"
+msgstr "Disinna sos inchiestas de su chelu abilitadas"
+
+msgid "Draw the planets, moons and minor bodies"
+msgstr "Disinna sos pianetas, sas Lunas et sos corpusos minores"
+
+msgid "Drawn larger than life, so a body that is a few arcseconds wide is visible at all. The position stays true."
+msgstr "Dessinau prus grande ca sa vida, gasi unu corpus chi est cala arcosegundos largu est bisibbile in tutti. Sa positzione istade bera."
+
+msgid "Duration"
+msgstr "Durada"
+
+msgid "Duration (years)"
+msgstr "Durada (annos)"
+
+msgid "Duration, months"
+msgstr "Durada, meses"
+
+msgid "Dusk"
+msgstr "Iscurigada"
+
+msgid "Dynamic (FOV-based) Moon size"
+msgstr "Mannesa de sa Luna dinamica (basada in FOV)"
+
+msgid "Earth penumbra"
+msgstr "Penumbra de sa Terra"
+
+msgid "Earth shadow enlargement after Danjon"
+msgstr "Allargamentu de s'umbra de sa Terra a pustis de Danjon"
+
+msgid "Earth umbra"
+msgstr "Umbra de sa Terra"
+
+msgid "Ecl. grid"
+msgstr "Gril. ecl."
+
+msgid "Eclipse begins; first contact with Earth"
+msgstr "Eclisse comintzat; primu contattu cun sa Terra"
+
+msgid "Eclipse ends; last contact with Earth"
+msgstr "Eclisse tèrminada; urtimu contattu cun sa Terra"
+
+msgid "Eclipses"
+msgstr "Eclisses"
+
+msgid "Eclipses are computed for observers on Earth."
+msgstr "Sas eclisses suni computadas po sos osservadores in sa Terra."
+
+msgid "Elevation"
+msgstr "Elevatzione"
+
+msgid "Elevation in metres"
+msgstr "Elevatzione in metros"
+
+msgid "Elongations and quadratures"
+msgstr "Elongatziones et quadraturas"
+
+msgid "Enabled only"
+msgstr "Abilitadas somente"
+
+msgid "End of center line; central eclipse ends"
+msgstr "Fine de sa linea de centru; eclisse centrale tèrminada"
+
+msgid "Enter Culture..."
+msgstr "Intruiti Cultura…"
+
+msgid "Equ. grid"
+msgstr "Gril. equ."
+
+msgid "Equ. mount"
+msgstr "Mont. equ."
+
+msgid "Equatorial radii ratio"
+msgstr "Ratziu de sos radii ecuatoriales"
+
+msgid "Evening"
+msgstr "Solinga"
+
+msgid "Every"
+msgstr "Onni"
+
+msgid "Every name the object is catalogued under"
+msgstr "Onni numene sotta cuale s'ogettu est catalogau"
+
+msgid "Exoplanetary systems"
+msgstr "Sistemi exoplanetarios"
+
+msgid "Exterior egress"
+msgstr "Isita esterna"
+
+msgid "Exterior ingress"
+msgstr "Intrada esterna"
+
+msgid "Fades the ground as you look below the horizon or zoom in"
+msgstr "Isbiaidit sa terra cando abbaidas suta de s'orizonte o ingrandis"
+
+msgid "Fading duration"
+msgstr "Durada de su issvanimentu"
+
+msgid "Faintest shown"
+msgstr "Su prus 'e scuru mustrau"
+
+msgid "Favorites"
+msgstr "Preferidas"
+
+msgid "Fetching the survey lists…"
+msgstr "Recuperande sas listas de inchieste…"
+
+msgid "Filter"
+msgstr "Filtru"
+
+msgid "Find a city"
+msgstr "Agatta una cidadde"
+
+msgid "Fine"
+msgstr "Finu"
+
+msgid "First %d of %d - filter to narrow it."
+msgstr "Primus %d de %d - filtra po issangustare."
+
+msgid "First body"
+msgstr "Primu corpus"
+
+msgid "First celestial body"
+msgstr "Primu corpus celeste"
+
+msgid "First graph"
+msgstr "Primu grafico"
+
+msgid "Fix"
+msgstr "Fiza"
+
+msgid "Fixed Equator"
+msgstr "Ecuatore fixu"
+
+msgid "Fixed Equatorial grid"
+msgstr "Griglia ecuatoriale fixa"
+
+msgid "Fixed instant"
+msgstr "Istante fixu"
+
+msgid "Flip buttons"
+msgstr "Tastu de butada"
+
+msgid "Flip horiz."
+msgstr "Flip orizz."
+
+msgid "Flip vert."
+msgstr "Gira vert."
+
+msgid "Frame rate"
+msgstr "Tasa de fotogramas"
+
+msgid "From"
+msgstr "Dae"
+
+msgid "From year"
+msgstr "Dae s'annu"
+
+msgid "Full screen"
+msgstr "A ischermo"
+
+msgid "Fullscreen button"
+msgstr "Tastu de panto schermis"
+
+msgid "Further reading"
+msgstr "Alera lettura"
+
+msgid "GRS details…"
+msgstr "Detalles de su GRS…"
+
+msgid "Gal. grid"
+msgstr "Gril. gal."
+
+msgid "Galactic center and anticenter"
+msgstr "Centru galaticu et anticentru"
+
+msgid "Gamma, saturation, brightness, contrast, opacity, colour channel and inverted colours belong to one survey. Open a survey to set them."
+msgstr "Gamma, saturatzione, lugore, contrasu, opacidade, canale de colore et colores invertitos aparte a unu inchiesta. Aberi unu inchiesta po sa configurare."
+
+msgid "Gestures"
+msgstr "Xesturas"
+
+msgid "Go there"
+msgstr "Aí in cue"
+
+msgid "Go to position"
+msgstr "Aí a sa positzione"
+
+msgid "Go to this eclipse"
+msgstr "Aí a custa eclisse"
+
+msgid "Go to this moment"
+msgstr "Aí a custu momentu"
+
+msgid "Go to this transit"
+msgstr "Aí a custu transitu"
+
+msgid "Good visibility conditions for current location"
+msgstr "Bona conditziones de vista po sa logu currente"
+
+msgid "Great Red Spot"
+msgstr "Grande Puntu Ruju"
+
+msgid "Great Red Spot details"
+msgstr "Detalles de su Grande Puntu Ruju"
+
+msgid "Greatest eclipse"
+msgstr "Eclisse prus manna"
+
+msgid "Greatest elongation for an inner planet, quadrature for an outer one"
+msgstr "Elongatzione prus grande po unu pianeta interiore, quadratura po unu esteriore"
+
+msgid "Greek letters"
+msgstr "Litteras gregas"
+
+msgid "Grid density"
+msgstr "Densidade de sa griglia"
+
+msgid "Grids"
+msgstr "Griglie"
+
+msgid "Ground"
+msgstr "Terrinu"
+
+msgid "Gyro"
+msgstr "Giroscopiu"
+
+msgid "Gyro mode"
+msgstr "Modalidade Gyro"
+
+msgid "Harvard-Smithsonian Center for Astrophysics (USA)"
+msgstr "Centru Harvard-Smithsonian de Astrofisica (USA)"
+
+msgid "Height"
+msgstr "Altaria"
+
+msgid "Heliocentric ecliptic positions of the major planets."
+msgstr "Positziones eclitticas eliocentriche de sos pianetas mazores."
+
+msgid "Herschel 400 objects"
+msgstr "Ogettos Herschel 400"
+
+msgid "HiPS"
+msgstr "HiPS"
+
+msgid "HiPS Surveys"
+msgstr "Inchiestas HiPS"
+
+msgid "Hide controls"
+msgstr "Cuaí sos controlos"
+
+msgid "Hide deep-sky objects fainter than the limit"
+msgstr "Cuaí sos ogettos de su chelu profundu prus fadu ca su limite"
+
+msgid "Hide orbits of minor bodies"
+msgstr "Cuaí sas orbitas de sos corpusos minores"
+
+msgid "Highlight"
+msgstr "Ressaltu"
+
+msgid "Highlight the objects of the observing list"
+msgstr "Istenniu sos ogettos de sa lista de observatzione"
+
+msgid "Hint circles marking each planet"
+msgstr "Tzirculos de consiggiu chi marcan onni pianeta"
+
+msgid "Hints brightness"
+msgstr "Lugore de sos cossizos"
+
+msgid "Hipparcos designations"
+msgstr "Denominatziones Hipparcos"
+
+msgid "Hour angles usually run 0...24h. This counts -12h...12h."
+msgstr "Sos angulos de oras normalmente lugigant 0…24h. Custu contat -12h…12h."
+
+msgid "How many"
+msgstr "Cantos"
+
+msgid "ICRS grid"
+msgstr "Gril. ICRS"
+
+msgid "Include"
+msgstr "Inclui"
+
+msgid "Include bright comets"
+msgstr "Inclui isteddos coilongos lugosos"
+
+msgid "Include selected minor planets"
+msgstr "Inclui pianetas minores serbidos"
+
+msgid "Info label"
+msgstr "Etichetta de informatziones"
+
+msgid "Intercardinal points"
+msgstr "Puntos intercardinals"
+
+msgid "Interior egress"
+msgstr "Isita interna"
+
+msgid "Interior ingress"
+msgstr "Intrada interna"
+
+msgid "Invariable plane of the Solar system"
+msgstr "Pianu invariabbile de su Sistema Solare"
+
+msgid "Isolated"
+msgstr "Isoladu"
+
+msgid "Its elevation, and the civil, nautical and astronomical twilights"
+msgstr "Sa susta elevatzione, et sos crepusculos civiles, nauticus et astronomicos"
+
+msgid "Jovigraphic longitude of the spot in System II, in degrees"
+msgstr "Longitudine jovigrapica de su puntu in Istema II, in grados"
+
+msgid "Julian day"
+msgstr "Dia Giulianu"
+
+msgid "June solstice"
+msgstr "Solstitziu de iugno"
+
+msgid "Label"
+msgstr "Etichetta"
+
+msgid "Label colour"
+msgstr "Colore de s'etichetta"
+
+msgid "Label only features along the terminator"
+msgstr "Etichetta somente sas caratteristicas a landu de su terminatzu"
+
+msgid "Labels and Markers amount"
+msgstr "Quantidade de etichettas et marcadores"
+
+msgid "Labels brightness"
+msgstr "Lugore de sas etichettas"
+
+msgid "Largest, ′"
+msgstr "Prus grande, ′"
+
+msgid "Last known position"
+msgstr "Ultima positzione cognita"
+
+msgid "Lasting"
+msgstr "Durande"
+
+msgid "Latitude −90…90, longitude −180…180."
+msgstr "Latitudine −90…90, longitudine −180…180."
+
+msgid "Layer appearance"
+msgstr "Apparentzia de sa stratada"
+
+msgid "Leaves the landscape visible in darkness"
+msgstr "Lassa sa panorama bisibbile in sa foschidade"
+
+msgid "Licence"
+msgstr "Licentzia"
+
+msgid "Light pollution"
+msgstr "Inquinamentu de su lughe"
+
+msgid "Light pollution from database"
+msgstr "Inquinamentu de su lughe dae su database"
+
+msgid "Limit angular separation"
+msgstr "Limite de separatzione angulare"
+
+msgid "Limit angular size"
+msgstr "Limite de mannesa angulare"
+
+msgid "Limit magnitude"
+msgstr "Limite de mannitudine"
+
+msgid "Line"
+msgstr "Linea"
+
+msgid "Linear and angular distances between selected objects"
+msgstr "Distantzias liniares et anguares tra sos ogettos seberaos"
+
+msgid "Linear distance"
+msgstr "Distantzia liniare"
+
+msgid "Lines"
+msgstr "Lineas"
+
+msgid "Lines and circles"
+msgstr "Lineas et tzirculos"
+
+msgid "List"
+msgstr "Lista"
+
+msgid "List name"
+msgstr "Numene de sa lista"
+
+msgid "Lit windows, street lighting and the like"
+msgstr "Finestras ilumadas, illuminatzione de sa strata et iscaras"
+
+msgid "Loading…"
+msgstr "Carrigande…"
+
+msgid "Local solar eclipses"
+msgstr "Eclisses solares locales"
+
+msgid "Local time"
+msgstr "Tempus locale"
+
+msgid "Local time, h"
+msgstr "Tempus locale, h"
+
+msgid "Locate me"
+msgstr "Atopa mi"
+
+msgid "Locating…"
+msgstr "Atopande…"
+
+msgid "Location from landscape"
+msgstr "Logu de su panorama"
+
+msgid "Location is switched off in the system settings."
+msgstr "Su logu est off in sas impostatziones de su sistema."
+
+msgid "Location permission refused. The other two ways still work."
+msgstr "S'atoritatzione de su logu est refudada. Sas duas ateras vias funtzionant ancora."
+
+msgid "Long press"
+msgstr "Pressa lunga"
+
+msgid "Longitude of GRS"
+msgstr "Longitudine de GRS"
+
+msgid "Lunar Stations"
+msgstr "Postatziones Lunares"
+
+msgid "Lunar eclipses"
+msgstr "Eclisses lunares"
+
+msgid "Lunar elongation"
+msgstr "Elongatzione lunare"
+
+msgid "Magnitudes"
+msgstr "Mannitudines"
+
+msgid "Major planets"
+msgstr "Pianetas mazores"
+
+msgid "Major planets by planet, minor bodies by type"
+msgstr "Pianetas mazores po pianeta, corpos minores po tipu"
+
+msgid "Map of the planet. Tap to set the observer's place."
+msgstr "Mappa de su pianeta. Cumenta po iscurigare su logu de s'osservadore."
+
+msgid "March equinox"
+msgstr "Ecuinoctziu de marzu"
+
+msgid "Mark impact features with ellipses"
+msgstr "Marca sas caratteristicas de impatu cun ellisses"
+
+msgid "Mark minor bodies"
+msgstr "Marca sos corpos minores"
+
+msgid "Markers"
+msgstr "Marcadores"
+
+msgid "Markers sized by the object's angular size"
+msgstr "Marcadores ridimensionaos po sa mannitudine angulare de s'ogettu"
+
+msgid "Master switch for the grids, lines and points below"
+msgstr "Interrutore principale po sas grillas, lineas et puntos sutta"
+
+msgid "Max items to display"
+msgstr "Max ogettos po fae biere"
+
+msgid "Max. results"
+msgstr "Max. resurtaos"
+
+msgid "Max. search radius"
+msgstr "Max. raggiu de sa cricca"
+
+msgid "Maximum Solar altitude"
+msgstr "Artaria solaris massima"
+
+msgid "Maximum allowed separation"
+msgstr "Separatzione massima permessa"
+
+msgid "Maximum angular size"
+msgstr "Mannitudine angulare massima"
+
+msgid "Maximum eclipse"
+msgstr "Eclisse massima"
+
+msgid "Maximum year"
+msgstr "Annu massima"
+
+msgid "Mean motion"
+msgstr "Motu mediu"
+
+msgid "Mercury, Venus, Mars, Jupiter and Saturn at once. Earth only."
+msgstr "Mercuriu, Isteddu Chenadorzu, Marte, Zove et Saturnu in una bieta. Sa Terra sola."
+
+msgid "Messier objects"
+msgstr "Ogettos Messier"
+
+msgid "Mid-transit"
+msgstr "Transitu mediu"
+
+msgid "Milky Way brightness"
+msgstr "Lugore de s'andaina de paza"
+
+msgid "Milky Way saturation"
+msgstr "Saturatzione de s'andaina de paza"
+
+msgid "Minimal angular size"
+msgstr "Mannitudine angulare minima"
+
+msgid "Minimal brightness"
+msgstr "Lugore minima"
+
+msgid "Minimum Solar altitude"
+msgstr "Artaria solaris minima"
+
+msgid "Minimum year"
+msgstr "Annu minima"
+
+msgid "Minor bodies"
+msgstr "Corpos minores"
+
+msgid "Minutes before sunrise / after sunset"
+msgstr "Minutos prima de s'arbeschida / a pustis de s'occasu"
+
+msgid "Month"
+msgstr "Mese"
+
+msgid "Moon at"
+msgstr "Sa Luna in"
+
+msgid "Moon enters penumbra"
+msgstr "Sa Luna intrat in penumbra"
+
+msgid "Moon enters umbra"
+msgstr "Sa Luna intrat in umbra"
+
+msgid "Moon in zenith at"
+msgstr "Sa Luna in zenith a"
+
+msgid "Moon leaves penumbra"
+msgstr "Sa Luna abbat penumbra"
+
+msgid "Moon leaves umbra"
+msgstr "Sa Luna abbat umbra"
+
+msgid "Moon's halo"
+msgstr "Alu de Sa Luna"
+
+msgid "Moons of first body"
+msgstr "Lúnulas de su primu corpu"
+
+msgid "Morning"
+msgstr "Matina"
+
+msgid "Morph. Descr."
+msgstr "Descr. Morfo."
+
+msgid "Move the sky by pointing the phone at it"
+msgstr "Mughe su chelu acumpatande su telèfonu a su chelu"
+
+msgid "Move the sky with the phone"
+msgstr "Mughe su chelu cun su telèfonu"
+
+msgid "NGC/IC objects"
+msgstr "Ogettos NGC/IC"
+
+msgid "Name for the new list"
+msgstr "Numene po sa lista noa"
+
+msgid "Named features the landscape marks"
+msgstr "Caratteristicas nomaas chi su panorama marca"
+
+msgid "Names"
+msgstr "Numenes"
+
+msgid "Names beside the planets and their markers"
+msgstr "Numenes a costagliedu de sos pianetas et soro marcadores"
+
+msgid "Names in English"
+msgstr "Numenes in Inglesu"
+
+msgid "Nautical Twilight"
+msgstr "Crepuscolo nautica"
+
+msgid "Neb. bg"
+msgstr "Neb. sf."
+
+msgid "Nebula background"
+msgstr "Isfondu de nebulosa"
+
+msgid "Nebulae"
+msgstr "Nebulosa"
+
+msgid "New list"
+msgstr "Lista noa"
+
+msgid "Next"
+msgstr "Seguinte"
+
+msgid "Night"
+msgstr "Notte"
+
+msgid "No city matches that."
+msgstr "Nulla cividade ca coresponda a custu."
+
+msgid "No eclipses found. Pick a range and calculate."
+msgstr "Nulla eclisses atopadas. Sebera unu intervallu et calcula."
+
+msgid "No fresh fix - the receiver may have no sky. Try again outdoors, or set the place another way."
+msgstr "Nulla fix nobu - su ricevitore no at at chelu. Tenta tando in s'aperturaìda, o issebera su logu de atra manera."
+
+msgid "No surveys were found. The lists are downloaded, so this needs a connection."
+msgstr "Nulla sondaggius atopados. Sas listas suni descargadas, issa che serbit una connessione."
+
+msgid "None downloaded yet"
+msgstr "Nulla descargau finora"
+
+msgid "Normal"
+msgstr "Normale"
+
+msgid "Not observable eclipse"
+msgstr "Eclisse no observabile"
+
+msgid "Note: Local circumstances for eclipses during thousands of years in the past and future are not reliable due to uncertainty in ΔT which is caused by fluctuations in Earth's rotation."
+msgstr "Nota: Sas circustantzias locales po sas eclisses durante migliaia de annos in su passau et su futuru no suni fidabiles comente incertidummene in ΔT chi est causada dae flutuatziones in sa rrotazione de sa Terra."
+
+msgid "Note: this tool doesn't apply the refraction correction for coordinates. Horizontal coordinates stop the clock, or the sky would turn away from the point while you arrive at it."
+msgstr "Nota: custu toolu no ap applica sa curretxione de refratzione po sas coordinadas. Sas coordinadas orizontales fermant s'oraggiu, o su chelu si girada dae su punto mentre ca tu ti nde bas."
+
+msgid "Notes: The quantity gamma is the minimum distance from the axis of lunar shadow cone to the center of Earth, in units of Earth’s equatorial radius. This distance is positive or negative, depending on whether the axis of the shadow cone passes north or south of the Earth's center. Path of solar eclipses during thousands of years in the past and future are not reliable due to uncertainty in ΔT which is caused by fluctuations in Earth's rotation."
+msgstr "Notas: Sa cantidade gamma est sa distantzia minima dae s'assxi de conu de ombra lunare a su centru de sa Terra, in unitades de sa radius ecuatoriale de sa Terra. Custa distantzia est positiva o negativa, a seconda si s'assxi de conu de ombra calat dae norde o dae sud de su centru de sa Terra. Su caminu de sas eclisses solares durante migliaia de annos in su passau et su futuru no suni fidabiles comente incertidummene in ΔT chi est causada dae flutuatziones in sa rrotazione de sa Terra."
+
+msgid "Notes: The quantity gamma is the minimum distance from the center of the Moon to the axis of Earth’s umbral shadow cone, in units of Earth’s equatorial radius. This distance is positive or negative, depending on whether the Moon passes north or south of the shadow cone axis. Local circumstances for eclipses during thousands of years in the past and future are not reliable due to uncertainty in ΔT which is caused by fluctuations in Earth's rotation."
+msgstr "Notas: Sa cantidade gamma est sa distantzia minima dae su centru de sa Luna a s'assxi de conu de ombra umbreale de sa Terra, in unitades de sa radius ecuatoriale de sa Terra. Custa distantzia est positiva o negativa, a segunda si sa Luna calez dae norde o dae sud de s'assxi de conu de ombra. Sas circustantzias locales po sas eclisses durante migliaia de annos in su passau et su futuru no suni fidabiles comente incertidummene in ΔT chi est causada dae flutuatziones in sa rrotazione de sa Terra."
+
+msgid "Notes: Time in parentheses means the contact is invisible at current location. Transit times during thousands of years in the past and future are not reliable due to uncertainty in ΔT which is caused by fluctuations in Earth's rotation."
+msgstr "Notas: Su tempus in parentesi cheret niri chi su contattu est invisibile in sa logu currente. Sos tempus de transitu durante migliaia de annos in su passau et su futuru no suni fidabiles comente incertidummene in ΔT chi est causada dae flutuatziones in sa rrotazione de sa Terra."
+
+msgid "Nothing computed yet, or nothing in this category is up."
+msgstr "Nulla computau finora, o nulla in custa categorìa est up."
+
+msgid "Nothing computed yet."
+msgstr "Nulla computau finora."
+
+msgid "Nothing found for “%s”."
+msgstr "Nada agattau pro \"%s\"."
+
+msgid "Nothing in this list matches."
+msgstr "Nulla in custa lista concordat."
+
+msgid "Nothing in this list yet. Pick something out of the sky and tap the star on its card to keep it here."
+msgstr "Nulla in custa lista carcara. Sebera s'iscala de sos ogettos de su chelu et cumenta su stella de sa schida po mantènere custu."
+
+msgid "Nothing is selected. Pick an object in the sky first."
+msgstr "Nulla est iscurigau. Sebera unu ogettu in su chelu imbramis."
+
+msgid "Nothing matches."
+msgstr "Nulla concordat."
+
+msgid "Nothing selected"
+msgstr "Nulla iscurigau"
+
+msgid "Nothing to plot."
+msgstr "Nulla po traciare."
+
+msgid "Nothing to show."
+msgstr "Nulla po fae biere."
+
+msgid "Now"
+msgstr "Ista"
+
+msgid "N× above"
+msgstr "N× supra"
+
+msgid "OBJECT"
+msgstr "OGETTU"
+
+msgid "OBJECTS"
+msgstr "OGETTOS"
+
+msgid "Objects which are up"
+msgstr "Ogettos chi suni up"
+
+msgid "Observable duration"
+msgstr "Durata osservabile"
+
+msgid "Observing list"
+msgstr "Lista de osservatzione"
+
+msgid "Observing list highlight"
+msgstr "Enfattiatzione de sa lista de osservatzione"
+
+msgid "Observing lists"
+msgstr "Listas de osservatzione"
+
+msgid "On the sky"
+msgstr "In su chelu"
+
+msgid "One color"
+msgstr "Unu colore"
+
+msgid "Only for N latest selected objects"
+msgstr "Carca po sos N ogettos iscurigaos prus nobus"
+
+msgid "Only for Solar elevation"
+msgstr "Carca po s'elevatzione solaris"
+
+msgid "Only list"
+msgstr "Carca lista"
+
+msgid "Only one at a time"
+msgstr "Carca unu in sa bieta"
+
+msgid "Only orbit for selected object…"
+msgstr "Carca orbita po s'ogettu iscurigau…"
+
+msgid "Only orbits of major planets…"
+msgstr "Carca orbitas de sos pianetas mazores…"
+
+msgid "Open date and time"
+msgstr "Abri data et ora"
+
+msgid "Open location"
+msgstr "Abri logu"
+
+msgid "Opens the JUPOS project in a browser"
+msgstr "Abri su prugetu JUPOS in unu navigadore"
+
+msgid "Opposition of"
+msgstr "Oppositzione de"
+
+msgid "Oppositions"
+msgstr "Oppossitziones"
+
+msgid "Orbit colors"
+msgstr "Colores de orbita"
+
+msgid "Orbital periods ratio"
+msgstr "Ratziu de sos periodos orbitales"
+
+msgid "Orbits"
+msgstr "Orbitas"
+
+msgid "Orbits of interstellar objects"
+msgstr "Orbitas de sos ogettos intersterlares"
+
+msgid "Orbits of moons"
+msgstr "Orbitas de sas lunas"
+
+msgid "Otherwise every move adopts the zone of the new place."
+msgstr "Non donziois, ogni mughe adonta sa zona de su logu nou."
+
+msgid "Outline craters"
+msgstr "Cuntornus de sos crateres"
+
+msgid "Pan the sky"
+msgstr "Pannu su chelu"
+
+msgid "Partial eclipse begins"
+msgstr "Sa eclisse partziala comintzat"
+
+msgid "Partial eclipse ends"
+msgstr "Sa eclisse partziala tennit fine"
+
+msgid "Partitions"
+msgstr "Partiziones"
+
+msgid "Partitions thickness"
+msgstr "Ispessore de partitziones"
+
+msgid "Path width"
+msgstr "Larchesa de sa viade"
+
+msgid "Pause"
+msgstr "Sospende"
+
+msgid "Paused - start"
+msgstr "Sospendau - Comintzada"
+
+msgid "Penumbral magnitude"
+msgstr "Mannitudine penumbriale"
+
+msgid "Perfect visibility conditions for current location"
+msgstr "Perfitta conditziones de vista po sa logu currente"
+
+msgid "Perihelion and aphelion"
+msgstr "Periheliniu et afeliniu"
+
+msgid "Pick two different bodies to see how their distance changes."
+msgstr "Sebera sos dois corpos diferentes po biere comente sa deus distantzia cambiat."
+
+msgid "Planet"
+msgstr "Pianeta"
+
+msgid "Planet and time zone"
+msgstr "Pianeta et fusu orariu"
+
+msgid "Planetary nomenclature"
+msgstr "Nomenclatura planetaria"
+
+msgid "Planetary transits"
+msgstr "Transitus planetarios"
+
+msgid "Planets"
+msgstr "Pianetas"
+
+msgid "Planets magnitude algorithm"
+msgstr "Algoritmu de mannitudine de sos pianetas"
+
+msgid "Pluto, Ceres, Pallas, Juno and Vesta"
+msgstr "Plutone, Cerese, Pallade, Iunone et Vestale"
+
+msgid "Point size"
+msgstr "Mannitudine de su puntu"
+
+msgid "Pointing"
+msgstr "Puntande"
+
+msgid "Polar distance"
+msgstr "Distantzia polare"
+
+msgid "Polar distance, not declination"
+msgstr "Distantzia polare, no declinatzione"
+
+msgid "Poles and points"
+msgstr "Polos et puntos"
+
+msgid "Polygon colour"
+msgstr "Colore de su poligonu"
+
+msgid "Positive values only"
+msgstr "Carca valoris positibos"
+
+msgid "Previous"
+msgstr "Anteriore"
+
+msgid "Projected Solar Equator"
+msgstr "Ecuatore Solaris Proietau"
+
+msgid "Pronounce"
+msgstr "Pronuncia"
+
+msgid "Quadrature circle"
+msgstr "Tzirculu de quadratura"
+
+msgid "Query SIMBAD about selected object"
+msgstr "Intèrroga SIMBAD cun s'ogettu iscurigau"
+
+msgid "Query options"
+msgstr "Optziones de intèrroga"
+
+msgid "Quit"
+msgstr "Essi"
+
+msgid "Quit button"
+msgstr "Tastu de essida"
+
+msgid "Reading…"
+msgstr "Liggende…"
+
+msgid "Real time speed"
+msgstr "Velocidade de tempus reale"
+
+msgid "Recent Searches"
+msgstr "Crichas Resentes"
+
+msgid "Rectangular FOV"
+msgstr "FOV Rettangulare"
+
+msgid "Refraction, extinction, sky brightness"
+msgstr "Refratzione, estintzione, lugore de su chelu"
+
+msgid "Regions of the sky"
+msgstr "Regiones de su chelu"
+
+msgid "Relative scale"
+msgstr "Scala relativa"
+
+msgid "Remove %s"
+msgstr "Tolli %s"
+
+msgid "Remove from observing list"
+msgstr "Tolli de sa lista de osservatzione"
+
+msgid "Rename"
+msgstr "Rinomina"
+
+msgid "Reset all"
+msgstr "Reset totu"
+
+msgid "Restarting…"
+msgstr "Ricomintziande…"
+
+msgid "Rises"
+msgstr "Arbeschidas"
+
+msgid "Rotation"
+msgstr "Rotatzione"
+
+msgid "Running"
+msgstr "Andande"
+
+msgid "SIMBAD did not answer."
+msgstr "SIMBAD no at rispundiu."
+
+msgid "SIMBAD is switched off in the search options."
+msgstr "SIMBAD est istintia in sas optzioni de ricerca."
+
+msgid "SIMBAD is switched off. Turn it on under Options to look objects up online."
+msgstr "SIMBAD est off. Attivalu in sas Preferèntzias po intèrroga sos ogettos online."
+
+msgid "SIMBAD server"
+msgstr "Servente SIMBAD"
+
+msgid "Saturation"
+msgstr "Saturatzione"
+
+msgid "Save"
+msgstr "Sarva"
+
+msgid "Save either the current FOV and direction of view or all the current options for use at next startup. Restoring default settings requires a restart of the app."
+msgstr "Sarva o su FOV currente et sa diretzione de vista o totu sas preferèntzias currentes po sa ischida seguinte. Sa restauratzione de sas impostaduras predefinias serbit unu restart de s'app."
+
+msgid "Save to observing list"
+msgstr "Sarva in sa lista de osservatzione"
+
+msgid "Save view"
+msgstr "Sarva sa vista"
+
+msgid "Scale"
+msgstr "Iscala"
+
+msgid "Scale marker and label visibility by surface brightness"
+msgstr "Iscala de s'ossibilidade de sos marcadores et de sas etichettas po sa luminosidade de iscuperta"
+
+msgid "Scales smoothly between 1× at the minimum field of view and the factor above at the maximum"
+msgstr "Scalas doltzement intre 1× a su campu minima de vista et su fattore supra a su maxima"
+
+msgid "Screen label"
+msgstr "Etichetta de sa schirta"
+
+msgid "Search in list"
+msgstr "Crica in sa lista"
+
+msgid "Seasons"
+msgstr "Stagiones"
+
+msgid "Second body"
+msgstr "Corpu segundu"
+
+msgid "Second celestial body"
+msgstr "Corpu celeste segundu"
+
+msgid "Second graph"
+msgstr "Graficu segundu"
+
+msgid "Second object"
+msgstr "Ogettu segundu"
+
+msgid "Secondary intercardinal points"
+msgstr "Puntos intercepttos cardinals secundarios"
+
+msgid "See the sky through the ground"
+msgstr "Bide su chelu traes sa terra"
+
+msgid "Seen now"
+msgstr "Bistu ista"
+
+msgid "Select an object first: this asks SIMBAD what it holds around it."
+msgstr "Sebera un ogettu in primu logu: custa dimanda a SIMBAD cosa tenet in sa contorniu."
+
+msgid "Select it and show its card"
+msgstr "Iscurigalu et fae biere sa schida"
+
+msgid "Select something in the sky first — this page works on the selection."
+msgstr "Iscurigada s'iscala imbramis — custa pagina funtzionat in sa iscuriga."
+
+msgid "Selected object"
+msgstr "Ogettu iscurigau"
+
+msgid "Separate colors for orbits of major planets"
+msgstr "Chirra sos colores de sas orbitas de sos pianetas mazores"
+
+msgid "September equinox"
+msgstr "Ecuinoctziu de setembre"
+
+msgid "Server"
+msgstr "Servente"
+
+msgid "Set the clock to %s"
+msgstr "Issetta s'oraggiu a %s"
+
+msgid "Set the place"
+msgstr "Issetta su logu"
+
+msgid "Set to now"
+msgstr "Issetta a ista"
+
+msgid "Sets"
+msgstr "Insembles"
+
+msgid "Shadow map for non-convex bodies. May coarsen the penumbra on some objects"
+msgstr "Mappa de umbra po sos corpos no-convessos. Podet ispesissare sa penumbra in cachi ogettos"
+
+msgid "Shadow transit"
+msgstr "Transitu de ombra"
+
+msgid "Shooting stars"
+msgstr "Stellas sgradinas"
+
+msgid "Short notation for units of surface brightness"
+msgstr "Notatzione curta po sas unidades de luminosidade de iscuperta"
+
+msgid "Short steps over a long duration are slow."
+msgstr "Isteddos curtos in una durata lunga suni lentus."
+
+msgid "Show"
+msgstr "Fae biere"
+
+msgid "Show FOV center marker when position is search"
+msgstr "Fae biere su marcadore de su centru de FOV cando sa positzione est se cricca"
+
+msgid "Show additional buttons"
+msgstr "Fae biere tastos additzionales"
+
+msgid "Show additional star names"
+msgstr "Fae biere numenes additzionales de stellas"
+
+msgid "Show all information"
+msgstr "Fae biere totu s'informatzione"
+
+msgid "Show atmospheric extinction"
+msgstr "Fae biere s'estintzione atmosferica"
+
+msgid "Show controls"
+msgstr "Fae biere sos comandi"
+
+msgid "Show each body where it was when the light left it (recommended)"
+msgstr "Fae biere ogni corpu cun sa positzione cando sa lughe l'at lassau (consigliadu)"
+
+msgid "Show frames per second beside the field of view"
+msgstr "Fae biere sos frame po segundu a costagliedu de su campu de vista"
+
+msgid "Show illumination"
+msgstr "Fae biere s'illuminatzione"
+
+msgid "Show in sky"
+msgstr "Fae biere in su chelu"
+
+msgid "Show less"
+msgstr "Fae biere pocu"
+
+msgid "Show lunar stations (if defined)"
+msgstr "Fae biere sas postatziones lunares (si definidas)"
+
+msgid "Show more"
+msgstr "Fae biere prus"
+
+msgid "Show objects which are up"
+msgstr "Fae biere sos ogettos chi suni up"
+
+msgid "Show only named DSO"
+msgstr "Fae biere carca sos DSO nnomaos"
+
+msgid "Show only objects between the two sizes"
+msgstr "Fae biere carca sos ogettos intre duos mannitudines"
+
+msgid "Show only the kinds ticked below"
+msgstr "Fae biere carca sos tipos picchiaos sutta"
+
+msgid "Show or hide the two rails of controls"
+msgstr "Fae biere o cudia sos dois rails de sos comandi"
+
+msgid "Show orbit even if object is off screen"
+msgstr "Fae biere s'orbita finzas si s'ogettu est off screen"
+
+msgid "Show orbit only for selected SSO"
+msgstr "Fae biere s'orbita carca po su SSO iscurigau"
+
+msgid "Show orbits of major planets"
+msgstr "Fae biere sas orbitas de sos pianetas mazores"
+
+msgid "Show special nomenclature points only"
+msgstr "Fae biere carca sos puntos de nomenclatura speciales"
+
+msgid "Show surveys"
+msgstr "Fae biere sos sondaggius"
+
+msgid "Show this survey"
+msgstr "Fae biere custu sondaggiu"
+
+msgid "Show tiny circles for minor bodies regardless of magnitude"
+msgstr "Fae biere tzirculos iscamus po sos corpos minores disimbaradas de mannitudine"
+
+msgid "Show zodiac (if defined)"
+msgstr "Fae biere su zodiacu (si definidu)"
+
+msgid "Simbad Lookup Error: %s"
+msgstr "Errore de Ricerca Simbad: %s"
+
+msgid "Simbad Lookup: querying"
+msgstr "Ricerca Simbad: in ricerca"
+
+msgid "Simulation"
+msgstr "Simulatzione"
+
+msgid "Sky Culture"
+msgstr "Cultura de su chelu"
+
+msgid "Sky and viewing options"
+msgstr "Chelu et optzione de visualizatzione"
+
+msgid "Sky culture"
+msgstr "Cultura de su chelu"
+
+msgid "Slow down"
+msgstr "Melenti"
+
+msgid "Smallest, ′"
+msgstr "Prus piccinu, ′"
+
+msgid "Solar altitude for Twilight Finder"
+msgstr "Altaria solara pro Ricercadore de Prendisole"
+
+msgid "Solar elongation"
+msgstr "Elongatzione solara"
+
+msgid "Special points only"
+msgstr "Puntos ispetziales ebbia"
+
+msgid "Spectral Class"
+msgstr "Classe Espettrale"
+
+msgid "Speed up"
+msgstr "Abbigorra"
+
+msgid "Spiky stars"
+msgstr "Stars cun puntas"
+
+msgid "Stand where the landscape was shot, on the planet it names"
+msgstr "Istade incue sa costellatzione est estada ischattada, in su pianeta chi sìnnia"
+
+msgid "Star, planet, catalogue number…"
+msgstr "Stella, pianeta, numeru de catalogu…"
+
+msgid "Started"
+msgstr "Aviatu"
+
+msgid "Startup FOV"
+msgstr "FOV de s'avviu"
+
+msgid "Startup direction of view"
+msgstr "Diretzione de visualizatzione de s'avviu"
+
+msgid "Stellarium's user guide covers the astronomy this app shares with it: stellarium.org/documentation"
+msgstr "Sa guida de s'utilizadore de Stellarium tractat s'astronomia chi custa app cundivide cun Stellarium: stellarium.org/documentation"
+
+msgid "Step, hours"
+msgstr "Passu, oras"
+
+msgid "Stop clock when starting"
+msgstr "Frima s'orodda cando est partinde"
+
+msgid "Strasbourg astronomical Data Center (France)"
+msgstr "Strasbourg astronomical Data Center (Frantza)"
+
+msgid "Style"
+msgstr "Istile"
+
+msgid "Sun altitude"
+msgstr "Altaria de su Dom"
+
+msgid "Sun at"
+msgstr "Su Sole in"
+
+msgid "Sun's altitude"
+msgstr "Altaria de su Dom"
+
+msgid "Sun's corona"
+msgstr "Corona de su Dom"
+
+msgid "Sun's glare"
+msgstr "Splendore abbagliadore de su Dom"
+
+msgid "Sun, planets and moons of first body and observer's planet"
+msgstr "Sole, pianetas et lúnulas de su primu corpu et de su pianeta de s'osservadore"
+
+msgid "Sun, planets and moons of observer's planet"
+msgstr "Sole, pianetas et lúnulas de su pianeta de s'osservadore"
+
+msgid "Sunlight scattered by interplanetary dust"
+msgstr "Lughe solara ispartziada dae sa polvere interplanetaria"
+
+msgid "Switch this off to see the trails for all Solar system bodies"
+msgstr "Isconnecta custu po biere sos camminos de totos sos corpos de su Sistema Solare"
+
+msgid "System date at"
+msgstr "Data de su sistema a"
+
+msgid "Table"
+msgstr "Tabula"
+
+msgid "Tabular output for coordinates and time"
+msgstr "Ischiuda tabulare pro coordinadas et tempus"
+
+msgid "Tap a colour to change it. Changes show on the sky at once and are kept."
+msgstr "Toca unu colore po iscanziare. Sas ischangas si bieren in su chelu a sa istante et sini mantenioas."
+
+msgid "Tap again to confirm"
+msgstr "Toca ancora pro confermare"
+
+msgid "Tap an object"
+msgstr "Toca unu ogettu"
+
+msgid "Tap the chart to read a value."
+msgstr "Toca su grafico pro leere unu balore."
+
+msgid "Tap the clock"
+msgstr "Toca s'orodda"
+
+msgid "Tap the gear"
+msgstr "Toca s'ingranaggio"
+
+msgid "Tap the map to stand there."
+msgstr "Toca sa carta pro istare li."
+
+msgid "Tap the place"
+msgstr "Toca su logu"
+
+msgid "Tap to confirm"
+msgstr "Toca pro confermare"
+
+msgid "Tertiary intercardinal points"
+msgstr "Puntos tertzarios intercardinales"
+
+msgid "Text angle"
+msgstr "Angulu de su testu"
+
+msgid "The Great Red Spot drifts in System II longitude. Enter a recent measurement and the drift rate to carry it forward from."
+msgstr "Sa Grande Mancha Roja derivat in su Sistema II longitude. Intrada unu'osserbatzione atzerta et sa deriba pro portala anta da."
+
+msgid "The algorithm is based on visual observations 1877-1891 by G. Müller and was still republished in the Explanatory Supplement to the Astronomical Ephemeris (1961)."
+msgstr "S'algoritmu est basadu in s'osserbatziones visuales 1877-1891 de G. Müller et era ancora ripubligadu in su Supplementu esplicativu de s'Efemerides Astronomicas (1961)."
+
+msgid "The algorithm was published by A. Mallama & J. L. Hilton: Computing apparent planetary magnitudes for the Astronomical Almanac. Astronomy&Computing 25 (2018) 10-24."
+msgstr "S'algoritmu est stadu publigadu dae A. Mallama & J. L. Hilton: Computing apparent planetary magnitudes for the Astronomical Almanac. Astronomy&Computing 25 (2018) 10-24."
+
+msgid "The algorithm was published in the 2nd edition of the Explanatory Supplement to the Astronomical Almanac (1992)."
+msgstr "S'algoritmu est stadu publigadu in sa 2ª editzione de su Supplementu esplicativu de s'Almanacco Astronomicu (1992)."
+
+msgid "The algorithm was published in the 3rd edition of the Explanatory Supplement to the Astronomical Almanac (2013)."
+msgstr "S'algoritmu est stadu publigadu in sa 3ª editzione de su Supplementu esplicativu de s'Almanacco Astronomicu (2013)."
+
+msgid "The algorithm was used in the Astronomical Almanac (1984 and later) and gives V (instrumental) magnitudes (allegedly from D.L. Harris)."
+msgstr "S'algoritmu est stadu usadu in s'Almanacco Astronomicu (1984 et pustis) et furnisat V (instrumental) mannitudines (alegadamente de D.L. Harris)."
+
+msgid "The classical cepheids"
+msgstr "Sos cefeides classicas"
+
+msgid "The colour each kind of object is drawn in"
+msgstr "Su colore in su quale cada tipu de ogettu est dessinadu"
+
+msgid "The engine did not answer with any colours."
+msgstr "S'motore non at rispundidu cun culuares."
+
+msgid "The galactic band"
+msgstr "Sa banda galatica"
+
+msgid "The greatest eclipse is invisible in current location"
+msgstr "S'eclisse prus manna est invisibile in sa logu currente"
+
+msgid "The horizon outline instead of the panorama"
+msgstr "Su contornu de s'orizonte invece de su panorama"
+
+msgid "The path each body has taken across the sky"
+msgstr "Su caminu chi cada corpus at achidu atravessu su chelu"
+
+msgid "The shortest label the culture defines"
+msgstr "S'etichetta prus curta chi sa cultura definit"
+
+msgid "Thickness"
+msgstr "Ispessore"
+
+msgid "This copy ships no scripts."
+msgstr "Custa copia non benat cun iscripts."
+
+msgid "This device has no location service."
+msgstr "Custu dispositivu non tenet servitzu de localizatzione."
+
+msgid "This part of the engine exposes no settings on this build."
+msgstr "Custa parte de s'motore non exponit impostatziones in custa compilatzione."
+
+msgid "This tool works on Earth only!"
+msgstr "Custu treballu funtzionat in sa Terra ebbia!"
+
+msgid "This tool works on Earth only. Short steps over a long duration are slow."
+msgstr "Custu aristagliu funtzionat in sa Terra ebbia. Passus curtos in duranda longa sunt lentus."
+
+msgid "This year"
+msgstr "Custu annu"
+
+msgid "Time of day"
+msgstr "Tempus de su die"
+
+msgid "Time span"
+msgstr "Intervalu de tempus"
+
+msgid "Time step"
+msgstr "Passu de tempus"
+
+msgid "To the next (mths)"
+msgstr "A su pustis (meses)"
+
+msgid "To the next, months"
+msgstr "A su pustis, meses"
+
+msgid "Today"
+msgstr "Hue"
+
+msgid "Toggle drawing Sun's glare"
+msgstr "Attiva/disattiva su disinnzu de s'abaghe de su Dom"
+
+msgid "Toggle drawing halo around the Moon"
+msgstr "Attiva/disattiva su disinnzu de su alu intornu a sa Luna"
+
+msgid "Toggle permanent drawing of Sun's corona when atmosphere is disabled"
+msgstr "Attiva/disattiva su disinnzu permanente de sa corona de su Dom cando s'atmosfera est incapazitada"
+
+msgid "Total eclipse begins"
+msgstr "Eclisse totale comintzat"
+
+msgid "Total eclipse ends"
+msgstr "Eclisse totale tèrminada"
+
+msgid "Trails"
+msgstr "Camminos"
+
+msgid "Translated"
+msgstr "Trauzitau"
+
+msgid "Transparency"
+msgstr "Transparentzia"
+
+msgid "Twilight"
+msgstr "Crepuscolo"
+
+msgid "Twilight and rise and set times are worked out for an observer on Earth. Move back to Earth to see them."
+msgstr "Prendisole et tempus de arbeschida et tramontada sini calczulados pro unu osserbadore in sa Terra. Torra a sa Terra pro biere sos."
+
+msgid "Twinkle"
+msgstr "Tremolare"
+
+msgid "Twinkle amount"
+msgstr "Cantidade de tremolare"
+
+msgid "Twinkle even without atmosphere"
+msgstr "Tremolare finziascaras senza atmosfera"
+
+msgid "Twinkle is caused by atmospheric turbulence; this shows it regardless"
+msgstr "Su tremolare est causau dae sa turbulentzia atmosferica; custu lu mostrat in issa medas"
+
+msgid "Type a name, a Bayer letter or a catalogue number - Vega, α Lyr, M 31, NGC 224."
+msgstr "Escriba unu nòmine, unu caracterana de Bayer o unu numeru de catalogu - Vega, α Lyr, M 31, NGC 224."
+
+msgid "Types"
+msgstr "Tipos"
+
+msgid "Umbral magnitude"
+msgstr "Mannitudine umbrale"
+
+msgid "Up to mag."
+msgstr "Finu a mannitudine"
+
+msgid "Use common symbols for coordinate systems"
+msgstr "Imprea simbolos coumunos po sos sistemas de coordinadas"
+
+msgid "Use distance from North Celestial Pole, not declination from equator in equatorial coordinates"
+msgstr "Imprea sa distantzia dae su Poalu Celeste Nord, non declinatzione dae s'ecuatore in coordinadas ecuatoriales"
+
+msgid "Use mag/arcsec^2 for surface brightness"
+msgstr "Imprea mag/arcsec^2 po sa luminosidade de superficie"
+
+msgid "Use my location"
+msgstr "Imprea su meu logu"
+
+msgid "Use sorting by string length"
+msgstr "Imprea s'ordinamentu dae sa mannesa de sa stringa"
+
+msgid "Use the date now shown in the sky"
+msgstr "Imprea sa data mostrada in su chelu a sa istante"
+
+msgid "Use the value in landscape.ini when it has one"
+msgstr "Imprea su balore in landscape.ini cando tenet unu"
+
+msgid "Use the value stored for this location"
+msgstr "Imprea su balore sarbu pro custu logu"
+
+msgid "Var. stars"
+msgstr "Stellas Var."
+
+msgid "Version %s  ·  Qt %s"
+msgstr "Versione %s  ·  Qt %s"
+
+msgid "View recent GRS measurements"
+msgstr "Fae a bíere sas mizuras GRS atzeras"
+
+msgid "Visibility"
+msgstr "Visibilidade"
+
+msgid "When a search result is chosen"
+msgstr "Cando unu resurtau de ricerca est scegliu"
+
+msgid "Where Jupiter's Great Red Spot was, and when"
+msgstr "Incue est estada sa Grande Mancha Roja de Zove, et cando"
+
+msgid "Width"
+msgstr "Larguesa"
+
+msgid "Working out the contact times…"
+msgstr "Calculande sos tempus de cuntatu…"
+
+msgid "Year"
+msgstr "Annu"
+
+msgid "Zodiac and lunar stations"
+msgstr "Zodiacu et statziones lunares"
+
+msgid "Zodiacal Light brightness"
+msgstr "Lugore de sa Lughe Zodiacale"
+
+msgid "Zoom in and out"
+msgstr "Ingrandessi/Rimpicciolessi"
+
+msgid "after sunset"
+msgstr "appis de s'istrar"
+
+msgid "before sunrise"
+msgstr "antis de s'albar"
+
+msgid "bright suburban"
+msgstr "chelu clarussa de periferia"
+
+msgid "east +"
+msgstr "est +"
+
+msgid "engine ready, interface going live"
+msgstr "motore pruntu, interfatza andande"
+
+msgid "excellent dark sky"
+msgstr "chelu profundu eczelente"
+
+msgid "inner city"
+msgstr "tzentru urbanu"
+
+msgid "north +"
+msgstr "nord +"
+
+msgid "rural/suburban"
+msgstr "rurales/suburbanas"
+
+msgid "select all"
+msgstr "Scegli tuttas"
+
+msgid "select none"
+msgstr "No scegliere nudda"
+
+msgid "select preference"
+msgstr "Scegliere preferentzia"
+
+msgid "select standard"
+msgstr "Scegliere standard"
+
+msgid "store preference"
+msgstr "Sarva preferentzia"
+
+msgid "suburban/urban"
+msgstr "suburbanas/urbanas"
+
+msgid "truly dark"
+msgstr "chelu profundu beru"
+
+msgid "unreadable snapshot"
+msgstr "istantanea illegibile"
+
+msgid "with Solar Dates"
+msgstr "cun Datas Solares"
+
+msgid "… and moons"
+msgstr "… et luninas"

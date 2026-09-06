@@ -1,0 +1,2629 @@
+# Asterium interface translation for af.
+# Copyright (C) 2026 the Asterium authors
+# This file is distributed under the same licence as the Asterium package.
+#
+# MACHINE TRANSLATION, not reviewed by a speaker of this language.
+# Terminology follows upstream Stellarium's own af catalogue, which was used
+# as a glossary, and every entry keeps the source's printf placeholders.
+# Corrections from a human translator are welcome and should simply replace these.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: asterium\n"
+"Language: af\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%d bodies"
+msgstr "%d liggame"
+
+msgid "%d object"
+msgstr "%d voorwerp"
+
+msgid "%d objects"
+msgstr "%d voorwerpe"
+
+msgid "%s colour"
+msgstr "%s kleur"
+
+msgid "%s from %s, ±%.0f m"
+msgstr "%s van %s, ±%.0f m"
+
+msgid "12-hour"
+msgstr "12-uur"
+
+msgid "1× below"
+msgstr "1× onder"
+
+msgid "24-hour"
+msgstr "24-uur"
+
+msgid "A button to mark every object of the current observing list on the sky."
+msgstr "'n Knop om elke voorwerp van die huidige waarnemingslys op die lug te merk."
+
+msgid "A button to toggle ecliptic grid of date"
+msgstr "'n Knop om die ekliptiese rooster van die datum te skakel"
+
+msgid "A button to toggle equatorial J2000 grid"
+msgstr "'n Knop om die ewenaardalrooster J2000 te skakel"
+
+msgid "A button to toggle galactic grid"
+msgstr "'n Knop om die galaktiese rooster te skakel"
+
+msgid "A polygonal model for some small moons, asteroids and comets instead of a sphere"
+msgstr "'n Veelhoekige model vir sommige klein mane, asteroïde en komete in plaas van 'n sfeer"
+
+msgid "A touch-first planetarium forked from Stellarium, whose astronomy engine it uses unchanged. The interface is new; everything that draws the sky is upstream's work."
+msgstr "'n Raak-eerste planetarium afgesplit van Stellarium, waarvan dit die onveranderde sterrekunde-enjin gebruik. Die koppelvlak is nuut; alles wat die lug teken is stroomop se werk."
+
+msgid "Abbreviated names"
+msgstr "Verkort name"
+
+msgid "About this sky culture"
+msgstr "Aangaande hierdie hemelruim kultuur"
+
+msgid "Above altitude, °"
+msgstr "Bo hoogte, °"
+
+msgid "Absolute scale"
+msgstr "Absolute skaal"
+
+msgid "Activate this option to calculate azimuth from south towards west."
+msgstr "Aktiveer hierdie keuse om asimuth van suid na wes te bereken."
+
+msgid "Active galaxies"
+msgstr "Aktiewe sterrestelsels"
+
+msgid "Add %s"
+msgstr "Voeg %s by"
+
+msgid "Additional information settings"
+msgstr "Addisionele inligtingstelle"
+
+msgid "Adjust brightness to bright objects"
+msgstr "Stel ligte aan helder voorwerpe aan"
+
+msgid "Algol-type eclipsing systems"
+msgstr "Algol-tipe verduisterende stelsels"
+
+msgid "Algorithm of ΔT"
+msgstr "Algoritme van ΔT"
+
+msgid "All IDs"
+msgstr "Alle ID's"
+
+msgid "All naked-eye planets"
+msgstr "Alle blote-oog planete"
+
+msgid "All solar eclipses"
+msgstr "Alle sonverduisteringe"
+
+msgid "Allow negative hour angles"
+msgstr "Laat negatiewe uurhoeke toe"
+
+msgid "Allow results outside the recommended time range of the orbital elements"
+msgstr "Laat resultate buite die aanbevole tydreeks van die wentelbaanelement toe"
+
+msgid "Almanac"
+msgstr "Almanak"
+
+msgid "Almanac: Sun, Moon and naked-eye planets"
+msgstr "Almanak: Son, Maan en blote-oog planete"
+
+msgid "Also find"
+msgstr "Ook vind"
+
+msgid "Also plot"
+msgstr "Ook plot"
+
+msgid "Also show moons of selected object or planets"
+msgstr "Vertoon ook mane van die gekose voorwerp of planete"
+
+msgid "Altitude limit, °"
+msgstr "Hoogte limiet, °"
+
+msgid "Altitude vs. Time"
+msgstr "Hoogte vs. Tyd"
+
+msgid "Amount"
+msgstr "Hoeveelheid"
+
+msgid "An observer floats above its planet, so there is nowhere on it to stand. Choose another planet to come back down."
+msgstr "'n Waarnemer sweef bo sy planeet, dus daar is nêrens op dit om te staan. Kies nog 'n planeet om terug af te kom."
+
+msgid "And"
+msgstr "En"
+
+msgid "And also"
+msgstr "En ook"
+
+msgid "And the next (years)"
+msgstr "En die volgende (jare)"
+
+msgid "Ang. Size"
+msgstr "Hoekgrootte"
+
+msgid "Angular distance"
+msgstr "Hoekafstand"
+
+msgid "Angular distance between the Moon and selected object"
+msgstr "Hoekilafstand tussen Maan en geselekteerde voorwerp"
+
+msgid "Angular distance from the Moon"
+msgstr "Hoekilafstand van die Maan"
+
+msgid "Angular distance from the Moon for second object"
+msgstr "Hoekilafstand van die Maan vir tweede voorwerp"
+
+msgid "Angular distance from the Sun"
+msgstr "Hoekilafstand van die Son"
+
+msgid "Angular distance from the Sun for second object"
+msgstr "Hoekilafstand van die Son vir tweede voorwerp"
+
+msgid "Angular size"
+msgstr "Hoekilgrootte"
+
+msgid "Annual drift"
+msgstr "Jaarlikse drif"
+
+msgid "Antisolar point"
+msgstr "Antisone punt"
+
+msgid "Apex points"
+msgstr "Puntapeks"
+
+msgid "Aphelion"
+msgstr "Afelium"
+
+msgid "Appearance"
+msgstr "Voorkoms"
+
+msgid "Apply"
+msgstr "Pas toe"
+
+msgid "Apply time interval limits to list"
+msgstr "Pas tydinterval-limiete op lys toe"
+
+msgid "Art"
+msgstr "Kuns"
+
+msgid "Artificial satellites and unnamed stars are excluded from calculation."
+msgstr "Kunsmatige satelliete en naamlose sterre word uitgesluit van berekening."
+
+msgid "Asking for permission…"
+msgstr "Vra vir toestemming…"
+
+msgid "Asks SIMBAD what it holds around the object that is selected now, and prints the answer as it comes back."
+msgstr "Vra SIMBAD wat dit hou rondom die voorwerp wat nou gekies is, en druk die antwoord uit soos dit terugkom."
+
+msgid "Ast. lines"
+msgstr "Ast. lyne"
+
+msgid "Ast. names"
+msgstr "Ast. name"
+
+msgid "Asterisms"
+msgstr "Gesternte"
+
+msgid "Asterisms font size"
+msgstr "Gesternte lettertipe grootte"
+
+msgid "Astronomical Almanac (default) enlarges by 2%; Danjon (1951) differs slightly"
+msgstr "Astronomical Almanac (standaard) vergroot met 2%; Danjon (1951) verskil effens"
+
+msgid "Astronomical Twilight"
+msgstr "Astronomiese Skemerdonker"
+
+msgid "Astronomical calculations"
+msgstr "Sterrekundige berekeninge"
+
+msgid "Astronomical night"
+msgstr "Astronomiese nag"
+
+msgid "At"
+msgstr "Op"
+
+msgid "Atmosph."
+msgstr "Atmosf."
+
+msgid "Atmosphere visualization"
+msgstr "Atmosfeer visualisering"
+
+msgid "Automatic closing dialog"
+msgstr "Outomatiese sluitvenster"
+
+msgid "Automatic transparency"
+msgstr "Outomatiese deurskynendheid"
+
+msgid "Axis distance"
+msgstr "Asafstand"
+
+msgid "Azi. grid"
+msgstr "Azi. roos"
+
+msgid "Azimuth"
+msgstr "Asimuth"
+
+msgid "Azimuth and altitude rather than right ascension and declination"
+msgstr "Asimuth en hoogte eerder as regter opskripting en deklinasie"
+
+msgid "Azimuth from South"
+msgstr "Asimuth van Suid"
+
+msgid "Azimuth vs. Time"
+msgstr "Asimuth vs. Tyd"
+
+msgid "Back"
+msgstr "Terug"
+
+msgid "Bad visibility conditions for current location"
+msgstr "Slegte sigbaarheidstoestande vir huidge ligging"
+
+msgid "Beginning of center line; central eclipse begins"
+msgstr "Begin van sentrale lyn; sentrale verduistering begin"
+
+msgid "Below the horizon here."
+msgstr "Onder die horison hier."
+
+msgid "Between objects"
+msgstr "Tussen voorwerpe"
+
+msgid "Blue"
+msgstr "Blou"
+
+msgid "Boundless"
+msgstr "Grenseloos"
+
+msgid "Bounds"
+msgstr "Grense"
+
+msgid "Bright Solar system objects (<%1 mag)"
+msgstr "Helder Sonnestelselobjekte (<%1 orde)"
+
+msgid "Bright barium stars"
+msgstr "Helder bariumsterre"
+
+msgid "Bright carbon stars"
+msgstr "Helder koolstofsterre"
+
+msgid "Bright double stars"
+msgstr "Helder dubbelsterre"
+
+msgid "Bright double stars (<%1 mag)"
+msgstr "Helder dubbelsterre (<%1 orde)"
+
+msgid "Bright galaxies (<%1 mag)"
+msgstr "Helder sterrestelsels (<%1 orde)"
+
+msgid "Bright nebulae"
+msgstr "Helder newels"
+
+msgid "Bright nebulae (<%1 mag)"
+msgstr "Helder newels (<%1 orde)"
+
+msgid "Bright nova stars"
+msgstr "Helder novasterre"
+
+msgid "Bright star clusters (<%1 mag)"
+msgstr "Helder sterklusters (<%1 orde)"
+
+msgid "Bright stars"
+msgstr "Helder sterre"
+
+msgid "Bright stars (<%1 mag)"
+msgstr "Helder sterre (<%1 orde)"
+
+msgid "Bright stars with high proper motion"
+msgstr "Helder sterre met hoë eie beweging"
+
+msgid "Bright supernova stars"
+msgstr "Helder supernovasterre"
+
+msgid "Bright variable stars"
+msgstr "Helder veranderlike sterre"
+
+msgid "Bright variable stars (<%1 mag)"
+msgstr "Helder veranderlike sterre (<%1 orde)"
+
+msgid "Brighter than"
+msgstr "Ligter as"
+
+msgid "Brightness"
+msgstr "Ligte"
+
+msgid "By object type"
+msgstr "Volgens voorwerptipe"
+
+msgid "By planet"
+msgstr "Volgens planeet"
+
+msgid "Calculate"
+msgstr "Bereken"
+
+msgid "Calculating…"
+msgstr "Besig om te bereken…"
+
+msgid "Caldwell objects"
+msgstr "Caldwell-objekte"
+
+msgid "Cardinals"
+msgstr "Kard. punte"
+
+msgid "Catalogue numbers instead of common names"
+msgstr "Katalogus nommers in plaas van algemene name"
+
+msgid "Category"
+msgstr "Kategorie"
+
+msgid "Celestial poles (J2000)"
+msgstr "Hemelse pole (J2000)"
+
+msgid "Center of FOV"
+msgstr "Sentrum van SIOG"
+
+msgid "Centering button"
+msgstr "Sentrering knop"
+
+msgid "Central duration"
+msgstr "Sentrale duur"
+
+msgid "Central eclipse begins"
+msgstr "Sentrale verduistering begin"
+
+msgid "Central eclipse ends"
+msgstr "Sentrale verduistering eindig"
+
+msgid "Centre"
+msgstr "Middelpunt"
+
+msgid "Centre on object"
+msgstr "Sentreer op voorwerp"
+
+msgid "Centre point"
+msgstr "Sentrum punt"
+
+msgid "Circles"
+msgstr "Sirkels"
+
+msgid "Circular FOV"
+msgstr "Sirkulêre SIOG"
+
+msgid "Circumpolar circles"
+msgstr "Sirkelpolêre sirkels"
+
+msgid "City"
+msgstr "Stad"
+
+msgid "Civil Twilight"
+msgstr "Siviele Skemerdonker"
+
+msgid "Cleanup"
+msgstr "Skoon maak"
+
+msgid "Clear"
+msgstr "Skrap"
+
+msgid "Clear recent searches"
+msgstr "Skrap onlangse soektogte"
+
+msgid "Clear the selection - a touch screen has no right button"
+msgstr "Skrap die seleksie - 'n raakskerm het geen regte knop"
+
+msgid "Cleared."
+msgstr "Gekrap."
+
+msgid "Click on star to show its constellation"
+msgstr "Klik op ster om sy konstellasie te toon"
+
+msgid "Close"
+msgstr "Sluit"
+
+msgid "Close what is open; from the sky, leave the app running"
+msgstr "Sluit wat oop is; van die lug, verlaat die app wat steeds loop"
+
+msgid "Clusters of galaxies"
+msgstr "Sterrestelsels-clusters"
+
+msgid "Coarse"
+msgstr "Grof"
+
+msgid "Color"
+msgstr "Kleur"
+
+msgid "Color channel"
+msgstr "Kleur kanaal"
+
+msgid "Color of Lunar station lines"
+msgstr "Kleur van Maanstasie lyne"
+
+msgid "Color of asterism lines"
+msgstr "Kleur van gesternte lyne"
+
+msgid "Color of asterism names"
+msgstr "Kleur van gesternte name"
+
+msgid "Color of constellation boundaries"
+msgstr "Kleur van konstellasie grense"
+
+msgid "Color of constellation lines"
+msgstr "Kleur van konstellasielyne"
+
+msgid "Color of constellation names"
+msgstr "Kleur van konstellasie name"
+
+msgid "Color of nomenclature labels"
+msgstr "Kleur van naamgewing byskrifte"
+
+msgid "Color of orbits"
+msgstr "Kleur van wentelbane"
+
+msgid "Color of planet labels"
+msgstr "Kleur van planeet byskrifte"
+
+msgid "Color of ray helpers"
+msgstr "Kleur van straal helpers"
+
+msgid "Color of trails"
+msgstr "Kleur van spore"
+
+msgid "Color of zodiac lines"
+msgstr "Kleur van zodiac lyne"
+
+msgid "Colors of orbit lines"
+msgstr "Kleure van wentelbaanlyne"
+
+msgid "Colures"
+msgstr "Kolure"
+
+msgid "Comets up to mag."
+msgstr "Komete tot mag."
+
+msgid "Compass"
+msgstr "Kompas"
+
+msgid "Config"
+msgstr "Opstelling"
+
+msgid "Configure colors of markers"
+msgstr "Stel kleure van merkers op"
+
+msgid "Configure colors of orbit lines"
+msgstr "Stel kleure van wentelbaanlyne op"
+
+msgid "Conjunction"
+msgstr "Konjunksie"
+
+msgid "Connecting line"
+msgstr "Verbindinglyn"
+
+msgid "Const."
+msgstr "Konst."
+
+msgid "Constellations font size"
+msgstr "Konstellasies lettertipe grootte"
+
+msgid "Contrast"
+msgstr "Kontras"
+
+msgid "Coordinate system"
+msgstr "Koördinaat stelsel"
+
+msgid "Coordinates"
+msgstr "Koördinate"
+
+msgid "Copyright"
+msgstr "Kopiereg"
+
+msgid "Credits"
+msgstr "Krediete"
+
+msgid "Culmination altitude"
+msgstr "Kulminasiehoogte"
+
+msgid "Current FoV"
+msgstr "Huidige SIOG"
+
+msgid "Custom"
+msgstr "Pasgemaak"
+
+msgid "Custom FoV limit"
+msgstr "Pasgemaakte SIOG-limiet"
+
+msgid "Custom altitude of the Moon, °"
+msgstr "Pasgemaakte hoogte van die Maan, °"
+
+msgid "Custom altitude of the Sun, °"
+msgstr "Pasgemaakte hoogte van die Son, °"
+
+msgid "Custom settings for position of GRS"
+msgstr "Pasgemaakte instellings vir posisie van GRS"
+
+msgid "Custom values"
+msgstr "Pasgemaakte waardes"
+
+msgid "Cut the scale off below the limit"
+msgstr "Sny die skaal af onder die limiet"
+
+msgid "DATE AND TIME (UTC)"
+msgstr "DATUM EN TYD (UTC)"
+
+msgid "DSS survey"
+msgstr "DSS opname"
+
+msgid "Dark nebulae"
+msgstr "Donker newels"
+
+msgid "Date"
+msgstr "Datum"
+
+msgid "Date and time"
+msgstr "Datum en tyd"
+
+msgid "Date/time"
+msgstr "Datum/tyd"
+
+msgid "Dates"
+msgstr "Datums"
+
+msgid "Dawn"
+msgstr "Dageraad"
+
+msgid "Dbl. stars"
+msgstr "Dubb. sterre"
+
+msgid "Dec (J2000)"
+msgstr "Dekl. (J2000)"
+
+msgid "December solstice"
+msgstr "Desember sonnewende"
+
+msgid "Decimal degrees. −33.87 means 33.87° south. Elevation is metres above sea level; it moves the horizon down by a few arcminutes."
+msgstr "Desimale grade. −33.87 beteken 33.87° suid. Hoogte is meter bo seevlak; dit beweeg die horison 'n paar boogminute af."
+
+msgid "Declination"
+msgstr "Deklinasie"
+
+msgid "Deep Sky"
+msgstr "Diep lug"
+
+msgid "Deep-sky objects"
+msgstr "Diepe-lug-objekte"
+
+msgid "Degrees per year the longitude moves by"
+msgstr "Grade per jaar wat die lengtegraad verskuif"
+
+msgid "Degrees, hours and minutes as they are written - 12h30m49s, +41°16'09\", 187.7 - or plain decimal degrees."
+msgstr "Grade, ure en minute soos hulle geskryf word - 12h30m49s, +41°16'09\", 187.7 - of gewone desimale grade."
+
+msgid "Deletes all recent search object data, and the objects SIMBAD contributed."
+msgstr "Skrap alle onlangse soekvoorwerp data, en die voorwerpe wat SIMBAD bygedra het."
+
+msgid "Designations for celestial coordinate systems"
+msgstr "Aanwysings vir hemelkoördinaat stelsels"
+
+msgid "Designations for double stars"
+msgstr "Aanwysings vir dubbelsterre"
+
+msgid "Designations for variable stars"
+msgstr "Aanwysings vir veranderlike sterre"
+
+msgid "Dim a survey near the horizon, as the air does"
+msgstr "Verflou 'n opname naby die horison, soos die lug doen"
+
+msgid "Dimensions"
+msgstr "Afmetings"
+
+msgid "Display formats of date and time"
+msgstr "Vertoon formate van datum en tyd"
+
+msgid "Display objects from catalogs"
+msgstr "Vertoon voorwerpe van katalogue"
+
+msgid "Displayed"
+msgstr "Vertoon"
+
+msgid "Dist."
+msgstr "Afst."
+
+msgid "Distance"
+msgstr "Afstand"
+
+msgid "Distance, AU"
+msgstr "Afstand, AE"
+
+msgid "Done"
+msgstr "Klaar"
+
+msgid "Drag"
+msgstr "Sleep"
+
+msgid "Draw deep-sky objects at all"
+msgstr "Teken diep-lug voorwerpe geheel en al"
+
+msgid "Draw only polygon"
+msgstr "Teken slegs veelhoek"
+
+msgid "Draw the enabled sky surveys"
+msgstr "Teken die geaktiveerde lug opnames"
+
+msgid "Draw the planets, moons and minor bodies"
+msgstr "Teken die planete, mane en klein liggame"
+
+msgid "Drawn larger than life, so a body that is a few arcseconds wide is visible at all. The position stays true."
+msgstr "Geteken groter as die lewe, dus 'n liggaam wat 'n paar boogsekondes wyd is, is sigbaar. Die posisie bly waar."
+
+msgid "Duration"
+msgstr "Duur"
+
+msgid "Duration (years)"
+msgstr "Duur (jare)"
+
+msgid "Duration, months"
+msgstr "Duur, maande"
+
+msgid "Dusk"
+msgstr "Skemerdonker"
+
+msgid "Dwarf planets"
+msgstr "Dwergelplanete"
+
+msgid "Dynamic (FOV-based) Moon size"
+msgstr "Dinamiese (SIOG-gebaseerde) Maan grootte"
+
+msgid "ELEV. M"
+msgstr "HOOGTE. M"
+
+msgid "Earth penumbra"
+msgstr "Aarde penumbra"
+
+msgid "Earth shadow enlargement after Danjon"
+msgstr "Aarde skadu vergroting na Danjon"
+
+msgid "Earth umbra"
+msgstr "Aarde umbra"
+
+msgid "Eastern quadrature"
+msgstr "Oostelike kwadrature"
+
+msgid "Ecl. grid"
+msgstr "Ekl. roos"
+
+msgid "Eclipse"
+msgstr "Verduistering"
+
+msgid "Eclipse begins; first contact with Earth"
+msgstr "Verduistering begin; eerste kontak met Aarde"
+
+msgid "Eclipse ends; last contact with Earth"
+msgstr "Verduistering eindig; laaste kontak met Aarde"
+
+msgid "Eclipse magnitude"
+msgstr "Verduistering grootte"
+
+msgid "Eclipses"
+msgstr "Verduisteringe"
+
+msgid "Eclipses are computed for observers on Earth."
+msgstr "Verduisteringe word bereken vir waarnemers op die Aarde."
+
+msgid "Ecliptic"
+msgstr "Ekliptika"
+
+msgid "Ecliptic (J2000.0)"
+msgstr "Ekliptika (J2000.0)"
+
+msgid "Ecliptic grid (J2000)"
+msgstr "Ekliptiese rooster (J2000)"
+
+msgid "Ecliptic grid (of date)"
+msgstr "Ekliptiese rooster (op datum)"
+
+msgid "Elev."
+msgstr "Hoogt."
+
+msgid "Elevation"
+msgstr "Hoogte"
+
+msgid "Elevation in metres"
+msgstr "Hoogte in meter"
+
+msgid "Elongations and quadratures"
+msgstr "Verlengings en kwadrateure"
+
+msgid "Emission-line stars"
+msgstr "Emissielyn-sterre"
+
+msgid "Enabled only"
+msgstr "Slegs geaktiveerd"
+
+msgid "End of center line; central eclipse ends"
+msgstr "Einde van sentrale lyn; sentrale verduistering eindig"
+
+msgid "Enter Culture..."
+msgstr "Voer kultuur in…"
+
+msgid "Ephemeris"
+msgstr "Efemeris"
+
+msgid "Equ. grid"
+msgstr "Ewn. roos"
+
+msgid "Equ. mount"
+msgstr "Ewn. mont."
+
+msgid "Equatorial"
+msgstr "Ewenaardalrooster"
+
+msgid "Equatorial (J2000.0)"
+msgstr "Ewenaardalrooster (J2000.0)"
+
+msgid "Equatorial grid (J2000)"
+msgstr "Ewenaardalrooster (J2000)"
+
+msgid "Equatorial grid (of date)"
+msgstr "Ewenaardalrooster (op datum)"
+
+msgid "Equatorial radii ratio"
+msgstr "Ewenaarlike radiusverhouding"
+
+msgid "Equinoxes (J2000)"
+msgstr "Nachtevening (J2000)"
+
+msgid "Equinoxes (of date)"
+msgstr "Nachtevening (op datum)"
+
+msgid "Evening"
+msgstr "Aand"
+
+msgid "Every"
+msgstr "Elke"
+
+msgid "Every name the object is catalogued under"
+msgstr "Elke naam waaronder die voorwerp gekatalogiseer is"
+
+msgid "Exoplanetary systems"
+msgstr "Eksoplaneterstelels"
+
+msgid "Exterior egress"
+msgstr "Buiteagtervoeging"
+
+msgid "Exterior ingress"
+msgstr "Buitevervoering"
+
+msgid "Extras"
+msgstr "Ekstra"
+
+msgid "Fades the ground as you look below the horizon or zoom in"
+msgstr "Vervaag die grond soos jy onder die horison kyk of inzoem"
+
+msgid "Fading duration"
+msgstr "Vervagings duur"
+
+msgid "Faintest shown"
+msgstr "Swakste getoon"
+
+msgid "Favorites"
+msgstr "Gunstelinge"
+
+msgid "Fetching the survey lists…"
+msgstr "Haal die opname lyste…"
+
+msgid "Field of view"
+msgstr "Sien veld"
+
+msgid "Filter by type"
+msgstr "Filter volgens tipe"
+
+msgid "Find a city"
+msgstr "Vind 'n stad"
+
+msgid "Fine"
+msgstr "Fyn"
+
+msgid "First %d of %d - filter to narrow it."
+msgstr "Eerste %d van %d - filter om dit nou te maak."
+
+msgid "First body"
+msgstr "Eerste liggaam"
+
+msgid "First celestial body"
+msgstr "Eerste hemelliggaam"
+
+msgid "First graph"
+msgstr "Eerste grafiek"
+
+msgid "Fix"
+msgstr "Regstel"
+
+msgid "Fixed Equator"
+msgstr "Vaste ewenaar"
+
+msgid "Fixed Equatorial grid"
+msgstr "Vaste ewenaardalrooster"
+
+msgid "Fixed instant"
+msgstr "Vaste oomblik"
+
+msgid "Flip buttons"
+msgstr "Omkeer knoppe"
+
+msgid "Flip horiz."
+msgstr "Flip hor."
+
+msgid "Flip vert."
+msgstr "Draai vert."
+
+msgid "Font size"
+msgstr "Lettertipe grootte"
+
+msgid "Frame rate"
+msgstr "Raamkoers"
+
+msgid "From"
+msgstr "Van"
+
+msgid "From year"
+msgstr "Van jaar"
+
+msgid "Full screen"
+msgstr "Volskerm"
+
+msgid "Fullscreen button"
+msgstr "Volskerm knop"
+
+msgid "Further reading"
+msgstr "Verdere lezing"
+
+msgid "GRS details…"
+msgstr "GRS-besonderhede…"
+
+msgid "Gal. grid"
+msgstr "Gal. roos"
+
+msgid "Galactic"
+msgstr "Galakties"
+
+msgid "Galactic center and anticenter"
+msgstr "Galaktiese sentrum en antisentrum"
+
+msgid "Galactic poles"
+msgstr "Galaktiese pole"
+
+msgid "Galaxies"
+msgstr "Sterrestelsels"
+
+msgid "Gamma, saturation, brightness, contrast, opacity, colour channel and inverted colours belong to one survey. Open a survey to set them."
+msgstr "Gamma, versadiging, helderheid, kontras, deursigtigheid, kleurkanaal en omgekeerde kleure behoort aan een opname. Open 'n opname om dit in te stel."
+
+msgid "Generic"
+msgstr "Generies"
+
+msgid "Gestures"
+msgstr "Gebare"
+
+msgid "Globular star clusters"
+msgstr "Bolvormige sterklusters"
+
+msgid "Go there"
+msgstr "Gaan daarheen"
+
+msgid "Go to position"
+msgstr "Gaan na posisie"
+
+msgid "Go to this eclipse"
+msgstr "Gaan na hierdie verduistering"
+
+msgid "Go to this moment"
+msgstr "Gaan na hierdie oomblik"
+
+msgid "Go to this transit"
+msgstr "Gaan na hierdie transito"
+
+msgid "Good visibility conditions for current location"
+msgstr "Goeie sigbaarheidstoestande vir huidge ligging"
+
+msgid "Graphs"
+msgstr "Grafieke"
+
+msgid "Great Red Spot"
+msgstr "Groot Rooi Vlek"
+
+msgid "Great Red Spot details"
+msgstr "Groot Rooi Vlek-besonderhede"
+
+msgid "Greatest eastern elongation"
+msgstr "Grootste oostelike elongasie"
+
+msgid "Greatest eclipse"
+msgstr "Grootste verduistering"
+
+msgid "Greatest elongation for an inner planet, quadrature for an outer one"
+msgstr "Grootste verlenging vir 'n binneplaanet, kwadratuur vir 'n buitenplaanet"
+
+msgid "Greatest western elongation"
+msgstr "Grootste westelike elongasie"
+
+msgid "Greek letters"
+msgstr "Griekse letters"
+
+msgid "Greek letters for Bayer designations"
+msgstr "Griekse letters vir Bayer-aanstellings"
+
+msgid "Green"
+msgstr "Groen"
+
+msgid "Grid density"
+msgstr "Roosterdigtheid"
+
+msgid "Grids"
+msgstr "Roosters"
+
+msgid "Ground"
+msgstr "Grond"
+
+msgid "Gyro"
+msgstr "Gyro"
+
+msgid "Gyro mode"
+msgstr "Gyro-modus"
+
+msgid "Height"
+msgstr "Hoogte"
+
+msgid "Heliocentric distance"
+msgstr "Heliogentriese afstand"
+
+msgid "Heliocentric ecliptic positions of the major planets."
+msgstr "Heliocentriese ekliptiese posisies van die groot planete."
+
+msgid "Herschel 400 objects"
+msgstr "Herschel 400-objekte"
+
+msgid "HiPS"
+msgstr "HiPS"
+
+msgid "HiPS Surveys"
+msgstr "HiPS-opnames"
+
+msgid "Hide controls"
+msgstr "Verberg beheer"
+
+msgid "Hide deep-sky objects fainter than the limit"
+msgstr "Verberg diep-lug voorwerpe swakker as die limiet"
+
+msgid "Hide nomenclature on the celestial body of observer"
+msgstr "Verberg naamgewing op die hemelliggaam van waarnemer"
+
+msgid "Hide orbits of minor bodies"
+msgstr "Verberg wentelbane van klein liggame"
+
+msgid "Highlight"
+msgstr "Beklemtoon"
+
+msgid "Highlight the objects of the observing list"
+msgstr "Belig die objekte van die waarnemingslys"
+
+msgid "Hint circles marking each planet"
+msgstr "Wenk-sirkels wat elke planeet merk"
+
+msgid "Hints"
+msgstr "Wenke"
+
+msgid "Hints brightness"
+msgstr "Wenke helderheid"
+
+msgid "Hipparcos designations"
+msgstr "Hipparcos-aanstellings"
+
+msgid "Horizontal coordinates"
+msgstr "Horisontale koördinate"
+
+msgid "Hour angles usually run 0...24h. This counts -12h...12h."
+msgstr "Uurhoeke loop gewoonlik 0...24u. Dit tel -12u...12u."
+
+msgid "How many"
+msgstr "Hoeveel"
+
+msgid "ICRS grid"
+msgstr "ICRS roos"
+
+msgid "Include"
+msgstr "Sluit in"
+
+msgid "Include bright comets"
+msgstr "Sluit helder komete in"
+
+msgid "Include selected minor planets"
+msgstr "Sluit geselekteerde klein planete in"
+
+msgid "Inferior conjunction"
+msgstr "Mindere konjunksie"
+
+msgid "Info label"
+msgstr "Inligtings byskrif"
+
+msgid "Interacting galaxies"
+msgstr "Interagerende sterrestelsels"
+
+msgid "Intercardinal points"
+msgstr "Interkardiale punte"
+
+msgid "Interior egress"
+msgstr "Binne-uitgang"
+
+msgid "Interior ingress"
+msgstr "Binne-ingang"
+
+msgid "Interstellar objects"
+msgstr "Interstellêre objekte"
+
+msgid "Invariable plane of the Solar system"
+msgstr "Onveranderde vlak van die Sonnestelsel"
+
+msgid "Isolated"
+msgstr "Geisoleerd"
+
+msgid "Its elevation, and the civil, nautical and astronomical twilights"
+msgstr "Sy hoogte en die burgerlike, seevaart- en sterrekundige skemering"
+
+msgid "Jovigraphic longitude of the spot in System II, in degrees"
+msgstr "Jovigrafies lengtegraad van die vlek in Stelsel II, in grade"
+
+msgid "Julian day"
+msgstr "Juliaans dag"
+
+msgid "June solstice"
+msgstr "Junie sonnewende"
+
+msgid "Label"
+msgstr "Byskrif"
+
+msgid "Label colour"
+msgstr "Byskrif kleur"
+
+msgid "Label only features along the terminator"
+msgstr "Byskrif slegs kenmerke langs die terminator"
+
+msgid "Labels"
+msgstr "Byskrifte"
+
+msgid "Labels and Markers amount"
+msgstr "Byskrifte en merkers hoeveelheid"
+
+msgid "Labels brightness"
+msgstr "Byskrifte helderheid"
+
+msgid "Language settings"
+msgstr "Taalverstellings"
+
+msgid "Largest, ′"
+msgstr "Grootste, ′"
+
+msgid "Last known position"
+msgstr "Laaste bekende posisie"
+
+msgid "Lasting"
+msgstr "Duur"
+
+msgid "Latest selected object"
+msgstr "Jongste geselekteerde voorwerp"
+
+msgid "Latitude"
+msgstr "Breedtegraad"
+
+msgid "Latitude −90…90, longitude −180…180."
+msgstr "Breedtegraad −90…90, lengtegraad −180…180."
+
+msgid "Layer appearance"
+msgstr "Laag voorkoms"
+
+msgid "Leaves the landscape visible in darkness"
+msgstr "Laat die landskap in donkerheid sigbaar"
+
+msgid "Licence"
+msgstr "Lisensie"
+
+msgid "Light pollution"
+msgstr "Ligbesoedeling"
+
+msgid "Light pollution from database"
+msgstr "Ligbesoedeling uit databasis"
+
+msgid "Limit angular separation"
+msgstr "Beperk hoekelskeiding"
+
+msgid "Limit angular size"
+msgstr "Beperk hoekgrootte"
+
+msgid "Limit magnitude"
+msgstr "Beperk orde"
+
+msgid "Limit the magnitude of solar system objects"
+msgstr "Beperk die orde van sonnestelsel voorwerpe"
+
+msgid "Line"
+msgstr "Lyn"
+
+msgid "Line thickness"
+msgstr "Lyndikte"
+
+msgid "Linear and angular distances between selected objects"
+msgstr "Lineêre en hoekilafstande tussen geselekteerde objekte"
+
+msgid "Linear distance"
+msgstr "Lineêre afstand"
+
+msgid "Lines"
+msgstr "Lyne"
+
+msgid "Lines and circles"
+msgstr "Lyne en sirkels"
+
+msgid "List"
+msgstr "Lys"
+
+msgid "List name"
+msgstr "Lysnaam"
+
+msgid "Lit windows, street lighting and the like"
+msgstr "Verligte vensters, straatverligting en dergelike"
+
+msgid "Loading…"
+msgstr "Laai…"
+
+msgid "Local Mean Solar Time"
+msgstr "Plaaslike Gemiddelde Sonnetyd"
+
+msgid "Local Time"
+msgstr "Plaaslike Tyd"
+
+msgid "Local True Solar Time"
+msgstr "Plaaslike Ware Sonnetyd"
+
+msgid "Local solar eclipses"
+msgstr "Plaaslike sonverduisteringe"
+
+msgid "Local time"
+msgstr "Plaaslike tyd"
+
+msgid "Local time, h"
+msgstr "Plaaslike tyd, h"
+
+msgid "Locate me"
+msgstr "Bepaal my ligging"
+
+msgid "Locating…"
+msgstr "Bepaal ligging…"
+
+msgid "Location from landscape"
+msgstr "Ligging van landskap"
+
+msgid "Location is switched off in the system settings."
+msgstr "Ligging is in die stelselverstellings afgeskakel."
+
+msgid "Location permission refused. The other two ways still work."
+msgstr "Ligging-toestemming gewéier. Die ander twee maniere werk steeds."
+
+msgid "Lock position when coordinates are used"
+msgstr "Sluit posisie in wanneer koördinate gebruik word"
+
+msgid "Long press"
+msgstr "Lang druk"
+
+msgid "Longitude"
+msgstr "Lengtegraad"
+
+msgid "Longitude of GRS"
+msgstr "Lengtegraad van GRS"
+
+msgid "Lunar Elongation"
+msgstr "Maanverlenging"
+
+msgid "Lunar Stations"
+msgstr "Maanstasies"
+
+msgid "Lunar eclipses"
+msgstr "Maanverduisteringe"
+
+msgid "Lunar elongation"
+msgstr "Maanverlenging"
+
+msgid "Mag. 1"
+msgstr "Orde 1"
+
+msgid "Mag. 2"
+msgstr "Orde 2"
+
+msgid "Magnitudes"
+msgstr "Ordes"
+
+msgid "Major planets"
+msgstr "Groot planete"
+
+msgid "Major planets by planet, minor bodies by type"
+msgstr "Groot planete per planeet, klein liggame per tipe"
+
+msgid "Map of the planet. Tap to set the observer's place."
+msgstr "Kaart van die planeet. Tik om die waarnemer se plek in te stel."
+
+msgid "March equinox"
+msgstr "Maart ewenag"
+
+msgid "Mark impact features with ellipses"
+msgstr "Merk impakkenmerke met ellipse"
+
+msgid "Mark minor bodies"
+msgstr "Merk klein liggame"
+
+msgid "Markers"
+msgstr "Merkers"
+
+msgid "Markers sized by the object's angular size"
+msgstr "Merkers gegrootteer volgens die voorwerp se hoekgrootte"
+
+msgid "Master switch for the grids, lines and points below"
+msgstr "Meesterskakelaar vir die roosters, lyne en punte hieronder"
+
+msgid "Max items to display"
+msgstr "Maks. items om te vertoon"
+
+msgid "Max. results"
+msgstr "Maks. reslutate"
+
+msgid "Max. search radius"
+msgstr "Maks. soekradius"
+
+msgid "Maximum Solar altitude"
+msgstr "Maksimum sonhoogte"
+
+msgid "Maximum allowed separation"
+msgstr "Maksimum toegelate skeiding"
+
+msgid "Maximum angular size"
+msgstr "Maksimum hoekgrootte"
+
+msgid "Maximum eclipse"
+msgstr "Maksimum verduistering"
+
+msgid "Maximum year"
+msgstr "Maksimum jaar"
+
+msgid "Mean motion"
+msgstr "Gemiddelde beweging"
+
+msgid "Mercury, Venus, Mars, Jupiter and Saturn at once. Earth only."
+msgstr "Mercurius, Venus, Mars, Jupiter en Saturnus tegelyk. Slegs Aarde."
+
+msgid "Messier objects"
+msgstr "Messier-objekte"
+
+msgid "Mid-transit"
+msgstr "Midden-transito"
+
+msgid "Milky Way"
+msgstr "Melkweg"
+
+msgid "Milky Way brightness"
+msgstr "Melkweg helderheid"
+
+msgid "Milky Way saturation"
+msgstr "Melkweg versadiging"
+
+msgid "Minimal angular size"
+msgstr "Minimale hoekgrootte"
+
+msgid "Minimal brightness"
+msgstr "Minimale helderheid"
+
+msgid "Minimum Solar altitude"
+msgstr "Minimum sonhoogte"
+
+msgid "Minimum year"
+msgstr "Minimum jaar"
+
+msgid "Minor bodies"
+msgstr "Klein liggame"
+
+msgid "Minutes before sunrise / after sunset"
+msgstr "Minute voor sonsopgang / na sonsondergang"
+
+msgid "Month"
+msgstr "Maand"
+
+msgid "Monthly Elevation"
+msgstr "Maandelikse hoogte"
+
+msgid "Moon at"
+msgstr "Maan by"
+
+msgid "Moon enters penumbra"
+msgstr "Maan betree halfskadu"
+
+msgid "Moon enters umbra"
+msgstr "Maan betree umbra"
+
+msgid "Moon in zenith at"
+msgstr "Maan in senit by"
+
+msgid "Moon leaves penumbra"
+msgstr "Maan verlaat halfskadu"
+
+msgid "Moon leaves umbra"
+msgstr "Maan verlaat umbra"
+
+msgid "Moon's halo"
+msgstr "Maan se nimbus"
+
+msgid "Moons of first body"
+msgstr "Mane van eerste liggaam"
+
+msgid "Morning"
+msgstr "Oggend"
+
+msgid "Morph. Descr."
+msgstr "Morf. Beskr."
+
+msgid "Morphological description"
+msgstr "Morfologiese beskrywing"
+
+msgid "Move the sky by pointing the phone at it"
+msgstr "Skuif die lug deur die telefoon daarop te wys"
+
+msgid "Move the sky with the phone"
+msgstr "Skuif die lug met die telefoon"
+
+msgid "NGC/IC objects"
+msgstr "NGC/IC-objekte"
+
+msgid "Name for the new list"
+msgstr "Naam vir die nuwe lys"
+
+msgid "Named features the landscape marks"
+msgstr "Genoemde kenmerke wat die landskap merk"
+
+msgid "Names"
+msgstr "Name"
+
+msgid "Names beside the planets and their markers"
+msgstr "Name langsaan die planete en hul merkers"
+
+msgid "Names in English"
+msgstr "Name in Engels"
+
+msgid "Nautical Twilight"
+msgstr "Maritieme Skemerdonker"
+
+msgid "Neb. bg"
+msgstr "Neb. agt."
+
+msgid "Nebula background"
+msgstr "Newel agtergrond"
+
+msgid "Nebulae"
+msgstr "Newels"
+
+msgid "New list"
+msgstr "Nuwe lys"
+
+msgid "Next"
+msgstr "Volgende"
+
+msgid "Night"
+msgstr "Nag"
+
+msgid "No city matches that."
+msgstr "Geen stad pas daarmee."
+
+msgid "No eclipses found. Pick a range and calculate."
+msgstr "Geen verduisteringe gevind. Kies 'n reeks en bereken."
+
+msgid "No fresh fix - the receiver may have no sky. Try again outdoors, or set the place another way."
+msgstr "Geen vars bepaling - die ontvanger het dalk geen lugsig. Probeer weer buite, of stel die plek op 'n ander manier in."
+
+msgid "No surveys were found. The lists are downloaded, so this needs a connection."
+msgstr "Geen opnames is gevind. Die lyste word afgelaai, dus het dit 'n verbinding nodig."
+
+msgid "None downloaded yet"
+msgstr "Nog niks afgelaai nie"
+
+msgid "Normal"
+msgstr "Normaal"
+
+msgid "Not observable eclipse"
+msgstr "Nie waarneembare verduistering"
+
+msgid "Note: Local circumstances for eclipses during thousands of years in the past and future are not reliable due to uncertainty in ΔT which is caused by fluctuations in Earth's rotation."
+msgstr "Noot: Plaaslike omstandighede vir verduisteringe gedurende duisende jare in die verlede en toekoms is onbetroubaar weens onsekerheid in ΔT wat veroorsaak word deur skommelings in Aarde se rotasie."
+
+msgid "Note: artificial satellites and unnamed stars are excluded from calculation"
+msgstr "Noot: Kunsmatige satelliete en naamlose sterre word uitgesluit van berekening"
+
+msgid "Note: this tool doesn't apply the refraction correction for coordinates. Horizontal coordinates stop the clock, or the sky would turn away from the point while you arrive at it."
+msgstr "Opmerking: hierdie gereedskap pas nie die brekingsregstelling vir koördinate toe nie. Horisontale koördinate stop die klok, of die lug sal weg van die punt draai terwyl jy daar aankom."
+
+msgid "Notes: The quantity gamma is the minimum distance from the axis of lunar shadow cone to the center of Earth, in units of Earth’s equatorial radius. This distance is positive or negative, depending on whether the axis of the shadow cone passes north or south of the Earth's center. Path of solar eclipses during thousands of years in the past and future are not reliable due to uncertainty in ΔT which is caused by fluctuations in Earth's rotation."
+msgstr "Notas: Die hoeveelheid gamma is die minimum afstand van die as van die maansakskadu-keël tot die middelpunt van Aarde, in eenhede van Aarde se ewenaarlike radius. Hierdie afstand is positief of negatief, afhangende daarvan of die as van die skadukegel noord of suid van Aarde se middelpunt verby gaan. Die pad van sonverduisteringe gedurende duisende jare in die verlede en toekoms is onbetroubaar weens onsekerheid in ΔT wat veroorsaak word deur skommelings in Aarde se rotasie."
+
+msgid "Notes: The quantity gamma is the minimum distance from the center of the Moon to the axis of Earth’s umbral shadow cone, in units of Earth’s equatorial radius. This distance is positive or negative, depending on whether the Moon passes north or south of the shadow cone axis. Local circumstances for eclipses during thousands of years in the past and future are not reliable due to uncertainty in ΔT which is caused by fluctuations in Earth's rotation."
+msgstr "Notas: Die hoeveelheid gamma is die minimum afstand van die middelpunt van die Maan tot die as van Aarde se umbra-skadukegel, in eenhede van Aarde se ewenaarlike radius. Hierdie afstand is positief of negatief, afhangende daarvan of die Maan noord of suid van die skadukegel-as verby gaan. Plaaslike omstandighede vir verduisteringe gedurende duisende jare in die verlede en toekoms is onbetroubaar weens onsekerheid in ΔT wat veroorsaak word deur skommelings in Aarde se rotasie."
+
+msgid "Notes: Time in parentheses means the contact is invisible at current location. Transit times during thousands of years in the past and future are not reliable due to uncertainty in ΔT which is caused by fluctuations in Earth's rotation."
+msgstr "Notas: Tyd in hakies beteken die kontak is onsigbaar op huidge ligging. Transiettye gedurende duisende jare in die verlede en toekoms is onbetroubaar weens onsekerheid in ΔT wat veroorsaak word deur skommelings in Aarde se rotasie."
+
+msgid "Nothing computed yet, or nothing in this category is up."
+msgstr "Nog niks bereken nie, of niks in hierdie kategorie is op."
+
+msgid "Nothing computed yet."
+msgstr "Nog niks bereken nie."
+
+msgid "Nothing found for “%s”."
+msgstr "Niks gevind vir \"%s\"."
+
+msgid "Nothing in this list matches."
+msgstr "Niks in hierdie lys pas."
+
+msgid "Nothing in this list yet. Pick something out of the sky and tap the star on its card to keep it here."
+msgstr "Nog niks in hierdie lys nie. Kies iets uit die lug en tik die ster op sy kaart om dit hier te hou."
+
+msgid "Nothing is selected. Pick an object in the sky first."
+msgstr "Niks word geselekteer. Kies eers 'n voorwerp in die lug."
+
+msgid "Nothing matches."
+msgstr "Niks pas."
+
+msgid "Nothing selected"
+msgstr "Niks geselekteer"
+
+msgid "Nothing to plot."
+msgstr "Niks om te teken."
+
+msgid "Nothing to show."
+msgstr "Niks om te toon."
+
+msgid "Now"
+msgstr "Nou"
+
+msgid "N× above"
+msgstr "N× bokant"
+
+msgid "O./C. longitude"
+msgstr "W./B. lengtegraad"
+
+msgid "OBJECT"
+msgstr "VOORWERP"
+
+msgid "OBJECTS"
+msgstr "VOORWERPE"
+
+msgid "Object 1"
+msgstr "Voorwerp 1"
+
+msgid "Object 2"
+msgstr "Voorwerp 2"
+
+msgid "Objects which are up"
+msgstr "Voorwerpe wat op is"
+
+msgid "Observable duration"
+msgstr "Waarneembare duur"
+
+msgid "Observing list"
+msgstr "Waarnemingslys"
+
+msgid "Observing list highlight"
+msgstr "Waarnemingslys beklemtoning"
+
+msgid "Observing lists"
+msgstr "Waarnemingslyste"
+
+msgid "Occultation"
+msgstr "Bedekking"
+
+msgid "On the sky"
+msgstr "Op die lug"
+
+msgid "One color"
+msgstr "Een kleur"
+
+msgid "One color for all orbits"
+msgstr "Een kleur vir alle wentelbane"
+
+msgid "Only for N latest selected objects"
+msgstr "Slegs vir N jongste geselekteerde voorwerpe"
+
+msgid "Only for Solar elevation"
+msgstr "Slegs vir sonhoogte"
+
+msgid "Only list"
+msgstr "Slegs lys"
+
+msgid "Only one at a time"
+msgstr "Slegs een op 'n tyd"
+
+msgid "Only orbit for selected object…"
+msgstr "Slegs wentelbaan vir geselekteerde voorwerp…"
+
+msgid "Only orbits of major planets…"
+msgstr "Slegs wentelbane van groot planete…"
+
+msgid "Oort cloud objects"
+msgstr "Oort-wolk-objekte"
+
+msgid "Opac."
+msgstr "Ondeursig."
+
+msgid "Opacity"
+msgstr "Deursigtigheid"
+
+msgid "Open date and time"
+msgstr "Open datum en tyd"
+
+msgid "Open location"
+msgstr "Open ligging"
+
+msgid "Open star clusters"
+msgstr "Oop sterklusters"
+
+msgid "Opens the JUPOS project in a browser"
+msgstr "Open die JUPOS-projek in 'n blaaier"
+
+msgid "Opposition"
+msgstr "Opposisie"
+
+msgid "Opposition of"
+msgstr "Opposisie van"
+
+msgid "Oppositions"
+msgstr "Opposisies"
+
+msgid "Orbit colors"
+msgstr "Wentelbaan kleure"
+
+msgid "Orbital periods ratio"
+msgstr "Wentelperiode-verhouding"
+
+msgid "Orbital velocity"
+msgstr "Wentelsnelheid"
+
+msgid "Orbits"
+msgstr "Wentelbane"
+
+msgid "Orbits of Oort cloud objects"
+msgstr "Wentelbane van Oort-wolk voorwerpe"
+
+msgid "Orbits of cubewanos"
+msgstr "Wentelbane van kubewanos"
+
+msgid "Orbits of interstellar objects"
+msgstr "Wentelbane van interstêre voorwerpe"
+
+msgid "Orbits of major planets"
+msgstr "Wentelbane van groot planete"
+
+msgid "Orbits of minor planets"
+msgstr "Wentelbane van klein planete"
+
+msgid "Orbits of moons"
+msgstr "Wentelbane van mane"
+
+msgid "Orbits of plutinos"
+msgstr "Wentelbane van plutino's"
+
+msgid "Orbits of scattered disk objects"
+msgstr "Wentelbane van verspreide skyf voorwerpe"
+
+msgid "Orbits of sednoids"
+msgstr "Wentelbane van sednoids"
+
+msgid "Otherwise every move adopts the zone of the new place."
+msgstr "Andersins neem elke beweging die sone van die nuwe plek aan."
+
+msgid "Outline craters"
+msgstr "Kraters skets"
+
+msgid "Pan the sky"
+msgstr "Panorameer die lug"
+
+msgid "Partial eclipse begins"
+msgstr "Gedeeltelike verduistering begin"
+
+msgid "Partial eclipse ends"
+msgstr "Gedeeltelike verduistering eindig"
+
+msgid "Partitions"
+msgstr "Verdelings"
+
+msgid "Partitions thickness"
+msgstr "Verdelings dikte"
+
+msgid "Path width"
+msgstr "Pad breedte"
+
+msgid "Pause"
+msgstr "Pouse"
+
+msgid "Paused - start"
+msgstr "Gepouseerd - begin"
+
+msgid "Penumbral magnitude"
+msgstr "Penumbraal orde"
+
+msgid "Perfect visibility conditions for current location"
+msgstr "Perfekte sigbaarheidstoestande vir huidge ligging"
+
+msgid "Perihelion"
+msgstr "Perihelium"
+
+msgid "Perihelion and aphelion"
+msgstr "Perihelium en aphelium"
+
+msgid "Phase"
+msgstr "Fase"
+
+msgid "Phenomena"
+msgstr "Verskynsels"
+
+msgid "Pick two different bodies to see how their distance changes."
+msgstr "Kies twee verskillende hemelliggame om hul afstand te sien verander."
+
+msgid "Pinch"
+msgstr "Knyp"
+
+msgid "Planet"
+msgstr "Planeet"
+
+msgid "Planet and time zone"
+msgstr "Planeet en tydsone"
+
+msgid "Planet markers"
+msgstr "Planeet merkers"
+
+msgid "Planetary nebulae"
+msgstr "Planetêre newels"
+
+msgid "Planetary nebulae (<%1 mag)"
+msgstr "Planetêre newels (<%1 orde)"
+
+msgid "Planetary nomenclature"
+msgstr "Planetêre nomenklature"
+
+msgid "Planetary transits"
+msgstr "Planetêre transits"
+
+msgid "Planets"
+msgstr "Planete"
+
+msgid "Planets and Sun"
+msgstr "Planete en Son"
+
+msgid "Planets magnitude algorithm"
+msgstr "Planete grootte algoritme"
+
+msgid "Please select object to plot its 'Monthly Elevation' graph for the current year at selected time."
+msgstr "Kies asseblief voorwerp om sy 'Maandelikse Hoogte'-grafiek vir die huidge jaar op geselekteerde tyd uit te teken."
+
+msgid "Please select object to plot its graph 'Altitude vs. Time'."
+msgstr "Kies asseblief voorwerp om sy grafiek 'Hoogte vs. Tyd' uit te teken."
+
+msgid "Please select object to plot its graph 'Azimuth vs. Time'."
+msgstr "Kies asseblief voorwerp om sy grafiek 'Asimut vs. Tyd' uit te teken."
+
+msgid "Plutinos"
+msgstr "Plutino's"
+
+msgid "Pluto, Ceres, Pallas, Juno and Vesta"
+msgstr "Pluto, Ceres, Pallas, Juno en Vesta"
+
+msgid "Point size"
+msgstr "Puntgrootte"
+
+msgid "Pointing"
+msgstr "Wys"
+
+msgid "Polar distance"
+msgstr "Polêre afstand"
+
+msgid "Polar distance, not declination"
+msgstr "Polêre afstand, nie deklinasie nie"
+
+msgid "Poles and points"
+msgstr "Pole en punte"
+
+msgid "Polygon colour"
+msgstr "Veelhoek kleur"
+
+msgid "Position angle"
+msgstr "Posisie hoek"
+
+msgid "Positions"
+msgstr "Posisies"
+
+msgid "Positive values only"
+msgstr "Slegs positiewe waardes"
+
+msgid "Precession circles"
+msgstr "Presesie sirkels"
+
+msgid "Previous"
+msgstr "Vorige"
+
+msgid "Program Language"
+msgstr "Program Taal"
+
+msgid "Projected Solar Equator"
+msgstr "Geprojekteerde Son Ewenaar"
+
+msgid "Pronounce"
+msgstr "Uitspreek"
+
+msgid "Quadrature circle"
+msgstr "Kwadratuur sirkel"
+
+msgid "Query SIMBAD about selected object"
+msgstr "Navraag SIMBAD oor gekose voorwerp"
+
+msgid "Query options"
+msgstr "Navraag keuses"
+
+msgid "Quit"
+msgstr "Verlaat"
+
+msgid "Quit button"
+msgstr "Stop knop"
+
+msgid "Range"
+msgstr "Reeks"
+
+msgid "Ray helpers"
+msgstr "Straal hulpstukke"
+
+msgid "Reading…"
+msgstr "Lees…"
+
+msgid "Real time speed"
+msgstr "Werklike tyd spoed"
+
+msgid "Recent Searches"
+msgstr "Onlangse soeke"
+
+msgid "Rectangular FOV"
+msgstr "Reghoekige SG"
+
+msgid "Red"
+msgstr "Rooi"
+
+msgid "Refraction, extinction, sky brightness"
+msgstr "Breking, uitdowing, lug helderheid"
+
+msgid "Regions of the sky"
+msgstr "Gebiede van die lug"
+
+msgid "Relative scale"
+msgstr "Relatiewe skaal"
+
+msgid "Remove %s"
+msgstr "Verwyder %s"
+
+msgid "Remove from observing list"
+msgstr "Verwyder van waarnemings lys"
+
+msgid "Rename"
+msgstr "Hernoem"
+
+msgid "Reset all"
+msgstr "Stel alles terug"
+
+msgid "Restarting…"
+msgstr "Herbegin…"
+
+msgid "Right ascension"
+msgstr "Regter klim"
+
+msgid "Rise"
+msgstr "Opkomst"
+
+msgid "Rises"
+msgstr "Kom op"
+
+msgid "Rotation"
+msgstr "Rotasie"
+
+msgid "Running"
+msgstr "Loop"
+
+msgid "SIMBAD did not answer."
+msgstr "SIMBAD het nie geantwoord nie."
+
+msgid "SIMBAD is switched off in the search options."
+msgstr "SIMBAD word in die soekkeuses uitgeskakel."
+
+msgid "SIMBAD is switched off. Turn it on under Options to look objects up online."
+msgstr "SIMBAD is afgeskakel. Skakel dit aan onder Keuses om voorwerpe aanlyn op te soek."
+
+msgid "SIMBAD server"
+msgstr "SIMBAD bediener"
+
+msgid "Saturation"
+msgstr "Versadiging"
+
+msgid "Save"
+msgstr "Stoor"
+
+msgid "Save either the current FOV and direction of view or all the current options for use at next startup. Restoring default settings requires a restart of the app."
+msgstr "Stoor óf die huidige SG en sigsrigting óf al die huidige keuses vir gebruik by volgende laai. Herstel standaard stellings vereis herbegin van die program."
+
+msgid "Save to observing list"
+msgstr "Stoor na waarnemings lys"
+
+msgid "Save view"
+msgstr "Stoor sig"
+
+msgid "Scale"
+msgstr "Skaal"
+
+msgid "Scale factor"
+msgstr "Skaal faktor"
+
+msgid "Scale marker and label visibility by surface brightness"
+msgstr "Skaal merker en byskrif sigbaarheid volgens oppervlak helderheid"
+
+msgid "Scales smoothly between 1× at the minimum field of view and the factor above at the maximum"
+msgstr "Skaal glad tussen 1× by minimum sigsgebied en die faktor hierbo by maksimum"
+
+msgid "Scattered disc objects"
+msgstr "Verstrooide skyf-objekte"
+
+msgid "Screen label"
+msgstr "Skerm byskrif"
+
+msgid "Search in list"
+msgstr "Soek in lys"
+
+msgid "Search in list..."
+msgstr "Soek in lys…"
+
+msgid "Search options"
+msgstr "Soek keuses"
+
+msgid "Seasons"
+msgstr "Seisoene"
+
+msgid "Second body"
+msgstr "Tweede liggaam"
+
+msgid "Second celestial body"
+msgstr "Tweede hemelliggaam"
+
+msgid "Second graph"
+msgstr "Tweede grafiek"
+
+msgid "Second object"
+msgstr "Tweede voorwerp"
+
+msgid "Secondary intercardinal points"
+msgstr "Sekondêre tussenhoofpunte"
+
+msgid "See the sky through the ground"
+msgstr "Kyk deur die grond na die lug"
+
+msgid "Seen now"
+msgstr "Gesien nou"
+
+msgid "Select an object first: this asks SIMBAD what it holds around it."
+msgstr "Kies eers 'n voorwerp: dit vra SIMBAD wat dit daaromheen hou."
+
+msgid "Select it and show its card"
+msgstr "Kies dit en wys sy kaart"
+
+msgid "Select something in the sky first — this page works on the selection."
+msgstr "Kies eers iets aan die lug — hierdie bladsy werk op die keuse."
+
+msgid "Selected object"
+msgstr "Gekose voorwerp"
+
+msgid "Sep."
+msgstr "Skei."
+
+msgid "Separate colors for orbits by object type"
+msgstr "Aparte kleure vir wentelbane volgens voorwerp tipe"
+
+msgid "Separate colors for orbits of major planets"
+msgstr "Aparte kleure vir wentelbane van groot planete"
+
+msgid "Separation"
+msgstr "Skeiding"
+
+msgid "September equinox"
+msgstr "September ewenag"
+
+msgid "Server"
+msgstr "Bediener"
+
+msgid "Set"
+msgstr "Stel"
+
+msgid "Set the clock to %s"
+msgstr "Stel die horlosie tot %s"
+
+msgid "Set the place"
+msgstr "Stel die plek"
+
+msgid "Set to now"
+msgstr "Stel tot nou"
+
+msgid "Sets"
+msgstr "Ondergaan"
+
+msgid "Shadow map for non-convex bodies. May coarsen the penumbra on some objects"
+msgstr "Skadu kaart vir nie-konvekse liggame. Mag die umbra van sommige voorwerpe vergroffel"
+
+msgid "Shadow transit"
+msgstr "Skadutransit"
+
+msgid "Shooting stars"
+msgstr "Vallende sterre"
+
+msgid "Short notation for units of surface brightness"
+msgstr "Kort notasie vir eenhede van oppervlak helderheid"
+
+msgid "Short steps over a long duration are slow."
+msgstr "Kort stappe oor 'n lang tydperk is stadig."
+
+msgid "Show"
+msgstr "Wys"
+
+msgid "Show FOV center marker when position is search"
+msgstr "Wys SG sentrum merker wanneer posisie gesoek word"
+
+msgid "Show additional buttons"
+msgstr "Wys bykomende knoppe"
+
+msgid "Show additional star names"
+msgstr "Wys bykomende ster name"
+
+msgid "Show all information"
+msgstr "Wys al die inligting"
+
+msgid "Show atmospheric extinction"
+msgstr "Wys atmosferiese uitdowing"
+
+msgid "Show boundaries of constellations"
+msgstr "Wys grense van konstellasies"
+
+msgid "Show button in addition to keyboard shortcut?"
+msgstr "Wys knop bykomend tot sleutelbordjie afkorting?"
+
+msgid "Show controls"
+msgstr "Wys kontrole"
+
+msgid "Show each body where it was when the light left it (recommended)"
+msgstr "Wys elke liggaam waar dit was toe die lig dit verlaat het (aanbeveel)"
+
+msgid "Show frames per second beside the field of view"
+msgstr "Wys frame per sekonde langs die sigsgebied"
+
+msgid "Show hints and labels for planetary features"
+msgstr "Wys wenke en byskrifte vir planetêre kenmerke"
+
+msgid "Show illumination"
+msgstr "Wys verligting"
+
+msgid "Show in sky"
+msgstr "Wys aan die lug"
+
+msgid "Show less"
+msgstr "Wys minder"
+
+msgid "Show lunar stations (if defined)"
+msgstr "Wys maanstasies (indien gedefinieerd)"
+
+msgid "Show more"
+msgstr "Wys meer"
+
+msgid "Show objects which are up"
+msgstr "Wys voorwerpe wat bo is"
+
+msgid "Show only named DSO"
+msgstr "Wys slegs genoemde DSO"
+
+msgid "Show only objects between the two sizes"
+msgstr "Wys slegs voorwerpe tussen die twee groottes"
+
+msgid "Show only the kinds ticked below"
+msgstr "Wys slegs die soorte wat hieronder gekies is"
+
+msgid "Show or hide the two rails of controls"
+msgstr "Wys of verberg die twee spore van kontrole"
+
+msgid "Show orbit even if object is off screen"
+msgstr "Wys wentelbane selfs as voorwerp af skerm is"
+
+msgid "Show orbit only for selected SSO"
+msgstr "Wys wentelbane slegs vir gekose SSO"
+
+msgid "Show orbits"
+msgstr "Wys wentelbane"
+
+msgid "Show orbits of major planets"
+msgstr "Wys wentelbane van groot planete"
+
+msgid "Show planetary nomenclature"
+msgstr "Wys planetêre nomenklature"
+
+msgid "Show special nomenclature points only"
+msgstr "Wys slegs spesiale nomenklature punte"
+
+msgid "Show surveys"
+msgstr "Wys opnames"
+
+msgid "Show this survey"
+msgstr "Wys hierdie opname"
+
+msgid "Show tiny circles for minor bodies regardless of magnitude"
+msgstr "Wys klein sirkels vir klein liggame ongeag grootte"
+
+msgid "Show trails"
+msgstr "Wys spore"
+
+msgid "Show zodiac (if defined)"
+msgstr "Wys zodiak (indien gedefinieerd)"
+
+msgid "Sidereal time"
+msgstr "Siderische tyd"
+
+msgid "Simbad Lookup Error: %s"
+msgstr "Simbad Soek Fout: %s"
+
+msgid "Simbad Lookup: querying"
+msgstr "Simbad Soek: navraag"
+
+msgid "Simulate self-shadowing"
+msgstr "Simuleer self-skadu"
+
+msgid "Simulation"
+msgstr "Simulasie"
+
+msgid "Sky Culture"
+msgstr "Lug Kultuur"
+
+msgid "Sky and viewing options"
+msgstr "Lug en kyk keuses"
+
+msgid "Sky culture"
+msgstr "Lug kultuur"
+
+msgid "Slow down"
+msgstr "Stadiger"
+
+msgid "Smallest, ′"
+msgstr "Kleinste, ′"
+
+msgid "Solar System"
+msgstr "Son Stelsel"
+
+msgid "Solar System objects"
+msgstr "Son Stelsel voorwerpe"
+
+msgid "Solar altitude for Twilight Finder"
+msgstr "Son hoogte vir Skemering Soeker"
+
+msgid "Solar elongation"
+msgstr "Son verwydering"
+
+msgid "Solar system"
+msgstr "Sonnestelsel"
+
+msgid "Solar system objects"
+msgstr "Sonnestelselobjekte"
+
+msgid "Solar system objects: comets"
+msgstr "Sonnestelselobjekte: komete"
+
+msgid "Solar system objects: minor bodies"
+msgstr "Sonnestelselobjekte: klein liggame"
+
+msgid "Solar system objects: planets"
+msgstr "Sonnestelselobjekte: planete"
+
+msgid "Solstices (J2000)"
+msgstr "Sonstilstande (J2000)"
+
+msgid "Solstices (of date)"
+msgstr "Sonstilstande (op datum)"
+
+msgid "Some objects may be found after activation respective plug-ins"
+msgstr "Sommige voorwerpe mag gevind word na aktivering van onderskeie insteekprogramme"
+
+msgid "Special points only"
+msgstr "Spesiale punte slegs"
+
+msgid "Spectral Class"
+msgstr "Spektrale Klas"
+
+msgid "Speed up"
+msgstr "Versneller"
+
+msgid "Spiky stars"
+msgstr "Spikkel sterre"
+
+msgid "Stand where the landscape was shot, on the planet it names"
+msgstr "Staan waar die landskap opgeneem is, op die planeet wat dit noem"
+
+msgid "Star, planet, catalogue number…"
+msgstr "Ster, planeet, katalogus nommer…"
+
+msgid "Started"
+msgstr "Gebegin"
+
+msgid "Starting"
+msgstr "Beging"
+
+msgid "Startup FOV"
+msgstr "Laai SG"
+
+msgid "Startup direction of view"
+msgstr "Laai sigsrigting"
+
+msgid "Stationary (begin prograde motion)"
+msgstr "Stilstaande (begin direkte beweging)"
+
+msgid "Stationary (begin retrograde motion)"
+msgstr "Stilstaande (begin terugwaartse beweging)"
+
+msgid "Stellarium's user guide covers the astronomy this app shares with it: stellarium.org/documentation"
+msgstr "Stellarium se gebruikersgids dek die sterrekunde wat hierdie toepassing daarmee deel: stellarium.org/documentation"
+
+msgid "Step, hours"
+msgstr "Stap, ure"
+
+msgid "Stop clock when starting"
+msgstr "Stop horlosie wanneer laai"
+
+msgid "Strasbourg astronomical Data Center (France)"
+msgstr "Strasbourg Astronomiese Data Sentrum (Frankryk)"
+
+msgid "Style"
+msgstr "Styl"
+
+msgid "Sun altitude"
+msgstr "Son hoogte"
+
+msgid "Sun at"
+msgstr "Son by"
+
+msgid "Sun's altitude"
+msgstr "Son se hoogte"
+
+msgid "Sun's corona"
+msgstr "Son se kroon"
+
+msgid "Sun's glare"
+msgstr "Son se glans"
+
+msgid "Sun, planets and moons of first body and observer's planet"
+msgstr "Son, planete en mane van eerste liggaam en waarnemer se planeet"
+
+msgid "Sun, planets and moons of observer's planet"
+msgstr "Son, planete en mane van waarnemer se planeet"
+
+msgid "Sunlight scattered by interplanetary dust"
+msgstr "Sonlig verstrooid deur interplanêre stof"
+
+msgid "Supergalactic"
+msgstr "Supergalakties"
+
+msgid "Superior conjunction"
+msgstr "Hoër konjunksie"
+
+msgid "Supernova candidates"
+msgstr "Supernova-kandidate"
+
+msgid "Supernova remnant candidates"
+msgstr "Supernova-oorblyfsel-kandidate"
+
+msgid "Supernova remnants"
+msgstr "Supernova-oorblyfels"
+
+msgid "Surveys"
+msgstr "Opnames"
+
+msgid "Switch this off to see the trails for all Solar system bodies"
+msgstr "Skakel dit af om spore van al Son Stelsel liggame te sien"
+
+msgid "Symbiotic stars"
+msgstr "Simbiotiese sterre"
+
+msgid "System date at"
+msgstr "Stelsel datum by"
+
+msgid "System default"
+msgstr "Stelsel verstek"
+
+msgid "Table"
+msgstr "Tabel"
+
+msgid "Tabular output for coordinates and time"
+msgstr "Tabel uitvoer vir koördinate en tyd"
+
+msgid "Tap a colour to change it. Changes show on the sky at once and are kept."
+msgstr "Tik 'n kleur om dit te verander. Veranderinge wys aan die lug en word behou."
+
+msgid "Tap again to confirm"
+msgstr "Tik weer om te bevestig"
+
+msgid "Tap an object"
+msgstr "Tik 'n voorwerp"
+
+msgid "Tap the chart to read a value."
+msgstr "Tik die grafiek om 'n waarde te lees."
+
+msgid "Tap the clock"
+msgstr "Tik die horlosie"
+
+msgid "Tap the gear"
+msgstr "Tik die tand"
+
+msgid "Tap the map to stand there."
+msgstr "Tik die kaart om daar te staan."
+
+msgid "Tap the place"
+msgstr "Tik die plek"
+
+msgid "Tap to confirm"
+msgstr "Tik om te bevestig"
+
+msgid "Tertiary intercardinal points"
+msgstr "Tersiêre tussenhoofpunte"
+
+msgid "Text angle"
+msgstr "Teks hoek"
+
+msgid "The Great Red Spot drifts in System II longitude. Enter a recent measurement and the drift rate to carry it forward from."
+msgstr "Die Groot Rooi Kol sweef in Stelsel II lengte. Gee 'n onlangse meting en die sweef tempo in om dit vorentoe te dra."
+
+msgid "The algorithm is based on visual observations 1877-1891 by G. Müller and was still republished in the Explanatory Supplement to the Astronomical Ephemeris (1961)."
+msgstr "Die algoritme is gebaseer op visuele waarnemings 1877-1891 deur G. Müller en was nog heruitgegee in die Verklarende Byvoeg tot die Astronomiese Efemeris (1961)."
+
+msgid "The algorithm was published by A. Mallama & J. L. Hilton: Computing apparent planetary magnitudes for the Astronomical Almanac. Astronomy&Computing 25 (2018) 10-24."
+msgstr "Die algoritme was gepubliseer deur A. Mallama & J. L. Hilton: Computing apparent planetary magnitudes for the Astronomical Almanac. Astronomy&Computing 25 (2018) 10-24."
+
+msgid "The algorithm was published in the 2nd edition of the Explanatory Supplement to the Astronomical Almanac (1992)."
+msgstr "Die algoritme was gepubliseer in die 2de uitgawe van die Verklarende Byvoeg tot die Astronomiese Almanak (1992)."
+
+msgid "The algorithm was published in the 3rd edition of the Explanatory Supplement to the Astronomical Almanac (2013)."
+msgstr "Die algoritme was gepubliseer in die 3de uitgawe van die Verklarende Byvoeg tot die Astronomiese Almanak (2013)."
+
+msgid "The algorithm was used in the Astronomical Almanac (1984 and later) and gives V (instrumental) magnitudes (allegedly from D.L. Harris)."
+msgstr "Die algoritme was gebruik in die Astronomiese Almanak (1984 en later) en gee V (instrumentale) groottes (beweer van D.L. Harris)."
+
+msgid "The classical cepheids"
+msgstr "Die klassieke Cefheïde"
+
+msgid "The colour each kind of object is drawn in"
+msgstr "Die kleur waarin elke soort voorwerp geteken word"
+
+msgid "The engine did not answer with any colours."
+msgstr "Die enjin het nie met enige kleure geantwoord nie."
+
+msgid "The galactic band"
+msgstr "Die galaktiese band"
+
+msgid "The greatest eclipse is invisible in current location"
+msgstr "Die grootste verduistering is onsigbaar op huidge ligging"
+
+msgid "The horizon outline instead of the panorama"
+msgstr "Die horison omlyning in plaas van die panorama"
+
+msgid "The path each body has taken across the sky"
+msgstr "Die pad wat elke liggaam oor die lug geneem het"
+
+msgid "The shortest label the culture defines"
+msgstr "Die kortste byskrif wat die kultuur definieer"
+
+msgid "Thickness"
+msgstr "Dikte"
+
+msgid "This copy ships no scripts."
+msgstr "Hierdie kopie vervoer geen skripe nie."
+
+msgid "This device has no location service."
+msgstr "Hierdie toestel het geen liggingsdiens nie."
+
+msgid "This part of the engine exposes no settings on this build."
+msgstr "Hierdie deel van die enjin blootstelle geen stellings op hierdie bou nie."
+
+msgid "This tool works on Earth only!"
+msgstr "Hierdie hulpmiddel werk slegs op Aarde!"
+
+msgid "This tool works on Earth only. Short steps over a long duration are slow."
+msgstr "Hierdie instrument werk slegs op Aarde. Kort stappe oor 'n lang tydperk is stadig."
+
+msgid "This year"
+msgstr "Hierdie jaar"
+
+msgid "Time"
+msgstr "Tyd"
+
+msgid "Time correction"
+msgstr "Tyd regstelling"
+
+msgid "Time of day"
+msgstr "Tyd van dag"
+
+msgid "Time span"
+msgstr "Tyd omvang"
+
+msgid "Time step"
+msgstr "Tyd stap"
+
+msgid "Time zone"
+msgstr "Tydsone"
+
+msgid "To the next (mths)"
+msgstr "Tot volgende (mnd)"
+
+msgid "To the next, months"
+msgstr "Tot volgende, maande"
+
+msgid "Today"
+msgstr "Vandag"
+
+msgid "Toggle display of nebula images."
+msgstr "Skakel weergawe van newelbeeld uit."
+
+msgid "Toggle display of the button for the Digitized Sky Survey."
+msgstr "Skakel weergawe van die knop vir die Gedigitaliseerde Lug Opname uit."
+
+msgid "Toggle display of the button for the HiPS Surveys. Select a survey in the View settings."
+msgstr "Skakel weergawe van die knop vir die HiPS Opnames uit. Kies 'n opname in die Bekyk stellings."
+
+msgid "Toggle drawing Sun's glare"
+msgstr "Skakel tekening van Son se glans uit"
+
+msgid "Toggle drawing halo around the Moon"
+msgstr "Skakel tekening van halo rondom die Maan uit"
+
+msgid "Toggle permanent drawing of Sun's corona when atmosphere is disabled"
+msgstr "Skakel permanente tekening van Son se kroon wanneer atmosfeer is gedeaktiveer uit"
+
+msgid "Toggle the usage of background under GUI buttons"
+msgstr "Skakel die gebruik van agtergrond onder GUI knoppe uit"
+
+msgid "Total eclipse begins"
+msgstr "Totale verduistering begin"
+
+msgid "Total eclipse ends"
+msgstr "Totale verduistering eindig"
+
+msgid "Trails"
+msgstr "Spore"
+
+msgid "Translated"
+msgstr "Vertaal"
+
+msgid "Transparency"
+msgstr "Deurskynendheid"
+
+msgid "Twilight"
+msgstr "Skemerdonker"
+
+msgid "Twilight and rise and set times are worked out for an observer on Earth. Move back to Earth to see them."
+msgstr "Skemering en opkomst en ondergaan tye word uitgewerk vir 'n waarnemer op Aarde. Gaan terug na Aarde om dit te sien."
+
+msgid "Twinkle"
+msgstr "Flikker"
+
+msgid "Twinkle amount"
+msgstr "Flonker bedrag"
+
+msgid "Twinkle even without atmosphere"
+msgstr "Flonker selfs sonder atmosfeer"
+
+msgid "Twinkle is caused by atmospheric turbulence; this shows it regardless"
+msgstr "Flonker word deur luglagsturbulensie veroorsaak; dit vertoon dit desondanks"
+
+msgid "Type a name, a Bayer letter or a catalogue number - Vega, α Lyr, M 31, NGC 224."
+msgstr "Tik 'n naam, 'n Bayer letter of 'n katalogus nommer - Vega, α Lyr, M 31, NGC 224."
+
+msgid "Types"
+msgstr "Tipes"
+
+msgid "Umbral magnitude"
+msgstr "Umbrale orde"
+
+msgid "Unnamed star"
+msgstr "Naamlose ster"
+
+msgid "Up to mag."
+msgstr "Tot orde."
+
+msgid "Update"
+msgstr "Opdateer"
+
+msgid "Use SIMBAD"
+msgstr "Gebruik SIMBAD"
+
+msgid "Use additional names of DSO"
+msgstr "Gebruik addisionele name van DSO"
+
+msgid "Use autofill only from the beginning of words"
+msgstr "Gebruik outo-invul slegs van die begin van woorde"
+
+msgid "Use buttons background"
+msgstr "Gebruik knoppe agtergrond"
+
+msgid "Use common symbols for coordinate systems"
+msgstr "Gebruik algemene simbole vir koördinaat stelsels"
+
+msgid "Use custom time zone"
+msgstr "Gebruik aangepaste tyd sone"
+
+msgid "Use decimal degrees"
+msgstr "Gebruik desimale grade"
+
+msgid "Use decimal degrees for coordinates"
+msgstr "Gebruik desimale grade vir koördinate"
+
+msgid "Use designations for screen labels"
+msgstr "Gebruik aanduidings vir skerm byskrifte"
+
+msgid "Use distance from North Celestial Pole, not declination from equator in equatorial coordinates"
+msgstr "Gebruik afstand van Noord Hemelse Pole, nie deklinasie van ewenaar nie, in ekwatoriale koördinate"
+
+msgid "Use mag/arcsec^2 for surface brightness"
+msgstr "Gebruik mag/arcsec^2 vir oppervlakte helderheid"
+
+msgid "Use more accurate 3D models (where available)"
+msgstr "Gebruik meer akkurate 3D modelle (waar beskikbaar)"
+
+msgid "Use my location"
+msgstr "Gebruik my ligging"
+
+msgid "Use on-line astronomical database SIMBAD"
+msgstr "Gebruik aanlynastronomiese databasis SIMBAD"
+
+msgid "Use outlines for big deep-sky objects"
+msgstr "Gebruik kontoere vir groot diepleruim voorwerpe"
+
+msgid "Use proportional hints"
+msgstr "Gebruik proporsionele wenke"
+
+msgid "Use sorting by string length"
+msgstr "Gebruik sorteer volgens string lengte"
+
+msgid "Use surface brightness"
+msgstr "Gebruik oppervlak helderheid"
+
+msgid "Use the date now shown in the sky"
+msgstr "Gebruik die datum wat nou in die lug vertoon word"
+
+msgid "Use the value in landscape.ini when it has one"
+msgstr "Gebruik die waarde in landscape.ini wanneer dit een het"
+
+msgid "Use the value stored for this location"
+msgstr "Gebruik die waarde gestoor vir hierdie ligging"
+
+msgid "Var. stars"
+msgstr "Veranderlike sterre"
+
+msgid "Version %s  ·  Qt %s"
+msgstr "Weergawe %s  ·  Qt %s"
+
+msgid "Vertical viewport offset"
+msgstr "Vertikale aankykvenster offset"
+
+msgid "View recent GRS measurements"
+msgstr "Bekyk onlangse GRS metings"
+
+msgid "Visibility"
+msgstr "Sigbaarheid"
+
+msgid "Visual magnitude based on phase angle and albedo."
+msgstr "Visuele orde gebaseer op fase hoek en albedo."
+
+msgid "Western quadrature"
+msgstr "Westelike kwadrature"
+
+msgid "When a search result is chosen"
+msgstr "Wanneer 'n soektog resultaat gekies word"
+
+msgid "Where Jupiter's Great Red Spot was, and when"
+msgstr "Waar Jupiter se Groot Rooi Punt was, en wanneer"
+
+msgid "Width"
+msgstr "Breedte"
+
+msgid "Working out the contact times…"
+msgstr "Werk die kontak tye uit…"
+
+msgid "Year"
+msgstr "Jaar"
+
+msgid "Zenith and Nadir"
+msgstr "Toppunt en Onderpunt"
+
+msgid "Zodiac and lunar stations"
+msgstr "Zodiac en maan stasies"
+
+msgid "Zodiacal Light"
+msgstr "Zodiakale Lig"
+
+msgid "Zodiacal Light brightness"
+msgstr "Zodiakale Lig helderheid"
+
+msgid "Zoom in and out"
+msgstr "Zoem in en uit"
+
+msgid "after sunset"
+msgstr "ná sonsondergang"
+
+msgid "before sunrise"
+msgstr "voor sonopgang"
+
+msgid "bright suburban"
+msgstr "helder buitestedelik"
+
+msgid "east +"
+msgstr "oos +"
+
+msgid "engine ready, interface going live"
+msgstr "enjin gereed, koppelvlak gaan lewe"
+
+msgid "excellent dark sky"
+msgstr "uitstekende donker lug"
+
+msgid "from landscape, if given"
+msgstr "van landskap, indien gegee"
+
+msgid "inner city"
+msgstr "binne stad"
+
+msgid "mag %s"
+msgstr "orde %s"
+
+msgid "max %s"
+msgstr "maks %s"
+
+msgid "mid %s"
+msgstr "middel %s"
+
+msgid "north +"
+msgstr "noord +"
+
+msgid "rural/suburban"
+msgstr "platteland/semi-stedelik"
+
+msgid "sci. translit."
+msgstr "wet. transliterasie"
+
+msgid "select all"
+msgstr "kies alles"
+
+msgid "select none"
+msgstr "kies niks"
+
+msgid "select preference"
+msgstr "kies voorkeur"
+
+msgid "select standard"
+msgstr "kies standaard"
+
+msgid "store preference"
+msgstr "stoor voorkeur"
+
+msgid "suburban/urban"
+msgstr "semi-stedelik/stedelik"
+
+msgid "truly dark"
+msgstr "werklik donker"
+
+msgid "unreadable snapshot"
+msgstr "onleesbare momentopname"
+
+msgid "with Solar Dates"
+msgstr "met Son Datums"
+
+msgid "… and moons"
+msgstr "… en mane"

@@ -1,0 +1,1408 @@
+# Asterium interface translation for fi.
+# Copyright (C) 2026 the Asterium authors
+# This file is distributed under the same licence as the Asterium package.
+#
+# MACHINE TRANSLATION, not reviewed by a speaker of this language.
+# Terminology follows upstream Stellarium's own fi catalogue, which was used
+# as a glossary, and every entry keeps the source's printf placeholders.
+# Corrections from a human translator are welcome and should simply replace these.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: asterium\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%d bodies"
+msgstr "%d kappaleita"
+
+msgid "%d object"
+msgstr "%d kohde"
+
+msgid "%d objects"
+msgstr "%d kohdetta"
+
+msgid "%s colour"
+msgstr "%s väri"
+
+msgid "%s from %s, ±%.0f m"
+msgstr "%s %s:sta, ±%.0f m"
+
+msgid "12-hour"
+msgstr "12-tunnin"
+
+msgid "1× below"
+msgstr "1× alla"
+
+msgid "24-hour"
+msgstr "24-tunnin"
+
+msgid "A button to mark every object of the current observing list on the sky."
+msgstr "Painike kaikkien nykyisen havaintoluettelon kohteiden merkitsemiseen taivaalla."
+
+msgid "A polygonal model for some small moons, asteroids and comets instead of a sphere"
+msgstr "Monikulmainen malli joillekin pienille kuille, asteroideille ja komeetoille pallon sijasta"
+
+msgid "A touch-first planetarium forked from Stellarium, whose astronomy engine it uses unchanged. The interface is new; everything that draws the sky is upstream's work."
+msgstr "Stellariumista muodostettu kosketusorientoitunut planetaario, jonka tähtitieteen moottoria se käyttää muuttamattomana. Käyttöliittymä on uusi; kaikki, joka piirtää taivaan, on alkuperäisen työtä."
+
+msgid "About this sky culture"
+msgstr "Tietoja tästä tähtitarustosta"
+
+msgid "Above altitude, °"
+msgstr "Yläpuolella korkeus, °"
+
+msgid "Absolute scale"
+msgstr "Absoluuttinen mittakaava"
+
+msgid "Add %s"
+msgstr "Lisää %s"
+
+msgid "Adjust brightness to bright objects"
+msgstr "Säädä kirkkaus kirkkaille kohteille"
+
+msgid "Algorithm of ΔT"
+msgstr "ΔT-algoritmi"
+
+msgid "All naked-eye planets"
+msgstr "Kaikki paljaalla silmällä näkyvät planeetat"
+
+msgid "All solar eclipses"
+msgstr "Kaikki auringonpimennykset"
+
+msgid "Allow negative hour angles"
+msgstr "Salli negatiiviset tuntikulmat"
+
+msgid "Allow results outside the recommended time range of the orbital elements"
+msgstr "Salli tulokset kiertoratojen suositeltujen aikavälejä ulkopuolella"
+
+msgid "Also find"
+msgstr "Etsi myös"
+
+msgid "Also plot"
+msgstr "Piirrä myös"
+
+msgid "Also show moons of selected object or planets"
+msgstr "Näytä myös valitun kohteen tai planeettojen kuut"
+
+msgid "Altitude limit, °"
+msgstr "Korkeusraja, °"
+
+msgid "Amount"
+msgstr "Määrä"
+
+msgid "An observer floats above its planet, so there is nowhere on it to stand. Choose another planet to come back down."
+msgstr "Havainnoija leijuu planeetan yläpuolella, joten siihen ei voi asettua. Valitse toinen planeetta palautuaksesi maahan."
+
+msgid "And"
+msgstr "Ja"
+
+msgid "And also"
+msgstr "Ja myös"
+
+msgid "And the next (years)"
+msgstr "Ja seuraava (vuotta)"
+
+msgid "Annual drift"
+msgstr "Vuotuinen ajautuminen"
+
+msgid "Appearance"
+msgstr "Ulkonäkö"
+
+msgid "Apply time interval limits to list"
+msgstr "Aseta aikavälin rajoitukset luetteloon"
+
+msgid "Art"
+msgstr "Kuvat"
+
+msgid "Artificial satellites and unnamed stars are excluded from calculation."
+msgstr "Keinotekoiset satelliitit ja nimelliset tähdet jätetään laskelmien ulkopuolelle."
+
+msgid "Asking for permission…"
+msgstr "Pyydetään lupaa…"
+
+msgid "Asks SIMBAD what it holds around the object that is selected now, and prints the answer as it comes back."
+msgstr "Kysyy SIMBAD:iltä, mitä se tietää nyt valitun kohteen ympärillä, ja tulostaa vastauksen kun se saapuu."
+
+msgid "Ast. lines"
+msgstr "Ast. viivat"
+
+msgid "Ast. names"
+msgstr "Ast. nimet"
+
+msgid "Astronomical Almanac (default) enlarges by 2%; Danjon (1951) differs slightly"
+msgstr "Astronomical Almanac (oletus) suurentaa 2 %:lla; Danjon (1951) eroaa hieman"
+
+msgid "Astronomical night"
+msgstr "Astronominen yö"
+
+msgid "At"
+msgstr "Klo"
+
+msgid "Atmosph."
+msgstr "Ilmak."
+
+msgid "Automatic transparency"
+msgstr "Automaattinen läpinäkyvyys"
+
+msgid "Axis distance"
+msgstr "Akselin etäisyys"
+
+msgid "Azi. grid"
+msgstr "Atsi. ruutu"
+
+msgid "Azimuth and altitude rather than right ascension and declination"
+msgstr "Atsimuutti ja korkeus eikä rektaskensio ja deklinaatio"
+
+msgid "Below the horizon here."
+msgstr "Horisontin alapuolella täällä."
+
+msgid "Between objects"
+msgstr "Objektien välillä"
+
+msgid "Boundless"
+msgstr "Rajoittamaton"
+
+msgid "Bounds"
+msgstr "Rajat"
+
+msgid "Brighter than"
+msgstr "Kirkkaampi kuin"
+
+msgid "By object type"
+msgstr "Kohdetyypin mukaan"
+
+msgid "By planet"
+msgstr "Planeetan mukaan"
+
+msgid "Calculating…"
+msgstr "Lasketaan…"
+
+msgid "Cardinals"
+msgstr "Suunnat"
+
+msgid "Catalogue numbers instead of common names"
+msgstr "Luettelonumerot yhteisten nimien sijasta"
+
+msgid "Category"
+msgstr "Luokka"
+
+msgid "Central duration"
+msgstr "Keskipituus"
+
+msgid "Centre"
+msgstr "Keskus"
+
+msgid "Centre on object"
+msgstr "Keskitä kohteeseen"
+
+msgid "Centre point"
+msgstr "Keskipiste"
+
+msgid "Circles"
+msgstr "Ympyrät"
+
+msgid "City"
+msgstr "Kaupunki"
+
+msgid "Cleanup"
+msgstr "Siivoa"
+
+msgid "Clear recent searches"
+msgstr "Tyhjennä viimeaikaiset haut"
+
+msgid "Clear the selection - a touch screen has no right button"
+msgstr "Poista valinta - kosketusnäytöllä ei ole oikeaa painiketta"
+
+msgid "Cleared."
+msgstr "Tyhjennetty."
+
+msgid "Close"
+msgstr "Sulje"
+
+msgid "Close what is open; from the sky, leave the app running"
+msgstr "Sulje avoin ikkuna; taivaalta poistuessasi jätä sovellus käyntiin"
+
+msgid "Coarse"
+msgstr "Karkea"
+
+msgid "Color"
+msgstr "Väri"
+
+msgid "Color channel"
+msgstr "Värikaista"
+
+msgid "Color of orbits"
+msgstr "Kiertoratojen väri"
+
+msgid "Colors of orbit lines"
+msgstr "Kiertorata-akseleiden värit"
+
+msgid "Comets up to mag."
+msgstr "Komeetat magnitudiin asti"
+
+msgid "Compass"
+msgstr "Kompassi"
+
+msgid "Connecting line"
+msgstr "Yhdysviiva"
+
+msgid "Contrast"
+msgstr "Kontrasti"
+
+msgid "Coordinate system"
+msgstr "Koordinaattijärjestelmä"
+
+msgid "Coordinates"
+msgstr "Koordinaatit"
+
+msgid "Copyright"
+msgstr "Tekijänoikeus"
+
+msgid "Credits"
+msgstr "Kiitokset"
+
+msgid "Custom"
+msgstr "Mukautettu"
+
+msgid "Custom altitude of the Moon, °"
+msgstr "Kuun mukautettu korkeus, °"
+
+msgid "Custom altitude of the Sun, °"
+msgstr "Auringon mukautettu korkeus, °"
+
+msgid "Custom values"
+msgstr "Mukautetut arvot"
+
+msgid "Cut the scale off below the limit"
+msgstr "Katkaise mittakaava rajan alapuolella"
+
+msgid "DATE AND TIME (UTC)"
+msgstr "PÄIVÄYS JA AIKA (UTC)"
+
+msgid "Date and time"
+msgstr "Päiväys ja aika"
+
+msgid "Date/time"
+msgstr "Päiväys/aika"
+
+msgid "Dates"
+msgstr "Päivämäärät"
+
+msgid "December solstice"
+msgstr "Joulukuun seisauspiste"
+
+msgid "Decimal degrees. −33.87 means 33.87° south. Elevation is metres above sea level; it moves the horizon down by a few arcminutes."
+msgstr "Desimaaliasteet. −33.87 tarkoittaa 33,87° etelää. Korkeus on metrejä merenpinnan yläpuolella; se siirtää horisonttia muutaman kaariminuutin verran alaspäin."
+
+msgid "Degrees per year the longitude moves by"
+msgstr "Asteet vuodessa, joilla pituusaste siirtyy"
+
+msgid "Degrees, hours and minutes as they are written - 12h30m49s, +41°16'09\", 187.7 - or plain decimal degrees."
+msgstr "Asteet, tunnit ja minuutit kirjoitustavallaan - 12h30m49s, +41°16'09\", 187,7 - tai pelkät desimaaliasteet."
+
+msgid "Deletes all recent search object data, and the objects SIMBAD contributed."
+msgstr "Poistaa kaikki viimeaikaiset hakukohteiden tiedot ja SIMBAD-osallistumisen."
+
+msgid "Designations for double stars"
+msgstr "Kaksoistähtien nimitykset"
+
+msgid "Designations for variable stars"
+msgstr "Muuttuvien tähtien nimitykset"
+
+msgid "Dim a survey near the horizon, as the air does"
+msgstr "Himmeä kartoitus lähellä horisonttia, kuten ilma tekee"
+
+msgid "Done"
+msgstr "Valmis"
+
+msgid "Drag"
+msgstr "Vedä"
+
+msgid "Draw deep-sky objects at all"
+msgstr "Piirrä syvän taivaankohteet ylipäänsä"
+
+msgid "Draw the enabled sky surveys"
+msgstr "Piirrä käytössä olevat taivaankartoitukset"
+
+msgid "Draw the planets, moons and minor bodies"
+msgstr "Piirrä planeetat, kuut ja pienet kohteet"
+
+msgid "Drawn larger than life, so a body that is a few arcseconds wide is visible at all. The position stays true."
+msgstr "Piirretään luonnollista suurempana, jotta muutaman kaarisekunnin leveä kappale on näkyvissä. Sijainti pysyy oikeana."
+
+msgid "Duration (years)"
+msgstr "Kesto (vuotta)"
+
+msgid "Duration, months"
+msgstr "Kesto, kuukautta"
+
+msgid "Dynamic (FOV-based) Moon size"
+msgstr "Dynaaminen (näkökenttään perustuva) Kuun koko"
+
+msgid "ELEV. M"
+msgstr "KORK. M"
+
+msgid "Ecl. grid"
+msgstr "Ekl. ruutu"
+
+msgid "Eclipses are computed for observers on Earth."
+msgstr "Pimennykset lasketaan Maassa oleville havainnoitsijoille."
+
+msgid "Elevation in metres"
+msgstr "Korkeus metreinä"
+
+msgid "Elongations and quadratures"
+msgstr "Venymät ja kvadratuurit"
+
+msgid "Enabled only"
+msgstr "Vain käytössä"
+
+msgid "Enter Culture..."
+msgstr "Syötä tähditarua..."
+
+msgid "Equ. grid"
+msgstr "Ekv. ruutu"
+
+msgid "Equ. mount"
+msgstr "Ekv.laakeri"
+
+msgid "Equatorial radii ratio"
+msgstr "Ekvatoriaalisen säteen suhde"
+
+msgid "Evening"
+msgstr "Ilta"
+
+msgid "Every"
+msgstr "Jokainen"
+
+msgid "Every name the object is catalogued under"
+msgstr "Jokainen nimi, jonka alle kohde on luetteloitu"
+
+msgid "Exterior egress"
+msgstr "Ulkoinen poistuminen"
+
+msgid "Exterior ingress"
+msgstr "Ulkoinen tulo"
+
+msgid "Fades the ground as you look below the horizon or zoom in"
+msgstr "Häivyttää maan, kun katsot horisontin alle tai lähennät"
+
+msgid "Fading duration"
+msgstr "Häviämisen kesto"
+
+msgid "Faintest shown"
+msgstr "Heikoin näytetty"
+
+msgid "Favorites"
+msgstr "Suosikit"
+
+msgid "Fetching the survey lists…"
+msgstr "Noudetaan kartoitusluetteloja…"
+
+msgid "Find a city"
+msgstr "Etsi kaupunkia"
+
+msgid "Fine"
+msgstr "Hienoinen"
+
+msgid "First %d of %d - filter to narrow it."
+msgstr "Ensimmäinen %d / %d - suodata kaventaaksesi."
+
+msgid "First body"
+msgstr "Ensimmäinen kappale"
+
+msgid "First graph"
+msgstr "Ensimmäinen kuvaaja"
+
+msgid "Fixed instant"
+msgstr "Kiinteä hetki"
+
+msgid "Flip horiz."
+msgstr "Peilaa vaa."
+
+msgid "Flip vert."
+msgstr "Peilaa pys."
+
+msgid "Frame rate"
+msgstr "Kuvataajuus"
+
+msgid "From"
+msgstr "Alkaen"
+
+msgid "Full screen"
+msgstr "Koko näyttö"
+
+msgid "Further reading"
+msgstr "Lisätietoja"
+
+msgid "GRS details…"
+msgstr "GRS-yksityiskohdat…"
+
+msgid "Gal. grid"
+msgstr "Gal. ruutu"
+
+msgid "Gamma, saturation, brightness, contrast, opacity, colour channel and inverted colours belong to one survey. Open a survey to set them."
+msgstr "Gamma, kylläisyys, kirkkaus, kontrasti, peittävyys, värikaista ja käänteiset värit kuuluvat yhteen kartoitukseen. Avaa kartoitus niiden asettamiseksi."
+
+msgid "Gestures"
+msgstr "Eleet"
+
+msgid "Go there"
+msgstr "Mene sinne"
+
+msgid "Go to this eclipse"
+msgstr "Mene tähän pimennyseen"
+
+msgid "Go to this moment"
+msgstr "Mene tähän hetkeen"
+
+msgid "Go to this transit"
+msgstr "Mene tähän kulminointiin"
+
+msgid "Great Red Spot"
+msgstr "Suuri punainen pilkku"
+
+msgid "Great Red Spot details"
+msgstr "Suuren punaisen pilkun yksityiskohdat"
+
+msgid "Greatest elongation for an inner planet, quadrature for an outer one"
+msgstr "Suurin venymä sisäplaneetalle, kvadratuurit ulkoplaneetalle"
+
+msgid "Greek letters"
+msgstr "Kreikkalaiset kirjaimet"
+
+msgid "Grid density"
+msgstr "Asteikon tiheys"
+
+msgid "Grids"
+msgstr "Asteikat"
+
+msgid "Ground"
+msgstr "Maanpinta"
+
+msgid "Gyro"
+msgstr "Gyroskooppi"
+
+msgid "Gyro mode"
+msgstr "Gyro-tila"
+
+msgid "Height"
+msgstr "Korkeus"
+
+msgid "Heliocentric ecliptic positions of the major planets."
+msgstr "Suurten planeettojen heliosentriset ekliptikaalisen sijainnit."
+
+msgid "HiPS"
+msgstr "HiPS"
+
+msgid "Hide controls"
+msgstr "Piilota ohjaimet"
+
+msgid "Hide deep-sky objects fainter than the limit"
+msgstr "Piilota syvän taivaankohteet heikompia kuin raja"
+
+msgid "Hide orbits of minor bodies"
+msgstr "Piilota pienkappaleiden kiertoradat"
+
+msgid "Highlight"
+msgstr "Korosta"
+
+msgid "Highlight the objects of the observing list"
+msgstr "Korostaa havaintoluettelon kohteita"
+
+msgid "Hint circles marking each planet"
+msgstr "Vihje-ympyrät merkitsevät jokaista planeettaa"
+
+msgid "Hints brightness"
+msgstr "Osoittimien kirkkaus"
+
+msgid "Hipparcos designations"
+msgstr "Hipparcos-nimitykset"
+
+msgid "How many"
+msgstr "Kuinka monta"
+
+msgid "ICRS grid"
+msgstr "ICRS ruutu"
+
+msgid "Include"
+msgstr "Sisällytä"
+
+msgid "Include bright comets"
+msgstr "Sisällytä kirkkaat komeetat"
+
+msgid "Intercardinal points"
+msgstr "Väliilmansuunnat"
+
+msgid "Interior egress"
+msgstr "Sisäinen poistuminen"
+
+msgid "Interior ingress"
+msgstr "Sisäinen tulo"
+
+msgid "Its elevation, and the civil, nautical and astronomical twilights"
+msgstr "Sen korkeus ja siviili-, merenkulku- ja tähtitieteen hämärä"
+
+msgid "Jovigraphic longitude of the spot in System II, in degrees"
+msgstr "Pilkun jovigraafinen pituusaste System II:ssa asteina"
+
+msgid "June solstice"
+msgstr "Kesäkuun seisauspiste"
+
+msgid "Label"
+msgstr "Merkki"
+
+msgid "Label colour"
+msgstr "Merkin väri"
+
+msgid "Labels and Markers amount"
+msgstr "Nimien ja osoittimien määrä"
+
+msgid "Labels brightness"
+msgstr "Nimien kirkkaus"
+
+msgid "Largest, ′"
+msgstr "Suurin, ′"
+
+msgid "Last known position"
+msgstr "Viimeksi tunnettu sijainti"
+
+msgid "Lasting"
+msgstr "Kestävä"
+
+msgid "Latitude −90…90, longitude −180…180."
+msgstr "Leveys −90…90, pituusaste −180…180."
+
+msgid "Layer appearance"
+msgstr "Kerroksen ulkonäkö"
+
+msgid "Leaves the landscape visible in darkness"
+msgstr "Jättää maiseman näkyväksi pimeydessä"
+
+msgid "Licence"
+msgstr "Lisenssi"
+
+msgid "Light pollution"
+msgstr "Valon saastuminen"
+
+msgid "Light pollution from database"
+msgstr "Valon saastuminen tietokannasta"
+
+msgid "Limit angular separation"
+msgstr "Rajoita kulmaerotusta"
+
+msgid "Limit angular size"
+msgstr "Rajoita kulmaläpimittaa"
+
+msgid "Limit magnitude"
+msgstr "Rajoita magnitudia"
+
+msgid "Linear distance"
+msgstr "Lineaarinen etäisyys"
+
+msgid "Lines"
+msgstr "Viivat"
+
+msgid "Lines and circles"
+msgstr "Viivat ja ympyrät"
+
+msgid "List"
+msgstr "Luettelo"
+
+msgid "List name"
+msgstr "Luettelon nimi"
+
+msgid "Lit windows, street lighting and the like"
+msgstr "Valaistut ikkunat, katuvalot ja vastaavat"
+
+msgid "Loading…"
+msgstr "Ladataan…"
+
+msgid "Local solar eclipses"
+msgstr "Paikalliset auringonpimennykset"
+
+msgid "Local time"
+msgstr "Paikallinen aika"
+
+msgid "Local time, h"
+msgstr "Paikallinen aika, h"
+
+msgid "Locate me"
+msgstr "Paikanna minut"
+
+msgid "Locating…"
+msgstr "Paikantaminen…"
+
+msgid "Location is switched off in the system settings."
+msgstr "Sijainti on poistettu käytöstä järjestelmäasetuksissa."
+
+msgid "Location permission refused. The other two ways still work."
+msgstr "Sijaintilupa hylätty. Kaksi muuta tapaa toimivat silti."
+
+msgid "Long press"
+msgstr "Pitkä painallus"
+
+msgid "Longitude of GRS"
+msgstr "GRS:n pituusaste"
+
+msgid "Lunar eclipses"
+msgstr "Kuunpimennykset"
+
+msgid "Magnitudes"
+msgstr "Magnitudit"
+
+msgid "Major planets by planet, minor bodies by type"
+msgstr "Suuret planeetat planeetan mukaan, pienet kappaleet tyypin mukaan"
+
+msgid "Map of the planet. Tap to set the observer's place."
+msgstr "Planeetan kartta. Napauta asettaaksesi havainnoijan paikan."
+
+msgid "March equinox"
+msgstr "Maaliskuun tasauspiste"
+
+msgid "Markers"
+msgstr "Osoittimet"
+
+msgid "Markers sized by the object's angular size"
+msgstr "Osoittimet mitoitettu objektin kulmaläpimitan mukaan"
+
+msgid "Master switch for the grids, lines and points below"
+msgstr "Asteikoiden, viivojen ja pisteiden pääkytkin alla"
+
+msgid "Max items to display"
+msgstr "Enimmäismäärä näytettäviä kohteita"
+
+msgid "Max. results"
+msgstr "Enimmäistulokset"
+
+msgid "Maximum allowed separation"
+msgstr "Enimmäissallittu eroavaisuus"
+
+msgid "Maximum angular size"
+msgstr "Enimmäiskulmaläpimitta"
+
+msgid "Maximum year"
+msgstr "Enimmäisvuosi"
+
+msgid "Mean motion"
+msgstr "Keskimääräinen liike"
+
+msgid "Mercury, Venus, Mars, Jupiter and Saturn at once. Earth only."
+msgstr "Merkurius, Venus, Mars, Jupiter ja Saturnus kerralla. Vain Maa."
+
+msgid "Milky Way brightness"
+msgstr "Linnunradan kirkkaus"
+
+msgid "Milky Way saturation"
+msgstr "Linnunradan kylläisyys"
+
+msgid "Minimal angular size"
+msgstr "Vähimmäiskulmaläpimitta"
+
+msgid "Minimal brightness"
+msgstr "Vähimmäiskirkkaus"
+
+msgid "Minimum year"
+msgstr "Vähimmäisvuosi"
+
+msgid "Minutes before sunrise / after sunset"
+msgstr "Minuuttia ennen auringonnousua / auringonlaskun jälkeen"
+
+msgid "Moon at"
+msgstr "Kuu kohdalla"
+
+msgid "Moon in zenith at"
+msgstr "Kuu zeniitissä klo"
+
+msgid "Morning"
+msgstr "Aamu"
+
+msgid "Move the sky by pointing the phone at it"
+msgstr "Siirrä taivasta osoittamalla puhelinta siihen"
+
+msgid "Move the sky with the phone"
+msgstr "Siirrä taivasta puhelimen kanssa"
+
+msgid "Name for the new list"
+msgstr "Nimi uudelle luettelolle"
+
+msgid "Named features the landscape marks"
+msgstr "Nimetyt ominaisuudet, jotka maisema merkitsee"
+
+msgid "Names"
+msgstr "Nimet"
+
+msgid "Names beside the planets and their markers"
+msgstr "Nimet planeettojen ja niiden osoittimien vieressä"
+
+msgid "Names in English"
+msgstr "Nimet englanniksi"
+
+msgid "Neb. bg"
+msgstr "Neb. tausta"
+
+msgid "Nebulae"
+msgstr "Sumut"
+
+msgid "Next"
+msgstr "Seuraava"
+
+msgid "Night"
+msgstr "Yö"
+
+msgid "No city matches that."
+msgstr "Yksikään kaupunki ei täsmää siihen."
+
+msgid "No eclipses found. Pick a range and calculate."
+msgstr "Pimennyksiä ei löydy. Valitse väli ja laske."
+
+msgid "No fresh fix - the receiver may have no sky. Try again outdoors, or set the place another way."
+msgstr "Ei uutta korjausta - vastaanottimella ei ehkä ole näkyä taivaalle. Yritä uudelleen ulkona tai aseta paikka muulla tavalla."
+
+msgid "No surveys were found. The lists are downloaded, so this needs a connection."
+msgstr "Kartoituksia ei löydy. Luettelot ladataan, joten tämä vaatii yhteyden."
+
+msgid "None downloaded yet"
+msgstr "Mitään ei ole vielä ladattu"
+
+msgid "Note: this tool doesn't apply the refraction correction for coordinates. Horizontal coordinates stop the clock, or the sky would turn away from the point while you arrive at it."
+msgstr "Huomio: tämä työkalu ei käytä taittumiskorjausta koordinaateille. Horisontaaliset koordinaatit pysäyttävät kellon, muuten taivas kääntäisi pois pisteestä saapuessasi sinne."
+
+msgid "Nothing computed yet, or nothing in this category is up."
+msgstr "Mitään ei ole vielä laskettu, tai mikään tämän kategorian kohde ei näy."
+
+msgid "Nothing computed yet."
+msgstr "Ei vielä laskettu mitään."
+
+msgid "Nothing found for “%s”."
+msgstr "Ei löytynyt kohteelle \"%s\"."
+
+msgid "Nothing in this list matches."
+msgstr "Luettelosta ei löydy vastaavaa."
+
+msgid "Nothing in this list yet. Pick something out of the sky and tap the star on its card to keep it here."
+msgstr "Luettelossa ei ole vielä mitään. Valitse taivaan kohde ja napauta tähteä sen kortissa säilyttääksesi sen."
+
+msgid "Nothing is selected. Pick an object in the sky first."
+msgstr "Mitään ei ole valittu. Valitse ensin kohde taivaasta."
+
+msgid "Nothing matches."
+msgstr "Mitään ei täsmää."
+
+msgid "Nothing selected"
+msgstr "Mitään ei valittu"
+
+msgid "Nothing to plot."
+msgstr "Ei mitään piirrettävää."
+
+msgid "Nothing to show."
+msgstr "Ei mitään näytettävää."
+
+msgid "N× above"
+msgstr "N× yläpuolella"
+
+msgid "OBJECT"
+msgstr "KOHDE"
+
+msgid "OBJECTS"
+msgstr "KOHTEET"
+
+msgid "Objects which are up"
+msgstr "Näkyvillä olevat kohteet"
+
+msgid "Observable duration"
+msgstr "Havainnoitavissa oleva kesto"
+
+msgid "Observing list highlight"
+msgstr "Havaintoluettelon korostus"
+
+msgid "On the sky"
+msgstr "Taivaalla"
+
+msgid "One color"
+msgstr "Yksi väri"
+
+msgid "Only for N latest selected objects"
+msgstr "Vain N viimeksi valituille kohteille"
+
+msgid "Only list"
+msgstr "Vain luettelo"
+
+msgid "Only orbit for selected object…"
+msgstr "Vain valitun kohteen kiertorata…"
+
+msgid "Only orbits of major planets…"
+msgstr "Vain suurten planeettojen kiertoradat…"
+
+msgid "Open date and time"
+msgstr "Avaa päivämäärä ja aika"
+
+msgid "Open location"
+msgstr "Avaa sijainti"
+
+msgid "Opens the JUPOS project in a browser"
+msgstr "Avaa JUPOS-projektin selaimessa"
+
+msgid "Opposition of"
+msgstr "Vastakkaisuus-asento"
+
+msgid "Oppositions"
+msgstr "Vastakkaisuus-asemat"
+
+msgid "Orbit colors"
+msgstr "Kiertoratojen värit"
+
+msgid "Orbital periods ratio"
+msgstr "Kiertoaikojen suhde"
+
+msgid "Orbits"
+msgstr "Kiertoradat"
+
+msgid "Orbits of interstellar objects"
+msgstr "Tähdenvälisten kohteiden kiertoradat"
+
+msgid "Orbits of moons"
+msgstr "Kuiden kiertoradat"
+
+msgid "Otherwise every move adopts the zone of the new place."
+msgstr "Muussa tapauksessa jokainen liike omaksuu uuden paikan alueen."
+
+msgid "Pan the sky"
+msgstr "Panoroi taivasta"
+
+msgid "Partial eclipse begins"
+msgstr "Osittainen pimennys alkaa"
+
+msgid "Partial eclipse ends"
+msgstr "Osittainen pimennys päättyy"
+
+msgid "Partitions"
+msgstr "Jako-osat"
+
+msgid "Partitions thickness"
+msgstr "Jako-osien paksuus"
+
+msgid "Path width"
+msgstr "Polun leveys"
+
+msgid "Pause"
+msgstr "Pysäytä"
+
+msgid "Paused - start"
+msgstr "Pysäytetty - aloita"
+
+msgid "Penumbral magnitude"
+msgstr "Puolivarjon magnitudi"
+
+msgid "Perihelion and aphelion"
+msgstr "Periheli ja afelio"
+
+msgid "Pick two different bodies to see how their distance changes."
+msgstr "Valitse kaksi eri taivaankappaletta nähdäksesi niiden etäisyyden muutoksen."
+
+msgid "Pinch"
+msgstr "Nipistä"
+
+msgid "Planet and time zone"
+msgstr "Planeetta ja aikavyöhyke"
+
+msgid "Planetary nomenclature"
+msgstr "Planeettojen nimistö"
+
+msgid "Planetary transits"
+msgstr "Planeettojen ylikulut"
+
+msgid "Planets"
+msgstr "Planeetat"
+
+msgid "Pluto, Ceres, Pallas, Juno and Vesta"
+msgstr "Pluto, Ceres, Pallas, Juno ja Vesta"
+
+msgid "Point size"
+msgstr "Pisteen koko"
+
+msgid "Pointing"
+msgstr "Osoitus"
+
+msgid "Poles and points"
+msgstr "Navat ja pisteet"
+
+msgid "Polygon colour"
+msgstr "Monikulmion väri"
+
+msgid "Positive values only"
+msgstr "Vain positiiviset arvot"
+
+msgid "Previous"
+msgstr "Edellinen"
+
+msgid "Pronounce"
+msgstr "Äännä"
+
+msgid "Query options"
+msgstr "Haun asetukset"
+
+msgid "Quit"
+msgstr "Lopeta"
+
+msgid "Reading…"
+msgstr "Luetaan…"
+
+msgid "Real time speed"
+msgstr "Todellinen aika"
+
+msgid "Refraction, extinction, sky brightness"
+msgstr "Taittuminen, häviö, taivaan kirkkaus"
+
+msgid "Relative scale"
+msgstr "Suhteellinen mittakaava"
+
+msgid "Remove %s"
+msgstr "Poista %s"
+
+msgid "Remove from observing list"
+msgstr "Poista havaintoluettelosta"
+
+msgid "Rename"
+msgstr "Nimeä uudelleen"
+
+msgid "Reset all"
+msgstr "Palauta kaikki"
+
+msgid "Restarting…"
+msgstr "Käynnistetään uudelleen…"
+
+msgid "Rises"
+msgstr "Nousee"
+
+msgid "Rotation"
+msgstr "Kiertoliike"
+
+msgid "Running"
+msgstr "Suoritetaan"
+
+msgid "SIMBAD did not answer."
+msgstr "SIMBAD ei vastannut."
+
+msgid "SIMBAD is switched off in the search options."
+msgstr "SIMBAD on pois käytöstä hakuasetuksissa."
+
+msgid "SIMBAD is switched off. Turn it on under Options to look objects up online."
+msgstr "SIMBAD on pois päältä. Ota se käyttöön asetuksissa etsiäksesi objekteja verkon kautta."
+
+msgid "SIMBAD server"
+msgstr "SIMBAD-palvelin"
+
+msgid "Saturation"
+msgstr "Kylläisyys"
+
+msgid "Save either the current FOV and direction of view or all the current options for use at next startup. Restoring default settings requires a restart of the app."
+msgstr "Tallenna joko nykyinen näkökenttä ja katselusuunta tai kaikki nykyiset asetukset käytettäväksi seuraavalla käynnistyksellä. Oletuasetuksiin palaaminen vaatii sovelluksen uudelleenkäynnistyksen."
+
+msgid "Save to observing list"
+msgstr "Tallenna havaintoluetteloon"
+
+msgid "Scale"
+msgstr "Mittakaava"
+
+msgid "Scale marker and label visibility by surface brightness"
+msgstr "Skaalaa osoittimen ja nimelipun näkyvyys pintakirkkauden perusteella"
+
+msgid "Scales smoothly between 1× at the minimum field of view and the factor above at the maximum"
+msgstr "Skaalautuu tasaisesti 1×:stä pienimmällä näkökentällä yllä olevaan tekijään suurimmalla"
+
+msgid "Search in list"
+msgstr "Hae luettelosta"
+
+msgid "Second body"
+msgstr "Toinen taivaankappale"
+
+msgid "Second graph"
+msgstr "Toinen kuvaaja"
+
+msgid "Second object"
+msgstr "Toinen kohde"
+
+msgid "Secondary intercardinal points"
+msgstr "Toissijaiset väliilmansuunnat"
+
+msgid "See the sky through the ground"
+msgstr "Näe taivas maan läpi"
+
+msgid "Select an object first: this asks SIMBAD what it holds around it."
+msgstr "Valitse ensin kohde: tämä kysyy SIMBAD:ilta, mitä se on sen ympärillä."
+
+msgid "Select it and show its card"
+msgstr "Valitse se ja näytä sen kortti"
+
+msgid "Select something in the sky first — this page works on the selection."
+msgstr "Valitse ensin jotain taivaasta — tämä sivu toimii valinnan perusteella."
+
+msgid "Selected object"
+msgstr "Valittu kohde"
+
+msgid "Separate colors for orbits of major planets"
+msgstr "Erilliset värit suurten planeettojen kiertoradoille"
+
+msgid "September equinox"
+msgstr "Syyskuun tasauspiste"
+
+msgid "Server"
+msgstr "Palvelin"
+
+msgid "Set the clock to %s"
+msgstr "Aseta kello %s"
+
+msgid "Set the place"
+msgstr "Aseta paikka"
+
+msgid "Set to now"
+msgstr "Aseta nykyhetkeen"
+
+msgid "Sets"
+msgstr "Laskee"
+
+msgid "Shadow map for non-convex bodies. May coarsen the penumbra on some objects"
+msgstr "Varjokartta ei-kuperille kappaleille. Saattaa karkeistaa puolivarjoa joillakin kohteilla"
+
+msgid "Shooting stars"
+msgstr "Tähtien putoaminen"
+
+msgid "Short steps over a long duration are slow."
+msgstr "Lyhyet askelet pitkän keston aikana ovat hitaita."
+
+msgid "Show"
+msgstr "Näytä"
+
+msgid "Show all information"
+msgstr "Näytä kaikki tiedot"
+
+msgid "Show atmospheric extinction"
+msgstr "Näytä ilmakehän häviö"
+
+msgid "Show controls"
+msgstr "Näytä ohjaimet"
+
+msgid "Show each body where it was when the light left it (recommended)"
+msgstr "Näytä jokainen kappale siinä, missä se oli kun valo lähti siitä (suositeltu)"
+
+msgid "Show frames per second beside the field of view"
+msgstr "Näytä kuvatahti näkökentän vieressä"
+
+msgid "Show illumination"
+msgstr "Näytä valaistus"
+
+msgid "Show in sky"
+msgstr "Näytä taivaalla"
+
+msgid "Show less"
+msgstr "Näytä vähemmän"
+
+msgid "Show more"
+msgstr "Näytä enemmän"
+
+msgid "Show objects which are up"
+msgstr "Näytä näkyvillä olevat kohteet"
+
+msgid "Show only objects between the two sizes"
+msgstr "Näytä vain kohteet kahden koon välillä"
+
+msgid "Show only the kinds ticked below"
+msgstr "Näytä vain alla valitut lajit"
+
+msgid "Show or hide the two rails of controls"
+msgstr "Näytä tai piilota kahden ohjaintason kiskot"
+
+msgid "Show surveys"
+msgstr "Näytä kartoitukset"
+
+msgid "Show this survey"
+msgstr "Näytä tämä kartoitus"
+
+msgid "Simbad Lookup Error: %s"
+msgstr "SIMBAD-haku epäonnistui: %s"
+
+msgid "Simbad Lookup: querying"
+msgstr "SIMBAD-haku: kyselyä"
+
+msgid "Simulation"
+msgstr "Simulaatio"
+
+msgid "Sky and viewing options"
+msgstr "Taivas ja katseluvaihtoehdot"
+
+msgid "Sky culture"
+msgstr "Tähtitarusto"
+
+msgid "Slow down"
+msgstr "Hidasta"
+
+msgid "Smallest, ′"
+msgstr "Pienin, ′"
+
+msgid "Solar altitude for Twilight Finder"
+msgstr "Aurinkoaltitudi Twilight Finder:ille"
+
+msgid "Solar elongation"
+msgstr "Auringon elongaatio"
+
+msgid "Speed up"
+msgstr "Nopeuta"
+
+msgid "Stand where the landscape was shot, on the planet it names"
+msgstr "Seiso siellä, missä maisema kuvaatiin, planeetalla, jota se nimeää"
+
+msgid "Star, planet, catalogue number…"
+msgstr "Tähti, planeetta, luettelonumero…"
+
+msgid "Started"
+msgstr "Aloitettu"
+
+msgid "Startup FOV"
+msgstr "Käynnistyksen näkökenttä"
+
+msgid "Startup direction of view"
+msgstr "Käynnistyksen katselusuunta"
+
+msgid "Stellarium's user guide covers the astronomy this app shares with it: stellarium.org/documentation"
+msgstr "Stellarium:in käyttöopas kattaa tähtitieteelliset asiat, joita tämä sovellus hyödyntää: stellarium.org/documentation"
+
+msgid "Step, hours"
+msgstr "Askel, tuntia"
+
+msgid "Style"
+msgstr "Tyyli"
+
+msgid "Sun altitude"
+msgstr "Aurinkoaltitudi"
+
+msgid "Sun at"
+msgstr "Aurinko kohdalla"
+
+msgid "Sun's altitude"
+msgstr "Auringon korkeus"
+
+msgid "Sunlight scattered by interplanetary dust"
+msgstr "Planeettojen välisellä pölylla sironneet auringonvalot"
+
+msgid "Switch this off to see the trails for all Solar system bodies"
+msgstr "Kytke tämä pois nähdäksesi kaikkien aurinkokunnan kohteiden jäljet"
+
+msgid "System date at"
+msgstr "Järjestelmän päivämäärä"
+
+msgid "Tap a colour to change it. Changes show on the sky at once and are kept."
+msgstr "Napauta väriä muuttaaksesi sitä. Muutokset näkyvät taivaalla välittömästi ja ne säilytetään."
+
+msgid "Tap again to confirm"
+msgstr "Napauta uudelleen vahvistaaksesi"
+
+msgid "Tap an object"
+msgstr "Napauta objektia"
+
+msgid "Tap the chart to read a value."
+msgstr "Napauta kaaviota lukeaksesi arvon."
+
+msgid "Tap the clock"
+msgstr "Napauta kelloa"
+
+msgid "Tap the gear"
+msgstr "Napauta hammaspyörää"
+
+msgid "Tap the map to stand there."
+msgstr "Napauta karttaa seisomaan siellä."
+
+msgid "Tap the place"
+msgstr "Napauta paikkaa"
+
+msgid "Tap to confirm"
+msgstr "Napauta vahvistaaksesi"
+
+msgid "Tertiary intercardinal points"
+msgstr "Tertiäariset väliilmansuunnat"
+
+msgid "The Great Red Spot drifts in System II longitude. Enter a recent measurement and the drift rate to carry it forward from."
+msgstr "Suuri punainen pilkku ajelehtii System II pituudessa. Anna viimeaikainen mittaus ja ajelehtimisen nopeus siirtyäksesi siitä eteenpäin."
+
+msgid "The algorithm is based on visual observations 1877-1891 by G. Müller and was still republished in the Explanatory Supplement to the Astronomical Ephemeris (1961)."
+msgstr "Algoritmi perustuu G. Müllerin visuaalisiin havaintoihin 1877-1891 ja se julkaistiin uudelleen tähtitieteellisen efemeridien selityslisässä (1961)."
+
+msgid "The algorithm was published by A. Mallama & J. L. Hilton: Computing apparent planetary magnitudes for the Astronomical Almanac. Astronomy&Computing 25 (2018) 10-24."
+msgstr "Algoritmin julkaisivat A. Mallama & J. L. Hilton: Computing apparent planetary magnitudes for the Astronomical Almanac. Astronomy&Computing 25 (2018) 10-24."
+
+msgid "The algorithm was published in the 2nd edition of the Explanatory Supplement to the Astronomical Almanac (1992)."
+msgstr "Algoritmi julkaistiin tähtitieteellisen almanakan selityslisän 2. painoksessa (1992)."
+
+msgid "The algorithm was published in the 3rd edition of the Explanatory Supplement to the Astronomical Almanac (2013)."
+msgstr "Algoritmi julkaistiin tähtitieteellisen almanakan selityslisän 3. painoksessa (2013)."
+
+msgid "The algorithm was used in the Astronomical Almanac (1984 and later) and gives V (instrumental) magnitudes (allegedly from D.L. Harris)."
+msgstr "Algoritmia käytettiin Astronomical Almanacissa (1984 ja myöhemmin) ja se antaa V (instrumentaalisia) magnitudeja (oletettavasti D.L. Harriselta)."
+
+msgid "The colour each kind of object is drawn in"
+msgstr "Väri, jolla jokaista kohteen lajia piirretään"
+
+msgid "The engine did not answer with any colours."
+msgstr "Moottori ei vastannut millään väreillä."
+
+msgid "The galactic band"
+msgstr "Galaktinen vyöhyke"
+
+msgid "The horizon outline instead of the panorama"
+msgstr "Horisontin ääriviivat panoraaman sijaan"
+
+msgid "The path each body has taken across the sky"
+msgstr "Polku, jonka jokainen kappale on kulkenut taivaalla"
+
+msgid "The shortest label the culture defines"
+msgstr "Lyhyin etiketti, jonka kulttuuri määrittää"
+
+msgid "Thickness"
+msgstr "Paksuus"
+
+msgid "This copy ships no scripts."
+msgstr "Tämä kopio ei sisällä skriptejä."
+
+msgid "This device has no location service."
+msgstr "Tällä laitteella ei ole paikannuspalvelua."
+
+msgid "This part of the engine exposes no settings on this build."
+msgstr "Tämän moottorin osa ei näytä asetuksia tässä versiossa."
+
+msgid "This tool works on Earth only!"
+msgstr "Tämä työkalu toimii vain Maapallolla!"
+
+msgid "This tool works on Earth only. Short steps over a long duration are slow."
+msgstr "Tämä työkalu toimii vain Maassa. Lyhyet askelet pitkän keston aikana ovat hitaita."
+
+msgid "This year"
+msgstr "Tämä vuosi"
+
+msgid "Time of day"
+msgstr "Vuorokaudenaika"
+
+msgid "Time span"
+msgstr "Aika"
+
+msgid "Time step"
+msgstr "Aika-askel"
+
+msgid "To the next (mths)"
+msgstr "Seuraavaan (kk)"
+
+msgid "To the next, months"
+msgstr "Seuraavaan, kuukausina"
+
+msgid "Trails"
+msgstr "Jäljet"
+
+msgid "Translated"
+msgstr "Käännetty"
+
+msgid "Transparency"
+msgstr "Läpinäkyvyys"
+
+msgid "Twilight and rise and set times are worked out for an observer on Earth. Move back to Earth to see them."
+msgstr "Hämärä ja nousun ja laskun ajat lasketaan maanpäällisen havaitsijan kannalta. Siirry takaisin Maahan nähdäksesi ne."
+
+msgid "Twinkle"
+msgstr "Värinä"
+
+msgid "Twinkle amount"
+msgstr "Värinän määrä"
+
+msgid "Twinkle even without atmosphere"
+msgstr "Värinä myös ilman ilmakehää"
+
+msgid "Twinkle is caused by atmospheric turbulence; this shows it regardless"
+msgstr "Värinä aiheutuu ilmakehän turbulensseista; tämä näyttää sen joka tapauksessa"
+
+msgid "Type a name, a Bayer letter or a catalogue number - Vega, α Lyr, M 31, NGC 224."
+msgstr "Kirjoita nimi, Bayerin kirjain tai luettelonumero - Vega, α Lyr, M 31, NGC 224."
+
+msgid "Umbral magnitude"
+msgstr "Täysvarjon magnitudi"
+
+msgid "Up to mag."
+msgstr "Mag. asti"
+
+msgid "Use my location"
+msgstr "Käytä omaa sijainniotani"
+
+msgid "Use the date now shown in the sky"
+msgstr "Käytä taivaalla nyt näkyvää päivämäärää"
+
+msgid "Use the value in landscape.ini when it has one"
+msgstr "Käytä landscape.ini:ssä olevaa arvoa, kun sellainen on"
+
+msgid "Use the value stored for this location"
+msgstr "Käytä tälle sijainnille tallennettua arvoa"
+
+msgid "Version %s  ·  Qt %s"
+msgstr "Versio %s  ·  Qt %s"
+
+msgid "Visibility"
+msgstr "Näkyvyys"
+
+msgid "When a search result is chosen"
+msgstr "Kun haun tulos valitaan"
+
+msgid "Where Jupiter's Great Red Spot was, and when"
+msgstr "Missä Jupiterin suuri punainen pilkku oli ja milloin"
+
+msgid "Width"
+msgstr "Leveys"
+
+msgid "Working out the contact times…"
+msgstr "Lasketaan kosketusaikoja…"
+
+msgid "Zodiac and lunar stations"
+msgstr "Eläinrata ja kuuasemat"
+
+msgid "Zodiacal Light brightness"
+msgstr "Eläinratavalon kirkkaus"
+
+msgid "Zoom in and out"
+msgstr "Lähennä ja loitonna"
+
+msgid "after sunset"
+msgstr "auringonlaskun jälkeen"
+
+msgid "before sunrise"
+msgstr "ennen auringonnousua"
+
+msgid "bright suburban"
+msgstr "kirkas lähiö"
+
+msgid "east +"
+msgstr "itä +"
+
+msgid "engine ready, interface going live"
+msgstr "moottori valmis, käyttöliittymä käynnistymässä"
+
+msgid "excellent dark sky"
+msgstr "erinomaisesti pimeä taivas"
+
+msgid "inner city"
+msgstr "sisäkaupunki"
+
+msgid "north +"
+msgstr "pohjoinen +"
+
+msgid "rural/suburban"
+msgstr "maaseutu/esikaupunki"
+
+msgid "suburban/urban"
+msgstr "esikaupunki/kaupunki"
+
+msgid "truly dark"
+msgstr "todella pimeä"
+
+msgid "unreadable snapshot"
+msgstr "lukukelvoton tilannekuva"
+
+msgid "… and moons"
+msgstr "… ja kuut"

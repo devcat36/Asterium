@@ -1,0 +1,1561 @@
+# Asterium interface translation for bn.
+# Copyright (C) 2026 the Asterium authors
+# This file is distributed under the same licence as the Asterium package.
+#
+# MACHINE TRANSLATION, not reviewed by a speaker of this language.
+# Terminology follows upstream Stellarium's own bn catalogue, which was used
+# as a glossary, and every entry keeps the source's printf placeholders.
+# Corrections from a human translator are welcome and should simply replace these.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: asterium\n"
+"Language: bn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%d bodies"
+msgstr "%d বস্তু"
+
+msgid "%d object"
+msgstr "%d জ্যোতিষ্ক"
+
+msgid "%d objects"
+msgstr "%d জ্যোতিষ্ক"
+
+msgid "%s colour"
+msgstr "%s রঙ"
+
+msgid "%s from %s, ±%.0f m"
+msgstr "%s থেকে %s, ±%.0f মি"
+
+msgid "12-hour"
+msgstr "১২-ঘন্টা"
+
+msgid "1× below"
+msgstr "১× নিচে"
+
+msgid "24-hour"
+msgstr "২৪-ঘন্টা"
+
+msgid "A button to mark every object of the current observing list on the sky."
+msgstr "বর্তমান পর্যবেক্ষণ তালিকার প্রতিটি বস্তুকে আকাশে চিহ্নিত করার বোতাম।"
+
+msgid "A polygonal model for some small moons, asteroids and comets instead of a sphere"
+msgstr "ছোট উপগ্রহ, গ্রহাণু এবং ধূমকেতুর জন্য গোলক অপেক্ষা বহুভুজাকার মডেল"
+
+msgid "A touch-first planetarium forked from Stellarium, whose astronomy engine it uses unchanged. The interface is new; everything that draws the sky is upstream's work."
+msgstr "Stellarium থেকে বিভক্ত একটি স্পর্শ-প্রথম প্ল্যানেটেরিয়াম, যার জ্যোতির্বিজ্ঞান ইঞ্জিন অপরিবর্তিত ব্যবহৃত। ইন্টারফেসটি নতুন; আকাশ যা আঁকে তার সবকিছু আপস্ট্রীমের কাজ।"
+
+msgid "Abbreviated names"
+msgstr "সংক্ষিপ্ত নাম"
+
+msgid "About this sky culture"
+msgstr "এই আকাশমন্ডল সম্পর্কে"
+
+msgid "Above altitude, °"
+msgstr "উচ্চতার উপরে, °"
+
+msgid "Absolute scale"
+msgstr "পরিপূর্ণ স্কেল"
+
+msgid "Add %s"
+msgstr "%s যোগ করুন"
+
+msgid "Adjust brightness to bright objects"
+msgstr "উজ্জ্বল বস্তুতে উজ্জ্বল্যতা সামঞ্জস্য করুন"
+
+msgid "Algorithm of ΔT"
+msgstr "ΔT এর অ্যালগরিদম"
+
+msgid "All naked-eye planets"
+msgstr "খালি চোখে দৃশ্যমান সকল গ্রহ"
+
+msgid "All solar eclipses"
+msgstr "সকল সৌর গ্রহণ"
+
+msgid "Allow negative hour angles"
+msgstr "নেতিবাচক ঘন্টার কোণ অনুমোদন করুন"
+
+msgid "Allow results outside the recommended time range of the orbital elements"
+msgstr "কক্ষীয় উপাদানের সুপারিশকৃত সময় পরিসরের বাইরে ফলাফল অনুমোদন করুন"
+
+msgid "Almanac"
+msgstr "পঞ্জিকা"
+
+msgid "Almanac: Sun, Moon and naked-eye planets"
+msgstr "পঞ্জিকা: রবি, চাঁদ এবং খালিচোখে দৃশ্য গ্রহ"
+
+msgid "Also find"
+msgstr "এছাড়াও খুঁজুন"
+
+msgid "Also plot"
+msgstr "এছাড়াও চিত্র করুন"
+
+msgid "Also show moons of selected object or planets"
+msgstr "নির্বাচিত বস্তু বা গ্রহের উপগ্রহও দেখান"
+
+msgid "Altitude limit, °"
+msgstr "উচ্চতার সীমা, °"
+
+msgid "Amount"
+msgstr "পরিমাণ"
+
+msgid "An observer floats above its planet, so there is nowhere on it to stand. Choose another planet to come back down."
+msgstr "একজন পর্যবেক্ষক তার গ্রহের উপরে ভাসে, তাই এর উপর দাঁড়ানোর জায়গা নেই। নিচে আসতে অন্য একটি গ্রহ বেছে নিন।"
+
+msgid "And"
+msgstr "এবং"
+
+msgid "And also"
+msgstr "এবং এছাড়াও"
+
+msgid "And the next (years)"
+msgstr "এবং পরবর্তী (বছর)"
+
+msgid "Annual drift"
+msgstr "বার্ষিক সরণ"
+
+msgid "Appearance"
+msgstr "উপস্থিতি"
+
+msgid "Apply time interval limits to list"
+msgstr "তালিকায় সময় ব্যবধান সীমা প্রয়োগ করুন"
+
+msgid "Art"
+msgstr "শিল্পকর্ম"
+
+msgid "Artificial satellites and unnamed stars are excluded from calculation."
+msgstr "কৃত্রিম উপগ্রহ এবং নাম না থাকা তারা গণনা থেকে বাদ দেওয়া হয়।"
+
+msgid "Asking for permission…"
+msgstr "অনুমতির জন্য অনুরোধ করা হচ্ছে…"
+
+msgid "Asks SIMBAD what it holds around the object that is selected now, and prints the answer as it comes back."
+msgstr "SIMBAD কে জিজ্ঞাসা করে যে এখন নির্বাচিত বস্তুর চারপাশে কী আছে এবং উত্তর প্রিন্ট করে।"
+
+msgid "Ast. lines"
+msgstr "নক্ষ. রেখা"
+
+msgid "Ast. names"
+msgstr "নক্ষত্র নাম"
+
+msgid "Astronomical Almanac (default) enlarges by 2%; Danjon (1951) differs slightly"
+msgstr "জ্যোতিৰ্বৈজ্ঞানিক বর্ষপঞ্জি (ডিফল্ট) २% বৃদ্ধি করে; দ্যঁজঁ (१९५१) সামান্য ভিন্ন"
+
+msgid "Astronomical night"
+msgstr "জ্যোতিরবৈজ্ঞানিক রাত"
+
+msgid "At"
+msgstr "এ"
+
+msgid "Atmosph."
+msgstr "বায়ু."
+
+msgid "Automatic closing dialog"
+msgstr "স্বয়ংক্রিয় সংবাদ বন্ধকরণ"
+
+msgid "Automatic transparency"
+msgstr "স্বয়ংক্রিয় স্বচ্ছতা"
+
+msgid "Axis distance"
+msgstr "অক্ষের দূরত্ব"
+
+msgid "Azi. grid"
+msgstr "দিগ. ছক"
+
+msgid "Azimuth and altitude rather than right ascension and declination"
+msgstr "বিষুবাংশ এবং বিষুবলম্বের পরিবর্তে দিগংশ এবং উন্নতি কোণ"
+
+msgid "Below the horizon here."
+msgstr "এখানে দিগন্তের নিচে।"
+
+msgid "Between objects"
+msgstr "বস্তুগুলির মধ্যে"
+
+msgid "Boundless"
+msgstr "সীমাহীন"
+
+msgid "Bounds"
+msgstr "সীমানা"
+
+msgid "Brighter than"
+msgstr "এর চেয়ে উজ্জ্বল"
+
+msgid "By object type"
+msgstr "বস্তুর ধরন দ্বারা"
+
+msgid "By planet"
+msgstr "গ্রহ দ্বারা"
+
+msgid "Calculating…"
+msgstr "গণনা করা হচ্ছে…"
+
+msgid "Cardinals"
+msgstr "দিকচিহ্ন"
+
+msgid "Catalogue numbers instead of common names"
+msgstr "সাধারণ নামের পরিবর্তে ক্যাটালগ সংখ্যা"
+
+msgid "Category"
+msgstr "বিভাগ"
+
+msgid "Central duration"
+msgstr "মুখ্য সময়কাল"
+
+msgid "Centre"
+msgstr "কেন্দ্র"
+
+msgid "Centre on object"
+msgstr "বস্তুতে কেন্দ্র করুন"
+
+msgid "Centre point"
+msgstr "কেন্দ্রবিন্দু"
+
+msgid "Circles"
+msgstr "বৃত্ত"
+
+msgid "City"
+msgstr "শহর"
+
+msgid "Cleanup"
+msgstr "পরিষ্কার করুন"
+
+msgid "Clear recent searches"
+msgstr "সাম্প্রতিক অনুসন্ধান মুছে ফেলুন"
+
+msgid "Clear the selection - a touch screen has no right button"
+msgstr "নির্বাচন মুছে ফেলুন - স্পর্শ স্ক্রীনের কোনও ডান বোতাম নেই"
+
+msgid "Cleared."
+msgstr "পরিষ্কার করা হয়েছে।"
+
+msgid "Click on star to show its constellation"
+msgstr "তারার নক্ষত্রমন্ডল দেখাতে তারায় ক্লিক করুন"
+
+msgid "Close"
+msgstr "বন্ধ করুন"
+
+msgid "Close what is open; from the sky, leave the app running"
+msgstr "খোলা যা আছে তা বন্ধ করুন; আকাশ থেকে অ্যাপটি চলমান রেখে যান"
+
+msgid "Coarse"
+msgstr "মোটা"
+
+msgid "Color"
+msgstr "রঙ"
+
+msgid "Color channel"
+msgstr "রঙ চ্যানেল"
+
+msgid "Color of Lunar station lines"
+msgstr "চন্দ্র স্টেশন লাইনের রঙ"
+
+msgid "Color of orbits"
+msgstr "কক্ষপথের রঙ"
+
+msgid "Color of zodiac lines"
+msgstr "রাশি লাইনের রঙ"
+
+msgid "Colors of orbit lines"
+msgstr "কক্ষপথ লাইনের রঙ"
+
+msgid "Comets up to mag."
+msgstr "ম্যাগ পর্যন্ত ধূমকেতু।"
+
+msgid "Compass"
+msgstr "দিক নির্দেশ"
+
+msgid "Connecting line"
+msgstr "সংযোগ রেখা"
+
+msgid "Contrast"
+msgstr "বৈসাদৃশ্য"
+
+msgid "Coordinate system"
+msgstr "স্থানাঙ্ক ব্যবস্থা"
+
+msgid "Coordinates"
+msgstr "স্থানাঙ্ক"
+
+msgid "Copyright"
+msgstr "স্বত্বাধিকার"
+
+msgid "Credits"
+msgstr "শ্রেয়সূচী"
+
+msgid "Custom"
+msgstr "পছন্দসই"
+
+msgid "Custom altitude of the Moon, °"
+msgstr "চাঁদের পছন্দসই উচ্চতা, °"
+
+msgid "Custom altitude of the Sun, °"
+msgstr "সূর্যের পছন্দসই উচ্চতা, °"
+
+msgid "Custom values"
+msgstr "পছন্দসই মান"
+
+msgid "Cut the scale off below the limit"
+msgstr "সীমার নিচে স্কেল কেটে ফেলুন"
+
+msgid "DATE AND TIME (UTC)"
+msgstr "তারিখ এবং সময় (UTC)"
+
+msgid "Date and time"
+msgstr "তারিখ এবং সময়"
+
+msgid "Date/time"
+msgstr "তারিখ/সময়"
+
+msgid "Dates"
+msgstr "তারিখ"
+
+msgid "December solstice"
+msgstr "ডিসেম্বর ক্রান্তি"
+
+msgid "Decimal degrees. −33.87 means 33.87° south. Elevation is metres above sea level; it moves the horizon down by a few arcminutes."
+msgstr "দশমিক ডিগ্রি। −33.87 মানে 33.87° দক্ষিণ। উচ্চতা সমুদ্র স্তরের উপরে মিটার; এটি দিগন্তকে কয়েক আর্কমিনিট নিচে নামায়।"
+
+msgid "Degrees per year the longitude moves by"
+msgstr "প্রতি বছর দ্রাঘিমাংশ যে ডিগ্রি দ্বারা চলে"
+
+msgid "Degrees, hours and minutes as they are written - 12h30m49s, +41°16'09\", 187.7 - or plain decimal degrees."
+msgstr "ডিগ্রি, ঘন্টা এবং মিনিট যেমন লেখা আছে - 12h30m49s, +41°16'09\", 187.7 - বা সাধারণ দশমিক ডিগ্রি।"
+
+msgid "Deletes all recent search object data, and the objects SIMBAD contributed."
+msgstr "সমস্ত সাম্প্রতিক অনুসন্ধান বস্তু ডেটা মুছে ফেলে এবং SIMBAD অবদান রেখেছে এমন বস্তুগুলি।"
+
+msgid "Designations for celestial coordinate systems"
+msgstr "আকাশীয় স্থানাঙ্ক ব্যবস্থার জন্য পদবি"
+
+msgid "Designations for double stars"
+msgstr "দ্বৈত তারাদের জন্য পদবি"
+
+msgid "Designations for variable stars"
+msgstr "বিষম তারাদের জন্য পদবি"
+
+msgid "Dim a survey near the horizon, as the air does"
+msgstr "দিগন্তের কাছাকাছি একটি নিরীক্ষা অন্ধকার করুন, যেমন বাতাস করে"
+
+msgid "Done"
+msgstr "সম্পন্ন"
+
+msgid "Drag"
+msgstr "টানুন"
+
+msgid "Draw deep-sky objects at all"
+msgstr "সর্বত্র গভীর-মহাকাশ বস্তু আঁকুন"
+
+msgid "Draw the enabled sky surveys"
+msgstr "সক্ষম আকাশ নিরীক্ষা আঁকুন"
+
+msgid "Draw the planets, moons and minor bodies"
+msgstr "গ্রহ, চাঁদ এবং গৌণ বস্তু আঁকুন"
+
+msgid "Drawn larger than life, so a body that is a few arcseconds wide is visible at all. The position stays true."
+msgstr "জীবনের চেয়ে বড় আঁকা, তাই কয়েক আর্কসেকেন্ড প্রশস্ত একটি বস্তু সর্বত্র দৃশ্যমান। অবস্থান সত্য থাকে।"
+
+msgid "Duration (years)"
+msgstr "সময়কাল (বছর)"
+
+msgid "Duration, months"
+msgstr "সময়কাল, মাস"
+
+msgid "Dusk"
+msgstr "সন্ধ্যা"
+
+msgid "Dynamic (FOV-based) Moon size"
+msgstr "গতিশীল (দৃষ্টিক্ষেত্র-ভিত্তিক) চাঁদের আকার"
+
+msgid "ELEV. M"
+msgstr "উচ্চ. মি"
+
+msgid "Ecl. grid"
+msgstr "সূর. ছক"
+
+msgid "Eclipses are computed for observers on Earth."
+msgstr "গ্রহণ পৃথিবীর পর্যবেক্ষকদের জন্য গণনা করা হয়।"
+
+msgid "Elevation in metres"
+msgstr "মিটারে উচ্চতা"
+
+msgid "Elongations and quadratures"
+msgstr "চ্যুতি এবং পাদ বিভাজন"
+
+msgid "Enabled only"
+msgstr "শুধুমাত্র সক্ষম"
+
+msgid "Enter Culture..."
+msgstr "সংস্কৃতি লিখুন..."
+
+msgid "Equ. grid"
+msgstr "বিষ. ছক"
+
+msgid "Equ. mount"
+msgstr "বিষ. মাউন্ট"
+
+msgid "Equatorial radii ratio"
+msgstr "বিষুবীয় ব্যাসার্ধ অনুপাত"
+
+msgid "Evening"
+msgstr "সন্ধ্যা"
+
+msgid "Every"
+msgstr "প্রতিটি"
+
+msgid "Every name the object is catalogued under"
+msgstr "বস্তু যে নামের অধীন ক্যাটালগ করা হয়েছে সেই প্রতিটি নাম"
+
+msgid "Exterior egress"
+msgstr "বাহ্যিক প্রস্থান"
+
+msgid "Exterior ingress"
+msgstr "বাহ্যিক প্রবেশ"
+
+msgid "Fades the ground as you look below the horizon or zoom in"
+msgstr "দিগন্তের নিচে তাকালে বা জুম করলে ভূমি ম্লান হয়"
+
+msgid "Fading duration"
+msgstr "বিলোপ সময়কাল"
+
+msgid "Faintest shown"
+msgstr "দৃশ্যমান সবচেয়ে দুর্বল"
+
+msgid "Favorites"
+msgstr "প্রিয়"
+
+msgid "Fetching the survey lists…"
+msgstr "নিরীক্ষা তালিকা আনা হচ্ছে…"
+
+msgid "Filter"
+msgstr "ছাঁকনি"
+
+msgid "Find a city"
+msgstr "একটি শহর খুঁজুন"
+
+msgid "Fine"
+msgstr "সূক্ষ্ম"
+
+msgid "First %d of %d - filter to narrow it."
+msgstr "প্রথম %d এর %d - সংকীর্ণ করতে ছাঁকুন।"
+
+msgid "First body"
+msgstr "প্রথম বস্তু"
+
+msgid "First graph"
+msgstr "প্রথম লেখ"
+
+msgid "Fix"
+msgstr "মেরামত করুন"
+
+msgid "Fixed Equator"
+msgstr "অবস্থিত বিষুবরেখা"
+
+msgid "Fixed instant"
+msgstr "অবস্থিত মুহূর্ত"
+
+msgid "Flip horiz."
+msgstr "সমতল"
+
+msgid "Flip vert."
+msgstr "উল্লম্ব"
+
+msgid "Frame rate"
+msgstr "ফ্রেম হার"
+
+msgid "From"
+msgstr "থেকে"
+
+msgid "Full screen"
+msgstr "সম্পূর্ণ পর্দা"
+
+msgid "Further reading"
+msgstr "আরও পড়ুন"
+
+msgid "GRS details…"
+msgstr "GRS বিবরণ…"
+
+msgid "Gal. grid"
+msgstr "ছায়া. ছক"
+
+msgid "Gamma, saturation, brightness, contrast, opacity, colour channel and inverted colours belong to one survey. Open a survey to set them."
+msgstr "গামা, স্যাচুরেশন, উজ্জ্বল্যতা, বৈসাদৃশ্য, স্বচ্ছতা, রঙ চ্যানেল এবং বিপরীত রঙ একটি নিরীক্ষার অন্তর্গত। সেগুলি সেট করতে একটি নিরীক্ষা খুলুন।"
+
+msgid "Gestures"
+msgstr "ইশারা"
+
+msgid "Go there"
+msgstr "সেখানে যান"
+
+msgid "Go to this eclipse"
+msgstr "এই গ্রহণে যান"
+
+msgid "Go to this moment"
+msgstr "এই মুহূর্তে যান"
+
+msgid "Go to this transit"
+msgstr "এই রূপান্তরে যান"
+
+msgid "Great Red Spot"
+msgstr "মহান লাল দাগ"
+
+msgid "Great Red Spot details"
+msgstr "মহান লাল দাগের বিবরণ"
+
+msgid "Greatest elongation for an inner planet, quadrature for an outer one"
+msgstr "অভ্যন্তরীণ গ্রহের জন্য সর্বোচ্চ চ্যুতি, বাহ্যিক গ্রহের জন্য পাদ বিভাজন"
+
+msgid "Greek letters"
+msgstr "গ্রীক অক্ষর"
+
+msgid "Grid density"
+msgstr "ছক ঘনত্ব"
+
+msgid "Grids"
+msgstr "ছক"
+
+msgid "Ground"
+msgstr "ভূমি"
+
+msgid "Gyro"
+msgstr "জাইরো"
+
+msgid "Gyro mode"
+msgstr "জাইরো মোড"
+
+msgid "Harvard-Smithsonian Center for Astrophysics (USA)"
+msgstr "হার্ভার্ড-স্মিথসোনিয়ান জ্যোতির্বিজ্ঞান কেন্দ্র (USA)"
+
+msgid "Height"
+msgstr "উচ্চতা"
+
+msgid "Heliocentric ecliptic positions of the major planets."
+msgstr "প্রধান গ্রহগুলির সূর্যকেন্দ্রিক সৌরপথ অবস্থান।"
+
+msgid "HiPS"
+msgstr "HiPS"
+
+msgid "Hide controls"
+msgstr "নিয়ন্ত্রণ লুকান"
+
+msgid "Hide deep-sky objects fainter than the limit"
+msgstr "সীমার চেয়ে দুর্বল গভীর-মহাকাশ বস্তু লুকান"
+
+msgid "Hide orbits of minor bodies"
+msgstr "গৌণ বস্তুর কক্ষপথ লুকান"
+
+msgid "Highlight"
+msgstr "হাইলাইট"
+
+msgid "Highlight the objects of the observing list"
+msgstr "পর্যবেক্ষণ তালিকার বস্তু হাইলাইট করুন"
+
+msgid "Hint circles marking each planet"
+msgstr "প্রতিটি গ্রহ চিহ্নিত করার নির্দেশক বৃত্ত"
+
+msgid "Hints brightness"
+msgstr "নির্দেশক উজ্জ্বল্যতা"
+
+msgid "Hipparcos designations"
+msgstr "Hipparcos পদবি"
+
+msgid "Hour angles usually run 0...24h. This counts -12h...12h."
+msgstr "ঘন্টার কোণ সাধারণত 0...24h চলে। এটি -12h...12h গণনা করে।"
+
+msgid "How many"
+msgstr "কতগুলি"
+
+msgid "ICRS grid"
+msgstr "ICRS"
+
+msgid "Include"
+msgstr "অন্তর্ভুক্ত করুন"
+
+msgid "Include bright comets"
+msgstr "উজ্জ্বল ধূমকেতু অন্তর্ভুক্ত করুন"
+
+msgid "Include selected minor planets"
+msgstr "নির্বাচিত গৌণ গ্রহ অন্তর্ভুক্ত করুন"
+
+msgid "Info label"
+msgstr "তথ্য লেবেল"
+
+msgid "Intercardinal points"
+msgstr "মধ্যবর্তী দিকচিহ্ন"
+
+msgid "Interior egress"
+msgstr "অভ্যন্তরীণ প্রস্থান"
+
+msgid "Interior ingress"
+msgstr "অভ্যন্তরীণ প্রবেশ"
+
+msgid "Isolated"
+msgstr "বিচ্ছিন্ন"
+
+msgid "Its elevation, and the civil, nautical and astronomical twilights"
+msgstr "এর উচ্চতা এবং নাগরিক, সামুদ্রিক এবং জ্যোতিষ্কীয় গোধূলি"
+
+msgid "Jovigraphic longitude of the spot in System II, in degrees"
+msgstr "সিস্টেম II তে স্থানের বৃহস্পতি-ভূলম্ব, ডিগ্রিতে"
+
+msgid "June solstice"
+msgstr "জুন ক্রান্তি"
+
+msgid "Label"
+msgstr "লেবেল"
+
+msgid "Label colour"
+msgstr "লেবেল রঙ"
+
+msgid "Labels and Markers amount"
+msgstr "লেবেল এবং চিহ্ন পরিমাণ"
+
+msgid "Labels brightness"
+msgstr "লেবেল উজ্জ্বল্যতা"
+
+msgid "Largest, ′"
+msgstr "বৃহত্তম, ′"
+
+msgid "Last known position"
+msgstr "শেষ জানা অবস্থান"
+
+msgid "Lasting"
+msgstr "স্থায়ী"
+
+msgid "Latitude −90…90, longitude −180…180."
+msgstr "অক্ষাংশ −90…90, দ্রাঘিমাংশ −180…180।"
+
+msgid "Layer appearance"
+msgstr "স্তর উপস্থিতি"
+
+msgid "Leaves the landscape visible in darkness"
+msgstr "অন্ধকারে ভূমিরূপ দৃশ্যমান রাখে"
+
+msgid "Licence"
+msgstr "অনুমতিপত্র"
+
+msgid "Light pollution"
+msgstr "আলোক দূষণ"
+
+msgid "Light pollution from database"
+msgstr "ডাটাবেস থেকে আলোক দূষণ"
+
+msgid "Limit angular separation"
+msgstr "কৌণিক দূরত্ব সীমিত করুন"
+
+msgid "Limit angular size"
+msgstr "কৌণিক আকার সীমা করুন"
+
+msgid "Limit magnitude"
+msgstr "উজ্জ্বল্যতা সীমা করুন"
+
+msgid "Linear distance"
+msgstr "রৈখিক দূরত্ব"
+
+msgid "Lines"
+msgstr "রেখা"
+
+msgid "Lines and circles"
+msgstr "রেখা এবং বৃত্ত"
+
+msgid "List"
+msgstr "তালিকা"
+
+msgid "List name"
+msgstr "তালিকা নাম"
+
+msgid "Lit windows, street lighting and the like"
+msgstr "আলোকিত জানালা, রাস্তার আলো এবং এর মতো"
+
+msgid "Loading…"
+msgstr "লোড হচ্ছে…"
+
+msgid "Local solar eclipses"
+msgstr "স্থানীয় সৌর গ্রহণ"
+
+msgid "Local time"
+msgstr "স্থানীয় সময়"
+
+msgid "Local time, h"
+msgstr "স্থানীয় সময়, ঘ"
+
+msgid "Locate me"
+msgstr "আমাকে খুঁজুন"
+
+msgid "Locating…"
+msgstr "অবস্থান নির্ধারণ করা হচ্ছে…"
+
+msgid "Location from landscape"
+msgstr "ভূমিরূপ থেকে অবস্থান"
+
+msgid "Location is switched off in the system settings."
+msgstr "অবস্থান সিস্টেম সেটিংসে বন্ধ করা হয়েছে।"
+
+msgid "Location permission refused. The other two ways still work."
+msgstr "অবস্থান অনুমতি অস্বীকৃত। অন্য দুটি উপায় এখনও কাজ করে।"
+
+msgid "Long press"
+msgstr "দীর্ঘ চাপ"
+
+msgid "Longitude of GRS"
+msgstr "GRS এর দ্রাঘিমাংশ"
+
+msgid "Lunar Stations"
+msgstr "চন্দ্র স্টেশন"
+
+msgid "Lunar eclipses"
+msgstr "চন্দ্র গ্রহণ"
+
+msgid "Magnitudes"
+msgstr "উজ্জ্বল্যতা"
+
+msgid "Major planets by planet, minor bodies by type"
+msgstr "গ্রহ অনুযায়ী প্রধান গ্রহ, ধরন অনুযায়ী গৌণ বস্তু"
+
+msgid "Map of the planet. Tap to set the observer's place."
+msgstr "গ্রহের মানচিত্র। পর্যবেক্ষকের স্থান সেট করতে ট্যাপ করুন।"
+
+msgid "March equinox"
+msgstr "মার্চ বিষুব"
+
+msgid "Mark impact features with ellipses"
+msgstr "প্রভাব বৈশিষ্ট্য উপবৃত্ত দিয়ে চিহ্নিত করুন"
+
+msgid "Mark minor bodies"
+msgstr "গৌণ বস্তু চিহ্নিত করুন"
+
+msgid "Markers"
+msgstr "চিহ্ন"
+
+msgid "Markers sized by the object's angular size"
+msgstr "বস্তুর কৌণিক আকার দ্বারা আকারের চিহ্ন"
+
+msgid "Master switch for the grids, lines and points below"
+msgstr "নিচের ছক, রেখা এবং পয়েন্টের জন্য মাস্টার সুইচ"
+
+msgid "Max items to display"
+msgstr "প্রদর্শনের জন্য সর্বোচ্চ আইটেম"
+
+msgid "Max. results"
+msgstr "সর্বোচ্চ। ফলাফল"
+
+msgid "Maximum allowed separation"
+msgstr "সর্বোচ্চ অনুমোদিত পৃথকতা"
+
+msgid "Maximum angular size"
+msgstr "সর্বোচ্চ কৌণিক আকার"
+
+msgid "Maximum year"
+msgstr "সর্বোচ্চ বছর"
+
+msgid "Mean motion"
+msgstr "গড় গতি"
+
+msgid "Mercury, Venus, Mars, Jupiter and Saturn at once. Earth only."
+msgstr "বুধ, শুক্র, মঙ্গল, বৃহস্পতি এবং শনি একসাথে। শুধুমাত্র পৃথিবী।"
+
+msgid "Milky Way brightness"
+msgstr "ছায়াপথ উজ্জ্বল্যতা"
+
+msgid "Milky Way saturation"
+msgstr "ছায়াপথ স্যাচুরেশন"
+
+msgid "Minimal angular size"
+msgstr "ন্যূনতম কৌণিক আকার"
+
+msgid "Minimal brightness"
+msgstr "ন্যূনতম উজ্জ্বল্যতা"
+
+msgid "Minimum year"
+msgstr "সর্বনিম্ন বছর"
+
+msgid "Minutes before sunrise / after sunset"
+msgstr "সূর্যোদয়ের আগে / সূর্যাস্তের পরে (মিনিট)"
+
+msgid "Moon at"
+msgstr "চাঁদ"
+
+msgid "Moon in zenith at"
+msgstr "চাঁদ সুবিন্দুতে"
+
+msgid "Morning"
+msgstr "সকাল"
+
+msgid "Move the sky by pointing the phone at it"
+msgstr "ফোনটিকে নির্দেশ করে আকাশ সরান"
+
+msgid "Move the sky with the phone"
+msgstr "ফোনের সাহায্যে আকাশ সরান"
+
+msgid "Name for the new list"
+msgstr "নতুন তালিকার নাম"
+
+msgid "Named features the landscape marks"
+msgstr "ভূমিরূপে চিহ্নিত নামকৃত বৈশিষ্ট্য"
+
+msgid "Names"
+msgstr "নাম"
+
+msgid "Names beside the planets and their markers"
+msgstr "গ্রহ এবং তাদের চিহ্নের পাশের নাম"
+
+msgid "Names in English"
+msgstr "ইংরেজিতে নাম"
+
+msgid "Neb. bg"
+msgstr "নীহা. পট"
+
+msgid "Nebulae"
+msgstr "নীহারিকা"
+
+msgid "Next"
+msgstr "পরবর্তী"
+
+msgid "Night"
+msgstr "রাত"
+
+msgid "No city matches that."
+msgstr "কোনো শহর খুঁজে পাওয়া যায়নি।"
+
+msgid "No eclipses found. Pick a range and calculate."
+msgstr "কোনো গ্রহণ পাওয়া যায়নি। একটি সীমা চয়ন করে গণনা করুন।"
+
+msgid "No fresh fix - the receiver may have no sky. Try again outdoors, or set the place another way."
+msgstr "GPS ঠিক হয়নি - গ্রাহক কাছে আকাশ নেই। বাইরে পুনরায় চেষ্টা করুন বা অন্য উপায়ে স্থান নির্ধারণ করুন।"
+
+msgid "No surveys were found. The lists are downloaded, so this needs a connection."
+msgstr "কোনো নিরীক্ষা পাওয়া যায়নি। তালিকা ডাউনলোড করা হয়েছে, তাই এটির সংযোগ প্রয়োজন।"
+
+msgid "None downloaded yet"
+msgstr "এখনও কোনো ডাউনলোড হয়নি"
+
+msgid "Normal"
+msgstr "সাধারণ"
+
+msgid "Note: this tool doesn't apply the refraction correction for coordinates. Horizontal coordinates stop the clock, or the sky would turn away from the point while you arrive at it."
+msgstr "নোট: এই সরঞ্জামটি স্থানাঙ্কের জন্য প্রতিসরণ সংশোধন প্রয়োগ করে না। দিগন্ত ভিত্তিক স্থানাঙ্ক ঘড়িটি থামায়, অথবা আপনি পৌঁছানোর সময় আকাশটি বিন্দু থেকে সরে যাবে।"
+
+msgid "Nothing computed yet, or nothing in this category is up."
+msgstr "এখনও কিছু গণনা করা হয়নি, অথবা এই বিভাগে কিছু নেই।"
+
+msgid "Nothing computed yet."
+msgstr "এখনও কিছু গণনা করা হয়নি।"
+
+msgid "Nothing found for “%s”."
+msgstr "\"%s\" এর জন্য কোনো ফলাফল পাওয়া যায়নি।"
+
+msgid "Nothing in this list matches."
+msgstr "এই তালিকায় কিছুই মিলে না।"
+
+msgid "Nothing in this list yet. Pick something out of the sky and tap the star on its card to keep it here."
+msgstr "এই তালিকায় এখনও কিছু নেই। আকাশ থেকে কিছু বেছে নিন এবং এটি এখানে রাখতে এর কার্ডে তারকা চিহ্নে ট্যাপ করুন।"
+
+msgid "Nothing is selected. Pick an object in the sky first."
+msgstr "কিছুই নির্বাচিত নয়। প্রথমে আকাশে একটি বস্তু বেছে নিন।"
+
+msgid "Nothing matches."
+msgstr "কিছুই মিলে না।"
+
+msgid "Nothing selected"
+msgstr "কোনো নির্বাচন নেই"
+
+msgid "Nothing to plot."
+msgstr "প্লট করার মতো কিছু নেই।"
+
+msgid "Nothing to show."
+msgstr "দেখানোর মতো কিছু নেই।"
+
+msgid "N× above"
+msgstr "N× এর উপরে"
+
+msgid "OBJECT"
+msgstr "বস্তু"
+
+msgid "OBJECTS"
+msgstr "বস্তুসমূহ"
+
+msgid "Objects which are up"
+msgstr "আকাশে দৃশ্যমান জ্যোতিষ্ক সমূহ"
+
+msgid "Observable duration"
+msgstr "পর্যবেক্ষণযোগ্য সময়কাল"
+
+msgid "Observing list highlight"
+msgstr "পর্যবেক্ষণ তালিকা হাইলাইট"
+
+msgid "On the sky"
+msgstr "আকাশে"
+
+msgid "One color"
+msgstr "একটি রঙ"
+
+msgid "Only for N latest selected objects"
+msgstr "শুধুমাত্র N সর্বশেষ নির্বাচিত বস্তুগুলির জন্য"
+
+msgid "Only list"
+msgstr "শুধুমাত্র তালিকা"
+
+msgid "Only one at a time"
+msgstr "একবারে একটি মাত্র"
+
+msgid "Only orbit for selected object…"
+msgstr "শুধুমাত্র নির্বাচিত বস্তুর কক্ষপথ…"
+
+msgid "Only orbits of major planets…"
+msgstr "শুধুমাত্র প্রধান গ্রহগুলির কক্ষপথ…"
+
+msgid "Open date and time"
+msgstr "তারিখ এবং সময় খুলুন"
+
+msgid "Open location"
+msgstr "অবস্থান খুলুন"
+
+msgid "Opens the JUPOS project in a browser"
+msgstr "ব্রাউজারে JUPOS প্রকল্প খুলুন"
+
+msgid "Opposition of"
+msgstr "বিরোধিতা অবস্থান"
+
+msgid "Oppositions"
+msgstr "বিরোধিতা অবস্থান"
+
+msgid "Orbit colors"
+msgstr "কক্ষপথের রঙ"
+
+msgid "Orbital periods ratio"
+msgstr "কক্ষপথ অবকাশ অনুপাত"
+
+msgid "Orbits"
+msgstr "কক্ষপথ"
+
+msgid "Orbits of interstellar objects"
+msgstr "আন্তঃনাক্ষত্রিক বস্তুগুলির কক্ষপথ"
+
+msgid "Orbits of moons"
+msgstr "উপগ্রহগুলির কক্ষপথ"
+
+msgid "Otherwise every move adopts the zone of the new place."
+msgstr "অন্যথায় প্রতিটি পদক্ষেপ নতুন স্থানের সময় অঞ্চল গ্রহণ করে।"
+
+msgid "Outline craters"
+msgstr "ক্রেটারের রূপরেখা"
+
+msgid "PD (J2000)"
+msgstr "অবস্থান কোণ (J2000)"
+
+msgid "Pan the sky"
+msgstr "আকাশ প্যান করুন"
+
+msgid "Partial eclipse begins"
+msgstr "আংশিক গ্রহণের শুরু"
+
+msgid "Partial eclipse ends"
+msgstr "আংশিক গ্রহণের সমাপ্তি"
+
+msgid "Partitions"
+msgstr "বিভাজন"
+
+msgid "Partitions thickness"
+msgstr "বিভাজনের বেধ"
+
+msgid "Path width"
+msgstr "পথের প্রস্থ"
+
+msgid "Pause"
+msgstr "বিরাম"
+
+msgid "Paused - start"
+msgstr "বিরামবিহীন - শুরু"
+
+msgid "Penumbral magnitude"
+msgstr "উপছায়া বিবর্ধন"
+
+msgid "Perihelion and aphelion"
+msgstr "পেরিহেলিয়ন এবং অ্যাফেলিয়ন"
+
+msgid "Pick two different bodies to see how their distance changes."
+msgstr "দুটি ভিন্ন বস্তু বেছে নিন তাদের দূরত্ব পরিবর্তন দেখতে।"
+
+msgid "Pinch"
+msgstr "চিমটি"
+
+msgid "Planet and time zone"
+msgstr "গ্রহ এবং সময় অঞ্চল"
+
+msgid "Planetary nomenclature"
+msgstr "গ্রহীয় নামকরণ"
+
+msgid "Planetary transits"
+msgstr "গ্রহীয় সংক্রমণ"
+
+msgid "Planets"
+msgstr "গ্রহ মন্ডলী"
+
+msgid "Point size"
+msgstr "বিন্দু আকার"
+
+msgid "Pointing"
+msgstr "নির্দেশনা"
+
+msgid "Polar distance"
+msgstr "মেরু দূরত্ব"
+
+msgid "Polar distance, not declination"
+msgstr "মেরু দূরত্ব, বিষুবলম্ব নয়"
+
+msgid "Poles and points"
+msgstr "মেরু এবং বিন্দু"
+
+msgid "Polygon colour"
+msgstr "বহুভুজ রঙ"
+
+msgid "Positive values only"
+msgstr "শুধুমাত্র ধনাত্মক মূল্য"
+
+msgid "Previous"
+msgstr "পূর্ববর্তী"
+
+msgid "Pronounce"
+msgstr "উচ্চারণ করুন"
+
+msgid "Query options"
+msgstr "অনুসন্ধান বিকল্প"
+
+msgid "Quit"
+msgstr "প্রস্থান"
+
+msgid "Reading…"
+msgstr "পড়া হচ্ছে…"
+
+msgid "Real time speed"
+msgstr "প্রকৃত সময়ের গতি"
+
+msgid "Refraction, extinction, sky brightness"
+msgstr "প্রতিসরণ, বিলোপ, আকাশের ঔজ্জ্বল্য"
+
+msgid "Relative scale"
+msgstr "আপেক্ষিক স্কেল"
+
+msgid "Remove %s"
+msgstr "%s সরান"
+
+msgid "Remove from observing list"
+msgstr "পর্যবেক্ষণ তালিকা থেকে সরান"
+
+msgid "Rename"
+msgstr "নাম পরিবর্তন করুন"
+
+msgid "Reset all"
+msgstr "সবকিছু পুনর্নির্ধারণ করুন"
+
+msgid "Restarting…"
+msgstr "পুনরায় শুরু হচ্ছে…"
+
+msgid "Rises"
+msgstr "উদয়"
+
+msgid "Rotation"
+msgstr "ঘূর্ণন"
+
+msgid "Running"
+msgstr "চলমান"
+
+msgid "SIMBAD did not answer."
+msgstr "সিমবাদ উত্তর দেয়নি।"
+
+msgid "SIMBAD is switched off in the search options."
+msgstr "অনুসন্ধান বিকল্পে সিমবাদ নিস্ক্রিয় রয়েছে।"
+
+msgid "SIMBAD is switched off. Turn it on under Options to look objects up online."
+msgstr "SIMBAD বন্ধ করা আছে। অনলাইনে বস্তু খুঁজতে বিকল্পের অধীনে এটি চালু করুন।"
+
+msgid "SIMBAD server"
+msgstr "SIMBAD সার্ভার"
+
+msgid "Saturation"
+msgstr "স্যাচুরেশন"
+
+msgid "Save either the current FOV and direction of view or all the current options for use at next startup. Restoring default settings requires a restart of the app."
+msgstr "বর্তমান দৃষ্টিক্ষেত্র এবং দৃশ্য দিক অথবা সমস্ত বর্তমান বিকল্প পরবর্তী শুরুর জন্য সংরক্ষণ করুন। ডিফল্ট সেটিংস পুনরুদ্ধার করতে অ্যাপটি পুনরায় চালু করতে হবে।"
+
+msgid "Save to observing list"
+msgstr "পর্যবেক্ষণ তালিকায় সংরক্ষণ করুন"
+
+msgid "Scale"
+msgstr "স্কেল"
+
+msgid "Scale marker and label visibility by surface brightness"
+msgstr "পৃষ্ঠের ঔজ্জ্বল্য দ্বারা চিহ্ন এবং লেবেল দৃশ্যমানতা স্কেল করুন"
+
+msgid "Scales smoothly between 1× at the minimum field of view and the factor above at the maximum"
+msgstr "ন্যূনতম দৃষ্টিক্ষেত্রে ১× এবং সর্বোচ্চে উপরের গুণাঙ্ক মধ্যে মসৃণভাবে স্কেল করে"
+
+msgid "Screen label"
+msgstr "পর্দা লেবেল"
+
+msgid "Search in list"
+msgstr "তালিকায় খোঁজা হচ্ছে"
+
+msgid "Seasons"
+msgstr "ঋতু"
+
+msgid "Second body"
+msgstr "দ্বিতীয় বস্তু"
+
+msgid "Second graph"
+msgstr "দ্বিতীয় লেখচিত্র"
+
+msgid "Second object"
+msgstr "দ্বিতীয় বস্তু"
+
+msgid "Secondary intercardinal points"
+msgstr "গৌণ মধ্যবর্তী দিক"
+
+msgid "See the sky through the ground"
+msgstr "পৃথিবীর মধ্য দিয়ে আকাশ দেখুন"
+
+msgid "Select an object first: this asks SIMBAD what it holds around it."
+msgstr "প্রথমে একটি বস্তু নির্বাচন করুন: এটি সিমবাদকে জানায় এর চারপাশে কী আছে তা জানাতে।"
+
+msgid "Select it and show its card"
+msgstr "এটি নির্বাচন করুন এবং এর কার্ড দেখান"
+
+msgid "Select something in the sky first — this page works on the selection."
+msgstr "প্রথমে আকাশে কিছু নির্বাচন করুন — এই পৃষ্ঠা নির্বাচনে কাজ করে।"
+
+msgid "Selected object"
+msgstr "নির্বাচিত বস্তু"
+
+msgid "Separate colors for orbits of major planets"
+msgstr "প্রধান গ্রহগুলির কক্ষপথের জন্য আলাদা রঙ"
+
+msgid "September equinox"
+msgstr "সেপ্টেম্বর বিষুব"
+
+msgid "Server"
+msgstr "সার্ভার"
+
+msgid "Set the clock to %s"
+msgstr "ঘড়িটি %s এ সেট করুন"
+
+msgid "Set the place"
+msgstr "স্থান নির্ধারণ করুন"
+
+msgid "Set to now"
+msgstr "এখনের জন্য সেট করুন"
+
+msgid "Sets"
+msgstr "অস্ত"
+
+msgid "Shadow map for non-convex bodies. May coarsen the penumbra on some objects"
+msgstr "অ-উত্তল বস্তুগুলির জন্য ছায়া মানচিত্র। কিছু বস্তুর উপছায়া মোটা করতে পারে"
+
+msgid "Shooting stars"
+msgstr "ঘুর্ণন নক্ষত্র"
+
+msgid "Short notation for units of surface brightness"
+msgstr "পৃষ্ঠের ঔজ্জ্বল্যের একক পরিচিতি"
+
+msgid "Short steps over a long duration are slow."
+msgstr "দীর্ঘ সময়ের উপর ছোট পদক্ষেপ ধীর।"
+
+msgid "Show"
+msgstr "দেখান"
+
+msgid "Show all information"
+msgstr "সমস্ত তথ্য দেখান"
+
+msgid "Show atmospheric extinction"
+msgstr "বায়ুমন্ডলীয় বিলোপ দেখান"
+
+msgid "Show controls"
+msgstr "নিয়ন্ত্রণ দেখান"
+
+msgid "Show each body where it was when the light left it (recommended)"
+msgstr "আলো যখন চলে গিয়েছিল তখন প্রতিটি বস্তু যেখানে ছিল সেখানে দেখান (সুপারিশকৃত)"
+
+msgid "Show frames per second beside the field of view"
+msgstr "দৃষ্টিক্ষেত্রের পাশে প্রতি সেকেন্ডে ফ্রেম দেখান"
+
+msgid "Show illumination"
+msgstr "আলোকসজ্জা দেখান"
+
+msgid "Show in sky"
+msgstr "আকাশে দেখান"
+
+msgid "Show less"
+msgstr "কম দেখান"
+
+msgid "Show lunar stations (if defined)"
+msgstr "চান্দ্রিক স্টেশন দেখান (যদি সংজ্ঞায়িত হয়)"
+
+msgid "Show more"
+msgstr "আরো দেখান"
+
+msgid "Show objects which are up"
+msgstr "যা উপরে রয়েছে তা দেখান"
+
+msgid "Show only named DSO"
+msgstr "শুধুমাত্র নামকৃত গভীর-আকাশ বস্তু দেখান"
+
+msgid "Show only objects between the two sizes"
+msgstr "শুধুমাত্র দুটি আকারের মধ্যে বস্তু দেখান"
+
+msgid "Show only the kinds ticked below"
+msgstr "শুধুমাত্র নিচে টিক করা ধরণগুলি দেখান"
+
+msgid "Show or hide the two rails of controls"
+msgstr "নিয়ন্ত্রণের দুটি রেল দেখান বা লুকান"
+
+msgid "Show orbit even if object is off screen"
+msgstr "যদি বস্তু পর্দার বাইরে থাকে তব ও কক্ষপথ দেখান"
+
+msgid "Show orbit only for selected SSO"
+msgstr "শুধুমাত্র নির্বাচিত সৌরজগতিক জ্যোতিষ্কের জন্য কক্ষপথ দেখান"
+
+msgid "Show orbits of major planets"
+msgstr "প্রধান গ্রহগুলির কক্ষপথ দেখান"
+
+msgid "Show surveys"
+msgstr "নিরীক্ষা দেখান"
+
+msgid "Show this survey"
+msgstr "এই নিরীক্ষা দেখান"
+
+msgid "Show tiny circles for minor bodies regardless of magnitude"
+msgstr "উজ্জ্বল্যতা নির্বিশেষে ক্ষুদ্র বস্তুগুলির জন্য ছোট বৃত্ত দেখান"
+
+msgid "Show zodiac (if defined)"
+msgstr "রাশি দেখান (যদি সংজ্ঞায়িত হয়)"
+
+msgid "Simbad Lookup Error: %s"
+msgstr "Simbad অনুসন্ধান ত্রুটি: %s"
+
+msgid "Simbad Lookup: querying"
+msgstr "Simbad অনুসন্ধান: প্রশ্ন করা হচ্ছে"
+
+msgid "Simulation"
+msgstr "অনুরূপ"
+
+msgid "Sky and viewing options"
+msgstr "আকাশ এবং দৃশ্য বিকল্প"
+
+msgid "Sky culture"
+msgstr "আকাশমন্ডল"
+
+msgid "Slow down"
+msgstr "ধীর করুন"
+
+msgid "Smallest, ′"
+msgstr "ক্ষুদ্রতম, ′"
+
+msgid "Solar altitude for Twilight Finder"
+msgstr "সূর্যাস্ত খোঁজার জন্য সৌর উন্নতি"
+
+msgid "Solar elongation"
+msgstr "সৌর চ্যুতি"
+
+msgid "Special points only"
+msgstr "বিশেষ বিন্দুগুলি মাত্র"
+
+msgid "Speed up"
+msgstr "ত্বরান্বিত করুন"
+
+msgid "Stand where the landscape was shot, on the planet it names"
+msgstr "যেখানে ভূমিরূপের ছবি নেওয়া হয়েছিল সেখানে দাঁড়ান, এটি যে গ্রহের নাম দেয় তাতে"
+
+msgid "Star, planet, catalogue number…"
+msgstr "তারা, গ্রহ, তালিকা সংখ্যা…"
+
+msgid "Started"
+msgstr "শুরু হয়েছে"
+
+msgid "Startup FOV"
+msgstr "শুরুর দৃষ্টিক্ষেত্র"
+
+msgid "Startup direction of view"
+msgstr "শুরুর দৃশ্য দিক"
+
+msgid "Stellarium's user guide covers the astronomy this app shares with it: stellarium.org/documentation"
+msgstr "Stellarium এর ব্যবহারকারী নির্দেশিকা এই অ্যাপ যা জ্যোতিৰ্বিজ্ঞান শেয়ার করে তা অন্তর্ভুক্ত করে: stellarium.org/documentation"
+
+msgid "Step, hours"
+msgstr "পদক্ষেপ, ঘন্টা"
+
+msgid "Stop clock when starting"
+msgstr "শুরু করার সময় ঘড়ি থামান"
+
+msgid "Strasbourg astronomical Data Center (France)"
+msgstr "Strasbourg জ্যোতির্বৈজ্ঞানিক ডেটা কেন্দ্র (ফ্রান্স)"
+
+msgid "Style"
+msgstr "শৈলী"
+
+msgid "Sun altitude"
+msgstr "সৌর উন্নতি"
+
+msgid "Sun at"
+msgstr "রবি"
+
+msgid "Sun's altitude"
+msgstr "সূর্যের উন্নতি"
+
+msgid "Sunlight scattered by interplanetary dust"
+msgstr "গ্রহ-মধ্যবর্তী ধুলা দ্বারা বিচ্ছুরিত সূর্যালোক"
+
+msgid "Switch this off to see the trails for all Solar system bodies"
+msgstr "সৌরজগতের সমস্ত বস্তুর পথ দেখতে এটি বন্ধ করুন"
+
+msgid "System date at"
+msgstr "সিস্টেম তারিখ"
+
+msgid "Tabular output for coordinates and time"
+msgstr "স্থানাঙ্ক এবং সময়ের জন্য সারণী আউটপুট"
+
+msgid "Tap a colour to change it. Changes show on the sky at once and are kept."
+msgstr "পরিবর্তন করতে একটি রঙ ট্যাপ করুন। পরিবর্তন আকাশে অবিলম্বে প্রদর্শিত হয় এবং রাখা হয়।"
+
+msgid "Tap again to confirm"
+msgstr "নিশ্চিত করতে আবার ট্যাপ করুন"
+
+msgid "Tap an object"
+msgstr "একটি বস্তু ট্যাপ করুন"
+
+msgid "Tap the chart to read a value."
+msgstr "একটি মূল্য পড়তে লেখচিত্র ট্যাপ করুন।"
+
+msgid "Tap the clock"
+msgstr "ঘড়ি ট্যাপ করুন"
+
+msgid "Tap the gear"
+msgstr "গিয়ার ট্যাপ করুন"
+
+msgid "Tap the map to stand there."
+msgstr "সেখানে দাঁড়াতে মানচিত্র ট্যাপ করুন।"
+
+msgid "Tap the place"
+msgstr "স্থান ট্যাপ করুন"
+
+msgid "Tap to confirm"
+msgstr "নিশ্চিত করতে ট্যাপ করুন"
+
+msgid "Tertiary intercardinal points"
+msgstr "তৃতীয়ক মধ্যবর্তী দিক"
+
+msgid "Text angle"
+msgstr "পাঠ কোণ"
+
+msgid "The Great Red Spot drifts in System II longitude. Enter a recent measurement and the drift rate to carry it forward from."
+msgstr "মহান লাল ধারাটি সিস্টেম II দ্রাঘিমায় চলে যায়। সাম্প্রতিক পরিমাপ এবং সামনে নিয়ে যেতে ড্রিফ্ট হার প্রবেশ করুন।"
+
+msgid "The algorithm is based on visual observations 1877-1891 by G. Müller and was still republished in the Explanatory Supplement to the Astronomical Ephemeris (1961)."
+msgstr "অ্যালগরিদম G. Müller দ্বারা ১৮৭৭-১৮৯১ এর ভিজ্যুয়াল পর্যবেক্ষণের উপর ভিত্তি করে এবং জ্যোতির্বৈজ্ঞানিক Ephemeris এর ব্যাখ্যামূলক সাপ্লিমেন্টে পুনর্প্রকাশিত হয়েছিল (১৯৬১)।"
+
+msgid "The algorithm was published by A. Mallama & J. L. Hilton: Computing apparent planetary magnitudes for the Astronomical Almanac. Astronomy&Computing 25 (2018) 10-24."
+msgstr "অ্যালগরিদম A. Mallama এবং J. L. Hilton দ্বারা প্রকাশিত: জ্যোতির্বৈজ্ঞানিক বছরপঞ্জির জন্য স্পষ্ট গ্রহের উজ্জ্বল্যতা গণনা করা। Astronomy&Computing 25 (২০১৮) ১০-২৪।"
+
+msgid "The algorithm was published in the 2nd edition of the Explanatory Supplement to the Astronomical Almanac (1992)."
+msgstr "অ্যালগরিদম জ্যোতির্বৈজ্ঞানিক বছরপঞ্জির ব্যাখ্যামূলক সাপ্লিমেন্টের ২য় সংস্করণে প্রকাশিত হয়েছিল (১৯৯২)।"
+
+msgid "The algorithm was published in the 3rd edition of the Explanatory Supplement to the Astronomical Almanac (2013)."
+msgstr "অ্যালগরিদম জ্যোতির্বৈজ্ঞানিক বছরপঞ্জির ব্যাখ্যামূলক সাপ্লিমেন্টের ৩য় সংস্করণে প্রকাশিত হয়েছিল (২০১৩)।"
+
+msgid "The algorithm was used in the Astronomical Almanac (1984 and later) and gives V (instrumental) magnitudes (allegedly from D.L. Harris)."
+msgstr "অ্যালগরিদম জ্যোতির্বৈজ্ঞানিক বছরপঞ্জিতে (১৯৮৪ এবং পরবর্তীতে) ব্যবহৃত হয় এবং V (যন্ত্রিক) উজ্জ্বল্যতা প্রদান করে (D.L. Harris থেকে অনুযায়ী)।"
+
+msgid "The colour each kind of object is drawn in"
+msgstr "প্রতিটি ধরনের বস্তু যে রঙে আঁকা হয়"
+
+msgid "The engine did not answer with any colours."
+msgstr "ইঞ্জিন কোনো রঙের উত্তর দেয়নি।"
+
+msgid "The galactic band"
+msgstr "ছায়াপথের ব্যান্ড"
+
+msgid "The horizon outline instead of the panorama"
+msgstr "প্যানোরামার পরিবর্তে দিগন্ত রূপরেখা"
+
+msgid "The path each body has taken across the sky"
+msgstr "প্রতিটি বস্তু আকাশ জুড়ে নিয়েছে পথ"
+
+msgid "The shortest label the culture defines"
+msgstr "সংস্কৃতি সংজ্ঞায়িত সংক্ষিপ্ততম লেবেল"
+
+msgid "Thickness"
+msgstr "বেধ"
+
+msgid "This copy ships no scripts."
+msgstr "এই কপি কোনো স্ক্রিপ্ট জাহাজ করে না।"
+
+msgid "This device has no location service."
+msgstr "এই ডিভাইসের কোনো অবস্থান সেবা নেই।"
+
+msgid "This part of the engine exposes no settings on this build."
+msgstr "ইঞ্জিনের এই অংশ এই বিল্ডে কোনো সেটিংস প্রকাশ করে না।"
+
+msgid "This tool works on Earth only!"
+msgstr "এই সরঞ্জামটি শুধুমাত্র পৃথিবীতে কাজ করে!"
+
+msgid "This tool works on Earth only. Short steps over a long duration are slow."
+msgstr "এই সরঞ্জামটি শুধুমাত্র পৃথিবীতে কাজ করে। দীর্ঘ সময়ের উপর ছোট পদক্ষেপ ধীর।"
+
+msgid "This year"
+msgstr "এই বছর"
+
+msgid "Time of day"
+msgstr "দিনের সময়"
+
+msgid "Time span"
+msgstr "সময়ের ব্যবধান"
+
+msgid "Time step"
+msgstr "সময় পদক্ষেপ"
+
+msgid "To the next (mths)"
+msgstr "পরবর্তীটি (মাস)"
+
+msgid "To the next, months"
+msgstr "পরবর্তীটি, মাস"
+
+msgid "Today"
+msgstr "আজ"
+
+msgid "Trails"
+msgstr "গমণপথ"
+
+msgid "Translated"
+msgstr "অনুবাদিত"
+
+msgid "Transparency"
+msgstr "স্বচ্ছতা"
+
+msgid "Twilight and rise and set times are worked out for an observer on Earth. Move back to Earth to see them."
+msgstr "সূর্যাস্ত এবং উদয় ও অস্ত সময় পৃথিবীর পর্যবেক্ষকের জন্য কাজ করা হয়। তাদের দেখতে পৃথিবীতে ফিরে যান।"
+
+msgid "Twinkle"
+msgstr "ঝলমলান"
+
+msgid "Twinkle amount"
+msgstr "ঝলমলান পরিমাণ"
+
+msgid "Twinkle even without atmosphere"
+msgstr "বায়ুমন্ডল ছাড়াই ঝলমলান"
+
+msgid "Twinkle is caused by atmospheric turbulence; this shows it regardless"
+msgstr "ঝলমলান বায়ুমন্ডলীয় অশান্তি দ্বারা সৃষ্ট; এটি যাই হোক তা দেখায়"
+
+msgid "Type a name, a Bayer letter or a catalogue number - Vega, α Lyr, M 31, NGC 224."
+msgstr "একটি নাম, একটি Bayer অক্ষর বা তালিকা সংখ্যা টাইপ করুন - Vega, α Lyr, M 31, NGC 224।"
+
+msgid "Umbral magnitude"
+msgstr "উপচ্ছায়া পরিমান"
+
+msgid "Up to mag."
+msgstr "মান পর্যন্ত"
+
+msgid "Use common symbols for coordinate systems"
+msgstr "স্থানাঙ্ক পদ্ধতির জন্য প্রচলিত প্রতীক ব্যবহার করুন"
+
+msgid "Use distance from North Celestial Pole, not declination from equator in equatorial coordinates"
+msgstr "বিষুব স্থানাঙ্কে বিষুবলম্ব নয়, উত্তর মেরু থেকে দূরত্ব ব্যবহার করুন"
+
+msgid "Use mag/arcsec^2 for surface brightness"
+msgstr "পৃষ্ঠ উজ্জ্বলতার জন্য mag/arcsec^2 ব্যবহার করুন"
+
+msgid "Use my location"
+msgstr "আমার অবস্থান ব্যবহার করুন"
+
+msgid "Use sorting by string length"
+msgstr "পাঠ্য দৈর্ঘ্য অনুসারে বাছাইকরণ ব্যবহার করুন"
+
+msgid "Use the date now shown in the sky"
+msgstr "আকাশে এখন দেখা তারিখ ব্যবহার করুন"
+
+msgid "Use the value in landscape.ini when it has one"
+msgstr "landscape.ini-তে মূল্য থাকলে তা ব্যবহার করুন"
+
+msgid "Use the value stored for this location"
+msgstr "এই অবস্থানের জন্য সংরক্ষিত মূল্য ব্যবহার করুন"
+
+msgid "Version %s  ·  Qt %s"
+msgstr "সংস্করণ %s  ·  Qt %s"
+
+msgid "Visibility"
+msgstr "দৃশ্যমানতা"
+
+msgid "When a search result is chosen"
+msgstr "অনুসন্ধান ফলাফল নির্বাচিত হলে"
+
+msgid "Where Jupiter's Great Red Spot was, and when"
+msgstr "বৃহস্পতির লাল ঝড় যেখানে এবং কখন ছিল"
+
+msgid "Width"
+msgstr "প্রস্থ"
+
+msgid "Working out the contact times…"
+msgstr "যোগাযোগ সময় নির্ণয় করা হচ্ছে…"
+
+msgid "Zodiac and lunar stations"
+msgstr "রাশি এবং চন্দ্র নক্ষত্র"
+
+msgid "Zodiacal Light brightness"
+msgstr "সৌর আভার ঔজ্জ্বল্যতা"
+
+msgid "Zoom in and out"
+msgstr "জুম বৃদ্ধি ও হ্রাস"
+
+msgid "after sunset"
+msgstr "সূর্যাস্তের পরে"
+
+msgid "before sunrise"
+msgstr "সূর্যোদয়ের আগে"
+
+msgid "bright suburban"
+msgstr "উজ্জ্বল শহরতলি"
+
+msgid "east +"
+msgstr "পূর্ব +"
+
+msgid "engine ready, interface going live"
+msgstr "ইঞ্জিন প্রস্তুত, ইন্টারফেস চালু হচ্ছে"
+
+msgid "excellent dark sky"
+msgstr "চমৎকার অন্ধকার আকাশ"
+
+msgid "inner city"
+msgstr "শহরের মধ্যখানে"
+
+msgid "mag %s"
+msgstr "মান %s"
+
+msgid "max %s"
+msgstr "সর্বোচ্চ %s"
+
+msgid "mid %s"
+msgstr "মাঝ %s"
+
+msgid "north +"
+msgstr "উত্তর +"
+
+msgid "rural/suburban"
+msgstr "গ্রামীণ/উপশহর"
+
+msgid "sci. translit."
+msgstr "বৈজ্ঞানিক প্রতিলিপি"
+
+msgid "suburban/urban"
+msgstr "উপশহর/শহরী"
+
+msgid "truly dark"
+msgstr "সম্পূর্ণ অন্ধকার"
+
+msgid "unreadable snapshot"
+msgstr "অপাঠ্য স্পষ্ট ছবি"
+
+msgid "with Solar Dates"
+msgstr "সৌর তারিখ সহ"
+
+msgid "… and moons"
+msgstr "… এবং উপগ্রহ"

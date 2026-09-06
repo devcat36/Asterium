@@ -1,0 +1,2206 @@
+# Asterium interface translation for hu.
+# Copyright (C) 2026 the Asterium authors
+# This file is distributed under the same licence as the Asterium package.
+#
+# MACHINE TRANSLATION, not reviewed by a speaker of this language.
+# Terminology follows upstream Stellarium's own hu catalogue, which was used
+# as a glossary, and every entry keeps the source's printf placeholders.
+# Corrections from a human translator are welcome and should simply replace these.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: asterium\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%d bodies"
+msgstr "%d test"
+
+msgid "%d object"
+msgstr "%d objektum"
+
+msgid "%d objects"
+msgstr "%d objektum"
+
+msgid "%s colour"
+msgstr "%s szín"
+
+msgid "%s from %s, ±%.0f m"
+msgstr "%s a %s-tól, ±%.0f m"
+
+msgid "12-hour"
+msgstr "12 órás"
+
+msgid "1× below"
+msgstr "1× alatt"
+
+msgid "24-hour"
+msgstr "24 órás"
+
+msgid "A button to mark every object of the current observing list on the sky."
+msgstr "Gomb az aktuális megfigyelési lista összes objektumának az égen való megjelöléséhez."
+
+msgid "A button to toggle ecliptic grid of date"
+msgstr "Gomb a dátum ekliptikus hálójának megjelenítéséhez"
+
+msgid "A button to toggle equatorial J2000 grid"
+msgstr "Gomb az egyenlítői J2000 hálo megjelenítéséhez"
+
+msgid "A button to toggle galactic grid"
+msgstr "Gomb a galaktikus hálo megjelenítéséhez"
+
+msgid "A polygonal model for some small moons, asteroids and comets instead of a sphere"
+msgstr "Poligonális modell néhány holdhoz, aszteroidához és üstökösökhöz a gömb helyett"
+
+msgid "A touch-first planetarium forked from Stellarium, whose astronomy engine it uses unchanged. The interface is new; everything that draws the sky is upstream's work."
+msgstr "Az upstream Stellariumból forkollt, érintésvezérelt bolygótérképészeti alkalmazás, amelynek csillagászati motorja változatlan. A felület új; az égboltot rajzoló minden kód az upstream-től származik."
+
+msgid "Abbreviated names"
+msgstr "Rövidített nevek"
+
+msgid "About"
+msgstr "Névjegy"
+
+msgid "About this sky culture"
+msgstr "Az ég kultúrájáról"
+
+msgid "Above altitude, °"
+msgstr "Magasság felett, °"
+
+msgid "Absolute scale"
+msgstr "Abszolút skála"
+
+msgid "Activate this option to calculate azimuth from south towards west."
+msgstr "Aktiválja ezt az opciót az azimut kiszámításához délről nyugat felé."
+
+msgid "Add %s"
+msgstr "%s hozzáadása"
+
+msgid "Adjust brightness to bright objects"
+msgstr "Fényesség beállítása a fényes objektumokhoz"
+
+msgid "Algol-type eclipsing systems"
+msgstr "Algol-típusú fedési rendszerek"
+
+msgid "Algorithm of ΔT"
+msgstr "ΔT algoritmusa"
+
+msgid "All IDs"
+msgstr "Minden ID"
+
+msgid "All naked-eye planets"
+msgstr "Minden szabad szemmel látható bolygó"
+
+msgid "All solar eclipses"
+msgstr "Minden napfogyatkozás"
+
+msgid "Allow negative hour angles"
+msgstr "Negatív óraszögek engedélyezése"
+
+msgid "Allow results outside the recommended time range of the orbital elements"
+msgstr "Eredmények engedélyezése az ajánlott időtartományon kívül"
+
+msgid "Almanac"
+msgstr "Naptár"
+
+msgid "Almanac: Sun, Moon and naked-eye planets"
+msgstr "Naptári: Nap, Hold és szabad szemmel látható bolygók"
+
+msgid "Also find"
+msgstr "Találd meg azt is"
+
+msgid "Also plot"
+msgstr "Rajzold meg azt is"
+
+msgid "Also show moons of selected object or planets"
+msgstr "Az objektum vagy bolygók holdjainak megmutatása"
+
+msgid "Altitude limit, °"
+msgstr "Magasság korlát, °"
+
+msgid "Amount"
+msgstr "Mennyiség"
+
+msgid "An observer floats above its planet, so there is nowhere on it to stand. Choose another planet to come back down."
+msgstr "A megfigyelő a bolygó felett lebeg, ezért nincs hely a felszínén. Válasszon egy másik bolygót a visszatéréshez."
+
+msgid "And"
+msgstr "És"
+
+msgid "And also"
+msgstr "És szintén"
+
+msgid "And the next (years)"
+msgstr "És a következő (év)"
+
+msgid "Ang. Size"
+msgstr "Szög. Méret"
+
+msgid "Angular distance between the Moon and selected object"
+msgstr "Szögtávolság a Hold és a kiválasztott objektum között"
+
+msgid "Angular distance from the Moon for second object"
+msgstr "Szögtávolság a Holdtól a második objektumhoz"
+
+msgid "Angular distance from the Sun for second object"
+msgstr "Szögtávolság a Naptól a második objektumhoz"
+
+msgid "Annual drift"
+msgstr "Éves drift"
+
+msgid "Appearance"
+msgstr "Megjelenés"
+
+msgid "Apply time interval limits to list"
+msgstr "Időintervallum korlátok alkalmazása a listához"
+
+msgid "Art"
+msgstr "Művészeti"
+
+msgid "Artificial satellites and unnamed stars are excluded from calculation."
+msgstr "A mesterséges műholdak és nevek nélküli csillagok ki vannak zárva a számításból."
+
+msgid "Asking for permission…"
+msgstr "Engedély kérése…"
+
+msgid "Asks SIMBAD what it holds around the object that is selected now, and prints the answer as it comes back."
+msgstr "Megkérdezi a SIMBAD-tól, mit tart a kiválasztott objektum körül, és kinyomtatja a választ amint megérkezik."
+
+msgid "Ast. lines"
+msgstr "Csill. von."
+
+msgid "Ast. names"
+msgstr "Csill. név"
+
+msgid "Asterisms font size"
+msgstr "Aszterizmusok betűmérete"
+
+msgid "Astronomical Almanac (default) enlarges by 2%; Danjon (1951) differs slightly"
+msgstr "Csillagászati Almanach (alapértelmezett) 2%-kal nagyít; a Danjon (1951) módszer enyhén eltér"
+
+msgid "Astronomical Twilight"
+msgstr "Csillagászati szürkület"
+
+msgid "Astronomical night"
+msgstr "Csillagászati éjszaka"
+
+msgid "Atmosph."
+msgstr "Légk."
+
+msgid "Automatic closing dialog"
+msgstr "Automatikus párbeszédpanel bezárása"
+
+msgid "Automatic transparency"
+msgstr "Automatikus átlátszóság"
+
+msgid "Axis distance"
+msgstr "Tengely távolság"
+
+msgid "Azi. grid"
+msgstr "Azim. háló"
+
+msgid "Azimuth and altitude rather than right ascension and declination"
+msgstr "Azimut és magasság helyett rektaszcenzió és deklináció"
+
+msgid "Azimuth from South"
+msgstr "Azimut délből"
+
+msgid "Azimuth vs. Time"
+msgstr "Azimut per Idő"
+
+msgid "Bad visibility conditions for current location"
+msgstr "Rossz látási feltételek az aktuális helyen"
+
+msgid "Beginning of center line; central eclipse begins"
+msgstr "Középvonal kezdete; központi fogyatkozás kezdete"
+
+msgid "Below the horizon here."
+msgstr "Az horizont alatt itt."
+
+msgid "Between objects"
+msgstr "Objektumok között"
+
+msgid "Boundless"
+msgstr "Korlátlan"
+
+msgid "Bounds"
+msgstr "Határok"
+
+msgid "Bright Solar system objects (<%1 mag)"
+msgstr "Fényes Naprendszerbeli objektumok (<%1 mag)"
+
+msgid "Bright barium stars"
+msgstr "Fényes bárium csillagok"
+
+msgid "Bright carbon stars"
+msgstr "Fényes szénatomos csillagok"
+
+msgid "Bright nova stars"
+msgstr "Fényes nova csillagok"
+
+msgid "Bright star clusters (<%1 mag)"
+msgstr "Fényes csillaghalmazok (<%1 mag)"
+
+msgid "Bright supernova stars"
+msgstr "Fényes szupernóva csillagok"
+
+msgid "Brighter than"
+msgstr "Fényesebb mint"
+
+msgid "By object type"
+msgstr "Objektum típus szerint"
+
+msgid "By planet"
+msgstr "Bolygó szerint"
+
+msgid "Calculate"
+msgstr "Számít"
+
+msgid "Calculating…"
+msgstr "Számítás…"
+
+msgid "Cardinals"
+msgstr "Égtájak"
+
+msgid "Catalogue numbers instead of common names"
+msgstr "Katalógusszámok közönséges nevek helyett"
+
+msgid "Category"
+msgstr "Kategória"
+
+msgid "Celestial poles (J2000)"
+msgstr "Égi pólusok (J2000)"
+
+msgid "Celestial poles (of date)"
+msgstr "Égi pólusok (dátum szerinti)"
+
+msgid "Center of FOV"
+msgstr "FOV középpontja"
+
+msgid "Centering button"
+msgstr "Középpontosítás gomb"
+
+msgid "Central duration"
+msgstr "Központi időtartam"
+
+msgid "Central eclipse begins"
+msgstr "A központi fogyatkozás kezdete"
+
+msgid "Central eclipse ends"
+msgstr "A központi fogyatkozás vége"
+
+msgid "Centre"
+msgstr "Középpont"
+
+msgid "Centre on object"
+msgstr "Középpontosítás az objektumon"
+
+msgid "Centre point"
+msgstr "Középpont"
+
+msgid "Circles"
+msgstr "Körök"
+
+msgid "Circular FOV"
+msgstr "Körös FOV"
+
+msgid "Circumpolar circles"
+msgstr "Sarkköri körök"
+
+msgid "City"
+msgstr "Város"
+
+msgid "Civil Twilight"
+msgstr "Polgári szürkület"
+
+msgid "Cleanup"
+msgstr "Tisztítás"
+
+msgid "Clear"
+msgstr "Törlés"
+
+msgid "Clear recent searches"
+msgstr "Legutóbbi keresések törlése"
+
+msgid "Clear the selection - a touch screen has no right button"
+msgstr "Jelölés törlése - az érintőképernyőn nincs jobb gomb"
+
+msgid "Cleared."
+msgstr "Törlve."
+
+msgid "Click on star to show its constellation"
+msgstr "Kattintson a csillagra annak csillagképének megjelenítéséhez"
+
+msgid "Close"
+msgstr "Bezárás"
+
+msgid "Close what is open; from the sky, leave the app running"
+msgstr "Bezárás, ami nyitva van; az égboltból, hagyja futni az alkalmazást"
+
+msgid "Coarse"
+msgstr "Durva"
+
+msgid "Color"
+msgstr "Szín"
+
+msgid "Color channel"
+msgstr "Szín csatorna"
+
+msgid "Color of Lunar station lines"
+msgstr "Holdi állomás vonalak színe"
+
+msgid "Color of asterism lines"
+msgstr "Aszterizmus vonalak színe"
+
+msgid "Color of asterism names"
+msgstr "Aszterizmus nevek színe"
+
+msgid "Color of constellation boundaries"
+msgstr "Csillagkép határok színe"
+
+msgid "Color of constellation names"
+msgstr "Csillagkép nevek színe"
+
+msgid "Color of nomenclature labels"
+msgstr "Nómenklatúra feliratok színe"
+
+msgid "Color of orbits"
+msgstr "Keringési pálya szín"
+
+msgid "Color of ray helpers"
+msgstr "Sugár segédvonalak színe"
+
+msgid "Color of zodiac lines"
+msgstr "Zodiákus vonalak színe"
+
+msgid "Colors of orbit lines"
+msgstr "Keringési pályák vonalainak szín"
+
+msgid "Colures"
+msgstr "Kolúrok"
+
+msgid "Comets up to mag."
+msgstr "Üstökösök fel mag."
+
+msgid "Compass"
+msgstr "Iránytű"
+
+msgid "Config"
+msgstr "Konfiguráció"
+
+msgid "Connecting line"
+msgstr "Összekötő vonal"
+
+msgid "Const."
+msgstr "Csill."
+
+msgid "Constellations font size"
+msgstr "Csillagképek betűmérete"
+
+msgid "Contrast"
+msgstr "Kontraszt"
+
+msgid "Coordinate system"
+msgstr "Koordináta rendszer"
+
+msgid "Coordinates"
+msgstr "Koordináták"
+
+msgid "Copyright"
+msgstr "Szerzői jog"
+
+msgid "Credits"
+msgstr "Köszönetnyilvánítás"
+
+msgid "Culmination altitude"
+msgstr "Delelési magasság"
+
+msgid "Current FoV"
+msgstr "Jelenlegi FOV"
+
+msgid "Custom"
+msgstr "Egyedi"
+
+msgid "Custom FoV limit"
+msgstr "Egyéni FOV korlát"
+
+msgid "Custom altitude of the Moon, °"
+msgstr "A Hold egyéni magassága, °"
+
+msgid "Custom altitude of the Sun, °"
+msgstr "A Nap egyéni magassága, °"
+
+msgid "Custom settings for position of GRS"
+msgstr "GRS pozícióját egyéni beállítások"
+
+msgid "Custom values"
+msgstr "Egyéni értékek"
+
+msgid "Cut the scale off below the limit"
+msgstr "A skála vágása a korlát alatt"
+
+msgid "DATE AND TIME (UTC)"
+msgstr "DÁTUM ÉS IDŐ (UTC)"
+
+msgid "DSS survey"
+msgstr "DSS felméérés"
+
+msgid "Data"
+msgstr "Adatok"
+
+msgid "Date and time"
+msgstr "Dátum és idő"
+
+msgid "Date/time"
+msgstr "Dátum/idő"
+
+msgid "Dates"
+msgstr "Dátumok"
+
+msgid "Dawn"
+msgstr "Hajnal"
+
+msgid "Dbl. stars"
+msgstr "Kett. csillagok"
+
+msgid "December solstice"
+msgstr "Decemberi napforduló"
+
+msgid "Decimal degrees. −33.87 means 33.87° south. Elevation is metres above sea level; it moves the horizon down by a few arcminutes."
+msgstr "Decimális fokok. −33.87 azt jelenti, hogy 33.87° dél. A magasság a tengerszint fölötti méter; az horizont pár ívperccel lejjebb kerül."
+
+msgid "Degrees per year the longitude moves by"
+msgstr "Az a fok/év, amennyit a hosszúság mozog"
+
+msgid "Degrees, hours and minutes as they are written - 12h30m49s, +41°16'09\", 187.7 - or plain decimal degrees."
+msgstr "Fokok, órák és percek, ahogy írva vannak - 12h30m49s, +41°16'09\", 187.7 - vagy sima decimális fokok."
+
+msgid "Deletes all recent search object data, and the objects SIMBAD contributed."
+msgstr "Törli az összes legutóbbi keresési objektum adatot és a SIMBAD által hozzájárult objektumokat."
+
+msgid "Designations for celestial coordinate systems"
+msgstr "Megjelölések az égi koordináta-rendszerekhez"
+
+msgid "Designations for double stars"
+msgstr "Megjelölések dupla csillagokhoz"
+
+msgid "Designations for variable stars"
+msgstr "Megjelölések változó csillagokhoz"
+
+msgid "Dim a survey near the horizon, as the air does"
+msgstr "Felmérés sötétítése az horizont közelében, ahogy a levegő teszi"
+
+msgid "Dimensions"
+msgstr "Méretek"
+
+msgid "Dist."
+msgstr "Tá."
+
+msgid "Distance, AU"
+msgstr "Távolság, CS"
+
+msgid "Done"
+msgstr "Kész"
+
+msgid "Drag"
+msgstr "Húzás"
+
+msgid "Draw deep-sky objects at all"
+msgstr "Mélyég objektumok rajzolása egyáltalán"
+
+msgid "Draw only polygon"
+msgstr "Csak poligon rajzolása"
+
+msgid "Draw the enabled sky surveys"
+msgstr "Az engedélyezett égbolt felmérések rajzolása"
+
+msgid "Draw the planets, moons and minor bodies"
+msgstr "A bolygók, holdak és kis testek rajzolása"
+
+msgid "Drawn larger than life, so a body that is a few arcseconds wide is visible at all. The position stays true."
+msgstr "Nagyobbra rajzolva, mint az élet, így egy test, amely néhány ívmásodperc széles, jól látható. A pozíció igaz marad."
+
+msgid "Duration"
+msgstr "Időtartam"
+
+msgid "Duration (years)"
+msgstr "Időtartam (év)"
+
+msgid "Duration, months"
+msgstr "Időtartam, hónapok"
+
+msgid "Dusk"
+msgstr "Alkonyat"
+
+msgid "Dynamic (FOV-based) Moon size"
+msgstr "Dinamikus (FOV-alapú) Holdméret"
+
+msgid "ELEV. M"
+msgstr "MAG. M"
+
+msgid "Earth penumbra"
+msgstr "Föld penumbra"
+
+msgid "Earth shadow enlargement after Danjon"
+msgstr "Föld árnyék nagyítása Danjon után"
+
+msgid "Earth umbra"
+msgstr "Föld umbra"
+
+msgid "Eastern quadrature"
+msgstr "Keleti kvadratúra"
+
+msgid "Ecl. grid"
+msgstr "Ekl. háló"
+
+msgid "Eclipse begins; first contact with Earth"
+msgstr "Fogyatkozás kezdete; első érintkezés a Földdel"
+
+msgid "Eclipse ends; last contact with Earth"
+msgstr "Fogyatkozás vége; utolsó érintkezés a Földdel"
+
+msgid "Eclipses"
+msgstr "Fogyatkozások"
+
+msgid "Eclipses are computed for observers on Earth."
+msgstr "A fogyatkozásokat a Föld megfigyelőire számítjuk."
+
+msgid "Ecliptic (of date)"
+msgstr "Ekliptikus (dátum szerinti)"
+
+msgid "Ecliptic grid (of date)"
+msgstr "Ekliptikus hálo (dátum szerinti)"
+
+msgid "Ecliptic poles (of date)"
+msgstr "Ekliptikus pólusok (dátum szerinti)"
+
+msgid "Elevation"
+msgstr "Magasság"
+
+msgid "Elevation in metres"
+msgstr "Magasság méterben"
+
+msgid "Elongations and quadratures"
+msgstr "Elongációk és kvadratúrák"
+
+msgid "Emission-line stars"
+msgstr "Emissziós vonal csillagok"
+
+msgid "Enabled only"
+msgstr "Csak engedélyezett"
+
+msgid "End of center line; central eclipse ends"
+msgstr "Középvonal vége; központi fogyatkozás vége"
+
+msgid "Enter Culture..."
+msgstr "Kultúra bevitele..."
+
+msgid "Equ. grid"
+msgstr "Egyen. háló"
+
+msgid "Equ. mount"
+msgstr "Egyen. tart"
+
+msgid "Equator (of date)"
+msgstr "Egyenlítő (dátum szerinti)"
+
+msgid "Equatorial grid (of date)"
+msgstr "Egyenlítői hálo (dátum szerinti)"
+
+msgid "Equatorial radii ratio"
+msgstr "Egyenlítői sugarak aránya"
+
+msgid "Equinoxes (J2000)"
+msgstr "Napéjegyenlőségek (J2000)"
+
+msgid "Equinoxes (of date)"
+msgstr "Napéjegyenlőségek (dátum szerinti)"
+
+msgid "Evening"
+msgstr "Esti"
+
+msgid "Every"
+msgstr "Mindegyik"
+
+msgid "Every name the object is catalogued under"
+msgstr "Mindegyik név, amely alatt az objektum katalógusban van"
+
+msgid "Exoplanetary systems"
+msgstr "Exoplanetáris rendszerek"
+
+msgid "Exterior egress"
+msgstr "Külső kilépés"
+
+msgid "Exterior ingress"
+msgstr "Külső belépés"
+
+msgid "Fades the ground as you look below the horizon or zoom in"
+msgstr "Elhalványítja a talajt, amikor a horizont alá néz vagy nagyít"
+
+msgid "Fading duration"
+msgstr "Halványodás időtartama"
+
+msgid "Faintest shown"
+msgstr "Leghalványabb látható"
+
+msgid "Favorites"
+msgstr "Kedvencek"
+
+msgid "Fetching the survey lists…"
+msgstr "Felmérési listák lekérése…"
+
+msgid "Filter"
+msgstr "Szűrő"
+
+msgid "Find a city"
+msgstr "Város keresése"
+
+msgid "Fine"
+msgstr "Finom"
+
+msgid "First %d of %d - filter to narrow it."
+msgstr "Első %d a %d közül - szűrjön leszűkítéshez."
+
+msgid "First body"
+msgstr "Első test"
+
+msgid "First celestial body"
+msgstr "Első égitest"
+
+msgid "First graph"
+msgstr "Első grafikon"
+
+msgid "Fix"
+msgstr "Javít"
+
+msgid "Fixed Equator"
+msgstr "Rögzített egyenlítő"
+
+msgid "Fixed instant"
+msgstr "Rögzített pillanat"
+
+msgid "Flip buttons"
+msgstr "Gombók fordítása"
+
+msgid "Flip horiz."
+msgstr "Vízsz. flip"
+
+msgid "Flip vert."
+msgstr "Függ. ford."
+
+msgid "Font size"
+msgstr "Betűméret"
+
+msgid "Frame rate"
+msgstr "Képkockaszám"
+
+msgid "From"
+msgstr "Innen"
+
+msgid "From year"
+msgstr "Az év óta"
+
+msgid "Full screen"
+msgstr "Teljeskép"
+
+msgid "Fullscreen button"
+msgstr "Teljes képernyő gomb"
+
+msgid "Further reading"
+msgstr "További olvasmány"
+
+msgid "GRS details…"
+msgstr "GRS részletek…"
+
+msgid "Gal. grid"
+msgstr "Gal. háló"
+
+msgid "Gamma, saturation, brightness, contrast, opacity, colour channel and inverted colours belong to one survey. Open a survey to set them."
+msgstr "Gamma, telítettség, fényesség, kontraszt, átlátszatlanság, szín csatorna és invertált színek egy felméréshez tartoznak. Nyisson meg egy felmérést beállításukhoz."
+
+msgid "Gestures"
+msgstr "Gesztúrák"
+
+msgid "Go there"
+msgstr "Menj oda"
+
+msgid "Go to position"
+msgstr "Menj pozícióhoz"
+
+msgid "Go to this eclipse"
+msgstr "Menj ehhez a fogyatkozáshoz"
+
+msgid "Go to this moment"
+msgstr "Menj ehhez a pillanathoz"
+
+msgid "Go to this transit"
+msgstr "Menj ehhez a deleléshez"
+
+msgid "Good visibility conditions for current location"
+msgstr "Jó látási feltételek az aktuális helyen"
+
+msgid "Great Red Spot"
+msgstr "Nagy Piros Folt"
+
+msgid "Great Red Spot details"
+msgstr "Nagy Piros Folt részletek"
+
+msgid "Greatest eclipse"
+msgstr "Legnagyobb fogyatkozás"
+
+msgid "Greatest elongation for an inner planet, quadrature for an outer one"
+msgstr "Legnagyobb elongáció a belső bolygóhoz, kvadratúra a külső bolygóhoz"
+
+msgid "Greek letters"
+msgstr "Görög betűk"
+
+msgid "Greek letters for Bayer designations"
+msgstr "Görög betűk Bayer megjelölésekhez"
+
+msgid "Grid density"
+msgstr "Háló sűrűsége"
+
+msgid "Grids"
+msgstr "Hálók"
+
+msgid "Ground"
+msgstr "Talaj"
+
+msgid "Gyro"
+msgstr "Giroszkóp"
+
+msgid "Gyro mode"
+msgstr "Giroszkóp mód"
+
+msgid "Height"
+msgstr "Magasság"
+
+msgid "Heliocentric distance"
+msgstr "Heliocentrikus távolság"
+
+msgid "Heliocentric ecliptic positions of the major planets."
+msgstr "A nagybbolygók heliocentric ekliptikus pozícióit."
+
+msgid "HiPS"
+msgstr "HiPS"
+
+msgid "HiPS Surveys"
+msgstr "HiPS felmérések"
+
+msgid "Hide controls"
+msgstr "Vezérlők elrejtése"
+
+msgid "Hide deep-sky objects fainter than the limit"
+msgstr "Mélyég objektumok elrejtése az korlátnál halványabban"
+
+msgid "Hide nomenclature on the celestial body of observer"
+msgstr "Nómenklatúra elrejtése a megfigyelő égi testén"
+
+msgid "Hide orbits of minor bodies"
+msgstr "Kis testek pályáinak elrejtése"
+
+msgid "Highlight"
+msgstr "Kiemelés"
+
+msgid "Highlight the objects of the observing list"
+msgstr "Az observációs lista objektumainak kiemelése"
+
+msgid "Hint circles marking each planet"
+msgstr "Tipp körök mindegyik bolygót jelölésével"
+
+msgid "Hints brightness"
+msgstr "Tippek fényessége"
+
+msgid "Hipparcos designations"
+msgstr "Hipparcos megjelölések"
+
+msgid "Hour angles usually run 0...24h. This counts -12h...12h."
+msgstr "Az óraszögek általában 0...24h futnak. Ez -12h...12h számít."
+
+msgid "How many"
+msgstr "Hány"
+
+msgid "ICRS grid"
+msgstr "ICRS hálo"
+
+msgid "Include"
+msgstr "Tartalmaz"
+
+msgid "Include bright comets"
+msgstr "Fényes üstökösöket tartalmaz"
+
+msgid "Include selected minor planets"
+msgstr "Kiválasztott kisbolygókat tartalmaz"
+
+msgid "Info label"
+msgstr "Infó felirat"
+
+msgid "Intercardinal points"
+msgstr "Közégtájak"
+
+msgid "Interior egress"
+msgstr "Belső kilépés"
+
+msgid "Interior ingress"
+msgstr "Belső belépés"
+
+msgid "Interstellar objects"
+msgstr "Csillagközi objektumok"
+
+msgid "Invariable plane of the Solar system"
+msgstr "A Naprendszer invariábilis síkja"
+
+msgid "Isolated"
+msgstr "Izolált"
+
+msgid "Its elevation, and the civil, nautical and astronomical twilights"
+msgstr "Magassága, valamint a polgári, tengeri és csillagászati sztwilight"
+
+msgid "Jovigraphic longitude of the spot in System II, in degrees"
+msgstr "A folt jövigráfiai hosszúsága a II. Rendszerben, fokokban"
+
+msgid "June solstice"
+msgstr "Júniusi napforduló"
+
+msgid "Label"
+msgstr "Felirat"
+
+msgid "Label colour"
+msgstr "Felirat színe"
+
+msgid "Label only features along the terminator"
+msgstr "Csak a terminátor mentén lévő objektumok felirata"
+
+msgid "Labels and Markers amount"
+msgstr "Feliratok és jelölők mennyisége"
+
+msgid "Labels brightness"
+msgstr "Feliratok fényessége"
+
+msgid "Largest, ′"
+msgstr "Legnagyobb, ′"
+
+msgid "Last known position"
+msgstr "Utolsó ismert pozíció"
+
+msgid "Lasting"
+msgstr "Tartam"
+
+msgid "Latest selected object"
+msgstr "Utoljára kiválasztott objektum"
+
+msgid "Latitude −90…90, longitude −180…180."
+msgstr "Szélesség −90…90, hosszúság −180…180."
+
+msgid "Layer appearance"
+msgstr "Réteg megjelenése"
+
+msgid "Leaves the landscape visible in darkness"
+msgstr "Hagyja a tájképet láthatónak a sötétségben"
+
+msgid "Licence"
+msgstr "Licensz"
+
+msgid "Light pollution"
+msgstr "Fényszennyezés"
+
+msgid "Light pollution from database"
+msgstr "Fényszennyezés az adatbázisból"
+
+msgid "Limit angular separation"
+msgstr "Szögi távolság korlátozása"
+
+msgid "Limit angular size"
+msgstr "Szögméret korlátozása"
+
+msgid "Limit magnitude"
+msgstr "Magnitúdó korlátozása"
+
+msgid "Limit the magnitude of solar system objects"
+msgstr "Naprendszerbeli objektumok magnitúdójának korlátozása"
+
+msgid "Line"
+msgstr "Vonal"
+
+msgid "Line thickness"
+msgstr "Vonal vastagsága"
+
+msgid "Linear and angular distances between selected objects"
+msgstr "Lineáris és szögi távolság a kiválasztott objektumok között"
+
+msgid "Linear distance"
+msgstr "Lineáris távolság"
+
+msgid "Lines"
+msgstr "Vonalak"
+
+msgid "Lines and circles"
+msgstr "Vonalak és körök"
+
+msgid "List"
+msgstr "Lista"
+
+msgid "List name"
+msgstr "Lista neve"
+
+msgid "Lit windows, street lighting and the like"
+msgstr "Megvilágított ablakok, közvilágítás és hasonlók"
+
+msgid "Loading…"
+msgstr "Betöltés…"
+
+msgid "Local solar eclipses"
+msgstr "Helyi napfogyatkozások"
+
+msgid "Local time"
+msgstr "Helyi idő"
+
+msgid "Local time, h"
+msgstr "Helyi idő, h"
+
+msgid "Locate me"
+msgstr "Keress meg"
+
+msgid "Locating…"
+msgstr "Keresés…"
+
+msgid "Location from landscape"
+msgstr "Hely a tájképből"
+
+msgid "Location is switched off in the system settings."
+msgstr "A hely a rendszer beállításaiban ki van kapcsolva."
+
+msgid "Location permission refused. The other two ways still work."
+msgstr "Helyengedély megtagadva. A másik két módszer még működik."
+
+msgid "Long press"
+msgstr "Hosszú nyomás"
+
+msgid "Longitude of GRS"
+msgstr "GRS hosszúsága"
+
+msgid "Lunar Elongation"
+msgstr "Holdi elhajlás"
+
+msgid "Lunar Stations"
+msgstr "Holdi állomások"
+
+msgid "Lunar eclipses"
+msgstr "Holdfogyatkozások"
+
+msgid "Lunar elongation"
+msgstr "Holdi elhajlás"
+
+msgid "Magnitudes"
+msgstr "Magnitúdók"
+
+msgid "Main"
+msgstr "Fő"
+
+msgid "Major planets"
+msgstr "Bolygók"
+
+msgid "Major planets by planet, minor bodies by type"
+msgstr "Bolygók bolygó szerint, kisbolygók típus szerint"
+
+msgid "Map of the planet. Tap to set the observer's place."
+msgstr "A bolygó térképe. Koppintson az megfigyelő helyének beállításához."
+
+msgid "March equinox"
+msgstr "Márciusi napéjenlét"
+
+msgid "Mark impact features with ellipses"
+msgstr "Ütközési objektumok megjelölése ellipszissel"
+
+msgid "Mark minor bodies"
+msgstr "Kisbolygók megjelölése"
+
+msgid "Markers"
+msgstr "Jelölők"
+
+msgid "Markers sized by the object's angular size"
+msgstr "Jelölők a tárgy szögmérete szerint méretezve"
+
+msgid "Markings"
+msgstr "Jelölések"
+
+msgid "Master switch for the grids, lines and points below"
+msgstr "Főkapcsoló az alábbi rácsokhoz, vonalakhoz és pontokhoz"
+
+msgid "Max items to display"
+msgstr "Max. megjelenítendő elemek"
+
+msgid "Max. results"
+msgstr "Max. eredmények"
+
+msgid "Max. search radius"
+msgstr "Max. keresési sugár"
+
+msgid "Maximum Solar altitude"
+msgstr "Nap maximális magassága"
+
+msgid "Maximum allowed separation"
+msgstr "Maximálisan megengedett távolság"
+
+msgid "Maximum angular size"
+msgstr "Maximális szögméret"
+
+msgid "Maximum eclipse"
+msgstr "Maximális fogyatkozás"
+
+msgid "Maximum year"
+msgstr "Maximális év"
+
+msgid "Mean motion"
+msgstr "Közepes mozgás"
+
+msgid "Mercury, Venus, Mars, Jupiter and Saturn at once. Earth only."
+msgstr "Merkúr, Vénusz, Mars, Jupiter és Szaturnusz egyszerre. Csak a Föld."
+
+msgid "Mid-transit"
+msgstr "Tranzit közepe"
+
+msgid "Milky Way brightness"
+msgstr "Tejút fényessége"
+
+msgid "Milky Way saturation"
+msgstr "Tejút telítettség"
+
+msgid "Minimal angular size"
+msgstr "Minimális szögméret"
+
+msgid "Minimal brightness"
+msgstr "Minimális fényesség"
+
+msgid "Minimum Solar altitude"
+msgstr "Nap minimális magassága"
+
+msgid "Minimum year"
+msgstr "Minimális év"
+
+msgid "Minor bodies"
+msgstr "Kisbolygók"
+
+msgid "Minutes before sunrise / after sunset"
+msgstr "Percek a napkelte előtt / napnyugta után"
+
+msgid "Month"
+msgstr "Hónap"
+
+msgid "Monthly Elevation"
+msgstr "Havi magasság"
+
+msgid "Moon at"
+msgstr "Hold ekkor"
+
+msgid "Moon enters penumbra"
+msgstr "Hold belép a félárnyékba"
+
+msgid "Moon enters umbra"
+msgstr "Hold belép az árnyékba"
+
+msgid "Moon in zenith at"
+msgstr "Hold a zenitben"
+
+msgid "Moon leaves penumbra"
+msgstr "Hold elhagyja a félárnyékot"
+
+msgid "Moon leaves umbra"
+msgstr "Hold elhagyja az árnyékot"
+
+msgid "Moon's halo"
+msgstr "Hold halója"
+
+msgid "Moons of first body"
+msgstr "Az első test holdjai"
+
+msgid "Morning"
+msgstr "Reggel"
+
+msgid "Morph. Descr."
+msgstr "Morph. Leír."
+
+msgid "Move the sky by pointing the phone at it"
+msgstr "Az ég mozgatása a telefon irányításával"
+
+msgid "Move the sky with the phone"
+msgstr "Az ég mozgatása a telefonnal"
+
+msgid "Name for the new list"
+msgstr "Az új lista neve"
+
+msgid "Named features the landscape marks"
+msgstr "Az elnevezett objektumok, amelyeket a tájkép jelöl"
+
+msgid "Names"
+msgstr "Nevek"
+
+msgid "Names beside the planets and their markers"
+msgstr "Nevek a bolygók és jelölőik mellett"
+
+msgid "Names in English"
+msgstr "Angol nevek"
+
+msgid "Nautical Twilight"
+msgstr "Tengeri szürkület"
+
+msgid "Neb. bg"
+msgstr "Köd. hát."
+
+msgid "Nebula background"
+msgstr "Nebula háttere"
+
+msgid "Nebulae"
+msgstr "Köd"
+
+msgid "New list"
+msgstr "Új lista"
+
+msgid "Next"
+msgstr "Következő"
+
+msgid "Night"
+msgstr "Éjszaka"
+
+msgid "No city matches that."
+msgstr "Nincs olyan város."
+
+msgid "No eclipses found. Pick a range and calculate."
+msgstr "Nincs fogyatkozás. Válasszon tartományt és számítson."
+
+msgid "No fresh fix - the receiver may have no sky. Try again outdoors, or set the place another way."
+msgstr "Nincs friss pozíció - a vevő nem láthat égboltot. Próbálja újra kívül, vagy állítsa be a helyet másképpen."
+
+msgid "No surveys were found. The lists are downloaded, so this needs a connection."
+msgstr "Nincsenek felmérések. A listák letöltésre kerülnek, ezért szükség van kapcsolatra."
+
+msgid "None downloaded yet"
+msgstr "Még nincs letöltve"
+
+msgid "Normal"
+msgstr "Normál"
+
+msgid "Not observable eclipse"
+msgstr "Nem megfigyelhető fogyatkozás"
+
+msgid "Note: Local circumstances for eclipses during thousands of years in the past and future are not reliable due to uncertainty in ΔT which is caused by fluctuations in Earth's rotation."
+msgstr "Megjegyzés: Az elmúlt és jövőbeli több ezer éven keresztül a fogyatkozások lokális körülményei nem megbízhatóak a ΔT bizonytalanságának miatt, amelyet a Föld forgásának ingadozásai okoznak."
+
+msgid "Note: artificial satellites and unnamed stars are excluded from calculation"
+msgstr "Megjegyzés: a mesterséges műholdak és a név nélküli csillagok ki vannak zárva a számításból"
+
+msgid "Note: this tool doesn't apply the refraction correction for coordinates. Horizontal coordinates stop the clock, or the sky would turn away from the point while you arrive at it."
+msgstr "Megjegyzés: ez az eszköz nem alkalmazza a refrakciós korrekciót a koordinátákra. A horizontális koordináták megállítják az órát, vagy az ég eltávolodna a ponttól, miközben odaérsz."
+
+msgid "Notes: The quantity gamma is the minimum distance from the axis of lunar shadow cone to the center of Earth, in units of Earth’s equatorial radius. This distance is positive or negative, depending on whether the axis of the shadow cone passes north or south of the Earth's center. Path of solar eclipses during thousands of years in the past and future are not reliable due to uncertainty in ΔT which is caused by fluctuations in Earth's rotation."
+msgstr "Megjegyzések: A gamma mennyiség a holdárnyék-kúp tengelyétől a Föld középpontjáig mért minimális távolság, a Föld egyenlítői sugarában kifejezve. Ez a távolság pozitív vagy negatív, attól függően, hogy az árnyékkúp tengelye a Föld középpontjától észak vagy dél felé halad. A napfogyatkozások útja az elmúlt és jövőbeli több ezer éven keresztül nem megbízható a ΔT bizonytalanságának miatt, amelyet a Föld forgásának ingadozásai okoznak."
+
+msgid "Notes: The quantity gamma is the minimum distance from the center of the Moon to the axis of Earth’s umbral shadow cone, in units of Earth’s equatorial radius. This distance is positive or negative, depending on whether the Moon passes north or south of the shadow cone axis. Local circumstances for eclipses during thousands of years in the past and future are not reliable due to uncertainty in ΔT which is caused by fluctuations in Earth's rotation."
+msgstr "Megjegyzések: A gamma mennyiség a Hold középpontjától a Föld árnyék-kúpjának tengelyéig mért minimális távolság, a Föld egyenlítői sugarában kifejezve. Ez a távolság pozitív vagy negatív, attól függően, hogy a Hold az árnyékkúp tengelyétől észak vagy dél felé halad. Az elmúlt és jövőbeli több ezer éven keresztül a fogyatkozások lokális körülményei nem megbízhatóak a ΔT bizonytalanságának miatt, amelyet a Föld forgásának ingadozásai okoznak."
+
+msgid "Notes: Time in parentheses means the contact is invisible at current location. Transit times during thousands of years in the past and future are not reliable due to uncertainty in ΔT which is caused by fluctuations in Earth's rotation."
+msgstr "Megjegyzések: A zárójelben szereplő idő azt jelenti, hogy az érintkezés az aktuális helyen nem látható. A delelési időpontok az elmúlt és jövőbeli több ezer éven keresztül nem megbízhatóak a ΔT bizonytalanságának miatt, amelyet a Föld forgásának ingadozásai okoznak."
+
+msgid "Nothing computed yet, or nothing in this category is up."
+msgstr "Még nincs számítva, vagy ebben a kategóriában nincs felkelő objektum."
+
+msgid "Nothing computed yet."
+msgstr "Még nincs számítva."
+
+msgid "Nothing found for “%s”."
+msgstr "Nem található „%s\"."
+
+msgid "Nothing in this list matches."
+msgstr "Nincs egyezés ebben a listában."
+
+msgid "Nothing in this list yet. Pick something out of the sky and tap the star on its card to keep it here."
+msgstr "Még nincs semmi ebben a listában. Válasszon valamit az égből, és koppintson a csillagra a kártyáján, hogy ide mentse."
+
+msgid "Nothing is selected. Pick an object in the sky first."
+msgstr "Nincs kiválasztva. Először válasszon egy objektumot az égből."
+
+msgid "Nothing matches."
+msgstr "Nincs egyezés."
+
+msgid "Nothing selected"
+msgstr "Nincs kiválasztva"
+
+msgid "Nothing to plot."
+msgstr "Nincs mit ábrázolni."
+
+msgid "Nothing to show."
+msgstr "Nincs mit mutatni."
+
+msgid "Now"
+msgstr "Most"
+
+msgid "N× above"
+msgstr "N× felett"
+
+msgid "OBJECT"
+msgstr "OBJEKTUM"
+
+msgid "OBJECTS"
+msgstr "OBJEKTUMOK"
+
+msgid "Objects which are up"
+msgstr "Felkelő objektumok"
+
+msgid "Observable duration"
+msgstr "Megfigyelhető időtartam"
+
+msgid "Observing list"
+msgstr "Megfigyelési lista"
+
+msgid "Observing list highlight"
+msgstr "Megfigyelési lista kiemelés"
+
+msgid "Observing lists"
+msgstr "Megfigyelési listák"
+
+msgid "On the sky"
+msgstr "Az égbolton"
+
+msgid "One color"
+msgstr "Egy szín"
+
+msgid "One color for all orbits"
+msgstr "Egy szín az összes pályához"
+
+msgid "Only for N latest selected objects"
+msgstr "Csak az N legújabb kiválasztott objektumhoz"
+
+msgid "Only for Solar elevation"
+msgstr "Csak a Nap magasságához"
+
+msgid "Only list"
+msgstr "Csak lista"
+
+msgid "Only one at a time"
+msgstr "Csak egyszerre egyet"
+
+msgid "Only orbit for selected object…"
+msgstr "Csak a kiválasztott objektum pályája…"
+
+msgid "Only orbits of major planets…"
+msgstr "Csak a bolygók pályái…"
+
+msgid "Opac."
+msgstr "Átlátszat."
+
+msgid "Open date and time"
+msgstr "Dátum és idő megnyitása"
+
+msgid "Open location"
+msgstr "Hely megnyitása"
+
+msgid "Opens the JUPOS project in a browser"
+msgstr "Megnyitja a JUPOS projektet a böngészőben"
+
+msgid "Opposition of"
+msgstr "Oppozíciója"
+
+msgid "Oppositions"
+msgstr "Oppozíciók"
+
+msgid "Orbit colors"
+msgstr "Pálya színei"
+
+msgid "Orbital periods ratio"
+msgstr "Keringési periódusok aránya"
+
+msgid "Orbits"
+msgstr "Pályák"
+
+msgid "Orbits of Oort cloud objects"
+msgstr "Oort-felhő objektumainak pályái"
+
+msgid "Orbits of comets"
+msgstr "Üstökösök pályái"
+
+msgid "Orbits of cubewanos"
+msgstr "Kubewanók pályái"
+
+msgid "Orbits of dwarf planets"
+msgstr "Törpebolygók pályái"
+
+msgid "Orbits of interstellar objects"
+msgstr "Csillagközi objektumok pályái"
+
+msgid "Orbits of major planets"
+msgstr "Bolygók pályái"
+
+msgid "Orbits of minor planets"
+msgstr "Kisbolygók pályái"
+
+msgid "Orbits of moons"
+msgstr "Holdak pályái"
+
+msgid "Orbits of plutinos"
+msgstr "Plutinók pályái"
+
+msgid "Orbits of scattered disk objects"
+msgstr "Szóródott korongok objektumainak pályái"
+
+msgid "Orbits of sednoids"
+msgstr "Sednoidok pályái"
+
+msgid "Otherwise every move adopts the zone of the new place."
+msgstr "Egyébként minden mozgás az új hely időzónáját veszi fel."
+
+msgid "Outline craters"
+msgstr "Kráterek körvonala"
+
+msgid "Pan the sky"
+msgstr "Az ég csúsztatása"
+
+msgid "Partial eclipse begins"
+msgstr "Parciális fogyatkozás kezdete"
+
+msgid "Partial eclipse ends"
+msgstr "Parciális fogyatkozás vége"
+
+msgid "Partitions"
+msgstr "Felosztások"
+
+msgid "Partitions thickness"
+msgstr "Felosztások vastagsága"
+
+msgid "Path width"
+msgstr "Pálya szélessége"
+
+msgid "Pause"
+msgstr "Szünet"
+
+msgid "Paused - start"
+msgstr "Szüneteltve - indítás"
+
+msgid "Penumbral magnitude"
+msgstr "Félárnyéki magnitúdó"
+
+msgid "Perfect visibility conditions for current location"
+msgstr "Tökéletes látási feltételek az aktuális helyen"
+
+msgid "Perihelion and aphelion"
+msgstr "Perihelion és aphelion"
+
+msgid "Pick two different bodies to see how their distance changes."
+msgstr "Válassz két eltérő objektumot, hogy lássad, hogyan változik a távolságuk."
+
+msgid "Pinch"
+msgstr "Csípés"
+
+msgid "Planet"
+msgstr "Bolygó"
+
+msgid "Planet and time zone"
+msgstr "Bolygó és időzóna"
+
+msgid "Planetary nebulae (<%1 mag)"
+msgstr "Planetáris köd (<%1 mag)"
+
+msgid "Planetary nomenclature"
+msgstr "Bolygó nómenklatúra"
+
+msgid "Planetary transits"
+msgstr "Bolygó tranzitok"
+
+msgid "Planets"
+msgstr "Bolygók"
+
+msgid "Planets and Sun"
+msgstr "Bolygók és Nap"
+
+msgid "Planets magnitude algorithm"
+msgstr "Bolygók magnitúdó algoritmusa"
+
+msgid "Please select object to plot its 'Monthly Elevation' graph for the current year at selected time."
+msgstr "Válasszon objektumot a kiválasztott idő aktuális évének \"Havi magasság\" grafikonjának ábrázolásához."
+
+msgid "Please select object to plot its graph 'Altitude vs. Time'."
+msgstr "Válasszon objektumot a \"Magasság vs. Idő\" grafikon ábrázolásához."
+
+msgid "Please select object to plot its graph 'Azimuth vs. Time'."
+msgstr "Válasszon objektumot az \"Azimut vs. Idő\" grafikon ábrázolásához."
+
+msgid "Pluto, Ceres, Pallas, Juno and Vesta"
+msgstr "Pluto, Ceres, Pallas, Juno és Vesta"
+
+msgid "Point size"
+msgstr "Pont mérete"
+
+msgid "Pointing"
+msgstr "Irányítás"
+
+msgid "Polar distance"
+msgstr "Pólustávolság"
+
+msgid "Polar distance, not declination"
+msgstr "Pólustávolság, nem deklináció"
+
+msgid "Poles and points"
+msgstr "Pólusok és pontok"
+
+msgid "Polygon colour"
+msgstr "Sokszög színe"
+
+msgid "Positive values only"
+msgstr "Csak pozitív értékek"
+
+msgid "Precession circles"
+msgstr "Precesszió körök"
+
+msgid "Previous"
+msgstr "Előző"
+
+msgid "Pronounce"
+msgstr "Kiejtés"
+
+msgid "Quadrature circle"
+msgstr "Kvadratura kör"
+
+msgid "Query SIMBAD about selected object"
+msgstr "SIMBAD lekérdezése a kiválasztott objektumról"
+
+msgid "Query options"
+msgstr "Lekérdezési opciók"
+
+msgid "Quit"
+msgstr "Kilép"
+
+msgid "Quit button"
+msgstr "Kilépés gomb"
+
+msgid "Reading…"
+msgstr "Olvasás…"
+
+msgid "Real time speed"
+msgstr "Valós idejű sebesség"
+
+msgid "Recent Searches"
+msgstr "Legutóbbi keresések"
+
+msgid "Rectangular FOV"
+msgstr "Téglalap alakú FOV"
+
+msgid "Refraction, extinction, sky brightness"
+msgstr "Refrakció, kioltás, égbolti fényesség"
+
+msgid "Regions of the sky"
+msgstr "Az égbolt régiói"
+
+msgid "Relative scale"
+msgstr "Relatív skála"
+
+msgid "Remove %s"
+msgstr "Eltávolítás %s"
+
+msgid "Remove from observing list"
+msgstr "Eltávolítás a megfigyelési listáról"
+
+msgid "Rename"
+msgstr "Átnevezés"
+
+msgid "Reset all"
+msgstr "Mindent alaphelyzetre"
+
+msgid "Restarting…"
+msgstr "Újraindítás…"
+
+msgid "Rises"
+msgstr "Kelések"
+
+msgid "Rotation"
+msgstr "Forgás"
+
+msgid "Running"
+msgstr "Futó"
+
+msgid "SIMBAD did not answer."
+msgstr "A SIMBAD nem válaszolt."
+
+msgid "SIMBAD is switched off in the search options."
+msgstr "A SIMBAD ki van kapcsolva a keresési opciókban."
+
+msgid "SIMBAD is switched off. Turn it on under Options to look objects up online."
+msgstr "SIMBAD ki van kapcsolva. Kapcsolja be az Opciók alatt az objektumok online kereséséhez."
+
+msgid "SIMBAD server"
+msgstr "SIMBAD szerver"
+
+msgid "Saturation"
+msgstr "Telítettség"
+
+msgid "Save either the current FOV and direction of view or all the current options for use at next startup. Restoring default settings requires a restart of the app."
+msgstr "Mentse akár az aktuális FOV-t és nézeti irányt, akár az összes aktuális beállítást az induláskor való használatra. Az alapértelmezés visszaállítása az alkalmazás újraindítást igényli."
+
+msgid "Save to observing list"
+msgstr "Mentés a megfigyelési listára"
+
+msgid "Save view"
+msgstr "Nézet mentése"
+
+msgid "Scale"
+msgstr "Skála"
+
+msgid "Scale marker and label visibility by surface brightness"
+msgstr "Jelölő és felirat láthatóságának skálázása felszíni fényesség szerint"
+
+msgid "Scales smoothly between 1× at the minimum field of view and the factor above at the maximum"
+msgstr "Simán skálázódik 1× között a minimális látómezőn és a fenti tényezőn a maximum értéken"
+
+msgid "Screen label"
+msgstr "Képernyő felirat"
+
+msgid "Search in list"
+msgstr "Keresés a listában"
+
+msgid "Seasons"
+msgstr "Évszakok"
+
+msgid "Second body"
+msgstr "Második objektum"
+
+msgid "Second celestial body"
+msgstr "Második égitest"
+
+msgid "Second graph"
+msgstr "Második grafikon"
+
+msgid "Second object"
+msgstr "Második objektum"
+
+msgid "Secondary intercardinal points"
+msgstr "Másodlagos közégtájak"
+
+msgid "See the sky through the ground"
+msgstr "Lássuk az eget a talaj alatt"
+
+msgid "Seen now"
+msgstr "Most látható"
+
+msgid "Select an object first: this asks SIMBAD what it holds around it."
+msgstr "Válasszon először egy objektumot: ez a SIMBAD-tól kérdezi meg, hogy mi van körötte."
+
+msgid "Select it and show its card"
+msgstr "Válassza ki és mutassa az információit"
+
+msgid "Select something in the sky first — this page works on the selection."
+msgstr "Először válasszon valamit az égbolton — ez az oldal a kijelölésre működik."
+
+msgid "Selected object"
+msgstr "Kijelölt objektum"
+
+msgid "Sep."
+msgstr "Táv."
+
+msgid "Separate colors for orbits by object type"
+msgstr "Eltérő szín az objektum típusától függően"
+
+msgid "Separate colors for orbits of major planets"
+msgstr "Eltérő szín a nagybolygók keringéséhez"
+
+msgid "September equinox"
+msgstr "Szeptemberi napéjenlét"
+
+msgid "Server"
+msgstr "Szerver"
+
+msgid "Set the clock to %s"
+msgstr "Az óra beállítása: %s"
+
+msgid "Set the place"
+msgstr "Helyét beállítani"
+
+msgid "Set to now"
+msgstr "Jelenlegi időre állítás"
+
+msgid "Sets"
+msgstr "Nyugások"
+
+msgid "Shadow map for non-convex bodies. May coarsen the penumbra on some objects"
+msgstr "Árnyéktérkép nem konvex testekhez. Egyes objektumok félárnyékát diktálhatja"
+
+msgid "Shadow transit"
+msgstr "Árnyék átvonulása"
+
+msgid "Shooting stars"
+msgstr "Hullócsillagok"
+
+msgid "Short notation for units of surface brightness"
+msgstr "Felszíni fényesség egységeinek rövid jelölése"
+
+msgid "Short steps over a long duration are slow."
+msgstr "Rövid lépések hosszú idő alatt lassúak."
+
+msgid "Show"
+msgstr "Mutat"
+
+msgid "Show FOV center marker when position is search"
+msgstr "FOV központ jelölésének mutatása pozíciókereséskor"
+
+msgid "Show additional buttons"
+msgstr "További gombok megjelenítése"
+
+msgid "Show additional star names"
+msgstr "További csillagnév megjelenítése"
+
+msgid "Show all information"
+msgstr "Minden információ megjelenítése"
+
+msgid "Show atmospheric extinction"
+msgstr "Légköri extinkció megjelenítése"
+
+msgid "Show boundaries of constellations"
+msgstr "Csillagkép határok megjelenítése"
+
+msgid "Show button in addition to keyboard shortcut?"
+msgstr "Gomb megjelenítése a billentyűparancs mellett?"
+
+msgid "Show controls"
+msgstr "Vezérlők megjelenítése"
+
+msgid "Show each body where it was when the light left it (recommended)"
+msgstr "Mutassa az égitestet ott, ahol volt, amikor a fény elhagyta (ajánlott)"
+
+msgid "Show frames per second beside the field of view"
+msgstr "Képkockaszám másodpercenként a látómező mellett"
+
+msgid "Show hints and labels for planetary features"
+msgstr "Tippek és címkék megjelenítése bolygójellemzőkre"
+
+msgid "Show illumination"
+msgstr "Megvilágítottság mutatása"
+
+msgid "Show in sky"
+msgstr "Mutat az égbolton"
+
+msgid "Show less"
+msgstr "Kevesebb mutatása"
+
+msgid "Show lunar stations (if defined)"
+msgstr "Hold állomások megjelenítése (ha vannak)"
+
+msgid "Show more"
+msgstr "Több mutatása"
+
+msgid "Show objects which are up"
+msgstr "Jelenleg látható objektumok mutatása"
+
+msgid "Show only named DSO"
+msgstr "Csak megnevezett mélyég objektumok mutatása"
+
+msgid "Show only objects between the two sizes"
+msgstr "Csak a két méret közötti objektumok mutatása"
+
+msgid "Show only the kinds ticked below"
+msgstr "Csak az alábbi megjelölt fajták mutatása"
+
+msgid "Show or hide the two rails of controls"
+msgstr "Vezérlősín megjelenítése vagy elrejtése"
+
+msgid "Show orbit even if object is off screen"
+msgstr "Pálya mutatása akkor is, ha az objektum nem látható"
+
+msgid "Show orbit only for selected SSO"
+msgstr "Pálya mutatása csak a kijelölt naprendszerbeli objektumnak"
+
+msgid "Show orbits"
+msgstr "Pályák mutatása"
+
+msgid "Show orbits of major planets"
+msgstr "Nagybolygók pályáinak mutatása"
+
+msgid "Show planetary nomenclature"
+msgstr "Bolygó nómenklatúra mutatása"
+
+msgid "Show special nomenclature points only"
+msgstr "Csak különleges nómenklatúra pontok mutatása"
+
+msgid "Show surveys"
+msgstr "Felmérések mutatása"
+
+msgid "Show this survey"
+msgstr "Ez a felmérés mutatása"
+
+msgid "Show tiny circles for minor bodies regardless of magnitude"
+msgstr "Kis körök mutatása kisebb testekhez a magnitúdótól függetlenül"
+
+msgid "Show trails"
+msgstr "Nyomok mutatása"
+
+msgid "Show zodiac (if defined)"
+msgstr "Zodiákus mutatása (ha van)"
+
+msgid "Simbad Lookup Error: %s"
+msgstr "SIMBAD keresési hiba: %s"
+
+msgid "Simbad Lookup: querying"
+msgstr "SIMBAD keresés: lekérdezés"
+
+msgid "Simulate self-shadowing"
+msgstr "Önárnyékolás szimulálása"
+
+msgid "Simulation"
+msgstr "Szimuláció"
+
+msgid "Sky Culture"
+msgstr "Csillagkultúra"
+
+msgid "Sky and viewing options"
+msgstr "Égbolt és megtekintési beállítások"
+
+msgid "Sky culture"
+msgstr "Csillagkultúra"
+
+msgid "Slow down"
+msgstr "Lassítás"
+
+msgid "Smallest, ′"
+msgstr "Legkisebb, ′"
+
+msgid "Solar altitude for Twilight Finder"
+msgstr "Nap magassága az Alkonyat keresőhöz"
+
+msgid "Solar elongation"
+msgstr "Nap elongációja"
+
+msgid "Solstices (J2000)"
+msgstr "Napfordulók (J2000)"
+
+msgid "Solstices (of date)"
+msgstr "Napfordulók (időpont szerinti)"
+
+msgid "Some objects may be found after activation respective plug-ins"
+msgstr "Egyes objektumok a megfelelő beépülők aktiválása után találhatók"
+
+msgid "Special points only"
+msgstr "Csak különleges pontok"
+
+msgid "Spectral Class"
+msgstr "Spektrális osztály"
+
+msgid "Speed up"
+msgstr "Gyorsítás"
+
+msgid "Spiky stars"
+msgstr "Tüskés csillagok"
+
+msgid "Stand where the landscape was shot, on the planet it names"
+msgstr "Álljon oda, ahol a tájkép fotót készítették, az azt megnevező bolygón"
+
+msgid "Star, planet, catalogue number…"
+msgstr "Csillag, bolygó, katalógus szám…"
+
+msgid "Started"
+msgstr "Elindítva"
+
+msgid "Starting"
+msgstr "Indítás"
+
+msgid "Startup FOV"
+msgstr "Indítás FOV-ja"
+
+msgid "Startup direction of view"
+msgstr "Indítás nézet iránya"
+
+msgid "Stationary (begin prograde motion)"
+msgstr "Álló (kezd előremutató mozgás)"
+
+msgid "Stationary (begin retrograde motion)"
+msgstr "Álló (kezd visszamutató mozgás)"
+
+msgid "Stellarium's user guide covers the astronomy this app shares with it: stellarium.org/documentation"
+msgstr "A Stellarium felhasználói útmutatója a csillagászatot ismerteti, amelyet ez az alkalmazás megoszt: stellarium.org/documentation"
+
+msgid "Step, hours"
+msgstr "Lépés, órák"
+
+msgid "Stop clock when starting"
+msgstr "Óra megállítása indításkor"
+
+msgid "Strasbourg astronomical Data Center (France)"
+msgstr "Strasbourg csillagászati Adatközpont (Franciaország)"
+
+msgid "Style"
+msgstr "Stílus"
+
+msgid "Sun altitude"
+msgstr "Nap magassága"
+
+msgid "Sun at"
+msgstr "Nap ekkor"
+
+msgid "Sun's altitude"
+msgstr "Nap magassága"
+
+msgid "Sun's corona"
+msgstr "Nap koronája"
+
+msgid "Sun's glare"
+msgstr "Nap ragyogása"
+
+msgid "Sun, planets and moons of first body and observer's planet"
+msgstr "Nap, bolygók és az első test holdjai, valamint a megfigyelő bolygójának holdjai"
+
+msgid "Sun, planets and moons of observer's planet"
+msgstr "Nap, bolygók és a megfigyelő bolygójának holdjai"
+
+msgid "Sunlight scattered by interplanetary dust"
+msgstr "Bolygóközi porra szóródott napfény"
+
+msgid "Switch this off to see the trails for all Solar system bodies"
+msgstr "Ezt kikapcsolva a Naprendszer összes tagjának nyomait láthatja"
+
+msgid "Symbiotic stars"
+msgstr "Szimbiotikus csillagok"
+
+msgid "System date at"
+msgstr "Rendszer dátuma:"
+
+msgid "Table"
+msgstr "Táblázat"
+
+msgid "Tabular output for coordinates and time"
+msgstr "Koordináták és idő táblázat alakban"
+
+msgid "Tap a colour to change it. Changes show on the sky at once and are kept."
+msgstr "Koppintson a szín módosításához. A módosítások azonnal megjelennek az égbolton és maradnak."
+
+msgid "Tap again to confirm"
+msgstr "Koppintson újra a megerősítéshez"
+
+msgid "Tap an object"
+msgstr "Koppintson egy objektumra"
+
+msgid "Tap the chart to read a value."
+msgstr "Koppintson a diagramra az érték leolvasásához."
+
+msgid "Tap the clock"
+msgstr "Koppintson az órára"
+
+msgid "Tap the gear"
+msgstr "Koppintson a fogaskerékre"
+
+msgid "Tap the map to stand there."
+msgstr "Koppintson a térképre, hogy ott álljon."
+
+msgid "Tap the place"
+msgstr "Koppintson a helyegységre"
+
+msgid "Tap to confirm"
+msgstr "Koppintson a megerősítéshez"
+
+msgid "Tertiary intercardinal points"
+msgstr "Harmadlagos közötti égtájpontok"
+
+msgid "Text angle"
+msgstr "Szöveg szöge"
+
+msgid "The Great Red Spot drifts in System II longitude. Enter a recent measurement and the drift rate to carry it forward from."
+msgstr "A Nagy Vörös Folt a System II hosszúságban eltolódik. Adjon meg egy közelmúltbeli mérést és az eltolódási sebességet, hogy előre vigyük."
+
+msgid "The algorithm is based on visual observations 1877-1891 by G. Müller and was still republished in the Explanatory Supplement to the Astronomical Ephemeris (1961)."
+msgstr "Az algoritmus G. Müller 1877-1891-es megfigyelésein alapul, és még mindig újra kiadták az Explanatory Supplement to the Astronomical Ephemeris-ben (1961)."
+
+msgid "The algorithm was published by A. Mallama & J. L. Hilton: Computing apparent planetary magnitudes for the Astronomical Almanac. Astronomy&Computing 25 (2018) 10-24."
+msgstr "Az algoritmust A. Mallama & J. L. Hilton publikálta: Computing apparent planetary magnitudes for the Astronomical Almanac. Astronomy&Computing 25 (2018) 10-24."
+
+msgid "The algorithm was published in the 2nd edition of the Explanatory Supplement to the Astronomical Almanac (1992)."
+msgstr "Az algoritmus az Explanatory Supplement to the Astronomical Almanac 2. kiadásában jelent meg (1992)."
+
+msgid "The algorithm was published in the 3rd edition of the Explanatory Supplement to the Astronomical Almanac (2013)."
+msgstr "Az algoritmus az Explanatory Supplement to the Astronomical Almanac 3. kiadásában jelent meg (2013)."
+
+msgid "The algorithm was used in the Astronomical Almanac (1984 and later) and gives V (instrumental) magnitudes (allegedly from D.L. Harris)."
+msgstr "Az algoritmust az Astronomical Almanac-ban (1984 és később) használták, és V (instrumentális) magnitúdókat ad (állítólag D. L. Harris munkája)."
+
+msgid "The classical cepheids"
+msgstr "A klasszikus cefeida csillagok"
+
+msgid "The colour each kind of object is drawn in"
+msgstr "Az egyes objektumtípusok rajzolásának színe"
+
+msgid "The engine did not answer with any colours."
+msgstr "A motor nem válaszolt semmilyen szín alatt."
+
+msgid "The galactic band"
+msgstr "A galaktikus sáv"
+
+msgid "The greatest eclipse is invisible in current location"
+msgstr "A legnagyobb fogyatkozás az aktuális helyen nem látható"
+
+msgid "The horizon outline instead of the panorama"
+msgstr "A horizont körvonala a panoráma helyett"
+
+msgid "The path each body has taken across the sky"
+msgstr "Az út, amely minden test megtett az égbolton"
+
+msgid "The shortest label the culture defines"
+msgstr "A legrövidebb cím, amelyet a kultúra meghatároz"
+
+msgid "Thickness"
+msgstr "Vastagság"
+
+msgid "This copy ships no scripts."
+msgstr "Ez a másolat nem tartalmaz szkripteket."
+
+msgid "This device has no location service."
+msgstr "Ennek az eszköznek nincs helymeghatározás szolgáltatása."
+
+msgid "This part of the engine exposes no settings on this build."
+msgstr "A motor ezen része nem mutat semmilyen beállítást ezen a buildnél."
+
+msgid "This tool works on Earth only!"
+msgstr "Ez az eszköz csak a Földön működik!"
+
+msgid "This tool works on Earth only. Short steps over a long duration are slow."
+msgstr "Ez az eszköz csak a Földön működik. Rövid lépések hosszú idő alatt lassúak."
+
+msgid "This year"
+msgstr "Ez az év"
+
+msgid "Time of day"
+msgstr "A nap ideje"
+
+msgid "Time span"
+msgstr "Időtartam"
+
+msgid "Time step"
+msgstr "Időlépés"
+
+msgid "To the next (mths)"
+msgstr "A következőhöz (hó)"
+
+msgid "To the next, months"
+msgstr "A következőhöz, hónapok"
+
+msgid "Today"
+msgstr "Ma"
+
+msgid "Toggle display of nebula images."
+msgstr "Ködkép megjelenítésének kapcsolása."
+
+msgid "Toggle display of the button for the Digitized Sky Survey."
+msgstr "A Digitized Sky Survey gombja megjelenítésének kapcsolása."
+
+msgid "Toggle display of the button for the HiPS Surveys. Select a survey in the View settings."
+msgstr "A HiPS Surveys gombja megjelenítésének kapcsolása. Válasszon egy felmérést a Nézet beállításoknál."
+
+msgid "Toggle drawing Sun's glare"
+msgstr "Nap ragyogása megjelenítésének kapcsolása"
+
+msgid "Toggle drawing halo around the Moon"
+msgstr "Hold körüli glória megjelenítésének kapcsolása"
+
+msgid "Toggle permanent drawing of Sun's corona when atmosphere is disabled"
+msgstr "Nap koronájának állandó megjelenítésének kapcsolása, ha a légkör letiltva"
+
+msgid "Toggle the usage of background under GUI buttons"
+msgstr "GUI gombok alatt lévő háttér használatának kapcsolása"
+
+msgid "Toggle vertical and horizontal image flip buttons."
+msgstr "Képcsúsztatás függőleges és vízszintes gombja kapcsolása."
+
+msgid "Total eclipse begins"
+msgstr "Teljes fogyatkozás kezdete"
+
+msgid "Total eclipse ends"
+msgstr "Teljes fogyatkozás vége"
+
+msgid "Trails"
+msgstr "Nyomok"
+
+msgid "Translated"
+msgstr "Lefordítva"
+
+msgid "Transparency"
+msgstr "Átlátszóság"
+
+msgid "Twilight"
+msgstr "Szürkület"
+
+msgid "Twilight and rise and set times are worked out for an observer on Earth. Move back to Earth to see them."
+msgstr "Az alkonyat és kelés/nyugás ideje a Földön lévő megfigyelő számára van kiszámítva. Lépjen vissza a Földre, hogy lássa azokat."
+
+msgid "Twinkle"
+msgstr "Villanás"
+
+msgid "Twinkle amount"
+msgstr "Villanás mennyisége"
+
+msgid "Twinkle even without atmosphere"
+msgstr "Villanás légkör nélkül is"
+
+msgid "Twinkle is caused by atmospheric turbulence; this shows it regardless"
+msgstr "A villanást a légköri turbulencia okozza; ez akkor is mutatja, függetlenül"
+
+msgid "Type a name, a Bayer letter or a catalogue number - Vega, α Lyr, M 31, NGC 224."
+msgstr "Írjon be egy nevet, egy Bayer betűt vagy egy katalógus számot - Vega, α Lyr, M 31, NGC 224."
+
+msgid "Types"
+msgstr "Típusok"
+
+msgid "Umbral magnitude"
+msgstr "Umbra nagysága"
+
+msgid "Unnamed star"
+msgstr "Név nélküli csillag"
+
+msgid "Up to mag."
+msgstr "Mag.-ig"
+
+msgid "Use additional names of DSO"
+msgstr "DSO további nevének használata"
+
+msgid "Use buttons background"
+msgstr "Gombok hátterének használata"
+
+msgid "Use common symbols for coordinate systems"
+msgstr "Közös szimbólumok használata koordináta-rendszerekhez"
+
+msgid "Use decimal degrees for coordinates"
+msgstr "Tizedes fokok használata koordinátákhoz"
+
+msgid "Use designations for screen labels"
+msgstr "Megnevezések használata képernyő címkékhez"
+
+msgid "Use distance from North Celestial Pole, not declination from equator in equatorial coordinates"
+msgstr "Az Északi Égi Pólustól való távolság használata, nem az Egyenlítőtől való deklináció egyenlítői koordinátákban"
+
+msgid "Use mag/arcsec^2 for surface brightness"
+msgstr "Felszíni fényesség esetén mag/szögsec^2 használata"
+
+msgid "Use my location"
+msgstr "Saját helyem használata"
+
+msgid "Use outlines for big deep-sky objects"
+msgstr "Nagyobb mélyég objektumok körvonalának használata"
+
+msgid "Use proportional hints"
+msgstr "Arányos tippek használata"
+
+msgid "Use sorting by string length"
+msgstr "Rendezés karakterlánc hosszúsága szerint"
+
+msgid "Use the date now shown in the sky"
+msgstr "Az égbolton most megjelenített dátum használata"
+
+msgid "Use the value in landscape.ini when it has one"
+msgstr "A landscape.ini-ben szereplő érték használata, ha van"
+
+msgid "Use the value stored for this location"
+msgstr "A helyhez tárolt érték használata"
+
+msgid "Use this landscape as default"
+msgstr "Ez a tájkép alapértelmezettként való használata"
+
+msgid "Var. stars"
+msgstr "Var. csillagok"
+
+msgid "Version %s  ·  Qt %s"
+msgstr "Verzió %s  ·  Qt %s"
+
+msgid "Vertical viewport offset"
+msgstr "Függőleges nézőport eltolódás"
+
+msgid "View recent GRS measurements"
+msgstr "Legújabb GRS mérések megtekintése"
+
+msgid "Visibility"
+msgstr "Láthatóság"
+
+msgid "Visual magnitude based on phase angle and albedo."
+msgstr "Vizuális magnitúdó a fázisszög és albedó alapján."
+
+msgid "Western quadrature"
+msgstr "Nyugati kvadratúra"
+
+msgid "When a search result is chosen"
+msgstr "Amikor egy keresési eredményt választanak"
+
+msgid "Where Jupiter's Great Red Spot was, and when"
+msgstr "Ahol a Jupiter Nagy Vörös Foltja volt, és mikor"
+
+msgid "Width"
+msgstr "Szélesség"
+
+msgid "Working out the contact times…"
+msgstr "Az érintkezési idők kidolgozása…"
+
+msgid "Year"
+msgstr "Év"
+
+msgid "Zodiac and lunar stations"
+msgstr "Zodiákus és Hold állomások"
+
+msgid "Zodiacal Light brightness"
+msgstr "Állatövi fény fényessége"
+
+msgid "Zoom in and out"
+msgstr "Nagyítás és kicsinyítés"
+
+msgid "after sunset"
+msgstr "napnyugta után"
+
+msgid "before sunrise"
+msgstr "napkelte előtt"
+
+msgid "bright suburban"
+msgstr "fényes külvárosi"
+
+msgid "east +"
+msgstr "kelet +"
+
+msgid "engine ready, interface going live"
+msgstr "motor kész, felület él"
+
+msgid "excellent dark sky"
+msgstr "kiváló sötét ég"
+
+msgid "from landscape, if given"
+msgstr "tájképből, ha van"
+
+msgid "inner city"
+msgstr "belváros"
+
+msgid "north +"
+msgstr "észak +"
+
+msgid "rural/suburban"
+msgstr "vidéki/elővárosi"
+
+msgid "sci. translit."
+msgstr "tud. transzlit."
+
+msgid "select all"
+msgstr "mind kiválasztása"
+
+msgid "select none"
+msgstr "egyik sem"
+
+msgid "select preference"
+msgstr "preferencia kiválasztása"
+
+msgid "select standard"
+msgstr "standard kiválasztása"
+
+msgid "store preference"
+msgstr "preferencia tárolása"
+
+msgid "suburban/urban"
+msgstr "elővárosi/város"
+
+msgid "truly dark"
+msgstr "valóban sötét"
+
+msgid "unreadable snapshot"
+msgstr "olvashatatlan pillanatkép"
+
+msgid "with Solar Dates"
+msgstr "Nap-dátumokkal"
+
+msgid "… and moons"
+msgstr "… és holdak"

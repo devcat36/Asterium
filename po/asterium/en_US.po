@@ -1,0 +1,103 @@
+# Asterium interface translation for en_US.
+# Copyright (C) 2026 the Asterium authors
+# This file is distributed under the same licence as the Asterium package.
+#
+# MACHINE TRANSLATION, not reviewed by a speaker of this language.
+# Terminology follows upstream Stellarium's own en_US catalogue, which was used
+# as a glossary, and every entry keeps the source's printf placeholders.
+# Corrections from a human translator are welcome and should simply replace these.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: asterium\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Art"
+msgstr "Art"
+
+msgid "Ast. lines"
+msgstr "Ast. lines"
+
+msgid "Ast. names"
+msgstr "Ast. names"
+
+msgid "Atmosph."
+msgstr "Atmosph."
+
+msgid "Azi. grid"
+msgstr "Azi. grid"
+
+msgid "Bounds"
+msgstr "Bounds"
+
+msgid "Cardinals"
+msgstr "Cardinals"
+
+msgid "Centre"
+msgstr "Centre"
+
+msgid "Compass"
+msgstr "Compass"
+
+msgid "Ecl. grid"
+msgstr "Ecl. grid"
+
+msgid "Equ. grid"
+msgstr "Equ. grid"
+
+msgid "Equ. mount"
+msgstr "Equ. mount"
+
+msgid "Flip horiz."
+msgstr "Flip horiz."
+
+msgid "Flip vert."
+msgstr "Flip vert."
+
+msgid "Full screen"
+msgstr "Full screen"
+
+msgid "Gal. grid"
+msgstr "Gal. grid"
+
+msgid "Ground"
+msgstr "Ground"
+
+msgid "Gyro"
+msgstr "Gyro"
+
+msgid "HiPS"
+msgstr "HiPS"
+
+msgid "Highlight"
+msgstr "Highlight"
+
+msgid "ICRS grid"
+msgstr "ICRS grid"
+
+msgid "Lines"
+msgstr "Lines"
+
+msgid "Names"
+msgstr "Names"
+
+msgid "Neb. bg"
+msgstr "Neb. bg"
+
+msgid "Nebulae"
+msgstr "Nebulae"
+
+msgid "Night"
+msgstr "Night"
+
+msgid "Nothing found for “%s”."
+msgstr "Nothing found for \"%s\"."
+
+msgid "Planets"
+msgstr "Planets"
+
+msgid "Quit"
+msgstr "Quit"

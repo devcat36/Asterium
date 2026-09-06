@@ -1,0 +1,2773 @@
+# Asterium interface translation for ka.
+# Copyright (C) 2026 the Asterium authors
+# This file is distributed under the same licence as the Asterium package.
+#
+# MACHINE TRANSLATION, not reviewed by a speaker of this language.
+# Terminology follows upstream Stellarium's own ka catalogue, which was used
+# as a glossary, and every entry keeps the source's printf placeholders.
+# Corrections from a human translator are welcome and should simply replace these.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: asterium\n"
+"Language: ka\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%d bodies"
+msgstr "%d სხეული"
+
+msgid "%d object"
+msgstr "%d ობიექტი"
+
+msgid "%d objects"
+msgstr "%d ობიექტი"
+
+msgid "%s colour"
+msgstr "%s ფერი"
+
+msgid "%s from %s, ±%.0f m"
+msgstr "%s დან %s, ±%.0f მ"
+
+msgid "12-hour"
+msgstr "12 საათის"
+
+msgid "12h"
+msgstr "12სთ"
+
+msgid "1× below"
+msgstr "1× ქვემოთ"
+
+msgid "24-hour"
+msgstr "24 საათის"
+
+msgid "24h"
+msgstr "24სთ"
+
+msgid "A button to mark every object of the current observing list on the sky."
+msgstr "ღილაკი ამჟამინდელი დაკვირვების სიის ყველა ობიექტის აღსანიშნავად ცაზე."
+
+msgid "A button to toggle ecliptic grid of date"
+msgstr "ღილაკი დღის ეკლიპტიკური ბადის ჩართვა-გამორთვისათვის"
+
+msgid "A button to toggle equatorial J2000 grid"
+msgstr "ღილაკი ეკვატორული J2000 ბადის ჩართვა-გამორთვისათვის"
+
+msgid "A button to toggle galactic grid"
+msgstr "ღილაკი გალაქტიკური ბადის ჩართვა-გამორთვისათვის"
+
+msgid "A polygonal model for some small moons, asteroids and comets instead of a sphere"
+msgstr "პოლიგონური მოდელი რამდენიმე მცირე მთვარისათვის, ასტეროიდებისა და კომეტებისათვის სფეროს ნაცვლად"
+
+msgid "A touch-first planetarium forked from Stellarium, whose astronomy engine it uses unchanged. The interface is new; everything that draws the sky is upstream's work."
+msgstr "სტელიუმიდან განშტოებული ტაქტილური პლანეტარიუმი, რომელიც მის ასტრონომიულ ძრავას უცვლელი იყენებს. ინტერფეისი ახალია; ყველაფერი, რომელიც ცას ხაზავს, ზემოთიდან მოდის."
+
+msgid "Abbreviated names"
+msgstr "შემოკლებული სახელები"
+
+msgid "About this sky culture"
+msgstr "ამ ციური კულტურის შესახებ"
+
+msgid "Above altitude, °"
+msgstr "ზემოთ სიმაღლე, °"
+
+msgid "Absolute scale"
+msgstr "აბსოლუტური მასშტაბი"
+
+msgid "Activate this option to calculate azimuth from south towards west."
+msgstr "ამ ვარიანტის ააქტიურება აზიმუტის გამოსათვლელად სამხრეთიდან დასავლეთის მიმართულებით."
+
+msgid "Active galaxies"
+msgstr "აქტიური გალაქტიკები"
+
+msgid "Add %s"
+msgstr "დამატება %s"
+
+msgid "Additional information settings"
+msgstr "დამატებითი ინფორმაციის პარამეტრები"
+
+msgid "Adjust brightness to bright objects"
+msgstr "밝은 ობიექტებისთვის სიკაშკაშის რეგულირება"
+
+msgid "Algol-type eclipsing systems"
+msgstr "ალგოლის ტიპის დაბნელი სისტემები"
+
+msgid "Algorithm of ΔT"
+msgstr "ΔT-ის ალგორითმი"
+
+msgid "All IDs"
+msgstr "ყველა ID"
+
+msgid "All naked-eye planets"
+msgstr "ყველა მხედელი თვალით ხილული პლანეტა"
+
+msgid "All solar eclipses"
+msgstr "ყველა მზის დაბნელება"
+
+msgid "Allow negative hour angles"
+msgstr "უარყოფითი საათის კუთხეების დაშვება"
+
+msgid "Allow results outside the recommended time range of the orbital elements"
+msgstr "ორბიტალური ელემენტების რეკომენდირებული დროის დიაპაზონის გარეთ შედეგების დაშვება"
+
+msgid "Almanac"
+msgstr "ალმანახი"
+
+msgid "Almanac: Sun, Moon and naked-eye planets"
+msgstr "ალმანახი: მზე, მთვარე და ხელით მხედველობის პლანეტები"
+
+msgid "Also find"
+msgstr "ასევე იპოვეთ"
+
+msgid "Also plot"
+msgstr "ასევე დახაზეთ"
+
+msgid "Also show moons of selected object or planets"
+msgstr "აჩვენეთ ასევე არჩეული ობიექტის ან პლანეტის მთვარეები"
+
+msgid "Altitude"
+msgstr "სიმაღლე"
+
+msgid "Altitude limit, °"
+msgstr "სიმაღლის ზღვარი, °"
+
+msgid "Altitude vs. Time"
+msgstr "სიმაღლე vs. დრო"
+
+msgid "Amount"
+msgstr "რაოდენობა"
+
+msgid "An observer floats above its planet, so there is nowhere on it to stand. Choose another planet to come back down."
+msgstr "დამკვირვებელი მისი პლანეტის ზემოთ ტრიალებს, ამიტომ არ არის სად დაჯდეს. აირჩიეთ სხვა პლანეტა ღმბლად რომ ჩამოხვიდეთ."
+
+msgid "And"
+msgstr "და"
+
+msgid "And also"
+msgstr "და ასევე"
+
+msgid "And the next (years)"
+msgstr "და შემდეგი (წელი)"
+
+msgid "Ang. Size"
+msgstr "კუთხ. ზომა"
+
+msgid "Angular distance"
+msgstr "კუთხური მანძილი"
+
+msgid "Angular distance between the Moon and selected object"
+msgstr "კუთხური დაშორება მთვარესა და არჩეულ ობიექტს შორის"
+
+msgid "Angular distance from the Moon"
+msgstr "კუთხური დაშორება მთვარიდან"
+
+msgid "Angular distance from the Moon for second object"
+msgstr "კუთხური დაშორება მთვარიდან მეორე ობიექტისთვის"
+
+msgid "Angular distance from the Sun"
+msgstr "კუთხური დაშორება მზიდან"
+
+msgid "Angular distance from the Sun for second object"
+msgstr "კუთხური დაშორება მზიდან მეორე ობიექტისთვის"
+
+msgid "Angular size"
+msgstr "კუთხური ზომა"
+
+msgid "Annual drift"
+msgstr "წლიური გადრეკილება"
+
+msgid "Antisolar point"
+msgstr "ანტისოლარული წერტილი"
+
+msgid "Apex points"
+msgstr "მწვერვალის წერტილები"
+
+msgid "Aphelion"
+msgstr "აფელიონი"
+
+msgid "Appearance"
+msgstr "გამოჩენა"
+
+msgid "Apply"
+msgstr "გამოყენება"
+
+msgid "Apply time interval limits to list"
+msgstr "დროის ინტერვალის ზღვრების გამოყენება სიაზე"
+
+msgid "Art"
+msgstr "ხელოვნება"
+
+msgid "Artificial satellites and unnamed stars are excluded from calculation."
+msgstr "ხელოვნური თანამგზავრები და დასახელებული ვარსკვლავები გამოტოვებულია გამოთვლიდან."
+
+msgid "Asking for permission…"
+msgstr "ნებართვის მოთხოვნა…"
+
+msgid "Asks SIMBAD what it holds around the object that is selected now, and prints the answer as it comes back."
+msgstr "ითხოვს SIMBAD-ს რა აქვს არჩეული ობიექტის გარშემო და ბეჭდავს პასუხს როდესაც ბრუნდება."
+
+msgid "Ast. lines"
+msgstr "თან. ხაზები"
+
+msgid "Ast. names"
+msgstr "თან.სახელი"
+
+msgid "Asterism labels"
+msgstr "ასტერიზმის წარწერები"
+
+msgid "Asterism lines"
+msgstr "ასტერიზმის ხაზები"
+
+msgid "Asterisms"
+msgstr "ასტერიზმები"
+
+msgid "Asterisms font size"
+msgstr "ასტერიზმების შრიფტის ზომა"
+
+msgid "Asteroids"
+msgstr "ასტეროიდები"
+
+msgid "Astronomical Almanac (1984)"
+msgstr "ასტრონომიული ალმანახი (1984)"
+
+msgid "Astronomical Almanac (default) enlarges by 2%; Danjon (1951) differs slightly"
+msgstr "ასტრონომიული კრებული (ნაგულისხმები) გადიდება 2%-ით; დანჯონი (1951) ოდნავ განსხვავდება"
+
+msgid "Astronomical Twilight"
+msgstr "ასტრონომიული ნიჟარა"
+
+msgid "Astronomical calculations"
+msgstr "ასტრონომიული გამოთვლები"
+
+msgid "Astronomical night"
+msgstr "ასტრონომიული ღამე"
+
+msgid "At"
+msgstr "at"
+
+msgid "Atmosph."
+msgstr "ატმოსფ."
+
+msgid "Atmosphere visualization"
+msgstr "ატმოსფეროს ვიზუალიზაცია"
+
+msgid "Automatic closing dialog"
+msgstr "ავტომატური დიალოგის დახურვა"
+
+msgid "Automatic transparency"
+msgstr "ავტომატური გამჭვირვალობა"
+
+msgid "Axis distance"
+msgstr "ღერძის მანძილი"
+
+msgid "Azi. grid"
+msgstr "აზი. ბადე"
+
+msgid "Azimuth"
+msgstr "აზიმუტი"
+
+msgid "Azimuth and altitude rather than right ascension and declination"
+msgstr "აზიმუტი და სიმაღლე ვიდრე მარჯვენა ასცენზია და დეკლინაცია"
+
+msgid "Azimuth from South"
+msgstr "აზიმუტი სამხრეთიდან"
+
+msgid "Azimuth vs. Time"
+msgstr "აზიმუტი vs. დრო"
+
+msgid "Back"
+msgstr "უკან"
+
+msgid "Bad visibility conditions for current location"
+msgstr "ცუდი ხილულობის პირობები ამ ადგილისთვის"
+
+msgid "Beginning of center line; central eclipse begins"
+msgstr "ცენტრის ხაზის დაწყება; ცენტრალური დაბნელება იწყება"
+
+msgid "Below the horizon here."
+msgstr "ჰორიზონტის ქვემოთ აქ."
+
+msgid "Between objects"
+msgstr "ობიექტებს შორის"
+
+msgid "Blue"
+msgstr "ლურჯი"
+
+msgid "Boundless"
+msgstr "უსაზღვრო"
+
+msgid "Bounds"
+msgstr "საზღვრები"
+
+msgid "Bright Solar system objects (<%1 mag)"
+msgstr "ღირდებული მზის სისტემის ობიექტები (<%1 mag)"
+
+msgid "Bright barium stars"
+msgstr "ღირდებული ბარიუმის ვარსკვლავები"
+
+msgid "Bright carbon stars"
+msgstr "ღირდებული ნახშირბადის ვარსკვლავები"
+
+msgid "Bright double stars"
+msgstr "ღირდებული ორმაგი ვარსკვლავები"
+
+msgid "Bright double stars (<%1 mag)"
+msgstr "ღირდებული ორმაგი ვარსკვლავები (<%1 mag)"
+
+msgid "Bright galaxies (<%1 mag)"
+msgstr "ღირდებული გალაქტიკები (<%1 mag)"
+
+msgid "Bright nebulae"
+msgstr "ღირდებული ნებულები"
+
+msgid "Bright nebulae (<%1 mag)"
+msgstr "ღირდებული ნებულები (<%1 mag)"
+
+msgid "Bright nova stars"
+msgstr "ღირდებული ნოვა ვარსკვლავები"
+
+msgid "Bright star clusters (<%1 mag)"
+msgstr "ღირდებული ვარსკვლავური კლასტერები (<%1 mag)"
+
+msgid "Bright stars"
+msgstr "ღირდებული ვარსკვლავები"
+
+msgid "Bright stars (<%1 mag)"
+msgstr "ღირდებული ვარსკვლავები (<%1 mag)"
+
+msgid "Bright stars with high proper motion"
+msgstr "ღირდებული ვარსკვლავები მაღალი საკუთარი მოძრაობით"
+
+msgid "Bright supernova stars"
+msgstr "ღირდებული სუპერნოვა ვარსკვლავები"
+
+msgid "Bright variable stars"
+msgstr "ღირდებული ცვლადი ვარსკვლავები"
+
+msgid "Bright variable stars (<%1 mag)"
+msgstr "ღირდებული ცვლადი ვარსკვლავები (<%1 mag)"
+
+msgid "Brighter than"
+msgstr "უფრო밝 ვიდრე"
+
+msgid "Brightness"
+msgstr "სიკაშკაშე"
+
+msgid "By object type"
+msgstr "ობიექტის ტიპის მიხედვით"
+
+msgid "By planet"
+msgstr "პლანეტის მიხედვით"
+
+msgid "Calculate"
+msgstr "გამოთვლა"
+
+msgid "Calculating…"
+msgstr "გამოთვლა…"
+
+msgid "Caldwell objects"
+msgstr "კალდუელის ობიექტები"
+
+msgid "Cardinals"
+msgstr "კარდი."
+
+msgid "Catalogue numbers instead of common names"
+msgstr "კატალოგის ნომრები საერთო სახელების ნაცვლად"
+
+msgid "Category"
+msgstr "კატეგორია"
+
+msgid "Celestial body"
+msgstr "ციური სხეული"
+
+msgid "Celestial poles (J2000)"
+msgstr "ციური ბოძები (J2000)"
+
+msgid "Celestial poles (of date)"
+msgstr "ციური ბოძები (დღის)"
+
+msgid "Center of FOV"
+msgstr "FOV-ის ცენტრი"
+
+msgid "Centering button"
+msgstr "ცენტრირების ღილაკი"
+
+msgid "Central duration"
+msgstr "ცენტრალური ხანგრძლივობა"
+
+msgid "Central eclipse begins"
+msgstr "ცენტრალური დაბნელება იწყება"
+
+msgid "Central eclipse ends"
+msgstr "ცენტრალური დაბნელება მთავრდება"
+
+msgid "Centre"
+msgstr "ცენტრი"
+
+msgid "Centre on object"
+msgstr "ობიექტზე ცენტრი"
+
+msgid "Centre point"
+msgstr "ცენტრის წერტილი"
+
+msgid "Circles"
+msgstr "წრეები"
+
+msgid "Circular FOV"
+msgstr "წრიული FOV"
+
+msgid "Circumpolar circles"
+msgstr "ღერძის გარშემო წრეები"
+
+msgid "City"
+msgstr "ქალაქი"
+
+msgid "Civil Twilight"
+msgstr "სამოქალაქო ნიჟარა"
+
+msgid "Cleanup"
+msgstr "გაწმენდა"
+
+msgid "Clear"
+msgstr "გაწმენდა"
+
+msgid "Clear recent searches"
+msgstr "ბოლო ძიებების გაწმენდა"
+
+msgid "Clear the selection - a touch screen has no right button"
+msgstr "არჩევის გაწმენდა - ტაქტილურ ეკრანს არ აქვს მარჯვენა ღილაკი"
+
+msgid "Cleared."
+msgstr "გაწმენდა."
+
+msgid "Click on star to show its constellation"
+msgstr "დაწკაპეთ ვარსკვლავზე მის თანავარსკვლავედის ჩვენების জন്য"
+
+msgid "Close"
+msgstr "დახურვა"
+
+msgid "Close what is open; from the sky, leave the app running"
+msgstr "დახურეთ რომელიც ღიძს; ცადან, დატოვეთ აპლიკაცია სამუშაოდ"
+
+msgid "Clusters of galaxies"
+msgstr "გალაქტიკების კლასტერები"
+
+msgid "Coarse"
+msgstr "უხეში"
+
+msgid "Color"
+msgstr "ფერი"
+
+msgid "Color channel"
+msgstr "ფერის არხი"
+
+msgid "Color of Lunar station lines"
+msgstr "მთვარის სადგურის ხაზების ფერი"
+
+msgid "Color of asterism lines"
+msgstr "ასტერიზმის ხაზების ფერი"
+
+msgid "Color of asterism names"
+msgstr "ასტერიზმის სახელების ფერი"
+
+msgid "Color of constellation boundaries"
+msgstr "თანავარსკვლავედების საზღვრების ფერი"
+
+msgid "Color of constellation lines"
+msgstr "თანავარსკვლავედების ხაზების ფერი"
+
+msgid "Color of constellation names"
+msgstr "თანავარსკვლავედების სახელების ფერი"
+
+msgid "Color of nomenclature labels"
+msgstr "ნომენკლატურის წარწერების ფერი"
+
+msgid "Color of orbits"
+msgstr "ორბიტების ფერი"
+
+msgid "Color of planet labels"
+msgstr "პლანეტის წარწერების ფერი"
+
+msgid "Color of ray helpers"
+msgstr "სხივის დამხმელების ფერი"
+
+msgid "Color of trails"
+msgstr "ტრეილების ფერი"
+
+msgid "Color of zodiac lines"
+msgstr "ზოდიაკოს ხაზების ფერი"
+
+msgid "Colors of orbit lines"
+msgstr "ორბიტის ხაზების ფერები"
+
+msgid "Colures"
+msgstr "კოლურები"
+
+msgid "Comets"
+msgstr "კომეტები"
+
+msgid "Comets up to mag."
+msgstr "კომეტები mag-მდე."
+
+msgid "Compass"
+msgstr "კომპასი"
+
+msgid "Compass marks"
+msgstr "კომპასის ნიშნები"
+
+msgid "Config"
+msgstr "კონფიგურაცია"
+
+msgid "Configure colors of markers"
+msgstr "მარკერების ფერების კონფიგურაცია"
+
+msgid "Configure colors of orbit lines"
+msgstr "ორბიტის ხაზების ფერების კონფიგურაცია"
+
+msgid "Conjunction"
+msgstr "კონიუნქცია"
+
+msgid "Connecting line"
+msgstr "დაკავშირების ხაზი"
+
+msgid "Const."
+msgstr "ხომ."
+
+msgid "Constellations font size"
+msgstr "თანავარსკვლავედების შრიფტის ზომა"
+
+msgid "Contrast"
+msgstr "კონტრასტი"
+
+msgid "Coordinate system"
+msgstr "კოორდინატთა სისტემა"
+
+msgid "Coordinates"
+msgstr "კოორდინატები"
+
+msgid "Copyright"
+msgstr "ავტორი"
+
+msgid "Credits"
+msgstr "კრედიტები"
+
+msgid "Cubewanos"
+msgstr "კუბევანოები"
+
+msgid "Culmination altitude"
+msgstr "კულმინაციის სიმაღლე"
+
+msgid "Current FoV"
+msgstr "მიმდინარე FOV"
+
+msgid "Custom"
+msgstr "მომხმარებელი"
+
+msgid "Custom FoV limit"
+msgstr "კასტომი FOV ზღვარი"
+
+msgid "Custom altitude of the Moon, °"
+msgstr "მთვარის კასტომი სიმაღლე, °"
+
+msgid "Custom altitude of the Sun, °"
+msgstr "მზის კასტომი სიმაღლე, °"
+
+msgid "Custom settings for position of GRS"
+msgstr "GRS-ის პოზიციის კასტომი პარამეტრები"
+
+msgid "Custom values"
+msgstr "კასტომი მნიშვნელობები"
+
+msgid "Cut the scale off below the limit"
+msgstr "მასშტაბის გამოჭრა ზღვრის ქვემოთ"
+
+msgid "DATE AND TIME (UTC)"
+msgstr "თარიღი და დრო (UTC)"
+
+msgid "DSS survey"
+msgstr "DSS კვლევა"
+
+msgid "Dark nebulae"
+msgstr "მუქი ნებულები"
+
+msgid "Data"
+msgstr "მონაცემები"
+
+msgid "Date"
+msgstr "თარიღი"
+
+msgid "Date and time"
+msgstr "თარიღი და დრო"
+
+msgid "Date/time"
+msgstr "თარიღი/დრო"
+
+msgid "Dates"
+msgstr "თარიღები"
+
+msgid "Dawn"
+msgstr "ზღვარი"
+
+msgid "Dbl. stars"
+msgstr "ორმაგი ვარსკვლავები"
+
+msgid "December solstice"
+msgstr "დეკემბრის მზეჯვრა"
+
+msgid "Decimal degrees. −33.87 means 33.87° south. Elevation is metres above sea level; it moves the horizon down by a few arcminutes."
+msgstr "ათობითი გრადუსი. −33.87 ნიშნავს 33.87° სამხრეთი. სიმაღლე არის მეტრი ზღვის დონის ზემოთ; ის ჰორიზონტს რამდენიმე რკალი წუთით ქვევით აქვს."
+
+msgid "Declination"
+msgstr "დეკლინაცია"
+
+msgid "Deep Sky"
+msgstr "ღრმა ცა"
+
+msgid "Deep-sky objects"
+msgstr "ღრმა ციის ობიექტები"
+
+msgid "Degrees per year the longitude moves by"
+msgstr "გრადუსი წელი, რომელზეც გრძედი მოძრაობს"
+
+msgid "Degrees, hours and minutes as they are written - 12h30m49s, +41°16'09\", 187.7 - or plain decimal degrees."
+msgstr "გრადუსი, საათი და წუთი როგორც დაწერილია - 12h30m49s, +41°16'09\", 187.7 - ან უბრალო ათობითი გრადუსი."
+
+msgid "Deletes all recent search object data, and the objects SIMBAD contributed."
+msgstr "ის ხსნის ყველა ბოლო ძიების ობიექტის მონაცემს და ობიექტებს, რომლებიც SIMBAD-მა წაადგინა."
+
+msgid "Designations for celestial coordinate systems"
+msgstr "ციური კოორდინატთა სისტემების აღნიშვნები"
+
+msgid "Designations for double stars"
+msgstr "ორმაგი ვარსკვლავების აღნიშვნები"
+
+msgid "Designations for variable stars"
+msgstr "ცვლადი ვარსკვლავების აღნიშვნები"
+
+msgid "Dim a survey near the horizon, as the air does"
+msgstr "კვლევის დაბნელება ჰორიზონტის რომელი, როგორც ჰაერი ხდება"
+
+msgid "Dimensions"
+msgstr "განზომილებები"
+
+msgid "Display formats of date and time"
+msgstr "თარიღი და დროის ჩვენების ფორმატები"
+
+msgid "Display objects from catalogs"
+msgstr "კატალოგებიდან ობიექტების ჩვენება"
+
+msgid "Displayed"
+msgstr "ნაჩვენები"
+
+msgid "Dist."
+msgstr "მ."
+
+msgid "Distance"
+msgstr "მანძილი"
+
+msgid "Distance, AU"
+msgstr "მანძილი, AU"
+
+msgid "Done"
+msgstr "შეასრულა"
+
+msgid "Drag"
+msgstr "გაჭიმვა"
+
+msgid "Draw deep-sky objects at all"
+msgstr "ღრმა ცის ობიექტების დახაზვა საერთოდ"
+
+msgid "Draw only polygon"
+msgstr "მხოლოდ პოლიგონის დახაზვა"
+
+msgid "Draw the enabled sky surveys"
+msgstr "ჩართული ციის კვლევის დახაზვა"
+
+msgid "Draw the planets, moons and minor bodies"
+msgstr "პლანეტების, მთვარეების და მცირე სხეულების დახაზვა"
+
+msgid "Drawn larger than life, so a body that is a few arcseconds wide is visible at all. The position stays true."
+msgstr "დახაზული სიცოცხლეზე უფრო დიდი, ასე რომ სხეული რომელიც რამდენიმე რკალი წამი საკმარი არის ხილული საერთოდ. პოზიცია რჩება სწორი."
+
+msgid "Duration"
+msgstr "ხანგრძლივობა"
+
+msgid "Duration (years)"
+msgstr "ხანგრძლივობა (წელი)"
+
+msgid "Duration, months"
+msgstr "ხანგრძლივობა, თვეები"
+
+msgid "Dusk"
+msgstr "დაბნელება"
+
+msgid "Dwarf planets"
+msgstr "ჯუჯა პლანეტები"
+
+msgid "Dynamic (FOV-based) Moon size"
+msgstr "დინამიკური (FOV-based) მთვარის ზომა"
+
+msgid "Earth"
+msgstr "დედამიწა"
+
+msgid "Earth penumbra"
+msgstr "დედამიწის ნახევარი ჩრდილი"
+
+msgid "Earth shadow enlargement after Danjon"
+msgstr "დედამიწის ჩრდილის გაფართოება Danjon-ის შემდეგ"
+
+msgid "Earth umbra"
+msgstr "დედამიწის უმბრა"
+
+msgid "Eastern quadrature"
+msgstr "აღმოსავლური კვადრატურა"
+
+msgid "Ecl. grid"
+msgstr "ეკლ. ბადე"
+
+msgid "Eclipse"
+msgstr "დაბნელება"
+
+msgid "Eclipse begins; first contact with Earth"
+msgstr "დაბნელება იწყება; პირველი კონტაქტი დედამიწასთან"
+
+msgid "Eclipse ends; last contact with Earth"
+msgstr "დაბნელება მთავრდება; ბოლო კონტაქტი დედამიწასთან"
+
+msgid "Eclipse magnitude"
+msgstr "დაბნელების სიდიდე"
+
+msgid "Eclipses"
+msgstr "დაბნელებები"
+
+msgid "Eclipses are computed for observers on Earth."
+msgstr "დაბნელებები გამოთვლილია დედამიწაზე დამკვირვებლებისთვის."
+
+msgid "Ecliptic"
+msgstr "ეკლიპტიკა"
+
+msgid "Ecliptic (J2000)"
+msgstr "ეკლიპტიკა (J2000)"
+
+msgid "Ecliptic (J2000.0)"
+msgstr "ეკლიპტიკა (J2000.0)"
+
+msgid "Ecliptic (of date)"
+msgstr "ეკლიპტიკა (დღის)"
+
+msgid "Ecliptic grid"
+msgstr "ეკლიპტიკური ბადე"
+
+msgid "Ecliptic grid (J2000)"
+msgstr "ეკლიპტიკური ბადე (J2000)"
+
+msgid "Ecliptic grid (of date)"
+msgstr "ეკლიპტიკური ბადე (დღის)"
+
+msgid "Ecliptic poles (J2000)"
+msgstr "ეკლიპტიკის ბოძები (J2000)"
+
+msgid "Ecliptic poles (of date)"
+msgstr "ეკლიპტიკის ბოძები (დღის)"
+
+msgid "Elev."
+msgstr "აღმ."
+
+msgid "Elevation"
+msgstr "სიმაღლე"
+
+msgid "Elevation in metres"
+msgstr "სიმაღლე მეტრებში"
+
+msgid "Elong."
+msgstr "გაგ."
+
+msgid "Elongation"
+msgstr "ელონგაცია"
+
+msgid "Elongations and quadratures"
+msgstr "გაჭიმვა და კვადრატურა"
+
+msgid "Emission-line stars"
+msgstr "ემისიური ხაზის ვარსკვლავები"
+
+msgid "Enabled only"
+msgstr "მხოლოდ ჩართული"
+
+msgid "End of center line; central eclipse ends"
+msgstr "ცენტრის ხაზის დასრულება; ცენტრალური დაბნელება მთავრდება"
+
+msgid "Enter Culture..."
+msgstr "შეიყვანეთ კულტურა..."
+
+msgid "Ephemeris"
+msgstr "ეფემერიდა"
+
+msgid "Equ. grid"
+msgstr "ეკვ. ბადე"
+
+msgid "Equ. mount"
+msgstr "ეკვ. მონტ."
+
+msgid "Equator (J2000)"
+msgstr "ეკვატორი (J2000)"
+
+msgid "Equator (of date)"
+msgstr "ეკვატორი (დღის)"
+
+msgid "Equatorial"
+msgstr "ეკვატორული"
+
+msgid "Equatorial (J2000.0)"
+msgstr "ეკვატორული (J2000.0)"
+
+msgid "Equatorial grid (J2000)"
+msgstr "ეკვატორული ბადე (J2000)"
+
+msgid "Equatorial grid (of date)"
+msgstr "ეკვატორული ბადე (დღის)"
+
+msgid "Equatorial radii ratio"
+msgstr "ეკვატორული რადიუსების თანაფარდობა"
+
+msgid "Equinoxes (J2000)"
+msgstr "ბუნიობები (J2000)"
+
+msgid "Equinoxes (of date)"
+msgstr "ბუნიობები (დღის)"
+
+msgid "Evening"
+msgstr "საღამო"
+
+msgid "Every"
+msgstr "ყოველი"
+
+msgid "Every name the object is catalogued under"
+msgstr "ყოველი სახელი რომელიც ობიექტი კატალოგშია"
+
+msgid "Exoplanetary systems"
+msgstr "ეგზოპლანეტარული სისტემები"
+
+msgid "Explanatory Supplement (1992)"
+msgstr "ასახსნელი დამატება (1992)"
+
+msgid "Explanatory Supplement (2013)"
+msgstr "ასახსნელი დამატება (2013)"
+
+msgid "Exterior egress"
+msgstr "გარე გამოსვლა"
+
+msgid "Exterior ingress"
+msgstr "გარე შემოსვლა"
+
+msgid "Extras"
+msgstr "ექსტრა"
+
+msgid "Fades the ground as you look below the horizon or zoom in"
+msgstr "მიწა ქრება, როცა ჰორიზონტს ქვემოთ იყურებით ან აახლოებთ"
+
+msgid "Fading duration"
+msgstr "შემსუბუქების ხანგრძლივობა"
+
+msgid "Faintest shown"
+msgstr "ყველაზე სუსტი ნაჩვენები"
+
+msgid "Favorites"
+msgstr "ფავორიტები"
+
+msgid "Fetching the survey lists…"
+msgstr "კვლევის სიების ატვირთვა…"
+
+msgid "Field of view"
+msgstr "ხედის ველი"
+
+msgid "Filter"
+msgstr "ფილტრი"
+
+msgid "Filter by type"
+msgstr "ფილტრი ტიპის მიხედვით"
+
+msgid "Find a city"
+msgstr "იპოვეთ ქალაქი"
+
+msgid "Fine"
+msgstr "ნაზი"
+
+msgid "First %d of %d - filter to narrow it."
+msgstr "პირველი %d დან %d - ფილტრი ის შეზღუდვისთვის."
+
+msgid "First body"
+msgstr "პირველი სხეული"
+
+msgid "First celestial body"
+msgstr "პირველი ციური სხეული"
+
+msgid "First graph"
+msgstr "პირველი გრაფიკი"
+
+msgid "Fix"
+msgstr "დაფიქსირება"
+
+msgid "Fixed Equator"
+msgstr "დაფიქსირებული ეკვატორი"
+
+msgid "Fixed Equatorial grid"
+msgstr "დაფიქსირებული ეკვატორული ბადე"
+
+msgid "Fixed instant"
+msgstr "დაფიქსირებული მომენტი"
+
+msgid "Flip buttons"
+msgstr "არეკვლის ღილაკები"
+
+msgid "Flip horiz."
+msgstr "ჰორი.ასახ"
+
+msgid "Flip vert."
+msgstr "ვერ. ასახვა"
+
+msgid "Font size"
+msgstr "შრიფტის ზომა"
+
+msgid "Frame rate"
+msgstr "ფრეიმის სიხშირე"
+
+msgid "From"
+msgstr "დან"
+
+msgid "From year"
+msgstr "დან წელი"
+
+msgid "Full screen"
+msgstr "სრული ეკრ."
+
+msgid "Fullscreen button"
+msgstr "მთელი ეკრანის ღილაკი"
+
+msgid "Further reading"
+msgstr "დამატებითი წაკითხვა"
+
+msgid "GRS details…"
+msgstr "GRS-ის დეტალები…"
+
+msgid "Gal. grid"
+msgstr "გალ. ბადე"
+
+msgid "Galactic"
+msgstr "გალაქტიკური"
+
+msgid "Galactic center and anticenter"
+msgstr "გალაქტიკის ცენტრი და ანტიცენტრი"
+
+msgid "Galactic equator"
+msgstr "გალაქტიკური ეკვატორი"
+
+msgid "Galactic poles"
+msgstr "გალაქტიკის პოლუსები"
+
+msgid "Galaxies"
+msgstr "გალაქტიკები"
+
+msgid "Gamma"
+msgstr "გამა"
+
+msgid "Gamma, saturation, brightness, contrast, opacity, colour channel and inverted colours belong to one survey. Open a survey to set them."
+msgstr "გამა, გაჯერება, სიკაშკაშე, კონტრასტი, მუქობა, ფერის არხი და ინვერტირებული ფერი აკუთვნებენ ერთ კვლევას. კვლევის გახსნა მათ დასაყენებლად."
+
+msgid "Generic"
+msgstr "ზოგადი"
+
+msgid "Gestures"
+msgstr "ჟესტები"
+
+msgid "Globular star clusters"
+msgstr "სფერული ვარსკვლავური კლასტერები"
+
+msgid "Go there"
+msgstr "წაფვე"
+
+msgid "Go to position"
+msgstr "პოზიციაზე წაფვე"
+
+msgid "Go to this eclipse"
+msgstr "ამ დაბნელებაზე წაფვე"
+
+msgid "Go to this moment"
+msgstr "ამ მომენტზე წაფვე"
+
+msgid "Go to this transit"
+msgstr "ამ პასაჟზე წაფვე"
+
+msgid "Good visibility conditions for current location"
+msgstr "კარგი ხილულობის პირობები ამ ადგილისთვის"
+
+msgid "Graphs"
+msgstr "გრაფიკები"
+
+msgid "Great Red Spot"
+msgstr "დიდი წითელი ლაქა"
+
+msgid "Great Red Spot details"
+msgstr "დიდი წითელი ლაქის დეტალები"
+
+msgid "Greatest eastern elongation"
+msgstr "უდიდესი აღმოსავლური ელონგაცია"
+
+msgid "Greatest eclipse"
+msgstr "უდიდესი დაბნელება"
+
+msgid "Greatest elongation for an inner planet, quadrature for an outer one"
+msgstr "ყველაზე დიდი გაახლოება შიდა პლანეტისთვის, კვადრატურა გარე პლანეტისთვის"
+
+msgid "Greatest western elongation"
+msgstr "უდიდესი დასაბამი ელონგაცია"
+
+msgid "Greek letters"
+msgstr "ბერძნული ასოები"
+
+msgid "Greek letters for Bayer designations"
+msgstr "ბერძნული ასოები Bayer აღნიშვანებისთვის"
+
+msgid "Green"
+msgstr "მწვანე"
+
+msgid "Grid density"
+msgstr "ბადის სიმკრთალე"
+
+msgid "Grids"
+msgstr "ბადეები"
+
+msgid "Ground"
+msgstr "მიწა"
+
+msgid "Gyro"
+msgstr "გირო"
+
+msgid "Gyro mode"
+msgstr "გირო რეჟიმი"
+
+msgid "Height"
+msgstr "სიმაღლე"
+
+msgid "Heliocentric distance"
+msgstr "ჰელიოცენტრული მანძილი"
+
+msgid "Heliocentric ecliptic positions of the major planets."
+msgstr "ძირითადი პლანეტების ჰელიოცენტრული ეკლიპტიკური პოზიციები."
+
+msgid "Herschel 400 objects"
+msgstr "ჰერშელის 400 ობიექტი"
+
+msgid "HiPS"
+msgstr "HiPS"
+
+msgid "Hide controls"
+msgstr "კონტროლის დამალვა"
+
+msgid "Hide deep-sky objects fainter than the limit"
+msgstr "ღრმა ცის ობიექტების დამალვა სუსტი ნათელი"
+
+msgid "Hide nomenclature on the celestial body of observer"
+msgstr "დამკვირვებლის ციური სხეულის ნომენკლატურის დამალვა"
+
+msgid "Hide orbits of minor bodies"
+msgstr "მცირე სხეულების ორბიტების დამალვა"
+
+msgid "Highlight"
+msgstr "მარკირება"
+
+msgid "Highlight the objects of the observing list"
+msgstr "დაკვირვების სიის ობიექტების მონიშვნა"
+
+msgid "Hint circles marking each planet"
+msgstr "მინიშვნების წრეები თითოეული პლანეტის მარკირებისთვის"
+
+msgid "Hints"
+msgstr "მინიშვნებები"
+
+msgid "Hints brightness"
+msgstr "მინიშვნებების სიკაშკაშე"
+
+msgid "Hipparcos designations"
+msgstr "Hipparcos აღნიშვანებები"
+
+msgid "Horizontal"
+msgstr "ჰორიზონტალური"
+
+msgid "Horizontal coordinates"
+msgstr "ჰორიზონტალური კოორდინატები"
+
+msgid "Hour angles usually run 0...24h. This counts -12h...12h."
+msgstr "საათის კუთხეები ჩვეულებრივ 0...24h. ეს აითვლიება −12h...12h."
+
+msgid "How many"
+msgstr "რამდენი"
+
+msgid "ICRS grid"
+msgstr "ICRS ბადე"
+
+msgid "Include"
+msgstr "ჩართვა"
+
+msgid "Include bright comets"
+msgstr "კომეტების ჩართვა (밝음)"
+
+msgid "Include selected minor planets"
+msgstr "რჩეული მცირე პლანეტების ჩართვა"
+
+msgid "Inferior conjunction"
+msgstr "ქვედა კონიუნქცია"
+
+msgid "Info label"
+msgstr "ინფორმაციის წარწერი"
+
+msgid "Interacting galaxies"
+msgstr "ურთიერთმოქმედი გალაქტიკები"
+
+msgid "Intercardinal points"
+msgstr "საღვაბე წერტილები"
+
+msgid "Interior egress"
+msgstr "შიგნიდან გამოსვლა"
+
+msgid "Interior ingress"
+msgstr "შიგნიდან შესვლა"
+
+msgid "Interstellar objects"
+msgstr "ვარსკვლავთაშორის ობიექტები"
+
+msgid "Invariable plane of the Solar system"
+msgstr "მზის სისტემის უცვლელი სიბრტყე"
+
+msgid "Isolated"
+msgstr "იზოლირებული"
+
+msgid "Its elevation, and the civil, nautical and astronomical twilights"
+msgstr "მის სიმაღლე და სამოქალაქო, საზღვაო და ასტრონომიული ორაგული"
+
+msgid "Jovigraphic longitude of the spot in System II, in degrees"
+msgstr "ლაქის გიოგრაფიული გრძედი II სისტემაში, გრადუსებში"
+
+msgid "Julian day"
+msgstr "იულიუსის დღე"
+
+msgid "June solstice"
+msgstr "ივნისის მზეჯვრა"
+
+msgid "Label"
+msgstr "წარწერი"
+
+msgid "Label colour"
+msgstr "წარწერის ფერი"
+
+msgid "Label only features along the terminator"
+msgstr "დაარქვი ნახატები მხოლოდ ტერმინატორის გასწვრივ"
+
+msgid "Labels"
+msgstr "წარწერები"
+
+msgid "Labels and Markers amount"
+msgstr "წარწერებისა და ნიშნების რაოდენობა"
+
+msgid "Labels brightness"
+msgstr "წარწერების სიკაშკაშე"
+
+msgid "Landscape labels"
+msgstr "პეიზაჟის წარწერები"
+
+msgid "Language settings"
+msgstr "ენის პარამეტრები"
+
+msgid "Largest, ′"
+msgstr "ყველაზე დიდი, ′"
+
+msgid "Last known position"
+msgstr "ბოლო ცნობილი პოზიცია"
+
+msgid "Lasting"
+msgstr "ხანგრძლიობა"
+
+msgid "Latest selected object"
+msgstr "ბოლოს არჩეული ობიექტი"
+
+msgid "Latitude"
+msgstr "განედი"
+
+msgid "Latitude −90…90, longitude −180…180."
+msgstr "განედი −90…90, რგეოდი −180…180."
+
+msgid "Layer appearance"
+msgstr "ფენის გამოჩენა"
+
+msgid "Leaves the landscape visible in darkness"
+msgstr "პეიზაჟის ხილვადობა მუქი გარემოში"
+
+msgid "Licence"
+msgstr "ლიცენზია"
+
+msgid "Light pollution"
+msgstr "სინათლის ხარვეზი"
+
+msgid "Light pollution from database"
+msgstr "სინათლის ხარვეზი მონაცემთა ბაზიდან"
+
+msgid "Limit angular separation"
+msgstr "კუთხური გამოყოფის შეზღუდვა"
+
+msgid "Limit angular size"
+msgstr "კუთხური ზომის შეზღუდვა"
+
+msgid "Limit magnitude"
+msgstr "სიდიდის შეზღუდვა"
+
+msgid "Limit the magnitude of solar system objects"
+msgstr "მზის სისტემის ობიექტების სიდიდის შეზღუდვა"
+
+msgid "Line"
+msgstr "ხაზი"
+
+msgid "Line thickness"
+msgstr "ხაზის სისქე"
+
+msgid "Linear and angular distances between selected objects"
+msgstr "წრფივი და კუთხური მანძილები არჩეული ობიექტებს შორის"
+
+msgid "Linear distance"
+msgstr "წრფივი მანძილი"
+
+msgid "Lines"
+msgstr "ხაზები"
+
+msgid "Lines and circles"
+msgstr "ხაზები და წრეები"
+
+msgid "List"
+msgstr "ნუსხა"
+
+msgid "List name"
+msgstr "ნუსხის სახელი"
+
+msgid "Lists"
+msgstr "ნუსხები"
+
+msgid "Lit windows, street lighting and the like"
+msgstr "განათებული ფანჯრები, ქუჩის განათება და ა.შ."
+
+msgid "Loading…"
+msgstr "ჩატვირთვა…"
+
+msgid "Local Mean Solar Time"
+msgstr "ლოკალური საშუალო მზის დრო"
+
+msgid "Local Time"
+msgstr "ადგილობრივი დრო"
+
+msgid "Local True Solar Time"
+msgstr "ლოკალური ჭეშმარიტი მზის დრო"
+
+msgid "Local solar eclipses"
+msgstr "ლოკალური მზის დაბნელებები"
+
+msgid "Local time"
+msgstr "ლოკალური დრო"
+
+msgid "Local time, h"
+msgstr "ლოკალური დრო, სთ"
+
+msgid "Locate me"
+msgstr "მოძებნა"
+
+msgid "Locating…"
+msgstr "მოძებნა…"
+
+msgid "Location from landscape"
+msgstr "ადგილი პეიზაჟიდან"
+
+msgid "Location is switched off in the system settings."
+msgstr "ადგილი გამორთულია სისტემის პარამეტრებში."
+
+msgid "Location permission refused. The other two ways still work."
+msgstr "ადგილის უფლება უარყოფილია. სხვა ორი გზა კიდევ მოქმედებს."
+
+msgid "Lock position when coordinates are used"
+msgstr "ადგილის ჩაკეტვა კოორდინატების გამოყენებისას"
+
+msgid "Long press"
+msgstr "გრძელი დაჭერა"
+
+msgid "Longitude"
+msgstr "რგეოდი"
+
+msgid "Longitude of GRS"
+msgstr "GRS-ის რგეოდი"
+
+msgid "Lunar Elongation"
+msgstr "მთვარის გაახლოება"
+
+msgid "Lunar Stations"
+msgstr "მთვარის სადგურები"
+
+msgid "Lunar eclipses"
+msgstr "მთვარის დაბნელებები"
+
+msgid "Lunar elongation"
+msgstr "მთვარის გაახლოება"
+
+msgid "Mag."
+msgstr "სი."
+
+msgid "Mag. 1"
+msgstr "ვამ. 1"
+
+msgid "Mag. 2"
+msgstr "ვამ. 2"
+
+msgid "Magnitude"
+msgstr "სიდიდე"
+
+msgid "Magnitudes"
+msgstr "სიდიდეები"
+
+msgid "Major planets"
+msgstr "ძირითადი პლანეტები"
+
+msgid "Major planets by planet, minor bodies by type"
+msgstr "ძირითადი პლანეტები პლანეტის მიხედვით, მცირე სხეულები ტიპის მიხედვით"
+
+msgid "Map of the planet. Tap to set the observer's place."
+msgstr "პლანეტის რუკა. დაჭერა დამკვირვებლის ადგილის დასაყენებლად."
+
+msgid "March equinox"
+msgstr "მარტის ტოლი დღე"
+
+msgid "Mark impact features with ellipses"
+msgstr "გავლენის მახასიათებლების მარკირება ელიფსებით"
+
+msgid "Mark minor bodies"
+msgstr "მცირე სხეულების მარკირება"
+
+msgid "Markers"
+msgstr "ნიშნები"
+
+msgid "Markers sized by the object's angular size"
+msgstr "ნიშნები ობიექტის კუთხური ზომით"
+
+msgid "Master switch for the grids, lines and points below"
+msgstr "მასტერ გამრთველი ბადეების, ხაზების და წერტილების ქვემოთ"
+
+msgid "Max"
+msgstr "მაქს"
+
+msgid "Max items to display"
+msgstr "მაქსიმალური ელემენტები ჩვენებისთვის"
+
+msgid "Max. results"
+msgstr "მაქს. შედეგი"
+
+msgid "Max. search radius"
+msgstr "მაქს. ძებნის რადიუსი"
+
+msgid "Maximum Solar altitude"
+msgstr "მზის მაქსიმალური სიმაღლე"
+
+msgid "Maximum allowed separation"
+msgstr "მაქსიმალური დაშორება"
+
+msgid "Maximum angular size"
+msgstr "მაქსიმალური კუთხური ზომა"
+
+msgid "Maximum eclipse"
+msgstr "მაქსიმალური დაბნელება"
+
+msgid "Maximum year"
+msgstr "მაქსიმალური წელი"
+
+msgid "Mean motion"
+msgstr "საშუალო მოძრაობა"
+
+msgid "Mercury, Venus, Mars, Jupiter and Saturn at once. Earth only."
+msgstr "მერკური, ვენერა, მარსი, იუპიტერი და სატურნი ერთდროულად. მხოლოდ დედამიწა."
+
+msgid "Messier objects"
+msgstr "მესიეს ობიექტები"
+
+msgid "Mid-transit"
+msgstr "მხრივ-პასაჟი"
+
+msgid "Milky Way"
+msgstr "რძის გზა"
+
+msgid "Milky Way brightness"
+msgstr "რძის გზის სიკაშკაშე"
+
+msgid "Milky Way saturation"
+msgstr "რძის გზის გაჯერება"
+
+msgid "Min"
+msgstr "მინ"
+
+msgid "Minimal angular size"
+msgstr "მინიმალური კუთხური ზომა"
+
+msgid "Minimal brightness"
+msgstr "მინიმალური სიკაშკაშე"
+
+msgid "Minimum Solar altitude"
+msgstr "მზის მინიმალური სიმაღლე"
+
+msgid "Minimum year"
+msgstr "მინიმალური წელი"
+
+msgid "Minor bodies"
+msgstr "მცირე სხეულები"
+
+msgid "Minutes before sunrise / after sunset"
+msgstr "წუთი მზის ამოსვლამდე / მზის ჩასვლის შემდეგ"
+
+msgid "Month"
+msgstr "თვე"
+
+msgid "Monthly Elevation"
+msgstr "თვის სიმაღლე"
+
+msgid "Moon at"
+msgstr "მთვარე"
+
+msgid "Moon enters penumbra"
+msgstr "მთვარე შედის ნახევარ-ჩრდილში"
+
+msgid "Moon enters umbra"
+msgstr "მთვარე შედის სრულ ჩრდილში"
+
+msgid "Moon in zenith at"
+msgstr "მთვარე ზენიტში:"
+
+msgid "Moon leaves penumbra"
+msgstr "მთვარე ტოვებს ნახევარ-ჩრდილს"
+
+msgid "Moon leaves umbra"
+msgstr "მთვარე ტოვებს სრულ ჩრდილს"
+
+msgid "Moon's halo"
+msgstr "მთვარის ჰალო"
+
+msgid "Moons of first body"
+msgstr "პირველი სხეულის მთვარეები"
+
+msgid "Morning"
+msgstr "დილა"
+
+msgid "Morph. Descr."
+msgstr "მორფ. აღწერი"
+
+msgid "Morphological description"
+msgstr "მორფოლოგიური აღწერი"
+
+msgid "Move the sky by pointing the phone at it"
+msgstr "ცის მოძრაობა ტელეფონის მიერ მისკენ მიმართვით"
+
+msgid "Move the sky with the phone"
+msgstr "ცის მოძრაობა ტელეფონით"
+
+msgid "NGC/IC objects"
+msgstr "NGC/IC ობიექტები"
+
+msgid "Name for the new list"
+msgstr "ახალი ნუსხის სახელი"
+
+msgid "Named features the landscape marks"
+msgstr "დასახელებული ნახატები პეიზაჟის მიერ"
+
+msgid "Names"
+msgstr "სახელები"
+
+msgid "Names beside the planets and their markers"
+msgstr "სახელები პლანეტების გვერდით და მათი ნიშნები"
+
+msgid "Names in English"
+msgstr "სახელები ინგლისურად"
+
+msgid "Nautical Twilight"
+msgstr "საზღვაო ნიჟარა"
+
+msgid "Neb. bg"
+msgstr "ნებ. ფონი"
+
+msgid "Nebula background"
+msgstr "ნებულის ფონი"
+
+msgid "Nebulae"
+msgstr "ნებულები"
+
+msgid "New list"
+msgstr "ახალი ნუსხა"
+
+msgid "Next"
+msgstr "შემდეგი"
+
+msgid "Night"
+msgstr "ღამე"
+
+msgid "No city matches that."
+msgstr "არცერთი ქალაქი არ ემთხვევა."
+
+msgid "No eclipses found. Pick a range and calculate."
+msgstr "დაბნელებები ვერ მოიძებნა. რეწრის არჩევა და გამოთვლა."
+
+msgid "No fresh fix - the receiver may have no sky. Try again outdoors, or set the place another way."
+msgstr "ახალი შედეგი არ არის - მიმღები არ შეიძლება ღვიძის გქონდეს. კვლავ ცდა გარე ადგილას, ან ადგილი სხვა გზით დაყენდეს."
+
+msgid "No surveys were found. The lists are downloaded, so this needs a connection."
+msgstr "კვლევები ვერ მოიძებნა. ნუსხები ჩამოთვლილია, ამიტომ ეს კავშირს საჭიროებს."
+
+msgid "None downloaded yet"
+msgstr "არცერთი ჯერ კიდევ ჩამოთვლილი არ არის"
+
+msgid "Normal"
+msgstr "ნორმალური"
+
+msgid "Not observable eclipse"
+msgstr "დაბნელება, რომელიც არ არის დაკვირვებადი"
+
+msgid "Note: Local circumstances for eclipses during thousands of years in the past and future are not reliable due to uncertainty in ΔT which is caused by fluctuations in Earth's rotation."
+msgstr "შენიშვნა: დაბნელებების ადგილობრივი გარემოებები ათასობით წლის წინ და მომავალში საიმედო არ არის ΔT-ის გამო, რომელიც გამოწვეულია დედამიწის ბრუნვის რყევებით."
+
+msgid "Note: artificial satellites and unnamed stars are excluded from calculation"
+msgstr "შენიშვნა: ხელოვნური სატელიტები და უსახელო ვარსკვლავები გამოირიცხა გამოთვლებიდან"
+
+msgid "Note: this tool doesn't apply the refraction correction for coordinates. Horizontal coordinates stop the clock, or the sky would turn away from the point while you arrive at it."
+msgstr "შენიშვნა: ეს ხელსაწყო არ გამოიყენებს რეფრაქციის გამოსწორებას კოორდინატებისთვის. ჰორიზონტალური კოორდინატები გაჩერებს საათს, ან ცა თავს დაუბრუნებდა წერტილს მისვლის დროს."
+
+msgid "Notes: The quantity gamma is the minimum distance from the axis of lunar shadow cone to the center of Earth, in units of Earth’s equatorial radius. This distance is positive or negative, depending on whether the axis of the shadow cone passes north or south of the Earth's center. Path of solar eclipses during thousands of years in the past and future are not reliable due to uncertainty in ΔT which is caused by fluctuations in Earth's rotation."
+msgstr "შენიშვნები: რაოდენობა გამა არის მინიმალური მანძილი მთვარის ჩრდილის კონუსის ღერძიდან დედამიწის ცენტრამდე, დედამიწის ეკვატორული რადიუსის ერთეულებში. ეს მანძილი დადებითი ან უარყოფითია, იმის მიხედვით, გაივლის თუ არა ჩრდილის კონუსის ღერძი დედამიწის ცენტრის ჩრდილოთ თუ სამხრეთით. მზის დაბნელებების გზა ათასობით წლის წინ და მომავალში საიმედო არ არის ΔT-ის გამო, რომელიც გამოწვეულია დედამიწის ბრუნვის რყევებით."
+
+msgid "Notes: The quantity gamma is the minimum distance from the center of the Moon to the axis of Earth’s umbral shadow cone, in units of Earth’s equatorial radius. This distance is positive or negative, depending on whether the Moon passes north or south of the shadow cone axis. Local circumstances for eclipses during thousands of years in the past and future are not reliable due to uncertainty in ΔT which is caused by fluctuations in Earth's rotation."
+msgstr "შენიშვნები: რაოდენობა გამა არის მინიმალური მანძილი მთვარის ცენტრიდან დედამიწის სრული ჩრდილის კონუსის ღერძამდე, დედამიწის ეკვატორული რადიუსის ერთეულებში. ეს მანძილი დადებითი ან უარყოფითია, იმის მიხედვით, გაივლის თუ არა მთვარე ჩრდილის კონუსის ღერძის ჩრდილოთ თუ სამხრეთით. დაბნელებების ადგილობრივი გარემოებები ათასობით წლის წინ და მომავალში საიმედო არ არის ΔT-ის გამო, რომელიც გამოწვეულია დედამიწის ბრუნვის რყევებით."
+
+msgid "Notes: Time in parentheses means the contact is invisible at current location. Transit times during thousands of years in the past and future are not reliable due to uncertainty in ΔT which is caused by fluctuations in Earth's rotation."
+msgstr "შენიშვნები: დროში ფრჩხალებში მოდებული მნიშვნელობა ნიშნავს, რომ კონტაქტი არ არის ხილული ამ ადგილიდან. გაზიდვის დროები ათასობით წლის წინ და მომავალში საიმედო არ არის ΔT-ის გამო, რომელიც გამოწვეულია დედამიწის ბრუნვის რყევებით."
+
+msgid "Nothing computed yet, or nothing in this category is up."
+msgstr "ჯერ არ არის გამოთვლილი, ან ამ კატეგორიაში არაფერი ზედა."
+
+msgid "Nothing computed yet."
+msgstr "ჯერ არ არის გამოთვლილი."
+
+msgid "Nothing found for “%s”."
+msgstr "\"%s\" არ იპოვო."
+
+msgid "Nothing in this list matches."
+msgstr "ამ ნუსხაში არაფერი ემთხვევა."
+
+msgid "Nothing in this list yet. Pick something out of the sky and tap the star on its card to keep it here."
+msgstr "ამ ნუსხაში ჯერ არაფერი. აირჩიე რამე ციდან და დააკაკი ზღვარი მის ბარათზე რომ შენიშვლა."
+
+msgid "Nothing is selected. Pick an object in the sky first."
+msgstr "არცერთი არ არის რჩეული. პირველ რიგში აირჩიე ობიექტი ცაში."
+
+msgid "Nothing matches."
+msgstr "არაფერი ემთხვევა."
+
+msgid "Nothing selected"
+msgstr "არცერთი არ არის რჩეული"
+
+msgid "Nothing to plot."
+msgstr "ფიქსირება არ არის."
+
+msgid "Nothing to show."
+msgstr "არაფერი დასაჩენი."
+
+msgid "Now"
+msgstr "ახლა"
+
+msgid "N× above"
+msgstr "N× ზემოთ"
+
+msgid "OBJECT"
+msgstr "ობიექტი"
+
+msgid "OBJECTS"
+msgstr "ობიექტები"
+
+msgid "Object"
+msgstr "ობიექტი"
+
+msgid "Object 1"
+msgstr "ობიექტი 1"
+
+msgid "Object 2"
+msgstr "ობიექტი 2"
+
+msgid "Objects which are up"
+msgstr "ობიექტები რომლებიც ზედა."
+
+msgid "Observable duration"
+msgstr "დაკვირვების მოვლენის ხანგრძლიობა"
+
+msgid "Observing list"
+msgstr "დაკვირვების ნუსხა"
+
+msgid "Observing list highlight"
+msgstr "დაკვირვების ნუსხის მარკირება"
+
+msgid "Observing lists"
+msgstr "დაკვირვების ნუსხები"
+
+msgid "Occultation"
+msgstr "გაფარვა"
+
+msgid "On the sky"
+msgstr "ცაში"
+
+msgid "One color"
+msgstr "ერთი ფერი"
+
+msgid "One color for all orbits"
+msgstr "ერთი ფერი ყველა ორბიტებისთვის"
+
+msgid "Only for N latest selected objects"
+msgstr "მხოლოდ N უახლეს რჩეული ობიექტებისთვის"
+
+msgid "Only for Solar elevation"
+msgstr "მხოლოდ მზის სიმაღლის კითხვაზე"
+
+msgid "Only list"
+msgstr "მხოლოდ ნუსხა"
+
+msgid "Only one at a time"
+msgstr "მხოლოდ ერთი ჯერზე"
+
+msgid "Only orbit for selected object…"
+msgstr "მხოლოდ რჩეული ობიექტის ორბიტა…"
+
+msgid "Only orbits of major planets…"
+msgstr "მხოლოდ ძირითადი პლანეტების ორბიტა…"
+
+msgid "Oort cloud objects"
+msgstr "ორტის ღია ობიექტები"
+
+msgid "Opac."
+msgstr "გამჭვირვალე."
+
+msgid "Opacity"
+msgstr "მუქობა"
+
+msgid "Open date and time"
+msgstr "თარიღი და დრო გახსნა"
+
+msgid "Open location"
+msgstr "ადგილი გახსნა"
+
+msgid "Open star clusters"
+msgstr "ღია ვარსკვლავური კლასტერები"
+
+msgid "Opens the JUPOS project in a browser"
+msgstr "JUPOS პროექტის გახსნა ბროუზერში"
+
+msgid "Opposition"
+msgstr "ოპოზიცია"
+
+msgid "Opposition of"
+msgstr "დაპირისპირება"
+
+msgid "Oppositions"
+msgstr "დაპირისპირებები"
+
+msgid "Orbit colors"
+msgstr "ორბიტის ფერი"
+
+msgid "Orbital periods ratio"
+msgstr "ორბიტალური პერიოდების თანაფარდობა"
+
+msgid "Orbital velocity"
+msgstr "ორბიტალური სიჩქარე"
+
+msgid "Orbits"
+msgstr "ორბიტები"
+
+msgid "Orbits of Oort cloud objects"
+msgstr "Oort ღრმა ღეჭების ორბიტები"
+
+msgid "Orbits of comets"
+msgstr "კომეტების ორბიტები"
+
+msgid "Orbits of cubewanos"
+msgstr "კუბივანოების ორბიტები"
+
+msgid "Orbits of dwarf planets"
+msgstr "ჯუჯა პლანეტების ორბიტები"
+
+msgid "Orbits of interstellar objects"
+msgstr "ვარსკვლავთაშორის ობიექტების ორბიტები"
+
+msgid "Orbits of major planets"
+msgstr "დიდი პლანეტების ორბიტები"
+
+msgid "Orbits of minor planets"
+msgstr "მცირე პლანეტების ორბიტები"
+
+msgid "Orbits of moons"
+msgstr "მთვარის ორბიტები"
+
+msgid "Orbits of plutinos"
+msgstr "პლუტინოების ორბიტები"
+
+msgid "Orbits of scattered disk objects"
+msgstr "გაფანტული დისკის ობიექტების ორბიტები"
+
+msgid "Orbits of sednoids"
+msgstr "სედნოიდების ორბიტები"
+
+msgid "Otherwise every move adopts the zone of the new place."
+msgstr "სხვა შემთხვევაში ყოველი მოძრაობა ახალი ადგილის ზონას იღებს."
+
+msgid "Outline craters"
+msgstr "კრატერების კონტური"
+
+msgid "Pan the sky"
+msgstr "ცის გადახვევა"
+
+msgid "Partial eclipse begins"
+msgstr "ნაწილობრივი დაბნელება იწყება"
+
+msgid "Partial eclipse ends"
+msgstr "ნაწილობრივი დაბნელება მთავრდება"
+
+msgid "Partitions"
+msgstr "დანაყოფები"
+
+msgid "Partitions thickness"
+msgstr "დანაყოფების სისქე"
+
+msgid "Path width"
+msgstr "ბილიკის სიგანე"
+
+msgid "Pause"
+msgstr "პაუზა"
+
+msgid "Paused - start"
+msgstr "შეჩერებულია - დაწყება"
+
+msgid "Penumbral magnitude"
+msgstr "უმბრალური სიდიდე"
+
+msgid "Per."
+msgstr "პერ."
+
+msgid "Perfect visibility conditions for current location"
+msgstr "სრულყოფილი ხილულობის პირობები ამ ადგილისთვის"
+
+msgid "Perihelion"
+msgstr "პერიჰელიონი"
+
+msgid "Perihelion and aphelion"
+msgstr "პერიჰელიონი და აფელიონი"
+
+msgid "Phase"
+msgstr "ფაზა"
+
+msgid "Phase angle"
+msgstr "ფაზის კუთხე"
+
+msgid "Phenomena"
+msgstr "ფენომენები"
+
+msgid "Pick two different bodies to see how their distance changes."
+msgstr "აირჩიეთ ორი სხვადსხვა სხეული მათ შორის მანძილის ცვლილების სანახავად."
+
+msgid "Pinch"
+msgstr "შეჭიმვა"
+
+msgid "Planet"
+msgstr "პლანეტა"
+
+msgid "Planet and time zone"
+msgstr "პლანეტა და დროის სარტყელი"
+
+msgid "Planet markers"
+msgstr "პლანეტის მნიშვნელი"
+
+msgid "Planetary nebulae"
+msgstr "პლანეტარული ნებულები"
+
+msgid "Planetary nebulae (<%1 mag)"
+msgstr "პლანეტარული ნებულები (<%1 mag)"
+
+msgid "Planetary nomenclature"
+msgstr "პლანეტარული ნომენკლატურა"
+
+msgid "Planetary transits"
+msgstr "პლანეტის ტრანზიტები"
+
+msgid "Planets"
+msgstr "პლანეტები"
+
+msgid "Planets and Sun"
+msgstr "პლანეტები და მზე"
+
+msgid "Planets magnitude algorithm"
+msgstr "პლანეტების სიდიდის ალგორითმი"
+
+msgid "Please select object to plot its 'Monthly Elevation' graph for the current year at selected time."
+msgstr "გთხოვთ აირჩიოთ ობიექტი, რათა დახაზოთ მის \"월간 სიმაღლე\" გრაფიკი მიმდინარე წლისთვის არჩეულ დროში."
+
+msgid "Please select object to plot its graph 'Altitude vs. Time'."
+msgstr "გთხოვთ აირჩიოთ ობიექტი, რათა დახაზოთ მის გრაფიკი \"სიმაღლე დროის წინააღმდეგ\"."
+
+msgid "Please select object to plot its graph 'Azimuth vs. Time'."
+msgstr "გთხოვთ აირჩიოთ ობიექტი, რათა დახაზოთ მის გრაფიკი \"აზიმუტი დროის წინააღმდეგ\"."
+
+msgid "Plutinos"
+msgstr "პლუტინოები"
+
+msgid "Pluto, Ceres, Pallas, Juno and Vesta"
+msgstr "პლუტო, კერერა, პალადა, იუნო და ვესტა"
+
+msgid "Point size"
+msgstr "წერტილის ზომა"
+
+msgid "Pointing"
+msgstr "მიმართვა"
+
+msgid "Polar distance"
+msgstr "პოლარული მანძილი"
+
+msgid "Polar distance, not declination"
+msgstr "პოლარული მანძილი, არა დეკლინაცია"
+
+msgid "Poles and points"
+msgstr "პოლუსები და წერტილები"
+
+msgid "Polygon colour"
+msgstr "მრავალკუთხედის ფერი"
+
+msgid "Position"
+msgstr "პოზიცია"
+
+msgid "Position angle"
+msgstr "პოზიციის კუთხე"
+
+msgid "Positions"
+msgstr "პოზიციები"
+
+msgid "Positive values only"
+msgstr "მხოლოდ დადებითი მნიშვნელობები"
+
+msgid "Precession circles"
+msgstr "პრეცესიის წრეები"
+
+msgid "Previous"
+msgstr "წინა"
+
+msgid "Program Language"
+msgstr "პროგრამის ენა"
+
+msgid "Projected Solar Equator"
+msgstr "საპროექციო მზის ეკვატორი"
+
+msgid "Pronounce"
+msgstr "გამოთქმა"
+
+msgid "Pulsars"
+msgstr "პულსარები"
+
+msgid "Quadrature circle"
+msgstr "კვადრატურის წრე"
+
+msgid "Query SIMBAD about selected object"
+msgstr "დაკითხვა SIMBAD-ში არჩეული ობიექტის შესახებ"
+
+msgid "Query options"
+msgstr "დაკითხვის პარამეტრები"
+
+msgid "Quit"
+msgstr "დასრულება"
+
+msgid "Quit button"
+msgstr "გასვლის ღილაკი"
+
+msgid "Range"
+msgstr "დიაპაზონი"
+
+msgid "Ray helpers"
+msgstr "სხივის მხარდამჭერი"
+
+msgid "Reading…"
+msgstr "კითხვა…"
+
+msgid "Real time speed"
+msgstr "რეალური დროის სიჩქარე"
+
+msgid "Recent Searches"
+msgstr "ბოლო ძიებები"
+
+msgid "Rectangular FOV"
+msgstr "მართკუთხა დეკეთი"
+
+msgid "Red"
+msgstr "წითალი"
+
+msgid "Refraction, extinction, sky brightness"
+msgstr "რეფრაქცია, გამქრობა, ცის კაშკაშიანობა"
+
+msgid "Regions of the sky"
+msgstr "ციის რეგიონები"
+
+msgid "Relative scale"
+msgstr "ფარდობითი მასშტაბი"
+
+msgid "Remove %s"
+msgstr "%s-ის წაშლა"
+
+msgid "Remove from observing list"
+msgstr "დაკვირვების სიადან წაშლა"
+
+msgid "Rename"
+msgstr "გადარქმევა"
+
+msgid "Reset"
+msgstr "გადატვირთვა"
+
+msgid "Reset all"
+msgstr "ყველას გადატვირთვა"
+
+msgid "Restarting…"
+msgstr "გადატვირთვა…"
+
+msgid "Results"
+msgstr "შედეგები"
+
+msgid "Right ascension"
+msgstr "სწორი აღმართობა"
+
+msgid "Rise"
+msgstr "აღმოსვლა"
+
+msgid "Rises"
+msgstr "აღმოდის"
+
+msgid "Rotation"
+msgstr "ბრუნვა"
+
+msgid "Running"
+msgstr "გაშვებული"
+
+msgid "SIMBAD did not answer."
+msgstr "SIMBAD არ უპასუხა."
+
+msgid "SIMBAD is switched off in the search options."
+msgstr "SIMBAD გამორთულია ძებნის პარამეტრებში."
+
+msgid "SIMBAD is switched off. Turn it on under Options to look objects up online."
+msgstr "SIMBAD უჩართავია. ჩართეთ იგი გადაწყობის ქვეშ ობიექტების ონლაინ ძიებისთვის."
+
+msgid "SIMBAD server"
+msgstr "SIMBAD სერვერი"
+
+msgid "Saros"
+msgstr "საროსი"
+
+msgid "Saros %s"
+msgstr "საროსი %s"
+
+msgid "Saturation"
+msgstr "გაჯერება"
+
+msgid "Save"
+msgstr "შენახვა"
+
+msgid "Save either the current FOV and direction of view or all the current options for use at next startup. Restoring default settings requires a restart of the app."
+msgstr "შეინახეთ ან მიმდინარე დეკეთი და ხედის მიმართულება ან ყველა მიმდინარე პარამეტრი შემდეგი გაშვებისთვის. ნაგულისხმების აღდგენა მოითხოვს აპლიკაციის გადატვირთვას."
+
+msgid "Save to observing list"
+msgstr "დაკვირვების სიაში შენახვა"
+
+msgid "Save view"
+msgstr "ხედის შენახვა"
+
+msgid "Scale"
+msgstr "მასშტაბი"
+
+msgid "Scale factor"
+msgstr "მასშტაბის ფაქტორი"
+
+msgid "Scale marker and label visibility by surface brightness"
+msgstr "მნიშვნელი და წარწერის ხილულობა მოერგო ზედაპირის კაშკაშიანობას"
+
+msgid "Scales smoothly between 1× at the minimum field of view and the factor above at the maximum"
+msgstr "გლუვად მასშტაბირება 1× მინიმალურ დეკეთსა და ზემოთ მოცემულ ფაქტორს შორის მაქსიმალურ დეკეთზე"
+
+msgid "Scattered disc objects"
+msgstr "დისპერსული დისკის ობიექტები"
+
+msgid "Screen label"
+msgstr "ეკრანის წარწერი"
+
+msgid "Search"
+msgstr "ძიება"
+
+msgid "Search in list"
+msgstr "სიაში ძიება"
+
+msgid "Search in list..."
+msgstr "სიაში ძიება…"
+
+msgid "Search options"
+msgstr "ძიების პარამეტრები"
+
+msgid "Seasons"
+msgstr "სეზონები"
+
+msgid "Second body"
+msgstr "მეორე სხეული"
+
+msgid "Second celestial body"
+msgstr "მეორე ციური სხეული"
+
+msgid "Second graph"
+msgstr "მეორე გრაფიკი"
+
+msgid "Second object"
+msgstr "მეორე ობიექტი"
+
+msgid "Secondary intercardinal points"
+msgstr "მეორეხარისხი მუქარი წერტილები"
+
+msgid "Sednoids"
+msgstr "სედნოიდები"
+
+msgid "See the sky through the ground"
+msgstr "დაინახეთ ცა მიწის მეშვეობით"
+
+msgid "Seen now"
+msgstr "ახლა ხილული"
+
+msgid "Select an object first: this asks SIMBAD what it holds around it."
+msgstr "ჯერ აირჩიეთ ობიექტი: ეს ითხოვს SIMBAD-ს რა ეწყობა მის გარშემო."
+
+msgid "Select it and show its card"
+msgstr "აირჩიეთ იგი და აჩვენეთ მისი ბარათი"
+
+msgid "Select something in the sky first — this page works on the selection."
+msgstr "ჯერ ცაში რაიმე აირჩიეთ — ეს გვერდი მუშაობს არჩევაზე."
+
+msgid "Selected object"
+msgstr "არჩეული ობიექტი"
+
+msgid "Sep."
+msgstr "სექ."
+
+msgid "Separate colors for orbits by object type"
+msgstr "ცალკე ფერი ორბიტებისთვის ობიექტის ტიპის მიხედვით"
+
+msgid "Separate colors for orbits of major planets"
+msgstr "ცალკე ფერი დიდი პლანეტების ორბიტებისთვის"
+
+msgid "Separation"
+msgstr "განცალკევება"
+
+msgid "September equinox"
+msgstr "სექტემბრის ტოლი დღე"
+
+msgid "Server"
+msgstr "სერვერი"
+
+msgid "Set"
+msgstr "დაყენება"
+
+msgid "Set the clock to %s"
+msgstr "საათი %s დააყენე"
+
+msgid "Set the place"
+msgstr "ადგილის დაყენება"
+
+msgid "Set to now"
+msgstr "ახლაზე დაყენება"
+
+msgid "Sets"
+msgstr "კომპლექტი"
+
+msgid "Shadow map for non-convex bodies. May coarsen the penumbra on some objects"
+msgstr "ჩრდილოს რუკა არა-ამოზნექილი სხეულებისთვის. შეიძლება დაახერხოს პენუმბრა ზოგიერთ ობიექტზე"
+
+msgid "Shadow transit"
+msgstr "ჩრდილის გაზიდვა"
+
+msgid "Shooting stars"
+msgstr "მოკლებული ვარსკვლავები"
+
+msgid "Short notation for units of surface brightness"
+msgstr "მოკლე აღნიშვნა ზედაპირის კაშკაშიანობის ერთეულებისთვის"
+
+msgid "Short steps over a long duration are slow."
+msgstr "მოკლე ნაბიჯები დიდი ხანის განმავლობაში ნელი."
+
+msgid "Show"
+msgstr "ჩვენება"
+
+msgid "Show FOV center marker when position is search"
+msgstr "დეკეთის ცენტრის მნიშვნელი გამოჩენა, როდესაც ადგილი ძებნილია"
+
+msgid "Show additional buttons"
+msgstr "დამატებითი ღილაკების ჩვენება"
+
+msgid "Show additional star names"
+msgstr "დამატებითი ვარსკვლავის სახელების ჩვენება"
+
+msgid "Show all information"
+msgstr "ყველა ინფორმაციის ჩვენება"
+
+msgid "Show atmospheric extinction"
+msgstr "ატმოსფერული გამქრობის ჩვენება"
+
+msgid "Show boundaries of constellations"
+msgstr "თანავარსკვლავედების საზღვრების ჩვენება"
+
+msgid "Show button in addition to keyboard shortcut?"
+msgstr "აჩვენო ღილაკი კლავიატურის მალსახელის გარდა?"
+
+msgid "Show controls"
+msgstr "კონტროლის ჩვენება"
+
+msgid "Show each body where it was when the light left it (recommended)"
+msgstr "აჩვენეთ თითოეული სხეული იმ ადგილას სადაც იყო, როდესაც სინათლე დამტკიცებული იყო (რეკომენდირებული)"
+
+msgid "Show frames per second beside the field of view"
+msgstr "კადრები წამში აჩვენეთ დეკეთის გვერდით"
+
+msgid "Show hints and labels for planetary features"
+msgstr "მითითებები და წარწერები დაჩვენეთ პლანეტარული მახასიათებლებისთვის"
+
+msgid "Show illumination"
+msgstr "განათებლობის ჩვენება"
+
+msgid "Show in sky"
+msgstr "ცაში ჩვენება"
+
+msgid "Show less"
+msgstr "ნაკლების ჩვენება"
+
+msgid "Show lunar stations (if defined)"
+msgstr "მთვარის სადგომის ჩვენება (თუ განსაზღვრულია)"
+
+msgid "Show more"
+msgstr "მეტის ჩვენება"
+
+msgid "Show objects which are up"
+msgstr "აჩვენეთ ობიექტები, რომლებიც აღმართულია"
+
+msgid "Show only named DSO"
+msgstr "მხოლოდ დასახელებული DSO-ს ჩვენება"
+
+msgid "Show only objects between the two sizes"
+msgstr "აჩვენეთ მხოლოდ ობიექტები ორ ზომას შორის"
+
+msgid "Show only the kinds ticked below"
+msgstr "მხოლოდ ქვემოთ აღებული სახეობის ჩვენება"
+
+msgid "Show or hide the two rails of controls"
+msgstr "კონტროლის ორი რელსის ჩვენება ან დამალვა"
+
+msgid "Show orbit even if object is off screen"
+msgstr "ორბიტის ჩვენება მაშინაც კი, როდესაც ობიექტი ეკრანის გარეთ არის"
+
+msgid "Show orbit only for selected SSO"
+msgstr "ორბიტის ჩვენება მხოლოდ არჩეული SSO-სთვის"
+
+msgid "Show orbits"
+msgstr "ორბიტების ჩვენება"
+
+msgid "Show orbits of major planets"
+msgstr "დიდი პლანეტების ორბიტების ჩვენება"
+
+msgid "Show planetary nomenclature"
+msgstr "პლანეტარული ნომენკლატურის ჩვენება"
+
+msgid "Show special nomenclature points only"
+msgstr "მხოლოდ სპეციალური ნომენკლატურის წერტილების ჩვენება"
+
+msgid "Show surveys"
+msgstr "გამოკითხვების ჩვენება"
+
+msgid "Show this survey"
+msgstr "ამ გამოკითხვის ჩვენება"
+
+msgid "Show tiny circles for minor bodies regardless of magnitude"
+msgstr "მცირე წრეების ჩვენება მცირე სხეულებისთვის სიდიდის მიუხედავად"
+
+msgid "Show trails"
+msgstr "ბილიკების ჩვენება"
+
+msgid "Show zodiac (if defined)"
+msgstr "ზოდიაკის ჩვენება (თუ განსაზღვრულია)"
+
+msgid "Sidereal time"
+msgstr "სიდერული დრო"
+
+msgid "Simbad Lookup Error: %s"
+msgstr "Simbad-ის ძიების შეცდომა: %s"
+
+msgid "Simbad Lookup: querying"
+msgstr "Simbad-ის ძიება: დაკითხვა"
+
+msgid "Simulate self-shadowing"
+msgstr "თვითჩრდილო სიმულაცია"
+
+msgid "Simulation"
+msgstr "სიმულაცია"
+
+msgid "Sky Culture"
+msgstr "ციური კულტურა"
+
+msgid "Sky and viewing options"
+msgstr "ცა და ხედის პარამეტრები"
+
+msgid "Sky culture"
+msgstr "ციური კულტურა"
+
+msgid "Slow down"
+msgstr "შენელება"
+
+msgid "Smallest, ′"
+msgstr "ყველაზე მცირე, ′"
+
+msgid "Solar System"
+msgstr "მზის სისტემა"
+
+msgid "Solar System objects"
+msgstr "მზის სისტემის ობიექტები"
+
+msgid "Solar altitude for Twilight Finder"
+msgstr "მზის სიმაღლე ჟამის ძიების ინსტრუმენტისთვის"
+
+msgid "Solar elongation"
+msgstr "მზის გაშორება"
+
+msgid "Solar system"
+msgstr "მზის სისტემა"
+
+msgid "Solar system objects"
+msgstr "მზის სისტემის ობიექტები"
+
+msgid "Solar system objects: comets"
+msgstr "მზის სისტემის ობიექტები: კომეტები"
+
+msgid "Solar system objects: minor bodies"
+msgstr "მზის სისტემის ობიექტები: მცირე სხეულები"
+
+msgid "Solar system objects: planets"
+msgstr "მზის სისტემის ობიექტები: პლანეტები"
+
+msgid "Solstices (J2000)"
+msgstr "ზაფხულის და ზამთრის წერტილი (J2000)"
+
+msgid "Solstices (of date)"
+msgstr "ზაფხულის და ზამთრის წერტილი (დღის მიხედვით)"
+
+msgid "Some objects may be found after activation respective plug-ins"
+msgstr "ზოგიერთი ობიექტი შეიძლება აღმოჩნდეს შესაბამისი დამატებების ჩართვის შემდეგ"
+
+msgid "Special points only"
+msgstr "მხოლოდ სპეციალური წერტილები"
+
+msgid "Spectral Class"
+msgstr "სპექტრული კლასი"
+
+msgid "Speed up"
+msgstr "დაჩქარება"
+
+msgid "Spiky stars"
+msgstr "კოჭილი ვარსკვლავები"
+
+msgid "Stand where the landscape was shot, on the planet it names"
+msgstr "ადექით იმ ადგილას, სადაც პეიზაჟი გადაიღეს, მის პლანეტაზე რომელსაც ის ასახელებს"
+
+msgid "Star, planet, catalogue number…"
+msgstr "ვარსკვლავი, პლანეტა, კატალოგის რიცხვი…"
+
+msgid "Started"
+msgstr "დაწყებული"
+
+msgid "Starting"
+msgstr "დაწყება"
+
+msgid "Startup FOV"
+msgstr "გაშვების დეკეთი"
+
+msgid "Startup direction of view"
+msgstr "გაშვების ხედის მიმართულება"
+
+msgid "Stationary (begin prograde motion)"
+msgstr "უძრავი (პროგრადული მოძრაობის დაწყება)"
+
+msgid "Stationary (begin retrograde motion)"
+msgstr "უძრავი (რეტროგრადული მოძრაობის დაწყება)"
+
+msgid "Stellarium's user guide covers the astronomy this app shares with it: stellarium.org/documentation"
+msgstr "Stellarium-ის მომხმარებლის სახელმძღვანელო აღწერს ასტრონომიას, რომელიც ამ აპლიკაციამ მასთან იზიარებს: stellarium.org/documentation"
+
+msgid "Step, hours"
+msgstr "ნაბიჯი, საათი"
+
+msgid "Stop clock when starting"
+msgstr "საათი შეჩერი გაშვებისას"
+
+msgid "Strasbourg astronomical Data Center (France)"
+msgstr "Strasbourg-ის ასტრონომიული მონაცემთა ცენტრი (საფრანგეთი)"
+
+msgid "Style"
+msgstr "სტილი"
+
+msgid "Sun altitude"
+msgstr "მზის სიმაღლე"
+
+msgid "Sun at"
+msgstr "მზე"
+
+msgid "Sun's altitude"
+msgstr "მზის სიმაღლე"
+
+msgid "Sun's corona"
+msgstr "მზის კორონა"
+
+msgid "Sun's glare"
+msgstr "მზის ღირებულება"
+
+msgid "Sun, planets and moons of first body and observer's planet"
+msgstr "მზე, პლანეტები და მთვარეები პირველი სხეულისა და დამკვირვებლის პლანეტის"
+
+msgid "Sun, planets and moons of observer's planet"
+msgstr "მზე, პლანეტები და მთვარეები დამკვირვებლის პლანეტის"
+
+msgid "Sunlight scattered by interplanetary dust"
+msgstr "მზის შუქი გაფანტული საპლანეტო მტვრის მიერ"
+
+msgid "Supergalactic"
+msgstr "სუპერგალაქტიკური"
+
+msgid "Supergalactic equator"
+msgstr "სუპერგალაქტიკური ეკვატორი"
+
+msgid "Supergalactic grid"
+msgstr "სუპერგალაქტიკური ბადე"
+
+msgid "Supergalactic poles"
+msgstr "სუპერგალაქტიკური პოლუსები"
+
+msgid "Superior conjunction"
+msgstr "უმაღლესი კონიუნქცია"
+
+msgid "Supernova candidates"
+msgstr "სუპერნოვის კანდიდატები"
+
+msgid "Supernova remnant candidates"
+msgstr "სუპერნოვის ნარჩენის კანდიდატები"
+
+msgid "Supernova remnants"
+msgstr "სუპერნოვის ნარჩენები"
+
+msgid "Surveys"
+msgstr "გამოკითხვები"
+
+msgid "Switch this off to see the trails for all Solar system bodies"
+msgstr "გამორთეთ ეს სხვა დაკვირვების სიისთვის მზის სისტემის ყველა სხეულის ბილიკის სანახავად"
+
+msgid "Symbiotic stars"
+msgstr "სიმბიოტური ვარსკვლავები"
+
+msgid "Synodic period"
+msgstr "სინოდული პერიოდი"
+
+msgid "System date at"
+msgstr "სისტემის თარიღი"
+
+msgid "System default"
+msgstr "სისტემის ნაგულისხმები"
+
+msgid "Table"
+msgstr "ცხრილი"
+
+msgid "Tabular output for coordinates and time"
+msgstr "კოორდინატებისა და დროის ცხრილოვანი გამოთქმა"
+
+msgid "Tap a colour to change it. Changes show on the sky at once and are kept."
+msgstr "დააჭირეთ ფერი მის შეცვლასთვის. ცვლილებები მხლადა გამოჩნდება ცაში და შენახული იქნება."
+
+msgid "Tap again to confirm"
+msgstr "მხლადა დააჭირეთ დასადასტურებლად"
+
+msgid "Tap an object"
+msgstr "დააჭირეთ ობიექტს"
+
+msgid "Tap the chart to read a value."
+msgstr "დააჭირეთ გრაფიკს მნიშვნელობის წაკითხვისთვის."
+
+msgid "Tap the clock"
+msgstr "დააჭირეთ საათს"
+
+msgid "Tap the gear"
+msgstr "დააჭირეთ კოლოფს"
+
+msgid "Tap the map to stand there."
+msgstr "დააჭირეთ რუკას იმ ადგილას დასაკანობლად."
+
+msgid "Tap the place"
+msgstr "დააჭირეთ ადგილს"
+
+msgid "Tap to confirm"
+msgstr "დააჭირეთ დასადასტურებლად"
+
+msgid "Tertiary intercardinal points"
+msgstr "მესამეხარისხი მუქარი წერტილები"
+
+msgid "Text angle"
+msgstr "ტექსტის კუთხე"
+
+msgid "The Great Red Spot drifts in System II longitude. Enter a recent measurement and the drift rate to carry it forward from."
+msgstr "დიდი წითალი ლაქი დრიფტირებს სისტემა II დიდხაკში. შეიყვანეთ ბოლო გაზომვა და დრიფტის სიჩქარე მის წინ წაწოვებისთვის."
+
+msgid "The algorithm is based on visual observations 1877-1891 by G. Müller and was still republished in the Explanatory Supplement to the Astronomical Ephemeris (1961)."
+msgstr "ალგორითმი დაფუძნებულია 1877-1891 წლის ვიზუალურ დაკვირვებებზე G. Müller-ის მიერ და კვლავ გამოქვეყნებული იქნა ასტრონომიული ეფემერიდის ახსნილ დამატებაში (1961)."
+
+msgid "The algorithm was published by A. Mallama & J. L. Hilton: Computing apparent planetary magnitudes for the Astronomical Almanac. Astronomy&Computing 25 (2018) 10-24."
+msgstr "ალგორითმი გამოქვეყნებული იქნა A. Mallama & J. L. Hilton-ის მიერ: აშკარა პლანეტის სიდიდის გამოთვლა ასტრონომიული ალმანახის ნაწილთან. Astronomy&Computing 25 (2018) 10-24."
+
+msgid "The algorithm was published in the 2nd edition of the Explanatory Supplement to the Astronomical Almanac (1992)."
+msgstr "ალგორითმი გამოქვეყნებული იქნა ასტრონომიული ალმანახის ახსნილი დამატების მე-2 გამოცემაში (1992)."
+
+msgid "The algorithm was published in the 3rd edition of the Explanatory Supplement to the Astronomical Almanac (2013)."
+msgstr "ალგორითმი გამოქვეყნებული იქნა ასტრონომიული ალმანახის ახსნილი დამატების მე-3 გამოცემაში (2013)."
+
+msgid "The algorithm was used in the Astronomical Almanac (1984 and later) and gives V (instrumental) magnitudes (allegedly from D.L. Harris)."
+msgstr "ალგორითმი გამოყენებული იქნა ასტრონომიული ალმანახში (1984 და შემდეგ) და V (ინსტრუმენტული) სიდიდეებს იძლევა (ითქმის D.L. Harris-ის მხრიდან)."
+
+msgid "The classical cepheids"
+msgstr "კლასიკური ცეფეიდები"
+
+msgid "The colour each kind of object is drawn in"
+msgstr "ფერი რომელში თითოეული სახის ობიექტი დახატულია"
+
+msgid "The engine did not answer with any colours."
+msgstr "ძრავმა სიტყვიანი გამოპასუხება არ იცის ფერებზე."
+
+msgid "The galactic band"
+msgstr "გალაქტიკური ზოლი"
+
+msgid "The greatest eclipse is invisible in current location"
+msgstr "ყველაზე დიდი დაბნელება ამ ადგილიდან არ არის ხილული"
+
+msgid "The horizon outline instead of the panorama"
+msgstr "ჰორიზონტის კონტური პანორამის ნაცვლად"
+
+msgid "The path each body has taken across the sky"
+msgstr "სხეულის მიერ ღამის ცაზე აღწერილი ტრაექტორია"
+
+msgid "The shortest label the culture defines"
+msgstr "კულტურაში განსაზღვრული უმოკლესი წარწერი"
+
+msgid "Thickness"
+msgstr "სისქე"
+
+msgid "This copy ships no scripts."
+msgstr "ეს ასლი სცენარებს არ შეიცავს."
+
+msgid "This device has no location service."
+msgstr "ამ მოწყობილობას მდებარეობის სერვისი არ აქვს."
+
+msgid "This part of the engine exposes no settings on this build."
+msgstr "ძრავის ეს ნაწილი ამ ბილდზე პარამეტრებს არ უჩენს."
+
+msgid "This tool works on Earth only!"
+msgstr "ეს ინსტრუმენტი მხოლოდ დედამიწაზე მუშაობს!"
+
+msgid "This tool works on Earth only. Short steps over a long duration are slow."
+msgstr "ეს ინსტრუმენტი მხოლოდ დედამიწაზე მუშაობს. მოკლე ნაბიჯები გრძელი დროის განმავლობაში ნელია."
+
+msgid "This year"
+msgstr "ამ წელს"
+
+msgid "Time"
+msgstr "დრო"
+
+msgid "Time correction"
+msgstr "დროის კორექცია"
+
+msgid "Time of day"
+msgstr "დღის დრო"
+
+msgid "Time span"
+msgstr "დროის გამვლელი"
+
+msgid "Time step"
+msgstr "დროის ნაბიჯი"
+
+msgid "Time zone"
+msgstr "დროის სარტყელი"
+
+msgid "To the next (mths)"
+msgstr "მომდევნოსკენ (თვეები)"
+
+msgid "To the next, months"
+msgstr "მომდევნოსკენ, თვეები"
+
+msgid "Today"
+msgstr "დღეს"
+
+msgid "Toggle display of nebula images."
+msgstr "ნებულას გამოსახულებების ჩვენება."
+
+msgid "Toggle display of the button for the Digitized Sky Survey."
+msgstr "ციფრული ციის კვლების ღილაკის ჩვენება."
+
+msgid "Toggle display of the button for the HiPS Surveys. Select a survey in the View settings."
+msgstr "HiPS კვლების ღილაკის ჩვენება. აირჩიეთ კვლევა ხედის პარამეტრებში."
+
+msgid "Toggle drawing Sun's glare"
+msgstr "მზის არკის ხატვის გადართვა"
+
+msgid "Toggle drawing halo around the Moon"
+msgstr "მთვარის გარშემო ჰალოს ხატვის გადართვა"
+
+msgid "Toggle permanent drawing of Sun's corona when atmosphere is disabled"
+msgstr "მზის კორონის მუდმივი ხატვა ატმოსფეროს გარეშე"
+
+msgid "Toggle the usage of background under GUI buttons"
+msgstr "GUI ღილაკების ქვეშ ფონის გამოყენების გადართვა"
+
+msgid "Total eclipse begins"
+msgstr "სრული დაბნელება იწყება"
+
+msgid "Total eclipse ends"
+msgstr "სრული დაბნელება მთავრდება"
+
+msgid "Trails"
+msgstr "ტრაილები"
+
+msgid "Transit"
+msgstr "ტრანზიტი"
+
+msgid "Translated"
+msgstr "თარგმნილი"
+
+msgid "Transparency"
+msgstr "გამჭვირვალობა"
+
+msgid "Twilight"
+msgstr "ნიჟარა"
+
+msgid "Twilight and rise and set times are worked out for an observer on Earth. Move back to Earth to see them."
+msgstr "საღამოს დროი და აღმოსვლის თხა დროი გამოითვლება დედამიწაზე მყოფი დამკვირვებლის თვის თქმით. დედამიწაზე დაბრუნება დაჭირდება მათ სვლებისთვის."
+
+msgid "Twinkle"
+msgstr "ციმციმი"
+
+msgid "Twinkle amount"
+msgstr "ციმციმის რაოდენობა"
+
+msgid "Twinkle even without atmosphere"
+msgstr "ციმციმი მაგარი ატმოსფეროს გარეშეც"
+
+msgid "Twinkle is caused by atmospheric turbulence; this shows it regardless"
+msgstr "ციმციმი ატმოსფერული აღძრაობის შედეგია; ეს მას ყოველთვის აჩვენებს"
+
+msgid "Type"
+msgstr "ტიპი"
+
+msgid "Type a name, a Bayer letter or a catalogue number - Vega, α Lyr, M 31, NGC 224."
+msgstr "დააკარი სახელი, ბაიერის ასო ან კატალოგის ნომერი - Vega, α Lyr, M 31, NGC 224."
+
+msgid "Types"
+msgstr "ტიპები"
+
+msgid "Umbral magnitude"
+msgstr "ჩრდილოვანი სიდიდე"
+
+msgid "University of Strasbourg (France)"
+msgstr "სტრასბურგის უნივერსიტეტი (საფრანგეთი)"
+
+msgid "Unnamed star"
+msgstr "უსახელო ვარსკვლავი"
+
+msgid "Up to mag."
+msgstr "სიდიდემდე"
+
+msgid "Update"
+msgstr "განახლება"
+
+msgid "Use SIMBAD"
+msgstr "SIMBAD-ის გამოყენება"
+
+msgid "Use additional names of DSO"
+msgstr "DSO დამატებითი სახელების გამოყენება"
+
+msgid "Use autofill only from the beginning of words"
+msgstr "ავტოზევსი მხოლოდ სიტყვის დასაწყიდან"
+
+msgid "Use buttons background"
+msgstr "ღილაკების ფონის გამოყენება"
+
+msgid "Use common symbols for coordinate systems"
+msgstr "კოორდინატთა სისტემების საერთო სიმბოლოები"
+
+msgid "Use custom time zone"
+msgstr "კასტომი დროის სარტყელი"
+
+msgid "Use decimal degrees"
+msgstr "ათობითი გრადუსი"
+
+msgid "Use decimal degrees for coordinates"
+msgstr "ათობითი გრადუსი კოორდინატებისთვის"
+
+msgid "Use designations for screen labels"
+msgstr "აღნიშვნები ეკრანის წარწერებში"
+
+msgid "Use distance from North Celestial Pole, not declination from equator in equatorial coordinates"
+msgstr "მანძილი ჩრდილოეთის ციური პოლუსიდან, ვიდრე დეკლინაცია ეკვატორიდან"
+
+msgid "Use mag/arcsec^2 for surface brightness"
+msgstr "გამოიყენეთ mag/arcsec^2 ზედაპირის სიკაშკაშისთვის"
+
+msgid "Use more accurate 3D models (where available)"
+msgstr "უფრო ზუსტი 3D მოდელები (სადაც ხელმისაწვდომი)"
+
+msgid "Use my location"
+msgstr "ჩემი მდებარეობა"
+
+msgid "Use on-line astronomical database SIMBAD"
+msgstr "ონლაინ ასტრონომიული ბაზა SIMBAD"
+
+msgid "Use outlines for big deep-sky objects"
+msgstr "კონტურები დიდი ღრმა ციის ობიექტებისთვის"
+
+msgid "Use proportional hints"
+msgstr "პროპორციული მინიშვნებები"
+
+msgid "Use sorting by string length"
+msgstr "სორტირება სტრიქონის სიგრძით"
+
+msgid "Use surface brightness"
+msgstr "ზედაპირის სიბნათე"
+
+msgid "Use the date now shown in the sky"
+msgstr "ამჟამად ცაზე გამოჩენილი თარიღი"
+
+msgid "Use the value in landscape.ini when it has one"
+msgstr "landscape.ini-ში არსებული მნიშვნელობა"
+
+msgid "Use the value stored for this location"
+msgstr "ამ მდებარეობისთვის შენახული მნიშვნელობა"
+
+msgid "Var. stars"
+msgstr "ცვალებადი ვარსკვლავები"
+
+msgid "Version"
+msgstr "ვერსია"
+
+msgid "Version %s  ·  Qt %s"
+msgstr "ვერსია %s  ·  Qt %s"
+
+msgid "Vertical viewport offset"
+msgstr "ვერტიკალური viewport დაღიძვა"
+
+msgid "View recent GRS measurements"
+msgstr "სიახლე GRS გაზომვები"
+
+msgid "Visibility"
+msgstr "ხილვადობა"
+
+msgid "Visual magnitude based on phase angle and albedo."
+msgstr "ვიზუალური სიდიდე ფაზის კუთხის და ალბედოს საფუძველზე."
+
+msgid "Western quadrature"
+msgstr "დასაბამი კვადრატურა"
+
+msgid "When a search result is chosen"
+msgstr "როდესაც ძებნის შედეგი არჩეულია"
+
+msgid "Where Jupiter's Great Red Spot was, and when"
+msgstr "სადაც იყო იუპიტერის დიდი წითელი ლაქა, და როდის"
+
+msgid "Width"
+msgstr "სიგანე"
+
+msgid "Working out the contact times…"
+msgstr "კონტაქტის დროის გამოთვლა…"
+
+msgid "Year"
+msgstr "წელი"
+
+msgid "Zenith and Nadir"
+msgstr "ზენიტი და ნადირი"
+
+msgid "Zodiac"
+msgstr "ზოდიაქო"
+
+msgid "Zodiac and lunar stations"
+msgstr "ზოდიაქო და მთვარის სტანციები"
+
+msgid "Zodiacal Light"
+msgstr "ზოდიაქალური სინათლე"
+
+msgid "Zodiacal Light brightness"
+msgstr "ზოდიაქალური სინათლის სიკაშკაშე"
+
+msgid "Zoom in and out"
+msgstr "დიდი და მცირე ხედვა"
+
+msgid "after sunset"
+msgstr "მზის ჩასვლის შემდეგ"
+
+msgid "before sunrise"
+msgstr "მზის ამოსვლის წინ"
+
+msgid "bright suburban"
+msgstr "ღია სამეზობო"
+
+msgid "engine ready, interface going live"
+msgstr "ძრავა მზადაა, ინტერფეისი ოპერაციული ხდება"
+
+msgid "excellent dark sky"
+msgstr "შესანიშნავი მუქი ციელი"
+
+msgid "from landscape, if given"
+msgstr "landscape-ის მნიშვნელობა, თუ მოცემულია"
+
+msgid "inner city"
+msgstr "ქალაქის ცენტრი"
+
+msgid "rural/suburban"
+msgstr "სოფელი/პერიფერია"
+
+msgid "sci. translit."
+msgstr "სამეცნ. ტრანსლიტ."
+
+msgid "select all"
+msgstr "ყველას არჩევა"
+
+msgid "select none"
+msgstr "არცერთის არჩევა"
+
+msgid "select preference"
+msgstr "პრიორიტეტის არჩევა"
+
+msgid "select standard"
+msgstr "სტანდარტის არჩევა"
+
+msgid "store preference"
+msgstr "პრიორიტეტის შენახვა"
+
+msgid "suburban/urban"
+msgstr "პერიფერია/ქალაქი"
+
+msgid "truly dark"
+msgstr "სრულიად მუქი"
+
+msgid "unreadable snapshot"
+msgstr "წაკითხვის შეუძლებელი სკრინშოტი"
+
+msgid "with Solar Dates"
+msgstr "მზის თარიღებით"
+
+msgid "… and moons"
+msgstr "… და მთვარეები"

@@ -1,0 +1,1438 @@
+# Asterium interface translation for ar.
+# Copyright (C) 2026 the Asterium authors
+# This file is distributed under the same licence as the Asterium package.
+#
+# MACHINE TRANSLATION, not reviewed by a speaker of this language.
+# Terminology follows upstream Stellarium's own ar catalogue, which was used
+# as a glossary, and every entry keeps the source's printf placeholders.
+# Corrections from a human translator are welcome and should simply replace these.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: asterium\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%d bodies"
+msgstr "%d أجرام"
+
+msgid "%d object"
+msgstr "%d جرم"
+
+msgid "%d objects"
+msgstr "%d أجرام"
+
+msgid "%s colour"
+msgstr "%s لون"
+
+msgid "%s from %s, ±%.0f m"
+msgstr "%s من %s، ±%.0f م"
+
+msgid "12-hour"
+msgstr "12 ساعة"
+
+msgid "1× below"
+msgstr "مرة أقل"
+
+msgid "24-hour"
+msgstr "24 ساعة"
+
+msgid "A button to mark every object of the current observing list on the sky."
+msgstr "زر لتحديد كل جرم في قائمة الرصد الحالية على السماء"
+
+msgid "A polygonal model for some small moons, asteroids and comets instead of a sphere"
+msgstr "نموذج متعدد الأضلاع لبعض الأقمار الصغيرة والكويكبات والمذنبات بدلاً من الكرة"
+
+msgid "A touch-first planetarium forked from Stellarium, whose astronomy engine it uses unchanged. The interface is new; everything that draws the sky is upstream's work."
+msgstr "تطبيق فلكي يركز على اللمس مشتق من Stellarium، يستخدم محرك الفلك الخاص به دون تغيير. الواجهة جديدة؛ كل شيء يرسم السماء من عمل المشروع الأصلي."
+
+msgid "About this sky culture"
+msgstr "عن هذا التراث الفلكي"
+
+msgid "Above altitude, °"
+msgstr "فوق الارتفاع، °"
+
+msgid "Absolute scale"
+msgstr "مقياس مطلق"
+
+msgid "Add %s"
+msgstr "أضف %s"
+
+msgid "Adjust brightness to bright objects"
+msgstr "اضبط السطوع للأجرام الساطعة"
+
+msgid "Algorithm of ΔT"
+msgstr "خوارزمية ΔT"
+
+msgid "All naked-eye planets"
+msgstr "جميع الكواكب المرئية للعين المجردة"
+
+msgid "All solar eclipses"
+msgstr "جميع الكسوفات الشمسية"
+
+msgid "Allow negative hour angles"
+msgstr "السماح بزوايا ساعات سالبة"
+
+msgid "Allow results outside the recommended time range of the orbital elements"
+msgstr "السماح بالنتائج خارج نطاق الوقت الموصى به لعناصر المدار"
+
+msgid "Also find"
+msgstr "ابحث أيضاً عن"
+
+msgid "Also plot"
+msgstr "ارسم أيضاً"
+
+msgid "Also show moons of selected object or planets"
+msgstr "أظهر أيضاً أقمار الجرم أو الكوكب المختار"
+
+msgid "Altitude limit, °"
+msgstr "حد الارتفاع، °"
+
+msgid "Amount"
+msgstr "الكمية"
+
+msgid "An observer floats above its planet, so there is nowhere on it to stand. Choose another planet to come back down."
+msgstr "يطفو المراقب فوق كوكبه، لذا لا يوجد مكان عليه للوقوف. اختر كوكباً آخر للعودة إلى الأسفل."
+
+msgid "And"
+msgstr "و"
+
+msgid "And also"
+msgstr "وأيضاً"
+
+msgid "And the next (years)"
+msgstr "والسنة التالية"
+
+msgid "Annual drift"
+msgstr "الانجراف السنوي"
+
+msgid "Appearance"
+msgstr "المظهر"
+
+msgid "Apply time interval limits to list"
+msgstr "تطبيق حدود الفترة الزمنية على القائمة"
+
+msgid "Art"
+msgstr "رسومات"
+
+msgid "Artificial satellites and unnamed stars are excluded from calculation."
+msgstr "يتم استبعاد الأقمار الصناعية والنجوم غير المسماة من الحساب."
+
+msgid "Asking for permission…"
+msgstr "طلب الإذن…"
+
+msgid "Asks SIMBAD what it holds around the object that is selected now, and prints the answer as it comes back."
+msgstr "يسأل قاعدة SIMBAD عما تحتويه حول الجرم المختار الآن، ويطبع الإجابة عند عودتها."
+
+msgid "Ast. lines"
+msgstr "خ. كو"
+
+msgid "Ast. names"
+msgstr "أ. كو"
+
+msgid "AstroCalc"
+msgstr "حساب الفلك"
+
+msgid "Astronomical Almanac (default) enlarges by 2%; Danjon (1951) differs slightly"
+msgstr "Astronomical Almanac (الافتراضي) يوسّع بنسبة 2٪؛ Danjon (1951) يختلف قليلاً"
+
+msgid "Astronomical night"
+msgstr "ليل فلكي"
+
+msgid "At"
+msgstr "في"
+
+msgid "Atmosph."
+msgstr "غ. جو"
+
+msgid "Automatic transparency"
+msgstr "الشفافية التلقائية"
+
+msgid "Axis distance"
+msgstr "بعد المحور"
+
+msgid "Azi. grid"
+msgstr "ش. سمت"
+
+msgid "Azimuth and altitude rather than right ascension and declination"
+msgstr "السمت والارتفاع بدلاً من المطلع المستقيم والميل"
+
+msgid "Below the horizon here."
+msgstr "تحت الأفق هنا."
+
+msgid "Between objects"
+msgstr "بين الأجرام"
+
+msgid "Boundless"
+msgstr "بلا حدود"
+
+msgid "Bounds"
+msgstr "حدود"
+
+msgid "Brighter than"
+msgstr "أساطع من"
+
+msgid "By object type"
+msgstr "حسب نوع الجرم"
+
+msgid "By planet"
+msgstr "حسب الكوكب"
+
+msgid "Calculating…"
+msgstr "حساب جاري…"
+
+msgid "Cardinals"
+msgstr "جهات"
+
+msgid "Catalogue numbers instead of common names"
+msgstr "أرقام الدليل بدلاً من الأسماء الشائعة"
+
+msgid "Category"
+msgstr "الفئة"
+
+msgid "Central duration"
+msgstr "المدة المركزية"
+
+msgid "Centre"
+msgstr "المركز"
+
+msgid "Centre on object"
+msgstr "توسيط على الجرم"
+
+msgid "Centre point"
+msgstr "نقطة الوسط"
+
+msgid "Circles"
+msgstr "دوائر"
+
+msgid "City"
+msgstr "المدينة"
+
+msgid "Cleanup"
+msgstr "تنظيف"
+
+msgid "Clear recent searches"
+msgstr "امسح عمليات البحث الحديثة"
+
+msgid "Clear the selection - a touch screen has no right button"
+msgstr "امسح التحديد - شاشة اللمس لا تملك زر يميني"
+
+msgid "Cleared."
+msgstr "تم المسح."
+
+msgid "Close"
+msgstr "إغلاق"
+
+msgid "Close what is open; from the sky, leave the app running"
+msgstr "أغلق ما هو مفتوح؛ من السماء، اترك التطبيق يعمل"
+
+msgid "Coarse"
+msgstr "خشن"
+
+msgid "Color"
+msgstr "اللون"
+
+msgid "Color channel"
+msgstr "قناة اللون"
+
+msgid "Color of orbits"
+msgstr "لون المدارات"
+
+msgid "Colors of orbit lines"
+msgstr "ألوان خطوط المدارات"
+
+msgid "Comets up to mag."
+msgstr "المذنبات حتى القدر"
+
+msgid "Compass"
+msgstr "بوصلة"
+
+msgid "Connecting line"
+msgstr "خط التوصيل"
+
+msgid "Contrast"
+msgstr "التباين"
+
+msgid "Coordinate system"
+msgstr "نظام الإحداثيات"
+
+msgid "Coordinates"
+msgstr "الإحداثيات"
+
+msgid "Copyright"
+msgstr "حقوق النشر"
+
+msgid "Credits"
+msgstr "أصحاب الفضل"
+
+msgid "Custom"
+msgstr "مخصص"
+
+msgid "Custom altitude of the Moon, °"
+msgstr "ارتفاع مخصص للقمر، °"
+
+msgid "Custom altitude of the Sun, °"
+msgstr "ارتفاع مخصص للشمس، °"
+
+msgid "Custom values"
+msgstr "قيم مخصصة"
+
+msgid "Cut the scale off below the limit"
+msgstr "قطع المقياس أسفل الحد"
+
+msgid "DATE AND TIME (UTC)"
+msgstr "التاريخ والوقت (UTC)"
+
+msgid "Date and time"
+msgstr "التاريخ والوقت"
+
+msgid "Date/time"
+msgstr "التاريخ/الوقت"
+
+msgid "Dates"
+msgstr "التواريخ"
+
+msgid "December solstice"
+msgstr "انقلاب ديسمبر"
+
+msgid "Decimal degrees. −33.87 means 33.87° south. Elevation is metres above sea level; it moves the horizon down by a few arcminutes."
+msgstr "درجات عشرية. −33.87 تعني 33.87° جنوباً. الارتفاع بالأمتار فوق سطح البحر؛ يحرك الأفق لأسفل بضع دقائق قوسية."
+
+msgid "Degrees per year the longitude moves by"
+msgstr "الدرجات في السنة التي يتحرك بها خط الطول"
+
+msgid "Degrees, hours and minutes as they are written - 12h30m49s, +41°16'09\", 187.7 - or plain decimal degrees."
+msgstr "درجات وساعات ودقائق كما تُكتب - 12h30m49s، +41°16'09\"، 187.7 - أو درجات عشرية بسيطة."
+
+msgid "Deletes all recent search object data, and the objects SIMBAD contributed."
+msgstr "حذف جميع بيانات كائنات البحث الحديثة، والأجرام التي ساهمت بها SIMBAD."
+
+msgid "Designations for double stars"
+msgstr "التسميات للنجوم المزدوجة"
+
+msgid "Designations for variable stars"
+msgstr "التسميات للنجوم المتغيرة"
+
+msgid "Dim a survey near the horizon, as the air does"
+msgstr "تعتيم المسح بالقرب من الأفق، كما تفعل الهواء"
+
+msgid "Done"
+msgstr "تم"
+
+msgid "Drag"
+msgstr "سحب"
+
+msgid "Draw deep-sky objects at all"
+msgstr "رسم أجرام الفضاء السحيق على الإطلاق"
+
+msgid "Draw the enabled sky surveys"
+msgstr "رسم المسوحات السماوية المفعلة"
+
+msgid "Draw the planets, moons and minor bodies"
+msgstr "رسم الكواكب والأقمار والأجرام الصغيرة"
+
+msgid "Drawn larger than life, so a body that is a few arcseconds wide is visible at all. The position stays true."
+msgstr "رسم أكبر من الحجم الطبيعي، لذا الجسم الذي يبلغ عرضه بضع ثوان قوسية يكون مرئياً على أي حال. الموضع يبقى صحيحاً."
+
+msgid "Duration (years)"
+msgstr "المدة (سنوات)"
+
+msgid "Duration, months"
+msgstr "المدة، شهور"
+
+msgid "Dynamic (FOV-based) Moon size"
+msgstr "حجم القمر الديناميكي (بناءً على حقل الرؤية)"
+
+msgid "ELEV. M"
+msgstr "الارتفاع. م"
+
+msgid "Ecl. grid"
+msgstr "ش. كسو"
+
+msgid "Eclipses are computed for observers on Earth."
+msgstr "تُحسب الكسوفات لمراقبي الأرض."
+
+msgid "Elevation in metres"
+msgstr "الارتفاع بالأمتار"
+
+msgid "Elongations and quadratures"
+msgstr "الاستطالات والتربيعات"
+
+msgid "Enabled only"
+msgstr "مفعل فقط"
+
+msgid "Enter Culture..."
+msgstr "أدخل التراث الفلكي..."
+
+msgid "Equ. grid"
+msgstr "ش. استو"
+
+msgid "Equ. mount"
+msgstr "ح. استو"
+
+msgid "Equatorial radii ratio"
+msgstr "نسبة أنصاف الأقطار الاستوائية"
+
+msgid "Evening"
+msgstr "المساء"
+
+msgid "Every"
+msgstr "كل"
+
+msgid "Every name the object is catalogued under"
+msgstr "كل اسم مسجل في الدليل للجرم"
+
+msgid "Exterior egress"
+msgstr "الخروج الخارجي"
+
+msgid "Exterior ingress"
+msgstr "الدخول الخارجي"
+
+msgid "Fades the ground as you look below the horizon or zoom in"
+msgstr "يخفت الأرض عندما تنظر تحت الأفق أو تُكبّر"
+
+msgid "Fading duration"
+msgstr "مدة التلاشي"
+
+msgid "Faintest shown"
+msgstr "الأضعف ظهوراً"
+
+msgid "Favorites"
+msgstr "المفضلات"
+
+msgid "Fetching the survey lists…"
+msgstr "جاري جلب قوائم المسح…"
+
+msgid "Find a city"
+msgstr "ابحث عن مدينة"
+
+msgid "Fine"
+msgstr "دقيق"
+
+msgid "First %d of %d - filter to narrow it."
+msgstr "الأول %d من %d - صفّي لتضييقه."
+
+msgid "First body"
+msgstr "الجسم الأول"
+
+msgid "First graph"
+msgstr "الرسم البياني الأول"
+
+msgid "Fixed instant"
+msgstr "لحظة ثابتة"
+
+msgid "Flip horiz."
+msgstr "ق. أفقي"
+
+msgid "Flip vert."
+msgstr "ق. عمودي"
+
+msgid "Frame rate"
+msgstr "معدل الإطارات"
+
+msgid "From"
+msgstr "من"
+
+msgid "Full screen"
+msgstr "ملء الشاشة"
+
+msgid "Further reading"
+msgstr "قراءة إضافية"
+
+msgid "GRS details…"
+msgstr "تفاصيل البقعة الحمراء العظيمة…"
+
+msgid "Gal. grid"
+msgstr "ش. مجرّ"
+
+msgid "Gamma, saturation, brightness, contrast, opacity, colour channel and inverted colours belong to one survey. Open a survey to set them."
+msgstr "جاما والتشبع والسطوع والتباين والعتامة وقناة اللون والألوان المقلوبة تنتمي إلى مسح واحد. افتح مسحاً لتعيينها."
+
+msgid "Gestures"
+msgstr "الإيماءات"
+
+msgid "Go there"
+msgstr "اذهب هناك"
+
+msgid "Go to this eclipse"
+msgstr "اذهب إلى هذا الكسوف"
+
+msgid "Go to this moment"
+msgstr "اذهب إلى هذه اللحظة"
+
+msgid "Go to this transit"
+msgstr "اذهب إلى هذا العبور"
+
+msgid "Great Red Spot"
+msgstr "البقعة الحمراء العظيمة"
+
+msgid "Great Red Spot details"
+msgstr "تفاصيل البقعة الحمراء العظيمة"
+
+msgid "Greatest elongation for an inner planet, quadrature for an outer one"
+msgstr "أكبر استطالة لكوكب داخلي، تربيع لكوكب خارجي"
+
+msgid "Greek letters"
+msgstr "الحروف الإغريقية"
+
+msgid "Grid density"
+msgstr "كثافة الشبكة"
+
+msgid "Grids"
+msgstr "الشبكات"
+
+msgid "Ground"
+msgstr "الأرض"
+
+msgid "Gyro"
+msgstr "الجيروسكوب"
+
+msgid "Gyro mode"
+msgstr "وضع الجيروسكوب"
+
+msgid "Height"
+msgstr "الارتفاع"
+
+msgid "Heliocentric ecliptic positions of the major planets."
+msgstr "المواضع الكسوفية المركزية للشمس للكواكب الرئيسية."
+
+msgid "HiPS"
+msgstr "HiPS"
+
+msgid "Hide controls"
+msgstr "إخفاء الحكومات"
+
+msgid "Hide deep-sky objects fainter than the limit"
+msgstr "إخفاء أجرام الفضاء السحيق الأضعف من الحد"
+
+msgid "Hide orbits of minor bodies"
+msgstr "إخفاء مدارات الأجرام الصغيرة"
+
+msgid "Highlight"
+msgstr "تمييز"
+
+msgid "Highlight the objects of the observing list"
+msgstr "أبرز أجرام قائمة الرصد"
+
+msgid "Hint circles marking each planet"
+msgstr "دوائر تلميح تميز كل كوكب"
+
+msgid "Hints brightness"
+msgstr "سطوع التلميحات"
+
+msgid "Hipparcos designations"
+msgstr "تسميات Hipparcos"
+
+msgid "Hour angles usually run 0...24h. This counts -12h...12h."
+msgstr "تتراوح زوايا الساعات عادةً من 0...24h. هذا يحسبها من -12h...12h."
+
+msgid "How many"
+msgstr "كم"
+
+msgid "ICRS grid"
+msgstr "ش. ICRS"
+
+msgid "Include"
+msgstr "أدرج"
+
+msgid "Include bright comets"
+msgstr "أدرج المذنبات الساطعة"
+
+msgid "Intercardinal points"
+msgstr "النقاط بين الاتجاهات"
+
+msgid "Interior egress"
+msgstr "الخروج الداخلي"
+
+msgid "Interior ingress"
+msgstr "الدخول الداخلي"
+
+msgid "Its elevation, and the civil, nautical and astronomical twilights"
+msgstr "ارتفاعها، والشفق المدني والبحري والفلكي"
+
+msgid "Jovigraphic longitude of the spot in System II, in degrees"
+msgstr "الطول الجوفيغرافي للبقعة في النظام الثاني، بالدرجات"
+
+msgid "June solstice"
+msgstr "انقلاب يونيو"
+
+msgid "Label"
+msgstr "العنوان"
+
+msgid "Label colour"
+msgstr "لون العنوان"
+
+msgid "Labels and Markers amount"
+msgstr "كمية الأسماء والعلامات"
+
+msgid "Labels brightness"
+msgstr "سطوع الأسماء"
+
+msgid "Largest, ′"
+msgstr "الأكبر، ′"
+
+msgid "Last known position"
+msgstr "آخر موضع معروف"
+
+msgid "Lasting"
+msgstr "الاستمرار"
+
+msgid "Latitude −90…90, longitude −180…180."
+msgstr "خط العرض −90…90، خط الطول −180…180."
+
+msgid "Layer appearance"
+msgstr "مظهر الطبقة"
+
+msgid "Leaves the landscape visible in darkness"
+msgstr "يترك المنظر الطبيعي مرئياً في الظلام"
+
+msgid "Licence"
+msgstr "الرخصة"
+
+msgid "Light pollution"
+msgstr "التلوث الضوئي"
+
+msgid "Light pollution from database"
+msgstr "التلوث الضوئي من قاعدة البيانات"
+
+msgid "Limit angular separation"
+msgstr "حد الافتراق"
+
+msgid "Limit angular size"
+msgstr "الحد من الحجم الزاوي"
+
+msgid "Limit magnitude"
+msgstr "حد القدر"
+
+msgid "Linear distance"
+msgstr "بعد طولي"
+
+msgid "Lines"
+msgstr "خطوط"
+
+msgid "Lines and circles"
+msgstr "خطوط ودوائر"
+
+msgid "List"
+msgstr "قائمة"
+
+msgid "List name"
+msgstr "اسم القائمة"
+
+msgid "Lit windows, street lighting and the like"
+msgstr "النوافذ المضاءة والإضاءة الشارعية وما شابه"
+
+msgid "Loading…"
+msgstr "جاري التحميل…"
+
+msgid "Local solar eclipses"
+msgstr "الكسوفات الشمسية المحلية"
+
+msgid "Local time"
+msgstr "الوقت المحلي"
+
+msgid "Local time, h"
+msgstr "الوقت المحلي، س"
+
+msgid "Locate me"
+msgstr "حدد موقعي"
+
+msgid "Locating…"
+msgstr "جاري تحديد الموقع…"
+
+msgid "Location is switched off in the system settings."
+msgstr "الموقع مغلق في إعدادات النظام."
+
+msgid "Location permission refused. The other two ways still work."
+msgstr "تم رفض إذن الموقع. الطريقتان الأخريان لا تزالان تعملان."
+
+msgid "Long press"
+msgstr "ضغط طويل"
+
+msgid "Longitude of GRS"
+msgstr "طول البقعة الحمراء العظيمة"
+
+msgid "Lunar eclipses"
+msgstr "الخسوفات القمرية"
+
+msgid "Magnitudes"
+msgstr "الأقدار"
+
+msgid "Major planets by planet, minor bodies by type"
+msgstr "الكواكب الرئيسية حسب الكوكب، الأجرام الصغيرة حسب النوع"
+
+msgid "Map of the planet. Tap to set the observer's place."
+msgstr "خريطة الكوكب. اضغط لتعيين موضع المراقب."
+
+msgid "March equinox"
+msgstr "اعتدال مارس"
+
+msgid "Markers"
+msgstr "العلامات"
+
+msgid "Markers sized by the object's angular size"
+msgstr "علامات بحجم الجسم الزاوي"
+
+msgid "Master switch for the grids, lines and points below"
+msgstr "المفتاح الرئيسي للشبكات والخطوط والنقاط أدناه"
+
+msgid "Max items to display"
+msgstr "الحد الأقصى للعناصر المراد عرضها"
+
+msgid "Max. results"
+msgstr "النتائج الحد الأقصى."
+
+msgid "Maximum allowed separation"
+msgstr "الفصل المسموح به الأقصى"
+
+msgid "Maximum angular size"
+msgstr "الحد الأقصى للحجم الزاوي"
+
+msgid "Maximum year"
+msgstr "السنة القصوى"
+
+msgid "Mean motion"
+msgstr "حركة وسطية"
+
+msgid "Mercury, Venus, Mars, Jupiter and Saturn at once. Earth only."
+msgstr "عطارد والزهرة والمريخ والمشتري وزحل في نفس الوقت. الأرض فقط."
+
+msgid "Milky Way brightness"
+msgstr "سطوع درب التبانة"
+
+msgid "Milky Way saturation"
+msgstr "تشبع درب التبانة"
+
+msgid "Minimal angular size"
+msgstr "الحد الأدنى للحجم الزاوي"
+
+msgid "Minimal brightness"
+msgstr "الحد الأدنى للسطوع"
+
+msgid "Minimum year"
+msgstr "السنة الدنيا"
+
+msgid "Minutes before sunrise / after sunset"
+msgstr "دقائق قبل شروق الشمس / بعد غروب الشمس"
+
+msgid "Moon at"
+msgstr "القمر عند"
+
+msgid "Moon in zenith at"
+msgstr "القمر في السمت في"
+
+msgid "Morning"
+msgstr "الصباح"
+
+msgid "Move the sky by pointing the phone at it"
+msgstr "حرك السماء بالإشارة إلى الهاتف"
+
+msgid "Move the sky with the phone"
+msgstr "حرك السماء مع الهاتف"
+
+msgid "Name for the new list"
+msgstr "اسم للقائمة الجديدة"
+
+msgid "Named features the landscape marks"
+msgstr "الميزات المسماة التي يحددها المنظر الطبيعي"
+
+msgid "Names"
+msgstr "الأسماء"
+
+msgid "Names beside the planets and their markers"
+msgstr "أسماء بجانب الكواكب وعلاماتها"
+
+msgid "Names in English"
+msgstr "أسماء باللغة الإنجليزية"
+
+msgid "Neb. bg"
+msgstr "خ. سدم"
+
+msgid "Nebulae"
+msgstr "سُدم"
+
+msgid "Next"
+msgstr "التالي"
+
+msgid "Night"
+msgstr "ليل"
+
+msgid "No city matches that."
+msgstr "لا توجد مدينة تطابق ذلك."
+
+msgid "No eclipses found. Pick a range and calculate."
+msgstr "لم يتم العثور على كسوفات. اختر نطاقاً واحسب."
+
+msgid "No fresh fix - the receiver may have no sky. Try again outdoors, or set the place another way."
+msgstr "لا يوجد تصحيح جديد - قد لا يكون لدى جهاز الاستقبال سماء. حاول مجدداً في الخارج، أو عيّن المكان بطريقة أخرى."
+
+msgid "No surveys were found. The lists are downloaded, so this needs a connection."
+msgstr "لم يتم العثور على مسوحات. يتم تنزيل القوائم، لذا هذا يحتاج اتصالاً."
+
+msgid "None downloaded yet"
+msgstr "لم يتم تنزيل أي منها حتى الآن"
+
+msgid "Note: this tool doesn't apply the refraction correction for coordinates. Horizontal coordinates stop the clock, or the sky would turn away from the point while you arrive at it."
+msgstr "ملاحظة: هذه الأداة لا تطبق تصحيح الانكسار للإحداثيات. الإحداثيات الأفقية توقف الساعة، وإلا فإن السماء ستنحرف عن النقطة أثناء وصولك إليها."
+
+msgid "Nothing computed yet, or nothing in this category is up."
+msgstr "لم يتم الحساب بعد، أو لا شيء في هذه الفئة يطلع."
+
+msgid "Nothing computed yet."
+msgstr "لم يتم الحساب بعد."
+
+msgid "Nothing found for “%s”."
+msgstr "لم يتم العثور على \"%s\"."
+
+msgid "Nothing in this list matches."
+msgstr "لا شيء في هذه القائمة يطابق."
+
+msgid "Nothing in this list yet. Pick something out of the sky and tap the star on its card to keep it here."
+msgstr "لا شيء في هذه القائمة بعد. اختر شيئًا من السماء واضغط على النجم في بطاقته للاحتفاظ به هنا."
+
+msgid "Nothing is selected. Pick an object in the sky first."
+msgstr "لم يتم اختيار أي شيء. اختر جرمًا من السماء أولاً."
+
+msgid "Nothing matches."
+msgstr "لا شيء يطابق."
+
+msgid "Nothing selected"
+msgstr "لم يتم اختيار أي شيء"
+
+msgid "Nothing to plot."
+msgstr "لا شيء للرسم."
+
+msgid "Nothing to show."
+msgstr "لا شيء للعرض."
+
+msgid "N× above"
+msgstr "ن× أعلى"
+
+msgid "OBJECT"
+msgstr "الجرم"
+
+msgid "OBJECTS"
+msgstr "الأجرام"
+
+msgid "Objects which are up"
+msgstr "الأجرام التي تطلع"
+
+msgid "Observable duration"
+msgstr "مدة الرصد الممكنة"
+
+msgid "Observing list highlight"
+msgstr "تمييز قائمة الرصد"
+
+msgid "On the sky"
+msgstr "على السماء"
+
+msgid "One color"
+msgstr "لون واحد"
+
+msgid "Only for N latest selected objects"
+msgstr "فقط الأجرام المختارة الأحدث"
+
+msgid "Only list"
+msgstr "قائمة فقط"
+
+msgid "Only orbit for selected object…"
+msgstr "مدار الجرم المختار فقط…"
+
+msgid "Only orbits of major planets…"
+msgstr "مدارات الكواكب الرئيسية فقط…"
+
+msgid "Open date and time"
+msgstr "فتح التاريخ والوقت"
+
+msgid "Open location"
+msgstr "فتح الموقع"
+
+msgid "Opens the JUPOS project in a browser"
+msgstr "فتح مشروع JUPOS في متصفح"
+
+msgid "Opposition of"
+msgstr "معارضة"
+
+msgid "Oppositions"
+msgstr "المعارضات"
+
+msgid "Orbit colors"
+msgstr "ألوان المدارات"
+
+msgid "Orbital periods ratio"
+msgstr "نسبة الدورات"
+
+msgid "Orbits"
+msgstr "المدارات"
+
+msgid "Orbits of interstellar objects"
+msgstr "مدارات الأجرام النجمية البينية"
+
+msgid "Orbits of moons"
+msgstr "مدارات الأقمار"
+
+msgid "Otherwise every move adopts the zone of the new place."
+msgstr "وإلا فإن كل حركة تتبنى منطقة الموقع الجديد."
+
+msgid "Pan the sky"
+msgstr "حرك السماء"
+
+msgid "Partial eclipse begins"
+msgstr "بداية الكسوف الجزئي"
+
+msgid "Partial eclipse ends"
+msgstr "نهاية الكسوف الجزئي"
+
+msgid "Partitions"
+msgstr "الأقسام"
+
+msgid "Partitions thickness"
+msgstr "سمك الأقسام"
+
+msgid "Path width"
+msgstr "عرض المسار"
+
+msgid "Pause"
+msgstr "إيقاف مؤقت"
+
+msgid "Paused - start"
+msgstr "متوقف - ابدأ"
+
+msgid "Penumbral magnitude"
+msgstr "قدر شبه الظل"
+
+msgid "Perihelion and aphelion"
+msgstr "الحضيض والأوج"
+
+msgid "Pick two different bodies to see how their distance changes."
+msgstr "اختر جسمين مختلفين لرؤية كيف يتغير بعدهما."
+
+msgid "Pinch"
+msgstr "اقبض"
+
+msgid "Planet and time zone"
+msgstr "الكوكب والمنطقة الزمنية"
+
+msgid "Planetary nomenclature"
+msgstr "أسماء التضاريس على الكواكب"
+
+msgid "Planetary transits"
+msgstr "عبور الكواكب"
+
+msgid "Planets"
+msgstr "الكواكب"
+
+msgid "Pluto, Ceres, Pallas, Juno and Vesta"
+msgstr "بلوتو، سيريس، باللاس، جونو وفيستا"
+
+msgid "Point size"
+msgstr "حجم النقطة"
+
+msgid "Pointing"
+msgstr "الإشارة"
+
+msgid "Polar distance"
+msgstr "المسافة القطبية"
+
+msgid "Polar distance, not declination"
+msgstr "المسافة القطبية، وليس الميل"
+
+msgid "Poles and points"
+msgstr "الأقطاب والنقاط"
+
+msgid "Polygon colour"
+msgstr "لون المضلع"
+
+msgid "Positive values only"
+msgstr "القيم الموجبة فقط"
+
+msgid "Previous"
+msgstr "السابق"
+
+msgid "Pronounce"
+msgstr "النطق"
+
+msgid "Query options"
+msgstr "خيارات الاستعلام"
+
+msgid "Quit"
+msgstr "خروج"
+
+msgid "Reading…"
+msgstr "جاري القراءة…"
+
+msgid "Real time speed"
+msgstr "سرعة الوقت الفعلي"
+
+msgid "Refraction, extinction, sky brightness"
+msgstr "الانكسار والانقراض وإضاءة السماء"
+
+msgid "Relative scale"
+msgstr "المقياس النسبي"
+
+msgid "Remove %s"
+msgstr "احذف %s"
+
+msgid "Remove from observing list"
+msgstr "احذف من قائمة الرصد"
+
+msgid "Rename"
+msgstr "أعد التسمية"
+
+msgid "Reset all"
+msgstr "أعد الكل"
+
+msgid "Restarting…"
+msgstr "جاري إعادة التشغيل…"
+
+msgid "Rises"
+msgstr "يطلع"
+
+msgid "Rotation"
+msgstr "الدوران"
+
+msgid "Running"
+msgstr "قيد التشغيل"
+
+msgid "SIMBAD did not answer."
+msgstr "لم يرد SIMBAD."
+
+msgid "SIMBAD is switched off in the search options."
+msgstr "SIMBAD معطل في خيارات البحث."
+
+msgid "SIMBAD is switched off. Turn it on under Options to look objects up online."
+msgstr "تم إيقاف SIMBAD. قم بتشغيله من الخيارات للبحث عن الأجرام عبر الإنترنت."
+
+msgid "SIMBAD server"
+msgstr "خادم SIMBAD"
+
+msgid "Saros %s"
+msgstr "ساروس %s"
+
+msgid "Saturation"
+msgstr "التشبع"
+
+msgid "Save either the current FOV and direction of view or all the current options for use at next startup. Restoring default settings requires a restart of the app."
+msgstr "احفظ إما حقل الرؤية الحالي واتجاه الرؤية أو جميع الخيارات الحالية للاستخدام عند بدء التشغيل التالي. استعادة الإعدادات الافتراضية تتطلب إعادة تشغيل التطبيق."
+
+msgid "Save to observing list"
+msgstr "احفظ إلى قائمة الرصد"
+
+msgid "Scale"
+msgstr "المقياس"
+
+msgid "Scale marker and label visibility by surface brightness"
+msgstr "قياس رؤية العلامة والاسم حسب السطوع السطحي"
+
+msgid "Scales smoothly between 1× at the minimum field of view and the factor above at the maximum"
+msgstr "يتغير بسلاسة بين 1× عند الحد الأدنى لحقل الرؤية والعامل أعلاه عند الحد الأقصى"
+
+msgid "Search in list"
+msgstr "ابحث في القائمة"
+
+msgid "Second body"
+msgstr "الجسم الثاني"
+
+msgid "Second graph"
+msgstr "الرسم البياني الثاني"
+
+msgid "Second object"
+msgstr "الجرم الثاني"
+
+msgid "Secondary intercardinal points"
+msgstr "نقاط الاتجاهات الوسيطة الثانوية"
+
+msgid "See the sky through the ground"
+msgstr "شاهد السماء من خلال الأرض"
+
+msgid "Select an object first: this asks SIMBAD what it holds around it."
+msgstr "اختر جرماً أولاً: يسأل SIMBAD عما حوله."
+
+msgid "Select it and show its card"
+msgstr "اختره وأظهر بطاقته"
+
+msgid "Select something in the sky first — this page works on the selection."
+msgstr "اختر شيئًا من السماء أولاً — تعمل هذه الصفحة على الاختيار."
+
+msgid "Selected object"
+msgstr "الجرم المختار"
+
+msgid "Separate colors for orbits of major planets"
+msgstr "ألوان منفصلة لمدارات الكواكب الرئيسية"
+
+msgid "September equinox"
+msgstr "اعتدال سبتمبر"
+
+msgid "Server"
+msgstr "الخادم"
+
+msgid "Set the clock to %s"
+msgstr "اضبط الساعة على %s"
+
+msgid "Set the place"
+msgstr "اضبط الموقع"
+
+msgid "Set to now"
+msgstr "اضبط إلى الآن"
+
+msgid "Sets"
+msgstr "يغيب"
+
+msgid "Shadow map for non-convex bodies. May coarsen the penumbra on some objects"
+msgstr "خريطة ظل للأجرام غير المحدبة. قد تؤثر على شبه الظل على بعض الأجرام"
+
+msgid "Shooting stars"
+msgstr "النجوم الشهابية"
+
+msgid "Short steps over a long duration are slow."
+msgstr "الخطوات القصيرة على مدة طويلة بطيئة."
+
+msgid "Show"
+msgstr "أظهر"
+
+msgid "Show all information"
+msgstr "أظهر جميع المعلومات"
+
+msgid "Show atmospheric extinction"
+msgstr "أظهر انقراض الغلاف الجوي"
+
+msgid "Show controls"
+msgstr "أظهر عناصر التحكم"
+
+msgid "Show each body where it was when the light left it (recommended)"
+msgstr "أظهر كل جرم حيث كان عندما غادر الضوء (موصى به)"
+
+msgid "Show frames per second beside the field of view"
+msgstr "أظهر الإطارات في الثانية بجانب حقل الرؤية"
+
+msgid "Show illumination"
+msgstr "أظهر الإضاءة"
+
+msgid "Show in sky"
+msgstr "أظهر في السماء"
+
+msgid "Show less"
+msgstr "أظهر أقل"
+
+msgid "Show more"
+msgstr "أظهر أكثر"
+
+msgid "Show objects which are up"
+msgstr "أظهر الأجرام التي تطلع"
+
+msgid "Show only objects between the two sizes"
+msgstr "أظهر الأجرام بين الحجمين فقط"
+
+msgid "Show only the kinds ticked below"
+msgstr "أظهر فقط الأنواع المحددة أدناه"
+
+msgid "Show or hide the two rails of controls"
+msgstr "اظهر أو أخفِ ريلتي التحكم"
+
+msgid "Show surveys"
+msgstr "أظهر المسوحات"
+
+msgid "Show this survey"
+msgstr "أظهر هذا المسح"
+
+msgid "Simbad Lookup Error: %s"
+msgstr "خطأ بحث Simbad: %s"
+
+msgid "Simbad Lookup: querying"
+msgstr "بحث Simbad: جاري الاستعلام"
+
+msgid "Simulation"
+msgstr "المحاكاة"
+
+msgid "Sky and viewing options"
+msgstr "خيارات السماء والعرض"
+
+msgid "Sky culture"
+msgstr "التراث الفلكي"
+
+msgid "Slow down"
+msgstr "أبطئ"
+
+msgid "Smallest, ′"
+msgstr "الأصغر، ′"
+
+msgid "Solar altitude for Twilight Finder"
+msgstr "ارتفاع الشمس لأداة البحث عن الشفق"
+
+msgid "Solar elongation"
+msgstr "الاستطالة الشمسية"
+
+msgid "Speed up"
+msgstr "أسرع"
+
+msgid "Stand where the landscape was shot, on the planet it names"
+msgstr "قف حيث تم التقاط المنظر الطبيعي، على الكوكب الذي يسميه"
+
+msgid "Star, planet, catalogue number…"
+msgstr "نجم، كوكب، رقم الفهرس…"
+
+msgid "Started"
+msgstr "بدأ"
+
+msgid "Startup FOV"
+msgstr "حقل الرؤية عند البدء"
+
+msgid "Startup direction of view"
+msgstr "اتجاه الرؤية عند البدء"
+
+msgid "Stellarium's user guide covers the astronomy this app shares with it: stellarium.org/documentation"
+msgstr "دليل مستخدم Stellarium يغطي الفلك الذي يشاركه هذا التطبيق: stellarium.org/documentation"
+
+msgid "Step, hours"
+msgstr "الخطوة، ساعات"
+
+msgid "Style"
+msgstr "النمط"
+
+msgid "Sun altitude"
+msgstr "ارتفاع الشمس"
+
+msgid "Sun at"
+msgstr "الشمس عند"
+
+msgid "Sun's altitude"
+msgstr "ارتفاع الشمس"
+
+msgid "Sunlight scattered by interplanetary dust"
+msgstr "ضوء الشمس المبعثر بواسطة الغبار بين الكواكب"
+
+msgid "Switch this off to see the trails for all Solar system bodies"
+msgstr "أوقف هذا لرؤية المسارات لجميع أجرام النظام الشمسي"
+
+msgid "System date at"
+msgstr "تاريخ النظام في"
+
+msgid "Tap a colour to change it. Changes show on the sky at once and are kept."
+msgstr "اضغط على اللون لتغييره. تظهر التغييرات على السماء مباشرة وتُحفظ."
+
+msgid "Tap again to confirm"
+msgstr "اضغط مرة أخرى للتأكيد"
+
+msgid "Tap an object"
+msgstr "اضغط على جرم"
+
+msgid "Tap the chart to read a value."
+msgstr "اضغط على الرسم البياني لقراءة قيمة."
+
+msgid "Tap the clock"
+msgstr "اضغط على الساعة"
+
+msgid "Tap the gear"
+msgstr "اضغط على ترس الإعدادات"
+
+msgid "Tap the map to stand there."
+msgstr "اضغط على الخريطة للوقوف هناك."
+
+msgid "Tap the place"
+msgstr "اضغط على الموقع"
+
+msgid "Tap to confirm"
+msgstr "اضغط للتأكيد"
+
+msgid "Tertiary intercardinal points"
+msgstr "نقاط الاتجاهات الوسيطة الثالثية"
+
+msgid "The Great Red Spot drifts in System II longitude. Enter a recent measurement and the drift rate to carry it forward from."
+msgstr "تنجرف البقعة الحمراء العظيمة في خط طول System II. أدخل قياسًا حديثًا ومعدل الانجراف للمضي قدمًا."
+
+msgid "The algorithm is based on visual observations 1877-1891 by G. Müller and was still republished in the Explanatory Supplement to the Astronomical Ephemeris (1961)."
+msgstr "تستند الخوارزمية على ملاحظات بصرية 1877-1891 من G. Müller وأُعيد نشرها في ملحق التقويم الفلكي الإيضاحي (1961)."
+
+msgid "The algorithm was published by A. Mallama & J. L. Hilton: Computing apparent planetary magnitudes for the Astronomical Almanac. Astronomy&Computing 25 (2018) 10-24."
+msgstr "نشرت الخوارزمية من قبل A. Mallama & J. L. Hilton: حساب أقدار الكواكب الظاهرة للتقويم الفلكي. Astronomy&Computing 25 (2018) 10-24."
+
+msgid "The algorithm was published in the 2nd edition of the Explanatory Supplement to the Astronomical Almanac (1992)."
+msgstr "نُشرت الخوارزمية في الطبعة الثانية من ملحق التقويم الفلكي الإيضاحي (1992)."
+
+msgid "The algorithm was published in the 3rd edition of the Explanatory Supplement to the Astronomical Almanac (2013)."
+msgstr "نُشرت الخوارزمية في الطبعة الثالثة من ملحق التقويم الفلكي الإيضاحي (2013)."
+
+msgid "The algorithm was used in the Astronomical Almanac (1984 and later) and gives V (instrumental) magnitudes (allegedly from D.L. Harris)."
+msgstr "استُخدمت الخوارزمية في التقويم الفلكي (1984 والإصدارات الأحدث) وتعطي أقدار V (آلية) (يُزعم أنها من D.L. Harris)."
+
+msgid "The colour each kind of object is drawn in"
+msgstr "اللون الذي يُرسم فيه كل نوع من الأجرام"
+
+msgid "The engine did not answer with any colours."
+msgstr "لم يجب المحرك بأي ألوان."
+
+msgid "The galactic band"
+msgstr "الحزام المجري"
+
+msgid "The horizon outline instead of the panorama"
+msgstr "تخطيط الأفق بدلاً من البانوراما"
+
+msgid "The path each body has taken across the sky"
+msgstr "المسار الذي اتخذه كل جرم عبر السماء"
+
+msgid "The shortest label the culture defines"
+msgstr "أقصر اسم تعرّفه الثقافة"
+
+msgid "Thickness"
+msgstr "السمك"
+
+msgid "This copy ships no scripts."
+msgstr "هذه النسخة لا تأتي بأي برامج نصية."
+
+msgid "This device has no location service."
+msgstr "هذا الجهاز لا يحتوي على خدمة الموقع."
+
+msgid "This part of the engine exposes no settings on this build."
+msgstr "هذا الجزء من المحرك لا يكشف عن أي إعدادات في هذا الإصدار."
+
+msgid "This tool works on Earth only!"
+msgstr "تعمل هذه الأداة على الأرض فقط!"
+
+msgid "This tool works on Earth only. Short steps over a long duration are slow."
+msgstr "تعمل هذه الأداة على الأرض فقط. الخطوات القصيرة على مدة طويلة بطيئة."
+
+msgid "This year"
+msgstr "هذه السنة"
+
+msgid "Time of day"
+msgstr "وقت اليوم"
+
+msgid "Time span"
+msgstr "المدة الزمنية"
+
+msgid "Time step"
+msgstr "خطوة زمنية"
+
+msgid "To the next (mths)"
+msgstr "إلى التالي (أشهر)"
+
+msgid "To the next, months"
+msgstr "إلى التالي، أشهر"
+
+msgid "Trails"
+msgstr "المسارات"
+
+msgid "Translated"
+msgstr "مترجم"
+
+msgid "Transparency"
+msgstr "الشفافية"
+
+msgid "Twilight and rise and set times are worked out for an observer on Earth. Move back to Earth to see them."
+msgstr "يتم حساب أوقات الشفق والطلوع والغروب لراصد على الأرض. انتقل إلى الأرض لرؤيتها."
+
+msgid "Twinkle"
+msgstr "الرمزة"
+
+msgid "Twinkle amount"
+msgstr "مقدار الرمزة"
+
+msgid "Twinkle even without atmosphere"
+msgstr "الرمزة حتى بدون الغلاف الجوي"
+
+msgid "Twinkle is caused by atmospheric turbulence; this shows it regardless"
+msgstr "تسبب الرمزة بسبب الاضطراب الجوي؛ هذا يعرضها بغض النظر"
+
+msgid "Type a name, a Bayer letter or a catalogue number - Vega, α Lyr, M 31, NGC 224."
+msgstr "اكتب اسمًا، أو حرف باير، أو رقم فهرس - Vega، α Lyr، M 31، NGC 224."
+
+msgid "Umbral magnitude"
+msgstr "قدر الظل الدائم"
+
+msgid "Up to mag."
+msgstr "حتى القدر"
+
+msgid "Use common symbols for coordinate systems"
+msgstr "استخدم الرموز الشائعة لأنظمة الإحداثيات"
+
+msgid "Use distance from North Celestial Pole, not declination from equator in equatorial coordinates"
+msgstr "استخدم البعد من القطب السماوي الشمالي، وليس الميل من الاستواء في الإحداثيات الاستوائية"
+
+msgid "Use my location"
+msgstr "استخدم موقعي"
+
+msgid "Use the date now shown in the sky"
+msgstr "استخدم التاريخ المعروض الآن في السماء"
+
+msgid "Use the value in landscape.ini when it has one"
+msgstr "استخدم القيمة في landscape.ini عند وجودها"
+
+msgid "Use the value stored for this location"
+msgstr "استخدم القيمة المخزنة لهذا الموقع"
+
+msgid "Version %s  ·  Qt %s"
+msgstr "الإصدار %s  ·  Qt %s"
+
+msgid "Visibility"
+msgstr "الرؤية"
+
+msgid "When a search result is chosen"
+msgstr "عند اختيار نتيجة بحث"
+
+msgid "Where Jupiter's Great Red Spot was, and when"
+msgstr "حيث كانت البقعة الحمراء العظيمة للمشتري، ومتى"
+
+msgid "Width"
+msgstr "العرض"
+
+msgid "Working out the contact times…"
+msgstr "جاري حساب أوقات الاتصال…"
+
+msgid "Zodiac and lunar stations"
+msgstr "البروج ومنازل القمر"
+
+msgid "Zodiacal Light brightness"
+msgstr "سطوع الضوء البروجي"
+
+msgid "Zoom in and out"
+msgstr "تكبير وتصغير"
+
+msgid "after sunset"
+msgstr "بعد الغروب"
+
+msgid "before sunrise"
+msgstr "قبل الشروق"
+
+msgid "bright suburban"
+msgstr "ضواحي مضاءة"
+
+msgid "east +"
+msgstr "شرق +"
+
+msgid "engine ready, interface going live"
+msgstr "المحرك جاهز، الواجهة تبدأ العمل"
+
+msgid "excellent dark sky"
+msgstr "سماء مظلمة ممتازة"
+
+msgid "inner city"
+msgstr "المدينة الداخلية"
+
+msgid "mag %s"
+msgstr "القدر %s"
+
+msgid "max %s"
+msgstr "الأعلى %s"
+
+msgid "mid %s"
+msgstr "الأوسط %s"
+
+msgid "north +"
+msgstr "شمال +"
+
+msgid "rural/suburban"
+msgstr "ريفي/ضواحي"
+
+msgid "suburban/urban"
+msgstr "ضواحي/حضري"
+
+msgid "truly dark"
+msgstr "حقًا مظلم"
+
+msgid "unreadable snapshot"
+msgstr "لقطة غير قابلة للقراءة"
+
+msgid "… and moons"
+msgstr "… والأقمار"

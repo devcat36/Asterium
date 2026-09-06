@@ -1,0 +1,2443 @@
+# Asterium interface translation for el.
+# Copyright (C) 2026 the Asterium authors
+# This file is distributed under the same licence as the Asterium package.
+#
+# MACHINE TRANSLATION, not reviewed by a speaker of this language.
+# Terminology follows upstream Stellarium's own el catalogue, which was used
+# as a glossary, and every entry keeps the source's printf placeholders.
+# Corrections from a human translator are welcome and should simply replace these.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: asterium\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%d bodies"
+msgstr "%d σώματα"
+
+msgid "%d object"
+msgstr "%d αντικείμενο"
+
+msgid "%d objects"
+msgstr "%d αντικείμενα"
+
+msgid "%s colour"
+msgstr "%s χρώμα"
+
+msgid "%s from %s, ±%.0f m"
+msgstr "%s από %s, ±%.0f m"
+
+msgid "12-hour"
+msgstr "12-ωρο"
+
+msgid "1× below"
+msgstr "1× κάτω"
+
+msgid "24-hour"
+msgstr "24-ωρο"
+
+msgid "A button to mark every object of the current observing list on the sky."
+msgstr "Κουμπί για σήμανση κάθε αντικειμένου της τρέχουσας λίστας παρατήρησης στον ουρανό."
+
+msgid "A button to toggle ecliptic grid of date"
+msgstr "Κουμπί εναλλαγής εκλειπτικού πλέγματος ημερομηνίας"
+
+msgid "A button to toggle equatorial J2000 grid"
+msgstr "Κουμπί εναλλαγής ισημερινού πλέγματος J2000"
+
+msgid "A button to toggle galactic grid"
+msgstr "Κουμπί εναλλαγής γαλαξιακού πλέγματος"
+
+msgid "A polygonal model for some small moons, asteroids and comets instead of a sphere"
+msgstr "Πολυγωνικό μοντέλο για μερικούς μικρούς δορυφόρους, αστεροειδείς και κομήτες αντί σφαίρας"
+
+msgid "A touch-first planetarium forked from Stellarium, whose astronomy engine it uses unchanged. The interface is new; everything that draws the sky is upstream's work."
+msgstr "Ένα πλανητάριο με προτεραιότητα την αφή που είναι ένα fork του Stellarium, του οποίου χρησιμοποιεί το αμετάβλητο κινητήρα αστρονομίας. Η διεπαφή είναι νέα· όλα όσα σχεδιάζουν τον ουρανό είναι έργο του upstream."
+
+msgid "Abbreviated names"
+msgstr "Συντομευμένα ονόματα"
+
+msgid "About this sky culture"
+msgstr "Σχετικά με αυτή τη συνθήκη ουρανού"
+
+msgid "Above altitude, °"
+msgstr "Πάνω από ύψος, °"
+
+msgid "Absolute scale"
+msgstr "Απόλυτη κλίμακα"
+
+msgid "Activate this option to calculate azimuth from south towards west."
+msgstr "Ενεργοποιήστε αυτήν την επιλογή για τον υπολογισμό του αζιμούθιου από νότο προς δύση."
+
+msgid "Add %s"
+msgstr "Προσθήκη %s"
+
+msgid "Additional information settings"
+msgstr "Ρυθμίσεις πρόσθετων πληροφοριών"
+
+msgid "Adjust brightness to bright objects"
+msgstr "Προσαρμογή φωτεινότητας σε φωτεινά αντικείμενα"
+
+msgid "Algol-type eclipsing systems"
+msgstr "Συστήματα εκλειπτικά τύπου Αλγόλ"
+
+msgid "Algorithm of ΔT"
+msgstr "Αλγόριθμος ΔT"
+
+msgid "All IDs"
+msgstr "Όλα τα αναγνωριστικά"
+
+msgid "All naked-eye planets"
+msgstr "Όλοι οι δορυφόροι ορατοί με γυμνό μάτι"
+
+msgid "All solar eclipses"
+msgstr "Όλες οι ηλιακές εκλείψεις"
+
+msgid "Allow negative hour angles"
+msgstr "Αποδοχή αρνητικών γωνιών ώρας"
+
+msgid "Allow results outside the recommended time range of the orbital elements"
+msgstr "Αποδοχή αποτελεσμάτων έξω από το συνιστώμενο εύρος χρόνου των τροχιακών στοιχείων"
+
+msgid "Almanac"
+msgstr "Ημερολόγιο"
+
+msgid "Almanac: Sun, Moon and naked-eye planets"
+msgstr "Ημερολόγιο: Ήλιος, Σελήνη και πλανήτες ορατοί με γυμνό μάτι"
+
+msgid "Also find"
+msgstr "Επίσης εύρεση"
+
+msgid "Also plot"
+msgstr "Επίσης σχεδίαση"
+
+msgid "Also show moons of selected object or planets"
+msgstr "Εμφάνιση επίσης δορυφόρων του επιλεγμένου αντικειμένου ή πλανητών"
+
+msgid "Altitude limit, °"
+msgstr "Όριο ύψους, °"
+
+msgid "Amount"
+msgstr "Ποσό"
+
+msgid "An observer floats above its planet, so there is nowhere on it to stand. Choose another planet to come back down."
+msgstr "Ένας παρατηρητής επιπλέει πάνω από τον πλανήτη του, οπότε δεν υπάρχει πουθενά για να σταθεί. Επιλέξτε άλλον πλανήτη για να επιστρέψετε."
+
+msgid "And"
+msgstr "Και"
+
+msgid "And also"
+msgstr "Και επίσης"
+
+msgid "And the next (years)"
+msgstr "Και τα επόμενα (χρόνια)"
+
+msgid "Ang. Size"
+msgstr "Γων. Μέγεθος"
+
+msgid "Angular distance"
+msgstr "Γωνιακή απόσταση"
+
+msgid "Angular distance between the Moon and selected object"
+msgstr "Γωνιακή απόσταση μεταξύ της Σελήνης και του επιλεγμένου αντικειμένου"
+
+msgid "Angular distance from the Moon"
+msgstr "Γωνιακή απόσταση από τη Σελήνη"
+
+msgid "Angular distance from the Moon for second object"
+msgstr "Γωνιακή απόσταση από τη Σελήνη για δεύτερο αντικείμενο"
+
+msgid "Angular distance from the Sun"
+msgstr "Γωνιακή απόσταση από τον Ήλιο"
+
+msgid "Angular distance from the Sun for second object"
+msgstr "Γωνιακή απόσταση από τον Ήλιο για δεύτερο αντικείμενο"
+
+msgid "Angular size"
+msgstr "Γωνιακό μέγεθος"
+
+msgid "Annual drift"
+msgstr "Ετήσια μετατόπιση"
+
+msgid "Aphelion"
+msgstr "Αφήλιον"
+
+msgid "Appearance"
+msgstr "Εμφάνιση"
+
+msgid "Apply time interval limits to list"
+msgstr "Εφαρμογή ορίων χρονικού διαστήματος στη λίστα"
+
+msgid "Art"
+msgstr "Τέχνη"
+
+msgid "Artificial satellites and unnamed stars are excluded from calculation."
+msgstr "Τεχνητοί δορυφόροι και άνευ ονόματος αστέρες εξαιρούνται από τον υπολογισμό."
+
+msgid "Asking for permission…"
+msgstr "Ζητείται άδεια…"
+
+msgid "Asks SIMBAD what it holds around the object that is selected now, and prints the answer as it comes back."
+msgstr "Ζητά από το SIMBAD τι έχει γύρω από το αντικείμενο που είναι επιλεγμένο τώρα, και εκτυπώνει την απάντηση όπως επιστρέφει."
+
+msgid "Ast. lines"
+msgstr "Αστ. γρ."
+
+msgid "Ast. names"
+msgstr "Αστ. όν."
+
+msgid "Asterisms"
+msgstr "Αστερισμοί"
+
+msgid "Asterisms font size"
+msgstr "Μέγεθος γραμματοσειράς αστερισμών"
+
+msgid "Astronomical Almanac (1984)"
+msgstr "Αστρονομικό Ημερολόγιο (1984)"
+
+msgid "Astronomical Almanac (default) enlarges by 2%; Danjon (1951) differs slightly"
+msgstr "Αστρονομικό Ημερολόγιο (προεπιλογή) μεγεθύνει κατά 2%; Danjon (1951) διαφέρει ελαφρώς"
+
+msgid "Astronomical Twilight"
+msgstr "Αστρονομικό Λυκόφως"
+
+msgid "Astronomical calculations"
+msgstr "Αστρονομικοί υπολογισμοί"
+
+msgid "Astronomical night"
+msgstr "Αστρονομική νύχτα"
+
+msgid "At"
+msgstr "Στις"
+
+msgid "Atmosph."
+msgstr "Ατμ."
+
+msgid "Automatic closing dialog"
+msgstr "Αυτόματο κλείσιμο διαλόγου"
+
+msgid "Automatic transparency"
+msgstr "Αυτόματη διαφάνεια"
+
+msgid "Axis distance"
+msgstr "Απόσταση άξονα"
+
+msgid "Azi. grid"
+msgstr "Αζιμ. πλ."
+
+msgid "Azimuth and altitude rather than right ascension and declination"
+msgstr "Αζιμούθιο και ύψος αντί ορθής αναφοράς και απόκλισης"
+
+msgid "Azimuth from South"
+msgstr "Αζιμούθιο από Νότο"
+
+msgid "Azimuth vs. Time"
+msgstr "Αζιμούθιο έναντι Χρόνου"
+
+msgid "Back"
+msgstr "Πίσω"
+
+msgid "Bad visibility conditions for current location"
+msgstr "Κακές συνθήκες ορατότητας για την τρέχουσα τοποθεσία"
+
+msgid "Beginning of center line; central eclipse begins"
+msgstr "Αρχή κεντρικής γραμμής· κεντρική έκλειψη αρχίζει"
+
+msgid "Below the horizon here."
+msgstr "Κάτω από τον ορίζοντα εδώ."
+
+msgid "Between objects"
+msgstr "Μεταξύ αντικειμένων"
+
+msgid "Blue"
+msgstr "Μπλε"
+
+msgid "Boundless"
+msgstr "Απεριόριστος"
+
+msgid "Bounds"
+msgstr "Όρια"
+
+msgid "Bright Solar system objects (<%1 mag)"
+msgstr "Λαμπρά αντικείμενα Ηλιακού συστήματος (<%1 μεγ.)"
+
+msgid "Bright barium stars"
+msgstr "Λαμπροί αστέρες βαρίου"
+
+msgid "Bright carbon stars"
+msgstr "Λαμπροί αστέρες άνθρακα"
+
+msgid "Bright double stars"
+msgstr "Λαμπρά διπλά αστέρια"
+
+msgid "Bright double stars (<%1 mag)"
+msgstr "Λαμπρά διπλά αστέρια (<%1 μεγ.)"
+
+msgid "Bright galaxies (<%1 mag)"
+msgstr "Λαμπρές γαλαξίες (<%1 μεγ.)"
+
+msgid "Bright nebulae (<%1 mag)"
+msgstr "Λαμπρά νεφελώματα (<%1 μεγ.)"
+
+msgid "Bright nova stars"
+msgstr "Λαμπροί αστέρες νέας"
+
+msgid "Bright star clusters (<%1 mag)"
+msgstr "Λαμπρά αστρικά σμήνη (<%1 μεγ.)"
+
+msgid "Bright stars (<%1 mag)"
+msgstr "Λαμπροί αστέρες (<%1 μεγ.)"
+
+msgid "Bright stars with high proper motion"
+msgstr "Λαμπροί αστέρες με υψηλή ίδια κίνηση"
+
+msgid "Bright supernova stars"
+msgstr "Λαμπροί αστέρες υπερκαινοφανούς"
+
+msgid "Bright variable stars"
+msgstr "Λαμπρά μεταβλητά αστέρια"
+
+msgid "Bright variable stars (<%1 mag)"
+msgstr "Λαμπρά μεταβλητά αστέρια (<%1 μεγ.)"
+
+msgid "Brighter than"
+msgstr "Φωτεινότερος από"
+
+msgid "Brightness"
+msgstr "Φωτεινότητα"
+
+msgid "By object type"
+msgstr "Κατά τύπο αντικειμένου"
+
+msgid "By planet"
+msgstr "Κατά πλανήτη"
+
+msgid "Calculate"
+msgstr "Υπολογισμός"
+
+msgid "Calculating…"
+msgstr "Υπολογισμός…"
+
+msgid "Caldwell objects"
+msgstr "Αντικείμενα Caldwell"
+
+msgid "Cardinals"
+msgstr "Σημ. Οριζ."
+
+msgid "Catalogue numbers instead of common names"
+msgstr "Αριθμοί καταλόγου αντί κοινών ονομάτων"
+
+msgid "Category"
+msgstr "Κατηγορία"
+
+msgid "Center of FOV"
+msgstr "Κέντρο οπτικού πεδίου"
+
+msgid "Centering button"
+msgstr "Κουμπί κεντραρίσματος"
+
+msgid "Central duration"
+msgstr "Κεντρική διάρκεια"
+
+msgid "Central eclipse begins"
+msgstr "Αρχή κεντρικής έκλειψης"
+
+msgid "Central eclipse ends"
+msgstr "Τέλος κεντρικής έκλειψης"
+
+msgid "Centre"
+msgstr "Κέντρο"
+
+msgid "Centre on object"
+msgstr "Κέντρο στο αντικείμενο"
+
+msgid "Centre point"
+msgstr "Σημείο κέντρου"
+
+msgid "Circles"
+msgstr "Κύκλοι"
+
+msgid "Circular FOV"
+msgstr "Κυκλικό οπτικό πεδίο"
+
+msgid "Circumpolar circles"
+msgstr "Κύκλοι περίπολοι"
+
+msgid "City"
+msgstr "Πόλη"
+
+msgid "Civil Twilight"
+msgstr "Πολιτικό Λυκόφως"
+
+msgid "Cleanup"
+msgstr "Καθαρισμός"
+
+msgid "Clear"
+msgstr "Εκκαθάριση"
+
+msgid "Clear recent searches"
+msgstr "Εκκαθάριση πρόσφατων αναζητήσεων"
+
+msgid "Clear the selection - a touch screen has no right button"
+msgstr "Εκκαθάριση της επιλογής - μια οθόνη αφής δεν έχει δεξί κουμπί"
+
+msgid "Cleared."
+msgstr "Εκκαθαρίστηκε."
+
+msgid "Click on star to show its constellation"
+msgstr "Κάντε κλικ στον αστέρα για να εμφανίσετε τον αστερισμό του"
+
+msgid "Close"
+msgstr "Κλείσιμο"
+
+msgid "Close what is open; from the sky, leave the app running"
+msgstr "Κλείστε ό,τι είναι ανοιχτό· από τον ουρανό, αφήστε την εφαρμογή να τρέχει"
+
+msgid "Coarse"
+msgstr "Χοντρός"
+
+msgid "Color"
+msgstr "Χρώμα"
+
+msgid "Color channel"
+msgstr "Κανάλι χρώματος"
+
+msgid "Color of Lunar station lines"
+msgstr "Χρώμα γραμμών σελήνιας σταθμής"
+
+msgid "Color of asterism lines"
+msgstr "Χρώμα γραμμών αστερισμών"
+
+msgid "Color of asterism names"
+msgstr "Χρώμα ονομάτων αστερισμών"
+
+msgid "Color of constellation lines"
+msgstr "Χρώμα ορίων αστερισμών"
+
+msgid "Color of constellation names"
+msgstr "Χρώμα ονομάτων αστερισμών"
+
+msgid "Color of nomenclature labels"
+msgstr "Χρώμα ετικετών ονοματολογίας"
+
+msgid "Color of orbits"
+msgstr "Χρώμα τροχιών"
+
+msgid "Color of planet labels"
+msgstr "Χρώμα ετικετών πλανητών"
+
+msgid "Color of ray helpers"
+msgstr "Χρώμα βοηθητικών ακτίνων"
+
+msgid "Color of trails"
+msgstr "Χρώμα ίχνους"
+
+msgid "Color of zodiac lines"
+msgstr "Χρώμα ζωδιακών γραμμών"
+
+msgid "Colors of orbit lines"
+msgstr "Χρώματα ορίων τροχιών"
+
+msgid "Colures"
+msgstr "Κόλουρες"
+
+msgid "Comets up to mag."
+msgstr "Κομήτες μέχρι mag."
+
+msgid "Compass"
+msgstr "Πυξίδα"
+
+msgid "Config"
+msgstr "Ρύθμιση"
+
+msgid "Configure colors of markers"
+msgstr "Ρύθμιση χρωμάτων διακριτικών"
+
+msgid "Configure colors of orbit lines"
+msgstr "Ρύθμιση χρωμάτων ορίων τροχιών"
+
+msgid "Conjunction"
+msgstr "Συζυγία"
+
+msgid "Connecting line"
+msgstr "Γραμμή σύνδεσης"
+
+msgid "Const."
+msgstr "Αστ."
+
+msgid "Constellations font size"
+msgstr "Μέγεθος γραμματοσειράς αστερισμών"
+
+msgid "Contrast"
+msgstr "Αντίθεση"
+
+msgid "Coordinate system"
+msgstr "Σύστημα συντεταγμένων"
+
+msgid "Coordinates"
+msgstr "Συντεταγμένες"
+
+msgid "Copyright"
+msgstr "Πνευματικά δικαιώματα"
+
+msgid "Credits"
+msgstr "Πιστώσεις"
+
+msgid "Culmination altitude"
+msgstr "Ύψος κορύφωσης"
+
+msgid "Current FoV"
+msgstr "Τρέχον οπτικό πεδίο"
+
+msgid "Custom"
+msgstr "Προσαρμοσμένο"
+
+msgid "Custom FoV limit"
+msgstr "Προσαρμοσμένο όριο οπτικού πεδίου"
+
+msgid "Custom altitude of the Moon, °"
+msgstr "Προσαρμοσμένο ύψος της Σελήνης, °"
+
+msgid "Custom altitude of the Sun, °"
+msgstr "Προσαρμοσμένο ύψος του Ήλιου, °"
+
+msgid "Custom settings for position of GRS"
+msgstr "Προσαρμοσμένες ρυθμίσεις για τη θέση του Μεγάλου Κόκκινου Σημείου"
+
+msgid "Custom values"
+msgstr "Προσαρμοσμένες τιμές"
+
+msgid "Cut the scale off below the limit"
+msgstr "Κόψτε την κλίμακα κάτω από το όριο"
+
+msgid "DATE AND TIME (UTC)"
+msgstr "ΗΜΕΡΟΜΗΝΙΑ ΚΑΙ ΩΡΑ (UTC)"
+
+msgid "DSS survey"
+msgstr "DSS αποτύπωση"
+
+msgid "Date"
+msgstr "Ημερομηνία"
+
+msgid "Date and time"
+msgstr "Ημερομηνία και ώρα"
+
+msgid "Date/time"
+msgstr "Ημερομηνία/ώρα"
+
+msgid "Dates"
+msgstr "Ημερομηνίες"
+
+msgid "Dawn"
+msgstr "Αυγή"
+
+msgid "Dbl. stars"
+msgstr "Διπλ. αστέρες"
+
+msgid "December solstice"
+msgstr "Ηλιοστάσιο Δεκεμβρίου"
+
+msgid "Decimal degrees. −33.87 means 33.87° south. Elevation is metres above sea level; it moves the horizon down by a few arcminutes."
+msgstr "Δεκαδικές μοίρες. −33.87 σημαίνει 33.87° νότια. Το υψόμετρο είναι μέτρα πάνω από την επιφάνεια της θάλασσας· μετακινεί τον ορίζοντα κάτω κατά λίγα τόξα λεπτά."
+
+msgid "Degrees per year the longitude moves by"
+msgstr "Μοίρες ανά χρόνο που κινείται το γεωγραφικό μήκος"
+
+msgid "Degrees, hours and minutes as they are written - 12h30m49s, +41°16'09\", 187.7 - or plain decimal degrees."
+msgstr "Μοίρες, ώρες και λεπτά όπως γράφονται - 12h30m49s, +41°16'09\", 187.7 - ή απλές δεκαδικές μοίρες."
+
+msgid "Deletes all recent search object data, and the objects SIMBAD contributed."
+msgstr "Διαγράφει όλα τα πρόσφατα δεδομένα αναζητούμενων αντικειμένων, και τα αντικείμενα που συνέβαλε το SIMBAD."
+
+msgid "Designations for celestial coordinate systems"
+msgstr "Ονοματολογία για ουράνια συστήματα συντεταγμένων"
+
+msgid "Designations for double stars"
+msgstr "Ονοματολογία για διπλούς αστέρες"
+
+msgid "Designations for variable stars"
+msgstr "Ονοματολογία για μεταβλητούς αστέρες"
+
+msgid "Dim a survey near the horizon, as the air does"
+msgstr "Σβήσιμο μιας αποτύπωσης κοντά στον ορίζοντα, όπως κάνει ο αέρας"
+
+msgid "Dimensions"
+msgstr "Διαστάσεις"
+
+msgid "Display objects from catalogs"
+msgstr "Εμφάνιση αντικειμένων από καταλόγους"
+
+msgid "Dist."
+msgstr "Απ."
+
+msgid "Distance, AU"
+msgstr "Απόσταση, ΑΕ"
+
+msgid "Done"
+msgstr "Ολοκληρώθηκε"
+
+msgid "Drag"
+msgstr "Σύρεται"
+
+msgid "Draw deep-sky objects at all"
+msgstr "Σχεδίαση αντικειμένων βαθέως ουρανού καθόλου"
+
+msgid "Draw only polygon"
+msgstr "Σχεδίαση μόνο πολυγώνου"
+
+msgid "Draw the enabled sky surveys"
+msgstr "Σχεδίαση των ενεργοποιημένων αποτυπώσεων του ουρανού"
+
+msgid "Draw the planets, moons and minor bodies"
+msgstr "Σχεδίαση των πλανητών, δορυφόρων και μικρών σωμάτων"
+
+msgid "Drawn larger than life, so a body that is a few arcseconds wide is visible at all. The position stays true."
+msgstr "Σχεδιασμένο μεγαλύτερο από την πραγματικότητα, ώστε ένα σώμα που είναι λίγα τόξα δευτερόλεπτα πλάτος να είναι ορατό. Η θέση παραμένει αληθής."
+
+msgid "Duration"
+msgstr "Διάρκεια"
+
+msgid "Duration (years)"
+msgstr "Διάρκεια (χρόνια)"
+
+msgid "Duration, months"
+msgstr "Διάρκεια, μήνες"
+
+msgid "Dusk"
+msgstr "Σκοτάδι"
+
+msgid "Dwarf planets"
+msgstr "Νάνοι πλανήτες"
+
+msgid "Dynamic (FOV-based) Moon size"
+msgstr "Δυναμικό (βασισμένο στο οπτικό πεδίο) μέγεθος Σελήνης"
+
+msgid "ELEV. M"
+msgstr "ΥΨΟΜ. Μ"
+
+msgid "Earth penumbra"
+msgstr "Σκιά της Γης"
+
+msgid "Earth shadow enlargement after Danjon"
+msgstr "Μεγέθυνση σκιάς της Γης κατά Danjon"
+
+msgid "Earth umbra"
+msgstr "Ολική σκιά της Γης"
+
+msgid "Eastern quadrature"
+msgstr "Ανατολική τετραγωνία"
+
+msgid "Ecl. grid"
+msgstr "Εκλ. πλέγμα"
+
+msgid "Eclipse begins; first contact with Earth"
+msgstr "Έκλειψη αρχίζει· πρώτη επαφή με τη Γη"
+
+msgid "Eclipse ends; last contact with Earth"
+msgstr "Έκλειψη τελειώνει· τελευταία επαφή με τη Γη"
+
+msgid "Eclipse magnitude"
+msgstr "Μέγεθος έκλειψης"
+
+msgid "Eclipses"
+msgstr "Εκλείψεις"
+
+msgid "Eclipses are computed for observers on Earth."
+msgstr "Οι εκλείψεις υπολογίζονται για παρατηρητές στη Γη."
+
+msgid "Ecliptic grid (of date)"
+msgstr "Εκλειπτικό πλέγμα (ημερομηνίας)"
+
+msgid "Elev."
+msgstr "Ύψ."
+
+msgid "Elevation"
+msgstr "Υψόμετρο"
+
+msgid "Elevation in metres"
+msgstr "Υψόμετρο σε μέτρα"
+
+msgid "Elong."
+msgstr "Απ."
+
+msgid "Elongation"
+msgstr "Ελονγκάσιον"
+
+msgid "Elongations and quadratures"
+msgstr "Εξελίξεις και τετραγωνισμοί"
+
+msgid "Emission-line stars"
+msgstr "Αστέρες εκπομπής"
+
+msgid "Enabled only"
+msgstr "Μόνο ενεργοποιημένο"
+
+msgid "End of center line; central eclipse ends"
+msgstr "Τέλος κεντρικής γραμμής· κεντρική έκλειψη τελειώνει"
+
+msgid "Enter Culture..."
+msgstr "Εισαγωγή Πολιτισμού…"
+
+msgid "Ephemeris"
+msgstr "Εφημερίδες"
+
+msgid "Equ. grid"
+msgstr "Ισημ. πλ."
+
+msgid "Equ. mount"
+msgstr "Ισημ. στήρ."
+
+msgid "Equatorial radii ratio"
+msgstr "Αναλογία ισημερινών ακτίνων"
+
+msgid "Evening"
+msgstr "Βράδυ"
+
+msgid "Every"
+msgstr "Κάθε"
+
+msgid "Every name the object is catalogued under"
+msgstr "Κάθε όνομα κάτω από το οποίο είναι καταλογισμένο το αντικείμενο"
+
+msgid "Exoplanetary systems"
+msgstr "Εξοπλανητικά συστήματα"
+
+msgid "Exterior egress"
+msgstr "Εξωτερική έξοδος"
+
+msgid "Exterior ingress"
+msgstr "Εξωτερική είσοδος"
+
+msgid "Fades the ground as you look below the horizon or zoom in"
+msgstr "Ξεθωριάζει το έδαφος καθώς κοιτάτε κάτω από τον ορίζοντα ή εστιάζετε"
+
+msgid "Fading duration"
+msgstr "Διάρκεια εξασθένησης"
+
+msgid "Faintest shown"
+msgstr "Αμυδρότερος που φαίνεται"
+
+msgid "Favorites"
+msgstr "Αγαπημένα"
+
+msgid "Fetching the survey lists…"
+msgstr "Ανάκτηση των λιστών αποτυπώσεων…"
+
+msgid "Filter"
+msgstr "Φίλτρο"
+
+msgid "Filter by type"
+msgstr "Φιλτράρισμα κατά τύπο"
+
+msgid "Find a city"
+msgstr "Εύρεση πόλης"
+
+msgid "Fine"
+msgstr "Καλός"
+
+msgid "First %d of %d - filter to narrow it."
+msgstr "Πρώτο %d από %d - φιλτράρισμα για περιορισμό."
+
+msgid "First body"
+msgstr "Πρώτο σώμα"
+
+msgid "First celestial body"
+msgstr "Πρώτο ουράνιο σώμα"
+
+msgid "First graph"
+msgstr "Πρώτη γραφική παράσταση"
+
+msgid "Fix"
+msgstr "Διόρθωση"
+
+msgid "Fixed Equator"
+msgstr "Σταθερός Ισημερινός"
+
+msgid "Fixed Equatorial grid"
+msgstr "Σταθερό ισημερινό πλέγμα"
+
+msgid "Fixed instant"
+msgstr "Σταθερή στιγμή"
+
+msgid "Flip buttons"
+msgstr "Κουμπιά αναστροφής"
+
+msgid "Flip horiz."
+msgstr "Αν. οριζ."
+
+msgid "Flip vert."
+msgstr "Αν. κάθ."
+
+msgid "Font size"
+msgstr "Μέγεθος γραμματοσειράς"
+
+msgid "Frame rate"
+msgstr "Ρυθμός καρέ"
+
+msgid "From"
+msgstr "Από"
+
+msgid "From year"
+msgstr "Από χρόνο"
+
+msgid "Full screen"
+msgstr "Πλήρη Οθόνη"
+
+msgid "Fullscreen button"
+msgstr "Κουμπί πλήρης οθόνης"
+
+msgid "Further reading"
+msgstr "Περαιτέρω ανάγνωση"
+
+msgid "GRS details…"
+msgstr "Λεπτομέρειες Μεγάλου Κόκκινου Σημείου…"
+
+msgid "Gal. grid"
+msgstr "Γαλ. πλέγμα"
+
+msgid "Galactic center and anticenter"
+msgstr "Γαλαξιακό κέντρο και αντίκεντρο"
+
+msgid "Gamma, saturation, brightness, contrast, opacity, colour channel and inverted colours belong to one survey. Open a survey to set them."
+msgstr "Gamma, κορεσμός, φωτεινότητα, αντίθεση, αδιαφάνεια, κανάλι χρώματος και αντεστραμμένα χρώματα ανήκουν σε μια αποτύπωση. Ανοίξτε μια αποτύπωση για να τα ορίσετε."
+
+msgid "Generic"
+msgstr "Γενικός"
+
+msgid "Gestures"
+msgstr "Χειρονομίες"
+
+msgid "Go there"
+msgstr "Πάμε εκεί"
+
+msgid "Go to position"
+msgstr "Μετάβαση στη θέση"
+
+msgid "Go to this eclipse"
+msgstr "Μετάβαση στην αυτή την έκλειψη"
+
+msgid "Go to this moment"
+msgstr "Μετάβαση σε αυτή τη στιγμή"
+
+msgid "Go to this transit"
+msgstr "Μετάβαση σε αυτή τη μεσουράνηση"
+
+msgid "Good visibility conditions for current location"
+msgstr "Καλές συνθήκες ορατότητας για την τρέχουσα τοποθεσία"
+
+msgid "Great Red Spot"
+msgstr "Μεγάλο Κόκκινο Σημείο"
+
+msgid "Great Red Spot details"
+msgstr "Λεπτομέρειες Μεγάλου Κόκκινου Σημείου"
+
+msgid "Greatest eastern elongation"
+msgstr "Μεγαλύτερη ανατολική ελονγκάσιον"
+
+msgid "Greatest eclipse"
+msgstr "Μεγαλύτερη έκλειψη"
+
+msgid "Greatest elongation for an inner planet, quadrature for an outer one"
+msgstr "Μέγιστη έκταση για έναν εσωτερικό πλανήτη, τετραγωνισμό για έναν εξωτερικό"
+
+msgid "Greatest western elongation"
+msgstr "Μεγαλύτερη δυτική ελονγκάσιον"
+
+msgid "Greek letters"
+msgstr "Ελληνικά γράμματα"
+
+msgid "Green"
+msgstr "Πράσινο"
+
+msgid "Grid density"
+msgstr "Πυκνότητα πλέγματος"
+
+msgid "Grids"
+msgstr "Πλέγματα"
+
+msgid "Ground"
+msgstr "Έδαφος"
+
+msgid "Gyro"
+msgstr "Γυροσκόπιο"
+
+msgid "Gyro mode"
+msgstr "Κατάσταση γυροσκοπίου"
+
+msgid "Height"
+msgstr "Ύψος"
+
+msgid "Heliocentric distance"
+msgstr "Ηλιοκεντρική απόσταση"
+
+msgid "Heliocentric ecliptic positions of the major planets."
+msgstr "Ηλιοκεντρικές εκλειπτικές θέσεις των μεγάλων πλανητών."
+
+msgid "Herschel 400 objects"
+msgstr "Αντικείμενα Herschel 400"
+
+msgid "HiPS"
+msgstr "HiPS"
+
+msgid "HiPS Surveys"
+msgstr "HiPS Αποτυπώσεις"
+
+msgid "Hide controls"
+msgstr "Απόκρυψη ελέγχων"
+
+msgid "Hide deep-sky objects fainter than the limit"
+msgstr "Απόκρυψη αντικειμένων Βαθέος Ουρανού πιο αμυδρών από το όριο"
+
+msgid "Hide nomenclature on the celestial body of observer"
+msgstr "Απόκρυψη ονοματολογίας στο Ουράνιο σώμα του παρατηρητή"
+
+msgid "Hide orbits of minor bodies"
+msgstr "Απόκρυψη τροχιών μικρών σωμάτων"
+
+msgid "Highlight"
+msgstr "Επισήμανση"
+
+msgid "Highlight the objects of the observing list"
+msgstr "Επισήμανση των αντικειμένων της λίστας παρατήρησης"
+
+msgid "Hint circles marking each planet"
+msgstr "Κύκλοι υπόδειξης για κάθε πλανήτη"
+
+msgid "Hints"
+msgstr "Υποδείξεις"
+
+msgid "Hints brightness"
+msgstr "Φωτεινότητα υποδείξεων"
+
+msgid "Hipparcos designations"
+msgstr "Ονοματολογία Hipparcos"
+
+msgid "Horizontal"
+msgstr "Οριζόντιες συντεταγμένες"
+
+msgid "Hour angles usually run 0...24h. This counts -12h...12h."
+msgstr "Γωνίες ωρών 0...24h. Εδώ -12h...12h."
+
+msgid "How many"
+msgstr "Πόσα"
+
+msgid "ICRS grid"
+msgstr "Πλέγμα ICRS"
+
+msgid "Include"
+msgstr "Συμπερίληψη"
+
+msgid "Include bright comets"
+msgstr "Συμπερίληψη φωτεινών κομητών"
+
+msgid "Include selected minor planets"
+msgstr "Συμπερίληψη επιλεγμένων μικρών πλανητών"
+
+msgid "Inferior conjunction"
+msgstr "Κατώτερη συζυγία"
+
+msgid "Info label"
+msgstr "Ετικέτα πληροφοριών"
+
+msgid "Interacting galaxies"
+msgstr "Αλληλεπιδρώντες γαλαξίες"
+
+msgid "Intercardinal points"
+msgstr "Μεσοδιακάρδιες κατευθύνσεις"
+
+msgid "Interior egress"
+msgstr "Εσωτερική έξοδος"
+
+msgid "Interior ingress"
+msgstr "Εσωτερική είσοδος"
+
+msgid "Interstellar objects"
+msgstr "Αστερμεσοαστερικά αντικείμενα"
+
+msgid "Invariable plane of the Solar system"
+msgstr "Αμετάβλητο επίπεδο Ηλιακού Συστήματος"
+
+msgid "Isolated"
+msgstr "Απομονωμένος"
+
+msgid "Its elevation, and the civil, nautical and astronomical twilights"
+msgstr "Ύψος και αστικές, ναυτικές και αστρονομικές λυκόφως"
+
+msgid "Jovigraphic longitude of the spot in System II, in degrees"
+msgstr "Ιοβιογραφικό μήκος σε Σύστημα II, σε μοίρες"
+
+msgid "Julian day"
+msgstr "Ημέρα Ιουλιανή"
+
+msgid "June solstice"
+msgstr "Ηλιοστάσιο Ιουνίου"
+
+msgid "Label"
+msgstr "Ετικέτα"
+
+msgid "Label colour"
+msgstr "Χρώμα ετικέτας"
+
+msgid "Label only features along the terminator"
+msgstr "Ετικέτα χαρακτηριστικών στον τερματιστή"
+
+msgid "Labels and Markers amount"
+msgstr "Ποσότητα Ετικετών και Διακριτικών"
+
+msgid "Labels brightness"
+msgstr "Φωτεινότητα ετικετών"
+
+msgid "Largest, ′"
+msgstr "Μεγαλύτερο, ′"
+
+msgid "Last known position"
+msgstr "Τελευταία γνωστή θέση"
+
+msgid "Lasting"
+msgstr "Διάρκεια"
+
+msgid "Latest selected object"
+msgstr "Τελευταίο επιλεγμένο αντικείμενο"
+
+msgid "Latitude −90…90, longitude −180…180."
+msgstr "Πλάτος −90…90, μήκος −180…180."
+
+msgid "Layer appearance"
+msgstr "Εμφάνιση στρώματος"
+
+msgid "Leaves the landscape visible in darkness"
+msgstr "Αφήνει τοπίο ορατό στο σκότος"
+
+msgid "Licence"
+msgstr "Άδεια χρήσης"
+
+msgid "Light pollution"
+msgstr "Φωτορύπανση"
+
+msgid "Light pollution from database"
+msgstr "Φωτορύπανση από βάση δεδομένων"
+
+msgid "Limit angular separation"
+msgstr "Περιορισμός γωνιακής διάκρισης"
+
+msgid "Limit angular size"
+msgstr "Όριο γωνιακού μεγέθους"
+
+msgid "Limit magnitude"
+msgstr "Όριο μεγέθους"
+
+msgid "Limit the magnitude of solar system objects"
+msgstr "Όριο μεγέθους αντικειμένων Ηλιακού Συστήματος"
+
+msgid "Line"
+msgstr "Γραμμή"
+
+msgid "Line thickness"
+msgstr "Πάχος γραμμής"
+
+msgid "Linear and angular distances between selected objects"
+msgstr "Γραμμικές και γωνιακές αποστάσεις μεταξύ επιλεγμένων αντικειμένων"
+
+msgid "Linear distance"
+msgstr "Γραμμική απόσταση"
+
+msgid "Lines"
+msgstr "Γραμμές"
+
+msgid "Lines and circles"
+msgstr "Γραμμές και κύκλοι"
+
+msgid "List"
+msgstr "Λίστα"
+
+msgid "List name"
+msgstr "Όνομα λίστας"
+
+msgid "Lit windows, street lighting and the like"
+msgstr "Φωτισμένα παράθυρα, φωτισμός δρόμων κ.α."
+
+msgid "Loading…"
+msgstr "Φόρτωση…"
+
+msgid "Local Mean Solar Time"
+msgstr "Τοπική Μέση Ηλιακή Ώρα"
+
+msgid "Local Time"
+msgstr "Τοπική ώρα"
+
+msgid "Local True Solar Time"
+msgstr "Τοπική Αληθινή Ηλιακή Ώρα"
+
+msgid "Local solar eclipses"
+msgstr "Τοπικές ηλιακές εκλείψεις"
+
+msgid "Local time"
+msgstr "Τοπική ώρα"
+
+msgid "Local time, h"
+msgstr "Τοπική ώρα, h"
+
+msgid "Locate me"
+msgstr "Εντοπισμό μου"
+
+msgid "Locating…"
+msgstr "Εντοπισμό…"
+
+msgid "Location from landscape"
+msgstr "Τοποθεσία από τοπίο"
+
+msgid "Location is switched off in the system settings."
+msgstr "Η τοποθεσία απενεργοποιημένη στις ρυθμίσεις."
+
+msgid "Location permission refused. The other two ways still work."
+msgstr "Άδεια τοποθεσίας αρνήθηκε. Τα άλλα δύο μέσα λειτουργούν."
+
+msgid "Lock position when coordinates are used"
+msgstr "Κλείδωμα θέσης με χρήση συντεταγμένων"
+
+msgid "Long press"
+msgstr "Μακρύ πάτημα"
+
+msgid "Longitude of GRS"
+msgstr "Μήκος του GRS"
+
+msgid "Lunar Elongation"
+msgstr "Σεληνιακή Απόσταση"
+
+msgid "Lunar Stations"
+msgstr "Σεληνιακοί Σταθμοί"
+
+msgid "Lunar eclipses"
+msgstr "Σεληνιακές εκλείψεις"
+
+msgid "Lunar elongation"
+msgstr "Σεληνιακή απόσταση"
+
+msgid "Mag."
+msgstr "Μέγ."
+
+msgid "Mag. 1"
+msgstr "Μέγ. 1"
+
+msgid "Mag. 2"
+msgstr "Μέγ. 2"
+
+msgid "Magnitudes"
+msgstr "Μεγέθη"
+
+msgid "Major planets"
+msgstr "Μεγάλοι πλανήτες"
+
+msgid "Major planets by planet, minor bodies by type"
+msgstr "Μεγάλοι πλανήτες ανά πλανήτη, μικρά σώματα ανά τύπο"
+
+msgid "Map of the planet. Tap to set the observer's place."
+msgstr "Χάρτης πλανήτη. Αγγίξτε για θέση παρατηρητή."
+
+msgid "March equinox"
+msgstr "Ισημερία Μαρτίου"
+
+msgid "Mark impact features with ellipses"
+msgstr "Σήμανση κρούσεων με ελλείψεις"
+
+msgid "Mark minor bodies"
+msgstr "Σήμανση μικρών σωμάτων"
+
+msgid "Markers"
+msgstr "Διακριτικά"
+
+msgid "Markers sized by the object's angular size"
+msgstr "Διακριτικά ανάλογα γωνιακού μεγέθους"
+
+msgid "Master switch for the grids, lines and points below"
+msgstr "Κύριος διακόπτης για πλέγματα, γραμμές και σημεία"
+
+msgid "Max items to display"
+msgstr "Μέγιστα στοιχεία προς εμφάνιση"
+
+msgid "Max. results"
+msgstr "Μέγ. αποτελέσματα"
+
+msgid "Max. search radius"
+msgstr "Μέγ. ακτίνα αναζήτησης"
+
+msgid "Maximum Solar altitude"
+msgstr "Μέγιστο ύψος Ηλίου"
+
+msgid "Maximum allowed separation"
+msgstr "Μέγιστη επιτρεπόμενη διάκριση"
+
+msgid "Maximum angular size"
+msgstr "Μέγιστο γωνιακό μέγεθος"
+
+msgid "Maximum eclipse"
+msgstr "Μέγιστη έκλειψη"
+
+msgid "Maximum year"
+msgstr "Μέγιστο έτος"
+
+msgid "Mean motion"
+msgstr "Μέση κίνηση"
+
+msgid "Mercury, Venus, Mars, Jupiter and Saturn at once. Earth only."
+msgstr "Ερμής, Αφροδίτη, Άρης, Δίας και Κρόνος. Μόνο Γη."
+
+msgid "Messier objects"
+msgstr "Αντικείμενα Messier"
+
+msgid "Mid-transit"
+msgstr "Μέση διαμετακόμιση"
+
+msgid "Milky Way brightness"
+msgstr "Φωτεινότητα Γαλαξία"
+
+msgid "Milky Way saturation"
+msgstr "Κορεσμός Γαλαξία"
+
+msgid "Minimal angular size"
+msgstr "Ελάχιστο γωνιακό μέγεθος"
+
+msgid "Minimal brightness"
+msgstr "Ελάχιστη φωτεινότητα"
+
+msgid "Minimum Solar altitude"
+msgstr "Ελάχιστο ύψος Ηλίου"
+
+msgid "Minimum year"
+msgstr "Ελάχιστο έτος"
+
+msgid "Minor bodies"
+msgstr "Μικρά σώματα"
+
+msgid "Minutes before sunrise / after sunset"
+msgstr "Λεπτά πριν την ανατολή / μετά τη δύση"
+
+msgid "Month"
+msgstr "Μήνας"
+
+msgid "Monthly Elevation"
+msgstr "Μηνιαία Ύψωση"
+
+msgid "Moon at"
+msgstr "Σελήνη στο"
+
+msgid "Moon enters penumbra"
+msgstr "Η Σελήνη εισέρχεται στη σκιά"
+
+msgid "Moon enters umbra"
+msgstr "Η Σελήνη εισέρχεται στον πυρήνα της σκιάς"
+
+msgid "Moon in zenith at"
+msgstr "Σελήνη στο Ζενίθ στις"
+
+msgid "Moon leaves penumbra"
+msgstr "Η Σελήνη εγκαταλείπει τη σκιά"
+
+msgid "Moon leaves umbra"
+msgstr "Η Σελήνη εγκαταλείπει τον πυρήνα της σκιάς"
+
+msgid "Moon's halo"
+msgstr "Άλω Σελήνης"
+
+msgid "Moons of first body"
+msgstr "Σελήνες του πρώτου σώματος"
+
+msgid "Morning"
+msgstr "Πρωί"
+
+msgid "Morph. Descr."
+msgstr "Μορφ. Περιγρ."
+
+msgid "Move the sky by pointing the phone at it"
+msgstr "Μετακίνηση ουρανού δείχνοντας το τηλέφωνο"
+
+msgid "Move the sky with the phone"
+msgstr "Μετακίνηση ουρανού με το τηλέφωνο"
+
+msgid "NGC/IC objects"
+msgstr "Αντικείμενα NGC/IC"
+
+msgid "Name for the new list"
+msgstr "Όνομα για τη νέα λίστα"
+
+msgid "Named features the landscape marks"
+msgstr "Ονοματισμένα χαρακτηριστικά του τοπίου"
+
+msgid "Names"
+msgstr "Ονόματα"
+
+msgid "Names beside the planets and their markers"
+msgstr "Ονόματα δίπλα σε πλανήτες και διακριτικά"
+
+msgid "Names in English"
+msgstr "Ονόματα στα αγγλικά"
+
+msgid "Nautical Twilight"
+msgstr "Ναυτικό Λυκόφως"
+
+msgid "Neb. bg"
+msgstr "Νεφ. φ."
+
+msgid "Nebula background"
+msgstr "Φόντο νεφέλωματος"
+
+msgid "Nebulae"
+msgstr "Νεφελώματα"
+
+msgid "New list"
+msgstr "Νέα λίστα"
+
+msgid "Next"
+msgstr "Επόμενο"
+
+msgid "Night"
+msgstr "Νύχτα"
+
+msgid "No city matches that."
+msgstr "Καμία πόλη δεν ταιριάζει."
+
+msgid "No eclipses found. Pick a range and calculate."
+msgstr "Δεν βρέθηκαν εκλείψεις. Επιλέξτε περιοχή."
+
+msgid "No fresh fix - the receiver may have no sky. Try again outdoors, or set the place another way."
+msgstr "Χωρίς νέα διόρθωση. Δοκιμάστε υπαίθρια ή θέστε άλλη θέση."
+
+msgid "No surveys were found. The lists are downloaded, so this needs a connection."
+msgstr "Δεν βρέθηκαν έρευνες. Χρειάζεται σύνδεση."
+
+msgid "None downloaded yet"
+msgstr "Κανένα δεν κατέβηκε ακόμα"
+
+msgid "Normal"
+msgstr "Κανονικό"
+
+msgid "Not observable eclipse"
+msgstr "Μη παρατηρήσιμη έκλειψη"
+
+msgid "Note: Local circumstances for eclipses during thousands of years in the past and future are not reliable due to uncertainty in ΔT which is caused by fluctuations in Earth's rotation."
+msgstr "Σημείωση: Οι τοπικές συνθήκες για εκλείψεις κατά τη διάρκεια χιλιάδων χρόνων στο παρελθόν και το μέλλον δεν είναι αξιόπιστες λόγω της αβεβαιότητας στο ΔT που προκαλείται από διακυμάνσεις στην περιστροφή της Γης."
+
+msgid "Note: artificial satellites and unnamed stars are excluded from calculation"
+msgstr "Σημείωση: Τα τεχνητά δορυφόρια και τα ανώνυμα αστέρια αποκλείονται από τον υπολογισμό"
+
+msgid "Note: this tool doesn't apply the refraction correction for coordinates. Horizontal coordinates stop the clock, or the sky would turn away from the point while you arrive at it."
+msgstr "Σημειώση: δεν εφαρμόζει διόρθωση διάθλασης. Οριζόντιες συντεταγμένες σταματούν το ρολόι."
+
+msgid "Notes: The quantity gamma is the minimum distance from the axis of lunar shadow cone to the center of Earth, in units of Earth’s equatorial radius. This distance is positive or negative, depending on whether the axis of the shadow cone passes north or south of the Earth's center. Path of solar eclipses during thousands of years in the past and future are not reliable due to uncertainty in ΔT which is caused by fluctuations in Earth's rotation."
+msgstr "Σημειώσεις: Η ποσότητα γάμμα είναι η ελάχιστη απόσταση από τον άξονα του κώνου σκιάς της Σελήνης στο κέντρο της Γης, σε μονάδες της ισημερινής ακτίνας της Γης. Αυτή η απόσταση είναι θετική ή αρνητική, ανάλογα με το αν ο άξονας του κώνου σκιάς διέρχεται βόρεια ή νότια του κέντρου της Γης. Η διαδρομή των ηλιακών εκλείψεων κατά τη διάρκεια χιλιάδων χρόνων στο παρελθόν και το μέλλον δεν είναι αξιόπιστη λόγω της αβεβαιότητας στο ΔT που προκαλείται από διακυμάνσεις στην περιστροφή της Γης."
+
+msgid "Notes: The quantity gamma is the minimum distance from the center of the Moon to the axis of Earth’s umbral shadow cone, in units of Earth’s equatorial radius. This distance is positive or negative, depending on whether the Moon passes north or south of the shadow cone axis. Local circumstances for eclipses during thousands of years in the past and future are not reliable due to uncertainty in ΔT which is caused by fluctuations in Earth's rotation."
+msgstr "Σημειώσεις: Η ποσότητα γάμμα είναι η ελάχιστη απόσταση από το κέντρο της Σελήνης στον άξονα του κώνου σκιάς της Γης, σε μονάδες της ισημερινής ακτίνας της Γης. Αυτή η απόσταση είναι θετική ή αρνητική, ανάλογα με το αν η Σελήνη διέρχεται βόρεια ή νότια του άξονα του κώνου σκιάς. Οι τοπικές συνθήκες για εκλείψεις κατά τη διάρκεια χιλιάδων χρόνων στο παρελθόν και το μέλλον δεν είναι αξιόπιστες λόγω της αβεβαιότητας στο ΔT που προκαλείται από διακυμάνσεις στην περιστροφή της Γης."
+
+msgid "Notes: Time in parentheses means the contact is invisible at current location. Transit times during thousands of years in the past and future are not reliable due to uncertainty in ΔT which is caused by fluctuations in Earth's rotation."
+msgstr "Σημειώσεις: Ο χρόνος σε παρένθεση σημαίνει ότι η επαφή είναι αόρατη στην τρέχουσα τοποθεσία. Οι χρόνοι διέλευσης κατά τη διάρκεια χιλιάδων χρόνων στο παρελθόν και το μέλλον δεν είναι αξιόπιστοι λόγω της αβεβαιότητας στο ΔT που προκαλείται από διακυμάνσεις στην περιστροφή της Γης."
+
+msgid "Nothing computed yet, or nothing in this category is up."
+msgstr "Τίποτα υπολογισμένο, ή τίποτα σε αυτήν την κατηγορία δεν είναι ανοιχτό."
+
+msgid "Nothing computed yet."
+msgstr "Τίποτα υπολογισμένο ακόμα."
+
+msgid "Nothing found for “%s”."
+msgstr "Δεν βρέθηκε τίποτα για \"%s\"."
+
+msgid "Nothing in this list matches."
+msgstr "Τίποτα σε αυτή τη λίστα δεν ταιριάζει."
+
+msgid "Nothing in this list yet. Pick something out of the sky and tap the star on its card to keep it here."
+msgstr "Τίποτα στη λίστα ακόμα. Επιλέξτε κάτι και αγγίξτε το αστέρι."
+
+msgid "Nothing is selected. Pick an object in the sky first."
+msgstr "Τίποτα επιλεγμένο. Επιλέξτε αντικείμενο πρώτα."
+
+msgid "Nothing matches."
+msgstr "Τίποτα δεν ταιριάζει."
+
+msgid "Nothing selected"
+msgstr "Τίποτα επιλεγμένο"
+
+msgid "Nothing to plot."
+msgstr "Τίποτα για σχεδίαση."
+
+msgid "Nothing to show."
+msgstr "Τίποτα για εμφάνιση."
+
+msgid "Now"
+msgstr "Τώρα"
+
+msgid "N× above"
+msgstr "N× πάνω"
+
+msgid "OBJECT"
+msgstr "ΑΝΤΙΚΕΙΜΕΝΟ"
+
+msgid "OBJECTS"
+msgstr "ΑΝΤΙΚΕΙΜΕΝΑ"
+
+msgid "Object 1"
+msgstr "Αντικείμενο 1"
+
+msgid "Object 2"
+msgstr "Αντικείμενο 2"
+
+msgid "Objects which are up"
+msgstr "Αντικείμενα που είναι ανοιχτά"
+
+msgid "Observable duration"
+msgstr "Διάρκεια παρατηρησιμότητας"
+
+msgid "Observing list"
+msgstr "Λίστα παρατήρησης"
+
+msgid "Observing list highlight"
+msgstr "Επισήμανση λίστας παρατήρησης"
+
+msgid "Observing lists"
+msgstr "Λίστες παρατήρησης"
+
+msgid "Occultation"
+msgstr "Στέρηση"
+
+msgid "On the sky"
+msgstr "Στον ουρανό"
+
+msgid "One color"
+msgstr "Ένα χρώμα"
+
+msgid "One color for all orbits"
+msgstr "Ένα χρώμα για όλες τις τροχιές"
+
+msgid "Only for N latest selected objects"
+msgstr "Μόνο για N τελευταία αντικείμενα"
+
+msgid "Only for Solar elevation"
+msgstr "Μόνο για ηλιακή ύψωση"
+
+msgid "Only list"
+msgstr "Μόνο λίστα"
+
+msgid "Only one at a time"
+msgstr "Μόνο ένα τη φορά"
+
+msgid "Only orbit for selected object…"
+msgstr "Μόνο τροχιά επιλεγμένου…"
+
+msgid "Only orbits of major planets…"
+msgstr "Μόνο τροχιές μεγάλων πλανητών…"
+
+msgid "Oort cloud objects"
+msgstr "Αντικείμενα νέφους Oort"
+
+msgid "Opac."
+msgstr "Αδιαφ."
+
+msgid "Opacity"
+msgstr "Αδιαφάνεια"
+
+msgid "Open date and time"
+msgstr "Ανοιχτή ημερομηνία και ώρα"
+
+msgid "Open location"
+msgstr "Ανοιχτή τοποθεσία"
+
+msgid "Opens the JUPOS project in a browser"
+msgstr "Ανοίγει JUPOS σε πρόγραμμα περιήγησης"
+
+msgid "Opposition of"
+msgstr "Αντίθεση"
+
+msgid "Oppositions"
+msgstr "Αντιθέσεις"
+
+msgid "Orbit colors"
+msgstr "Χρώματα τροχιών"
+
+msgid "Orbital periods ratio"
+msgstr "Αναλογία τροχιακών περιόδων"
+
+msgid "Orbital velocity"
+msgstr "Τροχιακή ταχύτητα"
+
+msgid "Orbits"
+msgstr "Τροχιές"
+
+msgid "Orbits of Oort cloud objects"
+msgstr "Τροχιές αντικειμένων νέφους Oort"
+
+msgid "Orbits of comets"
+msgstr "Τροχιές κομητών"
+
+msgid "Orbits of cubewanos"
+msgstr "Τροχιές cubewanos"
+
+msgid "Orbits of dwarf planets"
+msgstr "Τροχιές νάνων πλανητών"
+
+msgid "Orbits of interstellar objects"
+msgstr "Τροχιές διαστελλικών αντικειμένων"
+
+msgid "Orbits of major planets"
+msgstr "Τροχιές μεγάλων πλανητών"
+
+msgid "Orbits of minor planets"
+msgstr "Τροχιές μικρών πλανητών"
+
+msgid "Orbits of moons"
+msgstr "Τροχιές δορυφόρων"
+
+msgid "Orbits of plutinos"
+msgstr "Τροχιές πλουτίνων"
+
+msgid "Orbits of scattered disk objects"
+msgstr "Τροχιές διάσπαρτου δίσκου"
+
+msgid "Orbits of sednoids"
+msgstr "Τροχιές σεδνοειδών"
+
+msgid "Otherwise every move adopts the zone of the new place."
+msgstr "Αλλιώς κάθε κίνηση υιοθετεί ζώνη νέας θέσης."
+
+msgid "Outline craters"
+msgstr "Περίγραμμα κρατήρων"
+
+msgid "PD (J2000)"
+msgstr "ΠΔ (J2000)"
+
+msgid "Pan the sky"
+msgstr "Σάρωση ουρανού"
+
+msgid "Partial eclipse begins"
+msgstr "Αρχή μερικής έκλειψης"
+
+msgid "Partial eclipse ends"
+msgstr "Τέλος μερικής έκλειψης"
+
+msgid "Partitions"
+msgstr "Χωρίσματα"
+
+msgid "Partitions thickness"
+msgstr "Πάχος χωρισμάτων"
+
+msgid "Path width"
+msgstr "Πλάτος διαδρομής"
+
+msgid "Pause"
+msgstr "Παύση"
+
+msgid "Paused - start"
+msgstr "Παύση - έναρξη"
+
+msgid "Penumbral magnitude"
+msgstr "Μέγεθος ημισκίας"
+
+msgid "Per."
+msgstr "Περ."
+
+msgid "Perfect visibility conditions for current location"
+msgstr "Τέλειες συνθήκες ορατότητας για την τρέχουσα τοποθεσία"
+
+msgid "Perihelion"
+msgstr "Περιήλιον"
+
+msgid "Perihelion and aphelion"
+msgstr "Περιήλιο και αφήλιο"
+
+msgid "Phenomena"
+msgstr "Φαινόμενα"
+
+msgid "Pick two different bodies to see how their distance changes."
+msgstr "Επιλέξτε δύο σώματα για απόσταση."
+
+msgid "Pinch"
+msgstr "Χιμπίδα"
+
+msgid "Planet"
+msgstr "Πλανήτης"
+
+msgid "Planet and time zone"
+msgstr "Πλανήτης και ζώνη ώρας"
+
+msgid "Planet markers"
+msgstr "Διακριτικά πλανητών"
+
+msgid "Planetary nebulae (<%1 mag)"
+msgstr "Πλανητικά νεφελώματα (<%1 μεγ.)"
+
+msgid "Planetary nomenclature"
+msgstr "Ονοματολογία πλανητών"
+
+msgid "Planetary transits"
+msgstr "Διαμετακομίσεις πλανητών"
+
+msgid "Planets"
+msgstr "Πλανήτες"
+
+msgid "Planets and Sun"
+msgstr "Πλανήτες και Ήλιος"
+
+msgid "Planets magnitude algorithm"
+msgstr "Αλγόριθμος μεγέθους πλανητών"
+
+msgid "Please select object to plot its 'Monthly Elevation' graph for the current year at selected time."
+msgstr "Παρακαλώ επιλέξτε αντικείμενο για να σχεδιάσετε το γράφημα 'Μηνιαία Ύψωση' του για το τρέχον έτος στην επιλεγμένη ώρα."
+
+msgid "Please select object to plot its graph 'Altitude vs. Time'."
+msgstr "Παρακαλώ επιλέξτε αντικείμενο για να σχεδιάσετε το γράφημα 'Ύψος έναντι Χρόνου'."
+
+msgid "Please select object to plot its graph 'Azimuth vs. Time'."
+msgstr "Παρακαλώ επιλέξτε αντικείμενο για να σχεδιάσετε το γράφημα 'Αζιμούθιο έναντι Χρόνου'."
+
+msgid "Pluto, Ceres, Pallas, Juno and Vesta"
+msgstr "Πλούτων, Κέρης, Παλλάς, Ήρα και Βέστα"
+
+msgid "Point size"
+msgstr "Μέγεθος σημείου"
+
+msgid "Pointing"
+msgstr "Κατεύθυνση"
+
+msgid "Polar distance"
+msgstr "Πολική απόσταση"
+
+msgid "Polar distance, not declination"
+msgstr "Πολική απόσταση, όχι απόκλιση"
+
+msgid "Poles and points"
+msgstr "Πόλοι και σημεία"
+
+msgid "Polygon colour"
+msgstr "Χρώμα πολυγώνου"
+
+msgid "Positions"
+msgstr "Θέσεις"
+
+msgid "Positive values only"
+msgstr "Μόνο θετικές τιμές"
+
+msgid "Previous"
+msgstr "Προηγούμενο"
+
+msgid "Projected Solar Equator"
+msgstr "Προβεβλημένος Ηλιακός Ισημερινός"
+
+msgid "Pronounce"
+msgstr "Προφορά"
+
+msgid "Quadrature circle"
+msgstr "Κύκλος τετραγωνισμού"
+
+msgid "Query SIMBAD about selected object"
+msgstr "Ερώτηση SIMBAD για αντικείμενο"
+
+msgid "Query options"
+msgstr "Επιλογές ερωτήματος"
+
+msgid "Quit"
+msgstr "Έξοδος"
+
+msgid "Quit button"
+msgstr "Κουμπί εξόδου"
+
+msgid "Range"
+msgstr "Περιοχή"
+
+msgid "Reading…"
+msgstr "Ανάγνωση…"
+
+msgid "Real time speed"
+msgstr "Ταχύτητα πραγματικού χρόνου"
+
+msgid "Recent Searches"
+msgstr "Πρόσφατες αναζητήσεις"
+
+msgid "Rectangular FOV"
+msgstr "Ορθογώνιο οπτικό πεδίο"
+
+msgid "Red"
+msgstr "Κόκκινο"
+
+msgid "Refraction, extinction, sky brightness"
+msgstr "Διάθλαση, σβέσιμο, φωτεινότητα ουρανού"
+
+msgid "Regions of the sky"
+msgstr "Περιοχές του ουρανού"
+
+msgid "Relative scale"
+msgstr "Σχετική κλίμακα"
+
+msgid "Remove %s"
+msgstr "Αφαίρεση %s"
+
+msgid "Remove from observing list"
+msgstr "Αφαίρεση από λίστα παρατήρησης"
+
+msgid "Rename"
+msgstr "Μετονομασία"
+
+msgid "Reset all"
+msgstr "Επαναφορά όλων"
+
+msgid "Restarting…"
+msgstr "Επανεκκίνηση…"
+
+msgid "Results"
+msgstr "Αποτελέσματα"
+
+msgid "Rise"
+msgstr "Ανατολή"
+
+msgid "Rises"
+msgstr "Ανατολές"
+
+msgid "Rotation"
+msgstr "Περιστροφή"
+
+msgid "Running"
+msgstr "Εκτέλεση"
+
+msgid "SIMBAD did not answer."
+msgstr "Το SIMBAD δεν απάντησε."
+
+msgid "SIMBAD is switched off in the search options."
+msgstr "Το SIMBAD είναι απενεργοποιημένο στις επιλογές αναζήτησης."
+
+msgid "SIMBAD is switched off. Turn it on under Options to look objects up online."
+msgstr "Το SIMBAD είναι απενεργοποιημένο. Ενεργοποιήστε το στις Επιλογές για να αναζητήσετε αντικείμενα σε σύνδεσμο με το διαδίκτυο."
+
+msgid "SIMBAD server"
+msgstr "Διακομιστής SIMBAD"
+
+msgid "Saturation"
+msgstr "Κορεσμός"
+
+msgid "Save"
+msgstr "Αποθήκευση"
+
+msgid "Save either the current FOV and direction of view or all the current options for use at next startup. Restoring default settings requires a restart of the app."
+msgstr "Αποθηκεύστε είτε το τρέχον ΟΠ και την κατεύθυνση προβολής είτε όλες τις τρέχουσες επιλογές για χρήση στην επόμενη εκκίνηση. Η επαναφορά των προεπιλεγμένων ρυθμίσεων απαιτεί επανεκκίνηση της εφαρμογής."
+
+msgid "Save to observing list"
+msgstr "Αποθήκευση στη λίστα παρατήρησης"
+
+msgid "Save view"
+msgstr "Αποθήκευση προβολής"
+
+msgid "Scale"
+msgstr "Κλίμακα"
+
+msgid "Scale factor"
+msgstr "Συντελεστής κλίμακας"
+
+msgid "Scale marker and label visibility by surface brightness"
+msgstr "Κλιμάκωση ορατότητας δείκτη και ετικέτας κατά φωτεινότητα επιφάνειας"
+
+msgid "Scales smoothly between 1× at the minimum field of view and the factor above at the maximum"
+msgstr "Κλιμακώνεται ομαλά μεταξύ 1× στο ελάχιστο οπτικό πεδίο και του παραπάνω συντελεστή στο μέγιστο"
+
+msgid "Scattered disc objects"
+msgstr "Αντικείμενα του σκόρπιου δίσκου"
+
+msgid "Screen label"
+msgstr "Ετικέτα οθόνης"
+
+msgid "Search"
+msgstr "Αναζήτηση"
+
+msgid "Search in list"
+msgstr "Αναζήτηση στη λίστα"
+
+msgid "Search options"
+msgstr "Επιλογές αναζήτησης"
+
+msgid "Seasons"
+msgstr "Εποχές"
+
+msgid "Second body"
+msgstr "Δεύτερο σώμα"
+
+msgid "Second celestial body"
+msgstr "Δεύτερο ουράνιο σώμα"
+
+msgid "Second graph"
+msgstr "Δεύτερο γράφημα"
+
+msgid "Second object"
+msgstr "Δεύτερο αντικείμενο"
+
+msgid "Secondary intercardinal points"
+msgstr "Δευτερεύοντα διακαρδινικά σημεία"
+
+msgid "See the sky through the ground"
+msgstr "Δείτε τον ουρανό μέσω του εδάφους"
+
+msgid "Seen now"
+msgstr "Δείχθηκε τώρα"
+
+msgid "Select an object first: this asks SIMBAD what it holds around it."
+msgstr "Πρώτα επιλέξτε ένα αντικείμενο: αυτό ρωτάει το SIMBAD τι κρατάει γύρω του."
+
+msgid "Select it and show its card"
+msgstr "Επιλέξτε το και εμφανίστε την κάρτα του"
+
+msgid "Select something in the sky first — this page works on the selection."
+msgstr "Επιλέξτε πρώτα κάτι στον ουρανό — αυτή η σελίδα λειτουργεί στη βάση της επιλογής."
+
+msgid "Selected object"
+msgstr "Επιλεγμένο αντικείμενο"
+
+msgid "Sep."
+msgstr "Διάκ."
+
+msgid "Separate colors for orbits by object type"
+msgstr "Χωριστά χρώματα για τροχιές κατά τύπο αντικειμένου"
+
+msgid "Separate colors for orbits of major planets"
+msgstr "Χωριστά χρώματα για τροχιές των κύριων πλανητών"
+
+msgid "September equinox"
+msgstr "Ισημερία Σεπτεμβρίου"
+
+msgid "Server"
+msgstr "Διακομιστής"
+
+msgid "Set"
+msgstr "Ορισμός"
+
+msgid "Set the clock to %s"
+msgstr "Ορίστε το ρολόι στο %s"
+
+msgid "Set the place"
+msgstr "Ορίστε τη θέση"
+
+msgid "Set to now"
+msgstr "Ορισμός σε τώρα"
+
+msgid "Sets"
+msgstr "Ορίζεται"
+
+msgid "Shadow map for non-convex bodies. May coarsen the penumbra on some objects"
+msgstr "Χάρτης σκιάς για μη κυρτά σώματα. Μπορεί να χονδρύνει την ημισκία σε ορισμένα αντικείμενα"
+
+msgid "Shadow transit"
+msgstr "Διέλευση σκιάς"
+
+msgid "Shooting stars"
+msgstr "Διαπύρουςαστέρες"
+
+msgid "Short notation for units of surface brightness"
+msgstr "Σύντομη σημειογραφία για μονάδες φωτεινότητας επιφάνειας"
+
+msgid "Short steps over a long duration are slow."
+msgstr "Τα σύντομα βήματα σε μεγάλη διάρκεια είναι αργά."
+
+msgid "Show"
+msgstr "Εμφάνιση"
+
+msgid "Show FOV center marker when position is search"
+msgstr "Εμφάνιση δείκτη κέντρου ΟΠ όταν αναζητείται θέση"
+
+msgid "Show additional buttons"
+msgstr "Εμφάνιση πρόσθετων κουμπιών"
+
+msgid "Show additional star names"
+msgstr "Εμφάνιση πρόσθετων ονομάτων αστέρων"
+
+msgid "Show all information"
+msgstr "Εμφάνιση όλων των πληροφοριών"
+
+msgid "Show atmospheric extinction"
+msgstr "Εμφάνιση ατμοσφαιρικής εξάλειψης"
+
+msgid "Show button in addition to keyboard shortcut?"
+msgstr "Εμφάνιση κουμπιού επιπλέον της συντόμευσης πληκτρολογίου;"
+
+msgid "Show controls"
+msgstr "Εμφάνιση ελέγχων"
+
+msgid "Show each body where it was when the light left it (recommended)"
+msgstr "Εμφανίστε κάθε σώμα όπου ήταν όταν το φως το άφησε (συνιστάται)"
+
+msgid "Show frames per second beside the field of view"
+msgstr "Εμφάνιση πλαισίων ανά δευτερόλεπτο δίπλα στο οπτικό πεδίο"
+
+msgid "Show hints and labels for planetary features"
+msgstr "Εμφάνιση υποδείξεων και ετικετών για χαρακτηριστικά πλανητών"
+
+msgid "Show illumination"
+msgstr "Εμφάνιση φωτισμού"
+
+msgid "Show in sky"
+msgstr "Εμφάνιση στον ουρανό"
+
+msgid "Show less"
+msgstr "Εμφάνιση λιγότερων"
+
+msgid "Show lunar stations (if defined)"
+msgstr "Εμφάνιση σεληνιακών σταθμών (αν ορίζονται)"
+
+msgid "Show more"
+msgstr "Εμφάνιση περισσότερων"
+
+msgid "Show objects which are up"
+msgstr "Εμφάνιση αντικειμένων που είναι ψηλά"
+
+msgid "Show only named DSO"
+msgstr "Εμφάνιση μόνο ονοματισμένων DSO"
+
+msgid "Show only objects between the two sizes"
+msgstr "Εμφάνιση μόνο αντικειμένων μεταξύ των δύο μεγεθών"
+
+msgid "Show only the kinds ticked below"
+msgstr "Εμφάνιση μόνο των τύπων που σημειώνονται παρακάτω"
+
+msgid "Show or hide the two rails of controls"
+msgstr "Εμφάνιση ή απόκρυψη των δύο ράβδων ελέγχου"
+
+msgid "Show orbit even if object is off screen"
+msgstr "Εμφάνιση τροχιάς ακόμη κι αν το αντικείμενο είναι εκτός οθόνης"
+
+msgid "Show orbit only for selected SSO"
+msgstr "Εμφάνιση τροχιάς μόνο για επιλεγμένο SSO"
+
+msgid "Show orbits of major planets"
+msgstr "Εμφάνιση τροχιών κύριων πλανητών"
+
+msgid "Show planetary nomenclature"
+msgstr "Εμφάνιση πλανητικής ονοματολογίας"
+
+msgid "Show special nomenclature points only"
+msgstr "Εμφάνιση μόνο ειδικών σημείων ονοματολογίας"
+
+msgid "Show surveys"
+msgstr "Εμφάνιση εξερευνήσεων"
+
+msgid "Show this survey"
+msgstr "Εμφάνιση αυτής της εξερεύνησης"
+
+msgid "Show tiny circles for minor bodies regardless of magnitude"
+msgstr "Εμφάνιση μικροσκοπικών κύκλων για δευτερεύοντα σώματα ανεξάρτητα από το μέγεθος"
+
+msgid "Show trails"
+msgstr "Εμφάνιση ίχνων"
+
+msgid "Show zodiac (if defined)"
+msgstr "Εμφάνιση ζωδιακού (αν ορίζεται)"
+
+msgid "Simbad Lookup Error: %s"
+msgstr "Σφάλμα αναζήτησης Simbad: %s"
+
+msgid "Simbad Lookup: querying"
+msgstr "Αναζήτηση Simbad: ερώτηση"
+
+msgid "Simulate self-shadowing"
+msgstr "Προσομοίωση αυτοσκίασης"
+
+msgid "Simulation"
+msgstr "Προσομοίωση"
+
+msgid "Sky Culture"
+msgstr "Πολιτισμός του Ουρανού"
+
+msgid "Sky and viewing options"
+msgstr "Επιλογές ουρανού και προβολής"
+
+msgid "Sky culture"
+msgstr "Πολιτισμός του ουρανού"
+
+msgid "Slow down"
+msgstr "Επιβράδυνση"
+
+msgid "Smallest, ′"
+msgstr "Μικρότερος, ′"
+
+msgid "Solar altitude for Twilight Finder"
+msgstr "Ηλιακό ύψος για Twilight Finder"
+
+msgid "Solar elongation"
+msgstr "Ηλιακή ανισότητα"
+
+msgid "Solar system objects: comets"
+msgstr "Αντικείμενα Ηλιακού συστήματος: Κομήτες"
+
+msgid "Solar system objects: minor bodies"
+msgstr "Αντικείμενα Ηλιακού συστήματος: Μικρά σώματα"
+
+msgid "Solar system objects: planets"
+msgstr "Αντικείμενα Ηλιακού συστήματος: Πλανήτες"
+
+msgid "Some objects may be found after activation respective plug-ins"
+msgstr "Ορισμένα αντικείμενα ενδέχεται να βρεθούν μετά την ενεργοποίηση των αντίστοιχων πρόσθετων"
+
+msgid "Special points only"
+msgstr "Μόνο ειδικά σημεία"
+
+msgid "Spectral Class"
+msgstr "Φασματική τάξη"
+
+msgid "Speed up"
+msgstr "Επιτάχυνση"
+
+msgid "Spiky stars"
+msgstr "Αστέρες με αιχμές"
+
+msgid "Stand where the landscape was shot, on the planet it names"
+msgstr "Στέκεστε όπου ήταν το τοπίο, στον πλανήτη που ονομάζει"
+
+msgid "Star, planet, catalogue number…"
+msgstr "Αστέρας, πλανήτης, αριθμός καταλόγου…"
+
+msgid "Started"
+msgstr "Έναρξη"
+
+msgid "Startup FOV"
+msgstr "Αρχικό ΟΠ"
+
+msgid "Startup direction of view"
+msgstr "Αρχική κατεύθυνση προβολής"
+
+msgid "Stationary (begin prograde motion)"
+msgstr "Ακίνητος (αρχή προχώρησης)"
+
+msgid "Stationary (begin retrograde motion)"
+msgstr "Ακίνητος (αρχή ανάδρομης κίνησης)"
+
+msgid "Stellarium's user guide covers the astronomy this app shares with it: stellarium.org/documentation"
+msgstr "Ο οδηγός χρήστη του Stellarium καλύπτει την αστρονομία που μοιράζεται αυτή η εφαρμογή: stellarium.org/documentation"
+
+msgid "Step, hours"
+msgstr "Βήμα, ώρες"
+
+msgid "Stop clock when starting"
+msgstr "Διακοπή του ρολογιού κατά την εκκίνηση"
+
+msgid "Strasbourg astronomical Data Center (France)"
+msgstr "Κέντρο Αστρονομικών Δεδομένων του Στρασβούργου (Γαλλία)"
+
+msgid "Style"
+msgstr "Στυλ"
+
+msgid "Sun altitude"
+msgstr "Ύψος του Ήλιου"
+
+msgid "Sun at"
+msgstr "Ήλιος στο"
+
+msgid "Sun's altitude"
+msgstr "Ύψος του Ήλιου"
+
+msgid "Sun's corona"
+msgstr "Στέμμα του Ήλιου"
+
+msgid "Sun's glare"
+msgstr "Λάμψη του Ήλιου"
+
+msgid "Sun, planets and moons of first body and observer's planet"
+msgstr "Ήλιος, πλανήτες και σελήνες του πρώτου σώματος και ο πλανήτης του παρατηρητή"
+
+msgid "Sun, planets and moons of observer's planet"
+msgstr "Ήλιος, πλανήτες και σελήνες του πλανήτη του παρατηρητή"
+
+msgid "Sunlight scattered by interplanetary dust"
+msgstr "Σκεδασμένο ηλιακό φως από διαπλανητικό σκόνη"
+
+msgid "Supergalactic"
+msgstr "Υπεργαλακτικός"
+
+msgid "Superior conjunction"
+msgstr "Ανώτερη συζυγία"
+
+msgid "Supernova candidates"
+msgstr "Υποψήφιοι υπερκαινοφανούς"
+
+msgid "Supernova remnant candidates"
+msgstr "Υποψήφιοι υπολείμματα υπερκαινοφανούς"
+
+msgid "Surveys"
+msgstr "Εξερευνήσεις"
+
+msgid "Switch this off to see the trails for all Solar system bodies"
+msgstr "Απενεργοποιήστε αυτό για να δείτε τα ίχνη για όλα τα σώματα του Ηλιακού Συστήματος"
+
+msgid "Symbiotic stars"
+msgstr "Συμβιωτικοί αστέρες"
+
+msgid "System date at"
+msgstr "Ημερομηνία συστήματος στο"
+
+msgid "Table"
+msgstr "Πίνακας"
+
+msgid "Tabular output for coordinates and time"
+msgstr "Πίνακας εξόδου για συντεταγμένες και χρόνο"
+
+msgid "Tap a colour to change it. Changes show on the sky at once and are kept."
+msgstr "Αγγίξτε ένα χρώμα για να το αλλάξετε. Οι αλλαγές εμφανίζονται στον ουρανό αμέσως και διατηρούνται."
+
+msgid "Tap again to confirm"
+msgstr "Αγγίξτε ξανά για επιβεβαίωση"
+
+msgid "Tap an object"
+msgstr "Αγγίξτε ένα αντικείμενο"
+
+msgid "Tap the chart to read a value."
+msgstr "Αγγίξτε το διάγραμμα για να διαβάσετε μια τιμή."
+
+msgid "Tap the clock"
+msgstr "Αγγίξτε το ρολόι"
+
+msgid "Tap the gear"
+msgstr "Αγγίξτε το γρανάζι"
+
+msgid "Tap the map to stand there."
+msgstr "Αγγίξτε το χάρτη για να σταθείτε εκεί."
+
+msgid "Tap the place"
+msgstr "Αγγίξτε τη θέση"
+
+msgid "Tap to confirm"
+msgstr "Αγγίξτε για επιβεβαίωση"
+
+msgid "Tertiary intercardinal points"
+msgstr "Τριτεύοντα διακαρδινικά σημεία"
+
+msgid "Text angle"
+msgstr "Γωνία κειμένου"
+
+msgid "The Great Red Spot drifts in System II longitude. Enter a recent measurement and the drift rate to carry it forward from."
+msgstr "Το Μεγάλο Κόκκινο Σημείο παρασύρεται στο μήκος του Συστήματος II. Εισαγάγετε μια πρόσφατη μέτρηση και το ποσοστό παρασύρησης για να το μεταφέρετε προς τα εμπρός."
+
+msgid "The algorithm is based on visual observations 1877-1891 by G. Müller and was still republished in the Explanatory Supplement to the Astronomical Ephemeris (1961)."
+msgstr "Ο αλγόριθμος βασίζεται σε οπτικές παρατηρήσεις 1877-1891 από τον G. Müller και επανεδόθη ακόμη στο Explanatory Supplement to the Astronomical Ephemeris (1961)."
+
+msgid "The algorithm was published by A. Mallama & J. L. Hilton: Computing apparent planetary magnitudes for the Astronomical Almanac. Astronomy&Computing 25 (2018) 10-24."
+msgstr "Ο αλγόριθμος δημοσιεύθηκε από τον A. Mallama & J. L. Hilton: Computing apparent planetary magnitudes for the Astronomical Almanac. Astronomy&Computing 25 (2018) 10-24."
+
+msgid "The algorithm was published in the 2nd edition of the Explanatory Supplement to the Astronomical Almanac (1992)."
+msgstr "Ο αλγόριθμος δημοσιεύθηκε στη 2η έκδοση του Explanatory Supplement to the Astronomical Almanac (1992)."
+
+msgid "The algorithm was published in the 3rd edition of the Explanatory Supplement to the Astronomical Almanac (2013)."
+msgstr "Ο αλγόριθμος δημοσιεύθηκε στη 3η έκδοση του Explanatory Supplement to the Astronomical Almanac (2013)."
+
+msgid "The algorithm was used in the Astronomical Almanac (1984 and later) and gives V (instrumental) magnitudes (allegedly from D.L. Harris)."
+msgstr "Ο αλγόριθμος χρησιμοποιήθηκε στο Astronomical Almanac (1984 και μεταγενέστερα) και δίνει V (instrumental) μεγέθη (φερόμενα από τον D.L. Harris)."
+
+msgid "The classical cepheids"
+msgstr "Οι κλασικοί Κηφείδες"
+
+msgid "The colour each kind of object is drawn in"
+msgstr "Το χρώμα που σχεδιάζεται κάθε είδος αντικειμένου"
+
+msgid "The engine did not answer with any colours."
+msgstr "Το κινητήριο δεν απάντησε με κανένα χρώμα."
+
+msgid "The galactic band"
+msgstr "Η γαλακτική ζώνη"
+
+msgid "The greatest eclipse is invisible in current location"
+msgstr "Η μεγαλύτερη έκλειψη είναι αόρατη στην τρέχουσα τοποθεσία"
+
+msgid "The horizon outline instead of the panorama"
+msgstr "Το περίγραμμα ορίζοντα αντί του πανοράματος"
+
+msgid "The path each body has taken across the sky"
+msgstr "Η διαδρομή που διένυσε κάθε σώμα στον ουρανό"
+
+msgid "The shortest label the culture defines"
+msgstr "Η συντομότερη ετικέτα που ορίζει ο πολιτισμός"
+
+msgid "Thickness"
+msgstr "Πάχος"
+
+msgid "This copy ships no scripts."
+msgstr "Αυτό το αντίγραφο δεν διαθέτει σενάρια."
+
+msgid "This device has no location service."
+msgstr "Αυτή η συσκευή δεν διαθέτει υπηρεσία θέσης."
+
+msgid "This part of the engine exposes no settings on this build."
+msgstr "Αυτό το μέρος του κινητήριου δεν εκθέτει καμία ρύθμιση σε αυτήν την έκδοση."
+
+msgid "This tool works on Earth only!"
+msgstr "Αυτό το εργαλείο λειτουργεί μόνο στη Γη!"
+
+msgid "This tool works on Earth only. Short steps over a long duration are slow."
+msgstr "Αυτό το εργαλείο λειτουργεί μόνο στη Γη. Τα σύντομα βήματα σε μεγάλη διάρκεια είναι αργά."
+
+msgid "This year"
+msgstr "Αυτό το έτος"
+
+msgid "Time correction"
+msgstr "Διόρθωση ώρας"
+
+msgid "Time of day"
+msgstr "Ώρα της ημέρας"
+
+msgid "Time span"
+msgstr "Χρονικό διάστημα"
+
+msgid "Time step"
+msgstr "Χρονικό βήμα"
+
+msgid "To the next (mths)"
+msgstr "Για το επόμενο (μήνες)"
+
+msgid "To the next, months"
+msgstr "Για το επόμενο, μήνες"
+
+msgid "Today"
+msgstr "Σήμερα"
+
+msgid "Toggle display of nebula images."
+msgstr "Εναλλαγή εμφάνισης εικόνων νεφελώματος."
+
+msgid "Toggle display of the button for the Digitized Sky Survey."
+msgstr "Εναλλαγή εμφάνισης του κουμπιού για το Digitized Sky Survey."
+
+msgid "Toggle display of the button for the HiPS Surveys. Select a survey in the View settings."
+msgstr "Εναλλαγή εμφάνισης του κουμπιού για τις εξερευνήσεις HiPS. Επιλέξτε μια εξερεύνηση στις ρυθμίσεις προβολής."
+
+msgid "Toggle drawing Sun's glare"
+msgstr "Εναλλαγή σχεδίασης λάμψης του Ήλιου"
+
+msgid "Toggle drawing halo around the Moon"
+msgstr "Εναλλαγή σχεδίασης ορεόλης γύρω από τη Σελήνη"
+
+msgid "Toggle permanent drawing of Sun's corona when atmosphere is disabled"
+msgstr "Εναλλαγή μόνιμης σχεδίασης του στέμματος του Ήλιου όταν η ατμόσφαιρα είναι απενεργοποιημένη"
+
+msgid "Toggle the usage of background under GUI buttons"
+msgstr "Εναλλαγή χρήσης φόντου κάτω από τα κουμπιά GUI"
+
+msgid "Total eclipse begins"
+msgstr "Ολική έκλειψη αρχίζει"
+
+msgid "Total eclipse ends"
+msgstr "Ολική έκλειψη τελειώνει"
+
+msgid "Trails"
+msgstr "Ίχνη"
+
+msgid "Translated"
+msgstr "Μεταφράστηκε"
+
+msgid "Transparency"
+msgstr "Διαφάνεια"
+
+msgid "Twilight"
+msgstr "Λυκόφως"
+
+msgid "Twilight and rise and set times are worked out for an observer on Earth. Move back to Earth to see them."
+msgstr "Οι χρόνοι λυκόφωτος και ανατολής και δύσης υπολογίζονται για έναν παρατηρητή στη Γη. Επιστρέψτε στη Γη για να τα δείτε."
+
+msgid "Twinkle"
+msgstr "Αστράψιμο"
+
+msgid "Twinkle amount"
+msgstr "Ποσότητα αστράψιματος"
+
+msgid "Twinkle even without atmosphere"
+msgstr "Αστράψιμο ακόμη και χωρίς ατμόσφαιρα"
+
+msgid "Twinkle is caused by atmospheric turbulence; this shows it regardless"
+msgstr "Το αστράψιμο προκαλείται από ατμοσφαιρικές αναταράξεις· αυτό το δείχνει ανεξάρτητα"
+
+msgid "Type a name, a Bayer letter or a catalogue number - Vega, α Lyr, M 31, NGC 224."
+msgstr "Πληκτρολογήστε ένα όνομα, ένα γράμμα Bayer ή έναν αριθμό καταλόγου - Vega, α Lyr, M 31, NGC 224."
+
+msgid "Types"
+msgstr "Τύποι"
+
+msgid "Umbral magnitude"
+msgstr "Ομβρικό μέγεθος"
+
+msgid "Unnamed star"
+msgstr "Ανώνυμος αστέρας"
+
+msgid "Up to mag."
+msgstr "Έως mag."
+
+msgid "Update"
+msgstr "Ενημέρωση"
+
+msgid "Use SIMBAD"
+msgstr "Χρήση SIMBAD"
+
+msgid "Use additional names of DSO"
+msgstr "Χρήση πρόσθετων ονομάτων DSO"
+
+msgid "Use autofill only from the beginning of words"
+msgstr "Χρήση αυτόματης συμπλήρωσης μόνο από την αρχή των λέξεων"
+
+msgid "Use buttons background"
+msgstr "Χρήση φόντου κουμπιών"
+
+msgid "Use common symbols for coordinate systems"
+msgstr "Χρήση κοινών συμβόλων για συστήματα συντεταγμένων"
+
+msgid "Use decimal degrees"
+msgstr "Χρήση δεκαδικών μοιρών"
+
+msgid "Use decimal degrees for coordinates"
+msgstr "Χρήση δεκαδικών μοιρών για συντεταγμένες"
+
+msgid "Use designations for screen labels"
+msgstr "Χρήση ονοματολογίας για ετικέτες οθόνης"
+
+msgid "Use distance from North Celestial Pole, not declination from equator in equatorial coordinates"
+msgstr "Χρήση απόστασης από τον Βόρειο Ουράνιο Πόλο, όχι απόκλισης από τον ισημερινό στις ισημερινές συντεταγμένες"
+
+msgid "Use mag/arcsec^2 for surface brightness"
+msgstr "Χρήση mag/arcsec^2 για τη φωτεινότητα της επιφάνειας"
+
+msgid "Use more accurate 3D models (where available)"
+msgstr "Χρήση ακριβέστερων τρισδιάστατων μοντέλων (όπου διατίθενται)"
+
+msgid "Use my location"
+msgstr "Χρήση τη θέσης μου"
+
+msgid "Use on-line astronomical database SIMBAD"
+msgstr "Χρήση δικτυακής αστρονομικής βάσης δεδομένων SIMBAD"
+
+msgid "Use outlines for big deep-sky objects"
+msgstr "Χρήση περιγραμμάτων για μεγάλα αντικείμενα βαθέως ουρανού"
+
+msgid "Use proportional hints"
+msgstr "Χρήση αναλογικών υποδείξεων"
+
+msgid "Use sorting by string length"
+msgstr "Χρήση ταξινόμησης κατά μήκος συμβολοσειράς"
+
+msgid "Use surface brightness"
+msgstr "Χρήση φωτεινότητας επιφάνειας"
+
+msgid "Use the date now shown in the sky"
+msgstr "Χρήση της ημερομηνίας που εμφανίζεται τώρα στον ουρανό"
+
+msgid "Use the value in landscape.ini when it has one"
+msgstr "Χρήση της τιμής στο landscape.ini όταν έχει μία"
+
+msgid "Use the value stored for this location"
+msgstr "Χρήση της τιμής που αποθηκεύεται για αυτήν τη θέση"
+
+msgid "Var. stars"
+msgstr "Αστέρες Μετ."
+
+msgid "Version %s  ·  Qt %s"
+msgstr "Έκδοση %s  ·  Qt %s"
+
+msgid "Vertical viewport offset"
+msgstr "Κατακόρυφη μετατόπιση προβολής"
+
+msgid "View recent GRS measurements"
+msgstr "Προβολή πρόσφατων μετρήσεων GRS"
+
+msgid "Visibility"
+msgstr "Ορατότητα"
+
+msgid "Visual magnitude based on phase angle and albedo."
+msgstr "Οπτική μεγέθος που βασίζεται στη γωνία φάσης και στην ανακλαστικότητα."
+
+msgid "Western quadrature"
+msgstr "Δυτική τετραγωνία"
+
+msgid "When a search result is chosen"
+msgstr "Όταν επιλέγεται ένα αποτέλεσμα αναζήτησης"
+
+msgid "Where Jupiter's Great Red Spot was, and when"
+msgstr "Πού ήταν το Μεγάλο Κόκκινο Σημείο του Δία και πότε"
+
+msgid "Width"
+msgstr "Πλάτος"
+
+msgid "Working out the contact times…"
+msgstr "Υπολογισμός των χρόνων επαφής…"
+
+msgid "Year"
+msgstr "Έτος"
+
+msgid "Zodiac and lunar stations"
+msgstr "Ζωδιακός και σεληνιακοί σταθμοί"
+
+msgid "Zodiacal Light"
+msgstr "Ζωδιακό Φως"
+
+msgid "Zodiacal Light brightness"
+msgstr "Φωτεινότητα Ζωδιακού Φωτός"
+
+msgid "Zoom in and out"
+msgstr "Εστίαση και απομάκρυνση"
+
+msgid "after sunset"
+msgstr "μετά τη δύση του ήλιου"
+
+msgid "before sunrise"
+msgstr "πριν την ανατολή του ήλιου"
+
+msgid "bright suburban"
+msgstr "φωτεινή προάστεια"
+
+msgid "east +"
+msgstr "ανατολή +"
+
+msgid "engine ready, interface going live"
+msgstr "κινητήριο έτοιμο, διεπαφή ζωντανή"
+
+msgid "excellent dark sky"
+msgstr "εξαιρετικός σκοτεινός ουρανός"
+
+msgid "from landscape, if given"
+msgstr "από τοπίο, αν δίνεται"
+
+msgid "inner city"
+msgstr "κέντρο πόλης"
+
+msgid "mag %s"
+msgstr "μεγ. %s"
+
+msgid "max %s"
+msgstr "μέγ. %s"
+
+msgid "mid %s"
+msgstr "μέσ. %s"
+
+msgid "north +"
+msgstr "Βόρεια +"
+
+msgid "rural/suburban"
+msgstr "αγροτικό/προάστειο"
+
+msgid "sci. translit."
+msgstr "επι. μεταγρ."
+
+msgid "select all"
+msgstr "Επιλογή όλων"
+
+msgid "select none"
+msgstr "Κανένα"
+
+msgid "select preference"
+msgstr "Επιλογή προτίμησης"
+
+msgid "select standard"
+msgstr "Επιλογή προτύπου"
+
+msgid "store preference"
+msgstr "Αποθήκευση προτίμησης"
+
+msgid "suburban/urban"
+msgstr "προάστειο/αστικό"
+
+msgid "truly dark"
+msgstr "Πραγματικά σκοτεινό"
+
+msgid "unreadable snapshot"
+msgstr "Μη αναγνώσιμη στιγμιότυπο"
+
+msgid "with Solar Dates"
+msgstr "με Ηλιακές Ημερομηνίες"
+
+msgid "… and moons"
+msgstr "… και Σελήνες"

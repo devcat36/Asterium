@@ -1,0 +1,2305 @@
+# Asterium interface translation for nb.
+# Copyright (C) 2026 the Asterium authors
+# This file is distributed under the same licence as the Asterium package.
+#
+# MACHINE TRANSLATION, not reviewed by a speaker of this language.
+# Terminology follows upstream Stellarium's own nb catalogue, which was used
+# as a glossary, and every entry keeps the source's printf placeholders.
+# Corrections from a human translator are welcome and should simply replace these.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: asterium\n"
+"Language: nb\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%d bodies"
+msgstr "%d kropper"
+
+msgid "%d object"
+msgstr "%d objekt"
+
+msgid "%d objects"
+msgstr "%d objekter"
+
+msgid "%s colour"
+msgstr "%s farge"
+
+msgid "%s from %s, ±%.0f m"
+msgstr "%s fra %s, ±%.0f m"
+
+msgid "12-hour"
+msgstr "12-timers"
+
+msgid "1× below"
+msgstr "1× under"
+
+msgid "24-hour"
+msgstr "24-timers"
+
+msgid "A button to mark every object of the current observing list on the sky."
+msgstr "En knapp for å markere hvert objekt fra den gjeldende observasjonslisten på himmelen."
+
+msgid "A button to toggle ecliptic grid of date"
+msgstr "En knapp for å vise/skjule ekliptisk nett (for dato)"
+
+msgid "A button to toggle equatorial J2000 grid"
+msgstr "En knapp for å vise/skjule ekvatorialnett (J2000)"
+
+msgid "A button to toggle galactic grid"
+msgstr "En knapp for å vise/skjule galaktisk nett"
+
+msgid "A polygonal model for some small moons, asteroids and comets instead of a sphere"
+msgstr "En polygonal modell for noen små måner, asteroider og kometer i stedet for en kule"
+
+msgid "A touch-first planetarium forked from Stellarium, whose astronomy engine it uses unchanged. The interface is new; everything that draws the sky is upstream's work."
+msgstr "Et berøringsorientert planetariumsprogram forgrenet fra Stellarium, hvis astronomimotor det bruker uendret. Grensesnittet er nytt; alt som tegner himmelen er oppstrøms arbeid."
+
+msgid "Abbreviated names"
+msgstr "Forkortet navn"
+
+msgid "About this sky culture"
+msgstr "Om denne himmelkulturen"
+
+msgid "Above altitude, °"
+msgstr "Over høyde, °"
+
+msgid "Absolute scale"
+msgstr "Absolutt skala"
+
+msgid "Add %s"
+msgstr "Legg til %s"
+
+msgid "Additional information settings"
+msgstr "Innstillinger for tilleggsinformasjon"
+
+msgid "Adjust brightness to bright objects"
+msgstr "Juster lysstyrke til lysstarke objekter"
+
+msgid "Algol-type eclipsing systems"
+msgstr "Algol-type formørkelsessystemer"
+
+msgid "Algorithm of ΔT"
+msgstr "Algoritme for ΔT"
+
+msgid "All IDs"
+msgstr "Alle ID-er"
+
+msgid "All naked-eye planets"
+msgstr "Alle planeter synlige for det blotte øye"
+
+msgid "All solar eclipses"
+msgstr "Alle solformørkelser"
+
+msgid "Allow negative hour angles"
+msgstr "Tillat negative timevinkler"
+
+msgid "Allow results outside the recommended time range of the orbital elements"
+msgstr "Tillat resultater utenfor det anbefalte tidsintervall for baneelementer"
+
+msgid "Almanac"
+msgstr "Almanakk"
+
+msgid "Almanac: Sun, Moon and naked-eye planets"
+msgstr "Almanakk: Sol, Måne og planeter synlige for det blotte øye"
+
+msgid "Also find"
+msgstr "Finn også"
+
+msgid "Also plot"
+msgstr "Plot også"
+
+msgid "Also show moons of selected object or planets"
+msgstr "Vis også måner av valgt objekt eller planeter"
+
+msgid "Altitude limit, °"
+msgstr "Høydegrense, °"
+
+msgid "Amount"
+msgstr "Mengde"
+
+msgid "An observer floats above its planet, so there is nowhere on it to stand. Choose another planet to come back down."
+msgstr "En observatør flyter over planeten, så det er ingen steder å stå på den. Velg en annen planet for å komme tilbake ned."
+
+msgid "And"
+msgstr "Og"
+
+msgid "And also"
+msgstr "Og også"
+
+msgid "And the next (years)"
+msgstr "Og neste (år)"
+
+msgid "Ang. Size"
+msgstr "Ang. størrelse"
+
+msgid "Angular distance"
+msgstr "Vinkelavstand"
+
+msgid "Angular distance between the Moon and selected object"
+msgstr "Vinkelstørrelse mellom Månen og valgt objekt"
+
+msgid "Angular distance from the Moon"
+msgstr "Vinkelstørrelse fra Månen"
+
+msgid "Angular distance from the Moon for second object"
+msgstr "Vinkelstørrelse fra Månen for annet objekt"
+
+msgid "Angular distance from the Sun"
+msgstr "Vinkelstørrelse fra Solen"
+
+msgid "Angular distance from the Sun for second object"
+msgstr "Vinkelstørrelse fra Solen for annet objekt"
+
+msgid "Angular size"
+msgstr "Vinkelstørrelse"
+
+msgid "Annual drift"
+msgstr "Årlig drift"
+
+msgid "Antisolar point"
+msgstr "Antisolar punkt"
+
+msgid "Apex points"
+msgstr "Apex-punkter"
+
+msgid "Appearance"
+msgstr "Utseende"
+
+msgid "Apply time interval limits to list"
+msgstr "Bruk tidsintervallgrenser på listen"
+
+msgid "Art"
+msgstr "Kunst"
+
+msgid "Artificial satellites and unnamed stars are excluded from calculation."
+msgstr "Kunstige satellitter og navnløse stjerner er utelatt fra beregningen."
+
+msgid "Asking for permission…"
+msgstr "Ber om tillatelse…"
+
+msgid "Asks SIMBAD what it holds around the object that is selected now, and prints the answer as it comes back."
+msgstr "Spør SIMBAD hva det har rundt objektet som er valgt nå, og skriver ut svaret når det kommer."
+
+msgid "Ast. lines"
+msgstr "St.linjer"
+
+msgid "Ast. names"
+msgstr "St.navn"
+
+msgid "Asterism labels"
+msgstr "Asterisme-etiketter"
+
+msgid "Asterism lines"
+msgstr "Asterisme-linjer"
+
+msgid "Asterisms"
+msgstr "Asterismer"
+
+msgid "Asterisms font size"
+msgstr "Skriftstørrelse for asterismer"
+
+msgid "Astronomical Almanac (default) enlarges by 2%; Danjon (1951) differs slightly"
+msgstr "Astronomisk Almanakk (standard) forstørrer med 2%; Danjon (1951) er litt annerledes"
+
+msgid "Astronomical Twilight"
+msgstr "Astronomisk skumring"
+
+msgid "Astronomical night"
+msgstr "Astronomisk natt"
+
+msgid "At"
+msgstr "Ved"
+
+msgid "Atmosph."
+msgstr "Atmosf."
+
+msgid "Atmosphere visualization"
+msgstr "Atmosfærevisualisering"
+
+msgid "Automatic closing dialog"
+msgstr "Automatisk lukkende dialog"
+
+msgid "Automatic transparency"
+msgstr "Automatisk gjennomsiktighet"
+
+msgid "Axis distance"
+msgstr "Akseavstand"
+
+msgid "Azi. grid"
+msgstr "Az.nett"
+
+msgid "Azimuth and altitude rather than right ascension and declination"
+msgstr "Asimut og høyde i stedet for rektasensjon og deklinasjon"
+
+msgid "Azimuth vs. Time"
+msgstr "Asimut vs. tid"
+
+msgid "Back"
+msgstr "Tilbake"
+
+msgid "Bad visibility conditions for current location"
+msgstr "Dårlige synsbetingelser for gjeldende sted"
+
+msgid "Beginning of center line; central eclipse begins"
+msgstr "Senterlinjens begynnelse; sentral formørkelse begynner"
+
+msgid "Below the horizon here."
+msgstr "Under horisonten her."
+
+msgid "Between objects"
+msgstr "Mellom objekter"
+
+msgid "Boundless"
+msgstr "Ubegrenset"
+
+msgid "Bounds"
+msgstr "Grenser"
+
+msgid "Bright Solar system objects (<%1 mag)"
+msgstr "Lyse solsystemobjekter (<%1 mag)"
+
+msgid "Bright barium stars"
+msgstr "Lyse barium-stjerner"
+
+msgid "Bright carbon stars"
+msgstr "Lyse karbon-stjerner"
+
+msgid "Bright double stars"
+msgstr "Lyse dobbeltstjerner"
+
+msgid "Bright double stars (<%1 mag)"
+msgstr "Lyse dobbeltstjerner (<%1 mag)"
+
+msgid "Bright nova stars"
+msgstr "Lyse nova-stjerner"
+
+msgid "Bright stars with high proper motion"
+msgstr "Lyse stjerner med stor egenbevegelse"
+
+msgid "Bright supernova stars"
+msgstr "Lyse supernova-stjerner"
+
+msgid "Bright variable stars"
+msgstr "Lyse variable stjerner"
+
+msgid "Bright variable stars (<%1 mag)"
+msgstr "Lyse variable stjerner (<%1 mag)"
+
+msgid "Brighter than"
+msgstr "Lysere enn"
+
+msgid "By object type"
+msgstr "Etter objekttype"
+
+msgid "By planet"
+msgstr "Etter planet"
+
+msgid "Calculate"
+msgstr "Beregn"
+
+msgid "Calculating…"
+msgstr "Beregner…"
+
+msgid "Caldwell objects"
+msgstr "Caldwell-objekter"
+
+msgid "Cardinals"
+msgstr "Retninger"
+
+msgid "Catalogue numbers instead of common names"
+msgstr "Katalognummer i stedet for vanlige navn"
+
+msgid "Category"
+msgstr "Kategori"
+
+msgid "Celestial body"
+msgstr "Himmellegeme"
+
+msgid "Center of FOV"
+msgstr "Sentrum av synsfelt"
+
+msgid "Centering button"
+msgstr "Senteringsknapp"
+
+msgid "Central duration"
+msgstr "Sentral varighet"
+
+msgid "Central eclipse begins"
+msgstr "Sentral formørkelelse begynner"
+
+msgid "Central eclipse ends"
+msgstr "Sentral formørkelelse slutter"
+
+msgid "Centre"
+msgstr "Sentrum"
+
+msgid "Centre on object"
+msgstr "Sentrer på objekt"
+
+msgid "Centre point"
+msgstr "Senteringspunkt"
+
+msgid "Circles"
+msgstr "Sirkler"
+
+msgid "Circular FOV"
+msgstr "Sirkulært synsfelt"
+
+msgid "City"
+msgstr "By"
+
+msgid "Civil Twilight"
+msgstr "Civil skumring"
+
+msgid "Cleanup"
+msgstr "Opprydding"
+
+msgid "Clear"
+msgstr "Slett"
+
+msgid "Clear recent searches"
+msgstr "Slett nylige søk"
+
+msgid "Clear the selection - a touch screen has no right button"
+msgstr "Slett utvalget - en berøringsskjerm har ingen høyre knapp"
+
+msgid "Cleared."
+msgstr "Slettet."
+
+msgid "Click on star to show its constellation"
+msgstr "Trykk på stjerne for å vise stjernebildet"
+
+msgid "Close"
+msgstr "Lukk"
+
+msgid "Close what is open; from the sky, leave the app running"
+msgstr "Lukk det som er åpent; fra himmelen, la appen kjøre"
+
+msgid "Clusters of galaxies"
+msgstr "Galaksehoper"
+
+msgid "Coarse"
+msgstr "Grov"
+
+msgid "Color"
+msgstr "Farge"
+
+msgid "Color channel"
+msgstr "Fargekanal"
+
+msgid "Color of Lunar station lines"
+msgstr "Farge for månestasjon-linjer"
+
+msgid "Color of asterism lines"
+msgstr "Farge for asterisme-linjer"
+
+msgid "Color of asterism names"
+msgstr "Farge for asterismenavn"
+
+msgid "Color of nomenclature labels"
+msgstr "Farge for nomenklatur-etiketter"
+
+msgid "Color of orbits"
+msgstr "Farge for baner"
+
+msgid "Color of planet labels"
+msgstr "Farge for planetetiketter"
+
+msgid "Color of ray helpers"
+msgstr "Farge for strålehjelpere"
+
+msgid "Color of trails"
+msgstr "Farge for spor"
+
+msgid "Color of zodiac lines"
+msgstr "Farge for dyrekretsen-linjer"
+
+msgid "Colors of orbit lines"
+msgstr "Farger for banerlinjer"
+
+msgid "Comets up to mag."
+msgstr "Kometer opp til mag."
+
+msgid "Compass"
+msgstr "Kompass"
+
+msgid "Config"
+msgstr "Innstillinger"
+
+msgid "Configure colors of orbit lines"
+msgstr "Still inn farger for banerlinjer"
+
+msgid "Connecting line"
+msgstr "Forbindelseslinje"
+
+msgid "Const."
+msgstr "Stjb."
+
+msgid "Constellations font size"
+msgstr "Skriftstørrelse for stjernebilder"
+
+msgid "Contrast"
+msgstr "Kontrast"
+
+msgid "Coordinate system"
+msgstr "Koordinatsystem"
+
+msgid "Coordinates"
+msgstr "Koordinater"
+
+msgid "Copyright"
+msgstr "Opphavsrett"
+
+msgid "Credits"
+msgstr "Krediteringer"
+
+msgid "Culmination altitude"
+msgstr "Kulminasjons høyde"
+
+msgid "Current FoV"
+msgstr "Gjeldende synsfelt"
+
+msgid "Custom"
+msgstr "Tilpasset"
+
+msgid "Custom FoV limit"
+msgstr "Tilpasset synsfeltgrense"
+
+msgid "Custom altitude of the Moon, °"
+msgstr "Tilpasset høyde for Månen, °"
+
+msgid "Custom altitude of the Sun, °"
+msgstr "Tilpasset høyde for Solen, °"
+
+msgid "Custom values"
+msgstr "Tilpasset verdier"
+
+msgid "Cut the scale off below the limit"
+msgstr "Kutt skalaen under grensen"
+
+msgid "DATE AND TIME (UTC)"
+msgstr "DATO OG TID (UTC)"
+
+msgid "DSS survey"
+msgstr "DSS-kartlegging"
+
+msgid "Date"
+msgstr "Dato"
+
+msgid "Date and time"
+msgstr "Dato og klokkeslett"
+
+msgid "Date/time"
+msgstr "Dato/tid"
+
+msgid "Dates"
+msgstr "Datoer"
+
+msgid "Dawn"
+msgstr "Daggry"
+
+msgid "Dbl. stars"
+msgstr "Dobb. stjerner"
+
+msgid "Dec (J2000)"
+msgstr "Dekl. (J2000)"
+
+msgid "December solstice"
+msgstr "Vintersolverv"
+
+msgid "Decimal degrees. −33.87 means 33.87° south. Elevation is metres above sea level; it moves the horizon down by a few arcminutes."
+msgstr "Desimalgrader. −33,87 betyr 33,87° sør. Høyde er meter over havet; det flytter horisonten ned med noen bueminutt."
+
+msgid "Deep Sky"
+msgstr "Dypthimmel"
+
+msgid "Degrees per year the longitude moves by"
+msgstr "Grader per år lengdegraden beveger seg"
+
+msgid "Degrees, hours and minutes as they are written - 12h30m49s, +41°16'09\", 187.7 - or plain decimal degrees."
+msgstr "Grader, timer og minutter slik de er skrevet - 12h30m49s, +41°16'09\", 187,7 - eller rent desimalgrader."
+
+msgid "Deletes all recent search object data, and the objects SIMBAD contributed."
+msgstr "Sletter all nylig søkt objektdata og objektene SIMBAD bidro med."
+
+msgid "Designations for celestial coordinate systems"
+msgstr "Betegnelser for himmelske koordinatsystemer"
+
+msgid "Designations for double stars"
+msgstr "Betegnelser for dobbeltstjerner"
+
+msgid "Designations for variable stars"
+msgstr "Betegnelser for variable stjerner"
+
+msgid "Dim a survey near the horizon, as the air does"
+msgstr "Dim en kartlegging nær horisonten, som luften gjør"
+
+msgid "Dimensions"
+msgstr "Dimensjoner"
+
+msgid "Dist."
+msgstr "Avst."
+
+msgid "Distance, AU"
+msgstr "Avstand, AU"
+
+msgid "Done"
+msgstr "Ferdig"
+
+msgid "Drag"
+msgstr "Dra"
+
+msgid "Draw deep-sky objects at all"
+msgstr "Tegn dypthimmelobjekter"
+
+msgid "Draw only polygon"
+msgstr "Tegn bare polygon"
+
+msgid "Draw the enabled sky surveys"
+msgstr "Tegn de aktiverte himmelkartleggingene"
+
+msgid "Draw the planets, moons and minor bodies"
+msgstr "Tegn planetene, månene og smålegemene"
+
+msgid "Drawn larger than life, so a body that is a few arcseconds wide is visible at all. The position stays true."
+msgstr "Tegnet større enn virkeligheten, så et legeme som er noen buesekunder bredt er synlig. Posisjonen forblir korrekt."
+
+msgid "Duration"
+msgstr "Varighet"
+
+msgid "Duration (years)"
+msgstr "Varighet (år)"
+
+msgid "Duration, months"
+msgstr "Varighet, måneder"
+
+msgid "Dusk"
+msgstr "Tusmørke"
+
+msgid "Dynamic (FOV-based) Moon size"
+msgstr "Dynamisk (synsfelt-basert) månestørrelse"
+
+msgid "ELEV. M"
+msgstr "HØYDE. M"
+
+msgid "Earth"
+msgstr "Jorden"
+
+msgid "Earth penumbra"
+msgstr "Jordens halvskygge"
+
+msgid "Earth shadow enlargement after Danjon"
+msgstr "Jordskyggens utvidelse etter Danjon"
+
+msgid "Earth umbra"
+msgstr "Jordens skygge"
+
+msgid "Eastern quadrature"
+msgstr "Østlig kvadratur"
+
+msgid "Ecl. grid"
+msgstr "Ekl.nett"
+
+msgid "Eclipse begins; first contact with Earth"
+msgstr "Formørkelse begynner; første kontakt med jorden"
+
+msgid "Eclipse ends; last contact with Earth"
+msgstr "Formørkelse slutter; siste kontakt med jorden"
+
+msgid "Eclipse magnitude"
+msgstr "Formørkelsesstørrelse"
+
+msgid "Eclipses"
+msgstr "Formørkelser"
+
+msgid "Eclipses are computed for observers on Earth."
+msgstr "Formørkelser beregnes for observatører på Jorden."
+
+msgid "Elev."
+msgstr "Høy."
+
+msgid "Elevation"
+msgstr "Høyde"
+
+msgid "Elevation in metres"
+msgstr "Høyde i meter"
+
+msgid "Elong."
+msgstr "Elon."
+
+msgid "Elongation"
+msgstr "Elongasjon"
+
+msgid "Elongations and quadratures"
+msgstr "Elongasjoner og kvadraturer"
+
+msgid "Emission-line stars"
+msgstr "Emisjonslinje-stjerner"
+
+msgid "Enabled only"
+msgstr "Bare aktivert"
+
+msgid "End of center line; central eclipse ends"
+msgstr "Senterlinjens slutt; sentral formørkelse slutter"
+
+msgid "Enter Culture..."
+msgstr "Skriv inn kultur..."
+
+msgid "Equ. grid"
+msgstr "Ekv.nett"
+
+msgid "Equ. mount"
+msgstr "Ekv.mont."
+
+msgid "Equatorial radii ratio"
+msgstr "Ekvatorialradii-forhold"
+
+msgid "Evening"
+msgstr "Kveld"
+
+msgid "Every"
+msgstr "Hver"
+
+msgid "Every name the object is catalogued under"
+msgstr "Hvert navn objektet er katalogisert under"
+
+msgid "Exoplanetary systems"
+msgstr "Eksoplanetære systemer"
+
+msgid "Exterior egress"
+msgstr "Ytre utgang"
+
+msgid "Exterior ingress"
+msgstr "Ytre inngang"
+
+msgid "Extras"
+msgstr "Tillegg"
+
+msgid "Fades the ground as you look below the horizon or zoom in"
+msgstr "Toner ned bakken når du ser under horisonten eller zoomer inn"
+
+msgid "Fading duration"
+msgstr "Avmagningsvarighet"
+
+msgid "Faintest shown"
+msgstr "Svakest vist"
+
+msgid "Favorites"
+msgstr "Favoritter"
+
+msgid "Fetching the survey lists…"
+msgstr "Henter kartleggingslister…"
+
+msgid "Find a city"
+msgstr "Finn en by"
+
+msgid "Fine"
+msgstr "Fin"
+
+msgid "First %d of %d - filter to narrow it."
+msgstr "Først %d av %d - filtrer for å innsnevre."
+
+msgid "First body"
+msgstr "Første legeme"
+
+msgid "First celestial body"
+msgstr "Første himmellegeme"
+
+msgid "First graph"
+msgstr "Første graf"
+
+msgid "Fix"
+msgstr "Reparer"
+
+msgid "Fixed Equator"
+msgstr "Fastsatt ekvator"
+
+msgid "Fixed Equatorial grid"
+msgstr "Fastsatt ekvatorialnett"
+
+msgid "Fixed instant"
+msgstr "Fastsatt øyeblikk"
+
+msgid "Flip buttons"
+msgstr "Flip-knapper"
+
+msgid "Flip horiz."
+msgstr "Vend horiz."
+
+msgid "Flip vert."
+msgstr "Vend vert."
+
+msgid "Font size"
+msgstr "Skriftstørrelse"
+
+msgid "Frame rate"
+msgstr "Bildefrekvens"
+
+msgid "From"
+msgstr "Fra"
+
+msgid "From year"
+msgstr "Fra år"
+
+msgid "Full screen"
+msgstr "Fullskjerm"
+
+msgid "Fullscreen button"
+msgstr "Fullskjerm-knapp"
+
+msgid "Further reading"
+msgstr "Videre lesing"
+
+msgid "GRS details…"
+msgstr "GRS-detaljer…"
+
+msgid "Gal. grid"
+msgstr "Gal.nett"
+
+msgid "Galactic center and anticenter"
+msgstr "Galaktisk sentrum og antisenter"
+
+msgid "Gamma, saturation, brightness, contrast, opacity, colour channel and inverted colours belong to one survey. Open a survey to set them."
+msgstr "Gamma, metning, lysstyrke, kontrast, opasitet, fargekanal og inverterte farger tilhører en kartlegging. Åpne en kartlegging for å stille dem inn."
+
+msgid "Gestures"
+msgstr "Gester"
+
+msgid "Go there"
+msgstr "Gå dit"
+
+msgid "Go to position"
+msgstr "Gå til posisjon"
+
+msgid "Go to this eclipse"
+msgstr "Gå til denne formørkelsen"
+
+msgid "Go to this moment"
+msgstr "Gå til dette øyeblikket"
+
+msgid "Go to this transit"
+msgstr "Gå til denne passasjenen"
+
+msgid "Good visibility conditions for current location"
+msgstr "Gode synsbetingelser for gjeldende sted"
+
+msgid "Graphs"
+msgstr "Grafer"
+
+msgid "Great Red Spot"
+msgstr "Den store røde flekken"
+
+msgid "Great Red Spot details"
+msgstr "Den store røde flekk detaljer"
+
+msgid "Greatest eastern elongation"
+msgstr "Største østlig elongasjon"
+
+msgid "Greatest eclipse"
+msgstr "Største formørkelse"
+
+msgid "Greatest elongation for an inner planet, quadrature for an outer one"
+msgstr "Største elongasjon for en indre planet, kvadratur for en ytre"
+
+msgid "Greatest western elongation"
+msgstr "Største vestlig elongasjon"
+
+msgid "Greek letters"
+msgstr "Greske bokstaver"
+
+msgid "Grid density"
+msgstr "Netttettheten"
+
+msgid "Grids"
+msgstr "Nett"
+
+msgid "Ground"
+msgstr "Landskap"
+
+msgid "Gyro"
+msgstr "Gyroskop"
+
+msgid "Gyro mode"
+msgstr "Gyromodus"
+
+msgid "Height"
+msgstr "Høyde"
+
+msgid "Heliocentric distance"
+msgstr "Heliosentrisk avstand"
+
+msgid "Heliocentric ecliptic positions of the major planets."
+msgstr "Heliocentriske ekliptiske posisjoner for hovedplaneter."
+
+msgid "Herschel 400 objects"
+msgstr "Herschel 400-objekter"
+
+msgid "HiPS"
+msgstr "HiPS"
+
+msgid "HiPS Surveys"
+msgstr "HiPS-kartlegginger"
+
+msgid "Hide controls"
+msgstr "Skjul kontroller"
+
+msgid "Hide deep-sky objects fainter than the limit"
+msgstr "Skjul dypthimmelobjekter svakere enn grensen"
+
+msgid "Hide nomenclature on the celestial body of observer"
+msgstr "Skjul nomenklatur på himmellegemet observatøren befinner seg på"
+
+msgid "Hide orbits of minor bodies"
+msgstr "Skjul baner av smålegemer"
+
+msgid "Highlight"
+msgstr "Uthev"
+
+msgid "Highlight the objects of the observing list"
+msgstr "Fremhev objektene fra observasjonslisten"
+
+msgid "Hint circles marking each planet"
+msgstr "Hintsirkler for hver planet"
+
+msgid "Hints brightness"
+msgstr "Hint-lysstyrke"
+
+msgid "Hipparcos designations"
+msgstr "Hipparcos-betegnelser"
+
+msgid "Hour angles usually run 0...24h. This counts -12h...12h."
+msgstr "Timevingler kjører vanligvis 0...24t. Dette teller −12t...12t."
+
+msgid "How many"
+msgstr "Hvor mange"
+
+msgid "ICRS grid"
+msgstr "ICRS-nett"
+
+msgid "Include"
+msgstr "Inkluder"
+
+msgid "Include bright comets"
+msgstr "Inkluder lyse kometer"
+
+msgid "Include selected minor planets"
+msgstr "Inkluder valgte småplaneter"
+
+msgid "Inferior conjunction"
+msgstr "Inferior konjunksjon"
+
+msgid "Info label"
+msgstr "Informasjonsetikett"
+
+msgid "Intercardinal points"
+msgstr "Intercardinalretninger"
+
+msgid "Interior egress"
+msgstr "Innvendig uttreden"
+
+msgid "Interior ingress"
+msgstr "Innvendig intreden"
+
+msgid "Interstellar objects"
+msgstr "Interstellare objekter"
+
+msgid "Invariable plane of the Solar system"
+msgstr "Invariabel plan i solsystemet"
+
+msgid "Isolated"
+msgstr "Isolert"
+
+msgid "Its elevation, and the civil, nautical and astronomical twilights"
+msgstr "Høyden og den sivile, nautiske og astronomiske skumringen"
+
+msgid "Jovigraphic longitude of the spot in System II, in degrees"
+msgstr "Joviografisk lengdegrad på flekken i system II, i grader"
+
+msgid "Julian day"
+msgstr "Juliansk dag"
+
+msgid "June solstice"
+msgstr "Sommersolverv"
+
+msgid "Label"
+msgstr "Påskrift"
+
+msgid "Label colour"
+msgstr "Påskriftfarge"
+
+msgid "Label only features along the terminator"
+msgstr "Merk bare funksjoner langs terminatoren"
+
+msgid "Labels and Markers amount"
+msgstr "Mengde påskrifter og markører"
+
+msgid "Labels brightness"
+msgstr "Påskrift-lysstyrke"
+
+msgid "Landscape labels"
+msgstr "Landskappåskrifter"
+
+msgid "Largest, ′"
+msgstr "Størst, ′"
+
+msgid "Last known position"
+msgstr "Sist kjent posisjon"
+
+msgid "Lasting"
+msgstr "Varighet"
+
+msgid "Latest selected object"
+msgstr "Nylig valgt objekt"
+
+msgid "Latitude −90…90, longitude −180…180."
+msgstr "Breddegrad −90…90, lengdegrad −180…180."
+
+msgid "Layer appearance"
+msgstr "Lagutseende"
+
+msgid "Leaves the landscape visible in darkness"
+msgstr "Gjør landskapet synlig i mørket"
+
+msgid "Licence"
+msgstr "Lisens"
+
+msgid "Light pollution"
+msgstr "Lyspollisjon"
+
+msgid "Light pollution from database"
+msgstr "Lyspollisjon fra database"
+
+msgid "Limit angular separation"
+msgstr "Begrens vinkelseparasjon"
+
+msgid "Limit angular size"
+msgstr "Begrens vinkelstørrelse"
+
+msgid "Limit magnitude"
+msgstr "Begrens størrelsesordens"
+
+msgid "Line"
+msgstr "Linje"
+
+msgid "Line thickness"
+msgstr "Linjtykkelse"
+
+msgid "Linear and angular distances between selected objects"
+msgstr "Lineær og vinkeldistanser mellom valgte objekter"
+
+msgid "Linear distance"
+msgstr "Lineær avstand"
+
+msgid "Lines"
+msgstr "Linjer"
+
+msgid "Lines and circles"
+msgstr "Linjer og sirkler"
+
+msgid "List"
+msgstr "Liste"
+
+msgid "List name"
+msgstr "Listenavn"
+
+msgid "Lit windows, street lighting and the like"
+msgstr "Opplyste vinduer, gatebelysning og lignende"
+
+msgid "Loading…"
+msgstr "Laster…"
+
+msgid "Local solar eclipses"
+msgstr "Lokale solformørkelser"
+
+msgid "Local time"
+msgstr "Lokal tid"
+
+msgid "Local time, h"
+msgstr "Lokal tid, t"
+
+msgid "Locate me"
+msgstr "Finn meg"
+
+msgid "Locating…"
+msgstr "Finner…"
+
+msgid "Location from landscape"
+msgstr "Sted fra landskap"
+
+msgid "Location is switched off in the system settings."
+msgstr "Stedfesting er slått av i systeminnstillingene."
+
+msgid "Location permission refused. The other two ways still work."
+msgstr "Stedfestingstillatelse nektet. De to andre metodene fungerer fortsatt."
+
+msgid "Lock position when coordinates are used"
+msgstr "Lås posisjon når koordinater brukes"
+
+msgid "Long press"
+msgstr "Lang trykking"
+
+msgid "Longitude of GRS"
+msgstr "Lengdegrad for GRS"
+
+msgid "Lunar Elongation"
+msgstr "Måneelongasjon"
+
+msgid "Lunar Stations"
+msgstr "Månestasjon"
+
+msgid "Lunar eclipses"
+msgstr "Måneformørkelser"
+
+msgid "Lunar elongation"
+msgstr "Måneelongasjon"
+
+msgid "Mag."
+msgstr "Størr."
+
+msgid "Magnitudes"
+msgstr "Størrelsesordener"
+
+msgid "Major planets"
+msgstr "Større planeter"
+
+msgid "Major planets by planet, minor bodies by type"
+msgstr "Større planeter etter planet, smålegemer etter type"
+
+msgid "Map of the planet. Tap to set the observer's place."
+msgstr "Kart over planeten. Trykk for å stille inn observatørens sted."
+
+msgid "March equinox"
+msgstr "Vårjevndøgn"
+
+msgid "Mark impact features with ellipses"
+msgstr "Merk impaktstrukturer med ellipser"
+
+msgid "Mark minor bodies"
+msgstr "Merk smålegemer"
+
+msgid "Markers"
+msgstr "Markører"
+
+msgid "Markers sized by the object's angular size"
+msgstr "Markører som skaleres etter objektets vinkelstørrelse"
+
+msgid "Master switch for the grids, lines and points below"
+msgstr "Hovedbryter for nettene, linjene og punktene nedenfor"
+
+msgid "Max"
+msgstr "Maks"
+
+msgid "Max items to display"
+msgstr "Maks antall elementer som skal vises"
+
+msgid "Max. results"
+msgstr "Maks. resultater"
+
+msgid "Max. search radius"
+msgstr "Maks. søkeradius"
+
+msgid "Maximum Solar altitude"
+msgstr "Maksimal solhøyde"
+
+msgid "Maximum allowed separation"
+msgstr "Maksimal tillatt separasjon"
+
+msgid "Maximum angular size"
+msgstr "Maksimal vinkelstørrelse"
+
+msgid "Maximum eclipse"
+msgstr "Maksimal formørkelses"
+
+msgid "Maximum year"
+msgstr "Maksimalt år"
+
+msgid "Mean motion"
+msgstr "Gjennomsnittlig bevegelse"
+
+msgid "Mercury, Venus, Mars, Jupiter and Saturn at once. Earth only."
+msgstr "Merkur, Venus, Mars, Jupiter og Saturn samtidig. Bare Jord."
+
+msgid "Messier objects"
+msgstr "Messier-objekter"
+
+msgid "Mid-transit"
+msgstr "Midttransitt"
+
+msgid "Milky Way brightness"
+msgstr "Melkeveiens lysstyrke"
+
+msgid "Milky Way saturation"
+msgstr "Melkeveiens metning"
+
+msgid "Minimal angular size"
+msgstr "Minimal vinkelstørrelse"
+
+msgid "Minimal brightness"
+msgstr "Minimal lysstyrke"
+
+msgid "Minimum Solar altitude"
+msgstr "Minimal solhøyde"
+
+msgid "Minimum year"
+msgstr "Minimalt år"
+
+msgid "Minor bodies"
+msgstr "Smålegemer"
+
+msgid "Minutes before sunrise / after sunset"
+msgstr "Minutter før soloppgang / etter solnedgang"
+
+msgid "Month"
+msgstr "Måned"
+
+msgid "Monthly Elevation"
+msgstr "Månedlig høyde"
+
+msgid "Moon at"
+msgstr "Månen ved"
+
+msgid "Moon enters penumbra"
+msgstr "Månen går inn i penumbra"
+
+msgid "Moon enters umbra"
+msgstr "Månen går inn i umbra"
+
+msgid "Moon in zenith at"
+msgstr "Månen i senit ved"
+
+msgid "Moon leaves penumbra"
+msgstr "Månen forlater penumbra"
+
+msgid "Moon leaves umbra"
+msgstr "Månen forlater umbra"
+
+msgid "Moon's halo"
+msgstr "Månens halo"
+
+msgid "Moons of first body"
+msgstr "Måner av første objekt"
+
+msgid "Morning"
+msgstr "Morgen"
+
+msgid "Morph. Descr."
+msgstr "Morph. beskr."
+
+msgid "Morphological description"
+msgstr "Morfologisk beskrivelse"
+
+msgid "Move the sky by pointing the phone at it"
+msgstr "Flytt himmelen ved å peke telefonen mot den"
+
+msgid "Move the sky with the phone"
+msgstr "Flytt himmelen med telefonen"
+
+msgid "NGC/IC objects"
+msgstr "NGC/IC-objekter"
+
+msgid "Name for the new list"
+msgstr "Navn for den nye listen"
+
+msgid "Named features the landscape marks"
+msgstr "Navngivne funksjoner landskapet markerer"
+
+msgid "Names"
+msgstr "Navn"
+
+msgid "Names beside the planets and their markers"
+msgstr "Navn ved siden av planetene og deres markører"
+
+msgid "Names in English"
+msgstr "Navn på engelsk"
+
+msgid "Nautical Twilight"
+msgstr "Nautisk skumring"
+
+msgid "Neb. bg"
+msgstr "Neb.bakgr."
+
+msgid "Nebula background"
+msgstr "Nebulabakgrunn"
+
+msgid "Nebulae"
+msgstr "Tåker"
+
+msgid "New list"
+msgstr "Ny liste"
+
+msgid "Next"
+msgstr "Neste"
+
+msgid "Night"
+msgstr "Natt"
+
+msgid "No city matches that."
+msgstr "Ingen by samsvarer med det."
+
+msgid "No eclipses found. Pick a range and calculate."
+msgstr "Ingen formørkelser funnet. Velg et område og beregn."
+
+msgid "No fresh fix - the receiver may have no sky. Try again outdoors, or set the place another way."
+msgstr "Ingen frisk fix – mottakeren har kanskje ingen himmel. Prøv igjen utendørs, eller stiller stedet på annen måte."
+
+msgid "No surveys were found. The lists are downloaded, so this needs a connection."
+msgstr "Ingen undersøkelser funnet. Listene lastes ned, så dette trenger en forbindelse."
+
+msgid "None downloaded yet"
+msgstr "Ingenting lastet ned ennå"
+
+msgid "Not observable eclipse"
+msgstr "Ikke observerbar formørkelse"
+
+msgid "Note: Local circumstances for eclipses during thousands of years in the past and future are not reliable due to uncertainty in ΔT which is caused by fluctuations in Earth's rotation."
+msgstr "Merk: Lokale forhold for formørkelser i tusenvis av år før og etter er ikke pålitelige på grunn av usikkerhet i ΔT som skyldes variasjoner i jordens rotasjon."
+
+msgid "Note: artificial satellites and unnamed stars are excluded from calculation"
+msgstr "Merk: kunstige satellitter og unevnte stjerner er ekskludert fra beregningen"
+
+msgid "Note: this tool doesn't apply the refraction correction for coordinates. Horizontal coordinates stop the clock, or the sky would turn away from the point while you arrive at it."
+msgstr "Merk: dette verktøyet bruker ikke refraksjonskorrigering for koordinater. Horisontale koordinater stopper klokken, eller himmelen ville snu seg vekk fra punktet mens du ankom det."
+
+msgid "Notes: The quantity gamma is the minimum distance from the axis of lunar shadow cone to the center of Earth, in units of Earth’s equatorial radius. This distance is positive or negative, depending on whether the axis of the shadow cone passes north or south of the Earth's center. Path of solar eclipses during thousands of years in the past and future are not reliable due to uncertainty in ΔT which is caused by fluctuations in Earth's rotation."
+msgstr "Merknader: Mengden gamma er minimumsavstanden fra månens skyggekjeglens akse til jordens sentrum, målt i jordradier. Denne avstanden er positiv eller negativ, avhengig av om skyggekjeglens akse passerer nord eller sør for jordens sentrum. Banen for solformørkelser i tusenvis av år før og etter er ikke pålitelige på grunn av usikkerhet i ΔT som skyldes variasjoner i jordens rotasjon."
+
+msgid "Notes: The quantity gamma is the minimum distance from the center of the Moon to the axis of Earth’s umbral shadow cone, in units of Earth’s equatorial radius. This distance is positive or negative, depending on whether the Moon passes north or south of the shadow cone axis. Local circumstances for eclipses during thousands of years in the past and future are not reliable due to uncertainty in ΔT which is caused by fluctuations in Earth's rotation."
+msgstr "Merknader: Mengden gamma er minimumsavstanden fra månens sentrum til jordens umbrale skyggekjeglens akse, målt i jordradier. Denne avstanden er positiv eller negativ, avhengig av om månen passerer nord eller sør for skyggekjeglens akse. Lokale forhold for formørkelser i tusenvis av år før og etter er ikke pålitelige på grunn av usikkerhet i ΔT som skyldes variasjoner i jordens rotasjon."
+
+msgid "Notes: Time in parentheses means the contact is invisible at current location. Transit times during thousands of years in the past and future are not reliable due to uncertainty in ΔT which is caused by fluctuations in Earth's rotation."
+msgstr "Merknader: Tid i parenteser betyr at kontakten er usynlig på gjeldende sted. Passasjestider i tusenvis av år før og etter er ikke pålitelige på grunn av usikkerhet i ΔT som skyldes variasjoner i jordens rotasjon."
+
+msgid "Nothing computed yet, or nothing in this category is up."
+msgstr "Ingenting beregnet ennå, eller ingenting i denne kategorien er oppe."
+
+msgid "Nothing computed yet."
+msgstr "Ingenting beregnet ennå."
+
+msgid "Nothing found for “%s”."
+msgstr "Ingenting funnet for \"%s\"."
+
+msgid "Nothing in this list matches."
+msgstr "Ingenting i denne listen samsvarer."
+
+msgid "Nothing in this list yet. Pick something out of the sky and tap the star on its card to keep it here."
+msgstr "Ingenting i denne listen ennå. Velg noe ut av himmelen og trykk på stjernen på kortet for å beholde det her."
+
+msgid "Nothing is selected. Pick an object in the sky first."
+msgstr "Ingenting er valgt. Velg et objekt på himmelen først."
+
+msgid "Nothing matches."
+msgstr "Ingenting samsvarer."
+
+msgid "Nothing selected"
+msgstr "Ingenting valgt"
+
+msgid "Nothing to plot."
+msgstr "Ingenting å tegne."
+
+msgid "Nothing to show."
+msgstr "Ingenting å vise."
+
+msgid "Now"
+msgstr "Nå"
+
+msgid "N× above"
+msgstr "N× over"
+
+msgid "OBJECT"
+msgstr "OBJEKT"
+
+msgid "OBJECTS"
+msgstr "OBJEKTER"
+
+msgid "Objects which are up"
+msgstr "Objekter som er oppe"
+
+msgid "Observable duration"
+msgstr "Observerbar varighet"
+
+msgid "Observing list"
+msgstr "Observasjonsliste"
+
+msgid "Observing list highlight"
+msgstr "Observasjonsliste-fremhevelse"
+
+msgid "Observing lists"
+msgstr "Observasjonslister"
+
+msgid "On the sky"
+msgstr "På himmelen"
+
+msgid "One color"
+msgstr "En farge"
+
+msgid "One color for all orbits"
+msgstr "En farge for alle baner"
+
+msgid "Only for N latest selected objects"
+msgstr "Bare for N siste valgte objekter"
+
+msgid "Only for Solar elevation"
+msgstr "Bare for solhøyde"
+
+msgid "Only list"
+msgstr "Bare liste"
+
+msgid "Only one at a time"
+msgstr "Bare en om gangen"
+
+msgid "Only orbit for selected object…"
+msgstr "Bare bane for valgt objekt…"
+
+msgid "Only orbits of major planets…"
+msgstr "Bare baner av større planeter…"
+
+msgid "Opac."
+msgstr "Dekkevne"
+
+msgid "Opacity"
+msgstr "Ugjennomsiktighet"
+
+msgid "Open date and time"
+msgstr "Åpne dato og klokkeslett"
+
+msgid "Open location"
+msgstr "Åpne sted"
+
+msgid "Opens the JUPOS project in a browser"
+msgstr "Åpner JUPOS-prosjektet i en nettleser"
+
+msgid "Opposition of"
+msgstr "Opposisjon av"
+
+msgid "Oppositions"
+msgstr "Opposisjoner"
+
+msgid "Orbit colors"
+msgstr "Banefargene"
+
+msgid "Orbital periods ratio"
+msgstr "Omløpsperioder-forhold"
+
+msgid "Orbital velocity"
+msgstr "Omløpshastighet"
+
+msgid "Orbits"
+msgstr "Baner"
+
+msgid "Orbits of Oort cloud objects"
+msgstr "Baner av Oort-skyobjekter"
+
+msgid "Orbits of comets"
+msgstr "Baner av kometer"
+
+msgid "Orbits of cubewanos"
+msgstr "Baner av kubewanos"
+
+msgid "Orbits of dwarf planets"
+msgstr "Baner av dvergplaneter"
+
+msgid "Orbits of interstellar objects"
+msgstr "Baner av interstellare objekter"
+
+msgid "Orbits of major planets"
+msgstr "Baner av større planeter"
+
+msgid "Orbits of minor planets"
+msgstr "Baner av småplaneter"
+
+msgid "Orbits of moons"
+msgstr "Baner av måner"
+
+msgid "Orbits of plutinos"
+msgstr "Baner av plutinoer"
+
+msgid "Orbits of scattered disk objects"
+msgstr "Baner av spredt diskens objekter"
+
+msgid "Orbits of sednoids"
+msgstr "Baner av sednoider"
+
+msgid "Otherwise every move adopts the zone of the new place."
+msgstr "Ellers vedtar hvert trekk sonen til det nye stedet."
+
+msgid "Outline craters"
+msgstr "Omriss kratere"
+
+msgid "Pan the sky"
+msgstr "Panorer himmelen"
+
+msgid "Partial eclipse begins"
+msgstr "Partialformørkelses begynner"
+
+msgid "Partial eclipse ends"
+msgstr "Partialformørkelses slutter"
+
+msgid "Partitions"
+msgstr "Partisjoner"
+
+msgid "Partitions thickness"
+msgstr "Partisjontykkelse"
+
+msgid "Path width"
+msgstr "Banebredde"
+
+msgid "Paused - start"
+msgstr "Pausert – start"
+
+msgid "Penumbral magnitude"
+msgstr "Penumbral størrelsesordens"
+
+msgid "Perfect visibility conditions for current location"
+msgstr "Perfekte synsbetingelser for gjeldende sted"
+
+msgid "Perihelion and aphelion"
+msgstr "Perihelium og aphelium"
+
+msgid "Phase"
+msgstr "Fase"
+
+msgid "Phase angle"
+msgstr "Fasevinkel"
+
+msgid "Pick two different bodies to see how their distance changes."
+msgstr "Velg to ulike legemer for å se hvordan avstanden deres endres."
+
+msgid "Pinch"
+msgstr "Klemme"
+
+msgid "Planet and time zone"
+msgstr "Planet og tidssone"
+
+msgid "Planetary nebulae (<%1 mag)"
+msgstr "Planetariske tåker (<%1 mag)"
+
+msgid "Planetary nomenclature"
+msgstr "Planetarisk nomenklatur"
+
+msgid "Planetary transits"
+msgstr "Planetare transitter"
+
+msgid "Planets"
+msgstr "Planeter"
+
+msgid "Planets and Sun"
+msgstr "Planeter og Sol"
+
+msgid "Planets magnitude algorithm"
+msgstr "Planeters størrelsesordens algoritme"
+
+msgid "Please select object to plot its 'Monthly Elevation' graph for the current year at selected time."
+msgstr "Velg objekt for å tegne grafen \"Månedsvis høyde\" for inneværende år på valgt tid."
+
+msgid "Please select object to plot its graph 'Altitude vs. Time'."
+msgstr "Velg objekt for å tegne grafen \"Høyde vs. tid\"."
+
+msgid "Please select object to plot its graph 'Azimuth vs. Time'."
+msgstr "Velg objekt for å tegne grafen \"Asimut vs. tid\"."
+
+msgid "Pluto, Ceres, Pallas, Juno and Vesta"
+msgstr "Pluto, Ceres, Pallas, Juno og Vesta"
+
+msgid "Point size"
+msgstr "Punktstørrelse"
+
+msgid "Pointing"
+msgstr "Peking"
+
+msgid "Polar distance"
+msgstr "Polaravstand"
+
+msgid "Polar distance, not declination"
+msgstr "Polaravstand, ikke deklinasjon"
+
+msgid "Poles and points"
+msgstr "Poler og punkter"
+
+msgid "Polygon colour"
+msgstr "Polygonfarge"
+
+msgid "Positive values only"
+msgstr "Bare positive verdier"
+
+msgid "Previous"
+msgstr "Tidligere"
+
+msgid "Prime Vertical"
+msgstr "Prime Vertikal"
+
+msgid "Projected Solar Equator"
+msgstr "Projisert solekator"
+
+msgid "Pronounce"
+msgstr "Uttal"
+
+msgid "Quadrature circle"
+msgstr "Kvadraturkrets"
+
+msgid "Query SIMBAD about selected object"
+msgstr "Spør SIMBAD om valgt objekt"
+
+msgid "Query options"
+msgstr "Spørealternativer"
+
+msgid "Quit"
+msgstr "Avslutt"
+
+msgid "Quit button"
+msgstr "Avsluttningsknapp"
+
+msgid "Range"
+msgstr "Område"
+
+msgid "Ray helpers"
+msgstr "Strålehjelpemidler"
+
+msgid "Reading…"
+msgstr "Leser…"
+
+msgid "Real time speed"
+msgstr "Sanntidshastighet"
+
+msgid "Recent Searches"
+msgstr "Nylige søk"
+
+msgid "Rectangular FOV"
+msgstr "Rektangulært synsfelt"
+
+msgid "Refraction, extinction, sky brightness"
+msgstr "Refaksjon, utslukkelse, himellysstyrke"
+
+msgid "Regions of the sky"
+msgstr "Himmelregioner"
+
+msgid "Relative scale"
+msgstr "Relativ skala"
+
+msgid "Remove %s"
+msgstr "Fjern %s"
+
+msgid "Remove from observing list"
+msgstr "Fjern fra observasjonslisten"
+
+msgid "Rename"
+msgstr "Gi nytt navn"
+
+msgid "Reset"
+msgstr "Tilbakestill"
+
+msgid "Reset all"
+msgstr "Tilbakestill alt"
+
+msgid "Restarting…"
+msgstr "Starter på nytt…"
+
+msgid "Rise"
+msgstr "Oppstigning"
+
+msgid "Rises"
+msgstr "Stiger opp"
+
+msgid "Rotation"
+msgstr "Rotasjon"
+
+msgid "Running"
+msgstr "Kjører"
+
+msgid "SIMBAD did not answer."
+msgstr "SIMBAD svarte ikke."
+
+msgid "SIMBAD is switched off in the search options."
+msgstr "SIMBAD er slått av i søkealternativene."
+
+msgid "SIMBAD is switched off. Turn it on under Options to look objects up online."
+msgstr "SIMBAD er slått av. Slå den på under Alternativer for å slå objekter opp på nett."
+
+msgid "SIMBAD server"
+msgstr "SIMBAD-server"
+
+msgid "Saturation"
+msgstr "Metning"
+
+msgid "Save"
+msgstr "Lagre"
+
+msgid "Save either the current FOV and direction of view or all the current options for use at next startup. Restoring default settings requires a restart of the app."
+msgstr "Lagre enten gjeldende synsfelt og visningsretning eller alle gjeldende innstillinger for bruk ved neste oppstart. Gjenoppretting av standardinnstillinger krever at appen startes på nytt."
+
+msgid "Save to observing list"
+msgstr "Lagre til observasjonsliste"
+
+msgid "Save view"
+msgstr "Lagre visning"
+
+msgid "Scale"
+msgstr "Skala"
+
+msgid "Scale marker and label visibility by surface brightness"
+msgstr "Skaler markør- og etikettsvarighet etter overflatelysstyrke"
+
+msgid "Scales smoothly between 1× at the minimum field of view and the factor above at the maximum"
+msgstr "Skaleres mykt mellom 1× ved minimalt synsfelt og faktoren ovenfor ved maksimalt"
+
+msgid "Screen label"
+msgstr "Skjermetikett"
+
+msgid "Search in list"
+msgstr "Søk i liste"
+
+msgid "Seasons"
+msgstr "Årstider"
+
+msgid "Second body"
+msgstr "Annen kropp"
+
+msgid "Second celestial body"
+msgstr "Annen himmellegeme"
+
+msgid "Second graph"
+msgstr "Annen graf"
+
+msgid "Second object"
+msgstr "Annet objekt"
+
+msgid "Secondary intercardinal points"
+msgstr "Sekundære mellomhimmelpunkter"
+
+msgid "Sednoids"
+msgstr "Sednider"
+
+msgid "See the sky through the ground"
+msgstr "Se himmelen gjennom bakken"
+
+msgid "Seen now"
+msgstr "Synlig nå"
+
+msgid "Select an object first: this asks SIMBAD what it holds around it."
+msgstr "Velg objekt først: dette spør SIMBAD hva den holder rundt det."
+
+msgid "Select it and show its card"
+msgstr "Velg det og vis kortet"
+
+msgid "Select something in the sky first — this page works on the selection."
+msgstr "Velg noe på himmelen først — denne siden fungerer på utvalget."
+
+msgid "Selected object"
+msgstr "Valgt objekt"
+
+msgid "Separate colors for orbits by object type"
+msgstr "Separate farger for baner etter objekttype"
+
+msgid "Separate colors for orbits of major planets"
+msgstr "Separate farger for baner til større planeter"
+
+msgid "September equinox"
+msgstr "Høstjevndøgn"
+
+msgid "Set"
+msgstr "Still"
+
+msgid "Set the clock to %s"
+msgstr "Still klokken til %s"
+
+msgid "Set the place"
+msgstr "Still stedet"
+
+msgid "Set to now"
+msgstr "Still til nå"
+
+msgid "Sets"
+msgstr "Sett"
+
+msgid "Shadow map for non-convex bodies. May coarsen the penumbra on some objects"
+msgstr "Skyggenett for ikke-konvekse legemer. Kan forgrove halvskyggen på noen objekter"
+
+msgid "Shadow transit"
+msgstr "Skyggepassasje"
+
+msgid "Shooting stars"
+msgstr "Stjerneskudd"
+
+msgid "Short notation for units of surface brightness"
+msgstr "Kort notasjon for overflatelysstyrkeenheter"
+
+msgid "Short steps over a long duration are slow."
+msgstr "Korte trinn over lang varighet er langsomme."
+
+msgid "Show"
+msgstr "Vis"
+
+msgid "Show FOV center marker when position is search"
+msgstr "Vis sentermarker for synsfelt når posisjonen søkes"
+
+msgid "Show additional buttons"
+msgstr "Vis flere knapper"
+
+msgid "Show additional star names"
+msgstr "Vis flere stjernernavn"
+
+msgid "Show all information"
+msgstr "Vis all informasjon"
+
+msgid "Show atmospheric extinction"
+msgstr "Vis atmosfærisk utslettelse"
+
+msgid "Show boundaries of constellations"
+msgstr "Vis grenser for stjernebilder"
+
+msgid "Show button in addition to keyboard shortcut?"
+msgstr "Vis knapp i tillegg til tastatursnarling?"
+
+msgid "Show controls"
+msgstr "Vis kontroller"
+
+msgid "Show each body where it was when the light left it (recommended)"
+msgstr "Vis hver legeme der det var da lyset forlot det (anbefalt)"
+
+msgid "Show frames per second beside the field of view"
+msgstr "Vis bilder per sekund ved siden av synsfelt"
+
+msgid "Show hints and labels for planetary features"
+msgstr "Vis hint og etiketter for planetfunksjoner"
+
+msgid "Show illumination"
+msgstr "Vis belysning"
+
+msgid "Show in sky"
+msgstr "Vis på himmel"
+
+msgid "Show less"
+msgstr "Vis mindre"
+
+msgid "Show lunar stations (if defined)"
+msgstr "Vis månesteder (hvis definert)"
+
+msgid "Show more"
+msgstr "Vis mer"
+
+msgid "Show objects which are up"
+msgstr "Vis objekter som er oppe"
+
+msgid "Show only named DSO"
+msgstr "Vis bare navngitte DSO"
+
+msgid "Show only objects between the two sizes"
+msgstr "Vis bare objekter mellom de to størrelsene"
+
+msgid "Show only the kinds ticked below"
+msgstr "Vis bare typene markert nedenfor"
+
+msgid "Show or hide the two rails of controls"
+msgstr "Vis eller skjul de to kontrollskinnene"
+
+msgid "Show orbit even if object is off screen"
+msgstr "Vis bane selv om objektet er utenfor skjermen"
+
+msgid "Show orbit only for selected SSO"
+msgstr "Vis bane bare for valgt SSO"
+
+msgid "Show orbits"
+msgstr "Vis baner"
+
+msgid "Show orbits of major planets"
+msgstr "Vis baner til større planeter"
+
+msgid "Show planetary nomenclature"
+msgstr "Vis planetnomenklatur"
+
+msgid "Show special nomenclature points only"
+msgstr "Vis bare spesielle nomenklaturpunkter"
+
+msgid "Show surveys"
+msgstr "Vis kartlegginger"
+
+msgid "Show this survey"
+msgstr "Vis denne kartleggingen"
+
+msgid "Show tiny circles for minor bodies regardless of magnitude"
+msgstr "Vis små sirkler for smålegemer uavhengig av styrelsesorden"
+
+msgid "Show trails"
+msgstr "Vis stier"
+
+msgid "Show zodiac (if defined)"
+msgstr "Vis dyrekretsen (hvis definert)"
+
+msgid "Simbad Lookup Error: %s"
+msgstr "Oppslaggeril i SIMBAD: %s"
+
+msgid "Simbad Lookup: querying"
+msgstr "SIMBAD-oppslag: spørring"
+
+msgid "Simulate self-shadowing"
+msgstr "Simuler selvskygge"
+
+msgid "Simulation"
+msgstr "Simulering"
+
+msgid "Sky Culture"
+msgstr "Himmelkultur"
+
+msgid "Sky and viewing options"
+msgstr "Himmel- og visningsalternativer"
+
+msgid "Sky culture"
+msgstr "Himmelkultur"
+
+msgid "Slow down"
+msgstr "Senk farten"
+
+msgid "Smallest, ′"
+msgstr "Minste, ′"
+
+msgid "Solar altitude for Twilight Finder"
+msgstr "Solens høyde for skumringstidsfinner"
+
+msgid "Solar elongation"
+msgstr "Solforlengelse"
+
+msgid "Solar system objects"
+msgstr "Solsystemobjekter"
+
+msgid "Solar system objects: comets"
+msgstr "Solsystemobjekter: kometer"
+
+msgid "Solar system objects: minor bodies"
+msgstr "Solsystemobjekter: små legemer"
+
+msgid "Solar system objects: planets"
+msgstr "Solsystemobjekter: planeter"
+
+msgid "Solstices (J2000)"
+msgstr "Solverv (J2000)"
+
+msgid "Solstices (of date)"
+msgstr "Solverv (for dato)"
+
+msgid "Special points only"
+msgstr "Bare spesielle punkter"
+
+msgid "Spectral Class"
+msgstr "Spektralklasse"
+
+msgid "Speed up"
+msgstr "Øk farten"
+
+msgid "Spiky stars"
+msgstr "Stjerner med stråler"
+
+msgid "Stand where the landscape was shot, on the planet it names"
+msgstr "Stå der landskapet ble fotografert, på planeten det navngir"
+
+msgid "Star, planet, catalogue number…"
+msgstr "Stjerne, planet, katalognummer…"
+
+msgid "Started"
+msgstr "Startet"
+
+msgid "Startup FOV"
+msgstr "Start synsfelt"
+
+msgid "Startup direction of view"
+msgstr "Start visningsretning"
+
+msgid "Stationary (begin prograde motion)"
+msgstr "Stasjonær (begynn direkte bevegelse)"
+
+msgid "Stationary (begin retrograde motion)"
+msgstr "Stasjonær (begynn retrograd bevegelse)"
+
+msgid "Stellarium's user guide covers the astronomy this app shares with it: stellarium.org/documentation"
+msgstr "Stellariums brukerveiledning dekker astronomien som denne appen deler med den: stellarium.org/documentation"
+
+msgid "Step, hours"
+msgstr "Trinn, timer"
+
+msgid "Stop clock when starting"
+msgstr "Stopp klokken når du starter"
+
+msgid "Strasbourg astronomical Data Center (France)"
+msgstr "Strasbourg astronomisk datakenter (Frankrike)"
+
+msgid "Style"
+msgstr "Stil"
+
+msgid "Sun altitude"
+msgstr "Solhøyde"
+
+msgid "Sun at"
+msgstr "Solen ved"
+
+msgid "Sun's altitude"
+msgstr "Solens høyde"
+
+msgid "Sun's corona"
+msgstr "Solens corona"
+
+msgid "Sun's glare"
+msgstr "Solens glans"
+
+msgid "Sun, planets and moons of first body and observer's planet"
+msgstr "Sol, planeter og måner av første objekt og observatørens planet"
+
+msgid "Sun, planets and moons of observer's planet"
+msgstr "Sol, planeter og måner av observatørens planet"
+
+msgid "Sunlight scattered by interplanetary dust"
+msgstr "Sollys spredt av interplanetarisk støv"
+
+msgid "Superior conjunction"
+msgstr "Superior konjunksjon"
+
+msgid "Supernova candidates"
+msgstr "Supernovakandidater"
+
+msgid "Supernova remnant candidates"
+msgstr "Supernova-levningskandidater"
+
+msgid "Surveys"
+msgstr "Kartlegginger"
+
+msgid "Switch this off to see the trails for all Solar system bodies"
+msgstr "Slå dette av for å se sporene for alle solsystemobjekter"
+
+msgid "Symbiotic stars"
+msgstr "Symbiotiske stjerner"
+
+msgid "Synodic period"
+msgstr "Synodisk periode"
+
+msgid "System date at"
+msgstr "Systemdato på"
+
+msgid "Table"
+msgstr "Tabell"
+
+msgid "Tabular output for coordinates and time"
+msgstr "Tabellarisk utdata for koordinater og tid"
+
+msgid "Tap a colour to change it. Changes show on the sky at once and are kept."
+msgstr "Trykk på en farge for å endre den. Endringer vises på himmelen umiddelbart og opprettholdes."
+
+msgid "Tap again to confirm"
+msgstr "Trykk igjen for å bekrefte"
+
+msgid "Tap an object"
+msgstr "Trykk på et objekt"
+
+msgid "Tap the chart to read a value."
+msgstr "Trykk på diagrammet for å lese en verdi."
+
+msgid "Tap the clock"
+msgstr "Trykk på klokken"
+
+msgid "Tap the gear"
+msgstr "Trykk på tannhjulet"
+
+msgid "Tap the map to stand there."
+msgstr "Trykk på kartet for å stå der."
+
+msgid "Tap the place"
+msgstr "Trykk på stedet"
+
+msgid "Tap to confirm"
+msgstr "Trykk for å bekrefte"
+
+msgid "Tertiary intercardinal points"
+msgstr "Tertiære mellomhimmelpunkter"
+
+msgid "Text angle"
+msgstr "Tekstvinkel"
+
+msgid "The Great Red Spot drifts in System II longitude. Enter a recent measurement and the drift rate to carry it forward from."
+msgstr "Den store røde flekken driver i System II lengdegrad. Angi en nylig måling og driftshastigheten for å bære den fremover fra."
+
+msgid "The algorithm is based on visual observations 1877-1891 by G. Müller and was still republished in the Explanatory Supplement to the Astronomical Ephemeris (1961)."
+msgstr "Algoritmen er basert på visuelle observasjoner 1877-1891 av G. Müller og ble fortsatt republisert i Explanatory Supplement to the Astronomical Ephemeris (1961)."
+
+msgid "The algorithm was published by A. Mallama & J. L. Hilton: Computing apparent planetary magnitudes for the Astronomical Almanac. Astronomy&Computing 25 (2018) 10-24."
+msgstr "Algoritmen ble publisert av A. Mallama & J. L. Hilton: Computing apparent planetary magnitudes for the Astronomical Almanac. Astronomy&Computing 25 (2018) 10-24."
+
+msgid "The algorithm was published in the 2nd edition of the Explanatory Supplement to the Astronomical Almanac (1992)."
+msgstr "Algoritmen ble publisert i 2. utgave av Explanatory Supplement to the Astronomical Almanac (1992)."
+
+msgid "The algorithm was published in the 3rd edition of the Explanatory Supplement to the Astronomical Almanac (2013)."
+msgstr "Algoritmen ble publisert i 3. utgave av Explanatory Supplement to the Astronomical Almanac (2013)."
+
+msgid "The algorithm was used in the Astronomical Almanac (1984 and later) and gives V (instrumental) magnitudes (allegedly from D.L. Harris)."
+msgstr "Algoritmen ble brukt i Astronomical Almanac (1984 og senere) og gir V (instrumentale) styrelsesordener (påstått fra D.L. Harris)."
+
+msgid "The classical cepheids"
+msgstr "De klassiske cefeidene"
+
+msgid "The colour each kind of object is drawn in"
+msgstr "Fargen hver objekttype er tegnet i"
+
+msgid "The engine did not answer with any colours."
+msgstr "Motoren svar ikke med noen farger."
+
+msgid "The galactic band"
+msgstr "Det galaktiske bandet"
+
+msgid "The greatest eclipse is invisible in current location"
+msgstr "Den største formørkelsen er usynlig på gjeldende sted"
+
+msgid "The horizon outline instead of the panorama"
+msgstr "Horisontkonturen i stedet for panoramaet"
+
+msgid "The path each body has taken across the sky"
+msgstr "Stien hver legeme har tatt over himmelen"
+
+msgid "The shortest label the culture defines"
+msgstr "Den korteste etiketten kulturen definerer"
+
+msgid "Thickness"
+msgstr "Tykkelse"
+
+msgid "This copy ships no scripts."
+msgstr "Denne kopien leveres uten skript."
+
+msgid "This device has no location service."
+msgstr "Denne enheten har ingen posisjonstjeneste."
+
+msgid "This part of the engine exposes no settings on this build."
+msgstr "Denne delen av motoren viser ingen innstillinger på denne bygningen."
+
+msgid "This tool works on Earth only!"
+msgstr "Dette verktøyet fungerer bare på jorden!"
+
+msgid "This tool works on Earth only. Short steps over a long duration are slow."
+msgstr "Dette verktøyet fungerer bare på jorden. Korte trinn over lang varighet er langsomme."
+
+msgid "This year"
+msgstr "Dette året"
+
+msgid "Time of day"
+msgstr "Tidsavsnitt"
+
+msgid "Time span"
+msgstr "Tidsspan"
+
+msgid "Time step"
+msgstr "Tidsintervall"
+
+msgid "To the next (mths)"
+msgstr "Til neste (mnd)"
+
+msgid "To the next, months"
+msgstr "Til neste, måneder"
+
+msgid "Today"
+msgstr "I dag"
+
+msgid "Toggle display of nebula images."
+msgstr "Veksle visning av tåkebilleder."
+
+msgid "Toggle display of the button for the Digitized Sky Survey."
+msgstr "Veksle visning av knappen for Digitized Sky Survey."
+
+msgid "Toggle display of the button for the HiPS Surveys. Select a survey in the View settings."
+msgstr "Veksle visning av knappen for HiPS-kartlegginger. Velg en kartlegging i Visningsinnstillinger."
+
+msgid "Toggle drawing Sun's glare"
+msgstr "Veksle tegning av solens glans"
+
+msgid "Toggle drawing halo around the Moon"
+msgstr "Veksle tegning av halo rundt månen"
+
+msgid "Toggle permanent drawing of Sun's corona when atmosphere is disabled"
+msgstr "Veksle permanent tegning av solens corona når atmosfæren er deaktivert"
+
+msgid "Toggle the usage of background under GUI buttons"
+msgstr "Veksle bruken av bakgrunn under GUI-knapper"
+
+msgid "Total eclipse begins"
+msgstr "Total formørkelse begynner"
+
+msgid "Total eclipse ends"
+msgstr "Total formørkelse slutter"
+
+msgid "Trails"
+msgstr "Stier"
+
+msgid "Translated"
+msgstr "Oversatt"
+
+msgid "Transparency"
+msgstr "Gjennomsiktighet"
+
+msgid "Twilight"
+msgstr "Skumring"
+
+msgid "Twilight and rise and set times are worked out for an observer on Earth. Move back to Earth to see them."
+msgstr "Skumring og opprising og settingstider beregnes for en observatør på jorden. Flytt tilbake til jorden for å se dem."
+
+msgid "Twinkle"
+msgstr "Glitring"
+
+msgid "Twinkle amount"
+msgstr "Glitringmengde"
+
+msgid "Twinkle even without atmosphere"
+msgstr "Glitring selv uten atmosfære"
+
+msgid "Twinkle is caused by atmospheric turbulence; this shows it regardless"
+msgstr "Glitring er forårsaket av atmosfærisk turbulens; dette viser det uansett"
+
+msgid "Type a name, a Bayer letter or a catalogue number - Vega, α Lyr, M 31, NGC 224."
+msgstr "Skriv et navn, en Bayer-bokstav eller et katalognummer - Vega, α Lyr, M 31, NGC 224."
+
+msgid "Types"
+msgstr "Typer"
+
+msgid "Umbral magnitude"
+msgstr "Umbral styrelsesorden"
+
+msgid "Unnamed star"
+msgstr "Unavngitt stjerne"
+
+msgid "Up to mag."
+msgstr "Opp til str."
+
+msgid "Use additional names of DSO"
+msgstr "Bruk ytterligere navn på DSO"
+
+msgid "Use buttons background"
+msgstr "Bruk knappbakgrunn"
+
+msgid "Use common symbols for coordinate systems"
+msgstr "Bruk vanlige symboler for koordinatsystemer"
+
+msgid "Use distance from North Celestial Pole, not declination from equator in equatorial coordinates"
+msgstr "Bruk avstand fra nordlig himmelstolpe, ikke deklinasjon fra ekvator i ekvatorialkoordinater"
+
+msgid "Use mag/arcsec^2 for surface brightness"
+msgstr "Bruk mag/arcsec^2 for overflatelysstyrke"
+
+msgid "Use more accurate 3D models (where available)"
+msgstr "Bruk mer nøyaktige 3D-modeller (der tilgjengelig)"
+
+msgid "Use my location"
+msgstr "Bruk min sted"
+
+msgid "Use outlines for big deep-sky objects"
+msgstr "Bruk omriss for store dypobjekter"
+
+msgid "Use sorting by string length"
+msgstr "Bruk sortering etter strenglengde"
+
+msgid "Use the date now shown in the sky"
+msgstr "Bruk datoen som nå vises på himmelen"
+
+msgid "Use the value in landscape.ini when it has one"
+msgstr "Bruk verdien i landscape.ini når den har en"
+
+msgid "Use the value stored for this location"
+msgstr "Bruk verdien lagret for dette stedet"
+
+msgid "Var. stars"
+msgstr "Var. stjerner"
+
+msgid "Version %s  ·  Qt %s"
+msgstr "Versjon %s  ·  Qt %s"
+
+msgid "View recent GRS measurements"
+msgstr "Vis nylige GRS-målinger"
+
+msgid "Visibility"
+msgstr "Synlighet"
+
+msgid "Visual magnitude based on phase angle and albedo."
+msgstr "Visuell styrelsesorden basert på fasevinkel og albedo."
+
+msgid "Western quadrature"
+msgstr "Vestlig kvadratur"
+
+msgid "When a search result is chosen"
+msgstr "Når et søkeresultat velges"
+
+msgid "Where Jupiter's Great Red Spot was, and when"
+msgstr "Hvor Jupiters store røde flekk var, og når"
+
+msgid "Width"
+msgstr "Bredde"
+
+msgid "Working out the contact times…"
+msgstr "Beregner kontakttidene…"
+
+msgid "Year"
+msgstr "År"
+
+msgid "Zodiac and lunar stations"
+msgstr "Dyrekretsen og månesteder"
+
+msgid "Zodiacal Light brightness"
+msgstr "Zodiakallys lysstyrke"
+
+msgid "Zoom in and out"
+msgstr "Forstørr og forminsk"
+
+msgid "after sunset"
+msgstr "etter solnedgang"
+
+msgid "before sunrise"
+msgstr "før soloppgang"
+
+msgid "bright suburban"
+msgstr "lys forstad"
+
+msgid "east +"
+msgstr "øst +"
+
+msgid "engine ready, interface going live"
+msgstr "motor klar, grensesnitt går live"
+
+msgid "excellent dark sky"
+msgstr "utmerket mørk himmel"
+
+msgid "inner city"
+msgstr "sentrum"
+
+msgid "max %s"
+msgstr "maks %s"
+
+msgid "north +"
+msgstr "nord +"
+
+msgid "rural/suburban"
+msgstr "landlig/forstad"
+
+msgid "sci. translit."
+msgstr "vitens. translitt."
+
+msgid "select all"
+msgstr "velg alt"
+
+msgid "select none"
+msgstr "velg ingen"
+
+msgid "select preference"
+msgstr "velg preferanse"
+
+msgid "select standard"
+msgstr "velg standard"
+
+msgid "store preference"
+msgstr "lagre preferanse"
+
+msgid "suburban/urban"
+msgstr "forstad/by"
+
+msgid "truly dark"
+msgstr "virkelig mørk"
+
+msgid "unreadable snapshot"
+msgstr "uleselig øyeblikksbilder"
+
+msgid "with Solar Dates"
+msgstr "med solardatoer"
+
+msgid "… and moons"
+msgstr "… og måner"

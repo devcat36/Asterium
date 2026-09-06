@@ -1,0 +1,25 @@
+Asterium is a fork of Stellarium. The astronomy it computes is Stellarium's
+work, so cite Stellarium for the science:
+
+  Stellarium contributors (2026). Stellarium v26.2 Astronomy Software.
+  URL https://stellarium.org/.
+  DOI: 10.5281/zenodo.20835040
+
+A BibTeX entry for LaTeX users is
+
+.. code-block:: latex
+
+  @Stellarium{,
+    title = {{Stellarium} v26.2 Astronomy Software},
+    author = {{Stellarium contributors}},
+    year = {2026},
+    url = {https://stellarium.org/},
+    doi = {10.5281/zenodo.20835040},
+  }
+
+If what you are describing is this fork rather than the astronomy - its
+interface, its packaging, or the data set it ships, which differs from
+upstream's - say so alongside that citation and name it as Asterium, a modified
+version of Stellarium. NOTICE.md lists what the modifications are. Asterium has
+no DOI of its own and is not produced by or affiliated with the Stellarium
+project; do not cite it as though it were Stellarium.

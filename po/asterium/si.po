@@ -1,0 +1,2698 @@
+# Asterium interface translation for si.
+# Copyright (C) 2026 the Asterium authors
+# This file is distributed under the same licence as the Asterium package.
+#
+# MACHINE TRANSLATION, not reviewed by a speaker of this language.
+# Terminology follows upstream Stellarium's own si catalogue, which was used
+# as a glossary, and every entry keeps the source's printf placeholders.
+# Corrections from a human translator are welcome and should simply replace these.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: asterium\n"
+"Language: si\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%d bodies"
+msgstr "ශරීර %d"
+
+msgid "%d object"
+msgstr "%d වස්තුව"
+
+msgid "%d objects"
+msgstr "වස්තු %d"
+
+msgid "%s colour"
+msgstr "%s වර්ණ"
+
+msgid "%s from %s, ±%.0f m"
+msgstr "%s සිට %s දෙසින්, ±%.0f m"
+
+msgid "12-hour"
+msgstr "12-පැය"
+
+msgid "1× below"
+msgstr "1× පහළින්"
+
+msgid "24-hour"
+msgstr "24-පැය"
+
+msgid "A button to mark every object of the current observing list on the sky."
+msgstr "වර්තමාන නිරීක්ෂණ ලැයිස්තුවේ සෑම වස්තුවම ආකාශයේ සලකුණු කිරීමට ඔබුල."
+
+msgid "A button to toggle ecliptic grid of date"
+msgstr "දිනයේ ග්‍රහණ දැල ටොගල් කිරීමට ඔබුල"
+
+msgid "A button to toggle equatorial J2000 grid"
+msgstr "සමකෝණීය J2000 දැල ටොගල් කිරීමට ඔබුල"
+
+msgid "A button to toggle galactic grid"
+msgstr "මණ්දාකිණි දැල ටොගල් කිරීමට ඔබුල"
+
+msgid "A polygonal model for some small moons, asteroids and comets instead of a sphere"
+msgstr "ගෝලය වෙනුවට කුඩා චන්ද්‍රයා, ග්‍රහක සහ දුම්කෙතුවලට බහුකෝණ ආකෘතිය"
+
+msgid "A touch-first planetarium forked from Stellarium, whose astronomy engine it uses unchanged. The interface is new; everything that draws the sky is upstream's work."
+msgstr "Stellarium සිට ගෝවා කරන ලද, එහි තාරකා විද්‍යා එංජින් නොවෙනස්ව භාවිතා කරන ස්පර්ශ-පළමු තාරකා ග්‍රහලෝක කේන්ද්‍රය. අතුරුමුහුණත නව ය; අහස අඳින සෑම දෙයක්ම upstream හි කාර්යයි."
+
+msgid "Abbreviated names"
+msgstr "සංක්ෂිප්ත නම්"
+
+msgid "About this sky culture"
+msgstr "මෙම අහස් සංස්කෘතිය පිළිබඳ"
+
+msgid "Above altitude, °"
+msgstr "උචිතතාවයට ඉහළින්, °"
+
+msgid "Absolute scale"
+msgstr "නිරපේක්ෂ පරිමාණ"
+
+msgid "Activate this option to calculate azimuth from south towards west."
+msgstr "දකුණු සිට බටහිර දෙසට උද්දිගංශ ගණනය කිරීමට මෙම විකල්පය සක්‍රිය කරන්න."
+
+msgid "Active galaxies"
+msgstr "සක්‍රිය ගැලැක්සි"
+
+msgid "Add %s"
+msgstr "%s එක් කරන්න"
+
+msgid "Additional information settings"
+msgstr "අතිරේක තොරතුරු සැකසුම්"
+
+msgid "Adjust brightness to bright objects"
+msgstr "දීප්ත වස්තු සඳහා දීප්තිය සකස් කරන්න"
+
+msgid "Algol-type eclipsing systems"
+msgstr "Algol වර්ගයේ ග්‍රහණ පද්ධති"
+
+msgid "Algorithm of ΔT"
+msgstr "ΔT ගණිතය"
+
+msgid "All IDs"
+msgstr "සියළු හඳුනුම්"
+
+msgid "All naked-eye planets"
+msgstr "සෙවණින් දකින සියළු ග්‍රහලෝක"
+
+msgid "All solar eclipses"
+msgstr "සියළු සෞර ග්‍රහණ"
+
+msgid "Allow negative hour angles"
+msgstr "ඍණ පැයරට කෝණ ඉඩ දෙන්න"
+
+msgid "Allow results outside the recommended time range of the orbital elements"
+msgstr "පරිභ්‍රමණ මූලද්‍රව්‍යවල නිර්දේශිත කාල පරාසයෙන් පිටතින් ප්‍රතිඵල ඉඩ දෙන්න"
+
+msgid "Almanac"
+msgstr "කාලසටහන"
+
+msgid "Almanac: Sun, Moon and naked-eye planets"
+msgstr "Almanac: සූර්යයා, චන්ද්‍රයා සහ නිරුපිත ග්‍රහලෝක"
+
+msgid "Also find"
+msgstr "ද සොයන්න"
+
+msgid "Also plot"
+msgstr "ද ප්‍රස්තාර කරන්න"
+
+msgid "Also show moons of selected object or planets"
+msgstr "තෝරන ලද වස්තුවේ හෝ ග්‍රහලෝකවල චන්ද්‍රයා ද පෙන්වන්න"
+
+msgid "Altitude"
+msgstr "උචිතතාවය"
+
+msgid "Altitude limit, °"
+msgstr "උචිතතාවය සීමාව, °"
+
+msgid "Altitude vs. Time"
+msgstr "උචිතතාවය විරුද්ධ වේලාව"
+
+msgid "Amount"
+msgstr "ප්‍රමාණ"
+
+msgid "An observer floats above its planet, so there is nowhere on it to stand. Choose another planet to come back down."
+msgstr "නිරීක්ෂක එහි ග්‍රහයට ඉහළින් පිනිස ගිය හෙයින්, එයට සිටිම සඳහා කිසිම තැනක් නැත. ගනු ඇතිවීමට වෙනත් ග්‍රහයක් තෝරන්න."
+
+msgid "And"
+msgstr "ත"
+
+msgid "And also"
+msgstr "ඒ ත"
+
+msgid "And the next (years)"
+msgstr "ඒ ත ඉන්පසු (වසර)"
+
+msgid "Ang. Size"
+msgstr "කෝණ. ප්‍රමාණ"
+
+msgid "Angular distance"
+msgstr "කෝණීය දුර"
+
+msgid "Angular distance between the Moon and selected object"
+msgstr "චන්ද්‍රයා සහ තෝරන ලද වස්තුව අතර කෝණික දුර"
+
+msgid "Angular distance from the Moon"
+msgstr "චන්ද්‍රයා සිට කෝණික දුර"
+
+msgid "Angular distance from the Moon for second object"
+msgstr "දෙවන වස්තුව සඳහා චන්ද්‍රයා සිට කෝණික දුර"
+
+msgid "Angular distance from the Sun"
+msgstr "සූර්යයා සිට කෝණික දුර"
+
+msgid "Angular distance from the Sun for second object"
+msgstr "දෙවන වස්තුව සඳහා සූර්යයා සිට කෝණික දුර"
+
+msgid "Angular size"
+msgstr "කෝණික ප්‍රමාණය"
+
+msgid "Annual drift"
+msgstr "වාර්ෂික අපගමනය"
+
+msgid "Antisolar point"
+msgstr "සූර්ය විරුද්ධ ලක්ෂ්‍යය"
+
+msgid "Apex points"
+msgstr "අවසර ලක්ෂ්‍යය"
+
+msgid "Appearance"
+msgstr "පෙනුම"
+
+msgid "Apply"
+msgstr "යෙදවන්න"
+
+msgid "Apply time interval limits to list"
+msgstr "ලැයිස්තුවට කාල පරතරය සීමා යෙදවන්න"
+
+msgid "Art"
+msgstr "ශිල්ප"
+
+msgid "Artificial satellites and unnamed stars are excluded from calculation."
+msgstr "කෘතිම චන්ද්‍රිකා සහ නාමකරණ නොකළ තරු ගණනය කිරීමෙන් බැහැර කර ඇත."
+
+msgid "Asking for permission…"
+msgstr "අවසර ඉල්ලා සිටින්නෙමි…"
+
+msgid "Asks SIMBAD what it holds around the object that is selected now, and prints the answer as it comes back."
+msgstr "දැන් තෝරන ලද වස්තුව වටා SIMBAD අඩුවෙලා කුමක් තබයි ඉල්ලා සිටින්නෙමි, සහ පිළිතුර ආපසු පැමිණෙද්දි මුද්‍රණය කරන්නෙමි."
+
+msgid "Ast. lines"
+msgstr "තරු. රේ."
+
+msgid "Ast. names"
+msgstr "තරු. නා."
+
+msgid "Asterism labels"
+msgstr "තරු ගෝල ලේබල්"
+
+msgid "Asterism lines"
+msgstr "තරු ගෝල රේඛා"
+
+msgid "Asterisms"
+msgstr "තරු ගෝල"
+
+msgid "Asterisms font size"
+msgstr "තරු ගෝල ෆොන්ට ප්‍රමාණ"
+
+msgid "Asteroids"
+msgstr "ග්‍රහක"
+
+msgid "Astronomical Almanac (1984)"
+msgstr "තාරකා විද්‍යා කාලසටහන (1984)"
+
+msgid "Astronomical Almanac (default) enlarges by 2%; Danjon (1951) differs slightly"
+msgstr "Astronomical Almanac (පෙරනිමි) 2% විශාල කරයි; Danjon (1951) ටිකෙන් වෙනස්"
+
+msgid "Astronomical Twilight"
+msgstr "Astronomical සන්ධ්‍යා"
+
+msgid "Astronomical calculations"
+msgstr "තාරකා විද්‍යා ගණනය"
+
+msgid "Astronomical night"
+msgstr "Astronomical රාත්‍රිය"
+
+msgid "At"
+msgstr "පිහිටුවන්නෙහි"
+
+msgid "Atmosph."
+msgstr "වායුගෝල"
+
+msgid "Atmosphere visualization"
+msgstr "ගෝල දර්ශනය"
+
+msgid "Automatic closing dialog"
+msgstr "ස්වයංක්‍රිය වසන සංවාද"
+
+msgid "Automatic transparency"
+msgstr "ස්වයංක්‍රිය විනිමිතබාවය"
+
+msgid "Axis distance"
+msgstr "අක්ෂ දුර"
+
+msgid "Azi. grid"
+msgstr "උද්දි. දැල"
+
+msgid "Azimuth"
+msgstr "උද්දිගංශ"
+
+msgid "Azimuth and altitude rather than right ascension and declination"
+msgstr "දක්ෂිණ සරණ හා පතනයට වඩා උද්දිගංශ සහ උචිතතාවය"
+
+msgid "Azimuth from South"
+msgstr "දකුණු සිට උද්දිගංශ"
+
+msgid "Azimuth vs. Time"
+msgstr "උද්දිගංශ විරුද්ධ වේලාව"
+
+msgid "Back"
+msgstr "ආපසු"
+
+msgid "Bad visibility conditions for current location"
+msgstr "දෙශීය ස්ථානය සඳහා දුර්වල දෘශ්‍යතා තත්ත්වය"
+
+msgid "Beginning of center line; central eclipse begins"
+msgstr "කේන්ද්‍ර රේඛාවේ ආරම්භ; මධ්‍යම ග්‍රහණ ආරම්භ වේ"
+
+msgid "Below the horizon here."
+msgstr "මෙහි ක්ෂිතිජයට පහළින්."
+
+msgid "Between objects"
+msgstr "වස්තු අතර"
+
+msgid "Boundless"
+msgstr "අසීමිත"
+
+msgid "Bounds"
+msgstr "මායිම්"
+
+msgid "Bright Solar system objects (<%1 mag)"
+msgstr "දීප්තිමත් සූර්ය පද්ධති වස්තු (<%1 mag)"
+
+msgid "Bright barium stars"
+msgstr "දීප්තිමත් බේරියම් තරු"
+
+msgid "Bright carbon stars"
+msgstr "දීප්තිමත් කාබන් තරු"
+
+msgid "Bright double stars"
+msgstr "දීප්තිමත් ද්විත්ව තරු"
+
+msgid "Bright double stars (<%1 mag)"
+msgstr "දීප්තිමත් ද්විත්ව තරු (<%1 mag)"
+
+msgid "Bright galaxies (<%1 mag)"
+msgstr "දීප්තිමත් ගැලැක්සි (<%1 mag)"
+
+msgid "Bright nebulae"
+msgstr "දීප්තිමත් පාඩුකා"
+
+msgid "Bright nebulae (<%1 mag)"
+msgstr "දීප්තිමත් පාඩුකා (<%1 mag)"
+
+msgid "Bright nova stars"
+msgstr "දීප්තිමත් nova තරු"
+
+msgid "Bright star clusters (<%1 mag)"
+msgstr "දීප්තිමත් තරු පුංජ (<%1 mag)"
+
+msgid "Bright stars"
+msgstr "දීප්තිමත් තරු"
+
+msgid "Bright stars (<%1 mag)"
+msgstr "දීප්තිමත් තරු (<%1 mag)"
+
+msgid "Bright stars with high proper motion"
+msgstr "ඉහළ නිසි චලනය සහිත දීප්තිමත් තරු"
+
+msgid "Bright supernova stars"
+msgstr "දීප්තිමත් supernova තරු"
+
+msgid "Bright variable stars"
+msgstr "දීප්තිමත් විචල තරු"
+
+msgid "Bright variable stars (<%1 mag)"
+msgstr "දීප්තිමත් විචල තරු (<%1 mag)"
+
+msgid "Brighter than"
+msgstr "ට වඩා දීප්ත"
+
+msgid "Brightness"
+msgstr "දීප්තිය"
+
+msgid "By object type"
+msgstr "වස්තු වර්ගය අනුව"
+
+msgid "By planet"
+msgstr "ග්‍රහයු අනුව"
+
+msgid "Calculate"
+msgstr "ගණනය කරන්න"
+
+msgid "Calculating…"
+msgstr "ගණනය කරනෙමි…"
+
+msgid "Caldwell objects"
+msgstr "Caldwell වස්තු"
+
+msgid "Cardinals"
+msgstr "දිග්භාග"
+
+msgid "Catalogue numbers instead of common names"
+msgstr "පොදු නම වෙනුවට නාමපුරා අංකය"
+
+msgid "Category"
+msgstr "කාණ්ඩ"
+
+msgid "Celestial body"
+msgstr "ඛගෝල ශරීරය"
+
+msgid "Celestial poles (J2000)"
+msgstr "ඛගෝල ධ්‍රුවය (J2000)"
+
+msgid "Celestial poles (of date)"
+msgstr "ඛගෝල ධ්‍රුවය (දිනට)"
+
+msgid "Center of FOV"
+msgstr "FOV මධ්‍ය"
+
+msgid "Centering button"
+msgstr "මධ්‍යතරකරණ ඔබුල"
+
+msgid "Central duration"
+msgstr "මධ්‍ය කාල සීමාව"
+
+msgid "Central eclipse begins"
+msgstr "මධ්‍ය ග්‍රහණ ආරම්භ වේ"
+
+msgid "Central eclipse ends"
+msgstr "මධ්‍ය ග්‍රහණ අවසන් වේ"
+
+msgid "Centre"
+msgstr "කේන්ද්‍රය"
+
+msgid "Centre on object"
+msgstr "වස්තුව මධ්‍යසිටුවන්න"
+
+msgid "Centre point"
+msgstr "මධ්‍ය ලක්ෂ්‍යය"
+
+msgid "Circles"
+msgstr "වෘත්ත"
+
+msgid "Circular FOV"
+msgstr "වෘත්තාකාර FOV"
+
+msgid "Circumpolar circles"
+msgstr "ධ්‍රුවාසන වෘත්ත"
+
+msgid "City"
+msgstr "නගර"
+
+msgid "Civil Twilight"
+msgstr "Civil සන්ධ්‍යා"
+
+msgid "Cleanup"
+msgstr "පිරිසිදු කිරීම"
+
+msgid "Clear"
+msgstr "පැහැදිලි කරන්න"
+
+msgid "Clear recent searches"
+msgstr "මෑත ගවේෂණ පැහැදිලි කරන්න"
+
+msgid "Clear the selection - a touch screen has no right button"
+msgstr "තෝරාගැනීම පැහැදිලි කරන්න - ස්පර්ශ තිරයට දකුණු ඔබුල නැත"
+
+msgid "Cleared."
+msgstr "පිරිසිදු කරන ලදි."
+
+msgid "Click on star to show its constellation"
+msgstr "එහි තරුවට ක්ලික් කරන්න එහි තරුරට ප්‍රදර්ශනය කිරීමට"
+
+msgid "Close"
+msgstr "වසන්න"
+
+msgid "Close what is open; from the sky, leave the app running"
+msgstr "එ විවෘතය වසන්න; අහසින්, යෙදුම ක්‍රියාත්මක තබන්න"
+
+msgid "Clusters of galaxies"
+msgstr "ගැලැක්සි පුංජ"
+
+msgid "Coarse"
+msgstr "කර"
+
+msgid "Color"
+msgstr "වර්ණ"
+
+msgid "Color channel"
+msgstr "වර්ණ නාල"
+
+msgid "Color of Lunar station lines"
+msgstr "චන්ද්‍ර නිසර්ග රේඛාවල වර්ණ"
+
+msgid "Color of asterism lines"
+msgstr "තරු ගෝල රේඛාවල වර්ණ"
+
+msgid "Color of asterism names"
+msgstr "තරු ගෝල නාමවල වර්ණ"
+
+msgid "Color of constellation boundaries"
+msgstr "රාශි මායිමිවල වර්ණ"
+
+msgid "Color of constellation lines"
+msgstr "රාශි රේඛාවල වර්ණ"
+
+msgid "Color of constellation names"
+msgstr "රාශි නාමවල වර්ණ"
+
+msgid "Color of nomenclature labels"
+msgstr "නිරූපක ලේබල්වල වර්ණ"
+
+msgid "Color of orbits"
+msgstr "පරිභ්‍රමණවල වර්ණ"
+
+msgid "Color of planet labels"
+msgstr "ග්‍රහ ලේබල්වල වර්ණ"
+
+msgid "Color of ray helpers"
+msgstr "කිරණ සහායකවල වර්ණ"
+
+msgid "Color of trails"
+msgstr "මාර්ගවල වර්ණ"
+
+msgid "Color of zodiac lines"
+msgstr "රාශිචක්‍ර රේඛාවල වර්ණ"
+
+msgid "Colors of orbit lines"
+msgstr "පරිභ්‍රමණ රේඛාවල වර්ණ"
+
+msgid "Colures"
+msgstr "කොලුරස්"
+
+msgid "Comets"
+msgstr "ධූමකේතු"
+
+msgid "Comets up to mag."
+msgstr "දුම්කෙතු සහ ප්‍රාබල්‍ය"
+
+msgid "Compass"
+msgstr "මාලිමා"
+
+msgid "Config"
+msgstr "වින්‍යාසය"
+
+msgid "Configure colors of markers"
+msgstr "සලකුණුවල වර්ණ සම්මතකරණය"
+
+msgid "Configure colors of orbit lines"
+msgstr "පරිභ්‍රමණ රේඛා වර්ණ සම්මතකරණය"
+
+msgid "Connecting line"
+msgstr "සංවැඩන රේඛා"
+
+msgid "Const."
+msgstr "තරු."
+
+msgid "Constellations font size"
+msgstr "තරුරට ෆොන්ට ප්‍රමාණ"
+
+msgid "Contrast"
+msgstr "සමාදර්ශනය"
+
+msgid "Coordinate system"
+msgstr "ඛණ්ඩාංක පද්ධතිය"
+
+msgid "Coordinates"
+msgstr "ඛණ්ඩාංක"
+
+msgid "Copyright"
+msgstr "ප්‍රකාශන අයිතිය"
+
+msgid "Credits"
+msgstr "ගණන් විස්තර"
+
+msgid "Culmination altitude"
+msgstr "Culmination උචතිම"
+
+msgid "Current FoV"
+msgstr "වර්තමාන FOV"
+
+msgid "Custom FoV limit"
+msgstr "අභිරුචි FOV සීමාව"
+
+msgid "Custom altitude of the Moon, °"
+msgstr "චන්ද්‍රයාවල අභිරුචි උචිතතාවය, °"
+
+msgid "Custom altitude of the Sun, °"
+msgstr "සූර්යයාවල අභිරුචි උචිතතාවය, °"
+
+msgid "Custom settings for position of GRS"
+msgstr "GRS පිහිටීමේ අභිරුචි සැකසුම්"
+
+msgid "Custom values"
+msgstr "අභිරුචි අගයන්"
+
+msgid "Cut the scale off below the limit"
+msgstr "සීමාවට පහළින් පරිමාණ කපන්න"
+
+msgid "DATE AND TIME (UTC)"
+msgstr "දිනය සහ වේලාව (UTC)"
+
+msgid "DSS survey"
+msgstr "DSS ප්‍රබන්ධ"
+
+msgid "Dark nebulae"
+msgstr "අඳුරු පාඩුකා"
+
+msgid "Data"
+msgstr "දත්ත"
+
+msgid "Date"
+msgstr "දිනය"
+
+msgid "Date and time"
+msgstr "දිනය සහ වේලාව"
+
+msgid "Date/time"
+msgstr "දිනය/වේලාව"
+
+msgid "Dates"
+msgstr "දිනයන්"
+
+msgid "Dawn"
+msgstr "උදාසි"
+
+msgid "Dbl. stars"
+msgstr "Dbl. තරු"
+
+msgid "December solstice"
+msgstr "December සම්පාත"
+
+msgid "Decimal degrees. −33.87 means 33.87° south. Elevation is metres above sea level; it moves the horizon down by a few arcminutes."
+msgstr "දශම අංශක. −33.87 යනු 33.87° දකුණුයි. උයනම් සිට සඳහා වූ මීටර්; එය ක්ෂිතිජය පඩුවේ කිහිපයකින් පහළට ගෙනයි."
+
+msgid "Declination"
+msgstr "පතනය"
+
+msgid "Deep Sky"
+msgstr "ගැඹුරු අහස"
+
+msgid "Deep-sky objects"
+msgstr "Deep-sky වස්තු"
+
+msgid "Degrees per year the longitude moves by"
+msgstr "දිගු තරංග ප්‍රතිවසරයට අංශක"
+
+msgid "Degrees, hours and minutes as they are written - 12h30m49s, +41°16'09\", 187.7 - or plain decimal degrees."
+msgstr "ඉලියුම්, පැයන් සහ මිනිතුරු ඒවා ලියා ඇති ආකාරයට - 12h30m49s, +41°16'09\", 187.7 - හෝ සරල දශම අංශක."
+
+msgid "Deletes all recent search object data, and the objects SIMBAD contributed."
+msgstr "සියළු මෑත ගවේෂණ වස්තු දත්ත මකා දමයි, සහ SIMBAD දුන් වස්තු."
+
+msgid "Designations for celestial coordinate systems"
+msgstr "ඛගෝල ඛණ්ඩාංක පද්ධතිවල නිරූපක"
+
+msgid "Designations for double stars"
+msgstr "ද්විත්ව තරුවල නිරූපක"
+
+msgid "Designations for variable stars"
+msgstr "විචල තරුවල නිරූපක"
+
+msgid "Dim a survey near the horizon, as the air does"
+msgstr "ක්ෂිතිජයෙන් ප්‍රබන්ධ අඳුරු කරන්න, වායුව සේ"
+
+msgid "Dimensions"
+msgstr "මාන"
+
+msgid "Display formats of date and time"
+msgstr "දිනය සහ වේලාව පෙන්වීමේ ස්වරූප"
+
+msgid "Display objects from catalogs"
+msgstr "නාමපුරා වලින් වස්තු පෙන්වන්න"
+
+msgid "Displayed"
+msgstr "පෙන්වන ලදි"
+
+msgid "Dist."
+msgstr "දුර."
+
+msgid "Distance"
+msgstr "දුර"
+
+msgid "Distance, AU"
+msgstr "දුර, AU"
+
+msgid "Done"
+msgstr "සම්පූර්ණ"
+
+msgid "Drag"
+msgstr "ඇදින්න"
+
+msgid "Draw deep-sky objects at all"
+msgstr "ගැඹුරු අහස වස්තු සම්පූර්ණයෙන් ඇබ්බැහි කරන්න"
+
+msgid "Draw only polygon"
+msgstr "බහුකෝණ අධිතරයෙන් ඇබ්බැහි කරන්න"
+
+msgid "Draw the enabled sky surveys"
+msgstr "සක්‍රිය අහස ප්‍රබන්ධ අධිතරයෙන් ඇබ්බැහි කරන්න"
+
+msgid "Draw the planets, moons and minor bodies"
+msgstr "ග්‍රහලෝක, චන්ද්‍රයා සහ කුඩා ශරීර අධිතරයෙන් ඇබ්බැහි කරන්න"
+
+msgid "Drawn larger than life, so a body that is a few arcseconds wide is visible at all. The position stays true."
+msgstr "ජීවිතයට වඩා විශාල අධිතරයෙන් ඇබ්බැහි කරන ලදි, එබැවින් අංශක සෙකණ්ඩ පුලුවල ශරීරයක් සම්පූර්ණයෙන් දෙස තිබේ. පිහිටීම සත්‍ය ගිය."
+
+msgid "Duration"
+msgstr "කාල සීමාව"
+
+msgid "Duration (years)"
+msgstr "කාල සීමාව (වසර)"
+
+msgid "Duration, months"
+msgstr "කාල සීමාව, මාසයි"
+
+msgid "Dusk"
+msgstr "සන්ධ්‍යා"
+
+msgid "Dwarf planets"
+msgstr "කුඩා ග්‍රහලෝක"
+
+msgid "Dynamic (FOV-based) Moon size"
+msgstr "ගතිශීල (FOV-පදනම් මූලි) චන්ද්‍රයා ප්‍රමාණ"
+
+msgid "ELEV. M"
+msgstr "උයු. ම"
+
+msgid "Earth"
+msgstr "පෘථිවිය"
+
+msgid "Earth penumbra"
+msgstr "පෘතිවි අර්ධ සිඩුර"
+
+msgid "Earth shadow enlargement after Danjon"
+msgstr "Danjon පසු පෘතිවි සිඩුර විශාලකරණ"
+
+msgid "Earth umbra"
+msgstr "පෘතිවි සිඩුර"
+
+msgid "Ecl. grid"
+msgstr "Ecl. දැල"
+
+msgid "Eclipse"
+msgstr "ග්‍රහණ"
+
+msgid "Eclipse begins; first contact with Earth"
+msgstr "ග්‍රහණ ආරම්භ; පෘථිවි සමඟ පළමු සංස්පර්ශ"
+
+msgid "Eclipse ends; last contact with Earth"
+msgstr "ග්‍රහණ අවසන්; පෘථිවි සමඟ අවසාන සංස්පර්ශ"
+
+msgid "Eclipse magnitude"
+msgstr "ග්‍රහණ විශාලතාවය"
+
+msgid "Eclipses"
+msgstr "ග්‍රහණ"
+
+msgid "Eclipses are computed for observers on Earth."
+msgstr "ග්‍රහණ පෘතිවිය ඉපිලි නිරීක්ෂකයින් සඳහා ගණනය කරනු ලැබේ."
+
+msgid "Ecliptic"
+msgstr "ග්‍රහණ"
+
+msgid "Ecliptic (J2000)"
+msgstr "ග්‍රහණ (J2000)"
+
+msgid "Ecliptic (J2000.0)"
+msgstr "ග්‍රහණ (J2000.0)"
+
+msgid "Ecliptic (of date)"
+msgstr "ග්‍රහණ (දිනට)"
+
+msgid "Ecliptic grid"
+msgstr "ග්‍රහණ දැල"
+
+msgid "Ecliptic grid (J2000)"
+msgstr "ග්‍රහණ දැල (J2000)"
+
+msgid "Ecliptic grid (of date)"
+msgstr "ග්‍රහණ දැල (දිනට)"
+
+msgid "Ecliptic poles (J2000)"
+msgstr "ග්‍රහණ ධ්‍රුවය (J2000)"
+
+msgid "Ecliptic poles (of date)"
+msgstr "ග්‍රහණ ධ්‍රුවය (දිනට)"
+
+msgid "Elev."
+msgstr "උසස."
+
+msgid "Elevation"
+msgstr "උයනම්"
+
+msgid "Elevation in metres"
+msgstr "උයනම් මීටරින්"
+
+msgid "Elong."
+msgstr "දිග්බි."
+
+msgid "Elongations and quadratures"
+msgstr "දිගු කිරීම් සහ සිතර්තම"
+
+msgid "Emission-line stars"
+msgstr "Emission-line තරු"
+
+msgid "Enabled only"
+msgstr "සක්‍රිය පමණි"
+
+msgid "End of center line; central eclipse ends"
+msgstr "කේන්ද්‍ර රේඛාවේ අවසන්; මධ්‍යම ග්‍රහණ අවසන් වේ"
+
+msgid "Enter Culture..."
+msgstr "සංස්කෘතිය ඇතුල් කරන්න..."
+
+msgid "Ephemeris"
+msgstr "එෙසෆිමරිස්"
+
+msgid "Equ. grid"
+msgstr "Equ. දැල"
+
+msgid "Equ. mount"
+msgstr "Equ. සිටුවම"
+
+msgid "Equator (J2000)"
+msgstr "සමකෝණ (J2000)"
+
+msgid "Equator (of date)"
+msgstr "සමකෝණ (දිනට)"
+
+msgid "Equatorial"
+msgstr "සමකෝණීය"
+
+msgid "Equatorial (J2000.0)"
+msgstr "සමකෝණීය (J2000.0)"
+
+msgid "Equatorial grid (J2000)"
+msgstr "සමකෝණීය දැල (J2000)"
+
+msgid "Equatorial grid (of date)"
+msgstr "සමකෝණීය දැල (දිනට)"
+
+msgid "Equatorial radii ratio"
+msgstr "Equatorial අරයවල අනුපාතය"
+
+msgid "Equinoxes (J2000)"
+msgstr "සම දිනොස්ස (J2000)"
+
+msgid "Equinoxes (of date)"
+msgstr "සම දිනොස්ස (දිනට)"
+
+msgid "Evening"
+msgstr "සන්ධ්‍යා"
+
+msgid "Every"
+msgstr "සෑම"
+
+msgid "Every name the object is catalogued under"
+msgstr "වස්තුව නාමපුරා ඉතුරු සෑම නම"
+
+msgid "Exoplanetary systems"
+msgstr "Exoplanetary පද්ධති"
+
+msgid "Explanatory Supplement (1992)"
+msgstr "පැහැදිලිකරණ අතිරේක (1992)"
+
+msgid "Explanatory Supplement (2013)"
+msgstr "පැහැදිලිකරණ අතිරේක (2013)"
+
+msgid "Exterior egress"
+msgstr "බාහිර ඉවතිකිරීම"
+
+msgid "Exterior ingress"
+msgstr "බාහිර ඇතුලු කිරීම"
+
+msgid "Extras"
+msgstr "අමතර"
+
+msgid "Fades the ground as you look below the horizon or zoom in"
+msgstr "ක්ෂිතිජයට පහළින් බලන විට හෝ විශාලනය කරන විට පොළොව මැකී යයි"
+
+msgid "Fading duration"
+msgstr "දුර්වල කරණ කාල සීමාව"
+
+msgid "Faintest shown"
+msgstr "දුර්වලතම පෙන්වනු ලැබ"
+
+msgid "Favorites"
+msgstr "ප්‍රිය"
+
+msgid "Fetching the survey lists…"
+msgstr "ප්‍රබන්ධ ලැයිස්තු ලබා ගනින්නෙමි…"
+
+msgid "Field of view"
+msgstr "දසුනේ ක්ෂේත්‍රය"
+
+msgid "Filter"
+msgstr "පෙරණ"
+
+msgid "Filter by type"
+msgstr "වර්ගය අනුව පෙරණ"
+
+msgid "Find a city"
+msgstr "නගරයක් සොයන්න"
+
+msgid "Fine"
+msgstr "සුතුන"
+
+msgid "First %d of %d - filter to narrow it."
+msgstr "පළමු %d %d හි - එය සීමාවට සුසිද් පෙරණ"
+
+msgid "First body"
+msgstr "පළමු වස්තුව"
+
+msgid "First celestial body"
+msgstr "පළමු ඛගෝල ශරීරය"
+
+msgid "First graph"
+msgstr "පළමු ප්‍රස්තාරය"
+
+msgid "Fix"
+msgstr "ස්థිර කරන්න"
+
+msgid "Fixed Equator"
+msgstr "ස්තිර සමවිෂුවය"
+
+msgid "Fixed Equatorial grid"
+msgstr "ස්තිර සමවිෂුවීය දැල"
+
+msgid "Fixed instant"
+msgstr "ස්තිර මුහුර්තය"
+
+msgid "Flip buttons"
+msgstr "බොත්තම් පෙරලවන්න"
+
+msgid "Flip horiz."
+msgstr "තිරසි අනෙක්"
+
+msgid "Flip vert."
+msgstr "සිරස අනෙක්"
+
+msgid "Font size"
+msgstr "ෆොන්ට් ප්‍රමාණය"
+
+msgid "Frame rate"
+msgstr "රාමු වේගය"
+
+msgid "From"
+msgstr "සිට"
+
+msgid "From year"
+msgstr "වසරෙන් සිට"
+
+msgid "Full screen"
+msgstr "පූර්ණ තිර"
+
+msgid "Fullscreen button"
+msgstr "සම්පූර්ණ තිරය බොත්තම"
+
+msgid "Further reading"
+msgstr "වැඩිදුරටත් කියවීම"
+
+msgid "GRS details…"
+msgstr "GRS විස්තර…"
+
+msgid "Gal. grid"
+msgstr "Gal. දැල"
+
+msgid "Galactic"
+msgstr "මණ්දාකිණි"
+
+msgid "Galactic center and anticenter"
+msgstr "මණ්දාකිණි කේන්ද්‍ර සහ ප්‍රතිකේන්ද්‍ර"
+
+msgid "Galactic equator"
+msgstr "මණ්දාකිණි සමවිෂුවය"
+
+msgid "Galactic poles"
+msgstr "මණ්දාකිණි ධ්‍රුවයන්"
+
+msgid "Galaxies"
+msgstr "ගැලැක්සි"
+
+msgid "Gamma"
+msgstr "ගැමා"
+
+msgid "Gamma, saturation, brightness, contrast, opacity, colour channel and inverted colours belong to one survey. Open a survey to set them."
+msgstr "ගැමා, තෘප්තිය, දීප්තිය, ප්‍රතිසමතාවය, දෘශ්‍යතා, වර්ණ නාලිකා සහ ඉන්වර්ට් වර්ණ එක් සමීක්ෂණයට අයත්. එය සැකසීමට සමීක්ෂණයක් විවෘත කරන්න."
+
+msgid "Generic"
+msgstr "සාමාන්‍ය"
+
+msgid "Gestures"
+msgstr "චලනයන්"
+
+msgid "Globular star clusters"
+msgstr "Globular තරු පුංජ"
+
+msgid "Go there"
+msgstr "එතැන් යන්න"
+
+msgid "Go to position"
+msgstr "පිහිටීමට යන්න"
+
+msgid "Go to this eclipse"
+msgstr "මෙම ග්‍රහණයට යන්න"
+
+msgid "Go to this moment"
+msgstr "මෙම මුහුර්තයට යන්න"
+
+msgid "Go to this transit"
+msgstr "මෙම සංක්‍රමණයට යන්න"
+
+msgid "Good visibility conditions for current location"
+msgstr "දෙශීය ස්ථානය සඳහා හොඳ දෘශ්‍යතා තත්ත්වය"
+
+msgid "Graphs"
+msgstr "ප්‍රස්තාර"
+
+msgid "Great Red Spot"
+msgstr "මහා රතු ස්ථානය"
+
+msgid "Great Red Spot details"
+msgstr "මහා රතු ස්ථානයේ විස්තර"
+
+msgid "Greatest eclipse"
+msgstr "Greatest ග්‍රහණ"
+
+msgid "Greatest elongation for an inner planet, quadrature for an outer one"
+msgstr "ගෘහ ග්‍රහයක විශාලතම දීර්ඝය, බාහිර ග්‍රහයක චතුරස්‍ර"
+
+msgid "Greek letters"
+msgstr "ග්‍රීක අකුරු"
+
+msgid "Grid density"
+msgstr "දැල ඝනත්වය"
+
+msgid "Grids"
+msgstr "දැල"
+
+msgid "Ground"
+msgstr "පොළොව"
+
+msgid "Gyro"
+msgstr "ගයිරෝ"
+
+msgid "Gyro mode"
+msgstr "ගයිරෝ මාදිලිය"
+
+msgid "Height"
+msgstr "උසම"
+
+msgid "Heliocentric distance"
+msgstr "Heliocentric දුර"
+
+msgid "Heliocentric ecliptic positions of the major planets."
+msgstr "ප්‍රධාන ග්‍රහයන්ගේ සූර්ය කේන්ද්‍රීය ග්‍රහණ පිහිටීම්."
+
+msgid "Herschel 400 objects"
+msgstr "Herschel 400 වස්තු"
+
+msgid "HiPS"
+msgstr "HiPS"
+
+msgid "HiPS Surveys"
+msgstr "HiPS සමීක්ෂණ"
+
+msgid "Hide controls"
+msgstr "පාලන සඟවන්න"
+
+msgid "Hide deep-sky objects fainter than the limit"
+msgstr "සීමාව ඉක්මවා දුර්බල ගභීර අහස් වස්තු සඟවන්න"
+
+msgid "Hide nomenclature on the celestial body of observer"
+msgstr "නිරීක්ෂකයේ ග්‍රහසිටු ස්ථාන නාමකරණය සඟවන්න"
+
+msgid "Hide orbits of minor bodies"
+msgstr "සුළු ස්ථාන කක්ෂ සඟවන්න"
+
+msgid "Highlight"
+msgstr "ප්‍රකාශිත"
+
+msgid "Highlight the objects of the observing list"
+msgstr "නිරීක්ෂණ ලැයිස්තුවේ වස්තු තනි ගලණ කරන්න"
+
+msgid "Hint circles marking each planet"
+msgstr "සෑම ග්‍රහයින්ම සලකුණු කරන ඉඟි චක්‍ර"
+
+msgid "Hints"
+msgstr "ඉඟි"
+
+msgid "Hints brightness"
+msgstr "ඉඟි දීප්තිය"
+
+msgid "Hipparcos designations"
+msgstr "Hipparcos නම් නිර්දේශන"
+
+msgid "Horizontal"
+msgstr "තිරසි"
+
+msgid "Horizontal coordinates"
+msgstr "තිරසි ඛණ්ඩාංක"
+
+msgid "Hour angles usually run 0...24h. This counts -12h...12h."
+msgstr "පැයස කෝණ සාමාන්‍යයෙන් 0...24h ක්‍රියාත්මක වේ. මෙය -12h...12h ගණනය කරයි."
+
+msgid "How many"
+msgstr "කීයක්"
+
+msgid "ICRS grid"
+msgstr "ICRS දැල"
+
+msgid "Include"
+msgstr "ඇතුළු කරන්න"
+
+msgid "Include bright comets"
+msgstr "දුස්තරු ධුමකේතු ඇතුළු කරන්න"
+
+msgid "Include selected minor planets"
+msgstr "තෝරාගත් සුළු ග්‍රහයන් ඇතුළු කරන්න"
+
+msgid "Info label"
+msgstr "තොරතුරු ලේබල"
+
+msgid "Interacting galaxies"
+msgstr "අන්තර්ක්‍රියා ගැලැක්සි"
+
+msgid "Intercardinal points"
+msgstr "අතරපිටි දිග්භාග"
+
+msgid "Interior egress"
+msgstr "අභ්‍යන්තර පිටතට පැමිණීම"
+
+msgid "Interior ingress"
+msgstr "අභ්‍යන්තර ඇතුළුවීම"
+
+msgid "Interstellar objects"
+msgstr "Interstellar වස්තු"
+
+msgid "Invariable plane of the Solar system"
+msgstr "සූර්ය පද්ධතියේ අපරිවර්තනීය තලය"
+
+msgid "Isolated"
+msgstr "හුදකලා"
+
+msgid "Its elevation, and the civil, nautical and astronomical twilights"
+msgstr "එහි උසම, සිවිල්, සැබුම සහ තාරකා විද්‍යා සන්ධ්‍යා"
+
+msgid "Jovigraphic longitude of the spot in System II, in degrees"
+msgstr "System II තුළ ස්ථානයේ බ්‍රහස්පතිගිරි දේශාංශ, අංශකවලින්"
+
+msgid "Julian day"
+msgstr "ජුලියන් දිනය"
+
+msgid "June solstice"
+msgstr "June සම්පාත"
+
+msgid "Label"
+msgstr "ලේබල"
+
+msgid "Label colour"
+msgstr "ලේබල වර්ණය"
+
+msgid "Label only features along the terminator"
+msgstr "සීමාවේ ඉඩ නිරූපණ පමණක් ලේබල කරන්න"
+
+msgid "Labels"
+msgstr "ලේබල්"
+
+msgid "Labels and Markers amount"
+msgstr "ලේබල් සහ සලකුණු ප්‍රමාණය"
+
+msgid "Labels brightness"
+msgstr "ලේබල දීප්තිය"
+
+msgid "Landscape labels"
+msgstr "භූතල ලේබල්"
+
+msgid "Language settings"
+msgstr "භාෂා සැකසුම්"
+
+msgid "Largest, ′"
+msgstr "විශාලතම, ′"
+
+msgid "Last known position"
+msgstr "අවසාන දන්නා පිහිටීම"
+
+msgid "Lasting"
+msgstr "තිරසුණු"
+
+msgid "Latest selected object"
+msgstr "අවසාන තෝරන ලද වස්තුව"
+
+msgid "Latitude"
+msgstr "අක්ෂාංශ"
+
+msgid "Latitude −90…90, longitude −180…180."
+msgstr "අක්ෂාංශ −90…90, දේශාංශ −180…180."
+
+msgid "Layer appearance"
+msgstr "ස්තර පෙනුම"
+
+msgid "Leaves the landscape visible in darkness"
+msgstr "අඳුරේ භූතලය දෘශ්‍යමාන කරයි"
+
+msgid "Licence"
+msgstr "බලපත්‍රය"
+
+msgid "Light pollution"
+msgstr "ආලෝක දූෂණ"
+
+msgid "Light pollution from database"
+msgstr "දත්තගනුකෙතුවලින් ආලෝක දූෂණ"
+
+msgid "Limit angular separation"
+msgstr "සීමිත කෝණික වෙන්කරණය"
+
+msgid "Limit angular size"
+msgstr "කෝණික ප්‍රමාණ සීමා කරන්න"
+
+msgid "Limit magnitude"
+msgstr "තීව්‍රතා සීමාව"
+
+msgid "Limit the magnitude of solar system objects"
+msgstr "සූර්ය පද්ධති වස්තුවල තීව්‍රතා සීමාව"
+
+msgid "Line"
+msgstr "රේඛා"
+
+msgid "Line thickness"
+msgstr "රේඛා ඝනකම"
+
+msgid "Linear and angular distances between selected objects"
+msgstr "තෝරන ලද වස්තු අතර linear සහ කෝණික දුර"
+
+msgid "Linear distance"
+msgstr "Linear දුර"
+
+msgid "Lines"
+msgstr "රේඛා"
+
+msgid "Lines and circles"
+msgstr "රේඛා සහ චක්‍ර"
+
+msgid "List"
+msgstr "ලැයිස්තුව"
+
+msgid "List name"
+msgstr "ලැයිස්තුව නම"
+
+msgid "Lists"
+msgstr "ලැයිස්තු"
+
+msgid "Lit windows, street lighting and the like"
+msgstr "පිළිස්සුණු කුළුණු, වීදි ආලෝකවලුම සහ එහි ලෙස"
+
+msgid "Loading…"
+msgstr "පූරණය වෙමින්…"
+
+msgid "Local Mean Solar Time"
+msgstr "ස්තානීය මධ්‍ය සූර්ය වේලාව"
+
+msgid "Local Time"
+msgstr "Local වේලාව"
+
+msgid "Local True Solar Time"
+msgstr "ස්තානීය සත්‍ය සූර්ය වේලාව"
+
+msgid "Local solar eclipses"
+msgstr "ස්තානීය සූර්ය ග්‍රහණ"
+
+msgid "Local time"
+msgstr "ස්තානීය වේලාව"
+
+msgid "Local time, h"
+msgstr "ස්තානීය වේලාව, h"
+
+msgid "Locate me"
+msgstr "මගේ ස්තානය සොයන්න"
+
+msgid "Locating…"
+msgstr "ස්තානය සොයමින්…"
+
+msgid "Location from landscape"
+msgstr "භූතලයෙන් ස්තානය"
+
+msgid "Location is switched off in the system settings."
+msgstr "පද්ධති සැකසුමෙහි ස්තානය ක්‍රියා කර ගැසී ඇත."
+
+msgid "Location permission refused. The other two ways still work."
+msgstr "ස්තාන අවසර ප්‍රතික්ෂේප කරන ලදී. අනෙක් ක්‍රම තවදුරටත් ක්‍රියා කරයි."
+
+msgid "Lock position when coordinates are used"
+msgstr "ඛණ්ඩාංක භාවිතා කරන විට පිහිටීම සීමා කරන්න"
+
+msgid "Long press"
+msgstr "දීර්ඝ එබුම"
+
+msgid "Longitude"
+msgstr "දේශාංශ"
+
+msgid "Longitude of GRS"
+msgstr "GRS ගේ දේශාංශ"
+
+msgid "Lunar Elongation"
+msgstr "චන්ද්‍ර දීර්ඝය"
+
+msgid "Lunar Stations"
+msgstr "චන්ද්‍ර නිශ්චය"
+
+msgid "Lunar eclipses"
+msgstr "චන්ද්‍ර ග්‍රහණ"
+
+msgid "Lunar elongation"
+msgstr "චන්ද්‍ර දීර්ඝය"
+
+msgid "Mag."
+msgstr "විශා."
+
+msgid "Mag. 1"
+msgstr "තීව්‍ර. 1"
+
+msgid "Mag. 2"
+msgstr "තීව්‍ර. 2"
+
+msgid "Magnitude"
+msgstr "තීව්‍රතා"
+
+msgid "Magnitudes"
+msgstr "තීව්‍රතා"
+
+msgid "Major planets"
+msgstr "ප්‍රධාන ග්‍රහයන්"
+
+msgid "Major planets by planet, minor bodies by type"
+msgstr "ප්‍රධාන ග්‍රහයන් ග්‍රහයින්ගෙන් සහ සුළු ස්ථාන වර්ගයින්"
+
+msgid "Map of the planet. Tap to set the observer's place."
+msgstr "ග්‍රහයේ සිතුම. නිරීක්ෂකයේ ස්තානය සැකසිය එබුවිය."
+
+msgid "March equinox"
+msgstr "March සමවිෂුවෝ"
+
+msgid "Mark impact features with ellipses"
+msgstr "බලපෑම් විශේෂ අංඩාකාර සලකුණු කරන්න"
+
+msgid "Mark minor bodies"
+msgstr "සුළු ස්ථාන සලකුණු කරන්න"
+
+msgid "Markers"
+msgstr "සලකුණු"
+
+msgid "Markers sized by the object's angular size"
+msgstr "වස්තුවේ කෝණික ප්‍රමාණ අනුව ප්‍රමාණිත සලකුණු"
+
+msgid "Master switch for the grids, lines and points below"
+msgstr "පහත දැල්, රේඛා සහ ලක්ෂ්‍ය සඳහා ප්‍රධාන වෙතින්"
+
+msgid "Max"
+msgstr "උපරිමය"
+
+msgid "Max items to display"
+msgstr "විස්තර කිරීමට උපරිම අයිතම"
+
+msgid "Max. results"
+msgstr "උපරි. ප්‍රතිඵල"
+
+msgid "Max. search radius"
+msgstr "උපරි. ගවේෂණ අරය"
+
+msgid "Maximum Solar altitude"
+msgstr "උපරිම සූර්ය උසම"
+
+msgid "Maximum allowed separation"
+msgstr "අවසරකරන උපරිම වෙන්කිරීම"
+
+msgid "Maximum angular size"
+msgstr "උපරිම කෝණික ප්‍රමාණය"
+
+msgid "Maximum eclipse"
+msgstr "උපරිම ග්‍රහණ"
+
+msgid "Maximum year"
+msgstr "උපරිම වසර"
+
+msgid "Mean motion"
+msgstr "Mean චලනය"
+
+msgid "Mercury, Venus, Mars, Jupiter and Saturn at once. Earth only."
+msgstr "බුධ, සිකුරු, අගහරු, බ්‍රහස්පති සහ සෙනසුරු එකවර. පෘථිවි පමණක්."
+
+msgid "Messier objects"
+msgstr "Messier වස්තු"
+
+msgid "Mid-transit"
+msgstr "මැදි-සංක්‍රමණ"
+
+msgid "Milky Way"
+msgstr "චකි ගිණුම"
+
+msgid "Milky Way brightness"
+msgstr "චකි ගිණුමේ දීප්තිය"
+
+msgid "Milky Way saturation"
+msgstr "චකි ගිණුමේ තෘප්තිය"
+
+msgid "Min"
+msgstr "අවම"
+
+msgid "Minimal angular size"
+msgstr "අවම කෝණික ප්‍රමාණය"
+
+msgid "Minimal brightness"
+msgstr "අවම දීප්තිය"
+
+msgid "Minimum Solar altitude"
+msgstr "අවම සූර්ය උසම"
+
+msgid "Minimum year"
+msgstr "අවම වසර"
+
+msgid "Minor bodies"
+msgstr "සුළු ස්ථාන"
+
+msgid "Minutes before sunrise / after sunset"
+msgstr "උදගම් පෙර / අස්තගම් පසු මිනිත්තු"
+
+msgid "Month"
+msgstr "මාසය"
+
+msgid "Monthly Elevation"
+msgstr "මාසික එතුම"
+
+msgid "Moon at"
+msgstr "චන්ද්‍රයා පිහිටයි"
+
+msgid "Moon enters penumbra"
+msgstr "චන්ද්‍රයා අර්ධ සිල්ලට ඇතුල් වේ"
+
+msgid "Moon enters umbra"
+msgstr "චන්ද්‍රයා සම්පූර්ණ සිල්ලට ඇතුල් වේ"
+
+msgid "Moon in zenith at"
+msgstr "චන්ද්‍රයා ඉහළම ලක්ෂ්‍යේ"
+
+msgid "Moon leaves penumbra"
+msgstr "චන්ද්‍රයා අර්ධ සිල්ල ඉවතලයි"
+
+msgid "Moon leaves umbra"
+msgstr "චන්ද්‍රයා සම්පූර්ණ සිල්ල ඉවතලයි"
+
+msgid "Moon's halo"
+msgstr "චන්ද්‍රයාගේ අරුණ"
+
+msgid "Moons of first body"
+msgstr "පළමු වස්තුවේ චන්ද්‍රයා"
+
+msgid "Morning"
+msgstr "උදෑසන"
+
+msgid "Morph. Descr."
+msgstr "සිතුම. විස්තර"
+
+msgid "Morphological description"
+msgstr "සිතුම විස්තර"
+
+msgid "Move the sky by pointing the phone at it"
+msgstr "ජංගම දුරකතනය එයට යොමු කිරීමෙන් අහස චලනය කරන්න"
+
+msgid "Move the sky with the phone"
+msgstr "ජංගම දුරකතනයෙන් අහස චලනය කරන්න"
+
+msgid "NGC/IC objects"
+msgstr "NGC/IC වස්තු"
+
+msgid "Name for the new list"
+msgstr "නව ලැයිස්තුව සඳහා නම"
+
+msgid "Named features the landscape marks"
+msgstr "ලේබල කරන ලද විශේෂ භූතලය සලකුණු කරයි"
+
+msgid "Names"
+msgstr "නම්"
+
+msgid "Names beside the planets and their markers"
+msgstr "ග්‍රහයන් සහ ඔවුන්ගේ සලකුණු අසල නම්"
+
+msgid "Names in English"
+msgstr "ඉංග්‍රීසි භාෂාවෙහි නම්"
+
+msgid "Nautical Twilight"
+msgstr "Nautical සන්ධ්‍යා"
+
+msgid "Neb. bg"
+msgstr "Neb. පසුබිම"
+
+msgid "Nebula background"
+msgstr "නිහාරිකා පසුබිම"
+
+msgid "Nebulae"
+msgstr "පාඩුකා"
+
+msgid "New list"
+msgstr "නව ලැයිස්තුව"
+
+msgid "Next"
+msgstr "ඊට පසු"
+
+msgid "Night"
+msgstr "රාත්‍රිය"
+
+msgid "No city matches that."
+msgstr "එම නගරයට ගැලපෙන කිසිවක් නැත."
+
+msgid "No eclipses found. Pick a range and calculate."
+msgstr "ග්‍රහණ හමු නොවිණි. පරාසයක් තෝරා ගණනය කරන්න."
+
+msgid "No fresh fix - the receiver may have no sky. Try again outdoors, or set the place another way."
+msgstr "නැවුම් නිර්ණයක් නැත - ඇතුරුදිය අහස නොමැතිය හැකිය. පිටතින් නැවත උත්සාහ කරන්න, හෝ ස්තානය වෙනත් ක්‍රමයෙන් සැකසීම."
+
+msgid "No surveys were found. The lists are downloaded, so this needs a connection."
+msgstr "සමීක්ෂණ හමු නොවිණි. ලැයිස්තු බාගත කිරීම සිදුව ඇත, එබැවින් මෙයට සම්බන්ධතාවයක් අවශ්‍ය ය."
+
+msgid "None downloaded yet"
+msgstr "තවම කිසිවක් බාගත කර නැත"
+
+msgid "Normal"
+msgstr "සාමාන්‍ය"
+
+msgid "Not observable eclipse"
+msgstr "නිරීක්ෂණ කළ නොහැකි ග්‍රහණ"
+
+msgid "Note: Local circumstances for eclipses during thousands of years in the past and future are not reliable due to uncertainty in ΔT which is caused by fluctuations in Earth's rotation."
+msgstr "සටහන: ගිය සහ ඉදිරි වසර දහස තුළ ග්‍රහණවල දෙශීය තත්ත්වය පෘථිවির භ්‍රමණ තරංගිතා නිසා ΔT හි අවිශ්වසනීයතා නිසා විශ්වාසනීය නොවේ."
+
+msgid "Note: artificial satellites and unnamed stars are excluded from calculation"
+msgstr "සටහන: කෘත්‍රිම ගුවන් පිටි සහ නම් නොකළ තරු ගණනය කිරීමෙන්除외 වේ."
+
+msgid "Note: this tool doesn't apply the refraction correction for coordinates. Horizontal coordinates stop the clock, or the sky would turn away from the point while you arrive at it."
+msgstr "සටහන: මෙම මෙවලම ඛණ්ඩාංක සඳහා අපසරණ නිරූපණ යොදා නොගනී. තිරසි ඛණ්ඩාංක ඉතිහාස නවත්වන්න, නැත්නම් ඔබ එයට පැමිණෙන විට අහස එම ලක්ෂ්‍යවලින් පැතිරී යනු ඇත."
+
+msgid "Notes: The quantity gamma is the minimum distance from the axis of lunar shadow cone to the center of Earth, in units of Earth’s equatorial radius. This distance is positive or negative, depending on whether the axis of the shadow cone passes north or south of the Earth's center. Path of solar eclipses during thousands of years in the past and future are not reliable due to uncertainty in ΔT which is caused by fluctuations in Earth's rotation."
+msgstr "සටහන්: ප්‍රමාණ gamma චන්ද්‍ර සිල්ල කෝණ අක්ෂ සිට පෘථිවි කේන්ද්‍රය දක්වා අවම දුර වන අතර එය පෘථිවි සමවිෂුවෝ අරයේ ඒකක වලින් ප්‍රකාශිත වේ. සිල්ල කෝණ අක්ෂ පෘථිවි කේන්ද්‍රයේ උතුරට හෝ දකුණට ගමන් කරනවාට අනුව මෙම දුර ධනාත්මක හෝ උණාත්මක වේ. ගිය සහ ඉදිරි වසර දහස තුළ සූර්ය ග්‍රහණවල පථ පෘථිවි භ්‍රමණ තරංගිතා නිසා ΔT හි අවිශ්වසනීයතා නිසා විශ්වාසනීය නොවේ."
+
+msgid "Notes: The quantity gamma is the minimum distance from the center of the Moon to the axis of Earth’s umbral shadow cone, in units of Earth’s equatorial radius. This distance is positive or negative, depending on whether the Moon passes north or south of the shadow cone axis. Local circumstances for eclipses during thousands of years in the past and future are not reliable due to uncertainty in ΔT which is caused by fluctuations in Earth's rotation."
+msgstr "සටහන්: ප්‍රමාණ gamma චන්ද්‍ර කේන්ද්‍රයින් පෘථිවි සම්පූර්ණ සිල්ල කෝණ අක්ෂ දක්වා අවම දුර වන අතර එය පෘथිවි සමවිෂුවෝ අරයේ ඒකක වලින් ප්‍රකාශිත වේ. සිල්ල කෝණ අක්ෂ පෘথිවි කේන්ද්‍රයේ උතුරට හෝ දකුණට චන්ද්‍රයා ගමන් කරනවාට අනුව මෙම දුර ධනාත්මක හෝ උණාත්මක වේ. ගිය සහ ඉදිරි වසර දහස තුළ ග්‍රහණවල දෙශීය තත්ත්වය පෘතිවි භ්‍රමණ තරංගිතා නිසා ΔT හි අවිශ්වසනීයතා නිසා විශ්වාසනීය නොවේ."
+
+msgid "Notes: Time in parentheses means the contact is invisible at current location. Transit times during thousands of years in the past and future are not reliable due to uncertainty in ΔT which is caused by fluctuations in Earth's rotation."
+msgstr "සටහන්: වරහන්වල වේලාව යන්න දෙශීය පිහිටුම්පතින් සංස්පර්ශ නොපෙනෙන බවි. ගිය සහ ඉදිරි වසර දහස තුළ සංක්‍රමණ වේලා පෘථිවි භ්‍රමණ තරංගිතා නිසා ΔT හි අවිශ්වසනීයතා නිසා විශ්වාසනීය නොවේ."
+
+msgid "Nothing computed yet, or nothing in this category is up."
+msgstr "තවම ගණනය සිදුවිණි නැත, හෝ මෙම ශ්‍රේණියේ කිසිවක් තිස්සේ නැත."
+
+msgid "Nothing computed yet."
+msgstr "තවම ගණනය සිදුවිණි නැත."
+
+msgid "Nothing found for “%s”."
+msgstr "\"%s\" සඳහා සොයා ගත නොහැකි."
+
+msgid "Nothing in this list matches."
+msgstr "මෙම ලැයිස්තුවේ කිසිවක් ගැලපෙන්න."
+
+msgid "Nothing in this list yet. Pick something out of the sky and tap the star on its card to keep it here."
+msgstr "මෙම ලැයිස්තුවේ තවම කිසිවක් නැත. අහසින් කිසිවක් තෝරා ගෙන එහි කාඩ්පතු තරුව තට්ටු කරන්න එය එතැන තබා ගැනීමට."
+
+msgid "Nothing is selected. Pick an object in the sky first."
+msgstr "කිසිවක් තෝරා නොගැසිණි. ප්‍රථමයෙන් අහසින් වස්තුවක් තෝරා ගන්න."
+
+msgid "Nothing matches."
+msgstr "කිසිවක් ගැලපෙන්න."
+
+msgid "Nothing selected"
+msgstr "කිසිවක් තෝරා නොගැසිණි"
+
+msgid "Nothing to plot."
+msgstr "ප්‍ලට් කිරීමට කිසිවක් නැත."
+
+msgid "Nothing to show."
+msgstr "පෙන්වීමට කිසිවක් නැත."
+
+msgid "Now"
+msgstr "දැන්"
+
+msgid "N× above"
+msgstr "N× ඉහතින්"
+
+msgid "O./C. longitude"
+msgstr "O./C. දේශාංශ"
+
+msgid "OBJECT"
+msgstr "වස්තුව"
+
+msgid "OBJECTS"
+msgstr "වස්තු"
+
+msgid "Object 1"
+msgstr "වස්තුව 1"
+
+msgid "Object 2"
+msgstr "වස්තුව 2"
+
+msgid "Objects which are up"
+msgstr "ඉහතින් ඇති වස්තු"
+
+msgid "Observable duration"
+msgstr "නිරීක්ෂණයට ලක්‍යවන කාල"
+
+msgid "Observing list"
+msgstr "නිරීක්ෂණ ලැයිස්තුව"
+
+msgid "Observing list highlight"
+msgstr "නිරීක්ෂණ ලැයිස්තුව ප්‍රකාශිතය"
+
+msgid "Observing lists"
+msgstr "නිරීක්ෂණ ලැයිස්තු"
+
+msgid "On the sky"
+msgstr "අහසින්"
+
+msgid "One color"
+msgstr "එක වර්ණයක්"
+
+msgid "One color for all orbits"
+msgstr "සියලු කක්ෂ සඳහා එක වර්ණයක්"
+
+msgid "Only for N latest selected objects"
+msgstr "සර්වෝත්තම තෝරාගත් වස්තු සඳහා පමණක්"
+
+msgid "Only for Solar elevation"
+msgstr "සූර්ය එතුම සඳහා පමණක්"
+
+msgid "Only list"
+msgstr "පෙතින් ලැයිස්තුව"
+
+msgid "Only one at a time"
+msgstr "එකවරින් එකක් පමණක්"
+
+msgid "Only orbit for selected object…"
+msgstr "තෝරාගත් වස්තුව සඳහා පමණක් කක්ෂ…"
+
+msgid "Only orbits of major planets…"
+msgstr "ප්‍රධාන ග්‍රහයන්ගේ පමණක් කක්ෂ…"
+
+msgid "Oort cloud objects"
+msgstr "Oort cloud වස්තු"
+
+msgid "Opacity"
+msgstr "විස්තරතා"
+
+msgid "Open date and time"
+msgstr "දින සහ වේලාව විවෘත කරන්න"
+
+msgid "Open location"
+msgstr "ස්තානය විවෘත කරන්න"
+
+msgid "Open star clusters"
+msgstr "Open තරු පුංජ"
+
+msgid "Opens the JUPOS project in a browser"
+msgstr "ගවේෂකයක JUPOS ව්‍යාපෘතිය විවෘත කරයි"
+
+msgid "Opposition of"
+msgstr "ප්‍රතිරෝධ"
+
+msgid "Oppositions"
+msgstr "ප්‍රතිරෝධ"
+
+msgid "Orbit colors"
+msgstr "කක්ෂ වර්ණ"
+
+msgid "Orbital periods ratio"
+msgstr "කක්ෂ කාල අනුපාතය"
+
+msgid "Orbital velocity"
+msgstr "කක්ෂ ප්‍රවේගය"
+
+msgid "Orbits"
+msgstr "කක්ෂ"
+
+msgid "Orbits of Oort cloud objects"
+msgstr "ඕර්ට් වලාවතා වස්තු කක්ෂ"
+
+msgid "Orbits of comets"
+msgstr "ධුමකේතු කක්ෂ"
+
+msgid "Orbits of cubewanos"
+msgstr "cubewano කක්ෂ"
+
+msgid "Orbits of dwarf planets"
+msgstr "අයිනි ග්‍රහයන් කක්ෂ"
+
+msgid "Orbits of interstellar objects"
+msgstr "අතර තාරකා වස්තු කක්ෂ"
+
+msgid "Orbits of major planets"
+msgstr "ප්‍රධාන ග්‍රහයන්ගේ කක්ෂ"
+
+msgid "Orbits of minor planets"
+msgstr "කුඩා ග්‍රහලෝකවල කක්ෂයන්"
+
+msgid "Orbits of moons"
+msgstr "චන්ද්‍ර කක්ෂයන්"
+
+msgid "Orbits of plutinos"
+msgstr "පුටිනෝස් කක්ෂයන්"
+
+msgid "Orbits of scattered disk objects"
+msgstr "විසිරුණු තැටි වස්තුවල කක්ෂයන්"
+
+msgid "Orbits of sednoids"
+msgstr "සෙඩ්නොයිඩ්ස් කක්ෂයන්"
+
+msgid "Otherwise every move adopts the zone of the new place."
+msgstr "එසේ නැතුව සෑම චලනයක්ම නව ස්ථානයේ කලාපය අනුගමනය කරයි."
+
+msgid "Outline craters"
+msgstr "ගිණිසර දෙයීයි"
+
+msgid "Pan the sky"
+msgstr "අහස සරිසරනය කරන්න"
+
+msgid "Partial eclipse begins"
+msgstr "අර්ධ සූර්යග්‍රහණ ආරම්භ"
+
+msgid "Partial eclipse ends"
+msgstr "අර්ධ සූර්යග්‍රහණ අවසානය"
+
+msgid "Partitions"
+msgstr "බෙදීම්"
+
+msgid "Partitions thickness"
+msgstr "බෙදුම් ඝණතාව"
+
+msgid "Path width"
+msgstr "මාර්ගයේ පළල"
+
+msgid "Pause"
+msgstr "තාවකාලිකව නවත්වන්න"
+
+msgid "Paused - start"
+msgstr "තාවකාලිකව නතර - ආරම්භ"
+
+msgid "Penumbral magnitude"
+msgstr "අර්ධ සෙවණ විශාලත්ව"
+
+msgid "Perfect visibility conditions for current location"
+msgstr "දෙශීය ස්ථානය සඳහා පරිපූර්ණ දෘශ්‍යතා තත්ත්වය"
+
+msgid "Perihelion and aphelion"
+msgstr "පෙරිහිලියන් සහ අපිහිලියන්"
+
+msgid "Phase"
+msgstr "අවස්ථාව"
+
+msgid "Phase angle"
+msgstr "Phase කෝණය"
+
+msgid "Phenomena"
+msgstr "සංසිද්ධි"
+
+msgid "Pick two different bodies to see how their distance changes."
+msgstr "ඔවුන්ගේ දුර කීයින්නට වෙනස්වන්නට බලා ගැනීමට විවිධ වස්තු දෙකක් තෝරන්න."
+
+msgid "Pinch"
+msgstr "සීමිතයට ඔතා ඇතිරුම"
+
+msgid "Planet"
+msgstr "ග්‍රහලෝකය"
+
+msgid "Planet and time zone"
+msgstr "ග්‍රහලෝකය සහ වේල විෙදුම්"
+
+msgid "Planet markers"
+msgstr "ග්‍රහලෝක සලකුණු"
+
+msgid "Planetary nebulae"
+msgstr "තරුවැල පාඩුකා"
+
+msgid "Planetary nebulae (<%1 mag)"
+msgstr "තරුවැල පාඩුකා (<%1 mag)"
+
+msgid "Planetary nomenclature"
+msgstr "ග්‍රහ නාමකරණය"
+
+msgid "Planetary transits"
+msgstr "ග්‍රහ සංක්‍රමණ"
+
+msgid "Planets"
+msgstr "ග්‍රහලෝක"
+
+msgid "Planets and Sun"
+msgstr "ග්‍රහලෝක සහ සූර්යයා"
+
+msgid "Planets magnitude algorithm"
+msgstr "ග්‍රහලෝක විශාලත්ව ඇල්ගොරිතම"
+
+msgid "Please select object to plot its 'Monthly Elevation' graph for the current year at selected time."
+msgstr "දැනට තෝරන ලද වේලාවේ වර්තමාන වසරේ එහි 'Monthly Elevation' ප්‍රස්තාර ප්‍ලට් කිරීම සඳහා වස්තුව තෝරන්න."
+
+msgid "Please select object to plot its graph 'Altitude vs. Time'."
+msgstr "එහි 'Altitude vs. Time' ප්‍රස්තාර ප්‍ලට් කිරීම සඳහා වස්තුව තෝරන්න."
+
+msgid "Please select object to plot its graph 'Azimuth vs. Time'."
+msgstr "එහි 'Azimuth vs. Time' ප්‍රස්තාර ප්‍ලට් කිරීම සඳහා වස්තුව තෝරන්න."
+
+msgid "Pluto, Ceres, Pallas, Juno and Vesta"
+msgstr "ප්ලූටෝ, Ceres, Pallas, Juno සහ Vesta"
+
+msgid "Point size"
+msgstr "ලක්ෂ්‍ය ප්‍රමාණය"
+
+msgid "Pointing"
+msgstr "යොමු කිරීම"
+
+msgid "Polar distance"
+msgstr "ධ්‍රැවීය දුර"
+
+msgid "Polar distance, not declination"
+msgstr "ධ්‍රැවීය දුර, ක්ෂति බ්‍රංශ නොවේ"
+
+msgid "Poles and points"
+msgstr "ධ්‍රැවයන් සහ ලක්ෂ්‍ය"
+
+msgid "Polygon colour"
+msgstr "බහුකෝණ වර්ණය"
+
+msgid "Position angle"
+msgstr "පිහිටුම් කෝණය"
+
+msgid "Positions"
+msgstr "පිහිටුම්"
+
+msgid "Positive values only"
+msgstr "ධනාත්මක අගයන් පමණක්"
+
+msgid "Precession circles"
+msgstr "ප්‍රසරණ වෘත්තයන්"
+
+msgid "Previous"
+msgstr "පෙර"
+
+msgid "Prime Vertical"
+msgstr "ප්‍රධාන සිරස්"
+
+msgid "Program Language"
+msgstr "ක්‍රමසূත්‍ර භාෂාව"
+
+msgid "Projected Solar Equator"
+msgstr "ප්‍රක්ෂේපිත සූර්ය සමකය"
+
+msgid "Pronounce"
+msgstr "උච්චාරණය"
+
+msgid "Quadrature circle"
+msgstr "චතුරස්‍ර වෘත්තය"
+
+msgid "Query SIMBAD about selected object"
+msgstr "තෝරා ගැනීමට වස්තුව පිළිබඳ SIMBAD විමසන්න"
+
+msgid "Query options"
+msgstr "විමසුම් විකල්ප"
+
+msgid "Quit"
+msgstr "පිටවීම"
+
+msgid "Quit button"
+msgstr "පිටවීමේ බොත්තම"
+
+msgid "Range"
+msgstr "පරාසය"
+
+msgid "Ray helpers"
+msgstr "කිරණ සහාය"
+
+msgid "Reading…"
+msgstr "කියවනවා…"
+
+msgid "Real time speed"
+msgstr "සැබෑ කාල වේගය"
+
+msgid "Recent Searches"
+msgstr "ඉතින් සෙවීම්"
+
+msgid "Rectangular FOV"
+msgstr "සෘජුකෝණාස්‍ර FOV"
+
+msgid "Refraction, extinction, sky brightness"
+msgstr "වර්තනය, නිර්බුද්ධිකරණය, අහස දීප්තිමත්ව"
+
+msgid "Regions of the sky"
+msgstr "අහසේ ප්‍රදේශ"
+
+msgid "Relative scale"
+msgstr "සාපේක්ෂ පරිමාණය"
+
+msgid "Remove %s"
+msgstr "%s ඉවත් කරන්න"
+
+msgid "Remove from observing list"
+msgstr "නිරීක්ෂණ ලැයිස්තුවෙන් ඉවත් කරන්න"
+
+msgid "Rename"
+msgstr "නැවත නම් කරන්න"
+
+msgid "Reset"
+msgstr "නැවත සැකසුම"
+
+msgid "Reset all"
+msgstr "සියල්ල නැවත සැකසුම"
+
+msgid "Restarting…"
+msgstr "නැවත ආරම්භ වෙමින්…"
+
+msgid "Results"
+msgstr "ප්‍රතිඵල"
+
+msgid "Right ascension"
+msgstr "දක්ෂිණ ආරෝහණය"
+
+msgid "Rise"
+msgstr "නැඟීම"
+
+msgid "Rises"
+msgstr "නැඟේ"
+
+msgid "Rotation"
+msgstr "භ්‍රමණය"
+
+msgid "Running"
+msgstr "ක්‍රියාත්මක"
+
+msgid "SIMBAD did not answer."
+msgstr "SIMBAD සිට ප්‍රතිචාර ලැබුණු නොවේ."
+
+msgid "SIMBAD is switched off in the search options."
+msgstr "SIMBAD සෙවුම් විකල්පවල වසා ඇත."
+
+msgid "SIMBAD is switched off. Turn it on under Options to look objects up online."
+msgstr "SIMBAD සබල නොකර ඇත. විකල්පයන් යටතේ එය සබල කරන්න වස්තු සබුද්ධිතර ගිණුමින් සෙවීමට."
+
+msgid "SIMBAD server"
+msgstr "SIMBAD සේවාදායකය"
+
+msgid "Saturation"
+msgstr "සම්පූර්ණත්ව"
+
+msgid "Save"
+msgstr "සුරකින්න"
+
+msgid "Save either the current FOV and direction of view or all the current options for use at next startup. Restoring default settings requires a restart of the app."
+msgstr "වර්තමාන FOV සහ දසුන් දිශාව හෝ ඊළඟ ගිණුමකට භාවිතා කිරීමට සියලුම වර්තමාන විකල්ප සුරකින්න. පෙරනිමි සැකසුම් ප්‍රතිස්තාපනය කිරීමට යෙදුමේ නැවත ආරම්භ අවශ්‍ය."
+
+msgid "Save to observing list"
+msgstr "නිරීක්ෂණ ලැයිස්තුවට සුරකින්න"
+
+msgid "Save view"
+msgstr "දසුන සුරකින්න"
+
+msgid "Scale"
+msgstr "පරිමාණය"
+
+msgid "Scale factor"
+msgstr "පරිමාණ සාධකය"
+
+msgid "Scale marker and label visibility by surface brightness"
+msgstr "මතුපිට දීප්තිමත්ව අනුව සලකුණ සහ ලේබල දෘශ්‍යතාව පරිමාණය කරන්න"
+
+msgid "Scales smoothly between 1× at the minimum field of view and the factor above at the maximum"
+msgstr "අවම දෝෂ ක්ෂේත්‍රයේ 1× සහ උපරිම මිතිය දක්වා මතුපිට පුරුසනේ පරිමාණය"
+
+msgid "Scattered disc objects"
+msgstr "Scattered disc වස්තු"
+
+msgid "Screen label"
+msgstr "තිරය ලේබල"
+
+msgid "Search"
+msgstr "සොයන්න"
+
+msgid "Search in list"
+msgstr "ලැයිස්තුවෙන් සොයන්න"
+
+msgid "Search in list..."
+msgstr "ලැයිස්තුවෙන් සොයන්න..."
+
+msgid "Search options"
+msgstr "සෙවීමේ විකල්ප"
+
+msgid "Seasons"
+msgstr "සෙමෝත්තරණ"
+
+msgid "Second body"
+msgstr "දෙවන වස්තුව"
+
+msgid "Second celestial body"
+msgstr "දෙවන තරකා වස්තුව"
+
+msgid "Second graph"
+msgstr "දෙවන ප්‍රස්තාර"
+
+msgid "Second object"
+msgstr "දෙවන වස්තුව"
+
+msgid "Secondary intercardinal points"
+msgstr "ගෞණ තරඟ විධිවිවරණ ලක්ෂ්‍ය"
+
+msgid "See the sky through the ground"
+msgstr "පොළුවේ හරහා අහස දකින්න"
+
+msgid "Seen now"
+msgstr "දැන් දුටුවා"
+
+msgid "Select an object first: this asks SIMBAD what it holds around it."
+msgstr "පළමුවෙන්ම වස්තුව තෝරන්න: එය SIMBAD එයට වටා කුමක්ද ඇතුලත්ද ඇසයි."
+
+msgid "Select it and show its card"
+msgstr "එය තෝරා එහි කාඩ්පතර පෙන්වන්න"
+
+msgid "Select something in the sky first — this page works on the selection."
+msgstr "පළමුව අහසින් දෙයක් තෝරන්න — මෙම පිටුව තෝරාගැනීම මතින් ක්‍රියා කරයි."
+
+msgid "Selected object"
+msgstr "තෝරාගත් වස්තුව"
+
+msgid "Separate colors for orbits by object type"
+msgstr "වස්තු වර්ගය අනුව කක්ෂයන් සඳහා වෙනම වර්ණ"
+
+msgid "Separate colors for orbits of major planets"
+msgstr "ප්‍රධාන ග්‍රහලෝකවල කක්ෂයන් සඳහා වෙනම වර්ණ"
+
+msgid "Separation"
+msgstr "වෙන්කිරීම"
+
+msgid "September equinox"
+msgstr "September සමවිෂුවෝ"
+
+msgid "Server"
+msgstr "සේවාදායකය"
+
+msgid "Set"
+msgstr "සකසන්න"
+
+msgid "Set the clock to %s"
+msgstr "ඔරලෝසුව %s ට සකසන්න"
+
+msgid "Set the place"
+msgstr "ස්ථානය සකසන්න"
+
+msgid "Set to now"
+msgstr "දැන් සකසන්න"
+
+msgid "Sets"
+msgstr "නැගුම්"
+
+msgid "Shadow map for non-convex bodies. May coarsen the penumbra on some objects"
+msgstr "පිට නම් වස්තුවල සඳු සිතියම. සමහර වස්තුවල අර්ධ සෙවණ කැරැල්ල කරනු ඇත"
+
+msgid "Shadow transit"
+msgstr "Shadow සංක්‍රමණ"
+
+msgid "Shooting stars"
+msgstr "ඉඩම් තරු"
+
+msgid "Short notation for units of surface brightness"
+msgstr "මතුපිට දීප්තිමත්ව ඒකක සඳහා කෙටි සංකේතයි"
+
+msgid "Short steps over a long duration are slow."
+msgstr "දිගු කාලයක් පුරා කෙටි පියවරන් මඩ ය."
+
+msgid "Show"
+msgstr "පෙන්වන්න"
+
+msgid "Show FOV center marker when position is search"
+msgstr "ස්ථානය සෙවීම වූ විට FOV කේන්ද්‍ර සලකුණ පෙන්වන්න"
+
+msgid "Show additional buttons"
+msgstr "අතිරේක බොත්තම් පෙන්වන්න"
+
+msgid "Show additional star names"
+msgstr "අතිරේක තරු නම් පෙන්වන්න"
+
+msgid "Show all information"
+msgstr "සිලින්දැ තොරතුරු පෙන්වන්න"
+
+msgid "Show atmospheric extinction"
+msgstr "වායුගෝල නිර්බුද්ධිකරණ පෙන්වන්න"
+
+msgid "Show boundaries of constellations"
+msgstr "තරුරටා මායිම් පෙන්වන්න"
+
+msgid "Show button in addition to keyboard shortcut?"
+msgstr "යතුරුපුවරුවේ ටිකට එකතුවෙන් බොත්තම පෙන්වන්න ද?"
+
+msgid "Show controls"
+msgstr "පාලනයන් පෙන්වන්න"
+
+msgid "Show each body where it was when the light left it (recommended)"
+msgstr "එක එක වස්තුව එයින් ආලෝකය යන විට එහි තිබුණු තැන පෙන්වන්න (නිර්දේශිත)"
+
+msgid "Show frames per second beside the field of view"
+msgstr "දෝෂ ක්ෂේත්‍ර ඉරුවෙහි ඉතා තත්පරයට සැලපුම් පෙන්වන්න"
+
+msgid "Show hints and labels for planetary features"
+msgstr "ග්‍රහ ලක්ෂණ සඳහා ඉඟි සහ ලේබල පෙන්වන්න"
+
+msgid "Show illumination"
+msgstr "ආලෝකනය පෙන්වන්න"
+
+msgid "Show in sky"
+msgstr "අහසින් පෙන්වන්න"
+
+msgid "Show less"
+msgstr "අඩු පෙන්වන්න"
+
+msgid "Show lunar stations (if defined)"
+msgstr "චන්ද්‍ර කැඳවුම් පෙන්වන්න (නිර්වචිත නම්)"
+
+msgid "Show more"
+msgstr "වැඩි පෙන්වන්න"
+
+msgid "Show objects which are up"
+msgstr "එහි ඉසිලුණු වස්තු පෙන්වන්න"
+
+msgid "Show only named DSO"
+msgstr "නම් ගත DSO පමණක් පෙන්වන්න"
+
+msgid "Show only objects between the two sizes"
+msgstr "ප්‍රමාණ දෙක අතර වස්තු පමණක් පෙන්වන්න"
+
+msgid "Show only the kinds ticked below"
+msgstr "පහතින් සලකුණු කෙසේ පමණක් පෙන්වන්න"
+
+msgid "Show or hide the two rails of controls"
+msgstr "පාලනවල දුම්රිය දෙක පෙන්වන්න හෝ සඟවන්න"
+
+msgid "Show orbit even if object is off screen"
+msgstr "වස්තුව තිරයෙන් ඉවතින් නම් ද කක්ෂ පෙන්වන්න"
+
+msgid "Show orbit only for selected SSO"
+msgstr "තෝරාගත් SSO සඳහා පමණක් කක්ෂ පෙන්වන්න"
+
+msgid "Show orbits"
+msgstr "කක්ෂයන් පෙන්වන්න"
+
+msgid "Show orbits of major planets"
+msgstr "ප්‍රධාන ග්‍රහලෝකවල කක්ෂයන් පෙන්වන්න"
+
+msgid "Show planetary nomenclature"
+msgstr "ග්‍රහ නාමකරණ පෙන්වන්න"
+
+msgid "Show special nomenclature points only"
+msgstr "විශේෂ නාමකරණ ලක්ෂ්‍ය පමණක් පෙන්වන්න"
+
+msgid "Show surveys"
+msgstr "සර්වේක්ෂණ පෙන්වන්න"
+
+msgid "Show this survey"
+msgstr "මෙම සර්වේක්ෂණ පෙන්වන්න"
+
+msgid "Show tiny circles for minor bodies regardless of magnitude"
+msgstr "විශාලත්ව කුමක් ඇත්ද ගිණේ නොගෙන කුඩා වස්තුවල කුඩා වෙතවල් පෙන්වන්න"
+
+msgid "Show trails"
+msgstr "පිටපතු පෙන්වන්න"
+
+msgid "Show zodiac (if defined)"
+msgstr "රාශිචක්‍රය පෙන්වන්න (නිර්වචිත නම්)"
+
+msgid "Sidereal time"
+msgstr "තරකා කාලය"
+
+msgid "Simbad Lookup Error: %s"
+msgstr "Simbad ගිණුම් දෝෂයි: %s"
+
+msgid "Simbad Lookup: querying"
+msgstr "Simbad ගිණුම්: විමසනවා"
+
+msgid "Simulate self-shadowing"
+msgstr "ස්ව-සඳු අනුකරණය"
+
+msgid "Simulation"
+msgstr "අනුකරණය"
+
+msgid "Sky Culture"
+msgstr "අහස් සංස්කෘතිය"
+
+msgid "Sky and viewing options"
+msgstr "අහස සහ දසුන් විකල්ප"
+
+msgid "Sky culture"
+msgstr "අහස් සංස්කෘතිය"
+
+msgid "Slow down"
+msgstr "තරේ නඩගා"
+
+msgid "Smallest, ′"
+msgstr "කුඩාම, ′"
+
+msgid "Solar System"
+msgstr "සූර්ය පද්ධතිය"
+
+msgid "Solar System objects"
+msgstr "සූර්ය පද්ධති වස්තු"
+
+msgid "Solar altitude for Twilight Finder"
+msgstr "Twilight Finder සඳහා සූර්ය උচ්චතාව"
+
+msgid "Solar elongation"
+msgstr "සූර්ය ප්‍රසරණය"
+
+msgid "Solar system"
+msgstr "සූර්ය පද්ධතිය"
+
+msgid "Solar system objects"
+msgstr "සූර්ය පද්ධති වස්තු"
+
+msgid "Solar system objects: comets"
+msgstr "සූර්ය පද්ධති වස්තු: ධූමකේතු"
+
+msgid "Solar system objects: minor bodies"
+msgstr "සූර්ය පද්ධති වස්තු: කුඩා ශරීර"
+
+msgid "Solar system objects: planets"
+msgstr "සූර්ය පද්ධති වස්තු: ග්‍රහලෝක"
+
+msgid "Solstices (J2000)"
+msgstr "සඳුන්දිනු (J2000)"
+
+msgid "Solstices (of date)"
+msgstr "සඳුන්දිනු (දිනට)"
+
+msgid "Some objects may be found after activation respective plug-ins"
+msgstr "සමහර වස්තු අදාළ plugin සක්‍රිය කිරීමෙන් පසු සොයාගත හැක"
+
+msgid "Special points only"
+msgstr "විශේෂ ලක්ෂ්‍ය පමණක්"
+
+msgid "Spectral Class"
+msgstr "වර්ණාකාර පන්තිය"
+
+msgid "Speed up"
+msgstr "වේගවත්ව"
+
+msgid "Spiky stars"
+msgstr "තීක්ෂණ තරු"
+
+msgid "Stand where the landscape was shot, on the planet it names"
+msgstr "භූතලය ගිණුම් ගතවූ ස්ථානයට සිට, එය නම් කරන ග්‍රහලෝකයේ සිටින්න"
+
+msgid "Star, planet, catalogue number…"
+msgstr "තරුවා, ග්‍රහලෝකය, ගිණුම් සංඛ්‍යා…"
+
+msgid "Started"
+msgstr "ආරම්භ"
+
+msgid "Starting"
+msgstr "ආරම්භ කරමින්"
+
+msgid "Startup FOV"
+msgstr "ආරම්භ FOV"
+
+msgid "Startup direction of view"
+msgstr "ආරම්භ දසුන් දිශාව"
+
+msgid "Stationary (begin prograde motion)"
+msgstr "Stationary (prograde චලනය ආරම්භ)"
+
+msgid "Stationary (begin retrograde motion)"
+msgstr "Stationary (retrograde චලනය ආරම්භ)"
+
+msgid "Stellarium's user guide covers the astronomy this app shares with it: stellarium.org/documentation"
+msgstr "Stellarium හි ගිණුම් පිටපතය මෙම යෙදුම එය සමඟ බෙදා ගන්නා තාරකා විද්‍යාව ඇතුළු කරයි: stellarium.org/documentation"
+
+msgid "Step, hours"
+msgstr "පියවර, පැය"
+
+msgid "Stop clock when starting"
+msgstr "ආරම්භයේදී ඔරලෝසුව නවත්වන්න"
+
+msgid "Strasbourg astronomical Data Center (France)"
+msgstr "Strasbourg තාරකා විද්‍යා දත්තකරණ කේන්ද්‍රය (ප්‍රංශය)"
+
+msgid "Style"
+msgstr "ශෛලිය"
+
+msgid "Sun altitude"
+msgstr "සූර්ය උචතාව"
+
+msgid "Sun at"
+msgstr "සූර්යයා පිහිටයි"
+
+msgid "Sun's altitude"
+msgstr "සූර්යයාගේ උචතාව"
+
+msgid "Sun's corona"
+msgstr "සූර්යයාගේ කිරීටිකා"
+
+msgid "Sun's glare"
+msgstr "සූර්යයාගේ දීප්තිමත්ව"
+
+msgid "Sun, planets and moons of first body and observer's planet"
+msgstr "සූර්යයා, ග්‍රහලෝක සහ පළමු වස්තුවේ චන්ද්‍රයා සහ නිරීක්ෂකයාගේ ග්‍රහලෝක"
+
+msgid "Sun, planets and moons of observer's planet"
+msgstr "සූර්යයා, ග්‍රහලෝක සහ නිරීක්ෂකයාගේ ග්‍රහලෝකයේ චන්ද්‍රයා"
+
+msgid "Sunlight scattered by interplanetary dust"
+msgstr "ග්‍රහ අතර දූවිපාතින් විසින් විසිරුණු සූර්ය ආලෝකය"
+
+msgid "Supergalactic"
+msgstr "සුපර් ගැලක්ටික්"
+
+msgid "Supergalactic equator"
+msgstr "සුපර් ගැලක්ටික් සමකය"
+
+msgid "Supergalactic grid"
+msgstr "සුපර් ගැලක්ටික් දැල"
+
+msgid "Supergalactic poles"
+msgstr "සුපර් ගැලක්ටික් ධ්‍රැවයන්"
+
+msgid "Supernova candidates"
+msgstr "Supernova අපේක්ෂකයින්"
+
+msgid "Supernova remnant candidates"
+msgstr "Supernova ඉතිරි අපේක්ෂකයින්"
+
+msgid "Supernova remnants"
+msgstr "Supernova ඉතිරි"
+
+msgid "Surveys"
+msgstr "සර්වේක්ෂණ"
+
+msgid "Switch this off to see the trails for all Solar system bodies"
+msgstr "සූර්ය පද්ධතියේ සියලු වස්තුවල පිටපතු බැලීමට මෙය බිම් කරන්න"
+
+msgid "Symbiotic stars"
+msgstr "Symbiotic තරු"
+
+msgid "Synodic period"
+msgstr "Synodic කාල"
+
+msgid "System date at"
+msgstr "පද්ධතිය දිනය"
+
+msgid "System default"
+msgstr "පද්ධතිය පෙරනිමිය"
+
+msgid "Table"
+msgstr "කෙඩුවා"
+
+msgid "Tabular output for coordinates and time"
+msgstr "සමන්වයස් සහ කාලයේ ට්‍රැලිස් ප්‍රතිදානයි"
+
+msgid "Tap a colour to change it. Changes show on the sky at once and are kept."
+msgstr "එය වෙනස් කිරීමට වර්ණයට තට්ටු කරන්න. වෙනස්කම් අහසින් එක්කෝ පෙන්වනු ලබයි සහ ගබඩා ගනු ලබයි."
+
+msgid "Tap again to confirm"
+msgstr "තහවුරු කිරීමට නැවතත් තට්ටු කරන්න"
+
+msgid "Tap an object"
+msgstr "වස්තුවට තට්ටු කරන්න"
+
+msgid "Tap the chart to read a value."
+msgstr "අගයක් කියවීමට ප්‍රස්තාරයට තට්ටු කරන්න."
+
+msgid "Tap the clock"
+msgstr "ඔරලෝසුවට තට්ටු කරන්න"
+
+msgid "Tap the gear"
+msgstr "ගිඳු තට්ටු කරන්න"
+
+msgid "Tap the map to stand there."
+msgstr "එහිට සිටින්නට සිතියමට තට්ටු කරන්න."
+
+msgid "Tap the place"
+msgstr "ස්ථානයට තට්ටු කරන්න"
+
+msgid "Tap to confirm"
+msgstr "තහවුරු කිරීමට තට්ටු කරන්න"
+
+msgid "Tertiary intercardinal points"
+msgstr "තෙවන බිමි විධිවිවරණ ලක්ෂ්‍ය"
+
+msgid "Text angle"
+msgstr "පෙළ කෝණය"
+
+msgid "The Great Red Spot drifts in System II longitude. Enter a recent measurement and the drift rate to carry it forward from."
+msgstr "ශ්‍රේෂ්ඨ රතු ලක්ෂ්‍ය පද්ධතිය II දේශාංශ ගිණුම ගිණුම්. ඉතින් මිතිය සහ එය නිසරණ අනුපාතය ගිණුම ගිණුම්."
+
+msgid "The algorithm is based on visual observations 1877-1891 by G. Müller and was still republished in the Explanatory Supplement to the Astronomical Ephemeris (1961)."
+msgstr "ඇල්ගොරිතම G. Müller විසින් 1877-1891 දෘශ්‍ය නිරීක්ෂණ මතින් පදනම් ව ඉසිල්ලන තාරකා විද්‍යා Ephemeris (1961) පිළිබඳ පැහැදිලිකරණ සඳහා නැවත ප්‍රකාශිතයි."
+
+msgid "The algorithm was published by A. Mallama & J. L. Hilton: Computing apparent planetary magnitudes for the Astronomical Almanac. Astronomy&Computing 25 (2018) 10-24."
+msgstr "ඇල්ගොරිතම A. Mallama සහ J. L. Hilton විසින් ප්‍රකාශිතයි: තාරකා විද්‍යා Almanac සඳහා පිටින් ග්‍රහ විශාලත්ව ගණනය. තාරකා විද්‍යා සහ ගණනය 25 (2018) 10-24."
+
+msgid "The algorithm was published in the 2nd edition of the Explanatory Supplement to the Astronomical Almanac (1992)."
+msgstr "ඇල්ගොරිතම තාරකා විද්‍යා Almanac (1992) පිළිබඳ පැහැදිලිකරණ සඳහා 2nd එකතුවේ ප්‍රකාශිතයි."
+
+msgid "The algorithm was published in the 3rd edition of the Explanatory Supplement to the Astronomical Almanac (2013)."
+msgstr "ඇල්ගොරිතම තාරකා විද්‍යා Almanac (2013) පිළිබඳ පැහැදිලිකරණ සඳහා 3rd එකතුවේ ප්‍රකාශිතයි."
+
+msgid "The algorithm was used in the Astronomical Almanac (1984 and later) and gives V (instrumental) magnitudes (allegedly from D.L. Harris)."
+msgstr "ඇල්ගොරිතම තාරකා විද්‍යා Almanac (1984 සහ ඉතුරු) යුතු හරි ඇති V (උපකරණ) විශාලත්ව (ඉතින් D.L. Harris වලින්)."
+
+msgid "The colour each kind of object is drawn in"
+msgstr "එක එක වර්ගයේ වස්තුව ඇඳිණු වර්ණය"
+
+msgid "The engine did not answer with any colours."
+msgstr "එන්ජිම කිසිදු වර්ණයින් පිළිතුරු දුන්නේ නැත."
+
+msgid "The galactic band"
+msgstr "ගැලක්ටික් පටුවා"
+
+msgid "The greatest eclipse is invisible in current location"
+msgstr "දෙශීය පිහිටුම්පතින් greatest ග්‍රහණ නොපෙනෙන්න."
+
+msgid "The horizon outline instead of the panorama"
+msgstr "පදිස්ස වෙනුවට ක්ෂිතිජ දෙයීයි"
+
+msgid "The path each body has taken across the sky"
+msgstr "එක එක වස්තුව අහස හරහා ගිය මාර්ගය"
+
+msgid "The shortest label the culture defines"
+msgstr "සංස්කෘතිය නිර්වචිත කෙටිම ලේබල"
+
+msgid "Thickness"
+msgstr "ඝණතාව"
+
+msgid "This copy ships no scripts."
+msgstr "මෙම පිටපතු ස්ක්‍රිප්ටු නැත."
+
+msgid "This device has no location service."
+msgstr "මෙම උපකරණයට ස්ථාන සේවාව නැත."
+
+msgid "This part of the engine exposes no settings on this build."
+msgstr "මෙම එන්ජින් කොටසට මෙම ගිණුමින් සැකසුම් නැත."
+
+msgid "This tool works on Earth only!"
+msgstr "මෙම මෙවලම පෘථිවිය මත පමණක් කරයි!"
+
+msgid "This tool works on Earth only. Short steps over a long duration are slow."
+msgstr "මෙම මෙවලම පෘතිවිය අතර පමණක් ක්‍රියා කරයි. දිගු කාල සීමාව තුළ කෙටි පදක්ෂේප සෙමින් ක්‍රියා කරයි."
+
+msgid "This year"
+msgstr "මෙම වසර"
+
+msgid "Time"
+msgstr "කාලය"
+
+msgid "Time correction"
+msgstr "කාල සිකුරුවිකරණය"
+
+msgid "Time of day"
+msgstr "දිනයේ කාලය"
+
+msgid "Time span"
+msgstr "කාල පරාසය"
+
+msgid "Time step"
+msgstr "කාල පියවර"
+
+msgid "Time zone"
+msgstr "කාල කලාපය"
+
+msgid "To the next (mths)"
+msgstr "ඉතින් ඉදිරි (මස)"
+
+msgid "To the next, months"
+msgstr "ඉතින් ඉදිරි, මස"
+
+msgid "Today"
+msgstr "අද"
+
+msgid "Toggle display of nebula images."
+msgstr "නෙබුලා රූප පෙන්වීම ටොගල් කරන්න."
+
+msgid "Toggle display of the button for the Digitized Sky Survey."
+msgstr "Digitized Sky Survey බොත්තම පෙන්වීම ටොගල් කරන්න."
+
+msgid "Toggle display of the button for the HiPS Surveys. Select a survey in the View settings."
+msgstr "HiPS සමීක්ෂණ බොත්තම පෙන්වීම ටොගල් කරන්න. දසුන සැකසුමින් සමීක්ෂණයක් තෝරන්න."
+
+msgid "Toggle drawing Sun's glare"
+msgstr "සූර්යයාගේ තිතිර ඇඳීම ටොගල් කරන්න"
+
+msgid "Toggle drawing halo around the Moon"
+msgstr "චන්ද්‍රයා වටා හැලෝ ඇඳීම ටොගල් කරන්න"
+
+msgid "Toggle permanent drawing of Sun's corona when atmosphere is disabled"
+msgstr "වායුගෝලය අක්‍රිය වූ විට සූර්යයාගේ කිරීටි ස්ථිර ඇඳීම ටොගල් කරන්න"
+
+msgid "Toggle the usage of background under GUI buttons"
+msgstr "GUI බොත්තම් ඉතුරු පසින් පසුබිම භාවිතා ටොගල් කරන්න"
+
+msgid "Total eclipse begins"
+msgstr "සම්පූර්ණ ග්‍රහණ ආරම්භ වේ"
+
+msgid "Total eclipse ends"
+msgstr "සම්පූර්ණ ග්‍රහණ අවසන් වේ"
+
+msgid "Trails"
+msgstr "පසුපෙළ"
+
+msgid "Transit"
+msgstr "සංක්‍රමණ"
+
+msgid "Translated"
+msgstr "පරිවර්තිත"
+
+msgid "Transparency"
+msgstr "විනිමිතබාවය"
+
+msgid "Twilight"
+msgstr "සන්ධ්‍යා"
+
+msgid "Twilight and rise and set times are worked out for an observer on Earth. Move back to Earth to see them."
+msgstr "සන්ධ්‍යා සහ නැගීම සහ බැස්ම සඳහා පෘතිවිය තුළ නිරීක්ෂකයෙකුට කාලය ගණනය කරනු ලබයි. ඒවා බැලීමට පෘතිවිය වෙත ප්‍රතිගමනය කරන්න."
+
+msgid "Twinkle"
+msgstr "දිලිරීම"
+
+msgid "Twinkle amount"
+msgstr "දිලිරීම ප්‍රමාණය"
+
+msgid "Twinkle even without atmosphere"
+msgstr "වායුගෝලය නොමැතිව ද දිලිරීම"
+
+msgid "Twinkle is caused by atmospheric turbulence; this shows it regardless"
+msgstr "දිලිරීම වායුගෝල අවුල් විසින් ඇතිවේ; මෙය එය සෙසින් පෙන්වයි"
+
+msgid "Type"
+msgstr "වර්ගය"
+
+msgid "Type a name, a Bayer letter or a catalogue number - Vega, α Lyr, M 31, NGC 224."
+msgstr "නම්, Bayer අකුරක් හෝ නාමාවලිය අංකය ටයිප් කරන්න - Vega, α Lyr, M 31, NGC 224."
+
+msgid "Types"
+msgstr "වර්ගයන්"
+
+msgid "Umbral magnitude"
+msgstr "ඡාය විශාලත්වය"
+
+msgid "Unnamed star"
+msgstr "නම් නොකළ තරුව"
+
+msgid "Up to mag."
+msgstr "විශාලත්ව දක්වා"
+
+msgid "Update"
+msgstr "යාවත්තුගත කරන්න"
+
+msgid "Use SIMBAD"
+msgstr "SIMBAD භාවිතා කරන්න"
+
+msgid "Use additional names of DSO"
+msgstr "DSO හි අතිරේක නම් භාවිතා කරන්න"
+
+msgid "Use autofill only from the beginning of words"
+msgstr "පෙළ ගККරුවල ආරම්භයෙන් පමණක් ස්වයංපිටපතිය භාවිතා කරන්න"
+
+msgid "Use buttons background"
+msgstr "බොත්තම් පසුබිම භාවිතා කරන්න"
+
+msgid "Use common symbols for coordinate systems"
+msgstr "සම්බන්ධ නිර්දේශ 체계සඳහා සාමාන්‍ය සංකේත භාවිතා කරන්න"
+
+msgid "Use custom time zone"
+msgstr "ව්‍යකින්न කාල කලාපය භාවිතා කරන්න"
+
+msgid "Use decimal degrees"
+msgstr "දශම අංශු භාවිතා කරන්න"
+
+msgid "Use decimal degrees for coordinates"
+msgstr "සම්බන්ධ නිර්දේශ සඳහා දශම අංශු භාවිතා කරන්න"
+
+msgid "Use designations for screen labels"
+msgstr "තිරය ලේබල් සඳහා සම්මතිකરණ භාවිතා කරන්න"
+
+msgid "Use distance from North Celestial Pole, not declination from equator in equatorial coordinates"
+msgstr "ඛගෝල සම්බන්ධ නිර්දේශ තුළ විෂුවත රෝධකයෙන් විකෝෂණ නොවේ, උතුරු ඛගෝල ධ්‍රුවයෙන් දුරස්ථ භාවිතා කරන්න"
+
+msgid "Use mag/arcsec^2 for surface brightness"
+msgstr "පෘෂ්ඨ දීප්තිය සඳහා mag/arcsec^2 භාවිතා කරන්න"
+
+msgid "Use more accurate 3D models (where available)"
+msgstr "වඩා නිවැරදි 3D සිතියම් භාවිතා කරන්න (ඇත්ත නම්)"
+
+msgid "Use my location"
+msgstr "මගේ ස්ථානය භාවිතා කරන්න"
+
+msgid "Use on-line astronomical database SIMBAD"
+msgstr "සබැඳි තාරකා විද්‍යා දත්ත ගබඩාව SIMBAD භාවිතා කරන්න"
+
+msgid "Use outlines for big deep-sky objects"
+msgstr "විශාල ගඩු අහස වස්තු සඳහා දෙහස භාවිතා කරන්න"
+
+msgid "Use proportional hints"
+msgstr "සමාන ඉඟි භාවිතා කරන්න"
+
+msgid "Use sorting by string length"
+msgstr "පෙළ දිග සඳහා ගිණුම් භාවිතා කරන්න"
+
+msgid "Use surface brightness"
+msgstr "මතුපිට දීප්තිය භාවිතා කරන්න"
+
+msgid "Use the date now shown in the sky"
+msgstr "අහසින් දැන් පෙන්නුම් කරන දිනය භාවිතා කරන්න"
+
+msgid "Use the value in landscape.ini when it has one"
+msgstr "landscape.ini තුළ එක් තිබෙන විට අගය භාවිතා කරන්න"
+
+msgid "Use the value stored for this location"
+msgstr "මෙම ස්ථානය සඳහා ගබඩා කරන ලද අගය භාවිතා කරන්න"
+
+msgid "Var. stars"
+msgstr "විචල් තරු"
+
+msgid "Version"
+msgstr "අනුවාදය"
+
+msgid "Version %s  ·  Qt %s"
+msgstr "අනුවාදය %s  ·  Qt %s"
+
+msgid "Vertical viewport offset"
+msgstr "සිරස් දසුන් චලිතය"
+
+msgid "View recent GRS measurements"
+msgstr "ඉතින් GRS මිම්මට බලන්න"
+
+msgid "Visibility"
+msgstr "දෘෂ්‍ය"
+
+msgid "Visual magnitude based on phase angle and albedo."
+msgstr "අවස්ථා කෝණ සහ පරිවර්තකතාවය ඇතිව දෘෂ්‍ය විශාලත්වය."
+
+msgid "When a search result is chosen"
+msgstr "සෙවුම ප්‍රතිඵලයක් තෝරා ගන්නා විට"
+
+msgid "Where Jupiter's Great Red Spot was, and when"
+msgstr "බ්‍රහස්පතිගේ විශාල රතු ස්ථාන තිබුණ ところ සහ කවදා"
+
+msgid "Width"
+msgstr "පළල"
+
+msgid "Working out the contact times…"
+msgstr "ස්පර්ශ කාලය ගණනය කරමින්…"
+
+msgid "Year"
+msgstr "වසර"
+
+msgid "Zenith and Nadir"
+msgstr "ශිරෝ බින්දුව සහ පාදබින්දුව"
+
+msgid "Zodiac and lunar stations"
+msgstr "රාශිචක්‍රය සහ චන්ද්‍ර සිටියක්"
+
+msgid "Zodiacal Light"
+msgstr "රාශිතිරණ ආලෝකය"
+
+msgid "Zodiacal Light brightness"
+msgstr "රාශිතිරණ ආලෝකයේ දීප්තිය"
+
+msgid "Zoom in and out"
+msgstr "විශාලනය සහ ඉතුරු සිටින්න"
+
+msgid "after sunset"
+msgstr "සූර්ය අස්තයින් පසු"
+
+msgid "before sunrise"
+msgstr "සූර්යෝදයට පෙර"
+
+msgid "bright suburban"
+msgstr "දීප්ත උපනගර"
+
+msgid "east +"
+msgstr "නැඟෙනහිර +"
+
+msgid "engine ready, interface going live"
+msgstr "එන්ජින් සූදානම්, අතුරුමුහුර්තය ගිය යෙන්න"
+
+msgid "excellent dark sky"
+msgstr "විශිෂ්ට අඳුරු අහස"
+
+msgid "from landscape, if given"
+msgstr "භූතලයෙන්, තිබුණේ නම්"
+
+msgid "inner city"
+msgstr "අභ්‍යන්තර පිටිය"
+
+msgid "mag %s"
+msgstr "විශාලත්ව %s"
+
+msgid "max %s"
+msgstr "උපරිම %s"
+
+msgid "mid %s"
+msgstr "මධ්‍ය %s"
+
+msgid "north +"
+msgstr "උතුරු +"
+
+msgid "rural/suburban"
+msgstr "ගම්‍ය/පරිවර්ජිත"
+
+msgid "sci. translit."
+msgstr "විද්‍යා. ලිඖලීකරණය"
+
+msgid "select all"
+msgstr "සියල්ල තෝරන්න"
+
+msgid "select none"
+msgstr "කිසිවක් තෝරන්න එපා"
+
+msgid "select preference"
+msgstr "විකල්පය තෝරන්න"
+
+msgid "select standard"
+msgstr "ප්‍රකෘතිය තෝරන්න"
+
+msgid "store preference"
+msgstr "විකල්පය ගබඩා කරන්න"
+
+msgid "suburban/urban"
+msgstr "පරිවර්ජිත/නාගරික"
+
+msgid "truly dark"
+msgstr "ඇත්තෙන් අඳුරු"
+
+msgid "unreadable snapshot"
+msgstr "කියවිය නොහැකි ගිණුම"
+
+msgid "with Solar Dates"
+msgstr "සූර්ය දිනයන් සමඟ"
+
+msgid "… and moons"
+msgstr "… සහ චන්ද්‍රලෝක"

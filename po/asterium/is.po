@@ -1,0 +1,1681 @@
+# Asterium interface translation for is.
+# Copyright (C) 2026 the Asterium authors
+# This file is distributed under the same licence as the Asterium package.
+#
+# MACHINE TRANSLATION, not reviewed by a speaker of this language.
+# Terminology follows upstream Stellarium's own is catalogue, which was used
+# as a glossary, and every entry keeps the source's printf placeholders.
+# Corrections from a human translator are welcome and should simply replace these.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: asterium\n"
+"Language: is\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%d bodies"
+msgstr "%d hlutir"
+
+msgid "%d object"
+msgstr "%d fyrirbæri"
+
+msgid "%d objects"
+msgstr "%d fyrirbæri"
+
+msgid "%s colour"
+msgstr "%s litur"
+
+msgid "%s from %s, ±%.0f m"
+msgstr "%s frá %s, ±%.0f m"
+
+msgid "12-hour"
+msgstr "12 klst"
+
+msgid "1× below"
+msgstr "1× fyrir neðan"
+
+msgid "24-hour"
+msgstr "24 klst"
+
+msgid "A button to mark every object of the current observing list on the sky."
+msgstr "Hnappur til að merka alla hluti á núverandi vöktunarlista á himinum."
+
+msgid "A polygonal model for some small moons, asteroids and comets instead of a sphere"
+msgstr "Marghyrnt líkan fyrir nokkur lítil tungl, stjörnuskafl og halastjörnur í stað kúlu"
+
+msgid "A touch-first planetarium forked from Stellarium, whose astronomy engine it uses unchanged. The interface is new; everything that draws the sky is upstream's work."
+msgstr "Planketarín fyrir snertingu, undanbrigt frá Stellarium, sem notar óbreytta stjörnufræðivél hennar. Viðmótið er nýtt; allt sem teiknar himinn er verk upprunalegu verkefnisins."
+
+msgid "Abbreviated names"
+msgstr "Styttuð nöfn"
+
+msgid "About this sky culture"
+msgstr "Um þetta stjörnumerkjakerfi"
+
+msgid "Above altitude, °"
+msgstr "Fyrir ofan hæð, °"
+
+msgid "Absolute scale"
+msgstr "Alger kvarði"
+
+msgid "Add %s"
+msgstr "Bæta við %s"
+
+msgid "Adjust brightness to bright objects"
+msgstr "Aðlaga birtustig að björtum hlutum"
+
+msgid "Algol-type eclipsing systems"
+msgstr "Algól-gerð ljósmyrkvastjörnur"
+
+msgid "Algorithm of ΔT"
+msgstr "Reiknirit fyrir ΔT"
+
+msgid "All naked-eye planets"
+msgstr "Allir berilsi reikistjörnur"
+
+msgid "All solar eclipses"
+msgstr "Öll sólarmorguðir"
+
+msgid "Allow negative hour angles"
+msgstr "Leyfa neikvæð tímahorn"
+
+msgid "Allow results outside the recommended time range of the orbital elements"
+msgstr "Leyfa niðurstöður utan mælt tímabils brautarstaka"
+
+msgid "Almanac"
+msgstr "Almanak"
+
+msgid "Almanac: Sun, Moon and naked-eye planets"
+msgstr "Almanak: Sól, Tungl og berum augum sýnilegar reikistjörnur"
+
+msgid "Also find"
+msgstr "Finna einnig"
+
+msgid "Also plot"
+msgstr "Plotta einnig"
+
+msgid "Also show moons of selected object or planets"
+msgstr "Sýna einnig tungl valins hluts eða reikistjarna"
+
+msgid "Altitude limit, °"
+msgstr "Takmörk hæðar, °"
+
+msgid "Amount"
+msgstr "Magn"
+
+msgid "An observer floats above its planet, so there is nowhere on it to stand. Choose another planet to come back down."
+msgstr "Áhorfandi svífur yfir plánetu sinni, svo þar er engin staðsetning til að standa. Veldu aðra plánetu til að komast aftur niður."
+
+msgid "And"
+msgstr "Og"
+
+msgid "And also"
+msgstr "Og einnig"
+
+msgid "And the next (years)"
+msgstr "Og sú næsta (ár)"
+
+msgid "Angular distance between the Moon and selected object"
+msgstr "Hornbil milli tungls og valins hluta"
+
+msgid "Angular distance from the Moon for second object"
+msgstr "Hornbil frá tunglinu fyrir annan hlut"
+
+msgid "Angular distance from the Sun for second object"
+msgstr "Hornbil frá sólinni fyrir annan hlut"
+
+msgid "Annual drift"
+msgstr "Árleg hreyfing"
+
+msgid "Appearance"
+msgstr "Útlit"
+
+msgid "Apply time interval limits to list"
+msgstr "Nota tímabiltakmörk á lista"
+
+msgid "Art"
+msgstr "Listaverk"
+
+msgid "Artificial satellites and unnamed stars are excluded from calculation."
+msgstr "Gervitungl og óheiti stjörnur eru útilokuð frá útreikningi."
+
+msgid "Asking for permission…"
+msgstr "Bið um heimild…"
+
+msgid "Asks SIMBAD what it holds around the object that is selected now, and prints the answer as it comes back."
+msgstr "Spyr SIMBAD hvað það heldur umhverfis valinn hlut og prentar svarið þegar það kemur til baka."
+
+msgid "Ast. lines"
+msgstr "Ast. línur"
+
+msgid "Ast. names"
+msgstr "Ast. skýr."
+
+msgid "Astronomical Almanac (default) enlarges by 2%; Danjon (1951) differs slightly"
+msgstr "Stjörnufræðialmanak (sjálfgefið) stækkar um 2%; Danjon (1951) er örlítið frábrugðið"
+
+msgid "Astronomical night"
+msgstr "Stjörnufræðileg nótt"
+
+msgid "At"
+msgstr "Á"
+
+msgid "Atmosph."
+msgstr "Andrúms."
+
+msgid "Automatic closing dialog"
+msgstr "Sjálfvirk lokun samtals"
+
+msgid "Automatic transparency"
+msgstr "Sjálfvirkt gagnsæi"
+
+msgid "Axis distance"
+msgstr "Fjarlægð ás"
+
+msgid "Azi. grid"
+msgstr "Azi. hnit"
+
+msgid "Azimuth and altitude rather than right ascension and declination"
+msgstr "Áttarhorn og hæð frekar en stjörnulengd og stjörnubreidd"
+
+msgid "Azimuth vs. Time"
+msgstr "Áttarhorn á móti tíma"
+
+msgid "Below the horizon here."
+msgstr "Fyrir neðan sjóndeildarhring hér."
+
+msgid "Between objects"
+msgstr "Milli hluta"
+
+msgid "Boundless"
+msgstr "Endalaus"
+
+msgid "Bounds"
+msgstr "Mörk"
+
+msgid "Bright Solar system objects (<%1 mag)"
+msgstr "Björt hlutir sólkerfisins (<%1 mag)"
+
+msgid "Brighter than"
+msgstr "Bjartari en"
+
+msgid "By object type"
+msgstr "Eftir tegund hlutar"
+
+msgid "By planet"
+msgstr "Eftir plánetu"
+
+msgid "Calculating…"
+msgstr "Reiknar…"
+
+msgid "Cardinals"
+msgstr "Höfuðáttir"
+
+msgid "Catalogue numbers instead of common names"
+msgstr "Stjörnuskránúmur í stað algengt nöfna"
+
+msgid "Category"
+msgstr "Flokkur"
+
+msgid "Central duration"
+msgstr "Miðlínuvar"
+
+msgid "Centre"
+msgstr "Mið"
+
+msgid "Centre on object"
+msgstr "Miðja á hlut"
+
+msgid "Centre point"
+msgstr "Miðpunktur"
+
+msgid "Circles"
+msgstr "Hringir"
+
+msgid "City"
+msgstr "Borg"
+
+msgid "Cleanup"
+msgstr "Hreinsa"
+
+msgid "Clear recent searches"
+msgstr "Hreinsa nýlegar leitir"
+
+msgid "Clear the selection - a touch screen has no right button"
+msgstr "Hreinsa valið - snertiskjár hefur engan hægri hnapp"
+
+msgid "Cleared."
+msgstr "Hreinsað."
+
+msgid "Click on star to show its constellation"
+msgstr "Smelltu á stjörnu til að sýna stjörnumerki hennar"
+
+msgid "Close"
+msgstr "Loka"
+
+msgid "Close what is open; from the sky, leave the app running"
+msgstr "Loka því sem er opið; frá himinum, haltu appinu endarandi"
+
+msgid "Coarse"
+msgstr "Gróf"
+
+msgid "Color"
+msgstr "Litur"
+
+msgid "Color channel"
+msgstr "Litarás"
+
+msgid "Color of Lunar station lines"
+msgstr "Litur á línum tunglstöðva"
+
+msgid "Color of orbits"
+msgstr "Litur á sporbrautum"
+
+msgid "Color of zodiac lines"
+msgstr "Litur á línum dýrahringarins"
+
+msgid "Colors of orbit lines"
+msgstr "Litir á sporbrautarlínum"
+
+msgid "Comets up to mag."
+msgstr "Halastjörnur upp að birtustigi"
+
+msgid "Compass"
+msgstr "Áttaviti"
+
+msgid "Connecting line"
+msgstr "Tengingarlína"
+
+msgid "Contrast"
+msgstr "Birtuskil"
+
+msgid "Coordinate system"
+msgstr "Hnitakerfi"
+
+msgid "Coordinates"
+msgstr "Hnit"
+
+msgid "Copyright"
+msgstr "Höfundarréttur"
+
+msgid "Credits"
+msgstr "Þakkir"
+
+msgid "Culmination altitude"
+msgstr "Hámarkshæð"
+
+msgid "Custom"
+msgstr "Sérsniðið"
+
+msgid "Custom altitude of the Moon, °"
+msgstr "Sérsniðin hæð tunglsins, °"
+
+msgid "Custom altitude of the Sun, °"
+msgstr "Sérsniðin hæð sólarinnar, °"
+
+msgid "Custom values"
+msgstr "Sérsniðin gildi"
+
+msgid "Cut the scale off below the limit"
+msgstr "Skera kvarða af fyrir neðan mörk"
+
+msgid "DATE AND TIME (UTC)"
+msgstr "DAGSETNING OG TÍMI (UTC)"
+
+msgid "Date and time"
+msgstr "Dagsetning og tími"
+
+msgid "Date/time"
+msgstr "Dagsetning/tími"
+
+msgid "Dates"
+msgstr "Dagsetningu"
+
+msgid "December solstice"
+msgstr "Desember-sólstöð"
+
+msgid "Decimal degrees. −33.87 means 33.87° south. Elevation is metres above sea level; it moves the horizon down by a few arcminutes."
+msgstr "Aukastafagráður. −33.87 þýðir 33.87° suður. Hækkun er metrar fyrir ofan sjávarmál; það færir sjóndeildarhringinn niður um nokkur bogamínútur."
+
+msgid "Degrees per year the longitude moves by"
+msgstr "Gráður á ári sem lengdargráðan hreyfist um"
+
+msgid "Degrees, hours and minutes as they are written - 12h30m49s, +41°16'09\", 187.7 - or plain decimal degrees."
+msgstr "Gráður, klukkustundir og mínútur eins og þeir eru skrifaðir - 12h30m49s, +41°16'09\", 187.7 - eða einfaldar aukastafagráður."
+
+msgid "Deletes all recent search object data, and the objects SIMBAD contributed."
+msgstr "Eyðir öllum nýlegum leitahluti gögnum og hlutum sem SIMBAD lagði til."
+
+msgid "Designations for celestial coordinate systems"
+msgstr "Heiti fyrir himinhnit"
+
+msgid "Designations for double stars"
+msgstr "Heiti fyrir tvístirni"
+
+msgid "Designations for variable stars"
+msgstr "Heiti fyrir breytistjörnur"
+
+msgid "Dim a survey near the horizon, as the air does"
+msgstr "Dekkja kannanir nærri sjóndeildarhringi, eins og loftið gerir"
+
+msgid "Done"
+msgstr "Lokið"
+
+msgid "Drag"
+msgstr "Draga"
+
+msgid "Draw deep-sky objects at all"
+msgstr "Teikna djúpfyrirbæri alls"
+
+msgid "Draw the enabled sky surveys"
+msgstr "Teikna virkar himinkannir"
+
+msgid "Draw the planets, moons and minor bodies"
+msgstr "Teikna plánetur, tungl og minni hnetti"
+
+msgid "Drawn larger than life, so a body that is a few arcseconds wide is visible at all. The position stays true."
+msgstr "Teiknad stærra en lífið, svo hlutur sem er nokkur bogasekúndur breiðr er sýnilegur á öllum. Staðan helst sönn."
+
+msgid "Duration (years)"
+msgstr "Tímalengd (ár)"
+
+msgid "Duration, months"
+msgstr "Tímalengd, mánuðir"
+
+msgid "Dusk"
+msgstr "Skúmörkur"
+
+msgid "Dynamic (FOV-based) Moon size"
+msgstr "Kraftmikil (FOV-byggð) stærð tunglsins"
+
+msgid "ELEV. M"
+msgstr "HÆKKUN M"
+
+msgid "Ecl. grid"
+msgstr "Ecl. hnit"
+
+msgid "Eclipses are computed for observers on Earth."
+msgstr "Myrkvar eru reiknuð fyrir áhorfendur á Jörðinni."
+
+msgid "Elevation in metres"
+msgstr "Hækkun í metrum"
+
+msgid "Elongations and quadratures"
+msgstr "Álengdir og fjórðungsir"
+
+msgid "Enabled only"
+msgstr "Aðeins virkt"
+
+msgid "Enter Culture..."
+msgstr "Settu inn stjörnumerkjakerfi..."
+
+msgid "Equ. grid"
+msgstr "Equ. hnit"
+
+msgid "Equ. mount"
+msgstr "Equ. st."
+
+msgid "Equatorial radii ratio"
+msgstr "Hlutfall miðbaugsstærðar"
+
+msgid "Evening"
+msgstr "Kvöld"
+
+msgid "Every"
+msgstr "Hvern/hverja"
+
+msgid "Every name the object is catalogued under"
+msgstr "Hvert nafn sem hluturinn er skráð undir"
+
+msgid "Exoplanetary systems"
+msgstr "Kerfi utan um aðra stjörnur"
+
+msgid "Exterior egress"
+msgstr "Ytri útgöngur"
+
+msgid "Exterior ingress"
+msgstr "Ytri inngöngur"
+
+msgid "Fades the ground as you look below the horizon or zoom in"
+msgstr "Deyfir jörðina þegar þú horfir undir sjóndeildarhring eða stækkar"
+
+msgid "Fading duration"
+msgstr "Tímalengd dofnunar"
+
+msgid "Faintest shown"
+msgstr "Faigasta sýnd"
+
+msgid "Favorites"
+msgstr "Efri valir"
+
+msgid "Fetching the survey lists…"
+msgstr "Sæki kannalistana…"
+
+msgid "Filter"
+msgstr "Sía"
+
+msgid "Find a city"
+msgstr "Finndu borg"
+
+msgid "Fine"
+msgstr "Fín"
+
+msgid "First %d of %d - filter to narrow it."
+msgstr "Fyrstu %d af %d - siaðu til að minnka það."
+
+msgid "First body"
+msgstr "Fyrsti hlutur"
+
+msgid "First celestial body"
+msgstr "Fyrsti himinningurinn"
+
+msgid "First graph"
+msgstr "Fyrsti grafinn"
+
+msgid "Fix"
+msgstr "Festa"
+
+msgid "Fixed Equator"
+msgstr "Fastandur miðbaugur"
+
+msgid "Fixed Equatorial grid"
+msgstr "Fastandur miðbaugshnitakerfið"
+
+msgid "Fixed instant"
+msgstr "Fastandur augnablik"
+
+msgid "Flip buttons"
+msgstr "Fletta hnöppum"
+
+msgid "Flip horiz."
+msgstr "Sp. lárétt"
+
+msgid "Flip vert."
+msgstr "Sp. lóðrétt"
+
+msgid "Font size"
+msgstr "Leturstærð"
+
+msgid "Frame rate"
+msgstr "Rammarhlutfall"
+
+msgid "From"
+msgstr "Frá"
+
+msgid "From year"
+msgstr "Frá ári"
+
+msgid "Full screen"
+msgstr "Fullskjár"
+
+msgid "Further reading"
+msgstr "Frekari lestur"
+
+msgid "GRS details…"
+msgstr "GRS upplýsingar…"
+
+msgid "Gal. grid"
+msgstr "Gal. hnit"
+
+msgid "Gamma, saturation, brightness, contrast, opacity, colour channel and inverted colours belong to one survey. Open a survey to set them."
+msgstr "Gamma, mettuð, birtustig, birtuskil, ógegnsæi, litarás og víxluðir litir tilheyra einni kannanir. Opnaðu kannanir til að stilla þær."
+
+msgid "Gestures"
+msgstr "Hreyfingar"
+
+msgid "Go there"
+msgstr "Farðu þangað"
+
+msgid "Go to this eclipse"
+msgstr "Farðu til þessa myrkva"
+
+msgid "Go to this moment"
+msgstr "Farðu til þessa augnabliks"
+
+msgid "Go to this transit"
+msgstr "Farðu til þessarar þvergöngu"
+
+msgid "Great Red Spot"
+msgstr "Stóri rauði blettinn"
+
+msgid "Great Red Spot details"
+msgstr "Upplýsingar um stóra rauða blettinn"
+
+msgid "Greatest elongation for an inner planet, quadrature for an outer one"
+msgstr "Mestu álengd fyrir innri plánetu, fjórðung fyrir ytri"
+
+msgid "Greek letters"
+msgstr "Grískir stafir"
+
+msgid "Grid density"
+msgstr "Hnitaðleiki"
+
+msgid "Grids"
+msgstr "Hnit"
+
+msgid "Ground"
+msgstr "Jörð"
+
+msgid "Gyro"
+msgstr "Gýróskóp"
+
+msgid "Gyro mode"
+msgstr "Gýróskóphamur"
+
+msgid "Height"
+msgstr "Hæð"
+
+msgid "Heliocentric ecliptic positions of the major planets."
+msgstr "Sólmiðjuð sólbaugsstöðu helstu reikistjarna."
+
+msgid "HiPS"
+msgstr "HiPS"
+
+msgid "Hide controls"
+msgstr "Fela stýringu"
+
+msgid "Hide deep-sky objects fainter than the limit"
+msgstr "Fela djúpfyrirbæri faigari en mörk"
+
+msgid "Hide nomenclature on the celestial body of observer"
+msgstr "Fela skilgreiningar á himinhlut áhorfenda"
+
+msgid "Hide orbits of minor bodies"
+msgstr "Fela sporbrautir minni hluta"
+
+msgid "Highlight"
+msgstr "Skera út"
+
+msgid "Highlight the objects of the observing list"
+msgstr "Draga fram hluti eftirlit"
+
+msgid "Hint circles marking each planet"
+msgstr "Vísbendingarhringir sem merkja hvern plánetu"
+
+msgid "Hints brightness"
+msgstr "Birtustig vísbendinga"
+
+msgid "Hipparcos designations"
+msgstr "Hipparcos heiti"
+
+msgid "Hour angles usually run 0...24h. This counts -12h...12h."
+msgstr "Tímahorn ganga venjulega 0...24klst. Þetta telur -12klst...12klst."
+
+msgid "How many"
+msgstr "Hvað margt"
+
+msgid "ICRS grid"
+msgstr "ICRS hnit"
+
+msgid "Include"
+msgstr "Taka með"
+
+msgid "Include bright comets"
+msgstr "Taka með bjarta halastjörnu"
+
+msgid "Include selected minor planets"
+msgstr "Taka með valda minni plánetur"
+
+msgid "Info label"
+msgstr "Upplýsingamerkingu"
+
+msgid "Intercardinal points"
+msgstr "Milliáttir"
+
+msgid "Interior egress"
+msgstr "Innri útgöngur"
+
+msgid "Interior ingress"
+msgstr "Innri inngöngur"
+
+msgid "Isolated"
+msgstr "Einangruð"
+
+msgid "Its elevation, and the civil, nautical and astronomical twilights"
+msgstr "Þess hækkun og borgarskrumskip, farskip og stjörnufræðileg krumaskip"
+
+msgid "Jovigraphic longitude of the spot in System II, in degrees"
+msgstr "Jóvígrafísk lengdargráða blettinn í kerfi II, í gráðum"
+
+msgid "June solstice"
+msgstr "Júní-sólstöð"
+
+msgid "Label"
+msgstr "Merking"
+
+msgid "Label colour"
+msgstr "Litur á merkingu"
+
+msgid "Label only features along the terminator"
+msgstr "Merkja aðeins einkenni meðfram terminatorinum"
+
+msgid "Labels and Markers amount"
+msgstr "Magn merkinga og markara"
+
+msgid "Labels brightness"
+msgstr "Birtustig merkinga"
+
+msgid "Largest, ′"
+msgstr "Stærsti, ′"
+
+msgid "Last known position"
+msgstr "Síðasta þekkt staðsetning"
+
+msgid "Lasting"
+msgstr "Sígandi"
+
+msgid "Latitude −90…90, longitude −180…180."
+msgstr "Breiddargráða −90…90, lengdargráða −180…180."
+
+msgid "Layer appearance"
+msgstr "Útlit lags"
+
+msgid "Leaves the landscape visible in darkness"
+msgstr "Skilur landskapið sýnilegt í myrkri"
+
+msgid "Licence"
+msgstr "Leyfisbréf"
+
+msgid "Light pollution"
+msgstr "Ljósmengun"
+
+msgid "Light pollution from database"
+msgstr "Ljósmengun frá gagnagrunni"
+
+msgid "Limit angular separation"
+msgstr "Takmarka hornbil"
+
+msgid "Limit angular size"
+msgstr "Takmarka hornstærð"
+
+msgid "Limit magnitude"
+msgstr "Takmarka birtustig"
+
+msgid "Line thickness"
+msgstr "Þykkt línanna"
+
+msgid "Linear and angular distances between selected objects"
+msgstr "Línuleg og hornbil milli valinna hluta"
+
+msgid "Linear distance"
+msgstr "Línuleg fjarlægð"
+
+msgid "Lines"
+msgstr "Línur"
+
+msgid "Lines and circles"
+msgstr "Línur og hringir"
+
+msgid "List"
+msgstr "Listi"
+
+msgid "List name"
+msgstr "Heiti lista"
+
+msgid "Lit windows, street lighting and the like"
+msgstr "Upplýst gluggir, gatnabirting og slíkt"
+
+msgid "Loading…"
+msgstr "Hleð…"
+
+msgid "Local solar eclipses"
+msgstr "Staðbundin sólarmorguðir"
+
+msgid "Local time"
+msgstr "Staðbundinn tími"
+
+msgid "Local time, h"
+msgstr "Staðbundinn tími, klst"
+
+msgid "Locate me"
+msgstr "Finndu mig"
+
+msgid "Locating…"
+msgstr "Staðsæti…"
+
+msgid "Location from landscape"
+msgstr "Staðsetning frá landskapi"
+
+msgid "Location is switched off in the system settings."
+msgstr "Staðsetning er slegin af í kerfistillingum."
+
+msgid "Location permission refused. The other two ways still work."
+msgstr "Staðsetningarleyfi neitað. Hin tvö leiðin virka ennþá."
+
+msgid "Long press"
+msgstr "Langur þrykk"
+
+msgid "Longitude of GRS"
+msgstr "Lengdargráða GRS"
+
+msgid "Lunar Stations"
+msgstr "Tunglstöðvar"
+
+msgid "Lunar eclipses"
+msgstr "Tunglmorguðir"
+
+msgid "Magnitudes"
+msgstr "Birtustig"
+
+msgid "Major planets by planet, minor bodies by type"
+msgstr "Helstu plánetur eftir plánetu, minni hlutir eftir tegund"
+
+msgid "Map of the planet. Tap to set the observer's place."
+msgstr "Kort plánetunnar. Snertu til að stilla stað áhorfenda."
+
+msgid "March equinox"
+msgstr "Mars-jafndægur"
+
+msgid "Mark impact features with ellipses"
+msgstr "Merka áhrifaeinkenni með sporblöðrum"
+
+msgid "Mark minor bodies"
+msgstr "Merka minni hnetti"
+
+msgid "Markers"
+msgstr "Merkarar"
+
+msgid "Markers sized by the object's angular size"
+msgstr "Merkarar svaraðir af hornstærð hlutar"
+
+msgid "Master switch for the grids, lines and points below"
+msgstr "Aðalrofi fyrir hnitnet, línur og punkta hér að neðan"
+
+msgid "Max items to display"
+msgstr "Hámark atriða til sýnis"
+
+msgid "Max. results"
+msgstr "Hámark. niðurstöður"
+
+msgid "Maximum allowed separation"
+msgstr "Hámark leyfð aðskilnaður"
+
+msgid "Maximum angular size"
+msgstr "Hámark hornstærð"
+
+msgid "Maximum year"
+msgstr "Hámark ár"
+
+msgid "Mean motion"
+msgstr "Meðalhraði"
+
+msgid "Mercury, Venus, Mars, Jupiter and Saturn at once. Earth only."
+msgstr "Merkúr, Venus, Mars, Júpíter og Satúrnus í einu. Jörðin eingöngu."
+
+msgid "Milky Way brightness"
+msgstr "Birtustig Vetrarbrautar"
+
+msgid "Milky Way saturation"
+msgstr "Súð Vetrarbrautar"
+
+msgid "Minimal angular size"
+msgstr "Lágmark hornstærð"
+
+msgid "Minimal brightness"
+msgstr "Lágmark birtustig"
+
+msgid "Minimum year"
+msgstr "Lágmark ár"
+
+msgid "Minutes before sunrise / after sunset"
+msgstr "Mínútur fyrir sólaruppgang / eftir sólsetur"
+
+msgid "Moon at"
+msgstr "Tunglið við"
+
+msgid "Moon in zenith at"
+msgstr "Tungl í hvirfilpunkti við"
+
+msgid "Moon's halo"
+msgstr "Hópur tungls"
+
+msgid "Moons of first body"
+msgstr "Tungl fyrstu líkama"
+
+msgid "Morning"
+msgstr "Morgun"
+
+msgid "Morph. Descr."
+msgstr "Form. Lýs."
+
+msgid "Move the sky by pointing the phone at it"
+msgstr "Hreyfa himinn með því að benda farsímanum á hann"
+
+msgid "Move the sky with the phone"
+msgstr "Hreyfa himinn með farsímanum"
+
+msgid "Name for the new list"
+msgstr "Heiti fyrir nýjan lista"
+
+msgid "Named features the landscape marks"
+msgstr "Nefndir eiginleikar sem landslag merkir"
+
+msgid "Names"
+msgstr "Nöfn"
+
+msgid "Names beside the planets and their markers"
+msgstr "Nöfn við reikistjörnur og merki þeirra"
+
+msgid "Names in English"
+msgstr "Nöfn á ensku"
+
+msgid "Neb. bg"
+msgstr "Neb. bakgr."
+
+msgid "Nebulae"
+msgstr "Geimþokur"
+
+msgid "New list"
+msgstr "Nýr listi"
+
+msgid "Next"
+msgstr "Næsta"
+
+msgid "Night"
+msgstr "Nótt"
+
+msgid "No city matches that."
+msgstr "Engin borg passar við það."
+
+msgid "No eclipses found. Pick a range and calculate."
+msgstr "Engin myrkvi fundin. Veldu svið og reiknaðu."
+
+msgid "No fresh fix - the receiver may have no sky. Try again outdoors, or set the place another way."
+msgstr "Engin ný staðfesting - móttaki gæti ekki séð himinn. Reyndu aftur úti, eða stilltu staðinn á annan hátt."
+
+msgid "No surveys were found. The lists are downloaded, so this needs a connection."
+msgstr "Engar rannsóknir fundust. Listinn eru sóttir niður, svo þetta þarf tengingu."
+
+msgid "None downloaded yet"
+msgstr "Ekkert sótt niður ennþá"
+
+msgid "Normal"
+msgstr "Eðlilegt"
+
+msgid "Note: Local circumstances for eclipses during thousands of years in the past and future are not reliable due to uncertainty in ΔT which is caused by fluctuations in Earth's rotation."
+msgstr "Athugasemd: Staðbundnar aðstæður fyrir myrkva um þúsundir ára fram og aftur eru ekki áreiðanlegar vegna óvissu um ΔT sem stafar af sveiflum í snúningi Jarðar."
+
+msgid "Note: artificial satellites and unnamed stars are excluded from calculation"
+msgstr "Athugasemd: Gervihnettir og ónefndar stjörnur eru útilokaðar frá útreikningum"
+
+msgid "Note: this tool doesn't apply the refraction correction for coordinates. Horizontal coordinates stop the clock, or the sky would turn away from the point while you arrive at it."
+msgstr "Athugasemd: þetta tól beitir ekki endurkastleiðréttingu fyrir hnit. Lárétt hnit stöðva klukku, annars myndi himinn snúast frá punktinum meðan þú kemst þangað."
+
+msgid "Notes: The quantity gamma is the minimum distance from the axis of lunar shadow cone to the center of Earth, in units of Earth’s equatorial radius. This distance is positive or negative, depending on whether the axis of the shadow cone passes north or south of the Earth's center. Path of solar eclipses during thousands of years in the past and future are not reliable due to uncertainty in ΔT which is caused by fluctuations in Earth's rotation."
+msgstr "Athugasemdir: Stærðin gamma er lágmarksfjarlegð frá ási skuggakeilunnar tunglsins að miðju Jarðar, gefin upp í hlutföllum miðbaugsstærðar Jarðar. Þessi fjarlægð er jákvæð eða neikvæð, eftir því hvort ásinn fer norður eða suður um miðju Jarðar. Brautir sólarkreppunnar um þúsundir ára fram og aftur eru ekki áreiðanlegar vegna óvissu um ΔT sem stafar af sveiflum í snúningi Jarðar."
+
+msgid "Notes: The quantity gamma is the minimum distance from the center of the Moon to the axis of Earth’s umbral shadow cone, in units of Earth’s equatorial radius. This distance is positive or negative, depending on whether the Moon passes north or south of the shadow cone axis. Local circumstances for eclipses during thousands of years in the past and future are not reliable due to uncertainty in ΔT which is caused by fluctuations in Earth's rotation."
+msgstr "Athugasemdir: Stærðin gamma er lágmarksfjarlegð frá miðju tunglsins að ási alskuggakeilunnar Jarðar, gefin upp í hlutföllum miðbaugsstærðar Jarðar. Þessi fjarlægð er jákvæð eða neikvæð, eftir því hvort tunglið fer norður eða suður um ásinn á skuggakeilunni. Staðbundnar aðstæður fyrir myrkva um þúsundir ára fram og aftur eru ekki áreiðanlegar vegna óvissu um ΔT sem stafar af sveiflum í snúningi Jarðar."
+
+msgid "Notes: Time in parentheses means the contact is invisible at current location. Transit times during thousands of years in the past and future are not reliable due to uncertainty in ΔT which is caused by fluctuations in Earth's rotation."
+msgstr "Athugasemdir: Tími í sviga merkir að snertingin er ósýnileg frá núverandi staðsetningu. Þvergangartímar um þúsundir ára fram og aftur eru ekki áreiðanlegar vegna óvissu um ΔT sem stafar af sveiflum í snúningi Jarðar."
+
+msgid "Nothing computed yet, or nothing in this category is up."
+msgstr "Ekkert reiknað ennþá, eða ekkert í þessum flokki er upp."
+
+msgid "Nothing computed yet."
+msgstr "Ekkert reiknað ennþá."
+
+msgid "Nothing found for “%s”."
+msgstr "Engin niðurstaða fyrir \"%s\"."
+
+msgid "Nothing in this list matches."
+msgstr "Ekkert í þessum lista passar."
+
+msgid "Nothing in this list yet. Pick something out of the sky and tap the star on its card to keep it here."
+msgstr "Ekkert í þessum lista ennþá. Veldu eitthvað á himinum og ýttu á stjörnuna á korti þess til að halda því hér."
+
+msgid "Nothing is selected. Pick an object in the sky first."
+msgstr "Ekkert er valið. Veldu hlut á himinum fyrst."
+
+msgid "Nothing matches."
+msgstr "Ekkert passar."
+
+msgid "Nothing selected"
+msgstr "Ekkert valið"
+
+msgid "Nothing to plot."
+msgstr "Ekkert til að draga."
+
+msgid "Nothing to show."
+msgstr "Ekkert til að sýna."
+
+msgid "N× above"
+msgstr "N× fyrir ofan"
+
+msgid "OBJECT"
+msgstr "HLUTUR"
+
+msgid "OBJECTS"
+msgstr "HLUTIR"
+
+msgid "Objects which are up"
+msgstr "Hlutir sem eru upp"
+
+msgid "Observable duration"
+msgstr "Sjáanleg tímalengd"
+
+msgid "Observing list"
+msgstr "Athugunarlisti"
+
+msgid "Observing list highlight"
+msgstr "Athugnarlistiframhöld"
+
+msgid "Observing lists"
+msgstr "Athugnarlistar"
+
+msgid "On the sky"
+msgstr "Á himinum"
+
+msgid "One color"
+msgstr "Einn litur"
+
+msgid "Only for N latest selected objects"
+msgstr "Einungis fyrir N síðast valin atriði"
+
+msgid "Only list"
+msgstr "Aðeins listi"
+
+msgid "Only one at a time"
+msgstr "Aðeins einn í einu"
+
+msgid "Only orbit for selected object…"
+msgstr "Einungis sporbrauta fyrir valinn hlut…"
+
+msgid "Only orbits of major planets…"
+msgstr "Einungis sporbrautir helstu reikistjarna…"
+
+msgid "Open date and time"
+msgstr "Opna dagsetningu og tíma"
+
+msgid "Open location"
+msgstr "Opna staðsetningu"
+
+msgid "Opens the JUPOS project in a browser"
+msgstr "Opnar JUPOS verkefnið í vafra"
+
+msgid "Opposition of"
+msgstr "Andstaða"
+
+msgid "Oppositions"
+msgstr "Andstaður"
+
+msgid "Orbit colors"
+msgstr "Litir sporbauga"
+
+msgid "Orbital periods ratio"
+msgstr "Hlutfall umferðartíma"
+
+msgid "Orbits"
+msgstr "Sporbrautir"
+
+msgid "Orbits of interstellar objects"
+msgstr "Sporbrautir millistjörnuhluta"
+
+msgid "Orbits of moons"
+msgstr "Sporbrautir tungla"
+
+msgid "Otherwise every move adopts the zone of the new place."
+msgstr "Annars myndu allar hreyfingar taka við tímabelti nýja staðarins."
+
+msgid "Outline craters"
+msgstr "Útlínur gata"
+
+msgid "Pan the sky"
+msgstr "Hreyfðu himinn"
+
+msgid "Partial eclipse begins"
+msgstr "Hlutmyrkvi hefst"
+
+msgid "Partial eclipse ends"
+msgstr "Hlutmyrkva lýkur"
+
+msgid "Partitions"
+msgstr "Hlutir"
+
+msgid "Partitions thickness"
+msgstr "Þykkt hluta"
+
+msgid "Path width"
+msgstr "Breidd göngu"
+
+msgid "Pause"
+msgstr "Hlé"
+
+msgid "Paused - start"
+msgstr "Í bið - ræsa"
+
+msgid "Penumbral magnitude"
+msgstr "Birtustig hálfskugga"
+
+msgid "Perihelion and aphelion"
+msgstr "Perihelion og aphelion"
+
+msgid "Pick two different bodies to see how their distance changes."
+msgstr "Veldu tvö mismunandi hluti til að sjá hvernig fjarlægðin þeirra breytist."
+
+msgid "Pinch"
+msgstr "Klípa"
+
+msgid "Planet and time zone"
+msgstr "Reikisstjarna og tímabelti"
+
+msgid "Planetary nomenclature"
+msgstr "Skilgreiningar reikistjarna"
+
+msgid "Planetary transits"
+msgstr "Þvergangar reikistjarna"
+
+msgid "Planets"
+msgstr "Reikist."
+
+msgid "Please select object to plot its 'Monthly Elevation' graph for the current year at selected time."
+msgstr "Veldu hlut til að teikna graf fyrir „Mánaðarlega hækkun\" fyrir yfirstandandi ár á völdum tíma."
+
+msgid "Pluto, Ceres, Pallas, Juno and Vesta"
+msgstr "Plútó, Keres, Pallas, Júnó og Vesta"
+
+msgid "Point size"
+msgstr "Stærð punkta"
+
+msgid "Pointing"
+msgstr "Bending"
+
+msgid "Polar distance"
+msgstr "Stytta fjarlægð"
+
+msgid "Polar distance, not declination"
+msgstr "Stytta fjarlægð, ekki stjörnubreidd"
+
+msgid "Poles and points"
+msgstr "Pólar og punktar"
+
+msgid "Polygon colour"
+msgstr "Litur marghyrnings"
+
+msgid "Positive values only"
+msgstr "Aðeins jákvæð gildi"
+
+msgid "Previous"
+msgstr "Fyrri"
+
+msgid "Projected Solar Equator"
+msgstr "Varpaður sólarmiðbaugur"
+
+msgid "Pronounce"
+msgstr "Framburður"
+
+msgid "Query SIMBAD about selected object"
+msgstr "Spurðu SIMBAD um valinn hlut"
+
+msgid "Query options"
+msgstr "Leitarvalkostir"
+
+msgid "Quit"
+msgstr "Hætta"
+
+msgid "Reading…"
+msgstr "Les…"
+
+msgid "Real time speed"
+msgstr "Hraði rauntíma"
+
+msgid "Refraction, extinction, sky brightness"
+msgstr "Endurkast, sogkraft, birtustig himins"
+
+msgid "Relative scale"
+msgstr "Hlutfallsleg mælikvarði"
+
+msgid "Remove %s"
+msgstr "Fjarlægja %s"
+
+msgid "Remove from observing list"
+msgstr "Fjarlægja úr athugunarlista"
+
+msgid "Rename"
+msgstr "Endurnefna"
+
+msgid "Reset all"
+msgstr "Endurstilla allt"
+
+msgid "Restarting…"
+msgstr "Endurkeyrir…"
+
+msgid "Rises"
+msgstr "Ris"
+
+msgid "Rotation"
+msgstr "Snúningur"
+
+msgid "Running"
+msgstr "Keyrir"
+
+msgid "SIMBAD did not answer."
+msgstr "SIMBAD svaraði ekki."
+
+msgid "SIMBAD is switched off in the search options."
+msgstr "SIMBAD er slökkt í leitarvalkostum."
+
+msgid "SIMBAD is switched off. Turn it on under Options to look objects up online."
+msgstr "SIMBAD er slökkt. Kveiktu á því undir Valkostum til að fletta hlutum upp á vefnum."
+
+msgid "SIMBAD server"
+msgstr "SIMBAD þjónn"
+
+msgid "Saturation"
+msgstr "Súð"
+
+msgid "Save either the current FOV and direction of view or all the current options for use at next startup. Restoring default settings requires a restart of the app."
+msgstr "Vistaðu annaðhvort núverandi sjónsvið og stefnu sýnar eða alla núverandi valkosti til notkunar við næsta ræsingu. Að endurheimta sjálfgefnar stillingar krefst endurræsingar forritsins."
+
+msgid "Save to observing list"
+msgstr "Vista á athugunarlista"
+
+msgid "Scale"
+msgstr "Mælikvarði"
+
+msgid "Scale marker and label visibility by surface brightness"
+msgstr "Stærðaraðlögun merkinga og heiti eftir yfirborðsbirtu"
+
+msgid "Scales smoothly between 1× at the minimum field of view and the factor above at the maximum"
+msgstr "Stillir sig jafnt á milli 1× við lágmark sjónsviðs og stuðulinn hér að ofan við hámark"
+
+msgid "Screen label"
+msgstr "Skjámerking"
+
+msgid "Search in list"
+msgstr "Leita í lista"
+
+msgid "Seasons"
+msgstr "Árstíðir"
+
+msgid "Second body"
+msgstr "Annar hlutur"
+
+msgid "Second celestial body"
+msgstr "Annar himintungul"
+
+msgid "Second graph"
+msgstr "Annar grafíkur"
+
+msgid "Second object"
+msgstr "Annar hlutur"
+
+msgid "Secondary intercardinal points"
+msgstr "Aukaflokks milliáttir"
+
+msgid "See the sky through the ground"
+msgstr "Sjá himinn í gegnum yfirborðið"
+
+msgid "Select an object first: this asks SIMBAD what it holds around it."
+msgstr "Veldu hlut fyrst: þetta spyrr SIMBAD hvað það á við það."
+
+msgid "Select it and show its card"
+msgstr "Veldu hann og sýndu kort hans"
+
+msgid "Select something in the sky first — this page works on the selection."
+msgstr "Veldu eitthvað á himinum fyrst — þessi síða virkar á vali."
+
+msgid "Selected object"
+msgstr "Valinn hlutur"
+
+msgid "Separate colors for orbits of major planets"
+msgstr "Sérstakir litir fyrir sporbrautir helstu reikistjarna"
+
+msgid "September equinox"
+msgstr "September-jafndægur"
+
+msgid "Server"
+msgstr "Þjónn"
+
+msgid "Set the clock to %s"
+msgstr "Stilla klukku á %s"
+
+msgid "Set the place"
+msgstr "Stilltu staðinn"
+
+msgid "Set to now"
+msgstr "Stilla á núna"
+
+msgid "Sets"
+msgstr "Setur"
+
+msgid "Shadow map for non-convex bodies. May coarsen the penumbra on some objects"
+msgstr "Skuggakort fyrir ókonveksa hluti. Getur gert hálfskugga grófari á sumum hlutum"
+
+msgid "Shooting stars"
+msgstr "Stjörnustaupar"
+
+msgid "Short notation for units of surface brightness"
+msgstr "Stutt skráning fyrir einingar yfirborðsbirtu"
+
+msgid "Short steps over a long duration are slow."
+msgstr "Stutt skref á langan tíma eru hæg."
+
+msgid "Show"
+msgstr "Sýna"
+
+msgid "Show FOV center marker when position is search"
+msgstr "Sýna miðjarmerki sjónsviðs þegar staðsetning er leit"
+
+msgid "Show all information"
+msgstr "Sýna allar upplýsingar"
+
+msgid "Show atmospheric extinction"
+msgstr "Sýna andrúmsloftssogkraft"
+
+msgid "Show button in addition to keyboard shortcut?"
+msgstr "Sýna hnappur auk flýtilykils?"
+
+msgid "Show controls"
+msgstr "Sýna stýringar"
+
+msgid "Show each body where it was when the light left it (recommended)"
+msgstr "Sýna hvern hlut þar sem hann var þegar ljósið yfirgaf hann (ráðlegt)"
+
+msgid "Show frames per second beside the field of view"
+msgstr "Sýna myndir á sekúndu við hlið sjónsviðs"
+
+msgid "Show illumination"
+msgstr "Sýna birtingu"
+
+msgid "Show in sky"
+msgstr "Sýna á himinum"
+
+msgid "Show less"
+msgstr "Sýna minna"
+
+msgid "Show lunar stations (if defined)"
+msgstr "Sýna tunglstöðvar (ef skilgreind)"
+
+msgid "Show more"
+msgstr "Sýna meira"
+
+msgid "Show objects which are up"
+msgstr "Sýna hluti sem eru upp"
+
+msgid "Show only named DSO"
+msgstr "Sýna aðeins nefnd djúpfyrirbæri"
+
+msgid "Show only objects between the two sizes"
+msgstr "Sýna aðeins hluti á milli tveggja stærða"
+
+msgid "Show only the kinds ticked below"
+msgstr "Sýna aðeins tegundir sem hakað er við hér að neðan"
+
+msgid "Show or hide the two rails of controls"
+msgstr "Sýna eða fela tvær stýristengur"
+
+msgid "Show orbit even if object is off screen"
+msgstr "Sýna sporbrauta jafnvel þó að hlutur sé utan skjás"
+
+msgid "Show orbit only for selected SSO"
+msgstr "Sýna sporbrauta einungis fyrir valinn SSO"
+
+msgid "Show orbits of major planets"
+msgstr "Sýna sporbrautir helstu reikistjarna"
+
+msgid "Show special nomenclature points only"
+msgstr "Sýna einungis sérstaka skilgreiningapunkta"
+
+msgid "Show surveys"
+msgstr "Sýna rannsóknir"
+
+msgid "Show this survey"
+msgstr "Sýna þessa rannsókn"
+
+msgid "Show tiny circles for minor bodies regardless of magnitude"
+msgstr "Sýna litla hringi fyrir minni hnetti óháð birtustigi"
+
+msgid "Show zodiac (if defined)"
+msgstr "Sýna dýrahringinn (ef skilgreindur)"
+
+msgid "Simbad Lookup Error: %s"
+msgstr "Simbad uppflettingarvilla: %s"
+
+msgid "Simbad Lookup: querying"
+msgstr "Simbad uppfletting: spurður"
+
+msgid "Simulation"
+msgstr "Hermi"
+
+msgid "Sky and viewing options"
+msgstr "Himinn og skoðunarvalkostir"
+
+msgid "Sky culture"
+msgstr "Stjörnumerkjakerfi"
+
+msgid "Slow down"
+msgstr "Hægðu"
+
+msgid "Smallest, ′"
+msgstr "Minnsti, ′"
+
+msgid "Solar altitude for Twilight Finder"
+msgstr "Hæð sólar fyrir hringlahnappur"
+
+msgid "Solar elongation"
+msgstr "Álengd sólar"
+
+msgid "Special points only"
+msgstr "Einungis sérstakir punktar"
+
+msgid "Speed up"
+msgstr "Flýtaðu"
+
+msgid "Stand where the landscape was shot, on the planet it names"
+msgstr "Stærri þar sem landslag var tekið, á plánetunni sem það nefnir"
+
+msgid "Star, planet, catalogue number…"
+msgstr "Stjarna, reikisstjarna, skránúmer…"
+
+msgid "Started"
+msgstr "Hafið"
+
+msgid "Startup FOV"
+msgstr "FOV við ræsingu"
+
+msgid "Startup direction of view"
+msgstr "Stefna sýnar við ræsingu"
+
+msgid "Stationary (begin prograde motion)"
+msgstr "Kyrrstæðir (hefja beina hreyfingu)"
+
+msgid "Stationary (begin retrograde motion)"
+msgstr "Kyrrstæðir (hefja afturábak hreyfingu)"
+
+msgid "Stellarium's user guide covers the astronomy this app shares with it: stellarium.org/documentation"
+msgstr "Notkunarhandbók Stellarium fjallar um stjörnufræði sem þessi forrit deilir með henni: stellarium.org/documentation"
+
+msgid "Step, hours"
+msgstr "Skref, stundir"
+
+msgid "Strasbourg astronomical Data Center (France)"
+msgstr "Stjörnufræðilegir gagnamiðstöð Strasbourg (Frakkland)"
+
+msgid "Style"
+msgstr "Stíll"
+
+msgid "Sun altitude"
+msgstr "Hæð sólar"
+
+msgid "Sun at"
+msgstr "Sólin við"
+
+msgid "Sun's altitude"
+msgstr "Hæð sólarinnar"
+
+msgid "Sun, planets and moons of first body and observer's planet"
+msgstr "Sól, reikistjörnur og tungl fyrstu líkama og plánetuinnar áhorfanda"
+
+msgid "Sun, planets and moons of observer's planet"
+msgstr "Sól, reikistjörnur og tungl plánetuinnar áhorfanda"
+
+msgid "Sunlight scattered by interplanetary dust"
+msgstr "Sólarljós dreift af milliplanótastofni"
+
+msgid "Switch this off to see the trails for all Solar system bodies"
+msgstr "Slökktu á þessu til að sjá ferla fyrir alla hluti sólkerfisins"
+
+msgid "System date at"
+msgstr "Kerfisdagur við"
+
+msgid "Tabular output for coordinates and time"
+msgstr "Taflaprat fyrir hnit og tíma"
+
+msgid "Tap a colour to change it. Changes show on the sky at once and are kept."
+msgstr "Ýttu á lit til að breyta honum. Breytingar birtast á himinum strax og eru geymdar."
+
+msgid "Tap again to confirm"
+msgstr "Ýttu aftur til að staðfesta"
+
+msgid "Tap an object"
+msgstr "Ýttu á hlut"
+
+msgid "Tap the chart to read a value."
+msgstr "Ýttu á töfluna til að lesa gildi."
+
+msgid "Tap the clock"
+msgstr "Ýttu á klukku"
+
+msgid "Tap the gear"
+msgstr "Ýttu á gír"
+
+msgid "Tap the map to stand there."
+msgstr "Ýttu á kort til að standa þar."
+
+msgid "Tap the place"
+msgstr "Ýttu á staðinn"
+
+msgid "Tap to confirm"
+msgstr "Ýttu til að staðfesta"
+
+msgid "Text angle"
+msgstr "Hornhöll texta"
+
+msgid "The Great Red Spot drifts in System II longitude. Enter a recent measurement and the drift rate to carry it forward from."
+msgstr "Stóra rauða blettinn rekst í lengdargráðu kerfis II. Sláðu inn nýlegri mælingu og rekahraða til að bera hana áfram frá."
+
+msgid "The algorithm is based on visual observations 1877-1891 by G. Müller and was still republished in the Explanatory Supplement to the Astronomical Ephemeris (1961)."
+msgstr "Reikniritunum er byggt á sjónrænni athugunum 1877-1891 eftir G. Müller og var ennþá endurbirtin í Skýringaviðbót stjörnualmanakasinnar (1961)."
+
+msgid "The algorithm was published by A. Mallama & J. L. Hilton: Computing apparent planetary magnitudes for the Astronomical Almanac. Astronomy&Computing 25 (2018) 10-24."
+msgstr "Reikniritunum var birt af A. Mallama & J. L. Hilton: Computing apparent planetary magnitudes for the Astronomical Almanac. Astronomy&Computing 25 (2018) 10-24."
+
+msgid "The algorithm was published in the 2nd edition of the Explanatory Supplement to the Astronomical Almanac (1992)."
+msgstr "Reikniritunum var birt í 2. útgáfu Skýringaviðbótar stjörnualmanakasinnar (1992)."
+
+msgid "The algorithm was published in the 3rd edition of the Explanatory Supplement to the Astronomical Almanac (2013)."
+msgstr "Reikniritunum var birt í 3. útgáfu Skýringaviðbótar stjörnualmanakasinnar (2013)."
+
+msgid "The algorithm was used in the Astronomical Almanac (1984 and later) and gives V (instrumental) magnitudes (allegedly from D.L. Harris)."
+msgstr "Reikniritunum var notað í stjörnualmanakinni (1984 og síðar) og gefur V (tækjabirt) birtustig (úr D.L. Harris)."
+
+msgid "The classical cepheids"
+msgstr "Klassískar Kephaleid-stjörnur"
+
+msgid "The colour each kind of object is drawn in"
+msgstr "Liturinn sem hver tegund af hlutum er dregin í"
+
+msgid "The engine did not answer with any colours."
+msgstr "Vélin svaraði ekki með neinum litum."
+
+msgid "The galactic band"
+msgstr "Vetrarbrautarbandið"
+
+msgid "The horizon outline instead of the panorama"
+msgstr "Útlína sjóndeildarhringsins í stað þjóðkvikmynda"
+
+msgid "The path each body has taken across the sky"
+msgstr "Brautin sem hver hlutur hefur tekið yfir himinn"
+
+msgid "The shortest label the culture defines"
+msgstr "Stysta merking sem menningarkerfið skilgreinir"
+
+msgid "Thickness"
+msgstr "Þykkt"
+
+msgid "This copy ships no scripts."
+msgstr "Þessi útgáfa inniheldur engar skriftur."
+
+msgid "This device has no location service."
+msgstr "Þetta tæki hefur enga staðsetningarþjónustu."
+
+msgid "This part of the engine exposes no settings on this build."
+msgstr "Þessi hluti vélarinnar gefur engar stillingar á þessari gerð."
+
+msgid "This tool works on Earth only!"
+msgstr "Þetta verkfæri virkar aðeins á Jörðu!"
+
+msgid "This tool works on Earth only. Short steps over a long duration are slow."
+msgstr "Þetta tól virkar aðeins á Jörðu. Stutt tímaskref yfir langa tíð eru hæg."
+
+msgid "This year"
+msgstr "Þetta ár"
+
+msgid "Time of day"
+msgstr "Tími á degi"
+
+msgid "Time span"
+msgstr "Tímasvið"
+
+msgid "Time step"
+msgstr "Tímaskref"
+
+msgid "To the next (mths)"
+msgstr "Til þess næsta (mán.)"
+
+msgid "To the next, months"
+msgstr "Til þess næsta, mánuðir"
+
+msgid "Toggle display of the button for the Digitized Sky Survey."
+msgstr "Víxla biringu hnapps fyrir Digitized Sky Survey."
+
+msgid "Toggle display of the button for the HiPS Surveys. Select a survey in the View settings."
+msgstr "Víxla biringu hnapps fyrir HiPS-mælingar. Veldu mælingu í stillingum View."
+
+msgid "Toggle drawing halo around the Moon"
+msgstr "Víxla teikningu glóðu um Tungl"
+
+msgid "Toggle permanent drawing of Sun's corona when atmosphere is disabled"
+msgstr "Víxla stöðugri teikningu kórónu sólarinnar þegar andrúmsloft er óvirkt"
+
+msgid "Trails"
+msgstr "Ferl"
+
+msgid "Translated"
+msgstr "Þýtt"
+
+msgid "Transparency"
+msgstr "Gagnsæi"
+
+msgid "Twilight and rise and set times are worked out for an observer on Earth. Move back to Earth to see them."
+msgstr "Hvíletímar og ris- og seturtímar eru reiknaðir fyrir áhorfanda á Jörðu. Farðu til baka á Jörðu til að sjá þá."
+
+msgid "Twinkle"
+msgstr "Skríti"
+
+msgid "Twinkle amount"
+msgstr "Magn skrítis"
+
+msgid "Twinkle even without atmosphere"
+msgstr "Skríti jafnvel án andrúmslofts"
+
+msgid "Twinkle is caused by atmospheric turbulence; this shows it regardless"
+msgstr "Skríti stafar frá óreiðu í andrúmslofti; þetta sýnir það engu að síður"
+
+msgid "Type a name, a Bayer letter or a catalogue number - Vega, α Lyr, M 31, NGC 224."
+msgstr "Sláðu inn heiti, Bayer-staf eða skrárheiti - Vega, α Lyr, M 31, NGC 224."
+
+msgid "Umbral magnitude"
+msgstr "Alskuggabirtustig"
+
+msgid "Up to mag."
+msgstr "Upp til birtu."
+
+msgid "Use common symbols for coordinate systems"
+msgstr "Nota algenga tákn fyrir hnitakerfi"
+
+msgid "Use distance from North Celestial Pole, not declination from equator in equatorial coordinates"
+msgstr "Nota fjarlægð frá Norðurhiminskautu, ekki stjörnubreiddina frá miðbaug í miðbaugshnitum"
+
+msgid "Use mag/arcsec^2 for surface brightness"
+msgstr "Nota mag/arcsec^2 fyrir yfirborðsbirtu"
+
+msgid "Use my location"
+msgstr "Nota staðsetningu mína"
+
+msgid "Use sorting by string length"
+msgstr "Nota flokkun eftir lengd strengs"
+
+msgid "Use the date now shown in the sky"
+msgstr "Nota dagsetningu sem er nú birt á himni"
+
+msgid "Use the value in landscape.ini when it has one"
+msgstr "Nota gildið í landscape.ini þegar hún hefur eitt"
+
+msgid "Use the value stored for this location"
+msgstr "Nota gildið sem geymt er fyrir þessa staðsetningu"
+
+msgid "Version %s  ·  Qt %s"
+msgstr "Útgáfa %s  ·  Qt %s"
+
+msgid "Visibility"
+msgstr "Sýnileiki"
+
+msgid "When a search result is chosen"
+msgstr "Þegar leitarniðurstaða er valin"
+
+msgid "Where Jupiter's Great Red Spot was, and when"
+msgstr "Hvar var Stóri rauði blettir Júpíters og hvenær"
+
+msgid "Width"
+msgstr "Breidd"
+
+msgid "Working out the contact times…"
+msgstr "Reikna tengipunkta…"
+
+msgid "Zodiac and lunar stations"
+msgstr "Dýrahringur og tunglstöðvar"
+
+msgid "Zodiacal Light brightness"
+msgstr "Birtustig sverðbjarma"
+
+msgid "Zoom in and out"
+msgstr "Stækka og minnka"
+
+msgid "after sunset"
+msgstr "eftir sólarboð"
+
+msgid "before sunrise"
+msgstr "fyrir sólaruppgang"
+
+msgid "bright suburban"
+msgstr "bjart úthverfissvæði"
+
+msgid "east +"
+msgstr "austur +"
+
+msgid "engine ready, interface going live"
+msgstr "Vél tilbúin, viðmót fer í gang"
+
+msgid "excellent dark sky"
+msgstr "frábær dökkur himinn"
+
+msgid "inner city"
+msgstr "miðbær"
+
+msgid "mag %s"
+msgstr "birta %s"
+
+msgid "max %s"
+msgstr "hám. %s"
+
+msgid "mid %s"
+msgstr "miðja %s"
+
+msgid "north +"
+msgstr "norður +"
+
+msgid "rural/suburban"
+msgstr "Dreifbýli/hálfbýli"
+
+msgid "sci. translit."
+msgstr "vísindasnúningur"
+
+msgid "suburban/urban"
+msgstr "Hálfbýli/þéttbýli"
+
+msgid "truly dark"
+msgstr "sannarlega dökkt"
+
+msgid "unreadable snapshot"
+msgstr "ólæsanleg skjámynd"
+
+msgid "with Solar Dates"
+msgstr "með sólartiðum"
+
+msgid "… and moons"
+msgstr "… og tungl"

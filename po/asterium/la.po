@@ -1,0 +1,2617 @@
+# Asterium interface translation for la.
+# Copyright (C) 2026 the Asterium authors
+# This file is distributed under the same licence as the Asterium package.
+#
+# MACHINE TRANSLATION, not reviewed by a speaker of this language.
+# Terminology follows upstream Stellarium's own la catalogue, which was used
+# as a glossary, and every entry keeps the source's printf placeholders.
+# Corrections from a human translator are welcome and should simply replace these.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: asterium\n"
+"Language: la\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%d bodies"
+msgstr "%d corpora"
+
+msgid "%d object"
+msgstr "%d obiectum"
+
+msgid "%d objects"
+msgstr "%d obiecta"
+
+msgid "%s colour"
+msgstr "%s color"
+
+msgid "%s from %s, ±%.0f m"
+msgstr "%s ab %s, ±%.0f m"
+
+msgid "12-hour"
+msgstr "12 horarum"
+
+msgid "1× below"
+msgstr "1× infra"
+
+msgid "24-hour"
+msgstr "24 horarum"
+
+msgid "A button to mark every object of the current observing list on the sky."
+msgstr "Pulsans ad omnia obiecta tabulae observationis praesentes in caelo notanda."
+
+msgid "A button to toggle ecliptic grid of date"
+msgstr "Pulsans ad reticulum eclipticale diei commutandum"
+
+msgid "A button to toggle equatorial J2000 grid"
+msgstr "Pulsans ad reticulum aequatoriale J2000 commutandum"
+
+msgid "A button to toggle galactic grid"
+msgstr "Pulsans ad reticulum galacticale commutandum"
+
+msgid "A polygonal model for some small moons, asteroids and comets instead of a sphere"
+msgstr "Exemplar polygonale pro lunulis, asteroidibus et cometis minoribus loco sphaerae"
+
+msgid "A touch-first planetarium forked from Stellarium, whose astronomy engine it uses unchanged. The interface is new; everything that draws the sky is upstream's work."
+msgstr "Planetarium tactui praefixum e Stellario scissum, cuius machinae astronomiae utitur immutata. Interfacies nova est; omnia quae caelum pingit ex ope praestante."
+
+msgid "Abbreviated names"
+msgstr "Nomina contracta"
+
+msgid "About this sky culture"
+msgstr "De hac cultu caeli"
+
+msgid "Above altitude, °"
+msgstr "Supra altitudinem, °"
+
+msgid "Absolute scale"
+msgstr "Scala absoluta"
+
+msgid "Activate this option to calculate azimuth from south towards west."
+msgstr "Hanc optionem activate ad azimut a meridie versus occidentem computandum."
+
+msgid "Add %s"
+msgstr "Addere %s"
+
+msgid "Additional information settings"
+msgstr "Configurationes informationis additionalis"
+
+msgid "Adjust brightness to bright objects"
+msgstr "Luminositatem ad obiecta lucida accommodare"
+
+msgid "Algol-type eclipsing systems"
+msgstr "Systemata eclipsantia Algol-typi"
+
+msgid "Algorithm of ΔT"
+msgstr "Algorithmus ΔT"
+
+msgid "All IDs"
+msgstr "Omnes ID"
+
+msgid "All naked-eye planets"
+msgstr "Omnes planetae nudo oculo visibiles"
+
+msgid "All solar eclipses"
+msgstr "Omnes defectus solares"
+
+msgid "Allow negative hour angles"
+msgstr "Angulos horarum negativos permittere"
+
+msgid "Allow results outside the recommended time range of the orbital elements"
+msgstr "Eventus extra spatium temporis commendatum elementorum orbitalium permittere"
+
+msgid "Almanac"
+msgstr "Almanacum"
+
+msgid "Almanac: Sun, Moon and naked-eye planets"
+msgstr "Almanacum: Sol, Luna et planetae nudis oculis visibiles"
+
+msgid "Also find"
+msgstr "Etiam invenire"
+
+msgid "Also plot"
+msgstr "Etiam delineare"
+
+msgid "Also show moons of selected object or planets"
+msgstr "Lunulas obiecti selecti vel planetarum etiam ostendere"
+
+msgid "Altitude limit, °"
+msgstr "Finis altitudinis, °"
+
+msgid "Altitude vs. Time"
+msgstr "Altitudo versus Tempus"
+
+msgid "Amount"
+msgstr "Quantitas"
+
+msgid "An observer floats above its planet, so there is nowhere on it to stand. Choose another planet to come back down."
+msgstr "Spectator supra planetam suam natat, ita nusquam in ea consistere potest. Aliam planetam delige ut redeas."
+
+msgid "And"
+msgstr "Et"
+
+msgid "And also"
+msgstr "Etiam"
+
+msgid "And the next (years)"
+msgstr "Et sequens (anni)"
+
+msgid "Ang. Size"
+msgstr "Mag. Ang."
+
+msgid "Angular distance"
+msgstr "Distantia angularis"
+
+msgid "Angular distance between the Moon and selected object"
+msgstr "Intervallum angulare inter Lunam et obiectum selectum"
+
+msgid "Angular distance from the Moon"
+msgstr "Intervallum angulare a Luna"
+
+msgid "Angular distance from the Moon for second object"
+msgstr "Intervallum angulare a Luna pro obiecto secundo"
+
+msgid "Angular distance from the Sun"
+msgstr "Intervallum angulare a Sole"
+
+msgid "Angular distance from the Sun for second object"
+msgstr "Intervallum angulare a Sole pro obiecto secundo"
+
+msgid "Angular size"
+msgstr "Magnitudo angularis"
+
+msgid "Annual drift"
+msgstr "Deflexio annua"
+
+msgid "Antisolar point"
+msgstr "Punctum antisolaris"
+
+msgid "Apex points"
+msgstr "Puncta apexes"
+
+msgid "Aphelion"
+msgstr "Aphelium"
+
+msgid "Appearance"
+msgstr "Aspectus"
+
+msgid "Apply"
+msgstr "Adhibere"
+
+msgid "Apply time interval limits to list"
+msgstr "Limites temporis intervalli tabulae adhibere"
+
+msgid "Art"
+msgstr "Ars"
+
+msgid "Artificial satellites and unnamed stars are excluded from calculation."
+msgstr "Satellites artificiales et stellae sine nomine ex computatione excluduntur."
+
+msgid "Asking for permission…"
+msgstr "Rogans permissionem…"
+
+msgid "Asks SIMBAD what it holds around the object that is selected now, and prints the answer as it comes back."
+msgstr "SIMBAD rogat quid circa obiectum nunc selectum teneat, et responsum cum revertitur imprimat."
+
+msgid "Ast. lines"
+msgstr "Delin. ast."
+
+msgid "Ast. names"
+msgstr "Desig. ast."
+
+msgid "Asterisms"
+msgstr "Asterismi"
+
+msgid "Asterisms font size"
+msgstr "Magnitudo fontium asterismorum"
+
+msgid "Astronomical Almanac (1984)"
+msgstr "Almanacum Astronomicum (1984)"
+
+msgid "Astronomical Almanac (default) enlarges by 2%; Danjon (1951) differs slightly"
+msgstr "Almanach Astronomicus (praefixus) per 2% auget; Danjon (1951) parum differt"
+
+msgid "Astronomical Twilight"
+msgstr "Crepusculum astronomicum"
+
+msgid "Astronomical calculations"
+msgstr "Computationes astronomicae"
+
+msgid "Astronomical night"
+msgstr "Nox astronomica"
+
+msgid "At"
+msgstr "Ad"
+
+msgid "Atmosph."
+msgstr "Atmosphaera"
+
+msgid "Atmosphere visualization"
+msgstr "Visualisatio atmosphaerae"
+
+msgid "Automatic closing dialog"
+msgstr "Colloquium automaticum claudens"
+
+msgid "Automatic transparency"
+msgstr "Transparentia automatica"
+
+msgid "Axis distance"
+msgstr "Distantia axis"
+
+msgid "Azi. grid"
+msgstr "Ret. azim."
+
+msgid "Azimuth and altitude rather than right ascension and declination"
+msgstr "Azimut et altitudo potius quam ascensio recta et declinatio"
+
+msgid "Azimuth from South"
+msgstr "Azimut a Meridie"
+
+msgid "Azimuth vs. Time"
+msgstr "Azimut versus Tempus"
+
+msgid "Back"
+msgstr "Retro"
+
+msgid "Bad visibility conditions for current location"
+msgstr "Condiciones visibilitatis malae pro loco praesenti"
+
+msgid "Beginning of center line; central eclipse begins"
+msgstr "Initium lineae centralis; eclipse centralis incipit"
+
+msgid "Below the horizon here."
+msgstr "Infra horizontem hic."
+
+msgid "Between objects"
+msgstr "Inter obiecta"
+
+msgid "Blue"
+msgstr "Caeruleus"
+
+msgid "Boundless"
+msgstr "Infinitus"
+
+msgid "Bounds"
+msgstr "Limites"
+
+msgid "Bright Solar system objects (<%1 mag)"
+msgstr "Obiectorum systematis solaris clara (<%1 mag)"
+
+msgid "Bright barium stars"
+msgstr "Stellae barii clarae"
+
+msgid "Bright carbon stars"
+msgstr "Stellae carboni clarae"
+
+msgid "Bright double stars"
+msgstr "Stellae duplex clarae"
+
+msgid "Bright double stars (<%1 mag)"
+msgstr "Stellae duplex clarae (<%1 mag)"
+
+msgid "Bright galaxies (<%1 mag)"
+msgstr "Galaxiae clarae (<%1 mag)"
+
+msgid "Bright nebulae"
+msgstr "Nebulae clarae"
+
+msgid "Bright nebulae (<%1 mag)"
+msgstr "Nebulae clarae (<%1 mag)"
+
+msgid "Bright nova stars"
+msgstr "Stellae novae clarae"
+
+msgid "Bright star clusters (<%1 mag)"
+msgstr "Accumuli stellarum clari (<%1 mag)"
+
+msgid "Bright stars"
+msgstr "Stellae clarae"
+
+msgid "Bright stars (<%1 mag)"
+msgstr "Stellae clarae (<%1 mag)"
+
+msgid "Bright stars with high proper motion"
+msgstr "Stellae clarae cum motu proprio alto"
+
+msgid "Bright supernova stars"
+msgstr "Stellae supernovae clarae"
+
+msgid "Bright variable stars"
+msgstr "Stellae variabiles clarae"
+
+msgid "Bright variable stars (<%1 mag)"
+msgstr "Stellae variabiles clarae (<%1 mag)"
+
+msgid "Brighter than"
+msgstr "Lucidior quam"
+
+msgid "Brightness"
+msgstr "Luminositas"
+
+msgid "By object type"
+msgstr "Per typum obiecti"
+
+msgid "By planet"
+msgstr "Per planetam"
+
+msgid "Calculate"
+msgstr "Computare"
+
+msgid "Calculating…"
+msgstr "Computans…"
+
+msgid "Caldwell objects"
+msgstr "Obiectorum Caldwell"
+
+msgid "Cardinals"
+msgstr "Cardinales"
+
+msgid "Catalogue numbers instead of common names"
+msgstr "Numeri catalogorum loco nominum communium"
+
+msgid "Category"
+msgstr "Categoria"
+
+msgid "Celestial Sphere"
+msgstr "Sphaera Caelestis"
+
+msgid "Celestial poles (J2000)"
+msgstr "Poli Caelestes (J2000)"
+
+msgid "Celestial poles (of date)"
+msgstr "Poli Caelestes (diei)"
+
+msgid "Center of FOV"
+msgstr "Centrum FOV"
+
+msgid "Centering button"
+msgstr "Pulsans centring"
+
+msgid "Central duration"
+msgstr "Duratio centralis"
+
+msgid "Central eclipse begins"
+msgstr "Defectus centralis incipit"
+
+msgid "Central eclipse ends"
+msgstr "Defectus centralis terminatur"
+
+msgid "Centre"
+msgstr "Centrum"
+
+msgid "Centre on object"
+msgstr "Centrum in obiectum"
+
+msgid "Centre point"
+msgstr "Punctum centri"
+
+msgid "Circles"
+msgstr "Circuli"
+
+msgid "Circular FOV"
+msgstr "FOV Circularis"
+
+msgid "Circumpolar circles"
+msgstr "Circuli circumpolares"
+
+msgid "City"
+msgstr "Urbs"
+
+msgid "Civil Twilight"
+msgstr "Crepusculum civile"
+
+msgid "Cleanup"
+msgstr "Expurgatio"
+
+msgid "Clear"
+msgstr "Mundare"
+
+msgid "Clear recent searches"
+msgstr "Recentes investigationes mundare"
+
+msgid "Clear the selection - a touch screen has no right button"
+msgstr "Selectionem mundare - manualis tactus tabula dextrum pulsantem non habet"
+
+msgid "Cleared."
+msgstr "Mundatum."
+
+msgid "Click on star to show its constellation"
+msgstr "Stellam clica ut suam constellationem ostendat"
+
+msgid "Close"
+msgstr "Claudere"
+
+msgid "Close what is open; from the sky, leave the app running"
+msgstr "Quod apertum est claude; ex caelo, applicationem currentem relinque"
+
+msgid "Clusters of galaxies"
+msgstr "Accumuli galaxiarum"
+
+msgid "Coarse"
+msgstr "Crassus"
+
+msgid "Color channel"
+msgstr "Canalis coloris"
+
+msgid "Color of Lunar station lines"
+msgstr "Color linearum stationis lunaris"
+
+msgid "Color of asterism lines"
+msgstr "Color linearum asterismorum"
+
+msgid "Color of asterism names"
+msgstr "Color nominum asterismorum"
+
+msgid "Color of constellation boundaries"
+msgstr "Color limitum constellationum"
+
+msgid "Color of constellation lines"
+msgstr "Color linearum constellationum"
+
+msgid "Color of constellation names"
+msgstr "Color nominum constellationum"
+
+msgid "Color of nomenclature labels"
+msgstr "Color signatorum nomenclaturae"
+
+msgid "Color of orbits"
+msgstr "Color orbium"
+
+msgid "Color of planet labels"
+msgstr "Color signatorum planetarum"
+
+msgid "Color of ray helpers"
+msgstr "Color auxiliorum radii"
+
+msgid "Color of trails"
+msgstr "Color vestigii"
+
+msgid "Color of zodiac lines"
+msgstr "Color linearum zodiacalium"
+
+msgid "Colors of orbit lines"
+msgstr "Colores linearum orbitalium"
+
+msgid "Colures"
+msgstr "Coluri"
+
+msgid "Comets up to mag."
+msgstr "Cometae usque ad mag."
+
+msgid "Compass"
+msgstr "Pyxis"
+
+msgid "Configuration"
+msgstr "Configuratio"
+
+msgid "Configure colors of markers"
+msgstr "Colores signatorum configurare"
+
+msgid "Configure colors of orbit lines"
+msgstr "Colores linearum orbitalium configurare"
+
+msgid "Conjunction"
+msgstr "Coniunctio"
+
+msgid "Connecting line"
+msgstr "Linea connexionis"
+
+msgid "Constellations"
+msgstr "Constellationes"
+
+msgid "Constellations font size"
+msgstr "Magnitudo fontium constellationum"
+
+msgid "Contrast"
+msgstr "Contrarium"
+
+msgid "Coordinate system"
+msgstr "Systema coordinatarum"
+
+msgid "Coordinates"
+msgstr "Coordinatae"
+
+msgid "Copyright"
+msgstr "Ius auctor"
+
+msgid "Credits"
+msgstr "Merita"
+
+msgid "Culmination altitude"
+msgstr "Altitudo culminationis"
+
+msgid "Current FoV"
+msgstr "FoV praesens"
+
+msgid "Custom"
+msgstr "Personalis"
+
+msgid "Custom FoV limit"
+msgstr "Finis FoV customatus"
+
+msgid "Custom altitude of the Moon, °"
+msgstr "Altitudo customata Lunae, °"
+
+msgid "Custom altitude of the Sun, °"
+msgstr "Altitudo customata Solis, °"
+
+msgid "Custom settings for position of GRS"
+msgstr "Configurationes customatae pro positione GRS"
+
+msgid "Custom values"
+msgstr "Valores customati"
+
+msgid "Cut the scale off below the limit"
+msgstr "Scalam infra terminum praecide"
+
+msgid "DATE AND TIME (UTC)"
+msgstr "DIES ET TEMPUS (UTC)"
+
+msgid "Dark nebulae"
+msgstr "Nebulae obscurae"
+
+msgid "Date"
+msgstr "Dies"
+
+msgid "Date and time"
+msgstr "Dies et tempus"
+
+msgid "Date/time"
+msgstr "Dies/tempus"
+
+msgid "Dates"
+msgstr "Dies"
+
+msgid "Dawn"
+msgstr "Aurora"
+
+msgid "Dbl. stars"
+msgstr "Stell. dup."
+
+msgid "December solstice"
+msgstr "Solstitium Decembris"
+
+msgid "Decimal degrees. −33.87 means 33.87° south. Elevation is metres above sea level; it moves the horizon down by a few arcminutes."
+msgstr "Gradus decimales. −33.87 significat 33.87° meridiem. Elevatio est metra super aquam; horizontem paucos minutos arcus movet."
+
+msgid "Deep Sky"
+msgstr "Caelum Profundum"
+
+msgid "Deep-sky objects"
+msgstr "Obiectorum coeli profundi"
+
+msgid "Default options"
+msgstr "Optiones defaltae"
+
+msgid "Degrees per year the longitude moves by"
+msgstr "Gradus per annum quibus longitudo movetur"
+
+msgid "Degrees, hours and minutes as they are written - 12h30m49s, +41°16'09\", 187.7 - or plain decimal degrees."
+msgstr "Gradus, horae et minuta sicut scripta sunt - 12h30m49s, +41°16'09\", 187.7 - vel gradus decimales simplices."
+
+msgid "Deletes all recent search object data, and the objects SIMBAD contributed."
+msgstr "Omnes recentes investigationes datorum obiecti et obiecta SIMBAD adsecuta delet."
+
+msgid "Designations for celestial coordinate systems"
+msgstr "Designationes pro systematis coordinatarum caelestium"
+
+msgid "Designations for double stars"
+msgstr "Designationes pro stellis duplicibus"
+
+msgid "Designations for variable stars"
+msgstr "Designationes pro stellis variabilibus"
+
+msgid "Dim a survey near the horizon, as the air does"
+msgstr "Investigationem prope horizontem obscurare, sicut aer facit"
+
+msgid "Dimensions"
+msgstr "Dimensiones"
+
+msgid "Display formats of date and time"
+msgstr "Formae ostensiones diei et temporis"
+
+msgid "Display objects from catalogs"
+msgstr "Obiecta e catalogis ostendere"
+
+msgid "Displayed"
+msgstr "Ostensus"
+
+msgid "Distance, AU"
+msgstr "Intervallum, UA"
+
+msgid "Done"
+msgstr "Perfectum"
+
+msgid "Drag"
+msgstr "Trahere"
+
+msgid "Draw deep-sky objects at all"
+msgstr "Obiecta profundi caeli omnino delineare"
+
+msgid "Draw only polygon"
+msgstr "Polygonium tantum delineare"
+
+msgid "Draw the enabled sky surveys"
+msgstr "Investigationes caeli potentes delineare"
+
+msgid "Draw the planets, moons and minor bodies"
+msgstr "Planetae, lunulas et corpora minora delineare"
+
+msgid "Drawn larger than life, so a body that is a few arcseconds wide is visible at all. The position stays true."
+msgstr "Delineata maiora vita ut corpus paucos secundos arcus latum omnino visibile sit. Positio vera manet."
+
+msgid "Duration"
+msgstr "Duratio"
+
+msgid "Duration (years)"
+msgstr "Duratio (anni)"
+
+msgid "Duration, months"
+msgstr "Duratio, menses"
+
+msgid "Dusk"
+msgstr "Crepusculum"
+
+msgid "Dwarf planets"
+msgstr "Planetae pygmaeae"
+
+msgid "Dynamic (FOV-based) Moon size"
+msgstr "Magnitudo Lunae dynamica (e FOV)"
+
+msgid "Dynamic eye adaptation"
+msgstr "Accommodatio oculi dynamica"
+
+msgid "Earth penumbra"
+msgstr "Penumbra Terrae"
+
+msgid "Earth shadow enlargement after Danjon"
+msgstr "Amplificatio umbrae Terrae ex Danjon"
+
+msgid "Earth umbra"
+msgstr "Umbra Terrae"
+
+msgid "Eastern quadrature"
+msgstr "Quadratura orientalis"
+
+msgid "Ecl. grid"
+msgstr "Retic. ecl."
+
+msgid "Eclipse begins; first contact with Earth"
+msgstr "Eclipse incipit; prima contactio cum Terra"
+
+msgid "Eclipse ends; last contact with Earth"
+msgstr "Eclipse finit; ultima contactio cum Terra"
+
+msgid "Eclipse magnitude"
+msgstr "Magnitudo defectus"
+
+msgid "Eclipses"
+msgstr "Defectus"
+
+msgid "Eclipses are computed for observers on Earth."
+msgstr "Defectus pro observatoribus in Terra computantur."
+
+msgid "Ecliptic (J2000)"
+msgstr "Eclipticale (J2000)"
+
+msgid "Ecliptic (of date)"
+msgstr "Eclipticale (diei)"
+
+msgid "Ecliptic grid (J2000)"
+msgstr "Reticulum eclipticale (J2000)"
+
+msgid "Ecliptic grid (of date)"
+msgstr "Reticulum eclipticale (diei)"
+
+msgid "Ecliptic poles (J2000)"
+msgstr "Poli eclipticales (J2000)"
+
+msgid "Ecliptic poles (of date)"
+msgstr "Poli eclipticales (diei)"
+
+msgid "Elevation"
+msgstr "Elevatio"
+
+msgid "Elevation in metres"
+msgstr "Elevatio in metris"
+
+msgid "Elongation"
+msgstr "Elongatio"
+
+msgid "Elongations and quadratures"
+msgstr "Elongationes et quadraturae"
+
+msgid "Emission-line stars"
+msgstr "Stellae lineas emissionis"
+
+msgid "Enabled only"
+msgstr "Soli potentes"
+
+msgid "End of center line; central eclipse ends"
+msgstr "Finis lineae centralis; eclipse centralis finit"
+
+msgid "Enter Culture..."
+msgstr "Culturam introdue..."
+
+msgid "Equ. grid"
+msgstr "Retic. equ."
+
+msgid "Equ. mount"
+msgstr "Mont. eq."
+
+msgid "Equator (J2000)"
+msgstr "Aequator (J2000)"
+
+msgid "Equator (of date)"
+msgstr "Aequator (diei)"
+
+msgid "Equatorial grid (J2000)"
+msgstr "Reticulum aequatoriale (J2000)"
+
+msgid "Equatorial grid (of date)"
+msgstr "Reticulum aequatoriale (diei)"
+
+msgid "Equatorial radii ratio"
+msgstr "Proportio radiorum equatorialium"
+
+msgid "Equinoxes (J2000)"
+msgstr "Aequinoctia (J2000)"
+
+msgid "Equinoxes (of date)"
+msgstr "Aequinoctia (diei)"
+
+msgid "Evening"
+msgstr "Vespera"
+
+msgid "Every"
+msgstr "Omnis"
+
+msgid "Every name the object is catalogued under"
+msgstr "Omne nomen sub quo obiectum in catalogo est"
+
+msgid "Exoplanetary systems"
+msgstr "Systemata exoplanetaria"
+
+msgid "Exterior egress"
+msgstr "Exitus exterior"
+
+msgid "Exterior ingress"
+msgstr "Ingressus exterior"
+
+msgid "Extras"
+msgstr "Additamenta"
+
+msgid "Fades the ground as you look below the horizon or zoom in"
+msgstr "Terram evanescit cum infra horizontem spectas vel introrsum zoomas"
+
+msgid "Fading duration"
+msgstr "Duratio evanescens"
+
+msgid "Faintest shown"
+msgstr "Minime lucida ostensa"
+
+msgid "Favorites"
+msgstr "Praeferita"
+
+msgid "Fetching the survey lists…"
+msgstr "Scrutationes listas petens…"
+
+msgid "Field of view"
+msgstr "Ager visus"
+
+msgid "Filter"
+msgstr "Colum"
+
+msgid "Filter by type"
+msgstr "Per typum colere"
+
+msgid "Find a city"
+msgstr "Urbem invenire"
+
+msgid "Fine"
+msgstr "Subtile"
+
+msgid "First %d of %d - filter to narrow it."
+msgstr "Primus %d ex %d - colere ut angustate fiat."
+
+msgid "First body"
+msgstr "Primum corpus"
+
+msgid "First celestial body"
+msgstr "Primum corpus caeleste"
+
+msgid "First graph"
+msgstr "Primus graphus"
+
+msgid "Fix"
+msgstr "Figere"
+
+msgid "Fixed Equator"
+msgstr "Aequator fixus"
+
+msgid "Fixed Equatorial grid"
+msgstr "Reticulum aequatoriale fixum"
+
+msgid "Fixed instant"
+msgstr "Momentum fixum"
+
+msgid "Flip buttons"
+msgstr "Pulsantes invertere"
+
+msgid "Flip horiz."
+msgstr "Vert. hor."
+
+msgid "Flip vert."
+msgstr "Vert. vert."
+
+msgid "Font size"
+msgstr "Magnitudo fontium"
+
+msgid "Frame rate"
+msgstr "Propositio fram"
+
+msgid "From"
+msgstr "Ex"
+
+msgid "From year"
+msgstr "Ab anno"
+
+msgid "Full screen"
+msgstr "Plenum"
+
+msgid "Fullscreen button"
+msgstr "Pulsante plenae imaginis"
+
+msgid "Further reading"
+msgstr "Lectio ulterior"
+
+msgid "GRS details…"
+msgstr "Particulae GRS…"
+
+msgid "Gal. grid"
+msgstr "Retic. gal."
+
+msgid "Galactic center and anticenter"
+msgstr "Centrum galacticum et anticentrum"
+
+msgid "Gamma, saturation, brightness, contrast, opacity, colour channel and inverted colours belong to one survey. Open a survey to set them."
+msgstr "Gamma, saturatio, claritas, contentio, opacitas, via coloris et colores inversi ad unum prospectum pertinent. Prospectum aperi ut ea configures."
+
+msgid "Generic"
+msgstr "Generica"
+
+msgid "Gestures"
+msgstr "Gestus"
+
+msgid "Globular star clusters"
+msgstr "Accumuli stellarum globulosi"
+
+msgid "Go there"
+msgstr "Illuc ire"
+
+msgid "Go to position"
+msgstr "Ad positionem ire"
+
+msgid "Go to this eclipse"
+msgstr "Ad hunc defectum ire"
+
+msgid "Go to this moment"
+msgstr "Ad hunc momentem ire"
+
+msgid "Go to this transit"
+msgstr "Ad hunc transitum ire"
+
+msgid "Good visibility conditions for current location"
+msgstr "Condiciones visibilitatis bonae pro loco praesenti"
+
+msgid "Graphs"
+msgstr "Graphi"
+
+msgid "Great Red Spot"
+msgstr "Macula Rubra Magna"
+
+msgid "Great Red Spot details"
+msgstr "Particulae Maculae Rubrae Magnae"
+
+msgid "Greatest eastern elongation"
+msgstr "Elongatio orientalis maxima"
+
+msgid "Greatest eclipse"
+msgstr "Eclipse maxima"
+
+msgid "Greatest elongation for an inner planet, quadrature for an outer one"
+msgstr "Maxima elongatio pro planeta interiore, quadratura pro exteriore"
+
+msgid "Greatest western elongation"
+msgstr "Elongatio occidentalis maxima"
+
+msgid "Greek letters"
+msgstr "Litterae Graecae"
+
+msgid "Greek letters for Bayer designations"
+msgstr "Litterae Graecae pro designationibus Baieri"
+
+msgid "Green"
+msgstr "Viridis"
+
+msgid "Grid density"
+msgstr "Densitas reticularis"
+
+msgid "Grids"
+msgstr "Reticula"
+
+msgid "Ground"
+msgstr "Fundus"
+
+msgid "Gyro"
+msgstr "Gyroscopium"
+
+msgid "Gyro mode"
+msgstr "Modus gyroscopicus"
+
+msgid "Height"
+msgstr "Altitudo"
+
+msgid "Heliocentric distance"
+msgstr "Intervallum heliocentricum"
+
+msgid "Heliocentric ecliptic positions of the major planets."
+msgstr "Positiones eclipticae heliocentrici planetarum maiorum."
+
+msgid "Herschel 400 objects"
+msgstr "Obiectorum Herschel 400"
+
+msgid "HiPS"
+msgstr "HiPS"
+
+msgid "HiPS Surveys"
+msgstr "HiPS prospectus"
+
+msgid "Hide controls"
+msgstr "Reconde imperationes"
+
+msgid "Hide deep-sky objects fainter than the limit"
+msgstr "Reconde obiecta caeli profundi luminositate limite debiliora"
+
+msgid "Hide nomenclature on the celestial body of observer"
+msgstr "Reconde nomina corporis caelestis observatoris"
+
+msgid "Hide orbits of minor bodies"
+msgstr "Reconde orbes corporum minorum"
+
+msgid "Highlight"
+msgstr "Illustra"
+
+msgid "Highlight the objects of the observing list"
+msgstr "Luminare obiectorum ex catalogo observationis"
+
+msgid "Hint circles marking each planet"
+msgstr "Circulationes planetarum"
+
+msgid "Hints"
+msgstr "Suggestiones"
+
+msgid "Hints brightness"
+msgstr "Claritas suggestiones"
+
+msgid "Hipparcos designations"
+msgstr "designationes Hipparcos"
+
+msgid "Horizontal coordinates"
+msgstr "Coordinatae horizontales"
+
+msgid "Hour angles usually run 0...24h. This counts -12h...12h."
+msgstr "Anguli horarii solito currentur 0...24h. Hic −12h...12h numerantur."
+
+msgid "How many"
+msgstr "Quot"
+
+msgid "ICRS grid"
+msgstr "Ret. ICRS"
+
+msgid "Include"
+msgstr "Inclunde"
+
+msgid "Include bright comets"
+msgstr "Inclunde cometas luminosos"
+
+msgid "Include selected minor planets"
+msgstr "Inclunde planetas minores selectas"
+
+msgid "Inferior conjunction"
+msgstr "Coniunctio inferior"
+
+msgid "Info label"
+msgstr "Titulus informativi"
+
+msgid "Interacting galaxies"
+msgstr "Galaxiae agentes"
+
+msgid "Intercardinal points"
+msgstr "Puncta interccardinalia"
+
+msgid "Interior egress"
+msgstr "Eggressus interior"
+
+msgid "Interior ingress"
+msgstr "Ingressus interior"
+
+msgid "Interstellar objects"
+msgstr "Obiectorum interstellaria"
+
+msgid "Invariable plane of the Solar system"
+msgstr "Planum immutabile systematis solaris"
+
+msgid "Invert colors"
+msgstr "Inverte colores"
+
+msgid "Isolated"
+msgstr "Solitarius"
+
+msgid "Its elevation, and the civil, nautical and astronomical twilights"
+msgstr "Eius altitudo, et crepuscula civilis, nauticus et astronomicus"
+
+msgid "Jovigraphic longitude of the spot in System II, in degrees"
+msgstr "Longitudo ioviographica maculae in Systemate II, in gradibus"
+
+msgid "Julian day"
+msgstr "Dies Iulianus"
+
+msgid "June solstice"
+msgstr "Solstitium Iuni"
+
+msgid "Label"
+msgstr "Designatio"
+
+msgid "Label colour"
+msgstr "Color designationis"
+
+msgid "Label only features along the terminator"
+msgstr "Designa solum proprietates iuxta terminatorem"
+
+msgid "Labels and Markers amount"
+msgstr "Copia nominum et signorum"
+
+msgid "Labels brightness"
+msgstr "Claritas nominum"
+
+msgid "Language settings"
+msgstr "Configurationes linguae"
+
+msgid "Largest, ′"
+msgstr "Maximus, ′"
+
+msgid "Last known position"
+msgstr "Postrema posita notissima"
+
+msgid "Lasting"
+msgstr "Durans"
+
+msgid "Latest selected object"
+msgstr "Obiectum selectum novissimum"
+
+msgid "Latitude −90…90, longitude −180…180."
+msgstr "Latitudo −90…90, longitudo −180…180."
+
+msgid "Layer appearance"
+msgstr "Aspectus stratorum"
+
+msgid "Leaves the landscape visible in darkness"
+msgstr "Prospectum in tenebris visibilem reliquit"
+
+msgid "Licence"
+msgstr "Licentia"
+
+msgid "Light pollution"
+msgstr "Pollutio lucis"
+
+msgid "Light pollution from database"
+msgstr "Pollutio lucis ex datubasi"
+
+msgid "Limit angular separation"
+msgstr "Limite separatio angularis"
+
+msgid "Limit angular size"
+msgstr "Limite magnitudinem angularem"
+
+msgid "Limit magnitude"
+msgstr "Limite magnitudinem"
+
+msgid "Limit the magnitude of solar system objects"
+msgstr "Limite magnitudinem obiectorum systematis solaris"
+
+msgid "Line"
+msgstr "Linea"
+
+msgid "Line thickness"
+msgstr "Crassitudo lineae"
+
+msgid "Linear and angular distances between selected objects"
+msgstr "Intervalla linearia et angularia inter obiectorum selecta"
+
+msgid "Linear distance"
+msgstr "Intervallum lineare"
+
+msgid "Lines"
+msgstr "Delineat."
+
+msgid "Lines and circles"
+msgstr "Lineae et circulationes"
+
+msgid "List"
+msgstr "Lista"
+
+msgid "List name"
+msgstr "Nomen listae"
+
+msgid "Lists"
+msgstr "Listae"
+
+msgid "Lit windows, street lighting and the like"
+msgstr "Fenestrae luminosae, illuminatio viarum, et similia"
+
+msgid "Loading…"
+msgstr "Importando…"
+
+msgid "Local Mean Solar Time"
+msgstr "Tempus solare mediale localis"
+
+msgid "Local Time"
+msgstr "Tempus locale"
+
+msgid "Local True Solar Time"
+msgstr "Tempus solare verum localis"
+
+msgid "Local solar eclipses"
+msgstr "Defectus solares locales"
+
+msgid "Local time"
+msgstr "Tempus localis"
+
+msgid "Local time, h"
+msgstr "Tempus localis, h"
+
+msgid "Locate me"
+msgstr "Me locare"
+
+msgid "Locating…"
+msgstr "Locando…"
+
+msgid "Location from landscape"
+msgstr "Locatio ex prospectume"
+
+msgid "Location is switched off in the system settings."
+msgstr "Locatio in configurationibus systematis clausa est."
+
+msgid "Location permission refused. The other two ways still work."
+msgstr "Permissio loci denegata. Aliae duae viae adhuc laborant."
+
+msgid "Lock position when coordinates are used"
+msgstr "Fixa positionem cum coordinatae usurpantur"
+
+msgid "Log"
+msgstr "Diarium"
+
+msgid "Long press"
+msgstr "Pressio longa"
+
+msgid "Longitude of GRS"
+msgstr "Longitudo GRS"
+
+msgid "Lunar Elongation"
+msgstr "Elongatio lunaris"
+
+msgid "Lunar Stations"
+msgstr "Stationes lunares"
+
+msgid "Lunar eclipses"
+msgstr "Defectus lunares"
+
+msgid "Lunar elongation"
+msgstr "Elongatio lunaris"
+
+msgid "Magnitudes"
+msgstr "Magnitudines"
+
+msgid "Main"
+msgstr "Principalis"
+
+msgid "Major planets by planet, minor bodies by type"
+msgstr "Planetae maiores per planetam, corpora minora per typum"
+
+msgid "Map of the planet. Tap to set the observer's place."
+msgstr "Tabula planetae. Pulsa ut locum observatoris constituas."
+
+msgid "March equinox"
+msgstr "Aequinoctium Martii"
+
+msgid "Mark impact features with ellipses"
+msgstr "Signa proprietates impactus cum ellipsibus"
+
+msgid "Mark minor bodies"
+msgstr "Signa corpora minora"
+
+msgid "Markers"
+msgstr "Signa"
+
+msgid "Markers sized by the object's angular size"
+msgstr "Signa secundum magnitudinem angularem obiecti"
+
+msgid "Markings"
+msgstr "Notae"
+
+msgid "Master switch for the grids, lines and points below"
+msgstr "Clavis magistralis pro reticulis, lineis et punctis infra"
+
+msgid "Max items to display"
+msgstr "Max. animalia ad demonstranda"
+
+msgid "Max. results"
+msgstr "Max. eventus"
+
+msgid "Max. search radius"
+msgstr "Max. radius quaestionis"
+
+msgid "Maximum Solar altitude"
+msgstr "Maxima altitudo solaris"
+
+msgid "Maximum allowed separation"
+msgstr "Maxima separatio permissa"
+
+msgid "Maximum angular size"
+msgstr "Maxima magnitudo angularis"
+
+msgid "Maximum eclipse"
+msgstr "Defectus maximus"
+
+msgid "Maximum year"
+msgstr "Annus maximus"
+
+msgid "Mean motion"
+msgstr "Motus medius"
+
+msgid "Messier objects"
+msgstr "Obiectorum Messier"
+
+msgid "Mid-transit"
+msgstr "Medium transitum"
+
+msgid "Milky Way brightness"
+msgstr "Claritas Viae Lacteae"
+
+msgid "Milky Way saturation"
+msgstr "Saturatio Viae Lacteae"
+
+msgid "Minimal angular size"
+msgstr "Minima magnitudo angularis"
+
+msgid "Minimal brightness"
+msgstr "Minima claritas"
+
+msgid "Minimum Solar altitude"
+msgstr "Minima altitudo solaris"
+
+msgid "Minimum year"
+msgstr "Annus minimus"
+
+msgid "Minor bodies"
+msgstr "Corpora minora"
+
+msgid "Minutes before sunrise / after sunset"
+msgstr "Minuta ante solis ortum / post solis occasum"
+
+msgid "Miscellaneous"
+msgstr "Varia"
+
+msgid "Month"
+msgstr "Mensis"
+
+msgid "Monthly Elevation"
+msgstr "Altitudo mensilis"
+
+msgid "Moon at"
+msgstr "Luna"
+
+msgid "Moon enters penumbra"
+msgstr "Luna intrat penumbram"
+
+msgid "Moon enters umbra"
+msgstr "Luna intrat umbram"
+
+msgid "Moon in zenith at"
+msgstr "Luna in zenit ad"
+
+msgid "Moon leaves penumbra"
+msgstr "Luna egreditur penumbram"
+
+msgid "Moon leaves umbra"
+msgstr "Luna egreditur umbram"
+
+msgid "Moon's halo"
+msgstr "Halo lunae"
+
+msgid "Moons of first body"
+msgstr "Lunae corporis primi"
+
+msgid "Morning"
+msgstr "Matutina"
+
+msgid "Morph. Descr."
+msgstr "Descr. morphologicum"
+
+msgid "Morphological description"
+msgstr "Descriptio morphologica"
+
+msgid "Move the sky by pointing the phone at it"
+msgstr "Move caelum telefono ad illud verso"
+
+msgid "Move the sky with the phone"
+msgstr "Move caelum cum telefone"
+
+msgid "NGC/IC objects"
+msgstr "Obiectorum NGC/IC"
+
+msgid "Name for the new list"
+msgstr "Nomen pro nova lista"
+
+msgid "Named features the landscape marks"
+msgstr "Proprietates nominatae quas prospectus signat"
+
+msgid "Names"
+msgstr "Nomina"
+
+msgid "Names beside the planets and their markers"
+msgstr "Nomina iuxta planetas et eorum signa"
+
+msgid "Names in English"
+msgstr "Nomina Anglice"
+
+msgid "Nautical Twilight"
+msgstr "Crepusculum nauticum"
+
+msgid "Neb. bg"
+msgstr "Fund. neb."
+
+msgid "Nebula background"
+msgstr "Fundamentum nebulae"
+
+msgid "Nebulae"
+msgstr "Nebulae"
+
+msgid "New list"
+msgstr "Nova lista"
+
+msgid "Next"
+msgstr "Proxima"
+
+msgid "Night"
+msgstr "Nox"
+
+msgid "No city matches that."
+msgstr "Nulla urbs ei convenit."
+
+msgid "No eclipses found. Pick a range and calculate."
+msgstr "Nullus defectus inventi. Elige ambitum et computa."
+
+msgid "No fresh fix - the receiver may have no sky. Try again outdoors, or set the place another way."
+msgstr "Nulla recens fixa − receptrix caelum non habere potest. Iterum extra tenta, vel locum alio modo statue."
+
+msgid "No surveys were found. The lists are downloaded, so this needs a connection."
+msgstr "Nulla prospectus inventi. Listae importantur, ideo nexus est necessaria."
+
+msgid "None downloaded yet"
+msgstr "Nihil adhuc importatum"
+
+msgid "Normal"
+msgstr "Normalis"
+
+msgid "Not observable eclipse"
+msgstr "Eclipse non observabilis"
+
+msgid "Note: Local circumstances for eclipses during thousands of years in the past and future are not reliable due to uncertainty in ΔT which is caused by fluctuations in Earth's rotation."
+msgstr "Nota: Circumstantiae locales pro eclipsibus per milia annorum praeteriti et futuri non fideles sunt propter incertitudinem in ΔT quae causae est fluctuationum in rotatione Terrae."
+
+msgid "Note: artificial satellites and unnamed stars are excluded from calculation"
+msgstr "Nota: Satellitae artificiales et stellae innominatae excluduntur a calculatione"
+
+msgid "Note: this tool doesn't apply the refraction correction for coordinates. Horizontal coordinates stop the clock, or the sky would turn away from the point while you arrive at it."
+msgstr "Nota: hoc instrumentum correctionem refractionis pro coordinatis non applicat. Coordinatae horizontales horlogium sistunt, vel caelum a puncto aversaretur dum ad id venires."
+
+msgid "Notes: The quantity gamma is the minimum distance from the axis of lunar shadow cone to the center of Earth, in units of Earth’s equatorial radius. This distance is positive or negative, depending on whether the axis of the shadow cone passes north or south of the Earth's center. Path of solar eclipses during thousands of years in the past and future are not reliable due to uncertainty in ΔT which is caused by fluctuations in Earth's rotation."
+msgstr "Notae: Quantitas gamma est intervallum minimum ab axe coni umbrae lunaris ad centrum Terrae, in unitatibus radii aequatorialis Terrae. Hoc intervallum est positivum vel negativum, secundum quod axis coni umbrae transit septentrionem vel meridiem centri Terrae. Via eclipsium solarium per milia annorum praeteriti et futuri non fideles sunt propter incertitudinem in ΔT quae causa est fluctuationum in rotatione Terrae."
+
+msgid "Notes: The quantity gamma is the minimum distance from the center of the Moon to the axis of Earth’s umbral shadow cone, in units of Earth’s equatorial radius. This distance is positive or negative, depending on whether the Moon passes north or south of the shadow cone axis. Local circumstances for eclipses during thousands of years in the past and future are not reliable due to uncertainty in ΔT which is caused by fluctuations in Earth's rotation."
+msgstr "Notae: Quantitas gamma est intervallum minimum a centro Lunae ad axem coni umbrae Terrae, in unitatibus radii aequatorialis Terrae. Hoc intervallum est positivum vel negativum, secundum quod Luna transit septentrionem vel meridiem axis coni umbrae. Circumstantiae locales pro eclipsibus per milia annorum praeteriti et futuri non fideles sunt propter incertitudinem in ΔT quae causa est fluctuationum in rotatione Terrae."
+
+msgid "Notes: Time in parentheses means the contact is invisible at current location. Transit times during thousands of years in the past and future are not reliable due to uncertainty in ΔT which is caused by fluctuations in Earth's rotation."
+msgstr "Notae: Tempus in parenthesibus significat contactionem invisibilem esse in loco praesenti. Tempora transitus per milia annorum praeteriti et futuri non fideles sunt propter incertitudinem in ΔT quae causa est fluctuationum in rotatione Terrae."
+
+msgid "Nothing computed yet, or nothing in this category is up."
+msgstr "Nihil computatum adhuc, vel nihil in hac categoria surgit."
+
+msgid "Nothing computed yet."
+msgstr "Nihil computatum adhuc."
+
+msgid "Nothing found for “%s”."
+msgstr "Nihil inventum est pro \"%s\"."
+
+msgid "Nothing in this list matches."
+msgstr "Nihil in hac lista convenit."
+
+msgid "Nothing in this list yet. Pick something out of the sky and tap the star on its card to keep it here."
+msgstr "Nihil in hac lista adhuc. Aliquid ex caelo elige et stellam in eius charta pulsa ut hic serves."
+
+msgid "Nothing is selected. Pick an object in the sky first."
+msgstr "Nihil selectum est. Primum obiectum in caelo elige."
+
+msgid "Nothing matches."
+msgstr "Nihil convenit."
+
+msgid "Nothing selected"
+msgstr "Nihil selectum"
+
+msgid "Nothing to plot."
+msgstr "Nihil plottare."
+
+msgid "Nothing to show."
+msgstr "Nihil demonstrare."
+
+msgid "Now"
+msgstr "Nunc"
+
+msgid "N× above"
+msgstr "N× supra"
+
+msgid "OBJECT"
+msgstr "OBIECTUM"
+
+msgid "OBJECTS"
+msgstr "OBIECTA"
+
+msgid "Object"
+msgstr "Obiectum"
+
+msgid "Object 1"
+msgstr "Obiectum 1"
+
+msgid "Object 2"
+msgstr "Obiectum 2"
+
+msgid "Objects which are up"
+msgstr "Obiecta quae surgunt"
+
+msgid "Observable duration"
+msgstr "Duratio observabilis"
+
+msgid "Observing list"
+msgstr "Lista observationis"
+
+msgid "Observing list highlight"
+msgstr "Illustratio listae observationis"
+
+msgid "Observing lists"
+msgstr "Listae observationis"
+
+msgid "Occultation"
+msgstr "Occultatio"
+
+msgid "On the sky"
+msgstr "In caelo"
+
+msgid "One color"
+msgstr "Unus color"
+
+msgid "One color for all orbits"
+msgstr "Unus color pro omnibus orbibus"
+
+msgid "Only for N latest selected objects"
+msgstr "Solum pro N recentissimis selectis obiectis"
+
+msgid "Only for Solar elevation"
+msgstr "Solum pro altitudine solari"
+
+msgid "Only list"
+msgstr "Solum lista"
+
+msgid "Only one at a time"
+msgstr "Solum unus simul"
+
+msgid "Only orbit for selected object…"
+msgstr "Solum orbis pro selecto obiecto…"
+
+msgid "Only orbits of major planets…"
+msgstr "Solum orbis planetarum maiorum…"
+
+msgid "Oort cloud objects"
+msgstr "Obiectorum nubis Oort"
+
+msgid "Open date and time"
+msgstr "Aperi diem et tempus"
+
+msgid "Open location"
+msgstr "Aperi locum"
+
+msgid "Open star clusters"
+msgstr "Accumuli stellarum aperti"
+
+msgid "Opens the JUPOS project in a browser"
+msgstr "Prospectum JUPOS in navigante aperit"
+
+msgid "Opposition"
+msgstr "Oppositio"
+
+msgid "Opposition of"
+msgstr "Oppositio"
+
+msgid "Oppositions"
+msgstr "Oppositiones"
+
+msgid "Orbit colors"
+msgstr "Colores orbium"
+
+msgid "Orbital periods ratio"
+msgstr "Proportio periodum orbitalium"
+
+msgid "Orbits"
+msgstr "Orbis"
+
+msgid "Orbits of Oort cloud objects"
+msgstr "Orbis obiectorum nubis Oort"
+
+msgid "Orbits of dwarf planets"
+msgstr "Orbis planetarum nanarum"
+
+msgid "Orbits of interstellar objects"
+msgstr "Orbis obiectorum interstellarium"
+
+msgid "Orbits of major planets"
+msgstr "Orbis planetarum maiorum"
+
+msgid "Orbits of minor planets"
+msgstr "Orbis planetarum minorum"
+
+msgid "Orbits of moons"
+msgstr "Orbis lunae"
+
+msgid "Orbits of scattered disk objects"
+msgstr "Orbis obiectorum disci dispersi"
+
+msgid "Otherwise every move adopts the zone of the new place."
+msgstr "Aliter omnis motus zonam novi loci adoptat."
+
+msgid "Outline craters"
+msgstr "Delineationes crateres"
+
+msgid "Pan the sky"
+msgstr "Verte caelum"
+
+msgid "Partial eclipse begins"
+msgstr "Defectus partialis incipit"
+
+msgid "Partial eclipse ends"
+msgstr "Defectus partialis finit"
+
+msgid "Partitions"
+msgstr "Partitiones"
+
+msgid "Partitions thickness"
+msgstr "Crassitudo partitionum"
+
+msgid "Path width"
+msgstr "Latitudo viae"
+
+msgid "Pause"
+msgstr "Pausita"
+
+msgid "Paused - start"
+msgstr "Pausita − incipe"
+
+msgid "Penumbral magnitude"
+msgstr "magnitudo umbratica"
+
+msgid "Perfect visibility conditions for current location"
+msgstr "Condiciones visibilitatis perfectae pro loco praesenti"
+
+msgid "Perihelion"
+msgstr "Perihelium"
+
+msgid "Perihelion and aphelion"
+msgstr "Perihelion et aphelion"
+
+msgid "Phase"
+msgstr "Periodus"
+
+msgid "Phase angle"
+msgstr "Angulus phaseos"
+
+msgid "Phenomena"
+msgstr "Phaenomena"
+
+msgid "Pick two different bodies to see how their distance changes."
+msgstr "Duo corpora diversa elige ut videas eorum distantiam variatur."
+
+msgid "Pinch"
+msgstr "Comprimere"
+
+msgid "Planet and time zone"
+msgstr "Planeta et zona horarum"
+
+msgid "Planet markers"
+msgstr "Signa planetarum"
+
+msgid "Planetary nebulae"
+msgstr "Nebulae planetariae"
+
+msgid "Planetary nebulae (<%1 mag)"
+msgstr "Nebulae planetariae (<%1 mag)"
+
+msgid "Planetary nomenclature"
+msgstr "Nomenclatura planetaria"
+
+msgid "Planetary transits"
+msgstr "Transitus planetarum"
+
+msgid "Planets"
+msgstr "Planetae"
+
+msgid "Planets and Sun"
+msgstr "Planetae et Sol"
+
+msgid "Planets magnitude algorithm"
+msgstr "Algorithmus magnitudinis planetarum"
+
+msgid "Please select object to plot its 'Monthly Elevation' graph for the current year at selected time."
+msgstr "Quaeso obiectum elegite ad eius graphicum 'Elevationes Mensium' constituendum pro anno praesenti tempore electo."
+
+msgid "Please select object to plot its graph 'Altitude vs. Time'."
+msgstr "Quaeso obiectum elegite ad eius graphicum 'Altitudo contra Tempus' constituendum."
+
+msgid "Please select object to plot its graph 'Azimuth vs. Time'."
+msgstr "Quaeso obiectum elegite ad eius graphicum 'Azimut contra Tempus' constituendum."
+
+msgid "Pluto, Ceres, Pallas, Juno and Vesta"
+msgstr "Pluto, Ceres, Pallas, Juno et Vesta"
+
+msgid "Point size"
+msgstr "Magnitudo punctorum"
+
+msgid "Pointing"
+msgstr "Monstratio"
+
+msgid "Polar distance"
+msgstr "Distantia polaris"
+
+msgid "Polar distance, not declination"
+msgstr "Distantia polaris, non declinatio"
+
+msgid "Poles and points"
+msgstr "Poli et puncta"
+
+msgid "Polygon colour"
+msgstr "Color polygoni"
+
+msgid "Position angle"
+msgstr "Angulus positionis"
+
+msgid "Positions"
+msgstr "Positiones"
+
+msgid "Positive values only"
+msgstr "Valores affirmani tantum"
+
+msgid "Precession circles"
+msgstr "Circuli praecessionis"
+
+msgid "Previous"
+msgstr "Prior"
+
+msgid "Program Language"
+msgstr "Lingua programmatis"
+
+msgid "Projected Solar Equator"
+msgstr "Aequator solaris proiectus"
+
+msgid "Projection"
+msgstr "Proiectio"
+
+msgid "Pronounce"
+msgstr "Pronuntia"
+
+msgid "Quadrature circle"
+msgstr "Circulus quadraturae"
+
+msgid "Query SIMBAD about selected object"
+msgstr "SIMBAD rogare de obiecto selecto"
+
+msgid "Query options"
+msgstr "Optiones rogationis"
+
+msgid "Quit"
+msgstr "Desistere"
+
+msgid "Quit button"
+msgstr "Pulsus exitus"
+
+msgid "Range"
+msgstr "Ambitus"
+
+msgid "Ray helpers"
+msgstr "Adiutoria radiorum"
+
+msgid "Reading…"
+msgstr "Lectio…"
+
+msgid "Real time speed"
+msgstr "Celeritas temporis veri"
+
+msgid "Recent Searches"
+msgstr "Investigationes recentes"
+
+msgid "Rectangular FOV"
+msgstr "Prospectus rectangularis"
+
+msgid "Red"
+msgstr "Ruber"
+
+msgid "Refraction, extinction, sky brightness"
+msgstr "Refractio, exstinctio, luminositas caeli"
+
+msgid "Refresh"
+msgstr "Renovare"
+
+msgid "Regions of the sky"
+msgstr "Regiones caeli"
+
+msgid "Relative scale"
+msgstr "Scala relativa"
+
+msgid "Remove %s"
+msgstr "Auferre %s"
+
+msgid "Remove from observing list"
+msgstr "Ex catalogo observatorum auferre"
+
+msgid "Rename"
+msgstr "Renominare"
+
+msgid "Reset"
+msgstr "Restituere"
+
+msgid "Reset all"
+msgstr "Omnia restituere"
+
+msgid "Restarting…"
+msgstr "Incipium repetendum…"
+
+msgid "Restore defaults"
+msgstr "Defalta restituere"
+
+msgid "Results"
+msgstr "Eventus"
+
+msgid "Rise"
+msgstr "Ortus"
+
+msgid "Rises"
+msgstr "Oritur"
+
+msgid "Rotation"
+msgstr "Rotatio"
+
+msgid "Running"
+msgstr "Currens"
+
+msgid "SIMBAD did not answer."
+msgstr "SIMBAD responsum non dedit."
+
+msgid "SIMBAD is switched off in the search options."
+msgstr "SIMBAD est conversus in optionibus quaestionis."
+
+msgid "SIMBAD is switched off. Turn it on under Options to look objects up online."
+msgstr "SIMBAD clausum est. Aperire sub Optiones pro investigatione rerum per retia."
+
+msgid "SIMBAD server"
+msgstr "Servus SIMBAD"
+
+msgid "Saturation"
+msgstr "Saturatio"
+
+msgid "Save"
+msgstr "Conservare"
+
+msgid "Save either the current FOV and direction of view or all the current options for use at next startup. Restoring default settings requires a restart of the app."
+msgstr "Aut prospectum currentem et directionem visionis aut omnes optiones currentas pro usu initiationis proximae conservare. Defalta restituere applicationem reincipere requirit."
+
+msgid "Save settings"
+msgstr "Optiones conservare"
+
+msgid "Save to observing list"
+msgstr "Ad catalogum observatorum conservare"
+
+msgid "Save view"
+msgstr "Prospectum conservare"
+
+msgid "Scale"
+msgstr "Scala"
+
+msgid "Scale factor"
+msgstr "Factor scalae"
+
+msgid "Scale marker and label visibility by surface brightness"
+msgstr "Signa et designationes visibilitate per luminositatem superficiei scalare"
+
+msgid "Scales smoothly between 1× at the minimum field of view and the factor above at the maximum"
+msgstr "Molliter inter 1× ad prospectum minimum et factorem supra ad maximum scalat"
+
+msgid "Scattered disc objects"
+msgstr "Obiectorum discae dispersae"
+
+msgid "Screen label"
+msgstr "Designatio in scaena"
+
+msgid "Scripts"
+msgstr "Scriptae"
+
+msgid "Search"
+msgstr "Quaerere"
+
+msgid "Search in list"
+msgstr "In catalogo quaerere"
+
+msgid "Search in list..."
+msgstr "In catalogo quaerere…"
+
+msgid "Search options"
+msgstr "Optiones quaestionis"
+
+msgid "Seasons"
+msgstr "Tempora anni"
+
+msgid "Second body"
+msgstr "Corpus secundum"
+
+msgid "Second celestial body"
+msgstr "Corpus caeleste secundum"
+
+msgid "Second graph"
+msgstr "Graphi secunda"
+
+msgid "Second object"
+msgstr "Res secunda"
+
+msgid "Secondary intercardinal points"
+msgstr "Indices cardinales secundarii"
+
+msgid "Sednoids"
+msgstr "Sednoides"
+
+msgid "See the sky through the ground"
+msgstr "Caelum per terram videre"
+
+msgid "Seen now"
+msgstr "Nunc visus"
+
+msgid "Select an object first: this asks SIMBAD what it holds around it."
+msgstr "Obiectum primum eligite: hoc SIMBAD interrogat quid circa illud teneat."
+
+msgid "Select it and show its card"
+msgstr "Eam eligere et chartam eius monstrare"
+
+msgid "Select something in the sky first — this page works on the selection."
+msgstr "Rem aliquam in caelo prius eligere — haec pagina de selectione operatur."
+
+msgid "Selected object"
+msgstr "Res selecta"
+
+msgid "Separate colors for orbits by object type"
+msgstr "Colores separati pro orbibus secundum typum rerum"
+
+msgid "Separate colors for orbits of major planets"
+msgstr "Colores separati pro orbibus planetarum maiorum"
+
+msgid "September equinox"
+msgstr "Aequinoctium Septembris"
+
+msgid "Server"
+msgstr "Servus"
+
+msgid "Set"
+msgstr "Constituere"
+
+msgid "Set the clock to %s"
+msgstr "Horologium ad %s constituere"
+
+msgid "Set the place"
+msgstr "Locum constituere"
+
+msgid "Set to now"
+msgstr "Nunc constituere"
+
+msgid "Sets"
+msgstr "Occasus"
+
+msgid "Shadow map for non-convex bodies. May coarsen the penumbra on some objects"
+msgstr "Mappa umbrae pro corporibus non-convexis. Penumbram in quibusdam rebus asperior facere potest"
+
+msgid "Shadow transit"
+msgstr "Transitus umbrae"
+
+msgid "Shooting stars"
+msgstr "Stellae cadentes"
+
+msgid "Short notation for units of surface brightness"
+msgstr "Notatio brevis pro unitatibus luminositatis superficiei"
+
+msgid "Short steps over a long duration are slow."
+msgstr "Gradus breves super longam durationem tardi sunt."
+
+msgid "Show"
+msgstr "Monstrare"
+
+msgid "Show FOV center marker when position is search"
+msgstr "Marcam centri prospectus monstrare cum positio quaestio sit"
+
+msgid "Show additional buttons"
+msgstr "Pulsus additionalis monstrare"
+
+msgid "Show additional star names"
+msgstr "Nomina stellarum additionalia monstrare"
+
+msgid "Show all information"
+msgstr "Omnem notitiam monstrare"
+
+msgid "Show atmospheric extinction"
+msgstr "Extinctionem atmosphericam monstrare"
+
+msgid "Show boundaries of constellations"
+msgstr "Limites constellationum monstrare"
+
+msgid "Show button in addition to keyboard shortcut?"
+msgstr "Pulsus praeter clavium scansiones monstrare?"
+
+msgid "Show controls"
+msgstr "Impetus monstrare"
+
+msgid "Show each body where it was when the light left it (recommended)"
+msgstr "Unumquodque corpus ubi erat cum lux reliquit monstrare (commensum)"
+
+msgid "Show fog"
+msgstr "Nebulam monstrare"
+
+msgid "Show frames per second beside the field of view"
+msgstr "Tabulae per secundum iuxta prospectum monstrare"
+
+msgid "Show ground"
+msgstr "Terram monstrare"
+
+msgid "Show hints and labels for planetary features"
+msgstr "Monitiones et designationes pro notis planetarum monstrare"
+
+msgid "Show illumination"
+msgstr "Illuminationem monstrare"
+
+msgid "Show in sky"
+msgstr "In caelo monstrare"
+
+msgid "Show less"
+msgstr "Minus monstrare"
+
+msgid "Show lunar stations (if defined)"
+msgstr "Stationes lunares monstrare (si constitutae)"
+
+msgid "Show more"
+msgstr "Magis monstrare"
+
+msgid "Show objects which are up"
+msgstr "Res quae supra sunt monstrare"
+
+msgid "Show only named DSO"
+msgstr "Tantum res profundas nominatas monstrare"
+
+msgid "Show only objects between the two sizes"
+msgstr "Tantum res inter duas magnitudines monstrare"
+
+msgid "Show only the kinds ticked below"
+msgstr "Tantum genera quae infra nota sunt monstrare"
+
+msgid "Show or hide the two rails of controls"
+msgstr "Duos clavium ferreas monstrare vel celare"
+
+msgid "Show orbit even if object is off screen"
+msgstr "Orbem etiam si res extra scaenam est monstrare"
+
+msgid "Show orbit only for selected SSO"
+msgstr "Orbem tantum pro SSO selecta monstrare"
+
+msgid "Show orbits"
+msgstr "Orbas monstrare"
+
+msgid "Show orbits of major planets"
+msgstr "Orbas planetarum maiorum monstrare"
+
+msgid "Show planetary nomenclature"
+msgstr "Nomenclaturam planetariam monstrare"
+
+msgid "Show special nomenclature points only"
+msgstr "Tantum puncta nomenclaturae speciales monstrare"
+
+msgid "Show surveys"
+msgstr "Investigationes monstrare"
+
+msgid "Show this survey"
+msgstr "Hanc investigationem monstrare"
+
+msgid "Show tiny circles for minor bodies regardless of magnitude"
+msgstr "Circulos minutos pro corporibus minoribus sine magnitudinis ratione monstrare"
+
+msgid "Show trails"
+msgstr "Itinera monstrare"
+
+msgid "Show zodiac (if defined)"
+msgstr "Zodiacum monstrare (si constitutum)"
+
+msgid "Sidereal time"
+msgstr "Tempus sidereum"
+
+msgid "Simbad Lookup Error: %s"
+msgstr "Error investigationis Simbad: %s"
+
+msgid "Simbad Lookup: querying"
+msgstr "Investigatio Simbad: rogatio"
+
+msgid "Simulate light speed"
+msgstr "Celeritatem lucis simulare"
+
+msgid "Simulate self-shadowing"
+msgstr "Umbram sui ipsius simulare"
+
+msgid "Simulation"
+msgstr "Simulatio"
+
+msgid "Sky Culture"
+msgstr "Cultura caeli"
+
+msgid "Sky and viewing options"
+msgstr "Caelum et optiones visionis"
+
+msgid "Sky culture"
+msgstr "Cultura caeli"
+
+msgid "Slow down"
+msgstr "Tardare"
+
+msgid "Smallest, ′"
+msgstr "Minimus, ′"
+
+msgid "Solar System"
+msgstr "Systema solaris"
+
+msgid "Solar System objects"
+msgstr "Res systematis solaris"
+
+msgid "Solar altitude for Twilight Finder"
+msgstr "Altitudo solaris pro Investigatore Crepusculi"
+
+msgid "Solar elongation"
+msgstr "Elongatio solaris"
+
+msgid "Solar system objects"
+msgstr "Obiectorum systematis solaris"
+
+msgid "Solar system objects: comets"
+msgstr "Obiectorum systematis solaris: cometes"
+
+msgid "Solar system objects: minor bodies"
+msgstr "Obiectorum systematis solaris: corpora minora"
+
+msgid "Solar system objects: planets"
+msgstr "Obiectorum systematis solaris: planetae"
+
+msgid "Solstices (J2000)"
+msgstr "Solsticia (J2000)"
+
+msgid "Solstices (of date)"
+msgstr "Solsticia (diei)"
+
+msgid "Some objects may be found after activation respective plug-ins"
+msgstr "Quaedam res post activationem plugiarum pertinentium inveniri possunt"
+
+msgid "Special points only"
+msgstr "Tantum puncta speciales"
+
+msgid "Spectral Class"
+msgstr "Classis spectralis"
+
+msgid "Speed up"
+msgstr "Accelerare"
+
+msgid "Spiky stars"
+msgstr "Stellae acutae"
+
+msgid "Stand where the landscape was shot, on the planet it names"
+msgstr "Ubi prospectus captus est, in planeta quam nominat, stare"
+
+msgid "Star, planet, catalogue number…"
+msgstr "Stella, planeta, numerum catalogi…"
+
+msgid "Started"
+msgstr "Incipere"
+
+msgid "Startup FOV"
+msgstr "Prospectus initiationis"
+
+msgid "Startup date and time"
+msgstr "Dies et tempus initiationis"
+
+msgid "Startup direction of view"
+msgstr "Directio visionis initiationis"
+
+msgid "Stationary (begin prograde motion)"
+msgstr "Stationarius (initium motus prograde)"
+
+msgid "Stationary (begin retrograde motion)"
+msgstr "Stationarius (initium motus retrograde)"
+
+msgid "Stellarium's user guide covers the astronomy this app shares with it: stellarium.org/documentation"
+msgstr "Libellus auxilii Stellarium astronomiam quae inter Stellarium et hoc munus communis est explicat: stellarium.org/documentation"
+
+msgid "Step, hours"
+msgstr "Gradus, horae"
+
+msgid "Stop a running script"
+msgstr "Scriptam currentem sistere"
+
+msgid "Stop clock when starting"
+msgstr "Horologium cum initiatur sistere"
+
+msgid "Style"
+msgstr "Stylus"
+
+msgid "Sun altitude"
+msgstr "Altitudo solaris"
+
+msgid "Sun at"
+msgstr "Sol"
+
+msgid "Sun's altitude"
+msgstr "Altitudo solis"
+
+msgid "Sun's corona"
+msgstr "Corona solis"
+
+msgid "Sun's glare"
+msgstr "Fulgor solis"
+
+msgid "Sun, planets and moons of first body and observer's planet"
+msgstr "Sol, planetae et lunae corporis primi et planetae observatoris"
+
+msgid "Sun, planets and moons of observer's planet"
+msgstr "Sol, planetae et lunae planetae observatoris"
+
+msgid "Sunlight scattered by interplanetary dust"
+msgstr "Lux solis per pulverem interplanetarium dispersa"
+
+msgid "Superior conjunction"
+msgstr "Coniunctio superior"
+
+msgid "Supernova candidates"
+msgstr "Candidati supernovae"
+
+msgid "Supernova remnant candidates"
+msgstr "Candidati reliquiarum supernovae"
+
+msgid "Supernova remnants"
+msgstr "Reliquiae supernovae"
+
+msgid "Surveys"
+msgstr "Investigationes"
+
+msgid "Switch this off to see the trails for all Solar system bodies"
+msgstr "Hoc claudere ut itinera pro omnibus corporibus systematis solaris videas"
+
+msgid "Symbiotic stars"
+msgstr "Stellae symbioticae"
+
+msgid "Synodic period"
+msgstr "Periodus synodica"
+
+msgid "System date and time"
+msgstr "Dies et tempus systematis"
+
+msgid "System date at"
+msgstr "Dies systematis ad"
+
+msgid "System default"
+msgstr "Defalta systematis"
+
+msgid "Table"
+msgstr "Tabula"
+
+msgid "Tabular output for coordinates and time"
+msgstr "Exitus tabularis pro coordinatibus et tempore"
+
+msgid "Tap a colour to change it. Changes show on the sky at once and are kept."
+msgstr "Colorem tangere ut mutetur. Mutationes in caelo mox apparent et servantur."
+
+msgid "Tap again to confirm"
+msgstr "Iterum tangere ut confirmet"
+
+msgid "Tap an object"
+msgstr "Rem tangere"
+
+msgid "Tap the chart to read a value."
+msgstr "Tabulam tangere ut valores legas."
+
+msgid "Tap the clock"
+msgstr "Horologium tangere"
+
+msgid "Tap the gear"
+msgstr "Dentem tangere"
+
+msgid "Tap the map to stand there."
+msgstr "Mappam tangere ut illic stes."
+
+msgid "Tap the place"
+msgstr "Locum tangere"
+
+msgid "Tap to confirm"
+msgstr "Tangere ut confirmet"
+
+msgid "Tertiary intercardinal points"
+msgstr "Indices cardinales tertiarii"
+
+msgid "Text angle"
+msgstr "Angulus textus"
+
+msgid "The Great Red Spot drifts in System II longitude. Enter a recent measurement and the drift rate to carry it forward from."
+msgstr "Macula Magna Rubra in longitudinem Systematis II movetur. Mensurationem recentem et ratam motus infer ut ab ea proferatur."
+
+msgid "The algorithm is based on visual observations 1877-1891 by G. Müller and was still republished in the Explanatory Supplement to the Astronomical Ephemeris (1961)."
+msgstr "Algorithmus in observationibus visualibus 1877-1891 a G. Müller bases est et in Appendice Explicatoria Ephemeridis Astronomicae (1961) iterum editus."
+
+msgid "The algorithm was published by A. Mallama & J. L. Hilton: Computing apparent planetary magnitudes for the Astronomical Almanac. Astronomy&Computing 25 (2018) 10-24."
+msgstr "Algorithmus ab A. Mallama & J. L. Hilton editus: Magnitudines planetarum apparentes computandae pro Almanace Astronomico. Astronomy&Computing 25 (2018) 10-24."
+
+msgid "The algorithm was published in the 2nd edition of the Explanatory Supplement to the Astronomical Almanac (1992)."
+msgstr "Algorithmus in 2ª editione Appendicis Explanatoriae Almanacis Astronomici (1992) editus."
+
+msgid "The algorithm was published in the 3rd edition of the Explanatory Supplement to the Astronomical Almanac (2013)."
+msgstr "Algorithmus in 3ª editione Appendicis Explanatoriae Almanacis Astronomici (2013) editus."
+
+msgid "The algorithm was used in the Astronomical Almanac (1984 and later) and gives V (instrumental) magnitudes (allegedly from D.L. Harris)."
+msgstr "Algorithmus in Almanace Astronomico (1984 et post) usus est et magnitudines V (instrumentales) dat (ex D.L. Harris)."
+
+msgid "The classical cepheids"
+msgstr "Cepheidis classici"
+
+msgid "The colour each kind of object is drawn in"
+msgstr "Color quo unumquodque genus rei describitur"
+
+msgid "The engine did not answer with any colours."
+msgstr "Motus colores nullos respondit."
+
+msgid "The galactic band"
+msgstr "Fascia galactica"
+
+msgid "The greatest eclipse is invisible in current location"
+msgstr "Eclipse maxima invisibilis est in loco praesenti"
+
+msgid "The horizon outline instead of the panorama"
+msgstr "Delineatio horizonis loco panoramae"
+
+msgid "The path each body has taken across the sky"
+msgstr "Via quam unumquodque corpus per caelum ivit"
+
+msgid "The shortest label the culture defines"
+msgstr "Designatio brevissima quam cultura determinat"
+
+msgid "Thickness"
+msgstr "Crassitudo"
+
+msgid "This copy ships no scripts."
+msgstr "Exemplum hoc scriptae nullas mittit."
+
+msgid "This device has no location service."
+msgstr "Huic machinae nulla est servitio loci."
+
+msgid "This part of the engine exposes no settings on this build."
+msgstr "Haec pars motoris optiones nullas in hac aedificatione exponit."
+
+msgid "This tool works on Earth only!"
+msgstr "Hoc instrumentum in Terra solum laborat!"
+
+msgid "This tool works on Earth only. Short steps over a long duration are slow."
+msgstr "Hoc instrumentum in Terra tantum operatur. Gradus breves super longam durationem tardi sunt."
+
+msgid "This year"
+msgstr "Hoc anno"
+
+msgid "Time"
+msgstr "Tempus"
+
+msgid "Time correction"
+msgstr "Correctio temporis"
+
+msgid "Time of day"
+msgstr "Tempus diei"
+
+msgid "Time span"
+msgstr "Spatium temporis"
+
+msgid "Time step"
+msgstr "Gradus temporis"
+
+msgid "Time zone"
+msgstr "Zona horarum"
+
+msgid "To the next (mths)"
+msgstr "Ad proximum (mens.)"
+
+msgid "To the next, months"
+msgstr "Ad proxima, menses"
+
+msgid "Today"
+msgstr "Hodie"
+
+msgid "Toggle display of nebula images."
+msgstr "Imagines nebulae monstrare vel celare."
+
+msgid "Toggle display of the button for the Digitized Sky Survey."
+msgstr "Pulsus pro Digitized Sky Survey monstrare vel celare."
+
+msgid "Toggle display of the button for the HiPS Surveys. Select a survey in the View settings."
+msgstr "Pulsus pro HiPS Surveys monstrare vel celare. Investigationem in optionibus visionis eligere."
+
+msgid "Toggle drawing Sun's glare"
+msgstr "Fulgorem solis ducere vel celare"
+
+msgid "Toggle drawing halo around the Moon"
+msgstr "Halo circa Lunam ducere vel celare"
+
+msgid "Toggle permanent drawing of Sun's corona when atmosphere is disabled"
+msgstr "Togulare delineatione coronae Solis constanti cum atmosphaera laesa"
+
+msgid "Toggle the usage of background under GUI buttons"
+msgstr "Togulare usum fundi sub pilis interphaciei"
+
+msgid "Toggle vertical and horizontal image flip buttons."
+msgstr "Togulare pila imaginis ancipitis verticalis et horizontalis."
+
+msgid "Total eclipse begins"
+msgstr "Eclipse totalis incipit"
+
+msgid "Total eclipse ends"
+msgstr "Eclipse totalis finit"
+
+msgid "Trails"
+msgstr "Tracta"
+
+msgid "Transit"
+msgstr "Transitus"
+
+msgid "Translated"
+msgstr "Translatum"
+
+msgid "Transparency"
+msgstr "Transparentia"
+
+msgid "Twilight"
+msgstr "Crepusculum"
+
+msgid "Twilight and rise and set times are worked out for an observer on Earth. Move back to Earth to see them."
+msgstr "Crepuscula et tempora ortus et occasus calculantur pro observatore in Terra. Regrede ad Terram ut ea videas."
+
+msgid "Twinkle"
+msgstr "Scintillatio"
+
+msgid "Twinkle amount"
+msgstr "Quantitas scintillationis"
+
+msgid "Twinkle even without atmosphere"
+msgstr "Scintillatio etiam sine atmosphaera"
+
+msgid "Twinkle is caused by atmospheric turbulence; this shows it regardless"
+msgstr "Scintillatio ab turbulentia atmosphaerae causatur; hoc id prodit quomodocumque"
+
+msgid "Type a name, a Bayer letter or a catalogue number - Vega, α Lyr, M 31, NGC 224."
+msgstr "Scribe nomen, litteram Bayeri, aut numerum catalogorum - Vega, α Lyr, M 31, NGC 224."
+
+msgid "Types"
+msgstr "Genere"
+
+msgid "Umbral magnitude"
+msgstr "magnitudo umbralis"
+
+msgid "University of Strasbourg (France)"
+msgstr "Universitas Argentoratensis (Gallia)"
+
+msgid "Up to mag."
+msgstr "Usque ad mag."
+
+msgid "Update"
+msgstr "Renovare"
+
+msgid "Use SIMBAD"
+msgstr "Uti SIMBAD"
+
+msgid "Use additional names of DSO"
+msgstr "Uti nomina addita obiectorum caeli profundi"
+
+msgid "Use autofill only from the beginning of words"
+msgstr "Uti absolutionem automaticam solum ab initio verborum"
+
+msgid "Use buttons background"
+msgstr "Uti fundus pilorum"
+
+msgid "Use common symbols for coordinate systems"
+msgstr "Uti signa communia pro systematibus coordinatorum"
+
+msgid "Use custom time zone"
+msgstr "Uti zonae temporis customatae"
+
+msgid "Use decimal degrees"
+msgstr "Uti gradus decimales"
+
+msgid "Use decimal degrees for coordinates"
+msgstr "Uti gradus decimales pro coordinatis"
+
+msgid "Use designations for screen labels"
+msgstr "Uti designationes pro nominibus in monitore"
+
+msgid "Use distance from North Celestial Pole, not declination from equator in equatorial coordinates"
+msgstr "Uti distantiam ab Polo Caelesti Boreali, non declinationem ab aequatore in coordinatis aequatorialibus"
+
+msgid "Use mag/arcsec^2 for surface brightness"
+msgstr "Utere mag/arcsec^2 pro splendore superficiali"
+
+msgid "Use more accurate 3D models (where available)"
+msgstr "Uti modelos 3D accuratiores (ubi praesto sunt)"
+
+msgid "Use my location"
+msgstr "Uti meam locum"
+
+msgid "Use on-line astronomical database SIMBAD"
+msgstr "Uti databasem astronomicum in linea SIMBAD"
+
+msgid "Use outlines for big deep-sky objects"
+msgstr "Uti delineationes pro magnis obiectis profundae caeli"
+
+msgid "Use proportional hints"
+msgstr "Uti monita proportionalia"
+
+msgid "Use sorting by string length"
+msgstr "Uti ordinationem per longitudinem textus"
+
+msgid "Use surface brightness"
+msgstr "Uti fulgentem superficialem"
+
+msgid "Use the date now shown in the sky"
+msgstr "Uti diem nunc ostensum in caelo"
+
+msgid "Use the value in landscape.ini when it has one"
+msgstr "Uti valorem in landscape.ini cum habeat"
+
+msgid "Use the value stored for this location"
+msgstr "Uti valorem qui huic loco repositus est"
+
+msgid "Use this landscape as default"
+msgstr "Uti hunc prospectum ut praefatum"
+
+msgid "Use this sky culture as default"
+msgstr "Uti hanc culturam caeli ut praefatam"
+
+msgid "Var. stars"
+msgstr "Stella variabilia"
+
+msgid "Version %s  ·  Qt %s"
+msgstr "Versio %s  ·  Qt %s"
+
+msgid "Vertical viewport offset"
+msgstr "Dislocatio verticalis prospectivi"
+
+msgid "View recent GRS measurements"
+msgstr "Videre mensurationes recentes GRS"
+
+msgid "Visibility"
+msgstr "Visibilitas"
+
+msgid "Visual magnitude based on phase angle and albedo."
+msgstr "magnitudo visualis fundata in angulo phasis et albedine."
+
+msgid "Western quadrature"
+msgstr "Quadratura occidentalis"
+
+msgid "When a search result is chosen"
+msgstr "Cum eventus quaestionis eligatur"
+
+msgid "Where Jupiter's Great Red Spot was, and when"
+msgstr "Ubi Macula Iuppiteris Magna Rufa erat, et quando"
+
+msgid "Width"
+msgstr "Latitudo"
+
+msgid "Working out the contact times…"
+msgstr "Tempora contactus elaboranda sunt…"
+
+msgid "Year"
+msgstr "Annus"
+
+msgid "Zenith and Nadir"
+msgstr "Apex et Nadir"
+
+msgid "Zodiac and lunar stations"
+msgstr "Zodiacus et staciones lunares"
+
+msgid "Zodiacal Light brightness"
+msgstr "Splendor auraes zodiacalis"
+
+msgid "Zoom in and out"
+msgstr "Zooma introrsum et extrorsume"
+
+msgid "after sunset"
+msgstr "post occasum solis"
+
+msgid "before sunrise"
+msgstr "ante ortum solis"
+
+msgid "bright suburban"
+msgstr "Suburbanus lucidus"
+
+msgid "east +"
+msgstr "oriens +"
+
+msgid "engine ready, interface going live"
+msgstr "Engine paratum, interfacia accedet"
+
+msgid "excellent dark sky"
+msgstr "Caelum opacum praeclarum"
+
+msgid "from landscape, if given"
+msgstr "Ex prospectu, si datum"
+
+msgid "inner city"
+msgstr "Urbis intima"
+
+msgid "north +"
+msgstr "septentrio +"
+
+msgid "rural/suburban"
+msgstr "ruralis/suburbanus"
+
+msgid "sci. translit."
+msgstr "Sci. translitteratio"
+
+msgid "select all"
+msgstr "Omnia eligere"
+
+msgid "select none"
+msgstr "Nihil eligere"
+
+msgid "select preference"
+msgstr "Praelationem eligere"
+
+msgid "select standard"
+msgstr "Normam eligere"
+
+msgid "store preference"
+msgstr "Praelationem servare"
+
+msgid "suburban/urban"
+msgstr "suburbanus/urbanus"
+
+msgid "truly dark"
+msgstr "Vere opacum"
+
+msgid "unreadable snapshot"
+msgstr "Photoiconisma illegibilis"
+
+msgid "use current"
+msgstr "Uti praesens"
+
+msgid "with Solar Dates"
+msgstr "Cum datationibus Solaris"
+
+msgid "… and moons"
+msgstr "… et lunas"

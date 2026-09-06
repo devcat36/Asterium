@@ -1,0 +1,2416 @@
+# Asterium interface translation for sq.
+# Copyright (C) 2026 the Asterium authors
+# This file is distributed under the same licence as the Asterium package.
+#
+# MACHINE TRANSLATION, not reviewed by a speaker of this language.
+# Terminology follows upstream Stellarium's own sq catalogue, which was used
+# as a glossary, and every entry keeps the source's printf placeholders.
+# Corrections from a human translator are welcome and should simply replace these.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: asterium\n"
+"Language: sq\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%d bodies"
+msgstr "%d trupa"
+
+msgid "%d object"
+msgstr "%d objekt"
+
+msgid "%d objects"
+msgstr "%d objekte"
+
+msgid "%s colour"
+msgstr "%s ngjyrë"
+
+msgid "%s from %s, ±%.0f m"
+msgstr "%s nga %s, ±%.0f m"
+
+msgid "12-hour"
+msgstr "12-orë"
+
+msgid "1× below"
+msgstr "1× poshtë"
+
+msgid "24-hour"
+msgstr "24-orë"
+
+msgid "A button to mark every object of the current observing list on the sky."
+msgstr "Buton për të shënuar secilin objekt të listës së vëzhgimit aktual në qiell."
+
+msgid "A button to toggle ecliptic grid of date"
+msgstr "Buton për të çaktivizuar rrjetën ekliptike të datës"
+
+msgid "A button to toggle equatorial J2000 grid"
+msgstr "Buton për të çaktivizuar rrjetën ekuatoriale J2000"
+
+msgid "A button to toggle galactic grid"
+msgstr "Buton për të çaktivizuar rrjetën galaktike"
+
+msgid "A polygonal model for some small moons, asteroids and comets instead of a sphere"
+msgstr "Model poligonal për disa hëna të vogla, asteroidë dhe kometa në vend të sferës"
+
+msgid "A touch-first planetarium forked from Stellarium, whose astronomy engine it uses unchanged. The interface is new; everything that draws the sky is upstream's work."
+msgstr "Planetarium i zhvilluar për kontakt, i ndarë nga Stellarium, i cili përdor motorin e tij të pashpallë. Ndërfaqja është e re; gjithçka që vizaton qiellin është puna e zhvilluesit të mëparshëm."
+
+msgid "Abbreviated names"
+msgstr "Emra të shkurtuar"
+
+msgid "About this sky culture"
+msgstr "Rreth kësaj kulture qielli"
+
+msgid "Above altitude, °"
+msgstr "Mbi lartësinë, °"
+
+msgid "Absolute scale"
+msgstr "Shkallë absolute"
+
+msgid "Activate this option to calculate azimuth from south towards west."
+msgstr "Aktivizo këtë mundësi për të llogaritur azimuthin nga jugu drejt perëndimit."
+
+msgid "Add %s"
+msgstr "Shto %s"
+
+msgid "Additional information settings"
+msgstr "Rregullime informacioni shtesë"
+
+msgid "Adjust brightness to bright objects"
+msgstr "Përshtat ndriçimin me objektet e ndritshëm"
+
+msgid "Algol-type eclipsing systems"
+msgstr "Sistemet eklipsante të llojit Algol"
+
+msgid "Algorithm of ΔT"
+msgstr "Algoritmi i ΔT"
+
+msgid "All naked-eye planets"
+msgstr "Krejt planetët e dukshëm me sy"
+
+msgid "All solar eclipses"
+msgstr "Krejt eklipsat diellore"
+
+msgid "Allow negative hour angles"
+msgstr "Lejoji kënde orare negative"
+
+msgid "Allow results outside the recommended time range of the orbital elements"
+msgstr "Lejoji përfundime jashtë intervalit të rekomanduar të kohës të elementëve orbital"
+
+msgid "Almanac"
+msgstr "Almanak"
+
+msgid "Almanac: Sun, Moon and naked-eye planets"
+msgstr "Almanaku: Dielli, Hëna dhe planetët e dritshëm me sy"
+
+msgid "Also find"
+msgstr "Gjej edhe"
+
+msgid "Also plot"
+msgstr "Vizato edhe"
+
+msgid "Also show moons of selected object or planets"
+msgstr "Shfaq edhe hënat e objektit ose planetëve të përzgjedhur"
+
+msgid "Altitude"
+msgstr "Lartësia"
+
+msgid "Altitude limit, °"
+msgstr "Limit lartësie, °"
+
+msgid "Altitude vs. Time"
+msgstr "Lartësia vs. Kohë"
+
+msgid "Amount"
+msgstr "Sasi"
+
+msgid "An observer floats above its planet, so there is nowhere on it to stand. Choose another planet to come back down."
+msgstr "Një vëzhgues noton mbi planetin e tij, kështu që nuk ka asnjë vend për të qëndruar mbi të. Zgjidh një planetë tjetër për të zbritur."
+
+msgid "And"
+msgstr "Dhe"
+
+msgid "And also"
+msgstr "Dhe edhe"
+
+msgid "And the next (years)"
+msgstr "Dhe tjetrin (vitet)"
+
+msgid "Ang. Size"
+msgstr "Përmasa Kënd."
+
+msgid "Angular distance"
+msgstr "Distancë këndore"
+
+msgid "Angular distance between the Moon and selected object"
+msgstr "Largësia këndore ndërmjet Hënës dhe objektit të zgjedhur"
+
+msgid "Angular distance from the Moon"
+msgstr "Largësia këndore nga Hëna"
+
+msgid "Angular distance from the Moon for second object"
+msgstr "Largësia këndore nga Hëna për objektin e dytë"
+
+msgid "Angular distance from the Sun"
+msgstr "Largësia këndore nga Dielli"
+
+msgid "Angular distance from the Sun for second object"
+msgstr "Largësia këndore nga Dielli për objektin e dytë"
+
+msgid "Angular size"
+msgstr "Madhësia këndore"
+
+msgid "Annual drift"
+msgstr "Zhvendosje vjetore"
+
+msgid "Antisolar point"
+msgstr "Pikë antisolore"
+
+msgid "Apex points"
+msgstr "Pika apeksi"
+
+msgid "Aphelion"
+msgstr "Afelion"
+
+msgid "Appearance"
+msgstr "Pamja"
+
+msgid "Apply time interval limits to list"
+msgstr "Zbato limite intervali kohe në listë"
+
+msgid "Art"
+msgstr "Arti"
+
+msgid "Artificial satellites and unnamed stars are excluded from calculation."
+msgstr "Satelitët artificialë dhe yjet pa emër përjashtohen nga llogaritja."
+
+msgid "Asking for permission…"
+msgstr "Po pyet për leje…"
+
+msgid "Asks SIMBAD what it holds around the object that is selected now, and prints the answer as it comes back."
+msgstr "Pyet SIMBAD çka ka rreth objektit që është zgjedhur tani, dhe shtyp përgjigjen sa kthehet."
+
+msgid "Ast. lines"
+msgstr "V. ast."
+
+msgid "Ast. names"
+msgstr "Emra ast."
+
+msgid "Asterism labels"
+msgstr "Etiketa asteroizmash"
+
+msgid "Asterism lines"
+msgstr "Vija asteroizmash"
+
+msgid "Asterisms"
+msgstr "Asteroizmat"
+
+msgid "Asterisms font size"
+msgstr "Madhësia e fontit asteroizmash"
+
+msgid "Astronomical Almanac (default) enlarges by 2%; Danjon (1951) differs slightly"
+msgstr "Almanaku Astronomik (parazgjedhje) zmadhon me 2%; Danjon (1951) ndryshon pakë"
+
+msgid "Astronomical Twilight"
+msgstr "Agim astronomik"
+
+msgid "Astronomical night"
+msgstr "Natë astronomike"
+
+msgid "At"
+msgstr "Në"
+
+msgid "Atmosph."
+msgstr "Atmosf."
+
+msgid "Automatic closing dialog"
+msgstr "Dialog mbylljeje automatike"
+
+msgid "Automatic transparency"
+msgstr "Transparencë automatike"
+
+msgid "Axis distance"
+msgstr "Distancë boshti"
+
+msgid "Azi. grid"
+msgstr "Rr. azi."
+
+msgid "Azimuth"
+msgstr "Azimut"
+
+msgid "Azimuth and altitude rather than right ascension and declination"
+msgstr "Azimut dhe lartësi në vend të ngritjes djathtas dhe deklinacionit"
+
+msgid "Azimuth from South"
+msgstr "Azimut nga Jugu"
+
+msgid "Azimuth vs. Time"
+msgstr "Azimut vs. Kohë"
+
+msgid "Bad visibility conditions for current location"
+msgstr "Kushte të dobëta të dukshmërisë për vendndodhjen aktuale"
+
+msgid "Beginning of center line; central eclipse begins"
+msgstr "Fillimi i vijës qendrore; eklipsi qendror fillon"
+
+msgid "Below the horizon here."
+msgstr "Poshtë horizontit këtu."
+
+msgid "Between objects"
+msgstr "Midis objekteve"
+
+msgid "Boundless"
+msgstr "Pa kufij"
+
+msgid "Bounds"
+msgstr "Kufij"
+
+msgid "Bright Solar system objects (<%1 mag)"
+msgstr "Objekte të ndritshëm të Sistemit Diellor (<%1 mag)"
+
+msgid "Bright barium stars"
+msgstr "Yje të ndritshëm me barium"
+
+msgid "Bright carbon stars"
+msgstr "Yje të ndritshëm me karbon"
+
+msgid "Bright double stars"
+msgstr "Yje të ndritshëm të dyfishta"
+
+msgid "Bright double stars (<%1 mag)"
+msgstr "Yje të ndritshëm të dyfishta (<%1 mag)"
+
+msgid "Bright galaxies (<%1 mag)"
+msgstr "Galaktika të ndritshme (<%1 mag)"
+
+msgid "Bright nebulae"
+msgstr "Mjegullnaja të ndritshme"
+
+msgid "Bright nebulae (<%1 mag)"
+msgstr "Mjegullnaja të ndritshme (<%1 mag)"
+
+msgid "Bright nova stars"
+msgstr "Yje të ndritshëm nova"
+
+msgid "Bright star clusters (<%1 mag)"
+msgstr "Grupe yjesh të ndritshëm (<%1 mag)"
+
+msgid "Bright stars"
+msgstr "Yje të ndritshëm"
+
+msgid "Bright stars with high proper motion"
+msgstr "Yje të ndritshëm me lëvizje të madhe të duhur"
+
+msgid "Bright supernova stars"
+msgstr "Yje të ndritshëm supernova"
+
+msgid "Bright variable stars"
+msgstr "Yje të ndritshëm të ndryshueshëm"
+
+msgid "Bright variable stars (<%1 mag)"
+msgstr "Yje të ndritshëm të ndryshueshëm (<%1 mag)"
+
+msgid "Brighter than"
+msgstr "Më i ndritshëm se"
+
+msgid "By object type"
+msgstr "Sipas llojit të objektit"
+
+msgid "By planet"
+msgstr "Sipas planetit"
+
+msgid "Calculate"
+msgstr "Llogarit"
+
+msgid "Calculating…"
+msgstr "Po llogaris…"
+
+msgid "Cardinals"
+msgstr "Kardinale"
+
+msgid "Catalogue numbers instead of common names"
+msgstr "Numrat e katalogut në vend të emrave të zakonshëm"
+
+msgid "Category"
+msgstr "Kategori"
+
+msgid "Celestial poles (of date)"
+msgstr "Pole qiellore (të datës)"
+
+msgid "Center of FOV"
+msgstr "Qendra e Fushëpamjes"
+
+msgid "Centering button"
+msgstr "Buton qendrimi"
+
+msgid "Central duration"
+msgstr "Kohëzgjatje qendrore"
+
+msgid "Central eclipse begins"
+msgstr "Eklipsa qendrore fillon"
+
+msgid "Central eclipse ends"
+msgstr "Eklipsa qendrore përfundon"
+
+msgid "Centre"
+msgstr "Qendër"
+
+msgid "Centre on object"
+msgstr "Qendro në objekt"
+
+msgid "Centre point"
+msgstr "Pika qendrore"
+
+msgid "Circles"
+msgstr "Rrathë"
+
+msgid "Circular FOV"
+msgstr "Fushëpamje rrethore"
+
+msgid "Circumpolar circles"
+msgstr "Rrathë zirkumpollar"
+
+msgid "City"
+msgstr "Qytet"
+
+msgid "Civil Twilight"
+msgstr "Agim civil"
+
+msgid "Cleanup"
+msgstr "Pastroje"
+
+msgid "Clear"
+msgstr "Pastroje"
+
+msgid "Clear recent searches"
+msgstr "Pastroje kërkimet e fundit"
+
+msgid "Clear the selection - a touch screen has no right button"
+msgstr "Pastroje përzgjedhjen - ekrani i prekjes nuk ka buton të djathtë"
+
+msgid "Cleared."
+msgstr "Pastruar."
+
+msgid "Click on star to show its constellation"
+msgstr "Kliko në yjë për të shfaqur yjësinë e tij"
+
+msgid "Close"
+msgstr "Mbyll"
+
+msgid "Close what is open; from the sky, leave the app running"
+msgstr "Mbyll atë që është hapur; nga qielli, lëshoji aplikacionin të ecë"
+
+msgid "Clusters of galaxies"
+msgstr "Grupe galaktikash"
+
+msgid "Coarse"
+msgstr "E trashë"
+
+msgid "Color"
+msgstr "Ngjyrë"
+
+msgid "Color channel"
+msgstr "Kanal ngjyre"
+
+msgid "Color of Lunar station lines"
+msgstr "Ngjyrë vija stacioni hënor"
+
+msgid "Color of asterism lines"
+msgstr "Ngjyrë vija asteroizmash"
+
+msgid "Color of asterism names"
+msgstr "Ngjyrë emra asteroizmash"
+
+msgid "Color of constellation boundaries"
+msgstr "Ngjyrë kufij yjësie"
+
+msgid "Color of constellation lines"
+msgstr "Ngjyrë vija yjësie"
+
+msgid "Color of nomenclature labels"
+msgstr "Ngjyrë etiketa nomenklature"
+
+msgid "Color of orbits"
+msgstr "Ngjyrë orbitash"
+
+msgid "Color of ray helpers"
+msgstr "Ngjyrë ndihmës rreze"
+
+msgid "Color of trails"
+msgstr "Ngjyrë shtigjesh"
+
+msgid "Color of zodiac lines"
+msgstr "Ngjyrë vija zodiak"
+
+msgid "Colors of orbit lines"
+msgstr "Ngjyra të vijash orbite"
+
+msgid "Colures"
+msgstr "Kolura"
+
+msgid "Comets up to mag."
+msgstr "Kometa deri te mag."
+
+msgid "Compass"
+msgstr "Kompass"
+
+msgid "Config"
+msgstr "Formësim"
+
+msgid "Configure colors of markers"
+msgstr "Formëso ngjyrat e pikëtash"
+
+msgid "Configure colors of orbit lines"
+msgstr "Formëso ngjyrat e vijash orbite"
+
+msgid "Conjunction"
+msgstr "Bashkim"
+
+msgid "Connecting line"
+msgstr "Vija lidhëse"
+
+msgid "Const."
+msgstr "Yjë."
+
+msgid "Constellations font size"
+msgstr "Madhësia e fontit yjësish"
+
+msgid "Contrast"
+msgstr "Kontrast"
+
+msgid "Coordinate system"
+msgstr "Sistem koordinatash"
+
+msgid "Coordinates"
+msgstr "Koordinata"
+
+msgid "Copyright"
+msgstr "E drejta e autorit"
+
+msgid "Credits"
+msgstr "Kredite"
+
+msgid "Cubewanos"
+msgstr "Kubevano"
+
+msgid "Culmination altitude"
+msgstr "Lartësia e kulminacionit"
+
+msgid "Current FoV"
+msgstr "Fushëpamje aktuale"
+
+msgid "Custom"
+msgstr "Vetjak"
+
+msgid "Custom FoV limit"
+msgstr "Limit fushëpamjeje vetjak"
+
+msgid "Custom altitude of the Moon, °"
+msgstr "Lartësia vetjake e Hënës, °"
+
+msgid "Custom altitude of the Sun, °"
+msgstr "Lartësia vetjake e Diellit, °"
+
+msgid "Custom settings for position of GRS"
+msgstr "Rregullime vetjake për pozicionin e GRS"
+
+msgid "Custom values"
+msgstr "Vlera vetjake"
+
+msgid "Cut the scale off below the limit"
+msgstr "Preje shkallën poshtë limitit"
+
+msgid "DATE AND TIME (UTC)"
+msgstr "DATË DHE KOH (UTC)"
+
+msgid "DSS survey"
+msgstr "Anketa DSS"
+
+msgid "Data"
+msgstr "Të dhëna"
+
+msgid "Date and time"
+msgstr "Datë dhe kohë"
+
+msgid "Date/time"
+msgstr "Datë/kohë"
+
+msgid "Dates"
+msgstr "Datat"
+
+msgid "Dbl. stars"
+msgstr "Yje të dyfishtë"
+
+msgid "December solstice"
+msgstr "Solstici i dhjetorit"
+
+msgid "Decimal degrees. −33.87 means 33.87° south. Elevation is metres above sea level; it moves the horizon down by a few arcminutes."
+msgstr "Gradë dhjetore. −33.87 nënkupton 33.87° jug. Lartësia është metra mbi nivelin e detit; lëviz horizontin poshtë për disa arkminuta."
+
+msgid "Declination"
+msgstr "Deklinacion"
+
+msgid "Degrees per year the longitude moves by"
+msgstr "Gradë për vit që lëviz gjatësia"
+
+msgid "Degrees, hours and minutes as they are written - 12h30m49s, +41°16'09\", 187.7 - or plain decimal degrees."
+msgstr "Gradë, orë dhe minuta ashtu siç janë të shkruar - 12h30m49s, +41°16'09\", 187.7 - ose gradë dhjetore të thjeshtë."
+
+msgid "Deletes all recent search object data, and the objects SIMBAD contributed."
+msgstr "Fshij të gjithë të dhënat e objektit të kërkimit të fundit, dhe objektet që kontribuoi SIMBAD."
+
+msgid "Designations for celestial coordinate systems"
+msgstr "Përcaktimet për sisteme koordinatash qiellore"
+
+msgid "Designations for double stars"
+msgstr "Përcaktimet për yje të dyfishtë"
+
+msgid "Designations for variable stars"
+msgstr "Përcaktimet për yje variabël"
+
+msgid "Dim a survey near the horizon, as the air does"
+msgstr "Zbehu një anketë afër horizontit, siç bënë ajri"
+
+msgid "Display formats of date and time"
+msgstr "Formate shfaqje të datës dhe kohës"
+
+msgid "Display objects from catalogs"
+msgstr "Shfaq objektet nga katalogjet"
+
+msgid "Displayed"
+msgstr "Shfaqur"
+
+msgid "Dist."
+msgstr "Larg."
+
+msgid "Distance, AU"
+msgstr "Largësi, AU"
+
+msgid "Done"
+msgstr "Përfunduar"
+
+msgid "Drag"
+msgstr "Tërhiq"
+
+msgid "Draw deep-sky objects at all"
+msgstr "Vizato objektet e qiellit të thellë fare"
+
+msgid "Draw only polygon"
+msgstr "Vizato vetëm poligon"
+
+msgid "Draw the enabled sky surveys"
+msgstr "Vizato anketat e qiellit të aktivizuara"
+
+msgid "Draw the planets, moons and minor bodies"
+msgstr "Vizato planetët, hënat dhe trupat e dorës së dytë"
+
+msgid "Drawn larger than life, so a body that is a few arcseconds wide is visible at all. The position stays true."
+msgstr "Vizatuar më i madh se jeta, kështu një trup që është disa arksekundat i gjerë është i dukshëm fare. Pozicioni mbetet i vërtetë."
+
+msgid "Duration"
+msgstr "Kohëzgjatje"
+
+msgid "Duration (years)"
+msgstr "Kohëzgjatje (vitet)"
+
+msgid "Duration, months"
+msgstr "Kohëzgjatje, muaj"
+
+msgid "Dusk"
+msgstr "Përjetim"
+
+msgid "Dynamic (FOV-based) Moon size"
+msgstr "Madhësi Hënë dinamike (e bazuar në Fushëpamje)"
+
+msgid "Earth penumbra"
+msgstr "Penumbra e Tokës"
+
+msgid "Earth shadow enlargement after Danjon"
+msgstr "Zmadhim hija e Tokës pas Danjon"
+
+msgid "Earth umbra"
+msgstr "Umbra e Tokës"
+
+msgid "Eastern quadrature"
+msgstr "Kadratë lindore"
+
+msgid "Ecl. grid"
+msgstr "Rr. ekl."
+
+msgid "Eclipse begins; first contact with Earth"
+msgstr "Eklipsi fillon; kontakti i parë me Tokën"
+
+msgid "Eclipse ends; last contact with Earth"
+msgstr "Eklipsi përfundon; kontakti i fundit me Tokën"
+
+msgid "Eclipses"
+msgstr "Eklipsat"
+
+msgid "Eclipses are computed for observers on Earth."
+msgstr "Eklipsat janë llogaritur për vëzhguesit në Tokë."
+
+msgid "Ecliptic (J2000)"
+msgstr "Ekliptik (J2000)"
+
+msgid "Ecliptic (J2000.0)"
+msgstr "Ekliptik (J2000.0)"
+
+msgid "Ecliptic (of date)"
+msgstr "Ekliptik (të datës)"
+
+msgid "Ecliptic grid (J2000)"
+msgstr "Rrjetë ekliptike (J2000)"
+
+msgid "Ecliptic grid (of date)"
+msgstr "Rrjetë ekliptike (të datës)"
+
+msgid "Ecliptic poles (J2000)"
+msgstr "Pole ekliptike (J2000)"
+
+msgid "Ecliptic poles (of date)"
+msgstr "Pole ekliptike (të datës)"
+
+msgid "Elev."
+msgstr "Lart."
+
+msgid "Elevation"
+msgstr "Lartësia"
+
+msgid "Elevation in metres"
+msgstr "Lartësia në metra"
+
+msgid "Elong."
+msgstr "Gjat."
+
+msgid "Elongation"
+msgstr "Largim këndor"
+
+msgid "Elongations and quadratures"
+msgstr "Zgjatimet dhe kuadraturawt"
+
+msgid "Emission-line stars"
+msgstr "Yje të emetimit"
+
+msgid "Enabled only"
+msgstr "Vetëm i aktivizuari"
+
+msgid "End of center line; central eclipse ends"
+msgstr "Përfundim i vijës qendrore; eklipsi qendror përfundon"
+
+msgid "Enter Culture..."
+msgstr "Hyj Kulturë…"
+
+msgid "Ephemeris"
+msgstr "Efemerida"
+
+msgid "Equ. grid"
+msgstr "Rr. equ."
+
+msgid "Equ. mount"
+msgstr "Mont. equ."
+
+msgid "Equator (J2000)"
+msgstr "Ekuator (J2000)"
+
+msgid "Equator (of date)"
+msgstr "Ekuator (të datës)"
+
+msgid "Equatorial (J2000.0)"
+msgstr "Ekuatorial (J2000.0)"
+
+msgid "Equatorial grid (J2000)"
+msgstr "Rrjetë ekuatoriale (J2000)"
+
+msgid "Equatorial grid (of date)"
+msgstr "Rrjetë ekuatoriale (të datës)"
+
+msgid "Equatorial radii ratio"
+msgstr "Raporti i radive ekuatoriale"
+
+msgid "Equinoxes (J2000)"
+msgstr "Ekuinokse (J2000)"
+
+msgid "Equinoxes (of date)"
+msgstr "Ekuinokse (të datës)"
+
+msgid "Evening"
+msgstr "Mbrëmje"
+
+msgid "Every"
+msgstr "Çdo"
+
+msgid "Every name the object is catalogued under"
+msgstr "Çdo emër nën të cilin objekti është kataloguar"
+
+msgid "Exoplanetary systems"
+msgstr "Sistemet ekzoplanetare"
+
+msgid "Explanatory Supplement (1992)"
+msgstr "Shtesë Shpjeguese (1992)"
+
+msgid "Explanatory Supplement (2013)"
+msgstr "Shtesë Shpjeguese (2013)"
+
+msgid "Exterior egress"
+msgstr "Dalje e jashtme"
+
+msgid "Exterior ingress"
+msgstr "Hyrje e jashtme"
+
+msgid "Extras"
+msgstr "Shtesa"
+
+msgid "Fades the ground as you look below the horizon or zoom in"
+msgstr "Zbeh truallin kur shihni poshtë horizontit ose zmadhoni"
+
+msgid "Fading duration"
+msgstr "Kohëzgjatje zbehjeje"
+
+msgid "Faintest shown"
+msgstr "Më e mbytshme e shfaqur"
+
+msgid "Favorites"
+msgstr "Të parapëlqyerat"
+
+msgid "Fetching the survey lists…"
+msgstr "Po ngarkon listat e anketave…"
+
+msgid "Filter"
+msgstr "Filtro"
+
+msgid "Find a city"
+msgstr "Gjej një qytet"
+
+msgid "Fine"
+msgstr "I mirë"
+
+msgid "First %d of %d - filter to narrow it."
+msgstr "Të parat %d të %d - filtroji për ta ngushtuar atë."
+
+msgid "First body"
+msgstr "Trupi i parë"
+
+msgid "First celestial body"
+msgstr "Trupi i parë qiellor"
+
+msgid "First graph"
+msgstr "Grafik i parë"
+
+msgid "Fix"
+msgstr "Rregull"
+
+msgid "Fixed Equator"
+msgstr "Ekuator fiks"
+
+msgid "Fixed Equatorial grid"
+msgstr "Rrjetë ekuatoriale fikse"
+
+msgid "Fixed instant"
+msgstr "Çast fiks"
+
+msgid "Flip buttons"
+msgstr "Butona rrotullimi"
+
+msgid "Flip horiz."
+msgstr "Rrot. hor."
+
+msgid "Flip vert."
+msgstr "Rrot. vert."
+
+msgid "Font size"
+msgstr "Madhësia e fontit"
+
+msgid "Frame rate"
+msgstr "Shpejtësia kadrash"
+
+msgid "From"
+msgstr "Nga"
+
+msgid "From year"
+msgstr "Nga viti"
+
+msgid "Full screen"
+msgstr "Plotë"
+
+msgid "Fullscreen button"
+msgstr "Buton ekran të plotë"
+
+msgid "Further reading"
+msgstr "Lexim i mëtejshëm"
+
+msgid "GRS details…"
+msgstr "Detaje GRS…"
+
+msgid "Gal. grid"
+msgstr "Rr. gal."
+
+msgid "Gamma"
+msgstr "Gama"
+
+msgid "Gamma, saturation, brightness, contrast, opacity, colour channel and inverted colours belong to one survey. Open a survey to set them."
+msgstr "Gama, ngopur, ndriçim, kontrast, patejdukshmëri, kanal ngjyre dhe ngjyra të përmbysura u përkasin një anketje. Hape një anketje për t'i vendosur."
+
+msgid "Gestures"
+msgstr "Lëvizje"
+
+msgid "Globular star clusters"
+msgstr "Grupe yjesh globulare"
+
+msgid "Go there"
+msgstr "Shko atje"
+
+msgid "Go to position"
+msgstr "Shko në pozicion"
+
+msgid "Go to this eclipse"
+msgstr "Shko në këtë eklipsë"
+
+msgid "Go to this moment"
+msgstr "Shko në këtë moment"
+
+msgid "Go to this transit"
+msgstr "Shko në këtë tranzit"
+
+msgid "Good visibility conditions for current location"
+msgstr "Kushte të mira të dukshmërisë për vendndodhjen aktuale"
+
+msgid "Great Red Spot"
+msgstr "Vëndja e Madhe e Kuqe"
+
+msgid "Great Red Spot details"
+msgstr "Detaje të Pikës Së Madhe Të Kuqe"
+
+msgid "Greatest eastern elongation"
+msgstr "Largimi më i madh lindor"
+
+msgid "Greatest eclipse"
+msgstr "Eklipsi më i madh"
+
+msgid "Greatest elongation for an inner planet, quadrature for an outer one"
+msgstr "Zgjerimi më i madh për një planet të brendshëm, kuadratura për një të jashtëm"
+
+msgid "Greatest western elongation"
+msgstr "Largimi më i madh perëndimor"
+
+msgid "Greek letters"
+msgstr "Shkronja greke"
+
+msgid "Greek letters for Bayer designations"
+msgstr "Shkronja greke për emërimet Bayer"
+
+msgid "Grid density"
+msgstr "Densitet rrjeti"
+
+msgid "Grids"
+msgstr "Rrjetë"
+
+msgid "Ground"
+msgstr "Truall"
+
+msgid "Gyro"
+msgstr "Xhiro"
+
+msgid "Gyro mode"
+msgstr "Mënyra xhiro"
+
+msgid "Harvard-Smithsonian Center for Astrophysics (USA)"
+msgstr "Qendra Harvard-Smithsonian për Astrofizikë (SHBA)"
+
+msgid "Height"
+msgstr "Lartësi"
+
+msgid "Heliocentric distance"
+msgstr "Largësia heliocentric"
+
+msgid "Heliocentric ecliptic positions of the major planets."
+msgstr "Pozicione ekliptike heliocentriske të planetësh të mëdhenj."
+
+msgid "HiPS"
+msgstr "HiPS"
+
+msgid "HiPS Surveys"
+msgstr "Sondazhe HiPS"
+
+msgid "Hide controls"
+msgstr "Fsheh kontrollet"
+
+msgid "Hide deep-sky objects fainter than the limit"
+msgstr "Fsheh objekte të Qiellit të Thellë më të zbehta se kufiri"
+
+msgid "Hide nomenclature on the celestial body of observer"
+msgstr "Fsheh nomenklaturën në trupin qiellor të vëzhguesit"
+
+msgid "Hide orbits of minor bodies"
+msgstr "Fsheh orbitat e trupave të dorës së dytë"
+
+msgid "Highlight"
+msgstr "Nxirrje"
+
+msgid "Highlight the objects of the observing list"
+msgstr "Shëno objektet e listës së vëzhgimit"
+
+msgid "Hint circles marking each planet"
+msgstr "Qarqe ndihmëze që shënojnë çdo planet"
+
+msgid "Hints brightness"
+msgstr "Ndriçim ndihmëzash"
+
+msgid "Hipparcos designations"
+msgstr "Emërimet Hipparcos"
+
+msgid "Horizontal coordinates"
+msgstr "Koordinata horizontale"
+
+msgid "Hour angles usually run 0...24h. This counts -12h...12h."
+msgstr "Këndet e orës zakonisht shkohen 0...24h. Ky bën −12h...12h."
+
+msgid "How many"
+msgstr "Sa"
+
+msgid "ICRS grid"
+msgstr "Rrjetë ICRS"
+
+msgid "Include"
+msgstr "Përfshij"
+
+msgid "Include bright comets"
+msgstr "Përfshij kometa të ndritshme"
+
+msgid "Include selected minor planets"
+msgstr "Përfshij planetë të dorës së dytë të përzgjedhur"
+
+msgid "Inferior conjunction"
+msgstr "Bashkim i poshtëm"
+
+msgid "Info label"
+msgstr "Etiketë informacioni"
+
+msgid "Interacting galaxies"
+msgstr "Galaktika në ndërveprim"
+
+msgid "Intercardinal points"
+msgstr "Pikat ndërmidis pikave referimi"
+
+msgid "Interior egress"
+msgstr "Dalja e brendshme"
+
+msgid "Interior ingress"
+msgstr "Futja e brendshme"
+
+msgid "Invariable plane of the Solar system"
+msgstr "Plani i pandryshuar i Sistemit Diellor"
+
+msgid "Isolated"
+msgstr "E izoluar"
+
+msgid "Its elevation, and the civil, nautical and astronomical twilights"
+msgstr "Lartësia e tij, dhe të bijavet civile, detare dhe astronomike"
+
+msgid "Jovigraphic longitude of the spot in System II, in degrees"
+msgstr "Gjatësia gjeografike joviare e pikës në Sistemin II, në gradë"
+
+msgid "June solstice"
+msgstr "Solstici i qershorit"
+
+msgid "Label"
+msgstr "Etiketa"
+
+msgid "Label colour"
+msgstr "Ngjyrë etikete"
+
+msgid "Label only features along the terminator"
+msgstr "Etiketoji vetëm veçoritë përgjatë terminator"
+
+msgid "Labels and Markers amount"
+msgstr "Sasia e etiketave dhe piketave"
+
+msgid "Labels brightness"
+msgstr "Ndriçim etiketash"
+
+msgid "Largest, ′"
+msgstr "Më i madhi, ′"
+
+msgid "Last known position"
+msgstr "Pozicioni i fundit i njohur"
+
+msgid "Lasting"
+msgstr "Kohëzgjatje"
+
+msgid "Latest selected object"
+msgstr "Objekti i zgjedhur më fundit"
+
+msgid "Latitude"
+msgstr "Gjerësi gjeografike"
+
+msgid "Latitude −90…90, longitude −180…180."
+msgstr "Gjerësi gjeografike −90…90, gjatësi gjeografike −180…180."
+
+msgid "Layer appearance"
+msgstr "Pamja e shtresës"
+
+msgid "Leaves the landscape visible in darkness"
+msgstr "Lë peizazhin të dukshëm në terr"
+
+msgid "Licence"
+msgstr "Licencë"
+
+msgid "Light pollution"
+msgstr "Ndotje drite"
+
+msgid "Light pollution from database"
+msgstr "Ndotje drite nga baza e të dhënave"
+
+msgid "Limit angular separation"
+msgstr "Limiti i ndarjes këndore"
+
+msgid "Limit angular size"
+msgstr "Kufi madhësi këndore"
+
+msgid "Limit magnitude"
+msgstr "Kufi magnitudë"
+
+msgid "Limit the magnitude of solar system objects"
+msgstr "Kufizo magnitudën e objekteve të Sistemit Diellor"
+
+msgid "Line"
+msgstr "Vija"
+
+msgid "Linear and angular distances between selected objects"
+msgstr "Largësitë lineare dhe këndore ndërmjet objekteve të zgjedhura"
+
+msgid "Linear distance"
+msgstr "Largësi lineare"
+
+msgid "Lines"
+msgstr "Vija"
+
+msgid "Lines and circles"
+msgstr "Vija dhe qarqe"
+
+msgid "List"
+msgstr "Lista"
+
+msgid "List name"
+msgstr "Emër liste"
+
+msgid "Lit windows, street lighting and the like"
+msgstr "Dritë dritarash, ndriçim rrugash dhe të ngjashme"
+
+msgid "Loading…"
+msgstr "Po ngarkohet…"
+
+msgid "Local Mean Solar Time"
+msgstr "Ora Lokale e Mesme Diellore"
+
+msgid "Local True Solar Time"
+msgstr "Ora Lokale e Vërtetë Diellore"
+
+msgid "Local solar eclipses"
+msgstr "Eklipsa diellore lokale"
+
+msgid "Local time"
+msgstr "Ora lokale"
+
+msgid "Local time, h"
+msgstr "Ora lokale, h"
+
+msgid "Locate me"
+msgstr "Gjenji mua"
+
+msgid "Locating…"
+msgstr "Po lokalizohet…"
+
+msgid "Location from landscape"
+msgstr "Vendndodhje nga peizazhi"
+
+msgid "Location is switched off in the system settings."
+msgstr "Vendndodhja është e fikur në rregullimet e sistemit."
+
+msgid "Location permission refused. The other two ways still work."
+msgstr "Leja e vendndodhjes është refuzuar. Dy mënyrat e tjera funksionojnë akoma."
+
+msgid "Lock position when coordinates are used"
+msgstr "Kyço pozicionin kur përdoren koordinata"
+
+msgid "Long press"
+msgstr "Shtypje e gjatë"
+
+msgid "Longitude"
+msgstr "Gjatësi gjeografike"
+
+msgid "Longitude of GRS"
+msgstr "Gjatësia gjeografike e GRS"
+
+msgid "Lunar Elongation"
+msgstr "Zgjerimi i Hënës"
+
+msgid "Lunar Stations"
+msgstr "Stacionet e Hënës"
+
+msgid "Lunar eclipses"
+msgstr "Eklipsa hënore"
+
+msgid "Lunar elongation"
+msgstr "Zgjerimi hënor"
+
+msgid "Mag."
+msgstr "Magn."
+
+msgid "Magnitudes"
+msgstr "Magnitudë"
+
+msgid "Major planets"
+msgstr "Planetë të mëdhenj"
+
+msgid "Major planets by planet, minor bodies by type"
+msgstr "Planetë të mëdhenj sipas planetit, trupa të dorës së dytë sipas llojit"
+
+msgid "Map of the planet. Tap to set the observer's place."
+msgstr "Hartë e planetit. Shtypni për të vendosur vendndodhjen e vëzhguesit."
+
+msgid "March equinox"
+msgstr "Ekuinoksi i marsit"
+
+msgid "Mark impact features with ellipses"
+msgstr "Shënoji veçoritë e goditjes me elipse"
+
+msgid "Mark minor bodies"
+msgstr "Shënoji trupa të dorës së dytë"
+
+msgid "Markers"
+msgstr "Piketa"
+
+msgid "Markers sized by the object's angular size"
+msgstr "Piketat e madhësisë sipas madhësisë këndore të objektit"
+
+msgid "Master switch for the grids, lines and points below"
+msgstr "Ndërprerësi kryesor për rrjetet, vijat dhe pikat më poshtë"
+
+msgid "Max items to display"
+msgstr "Numri maksimal i artikujve për shfaqje"
+
+msgid "Max. results"
+msgstr "Rezultate maks."
+
+msgid "Max. search radius"
+msgstr "Rreze kërkimi maks."
+
+msgid "Maximum Solar altitude"
+msgstr "Lartësia maksimale e Diellit"
+
+msgid "Maximum allowed separation"
+msgstr "Ndarje maksimale e lejuar"
+
+msgid "Maximum angular size"
+msgstr "Madhësia këndore maksimale"
+
+msgid "Maximum eclipse"
+msgstr "Eklipsa maksimale"
+
+msgid "Maximum year"
+msgstr "Vit maksimal"
+
+msgid "Mean motion"
+msgstr "Lëvizja mesatare"
+
+msgid "Mercury, Venus, Mars, Jupiter and Saturn at once. Earth only."
+msgstr "Mërkuri, Afërdita, Marsi, Jupiteri dhe Saturni në të njëjtën kohë. Vetëm Toka."
+
+msgid "Mid-transit"
+msgstr "Tranzit i mesit"
+
+msgid "Milky Way brightness"
+msgstr "Ndriçim Kashe e Kumtrit"
+
+msgid "Milky Way saturation"
+msgstr "Ngopja e Kashës e Kumtrit"
+
+msgid "Minimal angular size"
+msgstr "Madhësia këndore minimale"
+
+msgid "Minimal brightness"
+msgstr "Ndriçim minimal"
+
+msgid "Minimum Solar altitude"
+msgstr "Lartësia minimale e Diellit"
+
+msgid "Minimum year"
+msgstr "Vit minimal"
+
+msgid "Minor bodies"
+msgstr "Trupa të dorës së dytë"
+
+msgid "Minutes before sunrise / after sunset"
+msgstr "Minuta përpara lindjes/pas perëndimit"
+
+msgid "Monthly Elevation"
+msgstr "Lartësia Mujore"
+
+msgid "Moon at"
+msgstr "Hëna në"
+
+msgid "Moon enters penumbra"
+msgstr "Hëna hyn në penumbrë"
+
+msgid "Moon enters umbra"
+msgstr "Hëna hyn në umbrë"
+
+msgid "Moon in zenith at"
+msgstr "Hëna në zenit në"
+
+msgid "Moon leaves penumbra"
+msgstr "Hëna largohet nga penumbrë"
+
+msgid "Moon leaves umbra"
+msgstr "Hëna largohet nga umbrë"
+
+msgid "Moon's halo"
+msgstr "Haloja e Hënës"
+
+msgid "Moons of first body"
+msgstr "Hënat e trupit të parë"
+
+msgid "Morning"
+msgstr "Sabahit"
+
+msgid "Morph. Descr."
+msgstr "Përshk. Morf."
+
+msgid "Move the sky by pointing the phone at it"
+msgstr "Lëvizni qiellin duke treguar telefonin në të"
+
+msgid "Move the sky with the phone"
+msgstr "Lëvizni qiellin me telefonin"
+
+msgid "NGC/IC objects"
+msgstr "Objekte NGC/IC"
+
+msgid "Name for the new list"
+msgstr "Emër për listën e re"
+
+msgid "Named features the landscape marks"
+msgstr "Veçoritë e emëruara që peizazhi shënon"
+
+msgid "Names"
+msgstr "Emra"
+
+msgid "Names beside the planets and their markers"
+msgstr "Emra pranë planetësh dhe piketave të tyre"
+
+msgid "Names in English"
+msgstr "Emra në anglisht"
+
+msgid "Nautical Twilight"
+msgstr "Agim detar"
+
+msgid "Neb. bg"
+msgstr "Sfond neb."
+
+msgid "Nebula background"
+msgstr "Sfondi i Nebulës"
+
+msgid "Nebulae"
+msgstr "Mjegullnaja"
+
+msgid "New list"
+msgstr "Listë e re"
+
+msgid "Next"
+msgstr "Më tutje"
+
+msgid "Night"
+msgstr "Natë"
+
+msgid "No city matches that."
+msgstr "Asnjë qytet nuk përputhet me atë."
+
+msgid "No eclipses found. Pick a range and calculate."
+msgstr "Nuk u gjetën eklipsa. Zgjidhni një interval dhe llogaritni."
+
+msgid "No fresh fix - the receiver may have no sky. Try again outdoors, or set the place another way."
+msgstr "Asnjë përpunim i freskët - marrësi mund të mos ketë qiell. Provoni përsëri jashtë, ose vendosni vendin në një mënyrë tjetër."
+
+msgid "No surveys were found. The lists are downloaded, so this needs a connection."
+msgstr "Nuk u gjetën sondazhe. Listat janë shkarkuar, kështu që kjo ka nevojë për një lidhje."
+
+msgid "None downloaded yet"
+msgstr "Asgjë e shkarkuar ende"
+
+msgid "Normal"
+msgstr "Normale"
+
+msgid "Not observable eclipse"
+msgstr "Eklips jo i vëzhgueshëm"
+
+msgid "Note: Local circumstances for eclipses during thousands of years in the past and future are not reliable due to uncertainty in ΔT which is caused by fluctuations in Earth's rotation."
+msgstr "Shënim: Rrethanat lokale për eklipsat gjatë mijërave vitesh në të kaluarën dhe të ardhmen nuk janë të besueshme për shkak të pasigurisë në ΔT e cila shkaktohet nga luhatje në rrotacionin e Tokës."
+
+msgid "Note: artificial satellites and unnamed stars are excluded from calculation"
+msgstr "Shënim: satelitët artificial dhe yjet e paemërtuar përjashtohen nga llogaritja"
+
+msgid "Note: this tool doesn't apply the refraction correction for coordinates. Horizontal coordinates stop the clock, or the sky would turn away from the point while you arrive at it."
+msgstr "Shënim: ky mjeti nuk aplikon korrigjimin e përthyerjes për koordinata. Koordinata horizontale ndalojnë orën, ose qielli do të largohej nga pika ndërsa ju mbërrini në të."
+
+msgid "Notes: The quantity gamma is the minimum distance from the axis of lunar shadow cone to the center of Earth, in units of Earth’s equatorial radius. This distance is positive or negative, depending on whether the axis of the shadow cone passes north or south of the Earth's center. Path of solar eclipses during thousands of years in the past and future are not reliable due to uncertainty in ΔT which is caused by fluctuations in Earth's rotation."
+msgstr "Shënime: Sasia gamma është distanca minimale nga boshti i konit të hie të Hënës në qendrën e Tokës, në njësi të rrezes ekuatoriale të Tokës. Kjo distancë është pozitive ose negative, në varësi të faktit nëse boshti i konit të hie kalon veriore ose jugore nga qendra e Tokës. Rruga e eklipsave diellore gjatë mijërave vitesh në të kaluarën dhe të ardhmen nuk janë të besueshme për shkak të pasigurisë në ΔT e cila shkaktohet nga luhatje në rrotacionin e Tokës."
+
+msgid "Notes: The quantity gamma is the minimum distance from the center of the Moon to the axis of Earth’s umbral shadow cone, in units of Earth’s equatorial radius. This distance is positive or negative, depending on whether the Moon passes north or south of the shadow cone axis. Local circumstances for eclipses during thousands of years in the past and future are not reliable due to uncertainty in ΔT which is caused by fluctuations in Earth's rotation."
+msgstr "Shënime: Sasia gamma është distanca minimale nga qendra e Hënës në boshtin e konit të umbrës së Tokës, në njësi të rrezes ekuatoriale të Tokës. Kjo distancë është pozitive ose negative, në varësi të faktit nëse Hëna kalon veriore ose jugore nga boshti i konit të hie. Rrethanat lokale për eklipsat gjatë mijërave vitesh në të kaluarën dhe të ardhmen nuk janë të besueshme për shkak të pasigurisë në ΔT e cila shkaktohet nga luhatje në rrotacionin e Tokës."
+
+msgid "Notes: Time in parentheses means the contact is invisible at current location. Transit times during thousands of years in the past and future are not reliable due to uncertainty in ΔT which is caused by fluctuations in Earth's rotation."
+msgstr "Shënime: Koha në kllapa do të thotë se kontakti nuk është i dukshëm në vendndodhjen aktuale. Koha e tranziteve gjatë mijërave vitesh në të kaluarën dhe të ardhmen nuk janë të besueshme për shkak të pasigurisë në ΔT e cila shkaktohet nga luhatje në rrotacionin e Tokës."
+
+msgid "Nothing computed yet, or nothing in this category is up."
+msgstr "Asgjë e llogaritur ende, ose asgjë në këtë kategori nuk është lart."
+
+msgid "Nothing computed yet."
+msgstr "Asgjë e llogaritur ende."
+
+msgid "Nothing found for “%s”."
+msgstr "Nuk u gjet asgjë për \"%s\"."
+
+msgid "Nothing in this list matches."
+msgstr "Asgjë në këtë listë nuk përputhet."
+
+msgid "Nothing in this list yet. Pick something out of the sky and tap the star on its card to keep it here."
+msgstr "Asgjë në këtë listë ende. Zgjidhni diçka nga qielli dhe shtypni yllin në kartën e tij për ta mbajtur këtu."
+
+msgid "Nothing is selected. Pick an object in the sky first."
+msgstr "Asgjë nuk është përzgjedhur. Zgjidhni një objekt në qiell më parë."
+
+msgid "Nothing matches."
+msgstr "Asgjë nuk përputhet."
+
+msgid "Nothing selected"
+msgstr "Asgjë nuk u përzgjodh"
+
+msgid "Nothing to plot."
+msgstr "Asgjë për të vizatuar."
+
+msgid "Nothing to show."
+msgstr "Asgjë për të shfaqur."
+
+msgid "Now"
+msgstr "Tani"
+
+msgid "N× above"
+msgstr "N× sipër"
+
+msgid "O./C. longitude"
+msgstr "O./C. gjatësi"
+
+msgid "OBJECT"
+msgstr "OBJEKTI"
+
+msgid "OBJECTS"
+msgstr "OBJEKTET"
+
+msgid "Object"
+msgstr "Objekti"
+
+msgid "Object 1"
+msgstr "Objekti 1"
+
+msgid "Object 2"
+msgstr "Objekti 2"
+
+msgid "Objects which are up"
+msgstr "Objektet që janë lart"
+
+msgid "Observable duration"
+msgstr "Kohëzgjatja e vëzhgueshme"
+
+msgid "Observing list"
+msgstr "Lista e vëzhgimit"
+
+msgid "Observing list highlight"
+msgstr "Theksimi i listës së vëzhgimit"
+
+msgid "Observing lists"
+msgstr "Listat e vëzhgimit"
+
+msgid "Occultation"
+msgstr "Mbulim"
+
+msgid "On the sky"
+msgstr "Në qiell"
+
+msgid "One color"
+msgstr "Një ngjyrë"
+
+msgid "Only for N latest selected objects"
+msgstr "Vetëm për N objektet më të fundit të përzgjedhur"
+
+msgid "Only for Solar elevation"
+msgstr "Vetëm për lartësinë Diellore"
+
+msgid "Only list"
+msgstr "Vetëm listë"
+
+msgid "Only one at a time"
+msgstr "Vetëm një në një kohë"
+
+msgid "Only orbit for selected object…"
+msgstr "Vetëm orbitë për objektin e përzgjedhur…"
+
+msgid "Only orbits of major planets…"
+msgstr "Vetëm orbita të planetësh të mëdhenj…"
+
+msgid "Oort cloud objects"
+msgstr "Objekte të resë Oort"
+
+msgid "Open date and time"
+msgstr "Hap datën dhe kohën"
+
+msgid "Open location"
+msgstr "Hap vendndodhje"
+
+msgid "Open star clusters"
+msgstr "Grupe yjesh të hapura"
+
+msgid "Opens the JUPOS project in a browser"
+msgstr "Hap projektin JUPOS në një shfletues"
+
+msgid "Opposition"
+msgstr "Opozicion"
+
+msgid "Opposition of"
+msgstr "Përballë të"
+
+msgid "Oppositions"
+msgstr "Përballja"
+
+msgid "Orbit colors"
+msgstr "Ngjyra orbitësh"
+
+msgid "Orbital periods ratio"
+msgstr "Raporti i periudhave orbitale"
+
+msgid "Orbits"
+msgstr "Orbita"
+
+msgid "Orbits of Oort cloud objects"
+msgstr "Orbita të objekteve të resë Oort"
+
+msgid "Orbits of cubewanos"
+msgstr "Orbita të kubevanosh"
+
+msgid "Orbits of dwarf planets"
+msgstr "Orbita të planetësh palle"
+
+msgid "Orbits of interstellar objects"
+msgstr "Orbita të objekteve ndërmjek"
+
+msgid "Orbits of moons"
+msgstr "Orbita të hënave"
+
+msgid "Orbits of plutinos"
+msgstr "Orbita të plutinosh"
+
+msgid "Orbits of scattered disk objects"
+msgstr "Orbita të objekteve të diskut të shpërndarë"
+
+msgid "Orbits of sednoids"
+msgstr "Orbita të sednoidash"
+
+msgid "Otherwise every move adopts the zone of the new place."
+msgstr "Përndryshe, çdo lëvizje përcakton zonen e vendit të ri."
+
+msgid "Outline craters"
+msgstr "Skica kraterat"
+
+msgid "Pan the sky"
+msgstr "Lëvizni qiellin"
+
+msgid "Partial eclipse begins"
+msgstr "Eklipsa e pjesshme fillon"
+
+msgid "Partial eclipse ends"
+msgstr "Eklipsa e pjesshme përfundon"
+
+msgid "Partitions"
+msgstr "Ndarjet"
+
+msgid "Partitions thickness"
+msgstr "Trashësia e ndarjeve"
+
+msgid "Path width"
+msgstr "Gjerësia e shtegut"
+
+msgid "Pause"
+msgstr "Pauze"
+
+msgid "Paused - start"
+msgstr "I pezulluar - filloj"
+
+msgid "Penumbral magnitude"
+msgstr "Magnitudë penumbale"
+
+msgid "Perfect visibility conditions for current location"
+msgstr "Kushte të përsosura të dukshmërisë për vendndodhjen aktuale"
+
+msgid "Perihelion and aphelion"
+msgstr "Perihelioni dhe afelioni"
+
+msgid "Pick two different bodies to see how their distance changes."
+msgstr "Zgjidhni dy trupa të ndryshëm për të parë se si ndryshon distanca e tyre."
+
+msgid "Pinch"
+msgstr "Pinçoj"
+
+msgid "Planet and time zone"
+msgstr "Planet dhe zonë kohore"
+
+msgid "Planetary nebulae (<%1 mag)"
+msgstr "Mjegullnaja planetare (<%1 mag)"
+
+msgid "Planetary nomenclature"
+msgstr "Nomenklatura planetare"
+
+msgid "Planetary transits"
+msgstr "Transitet planetare"
+
+msgid "Planets"
+msgstr "Planetë"
+
+msgid "Planets magnitude algorithm"
+msgstr "Algoritmi i magnitudës planetare"
+
+msgid "Please select object to plot its 'Monthly Elevation' graph for the current year at selected time."
+msgstr "Ju lutem, zgjidhni objektin për të vizatuar grafikun e tij 'Ngritje Mujore' për vitin aktual në kohën e zgjedhur."
+
+msgid "Please select object to plot its graph 'Altitude vs. Time'."
+msgstr "Ju lutem, zgjidhni objektin për të vizatuar grafikun e tij 'Lartësi kundrejt Kohës'."
+
+msgid "Please select object to plot its graph 'Azimuth vs. Time'."
+msgstr "Ju lutem, zgjidhni objektin për të vizatuar grafikun e tij 'Azimuth kundrejt Kohës'."
+
+msgid "Plutinos"
+msgstr "Plutino"
+
+msgid "Pluto, Ceres, Pallas, Juno and Vesta"
+msgstr "Pluton, Cerera, Pallas, Juno dhe Vesta"
+
+msgid "Point size"
+msgstr "Madhësia e pikës"
+
+msgid "Pointing"
+msgstr "Tregimi"
+
+msgid "Polar distance"
+msgstr "Distanca polare"
+
+msgid "Polar distance, not declination"
+msgstr "Distanca polare, jo deklinacioni"
+
+msgid "Poles and points"
+msgstr "Pole dhe pika"
+
+msgid "Polygon colour"
+msgstr "Ngjyrë poligoni"
+
+msgid "Positive values only"
+msgstr "Vetëm vlera pozitive"
+
+msgid "Precession circles"
+msgstr "Qarqe precesioni"
+
+msgid "Previous"
+msgstr "Më parë"
+
+msgid "Prime Vertical"
+msgstr "Vertikali i Parë"
+
+msgid "Projected Solar Equator"
+msgstr "Ekuatori Diellor i Projektuar"
+
+msgid "Pronounce"
+msgstr "Shqiptoji"
+
+msgid "Pulsars"
+msgstr "Pulsarë"
+
+msgid "Quadrature circle"
+msgstr "Qarku i kuadraturës"
+
+msgid "Query SIMBAD about selected object"
+msgstr "Pyetje SIMBAD për objektin e përzgjedhur"
+
+msgid "Query options"
+msgstr "Opsionet e pyetjes"
+
+msgid "Quit"
+msgstr "Dil"
+
+msgid "Quit button"
+msgstr "Butoni Dil"
+
+msgid "Ray helpers"
+msgstr "Ndihmëset e rrezeve"
+
+msgid "Reading…"
+msgstr "Po lexohet…"
+
+msgid "Real time speed"
+msgstr "Shpejtësia në kohën reale"
+
+msgid "Recent Searches"
+msgstr "Kërkimet e Fundit"
+
+msgid "Rectangular FOV"
+msgstr "FOV Drejtkëndor"
+
+msgid "Refraction, extinction, sky brightness"
+msgstr "Përthyerje, zhdukje, ndriçim qielli"
+
+msgid "Regions of the sky"
+msgstr "Rajone të qiellit"
+
+msgid "Relative scale"
+msgstr "Shkalla relative"
+
+msgid "Remove %s"
+msgstr "Hiq %s"
+
+msgid "Remove from observing list"
+msgstr "Hiq nga lista e vëzhgimeve"
+
+msgid "Rename"
+msgstr "Riemëro"
+
+msgid "Reset"
+msgstr "Rikthe në fillim"
+
+msgid "Reset all"
+msgstr "Rikthe të gjithë"
+
+msgid "Restarting…"
+msgstr "Po riniset…"
+
+msgid "Right ascension"
+msgstr "Ngritje e duhur"
+
+msgid "Rises"
+msgstr "Linden"
+
+msgid "Rotation"
+msgstr "Rrotullim"
+
+msgid "Running"
+msgstr "Po xhiron"
+
+msgid "SIMBAD did not answer."
+msgstr "SIMBAD nuk u përgjigj."
+
+msgid "SIMBAD is switched off in the search options."
+msgstr "SIMBAD është i fikur në opsionet e kërkimit."
+
+msgid "SIMBAD is switched off. Turn it on under Options to look objects up online."
+msgstr "SIMBAD është i fikur. Aktivizoje te Mundësi për të kërkuar objekte në internet."
+
+msgid "SIMBAD server"
+msgstr "Server SIMBAD"
+
+msgid "Saturation"
+msgstr "Ngjyresim"
+
+msgid "Save"
+msgstr "Ruaj"
+
+msgid "Save either the current FOV and direction of view or all the current options for use at next startup. Restoring default settings requires a restart of the app."
+msgstr "Ruaj ose fushëpamjen dhe kahun e tanishëm të pamjes ose krejt mundësitë e tanishme për t'u përdorur në nisjen tjetër. Rikthimi në rregullimet parazgjedhje kërkon rinisje të aplikacionit."
+
+msgid "Save to observing list"
+msgstr "Ruaj në listën e vëzhgimeve"
+
+msgid "Save view"
+msgstr "Ruaj pamje"
+
+msgid "Scale"
+msgstr "Shkallë"
+
+msgid "Scale factor"
+msgstr "Faktor shkalle"
+
+msgid "Scale marker and label visibility by surface brightness"
+msgstr "Shkallëzo shfaqjen e pikete dhe etiketës sipas ndriçimit të sipërfaqes"
+
+msgid "Scales smoothly between 1× at the minimum field of view and the factor above at the maximum"
+msgstr "Shkallëzohet pa ndërprerje ndërmjet 1× në fushëpamjen minimale dhe faktorin e mësipër në maksimalen"
+
+msgid "Scattered disc objects"
+msgstr "Objekte të diskut të shpërndarë"
+
+msgid "Screen label"
+msgstr "Etiketë ekrani"
+
+msgid "Search in list"
+msgstr "Kërko në listë"
+
+msgid "Search options"
+msgstr "Mundësi kërkimi"
+
+msgid "Seasons"
+msgstr "Stinë"
+
+msgid "Second body"
+msgstr "Trup i dytë"
+
+msgid "Second celestial body"
+msgstr "Trup qiellor i dytë"
+
+msgid "Second graph"
+msgstr "Grafikë e dytë"
+
+msgid "Second object"
+msgstr "Objekt i dytë"
+
+msgid "Secondary intercardinal points"
+msgstr "Pika dytësore ndërmjet pikave referimi"
+
+msgid "Sednoids"
+msgstr "Sednoidë"
+
+msgid "See the sky through the ground"
+msgstr "Shih qiellin përmes truallit"
+
+msgid "Seen now"
+msgstr "Parë tani"
+
+msgid "Select an object first: this asks SIMBAD what it holds around it."
+msgstr "Zgjidhni fillimisht një objekt: kjo pyet SIMBAD çfarë gjendet rreth tij."
+
+msgid "Select it and show its card"
+msgstr "Përzgjidhni atë dhe shfaqni kartën e tij"
+
+msgid "Select something in the sky first — this page works on the selection."
+msgstr "Përzgjidhni diçka në qiell fillimisht — kjo faqe punon mbi zgjedhjen."
+
+msgid "Selected object"
+msgstr "Objekt i përzgjedhur"
+
+msgid "Separate colors for orbits by object type"
+msgstr "Ngjyra të ndryshme për orbitat sipas llojit të objektit"
+
+msgid "Separate colors for orbits of major planets"
+msgstr "Ngjyra të ndryshme për orbitat e planetësh të rëndësishëm"
+
+msgid "September equinox"
+msgstr "Ekuinoksi i shtatorit"
+
+msgid "Set the clock to %s"
+msgstr "Cakto orën në %s"
+
+msgid "Set the place"
+msgstr "Cakto vendin"
+
+msgid "Set to now"
+msgstr "Cakto në tani"
+
+msgid "Sets"
+msgstr "Perëndimet"
+
+msgid "Shadow map for non-convex bodies. May coarsen the penumbra on some objects"
+msgstr "Hartë hije për trupa jo-konveks. Mund të trashësojë umbrat e pjesshme në disa objekte"
+
+msgid "Shadow transit"
+msgstr "Kalimi i hije"
+
+msgid "Shooting stars"
+msgstr "Yjëza djegjeje"
+
+msgid "Short notation for units of surface brightness"
+msgstr "Shënim i shkurtër për njësi ndriçimi sipërfaqesore"
+
+msgid "Short steps over a long duration are slow."
+msgstr "Hapit të shkurtër gjatë kohëzgjatjeje të gjatë janë të ngadaltë."
+
+msgid "Show"
+msgstr "Shfaq"
+
+msgid "Show FOV center marker when position is search"
+msgstr "Shfaq pikëtën e qendrës fushëpamje kur pozicioni është kërkuar"
+
+msgid "Show additional buttons"
+msgstr "Shfaq butona shtesë"
+
+msgid "Show additional star names"
+msgstr "Shfaq emra yjesh shtesë"
+
+msgid "Show all information"
+msgstr "Shfaq krejt informacionin"
+
+msgid "Show atmospheric extinction"
+msgstr "Shfaq zhdukjen atmosferike"
+
+msgid "Show boundaries of constellations"
+msgstr "Shfaq kufijtë e yjësive"
+
+msgid "Show button in addition to keyboard shortcut?"
+msgstr "Shfaq buton përveç shkurtesës tastiere?"
+
+msgid "Show controls"
+msgstr "Shfaq kontrolet"
+
+msgid "Show each body where it was when the light left it (recommended)"
+msgstr "Shfaq secilin trup ku ishte kur drita la atë (rekomandohet)"
+
+msgid "Show frames per second beside the field of view"
+msgstr "Shfaq kuadro për sekondë pranë fushëpamjes"
+
+msgid "Show hints and labels for planetary features"
+msgstr "Shfaq ndihmëza dhe etiketa për veçori planetare"
+
+msgid "Show illumination"
+msgstr "Shfaq ndriçimin"
+
+msgid "Show in sky"
+msgstr "Shfaq në qiell"
+
+msgid "Show less"
+msgstr "Shfaq më pak"
+
+msgid "Show lunar stations (if defined)"
+msgstr "Shfaq stacionet hënore (nëse të përcaktuara)"
+
+msgid "Show more"
+msgstr "Shfaq më shumë"
+
+msgid "Show objects which are up"
+msgstr "Shfaq objekte që janë lart"
+
+msgid "Show only named DSO"
+msgstr "Shfaq vetëm DSO të emërtuar"
+
+msgid "Show only objects between the two sizes"
+msgstr "Shfaq vetëm objekte ndërmjet dy madhësive"
+
+msgid "Show only the kinds ticked below"
+msgstr "Shfaq vetëm llojet e zgjedhura më poshtë"
+
+msgid "Show or hide the two rails of controls"
+msgstr "Shfaq ose fsheh dy binarët e kontroleve"
+
+msgid "Show orbit even if object is off screen"
+msgstr "Shfaq orbitën edhe nëse objekti është jashtë ekrani"
+
+msgid "Show orbit only for selected SSO"
+msgstr "Shfaq orbitën vetëm për SSO-në e përzgjedhur"
+
+msgid "Show orbits"
+msgstr "Shfaq orbitat"
+
+msgid "Show orbits of major planets"
+msgstr "Shfaq orbitat e planetësh të rëndësishëm"
+
+msgid "Show planetary nomenclature"
+msgstr "Shfaq nomenklaturën planetare"
+
+msgid "Show special nomenclature points only"
+msgstr "Shfaq vetëm pika të veçanta nomenklature"
+
+msgid "Show surveys"
+msgstr "Shfaq anketat"
+
+msgid "Show this survey"
+msgstr "Shfaq këtë anketë"
+
+msgid "Show tiny circles for minor bodies regardless of magnitude"
+msgstr "Shfaq qarqe të vogla për trupa të dorës së dytë pavarësisht magnitudës"
+
+msgid "Show trails"
+msgstr "Shfaq këto vija"
+
+msgid "Show zodiac (if defined)"
+msgstr "Shfaq zodiakun (nëse i përcaktuar)"
+
+msgid "Sidereal time"
+msgstr "Kohë sidereale"
+
+msgid "Simbad Lookup Error: %s"
+msgstr "Gabim kërkimi në Simbad: %s"
+
+msgid "Simbad Lookup: querying"
+msgstr "Kërkimi në Simbad: po bëhet kërkesa"
+
+msgid "Simulate self-shadowing"
+msgstr "Simuloji hijen e vetë"
+
+msgid "Simulation"
+msgstr "Simulim"
+
+msgid "Sky Culture"
+msgstr "Qytetërim Qielli"
+
+msgid "Sky and viewing options"
+msgstr "Qielli dhe mundësi pamje"
+
+msgid "Sky culture"
+msgstr "Qytetërim qielli"
+
+msgid "Slow down"
+msgstr "Ngadaleso"
+
+msgid "Smallest, ′"
+msgstr "Më i vogli, ′"
+
+msgid "Solar altitude for Twilight Finder"
+msgstr "Lartësia diellore për Gjetësin e Hundimit"
+
+msgid "Solar elongation"
+msgstr "Zgjatim diellor"
+
+msgid "Solstices (J2000)"
+msgstr "Solstice (J2000)"
+
+msgid "Solstices (of date)"
+msgstr "Solstice (të tanishme)"
+
+msgid "Some objects may be found after activation respective plug-ins"
+msgstr "Disa objekte mund të gjenden pas aktivizimit të plug-inin përkatës"
+
+msgid "Special points only"
+msgstr "Vetëm pika të veçanta"
+
+msgid "Speed up"
+msgstr "Përshpejto"
+
+msgid "Spiky stars"
+msgstr "Yjë me majë"
+
+msgid "Stand where the landscape was shot, on the planet it names"
+msgstr "Ndaje ku u fotografua peizazhi, në planetin që emëron"
+
+msgid "Star, planet, catalogue number…"
+msgstr "Yjë, planet, numër katalogi…"
+
+msgid "Started"
+msgstr "Nisur"
+
+msgid "Startup FOV"
+msgstr "FOV nisjeje"
+
+msgid "Startup direction of view"
+msgstr "Kahja nisjeje e pamjes"
+
+msgid "Stationary (begin prograde motion)"
+msgstr "Stacionar (fillim i lëvizjes progrede)"
+
+msgid "Stationary (begin retrograde motion)"
+msgstr "Stacionar (fillim i lëvizjes retrograde)"
+
+msgid "Stellarium's user guide covers the astronomy this app shares with it: stellarium.org/documentation"
+msgstr "Udhëzuesi i përdoruesit të Stellarium-it përfshin astronomin që ky aplikacion ndan me të: stellarium.org/documentation"
+
+msgid "Step, hours"
+msgstr "Hap, orë"
+
+msgid "Stop clock when starting"
+msgstr "Ndalo orën kur nises"
+
+msgid "Strasbourg astronomical Data Center (France)"
+msgstr "Strasbourg astronomical Data Center (Francë)"
+
+msgid "Style"
+msgstr "Stil"
+
+msgid "Sun altitude"
+msgstr "Lartësia e Diellit"
+
+msgid "Sun at"
+msgstr "Dielli në"
+
+msgid "Sun's altitude"
+msgstr "Lartësia e Diellit"
+
+msgid "Sun's corona"
+msgstr "Korona e Diellit"
+
+msgid "Sun's glare"
+msgstr "Shkëlqimi i Diellit"
+
+msgid "Sun, planets and moons of first body and observer's planet"
+msgstr "Dielli, planetët dhe hënat e trupit të parë dhe planetin e vëzhguesit"
+
+msgid "Sun, planets and moons of observer's planet"
+msgstr "Dielli, planetët dhe hënat e planetit të vëzhguesit"
+
+msgid "Sunlight scattered by interplanetary dust"
+msgstr "Drita diellore e shpërndarë nga pluhuri ndërplanetare"
+
+msgid "Superior conjunction"
+msgstr "Bashkim i sipërm"
+
+msgid "Supernova candidates"
+msgstr "Kandidatë supernova"
+
+msgid "Supernova remnant candidates"
+msgstr "Kandidatë mbetje supernova"
+
+msgid "Supernova remnants"
+msgstr "Mbetje supernova"
+
+msgid "Surveys"
+msgstr "Anketat"
+
+msgid "Switch this off to see the trails for all Solar system bodies"
+msgstr "Fikje këtë për të parë këto vija për krejt trupat e Sistemit Diellor"
+
+msgid "Symbiotic stars"
+msgstr "Yje simbiotikë"
+
+msgid "Synodic period"
+msgstr "Periudhë sinodike"
+
+msgid "System date at"
+msgstr "Data sistemi në"
+
+msgid "Tabular output for coordinates and time"
+msgstr "Daljedata tabelore për koordinatat dhe kohën"
+
+msgid "Tap a colour to change it. Changes show on the sky at once and are kept."
+msgstr "Prek një ngjyrë për ta ndryshuar. Ndryshimet shfaqen në qiell menjëherë dhe ruhen."
+
+msgid "Tap again to confirm"
+msgstr "Prek përsëri për të konfirmuar"
+
+msgid "Tap an object"
+msgstr "Prek një objekt"
+
+msgid "Tap the chart to read a value."
+msgstr "Prek tabelën për të lexuar një vlerë."
+
+msgid "Tap the clock"
+msgstr "Prek orën"
+
+msgid "Tap the gear"
+msgstr "Prek ingranazhin"
+
+msgid "Tap the map to stand there."
+msgstr "Prek hartën për të qendruar atje."
+
+msgid "Tap the place"
+msgstr "Prek vendin"
+
+msgid "Tap to confirm"
+msgstr "Prek për të konfirmuar"
+
+msgid "Tertiary intercardinal points"
+msgstr "Pika terciere ndërmjet pikave referimi"
+
+msgid "Text angle"
+msgstr "Kënd teksti"
+
+msgid "The Great Red Spot drifts in System II longitude. Enter a recent measurement and the drift rate to carry it forward from."
+msgstr "Pika e Madhe e Kuqe drifton në gjatësinë e Sistemit II. Futni një matje të fundit dhe shkallën e zhvendosjes për ta bartur përpara."
+
+msgid "The algorithm is based on visual observations 1877-1891 by G. Müller and was still republished in the Explanatory Supplement to the Astronomical Ephemeris (1961)."
+msgstr "Algoritmi bazohet në vëzhgimet vizuale 1877-1891 nga G. Müller dhe u ripublikua ende në Suplementin Shpjegues të Efemerida Astronomike (1961)."
+
+msgid "The algorithm was published by A. Mallama & J. L. Hilton: Computing apparent planetary magnitudes for the Astronomical Almanac. Astronomy&Computing 25 (2018) 10-24."
+msgstr "Algoritmi u publikua nga A. Mallama & J. L. Hilton: Llogaritja e magnitudave të dukshme planetare për Almanakun Astronomik. Astronomy&Computing 25 (2018) 10-24."
+
+msgid "The algorithm was published in the 2nd edition of the Explanatory Supplement to the Astronomical Almanac (1992)."
+msgstr "Algoritmi u publikua në botimin e 2-të të Suplementit Shpjegues të Almanakut Astronomik (1992)."
+
+msgid "The algorithm was published in the 3rd edition of the Explanatory Supplement to the Astronomical Almanac (2013)."
+msgstr "Algoritmi u publikua në botimin e 3-të të Suplementit Shpjegues të Almanakut Astronomik (2013)."
+
+msgid "The algorithm was used in the Astronomical Almanac (1984 and later) and gives V (instrumental) magnitudes (allegedly from D.L. Harris)."
+msgstr "Algoritmi u përdor në Almanakun Astronomik (1984 dhe më vonë) dhe jep V (instrumentale) magnitudë (pohimet nga D.L. Harris)."
+
+msgid "The classical cepheids"
+msgstr "Cefeidët klasikë"
+
+msgid "The colour each kind of object is drawn in"
+msgstr "Ngjyra në të cilën vizatohet secili lloj objekti"
+
+msgid "The engine did not answer with any colours."
+msgstr "Motori nuk përgjigj me ndonjë ngjyrë."
+
+msgid "The galactic band"
+msgstr "Bendi galaktik"
+
+msgid "The greatest eclipse is invisible in current location"
+msgstr "Eklipsi më i madh është i padukshëm në vendndodhjen aktuale"
+
+msgid "The horizon outline instead of the panorama"
+msgstr "Skicën e horizontit në vend të panoramës"
+
+msgid "The path each body has taken across the sky"
+msgstr "Rruga që ka ndjekur secili trup përpara qiellit"
+
+msgid "The shortest label the culture defines"
+msgstr "Etiketa më e shkurtër të cilën kultura e përcakton"
+
+msgid "Thickness"
+msgstr "Trashësi"
+
+msgid "This copy ships no scripts."
+msgstr "Ky kopje nuk përmban programthe."
+
+msgid "This device has no location service."
+msgstr "Ky pajisje nuk ka shërbim vendndodhje."
+
+msgid "This part of the engine exposes no settings on this build."
+msgstr "Kjo pjesë e motorit nuk ekspozon rregullime në këtë ndërtim."
+
+msgid "This tool works on Earth only!"
+msgstr "Ky mjet funksionon vetëm në Tokë!"
+
+msgid "This tool works on Earth only. Short steps over a long duration are slow."
+msgstr "Ky mjet punon vetëm në Tokë. Hapit të shkurtër gjatë kohëzgjatjeje të gjatë janë të ngadaltë."
+
+msgid "This year"
+msgstr "Këtë vit"
+
+msgid "Time of day"
+msgstr "Koha e ditës"
+
+msgid "Time span"
+msgstr "Periudhë kohore"
+
+msgid "Time step"
+msgstr "Hap kohe"
+
+msgid "To the next (mths)"
+msgstr "Në tjetrin (muaj)"
+
+msgid "To the next, months"
+msgstr "Në tjetrin, muaj"
+
+msgid "Today"
+msgstr "Sot"
+
+msgid "Toggle display of nebula images."
+msgstr "Aktivizo shfaqjen e imazheve të thellë qiellore."
+
+msgid "Toggle display of the button for the Digitized Sky Survey."
+msgstr "Aktivizo shfaqjen e butonit për Anketën Qiellore të Digjitalizuar."
+
+msgid "Toggle display of the button for the HiPS Surveys. Select a survey in the View settings."
+msgstr "Aktivizo shfaqjen e butonit për Anketa HiPS. Përzgjidhni një anketë në rregullimet Pamje."
+
+msgid "Toggle drawing Sun's glare"
+msgstr "Aktivizo vizatimin e shkëlqimit të Diellit"
+
+msgid "Toggle drawing halo around the Moon"
+msgstr "Aktivizo vizatimin e halove rreth Hënës"
+
+msgid "Toggle permanent drawing of Sun's corona when atmosphere is disabled"
+msgstr "Aktivizo vizatimin e përhershëm të koronës Diellit kur atmosfera është fikur"
+
+msgid "Toggle the usage of background under GUI buttons"
+msgstr "Aktivizo përdorimin e sfondës nën butona GUI"
+
+msgid "Total eclipse begins"
+msgstr "Eklipsi total fillon"
+
+msgid "Total eclipse ends"
+msgstr "Eklipsi total përfundon"
+
+msgid "Trails"
+msgstr "Këto vija"
+
+msgid "Transit"
+msgstr "Kalim"
+
+msgid "Translated"
+msgstr "Përkthyer"
+
+msgid "Transparency"
+msgstr "Transparencë"
+
+msgid "Twilight and rise and set times are worked out for an observer on Earth. Move back to Earth to see them."
+msgstr "Kohërat e hundimit dhe të lindjeve dhe perëndimeve llogariten për një vëzhgues në Tokë. Kthehu në Tokë për t'i parë."
+
+msgid "Twinkle"
+msgstr "Pëshpërimë"
+
+msgid "Twinkle amount"
+msgstr "Sasia e pëshpërimës"
+
+msgid "Twinkle even without atmosphere"
+msgstr "Pëshpërimë edhe pa atmosferë"
+
+msgid "Twinkle is caused by atmospheric turbulence; this shows it regardless"
+msgstr "Pëshpërimja shkaktohet nga turbulenca atmosferike; kjo e shfaq pavarësisht"
+
+msgid "Type a name, a Bayer letter or a catalogue number - Vega, α Lyr, M 31, NGC 224."
+msgstr "Shtyp një emër, një letër Bayer ose një numër katalogi - Vega, α Lyr, M 31, NGC 224."
+
+msgid "Umbral magnitude"
+msgstr "Magnitudë umbrale"
+
+msgid "Up to mag."
+msgstr "Deri mag."
+
+msgid "Use SIMBAD"
+msgstr "Përdor SIMBAD"
+
+msgid "Use additional names of DSO"
+msgstr "Përdor emra shtesë të DSO"
+
+msgid "Use autofill only from the beginning of words"
+msgstr "Përdor plotës-automatik vetëm nga fillimi i fjalëve"
+
+msgid "Use buttons background"
+msgstr "Përdor sfondën e butonave"
+
+msgid "Use common symbols for coordinate systems"
+msgstr "Përdor simbole të zakonshme për sistemet koordinative"
+
+msgid "Use decimal degrees for coordinates"
+msgstr "Përdor gradë dhjetore për koordinatat"
+
+msgid "Use designations for screen labels"
+msgstr "Përdor përcaktimet për etiketa ekrani"
+
+msgid "Use distance from North Celestial Pole, not declination from equator in equatorial coordinates"
+msgstr "Përdor distancën nga Poli Qiellor i Veriut, jo deklinacionin nga ekuatori në koordinatat ekuatoriale"
+
+msgid "Use mag/arcsec^2 for surface brightness"
+msgstr "Përdor mag/arcsec^2 për shkëlqimin sipërfaqesor"
+
+msgid "Use more accurate 3D models (where available)"
+msgstr "Përdor modele 3D më të sakta (ku ka)"
+
+msgid "Use my location"
+msgstr "Përdor vendndodhjen time"
+
+msgid "Use on-line astronomical database SIMBAD"
+msgstr "Përdor bazën të dhënash astronomike në internet SIMBAD"
+
+msgid "Use outlines for big deep-sky objects"
+msgstr "Përdor skica për objekte të mëdha të qiellit të thellë"
+
+msgid "Use proportional hints"
+msgstr "Përdor ndihmëza proporcionale"
+
+msgid "Use sorting by string length"
+msgstr "Përdor renditje sipas gjatësisë së vargut"
+
+msgid "Use surface brightness"
+msgstr "Përdor ndriçimin e sipërfaqes"
+
+msgid "Use the date now shown in the sky"
+msgstr "Përdor datën tani të shfaqur në qiell"
+
+msgid "Use the value in landscape.ini when it has one"
+msgstr "Përdor vlerën në landscape.ini kur ka një"
+
+msgid "Use the value stored for this location"
+msgstr "Përdor vlerën e ruajtur për këtë vendndodhje"
+
+msgid "Var. stars"
+msgstr "Yj. variabël"
+
+msgid "Vertical viewport offset"
+msgstr "Zhvendosja vertikale e pamjes"
+
+msgid "View recent GRS measurements"
+msgstr "Shiko matjeve të fundit GRS"
+
+msgid "Visibility"
+msgstr "Dukshmëri"
+
+msgid "Visual magnitude based on phase angle and albedo."
+msgstr "Magnitudë vizuale bazuar në kënd fazë dhe albedim."
+
+msgid "Western quadrature"
+msgstr "Kadratë perëndimore"
+
+msgid "When a search result is chosen"
+msgstr "Kur një rezultat kërkimi zgjidhet"
+
+msgid "Where Jupiter's Great Red Spot was, and when"
+msgstr "Ku ishte Pika e Madhe e Kuqe e Jupiterit, dhe kur"
+
+msgid "Width"
+msgstr "Gjerësi"
+
+msgid "Working out the contact times…"
+msgstr "Po përllogarit kohërat e kontaktit…"
+
+msgid "Zenith and Nadir"
+msgstr "Zenit dhe Nadir"
+
+msgid "Zodiac and lunar stations"
+msgstr "Zodiak dhe stacione hënore"
+
+msgid "Zodiacal Light brightness"
+msgstr "Ndriçim drite Zodiake"
+
+msgid "Zoom in and out"
+msgstr "Zmadhim dhe zvogëlim"
+
+msgid "after sunset"
+msgstr "pas perëndimit të diellit"
+
+msgid "before sunrise"
+msgstr "para lindjes së diellit"
+
+msgid "bright suburban"
+msgstr "peizazh periferik i ndritshëm"
+
+msgid "east +"
+msgstr "lindje +"
+
+msgid "engine ready, interface going live"
+msgstr "motori gati, ndërfaqja po aktivizohet"
+
+msgid "excellent dark sky"
+msgstr "qiell i nxirë i shkëlqyeshëm"
+
+msgid "from landscape, if given"
+msgstr "nga peizazhi, nëse dhënë"
+
+msgid "inner city"
+msgstr "qyteti i brendshëm"
+
+msgid "max %s"
+msgstr "maks %s"
+
+msgid "mid %s"
+msgstr "mes %s"
+
+msgid "north +"
+msgstr "veri +"
+
+msgid "rural/suburban"
+msgstr "fshatare/periurbane"
+
+msgid "sci. translit."
+msgstr "transliterim shkenc."
+
+msgid "select all"
+msgstr "përzgjidhni të gjithën"
+
+msgid "select none"
+msgstr "pa përzgjedhje"
+
+msgid "select preference"
+msgstr "përzgjidhni preferencën"
+
+msgid "select standard"
+msgstr "përzgjidhni standardin"
+
+msgid "store preference"
+msgstr "ruaji preferencën"
+
+msgid "suburban/urban"
+msgstr "periurbane/urbane"
+
+msgid "truly dark"
+msgstr "vërtet i errët"
+
+msgid "unreadable snapshot"
+msgstr "pamje e paleshueshme"
+
+msgid "with Solar Dates"
+msgstr "me Dita Diellore"
+
+msgid "… and moons"
+msgstr "… dhe hëna"

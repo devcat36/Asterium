@@ -1,0 +1,1897 @@
+# Asterium interface translation for he.
+# Copyright (C) 2026 the Asterium authors
+# This file is distributed under the same licence as the Asterium package.
+#
+# MACHINE TRANSLATION, not reviewed by a speaker of this language.
+# Terminology follows upstream Stellarium's own he catalogue, which was used
+# as a glossary, and every entry keeps the source's printf placeholders.
+# Corrections from a human translator are welcome and should simply replace these.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: asterium\n"
+"Language: he\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%d bodies"
+msgstr "%d גופים"
+
+msgid "%d object"
+msgstr "%d עצם"
+
+msgid "%d objects"
+msgstr "%d עצמים"
+
+msgid "%s colour"
+msgstr "צבע %s"
+
+msgid "%s from %s, ±%.0f m"
+msgstr "%s מ %s, ±%.0f m"
+
+msgid "12-hour"
+msgstr "12 שעות"
+
+msgid "1× below"
+msgstr "1× מתחת"
+
+msgid "24-hour"
+msgstr "24 שעות"
+
+msgid "A button to mark every object of the current observing list on the sky."
+msgstr "לחצן לסימון כל עצם מרשימת התצפית הנוכחית בשמיים"
+
+msgid "A button to toggle ecliptic grid of date"
+msgstr "לחצן להפעלה/כיבוי רשת אקליפטית (בתאריך)"
+
+msgid "A button to toggle equatorial J2000 grid"
+msgstr "לחצן להפעלה/כיבוי רשת משוונית J2000"
+
+msgid "A button to toggle galactic grid"
+msgstr "לחצן להפעלה/כיבוי רשת גלאקטית"
+
+msgid "A polygonal model for some small moons, asteroids and comets instead of a sphere"
+msgstr "מודל פוליגונלי עבור ירחים קטנים, אסטרואידים ושביטים במקום כדור"
+
+msgid "A touch-first planetarium forked from Stellarium, whose astronomy engine it uses unchanged. The interface is new; everything that draws the sky is upstream's work."
+msgstr "פלנטריום ראשון-מגע שנתפצל מ-Stellarium, משתמש במנוע האסטרונומיה שלו ללא שינוי. הממשק חדש; הכל שמצייר את השמיים הוא עבודת upstream."
+
+msgid "Abbreviated names"
+msgstr "שמות מקוצרים"
+
+msgid "About this sky culture"
+msgstr "אודות תרבות שמיים זו"
+
+msgid "Above altitude, °"
+msgstr "מעל רום, °"
+
+msgid "Absolute scale"
+msgstr "סקלה מוחלטת"
+
+msgid "Add %s"
+msgstr "הוסף %s"
+
+msgid "Adjust brightness to bright objects"
+msgstr "התאם בהירות לעצמים בהירים"
+
+msgid "Algorithm of ΔT"
+msgstr "אלגוריתם של ΔT"
+
+msgid "All IDs"
+msgstr "כל המזהים"
+
+msgid "All naked-eye planets"
+msgstr "כל כוכבי הלכת הגלויים לעיר העירום"
+
+msgid "All solar eclipses"
+msgstr "כל ליקויי השמש"
+
+msgid "Allow negative hour angles"
+msgstr "אפשר זוויות שעה שליליות"
+
+msgid "Allow results outside the recommended time range of the orbital elements"
+msgstr "אפשר תוצאות מחוץ לטווח הזמן המומלץ של האלמנטים המסלוליים"
+
+msgid "Almanac: Sun, Moon and naked-eye planets"
+msgstr "אלמנך: שמש, ירח וכוכבי לכת בעינה"
+
+msgid "Also find"
+msgstr "גם חפש"
+
+msgid "Also plot"
+msgstr "גם שרטט"
+
+msgid "Also show moons of selected object or planets"
+msgstr "גם הצג ירחים של העצם או הכוכבים שנבחרו"
+
+msgid "Altitude limit, °"
+msgstr "מגבלת רום, °"
+
+msgid "Altitude vs. Time"
+msgstr "רום לעומת זמן"
+
+msgid "Amount"
+msgstr "כמות"
+
+msgid "An observer floats above its planet, so there is nowhere on it to stand. Choose another planet to come back down."
+msgstr "צופה צף מעל כוכבו, ולכן אין עליו מקום לעמוד. בחר כוכב אחר כדי לרדת."
+
+msgid "And"
+msgstr "ו"
+
+msgid "And also"
+msgstr "וגם"
+
+msgid "And the next (years)"
+msgstr "והבא (שנים)"
+
+msgid "Angular distance from the Moon for second object"
+msgstr "מרחק זוויתי מהירח לעצם שני"
+
+msgid "Angular distance from the Sun for second object"
+msgstr "מרחק זוויתי מהשמש לעצם שני"
+
+msgid "Annual drift"
+msgstr "סחיפה שנתית"
+
+msgid "Appearance"
+msgstr "הופעה"
+
+msgid "Apply time interval limits to list"
+msgstr "החל מגבלות טווח זמן לרשימה"
+
+msgid "Art"
+msgstr "אמנות"
+
+msgid "Artificial satellites and unnamed stars are excluded from calculation."
+msgstr "לווינים מלאכותיים וכוכבים ללא שם לא כלולים בחישוב."
+
+msgid "Asking for permission…"
+msgstr "בקשה להרשאה…"
+
+msgid "Asks SIMBAD what it holds around the object that is selected now, and prints the answer as it comes back."
+msgstr "שואל את SIMBAD מה הוא מחזיק סביב העצם שנבחר כעת, והדפס את התשובה כשהיא חוזרת."
+
+msgid "Ast. lines"
+msgstr "קו. אסטריזם"
+
+msgid "Ast. names"
+msgstr "שם. אסטריזם"
+
+msgid "Astronomical Almanac (default) enlarges by 2%; Danjon (1951) differs slightly"
+msgstr "אלמנך אסטרונומי (ברירת מחדל) מגדיל ב-2%; Danjon (1951) שונה מעט"
+
+msgid "Astronomical night"
+msgstr "לילה אסטרונומי"
+
+msgid "At"
+msgstr "ב"
+
+msgid "Atmosph."
+msgstr "אטמ."
+
+msgid "Automatic closing dialog"
+msgstr "דיאלוג סגירה אוטומטי"
+
+msgid "Automatic transparency"
+msgstr "שקיפות אוטומטית"
+
+msgid "Axis distance"
+msgstr "מרחק ציר"
+
+msgid "Azi. grid"
+msgstr "רשת אזימוט"
+
+msgid "Azimuth and altitude rather than right ascension and declination"
+msgstr "אזימוט ורום במקום עלייה ישרה ונטייה"
+
+msgid "Azimuth vs. Time"
+msgstr "אזימוט לעומת זמן"
+
+msgid "Bad visibility conditions for current location"
+msgstr "תנאי נראות גרועים למיקום הנוכחי"
+
+msgid "Beginning of center line; central eclipse begins"
+msgstr "תחילת קו מרכזי; ליקוי מרכזי מתחיל"
+
+msgid "Below the horizon here."
+msgstr "מתחת לאופק כאן."
+
+msgid "Between objects"
+msgstr "בין עצמים"
+
+msgid "Boundless"
+msgstr "חסר גבולות"
+
+msgid "Bounds"
+msgstr "גבולות"
+
+msgid "Brighter than"
+msgstr "בהיר יותר מ"
+
+msgid "By object type"
+msgstr "לפי סוג עצם"
+
+msgid "By planet"
+msgstr "לפי כוכב"
+
+msgid "Calculating…"
+msgstr "מחשבון…"
+
+msgid "Cardinals"
+msgstr "קרדינלים"
+
+msgid "Catalogue numbers instead of common names"
+msgstr "מספרי קטלוג במקום שמות נפוצים"
+
+msgid "Category"
+msgstr "קטגוריה"
+
+msgid "Central duration"
+msgstr "משך מרכזי"
+
+msgid "Central eclipse begins"
+msgstr "ליקוי מרכזי מתחיל"
+
+msgid "Central eclipse ends"
+msgstr "ליקוי מרכזי מסתיים"
+
+msgid "Centre"
+msgstr "מרכז"
+
+msgid "Centre on object"
+msgstr "מרכז על עצם"
+
+msgid "Centre point"
+msgstr "נקודת מרכז"
+
+msgid "Circles"
+msgstr "מעגלים"
+
+msgid "Circular FOV"
+msgstr "שדה ראייה עגול"
+
+msgid "City"
+msgstr "עיר"
+
+msgid "Cleanup"
+msgstr "ניקוי"
+
+msgid "Clear"
+msgstr "נקה"
+
+msgid "Clear recent searches"
+msgstr "נקה חיפושים אחרונים"
+
+msgid "Clear the selection - a touch screen has no right button"
+msgstr "נקה את הבחירה - מסך מגע אין לו כפתור ימין"
+
+msgid "Cleared."
+msgstr "נקה."
+
+msgid "Click on star to show its constellation"
+msgstr "לחץ על כוכב להצג את קבוצת הכוכבים שלו"
+
+msgid "Close"
+msgstr "סגור"
+
+msgid "Close what is open; from the sky, leave the app running"
+msgstr "סגור את מה שפתוח; מהשמיים, השאר את האפליקציה פועלת"
+
+msgid "Coarse"
+msgstr "גס"
+
+msgid "Color"
+msgstr "צבע"
+
+msgid "Color channel"
+msgstr "ערוץ צבע"
+
+msgid "Color of Lunar station lines"
+msgstr "צבע של קווי תחנה ירחית"
+
+msgid "Color of nomenclature labels"
+msgstr "צבע של תוויות נומנקלטורה"
+
+msgid "Color of orbits"
+msgstr "צבע של מסלולים"
+
+msgid "Color of ray helpers"
+msgstr "צבע עוזרי קרן"
+
+msgid "Color of trails"
+msgstr "צבע של שבילים"
+
+msgid "Color of zodiac lines"
+msgstr "צבע של קווי גלגל המזלות"
+
+msgid "Colors of orbit lines"
+msgstr "צבעים של קווי מסלול"
+
+msgid "Colures"
+msgstr "קולורים"
+
+msgid "Comets up to mag."
+msgstr "שביטים עד עוצמה"
+
+msgid "Compass"
+msgstr "מצפן"
+
+msgid "Configure colors of orbit lines"
+msgstr "הגדר צבעים של קווי מסלול"
+
+msgid "Connecting line"
+msgstr "קו חיבור"
+
+msgid "Contrast"
+msgstr "ניגודיות"
+
+msgid "Coordinate system"
+msgstr "מערכת קואורדינטות"
+
+msgid "Coordinates"
+msgstr "קואורדינטות"
+
+msgid "Copyright"
+msgstr "זכויות יוצרים"
+
+msgid "Credits"
+msgstr "קרדיטים"
+
+msgid "Culmination altitude"
+msgstr "רום הקלמינציה"
+
+msgid "Current FoV"
+msgstr "שדה ראייה נוכחי"
+
+msgid "Custom"
+msgstr "מותאם אישית"
+
+msgid "Custom FoV limit"
+msgstr "מגבלת שדה ראייה מותאמת אישית"
+
+msgid "Custom altitude of the Moon, °"
+msgstr "רום מותאם אישית של הירח, °"
+
+msgid "Custom altitude of the Sun, °"
+msgstr "רום מותאם אישית של השמש, °"
+
+msgid "Custom values"
+msgstr "ערכים מותאמים אישית"
+
+msgid "Cut the scale off below the limit"
+msgstr "חתוך את הסקלה מתחת למגבלה"
+
+msgid "DATE AND TIME (UTC)"
+msgstr "תאריך וזמן (UTC)"
+
+msgid "Date and time"
+msgstr "תאריך וזמן"
+
+msgid "Date/time"
+msgstr "תאריך/זמן"
+
+msgid "Dates"
+msgstr "תאריכים"
+
+msgid "Dbl. stars"
+msgstr "כוכבים כפולים"
+
+msgid "December solstice"
+msgstr "נקודת ההיפוך של דצמבר"
+
+msgid "Decimal degrees. −33.87 means 33.87° south. Elevation is metres above sea level; it moves the horizon down by a few arcminutes."
+msgstr "מעלות עשרוניות. −33.87 פירושו 33.87° דרומה. גובה בקרה מעל פני הים; זה מזיז את האופק למטה בכמה דקות קשת."
+
+msgid "Degrees per year the longitude moves by"
+msgstr "מעלות בשנה שהאורך נע בהן"
+
+msgid "Degrees, hours and minutes as they are written - 12h30m49s, +41°16'09\", 187.7 - or plain decimal degrees."
+msgstr "מעלות, שעות ודקות כפי שהן כתובות - 12h30m49s, +41°16'09\", 187.7 - או מעלות עשרוניות פשוטות."
+
+msgid "Deletes all recent search object data, and the objects SIMBAD contributed."
+msgstr "מוחק את כל נתוני חיפוש עצם אחרונים, ואת העצמים שתרמה SIMBAD."
+
+msgid "Designations for celestial coordinate systems"
+msgstr "ייעודים למערכות קואורדינטות שמימיות"
+
+msgid "Designations for double stars"
+msgstr "ייעודים לכוכבים כפולים"
+
+msgid "Designations for variable stars"
+msgstr "ייעודים לכוכבים משתנים"
+
+msgid "Dim a survey near the horizon, as the air does"
+msgstr "עמעם סקר ליד אופק, כפי שהאוויר עושה"
+
+msgid "Done"
+msgstr "בוצע"
+
+msgid "Drag"
+msgstr "גרור"
+
+msgid "Draw deep-sky objects at all"
+msgstr "צייר עצמי שמיים עמוקים בכלל"
+
+msgid "Draw only polygon"
+msgstr "צייר רק פוליגון"
+
+msgid "Draw the enabled sky surveys"
+msgstr "צייר את סקרי השמיים המופעלים"
+
+msgid "Draw the planets, moons and minor bodies"
+msgstr "צייר את כוכבי הלכת, הירחים וגופיי הקטנים"
+
+msgid "Drawn larger than life, so a body that is a few arcseconds wide is visible at all. The position stays true."
+msgstr "צוייר גדול מהחיים, כך שגוף שרחבו כמה שניות קשת נראה בכלל. המיקום נשאר אמיתי."
+
+msgid "Duration (years)"
+msgstr "משך (שנים)"
+
+msgid "Duration, months"
+msgstr "משך, חודשים"
+
+msgid "Dusk"
+msgstr "דמדומים"
+
+msgid "Dynamic (FOV-based) Moon size"
+msgstr "גודל ירח דינמי (מבוסס שדה ראייה)"
+
+msgid "ELEV. M"
+msgstr "גובה. מ"
+
+msgid "Earth shadow enlargement after Danjon"
+msgstr "הגדלת צל כדור הארץ אחרי Danjon"
+
+msgid "Eastern quadrature"
+msgstr "רבעון מזרחי"
+
+msgid "Ecl. grid"
+msgstr "רשת אקל."
+
+msgid "Eclipse begins; first contact with Earth"
+msgstr "הליקוי מתחיל; הקשר ראשון עם כדור הארץ"
+
+msgid "Eclipse ends; last contact with Earth"
+msgstr "הליקוי מסתיים; הקשר אחרון עם כדור הארץ"
+
+msgid "Eclipses are computed for observers on Earth."
+msgstr "ליקויים מחושבים לצופים בכדור הארץ."
+
+msgid "Elevation in metres"
+msgstr "גובה במטר"
+
+msgid "Elongations and quadratures"
+msgstr "התארכויות וריבוע"
+
+msgid "Enabled only"
+msgstr "מופעל בלבד"
+
+msgid "End of center line; central eclipse ends"
+msgstr "סוף קו מרכזי; ליקוי מרכזי מסתיים"
+
+msgid "Enter Culture..."
+msgstr "הזן תרבות..."
+
+msgid "Equ. grid"
+msgstr "רשת משוונית"
+
+msgid "Equ. mount"
+msgstr "תא משווני"
+
+msgid "Equatorial radii ratio"
+msgstr "יחס הרדיוסים המשווניים"
+
+msgid "Evening"
+msgstr "ערב"
+
+msgid "Every"
+msgstr "כל"
+
+msgid "Every name the object is catalogued under"
+msgstr "כל שם שהעצם מקובלן תחתיו"
+
+msgid "Explanatory Supplement (1992)"
+msgstr "הוספה הסברית (1992)"
+
+msgid "Explanatory Supplement (2013)"
+msgstr "הוספה הסברית (2013)"
+
+msgid "Exterior egress"
+msgstr "יציאה חיצונית"
+
+msgid "Exterior ingress"
+msgstr "כניסה חיצונית"
+
+msgid "Fades the ground as you look below the horizon or zoom in"
+msgstr "מעמעם את הקרקע כשמביטים מתחת לאופק או מגדילים"
+
+msgid "Fading duration"
+msgstr "משך התעמעמות"
+
+msgid "Faintest shown"
+msgstr "החלש ביותר המוצג"
+
+msgid "Favorites"
+msgstr "מועדפים"
+
+msgid "Fetching the survey lists…"
+msgstr "הוצאת רשימות הסקרים…"
+
+msgid "Filter"
+msgstr "סנן"
+
+msgid "Find a city"
+msgstr "מצא עיר"
+
+msgid "Fine"
+msgstr "עדין"
+
+msgid "First %d of %d - filter to narrow it."
+msgstr "ה-%d הראשון מ-%d - סנן כדי להיצר."
+
+msgid "First body"
+msgstr "הגוף הראשון"
+
+msgid "First graph"
+msgstr "הגרף הראשון"
+
+msgid "Fix"
+msgstr "תקן"
+
+msgid "Fixed Equatorial grid"
+msgstr "רשת משוונית קבועה"
+
+msgid "Fixed instant"
+msgstr "רגע קבוע"
+
+msgid "Flip buttons"
+msgstr "הפוך לחצנים"
+
+msgid "Flip horiz."
+msgstr "הפוך אופקי"
+
+msgid "Flip vert."
+msgstr "הפוך אנכי"
+
+msgid "Font size"
+msgstr "גודל גופן"
+
+msgid "Frame rate"
+msgstr "קצב פריימים"
+
+msgid "From"
+msgstr "מ"
+
+msgid "Full screen"
+msgstr "מסך מלא"
+
+msgid "Further reading"
+msgstr "קריאה נוספת"
+
+msgid "GRS details…"
+msgstr "פרטי GRS…"
+
+msgid "Gal. grid"
+msgstr "רשת גלאקטית"
+
+msgid "Gamma, saturation, brightness, contrast, opacity, colour channel and inverted colours belong to one survey. Open a survey to set them."
+msgstr "גמא, רוויה, בהירות, ניגודיות, אטימות, ערוץ צבע וצבעים הפוכים שייכים לסקר אחד. פתח סקר כדי להגדיר אותם."
+
+msgid "Gestures"
+msgstr "תנועות"
+
+msgid "Go there"
+msgstr "לך לשם"
+
+msgid "Go to position"
+msgstr "לך למיקום"
+
+msgid "Go to this eclipse"
+msgstr "לך לליקוי זה"
+
+msgid "Go to this moment"
+msgstr "לך לרגע זה"
+
+msgid "Go to this transit"
+msgstr "לך למעבר זה"
+
+msgid "Good visibility conditions for current location"
+msgstr "תנאי נראות טובים למיקום הנוכחי"
+
+msgid "Great Red Spot"
+msgstr "הכתם האדום הגדול"
+
+msgid "Great Red Spot details"
+msgstr "פרטי הכתם האדום הגדול"
+
+msgid "Greatest eastern elongation"
+msgstr "התארכות מזרחית מרבית"
+
+msgid "Greatest eclipse"
+msgstr "ליקוי גדול ביותר"
+
+msgid "Greatest elongation for an inner planet, quadrature for an outer one"
+msgstr "התארכות גדולה ביותר לכוכב פנימי, ריבוע לכוכב חיצוני"
+
+msgid "Greatest western elongation"
+msgstr "התארכות מערבית מרבית"
+
+msgid "Greek letters"
+msgstr "אותיות יווניות"
+
+msgid "Grid density"
+msgstr "צפיפות רשת"
+
+msgid "Grids"
+msgstr "רשתות"
+
+msgid "Ground"
+msgstr "קרקע"
+
+msgid "Gyro"
+msgstr "ג'ירו"
+
+msgid "Gyro mode"
+msgstr "מצב ג'ירו"
+
+msgid "Harvard-Smithsonian Center for Astrophysics (USA)"
+msgstr "מרכז Harvard-Smithsonian לאסטרופיזיקה (ארה\"ב)"
+
+msgid "Height"
+msgstr "גובה"
+
+msgid "Heliocentric ecliptic positions of the major planets."
+msgstr "עמדות אקליפטיות הליוצנטריות של כוכבי הלכת העיקריים."
+
+msgid "HiPS"
+msgstr "HiPS"
+
+msgid "Hide controls"
+msgstr "הסתר בקרות"
+
+msgid "Hide deep-sky objects fainter than the limit"
+msgstr "הסתר עצמי שמיים עמוקים חלשים יותר מהמגבלה"
+
+msgid "Hide nomenclature on the celestial body of observer"
+msgstr "הסתר נומנקלטורה על גוף שמימי של הצופה"
+
+msgid "Hide orbits of minor bodies"
+msgstr "הסתר מסלולים של גופים קטנים"
+
+msgid "Highlight"
+msgstr "הדגש"
+
+msgid "Highlight the objects of the observing list"
+msgstr "הדגש את העצמים של רשימת התצפית"
+
+msgid "Hint circles marking each planet"
+msgstr "עיגולי רמז המסמנים כל כוכב"
+
+msgid "Hints brightness"
+msgstr "בהירות רמזים"
+
+msgid "Hipparcos designations"
+msgstr "ייעודים של Hipparcos"
+
+msgid "Hour angles usually run 0...24h. This counts -12h...12h."
+msgstr "זוויות שעה בדרך כלל 0...24h. זה סופר -12h...12h."
+
+msgid "How many"
+msgstr "כמה"
+
+msgid "ICRS grid"
+msgstr "רשת ICRS"
+
+msgid "Include"
+msgstr "הכלל"
+
+msgid "Include bright comets"
+msgstr "הכלל שביטים בהירים"
+
+msgid "Include selected minor planets"
+msgstr "הכלל כוכבי לכת מינוריים שנבחרו"
+
+msgid "Info label"
+msgstr "תוית מידע"
+
+msgid "Intercardinal points"
+msgstr "נקודות בין-קרדינליות"
+
+msgid "Interior egress"
+msgstr "יציאה פנימית"
+
+msgid "Interior ingress"
+msgstr "כניסה פנימית"
+
+msgid "Invariable plane of the Solar system"
+msgstr "מישור בלתי משתנה של מערכת השמש"
+
+msgid "Isolated"
+msgstr "מבודד"
+
+msgid "Its elevation, and the civil, nautical and astronomical twilights"
+msgstr "גובהו, והדמדומים האזרחיים, ימיים ואסטרונומיים"
+
+msgid "Jovigraphic longitude of the spot in System II, in degrees"
+msgstr "קו האורך היוביגרפי של הנקודה במערכת II, במעלות"
+
+msgid "June solstice"
+msgstr "נקודת ההיפוך של יוני"
+
+msgid "Label"
+msgstr "תוית"
+
+msgid "Label colour"
+msgstr "צבע תוית"
+
+msgid "Label only features along the terminator"
+msgstr "תוית רק תכונות לאורך הטרמינטור"
+
+msgid "Labels and Markers amount"
+msgstr "כמות תוויות וסמנים"
+
+msgid "Labels brightness"
+msgstr "בהירות תוויות"
+
+msgid "Largest, ′"
+msgstr "הגדול ביותר, ′"
+
+msgid "Last known position"
+msgstr "המיקום הידוע לאחרונה"
+
+msgid "Lasting"
+msgstr "נמשך"
+
+msgid "Latest selected object"
+msgstr "העצם הנבחר האחרון"
+
+msgid "Latitude −90…90, longitude −180…180."
+msgstr "קו רוחב −90…90, קו אורך −180…180."
+
+msgid "Layer appearance"
+msgstr "הופעת שכבה"
+
+msgid "Leaves the landscape visible in darkness"
+msgstr "משאיר את הנוף גלוי בחושך"
+
+msgid "Licence"
+msgstr "רשיון"
+
+msgid "Light pollution"
+msgstr "זיהום אור"
+
+msgid "Light pollution from database"
+msgstr "זיהום אור מהמסד נתונים"
+
+msgid "Limit angular separation"
+msgstr "הגבל את ההפרדה הזוויתית"
+
+msgid "Limit angular size"
+msgstr "הגבל גודל זוויתי"
+
+msgid "Limit magnitude"
+msgstr "הגבל עוצמה"
+
+msgid "Linear and angular distances between selected objects"
+msgstr "מרחקים לינאריים וזוויתיים בין עצמים שנבחרו"
+
+msgid "Linear distance"
+msgstr "מרחק לינארי"
+
+msgid "Lines"
+msgstr "קווים"
+
+msgid "Lines and circles"
+msgstr "קווים ועיגולים"
+
+msgid "List"
+msgstr "רשימה"
+
+msgid "List name"
+msgstr "שם רשימה"
+
+msgid "Lit windows, street lighting and the like"
+msgstr "חלונות מוארים, תאורת רחוב וכדומה"
+
+msgid "Loading…"
+msgstr "טוען…"
+
+msgid "Local solar eclipses"
+msgstr "ליקויי שמש מקומיים"
+
+msgid "Local time"
+msgstr "זמן מקומי"
+
+msgid "Local time, h"
+msgstr "זמן מקומי, h"
+
+msgid "Locate me"
+msgstr "אתר אותי"
+
+msgid "Locating…"
+msgstr "מאתר…"
+
+msgid "Location from landscape"
+msgstr "מיקום מנוף"
+
+msgid "Location is switched off in the system settings."
+msgstr "מיקום מבוטל בהגדרות המערכת."
+
+msgid "Location permission refused. The other two ways still work."
+msgstr "הרשאת מיקום נדחתה. שתי הדרכים האחרות עדיין פועלות."
+
+msgid "Long press"
+msgstr "לחיצה ממושכת"
+
+msgid "Longitude of GRS"
+msgstr "קו אורך של GRS"
+
+msgid "Lunar Elongation"
+msgstr "התארכות ירחית"
+
+msgid "Lunar Stations"
+msgstr "תחנות ירח"
+
+msgid "Lunar eclipses"
+msgstr "ליקויי ירח"
+
+msgid "Lunar elongation"
+msgstr "התארכות ירחית"
+
+msgid "Magnitudes"
+msgstr "עוצמות"
+
+msgid "Major planets by planet, minor bodies by type"
+msgstr "כוכבי לכת עיקריים לפי כוכב לכת, גופים קטנים לפי סוג"
+
+msgid "Map of the planet. Tap to set the observer's place."
+msgstr "מפת הכוכב. הקש כדי לקבוע את מיקום הצופה."
+
+msgid "March equinox"
+msgstr "שוויון מרץ"
+
+msgid "Mark impact features with ellipses"
+msgstr "סמן תכונות השפעה בעזרת אליפסות"
+
+msgid "Mark minor bodies"
+msgstr "סמן גופים קטנים"
+
+msgid "Markers"
+msgstr "סימנים"
+
+msgid "Markers sized by the object's angular size"
+msgstr "סימנים בגודל לפי הקוטר הזוויתי של העצם"
+
+msgid "Master switch for the grids, lines and points below"
+msgstr "מתג ראשי לרשתות, קווים ונקודות למטה"
+
+msgid "Max"
+msgstr "מקס"
+
+msgid "Max items to display"
+msgstr "מקס פריטים להצגה"
+
+msgid "Max. results"
+msgstr "מקס. תוצאות"
+
+msgid "Max. search radius"
+msgstr "מקס. רדיוס חיפוש"
+
+msgid "Maximum Solar altitude"
+msgstr "גובה שמש מקסימום"
+
+msgid "Maximum allowed separation"
+msgstr "הפרדה מקסימלית מותרת"
+
+msgid "Maximum angular size"
+msgstr "קוטר זוויתי מקסימום"
+
+msgid "Maximum eclipse"
+msgstr "ליקוי מקסימום"
+
+msgid "Maximum year"
+msgstr "שנה מקסימלית"
+
+msgid "Mean motion"
+msgstr "תנועה ממוצעת"
+
+msgid "Mercury, Venus, Mars, Jupiter and Saturn at once. Earth only."
+msgstr "כוכב־חמה, נוגה, מאדים, צדק ושבתאי בו־זמנית. רק ארץ."
+
+msgid "Mid-transit"
+msgstr "אמצע מעבר"
+
+msgid "Milky Way brightness"
+msgstr "בהירות שביל החלב"
+
+msgid "Milky Way saturation"
+msgstr "רוויית שביל החלב"
+
+msgid "Min"
+msgstr "מינ"
+
+msgid "Minimal angular size"
+msgstr "קוטר זוויתי מינימלי"
+
+msgid "Minimal brightness"
+msgstr "בהירות מינימלית"
+
+msgid "Minimum Solar altitude"
+msgstr "גובה שמש מינימום"
+
+msgid "Minimum year"
+msgstr "שנה מינימלית"
+
+msgid "Minutes before sunrise / after sunset"
+msgstr "דקות לפני הנזריחה / לאחר השקיעה"
+
+msgid "Monthly Elevation"
+msgstr "גובה חודשי"
+
+msgid "Moon at"
+msgstr "ירח ב-"
+
+msgid "Moon enters penumbra"
+msgstr "ירח נכנס לצל חלקי"
+
+msgid "Moon enters umbra"
+msgstr "ירח נכנס למרכז הצל"
+
+msgid "Moon in zenith at"
+msgstr "ירח בזנית ב"
+
+msgid "Moon leaves penumbra"
+msgstr "ירח עוזב צל חלקי"
+
+msgid "Moon leaves umbra"
+msgstr "ירח עוזב מרכז הצל"
+
+msgid "Moons of first body"
+msgstr "ירחים של גרם שמימי ראשון"
+
+msgid "Morning"
+msgstr "בוקר"
+
+msgid "Morph. Descr."
+msgstr "תיאור צוּרָנִי"
+
+msgid "Move the sky by pointing the phone at it"
+msgstr "הזז את השמיים בהצבעת הטלפון אליהם"
+
+msgid "Move the sky with the phone"
+msgstr "הזז את השמיים עם הטלפון"
+
+msgid "Name for the new list"
+msgstr "שם לרשימה החדשה"
+
+msgid "Named features the landscape marks"
+msgstr "תכונות בעלות שם שהנוף מסמן"
+
+msgid "Names"
+msgstr "שמות"
+
+msgid "Names beside the planets and their markers"
+msgstr "שמות ליד כוכבי הלכת וסימניהם"
+
+msgid "Names in English"
+msgstr "שמות באנגלית"
+
+msgid "Neb. bg"
+msgstr "רקע ערפילית"
+
+msgid "Nebulae"
+msgstr "ערפיליות"
+
+msgid "Next"
+msgstr "הבא"
+
+msgid "Night"
+msgstr "לילה"
+
+msgid "No city matches that."
+msgstr "אין עיר התואמת לזה."
+
+msgid "No eclipses found. Pick a range and calculate."
+msgstr "לא נמצאו ליקויים. בחר טווח וחשב."
+
+msgid "No fresh fix - the receiver may have no sky. Try again outdoors, or set the place another way."
+msgstr "אין קביעה טרייה - ייתכן שלמקלט אין שמיים. נסה שוב בחוץ, או קבע את המקום בדרך אחרת."
+
+msgid "No surveys were found. The lists are downloaded, so this needs a connection."
+msgstr "לא נמצאו סקרים. הרשימות מורדות, אז זה צריך חיבור."
+
+msgid "None downloaded yet"
+msgstr "עדיין לא הורדו כלום"
+
+msgid "Normal"
+msgstr "רגיל"
+
+msgid "Not observable eclipse"
+msgstr "ליקוי שאינו נצפה"
+
+msgid "Note: Local circumstances for eclipses during thousands of years in the past and future are not reliable due to uncertainty in ΔT which is caused by fluctuations in Earth's rotation."
+msgstr "הערה: נסיבות מקומיות עבור ליקויים במהלך אלפי שנים בעבר ובעתיד אינן אמינות בשל אי-ודאות ב- ΔT הנגרמת מתנודות בסיבוב כדור הארץ."
+
+msgid "Note: this tool doesn't apply the refraction correction for coordinates. Horizontal coordinates stop the clock, or the sky would turn away from the point while you arrive at it."
+msgstr "הערה: הכלי הזה לא מיישם תיקון שבירה לקואורדינטות. קואורדינטות אופקיות עוצרות את השעון, או השמיים היו מסתובבים מהנקודה בזמן שאתה מגיע אליה."
+
+msgid "Notes: The quantity gamma is the minimum distance from the axis of lunar shadow cone to the center of Earth, in units of Earth’s equatorial radius. This distance is positive or negative, depending on whether the axis of the shadow cone passes north or south of the Earth's center. Path of solar eclipses during thousands of years in the past and future are not reliable due to uncertainty in ΔT which is caused by fluctuations in Earth's rotation."
+msgstr "הערות: הגודל gamma הוא המרחק המינימלי מציר חרוט הצל של הירח למרכז כדור הארץ, ביחידות של הרדיוס המשווני של כדור הארץ. מרחק זה חיובי או שלילי, תלוי אם ציר חרוט הצל עובר צפונה או דרומה ממרכז כדור הארץ. מסלול ליקויי שמש במהלך אלפי שנים בעבר ובעתיד אינם אמינים בשל אי-ודאות ב- ΔT הנגרמת מתנודות בסיבוב כדור הארץ."
+
+msgid "Notes: The quantity gamma is the minimum distance from the center of the Moon to the axis of Earth’s umbral shadow cone, in units of Earth’s equatorial radius. This distance is positive or negative, depending on whether the Moon passes north or south of the shadow cone axis. Local circumstances for eclipses during thousands of years in the past and future are not reliable due to uncertainty in ΔT which is caused by fluctuations in Earth's rotation."
+msgstr "הערות: הגודל gamma הוא המרחק המינימלי ממרכז הירח לציר חרוט הצל של כדור הארץ, ביחידות של הרדיוס המשווני של כדור הארץ. מרחק זה חיובי או שלילי, תלוי אם הירח עובר צפונה או דרומה מציר חרוט הצל. נסיבות מקומיות עבור ליקויים במהלך אלפי שנים בעבר ובעתיד אינן אמינות בשל אי-ודאות ב- ΔT הנגרמת מתנודות בסיבוב כדור הארץ."
+
+msgid "Notes: Time in parentheses means the contact is invisible at current location. Transit times during thousands of years in the past and future are not reliable due to uncertainty in ΔT which is caused by fluctuations in Earth's rotation."
+msgstr "הערות: זמן בסוגריים פירושו שהקשר בלתי נראה במיקום הנוכחי. זמני מעבר במהלך אלפי שנים בעבר ובעתיד אינם אמינים בשל אי-ודאות ב- ΔT הנגרמת מתנודות בסיבוב כדור הארץ."
+
+msgid "Nothing computed yet, or nothing in this category is up."
+msgstr "לא חושבו עדיין, או שום דבר בקטגוריה זו לא עולה."
+
+msgid "Nothing computed yet."
+msgstr "לא חושבו עדיין."
+
+msgid "Nothing found for “%s”."
+msgstr "לא נמצא כלום עבור \"%s\"."
+
+msgid "Nothing in this list matches."
+msgstr "שום דבר ברשימה זו לא תואם."
+
+msgid "Nothing in this list yet. Pick something out of the sky and tap the star on its card to keep it here."
+msgstr "עדיין שום דבר ברשימה זו. בחר משהו מן השמיים והקש את הכוכב בכרטיס שלו כדי לשמור אותו כאן."
+
+msgid "Nothing is selected. Pick an object in the sky first."
+msgstr "שום דבר לא נבחר. בחר עצם בשמיים קודם."
+
+msgid "Nothing matches."
+msgstr "שום דבר לא תואם."
+
+msgid "Nothing selected"
+msgstr "כלום לא נבחר"
+
+msgid "Nothing to plot."
+msgstr "אין מה לשרטט."
+
+msgid "Nothing to show."
+msgstr "אין מה להציג."
+
+msgid "N× above"
+msgstr "N× למעלה"
+
+msgid "OBJECT"
+msgstr "עצם"
+
+msgid "OBJECTS"
+msgstr "עצמים"
+
+msgid "Objects which are up"
+msgstr "עצמים שעלו"
+
+msgid "Observable duration"
+msgstr "משך תצפיתי"
+
+msgid "Observing list highlight"
+msgstr "הדגשת רשימת תצפית"
+
+msgid "On the sky"
+msgstr "בשמיים"
+
+msgid "One color"
+msgstr "צבע אחד"
+
+msgid "Only for N latest selected objects"
+msgstr "רק לאחרון N עצמים נבחרים"
+
+msgid "Only for Solar elevation"
+msgstr "רק עבור גובה שמש"
+
+msgid "Only list"
+msgstr "רק רשימה"
+
+msgid "Only one at a time"
+msgstr "רק אחד בו־זמנית"
+
+msgid "Only orbit for selected object…"
+msgstr "רק מסלול לעצם הנבחר…"
+
+msgid "Only orbits of major planets…"
+msgstr "רק מסלולי כוכבי לכת עיקריים…"
+
+msgid "Open date and time"
+msgstr "פתח תאריך ושעה"
+
+msgid "Open location"
+msgstr "פתח מיקום"
+
+msgid "Opens the JUPOS project in a browser"
+msgstr "פותח את פרויקט JUPOS בדפדפן"
+
+msgid "Opposition of"
+msgstr "התנגדות של"
+
+msgid "Oppositions"
+msgstr "התנגדויות"
+
+msgid "Orbit colors"
+msgstr "צבעי מסלול"
+
+msgid "Orbital periods ratio"
+msgstr "יחס תקופות המסלול"
+
+msgid "Orbits"
+msgstr "מסלולים"
+
+msgid "Orbits of interstellar objects"
+msgstr "מסלולי עצמים בין־כוכביים"
+
+msgid "Orbits of moons"
+msgstr "מסלולי ירחים"
+
+msgid "Otherwise every move adopts the zone of the new place."
+msgstr "אחרת כל תנועה מאמצת את האזור של המיקום החדש."
+
+msgid "Outline craters"
+msgstr "תאור המכתשים"
+
+msgid "Pan the sky"
+msgstr "הזז את השמיים"
+
+msgid "Partial eclipse begins"
+msgstr "ליקוי חלקי מתחיל"
+
+msgid "Partial eclipse ends"
+msgstr "ליקוי חלקי מסתיים"
+
+msgid "Partitions"
+msgstr "חלוקות"
+
+msgid "Partitions thickness"
+msgstr "עובי חלוקות"
+
+msgid "Path width"
+msgstr "רוחב נתיב"
+
+msgid "Pause"
+msgstr "השהה"
+
+msgid "Paused - start"
+msgstr "הושהה - התחל"
+
+msgid "Penumbral magnitude"
+msgstr "עוצמת צל חלקי"
+
+msgid "Perfect visibility conditions for current location"
+msgstr "תנאי נראות מושלמים למיקום הנוכחי"
+
+msgid "Perihelion and aphelion"
+msgstr "פריהליון ואפהליון"
+
+msgid "Pick two different bodies to see how their distance changes."
+msgstr "בחר שני גופים שונים כדי לראות כיצד המרחק שלהם משתנה."
+
+msgid "Pinch"
+msgstr "צביטה"
+
+msgid "Planet"
+msgstr "כוכב לכת"
+
+msgid "Planet and time zone"
+msgstr "כוכב לכת ואזור זמן"
+
+msgid "Planetary nomenclature"
+msgstr "נומנקלטורה פלנטרית"
+
+msgid "Planetary transits"
+msgstr "מעברי כוכבי לכת"
+
+msgid "Planets"
+msgstr "כוכבי לכת"
+
+msgid "Planets magnitude algorithm"
+msgstr "אלגוריתם עוצמת כוכבי לכת"
+
+msgid "Please select object to plot its 'Monthly Elevation' graph for the current year at selected time."
+msgstr "בחר עצם כדי לשרטט את הגרף 'גובה חודשי' שלו לשנה הנוכחית בזמן שנבחר."
+
+msgid "Please select object to plot its graph 'Altitude vs. Time'."
+msgstr "בחר עצם כדי לשרטט את הגרף 'גובה מול זמן' שלו."
+
+msgid "Please select object to plot its graph 'Azimuth vs. Time'."
+msgstr "בחר עצם כדי לשרטט את הגרף 'אזימוט מול זמן' שלו."
+
+msgid "Point size"
+msgstr "גודל נקודה"
+
+msgid "Pointing"
+msgstr "הצבעה"
+
+msgid "Polar distance"
+msgstr "מרחק קוטבי"
+
+msgid "Polar distance, not declination"
+msgstr "מרחק קוטבי, לא נטייה"
+
+msgid "Poles and points"
+msgstr "קטבים ונקודות"
+
+msgid "Polygon colour"
+msgstr "צבע מצולע"
+
+msgid "Positive values only"
+msgstr "רק ערכים חיוביים"
+
+msgid "Previous"
+msgstr "הקודם"
+
+msgid "Projected Solar Equator"
+msgstr "קו משווה שמש מוקרן"
+
+msgid "Pronounce"
+msgstr "הגה"
+
+msgid "Quadrature circle"
+msgstr "מעגל ריבוע"
+
+msgid "Query SIMBAD about selected object"
+msgstr "שאל את SIMBAD על העצם הנבחר"
+
+msgid "Query options"
+msgstr "אפשרויות שאילתה"
+
+msgid "Quit"
+msgstr "צא"
+
+msgid "Ray helpers"
+msgstr "קרני עזר"
+
+msgid "Reading…"
+msgstr "קורא…"
+
+msgid "Real time speed"
+msgstr "מהירות זמן אמתי"
+
+msgid "Rectangular FOV"
+msgstr "שדה ראייה מלבני"
+
+msgid "Refraction, extinction, sky brightness"
+msgstr "שבירה, ספיגה, בהירות שמיים"
+
+msgid "Relative scale"
+msgstr "סקלה יחסית"
+
+msgid "Remove %s"
+msgstr "הסר %s"
+
+msgid "Remove from observing list"
+msgstr "הסר מרשימת תצפית"
+
+msgid "Rename"
+msgstr "שנה שם"
+
+msgid "Reset all"
+msgstr "אתחל הכל"
+
+msgid "Restarting…"
+msgstr "מתחיל מחדש…"
+
+msgid "Rises"
+msgstr "זריחות"
+
+msgid "Rotation"
+msgstr "סיבוב"
+
+msgid "Running"
+msgstr "פועל"
+
+msgid "SIMBAD did not answer."
+msgstr "SIMBAD לא השיב."
+
+msgid "SIMBAD is switched off in the search options."
+msgstr "SIMBAD כבוי באפשרויות החיפוש."
+
+msgid "SIMBAD is switched off. Turn it on under Options to look objects up online."
+msgstr "SIMBAD מבוטל. הפעל אותו תחת אפשרויות כדי לחפש עצמים באופן מקוון."
+
+msgid "SIMBAD server"
+msgstr "שרת SIMBAD"
+
+msgid "Saros %s"
+msgstr "סארוס %s"
+
+msgid "Saturation"
+msgstr "רוויה"
+
+msgid "Save either the current FOV and direction of view or all the current options for use at next startup. Restoring default settings requires a restart of the app."
+msgstr "שמור את שדה הראייה הנוכחי וכיוון התצוגה או את כל האפשרויות הנוכחיות לשימוש בהפעלה הבאה. שחזור הגדרות ברירת מחדל דורש הפעלה מחדש של האפליקציה."
+
+msgid "Save to observing list"
+msgstr "שמור לרשימת תצפית"
+
+msgid "Scale"
+msgstr "סקלה"
+
+msgid "Scale marker and label visibility by surface brightness"
+msgstr "התאם סימנים וגודל תוויות לפי בהירות פני השטח"
+
+msgid "Scales smoothly between 1× at the minimum field of view and the factor above at the maximum"
+msgstr "משתנה בחלקות בין 1× בשדה הראייה המינימלי לגורם לעיל בשדה המקסימלי"
+
+msgid "Screen label"
+msgstr "תווית מסך"
+
+msgid "Search in list"
+msgstr "חפש ברשימה"
+
+msgid "Second body"
+msgstr "גוף שני"
+
+msgid "Second graph"
+msgstr "גרף שני"
+
+msgid "Second object"
+msgstr "עצם שני"
+
+msgid "Secondary intercardinal points"
+msgstr "נקודות בין־קרדינליות משניות"
+
+msgid "See the sky through the ground"
+msgstr "ראה את השמיים דרך הקרקע"
+
+msgid "Seen now"
+msgstr "נראה עכשיו"
+
+msgid "Select an object first: this asks SIMBAD what it holds around it."
+msgstr "בחר עצם תחילה: זה שואל את SIMBAD מה הוא יודע עליו."
+
+msgid "Select it and show its card"
+msgstr "בחר אותו והצג את הכרטיס שלו"
+
+msgid "Select something in the sky first — this page works on the selection."
+msgstr "בחר משהו בשמיים קודם — הדף הזה עובד על הבחירה."
+
+msgid "Selected object"
+msgstr "עצם נבחר"
+
+msgid "Separate colors for orbits by object type"
+msgstr "צבעים נפרדים למסלולים לפי סוג העצם"
+
+msgid "Separate colors for orbits of major planets"
+msgstr "צבעים נפרדים למסלולי כוכבי לכת עיקריים"
+
+msgid "September equinox"
+msgstr "שוויון ספטמבר"
+
+msgid "Server"
+msgstr "שרת"
+
+msgid "Set the clock to %s"
+msgstr "הגדר את השעון ל %s"
+
+msgid "Set the place"
+msgstr "הגדר את המקום"
+
+msgid "Set to now"
+msgstr "הגדר לעכשיו"
+
+msgid "Sets"
+msgstr "שקיעות"
+
+msgid "Shadow map for non-convex bodies. May coarsen the penumbra on some objects"
+msgstr "מפת צל לגופים לא קמורים. עלול לחשף את הצל החלקי בכמה עצמים"
+
+msgid "Shadow transit"
+msgstr "מעבר צל"
+
+msgid "Shooting stars"
+msgstr "כוכבי שביט"
+
+msgid "Short notation for units of surface brightness"
+msgstr "סימון קצר ליחידות בהירות פני שטח"
+
+msgid "Short steps over a long duration are slow."
+msgstr "צעדים קצרים על פני משך זמן ארוך הם איטיים."
+
+msgid "Show"
+msgstr "הצג"
+
+msgid "Show FOV center marker when position is search"
+msgstr "הצג סימן מרכז שדה הראייה כאשר המיקום הוא חיפוש"
+
+msgid "Show all information"
+msgstr "הצג את כל המידע"
+
+msgid "Show atmospheric extinction"
+msgstr "הצג כיבוי אטמוספרי"
+
+msgid "Show button in addition to keyboard shortcut?"
+msgstr "הצג כפתור בנוסף לקיצור לוח המקשים?"
+
+msgid "Show controls"
+msgstr "הצג בקרות"
+
+msgid "Show each body where it was when the light left it (recommended)"
+msgstr "הצג כל גוף איפה שהיה כאשר האור עזב אותו (מומלץ)"
+
+msgid "Show frames per second beside the field of view"
+msgstr "הצג מסגרות בשנייה ליד שדה הראייה"
+
+msgid "Show hints and labels for planetary features"
+msgstr "הצג רמזים וגודל לתכונות פלנטריות"
+
+msgid "Show illumination"
+msgstr "הצג הארה"
+
+msgid "Show in sky"
+msgstr "הצג בשמיים"
+
+msgid "Show less"
+msgstr "הצג פחות"
+
+msgid "Show lunar stations (if defined)"
+msgstr "הצג תחנות ירח (אם מוגדרות)"
+
+msgid "Show more"
+msgstr "הצג עוד"
+
+msgid "Show objects which are up"
+msgstr "הצג עצמים שעלו"
+
+msgid "Show only named DSO"
+msgstr "הצג רק DSO בעל שם"
+
+msgid "Show only objects between the two sizes"
+msgstr "הצג רק עצמים בין שני הגדלים"
+
+msgid "Show only the kinds ticked below"
+msgstr "הצג רק את הסוגים המסומנים למטה"
+
+msgid "Show or hide the two rails of controls"
+msgstr "הצג או הסתר את שתי הפסי הבקרה"
+
+msgid "Show orbit even if object is off screen"
+msgstr "הצג מסלול גם אם העצם נעלם מן המסך"
+
+msgid "Show orbit only for selected SSO"
+msgstr "הצג מסלול רק ל SSO נבחר"
+
+msgid "Show orbits of major planets"
+msgstr "הצג מסלולי כוכבי לכת עיקריים"
+
+msgid "Show planetary nomenclature"
+msgstr "הצג נומנקלטורה פלנטרית"
+
+msgid "Show special nomenclature points only"
+msgstr "הצג רק נקודות נומנקלטורה מיוחדות"
+
+msgid "Show surveys"
+msgstr "הצג סקרים"
+
+msgid "Show this survey"
+msgstr "הצג סקר זה"
+
+msgid "Show tiny circles for minor bodies regardless of magnitude"
+msgstr "הצג עיגולים זעירים לגופים קטנים ללא קשר לעוצמה"
+
+msgid "Show trails"
+msgstr "הצג שבילים"
+
+msgid "Show zodiac (if defined)"
+msgstr "הצג גלגל המזלות (אם מוגדר)"
+
+msgid "Simbad Lookup Error: %s"
+msgstr "שגיאת חיפוש Simbad: %s"
+
+msgid "Simbad Lookup: querying"
+msgstr "חיפוש Simbad: שואל"
+
+msgid "Simulate self-shadowing"
+msgstr "סימולציה של צל עצמי"
+
+msgid "Simulation"
+msgstr "סימולציה"
+
+msgid "Sky and viewing options"
+msgstr "אפשרויות שמיים וצפייה"
+
+msgid "Sky culture"
+msgstr "תרבות שמיים"
+
+msgid "Slow down"
+msgstr "האט"
+
+msgid "Smallest, ′"
+msgstr "הקטן ביותר, ′"
+
+msgid "Solar altitude for Twilight Finder"
+msgstr "גובה שמש עבור Twilight Finder"
+
+msgid "Solar elongation"
+msgstr "התארכות סולארית"
+
+msgid "Solar system objects: minor bodies"
+msgstr "עצמי מערכת השמש: גופים קטנים"
+
+msgid "Solstices (of date)"
+msgstr "נקודות היפוך (בתאריך)"
+
+msgid "Special points only"
+msgstr "רק נקודות מיוחדות"
+
+msgid "Speed up"
+msgstr "האץ"
+
+msgid "Spiky stars"
+msgstr "כוכבים בעלי קוצים"
+
+msgid "Stand where the landscape was shot, on the planet it names"
+msgstr "עמוד איפה שצולמה הנוף, על הכוכב שהוא שומו"
+
+msgid "Star, planet, catalogue number…"
+msgstr "כוכב, כוכב לכת, מספר קטלוג…"
+
+msgid "Started"
+msgstr "התחיל"
+
+msgid "Startup FOV"
+msgstr "שדה ראייה בהפעלה"
+
+msgid "Startup direction of view"
+msgstr "כיוון תצוגה בהפעלה"
+
+msgid "Stationary (begin prograde motion)"
+msgstr "נייח (מתחיל תנועה ישירה)"
+
+msgid "Stationary (begin retrograde motion)"
+msgstr "נייח (מתחיל תנועה הפוכה)"
+
+msgid "Stellarium's user guide covers the astronomy this app shares with it: stellarium.org/documentation"
+msgstr "מדריך ההשתמש של Stellarium מכסה את האסטרונומיה שהאפליקציה הזו חולקת איתו: stellarium.org/documentation"
+
+msgid "Step, hours"
+msgstr "צעד, שעות"
+
+msgid "Stop clock when starting"
+msgstr "עצור שעון בעת הפעלה"
+
+msgid "Strasbourg astronomical Data Center (France)"
+msgstr "מרכז נתונים אסטרונומי של סטרסבורג (צרפת)"
+
+msgid "Style"
+msgstr "סגנון"
+
+msgid "Sun altitude"
+msgstr "רום השמש"
+
+msgid "Sun at"
+msgstr "שמש ב-"
+
+msgid "Sun's altitude"
+msgstr "גובה השמש"
+
+msgid "Sun, planets and moons of first body and observer's planet"
+msgstr "שמש, כוכבי לכת וירחים של גרם שמימי ראשון וכוכב הלכת של המתבונן"
+
+msgid "Sun, planets and moons of observer's planet"
+msgstr "שמש, כוכבי לכת וירחים של כוכב הלכת של המתבונן"
+
+msgid "Sunlight scattered by interplanetary dust"
+msgstr "אור שמש מפוזר על ידי אבק בין-כוכבי"
+
+msgid "Switch this off to see the trails for all Solar system bodies"
+msgstr "כבה זאת כדי לראות את השבילים של כל גרמי מערכת השמש"
+
+msgid "System date at"
+msgstr "תאריך המערכת ב"
+
+msgid "Tabular output for coordinates and time"
+msgstr "פלט טבלאי לקואורדינטות וזמן"
+
+msgid "Tap a colour to change it. Changes show on the sky at once and are kept."
+msgstr "הקש על צבע כדי לשנות אותו. השינויים מופיעים על השמיים מיד ונשמרים."
+
+msgid "Tap again to confirm"
+msgstr "הקש שוב לאישור"
+
+msgid "Tap an object"
+msgstr "הקש על עצם"
+
+msgid "Tap the chart to read a value."
+msgstr "הקש על הגרף כדי לקרוא ערך."
+
+msgid "Tap the clock"
+msgstr "הקש על השעון"
+
+msgid "Tap the gear"
+msgstr "הקש על ההגדרה"
+
+msgid "Tap the map to stand there."
+msgstr "הקש על המפה כדי להיות שם."
+
+msgid "Tap the place"
+msgstr "הקש על המקום"
+
+msgid "Tap to confirm"
+msgstr "הקש לאישור"
+
+msgid "Tertiary intercardinal points"
+msgstr "נקודות משניות בין-קרדינליות"
+
+msgid "Text angle"
+msgstr "זווית הטקסט"
+
+msgid "The Great Red Spot drifts in System II longitude. Enter a recent measurement and the drift rate to carry it forward from."
+msgstr "הנקודה האדומה הגדולה נסחפת בקו אורך System II. הזן מדידה אחרונה ודרגת סחיפה כדי להעביר קדימה."
+
+msgid "The algorithm is based on visual observations 1877-1891 by G. Müller and was still republished in the Explanatory Supplement to the Astronomical Ephemeris (1961)."
+msgstr "האלגוריתם מבוסס על תצפיות ויזואליות 1877-1891 של G. Müller וכבר פורסם מחדש בהסבר המשלים ל-Astronomical Ephemeris (1961)."
+
+msgid "The algorithm was published by A. Mallama & J. L. Hilton: Computing apparent planetary magnitudes for the Astronomical Almanac. Astronomy&Computing 25 (2018) 10-24."
+msgstr "האלגוריתם פורסם על ידי A. Mallama & J. L. Hilton: Computing apparent planetary magnitudes for the Astronomical Almanac. Astronomy&Computing 25 (2018) 10-24."
+
+msgid "The algorithm was published in the 2nd edition of the Explanatory Supplement to the Astronomical Almanac (1992)."
+msgstr "האלגוריתם פורסם בגרסה השנייה של ההסבר המשלים ל-Astronomical Almanac (1992)."
+
+msgid "The algorithm was published in the 3rd edition of the Explanatory Supplement to the Astronomical Almanac (2013)."
+msgstr "האלגוריתם פורסם בגרסה השלישית של ההסבר המשלים ל-Astronomical Almanac (2013)."
+
+msgid "The algorithm was used in the Astronomical Almanac (1984 and later) and gives V (instrumental) magnitudes (allegedly from D.L. Harris)."
+msgstr "האלגוריתם שימש ב-Astronomical Almanac (1984 והלאה) ומתן V (instrumental) magnitudes (כביכול מ-D.L. Harris)."
+
+msgid "The colour each kind of object is drawn in"
+msgstr "הצבע שבו כל סוג של עצם מצויר"
+
+msgid "The engine did not answer with any colours."
+msgstr "המנוע לא השיב עם צבעים."
+
+msgid "The galactic band"
+msgstr "הפס הגלקטי"
+
+msgid "The greatest eclipse is invisible in current location"
+msgstr "הליקוי הגדול ביותר בלתי נראה במיקום הנוכחי"
+
+msgid "The horizon outline instead of the panorama"
+msgstr "קו האופק במקום הפנורמה"
+
+msgid "The path each body has taken across the sky"
+msgstr "הנתיב שכל גרם עבר על פני השמיים"
+
+msgid "The shortest label the culture defines"
+msgstr "התווית הקצרה ביותר שהתרבות מגדירה"
+
+msgid "Thickness"
+msgstr "עובי"
+
+msgid "This copy ships no scripts."
+msgstr "העותק הזה לא כולל סקריפטים."
+
+msgid "This device has no location service."
+msgstr "לציוד זה אין שירות מיקום."
+
+msgid "This part of the engine exposes no settings on this build."
+msgstr "החלק הזה של המנוע לא חושף הגדרות בגרסה זו."
+
+msgid "This tool works on Earth only!"
+msgstr "הכלי הזה עובד רק על כדור הארץ!"
+
+msgid "This tool works on Earth only. Short steps over a long duration are slow."
+msgstr "כלי זה עובד רק על כדור הארץ. צעדים קצרים לאורך משך זמן ארוך איטיים."
+
+msgid "This year"
+msgstr "השנה הזו"
+
+msgid "Time of day"
+msgstr "שעת היום"
+
+msgid "Time span"
+msgstr "טווח זמן"
+
+msgid "Time step"
+msgstr "צעד זמן"
+
+msgid "To the next (mths)"
+msgstr "לשלוש הבא (חודשים)"
+
+msgid "To the next, months"
+msgstr "לשלוש הבא, חודשים"
+
+msgid "Toggle display of nebula images."
+msgstr "החלף תצוגה של תמונות ערפילית."
+
+msgid "Toggle display of the button for the Digitized Sky Survey."
+msgstr "החלף תצוגה של הלחצן לסקר השמים הדיגיטלי."
+
+msgid "Toggle display of the button for the HiPS Surveys. Select a survey in the View settings."
+msgstr "החלף תצוגה של הלחצן לסקרי HiPS. בחר סקר בהגדרות תצוגה."
+
+msgid "Toggle drawing Sun's glare"
+msgstr "החלף ציור בוהק השמש"
+
+msgid "Toggle drawing halo around the Moon"
+msgstr "החלף ציור הילה סביב הירח"
+
+msgid "Toggle permanent drawing of Sun's corona when atmosphere is disabled"
+msgstr "החלף ציור קבוע של עטרת השמש כאשר אטמוספירה מנוטרלת"
+
+msgid "Toggle the usage of background under GUI buttons"
+msgstr "החלף שימוש ברקע תחת לחצני GUI"
+
+msgid "Total eclipse begins"
+msgstr "ליקוי חסר מתחיל"
+
+msgid "Total eclipse ends"
+msgstr "ליקוי חסר מסתיים"
+
+msgid "Trails"
+msgstr "שבילים"
+
+msgid "Translated"
+msgstr "תורגם"
+
+msgid "Transparency"
+msgstr "שקיפות"
+
+msgid "Twilight and rise and set times are worked out for an observer on Earth. Move back to Earth to see them."
+msgstr "זמני אפילוג וזריחה ושקיעה מחושבים לצופה על כדור הארץ. חזור לכדור הארץ כדי לראות אותם."
+
+msgid "Twinkle"
+msgstr "נצנוץ"
+
+msgid "Twinkle amount"
+msgstr "כמות נצנוץ"
+
+msgid "Twinkle even without atmosphere"
+msgstr "נצנוץ אפילו ללא אטמוספירה"
+
+msgid "Twinkle is caused by atmospheric turbulence; this shows it regardless"
+msgstr "נצנוץ נגרם על ידי סערת אטמוספירה; זה מראה זאת בכל מקרה"
+
+msgid "Type a name, a Bayer letter or a catalogue number - Vega, α Lyr, M 31, NGC 224."
+msgstr "הקלד שם, אות Bayer או מספר קטלוג - Vega, α Lyr, M 31, NGC 224."
+
+msgid "Umbral magnitude"
+msgstr "עוצמה אומברלית"
+
+msgid "Unnamed star"
+msgstr "כוכב ללא שם"
+
+msgid "Up to mag."
+msgstr "עד לעוצמה."
+
+msgid "Use additional names of DSO"
+msgstr "השתמש בשמות נוספים של DSO"
+
+msgid "Use common symbols for coordinate systems"
+msgstr "השתמש בסמלים נפוצים למערכות קואורדינטות"
+
+msgid "Use distance from North Celestial Pole, not declination from equator in equatorial coordinates"
+msgstr "השתמש במרחק מקוטב שמימי צפוני, לא במטה מהמשווה בקואורדינטות משוונית"
+
+msgid "Use mag/arcsec^2 for surface brightness"
+msgstr "השתמש ב-mag/arcsec^2 לבהירות פני השטח"
+
+msgid "Use more accurate 3D models (where available)"
+msgstr "השתמש בדגמים תלת-ממדיים מדויקים יותר (במידת הזמינות)"
+
+msgid "Use my location"
+msgstr "השתמש במיקום שלי"
+
+msgid "Use outlines for big deep-sky objects"
+msgstr "השתמש בקווי מתאר לעצמים גדולים בשמיים עמוקים"
+
+msgid "Use sorting by string length"
+msgstr "השתמש בחיתוך לפי אורך מחרוזת"
+
+msgid "Use the date now shown in the sky"
+msgstr "השתמש בתאריך המוצג כעת בשמיים"
+
+msgid "Use the value in landscape.ini when it has one"
+msgstr "השתמש בערך ב-landscape.ini כאשר יש לו אחד"
+
+msgid "Use the value stored for this location"
+msgstr "השתמש בערך המאוחסן למיקום זה"
+
+msgid "Var. stars"
+msgstr "כוכבים משתנים"
+
+msgid "Version %s  ·  Qt %s"
+msgstr "גרסה %s  ·  Qt %s"
+
+msgid "View recent GRS measurements"
+msgstr "צפה במדידות GRS אחרונות"
+
+msgid "Visibility"
+msgstr "נראות"
+
+msgid "Visual magnitude based on phase angle and albedo."
+msgstr "עוצמה ויזואלית המבוססת על זווית פאזה וחזרה."
+
+msgid "Western quadrature"
+msgstr "רבעון מערבי"
+
+msgid "When a search result is chosen"
+msgstr "כאשר נבחרת תוצאת חיפוש"
+
+msgid "Where Jupiter's Great Red Spot was, and when"
+msgstr "איפה הנקודה האדומה הגדולה של צדק הייתה, ומתי"
+
+msgid "Width"
+msgstr "רוחב"
+
+msgid "Working out the contact times…"
+msgstr "חישוב זמני קשר…"
+
+msgid "Zodiac and lunar stations"
+msgstr "גלגל המזלות ותחנות ירח"
+
+msgid "Zodiacal Light brightness"
+msgstr "בהירות אור גלגל המזלות"
+
+msgid "Zoom in and out"
+msgstr "הגדל והקטן"
+
+msgid "after sunset"
+msgstr "לאחר שקיעת השמש"
+
+msgid "before sunrise"
+msgstr "לפני זריחת השמש"
+
+msgid "bright suburban"
+msgstr "פרברי בהיר"
+
+msgid "east +"
+msgstr "מזרח +"
+
+msgid "engine ready, interface going live"
+msgstr "מנוע מוכן, ממשק עולה לשידור"
+
+msgid "excellent dark sky"
+msgstr "שמיים אפלים מעולים"
+
+msgid "inner city"
+msgstr "עיר פנימית"
+
+msgid "mag %s"
+msgstr "עוצמה %s"
+
+msgid "max %s"
+msgstr "מקסימום %s"
+
+msgid "mid %s"
+msgstr "אמצע %s"
+
+msgid "north +"
+msgstr "צפון +"
+
+msgid "rural/suburban"
+msgstr "כפרי/פרברי"
+
+msgid "sci. translit."
+msgstr "טרנס. מד."
+
+msgid "select none"
+msgstr "בטל בחירה"
+
+msgid "select preference"
+msgstr "בחר העדפה"
+
+msgid "select standard"
+msgstr "בחר תקן"
+
+msgid "store preference"
+msgstr "שמור העדפה"
+
+msgid "suburban/urban"
+msgstr "פרברי/עירוני"
+
+msgid "truly dark"
+msgstr "כהה באמת"
+
+msgid "unreadable snapshot"
+msgstr "תצילום בלתי קריא"
+
+msgid "with Solar Dates"
+msgstr "עם תאריכים סולריים"
+
+msgid "… and moons"
+msgstr "… וירחות"

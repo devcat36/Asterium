@@ -1,0 +1,2062 @@
+# Asterium interface translation for te.
+# Copyright (C) 2026 the Asterium authors
+# This file is distributed under the same licence as the Asterium package.
+#
+# MACHINE TRANSLATION, not reviewed by a speaker of this language.
+# Terminology follows upstream Stellarium's own te catalogue, which was used
+# as a glossary, and every entry keeps the source's printf placeholders.
+# Corrections from a human translator are welcome and should simply replace these.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: asterium\n"
+"Language: te\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%d bodies"
+msgstr "%d శరీరాలు"
+
+msgid "%d object"
+msgstr "%d వస్తువు"
+
+msgid "%d objects"
+msgstr "%d వస్తువులు"
+
+msgid "%s colour"
+msgstr "%s రంగు"
+
+msgid "%s from %s, ±%.0f m"
+msgstr "%s నుండి %s, ±%.0f m"
+
+msgid "12-hour"
+msgstr "12-గంటల"
+
+msgid "1× below"
+msgstr "1× దిగువ"
+
+msgid "24-hour"
+msgstr "24-గంటల"
+
+msgid "A button to mark every object of the current observing list on the sky."
+msgstr "ప్రస్తుత పరిశీలన జాబితలో ఉన్న ప్రతిటి వస్తువును ఆకాశంలో గుర్తించే బొత్తం"
+
+msgid "A polygonal model for some small moons, asteroids and comets instead of a sphere"
+msgstr "చిన్న చంద్రులు, గ్రహశకలాలు, తోకచుక్కల కోసం గోళం బదులు బహుభుజ మోడల్"
+
+msgid "A touch-first planetarium forked from Stellarium, whose astronomy engine it uses unchanged. The interface is new; everything that draws the sky is upstream's work."
+msgstr "Stellarium నుండి ఫోర్క్ చేసిన టాచ్-ఫర్స్ట్ ప్లానెటేరియం, దీని ఖగోళ ఇంజిన్‌ను ఇది మార్పు లేకుండా వాడుతుంది. ఇంటర్‌ఫేస్ కొత్తది; ఆకాశాన్ని గీసే ప్రతిదీ అప్‌స్ట్రీమ్ యొక్క పని."
+
+msgid "Abbreviated names"
+msgstr "సంక్షిప్త పేర్లు"
+
+msgid "About this sky culture"
+msgstr "ఈ ఖగోళ సంస్కృతి గురించి"
+
+msgid "Above altitude, °"
+msgstr "ఆల్టిట్యూడ్ కంటే పైన, °"
+
+msgid "Absolute scale"
+msgstr "సంపూర్ణ స్కేల్"
+
+msgid "Add %s"
+msgstr "%s జోడించు"
+
+msgid "Adjust brightness to bright objects"
+msgstr "ప్రకాశవంతమైన వస్తువులకు ప్రకాశాన్ని సమన్వయం చేయి"
+
+msgid "Algol-type eclipsing systems"
+msgstr "ఆల్గోల్-రకం గ్రహణ వ్యవస్థలు"
+
+msgid "Algorithm of ΔT"
+msgstr "ΔT యొక్క అల్గోరిథం"
+
+msgid "All IDs"
+msgstr "అన్ని IDs"
+
+msgid "All naked-eye planets"
+msgstr "అన్ని సంగీత కంటితో కనిపించే గ్రహాలు"
+
+msgid "All solar eclipses"
+msgstr "అన్ని సూర్య గ్రహణాలు"
+
+msgid "Allow negative hour angles"
+msgstr "నెగటివ్ గంటల కోణాలను అనుమతించు"
+
+msgid "Allow results outside the recommended time range of the orbital elements"
+msgstr "కక్ష్య మూలకాల సిఫారసు చేసిన సమయ పరిధికి వెలుపల ఫలితాలను అనుమతించు"
+
+msgid "Almanac"
+msgstr "పంచాంగం"
+
+msgid "Almanac: Sun, Moon and naked-eye planets"
+msgstr "పంచాంగం: సూర్యుడు, చంద్రుడు, నేత్ర-గోచర గ్రహాలు"
+
+msgid "Also find"
+msgstr "కూడా కనుగొనండి"
+
+msgid "Also plot"
+msgstr "కూడా ప్లాట్ చేయండి"
+
+msgid "Also show moons of selected object or planets"
+msgstr "ఎంచుకున్న వస్తువు లేదా గ్రహాల చంద్రులను కూడా చూపించు"
+
+msgid "Altitude limit, °"
+msgstr "ఆల్టిట్యూడ్ పరిమితి, °"
+
+msgid "Amount"
+msgstr "మొత్తం"
+
+msgid "An observer floats above its planet, so there is nowhere on it to stand. Choose another planet to come back down."
+msgstr "పరిశీలకుడు దాని గ్రహం కంటే పైన తేలుతున్నారు, కాబట్టి దానిపై నిలిచేందుకు ఎక్కడూ లేదు. తిరిగి దిగువకు రావడానికి మరొక గ్రహాన్ని ఎంచుకోండి."
+
+msgid "And"
+msgstr "మరియు"
+
+msgid "And also"
+msgstr "మరియు కూడా"
+
+msgid "And the next (years)"
+msgstr "మరియు తదుపరి (సంవత్సరాలు)"
+
+msgid "Angular distance between the Moon and selected object"
+msgstr "చంద్రుడు మరియు ఎంచుకున్న వస్తువు మధ్య కోణీయ దూరం"
+
+msgid "Annual drift"
+msgstr "వార్షిక డ్రిఫ్ట్"
+
+msgid "Apex points"
+msgstr "శీర్ష బిందువులు"
+
+msgid "Aphelion"
+msgstr "అపహీలియన్"
+
+msgid "Appearance"
+msgstr "రూపాన్ని"
+
+msgid "Apply time interval limits to list"
+msgstr "జాబితకు సమయ విరామ పరిమితులను వర్తింపజేయి"
+
+msgid "Art"
+msgstr "కళ"
+
+msgid "Artificial satellites and unnamed stars are excluded from calculation."
+msgstr "కృత్రిమ ఉపగ్రహాలు మరియు పేరు లేని నక్షత్రాలు లెక్కల నుండి మినహాయించబడతాయి."
+
+msgid "Asking for permission…"
+msgstr "అనుమతి కోసం అడుగుతున్నారు…"
+
+msgid "Asks SIMBAD what it holds around the object that is selected now, and prints the answer as it comes back."
+msgstr "ప్రస్తుతం ఎంచుకున్న వస్తువు చుట్టూ SIMBAD ఏమి ఉన్నదో అడుగుతుంది, సమాధానాన్ని ముద్రిస్తుంది."
+
+msgid "Ast. lines"
+msgstr "నక్ష. రేఖలు"
+
+msgid "Ast. names"
+msgstr "నక్ష.పేర్"
+
+msgid "Astronomical Almanac (1984)"
+msgstr "ఖగోళ పంచాంగం (1984)"
+
+msgid "Astronomical Almanac (default) enlarges by 2%; Danjon (1951) differs slightly"
+msgstr "ఖగోళ నిర్ణయచిక (డిఫాల్టు) 2% పెద్దవిస్తుంది; డాంజన్ (1951) కొంచెం సభిన్నంగా ఉంది"
+
+msgid "Astronomical Twilight"
+msgstr "ఖగోళ సంధ్య"
+
+msgid "Astronomical night"
+msgstr "ఖగోళ రాత్రి"
+
+msgid "At"
+msgstr "వద్ద"
+
+msgid "Atmosph."
+msgstr "వాత."
+
+msgid "Automatic closing dialog"
+msgstr "స్వయంచాలక సంవృత సంభాషణ"
+
+msgid "Automatic transparency"
+msgstr "స్వయంచాలక పారదర్శకత"
+
+msgid "Axis distance"
+msgstr "అక్ష దూరం"
+
+msgid "Azi. grid"
+msgstr "అజి.అల్"
+
+msgid "Azimuth and altitude rather than right ascension and declination"
+msgstr "రైట్ ఎసెన్‌షన్ మరియు డిక్లనేషన్‌కు బదులు అజిముత్ మరియు ఆల్టిట్యూడ్"
+
+msgid "Bad visibility conditions for current location"
+msgstr "ప్రస్తుత స్థానానికి చెడు దృశ్యమానత నిబంధనలు"
+
+msgid "Beginning of center line; central eclipse begins"
+msgstr "కేంద్రీయ రేఖ ప్రారంభం; కేంద్రీయ గ్రహణం ప్రారంభమవుతుంది"
+
+msgid "Below the horizon here."
+msgstr "ఇక్కడ దిగంతానికి కింద."
+
+msgid "Between objects"
+msgstr "వస్తువుల మధ్య"
+
+msgid "Blue"
+msgstr "నీలం"
+
+msgid "Boundless"
+msgstr "సీమారహితమైన"
+
+msgid "Bounds"
+msgstr "సరిహద్దులు"
+
+msgid "Bright Solar system objects (<%1 mag)"
+msgstr "ప్రకాశవంతమైన సౌర కుటుంబ వస్తువులు (<%1 mag)"
+
+msgid "Bright barium stars"
+msgstr "ప్రకాశవంతమైన బేరియం నక్షత్రాలు"
+
+msgid "Bright carbon stars"
+msgstr "ప్రకాశవంతమైన కార్బన్ నక్షత్రాలు"
+
+msgid "Bright nova stars"
+msgstr "ప్రకాశవంతమైన నోవా నక్షత్రాలు"
+
+msgid "Bright supernova stars"
+msgstr "ప్రకాశవంతమైన సూపర్‌నోవా నక్షత్రాలు"
+
+msgid "Brighter than"
+msgstr "కంటే ప్రకాశవంతమైన"
+
+msgid "Brightness"
+msgstr "ప్రకాశం"
+
+msgid "By object type"
+msgstr "వస్తువు రకం ద్వారా"
+
+msgid "By planet"
+msgstr "గ్రహం ద్వారా"
+
+msgid "Calculate"
+msgstr "లెక్కించు"
+
+msgid "Calculating…"
+msgstr "లెక్కిస్తున్నారు…"
+
+msgid "Caldwell objects"
+msgstr "కాల్డ్‌వెల్ వస్తువులు"
+
+msgid "Cardinals"
+msgstr "నలుదిక్కులు"
+
+msgid "Catalogue numbers instead of common names"
+msgstr "సాధారణ పేర్ల బదులు కేటలాగ్ సంఖ్యలు"
+
+msgid "Category"
+msgstr "వర్గం"
+
+msgid "Center of FOV"
+msgstr "FOV కేంద్రం"
+
+msgid "Centering button"
+msgstr "కేంద్రీకరణ బొత్తం"
+
+msgid "Central duration"
+msgstr "కేంద్ర వ్యవధి"
+
+msgid "Central eclipse begins"
+msgstr "కేంద్ర గ్రహణం ప్రారంభమవుతుంది"
+
+msgid "Central eclipse ends"
+msgstr "కేంద్ర గ్రహణం ముగియుతుంది"
+
+msgid "Centre"
+msgstr "కేంద్రీయ"
+
+msgid "Centre on object"
+msgstr "వస్తువుపై కేంద్రీకరించు"
+
+msgid "Centre point"
+msgstr "కేంద్ర బిందువు"
+
+msgid "Circles"
+msgstr "వృత్తాలు"
+
+msgid "Circular FOV"
+msgstr "వృత్తాకార FOV"
+
+msgid "City"
+msgstr "నగరం"
+
+msgid "Civil Twilight"
+msgstr "సివిల్ సంధ్య"
+
+msgid "Cleanup"
+msgstr "శుభ్రీకరణ"
+
+msgid "Clear"
+msgstr "స్పష్టం చేయి"
+
+msgid "Clear recent searches"
+msgstr "ఇటీవల వెతుకులాట స్పష్టం చేయి"
+
+msgid "Clear the selection - a touch screen has no right button"
+msgstr "ఎంపికను స్పష్టం చేయి - టచ్ స్క్రీన్‌కు కుడి బొత్తం లేదు"
+
+msgid "Cleared."
+msgstr "స్పష్టం చేయబడింది."
+
+msgid "Click on star to show its constellation"
+msgstr "దాని రాశిని చూపించేందుకు నక్షత్రంపై క్లిక్ చేయండి"
+
+msgid "Close"
+msgstr "మూయండి"
+
+msgid "Close what is open; from the sky, leave the app running"
+msgstr "తెరిచినది మూయండి; ఆకాశం నుండి, అప్‌ను నడుస్తున్న స్థితిలో ఉంచండి"
+
+msgid "Coarse"
+msgstr "గరుకుగా"
+
+msgid "Color"
+msgstr "రంగు"
+
+msgid "Color channel"
+msgstr "రంగు చానెల్"
+
+msgid "Color of Lunar station lines"
+msgstr "చంద్ర స్టేషన్ రేఖల రంగు"
+
+msgid "Color of orbits"
+msgstr "కక్ష్యల రంగు"
+
+msgid "Color of zodiac lines"
+msgstr "రాశిచక్ర రేఖల రంగు"
+
+msgid "Colors of orbit lines"
+msgstr "కక్ష్య రేఖల రంగులు"
+
+msgid "Comets up to mag."
+msgstr "మాగ్నిట్యూడ్ వరకు తోకచుక్కలు."
+
+msgid "Compass"
+msgstr "దిక్సూచి"
+
+msgid "Config"
+msgstr "సెట్టింగ"
+
+msgid "Connecting line"
+msgstr "సంయోగ రేఖ"
+
+msgid "Const."
+msgstr "నక్ష."
+
+msgid "Contrast"
+msgstr "కాంట్రాస్ట్"
+
+msgid "Coordinate system"
+msgstr "కోఆర్డినేట్ సిస్టమ్"
+
+msgid "Coordinates"
+msgstr "కోఆర్డినేట్లు"
+
+msgid "Copyright"
+msgstr "కాపీరైట్"
+
+msgid "Credits"
+msgstr "క్రెడిట్లు"
+
+msgid "Culmination altitude"
+msgstr "శిఖర ఎలివేషన్"
+
+msgid "Current FoV"
+msgstr "ప్రస్తుత FoV"
+
+msgid "Custom"
+msgstr "కస్టమ్"
+
+msgid "Custom FoV limit"
+msgstr "కస్టమ్ FoV పరిమితి"
+
+msgid "Custom altitude of the Moon, °"
+msgstr "చంద్రుని కస్టమ్ ఆల్టిట్యూడ్, °"
+
+msgid "Custom altitude of the Sun, °"
+msgstr "సూర్యుని కస్టమ్ ఆల్టిట్యూడ్, °"
+
+msgid "Custom values"
+msgstr "కస్టమ్ విలువలు"
+
+msgid "Cut the scale off below the limit"
+msgstr "స్కేల్‌ను పరిమితిలో చేర్చుకోండి"
+
+msgid "DATE AND TIME (UTC)"
+msgstr "తేదీ మరియు సమయం (UTC)"
+
+msgid "DSS survey"
+msgstr "DSS సర్వే"
+
+msgid "Date and time"
+msgstr "తేదీ మరియు సమయం"
+
+msgid "Date/time"
+msgstr "తేదీ/సమయం"
+
+msgid "Dates"
+msgstr "తేదీలు"
+
+msgid "Dawn"
+msgstr "ఉదయ సమయం"
+
+msgid "Dbl. stars"
+msgstr "డబుల్ నక్షత్రాలు"
+
+msgid "December solstice"
+msgstr "డిసెంబర్ అయనం"
+
+msgid "Decimal degrees. −33.87 means 33.87° south. Elevation is metres above sea level; it moves the horizon down by a few arcminutes."
+msgstr "దశాంశ డిగ్రీలు. −33.87 అంటే 33.87° దక్షిణం. ఎలివేషన్ సముద్రమట్టం కంటే మీటర్లలో ఉంటుంది; ఇది దిగంతాన్ని కొన్ని ఆర్క్‌నిమిషాలు దిగువకు తరలిస్తుంది."
+
+msgid "Degrees per year the longitude moves by"
+msgstr "రేఖాంశం సంవత్సరానికి డిగ్రీల సంఖ్య"
+
+msgid "Degrees, hours and minutes as they are written - 12h30m49s, +41°16'09\", 187.7 - or plain decimal degrees."
+msgstr "డిగ్రీలు, గంటలు మరియు నిమిషాలు వాటిని వ్రాసిన విధంగా - 12h30m49s, +41°16'09\", 187.7 - లేదా సాధారణ దశాంశ డిగ్రీలు."
+
+msgid "Deletes all recent search object data, and the objects SIMBAD contributed."
+msgstr "అన్ని ఇటీవల వెతుకు వస్తువు డేటాను, SIMBAD సహకరించిన వస్తువులను తొలగిస్తుంది."
+
+msgid "Designations for celestial coordinate systems"
+msgstr "ఖగోళ కోఆర్డినేట్ సిస్టమ్‌ల హోదాలు"
+
+msgid "Designations for double stars"
+msgstr "డబుల్ నక్షత్రాల హోదాలు"
+
+msgid "Designations for variable stars"
+msgstr "చర నక్షత్రాల హోదాలు"
+
+msgid "Dim a survey near the horizon, as the air does"
+msgstr "సర్వేను దిగంతానికి సమీపంలో చీకటిగా చేయండి, గాలు చేసినట్లు"
+
+msgid "Dimensions"
+msgstr "కొలతలు"
+
+msgid "Displayed"
+msgstr "ప్రదర్శించబడింది"
+
+msgid "Distance, AU"
+msgstr "దూరం, AU"
+
+msgid "Done"
+msgstr "పూర్తయింది"
+
+msgid "Drag"
+msgstr "లాగండి"
+
+msgid "Draw deep-sky objects at all"
+msgstr "అన్నిటిపై సుదూర ఆకాశ వస్తువులను గీయండి"
+
+msgid "Draw only polygon"
+msgstr "బహుభుజం మాత్రమే గీయండి"
+
+msgid "Draw the enabled sky surveys"
+msgstr "సక్రియమైన ఆకాశ సర్వేలను గీయండి"
+
+msgid "Draw the planets, moons and minor bodies"
+msgstr "గ్రహాలు, చంద్రులు మరియు చిన్న శరీరాలను గీయండి"
+
+msgid "Drawn larger than life, so a body that is a few arcseconds wide is visible at all. The position stays true."
+msgstr "జీవితం కంటే పెద్దగా గీయబడింది, కాబట్టి కొన్ని ఆర్క్‌సెకన్ల వెడల్పు ఉన్న శరీరం అన్నిటిపై కనిపిస్తుంది. స్థానం నిజమైనదిగా ఉంటుంది."
+
+msgid "Duration"
+msgstr "వ్యవధి"
+
+msgid "Duration (years)"
+msgstr "వ్యవధి (సంవత్సరాలు)"
+
+msgid "Duration, months"
+msgstr "వ్యవధి, నెలలు"
+
+msgid "Dusk"
+msgstr "సంధ్య సమయం"
+
+msgid "Dynamic (FOV-based) Moon size"
+msgstr "డైనమిక్ (FOV-ఆధారిత) చంద్ర పరిమాణం"
+
+msgid "ELEV. M"
+msgstr "ఎలివేషన్ మీ"
+
+msgid "Earth"
+msgstr "భూమి"
+
+msgid "Earth penumbra"
+msgstr "భూ అర్థచ్ఛాయ"
+
+msgid "Earth shadow enlargement after Danjon"
+msgstr "Danjon తర్వాత భూ నీడ విస్తరణ"
+
+msgid "Earth umbra"
+msgstr "భూ సంపూర్ణ నీడ"
+
+msgid "Eastern quadrature"
+msgstr "తూర్పు చతుర్థాంశం"
+
+msgid "Ecl. grid"
+msgstr "గ్ర. అల్లిక"
+
+msgid "Eclipse begins; first contact with Earth"
+msgstr "గ్రహణం ప్రారంభమవుతుంది; భూమితో మొదటి సంపర్కం"
+
+msgid "Eclipse ends; last contact with Earth"
+msgstr "గ్రహణం సమాప్తమవుతుంది; భూమితో చివరి సంపర్కం"
+
+msgid "Eclipses"
+msgstr "గ్రహణాలు"
+
+msgid "Eclipses are computed for observers on Earth."
+msgstr "గ్రహణాలు భూమిపై పరిశీలకుల కోసం గణించబడతాయి."
+
+msgid "Elev."
+msgstr "ఎలీ."
+
+msgid "Elevation"
+msgstr "ఎలివేషన్"
+
+msgid "Elevation in metres"
+msgstr "ఎలివేషన్ మీటర్లలో"
+
+msgid "Elongations and quadratures"
+msgstr "ఇలాంగేషన్లు మరియు చతుర్థాంశాలు"
+
+msgid "Enabled only"
+msgstr "సక్రియమైనవి మాత్రమే"
+
+msgid "End of center line; central eclipse ends"
+msgstr "కేంద్రీయ రేఖ ముగింపు; కేంద్రీయ గ్రహణం ముగియుతుంది"
+
+msgid "Enter Culture..."
+msgstr "సంస్కృతిని నమోదు చేయండి..."
+
+msgid "Equ. grid"
+msgstr "ఈక్వ.అల్"
+
+msgid "Equ. mount"
+msgstr "ఈక్."
+
+msgid "Equatorial radii ratio"
+msgstr "భూమధ్య వ్యాసార్థ నిష్పత్తి"
+
+msgid "Evening"
+msgstr "సాయంకాలం"
+
+msgid "Every"
+msgstr "ప్రతిది"
+
+msgid "Every name the object is catalogued under"
+msgstr "వస్తువు కేటలాగ్ చేయబడిన ప్రతిటి పేరు"
+
+msgid "Exoplanetary systems"
+msgstr "బాహ్యగ్రహ వ్యవస్థలు"
+
+msgid "Exterior egress"
+msgstr "బాహ్య నిష్క్రమణ"
+
+msgid "Exterior ingress"
+msgstr "బాహ్య ప్రవేశం"
+
+msgid "Fades the ground as you look below the horizon or zoom in"
+msgstr "దిగంతం కింద చూసినప్పుడు లేదా జూమ్ చేసినప్పుడు నేల మసకబారుతుంది"
+
+msgid "Fading duration"
+msgstr "క్షీణ వ్యవధి"
+
+msgid "Faintest shown"
+msgstr "సూక్ష్మతమైన చూపించిన"
+
+msgid "Favorites"
+msgstr "ఇష్టాలు"
+
+msgid "Fetching the survey lists…"
+msgstr "సర్వే జాబితాలను తీసుకుస్తున్నారు…"
+
+msgid "Filter"
+msgstr "ఫిల్టర్"
+
+msgid "Filter by type"
+msgstr "రకం ద్వారా ఫిల్టర్ చేయండి"
+
+msgid "Find a city"
+msgstr "నగరాన్ని కనుగొనండి"
+
+msgid "Fine"
+msgstr "సూక్ష్మమైనది"
+
+msgid "First %d of %d - filter to narrow it."
+msgstr "మొదటి %d, %d నుండి - ఇరుకుచేయడానికి ఫిల్టర్ చేయండి."
+
+msgid "First body"
+msgstr "మొదటి శరీరం"
+
+msgid "First celestial body"
+msgstr "మొదటి ఖగోళ వస్తువు"
+
+msgid "First graph"
+msgstr "మొదటి గ్రాఫ్"
+
+msgid "Fix"
+msgstr "సరిచేయండి"
+
+msgid "Fixed Equator"
+msgstr "స్థిర మధ్యరేఖ"
+
+msgid "Fixed Equatorial grid"
+msgstr "స్థిర మధ్య రేఖ అల్లిక"
+
+msgid "Fixed instant"
+msgstr "స్థిర క్షణం"
+
+msgid "Flip buttons"
+msgstr "బొత్తాలను తిరగవేయండి"
+
+msgid "Flip horiz."
+msgstr "సమ."
+
+msgid "Flip vert."
+msgstr "నిల."
+
+msgid "Frame rate"
+msgstr "ఫ్రేమ్ రేట్"
+
+msgid "From"
+msgstr "నుండి"
+
+msgid "From year"
+msgstr "సంవత్సరం నుండి"
+
+msgid "Full screen"
+msgstr "సంపూ."
+
+msgid "Fullscreen button"
+msgstr "పూర్ణ స్క్రీన్ బొత్తం"
+
+msgid "Further reading"
+msgstr "తదుపరి చదువు"
+
+msgid "GRS details…"
+msgstr "GRS వివరాలు…"
+
+msgid "Gal. grid"
+msgstr "గా. అల్లిక"
+
+msgid "Galactic center and anticenter"
+msgstr "గాలక్టిక్ కేంద్రం మరియు ప్రతికేంద్రం"
+
+msgid "Gamma"
+msgstr "గామా"
+
+msgid "Gamma, saturation, brightness, contrast, opacity, colour channel and inverted colours belong to one survey. Open a survey to set them."
+msgstr "గామా, సంతృప్తి, ప్రకాశం, కాంట్రాస్ట్, అపారదర్శకత, రంగు చానెల్ మరియు విలోమ రంగులు ఒక సర్వేకు చెందిన. వాటిని నిర్ణయించుకోవడానికి సర్వేను తెరవండి."
+
+msgid "Gestures"
+msgstr "సంకేతాలు"
+
+msgid "Go there"
+msgstr "అక్కడికి వెళ్లండి"
+
+msgid "Go to position"
+msgstr "స్థానానికి వెళ్లండి"
+
+msgid "Go to this eclipse"
+msgstr "ఈ గ్రహణానికి వెళ్లండి"
+
+msgid "Go to this moment"
+msgstr "ఈ క్షణానికి వెళ్లండి"
+
+msgid "Go to this transit"
+msgstr "ఈ ట్రాన్జిట్‌కు వెళ్లండి"
+
+msgid "Good visibility conditions for current location"
+msgstr "ప్రస్తుత స్థానానికి మంచి దృశ్యమానత నిబంధనలు"
+
+msgid "Great Red Spot"
+msgstr "గ్రేట్ రెడ్ స్పాట్"
+
+msgid "Great Red Spot details"
+msgstr "గ్రేట్ రెడ్ స్పాట్ వివరాలు"
+
+msgid "Greatest eastern elongation"
+msgstr "గరిష్ట తూర్పు సాగతీత"
+
+msgid "Greatest eclipse"
+msgstr "గరిష్ట గ్రహణం"
+
+msgid "Greatest elongation for an inner planet, quadrature for an outer one"
+msgstr "లోపలి గ్రహానికి గ్రేటెస్ట్ ఎలాంగేషన్, బాహ్య గ్రహానికి చతుర్థాంశం"
+
+msgid "Greatest western elongation"
+msgstr "గరిష్ట పశ్చిమ సాగతీత"
+
+msgid "Greek letters"
+msgstr "గ్రీక్ అక్షరాలు"
+
+msgid "Green"
+msgstr "ఆకుపచ్చ"
+
+msgid "Grid density"
+msgstr "గ్రిడ్ సాంద్రత"
+
+msgid "Grids"
+msgstr "గ్రిడ్‌లు"
+
+msgid "Ground"
+msgstr "నేల"
+
+msgid "Gyro"
+msgstr "గైరో"
+
+msgid "Gyro mode"
+msgstr "గైరో మోడ్"
+
+msgid "Harvard-Smithsonian Center for Astrophysics (USA)"
+msgstr "హార్వర్డ్-స్మిథ్‌సోనియన్ సెంటర్ ఫర్ ఆస్ట్రోఫిజిక్స్ (USA)"
+
+msgid "Height"
+msgstr "ఎత్తు"
+
+msgid "Heliocentric ecliptic positions of the major planets."
+msgstr "పెద్ద గ్రహాల సూర్య కేంద్రీయ జ్యోతిశ్చక్ర స్థానాలు."
+
+msgid "Herschel 400 objects"
+msgstr "హర్‌షెల్ 400 వస్తువులు"
+
+msgid "HiPS"
+msgstr "HiPS"
+
+msgid "HiPS Surveys"
+msgstr "HiPS సర్వేలు"
+
+msgid "Hide controls"
+msgstr "నియంత్రణలను దాచు"
+
+msgid "Hide deep-sky objects fainter than the limit"
+msgstr "పరిమితిలో సూక్ష్మతర సుదూర ఆకాశ వస్తువులను దాచు"
+
+msgid "Hide orbits of minor bodies"
+msgstr "చిన్న శరీరాల కక్ష్యలను దాచు"
+
+msgid "Highlight"
+msgstr "హైలైట్"
+
+msgid "Highlight the objects of the observing list"
+msgstr "పరిశీలన జాబితా యొక్క వస్తువులను హైలైట్ చేయండి"
+
+msgid "Hint circles marking each planet"
+msgstr "ప్రతిటి గ్రహాన్ని గుర్తించే సూచన వృత్తాలు"
+
+msgid "Hints brightness"
+msgstr "సూచనల ప్రకాశం"
+
+msgid "Hipparcos designations"
+msgstr "హిప్పార్కోస్ హోదాలు"
+
+msgid "Hour angles usually run 0...24h. This counts -12h...12h."
+msgstr "గంట కోణాలు సాధారణంగా 0...24h. ఇది -12h...12h లెక్కిస్తుంది."
+
+msgid "How many"
+msgstr "ఎంత"
+
+msgid "ICRS grid"
+msgstr "ICRS గ్రిడ్"
+
+msgid "Include"
+msgstr "చేర్చుకోండి"
+
+msgid "Include bright comets"
+msgstr "ప్రకాశవంతమైన తోకచుక్కలను చేర్చుకోండి"
+
+msgid "Include selected minor planets"
+msgstr "ఎంచుకున్న చిన్న గ్రహాలను చేర్చుకోండి"
+
+msgid "Inferior conjunction"
+msgstr "హీన సయోగం"
+
+msgid "Info label"
+msgstr "సమచారపు లేబుల్"
+
+msgid "Intercardinal points"
+msgstr "మధ్య నలుదిక్కుల బిందువులు"
+
+msgid "Interior egress"
+msgstr "అంతర్గత నిష్క్రమణ"
+
+msgid "Interior ingress"
+msgstr "అంతర్గత ప్రవేశం"
+
+msgid "Invariable plane of the Solar system"
+msgstr "సౌర వ్యవస్థ యొక్క అస్థిర సమతలం"
+
+msgid "Isolated"
+msgstr "ఒంటరిగా"
+
+msgid "Its elevation, and the civil, nautical and astronomical twilights"
+msgstr "దీని ఎలివేషన్, మరియు పౌర, సముద్ర మరియు ఖగోళ సంధ్యలు"
+
+msgid "Jovigraphic longitude of the spot in System II, in degrees"
+msgstr "సిస్టమ్ II లో ఎండపట్టిన స్థానం యొక్క జోవిగ్రాఫిక్ రేఖాంశం, డిగ్రీలలో"
+
+msgid "Julian day"
+msgstr "జూలియన్ రోజు"
+
+msgid "June solstice"
+msgstr "జూన్ అయనం"
+
+msgid "Label"
+msgstr "లేబుల్"
+
+msgid "Label colour"
+msgstr "లేబుల్ రంగు"
+
+msgid "Label only features along the terminator"
+msgstr "టర్మినేటర్ వెంట మాత్రమే ఫీచర్‌లను లేబుల్ చేయండి"
+
+msgid "Labels and Markers amount"
+msgstr "లేబుళ్ళు, మార్కర్ల మొత్తం"
+
+msgid "Labels brightness"
+msgstr "లేబుళ్ళ ప్రకాశం"
+
+msgid "Largest, ′"
+msgstr "పెద్దటి, ′"
+
+msgid "Last known position"
+msgstr "చివరిగా తెలిసిన స్థానం"
+
+msgid "Lasting"
+msgstr "నిరంతరమైన"
+
+msgid "Latitude −90…90, longitude −180…180."
+msgstr "అక్షాంశం −90…90, రేఖాంశం −180…180."
+
+msgid "Layer appearance"
+msgstr "పొర ఆకృతి"
+
+msgid "Leaves the landscape visible in darkness"
+msgstr "చీకటిలో ల్యాండ్‌స్కేపును దృశ్యమానం చేస్తుంది"
+
+msgid "Licence"
+msgstr "లైసెన్సు"
+
+msgid "Light pollution"
+msgstr "కాంతి కలుషితం"
+
+msgid "Light pollution from database"
+msgstr "డేటాబేసు నుండి కాంతి కలుషితం"
+
+msgid "Limit angular separation"
+msgstr "కోణీయ విభజనను పరిమితం చేయండి"
+
+msgid "Limit angular size"
+msgstr "కోణీయ పరిమాణాన్ని పరిమితం చెయ్యి"
+
+msgid "Limit magnitude"
+msgstr "పరిమాణాన్ని పరిమితం చెయ్యి"
+
+msgid "Line"
+msgstr "రేఖ"
+
+msgid "Line thickness"
+msgstr "రేఖ మందం"
+
+msgid "Linear and angular distances between selected objects"
+msgstr "ఎంచుకున్న వస్తువుల మధ్య సరళ మరియు కోణీయ దూరాలు"
+
+msgid "Linear distance"
+msgstr "సరళ దూరం"
+
+msgid "Lines"
+msgstr "రేఖలు"
+
+msgid "Lines and circles"
+msgstr "రేఖలు, వృత్తాలు"
+
+msgid "List"
+msgstr "జాబితా"
+
+msgid "List name"
+msgstr "జాబితా పేరు"
+
+msgid "Lit windows, street lighting and the like"
+msgstr "వెలుగుపూర్వక కిటికీలు, రహదారి కాంతి మరియు అటువంటివి"
+
+msgid "Loading…"
+msgstr "లోడ్ చేస్తున్నాను…"
+
+msgid "Local solar eclipses"
+msgstr "స్థానిక సూర్య గ్రహణాలు"
+
+msgid "Local time"
+msgstr "స్థానిక సమయం"
+
+msgid "Local time, h"
+msgstr "స్థానిక సమయం, గం"
+
+msgid "Locate me"
+msgstr "నన్ను కనుగొనండి"
+
+msgid "Locating…"
+msgstr "కనుగొంటున్నాను…"
+
+msgid "Location from landscape"
+msgstr "ల్యాండ్‌స్కేపు నుండి, అందులో ఇచ్చి ఉంటే"
+
+msgid "Location is switched off in the system settings."
+msgstr "సిస్టం సెట్టింగుల్లో స్థానం నిలిపివేయబడింది."
+
+msgid "Location permission refused. The other two ways still work."
+msgstr "స్థానం అనుమతి తిరస్కరించబడింది. మిగిలిన రెండు మార్గాలు ఇంకా పనిచేస్తాయి."
+
+msgid "Long press"
+msgstr "దీర్ఘ నొక్కు"
+
+msgid "Longitude of GRS"
+msgstr "GRS యొక్క రేఖాంశం"
+
+msgid "Lunar Stations"
+msgstr "చంద్ర స్టేషనులు"
+
+msgid "Lunar eclipses"
+msgstr "చంద్ర గ్రహణాలు"
+
+msgid "Lunar elongation"
+msgstr "చంద్ర ఇలాంగేషన్"
+
+msgid "Mag. 1"
+msgstr "పర. 1"
+
+msgid "Mag. 2"
+msgstr "పర. 2"
+
+msgid "Magnitudes"
+msgstr "పరిమాణాలు"
+
+msgid "Major planets"
+msgstr "ప్రధాన గ్రహాలు"
+
+msgid "Major planets by planet, minor bodies by type"
+msgstr "ప్రధాన గ్రహాలను గ్రహం ద్వారా, చిన్న వస్తువులను రకం ద్వారా"
+
+msgid "Map of the planet. Tap to set the observer's place."
+msgstr "గ్రహం యొక్క నకశా. పరిశీలకుడి స్థానాన్ని నిర్ధారించేందుకు నొక్కండి."
+
+msgid "March equinox"
+msgstr "మార్చి విషువత్తు"
+
+msgid "Mark impact features with ellipses"
+msgstr "ప్రభావ లక్షణాలను దీర్ఘవృత్తాలతో గుర్తించండి"
+
+msgid "Mark minor bodies"
+msgstr "చిన్న వస్తువులను గుర్తించండి"
+
+msgid "Markers"
+msgstr "గుర్తింపులు"
+
+msgid "Markers sized by the object's angular size"
+msgstr "వస్తువు యొక్క కోణీయ పరిమాణం ద్వారా పరిమాణం చేయబడిన గుర్తింపులు"
+
+msgid "Master switch for the grids, lines and points below"
+msgstr "క్రింద ఉన్న గ్రిడ్‌ల, లైన్‌ల, పాయింట్‌ల ప్రధాన స్విచ్"
+
+msgid "Max"
+msgstr "గరిష్ఠం"
+
+msgid "Max items to display"
+msgstr "చూపించడానికి గరిష్ఠ అంశాలు"
+
+msgid "Max. results"
+msgstr "గరిష్ఠ. ఫలితాలు"
+
+msgid "Max. search radius"
+msgstr "గరిష్ఠ. శోధన వ్యాసార్థం"
+
+msgid "Maximum Solar altitude"
+msgstr "గరిష్ఠ సూర్య ఆల్టిట్యూడ్"
+
+msgid "Maximum allowed separation"
+msgstr "గరిష్ఠ అనుమతించిన విడిపోత"
+
+msgid "Maximum angular size"
+msgstr "గరిష్ఠ కోణీయ పరిమాణం"
+
+msgid "Maximum eclipse"
+msgstr "గరిష్ఠ గ్రహణం"
+
+msgid "Maximum year"
+msgstr "గరిష్ఠ సంవత్సరం"
+
+msgid "Mean motion"
+msgstr "సరాసరి చలనం"
+
+msgid "Mercury, Venus, Mars, Jupiter and Saturn at once. Earth only."
+msgstr "బుధుడు, శుక్రుడు, అంగారకుడు, బృహస్పతి, శని ఏకకాలానికి. భూమి మాత్రమే."
+
+msgid "Messier objects"
+msgstr "Messier వస్తువులు"
+
+msgid "Mid-transit"
+msgstr "మధ్య ట్రాంజిట్"
+
+msgid "Milky Way brightness"
+msgstr "పాలపుంత ప్రకాశం"
+
+msgid "Milky Way saturation"
+msgstr "పాలపుంత సంతృప్తం"
+
+msgid "Min"
+msgstr "కనిష్ఠం"
+
+msgid "Minimal angular size"
+msgstr "కనిష్ఠ కోణీయ పరిమాణం"
+
+msgid "Minimal brightness"
+msgstr "కనిష్ఠ ప్రకాశం"
+
+msgid "Minimum Solar altitude"
+msgstr "కనిష్ఠ సూర్య ఆల్టిట్యూడ్"
+
+msgid "Minimum year"
+msgstr "కనిష్ఠ సంవత్సరం"
+
+msgid "Minor bodies"
+msgstr "చిన్న వస్తువులు"
+
+msgid "Minutes before sunrise / after sunset"
+msgstr "సూర్యోదయానికి ముందు / సూర్యాస్తమయానికి తరువాత నిమిషాలు"
+
+msgid "Month"
+msgstr "నెల"
+
+msgid "Moon at"
+msgstr "చంద్రుడు వద్ద"
+
+msgid "Moon enters penumbra"
+msgstr "చంద్రుడు పెనుంబ్రాలోకి ప్రవేశిస్తుంది"
+
+msgid "Moon enters umbra"
+msgstr "చంద్రుడు ఆంబ్రాలోకి ప్రవేశిస్తుంది"
+
+msgid "Moon in zenith at"
+msgstr "చంద్రుడు ఊర్థ్వ బిందువిలో"
+
+msgid "Moon leaves penumbra"
+msgstr "చంద్రుడు పెనుంబ్రా నుండి బయటపడుతుంది"
+
+msgid "Moon leaves umbra"
+msgstr "చంద్రుడు ఆంబ్రా నుండి బయటపడుతుంది"
+
+msgid "Moon's halo"
+msgstr "చంద్రుని హలో"
+
+msgid "Moons of first body"
+msgstr "ఫస్ట్ బాడీ యొక్క చంద్రులు"
+
+msgid "Morning"
+msgstr "ఉదయం"
+
+msgid "Morph. Descr."
+msgstr "రూప. వర్ణ."
+
+msgid "Move the sky by pointing the phone at it"
+msgstr "ఫోన్‌ను ఆకాశం వైపు చూపించడం ద్వారా ఆకాశాన్ని కదిలించండి"
+
+msgid "Move the sky with the phone"
+msgstr "ఆకాశాన్ని ఫోన్‌తో కదిలించండి"
+
+msgid "NGC/IC objects"
+msgstr "NGC/IC వస్తువులు"
+
+msgid "Name for the new list"
+msgstr "కొత్త జాబితా కోసం పేరు"
+
+msgid "Named features the landscape marks"
+msgstr "పేర్పెట్టిన లక్షణాలు ల్యాండ్‌స్కేపు గుర్తించినవి"
+
+msgid "Names"
+msgstr "పేర్లు"
+
+msgid "Names beside the planets and their markers"
+msgstr "గ్రహాలు, వాటి గుర్తింపుల పక్కన పేర్లు"
+
+msgid "Names in English"
+msgstr "ఆంగ్ల పేర్లు"
+
+msgid "Nautical Twilight"
+msgstr "నాటికల్ సంధ్య"
+
+msgid "Neb. bg"
+msgstr "నెబ్.నేపథ"
+
+msgid "Nebula background"
+msgstr "నెబ్యులా నేపథ్యం"
+
+msgid "Nebulae"
+msgstr "నెబ్యులాలు"
+
+msgid "New list"
+msgstr "కొత్త జాబితా"
+
+msgid "Next"
+msgstr "తర్వాత"
+
+msgid "Night"
+msgstr "రాత్రి"
+
+msgid "No city matches that."
+msgstr "ఆ నగరం సరిపోదు."
+
+msgid "No eclipses found. Pick a range and calculate."
+msgstr "గ్రహణాలు కనిపించలేదు. ఒక పరిధిని ఎంచుకోండి, లెక్కించండి."
+
+msgid "No fresh fix - the receiver may have no sky. Try again outdoors, or set the place another way."
+msgstr "ఉదయమైన విధానం లేదు - గ్రహణకారిని ఆకాశం లేకపోవచ్చు. బయటకు వెళ్లి మళ్లీ ప్రయత్నించండి, లేదా స్థానాన్ని వేరుగా నిర్ధారించండి."
+
+msgid "No surveys were found. The lists are downloaded, so this needs a connection."
+msgstr "సర్వేలు కనిపించలేదు. జాబితాలు డౌన్‌లోడ్ చేయబడ్డాయి, కాబట్టి దీనికి సంయోగం కావాలి."
+
+msgid "None downloaded yet"
+msgstr "ఇంకా ఏదీ డౌన్‌లోడ్ చేయబడలేదు"
+
+msgid "Normal"
+msgstr "సాధారణ"
+
+msgid "Not observable eclipse"
+msgstr "చూడలేని గ్రహణం"
+
+msgid "Note: Local circumstances for eclipses during thousands of years in the past and future are not reliable due to uncertainty in ΔT which is caused by fluctuations in Earth's rotation."
+msgstr "గమనిక: భూమి భ్రమణ యొక్క హెచ్చుమెలుకువలు కారణంగా ΔT లో అనిశ్చితత కారణంగా గతమరియు భవిష్యత్ సంవత్సరాల్లో గ్రహణాల యొక్క స్థానిక పరిస్థితులు విశ్వసనీయం కాదు."
+
+msgid "Note: artificial satellites and unnamed stars are excluded from calculation"
+msgstr "గమనిక: కృత్రిమ ఉపగ్రహాలు మరియు పేరు పెట్టని నక్షత్రాలు గణన నుండి తొలగించబడ్డాయి"
+
+msgid "Note: this tool doesn't apply the refraction correction for coordinates. Horizontal coordinates stop the clock, or the sky would turn away from the point while you arrive at it."
+msgstr "గమనిక: ఈ సాధనం కోఆర్డినేట్‌ల కోసం ఆపరణ సవరణను ఉపయోగించదు. క్షితిజ సమాంతర కోఆర్డినేట్‌లు గడియారాన్ని ఆపుతాయి, లేదా మీరు దానికి చేరుకున్నప్పుడు ఆకాశం ఆ బిందువు నుండి మొగ్గను చేస్తుంది."
+
+msgid "Notes: The quantity gamma is the minimum distance from the axis of lunar shadow cone to the center of Earth, in units of Earth’s equatorial radius. This distance is positive or negative, depending on whether the axis of the shadow cone passes north or south of the Earth's center. Path of solar eclipses during thousands of years in the past and future are not reliable due to uncertainty in ΔT which is caused by fluctuations in Earth's rotation."
+msgstr "గమనికలు: గామా రాశి చంద్ర నీడ శంకువు యొక్క అక్షం నుండి భూమి యొక్క కేంద్రం వరకు కనీస దూరం, భూమి యొక్క భూమధ్య వ్యాసార్థ యూనిట్లలో. ఈ దూరం సానుకూలం లేదా ప్రతికూలం, నీడ శంకువు యొక్క అక్షం భూమి కేంద్రం యొక్క ఉత్తరం లేదా దక్షిణం గుండా వెళ్తుందా అనిపై ఆధారపడి ఉంటుంది. గతమరియు భవిష్యత్ సంవత్సరాల్లో సూర్య గ్రహణాల మార్గం భూమి భ్రమణ యొక్క హెచ్చుమెలుకువలు కారణంగా ΔT లో అనిశ్చితత కారణంగా విశ్వసనీయం కాదు."
+
+msgid "Notes: The quantity gamma is the minimum distance from the center of the Moon to the axis of Earth’s umbral shadow cone, in units of Earth’s equatorial radius. This distance is positive or negative, depending on whether the Moon passes north or south of the shadow cone axis. Local circumstances for eclipses during thousands of years in the past and future are not reliable due to uncertainty in ΔT which is caused by fluctuations in Earth's rotation."
+msgstr "గమనికలు: గామా రాశి చంద్రుని కేంద్రం నుండి భూమి యొక్క ఆంబ్రల నీడ శంకువు యొక్క అక్షం వరకు కనీస దూరం, భూమి యొక్క భూమధ్య వ్యాసార్థ యూనిట్లలో. ఈ దూరం సానుకూలం లేదా ప్రతికూలం, చంద్రుడు నీడ శంకువు యొక్క అక్షం యొక్క ఉత్తరం లేదా దక్షిణం గుండా వెళ్తుందా అనిపై ఆధారపడి ఉంటుంది. గతమరియు భవిష్యత్ సంవత్సరాల్లో గ్రహణాల స్థానిక పరిస్థితులు భూమి భ్రమణ యొక్క హెచ్చుమెలుకువలు కారణంగా ΔT లో అనిశ్చితత కారణంగా విశ్వసనీయం కాదు."
+
+msgid "Notes: Time in parentheses means the contact is invisible at current location. Transit times during thousands of years in the past and future are not reliable due to uncertainty in ΔT which is caused by fluctuations in Earth's rotation."
+msgstr "గమనికలు: బ్రాకెట్లలోని సమయం సంపర్కం ప్రస్తుత స్థానం వద్ద అదృశ్యమైనదని అర్థం. గతమరియు భవిష్యత్ సంవత్సరాల్లో రవాణా సమయాలు భూమి భ్రమణ యొక్క హెచ్చుమెలుకువలు కారణంగా ΔT లో అనిశ్చితత కారణంగా విశ్వసనీయం కాదు."
+
+msgid "Nothing computed yet, or nothing in this category is up."
+msgstr "ఇంకా ఏదీ లెక్కించబడలేదు, లేదా ఈ విభాగంలో ఏదీ ఉన్నది కాదు."
+
+msgid "Nothing computed yet."
+msgstr "ఇంకా ఏదీ లెక్కించబడలేదు."
+
+msgid "Nothing found for “%s”."
+msgstr "\"%s\" కోసం ఏదీ కనుగొనబడలేదు."
+
+msgid "Nothing in this list matches."
+msgstr "ఈ జాబితాలో ఏదీ సరిపోదు."
+
+msgid "Nothing in this list yet. Pick something out of the sky and tap the star on its card to keep it here."
+msgstr "ఈ జాబితాలో ఇంకా ఏదీ లేదు. ఆకాశం నుండి ఎప్పుడైనా ఎంచుకుని, దానిని ఇక్కడ ఉంచుకోవడానికి దాని కార్డ్‌లోని నక్షత్రాన్ని నొక్కండి."
+
+msgid "Nothing is selected. Pick an object in the sky first."
+msgstr "ఏదీ ఎంపిక చేయబడలేదు. ముందుగా ఆకాశంలో ఒక వస్తువును ఎంచుకోండి."
+
+msgid "Nothing matches."
+msgstr "ఏదీ సరిపోదు."
+
+msgid "Nothing selected"
+msgstr "ఏదీ ఎంపిక చేయబడలేదు"
+
+msgid "Nothing to plot."
+msgstr "ప్లాట్ చేయడానికి ఏదీ లేదు."
+
+msgid "Nothing to show."
+msgstr "చూపించడానికి ఏదీ లేదు."
+
+msgid "Now"
+msgstr "ఇప్పుడు"
+
+msgid "N× above"
+msgstr "N× పైన"
+
+msgid "OBJECT"
+msgstr "వస్తువు"
+
+msgid "OBJECTS"
+msgstr "వస్తువులు"
+
+msgid "Objects which are up"
+msgstr "ఉన్న వస్తువులు"
+
+msgid "Observable duration"
+msgstr "పరిశీలించదగిన కాలం"
+
+msgid "Observing list"
+msgstr "పరిశీలన జాబితా"
+
+msgid "Observing list highlight"
+msgstr "పరిశీలన జాబితా హైలైట్"
+
+msgid "Observing lists"
+msgstr "పరిశీలన జాబితాలు"
+
+msgid "On the sky"
+msgstr "ఆకాశంలో"
+
+msgid "One color"
+msgstr "ఒక రంగు"
+
+msgid "Only for N latest selected objects"
+msgstr "ఏకైక N సరికొత్త ఎంపిక చేయబడిన వస్తువుల కోసం"
+
+msgid "Only for Solar elevation"
+msgstr "ఏకైక సూర్య ఎలివేషన్ కోసం"
+
+msgid "Only list"
+msgstr "ఏకైక జాబితా"
+
+msgid "Only one at a time"
+msgstr "ఒకేసారి ఒకటి మాత్రమే"
+
+msgid "Only orbit for selected object…"
+msgstr "ఎంపిక చేయబడిన వస్తువు కోసం ఏకైక కక్ష్య…"
+
+msgid "Only orbits of major planets…"
+msgstr "ప్రధాన గ్రహాల కక్ష్యలు మాత్రమే…"
+
+msgid "Open date and time"
+msgstr "తేదీ, సమయాన్ని తెరవండి"
+
+msgid "Open location"
+msgstr "స్థానాన్ని తెరవండి"
+
+msgid "Opens the JUPOS project in a browser"
+msgstr "JUPOS ప్రాజెక్టును బ్రౌజర్‌లో తెరుస్తుంది"
+
+msgid "Opposition of"
+msgstr "యొక్క విరోధం"
+
+msgid "Oppositions"
+msgstr "విరోధాలు"
+
+msgid "Orbit colors"
+msgstr "కక్ష్య రంగులు"
+
+msgid "Orbital periods ratio"
+msgstr "కక్ష్యా కాలాల నిష్పత్తి"
+
+msgid "Orbits"
+msgstr "కక్ష్యలు"
+
+msgid "Orbits of interstellar objects"
+msgstr "నక్షత్ర మధ్య వస్తువుల కక్ష్యలు"
+
+msgid "Orbits of moons"
+msgstr "చంద్రుల కక్ష్యలు"
+
+msgid "Other"
+msgstr "ఇతర"
+
+msgid "Otherwise every move adopts the zone of the new place."
+msgstr "లేకుంటే ప్రతిటి చలనం కొత్త స్థానం యొక్క జోన్‌ను అంగీకరిస్తుంది."
+
+msgid "Outline craters"
+msgstr "క్రేటర్‌ల రూపరేఖ"
+
+msgid "Pan the sky"
+msgstr "ఆకాశాన్ని పాన్ చేయండి"
+
+msgid "Partial eclipse begins"
+msgstr "పాక్షిక గ్రహణం ప్రారంభమవుతుంది"
+
+msgid "Partial eclipse ends"
+msgstr "పాక్షిక గ్రహణం ముగుస్తుంది"
+
+msgid "Partitions"
+msgstr "విభాగాలు"
+
+msgid "Partitions thickness"
+msgstr "విభాగాల మందం"
+
+msgid "Path width"
+msgstr "మార్గ వెడల్పు"
+
+msgid "Pause"
+msgstr "నిలిపివేయండి"
+
+msgid "Paused - start"
+msgstr "నిలిపివేయబడింది - ప్రారంభం"
+
+msgid "Penumbral magnitude"
+msgstr "పెనుంబ్రల్ పరిమాణం"
+
+msgid "Perfect visibility conditions for current location"
+msgstr "ప్రస్తుత స్థానానికి పరిపూర్ణ దృశ్యమానత నిబంధనలు"
+
+msgid "Perihelion"
+msgstr "పెరిహీలియన్"
+
+msgid "Perihelion and aphelion"
+msgstr "పెరిహేలియన్, అపహేలియన్"
+
+msgid "Pick two different bodies to see how their distance changes."
+msgstr "వాటి దూరం ఎలా మారుతుందో చూడడానికి రెండు వేరువేరు వస్తువులను ఎంచుకోండి."
+
+msgid "Pinch"
+msgstr "చిటకు"
+
+msgid "Planet"
+msgstr "గ్రహం"
+
+msgid "Planet and time zone"
+msgstr "గ్రహం, సమయ జోన్"
+
+msgid "Planetary nebulae (<%1 mag)"
+msgstr "గ్రహ నెబ్యులాలు (<%1 mag)"
+
+msgid "Planetary nomenclature"
+msgstr "గ్రహ నామకరణం"
+
+msgid "Planetary transits"
+msgstr "గ్రహ ట్రాంజిట్‌లు"
+
+msgid "Planets"
+msgstr "గ్రహాలు"
+
+msgid "Planets and Sun"
+msgstr "గ్రహాలు మరియు సూర్యుడు"
+
+msgid "Planets magnitude algorithm"
+msgstr "గ్రహాల పరిమాణ అల్గోరిథం"
+
+msgid "Pluto, Ceres, Pallas, Juno and Vesta"
+msgstr "ప్లూటో, సెరెస్, పల్లాస్, జూనో, వెస్టా"
+
+msgid "Point size"
+msgstr "బిందువు పరిమాణం"
+
+msgid "Pointing"
+msgstr "సూచన"
+
+msgid "Polar distance"
+msgstr "ధ్రువ దూరం"
+
+msgid "Polar distance, not declination"
+msgstr "ధ్రువ దూరం, డిక్లనేషన్ కాదు"
+
+msgid "Poles and points"
+msgstr "ధ్రువాలు, బిందువులు"
+
+msgid "Polygon colour"
+msgstr "బహుభుజ రంగు"
+
+msgid "Positive values only"
+msgstr "ధనాత్మక విలువలు మాత్రమే"
+
+msgid "Previous"
+msgstr "మునుపటి"
+
+msgid "Projected Solar Equator"
+msgstr "ప్రజెక్టెడ్ సూర్య మధ్యరేఖ"
+
+msgid "Pronounce"
+msgstr "ఉచ్చారణ"
+
+msgid "Pulsars"
+msgstr "పల్సర్లు"
+
+msgid "Quadrature circle"
+msgstr "చతుర్థాంశ వృత్తం"
+
+msgid "Query SIMBAD about selected object"
+msgstr "ఎంపిక చేయబడిన వస్తువు గురించి SIMBAD ను ప్రశ్నించండి"
+
+msgid "Query options"
+msgstr "ప్రశ్న వికల్పాలు"
+
+msgid "Quit"
+msgstr "మూసెయ్యి"
+
+msgid "Quit button"
+msgstr "నిష్క్రమణ బొత్తం"
+
+msgid "Reading…"
+msgstr "చదువుతున్నాను…"
+
+msgid "Real time speed"
+msgstr "రియల్ టైమ్ వేగం"
+
+msgid "Recent Searches"
+msgstr "ఇటీవల శోధనలు"
+
+msgid "Rectangular FOV"
+msgstr "దీర్ఘచతురస్రాకార FOV"
+
+msgid "Red"
+msgstr "ఎరుపు"
+
+msgid "Refraction, extinction, sky brightness"
+msgstr "ఆపరణ, విలుప్తం, ఆకాశ ప్రకాశం"
+
+msgid "Regions of the sky"
+msgstr "ఆకాశం యొక్క ప్రాంతాలు"
+
+msgid "Relative scale"
+msgstr "సాపేక్ష స్కేల్"
+
+msgid "Remove %s"
+msgstr "%s ను తీసివేయండి"
+
+msgid "Remove from observing list"
+msgstr "పరిశీలన జాబితా నుండి తీసివేయండి"
+
+msgid "Rename"
+msgstr "పేరు మార్చండి"
+
+msgid "Reset"
+msgstr "రీసెట్ చేయండి"
+
+msgid "Reset all"
+msgstr "అన్నీ రీసెట్ చేయండి"
+
+msgid "Restarting…"
+msgstr "పునరారంభిస్తున్నాను…"
+
+msgid "Rise"
+msgstr "ఉదయం"
+
+msgid "Rises"
+msgstr "ఉదయమవుతుంది"
+
+msgid "Rotation"
+msgstr "భ్రమణం"
+
+msgid "Running"
+msgstr "నడుస్తున్నాయి"
+
+msgid "SIMBAD did not answer."
+msgstr "SIMBAD సమాధానం ఇవ్వలేదు."
+
+msgid "SIMBAD is switched off in the search options."
+msgstr "SIMBAD వెతుకులాట ఎంపికల్లో ఆఫ్ చేయబడింది."
+
+msgid "SIMBAD is switched off. Turn it on under Options to look objects up online."
+msgstr "SIMBAD నిలిపివేయబడింది. ఆన్‌లైన్ వస్తువులను చూసేందుకు వికల్పాల కింద దానిని ఆన్ చేయండి."
+
+msgid "SIMBAD server"
+msgstr "SIMBAD సేవ"
+
+msgid "Saros"
+msgstr "సరస్"
+
+msgid "Saros %s"
+msgstr "సరస్ %s"
+
+msgid "Saturation"
+msgstr "సంతృప్తం"
+
+msgid "Save"
+msgstr "భద్రపరచు"
+
+msgid "Save either the current FOV and direction of view or all the current options for use at next startup. Restoring default settings requires a restart of the app."
+msgstr "ప్రస్తుత FOV, దృశ్య దిశ లేదా తరువాత ప్రారంభానికి ఉపయోగించడానికి అన్ని ప్రస్తుత వికల్పాలను భద్రపరచు. డిఫాల్టు సెట్టింగులను పునస్థాపించడానికి అనువర్తనం రీస్టార్ట్ అవసరం."
+
+msgid "Save to observing list"
+msgstr "పరిశీలన జాబితాకు భద్రపరచు"
+
+msgid "Save view"
+msgstr "దృశ్యాన్ని భద్రపరచు"
+
+msgid "Scale"
+msgstr "స్కేల్"
+
+msgid "Scale marker and label visibility by surface brightness"
+msgstr "ఉపరితల ప్రకాశం ద్వారా గుర్తింపు, లేబుల్ దృశ్యమానతను స్కేల్ చేయండి"
+
+msgid "Scales smoothly between 1× at the minimum field of view and the factor above at the maximum"
+msgstr "కనిష్ఠ దృశ్య క్షేత్రం వద్ద 1×, గరిష్ఠం వద్ద పై సంఖ్య మధ్య సున్నితంగా స్కేల్ చేస్తుంది"
+
+msgid "Screen label"
+msgstr "తెర లేబుల్"
+
+msgid "Search in list"
+msgstr "జాబితాలో శోధన"
+
+msgid "Seasons"
+msgstr "కాలాలు"
+
+msgid "Second body"
+msgstr "రెండవ వస్తువు"
+
+msgid "Second celestial body"
+msgstr "రెండవ ఖగోళ వస్తువు"
+
+msgid "Second graph"
+msgstr "రెండవ గ్రాఫ్"
+
+msgid "Second object"
+msgstr "రెండవ వస్తువు"
+
+msgid "Secondary intercardinal points"
+msgstr "ద్వితీయ అంతర్దిక్కు బిందువులు"
+
+msgid "See the sky through the ground"
+msgstr "నేల ద్వారా ఆకాశాన్ని చూడండి"
+
+msgid "Seen now"
+msgstr "ఇప్పుడు చూసిన"
+
+msgid "Select an object first: this asks SIMBAD what it holds around it."
+msgstr "ముందుగా ఒక వస్తువును ఎంచుకోండి: ఇది SIMBAD కు దాని చుట్టూ ఏమి ఉందో అడుగుతుంది."
+
+msgid "Select it and show its card"
+msgstr "దానిని ఎంచుకుని దాని కార్డ్‌ను చూపించండి"
+
+msgid "Select something in the sky first — this page works on the selection."
+msgstr "ముందుగా ఆకాశంలో ఎప్పుడైనా ఎంచుకోండి — ఈ పేజీ ఎంపికపై పనిచేస్తుంది."
+
+msgid "Selected object"
+msgstr "ఎంపిక చేయబడిన వస్తువు"
+
+msgid "Separate colors for orbits of major planets"
+msgstr "ప్రధాన గ్రహాల కక్ష్యల కోసం వేరువేరు రంగులు"
+
+msgid "September equinox"
+msgstr "సెప్టెంబర్ విషువత్తు"
+
+msgid "Server"
+msgstr "సేవ"
+
+msgid "Set"
+msgstr "సెట్"
+
+msgid "Set the clock to %s"
+msgstr "గడియారాన్ని %s కు సెట్ చేయండి"
+
+msgid "Set the place"
+msgstr "స్థానాన్ని సెట్ చేయండి"
+
+msgid "Set to now"
+msgstr "ఇప్పుడు సెట్ చేయండి"
+
+msgid "Sets"
+msgstr "సెట్‌లు"
+
+msgid "Shadow map for non-convex bodies. May coarsen the penumbra on some objects"
+msgstr "కుంభాకార చేయని వస్తువుల కోసం నీడ నిప్పిండ్. కొన్ని వస్తువుల పెనుంబ్రాను ముతకగా చేయవచ్చు"
+
+msgid "Shadow transit"
+msgstr "నీడ రవాణా"
+
+msgid "Shooting stars"
+msgstr "దూరపాలన నక్షత్రాలు"
+
+msgid "Short notation for units of surface brightness"
+msgstr "ఉపరితల ప్రకాశం యూనిట్‌ల కోసం చిన్న సంజ్ఞ"
+
+msgid "Short steps over a long duration are slow."
+msgstr "సుదీర్ఘ కాలం చేసిన చిన్న దశలు నెమ్మదిగా ఉన్నాయి."
+
+msgid "Show"
+msgstr "చూపించు"
+
+msgid "Show FOV center marker when position is search"
+msgstr "స్థానం శోధన నుండి FOV కేంద్ర గుర్తింపును చూపించండి"
+
+msgid "Show additional buttons"
+msgstr "అదనపు బొత్తాలను చూపించు"
+
+msgid "Show additional star names"
+msgstr "అదనపు నక్షత్ర పేర్లను చూపించు"
+
+msgid "Show all information"
+msgstr "అన్ని సమచారపు చూపించు"
+
+msgid "Show atmospheric extinction"
+msgstr "వాతావరణ విలుప్తం చూపించు"
+
+msgid "Show controls"
+msgstr "నియంత్రణలను చూపించు"
+
+msgid "Show each body where it was when the light left it (recommended)"
+msgstr "కాంతి దానిని విడిచిపెట్టినప్పుడు ఉన్న ప్రతిటి వస్తువును చూపించండి (సిఫారసు చేయబడిన)"
+
+msgid "Show frames per second beside the field of view"
+msgstr "దృశ్య క్షేత్రం పక్కన సెకన్‌కు ఫ్రేమ్‌లను చూపించండి"
+
+msgid "Show illumination"
+msgstr "ప్రకాశీకరణ చూపించు"
+
+msgid "Show in sky"
+msgstr "ఆకాశంలో చూపించు"
+
+msgid "Show less"
+msgstr "తక్కువను చూపించు"
+
+msgid "Show lunar stations (if defined)"
+msgstr "చంద్ర స్టేషనులను చూపించు (నిర్వచించినట్లయితే)"
+
+msgid "Show more"
+msgstr "మరిన్ని చూపించు"
+
+msgid "Show objects which are up"
+msgstr "పైన ఉన్న వస్తువులను చూపించు"
+
+msgid "Show only named DSO"
+msgstr "కేవలం పేరున్న DSO లను చూపించు"
+
+msgid "Show only objects between the two sizes"
+msgstr "కేవలం రెండు పరిమాణాల మధ్య వస్తువులను చూపించు"
+
+msgid "Show only the kinds ticked below"
+msgstr "కేవలం దిగువ టిక్ చేసిన రకాలను చూపించు"
+
+msgid "Show or hide the two rails of controls"
+msgstr "నియంత్రణల రెండు రైలుల చూపించు లేక దాచు"
+
+msgid "Show orbit even if object is off screen"
+msgstr "వస్తువు స్క్రీన్ నుండి దూరంగా ఉన్నప్పటికీ కక్ష్యను చూపించు"
+
+msgid "Show orbit only for selected SSO"
+msgstr "ఎంచుకున్న SSO కు మాత్రమే కక్ష్యను చూపించు"
+
+msgid "Show orbits of major planets"
+msgstr "పెద్ద గ్రహాల కక్ష్యలు"
+
+msgid "Show special nomenclature points only"
+msgstr "ప్రత్యేక నామకరణ బిందువులను మాత్రమే చూపించు"
+
+msgid "Show surveys"
+msgstr "సర్వేలను చూపించు"
+
+msgid "Show this survey"
+msgstr "ఈ సర్వేను చూపించు"
+
+msgid "Show tiny circles for minor bodies regardless of magnitude"
+msgstr "పరిమాణాన్ని పట్టించుకోకుండా చిన్న వస్తువుల కోసం చిన్న వృత్తాలను చూపించు"
+
+msgid "Show zodiac (if defined)"
+msgstr "రాశిచక్రం చూపించు (నిర్వచించినట్లయితే)"
+
+msgid "Simbad Lookup Error: %s"
+msgstr "Simbad వెతుక లోపం: %s"
+
+msgid "Simbad Lookup: querying"
+msgstr "Simbad వెతుక: ప్రశ్న చేస్తున్నాము"
+
+msgid "Simulation"
+msgstr "అనుకరణ"
+
+msgid "Sky Culture"
+msgstr "ఖగోళ సంస్కృతి"
+
+msgid "Sky and viewing options"
+msgstr "ఆకాశం, చూపు వికల్పాలు"
+
+msgid "Sky culture"
+msgstr "ఖగోళ సంస్కృతి"
+
+msgid "Slow down"
+msgstr "నెమ్మదిగా చేయి"
+
+msgid "Smallest, ′"
+msgstr "చిన్నది, ′"
+
+msgid "Solar altitude for Twilight Finder"
+msgstr "సంధ్యకాల సూచిక కోసం సౌర ఆల్టిట్యూడ్"
+
+msgid "Solar elongation"
+msgstr "సౌర ఇలాంగేషన్"
+
+msgid "Special points only"
+msgstr "ప్రత్యేక బిందువులను మాత్రమే"
+
+msgid "Spectral Class"
+msgstr "స్పెక్ట్రల్ వర్గం"
+
+msgid "Speed up"
+msgstr "వేగవంతం చేయి"
+
+msgid "Spiky stars"
+msgstr "ముల్లుకలు కలిగిన నక్షత్రాలు"
+
+msgid "Stand where the landscape was shot, on the planet it names"
+msgstr "ల్యాండ్‌స్కేపు చిత్రీకరించిన ప్రదేశంలో, పేర్లిచ్చిన గ్రహపై నిలవండి"
+
+msgid "Star, planet, catalogue number…"
+msgstr "నక్షత్రం, గ్రహం, సూచీ సంఖ్య…"
+
+msgid "Started"
+msgstr "ప్రారంభమైంది"
+
+msgid "Starting"
+msgstr "ప్రారంభమవుతుంది"
+
+msgid "Startup FOV"
+msgstr "ప్రారంభ FOV"
+
+msgid "Startup direction of view"
+msgstr "ప్రారంభ దృష్టి దిశ"
+
+msgid "Stationary (begin prograde motion)"
+msgstr "స్థిర (ప్రోగ్రేడ్ చలనం ప్రారంభం)"
+
+msgid "Stationary (begin retrograde motion)"
+msgstr "స్థిర (రెట్రోగ్రేడ్ చలనం ప్రారంభం)"
+
+msgid "Stellarium's user guide covers the astronomy this app shares with it: stellarium.org/documentation"
+msgstr "Stellarium యూజర్ గైడ్ ఈ యాప్ దానితో పంచుకుంటున్న ఖగోళం గురించిన సమాచారాన్ని కవర్ చేస్తుంది: stellarium.org/documentation"
+
+msgid "Step, hours"
+msgstr "దశ, గంటలు"
+
+msgid "Stop clock when starting"
+msgstr "ప్రారంభ సమయంలో గడియారం ఆపు"
+
+msgid "Strasbourg astronomical Data Center (France)"
+msgstr "స్ట్రాస్‌బర్గ్ ఖగోళ డేటా కేంద్రం (ఫ్రాన్స్)"
+
+msgid "Style"
+msgstr "శైలి"
+
+msgid "Sun altitude"
+msgstr "సూర్య ఆల్టిట్యూడ్"
+
+msgid "Sun at"
+msgstr "సూర్యుడు వద్ద"
+
+msgid "Sun's altitude"
+msgstr "సూర్య ఆల్టిట్యూడ్"
+
+msgid "Sun's corona"
+msgstr "సూర్య కిరీటం"
+
+msgid "Sun's glare"
+msgstr "సూర్య ప్రభ"
+
+msgid "Sun, planets and moons of first body and observer's planet"
+msgstr "సూర్యుడు, గ్రహాలు మరియు ఫస్ట్ బాడీ చంద్రులు మరియు పరిశీలకుని గ్రహం"
+
+msgid "Sun, planets and moons of observer's planet"
+msgstr "సూర్యుడు, గ్రహాలు మరియు పరిశీలకుని గ్రహం చంద్రులు"
+
+msgid "Sunlight scattered by interplanetary dust"
+msgstr "అంతరగ్రహ ధూళిచే చెదరిన సూర్యకాశ"
+
+msgid "Superior conjunction"
+msgstr "ఉత్తమ సయోగం"
+
+msgid "Switch this off to see the trails for all Solar system bodies"
+msgstr "అన్ని సౌర కుటుంబ వస్తువుల జాడలను చూడటానికి దీన్ని ఆపివేయి"
+
+msgid "System date at"
+msgstr "సిస్టం తేదీ"
+
+msgid "Table"
+msgstr "పట్టిక"
+
+msgid "Tabular output for coordinates and time"
+msgstr "కోఆర్డినేట్‌లు, సమయానికి సారణీ ఆউట్‌పుట్"
+
+msgid "Tap a colour to change it. Changes show on the sky at once and are kept."
+msgstr "రంగు మార్పుకు నొక్కండి. మార్పులు తక్షణమే ఆకాశంపై చూపబడతాయి, నిల్వ చేయబడతాయి."
+
+msgid "Tap again to confirm"
+msgstr "నిర్ధారణకు మళ్లీ నొక్కండి"
+
+msgid "Tap an object"
+msgstr "ఒక వస్తువును నొక్కండి"
+
+msgid "Tap the chart to read a value."
+msgstr "విలువను చదవడానికి చార్టును నొక్కండి."
+
+msgid "Tap the clock"
+msgstr "గడియారం నొక్కండి"
+
+msgid "Tap the gear"
+msgstr "గేర్ నొక్కండి"
+
+msgid "Tap the map to stand there."
+msgstr "అక్కడ నిలవడానికి మ్యాప్‌ను నొక్కండి."
+
+msgid "Tap the place"
+msgstr "ప్రదేశాన్ని నొక్కండి"
+
+msgid "Tap to confirm"
+msgstr "నిర్ధారణకు నొక్కండి"
+
+msgid "Tertiary intercardinal points"
+msgstr "మూడవ ఇంటర్‌కార్డినల్ బిందువులు"
+
+msgid "Text angle"
+msgstr "పాఠ్య కోణం"
+
+msgid "The Great Red Spot drifts in System II longitude. Enter a recent measurement and the drift rate to carry it forward from."
+msgstr "గ్రేట్ రెడ్ స్పాట్ సిస్టమ్ II రేఖాంశంలో తిరుగుతుంది. ఇటీవల కొలత, డ్రిఫ్ట్ రేటు నుండి సరిపెట్టేందుకు ఇవ్వండి."
+
+msgid "The algorithm is based on visual observations 1877-1891 by G. Müller and was still republished in the Explanatory Supplement to the Astronomical Ephemeris (1961)."
+msgstr "ఈ అల్గోరిథం G. Müller చేసిన దృశ్య పరిశీలనల 1877-1891 ఆధారంగా, ఖగోళ ఎఫెమెరిస్ (1961) కు వివరణాత్మక అనుబంధంలో మళ్లీ ప్రచురించబడింది."
+
+msgid "The algorithm was published by A. Mallama & J. L. Hilton: Computing apparent planetary magnitudes for the Astronomical Almanac. Astronomy&Computing 25 (2018) 10-24."
+msgstr "A. Mallama & J. L. Hilton చేత ప్రచురితమైన అల్గోరిథం: ఖగోళ వర్ష పంచాంగానికి స్పష్ట గ్రహ పరిమాణాలను కంప్యూటింగ్. Astronomy&Computing 25 (2018) 10-24."
+
+msgid "The algorithm was published in the 2nd edition of the Explanatory Supplement to the Astronomical Almanac (1992)."
+msgstr "ఖగోళ వర్ష పంచాంగానికి వివరణాత్మక అనుబంధం యొక్క 2 వ సంచికలో ప్రచురితమైన అల్గోరిథం (1992)."
+
+msgid "The algorithm was published in the 3rd edition of the Explanatory Supplement to the Astronomical Almanac (2013)."
+msgstr "ఖగోళ వర్ష పంచాంగానికి వివరణాత్మక అనుబంధం యొక్క 3 వ సంచికలో ప్రచురితమైన అల్గోరిథం (2013)."
+
+msgid "The algorithm was used in the Astronomical Almanac (1984 and later) and gives V (instrumental) magnitudes (allegedly from D.L. Harris)."
+msgstr "ఖగోళ వర్ష పంచాంగంలో (1984 మరియు తరువాత) ఉపయోగించిన అల్గోరిథం V (వాయు) పరిమాణాలను ఇస్తుంది (సంబంధితం D.L. Harris నుండి)."
+
+msgid "The classical cepheids"
+msgstr "శాస్త్రీయ సెఫీయిడ్‌లు"
+
+msgid "The colour each kind of object is drawn in"
+msgstr "ప్రతి రకమైన వస్తువు గీసిన రంగు"
+
+msgid "The engine did not answer with any colours."
+msgstr "ఇంజిన్ ఏ రంగులతోనూ సమాధానం చెప్పలేదు."
+
+msgid "The galactic band"
+msgstr "గాలక్టిక్ బ్యాండ్"
+
+msgid "The greatest eclipse is invisible in current location"
+msgstr "గరిష్ట గ్రహణం ప్రస్తుత స్థానం వద్ద అదృశ్యమైనది"
+
+msgid "The horizon outline instead of the panorama"
+msgstr "పానోరామా కంటే దిగంతం రూపరేఖ"
+
+msgid "The path each body has taken across the sky"
+msgstr "ప్రతి వస్తువు ఆకాశం అంతటా తీసుకున్న మార్గం"
+
+msgid "The shortest label the culture defines"
+msgstr "సంస్కృతి నిర్వచించిన చిన్న లేబుల్"
+
+msgid "Thickness"
+msgstr "మందం"
+
+msgid "This copy ships no scripts."
+msgstr "ఈ కాపీ స్క్రిప్టులు లేకుండా వెళ్ళిపోతుంది."
+
+msgid "This device has no location service."
+msgstr "ఈ పరికరానికి స్థానం సేవ లేదు."
+
+msgid "This part of the engine exposes no settings on this build."
+msgstr "ఈ ఇంజిన్ భాగం ఈ నిర్మాణంలో సెట్టింగులను బహిర్గతం చేయదు."
+
+msgid "This tool works on Earth only!"
+msgstr "ఈ సాధనం భూమిపై మాత్రమే పనిచేస్తుంది!"
+
+msgid "This tool works on Earth only. Short steps over a long duration are slow."
+msgstr "ఈ సాధనం భూమిపై మాత్రమే పనిచేస్తుంది. దీర్ఘకాల నిమిషాలు నెమ్మదిగా ఉంటాయి."
+
+msgid "This year"
+msgstr "ఈ సంవత్సరం"
+
+msgid "Time of day"
+msgstr "రోజు సమయం"
+
+msgid "Time span"
+msgstr "కాల వ్యవధి"
+
+msgid "Time step"
+msgstr "కాల దశ"
+
+msgid "To the next (mths)"
+msgstr "తరువాత (నెలలు)"
+
+msgid "To the next, months"
+msgstr "తరువాత, నెలలు"
+
+msgid "Today"
+msgstr "నేడు"
+
+msgid "Toggle drawing Sun's glare"
+msgstr "సూర్య ప్రభ గీయడాన్ని టాగుల్ చెయ్యండి"
+
+msgid "Toggle drawing halo around the Moon"
+msgstr "చంద్రుని చుట్టూ హాలో గీయడాన్ని టాగుల్ చెయ్యండి"
+
+msgid "Toggle permanent drawing of Sun's corona when atmosphere is disabled"
+msgstr "వాతావరణం నిలిపివేయబడినప్పుడు సూర్య కిరీటం శాశ్వత గీయడాన్ని టాగుల్ చెయ్యండి"
+
+msgid "Total eclipse begins"
+msgstr "సంపూర్ణ గ్రహణం ప్రారంభమవుతుంది"
+
+msgid "Total eclipse ends"
+msgstr "సంపూర్ణ గ్రహణం సమాప్తమవుతుంది"
+
+msgid "Trails"
+msgstr "జాడలు"
+
+msgid "Transit"
+msgstr "ట్రాన్సిట్"
+
+msgid "Translated"
+msgstr "అనువదించిన"
+
+msgid "Transparency"
+msgstr "పారదర్శకత"
+
+msgid "Twilight"
+msgstr "సంధ్య"
+
+msgid "Twilight and rise and set times are worked out for an observer on Earth. Move back to Earth to see them."
+msgstr "సంధ్యకాలం, సూర్యోదయ, అస్తమయ సమయాలు భూమిపై పరిశీలకుడికి లెక్కించారు. వాటిని చూడటానికి భూమికి తిరిగి వెళ్లండి."
+
+msgid "Twinkle"
+msgstr "మెరుపు"
+
+msgid "Twinkle amount"
+msgstr "మెరుపు పరిమాణం"
+
+msgid "Twinkle even without atmosphere"
+msgstr "వాతావరణం లేనిదయినా మెరుపు"
+
+msgid "Twinkle is caused by atmospheric turbulence; this shows it regardless"
+msgstr "మెరుపు వాతావరణ అల్లర్లచే కలిగిస్తుంది; ఇది దానిని ఏమైనా చూపిస్తుంది"
+
+msgid "Type a name, a Bayer letter or a catalogue number - Vega, α Lyr, M 31, NGC 224."
+msgstr "ఒక పేరు, బాయర్ అక్షరం, సూచీ సంఖ్య టైప్ చేయండి — Vega, α Lyr, M 31, NGC 224."
+
+msgid "Types"
+msgstr "రకాలు"
+
+msgid "Umbral magnitude"
+msgstr "ఉంబ్రల్ పరిమాణం"
+
+msgid "Up to mag."
+msgstr "పర్యంతం."
+
+msgid "Use common symbols for coordinate systems"
+msgstr "కోఆర్డినేట్ సిస్టమ్‌ల కోసం సాధారణ చిహ్నాలను వాడు"
+
+msgid "Use distance from North Celestial Pole, not declination from equator in equatorial coordinates"
+msgstr "ఈక్వటోరియల్ కోఆర్డినేట్‌లలో మధ్యరేఖ నుండి డిక్లనేషన్ కాదు, ఉత్తర ఖగోళ ధ్రువం నుండి దూరాన్ని వాడు"
+
+msgid "Use mag/arcsec^2 for surface brightness"
+msgstr "ఉపరితల ప్రకాశం కోసం mag/arcsec^2 ను ఉపయోగించండి"
+
+msgid "Use my location"
+msgstr "నా స్థానాన్ని వాడు"
+
+msgid "Use proportional hints"
+msgstr "సంబంధిత సూచనలను వాడు"
+
+msgid "Use sorting by string length"
+msgstr "స్ట్రింగ్ పొడవు ఆధారంగా క్రమబద్ధీకరణ వాడు"
+
+msgid "Use the date now shown in the sky"
+msgstr "ఆకాశంలో ఇప్పుడు చూపిన తేదీని వాడు"
+
+msgid "Use the value in landscape.ini when it has one"
+msgstr "landscape.ini లో ఒకటి ఉన్నప్పుడు విలువను వాడు"
+
+msgid "Use the value stored for this location"
+msgstr "ఈ స్థానానికి నిల్వ చేసిన విలువను వాడు"
+
+msgid "Var. stars"
+msgstr "భిన్నం. నక్షత్రాలు"
+
+msgid "Version %s  ·  Qt %s"
+msgstr "వెర్షన్ %s  ·  Qt %s"
+
+msgid "View recent GRS measurements"
+msgstr "ఇటీవల GRS కొలతలను చూడండి"
+
+msgid "Visibility"
+msgstr "దృశ్యమానత"
+
+msgid "Visual magnitude based on phase angle and albedo."
+msgstr "దశ కోణం, ఆల్బిడో ఆధారంగా దృశ్య పరిమాణం."
+
+msgid "Western quadrature"
+msgstr "పశ్చిమ చతుర్థాంశం"
+
+msgid "When a search result is chosen"
+msgstr "సెర్చ ఫలితం ఎంచుకున్నప్పుడు"
+
+msgid "Where Jupiter's Great Red Spot was, and when"
+msgstr "బృహస్పతి గ్రేట్ రెడ్ స్పాట్ ఎక్కడ, ఎప్పుడు ఉంది"
+
+msgid "Width"
+msgstr "వెడల్పు"
+
+msgid "Working out the contact times…"
+msgstr "సంపర్క సమయాలను గుర్తించుకుంటున్నాము…"
+
+msgid "Year"
+msgstr "సంవత్సరం"
+
+msgid "Zodiac and lunar stations"
+msgstr "రాశిచక్రం, చంద్ర స్టేషనులు"
+
+msgid "Zodiacal Light brightness"
+msgstr "రాశిచక్ర ప్రకాశం"
+
+msgid "Zoom in and out"
+msgstr "జూమ్ ఇన్, జూమ్ అవుట్"
+
+msgid "after sunset"
+msgstr "సూర్యాస్తమయానికి తర్వాత"
+
+msgid "before sunrise"
+msgstr "సూర్యోదయానికి ముందు"
+
+msgid "bright suburban"
+msgstr "ప్రకాశవంతమైన శహరీయ సరిహద్ద"
+
+msgid "east +"
+msgstr "తూర్పు +"
+
+msgid "engine ready, interface going live"
+msgstr "ఇంజిన్ సిద్ధమైంది, ఇంటర్‌ఫేస్ లైవ్ అవుతుంది"
+
+msgid "excellent dark sky"
+msgstr "అద్భుతమైన చీకటి ఆకాశం"
+
+msgid "inner city"
+msgstr "లోపలి నగరం"
+
+msgid "north +"
+msgstr "ఉత్తరం +"
+
+msgid "rural/suburban"
+msgstr "గ్రామీణ/సమీపనగర"
+
+msgid "select all"
+msgstr "అన్నింటిని ఎంచుకో"
+
+msgid "select none"
+msgstr "ఏదీ ఎంచుకోకు"
+
+msgid "select preference"
+msgstr "ప్రాధాన్యతను ఎంచుకో"
+
+msgid "select standard"
+msgstr "ప్రమాణాన్ని ఎంచుకో"
+
+msgid "store preference"
+msgstr "ప్రాధాన్యతను నిల్వ చేయి"
+
+msgid "suburban/urban"
+msgstr "సమీపనగర/నగర"
+
+msgid "truly dark"
+msgstr "నిజంగా చీకటి"
+
+msgid "unreadable snapshot"
+msgstr "చదfreguమహీనమైన చిత్రం"
+
+msgid "with Solar Dates"
+msgstr "సౌర తేదీలతో"
+
+msgid "… and moons"
+msgstr "… మరియు చంద్రులు"

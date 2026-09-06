@@ -1,0 +1,2419 @@
+# Asterium interface translation for fa.
+# Copyright (C) 2026 the Asterium authors
+# This file is distributed under the same licence as the Asterium package.
+#
+# MACHINE TRANSLATION, not reviewed by a speaker of this language.
+# Terminology follows upstream Stellarium's own fa catalogue, which was used
+# as a glossary, and every entry keeps the source's printf placeholders.
+# Corrections from a human translator are welcome and should simply replace these.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: asterium\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%d bodies"
+msgstr "%d جسم"
+
+msgid "%d object"
+msgstr "%d جرم"
+
+msgid "%d objects"
+msgstr "%d جرم"
+
+msgid "%s colour"
+msgstr "رنگ %s"
+
+msgid "%s from %s, ±%.0f m"
+msgstr "%s از %s، ±%.0f متر"
+
+msgid "12-hour"
+msgstr "۱۲ ساعتی"
+
+msgid "12h"
+msgstr "۱۲س"
+
+msgid "1× below"
+msgstr "۱× زیر"
+
+msgid "24-hour"
+msgstr "۲۴ ساعتی"
+
+msgid "24h"
+msgstr "۲۴س"
+
+msgid "A button to mark every object of the current observing list on the sky."
+msgstr "دکمه‌ای برای علامت‌گذاری هر جرم از فهرست رصدی فعلی در آسمان"
+
+msgid "A button to toggle ecliptic grid of date"
+msgstr "دکمه‌ای برای تغییر وضعیت شبکهٔ دایرةالبروج (از تاریخ)"
+
+msgid "A button to toggle equatorial J2000 grid"
+msgstr "دکمه‌ای برای تغییر وضعیت شبکهٔ استوایی (J2000)"
+
+msgid "A button to toggle galactic grid"
+msgstr "دکمه‌ای برای تغییر وضعیت شبکهٔ کهکشانی"
+
+msgid "A polygonal model for some small moons, asteroids and comets instead of a sphere"
+msgstr "یک مدل چندضلعی برای برخی ماه‌های کوچک، سیارکها و دنباله‌دارها به جای کره"
+
+msgid "A touch-first planetarium forked from Stellarium, whose astronomy engine it uses unchanged. The interface is new; everything that draws the sky is upstream's work."
+msgstr "پلانتاریومی مبتنی بر لمس فورک شده از Stellarium که موتور نجومی آن را بدون تغییر استفاده می‌کند. رابط جدید است؛ تمام چیزی که آسمان را رسم می‌کند از کار اصلی است."
+
+msgid "Abbreviated names"
+msgstr "نام‌های کوتاه"
+
+msgid "About this sky culture"
+msgstr "درباره‌ی این فرهنگ آسمان"
+
+msgid "Above altitude, °"
+msgstr "بالای ارتفاع، °"
+
+msgid "Absolute scale"
+msgstr "مقیاس مطلق"
+
+msgid "Activate this option to calculate azimuth from south towards west."
+msgstr "این گزینه را برای محاسبهٔ سمت از جنوب به سمت غرب فعال کنید."
+
+msgid "Add %s"
+msgstr "اضافه کردن %s"
+
+msgid "Additional information settings"
+msgstr "تنظیمات اطلاعات اضافی"
+
+msgid "Adjust brightness to bright objects"
+msgstr "تنظیم روشنایی برای اجرام روشن"
+
+msgid "Algol-type eclipsing systems"
+msgstr "دستگاه‌های خورشیدگرفتگی نوع الغول"
+
+msgid "Algorithm of ΔT"
+msgstr "الگوریتم ΔT"
+
+msgid "All IDs"
+msgstr "تمام شناسه‌ها"
+
+msgid "All naked-eye planets"
+msgstr "تمام سیاره‌های قابل‌رؤیت به‌چشم"
+
+msgid "All solar eclipses"
+msgstr "تمام خورشیدگرفتگی‌ها"
+
+msgid "Allow negative hour angles"
+msgstr "اجازهٔ زوایای ساعتی منفی"
+
+msgid "Allow results outside the recommended time range of the orbital elements"
+msgstr "نتایج خارج از محدودهٔ زمانی توصیه‌شدهٔ عناصر مداری را مجاز کنید"
+
+msgid "Almanac"
+msgstr "سالنامه"
+
+msgid "Almanac: Sun, Moon and naked-eye planets"
+msgstr "سالنامه: خورشید، ماه و سیاره‌های قابل رویت با چشم غیرمسلح"
+
+msgid "Also find"
+msgstr "همچنین یافتن"
+
+msgid "Also plot"
+msgstr "همچنین رسم نمودار"
+
+msgid "Also show moons of selected object or planets"
+msgstr "همچنین ماه‌های جرم یا سیاره‌های انتخاب‌شده را نشان دهید"
+
+msgid "Altitude limit, °"
+msgstr "محدودهٔ ارتفاع، °"
+
+msgid "Altitude vs. Time"
+msgstr "ارتفاع در مقابل زمان"
+
+msgid "Amount"
+msgstr "تعداد"
+
+msgid "An observer floats above its planet, so there is nowhere on it to stand. Choose another planet to come back down."
+msgstr "یک ناظر بالای سیاره‌اش شناور است، بنابراین هیچ جایی برای ایستادن نیست. سیاره‌ای دیگر انتخاب کنید تا پایین بیایید."
+
+msgid "And"
+msgstr "و"
+
+msgid "And also"
+msgstr "و همچنین"
+
+msgid "And the next (years)"
+msgstr "و سال‌های بعدی"
+
+msgid "Ang. Size"
+msgstr "اندازهٔ زاویه‌ای"
+
+msgid "Angular distance between the Moon and selected object"
+msgstr "فاصله زاویه‌ای بین ماه و جرم انتخاب‌شده"
+
+msgid "Angular distance from the Moon for second object"
+msgstr "فاصله زاویه‌ای از ماه برای جرم دوم"
+
+msgid "Angular distance from the Sun for second object"
+msgstr "فاصله زاویه‌ای از خورشید برای جرم دوم"
+
+msgid "Annual drift"
+msgstr "رانش سالانه"
+
+msgid "Aphelion"
+msgstr "اوج"
+
+msgid "Appearance"
+msgstr "ظاهر"
+
+msgid "Apply time interval limits to list"
+msgstr "محدودیت‌های بازهٔ زمانی را بر روی فهرست اعمال کنید"
+
+msgid "Art"
+msgstr "هنر"
+
+msgid "Artificial satellites and unnamed stars are excluded from calculation."
+msgstr "ماهواره‌های مصنوعی و ستارگان نام‌گذاری‌نشده از محاسبه حذف می‌شوند."
+
+msgid "Asking for permission…"
+msgstr "درخواست اجازه…"
+
+msgid "Asks SIMBAD what it holds around the object that is selected now, and prints the answer as it comes back."
+msgstr "از SIMBAD می‌پرسد چه چیزی در اطراف جرم انتخاب‌شدهٔ فعلی دارد و پاسخ را با بازگشتن چاپ می‌کند."
+
+msgid "Ast. lines"
+msgstr "خطوط صورت"
+
+msgid "Ast. names"
+msgstr "نام صورت"
+
+msgid "Asterisms"
+msgstr "صورت‌های فرعی"
+
+msgid "Asterisms font size"
+msgstr "اندازهٔ قلم صورت‌های فرعی"
+
+msgid "Astronomical Almanac (1984)"
+msgstr "سالنامهٔ نجومی (۱۹۸۴)"
+
+msgid "Astronomical Almanac (default) enlarges by 2%; Danjon (1951) differs slightly"
+msgstr "نقوس نجومی (پیش‌فرض) تا ۲ درصد بزرگ‌تر می‌شود؛ دانژون (۱۹۵۱) تفاوت کمی دارد"
+
+msgid "Astronomical Twilight"
+msgstr "گرگ و میش نجومی"
+
+msgid "Astronomical calculations"
+msgstr "محاسبات نجومی"
+
+msgid "Astronomical night"
+msgstr "شب نجومی"
+
+msgid "At"
+msgstr "در"
+
+msgid "Atmosph."
+msgstr "جو"
+
+msgid "Atmosphere visualization"
+msgstr "تصورسازی جو"
+
+msgid "Automatic closing dialog"
+msgstr "بستن خودکار گفتگو"
+
+msgid "Automatic transparency"
+msgstr "شفافیت خودکار"
+
+msgid "Axis distance"
+msgstr "فاصلهٔ محور"
+
+msgid "Azi. grid"
+msgstr "شبکه افقی"
+
+msgid "Azimuth and altitude rather than right ascension and declination"
+msgstr "سمت و ارتفاع به جای بعد و میل"
+
+msgid "Azimuth from South"
+msgstr "سمت از جنوب"
+
+msgid "Azimuth vs. Time"
+msgstr "سمت در مقابل زمان"
+
+msgid "Bad visibility conditions for current location"
+msgstr "شرایط مرئی‌پذیری ضعیف برای محل فعلی"
+
+msgid "Beginning of center line; central eclipse begins"
+msgstr "آغاز خط مرکزی؛ گرفتگی مرکزی شروع می‌شود"
+
+msgid "Below the horizon here."
+msgstr "زیر افق در اینجا."
+
+msgid "Between objects"
+msgstr "بین اجرام"
+
+msgid "Blue"
+msgstr "آبی"
+
+msgid "Boundless"
+msgstr "بی‌کران"
+
+msgid "Bounds"
+msgstr "مرزها"
+
+msgid "Bright Solar system objects (<%1 mag)"
+msgstr "اجرام درخشان منظومه شمسی (<%1 بزرگی)"
+
+msgid "Bright barium stars"
+msgstr "ستارگان درخشان باریمی"
+
+msgid "Bright carbon stars"
+msgstr "ستارگان درخشان کربنی"
+
+msgid "Bright double stars"
+msgstr "ستارگان دوگانه درخشان"
+
+msgid "Bright double stars (<%1 mag)"
+msgstr "ستارگان دوگانه درخشان (<%1 بزرگی)"
+
+msgid "Bright galaxies (<%1 mag)"
+msgstr "کهکشان‌های درخشان (<%1 بزرگی)"
+
+msgid "Bright nebulae"
+msgstr "سحابی‌های درخشان"
+
+msgid "Bright nebulae (<%1 mag)"
+msgstr "سحابی‌های درخشان (<%1 بزرگی)"
+
+msgid "Bright nova stars"
+msgstr "ستارگان نو درخشان"
+
+msgid "Bright star clusters (<%1 mag)"
+msgstr "خوشه‌های ستاره‌ای درخشان (<%1 بزرگی)"
+
+msgid "Bright stars"
+msgstr "ستارگان درخشان"
+
+msgid "Bright stars (<%1 mag)"
+msgstr "ستارگان درخشان (<%1 بزرگی)"
+
+msgid "Bright stars with high proper motion"
+msgstr "ستارگان درخشان با حرکت ویژه بالا"
+
+msgid "Bright supernova stars"
+msgstr "ستارگان ابرنو درخشان"
+
+msgid "Bright variable stars"
+msgstr "ستارگان متغیر درخشان"
+
+msgid "Bright variable stars (<%1 mag)"
+msgstr "ستارگان متغیر درخشان (<%1 بزرگی)"
+
+msgid "Brighter than"
+msgstr "روشن‌تر از"
+
+msgid "Brightness"
+msgstr "روشنایی"
+
+msgid "By object type"
+msgstr "بر اساس نوع جرم"
+
+msgid "By planet"
+msgstr "بر اساس سیاره"
+
+msgid "Calculate"
+msgstr "محاسبه"
+
+msgid "Calculating…"
+msgstr "درحال محاسبه…"
+
+msgid "Caldwell objects"
+msgstr "اجرام کالدول"
+
+msgid "Cardinals"
+msgstr "جهات اصلی"
+
+msgid "Catalogue numbers instead of common names"
+msgstr "شمارهٔ کاتالوگ به جای نام‌های عام"
+
+msgid "Category"
+msgstr "دسته"
+
+msgid "Celestial poles (J2000)"
+msgstr "قطب‌های آسمانی (J2000)"
+
+msgid "Celestial poles (of date)"
+msgstr "قطب‌های آسمانی (از تاریخ)"
+
+msgid "Center of FOV"
+msgstr "مرکز میدان دید"
+
+msgid "Centering button"
+msgstr "دکمهٔ مرکز‌کردن"
+
+msgid "Central duration"
+msgstr "مدتٔ مرکزی"
+
+msgid "Central eclipse begins"
+msgstr "خورشیدگرفتگی مرکزی شروع می‌شود"
+
+msgid "Central eclipse ends"
+msgstr "خورشیدگرفتگی مرکزی پایان می‌یابد"
+
+msgid "Centre"
+msgstr "مرکز"
+
+msgid "Centre on object"
+msgstr "مرکزگذاری بر روی جرم"
+
+msgid "Centre point"
+msgstr "نقطهٔ مرکزی"
+
+msgid "Circles"
+msgstr "دایره‌ها"
+
+msgid "Circular FOV"
+msgstr "میدان دید دایره‌ای"
+
+msgid "Circumpolar circles"
+msgstr "دایره‌های قطب‌مرکز"
+
+msgid "City"
+msgstr "شهر"
+
+msgid "Civil Twilight"
+msgstr "گرگ و میش شهری"
+
+msgid "Cleanup"
+msgstr "پاکیزه‌سازی"
+
+msgid "Clear"
+msgstr "پاک کردن"
+
+msgid "Clear recent searches"
+msgstr "پاک کردن جستجوهای اخیر"
+
+msgid "Clear the selection - a touch screen has no right button"
+msgstr "انتخاب را پاک کنید - صفحهٔ لمسی دکمهٔ راست ندارد"
+
+msgid "Cleared."
+msgstr "پاک شد."
+
+msgid "Click on star to show its constellation"
+msgstr "روی ستاره کلیک کنید تا صورت‌فلکی آن را نشان دهید"
+
+msgid "Close"
+msgstr "بستن"
+
+msgid "Close what is open; from the sky, leave the app running"
+msgstr "آنچه باز است را ببندید؛ از آسمان، برنامه را اجرا شده رها کنید"
+
+msgid "Clusters of galaxies"
+msgstr "خوشه‌های کهکشانی"
+
+msgid "Coarse"
+msgstr "درشت"
+
+msgid "Color"
+msgstr "رنگ"
+
+msgid "Color channel"
+msgstr "کانال رنگ"
+
+msgid "Color of Lunar station lines"
+msgstr "رنگ خطوط ایستگاه قمری"
+
+msgid "Color of asterism lines"
+msgstr "رنگ خطوط صورت‌های فرعی"
+
+msgid "Color of asterism names"
+msgstr "رنگ نام‌های صورت‌های فرعی"
+
+msgid "Color of constellation boundaries"
+msgstr "رنگ مرز صورت‌های فلکی"
+
+msgid "Color of constellation lines"
+msgstr "رنگ خطوط صورت فلکی"
+
+msgid "Color of constellation names"
+msgstr "رنگ نام‌های صورت‌های فلکی"
+
+msgid "Color of nomenclature labels"
+msgstr "رنگ برچسب‌های نام‌گذاری"
+
+msgid "Color of orbits"
+msgstr "رنگ مدارها"
+
+msgid "Color of planet labels"
+msgstr "رنگ برچسب‌های سیاره"
+
+msgid "Color of ray helpers"
+msgstr "رنگ کمک‌کنندگان پرتویی"
+
+msgid "Color of trails"
+msgstr "رنگ مسیرها"
+
+msgid "Color of zodiac lines"
+msgstr "رنگ خطوط منطقةالبروج"
+
+msgid "Colors of orbit lines"
+msgstr "رنگ‌های خطوط مداری"
+
+msgid "Comets up to mag."
+msgstr "دنباله‌دارها تا بزرگی"
+
+msgid "Compass"
+msgstr "قطبنما"
+
+msgid "Configure colors of markers"
+msgstr "پیکربندی رنگ‌های نشانگرها"
+
+msgid "Configure colors of orbit lines"
+msgstr "پیکربندی رنگ‌های خطوط مداری"
+
+msgid "Connecting line"
+msgstr "خط اتصال"
+
+msgid "Const."
+msgstr "صورت."
+
+msgid "Constellations font size"
+msgstr "اندازهٔ قلم صورت‌های فلکی"
+
+msgid "Contrast"
+msgstr "تضاد"
+
+msgid "Coordinate system"
+msgstr "نظام مختصات"
+
+msgid "Coordinates"
+msgstr "مختصات"
+
+msgid "Copyright"
+msgstr "حق‌نشر"
+
+msgid "Credits"
+msgstr "کردیت‌ها"
+
+msgid "Culmination altitude"
+msgstr "ارتفاع اوج"
+
+msgid "Current FoV"
+msgstr "میدان دید فعلی"
+
+msgid "Custom"
+msgstr "سفارشی"
+
+msgid "Custom FoV limit"
+msgstr "محدودهٔ میدان دید سفارشی"
+
+msgid "Custom altitude of the Moon, °"
+msgstr "ارتفاع سفارشی ماه، °"
+
+msgid "Custom altitude of the Sun, °"
+msgstr "ارتفاع سفارشی خورشید، °"
+
+msgid "Custom settings for position of GRS"
+msgstr "تنظیمات سفارشی برای موقعیتٔ لکهٔ سرخ بزرگ"
+
+msgid "Custom values"
+msgstr "مقادیر سفارشی"
+
+msgid "Cut the scale off below the limit"
+msgstr "مقیاس را زیر محدودهٔ نشان‌دادن قطع کنید"
+
+msgid "DATE AND TIME (UTC)"
+msgstr "تاریخ و زمان (UTC)"
+
+msgid "DSS survey"
+msgstr "بررسی DSS"
+
+msgid "Data"
+msgstr "داده‌ها"
+
+msgid "Date and time"
+msgstr "تاریخ و زمان"
+
+msgid "Date/time"
+msgstr "تاریخ/زمان"
+
+msgid "Dates"
+msgstr "تاریخ‌ها"
+
+msgid "Dbl. stars"
+msgstr "ستارگان دوتایی"
+
+msgid "December solstice"
+msgstr "انقلاب دسامبر"
+
+msgid "Decimal degrees. −33.87 means 33.87° south. Elevation is metres above sea level; it moves the horizon down by a few arcminutes."
+msgstr "درجات اعشاری. −۳۳٫۸۷ یعنی ۳۳٫۸۷° جنوب. ارتفاع برحسب متر بالای سطح دریا است؛ افق را چند دقیقهٔ قوسی پایین می‌برد."
+
+msgid "Deep Sky"
+msgstr "آسمان عمیق"
+
+msgid "Degrees per year the longitude moves by"
+msgstr "درجه‌های در سال که طول حرکت می‌کند"
+
+msgid "Degrees, hours and minutes as they are written - 12h30m49s, +41°16'09\", 187.7 - or plain decimal degrees."
+msgstr "درجه‌ها، ساعت‌ها و دقایق همانطور که نوشته می‌شوند - ۱۲س۳۰د۴۹ث، +۴۱°۱۶'۰۹\"، ۱۸۷٫۷ - یا درجات اعشاری ساده."
+
+msgid "Deletes all recent search object data, and the objects SIMBAD contributed."
+msgstr "تمام داده‌های جستجوی اخیر جرم‌ها و اجرامی که SIMBAD کمک کرد را حذف می‌کند."
+
+msgid "Designations for celestial coordinate systems"
+msgstr "نام‌گذاری برای نظام‌های مختصات آسمانی"
+
+msgid "Designations for double stars"
+msgstr "نام‌گذاری برای ستارگان دوتایی"
+
+msgid "Designations for variable stars"
+msgstr "نام‌گذاری برای ستارگان متغیر"
+
+msgid "Dim a survey near the horizon, as the air does"
+msgstr "بررسی‌ای را نزدیک افق کم‌رنگ کنید، همانطور که هوا می‌کند"
+
+msgid "Dimensions"
+msgstr "ابعاد"
+
+msgid "Display formats of date and time"
+msgstr "قالب‌های نمایش تاریخ و زمان"
+
+msgid "Displayed"
+msgstr "نمایش‌داده شده"
+
+msgid "Dist."
+msgstr "فاصله"
+
+msgid "Distance, AU"
+msgstr "فاصله، واحد نجومی"
+
+msgid "Done"
+msgstr "انجام شد"
+
+msgid "Drag"
+msgstr "کشیدن"
+
+msgid "Draw deep-sky objects at all"
+msgstr "اصلاً اجرام آسمان عمیق را رسم کنید"
+
+msgid "Draw only polygon"
+msgstr "فقط چندضلعی را رسم کنید"
+
+msgid "Draw the enabled sky surveys"
+msgstr "بررسی‌های آسمان فعال را رسم کنید"
+
+msgid "Draw the planets, moons and minor bodies"
+msgstr "سیاره‌ها، ماه‌ها و اجرام فرعی را رسم کنید"
+
+msgid "Drawn larger than life, so a body that is a few arcseconds wide is visible at all. The position stays true."
+msgstr "بیش از اندازهٔ واقعی رسم شده است، بنابراین جسمی که چند دقیقهٔ قوسی پهن است به هرحال قابل‌رؤیت است. موقعیت درست باقی می‌ماند."
+
+msgid "Duration"
+msgstr "مدت"
+
+msgid "Duration (years)"
+msgstr "مدت (سال‌ها)"
+
+msgid "Duration, months"
+msgstr "مدت، ماه‌ها"
+
+msgid "Dusk"
+msgstr "غروب"
+
+msgid "Dynamic (FOV-based) Moon size"
+msgstr "اندازهٔ ماه پویا (بر اساس میدان دید)"
+
+msgid "ELEV. M"
+msgstr "ارت. متر"
+
+msgid "Earth penumbra"
+msgstr "نیم‌سایهٔ زمین"
+
+msgid "Earth shadow enlargement after Danjon"
+msgstr "بزرگ‌شدن سایهٔ زمین طبق Danjon"
+
+msgid "Earth umbra"
+msgstr "سایهٔ کامل زمین"
+
+msgid "Eastern quadrature"
+msgstr "ربع شرقی"
+
+msgid "Ecl. grid"
+msgstr "شبکه برج"
+
+msgid "Eclipse begins; first contact with Earth"
+msgstr "گرفتگی شروع می‌شود؛ اولین تماس با زمین"
+
+msgid "Eclipse ends; last contact with Earth"
+msgstr "گرفتگی پایان می‌یابد؛ آخرین تماس با زمین"
+
+msgid "Eclipse magnitude"
+msgstr "بزرگی خورشیدگرفتگی"
+
+msgid "Eclipses"
+msgstr "خورشیدگرفتگی‌ها"
+
+msgid "Eclipses are computed for observers on Earth."
+msgstr "خورشیدگرفتگی‌ها برای ناظران روی زمین محاسبه می‌شوند."
+
+msgid "Ecliptic poles (J2000)"
+msgstr "قطب‌های دایرةالبروجی (J2000)"
+
+msgid "Ecliptic poles (of date)"
+msgstr "قطب‌های دایرةالبروجی (از تاریخ)"
+
+msgid "Elev."
+msgstr "ارتفاع."
+
+msgid "Elevation"
+msgstr "ارتفاع"
+
+msgid "Elevation in metres"
+msgstr "ارتفاع برحسب متر"
+
+msgid "Elong."
+msgstr "استطاله."
+
+msgid "Elongations and quadratures"
+msgstr "استطالات و تربیعات"
+
+msgid "Emission-line stars"
+msgstr "ستارگان انتشار خطی"
+
+msgid "Enabled only"
+msgstr "فقط فعال‌شده"
+
+msgid "End of center line; central eclipse ends"
+msgstr "پایان خط مرکزی؛ گرفتگی مرکزی پایان می‌یابد"
+
+msgid "Enter Culture..."
+msgstr "فرهنگ وارد کنید..."
+
+msgid "Ephemeris"
+msgstr "اف‌مریس"
+
+msgid "Equ. grid"
+msgstr "شبکه استو"
+
+msgid "Equ. mount"
+msgstr "پایه استو"
+
+msgid "Equatorial radii ratio"
+msgstr "نسبت شعاع‌های استوایی"
+
+msgid "Equinoxes (of date)"
+msgstr "اعتدالین (از تاریخ)"
+
+msgid "Evening"
+msgstr "عصر"
+
+msgid "Every"
+msgstr "هر"
+
+msgid "Every name the object is catalogued under"
+msgstr "هر نامی که جرم تحت آن در کاتالوگ است"
+
+msgid "Exoplanetary systems"
+msgstr "دستگاه‌های سیاره‌ای برون‌خورشیدی"
+
+msgid "Explanatory Supplement (1992)"
+msgstr "متن تکمیلی (۱۹۹۲)"
+
+msgid "Explanatory Supplement (2013)"
+msgstr "متن تکمیلی (۲۰۱۳)"
+
+msgid "Exterior egress"
+msgstr "خروج خارجی"
+
+msgid "Exterior ingress"
+msgstr "ورودی خارجی"
+
+msgid "Extras"
+msgstr "اضافات"
+
+msgid "Fades the ground as you look below the horizon or zoom in"
+msgstr "وقتی زیر افق را نگاه می‌کنید یا بزرگ‌نمایی می‌کنید، زمین محو می‌شود"
+
+msgid "Fading duration"
+msgstr "مدتٔ محو"
+
+msgid "Faintest shown"
+msgstr "ضعیف‌ترین نشان‌داده شده"
+
+msgid "Favorites"
+msgstr "علاقه‌مندی‌ها"
+
+msgid "Fetching the survey lists…"
+msgstr "دریافت لیست‌های بررسی…"
+
+msgid "Filter"
+msgstr "پالایه"
+
+msgid "Find a city"
+msgstr "یک شهر بیابید"
+
+msgid "Fine"
+msgstr "ریز"
+
+msgid "First %d of %d - filter to narrow it."
+msgstr "اول %d از %d - برای تضیق آن پالایه کنید."
+
+msgid "First body"
+msgstr "اولین جسم"
+
+msgid "First celestial body"
+msgstr "اولین جرم آسمانی"
+
+msgid "First graph"
+msgstr "اولین نمودار"
+
+msgid "Fix"
+msgstr "ثابت کنید"
+
+msgid "Fixed Equator"
+msgstr "استوای ثابت"
+
+msgid "Fixed Equatorial grid"
+msgstr "شبکهٔ استوایی ثابت"
+
+msgid "Fixed instant"
+msgstr "لحظهٔ ثابت"
+
+msgid "Flip buttons"
+msgstr "دکمه‌های برگردان"
+
+msgid "Flip horiz."
+msgstr "برگ افقی"
+
+msgid "Flip vert."
+msgstr "برگ عمودی"
+
+msgid "Font size"
+msgstr "اندازهٔ قلم"
+
+msgid "Frame rate"
+msgstr "سرعت فریم"
+
+msgid "From"
+msgstr "از"
+
+msgid "From year"
+msgstr "از سال"
+
+msgid "Full screen"
+msgstr "صفحه کامل"
+
+msgid "Further reading"
+msgstr "مطالعهٔ بیشتر"
+
+msgid "G. Müller (1893)"
+msgstr "G. Müller (۱۸۹۳)"
+
+msgid "GRS details…"
+msgstr "جزئیات لکهٔ سرخ بزرگ…"
+
+msgid "Gal. grid"
+msgstr "شبکه کهک"
+
+msgid "Gamma"
+msgstr "گاما"
+
+msgid "Gamma, saturation, brightness, contrast, opacity, colour channel and inverted colours belong to one survey. Open a survey to set them."
+msgstr "گاما، اشباع، روشنایی، تضاد، کدریت، کانال رنگ و رنگ‌های معکوس متعلق به یک بررسی هستند. یک بررسی را باز کنید تا آن‌ها را تنظیم کنید."
+
+msgid "Generic"
+msgstr "عمومی"
+
+msgid "Gestures"
+msgstr "حرکات"
+
+msgid "Go there"
+msgstr "برو آنجا"
+
+msgid "Go to position"
+msgstr "برو به موقعیت"
+
+msgid "Go to this eclipse"
+msgstr "برو به این خورشیدگرفتگی"
+
+msgid "Go to this moment"
+msgstr "برو به این لحظه"
+
+msgid "Go to this transit"
+msgstr "برو به این عبور"
+
+msgid "Good visibility conditions for current location"
+msgstr "شرایط مرئی‌پذیری خوب برای محل فعلی"
+
+msgid "Graphs"
+msgstr "نمودارها"
+
+msgid "Great Red Spot"
+msgstr "لکهٔ سرخ بزرگ"
+
+msgid "Great Red Spot details"
+msgstr "جزئیات لکهٔ سرخ بزرگ"
+
+msgid "Greatest eastern elongation"
+msgstr "بزرگ‌ترین کشیدگی شرقی"
+
+msgid "Greatest eclipse"
+msgstr "اعظم گرفتگی"
+
+msgid "Greatest elongation for an inner planet, quadrature for an outer one"
+msgstr "بیشترین استطاله برای سیاره‌ای داخلی، تربیع برای سیاره‌ای خارجی"
+
+msgid "Greatest western elongation"
+msgstr "بزرگ‌ترین کشیدگی غربی"
+
+msgid "Greek letters"
+msgstr "حرف‌های یونانی"
+
+msgid "Green"
+msgstr "سبز"
+
+msgid "Grid density"
+msgstr "چگالی شبکه"
+
+msgid "Grids"
+msgstr "شبکه‌ها"
+
+msgid "Ground"
+msgstr "زمین"
+
+msgid "Gyro"
+msgstr "ژیروسکوپ"
+
+msgid "Gyro mode"
+msgstr "حالت ژیروسکوپ"
+
+msgid "Harvard-Smithsonian Center for Astrophysics (USA)"
+msgstr "مرکز اپتونومی هاروارد-اسمیتسونیان (USA)"
+
+msgid "Height"
+msgstr "ارتفاع"
+
+msgid "Heliocentric distance"
+msgstr "فاصله خورشیدمرکزی"
+
+msgid "Heliocentric ecliptic positions of the major planets."
+msgstr "موقعیت‌های دایرةالبروجی مرکزخورشیدی سیارات بزرگ."
+
+msgid "Herschel 400 objects"
+msgstr "اجرام هرشل ۴۰۰"
+
+msgid "HiPS"
+msgstr "HiPS"
+
+msgid "HiPS Surveys"
+msgstr "نقشه‌های HiPS"
+
+msgid "Hide controls"
+msgstr "پنهان کردن کنترل‌ها"
+
+msgid "Hide deep-sky objects fainter than the limit"
+msgstr "پنهان کردن اجرام عمیق‌آسمان کم‌رنگ‌تر از حد"
+
+msgid "Hide nomenclature on the celestial body of observer"
+msgstr "پنهان کردن نام‌گذاری بر جرم‌آسمانی ناظر"
+
+msgid "Hide orbits of minor bodies"
+msgstr "پنهان کردن مدارهای اجرام کوچک"
+
+msgid "Highlight"
+msgstr "برجسته‌سازی"
+
+msgid "Highlight the objects of the observing list"
+msgstr "برجسته‌سازی اجرام فهرست رصدی"
+
+msgid "Hint circles marking each planet"
+msgstr "دایره‌های کمک برای هر سیاره"
+
+msgid "Hints"
+msgstr "راهنمایی‌ها"
+
+msgid "Hints brightness"
+msgstr "روشنایی راهنمایی‌ها"
+
+msgid "Hipparcos designations"
+msgstr "تعیین مقام Hipparcos"
+
+msgid "Hour angles usually run 0...24h. This counts -12h...12h."
+msgstr "زاویه‌های ساعتی معمولاً 0...24 ساعت اجرا می‌شوند. این −12...12 ساعت است."
+
+msgid "How many"
+msgstr "چند"
+
+msgid "ICRS grid"
+msgstr "شبکه ICRS"
+
+msgid "Include"
+msgstr "شامل"
+
+msgid "Include bright comets"
+msgstr "شامل دنباله‌دارهای درخشان"
+
+msgid "Include selected minor planets"
+msgstr "شامل سیارات کوچک انتخاب‌شده"
+
+msgid "Inferior conjunction"
+msgstr "مقارنه پائینی"
+
+msgid "Info label"
+msgstr "برچسب اطلاعات"
+
+msgid "Intercardinal points"
+msgstr "نقاط میانه جغرافیایی"
+
+msgid "Interior egress"
+msgstr "خروج درونی"
+
+msgid "Interior ingress"
+msgstr "ورود درونی"
+
+msgid "Interstellar objects"
+msgstr "اجرام بین‌ستاره‌ای"
+
+msgid "Invariable plane of the Solar system"
+msgstr "صفحه پایایی منظومه شمسی"
+
+msgid "Isolated"
+msgstr "منزوی"
+
+msgid "Its elevation, and the civil, nautical and astronomical twilights"
+msgstr "ارتفاع آن و سپیده‌دم‌های مدنی، دریایی و نجومی"
+
+msgid "Jovigraphic longitude of the spot in System II, in degrees"
+msgstr "طول‌جغرافیایی جوویگرافیک لکه در دستگاه II بر حسب درجه"
+
+msgid "Julian day"
+msgstr "روز ژولیانی"
+
+msgid "June solstice"
+msgstr "انقلاب ژوئن"
+
+msgid "Label"
+msgstr "برچسب"
+
+msgid "Label colour"
+msgstr "رنگ برچسب"
+
+msgid "Label only features along the terminator"
+msgstr "برچسب تنها ویژگی‌ها در امتداد خط شب‌روز"
+
+msgid "Labels and Markers amount"
+msgstr "تعداد برچسب‌ها و نشانگرها"
+
+msgid "Labels brightness"
+msgstr "روشنایی برچسب‌ها"
+
+msgid "Largest, ′"
+msgstr "بزرگ‌ترین، ′"
+
+msgid "Last known position"
+msgstr "آخرین موقعیت شناخته‌شده"
+
+msgid "Lasting"
+msgstr "دوام‌دار"
+
+msgid "Latest selected object"
+msgstr "آخرین جرم انتخاب‌شده"
+
+msgid "Latitude −90…90, longitude −180…180."
+msgstr "عرض جغرافیایی −90…90، طول جغرافیایی −180…180."
+
+msgid "Layer appearance"
+msgstr "ظاهر لایه"
+
+msgid "Leaves the landscape visible in darkness"
+msgstr "چشم‌انداز را در تاریکی نمایان نگاه می‌دارد"
+
+msgid "Licence"
+msgstr "مجوز"
+
+msgid "Light pollution"
+msgstr "آلودگی نوری"
+
+msgid "Light pollution from database"
+msgstr "آلودگی نوری از پایگاه داده"
+
+msgid "Limit angular separation"
+msgstr "محدوده جدایی زاویه‌ای"
+
+msgid "Limit angular size"
+msgstr "محدودیت اندازه زاویه‌ای"
+
+msgid "Limit magnitude"
+msgstr "محدودیت بزرگی"
+
+msgid "Limit the magnitude of solar system objects"
+msgstr "محدود کردن بزرگی اجرام منظومه شمسی"
+
+msgid "Line"
+msgstr "خط"
+
+msgid "Line thickness"
+msgstr "ضخامت خط"
+
+msgid "Linear and angular distances between selected objects"
+msgstr "فاصله‌های خطی و زاویه‌ای بین اجرام انتخاب‌شده"
+
+msgid "Linear distance"
+msgstr "فاصله خطی"
+
+msgid "Lines"
+msgstr "خطوط"
+
+msgid "Lines and circles"
+msgstr "خطوط و دایره‌ها"
+
+msgid "List"
+msgstr "فهرست"
+
+msgid "List name"
+msgstr "نام فهرست"
+
+msgid "Lit windows, street lighting and the like"
+msgstr "پنجره‌های روشن، روشنایی خیابان و نظایر آن"
+
+msgid "Loading…"
+msgstr "در حال بارگذاری…"
+
+msgid "Local solar eclipses"
+msgstr "خسوف‌های خورشیدی محلی"
+
+msgid "Local time"
+msgstr "زمان محلی"
+
+msgid "Local time, h"
+msgstr "زمان محلی، ساعت"
+
+msgid "Locate me"
+msgstr "یافتن من"
+
+msgid "Locating…"
+msgstr "در حال جستجو…"
+
+msgid "Location from landscape"
+msgstr "موقعیت از چشم‌انداز"
+
+msgid "Location is switched off in the system settings."
+msgstr "موقعیت در تنظیمات سیستم خاموش است."
+
+msgid "Location permission refused. The other two ways still work."
+msgstr "اجازه موقعیت رد شد. دو روش دیگر هنوز کار می‌کنند."
+
+msgid "Lock position when coordinates are used"
+msgstr "قفل موقعیت هنگام استفاده از مختصات"
+
+msgid "Long press"
+msgstr "فشار طولانی"
+
+msgid "Longitude of GRS"
+msgstr "طول جغرافیایی GRS"
+
+msgid "Lunar Elongation"
+msgstr "استطالة ماهی"
+
+msgid "Lunar Stations"
+msgstr "ایستگاه‌های ماهی"
+
+msgid "Lunar eclipses"
+msgstr "خسوف‌ها"
+
+msgid "Lunar elongation"
+msgstr "استطالة ماهی"
+
+msgid "Mag."
+msgstr "بزرگی."
+
+msgid "Mag. 1"
+msgstr "بزرگی ۱"
+
+msgid "Mag. 2"
+msgstr "بزرگی ۲"
+
+msgid "Magnitudes"
+msgstr "بزرگی‌ها"
+
+msgid "Major planets"
+msgstr "سیارات بزرگ"
+
+msgid "Major planets by planet, minor bodies by type"
+msgstr "سیارات بزرگ بر حسب سیاره، اجرام کوچک بر حسب نوع"
+
+msgid "Map of the planet. Tap to set the observer's place."
+msgstr "نقشه سیاره. ضربه دهید تا موقعیت ناظر را تنظیم کنید."
+
+msgid "March equinox"
+msgstr "اعتدال بهاری"
+
+msgid "Mark impact features with ellipses"
+msgstr "نشانه‌گذاری ویژگی‌های برخورد با بیضی‌ها"
+
+msgid "Mark minor bodies"
+msgstr "نشانه‌گذاری اجرام کوچک"
+
+msgid "Markers"
+msgstr "نشانگرها"
+
+msgid "Markers sized by the object's angular size"
+msgstr "نشانگرهای متناسب با اندازه زاویه‌ای جرم"
+
+msgid "Master switch for the grids, lines and points below"
+msgstr "کلید اصلی برای شبکه‌ها، خطوط و نقاط زیر"
+
+msgid "Max"
+msgstr "بیشینه"
+
+msgid "Max items to display"
+msgstr "حداکثر موارد برای نمایش"
+
+msgid "Max. results"
+msgstr "حداکثر نتایج"
+
+msgid "Max. search radius"
+msgstr "حداکثر شعاع جستجو"
+
+msgid "Maximum Solar altitude"
+msgstr "حداکثر ارتفاع خورشید"
+
+msgid "Maximum allowed separation"
+msgstr "حداکثر جدایی مجاز"
+
+msgid "Maximum angular size"
+msgstr "حداکثر اندازه زاویه‌ای"
+
+msgid "Maximum eclipse"
+msgstr "حداکثر خسوف"
+
+msgid "Maximum year"
+msgstr "حداکثر سال"
+
+msgid "Mean motion"
+msgstr "میانگین حرکت"
+
+msgid "Mercury, Venus, Mars, Jupiter and Saturn at once. Earth only."
+msgstr "تیر، ناهید، مریخ، مشتری و زحل به‌طور هم‌زمان. تنها زمین."
+
+msgid "Messier objects"
+msgstr "اجرام مسیه"
+
+msgid "Mid-transit"
+msgstr "وسط عبور"
+
+msgid "Milky Way brightness"
+msgstr "روشنایی راه شیری"
+
+msgid "Milky Way saturation"
+msgstr "اشباع راه شیری"
+
+msgid "Min"
+msgstr "کمینه"
+
+msgid "Minimal angular size"
+msgstr "کمینه اندازه زاویه‌ای"
+
+msgid "Minimal brightness"
+msgstr "کمینه روشنایی"
+
+msgid "Minimum Solar altitude"
+msgstr "کمینه ارتفاع خورشید"
+
+msgid "Minimum year"
+msgstr "کمینه سال"
+
+msgid "Minor bodies"
+msgstr "اجرام کوچک"
+
+msgid "Minutes before sunrise / after sunset"
+msgstr "دقیقه پیش‌تر از طلوع / پس از غروب"
+
+msgid "Monthly Elevation"
+msgstr "ارتفاع ماهانه"
+
+msgid "Moon at"
+msgstr "ماه در"
+
+msgid "Moon enters penumbra"
+msgstr "ماه وارد سایه بیرونی می‌شود"
+
+msgid "Moon enters umbra"
+msgstr "ماه وارد سایه داخلی می‌شود"
+
+msgid "Moon in zenith at"
+msgstr "ماه در رأس آسمان در"
+
+msgid "Moon leaves penumbra"
+msgstr "ماه سایه بیرونی را ترک می‌کند"
+
+msgid "Moon leaves umbra"
+msgstr "ماه سایه داخلی را ترک می‌کند"
+
+msgid "Moon's halo"
+msgstr "هاله ماه"
+
+msgid "Moons of first body"
+msgstr "ماه‌های جسم نخست"
+
+msgid "Morning"
+msgstr "صبح"
+
+msgid "Morph. Descr."
+msgstr "توص. ریخت‌شناسی"
+
+msgid "Move the sky by pointing the phone at it"
+msgstr "حرکت آسمان با اشاره تلفن به آن"
+
+msgid "Move the sky with the phone"
+msgstr "حرکت آسمان با تلفن"
+
+msgid "Name for the new list"
+msgstr "نام برای فهرست جدید"
+
+msgid "Named features the landscape marks"
+msgstr "ویژگی‌های نام‌گذاری‌شده‌ای که چشم‌انداز نشانه‌گذاری می‌کند"
+
+msgid "Names"
+msgstr "نام‌ها"
+
+msgid "Names beside the planets and their markers"
+msgstr "نام‌ها کنار سیارات و نشانگرهایشان"
+
+msgid "Names in English"
+msgstr "نام‌ها به انگلیسی"
+
+msgid "Nautical Twilight"
+msgstr "گرگ و میش دریایی"
+
+msgid "Neb. bg"
+msgstr "پس‌سحابی"
+
+msgid "Nebula background"
+msgstr "پس‌زمینه سحابی"
+
+msgid "Nebulae"
+msgstr "سحابی‌ها"
+
+msgid "New list"
+msgstr "فهرست جدید"
+
+msgid "Next"
+msgstr "بعدی"
+
+msgid "Night"
+msgstr "شب"
+
+msgid "No city matches that."
+msgstr "هیچ شهری تطابق ندارد."
+
+msgid "No eclipses found. Pick a range and calculate."
+msgstr "خسوفی پیدا نشد. یک دامنه انتخاب کنید و محاسبه کنید."
+
+msgid "No fresh fix - the receiver may have no sky. Try again outdoors, or set the place another way."
+msgstr "تصحیح تازه نیست - گیرنده ممکن است آسمان نداشته باشد. بیرون سعی کنید یا موقعیت را به‌روش دیگری تنظیم کنید."
+
+msgid "No surveys were found. The lists are downloaded, so this needs a connection."
+msgstr "نقشه‌ای پیدا نشد. فهرست‌ها دانلود می‌شوند، بنابراین نیاز به اتصال دارد."
+
+msgid "None downloaded yet"
+msgstr "هنوز دانلود نشده"
+
+msgid "Normal"
+msgstr "عادی"
+
+msgid "Not observable eclipse"
+msgstr "گرفتگی غیرقابل‌رصد"
+
+msgid "Note: Local circumstances for eclipses during thousands of years in the past and future are not reliable due to uncertainty in ΔT which is caused by fluctuations in Earth's rotation."
+msgstr "یادداشت: شرایط محلی گرفتگی‌ها در طی هزاران سال گذشته و آینده قابل اعتماد نیست زیرا به دلیل عدم‌قطعیت در ΔT که ناشی از نوسانات چرخش زمین است."
+
+msgid "Note: artificial satellites and unnamed stars are excluded from calculation"
+msgstr "یادداشت: ماهواره‌های مصنوعی و ستارگان بی‌نام از محاسبات استثناء شده‌اند"
+
+msgid "Note: this tool doesn't apply the refraction correction for coordinates. Horizontal coordinates stop the clock, or the sky would turn away from the point while you arrive at it."
+msgstr "توجه: این ابزار تصحیح شکست برای مختصات را اعمال نمی‌کند. مختصات افقی ساعت را متوقف می‌کنند یا آسمان از نقطه دور می‌شود تا شما به آن برسید."
+
+msgid "Notes: The quantity gamma is the minimum distance from the axis of lunar shadow cone to the center of Earth, in units of Earth’s equatorial radius. This distance is positive or negative, depending on whether the axis of the shadow cone passes north or south of the Earth's center. Path of solar eclipses during thousands of years in the past and future are not reliable due to uncertainty in ΔT which is caused by fluctuations in Earth's rotation."
+msgstr "یادداشت‌ها: کمیت گاما کمترین فاصله از محور مخروط سایه ماه تا مرکز زمین است، به واحد شعاع استوایی زمین. این فاصله مثبت یا منفی است، بسته به اینکه محور مخروط سایه از شمال یا جنوب مرکز زمین عبور کند. مسیر گرفتگی‌های خورشیدی در طی هزاران سال گذشته و آینده قابل اعتماد نیست زیرا به دلیل عدم‌قطعیت در ΔT که ناشی از نوسانات چرخش زمین است."
+
+msgid "Notes: The quantity gamma is the minimum distance from the center of the Moon to the axis of Earth’s umbral shadow cone, in units of Earth’s equatorial radius. This distance is positive or negative, depending on whether the Moon passes north or south of the shadow cone axis. Local circumstances for eclipses during thousands of years in the past and future are not reliable due to uncertainty in ΔT which is caused by fluctuations in Earth's rotation."
+msgstr "یادداشت‌ها: کمیت گاما کمترین فاصله از مرکز ماه تا محور مخروط سایه زمین است، به واحد شعاع استوایی زمین. این فاصله مثبت یا منفی است، بسته به اینکه ماه از شمال یا جنوب محور مخروط سایه عبور کند. شرایط محلی گرفتگی‌ها در طی هزاران سال گذشته و آینده قابل اعتماد نیست زیرا به دلیل عدم‌قطعیت در ΔT که ناشی از نوسانات چرخش زمین است."
+
+msgid "Notes: Time in parentheses means the contact is invisible at current location. Transit times during thousands of years in the past and future are not reliable due to uncertainty in ΔT which is caused by fluctuations in Earth's rotation."
+msgstr "یادداشت‌ها: زمان درون پرانتز به معنی نامرئی بودن تماس در محل فعلی است. زمان‌های عبور در طی هزاران سال گذشته و آینده قابل اعتماد نیست زیرا به دلیل عدم‌قطعیت در ΔT که ناشی از نوسانات چرخش زمین است."
+
+msgid "Nothing computed yet, or nothing in this category is up."
+msgstr "هنوز چیزی محاسبه نشده یا هیچ چیز در این دسته بالا نیست."
+
+msgid "Nothing computed yet."
+msgstr "هنوز چیزی محاسبه نشده."
+
+msgid "Nothing found for “%s”."
+msgstr "برای \"%s\" چیزی پیدا نشد."
+
+msgid "Nothing in this list matches."
+msgstr "چیزی در این فهرست تطابق ندارد."
+
+msgid "Nothing in this list yet. Pick something out of the sky and tap the star on its card to keep it here."
+msgstr "هنوز چیزی در این فهرست نیست. از آسمان انتخاب کنید و ستاره را بر کارت آن ضربه دهید."
+
+msgid "Nothing is selected. Pick an object in the sky first."
+msgstr "هیچ چیز انتخاب نشده. ابتدا جرمی را در آسمان انتخاب کنید."
+
+msgid "Nothing matches."
+msgstr "تطابقی نیست."
+
+msgid "Nothing selected"
+msgstr "انتخابی نیست"
+
+msgid "Nothing to plot."
+msgstr "چیزی برای رسم نیست."
+
+msgid "Nothing to show."
+msgstr "چیزی برای نمایش نیست."
+
+msgid "Now"
+msgstr "اکنون"
+
+msgid "N× above"
+msgstr "N× بالاتر"
+
+msgid "OBJECT"
+msgstr "جرم"
+
+msgid "OBJECTS"
+msgstr "اجرام"
+
+msgid "Objects which are up"
+msgstr "اجرام در بالا"
+
+msgid "Observable duration"
+msgstr "مدت زمان قابل مشاهده"
+
+msgid "Observing list"
+msgstr "فهرست مشاهده"
+
+msgid "Observing list highlight"
+msgstr "برجسته‌سازی فهرست مشاهده"
+
+msgid "Observing lists"
+msgstr "فهرست‌های مشاهده"
+
+msgid "On the sky"
+msgstr "بر آسمان"
+
+msgid "One color"
+msgstr "یک رنگ"
+
+msgid "One color for all orbits"
+msgstr "یک رنگ برای تمام مدارها"
+
+msgid "Only for N latest selected objects"
+msgstr "تنها برای N جرم آخیر انتخاب‌شده"
+
+msgid "Only for Solar elevation"
+msgstr "تنها برای ارتفاع خورشید"
+
+msgid "Only list"
+msgstr "تنها فهرست"
+
+msgid "Only one at a time"
+msgstr "تنها یکی در هر زمان"
+
+msgid "Only orbit for selected object…"
+msgstr "تنها مدار برای جرم انتخاب‌شده…"
+
+msgid "Only orbits of major planets…"
+msgstr "تنها مدارهای سیارات بزرگ…"
+
+msgid "Opac."
+msgstr "کدریت"
+
+msgid "Open date and time"
+msgstr "باز کردن تاریخ و زمان"
+
+msgid "Open location"
+msgstr "باز کردن موقعیت"
+
+msgid "Opens the JUPOS project in a browser"
+msgstr "JUPOS را در مرورگر باز می‌کند"
+
+msgid "Opposition of"
+msgstr "مقابله"
+
+msgid "Oppositions"
+msgstr "مقابله‌ها"
+
+msgid "Orbit colors"
+msgstr "رنگ‌های مدار"
+
+msgid "Orbital periods ratio"
+msgstr "نسبت دوره‌های مداری"
+
+msgid "Orbits"
+msgstr "مدارها"
+
+msgid "Orbits of Oort cloud objects"
+msgstr "مدارهای اجرام ابر اورت"
+
+msgid "Orbits of comets"
+msgstr "مدارهای دنباله‌دارها"
+
+msgid "Orbits of cubewanos"
+msgstr "مدارهای کیوبوانو‌ها"
+
+msgid "Orbits of dwarf planets"
+msgstr "مدارهای سیارات کوتوله"
+
+msgid "Orbits of interstellar objects"
+msgstr "مدارهای اجرام بین‌ستاره‌ای"
+
+msgid "Orbits of major planets"
+msgstr "مدارهای سیارات بزرگ"
+
+msgid "Orbits of minor planets"
+msgstr "مدارهای سیارات کوچک"
+
+msgid "Orbits of moons"
+msgstr "مدارهای ماه‌ها"
+
+msgid "Orbits of plutinos"
+msgstr "مدارهای پلوتینو‌ها"
+
+msgid "Orbits of scattered disk objects"
+msgstr "مدارهای اجرام صفحه پراکنده"
+
+msgid "Orbits of sednoids"
+msgstr "مدارهای سدنوئید‌ها"
+
+msgid "Otherwise every move adopts the zone of the new place."
+msgstr "در غیر این صورت هر حرکت منطقه مکان جدید را پذیرفته می‌شود."
+
+msgid "Outline craters"
+msgstr "نقش دهانه‌ها"
+
+msgid "Pan the sky"
+msgstr "حرکت افقی آسمان"
+
+msgid "Partial eclipse begins"
+msgstr "شروع خسوف جزئی"
+
+msgid "Partial eclipse ends"
+msgstr "پایان خسوف جزئی"
+
+msgid "Partitions"
+msgstr "بخش‌ها"
+
+msgid "Partitions thickness"
+msgstr "ضخامت بخش‌ها"
+
+msgid "Path width"
+msgstr "عرض مسیر"
+
+msgid "Pause"
+msgstr "توقف"
+
+msgid "Paused - start"
+msgstr "متوقف - شروع"
+
+msgid "Penumbral magnitude"
+msgstr "بزرگی نیم‌سایه"
+
+msgid "Per."
+msgstr "دوره"
+
+msgid "Perfect visibility conditions for current location"
+msgstr "شرایط مرئی‌پذیری عالی برای محل فعلی"
+
+msgid "Perihelion"
+msgstr "حضیض"
+
+msgid "Perihelion and aphelion"
+msgstr "حضیض و اوج"
+
+msgid "Phenomena"
+msgstr "پدیده‌ها"
+
+msgid "Pick two different bodies to see how their distance changes."
+msgstr "دو جرم متفاوت انتخاب کنید تا ببینید فاصله تغییر می‌کند."
+
+msgid "Pinch"
+msgstr "پیچش"
+
+msgid "Planet"
+msgstr "سیاره"
+
+msgid "Planet and time zone"
+msgstr "سیاره و منطقه زمانی"
+
+msgid "Planetary nebulae (<%1 mag)"
+msgstr "سحابی‌های سیاره‌نما (<%1 بزرگی)"
+
+msgid "Planetary nomenclature"
+msgstr "نام‌گذاری سیاره‌ای"
+
+msgid "Planetary transits"
+msgstr "عبور سیاره‌ای"
+
+msgid "Planets"
+msgstr "سیاره‌ها"
+
+msgid "Planets and Sun"
+msgstr "سیاره‌ها و خورشید"
+
+msgid "Planets magnitude algorithm"
+msgstr "الگوریتم بزرگی سیارات"
+
+msgid "Please select object to plot its 'Monthly Elevation' graph for the current year at selected time."
+msgstr "لطفاً جرمی را انتخاب کنید تا نمودار «ارتفاع ماهانه» آن برای سال جاری در زمان انتخاب‌شده رسم شود."
+
+msgid "Please select object to plot its graph 'Altitude vs. Time'."
+msgstr "لطفاً جرمی را انتخاب کنید تا نمودار «ارتفاع در برابر زمان» آن رسم شود."
+
+msgid "Please select object to plot its graph 'Azimuth vs. Time'."
+msgstr "لطفاً جرمی را انتخاب کنید تا نمودار «سمت در برابر زمان» آن رسم شود."
+
+msgid "Pluto, Ceres, Pallas, Juno and Vesta"
+msgstr "پلوتو، سرس، پالاس، جونو و وستا"
+
+msgid "Point size"
+msgstr "اندازه نقطه"
+
+msgid "Pointing"
+msgstr "اشاره"
+
+msgid "Polar distance"
+msgstr "فاصله قطبی"
+
+msgid "Polar distance, not declination"
+msgstr "فاصله قطبی، نه میل"
+
+msgid "Poles and points"
+msgstr "قطب‌ها و نقاط"
+
+msgid "Polygon colour"
+msgstr "رنگ چندضلعی"
+
+msgid "Positions"
+msgstr "موقعیت‌ها"
+
+msgid "Positive values only"
+msgstr "تنها مقادیر مثبت"
+
+msgid "Previous"
+msgstr "قبلی"
+
+msgid "Pronounce"
+msgstr "تلفظ"
+
+msgid "Pulsars"
+msgstr "پالسارها"
+
+msgid "Quadrature circle"
+msgstr "دایره ربع‌ها"
+
+msgid "Query SIMBAD about selected object"
+msgstr "جستجو SIMBAD برای جرم انتخاب‌شده"
+
+msgid "Query options"
+msgstr "گزینه‌های جستجو"
+
+msgid "Quit"
+msgstr "خروج"
+
+msgid "Quit button"
+msgstr "دکمه خروج"
+
+msgid "Range"
+msgstr "دامنه"
+
+msgid "Reading…"
+msgstr "در حال خواندن…"
+
+msgid "Real time speed"
+msgstr "سرعت زمان واقعی"
+
+msgid "Recent Searches"
+msgstr "جستجوهای اخیر"
+
+msgid "Rectangular FOV"
+msgstr "میدان دید مستطیلی"
+
+msgid "Red"
+msgstr "قرمز"
+
+msgid "Refraction, extinction, sky brightness"
+msgstr "شکست، تخفیف، روشنایی آسمان"
+
+msgid "Regions of the sky"
+msgstr "نواحی آسمان"
+
+msgid "Relative scale"
+msgstr "مقیاس نسبی"
+
+msgid "Remove %s"
+msgstr "حذف %s"
+
+msgid "Remove from observing list"
+msgstr "حذف از فهرست مشاهده"
+
+msgid "Rename"
+msgstr "تغییر نام"
+
+msgid "Reset all"
+msgstr "تنظیم‌مجدد همه"
+
+msgid "Restarting…"
+msgstr "در حال راه‌اندازی مجدد…"
+
+msgid "Results"
+msgstr "نتایج"
+
+msgid "Rises"
+msgstr "طلوع‌ها"
+
+msgid "Rotation"
+msgstr "چرخش"
+
+msgid "Running"
+msgstr "در حال اجرا"
+
+msgid "SIMBAD did not answer."
+msgstr "SIMBAD پاسخ نداد."
+
+msgid "SIMBAD is switched off in the search options."
+msgstr "SIMBAD در گزینه‌های جستجو خاموش است."
+
+msgid "SIMBAD is switched off. Turn it on under Options to look objects up online."
+msgstr "SIMBAD خاموش است. برای جستجوی اجرام آنلاین، آن را در گزینه‌ها روشن کنید."
+
+msgid "SIMBAD server"
+msgstr "سرور SIMBAD"
+
+msgid "Saturation"
+msgstr "اشباع رنگ"
+
+msgid "Save"
+msgstr "ذخیره"
+
+msgid "Save either the current FOV and direction of view or all the current options for use at next startup. Restoring default settings requires a restart of the app."
+msgstr "ذخیره‌ی میدان دید و جهت نما یا تمام گزینه‌های فعلی برای بار بعد راه‌اندازی. بازگذاری تنظیمات پیش‌فرض نیاز به بازراه‌اندازی برنامه دارد."
+
+msgid "Save to observing list"
+msgstr "ذخیره در فهرست رصد"
+
+msgid "Save view"
+msgstr "ذخیره نما"
+
+msgid "Scale"
+msgstr "مقیاس"
+
+msgid "Scale marker and label visibility by surface brightness"
+msgstr "مقیاس‌دهی نشانگر و برچسب بر پایه روشنایی سطح"
+
+msgid "Scales smoothly between 1× at the minimum field of view and the factor above at the maximum"
+msgstr "مقیاس‌دهی نرم بین ۱× در حداقل میدان دید و ضریب بالا در حداکثر"
+
+msgid "Screen label"
+msgstr "برچسب صفحه"
+
+msgid "Search"
+msgstr "جستجو"
+
+msgid "Search in list"
+msgstr "جستجو در فهرست"
+
+msgid "Seasons"
+msgstr "فصول"
+
+msgid "Second body"
+msgstr "جرم دوم"
+
+msgid "Second celestial body"
+msgstr "جرم آسمانی دوم"
+
+msgid "Second graph"
+msgstr "نمودار دوم"
+
+msgid "Second object"
+msgstr "جرم دوم"
+
+msgid "Secondary intercardinal points"
+msgstr "نقاط فرعی میان‌جهتی"
+
+msgid "Sednoids"
+msgstr "سدنویدها"
+
+msgid "See the sky through the ground"
+msgstr "دیدن آسمان از طریق زمین"
+
+msgid "Seen now"
+msgstr "دیده شده اکنون"
+
+msgid "Select an object first: this asks SIMBAD what it holds around it."
+msgstr "ابتدا یک جرم را انتخاب کنید: این درخواست می‌کند تا SIMBAD اجرام اطراف آن را نشان دهد."
+
+msgid "Select it and show its card"
+msgstr "انتخاب و نمایش کارت آن"
+
+msgid "Select something in the sky first — this page works on the selection."
+msgstr "ابتدا چیزی را در آسمان انتخاب کنید — این صفحه بر انتخاب کار می‌کند."
+
+msgid "Selected object"
+msgstr "جرم انتخاب‌شده"
+
+msgid "Sep."
+msgstr "جدایی"
+
+msgid "Separate colors for orbits by object type"
+msgstr "رنگ‌های جداگانه برای مدارها بر پایه نوع جرم"
+
+msgid "Separate colors for orbits of major planets"
+msgstr "رنگ‌های جداگانه برای مدارهای سیارات اصلی"
+
+msgid "September equinox"
+msgstr "اعتدال پاییزی"
+
+msgid "Server"
+msgstr "سرور"
+
+msgid "Set the clock to %s"
+msgstr "تنظیم ساعت به %s"
+
+msgid "Set the place"
+msgstr "تنظیم محل"
+
+msgid "Set to now"
+msgstr "تنظیم به اکنون"
+
+msgid "Sets"
+msgstr "غروب‌ها"
+
+msgid "Shadow map for non-convex bodies. May coarsen the penumbra on some objects"
+msgstr "نقشه سایه برای اجرام غیرمحدب. ممکن است سایه نیمرخ را در برخی اجرام درشت کند"
+
+msgid "Shadow transit"
+msgstr "عبور سایه"
+
+msgid "Shooting stars"
+msgstr "ستاره‌های رزی"
+
+msgid "Short notation for units of surface brightness"
+msgstr "نمادی کوتاه برای واحدهای روشنایی سطح"
+
+msgid "Short steps over a long duration are slow."
+msgstr "قدم‌های کوتاه در مدت طولانی کند هستند."
+
+msgid "Show"
+msgstr "نمایش"
+
+msgid "Show FOV center marker when position is search"
+msgstr "نمایش نشانگر مرکز میدان دید هنگام جستجوی موقعیت"
+
+msgid "Show additional buttons"
+msgstr "نمایش دکمه‌های اضافی"
+
+msgid "Show additional star names"
+msgstr "نمایش نام‌های اضافی ستاره"
+
+msgid "Show all information"
+msgstr "نمایش تمام اطلاعات"
+
+msgid "Show atmospheric extinction"
+msgstr "نمایش جذب جو"
+
+msgid "Show boundaries of constellations"
+msgstr "نمایش مرزهای صورت‌های فلکی"
+
+msgid "Show button in addition to keyboard shortcut?"
+msgstr "نمایش دکمه علاوه بر میانبر صفحه‌کلید؟"
+
+msgid "Show controls"
+msgstr "نمایش کنترل‌ها"
+
+msgid "Show each body where it was when the light left it (recommended)"
+msgstr "نمایش هر جرم جایی که بود وقتی نور از آن ترک کرد (توصیه‌شده)"
+
+msgid "Show frames per second beside the field of view"
+msgstr "نمایش فریم بر ثانیه در کنار میدان دید"
+
+msgid "Show hints and labels for planetary features"
+msgstr "نمایش اشاره‌ها و برچسب‌ها برای ویژگی‌های سیاره"
+
+msgid "Show illumination"
+msgstr "نمایش روشنایی"
+
+msgid "Show in sky"
+msgstr "نمایش در آسمان"
+
+msgid "Show less"
+msgstr "نمایش کمتر"
+
+msgid "Show lunar stations (if defined)"
+msgstr "نمایش ایستگاه‌های قمری (اگر تعریف شده‌باشد)"
+
+msgid "Show more"
+msgstr "نمایش بیشتر"
+
+msgid "Show objects which are up"
+msgstr "نمایش اجرام بالای افق"
+
+msgid "Show only named DSO"
+msgstr "نمایش تنها DSO نام‌گذاری شده"
+
+msgid "Show only objects between the two sizes"
+msgstr "نمایش تنها اجرام بین دو اندازه"
+
+msgid "Show only the kinds ticked below"
+msgstr "نمایش تنها انواعی که در زیر علامت خورده‌اند"
+
+msgid "Show or hide the two rails of controls"
+msgstr "نمایش یا پنهان‌سازی دو ریل کنترل"
+
+msgid "Show orbit even if object is off screen"
+msgstr "نمایش مدار حتی اگر جرم از صفحه خارج باشد"
+
+msgid "Show orbit only for selected SSO"
+msgstr "نمایش مدار تنها برای SSO انتخاب‌شده"
+
+msgid "Show orbits"
+msgstr "نمایش مدارها"
+
+msgid "Show orbits of major planets"
+msgstr "نمایش مدارهای سیارات اصلی"
+
+msgid "Show planetary nomenclature"
+msgstr "نمایش نامگذاری سیاره‌ای"
+
+msgid "Show special nomenclature points only"
+msgstr "نمایش تنها نقاط نامگذاری خاص"
+
+msgid "Show surveys"
+msgstr "نمایش بررسی‌ها"
+
+msgid "Show this survey"
+msgstr "نمایش این بررسی"
+
+msgid "Show tiny circles for minor bodies regardless of magnitude"
+msgstr "نمایش دایره‌های کوچک برای اجرام فرعی صرف‌نظر از بزرگی"
+
+msgid "Show trails"
+msgstr "نمایش مسیرها"
+
+msgid "Show zodiac (if defined)"
+msgstr "نمایش منطقةالبروج (اگر تعریف شده‌باشد)"
+
+msgid "Sidereal time"
+msgstr "زمان نجومی"
+
+msgid "Simbad Lookup Error: %s"
+msgstr "خطای جستجوی Simbad: %s"
+
+msgid "Simbad Lookup: querying"
+msgstr "جستجوی Simbad: پرسش"
+
+msgid "Simulate self-shadowing"
+msgstr "شبیه‌سازی سایه‌ریزی خودی"
+
+msgid "Simulation"
+msgstr "شبیه‌سازی"
+
+msgid "Sky Culture"
+msgstr "فرهنگ آسمان"
+
+msgid "Sky and viewing options"
+msgstr "آسمان و گزینه‌های نمایش"
+
+msgid "Sky culture"
+msgstr "فرهنگ آسمان"
+
+msgid "Slow down"
+msgstr "کاهش سرعت"
+
+msgid "Smallest, ′"
+msgstr "کوچک‌ترین، ′"
+
+msgid "Solar System"
+msgstr "منظومه شمسی"
+
+msgid "Solar System objects"
+msgstr "اجرام منظومه شمسی"
+
+msgid "Solar altitude for Twilight Finder"
+msgstr "ارتفاع خورشید برای یاب غسق"
+
+msgid "Solar elongation"
+msgstr "طول خورشیدی"
+
+msgid "Solar system objects"
+msgstr "اجرام منظومه شمسی"
+
+msgid "Solar system objects: comets"
+msgstr "اجرام منظومه شمسی: دنباله‌دارها"
+
+msgid "Solar system objects: minor bodies"
+msgstr "اجرام منظومه شمسی: اجسام کوچک"
+
+msgid "Solar system objects: planets"
+msgstr "اجرام منظومه شمسی: سیاره‌ها"
+
+msgid "Solstices (J2000)"
+msgstr "انقلاب‌ها (J2000)"
+
+msgid "Solstices (of date)"
+msgstr "انقلاب‌ها (از تاریخ)"
+
+msgid "Special points only"
+msgstr "تنها نقاط خاص"
+
+msgid "Spectral Class"
+msgstr "رده طیفی"
+
+msgid "Speed up"
+msgstr "افزایش سرعت"
+
+msgid "Spiky stars"
+msgstr "ستاره‌های خوشه‌ای"
+
+msgid "Stand where the landscape was shot, on the planet it names"
+msgstr "ایستادن جایی که چشم‌انداز عکس‌برداری شد، بر سیاره نام‌برده‌ای"
+
+msgid "Star, planet, catalogue number…"
+msgstr "ستاره، سیاره، شماره فهرست…"
+
+msgid "Started"
+msgstr "شروع‌شده"
+
+msgid "Starting"
+msgstr "درحال شروع"
+
+msgid "Startup FOV"
+msgstr "میدان دید هنگام راه‌اندازی"
+
+msgid "Startup direction of view"
+msgstr "جهت نما هنگام راه‌اندازی"
+
+msgid "Stationary (begin prograde motion)"
+msgstr "ثابت (شروع حرکت مستقیم)"
+
+msgid "Stationary (begin retrograde motion)"
+msgstr "ثابت (شروع حرکت برگشتی)"
+
+msgid "Stellarium's user guide covers the astronomy this app shares with it: stellarium.org/documentation"
+msgstr "راهنمای کاربری Stellarium اطلاعات نجومی مشترک این برنامه و آن را پوشش می‌دهد: stellarium.org/documentation"
+
+msgid "Step, hours"
+msgstr "قدم، ساعت"
+
+msgid "Stop clock when starting"
+msgstr "توقف ساعت هنگام شروع"
+
+msgid "Strasbourg astronomical Data Center (France)"
+msgstr "مرکز داده نجومی استراسبورگ (فرانسه)"
+
+msgid "Style"
+msgstr "سبک"
+
+msgid "Sun altitude"
+msgstr "ارتفاع خورشید"
+
+msgid "Sun at"
+msgstr "خورشید در"
+
+msgid "Sun's altitude"
+msgstr "ارتفاع خورشید"
+
+msgid "Sun's corona"
+msgstr "هاله خورشید"
+
+msgid "Sun's glare"
+msgstr "درخشش خورشید"
+
+msgid "Sun, planets and moons of first body and observer's planet"
+msgstr "خورشید، سیاره‌ها و ماه‌های جسم نخست و سیاره ناظر"
+
+msgid "Sun, planets and moons of observer's planet"
+msgstr "خورشید، سیاره‌ها و ماه‌های سیاره ناظر"
+
+msgid "Sunlight scattered by interplanetary dust"
+msgstr "نور خورشید پراکنده‌شده توسط غبار بین‌سیاره‌ای"
+
+msgid "Supergalactic"
+msgstr "فوق‌کهکشانی"
+
+msgid "Superior conjunction"
+msgstr "مقارنه بالایی"
+
+msgid "Supernova candidates"
+msgstr "کاندیداهای ابرنو"
+
+msgid "Supernova remnant candidates"
+msgstr "کاندیداهای بقایای ابرنو"
+
+msgid "Surveys"
+msgstr "بررسی‌ها"
+
+msgid "Switch this off to see the trails for all Solar system bodies"
+msgstr "برای دیدن مسیرهای تمام اجرام منظومه شمسی، این را خاموش کنید"
+
+msgid "Symbiotic stars"
+msgstr "ستارگان نزدیک‌هم"
+
+msgid "Synodic period"
+msgstr "دوره سینودی"
+
+msgid "System date at"
+msgstr "تاریخ نظام در"
+
+msgid "Table"
+msgstr "جدول"
+
+msgid "Tabular output for coordinates and time"
+msgstr "خروجی جدولی برای مختصات و زمان"
+
+msgid "Tap a colour to change it. Changes show on the sky at once and are kept."
+msgstr "لمس رنگی برای تغییر. تغییرات بلافاصله در آسمان نمایش داده‌شده و ذخیره می‌شوند."
+
+msgid "Tap again to confirm"
+msgstr "دوباره لمس کنید تا تأیید کنید"
+
+msgid "Tap an object"
+msgstr "لمس یک جرم"
+
+msgid "Tap the chart to read a value."
+msgstr "لمس نمودار برای خواندن مقدار."
+
+msgid "Tap the clock"
+msgstr "لمس ساعت"
+
+msgid "Tap the gear"
+msgstr "لمس دنده"
+
+msgid "Tap the map to stand there."
+msgstr "لمس نقشه برای ایستادن آنجا."
+
+msgid "Tap the place"
+msgstr "لمس محل"
+
+msgid "Tap to confirm"
+msgstr "لمس برای تأیید"
+
+msgid "Tertiary intercardinal points"
+msgstr "نقاط سوم میان‌جهتی"
+
+msgid "Text angle"
+msgstr "زاویه متن"
+
+msgid "The Great Red Spot drifts in System II longitude. Enter a recent measurement and the drift rate to carry it forward from."
+msgstr "لکه قرمز بزرگ در طول System II حرکت می‌کند. اندازه‌گیری اخیری و نرخ انجراف را وارد کنید تا از آنجا پیش برود."
+
+msgid "The algorithm is based on visual observations 1877-1891 by G. Müller and was still republished in the Explanatory Supplement to the Astronomical Ephemeris (1961)."
+msgstr "الگوریتم بر مبنای مشاهدات بصری ۱۸۷۷-۱۸۹۱ توسط G. Müller است و همچنان در ضمیمه توضیحی Ephemeris نجومی (۱۹۶۱) منتشر شد."
+
+msgid "The algorithm was published by A. Mallama & J. L. Hilton: Computing apparent planetary magnitudes for the Astronomical Almanac. Astronomy&Computing 25 (2018) 10-24."
+msgstr "الگوریتم توسط A. Mallama و J. L. Hilton منتشر شد: محاسبه‌ی بزرگی ظاهری سیارات برای Astronomical Almanac. Astronomy&Computing 25 (2018) 10-24."
+
+msgid "The algorithm was published in the 2nd edition of the Explanatory Supplement to the Astronomical Almanac (1992)."
+msgstr "الگوریتم در ویرایش دوم ضمیمه توضیحی Astronomical Almanac (۱۹۹۲) منتشر شد."
+
+msgid "The algorithm was published in the 3rd edition of the Explanatory Supplement to the Astronomical Almanac (2013)."
+msgstr "الگوریتم در ویرایش سوم ضمیمه توضیحی Astronomical Almanac (۲۰۱۳) منتشر شد."
+
+msgid "The algorithm was used in the Astronomical Almanac (1984 and later) and gives V (instrumental) magnitudes (allegedly from D.L. Harris)."
+msgstr "الگوریتم در Astronomical Almanac (۱۹۸۴ و بعدتر) استفاده شد و بزرگی V (ابزاری) می‌دهد (گمان برآن از D.L. Harris)."
+
+msgid "The classical cepheids"
+msgstr "سفئیدهای کلاسیک"
+
+msgid "The colour each kind of object is drawn in"
+msgstr "رنگی که هر نوع جرم با آن کشیده می‌شود"
+
+msgid "The engine did not answer with any colours."
+msgstr "موتور هیچ رنگی را پاسخ نداد."
+
+msgid "The galactic band"
+msgstr "نوار کهکشانی"
+
+msgid "The greatest eclipse is invisible in current location"
+msgstr "بزرگ‌ترین گرفتگی در محل فعلی نامرئی است"
+
+msgid "The horizon outline instead of the panorama"
+msgstr "خط افق به جای پانوراما"
+
+msgid "The path each body has taken across the sky"
+msgstr "مسیری که هر جرم در آسمان طی کرده‌است"
+
+msgid "The shortest label the culture defines"
+msgstr "کوتاه‌ترین برچسبی که فرهنگ تعریف می‌کند"
+
+msgid "Thickness"
+msgstr "ضخامت"
+
+msgid "This copy ships no scripts."
+msgstr "این نسخه هیچ برنامه‌ای نمی‌فرستد."
+
+msgid "This device has no location service."
+msgstr "این دستگاه خدمت موقعیت‌یابی ندارد."
+
+msgid "This part of the engine exposes no settings on this build."
+msgstr "این بخش موتور در این ساخت هیچ تنظیمی را نمایش نمی‌دهد."
+
+msgid "This tool works on Earth only!"
+msgstr "این ابزار فقط روی زمین کار می‌کند!"
+
+msgid "This tool works on Earth only. Short steps over a long duration are slow."
+msgstr "این ابزار تنها بر زمین کار می‌کند. قدم‌های کوتاه در مدت طولانی کند هستند."
+
+msgid "This year"
+msgstr "امسال"
+
+msgid "Time of day"
+msgstr "زمان روز"
+
+msgid "Time span"
+msgstr "بازه زمان"
+
+msgid "Time step"
+msgstr "قدم زمان"
+
+msgid "To the next (mths)"
+msgstr "تا بعدی (ماه)"
+
+msgid "To the next, months"
+msgstr "تا بعدی، ماه"
+
+msgid "Today"
+msgstr "امروز"
+
+msgid "Toggle display of nebula images."
+msgstr "تغییر وضعیت نمایش تصاویر سحابی."
+
+msgid "Toggle display of the button for the Digitized Sky Survey."
+msgstr "تغییر وضعیت نمایش دکمه برای Digitized Sky Survey."
+
+msgid "Toggle display of the button for the HiPS Surveys. Select a survey in the View settings."
+msgstr "تغییر وضعیت نمایش دکمه برای HiPS Surveys. یک بررسی را در تنظیمات نما انتخاب کنید."
+
+msgid "Toggle drawing Sun's glare"
+msgstr "تغییر وضعیت کشیدن درخشش خورشید"
+
+msgid "Toggle drawing halo around the Moon"
+msgstr "تغییر وضعیت کشیدن هاله دور ماه"
+
+msgid "Toggle permanent drawing of Sun's corona when atmosphere is disabled"
+msgstr "تغییر وضعیت کشیدن دائمی هاله خورشید وقتی جو غیرفعال است"
+
+msgid "Toggle the usage of background under GUI buttons"
+msgstr "تغییر وضعیت استفاده از پس‌زمینه تحت دکمه‌های رابط گرافیکی"
+
+msgid "Total eclipse begins"
+msgstr "گرفتگی کل شروع می‌شود"
+
+msgid "Total eclipse ends"
+msgstr "گرفتگی کل پایان می‌یابد"
+
+msgid "Trails"
+msgstr "مسیرها"
+
+msgid "Transit"
+msgstr "عبور"
+
+msgid "Translated"
+msgstr "ترجمه‌شده"
+
+msgid "Transparency"
+msgstr "شفافیت"
+
+msgid "Twilight and rise and set times are worked out for an observer on Earth. Move back to Earth to see them."
+msgstr "زمان‌های غسق و طلوع و غروب برای مراقب بر زمین محاسبه می‌شوند. برگردید به زمین تا آنها را ببینید."
+
+msgid "Twinkle"
+msgstr "تلق"
+
+msgid "Twinkle amount"
+msgstr "میزان تلق"
+
+msgid "Twinkle even without atmosphere"
+msgstr "تلق حتی بدون جو"
+
+msgid "Twinkle is caused by atmospheric turbulence; this shows it regardless"
+msgstr "تلق ناشی از آشفتگی جوی است؛ این آن را صرف‌نظر نمایش می‌دهد"
+
+msgid "Type a name, a Bayer letter or a catalogue number - Vega, α Lyr, M 31, NGC 224."
+msgstr "نام، حرف Bayer یا شماره فهرست را تایپ کنید - Vega، α Lyr، M 31، NGC 224."
+
+msgid "Types"
+msgstr "انواع"
+
+msgid "Umbral magnitude"
+msgstr "بزرگی سایه"
+
+msgid "Unnamed star"
+msgstr "ستاره بی‌نام"
+
+msgid "Up to mag."
+msgstr "تا بزرگی"
+
+msgid "Update"
+msgstr "بروز‌رسانی"
+
+msgid "Use SIMBAD"
+msgstr "استفاده از SIMBAD"
+
+msgid "Use additional names of DSO"
+msgstr "استفاده از نام‌های اضافی DSO"
+
+msgid "Use buttons background"
+msgstr "استفاده از پس‌زمینه دکمه‌ها"
+
+msgid "Use common symbols for coordinate systems"
+msgstr "استفاده از نمادهای رایج برای نظام‌های مختصات"
+
+msgid "Use designations for screen labels"
+msgstr "استفاده از تعیین‌شناسی‌ها برای برچسب‌های صفحه"
+
+msgid "Use distance from North Celestial Pole, not declination from equator in equatorial coordinates"
+msgstr "استفاده از فاصله از قطب شمال آسمانی، نه میل از استوا در مختصات استوایی"
+
+msgid "Use mag/arcsec^2 for surface brightness"
+msgstr "استفاده از بزرگی/ثانیه‌قوسی² برای روشنایی سطح"
+
+msgid "Use more accurate 3D models (where available)"
+msgstr "استفاده از مدل‌های سه‌بعدی دقیق‌تر (جایی که موجود است)"
+
+msgid "Use my location"
+msgstr "استفاده از موقعیت من"
+
+msgid "Use on-line astronomical database SIMBAD"
+msgstr "استفاده از پایگاه داده نجومی آنلاین SIMBAD"
+
+msgid "Use outlines for big deep-sky objects"
+msgstr "استفاده از مرزها برای اجرام عمیق‌آسمان بزرگ"
+
+msgid "Use proportional hints"
+msgstr "استفاده از اشاره‌های متناسب"
+
+msgid "Use sorting by string length"
+msgstr "استفاده از مرتب‌سازی بر پایه طول رشته"
+
+msgid "Use the date now shown in the sky"
+msgstr "استفاده از تاریخ اکنون نمایش‌داده شده در آسمان"
+
+msgid "Use the value in landscape.ini when it has one"
+msgstr "استفاده از مقدار در landscape.ini وقتی آن را دارد"
+
+msgid "Use the value stored for this location"
+msgstr "استفاده از مقدار ذخیره‌شده برای این محل"
+
+msgid "Var. stars"
+msgstr "ستاره‌های متغیر"
+
+msgid "Version %s  ·  Qt %s"
+msgstr "نسخه %s  ·  Qt %s"
+
+msgid "Vertical viewport offset"
+msgstr "جابه‌جایی عمودی نافذه"
+
+msgid "View recent GRS measurements"
+msgstr "مشاهده اندازه‌گیری‌های GRS اخیری"
+
+msgid "Visibility"
+msgstr "دید"
+
+msgid "Visual magnitude based on phase angle and albedo."
+msgstr "بزرگی بصری بر پایه زاویه فاز و بازتابندگی."
+
+msgid "Western quadrature"
+msgstr "ربع غربی"
+
+msgid "When a search result is chosen"
+msgstr "وقتی نتیجه جستجو انتخاب شود"
+
+msgid "Where Jupiter's Great Red Spot was, and when"
+msgstr "جایی که لکه قرمز بزرگ مشتری بود، و کی"
+
+msgid "Width"
+msgstr "عرض"
+
+msgid "Working out the contact times…"
+msgstr "محاسبه زمان‌های تماس…"
+
+msgid "Zenith and Nadir"
+msgstr "سمت‌الرأس و نظیراالقدم"
+
+msgid "Zodiac and lunar stations"
+msgstr "منطقةالبروج و ایستگاه‌های قمری"
+
+msgid "Zodiacal Light brightness"
+msgstr "روشنایی نور منطقةالبروجی"
+
+msgid "Zoom in and out"
+msgstr "بزرگ‌نمایی و کوچک‌نمایی"
+
+msgid "after sunset"
+msgstr "پس از غروب"
+
+msgid "before sunrise"
+msgstr "قبل از طلوع"
+
+msgid "bright suburban"
+msgstr "حومه روشن"
+
+msgid "east +"
+msgstr "شرق +"
+
+msgid "engine ready, interface going live"
+msgstr "موتور آماده است، رابط زندهٔ می‌شود"
+
+msgid "excellent dark sky"
+msgstr "آسمان تیره عالی"
+
+msgid "inner city"
+msgstr "درون شهر"
+
+msgid "mag %s"
+msgstr "بزرگی %s"
+
+msgid "max %s"
+msgstr "حداکثر %s"
+
+msgid "mid %s"
+msgstr "میانی %s"
+
+msgid "north +"
+msgstr "شمال +"
+
+msgid "rural/suburban"
+msgstr "روستایی/حومه‌نشین"
+
+msgid "sci. translit."
+msgstr "نوشتار علمی"
+
+msgid "select all"
+msgstr "انتخاب تمام"
+
+msgid "select none"
+msgstr "انتخاب هیچ‌کدام"
+
+msgid "select preference"
+msgstr "انتخاب اولویت"
+
+msgid "select standard"
+msgstr "انتخاب استاندارد"
+
+msgid "store preference"
+msgstr "ذخیره اولویت"
+
+msgid "suburban/urban"
+msgstr "حومه‌نشین/شهری"
+
+msgid "truly dark"
+msgstr "تاریک واقعی"
+
+msgid "unreadable snapshot"
+msgstr "عکس خوانایی‌ناپذیر"
+
+msgid "with Solar Dates"
+msgstr "با تاریخ‌های خورشیدی"
+
+msgid "… and moons"
+msgstr "… و قمرها"

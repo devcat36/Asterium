@@ -1,0 +1,1399 @@
+# Asterium interface translation for th.
+# Copyright (C) 2026 the Asterium authors
+# This file is distributed under the same licence as the Asterium package.
+#
+# MACHINE TRANSLATION, not reviewed by a speaker of this language.
+# Terminology follows upstream Stellarium's own th catalogue, which was used
+# as a glossary, and every entry keeps the source's printf placeholders.
+# Corrections from a human translator are welcome and should simply replace these.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: asterium\n"
+"Language: th\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%d bodies"
+msgstr "%d วัตถุ"
+
+msgid "%d object"
+msgstr "%d วัตถุ"
+
+msgid "%d objects"
+msgstr "%d วัตถุ"
+
+msgid "%s colour"
+msgstr "สี%s"
+
+msgid "%s from %s, ±%.0f m"
+msgstr "%s จาก %s, ±%.0f m"
+
+msgid "12-hour"
+msgstr "12 ชั่วโมง"
+
+msgid "1× below"
+msgstr "ต่ำกว่า 1 เท่า"
+
+msgid "24-hour"
+msgstr "24 ชั่วโมง"
+
+msgid "A button to mark every object of the current observing list on the sky."
+msgstr "ปุ่มเพื่อทำเครื่องหมายวัตถุทั้งหมดในบัญชีรายชื่อเพื่อการสังเกตการณ์ปัจจุบันบนท้องฟ้า"
+
+msgid "A polygonal model for some small moons, asteroids and comets instead of a sphere"
+msgstr "แบบจำลองแบบหลายเหลี่ยมสำหรับดวงจันทร์ ดาวเคราะห์น้อย และดาวหางบางดวงแทนรูปทรงกลม"
+
+msgid "A touch-first planetarium forked from Stellarium, whose astronomy engine it uses unchanged. The interface is new; everything that draws the sky is upstream's work."
+msgstr "โปรแกรมสร้างเสริมประหม่า touch-first ที่แยกมาจาก Stellarium โดยใช้เครื่องมือดาราศาสตร์ของ Stellarium โดยไม่เปลี่ยนแปลง ส่วนต่อประสานผู้ใช้เป็นใหม่ แต่ทุกอย่างที่วาดท้องฟ้านั้นมาจากงานของต้นฉบับ"
+
+msgid "About this sky culture"
+msgstr "เกี่ยวกับกลุ่มดาวในวัฒนธรรมนี้"
+
+msgid "Above altitude, °"
+msgstr "เหนือระดับความสูง, °"
+
+msgid "Absolute scale"
+msgstr "มาตราส่วนสัมบูรณ์"
+
+msgid "Add %s"
+msgstr "เพิ่ม %s"
+
+msgid "Adjust brightness to bright objects"
+msgstr "ปรับความสว่างสำหรับวัตถุที่สว่าง"
+
+msgid "Algorithm of ΔT"
+msgstr "วิธีคำนวณ ΔT"
+
+msgid "All naked-eye planets"
+msgstr "ดาวเคราะห์ทั้งหมดที่มองเห็นได้ด้วยตาเปล่า"
+
+msgid "All solar eclipses"
+msgstr "สุริยุปราคาทั้งหมด"
+
+msgid "Allow negative hour angles"
+msgstr "อนุญาตให้ใช้มุมชั่วโมงติดลบ"
+
+msgid "Allow results outside the recommended time range of the orbital elements"
+msgstr "อนุญาตให้ใช้ผลลัพธ์นอกช่วงเวลาที่แนะนำขององค์ประกอบวงโคจร"
+
+msgid "Also find"
+msgstr "ค้นหาด้วย"
+
+msgid "Also plot"
+msgstr "พล็อตด้วย"
+
+msgid "Also show moons of selected object or planets"
+msgstr "แสดงดวงจันทร์ของวัตถุหรือดาวเคราะห์ที่เลือกด้วย"
+
+msgid "Altitude limit, °"
+msgstr "ขีดจำกัดระดับความสูง, °"
+
+msgid "Amount"
+msgstr "ปริมาณ"
+
+msgid "An observer floats above its planet, so there is nowhere on it to stand. Choose another planet to come back down."
+msgstr "ผู้สังเกตการณ์ลอยอยู่เหนือดาวเคราะห์ของมัน ดังนั้นจึงไม่มีที่ยืนบนมัน เลือกดาวเคราะห์อื่นเพื่อกลับมาลงมา"
+
+msgid "And"
+msgstr "และ"
+
+msgid "And also"
+msgstr "และยัง"
+
+msgid "And the next (years)"
+msgstr "และปีถัดไป"
+
+msgid "Annual drift"
+msgstr "การเปลี่ยนแปลงประจำปี"
+
+msgid "Appearance"
+msgstr "ลักษณะปรากฏ"
+
+msgid "Art"
+msgstr "ศิลปะ"
+
+msgid "Artificial satellites and unnamed stars are excluded from calculation."
+msgstr "ดาวเทียมเทียมและดาวที่ไม่มีชื่อถูกแยกออกจากการคำนวณ"
+
+msgid "Asking for permission…"
+msgstr "ขออนุญาต…"
+
+msgid "Asks SIMBAD what it holds around the object that is selected now, and prints the answer as it comes back."
+msgstr "ถามฐานข้อมูล SIMBAD ว่ามีข้อมูลอะไรเกี่ยวกับวัตถุที่เลือกไว้ในขณะนี้ และพิมพ์คำตอบตามที่ส่งกลับมา"
+
+msgid "Ast. lines"
+msgstr "เส้นแรม"
+
+msgid "Ast. names"
+msgstr "ชื่อแรม"
+
+msgid "Astronomical Almanac (default) enlarges by 2%; Danjon (1951) differs slightly"
+msgstr "Astronomical Almanac (ค่าปริยาย) ขยายขึ้นโดย 2%; Danjon (1951) แตกต่างไปเล็กน้อย"
+
+msgid "Astronomical night"
+msgstr "กลางคืนดาราศาสตร์"
+
+msgid "At"
+msgstr "ที่"
+
+msgid "Atmosph."
+msgstr "บรรยากาศ"
+
+msgid "Automatic transparency"
+msgstr "ความโปร่งใสอัตโนมัติ"
+
+msgid "Axis distance"
+msgstr "ระยะห่างจากแกน"
+
+msgid "Azi. grid"
+msgstr "กริดขอบฟ้า"
+
+msgid "Azimuth and altitude rather than right ascension and declination"
+msgstr "มุมทิศและมุมเงยแทนไรต์แอสเซนชันและเดคลิเนชัน"
+
+msgid "Below the horizon here."
+msgstr "ต่ำกว่าขอบฟ้าที่นี่"
+
+msgid "Between objects"
+msgstr "ระหว่างวัตถุ"
+
+msgid "Boundless"
+msgstr "ไม่มีขอบเขต"
+
+msgid "Bounds"
+msgstr "เส้นแบ่งเขต"
+
+msgid "Brighter than"
+msgstr "สว่างกว่า"
+
+msgid "By object type"
+msgstr "ตามชนิดของวัตถุ"
+
+msgid "By planet"
+msgstr "ตามดาวเคราะห์"
+
+msgid "Calculating…"
+msgstr "กำลังคำนวณ…"
+
+msgid "Cardinals"
+msgstr "จุดทิศหลัก"
+
+msgid "Catalogue numbers instead of common names"
+msgstr "หมายเลขบัญชีแทนชื่อสามัญ"
+
+msgid "Category"
+msgstr "หมวดหมู่"
+
+msgid "Central duration"
+msgstr "ระยะเวลากลาง"
+
+msgid "Centre"
+msgstr "ศูนย์กลาง"
+
+msgid "Centre on object"
+msgstr "นำวัตถุมาอยู่กลาง"
+
+msgid "Centre point"
+msgstr "จุดศูนย์กลาง"
+
+msgid "Circles"
+msgstr "วงกลม"
+
+msgid "City"
+msgstr "เมืองหนึ่ง"
+
+msgid "Cleanup"
+msgstr "ลบข้อมูล"
+
+msgid "Clear recent searches"
+msgstr "ลบการค้นหาล่าสุด"
+
+msgid "Clear the selection - a touch screen has no right button"
+msgstr "ล้างการเลือก - หน้าจอสัมผัสไม่มีปุ่มขวา"
+
+msgid "Cleared."
+msgstr "ล้างแล้ว"
+
+msgid "Close"
+msgstr "ปิด"
+
+msgid "Close what is open; from the sky, leave the app running"
+msgstr "ปิดสิ่งที่เปิดอยู่; จากท้องฟ้า ปล่อยให้แอปทำงาน"
+
+msgid "Coarse"
+msgstr "หยาบ"
+
+msgid "Color"
+msgstr "สี"
+
+msgid "Color channel"
+msgstr "ช่องสี"
+
+msgid "Color of orbits"
+msgstr "สีของวงโคจร"
+
+msgid "Colors of orbit lines"
+msgstr "สีของเส้นวงโคจร"
+
+msgid "Comets up to mag."
+msgstr "ดาวหางถึงโชติมาตร"
+
+msgid "Compass"
+msgstr "เข็มทิศ"
+
+msgid "Connecting line"
+msgstr "เส้นเชื่อมต่อ"
+
+msgid "Contrast"
+msgstr "ความแตกต่าง"
+
+msgid "Coordinate system"
+msgstr "ระบบพิกัด"
+
+msgid "Coordinates"
+msgstr "พิกัด"
+
+msgid "Copyright"
+msgstr "ลิขสิทธิ"
+
+msgid "Credits"
+msgstr "เครดิต"
+
+msgid "Custom"
+msgstr "กำหนดเอง"
+
+msgid "Custom altitude of the Moon, °"
+msgstr "ระดับความสูงของดวงจันทร์แบบกำหนดเอง, °"
+
+msgid "Custom altitude of the Sun, °"
+msgstr "ระดับความสูงของดวงอาทิตย์แบบกำหนดเอง, °"
+
+msgid "Custom values"
+msgstr "ค่าแบบกำหนดเอง"
+
+msgid "Cut the scale off below the limit"
+msgstr "ตัดมาตราส่วนออกต่ำกว่าขีดจำกัด"
+
+msgid "DATE AND TIME (UTC)"
+msgstr "วันที่และเวลา (UTC)"
+
+msgid "Date and time"
+msgstr "วันที่และเวลา"
+
+msgid "Date/time"
+msgstr "วันที่/เวลา"
+
+msgid "Dates"
+msgstr "วันที่"
+
+msgid "December solstice"
+msgstr "จุดอายันธันวาคม"
+
+msgid "Decimal degrees. −33.87 means 33.87° south. Elevation is metres above sea level; it moves the horizon down by a few arcminutes."
+msgstr "องศาแบบทศนิยม −33.87 หมายถึง 33.87° ทางใต้ ระดับความสูงเป็นเมตรเหนือระดับน้ำทะเล; มันเลื่อนขอบฟ้าลงไปไม่กี่นาทีส่วนโค้ง"
+
+msgid "Degrees per year the longitude moves by"
+msgstr "องศาต่อปีที่ลองจิจูดเคลื่อนที่"
+
+msgid "Degrees, hours and minutes as they are written - 12h30m49s, +41°16'09\", 187.7 - or plain decimal degrees."
+msgstr "องศา ชั่วโมง และนาที เช่นที่เขียนไว้ - 12h30m49s, +41°16'09\", 187.7 - หรือองศาทศนิยมธรรมดา"
+
+msgid "Deletes all recent search object data, and the objects SIMBAD contributed."
+msgstr "ลบข้อมูลวัตถุการค้นหาล่าสุดทั้งหมด และวัตถุที่ SIMBAD มีส่วนร่วม"
+
+msgid "Designations for double stars"
+msgstr "ชื่อของดาวคู่"
+
+msgid "Designations for variable stars"
+msgstr "ชื่อของดาวแปรแสง"
+
+msgid "Dim a survey near the horizon, as the air does"
+msgstr "ลดความสว่างการสำรวจใกล้ขอบฟ้า เหมือนอากาศ"
+
+msgid "Done"
+msgstr "เสร็จแล้ว"
+
+msgid "Drag"
+msgstr "ลาก"
+
+msgid "Draw deep-sky objects at all"
+msgstr "วาดวัตถุท้องฟ้าห้วงลึกเลย"
+
+msgid "Draw the enabled sky surveys"
+msgstr "วาดการสำรวจท้องฟ้าที่เปิดใช้งาน"
+
+msgid "Draw the planets, moons and minor bodies"
+msgstr "วาดดาวเคราะห์ ดวงจันทร์ และวัตถุขนาดเล็ก"
+
+msgid "Drawn larger than life, so a body that is a few arcseconds wide is visible at all. The position stays true."
+msgstr "วาดให้ใหญ่กว่าชีวิต เพื่อให้วัตถุที่กว้างเพียงไม่กี่วินาทีส่วนโค้งมองเห็นได้ ตำแหน่งยังคงเป็นจริง"
+
+msgid "Duration (years)"
+msgstr "ระยะเวลา (ปี)"
+
+msgid "Duration, months"
+msgstr "ระยะเวลา เดือน"
+
+msgid "ELEV. M"
+msgstr "ระดับความสูง ม."
+
+msgid "Ecl. grid"
+msgstr "สุริยวิถี"
+
+msgid "Eclipses are computed for observers on Earth."
+msgstr "คำนวณอุปราคาสำหรับผู้สังเกตการณ์บนโลก"
+
+msgid "Elevation in metres"
+msgstr "ระดับความสูงเป็นเมตร"
+
+msgid "Elongations and quadratures"
+msgstr "มุมห่างและตำแหน่งตั้งฉาก"
+
+msgid "Equ. grid"
+msgstr "กริดศูนย์"
+
+msgid "Equ. mount"
+msgstr "ศูนย์สูตร"
+
+msgid "Equatorial radii ratio"
+msgstr "อัตราส่วนรัศมีศูนย์สูตร"
+
+msgid "Every"
+msgstr "ทุก"
+
+msgid "Every name the object is catalogued under"
+msgstr "ทุกชื่อที่วัตถุจดทะเบียนไว้"
+
+msgid "Exterior egress"
+msgstr "ออกจากภายนอก"
+
+msgid "Exterior ingress"
+msgstr "เข้าจากภายนอก"
+
+msgid "Fades the ground as you look below the horizon or zoom in"
+msgstr "จางพื้นดินลงเมื่อคุณมองต่ำกว่าขอบฟ้าหรือซูมเข้า"
+
+msgid "Fading duration"
+msgstr "ระยะเวลาหายไป"
+
+msgid "Faintest shown"
+msgstr "อ่อนแอที่สุดที่แสดง"
+
+msgid "Favorites"
+msgstr "รายการโปรด"
+
+msgid "Fetching the survey lists…"
+msgstr "กำลังดึงรายชื่อการสำรวจ…"
+
+msgid "Find a city"
+msgstr "ค้นหาเมืองหนึ่ง"
+
+msgid "Fine"
+msgstr "ละเอียด"
+
+msgid "First %d of %d - filter to narrow it."
+msgstr "%d แรกของ %d - กรองเพื่อทำให้แคบลง"
+
+msgid "First body"
+msgstr "วัตถุแรก"
+
+msgid "First graph"
+msgstr "กราฟแรก"
+
+msgid "Fixed instant"
+msgstr "ลำดับขณะนี้ที่ตรึง"
+
+msgid "Flip horiz."
+msgstr "พลิกแนวนอน"
+
+msgid "Flip vert."
+msgstr "พลิกแนวตั้ง"
+
+msgid "Frame rate"
+msgstr "อัตราเฟรม"
+
+msgid "From"
+msgstr "จาก"
+
+msgid "Full screen"
+msgstr "เต็มหน้าจอ"
+
+msgid "Further reading"
+msgstr "การอ่านเพิ่มเติม"
+
+msgid "GRS details…"
+msgstr "รายละเอียด GRS…"
+
+msgid "Gal. grid"
+msgstr "ดาราจักร"
+
+msgid "Gamma, saturation, brightness, contrast, opacity, colour channel and inverted colours belong to one survey. Open a survey to set them."
+msgstr "แกมมา ความอิ่มสี ความสว่าง ความแตกต่าง สภาพทึบแสง ช่องสี และการกลับสีเป็นของการสำรวจแบบหนึ่ง เปิดการสำรวจเพื่อตั้งค่าพวกเขา"
+
+msgid "Gestures"
+msgstr "ท่าทาง"
+
+msgid "Go there"
+msgstr "ไปที่นั่น"
+
+msgid "Go to this eclipse"
+msgstr "ไปที่อุปราคานี้"
+
+msgid "Go to this moment"
+msgstr "ไปที่ช่วงเวลานี้"
+
+msgid "Go to this transit"
+msgstr "ไปที่การผ่านเมริเดียนนี้"
+
+msgid "Great Red Spot"
+msgstr "จุดแดงใหญ่"
+
+msgid "Great Red Spot details"
+msgstr "รายละเอียดของจุดแดงใหญ่"
+
+msgid "Greatest elongation for an inner planet, quadrature for an outer one"
+msgstr "มุมห่างสูงสุดสำหรับดาวเคราะห์ชั้นใน ตำแหน่งตั้งฉากสำหรับดาวเคราะห์ชั้นนอก"
+
+msgid "Greek letters"
+msgstr "อักษรกรีก"
+
+msgid "Grid density"
+msgstr "ความหนาแน่นของกริด"
+
+msgid "Grids"
+msgstr "กริด"
+
+msgid "Ground"
+msgstr "พื้น"
+
+msgid "Gyro"
+msgstr "ไจโรสโคป"
+
+msgid "Gyro mode"
+msgstr "โหมดไจโรสโคป"
+
+msgid "Height"
+msgstr "ความสูง"
+
+msgid "Heliocentric ecliptic positions of the major planets."
+msgstr "ตำแหน่งสุริยวิถีเมื่อมองจากดวงอาทิตย์ของดาวเคราะห์หลัก"
+
+msgid "HiPS"
+msgstr "HiPS"
+
+msgid "Hide controls"
+msgstr "ซ่อนการควบคุม"
+
+msgid "Hide deep-sky objects fainter than the limit"
+msgstr "ซ่อนวัตถุท้องฟ้าห้วงลึกที่อ่อนแอกว่าขีดจำกัด"
+
+msgid "Hide orbits of minor bodies"
+msgstr "ซ่อนวงโคจรของวัตถุขนาดเล็ก"
+
+msgid "Highlight"
+msgstr "เน้น"
+
+msgid "Highlight the objects of the observing list"
+msgstr "เน้นวัตถุของบัญชีรายชื่อเพื่อการสังเกตการณ์"
+
+msgid "Hint circles marking each planet"
+msgstr "วงกลมแสดงเครื่องหมายแต่ละดาวเคราะห์"
+
+msgid "Hints brightness"
+msgstr "ความสว่างของจำนวน"
+
+msgid "Hipparcos designations"
+msgstr "ชื่อของฮิปปาร์โคส"
+
+msgid "Hour angles usually run 0...24h. This counts -12h...12h."
+msgstr "มุมชั่วโมงมักจะทำงาน 0...24h นี่นับ -12h...12h"
+
+msgid "How many"
+msgstr "กี่"
+
+msgid "ICRS grid"
+msgstr "กริด ICRS"
+
+msgid "Include"
+msgstr "รวม"
+
+msgid "Include bright comets"
+msgstr "รวมดาวหางสว่าง"
+
+msgid "Intercardinal points"
+msgstr "จุดระหว่างทิศหลัก"
+
+msgid "Interior egress"
+msgstr "ออกจากภายใน"
+
+msgid "Interior ingress"
+msgstr "เข้าจากภายใน"
+
+msgid "Its elevation, and the civil, nautical and astronomical twilights"
+msgstr "ระดับความสูงของมัน และพอใจพลเรือน ทะเล และดาราศาสตร์"
+
+msgid "Jovigraphic longitude of the spot in System II, in degrees"
+msgstr "ลองจิจูดจอเวียนที่สปอตในระบบที่สองในองศา"
+
+msgid "June solstice"
+msgstr "จุดอายันมิถุนายน"
+
+msgid "Label"
+msgstr "ป้ายชื่อ"
+
+msgid "Label colour"
+msgstr "สีของป้ายชื่อ"
+
+msgid "Labels and Markers amount"
+msgstr "ปริมาณป้ายชื่อและเครื่องหมาย"
+
+msgid "Labels brightness"
+msgstr "ความสว่างของป้ายชื่อ"
+
+msgid "Largest, ′"
+msgstr "ใหญ่ที่สุด, ′"
+
+msgid "Last known position"
+msgstr "ตำแหน่งสุดท้ายที่ทราบ"
+
+msgid "Lasting"
+msgstr "ยาวนาน"
+
+msgid "Latitude −90…90, longitude −180…180."
+msgstr "ละติจูด −90…90, ลองจิจูด −180…180"
+
+msgid "Layer appearance"
+msgstr "ลักษณะของชั้น"
+
+msgid "Leaves the landscape visible in darkness"
+msgstr "ปล่อยให้ภูมิทัศน์มองเห็นได้ในความมืด"
+
+msgid "Licence"
+msgstr "สัญญาอนุญาต"
+
+msgid "Light pollution"
+msgstr "มลพิษแสง"
+
+msgid "Light pollution from database"
+msgstr "มลพิษแสงจากฐานข้อมูล"
+
+msgid "Limit angular separation"
+msgstr "จำกัดระยะห่างเชิงมุม"
+
+msgid "Limit angular size"
+msgstr "จำกัดขนาดเชิงมุม"
+
+msgid "Limit magnitude"
+msgstr "จำกัดโชติมาตร"
+
+msgid "Linear distance"
+msgstr "ระยะเชิงเส้น"
+
+msgid "Lines"
+msgstr "เส้น"
+
+msgid "Lines and circles"
+msgstr "เส้นและวงกลม"
+
+msgid "List"
+msgstr "รายชื่อ"
+
+msgid "List name"
+msgstr "ชื่อรายชื่อ"
+
+msgid "Lit windows, street lighting and the like"
+msgstr "หน้าต่างที่ส่องแสง ไฟถนน และเช่นนี้"
+
+msgid "Loading…"
+msgstr "กำลังโหลด…"
+
+msgid "Local solar eclipses"
+msgstr "สุริยุปราคาท้องถิ่น"
+
+msgid "Local time"
+msgstr "เวลาท้องถิ่น"
+
+msgid "Local time, h"
+msgstr "เวลาท้องถิ่น, ชั่วโมง"
+
+msgid "Locate me"
+msgstr "หาตำแหน่งของฉัน"
+
+msgid "Locating…"
+msgstr "กำลังหาตำแหน่ง…"
+
+msgid "Location is switched off in the system settings."
+msgstr "ตำแหน่งถูกปิดในการตั้งค่าระบบ"
+
+msgid "Location permission refused. The other two ways still work."
+msgstr "ปฏิเสธการอนุญาตตำแหน่ง วิธีอีกสองวิธียังคงใช้ได้"
+
+msgid "Long press"
+msgstr "กดนาน"
+
+msgid "Longitude of GRS"
+msgstr "ลองจิจูดของจุดแดงใหญ่"
+
+msgid "Lunar eclipses"
+msgstr "จันทรุปราคา"
+
+msgid "Magnitudes"
+msgstr "โชติมาตร"
+
+msgid "Major planets by planet, minor bodies by type"
+msgstr "ดาวเคราะห์หลักตามดาวเคราะห์ วัตถุเล็กน้อยตามชนิด"
+
+msgid "Map of the planet. Tap to set the observer's place."
+msgstr "แผนที่ของดาวเคราะห์ แตะเพื่อตั้งค่าตำแหน่งของผู้สังเกตการณ์"
+
+msgid "March equinox"
+msgstr "วิษุวัตมีนาคม"
+
+msgid "Markers"
+msgstr "เครื่องหมาย"
+
+msgid "Markers sized by the object's angular size"
+msgstr "เครื่องหมายขนาดตามขนาดเชิงมุมของวัตถุ"
+
+msgid "Master switch for the grids, lines and points below"
+msgstr "สวิตช์มาสเตอร์สำหรับกริด เส้น และจุดด้านล่าง"
+
+msgid "Max items to display"
+msgstr "รายการสูงสุดที่จะแสดง"
+
+msgid "Max. results"
+msgstr "ผลลัพธ์สูงสุด"
+
+msgid "Maximum allowed separation"
+msgstr "ระยะห่างสูงสุดที่อนุญาต"
+
+msgid "Maximum angular size"
+msgstr "ขนาดเชิงมุมสูงสุด"
+
+msgid "Mean motion"
+msgstr "การเคลื่อนไหวปานกลาง"
+
+msgid "Mercury, Venus, Mars, Jupiter and Saturn at once. Earth only."
+msgstr "ดาวพุธ ดาวศุกร์ ดาวอังคาร ดาวพฤหัสบดี และดาวเสาร์ในคราวเดียว โลกเท่านั้น"
+
+msgid "Milky Way brightness"
+msgstr "ความสว่างของทางช้างเผือก"
+
+msgid "Milky Way saturation"
+msgstr "ความอิ่มสีของทางช้างเผือก"
+
+msgid "Minimal angular size"
+msgstr "ขนาดเชิงมุมน้อยที่สุด"
+
+msgid "Minimal brightness"
+msgstr "ความสว่างน้อยที่สุด"
+
+msgid "Minutes before sunrise / after sunset"
+msgstr "นาทีก่อนพระอาทิตย์ขึ้น / หลังพระอาทิตย์ตก"
+
+msgid "Moon at"
+msgstr "ดวงจันทร์ที่"
+
+msgid "Moon in zenith at"
+msgstr "ดวงจันทร์ในจุดจอมฟ้าที่"
+
+msgid "Move the sky by pointing the phone at it"
+msgstr "เลื่อนท้องฟ้าโดยชี้โทรศัพท์ไปที่มัน"
+
+msgid "Move the sky with the phone"
+msgstr "เลื่อนท้องฟ้าด้วยโทรศัพท์"
+
+msgid "Name for the new list"
+msgstr "ชื่อสำหรับรายชื่อใหม่"
+
+msgid "Named features the landscape marks"
+msgstr "ฟีเจอร์ที่ชื่อว่าภูมิทัศน์ทำเครื่องหมาย"
+
+msgid "Names"
+msgstr "ชื่อ"
+
+msgid "Names beside the planets and their markers"
+msgstr "ชื่อข้างดาวเคราะห์และเครื่องหมายของพวกมัน"
+
+msgid "Names in English"
+msgstr "ชื่อเป็นภาษาอังกฤษ"
+
+msgid "Neb. bg"
+msgstr "เนบิวลาฉาก"
+
+msgid "Nebulae"
+msgstr "เนบิวลา"
+
+msgid "Night"
+msgstr "กลางคืน"
+
+msgid "No city matches that."
+msgstr "ไม่มีเมืองใดตรงกับนั้น"
+
+msgid "No eclipses found. Pick a range and calculate."
+msgstr "ไม่พบอุปราคา เลือกช่วงและคำนวณ"
+
+msgid "No fresh fix - the receiver may have no sky. Try again outdoors, or set the place another way."
+msgstr "ไม่มีการแก้ไขใหม่ - ตัวรับสัญญาณอาจไม่มีท้องฟ้า ลองใหม่ในที่โล่งหรือตั้งค่าตำแหน่งอีกวิธี"
+
+msgid "No surveys were found. The lists are downloaded, so this needs a connection."
+msgstr "ไม่พบการสำรวจใด ๆ รายชื่อจะดาวน์โหลด ดังนั้นสิ่งนี้ต้องการการเชื่อมต่อ"
+
+msgid "None downloaded yet"
+msgstr "ยังไม่ได้ดาวน์โหลด"
+
+msgid "Note: this tool doesn't apply the refraction correction for coordinates. Horizontal coordinates stop the clock, or the sky would turn away from the point while you arrive at it."
+msgstr "หมายเหตุ เครื่องมือนี้ไม่ได้ใช้การแก้ไขการหักเหแสงสำหรับพิกัด พิกัดแนวนอนจะหยุดนาฬิกา หรือท้องฟ้าจะหันไปจากจุดในขณะที่คุณมาถึง"
+
+msgid "Nothing computed yet, or nothing in this category is up."
+msgstr "ไม่มีการคำนวณเลย หรือไม่มีอะไรในหมวดหมู่นี้ขึ้นมา"
+
+msgid "Nothing computed yet."
+msgstr "ไม่มีการคำนวณเลย"
+
+msgid "Nothing found for “%s”."
+msgstr "ไม่พบสำหรับ \"%s\"."
+
+msgid "Nothing in this list matches."
+msgstr "ไม่มีอะไรในรายชื่อนี้ที่ตรงกัน"
+
+msgid "Nothing in this list yet. Pick something out of the sky and tap the star on its card to keep it here."
+msgstr "ยังไม่มีอะไรในรายชื่อนี้ เลือกบางอย่างจากท้องฟ้าและแตะดาวบนการ์ดของมันเพื่อเก็บไว้ที่นี่"
+
+msgid "Nothing is selected. Pick an object in the sky first."
+msgstr "ไม่ได้เลือกอะไรเลย เลือกวัตถุในท้องฟ้าก่อน"
+
+msgid "Nothing matches."
+msgstr "ไม่มีสิ่งใดตรงกัน"
+
+msgid "Nothing selected"
+msgstr "ไม่ได้เลือกอะไร"
+
+msgid "Nothing to plot."
+msgstr "ไม่มีอะไรที่จะพล็อต"
+
+msgid "Nothing to show."
+msgstr "ไม่มีอะไรให้แสดง"
+
+msgid "N× above"
+msgstr "N× ข้างบน"
+
+msgid "OBJECT"
+msgstr "วัตถุ"
+
+msgid "OBJECTS"
+msgstr "วัตถุ"
+
+msgid "Objects which are up"
+msgstr "วัตถุที่อยู่เหนือขอบฟ้า"
+
+msgid "Observable duration"
+msgstr "ระยะเวลาการสังเกตการณ์"
+
+msgid "Observing list highlight"
+msgstr "การเน้นบัญชีรายชื่อเพื่อการสังเกตการณ์"
+
+msgid "On the sky"
+msgstr "บนท้องฟ้า"
+
+msgid "One color"
+msgstr "สีเดียว"
+
+msgid "Only for N latest selected objects"
+msgstr "เฉพาะวัตถุที่เลือกล่าสุด N ชิ้น"
+
+msgid "Only list"
+msgstr "เฉพาะรายชื่อ"
+
+msgid "Only orbit for selected object…"
+msgstr "เฉพาะวงโคจรของวัตถุที่เลือก…"
+
+msgid "Only orbits of major planets…"
+msgstr "เฉพาะวงโคจรของดาวเคราะห์หลัก…"
+
+msgid "Open date and time"
+msgstr "เปิดวันที่และเวลา"
+
+msgid "Open location"
+msgstr "เปิดตำแหน่ง"
+
+msgid "Opens the JUPOS project in a browser"
+msgstr "เปิดโครงการ JUPOS ในเบราว์เซอร์"
+
+msgid "Opposition of"
+msgstr "คู่ปรินี้ยของ"
+
+msgid "Oppositions"
+msgstr "คู่ปรินี้ย"
+
+msgid "Orbit colors"
+msgstr "สีวงโคจร"
+
+msgid "Orbital periods ratio"
+msgstr "อัตราส่วนคาบวงโคจร"
+
+msgid "Orbits"
+msgstr "วงโคจร"
+
+msgid "Orbits of interstellar objects"
+msgstr "วงโคจรของวัตถุระหว่างดาว"
+
+msgid "Orbits of moons"
+msgstr "วงโคจรของดวงจันทร์"
+
+msgid "Otherwise every move adopts the zone of the new place."
+msgstr "มิฉะนั้นการเคลื่อนไหวทุกครั้งจะนำมาซึ่งเขตเวลาของสถานที่ใหม่"
+
+msgid "PD (J2000)"
+msgstr "ระยะขั้วฟ้า (J2000)"
+
+msgid "Pan the sky"
+msgstr "เลื่อนท้องฟ้า"
+
+msgid "Partial eclipse begins"
+msgstr "จังหวะอุปราคาบางส่วนเริ่ม"
+
+msgid "Partial eclipse ends"
+msgstr "จังหวะอุปราคาบางส่วนสิ้นสุด"
+
+msgid "Partitions"
+msgstr "การแบ่ง"
+
+msgid "Partitions thickness"
+msgstr "ความหนาของการแบ่ง"
+
+msgid "Path width"
+msgstr "ความกว้างของเส้นทาง"
+
+msgid "Pause"
+msgstr "หยุดชั่วคราว"
+
+msgid "Paused - start"
+msgstr "หยุดชั่วคราวแล้ว - เริ่ม"
+
+msgid "Penumbral magnitude"
+msgstr "ขนาดเงามัว"
+
+msgid "Perihelion and aphelion"
+msgstr "การเข้าใกล้ดวงอาทิตย์และการห่างจากดวงอาทิตย์"
+
+msgid "Pick two different bodies to see how their distance changes."
+msgstr "เลือกวัตถุสองชิ้นที่ต่างกันเพื่อดูการเปลี่ยนแปลงระยะห่าง"
+
+msgid "Pinch"
+msgstr "บีบ"
+
+msgid "Planet and time zone"
+msgstr "ดาวเคราะห์และเขตเวลา"
+
+msgid "Planetary nomenclature"
+msgstr "ชื่อภูมิลักษณ์บนดาว"
+
+msgid "Planetary transits"
+msgstr "การข่ามผ่านดาวเคราะห์"
+
+msgid "Planets"
+msgstr "ดาวเคราะห์"
+
+msgid "Pluto, Ceres, Pallas, Juno and Vesta"
+msgstr "Pluto, Ceres, Pallas, Juno และ Vesta"
+
+msgid "Point size"
+msgstr "ขนาดจุด"
+
+msgid "Pointing"
+msgstr "การชี้"
+
+msgid "Poles and points"
+msgstr "ขั้วและจุด"
+
+msgid "Polygon colour"
+msgstr "สีรูปหลายเหลี่ยม"
+
+msgid "Positive values only"
+msgstr "เฉพาะค่าบวกเท่านั้น"
+
+msgid "Pronounce"
+msgstr "ออกเสียง"
+
+msgid "Query options"
+msgstr "ตัวเลือกการค้นหา"
+
+msgid "Quit"
+msgstr "ออก"
+
+msgid "Reading…"
+msgstr "กำลังอ่าน…"
+
+msgid "Real time speed"
+msgstr "ความเร็วเวลาจริง"
+
+msgid "Refraction, extinction, sky brightness"
+msgstr "การหักเห, การลดทอนแสง, ความสว่างท้องฟ้า"
+
+msgid "Relative scale"
+msgstr "มาตราส่วนสัมพัทธ์"
+
+msgid "Remove %s"
+msgstr "ลบ %s"
+
+msgid "Remove from observing list"
+msgstr "ลบออกจากบัญชีรายชื่อเพื่อการสังเกตการณ์"
+
+msgid "Rename"
+msgstr "เปลี่ยนชื่อ"
+
+msgid "Reset all"
+msgstr "ตั้งใหม่ทั้งหมด"
+
+msgid "Restarting…"
+msgstr "กำลังเริ่มใหม่…"
+
+msgid "Rises"
+msgstr "ขึ้น"
+
+msgid "Rotation"
+msgstr "การหมุน"
+
+msgid "Running"
+msgstr "กำลังทำงาน"
+
+msgid "SIMBAD did not answer."
+msgstr "SIMBAD ไม่ตอบสนอง"
+
+msgid "SIMBAD is switched off in the search options."
+msgstr "SIMBAD ปิดใช้งานในตัวเลือกการค้นหา"
+
+msgid "SIMBAD is switched off. Turn it on under Options to look objects up online."
+msgstr "SIMBAD ถูกปิด เปิดใช้งานภายใต้ตัวเลือกเพื่อค้นหาวัตถุออนไลน์"
+
+msgid "SIMBAD server"
+msgstr "เซิร์ฟเวอร์ SIMBAD"
+
+msgid "Saros %s"
+msgstr "ซารอส %s"
+
+msgid "Saturation"
+msgstr "ความอิ่มตัวของสี"
+
+msgid "Save either the current FOV and direction of view or all the current options for use at next startup. Restoring default settings requires a restart of the app."
+msgstr "บันทึกขอบเขตภาพและทิศทางมุมมองปัจจุบันหรือตัวเลือกทั้งหมดเพื่อใช้ในการเริ่มต้นครั้งต่อไป การคืนค่าปริยายต้องเริ่มแอปใหม่"
+
+msgid "Save to observing list"
+msgstr "บันทึกลงบัญชีรายชื่อเพื่อการสังเกตการณ์"
+
+msgid "Scale"
+msgstr "มาตราส่วน"
+
+msgid "Scale marker and label visibility by surface brightness"
+msgstr "ปรับขนาดเครื่องหมายและการมองเห็นป้ายชื่อตามความสว่างพื้นผิว"
+
+msgid "Scales smoothly between 1× at the minimum field of view and the factor above at the maximum"
+msgstr "ปรับมาตราส่วนอย่างราบรื่นระหว่าง 1× ที่ขอบเขตภาพต่ำสุดและปัจจัยข้างบนที่ค่าสูงสุด"
+
+msgid "Search in list"
+msgstr "ค้นหาในรายชื่อ"
+
+msgid "Second body"
+msgstr "วัตถุที่สอง"
+
+msgid "Second graph"
+msgstr "กราฟที่สอง"
+
+msgid "Second object"
+msgstr "วัตถุที่สอง"
+
+msgid "Secondary intercardinal points"
+msgstr "จุดทิศทุติยภูมิ"
+
+msgid "See the sky through the ground"
+msgstr "มองเห็นท้องฟ้าผ่านพื้นดิน"
+
+msgid "Select an object first: this asks SIMBAD what it holds around it."
+msgstr "เลือกวัตถุก่อน: สิ่งนี้ขอให้ SIMBAD บอกว่ามีอะไรอยู่รอบตัวมัน"
+
+msgid "Select it and show its card"
+msgstr "เลือกและแสดงการ์ดของมัน"
+
+msgid "Select something in the sky first — this page works on the selection."
+msgstr "เลือกบางอย่างบนท้องฟ้าก่อน — หน้านี้ทำงานกับการเลือก"
+
+msgid "Separate colors for orbits of major planets"
+msgstr "สีต่างกันสำหรับวงโคจรของดาวเคราะห์หลัก"
+
+msgid "September equinox"
+msgstr "วิษุวัตกันยายน"
+
+msgid "Server"
+msgstr "เซิร์ฟเวอร์"
+
+msgid "Set the clock to %s"
+msgstr "ตั้งนาฬิกาเป็น %s"
+
+msgid "Set the place"
+msgstr "ตั้งตำแหน่ง"
+
+msgid "Set to now"
+msgstr "ตั้งเป็นตอนนี้"
+
+msgid "Sets"
+msgstr "ตก"
+
+msgid "Shadow map for non-convex bodies. May coarsen the penumbra on some objects"
+msgstr "แผนที่เงาสำหรับวัตถุที่ไม่นูน อาจทำให้เงามัวหยาบขึ้น"
+
+msgid "Shooting stars"
+msgstr "ดาวตก"
+
+msgid "Short steps over a long duration are slow."
+msgstr "ขั้นตอนสั้นในระยะเวลายาวนานนั้นช้า"
+
+msgid "Show"
+msgstr "แสดง"
+
+msgid "Show all information"
+msgstr "แสดงข้อมูลทั้งหมด"
+
+msgid "Show atmospheric extinction"
+msgstr "แสดงการลดทอนแสงในบรรยากาศ"
+
+msgid "Show controls"
+msgstr "แสดงปุ่มควบคุม"
+
+msgid "Show each body where it was when the light left it (recommended)"
+msgstr "แสดงวัตถุแต่ละชิ้นในตำแหน่งเมื่อแสงออกจากมัน (แนะนำ)"
+
+msgid "Show frames per second beside the field of view"
+msgstr "แสดงเฟรมต่อวินาทีข้างๆ ขอบเขตภาพ"
+
+msgid "Show illumination"
+msgstr "แสดงการส่องสว่าง"
+
+msgid "Show in sky"
+msgstr "แสดงบนท้องฟ้า"
+
+msgid "Show less"
+msgstr "แสดงน้อยลง"
+
+msgid "Show more"
+msgstr "แสดงเพิ่มเติม"
+
+msgid "Show objects which are up"
+msgstr "แสดงวัตถุที่อยู่เหนือขอบฟ้า"
+
+msgid "Show only objects between the two sizes"
+msgstr "แสดงเฉพาะวัตถุระหว่างขนาดทั้งสอง"
+
+msgid "Show only the kinds ticked below"
+msgstr "แสดงเฉพาะชนิดที่ทำเครื่องหมายด้านล่าง"
+
+msgid "Show or hide the two rails of controls"
+msgstr "แสดงหรือซ่อนรางควบคุมสองรง"
+
+msgid "Show surveys"
+msgstr "แสดงการสำรวจ"
+
+msgid "Show this survey"
+msgstr "แสดงการสำรวจนี้"
+
+msgid "Simbad Lookup Error: %s"
+msgstr "ข้อผิดพลาดการค้นหา Simbad: %s"
+
+msgid "Simbad Lookup: querying"
+msgstr "การค้นหา Simbad: กำลังค้นหา"
+
+msgid "Simulation"
+msgstr "การจำลอง"
+
+msgid "Sky and viewing options"
+msgstr "ตัวเลือกท้องฟ้าและการมองเห็น"
+
+msgid "Sky culture"
+msgstr "กลุ่มดาวในวัฒนธรรม"
+
+msgid "Slow down"
+msgstr "ช้าลง"
+
+msgid "Smallest, ′"
+msgstr "เล็กที่สุด, ′"
+
+msgid "Solar altitude for Twilight Finder"
+msgstr "มุมเงยดวงอาทิตย์สำหรับตัวค้นหาสนธยา"
+
+msgid "Solar elongation"
+msgstr "มุมห่างจากดวงอาทิตย์"
+
+msgid "Speed up"
+msgstr "เร็วขึ้น"
+
+msgid "Stand where the landscape was shot, on the planet it names"
+msgstr "ยืนที่ตำแหน่งที่ถ่ายภูมิทัศน์บนดาวเคราะห์ที่ระบุ"
+
+msgid "Star, planet, catalogue number…"
+msgstr "ดาว, ดาวเคราะห์, หมายเลขบัญชี…"
+
+msgid "Started"
+msgstr "เริ่มแล้ว"
+
+msgid "Startup FOV"
+msgstr "ขอบเขตภาพเมื่อเริ่มต้น"
+
+msgid "Startup direction of view"
+msgstr "ทิศทางมุมมองเมื่อเริ่มต้น"
+
+msgid "Stellarium's user guide covers the astronomy this app shares with it: stellarium.org/documentation"
+msgstr "คู่มือผู้ใช้ของ Stellarium อธิบายดาราศาสตร์ที่แอปนี้มีร่วมกัน: stellarium.org/documentation"
+
+msgid "Step, hours"
+msgstr "ขั้นตอน, ชั่วโมง"
+
+msgid "Style"
+msgstr "สไตล์"
+
+msgid "Sun altitude"
+msgstr "มุมเงยดวงอาทิตย์"
+
+msgid "Sun at"
+msgstr "ดวงอาทิตย์ที่"
+
+msgid "Sun's altitude"
+msgstr "มุมเงยของดวงอาทิตย์"
+
+msgid "Sunlight scattered by interplanetary dust"
+msgstr "แสงอาทิตย์ที่กระเจริงจากฝุ่นระหว่างดาวเคราะห์"
+
+msgid "Switch this off to see the trails for all Solar system bodies"
+msgstr "ปิดสิ่งนี้เพื่อดูรอยการเคลื่อนที่ของวัตถุระบบสุริยะทั้งหมด"
+
+msgid "System date at"
+msgstr "วันที่ระบบที่"
+
+msgid "Tap a colour to change it. Changes show on the sky at once and are kept."
+msgstr "แตะสีเพื่อเปลี่ยน การเปลี่ยนแปลงแสดงบนท้องฟ้าทันทีและถูกเก็บไว้"
+
+msgid "Tap again to confirm"
+msgstr "แตะอีกครั้งเพื่อยืนยัน"
+
+msgid "Tap an object"
+msgstr "แตะวัตถุ"
+
+msgid "Tap the chart to read a value."
+msgstr "แตะแผนภูมิเพื่ออ่านค่า"
+
+msgid "Tap the clock"
+msgstr "แตะนาฬิกา"
+
+msgid "Tap the gear"
+msgstr "แตะเฟือง"
+
+msgid "Tap the map to stand there."
+msgstr "แตะแผนที่เพื่อยืนที่นั่น"
+
+msgid "Tap the place"
+msgstr "แตะตำแหน่ง"
+
+msgid "Tap to confirm"
+msgstr "แตะเพื่อยืนยัน"
+
+msgid "Tertiary intercardinal points"
+msgstr "จุดทิศตติยภูมิ"
+
+msgid "The Great Red Spot drifts in System II longitude. Enter a recent measurement and the drift rate to carry it forward from."
+msgstr "จุดแดงใหญ่漂ตัวในลองจิจูดระบบที่สอง ใส่การวัดล่าสุดและอัตราการ漂ตัวเพื่อดำเนินการต่อ"
+
+msgid "The algorithm is based on visual observations 1877-1891 by G. Müller and was still republished in the Explanatory Supplement to the Astronomical Ephemeris (1961)."
+msgstr "อัลกอริทึมขึ้นอยู่กับการสังเกตด้วยสายตา 1877-1891 โดย G. Müller และยังตีพิมพ์ใหม่ในภาคผนวกอธิบายของ Astronomical Ephemeris (1961)"
+
+msgid "The algorithm was published by A. Mallama & J. L. Hilton: Computing apparent planetary magnitudes for the Astronomical Almanac. Astronomy&Computing 25 (2018) 10-24."
+msgstr "อัลกอริทึมตีพิมพ์โดย A. Mallama & J. L. Hilton: Computing apparent planetary magnitudes for the Astronomical Almanac. Astronomy&Computing 25 (2018) 10-24"
+
+msgid "The algorithm was published in the 2nd edition of the Explanatory Supplement to the Astronomical Almanac (1992)."
+msgstr "อัลกอริทึมตีพิมพ์ในฉบับที่สองของภาคผนวกอธิบายของ Astronomical Almanac (1992)"
+
+msgid "The algorithm was published in the 3rd edition of the Explanatory Supplement to the Astronomical Almanac (2013)."
+msgstr "อัลกอริทึมตีพิมพ์ในฉบับที่สามของภาคผนวกอธิบายของ Astronomical Almanac (2013)"
+
+msgid "The algorithm was used in the Astronomical Almanac (1984 and later) and gives V (instrumental) magnitudes (allegedly from D.L. Harris)."
+msgstr "อัลกอริทึมใช้ใน Astronomical Almanac (1984 และต่อมา) และให้ V (instrumental) magnitudes (คาดว่าจาก D.L. Harris)"
+
+msgid "The colour each kind of object is drawn in"
+msgstr "สีที่วัตถุแต่ละชนิดถูกวาด"
+
+msgid "The engine did not answer with any colours."
+msgstr "เครื่องยนต์ไม่ตอบกลับด้วยสีใด ๆ"
+
+msgid "The galactic band"
+msgstr "วงแหวนดาราจักร"
+
+msgid "The horizon outline instead of the panorama"
+msgstr "เส้นขอบฟ้าแทนพาโนรามา"
+
+msgid "The path each body has taken across the sky"
+msgstr "เส้นทางที่วัตถุแต่ละชิ้นเดินทางผ่านท้องฟ้า"
+
+msgid "The shortest label the culture defines"
+msgstr "ชื่อที่สั้นที่สุดที่วัฒนธรรมกำหนด"
+
+msgid "Thickness"
+msgstr "ความหนา"
+
+msgid "This copy ships no scripts."
+msgstr "สำเนานี้ไม่มีสคริปต์"
+
+msgid "This device has no location service."
+msgstr "อุปกรณ์นี้ไม่มีบริการตำแหน่ง"
+
+msgid "This part of the engine exposes no settings on this build."
+msgstr "ส่วนนี้ของเครื่องยนต์ไม่เปิดเผยการตั้งค่าในบิลด์นี้"
+
+msgid "This tool works on Earth only!"
+msgstr "เครื่องมือนี้ทำงานบนโลกเท่านั้น!"
+
+msgid "This tool works on Earth only. Short steps over a long duration are slow."
+msgstr "เครื่องมือนี้ทำงานเฉพาะบนโลก ขั้นตอนสั้นในระยะเวลายาวนานนั้นช้า"
+
+msgid "This year"
+msgstr "ปีนี้"
+
+msgid "Time of day"
+msgstr "เวลาในวัน"
+
+msgid "Time span"
+msgstr "ช่วงเวลา"
+
+msgid "Time step"
+msgstr "ขั้นตอนเวลา"
+
+msgid "To the next (mths)"
+msgstr "ไปยังครั้งถัดไป (เดือน)"
+
+msgid "To the next, months"
+msgstr "ไปยังครั้งถัดไป, เดือน"
+
+msgid "Trails"
+msgstr "รอยการเคลื่อนที่"
+
+msgid "Translated"
+msgstr "ได้รับการแปล"
+
+msgid "Transparency"
+msgstr "ความโปร่งใส"
+
+msgid "Twilight and rise and set times are worked out for an observer on Earth. Move back to Earth to see them."
+msgstr "สนธยาและเวลาขึ้นตกคำนวณสำหรับผู้สังเกตการณ์บนโลก ย้ายกลับไปโลกเพื่อดู"
+
+msgid "Twinkle"
+msgstr "เพิ่มพิจารณา"
+
+msgid "Twinkle amount"
+msgstr "ปริมาณเพิ่มพิจารณา"
+
+msgid "Twinkle even without atmosphere"
+msgstr "เพิ่มพิจารณาแม้ไม่มีบรรยากาศ"
+
+msgid "Twinkle is caused by atmospheric turbulence; this shows it regardless"
+msgstr "เพิ่มพิจารณาเกิดจากความปั่นป่วนบรรยากาศ นี่แสดงให้เห็นไม่ว่าจะอย่างไร"
+
+msgid "Type a name, a Bayer letter or a catalogue number - Vega, α Lyr, M 31, NGC 224."
+msgstr "พิมพ์ชื่อ, อักษรเบเยอร์ หรือหมายเลขบัญชี - Vega, α Lyr, M 31, NGC 224"
+
+msgid "Umbral magnitude"
+msgstr "ขนาดเงามืด"
+
+msgid "Up to mag."
+msgstr "จนถึงโชติมาตร"
+
+msgid "Use common symbols for coordinate systems"
+msgstr "ใช้สัญลักษณ์ทั่วไปสำหรับระบบพิกัด"
+
+msgid "Use distance from North Celestial Pole, not declination from equator in equatorial coordinates"
+msgstr "ใช้ระยะห่างจากขั้วฟ้าเหนือแทนเดคลิเนชันจากเส้นศูนย์สูตรในพิกัดศูนย์สูตร"
+
+msgid "Use my location"
+msgstr "ใช้ตำแหน่งของฉัน"
+
+msgid "Use the date now shown in the sky"
+msgstr "ใช้วันที่ที่แสดงบนท้องฟ้าตอนนี้"
+
+msgid "Use the value in landscape.ini when it has one"
+msgstr "ใช้ค่าใน landscape.ini เมื่อมี"
+
+msgid "Use the value stored for this location"
+msgstr "ใช้ค่าที่เก็บสำหรับตำแหน่งนี้"
+
+msgid "Version %s  ·  Qt %s"
+msgstr "รุ่น %s  ·  Qt %s"
+
+msgid "Visibility"
+msgstr "ความเห็นได้"
+
+msgid "When a search result is chosen"
+msgstr "เมื่อเลือกผลลัพธ์การค้นหา"
+
+msgid "Where Jupiter's Great Red Spot was, and when"
+msgstr "ตำแหน่งและเวลาจุดแดงใหญ่ของดาวพฤหัสบดี"
+
+msgid "Width"
+msgstr "ความกว้าง"
+
+msgid "Working out the contact times…"
+msgstr "กำลังคำนวณเวลาติดต่อ…"
+
+msgid "Zodiac and lunar stations"
+msgstr "จักรราศีและดาวนักษัตร"
+
+msgid "Zodiacal Light brightness"
+msgstr "ความสว่างแสงจักรราศี"
+
+msgid "Zoom in and out"
+msgstr "ซูมเข้าและออก"
+
+msgid "after sunset"
+msgstr "หลังพระอาทิตย์ตก"
+
+msgid "before sunrise"
+msgstr "ก่อนพระอาทิตย์ขึ้น"
+
+msgid "bright suburban"
+msgstr "ชานเมืองสว่าง"
+
+msgid "east +"
+msgstr "ตะวันออก +"
+
+msgid "engine ready, interface going live"
+msgstr "เครื่องยนต์พร้อม, อินเตอร์เฟซจะเปิดใช้งาน"
+
+msgid "excellent dark sky"
+msgstr "ท้องฟ้าที่มืดยิ่ง"
+
+msgid "inner city"
+msgstr "เมืองใจ"
+
+msgid "mag %s"
+msgstr "โชติมาตร %s"
+
+msgid "max %s"
+msgstr "สูงสุด %s"
+
+msgid "mid %s"
+msgstr "กลาง %s"
+
+msgid "north +"
+msgstr "เหนือ +"
+
+msgid "rural/suburban"
+msgstr "ชนบท/เมืองท้องถิ่น"
+
+msgid "suburban/urban"
+msgstr "เมืองท้องถิ่น/เมือง"
+
+msgid "truly dark"
+msgstr "มืดจริง ๆ"
+
+msgid "unreadable snapshot"
+msgstr "ภาพถ่ายอ่านไม่ได้"
+
+msgid "… and moons"
+msgstr "… และดวงจันทร์"

@@ -1,0 +1,1360 @@
+# Asterium interface translation for ru.
+# Copyright (C) 2026 the Asterium authors
+# This file is distributed under the same licence as the Asterium package.
+#
+# MACHINE TRANSLATION, not reviewed by a speaker of this language.
+# Terminology follows upstream Stellarium's own ru catalogue, which was used
+# as a glossary, and every entry keeps the source's printf placeholders.
+# Corrections from a human translator are welcome and should simply replace these.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: asterium\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%d bodies"
+msgstr "%d тел"
+
+msgid "%d object"
+msgstr "%d объект"
+
+msgid "%d objects"
+msgstr "%d объектов"
+
+msgid "%s colour"
+msgstr "%s цвет"
+
+msgid "%s from %s, ±%.0f m"
+msgstr "%s из %s, ±%.0f м"
+
+msgid "12-hour"
+msgstr "12-часовой"
+
+msgid "24-hour"
+msgstr "24-часовой"
+
+msgid "A button to mark every object of the current observing list on the sky."
+msgstr "Кнопка отметить каждый объект из текущего списка наблюдений на небе."
+
+msgid "A polygonal model for some small moons, asteroids and comets instead of a sphere"
+msgstr "Полиэдральная модель для некоторых малых спутников, астероидов и комет вместо сферы"
+
+msgid "A touch-first planetarium forked from Stellarium, whose astronomy engine it uses unchanged. The interface is new; everything that draws the sky is upstream's work."
+msgstr "Сенсорная планетарий, созданный на основе Stellarium, использующий его неизмененный астрономический движок. Интерфейс новый; всё, что рисует небо, — работа Stellarium."
+
+msgid "About this sky culture"
+msgstr "Об этой культуре неба"
+
+msgid "Above altitude, °"
+msgstr "Выше высоты, °"
+
+msgid "Absolute scale"
+msgstr "Абсолютная шкала"
+
+msgid "Add %s"
+msgstr "Добавить %s"
+
+msgid "Adjust brightness to bright objects"
+msgstr "Регулировать яркость для ярких объектов"
+
+msgid "Algorithm of ΔT"
+msgstr "Алгоритм ΔT"
+
+msgid "All naked-eye planets"
+msgstr "Все видимые невооруженным глазом планеты"
+
+msgid "All solar eclipses"
+msgstr "Все солнечные затмения"
+
+msgid "Allow negative hour angles"
+msgstr "Позволить отрицательные часовые углы"
+
+msgid "Allow results outside the recommended time range of the orbital elements"
+msgstr "Позволить результаты за пределами рекомендуемого диапазона времени орбитальных элементов"
+
+msgid "Also find"
+msgstr "Также найти"
+
+msgid "Also plot"
+msgstr "Также построить график"
+
+msgid "Also show moons of selected object or planets"
+msgstr "Также показать спутники выбранного объекта или планеты"
+
+msgid "Altitude limit, °"
+msgstr "Предел высоты, °"
+
+msgid "Amount"
+msgstr "Количество"
+
+msgid "An observer floats above its planet, so there is nowhere on it to stand. Choose another planet to come back down."
+msgstr "Наблюдатель парит над своей планетой, поэтому нечего там стоять. Выберите другую планету, чтобы вернуться вниз."
+
+msgid "And"
+msgstr "И"
+
+msgid "And also"
+msgstr "Также"
+
+msgid "And the next (years)"
+msgstr "И следующие (годы)"
+
+msgid "Annual drift"
+msgstr "Годовой дрейф"
+
+msgid "Appearance"
+msgstr "Внешний вид"
+
+msgid "Art"
+msgstr "Рисунки"
+
+msgid "Artificial satellites and unnamed stars are excluded from calculation."
+msgstr "Искусственные спутники и безымянные звезды исключены из расчета."
+
+msgid "Asking for permission…"
+msgstr "Запрашивается разрешение…"
+
+msgid "Asks SIMBAD what it holds around the object that is selected now, and prints the answer as it comes back."
+msgstr "Запрашивает SIMBAD о том, что она содержит вокруг выбранного объекта, и выводит ответ по мере его поступления."
+
+msgid "Ast. lines"
+msgstr "Л. астер."
+
+msgid "Ast. names"
+msgstr "Н. астер."
+
+msgid "Astronomical Almanac (default) enlarges by 2%; Danjon (1951) differs slightly"
+msgstr "Астрономический альманах (по умолчанию) увеличивает на 2%; Данжон (1951) отличается немного"
+
+msgid "Astronomical night"
+msgstr "Астрономическая ночь"
+
+msgid "At"
+msgstr "В"
+
+msgid "Atmosph."
+msgstr "Атм."
+
+msgid "Automatic transparency"
+msgstr "Автоматическая прозрачность"
+
+msgid "Axis distance"
+msgstr "Расстояние оси"
+
+msgid "Azi. grid"
+msgstr "Сетка азим."
+
+msgid "Azimuth and altitude rather than right ascension and declination"
+msgstr "Азимут и высота вместо прямого восхождения и склонения"
+
+msgid "Below the horizon here."
+msgstr "Ниже горизонта здесь."
+
+msgid "Between objects"
+msgstr "Между объектами"
+
+msgid "Boundless"
+msgstr "Бесконечный"
+
+msgid "Bounds"
+msgstr "Границы"
+
+msgid "Brighter than"
+msgstr "Ярче, чем"
+
+msgid "By object type"
+msgstr "По типу объекта"
+
+msgid "By planet"
+msgstr "По планете"
+
+msgid "Calculating…"
+msgstr "Вычисление…"
+
+msgid "Cardinals"
+msgstr "Стороны"
+
+msgid "Catalogue numbers instead of common names"
+msgstr "Номера каталога вместо обычных имен"
+
+msgid "Category"
+msgstr "Категория"
+
+msgid "Central duration"
+msgstr "Центральная продолжительность"
+
+msgid "Centre"
+msgstr "Центр"
+
+msgid "Centre on object"
+msgstr "Центр на объекте"
+
+msgid "Centre point"
+msgstr "Центральная точка"
+
+msgid "Circles"
+msgstr "Круги"
+
+msgid "City"
+msgstr "Город"
+
+msgid "Cleanup"
+msgstr "Очистка"
+
+msgid "Clear recent searches"
+msgstr "Очистить недавние поиски"
+
+msgid "Clear the selection - a touch screen has no right button"
+msgstr "Очистить выделение — сенсорный экран не имеет правой кнопки"
+
+msgid "Cleared."
+msgstr "Очищено."
+
+msgid "Close"
+msgstr "Закрыть"
+
+msgid "Close what is open; from the sky, leave the app running"
+msgstr "Закрыть то, что открыто; из неба оставьте приложение работающим"
+
+msgid "Color"
+msgstr "Цвет"
+
+msgid "Color channel"
+msgstr "Цветовой канал"
+
+msgid "Color of orbits"
+msgstr "Цвет орбит"
+
+msgid "Colors of orbit lines"
+msgstr "Цвета линий орбит"
+
+msgid "Comets up to mag."
+msgstr "Кометы до звёздной величины"
+
+msgid "Compass"
+msgstr "Компас"
+
+msgid "Connecting line"
+msgstr "Соединительная линия"
+
+msgid "Contrast"
+msgstr "Контраст"
+
+msgid "Coordinate system"
+msgstr "Система координат"
+
+msgid "Coordinates"
+msgstr "Координаты"
+
+msgid "Copyright"
+msgstr "Авторское право"
+
+msgid "Custom"
+msgstr "Пользовательский"
+
+msgid "Custom altitude of the Moon, °"
+msgstr "Пользовательская высота Луны, °"
+
+msgid "Custom altitude of the Sun, °"
+msgstr "Пользовательская высота Солнца, °"
+
+msgid "Custom values"
+msgstr "Пользовательские значения"
+
+msgid "Cut the scale off below the limit"
+msgstr "Обрезать шкалу ниже предела"
+
+msgid "DATE AND TIME (UTC)"
+msgstr "ДАТА И ВРЕМЯ (UTC)"
+
+msgid "Date and time"
+msgstr "Дата и время"
+
+msgid "Date/time"
+msgstr "Дата/время"
+
+msgid "Dates"
+msgstr "Даты"
+
+msgid "December solstice"
+msgstr "Зимнее солнцестояние"
+
+msgid "Decimal degrees. −33.87 means 33.87° south. Elevation is metres above sea level; it moves the horizon down by a few arcminutes."
+msgstr "Десятичные градусы. −33,87 означает 33,87° к югу. Высота в метрах над уровнем моря; она сдвигает горизонт вниз на несколько угловых минут."
+
+msgid "Degrees per year the longitude moves by"
+msgstr "Градусы в год, на которые движется долгота"
+
+msgid "Degrees, hours and minutes as they are written - 12h30m49s, +41°16'09\", 187.7 - or plain decimal degrees."
+msgstr "Градусы, часы и минуты в том виде, в котором они написаны - 12h30m49s, +41°16'09\", 187,7 - или простые десятичные градусы."
+
+msgid "Deletes all recent search object data, and the objects SIMBAD contributed."
+msgstr "Удаляет все данные недавнего поиска объектов и объекты, внесенные SIMBAD."
+
+msgid "Designations for double stars"
+msgstr "Обозначения двойных звёзд"
+
+msgid "Designations for variable stars"
+msgstr "Обозначения переменных звёзд"
+
+msgid "Dim a survey near the horizon, as the air does"
+msgstr "Затемнить обзор возле горизонта, как это делает воздух"
+
+msgid "Done"
+msgstr "Выполнено"
+
+msgid "Drag"
+msgstr "Перетащить"
+
+msgid "Draw deep-sky objects at all"
+msgstr "Рисовать объекты глубокого космоса вообще"
+
+msgid "Draw the enabled sky surveys"
+msgstr "Рисовать включенные обзоры неба"
+
+msgid "Draw the planets, moons and minor bodies"
+msgstr "Рисовать планеты, луны и малые тела"
+
+msgid "Drawn larger than life, so a body that is a few arcseconds wide is visible at all. The position stays true."
+msgstr "Нарисовано больше жизни, поэтому тело толщиной в несколько угловых секунд видно всегда. Положение остается истинным."
+
+msgid "Duration (years)"
+msgstr "Продолжительность (годы)"
+
+msgid "Duration, months"
+msgstr "Продолжительность, месяцы"
+
+msgid "ELEV. M"
+msgstr "ВЫСОТА. М"
+
+msgid "Ecl. grid"
+msgstr "Экл. сетка"
+
+msgid "Eclipses are computed for observers on Earth."
+msgstr "Затмения вычисляются для наблюдателей на Земле."
+
+msgid "Elevation in metres"
+msgstr "Высота в метрах"
+
+msgid "Elongations and quadratures"
+msgstr "Элонгации и квадратуры"
+
+msgid "Equ. grid"
+msgstr "Экв. сетка"
+
+msgid "Equ. mount"
+msgstr "Экв. монт."
+
+msgid "Equatorial radii ratio"
+msgstr "Отношение экв. радиусов"
+
+msgid "Every"
+msgstr "Каждый"
+
+msgid "Every name the object is catalogued under"
+msgstr "Каждое имя, под которым объект внесен в каталог"
+
+msgid "Exterior egress"
+msgstr "Внешний выход"
+
+msgid "Exterior ingress"
+msgstr "Внешний вход"
+
+msgid "Fades the ground as you look below the horizon or zoom in"
+msgstr "Делает землю прозрачной при взгляде ниже горизонта или приближении"
+
+msgid "Fading duration"
+msgstr "Продолжительность затухания"
+
+msgid "Faintest shown"
+msgstr "Самый слабый показан"
+
+msgid "Favorites"
+msgstr "Избранное"
+
+msgid "Fetching the survey lists…"
+msgstr "Получение списков обзора…"
+
+msgid "Find a city"
+msgstr "Найти город"
+
+msgid "First %d of %d - filter to narrow it."
+msgstr "Первый %d из %d — фильтр, чтобы сузить."
+
+msgid "First body"
+msgstr "Первое тело"
+
+msgid "First graph"
+msgstr "Первый график"
+
+msgid "Fixed instant"
+msgstr "Фиксированный момент"
+
+msgid "Flip horiz."
+msgstr "Отр. гор."
+
+msgid "Flip vert."
+msgstr "Отр. верт."
+
+msgid "Frame rate"
+msgstr "Частота кадров"
+
+msgid "From"
+msgstr "От"
+
+msgid "Full screen"
+msgstr "Полноэкран"
+
+msgid "Further reading"
+msgstr "Дополнительное чтение"
+
+msgid "GRS details…"
+msgstr "Детали БКП…"
+
+msgid "Gal. grid"
+msgstr "Гал. сетка"
+
+msgid "Gamma, saturation, brightness, contrast, opacity, colour channel and inverted colours belong to one survey. Open a survey to set them."
+msgstr "Гамма, насыщение, яркость, контраст, непрозрачность, цветовой канал и инвертированные цвета относятся к одному обзору. Откройте обзор, чтобы установить их."
+
+msgid "Gestures"
+msgstr "Жесты"
+
+msgid "Go there"
+msgstr "Иди туда"
+
+msgid "Go to this eclipse"
+msgstr "Перейти к этому затмению"
+
+msgid "Go to this moment"
+msgstr "Перейти к этому моменту"
+
+msgid "Go to this transit"
+msgstr "Перейти к этому прохождению"
+
+msgid "Great Red Spot"
+msgstr "Большое Красное Пятно"
+
+msgid "Great Red Spot details"
+msgstr "Детали Большого Красного Пятна"
+
+msgid "Greatest elongation for an inner planet, quadrature for an outer one"
+msgstr "Наибольшая элонгация для внутренней планеты, квадратура для внешней"
+
+msgid "Greek letters"
+msgstr "Греческие буквы"
+
+msgid "Grid density"
+msgstr "Плотность сетки"
+
+msgid "Grids"
+msgstr "Сетки"
+
+msgid "Ground"
+msgstr "Земля"
+
+msgid "Gyro"
+msgstr "Гироскоп"
+
+msgid "Gyro mode"
+msgstr "Режим гироскопа"
+
+msgid "Height"
+msgstr "Высота"
+
+msgid "Heliocentric ecliptic positions of the major planets."
+msgstr "Гелиоцентрические эклиптические положения больших планет."
+
+msgid "HiPS"
+msgstr "HiPS"
+
+msgid "Hide controls"
+msgstr "Скрыть управления"
+
+msgid "Hide deep-sky objects fainter than the limit"
+msgstr "Скрыть объекты глубокого космоса слабее, чем предел"
+
+msgid "Hide orbits of minor bodies"
+msgstr "Скрыть орбиты малых тел"
+
+msgid "Highlight"
+msgstr "Выделить"
+
+msgid "Highlight the objects of the observing list"
+msgstr "Выделить объекты из списка наблюдений"
+
+msgid "Hint circles marking each planet"
+msgstr "Круги-подсказки, отмечающие каждую планету"
+
+msgid "Hints brightness"
+msgstr "Яркость подсказок"
+
+msgid "Hipparcos designations"
+msgstr "Обозначения Hipparcos"
+
+msgid "How many"
+msgstr "Сколько"
+
+msgid "ICRS grid"
+msgstr "J2000.0"
+
+msgid "Include"
+msgstr "Включить"
+
+msgid "Include bright comets"
+msgstr "Включить яркие кометы"
+
+msgid "Intercardinal points"
+msgstr "Промежуточные стороны света"
+
+msgid "Interior egress"
+msgstr "Внутренний выход"
+
+msgid "Interior ingress"
+msgstr "Внутренний вход"
+
+msgid "Its elevation, and the civil, nautical and astronomical twilights"
+msgstr "Его высота и гражданские, морские и астрономические сумерки"
+
+msgid "Jovigraphic longitude of the spot in System II, in degrees"
+msgstr "Долгота пятна в системе II в градусах"
+
+msgid "June solstice"
+msgstr "Летнее солнцестояние"
+
+msgid "Label"
+msgstr "Метка"
+
+msgid "Label colour"
+msgstr "Цвет метки"
+
+msgid "Labels and Markers amount"
+msgstr "Количество названий и маркеров"
+
+msgid "Labels brightness"
+msgstr "Яркость названий"
+
+msgid "Largest, ′"
+msgstr "Наибольший, ′"
+
+msgid "Last known position"
+msgstr "Последнее известное положение"
+
+msgid "Lasting"
+msgstr "Длящийся"
+
+msgid "Latitude −90…90, longitude −180…180."
+msgstr "Широта −90…90, долгота −180…180."
+
+msgid "Leaves the landscape visible in darkness"
+msgstr "Оставляет ландшафт видимым в темноте"
+
+msgid "Licence"
+msgstr "Лицензия"
+
+msgid "Light pollution"
+msgstr "Световое загрязнение"
+
+msgid "Light pollution from database"
+msgstr "Световое загрязнение из базы данных"
+
+msgid "Limit angular separation"
+msgstr "Ограничить угловое разделение"
+
+msgid "Limit angular size"
+msgstr "Предел углового размера"
+
+msgid "Limit magnitude"
+msgstr "Предел звёздной величины"
+
+msgid "Linear distance"
+msgstr "Линейное расстояние"
+
+msgid "Lines"
+msgstr "Линии"
+
+msgid "Lines and circles"
+msgstr "Линии и круги"
+
+msgid "List"
+msgstr "Список"
+
+msgid "List name"
+msgstr "Имя списка"
+
+msgid "Lit windows, street lighting and the like"
+msgstr "Зажженные окна, уличное освещение и тому подобное"
+
+msgid "Loading…"
+msgstr "Загрузка…"
+
+msgid "Local solar eclipses"
+msgstr "Местные солнечные затмения"
+
+msgid "Local time"
+msgstr "Местное время"
+
+msgid "Local time, h"
+msgstr "Местное время, ч"
+
+msgid "Locate me"
+msgstr "Определить мое место"
+
+msgid "Locating…"
+msgstr "Определение…"
+
+msgid "Location is switched off in the system settings."
+msgstr "Местоположение отключено в системных настройках."
+
+msgid "Location permission refused. The other two ways still work."
+msgstr "Разрешение на доступ к местоположению отказано. Два других способа по-прежнему работают."
+
+msgid "Long press"
+msgstr "Долгое нажатие"
+
+msgid "Longitude of GRS"
+msgstr "Долгота БКП"
+
+msgid "Lunar eclipses"
+msgstr "Лунные затмения"
+
+msgid "Magnitudes"
+msgstr "Звёздные величины"
+
+msgid "Major planets by planet, minor bodies by type"
+msgstr "Большие планеты по планетам, малые тела по типам"
+
+msgid "Map of the planet. Tap to set the observer's place."
+msgstr "Карта планеты. Нажмите, чтобы установить место наблюдателя."
+
+msgid "March equinox"
+msgstr "Весеннее равноденствие"
+
+msgid "Markers"
+msgstr "Маркеры"
+
+msgid "Markers sized by the object's angular size"
+msgstr "Маркеры, размер которых зависит от углового размера объекта"
+
+msgid "Master switch for the grids, lines and points below"
+msgstr "Главный переключатель для сеток, линий и точек ниже"
+
+msgid "Max items to display"
+msgstr "Макс. элементы для отображения"
+
+msgid "Max. results"
+msgstr "Макс. результаты"
+
+msgid "Maximum allowed separation"
+msgstr "Максимально допустимое расстояние"
+
+msgid "Maximum angular size"
+msgstr "Максимальный угловой размер"
+
+msgid "Mean motion"
+msgstr "Среднее движение"
+
+msgid "Mercury, Venus, Mars, Jupiter and Saturn at once. Earth only."
+msgstr "Меркурий, Венера, Марс, Юпитер и Сатурн сразу. Только Земля."
+
+msgid "Milky Way brightness"
+msgstr "Яркость Млечного Пути"
+
+msgid "Milky Way saturation"
+msgstr "Насыщение Млечного Пути"
+
+msgid "Minimal angular size"
+msgstr "Минимальный угловой размер"
+
+msgid "Minimal brightness"
+msgstr "Минимальная яркость"
+
+msgid "Minutes before sunrise / after sunset"
+msgstr "Минут до восхода / после захода"
+
+msgid "Moon at"
+msgstr "Луна в"
+
+msgid "Moon in zenith at"
+msgstr "Луна в зените в"
+
+msgid "Move the sky by pointing the phone at it"
+msgstr "Переместить небо, направив телефон на него"
+
+msgid "Move the sky with the phone"
+msgstr "Переместить небо телефоном"
+
+msgid "Name for the new list"
+msgstr "Имя для нового списка"
+
+msgid "Named features the landscape marks"
+msgstr "Именованные объекты, отмеченные ландшафтом"
+
+msgid "Names"
+msgstr "Имена"
+
+msgid "Names beside the planets and their markers"
+msgstr "Названия рядом с планетами и их маркерами"
+
+msgid "Names in English"
+msgstr "Названия на английском языке"
+
+msgid "Neb. bg"
+msgstr "Фон туман."
+
+msgid "Nebulae"
+msgstr "Туманности"
+
+msgid "Night"
+msgstr "Ночь"
+
+msgid "No city matches that."
+msgstr "Ни один город не совпадает."
+
+msgid "No eclipses found. Pick a range and calculate."
+msgstr "Затмения не найдены. Выберите диапазон и рассчитайте."
+
+msgid "No fresh fix - the receiver may have no sky. Try again outdoors, or set the place another way."
+msgstr "Нет свежей информации — приемник может не иметь доступ к небу. Попробуйте еще раз на улице или установите место другим способом."
+
+msgid "No surveys were found. The lists are downloaded, so this needs a connection."
+msgstr "Обзоры не найдены. Списки загружаются, поэтому это требует соединения."
+
+msgid "None downloaded yet"
+msgstr "Ничего еще не загружено"
+
+msgid "Note: this tool doesn't apply the refraction correction for coordinates. Horizontal coordinates stop the clock, or the sky would turn away from the point while you arrive at it."
+msgstr "Примечание: этот инструмент не применяет коррекцию преломления для координат. Горизонтальные координаты останавливают часы, иначе небо отвернулось бы от точки, пока вы туда приходите."
+
+msgid "Nothing computed yet, or nothing in this category is up."
+msgstr "Ничего еще не рассчитано, или ничего в этой категории не видно."
+
+msgid "Nothing computed yet."
+msgstr "Ничего еще не рассчитано."
+
+msgid "Nothing found for “%s”."
+msgstr "Ничего не найдено для \"%s\"."
+
+msgid "Nothing in this list matches."
+msgstr "Ничего в этом списке не совпадает."
+
+msgid "Nothing in this list yet. Pick something out of the sky and tap the star on its card to keep it here."
+msgstr "Ничего в этом списке еще. Выберите что-то из неба и нажмите на звезду на его карточке, чтобы оставить это здесь."
+
+msgid "Nothing is selected. Pick an object in the sky first."
+msgstr "Ничего не выбрано. Сначала выберите объект на небе."
+
+msgid "Nothing matches."
+msgstr "Ничего не совпадает."
+
+msgid "Nothing selected"
+msgstr "Ничего не выбрано"
+
+msgid "Nothing to plot."
+msgstr "Нечего строить график."
+
+msgid "Nothing to show."
+msgstr "Нечего показывать."
+
+msgid "N× above"
+msgstr "N× выше"
+
+msgid "OBJECT"
+msgstr "ОБЪЕКТ"
+
+msgid "OBJECTS"
+msgstr "ОБЪЕКТЫ"
+
+msgid "Objects which are up"
+msgstr "Объекты, которые видны"
+
+msgid "Observable duration"
+msgstr "Наблюдаемая продолжительность"
+
+msgid "Observing list highlight"
+msgstr "Выделение списка наблюдений"
+
+msgid "On the sky"
+msgstr "На небе"
+
+msgid "One color"
+msgstr "Один цвет"
+
+msgid "Only for N latest selected objects"
+msgstr "Только для N последних выделенных объектов"
+
+msgid "Only list"
+msgstr "Только список"
+
+msgid "Only orbit for selected object…"
+msgstr "Только орбита выбранного объекта…"
+
+msgid "Only orbits of major planets…"
+msgstr "Только орбиты больших планет…"
+
+msgid "Open date and time"
+msgstr "Открыть дату и время"
+
+msgid "Open location"
+msgstr "Открыть местоположение"
+
+msgid "Opens the JUPOS project in a browser"
+msgstr "Открывает проект JUPOS в браузере"
+
+msgid "Opposition of"
+msgstr "Противостояние"
+
+msgid "Oppositions"
+msgstr "Противостояния"
+
+msgid "Orbit colors"
+msgstr "Цвета орбит"
+
+msgid "Orbital periods ratio"
+msgstr "Отношение орбитальных периодов"
+
+msgid "Orbits"
+msgstr "Орбиты"
+
+msgid "Orbits of interstellar objects"
+msgstr "Орбиты межзвёздных объектов"
+
+msgid "Orbits of moons"
+msgstr "Орбиты спутников"
+
+msgid "Otherwise every move adopts the zone of the new place."
+msgstr "Иначе каждое перемещение принимает зону нового места."
+
+msgid "Pan the sky"
+msgstr "Панорамирование по небу"
+
+msgid "Partial eclipse begins"
+msgstr "Начало частичного затмения"
+
+msgid "Partial eclipse ends"
+msgstr "Конец частичного затмения"
+
+msgid "Partitions"
+msgstr "Разделы"
+
+msgid "Partitions thickness"
+msgstr "Толщина разделов"
+
+msgid "Path width"
+msgstr "Ширина пути"
+
+msgid "Pause"
+msgstr "Пауза"
+
+msgid "Paused - start"
+msgstr "Пауза - начать"
+
+msgid "Penumbral magnitude"
+msgstr "Полутеневая величина"
+
+msgid "Perihelion and aphelion"
+msgstr "Перигелий и афелий"
+
+msgid "Pick two different bodies to see how their distance changes."
+msgstr "Выберите два разных тела, чтобы увидеть, как меняется расстояние между ними."
+
+msgid "Pinch"
+msgstr "Щипок"
+
+msgid "Planet and time zone"
+msgstr "Планета и часовой пояс"
+
+msgid "Planetary nomenclature"
+msgstr "Планетарная номенклатура"
+
+msgid "Planetary transits"
+msgstr "Прохождения планет"
+
+msgid "Planets"
+msgstr "Планеты"
+
+msgid "Pluto, Ceres, Pallas, Juno and Vesta"
+msgstr "Плутон, Церера, Паллада, Юнона и Веста"
+
+msgid "Point size"
+msgstr "Размер точки"
+
+msgid "Pointing"
+msgstr "Наведение"
+
+msgid "Poles and points"
+msgstr "Полюса и точки"
+
+msgid "Polygon colour"
+msgstr "Цвет полигона"
+
+msgid "Positive values only"
+msgstr "Только положительные значения"
+
+msgid "Query options"
+msgstr "Параметры запроса"
+
+msgid "Quit"
+msgstr "Выход"
+
+msgid "Reading…"
+msgstr "Чтение…"
+
+msgid "Real time speed"
+msgstr "Скорость реального времени"
+
+msgid "Refraction, extinction, sky brightness"
+msgstr "Рефракция, поглощение, яркость неба"
+
+msgid "Relative scale"
+msgstr "Относительный масштаб"
+
+msgid "Remove %s"
+msgstr "Удалить %s"
+
+msgid "Remove from observing list"
+msgstr "Удалить из списка наблюдений"
+
+msgid "Rename"
+msgstr "Переименовать"
+
+msgid "Restarting…"
+msgstr "Перезагрузка…"
+
+msgid "Rises"
+msgstr "Восходы"
+
+msgid "Rotation"
+msgstr "Вращение"
+
+msgid "Running"
+msgstr "Запущено"
+
+msgid "SIMBAD did not answer."
+msgstr "SIMBAD не ответил."
+
+msgid "SIMBAD is switched off in the search options."
+msgstr "SIMBAD отключен в параметрах поиска."
+
+msgid "SIMBAD is switched off. Turn it on under Options to look objects up online."
+msgstr "SIMBAD отключён. Включите его в разделе параметров, чтобы искать объекты в Интернете."
+
+msgid "SIMBAD server"
+msgstr "Сервер SIMBAD"
+
+msgid "Saros %s"
+msgstr "Сарос %s"
+
+msgid "Saturation"
+msgstr "Насыщение"
+
+msgid "Save either the current FOV and direction of view or all the current options for use at next startup. Restoring default settings requires a restart of the app."
+msgstr "Сохраните либо текущее поле зрения и направление обзора, либо все текущие параметры для использования при следующем запуске. Восстановление параметров по умолчанию требует перезагрузки приложения."
+
+msgid "Save to observing list"
+msgstr "Сохранить в список наблюдений"
+
+msgid "Scale"
+msgstr "Масштаб"
+
+msgid "Scale marker and label visibility by surface brightness"
+msgstr "Масштабировать видимость маркера и названия по поверхностной яркости"
+
+msgid "Scales smoothly between 1× at the minimum field of view and the factor above at the maximum"
+msgstr "Плавно масштабируется между 1× при минимальном поле зрения и коэффициентом выше при максимальном"
+
+msgid "Search in list"
+msgstr "Поиск по списку"
+
+msgid "Second body"
+msgstr "Второе тело"
+
+msgid "Second graph"
+msgstr "Второй график"
+
+msgid "Second object"
+msgstr "Второй объект"
+
+msgid "Secondary intercardinal points"
+msgstr "Вторичные интеркардинальные точки"
+
+msgid "See the sky through the ground"
+msgstr "Видеть небо сквозь землю"
+
+msgid "Select an object first: this asks SIMBAD what it holds around it."
+msgstr "Выберите объект первым: он запросит у SIMBAD информацию вокруг него."
+
+msgid "Select it and show its card"
+msgstr "Выберите его и покажите его карточку"
+
+msgid "Select something in the sky first — this page works on the selection."
+msgstr "Сначала выберите что-нибудь на небе — эта страница работает с выделением."
+
+msgid "Separate colors for orbits of major planets"
+msgstr "Отдельные цвета для орбит больших планет"
+
+msgid "September equinox"
+msgstr "Осеннее равноденствие"
+
+msgid "Server"
+msgstr "Сервер"
+
+msgid "Set the clock to %s"
+msgstr "Установить время на %s"
+
+msgid "Set the place"
+msgstr "Установить место"
+
+msgid "Set to now"
+msgstr "Установить на текущее время"
+
+msgid "Sets"
+msgstr "Заходы"
+
+msgid "Shadow map for non-convex bodies. May coarsen the penumbra on some objects"
+msgstr "Карта теней для невыпуклых тел. Может огрубить полутень на некоторых объектах"
+
+msgid "Shooting stars"
+msgstr "Метеоры"
+
+msgid "Short steps over a long duration are slow."
+msgstr "Короткие шаги в течение длительного периода медленные."
+
+msgid "Show"
+msgstr "Показать"
+
+msgid "Show all information"
+msgstr "Показать всю информацию"
+
+msgid "Show controls"
+msgstr "Показывать управление"
+
+msgid "Show each body where it was when the light left it (recommended)"
+msgstr "Показать каждое тело там, где оно было, когда свет от него ушёл (рекомендуется)"
+
+msgid "Show frames per second beside the field of view"
+msgstr "Показывать кадры в секунду рядом с полем зрения"
+
+msgid "Show illumination"
+msgstr "Показывать освещение"
+
+msgid "Show in sky"
+msgstr "Показать на небе"
+
+msgid "Show less"
+msgstr "Показать меньше"
+
+msgid "Show more"
+msgstr "Показать больше"
+
+msgid "Show objects which are up"
+msgstr "Показать объекты, которые над горизонтом"
+
+msgid "Show only objects between the two sizes"
+msgstr "Показывать только объекты между двумя размерами"
+
+msgid "Show only the kinds ticked below"
+msgstr "Показывать только отмеченные типы"
+
+msgid "Show or hide the two rails of controls"
+msgstr "Показать или скрыть две полосы управления"
+
+msgid "Show surveys"
+msgstr "Показать обзоры"
+
+msgid "Show this survey"
+msgstr "Показать этот обзор"
+
+msgid "Simbad Lookup Error: %s"
+msgstr "Ошибка поиска в SIMBAD: %s"
+
+msgid "Simbad Lookup: querying"
+msgstr "Поиск в SIMBAD: выполнение запроса"
+
+msgid "Simulation"
+msgstr "Моделирование"
+
+msgid "Sky and viewing options"
+msgstr "Параметры неба и обзора"
+
+msgid "Sky culture"
+msgstr "Культура неба"
+
+msgid "Slow down"
+msgstr "Замедлить"
+
+msgid "Smallest, ′"
+msgstr "Наименьший, ′"
+
+msgid "Solar altitude for Twilight Finder"
+msgstr "Солнечная высота для поиска сумерек"
+
+msgid "Solar elongation"
+msgstr "Солнечная элонгация"
+
+msgid "Speed up"
+msgstr "Ускорить"
+
+msgid "Stand where the landscape was shot, on the planet it names"
+msgstr "Встаньте там, где была снята панорама, на планету, которую она именует"
+
+msgid "Star, planet, catalogue number…"
+msgstr "Звезда, планета, номер каталога…"
+
+msgid "Started"
+msgstr "Запущено"
+
+msgid "Startup FOV"
+msgstr "Начальное поле зрения"
+
+msgid "Startup direction of view"
+msgstr "Начальное направление обзора"
+
+msgid "Stellarium's user guide covers the astronomy this app shares with it: stellarium.org/documentation"
+msgstr "Руководство пользователя Stellarium охватывает астрономию, которой это приложение делится с ней: stellarium.org/documentation"
+
+msgid "Step, hours"
+msgstr "Шаг, часы"
+
+msgid "Style"
+msgstr "Стиль"
+
+msgid "Sun altitude"
+msgstr "Высота Солнца"
+
+msgid "Sun at"
+msgstr "Солнце в"
+
+msgid "Sun's altitude"
+msgstr "Высота Солнца"
+
+msgid "Sunlight scattered by interplanetary dust"
+msgstr "Солнечный свет, рассеянный межпланетной пылью"
+
+msgid "Switch this off to see the trails for all Solar system bodies"
+msgstr "Отключите это, чтобы увидеть следы всех тел Солнечной системы"
+
+msgid "System date at"
+msgstr "Системная дата на"
+
+msgid "Tap a colour to change it. Changes show on the sky at once and are kept."
+msgstr "Коснитесь цвета, чтобы изменить его. Изменения отображаются на небе сразу же и сохраняются."
+
+msgid "Tap again to confirm"
+msgstr "Коснитесь ещё раз для подтверждения"
+
+msgid "Tap an object"
+msgstr "Коснитесь объекта"
+
+msgid "Tap the chart to read a value."
+msgstr "Коснитесь диаграммы, чтобы прочитать значение."
+
+msgid "Tap the clock"
+msgstr "Коснитесь часов"
+
+msgid "Tap the gear"
+msgstr "Коснитесь значка параметров"
+
+msgid "Tap the map to stand there."
+msgstr "Коснитесь карты, чтобы встать там."
+
+msgid "Tap the place"
+msgstr "Коснитесь места"
+
+msgid "Tap to confirm"
+msgstr "Коснитесь для подтверждения"
+
+msgid "Tertiary intercardinal points"
+msgstr "Третичные интеркардинальные точки"
+
+msgid "The Great Red Spot drifts in System II longitude. Enter a recent measurement and the drift rate to carry it forward from."
+msgstr "Большое красное пятно дрейфует в долготе системы II. Введите недавнее измерение и скорость дрейфа, чтобы перенести его вперёд."
+
+msgid "The algorithm is based on visual observations 1877-1891 by G. Müller and was still republished in the Explanatory Supplement to the Astronomical Ephemeris (1961)."
+msgstr "Алгоритм основан на визуальных наблюдениях 1877-1891 гг. Г. Мюллера и был переопубликован в Пояснительном дополнении к Астрономическому эфемеридам (1961)."
+
+msgid "The algorithm was published by A. Mallama & J. L. Hilton: Computing apparent planetary magnitudes for the Astronomical Almanac. Astronomy&Computing 25 (2018) 10-24."
+msgstr "Алгоритм был опубликован А. Маллама и Дж. Л. Хилтоном: Computing apparent planetary magnitudes for the Astronomical Almanac. Astronomy&Computing 25 (2018) 10-24."
+
+msgid "The algorithm was published in the 2nd edition of the Explanatory Supplement to the Astronomical Almanac (1992)."
+msgstr "Алгоритм был опубликован во 2-м издании Пояснительного дополнения к Астрономическому альманаху (1992)."
+
+msgid "The algorithm was published in the 3rd edition of the Explanatory Supplement to the Astronomical Almanac (2013)."
+msgstr "Алгоритм был опубликован в 3-м издании Пояснительного дополнения к Астрономическому альманаху (2013)."
+
+msgid "The algorithm was used in the Astronomical Almanac (1984 and later) and gives V (instrumental) magnitudes (allegedly from D.L. Harris)."
+msgstr "Алгоритм был использован в Астрономическом альманахе (1984 и позднее) и даёт V (инструментальные) звёздные величины (предположительно от Д. Л. Харриса)."
+
+msgid "The colour each kind of object is drawn in"
+msgstr "Цвет, в котором рисуется каждый тип объекта"
+
+msgid "The engine did not answer with any colours."
+msgstr "Двигатель не ответил с какими-либо цветами."
+
+msgid "The galactic band"
+msgstr "Галактическая полоса"
+
+msgid "The horizon outline instead of the panorama"
+msgstr "Контур горизонта вместо панорамы"
+
+msgid "The path each body has taken across the sky"
+msgstr "Путь, который каждое тело прошло по небу"
+
+msgid "The shortest label the culture defines"
+msgstr "Кратчайший ярлык, который определяет культура"
+
+msgid "Thickness"
+msgstr "Толщина"
+
+msgid "This copy ships no scripts."
+msgstr "Эта копия не содержит сценариев."
+
+msgid "This device has no location service."
+msgstr "Это устройство не имеет службы определения местоположения."
+
+msgid "This part of the engine exposes no settings on this build."
+msgstr "Эта часть двигателя не раскрывает никаких параметров в этой сборке."
+
+msgid "This tool works on Earth only!"
+msgstr "Этот инструмент работает только на Земле!"
+
+msgid "This tool works on Earth only. Short steps over a long duration are slow."
+msgstr "Этот инструмент работает только на Земле. Короткие шаги в течение длительного периода медленные."
+
+msgid "This year"
+msgstr "Этот год"
+
+msgid "Time of day"
+msgstr "Время суток"
+
+msgid "Time span"
+msgstr "Интервал времени"
+
+msgid "Time step"
+msgstr "Временной шаг"
+
+msgid "To the next (mths)"
+msgstr "К следующему (мес.)"
+
+msgid "To the next, months"
+msgstr "К следующему, месяцы"
+
+msgid "Trails"
+msgstr "Следы"
+
+msgid "Translated"
+msgstr "Переведено"
+
+msgid "Transparency"
+msgstr "Прозрачность"
+
+msgid "Twilight and rise and set times are worked out for an observer on Earth. Move back to Earth to see them."
+msgstr "Времена сумерек, восхода и захода рассчитываются для наблюдателя на Земле. Вернитесь на Землю, чтобы их увидеть."
+
+msgid "Twinkle"
+msgstr "Мерцание"
+
+msgid "Twinkle amount"
+msgstr "Количество мерцания"
+
+msgid "Twinkle even without atmosphere"
+msgstr "Мерцание даже без атмосферы"
+
+msgid "Twinkle is caused by atmospheric turbulence; this shows it regardless"
+msgstr "Мерцание вызывается атмосферной турбулентностью; это показывает его независимо"
+
+msgid "Type a name, a Bayer letter or a catalogue number - Vega, α Lyr, M 31, NGC 224."
+msgstr "Введите имя, букву Байера или номер каталога - Вега, α Лир, М 31, NGC 224."
+
+msgid "Umbral magnitude"
+msgstr "Теневая величина"
+
+msgid "Up to mag."
+msgstr "До звёздной величины."
+
+msgid "Use my location"
+msgstr "Использовать моё местоположение"
+
+msgid "Use the date now shown in the sky"
+msgstr "Использовать дату, отображаемую на небе"
+
+msgid "Use the value in landscape.ini when it has one"
+msgstr "Использовать значение в landscape.ini, если оно есть"
+
+msgid "Use the value stored for this location"
+msgstr "Использовать значение, сохранённое для этого местоположения"
+
+msgid "Version %s  ·  Qt %s"
+msgstr "Версия %s  ·  Qt %s"
+
+msgid "When a search result is chosen"
+msgstr "Когда выбран результат поиска"
+
+msgid "Where Jupiter's Great Red Spot was, and when"
+msgstr "Где было Большое красное пятно Юпитера и когда"
+
+msgid "Width"
+msgstr "Ширина"
+
+msgid "Working out the contact times…"
+msgstr "Расчёт времени контактов…"
+
+msgid "Zodiac and lunar stations"
+msgstr "Зодиак и лунные стоянки"
+
+msgid "Zodiacal Light brightness"
+msgstr "Яркость зодиакального света"
+
+msgid "Zoom in and out"
+msgstr "Масштабирование"
+
+msgid "after sunset"
+msgstr "после захода солнца"
+
+msgid "before sunrise"
+msgstr "перед восходом солнца"
+
+msgid "bright suburban"
+msgstr "яркое пригородное"
+
+msgid "east +"
+msgstr "восток +"
+
+msgid "engine ready, interface going live"
+msgstr "двигатель готов, интерфейс запущен"
+
+msgid "excellent dark sky"
+msgstr "отличное тёмное небо"
+
+msgid "inner city"
+msgstr "внутри города"
+
+msgid "mag %s"
+msgstr "з.в. %s"
+
+msgid "max %s"
+msgstr "макс %s"
+
+msgid "mid %s"
+msgstr "сред %s"
+
+msgid "north +"
+msgstr "север +"
+
+msgid "rural/suburban"
+msgstr "сельская/пригородная"
+
+msgid "suburban/urban"
+msgstr "пригородная/городская"
+
+msgid "truly dark"
+msgstr "настоящее тёмное небо"
+
+msgid "unreadable snapshot"
+msgstr "неразборчивый снимок"
+
+msgid "… and moons"
+msgstr "… и спутники"

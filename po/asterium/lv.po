@@ -1,0 +1,2692 @@
+# Asterium interface translation for lv.
+# Copyright (C) 2026 the Asterium authors
+# This file is distributed under the same licence as the Asterium package.
+#
+# MACHINE TRANSLATION, not reviewed by a speaker of this language.
+# Terminology follows upstream Stellarium's own lv catalogue, which was used
+# as a glossary, and every entry keeps the source's printf placeholders.
+# Corrections from a human translator are welcome and should simply replace these.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: asterium\n"
+"Language: lv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%d bodies"
+msgstr "%d ķermeņi"
+
+msgid "%d object"
+msgstr "%d objekts"
+
+msgid "%d objects"
+msgstr "%d objekti"
+
+msgid "%s colour"
+msgstr "%s krāsa"
+
+msgid "%s from %s, ±%.0f m"
+msgstr "%s no %s, ±%.0f m"
+
+msgid "12-hour"
+msgstr "12 stundu"
+
+msgid "1× below"
+msgstr "1× zem"
+
+msgid "24-hour"
+msgstr "24 stundu"
+
+msgid "A button to mark every object of the current observing list on the sky."
+msgstr "Poga, lai atzīmētu katru objektu no pašreizējā novērošanas saraksta debesīs."
+
+msgid "A button to toggle ecliptic grid of date"
+msgstr "Poga, lai pārslēgtu datuma ekliptiku tīklu"
+
+msgid "A button to toggle equatorial J2000 grid"
+msgstr "Poga, lai pārslēgtu ekvatoriālo J2000 tīklu"
+
+msgid "A button to toggle galactic grid"
+msgstr "Poga, lai pārslēgtu galaktiskā tīkla displeja"
+
+msgid "A polygonal model for some small moons, asteroids and comets instead of a sphere"
+msgstr "Daudzstūra modelis dažiem maziem mēnešiem, asteroidiem un kometām, nevis sfēra"
+
+msgid "A touch-first planetarium forked from Stellarium, whose astronomy engine it uses unchanged. The interface is new; everything that draws the sky is upstream's work."
+msgstr "Ar skaņu vadīts planetārijs, nodalīts no Stellarium, kura astronomijas dzinēju tas lieto nemainīgs. Saskarne ir jauna; viss, kas zīmē debesis, ir pēctecīga darba."
+
+msgid "Abbreviated names"
+msgstr "Saīsināti nosaukumi"
+
+msgid "About this sky culture"
+msgstr "Par šo debess kultūru"
+
+msgid "Above altitude, °"
+msgstr "Virs augstuma, °"
+
+msgid "Absolute scale"
+msgstr "Absolūtā skala"
+
+msgid "Activate this option to calculate azimuth from south towards west."
+msgstr "Aktivizējiet šo opciju, lai aprēķinātu azimutu no dienvidiem uz rietumiem."
+
+msgid "Active galaxies"
+msgstr "Aktīvās galaktikas"
+
+msgid "Add %s"
+msgstr "Pievienot %s"
+
+msgid "Additional information settings"
+msgstr "Papildu informācijas iestatījumi"
+
+msgid "Adjust brightness to bright objects"
+msgstr "Pielāgot spilgtumu gaišiem objektiem"
+
+msgid "Algol-type eclipsing systems"
+msgstr "Algol tipa saules aptumustas sistēmas"
+
+msgid "Algorithm of ΔT"
+msgstr "ΔT algoritms"
+
+msgid "All IDs"
+msgstr "Visi ID"
+
+msgid "All naked-eye planets"
+msgstr "Visas planētas, ko redzam ar neapbruņotu aci"
+
+msgid "All solar eclipses"
+msgstr "Visi Saules aptumsumi"
+
+msgid "Allow negative hour angles"
+msgstr "Atļaut negatīvos stundu leņķus"
+
+msgid "Allow results outside the recommended time range of the orbital elements"
+msgstr "Atļaut rezultātus ārpus ieteiktā orbītas elementu laika diapazona"
+
+msgid "Almanac"
+msgstr "Almanahs"
+
+msgid "Almanac: Sun, Moon and naked-eye planets"
+msgstr "Almanaks: Saule, Mēness un neapbruņotam acij pieejamas planētas"
+
+msgid "Also find"
+msgstr "Arī atrast"
+
+msgid "Also plot"
+msgstr "Arī zīmēt"
+
+msgid "Also show moons of selected object or planets"
+msgstr "Arī parādīt izvēlētā objekta vai planētu mēnešus"
+
+msgid "Altitude limit, °"
+msgstr "Augstuma ierobežojums, °"
+
+msgid "Altitude vs. Time"
+msgstr "Augstums pret laiku"
+
+msgid "Amount"
+msgstr "Daudzums"
+
+msgid "An observer floats above its planet, so there is nowhere on it to stand. Choose another planet to come back down."
+msgstr "Novērotājs peld virs tā planētas, tāpēc uz tās nav vietas, kur stāvēt. Izvēlieties citu planētu, lai nokļūtu atpakaļ."
+
+msgid "And"
+msgstr "Un"
+
+msgid "And also"
+msgstr "Un arī"
+
+msgid "And the next (years)"
+msgstr "Un nākamais (gadi)"
+
+msgid "Ang. Size"
+msgstr "Leņķ. lielums"
+
+msgid "Angular distance"
+msgstr "Leņķiskais attālums"
+
+msgid "Angular distance between the Moon and selected object"
+msgstr "Leņķiskais attālums starp Mēnesi un izvēlēto objektu"
+
+msgid "Angular distance from the Moon"
+msgstr "Leņķiskais attālums no Mēneša"
+
+msgid "Angular distance from the Moon for second object"
+msgstr "Leņķiskais attālums no Mēneša otrajam objektam"
+
+msgid "Angular distance from the Sun"
+msgstr "Leņķiskais attālums no Saules"
+
+msgid "Angular distance from the Sun for second object"
+msgstr "Leņķiskais attālums no Saules otrajam objektam"
+
+msgid "Angular size"
+msgstr "Leņķiskais izmērs"
+
+msgid "Annual drift"
+msgstr "Gadskārtējā novirze"
+
+msgid "Antisolar point"
+msgstr "Pretsolārais punkts"
+
+msgid "Apex points"
+msgstr "Virsotnes punkti"
+
+msgid "Aphelion"
+msgstr "Afēlijs"
+
+msgid "Appearance"
+msgstr "Izskats"
+
+msgid "Apply"
+msgstr "Lietot"
+
+msgid "Apply time interval limits to list"
+msgstr "Lietot laika intervāla ierobežojumus sarakstam"
+
+msgid "Art"
+msgstr "Māksla"
+
+msgid "Artificial satellites and unnamed stars are excluded from calculation."
+msgstr "Mākslīgie satelīti un nosauktās zvaigznes ir izslēgti no aprēķina."
+
+msgid "Asking for permission…"
+msgstr "Lūgšana atļaujas…"
+
+msgid "Asks SIMBAD what it holds around the object that is selected now, and prints the answer as it comes back."
+msgstr "Jautā SIMBAD, ko tas satur ap pašreiz izvēlēto objektu, un izdrukā atbildi, kad tā atgriežas."
+
+msgid "Ast. lines"
+msgstr "Zvz. līn."
+
+msgid "Ast. names"
+msgstr "Zvz. nos."
+
+msgid "Asterism labels"
+msgstr "Zvaigznājuma apzīmējumi"
+
+msgid "Asterism lines"
+msgstr "Zvaigznājuma līnijas"
+
+msgid "Asterisms"
+msgstr "Zvaigznājumi"
+
+msgid "Asterisms font size"
+msgstr "Zvaigznājumu fonta lielums"
+
+msgid "Astronomical Almanac (1984)"
+msgstr "Astronomiskais almanahs (1984)"
+
+msgid "Astronomical Almanac (default) enlarges by 2%; Danjon (1951) differs slightly"
+msgstr "Astronomiskā almanaķa (noklusējums) palielina par 2%; Danjon (1951) atšķiras nedaudz"
+
+msgid "Astronomical Twilight"
+msgstr "Astronomiskais krēpusklis"
+
+msgid "Astronomical calculations"
+msgstr "Astronomiskajiem aprēķiniem"
+
+msgid "Astronomical night"
+msgstr "Astronomiskā nakts"
+
+msgid "At"
+msgstr "Pie"
+
+msgid "Atmosph."
+msgstr "Atmosf."
+
+msgid "Atmosphere visualization"
+msgstr "Atmosfēras vizualizācija"
+
+msgid "Automatic closing dialog"
+msgstr "Automātiska aizvēršanas dialogs"
+
+msgid "Automatic transparency"
+msgstr "Automātisks caurspīdīgums"
+
+msgid "Axis distance"
+msgstr "Ass attālums"
+
+msgid "Azi. grid"
+msgstr "Azim. tīkls"
+
+msgid "Azimuth and altitude rather than right ascension and declination"
+msgstr "Azimuts un augstums, nevis labā pacelšanās un deklinācija"
+
+msgid "Azimuth from South"
+msgstr "Azimuts no dienvidiem"
+
+msgid "Azimuth vs. Time"
+msgstr "Azimuts pret laiku"
+
+msgid "Back"
+msgstr "Atpakaļ"
+
+msgid "Bad visibility conditions for current location"
+msgstr "Sliktie redzamības apstākļi pašreizējā atrašanās vietā"
+
+msgid "Beginning of center line; central eclipse begins"
+msgstr "Centra līnijas sākums; centrālais aptumsums sākas"
+
+msgid "Below the horizon here."
+msgstr "Zem horizonta šeit."
+
+msgid "Between objects"
+msgstr "Starp objektiem"
+
+msgid "Blue"
+msgstr "Zils"
+
+msgid "Boundless"
+msgstr "Bezgalīgs"
+
+msgid "Bounds"
+msgstr "Robežas"
+
+msgid "Bright Solar system objects (<%1 mag)"
+msgstr "Spilgti Saules sistēmas objekti (<%1 mag)"
+
+msgid "Bright barium stars"
+msgstr "Spilgtas bārija zvaigznes"
+
+msgid "Bright carbon stars"
+msgstr "Spilgtas oglekļa zvaigznes"
+
+msgid "Bright double stars"
+msgstr "Spilgtas dubultzvaigznes"
+
+msgid "Bright double stars (<%1 mag)"
+msgstr "Spilgtas dubultzvaigznes (<%1 mag)"
+
+msgid "Bright galaxies (<%1 mag)"
+msgstr "Spilgtas galaktikas (<%1 mag)"
+
+msgid "Bright nebulae"
+msgstr "Spilgtas miglājas"
+
+msgid "Bright nebulae (<%1 mag)"
+msgstr "Spilgtas miglājas (<%1 mag)"
+
+msgid "Bright nova stars"
+msgstr "Spilgtas nova zvaigznes"
+
+msgid "Bright star clusters (<%1 mag)"
+msgstr "Spilgti zvaigžņu kopumi (<%1 mag)"
+
+msgid "Bright stars"
+msgstr "Spilgtas zvaigznes"
+
+msgid "Bright stars (<%1 mag)"
+msgstr "Spilgtas zvaigznes (<%1 mag)"
+
+msgid "Bright stars with high proper motion"
+msgstr "Spilgtas zvaigznes ar lielu īpašo kustību"
+
+msgid "Bright supernova stars"
+msgstr "Spilgtas supernova zvaigznes"
+
+msgid "Bright variable stars"
+msgstr "Spilgtas mainīgas zvaigznes"
+
+msgid "Bright variable stars (<%1 mag)"
+msgstr "Spilgtas mainīgas zvaigznes (<%1 mag)"
+
+msgid "Brighter than"
+msgstr "Spilgtāks nekā"
+
+msgid "Brightness"
+msgstr "Spilgtums"
+
+msgid "By object type"
+msgstr "Pēc objekta veida"
+
+msgid "By planet"
+msgstr "Pēc planētas"
+
+msgid "Calculate"
+msgstr "Aprēķināt"
+
+msgid "Calculating…"
+msgstr "Aprēķinot…"
+
+msgid "Caldwell objects"
+msgstr "Kaldvela objekti"
+
+msgid "Cardinals"
+msgstr "Debespuses"
+
+msgid "Catalogue numbers instead of common names"
+msgstr "Kataloga numuri, nevis vispārpieņemtie nosaukumi"
+
+msgid "Category"
+msgstr "Kategorija"
+
+msgid "Celestial body"
+msgstr "Debess ķermenis"
+
+msgid "Celestial poles (J2000)"
+msgstr "Debess poli (J2000)"
+
+msgid "Celestial poles (of date)"
+msgstr "Debess poli (no datuma)"
+
+msgid "Center of FOV"
+msgstr "FOV centrs"
+
+msgid "Centering button"
+msgstr "Centrēšanas poga"
+
+msgid "Central duration"
+msgstr "Centrālā ilgums"
+
+msgid "Central eclipse begins"
+msgstr "Centrālais aptumsums sākas"
+
+msgid "Central eclipse ends"
+msgstr "Centrālais aptumsums beidzas"
+
+msgid "Centre"
+msgstr "Centrs"
+
+msgid "Centre on object"
+msgstr "Centrēt objektam"
+
+msgid "Centre point"
+msgstr "Centrālais punkts"
+
+msgid "Circles"
+msgstr "Aprindas"
+
+msgid "Circular FOV"
+msgstr "Apļveida FOV"
+
+msgid "Circumpolar circles"
+msgstr "Zvaigžņu apaļo aprindas"
+
+msgid "City"
+msgstr "Pilsēta"
+
+msgid "Civil Twilight"
+msgstr "Civila krēpusklis"
+
+msgid "Cleanup"
+msgstr "Tīrīšana"
+
+msgid "Clear"
+msgstr "Notīrīt"
+
+msgid "Clear recent searches"
+msgstr "Notīrīt nesenās meklēšanas"
+
+msgid "Clear the selection - a touch screen has no right button"
+msgstr "Notīrīt atlasi - pieskares ekrānam nav labās pogas"
+
+msgid "Cleared."
+msgstr "Notīrīts."
+
+msgid "Click on star to show its constellation"
+msgstr "Noklikšķiniet uz zvaigznes, lai parādītu tās zvaigznāju"
+
+msgid "Close"
+msgstr "Aizvērt"
+
+msgid "Close what is open; from the sky, leave the app running"
+msgstr "Aizvērt atvērtās datus; no debesīm, atstāt lietotni darbībā"
+
+msgid "Clusters of galaxies"
+msgstr "Galaktiku kopumi"
+
+msgid "Coarse"
+msgstr "Rupjš"
+
+msgid "Color"
+msgstr "Krāsa"
+
+msgid "Color channel"
+msgstr "Krāsu kanāls"
+
+msgid "Color of Lunar station lines"
+msgstr "Mēness stacijas līniju krāsa"
+
+msgid "Color of asterism lines"
+msgstr "Zvaigznājuma līniju krāsa"
+
+msgid "Color of asterism names"
+msgstr "Zvaigznājuma nosaukumu krāsa"
+
+msgid "Color of constellation boundaries"
+msgstr "Zvaigznāju robežu krāsa"
+
+msgid "Color of constellation lines"
+msgstr "Zvaigznāju līniju krāsa"
+
+msgid "Color of constellation names"
+msgstr "Zvaigznāju nosaukumu krāsa"
+
+msgid "Color of nomenclature labels"
+msgstr "Nomenklatūras apzīmējumu krāsa"
+
+msgid "Color of orbits"
+msgstr "Orbītu krāsa"
+
+msgid "Color of planet labels"
+msgstr "Planētu apzīmējumu krāsa"
+
+msgid "Color of ray helpers"
+msgstr "Stara palīgu krāsa"
+
+msgid "Color of trails"
+msgstr "Seku krāsa"
+
+msgid "Color of zodiac lines"
+msgstr "Zodiaka līniju krāsa"
+
+msgid "Colors of orbit lines"
+msgstr "Orbītas līniju krāsas"
+
+msgid "Colures"
+msgstr "Kolūras"
+
+msgid "Comets up to mag."
+msgstr "Komētas līdz mag."
+
+msgid "Compass"
+msgstr "Kompasa"
+
+msgid "Compass marks"
+msgstr "Kompasa atzīmes"
+
+msgid "Config"
+msgstr "Konfigurācija"
+
+msgid "Configure colors of markers"
+msgstr "Konfigurēt marķieru krāsas"
+
+msgid "Configure colors of orbit lines"
+msgstr "Konfigurēt orbītas līniju krāsas"
+
+msgid "Conjunction"
+msgstr "Konjunkcija"
+
+msgid "Connecting line"
+msgstr "Savienojuma līnija"
+
+msgid "Const."
+msgstr "Zvgz."
+
+msgid "Constellations font size"
+msgstr "Zvaigznāju fonta lielums"
+
+msgid "Contrast"
+msgstr "Kontrasts"
+
+msgid "Coordinate system"
+msgstr "Koordinātu sistēma"
+
+msgid "Coordinates"
+msgstr "Koordinātes"
+
+msgid "Copyright"
+msgstr "Autortiesības"
+
+msgid "Credits"
+msgstr "Atzinības"
+
+msgid "Cubewanos"
+msgstr "Kubevano objekti"
+
+msgid "Culmination altitude"
+msgstr "Kulminācijas augstums"
+
+msgid "Current FoV"
+msgstr "Pašreizējais FOV"
+
+msgid "Custom"
+msgstr "Pielāgots"
+
+msgid "Custom FoV limit"
+msgstr "Pielāgots FOV ierobežojums"
+
+msgid "Custom altitude of the Moon, °"
+msgstr "Pielāgots Mēness augstums, °"
+
+msgid "Custom altitude of the Sun, °"
+msgstr "Pielāgots Saules augstums, °"
+
+msgid "Custom settings for position of GRS"
+msgstr "Pielāgoti GRS pozīcijas iestatījumi"
+
+msgid "Custom values"
+msgstr "Pielāgotas vērtības"
+
+msgid "Cut the scale off below the limit"
+msgstr "Nogriezt skalu zem ierobežojuma"
+
+msgid "DATE AND TIME (UTC)"
+msgstr "DATUMS UN LAIKS (UTC)"
+
+msgid "DSS survey"
+msgstr "DSS apsekojums"
+
+msgid "Dark nebulae"
+msgstr "Tumšās miglājas"
+
+msgid "Data"
+msgstr "Dati"
+
+msgid "Date"
+msgstr "Datums"
+
+msgid "Date and time"
+msgstr "Datums un laiks"
+
+msgid "Date/time"
+msgstr "Datums/laiks"
+
+msgid "Dates"
+msgstr "Datumi"
+
+msgid "Dawn"
+msgstr "Rīta pavēle"
+
+msgid "Dbl. stars"
+msgstr "Dub. zvaigznes"
+
+msgid "Dec (J2000)"
+msgstr "Dek. (J2000)"
+
+msgid "December solstice"
+msgstr "Ziemas saulgriežu"
+
+msgid "Decimal degrees. −33.87 means 33.87° south. Elevation is metres above sea level; it moves the horizon down by a few arcminutes."
+msgstr "Decimālie grādi. −33.87 nozīmē 33.87° dienvidos. Augstums ir metri virs jūras līmeņa; tas pārvieto horizontu par dažiem loka minūtēm."
+
+msgid "Declination"
+msgstr "Deklinācija"
+
+msgid "Deep Sky"
+msgstr "Padziļ debes"
+
+msgid "Deep-sky objects"
+msgstr "Dziļās debesīs objekti"
+
+msgid "Degrees per year the longitude moves by"
+msgstr "Grādi gadā, par kuriem garums pārvietojas"
+
+msgid "Degrees, hours and minutes as they are written - 12h30m49s, +41°16'09\", 187.7 - or plain decimal degrees."
+msgstr "Grādi, stundas un minūtes, kā tās ir rakstītas - 12h30m49s, +41°16'09\", 187.7 - vai vienkāršie decimālie grādi."
+
+msgid "Deletes all recent search object data, and the objects SIMBAD contributed."
+msgstr "Izdzēš visus nesenos meklēšanas objekta datus un objektus, kurus iesniegza SIMBAD."
+
+msgid "Designations for celestial coordinate systems"
+msgstr "Apzīmējumi debess koordinātu sistēmām"
+
+msgid "Designations for double stars"
+msgstr "Apzīmējumi dubultiem zvaigznēm"
+
+msgid "Designations for variable stars"
+msgstr "Apzīmējumi mainīgiem zvaigznēm"
+
+msgid "Dim a survey near the horizon, as the air does"
+msgstr "Apsekojuma tumšošana tuvu horizontam, kā to dara gaiss"
+
+msgid "Dimensions"
+msgstr "Izmēri"
+
+msgid "Display formats of date and time"
+msgstr "Datuma un laika displeja formāti"
+
+msgid "Display objects from catalogs"
+msgstr "Attēlot objektus no katalogiem"
+
+msgid "Displayed"
+msgstr "Attēlots"
+
+msgid "Dist."
+msgstr "Att."
+
+msgid "Distance, AU"
+msgstr "Attālums, AU"
+
+msgid "Done"
+msgstr "Izdarīts"
+
+msgid "Drag"
+msgstr "Vilkt"
+
+msgid "Draw deep-sky objects at all"
+msgstr "Zīmēt padziļas debess objektus visu laiku"
+
+msgid "Draw only polygon"
+msgstr "Zīmēt tikai daudzstūri"
+
+msgid "Draw the enabled sky surveys"
+msgstr "Zīmēt iespējotus debesu apsekojumus"
+
+msgid "Draw the planets, moons and minor bodies"
+msgstr "Zīmēt planētas, mēnešus un mazos ķermeņus"
+
+msgid "Drawn larger than life, so a body that is a few arcseconds wide is visible at all. The position stays true."
+msgstr "Zīmēti lielāki par dzīvi, tāpēc ķermenis, kas ir dažas loka sekundes plats, ir redzams. Pozīcija paliek pareiza."
+
+msgid "Duration"
+msgstr "Ilgums"
+
+msgid "Duration (years)"
+msgstr "Ilgums (gadi)"
+
+msgid "Duration, months"
+msgstr "Ilgums, mēneši"
+
+msgid "Dusk"
+msgstr "Vakara krēpusklis"
+
+msgid "Dwarf planets"
+msgstr "Pundurplanētas"
+
+msgid "Dynamic (FOV-based) Moon size"
+msgstr "Dinamisks (uz FOV balstīts) Mēness lielums"
+
+msgid "Earth"
+msgstr "Zeme"
+
+msgid "Earth penumbra"
+msgstr "Zemes penumbra"
+
+msgid "Earth shadow enlargement after Danjon"
+msgstr "Zemes ēnas paplašināšana pēc Danjon"
+
+msgid "Earth umbra"
+msgstr "Zemes umbra"
+
+msgid "Eastern quadrature"
+msgstr "Austrumu kvadratūra"
+
+msgid "Ecl. grid"
+msgstr "Ekl. tīkls"
+
+msgid "Eclipse"
+msgstr "Aptumsums"
+
+msgid "Eclipse begins; first contact with Earth"
+msgstr "Aptumsums sākas; pirmais kontakts ar Zemi"
+
+msgid "Eclipse ends; last contact with Earth"
+msgstr "Aptumsums beidzas; pēdējais kontakts ar Zemi"
+
+msgid "Eclipse magnitude"
+msgstr "Aptumsuma lielums"
+
+msgid "Eclipses"
+msgstr "Aptumsumi"
+
+msgid "Eclipses are computed for observers on Earth."
+msgstr "Aptumsumi tiek aprēķināti novērotājiem uz Zemes."
+
+msgid "Ecliptic"
+msgstr "Ekliptika"
+
+msgid "Ecliptic (J2000)"
+msgstr "Ekliptika (J2000)"
+
+msgid "Ecliptic (J2000.0)"
+msgstr "Ekliptika (J2000.0)"
+
+msgid "Ecliptic (of date)"
+msgstr "Ekliptika (no datuma)"
+
+msgid "Ecliptic grid"
+msgstr "Ekliptikas tīkls"
+
+msgid "Ecliptic grid (J2000)"
+msgstr "Ekliptikas tīkls (J2000)"
+
+msgid "Ecliptic grid (of date)"
+msgstr "Ekliptikas tīkls (no datuma)"
+
+msgid "Ecliptic poles (J2000)"
+msgstr "Ekliptikas poli (J2000)"
+
+msgid "Ecliptic poles (of date)"
+msgstr "Ekliptikas poli (no datuma)"
+
+msgid "Elev."
+msgstr "Aug."
+
+msgid "Elevation"
+msgstr "Augstums"
+
+msgid "Elevation in metres"
+msgstr "Augstums metros"
+
+msgid "Elong."
+msgstr "Elon."
+
+msgid "Elongation"
+msgstr "Elongācija"
+
+msgid "Elongations and quadratures"
+msgstr "Pagarinājumi un kvadratūras"
+
+msgid "Emission-line stars"
+msgstr "Emisijas līniju zvaigznes"
+
+msgid "Enabled only"
+msgstr "Tikai iespējots"
+
+msgid "End of center line; central eclipse ends"
+msgstr "Centra līnijas beigas; centrālais aptumsums beidzas"
+
+msgid "Enter Culture..."
+msgstr "Ievadīt kultūru..."
+
+msgid "Ephemeris"
+msgstr "Efemeride"
+
+msgid "Equ. grid"
+msgstr "Ekv. tīkls"
+
+msgid "Equ. mount"
+msgstr "Ekv. mont."
+
+msgid "Equator (J2000)"
+msgstr "Ekvators (J2000)"
+
+msgid "Equator (of date)"
+msgstr "Ekvators (no datuma)"
+
+msgid "Equatorial (J2000.0)"
+msgstr "Ekvatoriāls (J2000.0)"
+
+msgid "Equatorial grid (J2000)"
+msgstr "Ekvatoriālais tīkls (J2000)"
+
+msgid "Equatorial grid (of date)"
+msgstr "Ekvatoriālais tīkls (no datuma)"
+
+msgid "Equatorial radii ratio"
+msgstr "Ekvatorālo rādiusu attiecība"
+
+msgid "Equinoxes (J2000)"
+msgstr "Ekvinoccijas (J2000)"
+
+msgid "Equinoxes (of date)"
+msgstr "Ekvinoccijas (no datuma)"
+
+msgid "Evening"
+msgstr "Vakars"
+
+msgid "Every"
+msgstr "Katrs"
+
+msgid "Every name the object is catalogued under"
+msgstr "Katrs nosaukums, zem kura objekts ir katalogizēts"
+
+msgid "Exoplanetary systems"
+msgstr "Eksoplanētu sistēmas"
+
+msgid "Explanatory Supplement (1992)"
+msgstr "Paskaidrojošais Pielikums (1992)"
+
+msgid "Explanatory Supplement (2013)"
+msgstr "Paskaidrojošais Pielikums (2013)"
+
+msgid "Exterior egress"
+msgstr "Ārējā izeju"
+
+msgid "Exterior ingress"
+msgstr "Ārējais ienākums"
+
+msgid "Extras"
+msgstr "Papildu"
+
+msgid "Fades the ground as you look below the horizon or zoom in"
+msgstr "Izgaisina zemi, kad skatāties zem horizonta vai tuvināt"
+
+msgid "Fading duration"
+msgstr "Blaušanas ilgums"
+
+msgid "Faintest shown"
+msgstr "Visblāvākā parādīta"
+
+msgid "Favorites"
+msgstr "Favorīti"
+
+msgid "Fetching the survey lists…"
+msgstr "Iegūst apsekojuma sarakstus…"
+
+msgid "Field of view"
+msgstr "Skata lauks"
+
+msgid "Filter"
+msgstr "Filtrs"
+
+msgid "Filter by type"
+msgstr "Filtrēt pēc tipa"
+
+msgid "Find a city"
+msgstr "Atrast pilsētu"
+
+msgid "Fine"
+msgstr "Smalks"
+
+msgid "First %d of %d - filter to narrow it."
+msgstr "Pirmais %d no %d - filtrēt, lai to sašaurinātu."
+
+msgid "First body"
+msgstr "Pirmais ķermenis"
+
+msgid "First celestial body"
+msgstr "Pirmais debess ķermenis"
+
+msgid "First graph"
+msgstr "Pirmais grafiks"
+
+msgid "Fix"
+msgstr "Fiksēt"
+
+msgid "Fixed Equator"
+msgstr "Fiksēts ekvators"
+
+msgid "Fixed Equatorial grid"
+msgstr "Fiksēts ekvatoriālais tīkls"
+
+msgid "Fixed instant"
+msgstr "Fiksēts brīdis"
+
+msgid "Flip buttons"
+msgstr "Pārvērt pogas"
+
+msgid "Flip horiz."
+msgstr "Apv. horiz."
+
+msgid "Flip vert."
+msgstr "Apv. vert."
+
+msgid "Font size"
+msgstr "Šrifta lielums"
+
+msgid "Frame rate"
+msgstr "Kadru ātrums"
+
+msgid "From"
+msgstr "No"
+
+msgid "From year"
+msgstr "No gada"
+
+msgid "Full screen"
+msgstr "Pilnekrāna"
+
+msgid "Fullscreen button"
+msgstr "Pilnekrāna poga"
+
+msgid "Further reading"
+msgstr "Turpmāka lasīšana"
+
+msgid "GRS details…"
+msgstr "GRS detaļas…"
+
+msgid "Gal. grid"
+msgstr "Gal. tīkls"
+
+msgid "Galactic center and anticenter"
+msgstr "Galaktikas centrs un anticentrs"
+
+msgid "Galactic poles"
+msgstr "Galaktikas poli"
+
+msgid "Gamma, saturation, brightness, contrast, opacity, colour channel and inverted colours belong to one survey. Open a survey to set them."
+msgstr "Gamma, piesātinājums, spilgtums, kontrasts, necaurredzamība, krāsu kanāls un invertētās krāsas pieder vienam apsekojumam. Atveriet apsekojumu, lai tos iestatītu."
+
+msgid "Generic"
+msgstr "Vispārējs"
+
+msgid "Gestures"
+msgstr "Žesti"
+
+msgid "Globular star clusters"
+msgstr "Globulāri zvaigžņu kopumi"
+
+msgid "Go there"
+msgstr "Aiziet tur"
+
+msgid "Go to position"
+msgstr "Doties uz pozīciju"
+
+msgid "Go to this eclipse"
+msgstr "Doties uz šo aptumsumu"
+
+msgid "Go to this moment"
+msgstr "Doties uz šo brīdi"
+
+msgid "Go to this transit"
+msgstr "Doties uz šo pāreju"
+
+msgid "Good visibility conditions for current location"
+msgstr "Labas redzamības apstākļi pašreizējā atrašanās vietā"
+
+msgid "Graphs"
+msgstr "Grafiki"
+
+msgid "Great Red Spot"
+msgstr "Lielais sarkais plankums"
+
+msgid "Great Red Spot details"
+msgstr "Lielā sarkā plankuma detaļas"
+
+msgid "Greatest eastern elongation"
+msgstr "Lielākā austrumu elongācija"
+
+msgid "Greatest eclipse"
+msgstr "Lielākais aptumsums"
+
+msgid "Greatest elongation for an inner planet, quadrature for an outer one"
+msgstr "Lielākais attālums iekšējam planētam, kvadratūra ārējam"
+
+msgid "Greatest western elongation"
+msgstr "Lielākā rietumu elongācija"
+
+msgid "Greek letters"
+msgstr "Grieķu burti"
+
+msgid "Greek letters for Bayer designations"
+msgstr "Grieķu burti Beiera simboliem"
+
+msgid "Green"
+msgstr "Zaļa"
+
+msgid "Grid density"
+msgstr "Tīkla blīvums"
+
+msgid "Grids"
+msgstr "Tīkli"
+
+msgid "Ground"
+msgstr "Apvārsnis"
+
+msgid "Gyro"
+msgstr "Žiroskops"
+
+msgid "Gyro mode"
+msgstr "Žiroskopa režīms"
+
+msgid "Harvard-Smithsonian Center for Astrophysics (USA)"
+msgstr "Harvard-Smithsonian astrofīzikas centrs (ASV)"
+
+msgid "Height"
+msgstr "Augstums"
+
+msgid "Heliocentric distance"
+msgstr "Heliocentriskais attālums"
+
+msgid "Heliocentric ecliptic positions of the major planets."
+msgstr "Heliocentriskās ekliptiskās pozīcijas galvenajām planētām."
+
+msgid "Herschel 400 objects"
+msgstr "Herschel 400 objekti"
+
+msgid "HiPS"
+msgstr "HiPS"
+
+msgid "HiPS Surveys"
+msgstr "HiPS apsekojumi"
+
+msgid "Hide controls"
+msgstr "Slēpt vadības elementus"
+
+msgid "Hide deep-sky objects fainter than the limit"
+msgstr "Slēpt padziļinātā debesu objektus, kas ir vājāki par limitu"
+
+msgid "Hide nomenclature on the celestial body of observer"
+msgstr "Slēpt nomenklatūru uz debess ķermeņa, kurā atrodas novērotājs"
+
+msgid "Hide orbits of minor bodies"
+msgstr "Slēpt mazo ķermeņu orbītas"
+
+msgid "Highlight"
+msgstr "Izcelt"
+
+msgid "Highlight the objects of the observing list"
+msgstr "Izcelt novērojumu saraksta objektus"
+
+msgid "Hint circles marking each planet"
+msgstr "Padomu apļi, kas atzīmē katru planētu"
+
+msgid "Hints"
+msgstr "Padomi"
+
+msgid "Hints brightness"
+msgstr "Padomu spilgtums"
+
+msgid "Hipparcos designations"
+msgstr "Hiparka simboli"
+
+msgid "Hour angles usually run 0...24h. This counts -12h...12h."
+msgstr "Stundu leņķi parasti iet no 0 līdz 24h. Šis skaitās no -12h līdz 12h."
+
+msgid "How many"
+msgstr "Cik daudz"
+
+msgid "ICRS grid"
+msgstr "ICRS tīkls"
+
+msgid "Include"
+msgstr "Iekļaut"
+
+msgid "Include bright comets"
+msgstr "Iekļaut spožas komētas"
+
+msgid "Include selected minor planets"
+msgstr "Iekļaut izvēlētās mazās planētas"
+
+msgid "Inferior conjunction"
+msgstr "Lejusā konjunkcija"
+
+msgid "Info label"
+msgstr "Informācijas etikete"
+
+msgid "Interacting galaxies"
+msgstr "Mijiedarbīgās galaktikas"
+
+msgid "Intercardinal points"
+msgstr "Starppusēs"
+
+msgid "Interior egress"
+msgstr "Iekšējā iziešana"
+
+msgid "Interior ingress"
+msgstr "Iekšējā ieiešana"
+
+msgid "Interstellar objects"
+msgstr "Starpzvaigžņu objekti"
+
+msgid "Invariable plane of the Solar system"
+msgstr "Nemainīgā Saules sistēmas plakne"
+
+msgid "Isolated"
+msgstr "Izolēts"
+
+msgid "Its elevation, and the civil, nautical and astronomical twilights"
+msgstr "Tā augstums un civilie, jūrnieciskie un astronomiskie krēslas"
+
+msgid "Jovigraphic longitude of the spot in System II, in degrees"
+msgstr "Jovigrāfiskais punkta garums II sistēmā, grādos"
+
+msgid "Julian day"
+msgstr "Juliāna diena"
+
+msgid "June solstice"
+msgstr "Vasaras saulgriežu"
+
+msgid "Label"
+msgstr "Etikete"
+
+msgid "Label colour"
+msgstr "Etiķetes krāsa"
+
+msgid "Label only features along the terminator"
+msgstr "Etiķetes tikai objektiem pie terminatora"
+
+msgid "Labels and Markers amount"
+msgstr "Etiķešu un apzīmējumu skaits"
+
+msgid "Labels brightness"
+msgstr "Etiķešu spilgtums"
+
+msgid "Landscape labels"
+msgstr "Ainavas etiķetes"
+
+msgid "Largest, ′"
+msgstr "Lielākais, ′"
+
+msgid "Last known position"
+msgstr "Pēdējā zināmā pozīcija"
+
+msgid "Lasting"
+msgstr "Ilgstošs"
+
+msgid "Latest selected object"
+msgstr "Pēdējais izvēlētais objekts"
+
+msgid "Latitude −90…90, longitude −180…180."
+msgstr "Platums −90…90, garums −180…180."
+
+msgid "Layer appearance"
+msgstr "Slāņa izskats"
+
+msgid "Leaves the landscape visible in darkness"
+msgstr "Atstāj ainavu redzamu tumsā"
+
+msgid "Light pollution"
+msgstr "Gaismas piesārņojums"
+
+msgid "Light pollution from database"
+msgstr "Gaismas piesārņojums no datu bāzes"
+
+msgid "Limit angular separation"
+msgstr "Ierobežot leņķisko atdalīšanu"
+
+msgid "Limit angular size"
+msgstr "Ierobežot leņķisko izmēru"
+
+msgid "Limit magnitude"
+msgstr "Ierobežot zvaigžņlielumu"
+
+msgid "Limit the magnitude of solar system objects"
+msgstr "Ierobežot Saules sistēmas objektu zvaigžņlielumu"
+
+msgid "Line"
+msgstr "Līnija"
+
+msgid "Line thickness"
+msgstr "Līnijas biezums"
+
+msgid "Linear and angular distances between selected objects"
+msgstr "Lineārie un leņķiskie attālumi starp izvēlētiem objektiem"
+
+msgid "Linear distance"
+msgstr "Lineārais attālums"
+
+msgid "Lines"
+msgstr "Līnijas"
+
+msgid "Lines and circles"
+msgstr "Līnijas un apļi"
+
+msgid "List"
+msgstr "Saraksts"
+
+msgid "List name"
+msgstr "Saraksta nosaukums"
+
+msgid "Lit windows, street lighting and the like"
+msgstr "Apgaismoti logi, ielas apgaismojums un līdzīgi"
+
+msgid "Loading…"
+msgstr "Ielāde…"
+
+msgid "Local Mean Solar Time"
+msgstr "Lokālais vidējais Saules laiks"
+
+msgid "Local Time"
+msgstr "Vietējais laiks"
+
+msgid "Local True Solar Time"
+msgstr "Lokālais patiess Saules laiks"
+
+msgid "Local solar eclipses"
+msgstr "Lokālā saules aptumsumi"
+
+msgid "Local time"
+msgstr "Lokālais laiks"
+
+msgid "Local time, h"
+msgstr "Lokālais laiks, h"
+
+msgid "Locate me"
+msgstr "Atrast mani"
+
+msgid "Locating…"
+msgstr "Atrod…"
+
+msgid "Location from landscape"
+msgstr "Atrašanās vieta no ainavas"
+
+msgid "Location is switched off in the system settings."
+msgstr "Atrašanās vieta ir izslēgta sistēmas iestatījumos."
+
+msgid "Location permission refused. The other two ways still work."
+msgstr "Atrašanās vietas atļauja ir noraidīta. Pārējie divi veidi joprojām darbojas."
+
+msgid "Lock position when coordinates are used"
+msgstr "Bloķēt pozīciju, izmantojot koordinātes"
+
+msgid "Long press"
+msgstr "Ilgais piespiešanai"
+
+msgid "Longitude of GRS"
+msgstr "GRS garums"
+
+msgid "Lunar Elongation"
+msgstr "Mēness attālums"
+
+msgid "Lunar Stations"
+msgstr "Mēness stacijas"
+
+msgid "Lunar eclipses"
+msgstr "Mēness aptumsumi"
+
+msgid "Lunar elongation"
+msgstr "Mēness attālums"
+
+msgid "Magnitudes"
+msgstr "Zvaigžņlielumi"
+
+msgid "Major planets"
+msgstr "Galvenās planētas"
+
+msgid "Major planets by planet, minor bodies by type"
+msgstr "Galvenās planētas pēc planētas, mazi ķermeņi pēc tipa"
+
+msgid "Map of the planet. Tap to set the observer's place."
+msgstr "Planētas karte. Pieskarieties, lai iestatītu novērotāja vietu."
+
+msgid "March equinox"
+msgstr "Pavasara ekvinokcija"
+
+msgid "Mark impact features with ellipses"
+msgstr "Atzīmēt trieciena zīmes ar elipsēm"
+
+msgid "Mark minor bodies"
+msgstr "Atzīmēt mazos ķermeņus"
+
+msgid "Markers"
+msgstr "Apzīmējumi"
+
+msgid "Markers sized by the object's angular size"
+msgstr "Apzīmējumi, kuru izmērs ir objekta leņķiskais izmērs"
+
+msgid "Master switch for the grids, lines and points below"
+msgstr "Galvenais slēdzis tīkliem, līnijām un punktiem zemāk"
+
+msgid "Max"
+msgstr "Maks."
+
+msgid "Max items to display"
+msgstr "Maksimāli parādāmie elementi"
+
+msgid "Max. results"
+msgstr "Maks. rezultāti"
+
+msgid "Max. search radius"
+msgstr "Maks. meklēšanas rādiuss"
+
+msgid "Maximum Solar altitude"
+msgstr "Maksimālais Saules augstums"
+
+msgid "Maximum allowed separation"
+msgstr "Maksimālā atļautā atdalīšana"
+
+msgid "Maximum angular size"
+msgstr "Maksimālais leņķiskais izmērs"
+
+msgid "Maximum eclipse"
+msgstr "Maksimālais aptumsums"
+
+msgid "Maximum year"
+msgstr "Maksimālais gads"
+
+msgid "Mean motion"
+msgstr "Vidējā kustība"
+
+msgid "Mercury, Venus, Mars, Jupiter and Saturn at once. Earth only."
+msgstr "Merkurs, Venera, Marss, Jupiters un Saturns vienlaicīgi. Tikai Zeme."
+
+msgid "Messier objects"
+msgstr "Mesje objekti"
+
+msgid "Mid-transit"
+msgstr "Vidējā pāreja"
+
+msgid "Milky Way brightness"
+msgstr "Piena Ceļa spilgtums"
+
+msgid "Milky Way saturation"
+msgstr "Piena Ceļa piesātinājums"
+
+msgid "Min"
+msgstr "Min."
+
+msgid "Minimal angular size"
+msgstr "Minimālais leņķiskais izmērs"
+
+msgid "Minimal brightness"
+msgstr "Minimālais spilgtums"
+
+msgid "Minimum Solar altitude"
+msgstr "Minimālais Saules augstums"
+
+msgid "Minimum year"
+msgstr "Minimālais gads"
+
+msgid "Minor bodies"
+msgstr "Mazi ķermeņi"
+
+msgid "Minutes before sunrise / after sunset"
+msgstr "Minūtes pirms sauleslaida / pēc saulrieta"
+
+msgid "Month"
+msgstr "Mēnesis"
+
+msgid "Monthly Elevation"
+msgstr "Mēneša pacēlums"
+
+msgid "Moon at"
+msgstr "Mēness pie"
+
+msgid "Moon enters penumbra"
+msgstr "Mēness ieiet daļpenumbrā"
+
+msgid "Moon enters umbra"
+msgstr "Mēness ieiet umbrā"
+
+msgid "Moon in zenith at"
+msgstr "Mēness zenītā plkst."
+
+msgid "Moon leaves penumbra"
+msgstr "Mēness atstāj daļpenumbrā"
+
+msgid "Moon leaves umbra"
+msgstr "Mēness atstāj umbrā"
+
+msgid "Moon's halo"
+msgstr "Mēness aureole"
+
+msgid "Moons of first body"
+msgstr "Pirmā ķermeņa mēness"
+
+msgid "Morning"
+msgstr "Rīts"
+
+msgid "Morph. Descr."
+msgstr "Morph. Apraksts"
+
+msgid "Morphological description"
+msgstr "Morfoloģiskais apraksts"
+
+msgid "Move the sky by pointing the phone at it"
+msgstr "Pārvietot debesīs, norādot uz tām ar tālruni"
+
+msgid "Move the sky with the phone"
+msgstr "Pārvietot debesīs ar tālruni"
+
+msgid "NGC/IC objects"
+msgstr "NGC/IC objekti"
+
+msgid "Name for the new list"
+msgstr "Nosaukums jaunajam sarakstam"
+
+msgid "Named features the landscape marks"
+msgstr "Nosauktie objekti, ko atzīmē ainava"
+
+msgid "Names"
+msgstr "Nosaukumi"
+
+msgid "Names beside the planets and their markers"
+msgstr "Nosaukumi blakus planētām un to apzīmējumiem"
+
+msgid "Names in English"
+msgstr "Nosaukumi angļu valodā"
+
+msgid "Nautical Twilight"
+msgstr "Jūrnieka krēpusklis"
+
+msgid "Neb. bg"
+msgstr "Migl. fons"
+
+msgid "Nebula background"
+msgstr "Miglāja fons"
+
+msgid "Nebulae"
+msgstr "Miglājas"
+
+msgid "New list"
+msgstr "Jauns saraksts"
+
+msgid "Next"
+msgstr "Nākamais"
+
+msgid "Night"
+msgstr "Nakts"
+
+msgid "No city matches that."
+msgstr "Neviena pilsēta neatbilst tam."
+
+msgid "No eclipses found. Pick a range and calculate."
+msgstr "Aptumsumi nav atrasti. Izvēlieties diapazonu un aprēķiniet."
+
+msgid "No fresh fix - the receiver may have no sky. Try again outdoors, or set the place another way."
+msgstr "Nav svaiga fiksējuma - uztvērējam var nebūt debesu. Mēģiniet vēlreiz ārā, vai iestatiet vietu citādi."
+
+msgid "No surveys were found. The lists are downloaded, so this needs a connection."
+msgstr "Apsekojumi nav atrasti. Saraksti tiek lejupielādēti, tāpēc tam nepieciešams savienojums."
+
+msgid "None downloaded yet"
+msgstr "Pagaidām neko nav lejupielādēts"
+
+msgid "Normal"
+msgstr "Normāls"
+
+msgid "Not observable eclipse"
+msgstr "Nennovērojams aptumsums"
+
+msgid "Note: Local circumstances for eclipses during thousands of years in the past and future are not reliable due to uncertainty in ΔT which is caused by fluctuations in Earth's rotation."
+msgstr "Piezīme: Vietējie apstākļi aptumsmiem tūkstošu gadu pagātnē un nākotnē nav uzticami, jo pastāv nenoteiktība ΔT, ko izraisa Zemes rotācijas svārstības."
+
+msgid "Note: artificial satellites and unnamed stars are excluded from calculation"
+msgstr "Piezīme: mākslīgosie satelīti un neminētās zvaigznes ir izslēgtas no aprēķina"
+
+msgid "Note: this tool doesn't apply the refraction correction for coordinates. Horizontal coordinates stop the clock, or the sky would turn away from the point while you arrive at it."
+msgstr "Piezīme: šis rīks nepiemēro refrakcijas korekciju koordinātēm. Horizontālās koordinātes aptur pulksteni, citādi debesis pārskatītos prom no punkta, kamēr jūs tam pietuvojaties."
+
+msgid "Notes: The quantity gamma is the minimum distance from the axis of lunar shadow cone to the center of Earth, in units of Earth’s equatorial radius. This distance is positive or negative, depending on whether the axis of the shadow cone passes north or south of the Earth's center. Path of solar eclipses during thousands of years in the past and future are not reliable due to uncertainty in ΔT which is caused by fluctuations in Earth's rotation."
+msgstr "Piezīmes: Lielums gamma ir minimālais attālums no Mēness ēnas konusa ass līdz Zemes centram, Zemes ekvatorālā rādiusa vienībās. Šis attālums ir pozitīvs vai negatīvs atkarībā no tā, vai ēnas konusa ass iet uz ziemeļiem vai dienvidiem no Zemes centra. Saules aptumumu ceļi tūkstošu gadu pagātnē un nākotnē nav uzticami, jo pastāv nenoteiktība ΔT, ko izraisa Zemes rotācijas svārstības."
+
+msgid "Notes: The quantity gamma is the minimum distance from the center of the Moon to the axis of Earth’s umbral shadow cone, in units of Earth’s equatorial radius. This distance is positive or negative, depending on whether the Moon passes north or south of the shadow cone axis. Local circumstances for eclipses during thousands of years in the past and future are not reliable due to uncertainty in ΔT which is caused by fluctuations in Earth's rotation."
+msgstr "Piezīmes: Lielums gamma ir minimālais attālums no Mēness centra līdz Zemes umbrāla ēnas konusa asij, Zemes ekvatorālā rādiusa vienībās. Šis attālums ir pozitīvs vai negatīvs atkarībā no tā, vai Mēness iet uz ziemeļiem vai dienvidiem no ēnas konusa ass. Vietējie apstākļi aptumsmiem tūkstošu gadu pagātnē un nākotnē nav uzticami, jo pastāv nenoteiktība ΔT, ko izraisa Zemes rotācijas svārstības."
+
+msgid "Notes: Time in parentheses means the contact is invisible at current location. Transit times during thousands of years in the past and future are not reliable due to uncertainty in ΔT which is caused by fluctuations in Earth's rotation."
+msgstr "Piezīmes: Laiks iekavās nozīmē, ka kontakts nav redzams pašreizējā atrašanās vietā. Tranzīta laiki tūkstošu gadu pagātnē un nākotnē nav uzticami, jo pastāv nenoteiktība ΔT, ko izraisa Zemes rotācijas svārstības."
+
+msgid "Nothing computed yet, or nothing in this category is up."
+msgstr "Vēl nekas nav aprēķināts, vai šajā kategorijā neikas nav augšup."
+
+msgid "Nothing computed yet."
+msgstr "Vēl nekas nav aprēķināts."
+
+msgid "Nothing found for “%s”."
+msgstr "Niks nav atrasts \"%s\"."
+
+msgid "Nothing in this list matches."
+msgstr "Šajā sarakstā neatbilst nenieks."
+
+msgid "Nothing in this list yet. Pick something out of the sky and tap the star on its card to keep it here."
+msgstr "Šajā sarakstā vēl neikas. Izvēlieties kaut ko no debesīm un piekarieties zvaigznei uz tās kartītes, lai to saglabātu šeit."
+
+msgid "Nothing is selected. Pick an object in the sky first."
+msgstr "Neikas nav izvēlēts. Pirmkārt, izvēlieties objektu debesīs."
+
+msgid "Nothing matches."
+msgstr "Neatbilst nenieks."
+
+msgid "Nothing selected"
+msgstr "Nenieks nav izvēlēts"
+
+msgid "Nothing to plot."
+msgstr "Nav ko attēlot."
+
+msgid "Nothing to show."
+msgstr "Ir ko rādīt."
+
+msgid "Now"
+msgstr "Tagad"
+
+msgid "N× above"
+msgstr "N× virs"
+
+msgid "O./C. longitude"
+msgstr "O./C. garums"
+
+msgid "OBJECT"
+msgstr "OBJEKTS"
+
+msgid "OBJECTS"
+msgstr "OBJEKTI"
+
+msgid "Object 1"
+msgstr "Objekts 1"
+
+msgid "Object 2"
+msgstr "Objekts 2"
+
+msgid "Objects which are up"
+msgstr "Objekti, kas ir augšup"
+
+msgid "Observable duration"
+msgstr "Novērojamā ilgums"
+
+msgid "Observing list"
+msgstr "Novērošanas saraksts"
+
+msgid "Observing list highlight"
+msgstr "Novērošanas saraksta izcēlums"
+
+msgid "Observing lists"
+msgstr "Novērošanas saraksti"
+
+msgid "Occultation"
+msgstr "Apslēpšana"
+
+msgid "On the sky"
+msgstr "Uz debesīm"
+
+msgid "One color"
+msgstr "Viena krāsa"
+
+msgid "One color for all orbits"
+msgstr "Viena krāsa visām orbītām"
+
+msgid "Only for N latest selected objects"
+msgstr "Tikai jaunākajiem atlasītajiem objektiem"
+
+msgid "Only for Solar elevation"
+msgstr "Tikai Saules pacēlumam"
+
+msgid "Only list"
+msgstr "Tikai saraksts"
+
+msgid "Only one at a time"
+msgstr "Tikai viens vienlaicīgi"
+
+msgid "Only orbit for selected object…"
+msgstr "Tikai orbīta atlasītajam objektam…"
+
+msgid "Only orbits of major planets…"
+msgstr "Tikai galveno planētu orbītas…"
+
+msgid "Oort cloud objects"
+msgstr "Oerta mākoņa objekti"
+
+msgid "Opac."
+msgstr "Opāc."
+
+msgid "Opacity"
+msgstr "Necaurredzamība"
+
+msgid "Open date and time"
+msgstr "Atvērt datumu un laiku"
+
+msgid "Open location"
+msgstr "Atvērt atrašanās vietu"
+
+msgid "Open star clusters"
+msgstr "Atvērti zvaigžņu kopumi"
+
+msgid "Opens the JUPOS project in a browser"
+msgstr "Atver JUPOS projektu pārlūkprogrammā"
+
+msgid "Opposition"
+msgstr "Opozīcija"
+
+msgid "Opposition of"
+msgstr "Opozīcija no"
+
+msgid "Oppositions"
+msgstr "Opozīcijas"
+
+msgid "Orbit colors"
+msgstr "Orbītu krāsas"
+
+msgid "Orbital periods ratio"
+msgstr "Orbītas periodu attiecība"
+
+msgid "Orbital velocity"
+msgstr "Orbītas ātrums"
+
+msgid "Orbits"
+msgstr "Orbītas"
+
+msgid "Orbits of Oort cloud objects"
+msgstr "Oerta mākoņa objektu orbītas"
+
+msgid "Orbits of comets"
+msgstr "Komētu orbītas"
+
+msgid "Orbits of cubewanos"
+msgstr "Kubevanidu orbītas"
+
+msgid "Orbits of dwarf planets"
+msgstr "Pundurplanētu orbītas"
+
+msgid "Orbits of interstellar objects"
+msgstr "Starpzvaigžņu objektu orbītas"
+
+msgid "Orbits of major planets"
+msgstr "Galveno planētu orbītas"
+
+msgid "Orbits of minor planets"
+msgstr "Mazo planētu orbītas"
+
+msgid "Orbits of moons"
+msgstr "Mēness orbītas"
+
+msgid "Orbits of plutinos"
+msgstr "Plutīno orbītas"
+
+msgid "Orbits of scattered disk objects"
+msgstr "Izkaisīto disku objektu orbītas"
+
+msgid "Orbits of sednoids"
+msgstr "Sednīdu orbītas"
+
+msgid "Otherwise every move adopts the zone of the new place."
+msgstr "Pretējā gadījumā katrs solis pieņem jaunās vietas zonu."
+
+msgid "Outline craters"
+msgstr "Krateru kontūras"
+
+msgid "Pan the sky"
+msgstr "Panorāma debesīm"
+
+msgid "Partial eclipse begins"
+msgstr "Daļējs aptumsums sākas"
+
+msgid "Partial eclipse ends"
+msgstr "Daļējs aptumsums beidzas"
+
+msgid "Partitions"
+msgstr "Partīcijas"
+
+msgid "Partitions thickness"
+msgstr "Partīciju biezums"
+
+msgid "Path width"
+msgstr "Ceļa platums"
+
+msgid "Pause"
+msgstr "Pauze"
+
+msgid "Paused - start"
+msgstr "Pauzēts - sākt"
+
+msgid "Penumbral magnitude"
+msgstr "Penumbrālā zvaigžņlieluma"
+
+msgid "Perfect visibility conditions for current location"
+msgstr "Perfektas redzamības apstākļi pašreizējā atrašanās vietā"
+
+msgid "Perihelion"
+msgstr "Perihēlijs"
+
+msgid "Perihelion and aphelion"
+msgstr "Perihēlijs un afēlijs"
+
+msgid "Phase"
+msgstr "Fāze"
+
+msgid "Phase angle"
+msgstr "Fāzes leņķis"
+
+msgid "Phenomena"
+msgstr "Parādības"
+
+msgid "Pick two different bodies to see how their distance changes."
+msgstr "Izvēlieties divas dažādas debess ķermenes, lai redzētu, kā mainās to attālums."
+
+msgid "Pinch"
+msgstr "Saspiest"
+
+msgid "Planet"
+msgstr "Planēta"
+
+msgid "Planet and time zone"
+msgstr "Planēta un laika zona"
+
+msgid "Planet markers"
+msgstr "Planētu marķieri"
+
+msgid "Planetary nebulae"
+msgstr "Planetāras miglājas"
+
+msgid "Planetary nebulae (<%1 mag)"
+msgstr "Planetāras miglājas (<%1 mag)"
+
+msgid "Planetary nomenclature"
+msgstr "Planētu nomenklatūra"
+
+msgid "Planetary transits"
+msgstr "Planētu pārejas"
+
+msgid "Planets"
+msgstr "Planētas"
+
+msgid "Planets and Sun"
+msgstr "Planētas un Saule"
+
+msgid "Planets magnitude algorithm"
+msgstr "Planētu zvaigžņlieluma algoritms"
+
+msgid "Please select object to plot its 'Monthly Elevation' graph for the current year at selected time."
+msgstr "Lūdzu izvēlieties objektu, lai uzzīmētu tā 'Mēneša augstuma' grafiku pašreizējam gadam izvēlētajā laikā."
+
+msgid "Please select object to plot its graph 'Altitude vs. Time'."
+msgstr "Lūdzu izvēlieties objektu, lai uzzīmētu tā grafiku 'Augstums pret laiku'."
+
+msgid "Please select object to plot its graph 'Azimuth vs. Time'."
+msgstr "Lūdzu izvēlieties objektu, lai uzzīmētu tā grafiku 'Azimuts pret laiku'."
+
+msgid "Plutinos"
+msgstr "Plutīno objekti"
+
+msgid "Pluto, Ceres, Pallas, Juno and Vesta"
+msgstr "Plutons, Cerēra, Pallāda, Jūno un Vestā"
+
+msgid "Point size"
+msgstr "Punkta lielums"
+
+msgid "Pointing"
+msgstr "Norāde"
+
+msgid "Polar distance"
+msgstr "Polārais attālums"
+
+msgid "Polar distance, not declination"
+msgstr "Polārais attālums, nevis deklinācija"
+
+msgid "Poles and points"
+msgstr "Poli un punkti"
+
+msgid "Polygon colour"
+msgstr "Daudzstūra krāsa"
+
+msgid "Position angle"
+msgstr "Pozīcijas leņķis"
+
+msgid "Positions"
+msgstr "Pozīcijas"
+
+msgid "Positive values only"
+msgstr "Tikai pozitīvas vērtības"
+
+msgid "Precession circles"
+msgstr "Precesijas apļi"
+
+msgid "Previous"
+msgstr "Iepriekšējais"
+
+msgid "Prime Vertical"
+msgstr "Pirmā vertikāle"
+
+msgid "Program Language"
+msgstr "Programmas valoda"
+
+msgid "Projected Solar Equator"
+msgstr "Projicētais Saules ekvators"
+
+msgid "Pronounce"
+msgstr "Izrunāt"
+
+msgid "Pulsars"
+msgstr "Pulsāri"
+
+msgid "Quadrature circle"
+msgstr "Kvadratūras aplis"
+
+msgid "Query SIMBAD about selected object"
+msgstr "Vaicāt SIMBAD par atlasīto objektu"
+
+msgid "Query options"
+msgstr "Vaicājuma opcijas"
+
+msgid "Quit"
+msgstr "Iziet"
+
+msgid "Quit button"
+msgstr "Iziet pogu"
+
+msgid "Range"
+msgstr "Diapazons"
+
+msgid "Ray helpers"
+msgstr "Staru palīgi"
+
+msgid "Reading…"
+msgstr "Lasīšana…"
+
+msgid "Real time speed"
+msgstr "Reālā laika ātrums"
+
+msgid "Recent Searches"
+msgstr "Nesen veikti meklējumi"
+
+msgid "Rectangular FOV"
+msgstr "Taisnstūrveida FOV"
+
+msgid "Red"
+msgstr "Sarkans"
+
+msgid "Refraction, extinction, sky brightness"
+msgstr "Refrakcija, absorbcija, debess spilgtums"
+
+msgid "Regions of the sky"
+msgstr "Debesu reģioni"
+
+msgid "Relative scale"
+msgstr "Relatīvā skala"
+
+msgid "Remove %s"
+msgstr "Noņemt %s"
+
+msgid "Remove from observing list"
+msgstr "Noņemt no novērošanas saraksta"
+
+msgid "Rename"
+msgstr "Pārdēvēt"
+
+msgid "Reset"
+msgstr "Atiestatīt"
+
+msgid "Reset all"
+msgstr "Atiestatīt visu"
+
+msgid "Restarting…"
+msgstr "Pārstartē…"
+
+msgid "Results"
+msgstr "Rezultāti"
+
+msgid "Right ascension"
+msgstr "Pareizā ascensija"
+
+msgid "Rise"
+msgstr "Lēkšana"
+
+msgid "Rises"
+msgstr "Lēk"
+
+msgid "Rotation"
+msgstr "Rotācija"
+
+msgid "Running"
+msgstr "Darbojas"
+
+msgid "SIMBAD did not answer."
+msgstr "SIMBAD neatbildēja."
+
+msgid "SIMBAD is switched off in the search options."
+msgstr "SIMBAD ir izslēgts meklēšanas opcijās."
+
+msgid "SIMBAD is switched off. Turn it on under Options to look objects up online."
+msgstr "SIMBAD ir izslēgts. Ieslēdziet to opcijās, lai meklētu objektus tiešsaistē."
+
+msgid "SIMBAD server"
+msgstr "SIMBAD serveris"
+
+msgid "Saturation"
+msgstr "Piesātinājums"
+
+msgid "Save"
+msgstr "Saglabāt"
+
+msgid "Save either the current FOV and direction of view or all the current options for use at next startup. Restoring default settings requires a restart of the app."
+msgstr "Saglabāt pašreizējo FOV un skata virzienu vai visus pašreizējos iestatījumus nākamajam palaišanas. Noklusēto iestatījumu atjaunošana prasa lietotnes pārstartēšanu."
+
+msgid "Save to observing list"
+msgstr "Saglabāt novērošanas sarakstā"
+
+msgid "Save view"
+msgstr "Saglabāt skatu"
+
+msgid "Scale"
+msgstr "Skala"
+
+msgid "Scale factor"
+msgstr "Skalas faktors"
+
+msgid "Scale marker and label visibility by surface brightness"
+msgstr "Skalēt marķiera un etiķetes redzamību pēc virsmas spilgtuma"
+
+msgid "Scales smoothly between 1× at the minimum field of view and the factor above at the maximum"
+msgstr "Gludi skalējas starp 1× minimālajā redzes laukā un faktoru virs maksimuma"
+
+msgid "Scattered disc objects"
+msgstr "Izkaisīti diska objekti"
+
+msgid "Screen label"
+msgstr "Ekrāna etiķete"
+
+msgid "Search"
+msgstr "Meklēt"
+
+msgid "Search in list"
+msgstr "Meklēt sarakstā"
+
+msgid "Seasons"
+msgstr "Sezonas"
+
+msgid "Second body"
+msgstr "Otrais ķermenis"
+
+msgid "Second celestial body"
+msgstr "Otrais debess ķermenis"
+
+msgid "Second graph"
+msgstr "Otrais grafiks"
+
+msgid "Second object"
+msgstr "Otrais objekts"
+
+msgid "Secondary intercardinal points"
+msgstr "Sekundārie starpvirzieni"
+
+msgid "Sednoids"
+msgstr "Sednīdi"
+
+msgid "See the sky through the ground"
+msgstr "Redzēt debesis caur zemi"
+
+msgid "Seen now"
+msgstr "Redzams tagad"
+
+msgid "Select an object first: this asks SIMBAD what it holds around it."
+msgstr "Vispirms izvēlieties objektu: tas lūgz SIMBAD, ko tas tur apkārt."
+
+msgid "Select it and show its card"
+msgstr "Atlasiet to un rādiet tā karti"
+
+msgid "Select something in the sky first — this page works on the selection."
+msgstr "Vispirms atlasiet kaut ko debesīs — šī lapa darbojas ar atlasi."
+
+msgid "Selected object"
+msgstr "Atlasītais objekts"
+
+msgid "Sep."
+msgstr "Atd."
+
+msgid "Separate colors for orbits by object type"
+msgstr "Atsevišķas krāsas orbītām pēc objekta veida"
+
+msgid "Separate colors for orbits of major planets"
+msgstr "Atsevišķas krāsas galveno planētu orbītām"
+
+msgid "Separation"
+msgstr "Atdalīšana"
+
+msgid "September equinox"
+msgstr "Rudens ekvinokcija"
+
+msgid "Server"
+msgstr "Serveris"
+
+msgid "Set"
+msgstr "Iestatīt"
+
+msgid "Set the clock to %s"
+msgstr "Iestatīt pulksteni uz %s"
+
+msgid "Set the place"
+msgstr "Iestatīt vietu"
+
+msgid "Set to now"
+msgstr "Iestatīt uz pašreizējo"
+
+msgid "Sets"
+msgstr "Iestatījumi"
+
+msgid "Shadow map for non-convex bodies. May coarsen the penumbra on some objects"
+msgstr "Ēnu karte neizliektiem ķermeņiem. Var noskopļot pusēnu dažiem objektiem"
+
+msgid "Shadow transit"
+msgstr "Ēnas tranzīts"
+
+msgid "Shooting stars"
+msgstr "Kristejoši zvaigznāji"
+
+msgid "Short notation for units of surface brightness"
+msgstr "Īss apzīmējums virsmas spilgtuma vienībām"
+
+msgid "Short steps over a long duration are slow."
+msgstr "Īsi soļi ilgu laiku ir lēni."
+
+msgid "Show"
+msgstr "Rādīt"
+
+msgid "Show FOV center marker when position is search"
+msgstr "Rādīt FOV centra marķieri, kad pozīcija ir meklēšana"
+
+msgid "Show additional buttons"
+msgstr "Rādīt papildu pogas"
+
+msgid "Show additional star names"
+msgstr "Rādīt papildu zvaigžņu nosaukumus"
+
+msgid "Show all information"
+msgstr "Rādīt visu informāciju"
+
+msgid "Show atmospheric extinction"
+msgstr "Rādīt atmosfēras izbeigšanos"
+
+msgid "Show boundaries of constellations"
+msgstr "Rādīt zvaigznāju robežas"
+
+msgid "Show button in addition to keyboard shortcut?"
+msgstr "Rādīt pogu papildus tastatūras saīsinājumam?"
+
+msgid "Show controls"
+msgstr "Rādīt vadības elementus"
+
+msgid "Show each body where it was when the light left it (recommended)"
+msgstr "Rādīt katru ķermeni, kur tas bija, kad no tā aizgāja gaisma (ieteicams)"
+
+msgid "Show frames per second beside the field of view"
+msgstr "Rādīt kadrus sekundē blakus redzes laukam"
+
+msgid "Show hints and labels for planetary features"
+msgstr "Rādīt padomus un etiķetes planētu iezīmēm"
+
+msgid "Show illumination"
+msgstr "Rādīt apgaismojumu"
+
+msgid "Show in sky"
+msgstr "Rādīt debesīs"
+
+msgid "Show less"
+msgstr "Rādīt mazāk"
+
+msgid "Show lunar stations (if defined)"
+msgstr "Rādīt Mēness stacijas (ja definētas)"
+
+msgid "Show more"
+msgstr "Rādīt vairāk"
+
+msgid "Show objects which are up"
+msgstr "Rādīt objektus, kas ir augšā"
+
+msgid "Show only named DSO"
+msgstr "Rādīt tikai nosauktos DVO"
+
+msgid "Show only objects between the two sizes"
+msgstr "Rādīt tikai objektus starp abiem izmēriem"
+
+msgid "Show only the kinds ticked below"
+msgstr "Rādīt tikai atlasītos veidus zemāk"
+
+msgid "Show or hide the two rails of controls"
+msgstr "Rādīt vai slēpt divas vadības sliedes"
+
+msgid "Show orbit even if object is off screen"
+msgstr "Rādīt orbītu pat tad, ja objekts ir ārpus ekrāna"
+
+msgid "Show orbit only for selected SSO"
+msgstr "Rādīt orbītu tikai atlasītajam SSO"
+
+msgid "Show orbits"
+msgstr "Rādīt orbītas"
+
+msgid "Show orbits of major planets"
+msgstr "Rādīt galveno planētu orbītas"
+
+msgid "Show planetary nomenclature"
+msgstr "Rādīt planētu nomenklatūru"
+
+msgid "Show special nomenclature points only"
+msgstr "Rādīt tikai īpašos nomenklatūras punktus"
+
+msgid "Show surveys"
+msgstr "Rādīt pārskatus"
+
+msgid "Show this survey"
+msgstr "Rādīt šo pārskatu"
+
+msgid "Show tiny circles for minor bodies regardless of magnitude"
+msgstr "Rādīt mazus apļus nelieliem ķermeņiem neatkarīgi no zvaigžņlieluma"
+
+msgid "Show trails"
+msgstr "Rādīt pēdas"
+
+msgid "Show zodiac (if defined)"
+msgstr "Rādīt zodiaku (ja definēts)"
+
+msgid "Sidereal time"
+msgstr "Siderālais laiks"
+
+msgid "Simbad Lookup Error: %s"
+msgstr "Simbad meklēšanas kļūda: %s"
+
+msgid "Simbad Lookup: querying"
+msgstr "Simbad meklēšana: vaicājums"
+
+msgid "Simulate self-shadowing"
+msgstr "Simulēt pašēnojumu"
+
+msgid "Simulation"
+msgstr "Simulācija"
+
+msgid "Sky Culture"
+msgstr "Debess kultūra"
+
+msgid "Sky and viewing options"
+msgstr "Debess un skata opcijas"
+
+msgid "Sky culture"
+msgstr "Debess kultūra"
+
+msgid "Slow down"
+msgstr "Palēnināt"
+
+msgid "Smallest, ′"
+msgstr "Mazākais, ′"
+
+msgid "Solar altitude for Twilight Finder"
+msgstr "Saules augstums Krēslas meklētājam"
+
+msgid "Solar elongation"
+msgstr "Saules elongācija"
+
+msgid "Solar system"
+msgstr "Saules sistēma"
+
+msgid "Solar system objects"
+msgstr "Saules sistēmas objekti"
+
+msgid "Solar system objects: comets"
+msgstr "Saules sistēmas objekti: komētas"
+
+msgid "Solar system objects: minor bodies"
+msgstr "Saules sistēmas objekti: mazie ķermeņi"
+
+msgid "Solar system objects: planets"
+msgstr "Saules sistēmas objekti: planētas"
+
+msgid "Solstices (J2000)"
+msgstr "Saulgrieži (J2000)"
+
+msgid "Solstices (of date)"
+msgstr "Saulgrieži (datuma)"
+
+msgid "Some objects may be found after activation respective plug-ins"
+msgstr "Daži objekti var tikt atrasti pēc attiecīgo spraudņu aktivizēšanas"
+
+msgid "Special points only"
+msgstr "Tikai īpaši punkti"
+
+msgid "Spectral Class"
+msgstr "Spektrālā klase"
+
+msgid "Speed up"
+msgstr "Paātrināt"
+
+msgid "Spiky stars"
+msgstr "Smaili zvaigznāji"
+
+msgid "Stand where the landscape was shot, on the planet it names"
+msgstr "Stāvējiet vietā, kur tika fotografēta ainava, uz planētas, ko tas nosauc"
+
+msgid "Star, planet, catalogue number…"
+msgstr "Zvaigzne, planēta, kataloga numurs…"
+
+msgid "Started"
+msgstr "Sākts"
+
+msgid "Starting"
+msgstr "Sākas"
+
+msgid "Startup FOV"
+msgstr "Sākotnējais FOV"
+
+msgid "Startup direction of view"
+msgstr "Sākotnējais skata virziens"
+
+msgid "Stationary (begin prograde motion)"
+msgstr "Stacionārs (sākt progresīvu kustību)"
+
+msgid "Stationary (begin retrograde motion)"
+msgstr "Stacionārs (sākt retrogrādu kustību)"
+
+msgid "Stellarium's user guide covers the astronomy this app shares with it: stellarium.org/documentation"
+msgstr "Stellarium lietošanas rokasgrāmata satur astronomiju, ko izmanto šī programma: stellarium.org/documentation"
+
+msgid "Step, hours"
+msgstr "Solis, stundas"
+
+msgid "Stop a running script"
+msgstr "Apstādiniet palaista skripta"
+
+msgid "Stop clock when starting"
+msgstr "Apstādiniet pulksteni sākšanas laikā"
+
+msgid "Strasbourg astronomical Data Center (France)"
+msgstr "Strazbūras astronomiskais datu centrs (Francija)"
+
+msgid "Style"
+msgstr "Stils"
+
+msgid "Sun altitude"
+msgstr "Saules augstums"
+
+msgid "Sun at"
+msgstr "Saule pie"
+
+msgid "Sun's altitude"
+msgstr "Saules augstums"
+
+msgid "Sun's corona"
+msgstr "Saules korona"
+
+msgid "Sun's glare"
+msgstr "Saules spilgtums"
+
+msgid "Sun, planets and moons of first body and observer's planet"
+msgstr "Saule, planētas un Pirmā ķermeņa un novērotāja planētas mēness"
+
+msgid "Sun, planets and moons of observer's planet"
+msgstr "Saule, planētas un novērotāja planētas mēness"
+
+msgid "Sunlight scattered by interplanetary dust"
+msgstr "Saules gaisma, izkliedēta starpplanētu putekļu"
+
+msgid "Supergalactic"
+msgstr "Supergalaktisks"
+
+msgid "Supergalactic equator"
+msgstr "Supergalaktikas ekvators"
+
+msgid "Supergalactic grid"
+msgstr "Supergalaktiskais tīkls"
+
+msgid "Supergalactic poles"
+msgstr "Supergalaktikas poli"
+
+msgid "Superior conjunction"
+msgstr "Augšējā konjunkcija"
+
+msgid "Supernova candidates"
+msgstr "Supernova kandidāti"
+
+msgid "Supernova remnant candidates"
+msgstr "Supernova atlieku kandidāti"
+
+msgid "Supernova remnants"
+msgstr "Supernova atliekas"
+
+msgid "Surveys"
+msgstr "Pārskati"
+
+msgid "Switch this off to see the trails for all Solar system bodies"
+msgstr "Izslēdziet šo, lai redzētu pēdas visiem Saules sistēmas ķermeņiem"
+
+msgid "Symbiotic stars"
+msgstr "Simbiotiskie zvaigznes"
+
+msgid "Synodic period"
+msgstr "Sinodiskais periods"
+
+msgid "System date at"
+msgstr "Sistēmas datums uz"
+
+msgid "System default"
+msgstr "Sistēmas noklusējums"
+
+msgid "Table"
+msgstr "Tabula"
+
+msgid "Tabular output for coordinates and time"
+msgstr "Tabulas izeja koordinātēm un laikam"
+
+msgid "Tap a colour to change it. Changes show on the sky at once and are kept."
+msgstr "Pietuviniet krāsu, lai to mainītu. Izmaiņas tiek rādītas debesīs uzreiz un tiek saglabātas."
+
+msgid "Tap again to confirm"
+msgstr "Pietuviniet vēl vienu reizi, lai apstiprinātu"
+
+msgid "Tap an object"
+msgstr "Pietuviniet objektu"
+
+msgid "Tap the chart to read a value."
+msgstr "Pietuviniet diagrammu, lai nolasītu vērtību."
+
+msgid "Tap the clock"
+msgstr "Pietuviniet pulksteni"
+
+msgid "Tap the gear"
+msgstr "Pietuviniet zobratni"
+
+msgid "Tap the map to stand there."
+msgstr "Pietuviniet karti, lai tur stāvētu."
+
+msgid "Tap the place"
+msgstr "Pietuviniet vietu"
+
+msgid "Tap to confirm"
+msgstr "Pietuviniet, lai apstiprinātu"
+
+msgid "Tertiary intercardinal points"
+msgstr "Terciārie starpvirzieni"
+
+msgid "Text angle"
+msgstr "Teksta leņķis"
+
+msgid "The Great Red Spot drifts in System II longitude. Enter a recent measurement and the drift rate to carry it forward from."
+msgstr "Lielajai sarkanajam vietam ir drift sistēmas II garumā. Ievadiet nesenāko mērījumu un drift ātrumu, lai to turpinātu."
+
+msgid "The algorithm is based on visual observations 1877-1891 by G. Müller and was still republished in the Explanatory Supplement to the Astronomical Ephemeris (1961)."
+msgstr "Algoritms ir balstīts uz vizuālajiem novērojumiem 1877-1891 gadu G. Milera un tika pārpublicēts Paskaidrojošajā pielikumā Astronomiskajai efemeridai (1961)."
+
+msgid "The algorithm was published by A. Mallama & J. L. Hilton: Computing apparent planetary magnitudes for the Astronomical Almanac. Astronomy&Computing 25 (2018) 10-24."
+msgstr "Algoritms tika publicēts A. Mallama & J. L. Hilton: Aprēķinot redzamās planētu zvaigžņlielumus Astronomiskajai Almanaham. Astronomy&Computing 25 (2018) 10-24."
+
+msgid "The algorithm was published in the 2nd edition of the Explanatory Supplement to the Astronomical Almanac (1992)."
+msgstr "Algoritms tika publicēts Paskaidrojošā pielikuma 2. izdevumā Astronomiskajai Almanaham (1992)."
+
+msgid "The algorithm was published in the 3rd edition of the Explanatory Supplement to the Astronomical Almanac (2013)."
+msgstr "Algoritms tika publicēts Paskaidrojošā pielikuma 3. izdevumā Astronomiskajai Almanaham (2013)."
+
+msgid "The algorithm was used in the Astronomical Almanac (1984 and later) and gives V (instrumental) magnitudes (allegedly from D.L. Harris)."
+msgstr "Algoritms tika izmantots Astronomiskajai Almanaham (1984 un vēlāk) un dod V (instrumentālos) zvaigžņlielumus (pavisam no D.L. Harisa)."
+
+msgid "The classical cepheids"
+msgstr "Klasiskie cefēīdi"
+
+msgid "The colour each kind of object is drawn in"
+msgstr "Krāsa, kurā ir zīmēts katrs objekta veids"
+
+msgid "The engine did not answer with any colours."
+msgstr "Dzinējs neatbildēja ar jebkādām krāsām."
+
+msgid "The galactic band"
+msgstr "Galaktiskā josla"
+
+msgid "The greatest eclipse is invisible in current location"
+msgstr "Lielākais aptumsums nav redzams pašreizējā atrašanās vietā"
+
+msgid "The horizon outline instead of the panorama"
+msgstr "Horizonta kontūra panoramas vietā"
+
+msgid "The path each body has taken across the sky"
+msgstr "Ceļš, ko katrs ķermenis ir pārgājis pāri debesīm"
+
+msgid "The shortest label the culture defines"
+msgstr "Īsākais nosaukums, ko kultūra nosaka"
+
+msgid "Thickness"
+msgstr "Biezums"
+
+msgid "This copy ships no scripts."
+msgstr "Šis eksemplārs nešķir skriptus."
+
+msgid "This device has no location service."
+msgstr "Šim ierīcei nav vietas pakalpojuma."
+
+msgid "This part of the engine exposes no settings on this build."
+msgstr "Šī dzinēja daļa neizstaro iestatījumus šajā uzbūvē."
+
+msgid "This tool works on Earth only!"
+msgstr "Šis rīks darbojas tikai uz Zemes!"
+
+msgid "This tool works on Earth only. Short steps over a long duration are slow."
+msgstr "Šis rīks darbojas tikai uz Zemes. Īsi soļi ilgu laiku ir lēni."
+
+msgid "This year"
+msgstr "Šis gads"
+
+msgid "Time"
+msgstr "Laiks"
+
+msgid "Time correction"
+msgstr "Laika korekcija"
+
+msgid "Time of day"
+msgstr "Dienas laiks"
+
+msgid "Time span"
+msgstr "Laika lēciens"
+
+msgid "Time step"
+msgstr "Laika solis"
+
+msgid "Time zone"
+msgstr "Laika zona"
+
+msgid "To the next (mths)"
+msgstr "Uz nākamo (mēn.)"
+
+msgid "To the next, months"
+msgstr "Uz nākamo, mēneši"
+
+msgid "Today"
+msgstr "Šodien"
+
+msgid "Toggle display of nebula images."
+msgstr "Ieslēgt/Izslēgt miglāju attēlu attēlošanu."
+
+msgid "Toggle display of the button for the Digitized Sky Survey."
+msgstr "Ieslēgt/Izslēgt pogu Digitālajai Debess Pārskatam."
+
+msgid "Toggle display of the button for the HiPS Surveys. Select a survey in the View settings."
+msgstr "Ieslēgt/Izslēgt pogu HiPS aptaujām. Atlasiet aptauju Skata iestatījumos."
+
+msgid "Toggle drawing Sun's glare"
+msgstr "Ieslēgt/Izslēgt Saules spilgtuma zīmējumu"
+
+msgid "Toggle drawing halo around the Moon"
+msgstr "Ieslēgt/Izslēgt halo zīmējumu ap Mēnesi"
+
+msgid "Toggle permanent drawing of Sun's corona when atmosphere is disabled"
+msgstr "Ieslēgt/Izslēgt Saules vainaga pastāvīgu zīmējumu, kad atmosfēra ir atspējota"
+
+msgid "Toggle the usage of background under GUI buttons"
+msgstr "Ieslēgt/Izslēgt fona izmantošanu zem GUI pogām"
+
+msgid "Total eclipse begins"
+msgstr "Pilnais aptumsums sākas"
+
+msgid "Total eclipse ends"
+msgstr "Pilnais aptumsums beidzas"
+
+msgid "Trails"
+msgstr "Pēdas"
+
+msgid "Transit"
+msgstr "Tranzīts"
+
+msgid "Translated"
+msgstr "Tulkots"
+
+msgid "Transparency"
+msgstr "Caurspīdīgums"
+
+msgid "Twilight"
+msgstr "Krēpusklis"
+
+msgid "Twilight and rise and set times are worked out for an observer on Earth. Move back to Earth to see them."
+msgstr "Krēslas un uzlēkšanas un norietošanas laiki ir aprēķināti novērotājam uz Zemes. Atgriezieties uz Zemes, lai tos redzētu."
+
+msgid "Twinkle"
+msgstr "Mirdzums"
+
+msgid "Twinkle amount"
+msgstr "Mirdzuma daudzums"
+
+msgid "Twinkle even without atmosphere"
+msgstr "Mirdzums pat bez atmosfēras"
+
+msgid "Twinkle is caused by atmospheric turbulence; this shows it regardless"
+msgstr "Mirdzums rodas atmosfēras turbulences dēļ; tas to parāda neatkarīgi"
+
+msgid "Type a name, a Bayer letter or a catalogue number - Vega, α Lyr, M 31, NGC 224."
+msgstr "Ierakstiet nosaukumu, Baijera burtu vai kataloga numuru — Vega, α Lyr, M 31, NGC 224."
+
+msgid "Types"
+msgstr "Tipi"
+
+msgid "Umbral magnitude"
+msgstr "Umbras zvaigžņlielums"
+
+msgid "Unnamed star"
+msgstr "Neminēta zvaigzne"
+
+msgid "Up to mag."
+msgstr "Līdz mag."
+
+msgid "Update"
+msgstr "Atjaunināt"
+
+msgid "Use SIMBAD"
+msgstr "Izmantot SIMBAD"
+
+msgid "Use additional names of DSO"
+msgstr "Izmantot papildu DSO nosaukumus"
+
+msgid "Use autofill only from the beginning of words"
+msgstr "Izmantot automātisko aizpildīšanu tikai no vārdu sākuma"
+
+msgid "Use buttons background"
+msgstr "Izmantot pogu fonu"
+
+msgid "Use common symbols for coordinate systems"
+msgstr "Izmantot parastus simbolus koordinātu sistēmām"
+
+msgid "Use custom time zone"
+msgstr "Izmantot pielāgotu laika joslu"
+
+msgid "Use decimal degrees"
+msgstr "Izmantot decimālpakāpes"
+
+msgid "Use decimal degrees for coordinates"
+msgstr "Izmantot decimālpakāpes koordinātēm"
+
+msgid "Use designations for screen labels"
+msgstr "Izmantot apzīmējumus ekrāna etiķetēm"
+
+msgid "Use distance from North Celestial Pole, not declination from equator in equatorial coordinates"
+msgstr "Izmantot attālumu no Ziemeļu Debess Pola, nevis deklināciju no ekvatora ekvatoriālajās koordinātēs"
+
+msgid "Use mag/arcsec^2 for surface brightness"
+msgstr "Izmantot mag/arcsec^2 virsmas spīdumam"
+
+msgid "Use more accurate 3D models (where available)"
+msgstr "Izmantot precīzākus 3D modeļus (kur pieejami)"
+
+msgid "Use my location"
+msgstr "Izmantot manu atrašanās vietu"
+
+msgid "Use on-line astronomical database SIMBAD"
+msgstr "Izmantot tiešsaistes astronomisko datu bāzi SIMBAD"
+
+msgid "Use outlines for big deep-sky objects"
+msgstr "Izmantot kontūras lielajiem debess objektiem"
+
+msgid "Use proportional hints"
+msgstr "Izmantot proporcionālus padomus"
+
+msgid "Use sorting by string length"
+msgstr "Izmantot šķirošanu pēc virknes garuma"
+
+msgid "Use surface brightness"
+msgstr "Izmantot virsmas spilgtumu"
+
+msgid "Use the date now shown in the sky"
+msgstr "Izmantot tagad debesīs rādīto datumu"
+
+msgid "Use the value in landscape.ini when it has one"
+msgstr "Izmantot vērtību no landscape.ini, ja tāda ir"
+
+msgid "Use the value stored for this location"
+msgstr "Izmantot vērtību, kas saglabāta šai atrašanās vietai"
+
+msgid "Use this sky culture as default"
+msgstr "Izmantot šo debess kultūru kā noklusēto"
+
+msgid "Var. stars"
+msgstr "Mainīgas zvaigznes"
+
+msgid "Version %s  ·  Qt %s"
+msgstr "Versija %s  ·  Qt %s"
+
+msgid "Vertical viewport offset"
+msgstr "Vertikālais skata logu nobīde"
+
+msgid "View recent GRS measurements"
+msgstr "Skatīt nesenos GRS mērījumus"
+
+msgid "Visibility"
+msgstr "Redzamība"
+
+msgid "Visual magnitude based on phase angle and albedo."
+msgstr "Vizuālais zvaigžņlielums, kas balstīts uz fāzes leņķi un albēdo."
+
+msgid "Western quadrature"
+msgstr "Rietumu kvadratūra"
+
+msgid "When a search result is chosen"
+msgstr "Kad ir izvēlēts meklēšanas rezultāts"
+
+msgid "Where Jupiter's Great Red Spot was, and when"
+msgstr "Kur bija Jupitera Lielā Sarkanā Vieta un kad"
+
+msgid "Width"
+msgstr "Platums"
+
+msgid "Working out the contact times…"
+msgstr "Tiek aprēķināti kontakta laiki…"
+
+msgid "Year"
+msgstr "Gads"
+
+msgid "Zenith and Nadir"
+msgstr "Zenīts un Nadir"
+
+msgid "Zodiac and lunar stations"
+msgstr "Zodiaks un mēness stacijas"
+
+msgid "Zodiacal Light"
+msgstr "Zodiaka gaisma"
+
+msgid "Zodiacal Light brightness"
+msgstr "Zodiaka gaismas spilgtums"
+
+msgid "Zoom in and out"
+msgstr "Tuvināt un attālināt"
+
+msgid "after sunset"
+msgstr "pēc saulrieta"
+
+msgid "before sunrise"
+msgstr "pirms saulrieta"
+
+msgid "bright suburban"
+msgstr "spilgta priekšpilsēta"
+
+msgid "east +"
+msgstr "austrumi +"
+
+msgid "engine ready, interface going live"
+msgstr "dzinējs ir gatavs, saskarne tiek ieslēgta"
+
+msgid "excellent dark sky"
+msgstr "lielisks tumšs debesis"
+
+msgid "from landscape, if given"
+msgstr "no ainavas, ja sniegta"
+
+msgid "inner city"
+msgstr "iekšējā pilsēta"
+
+msgid "max %s"
+msgstr "maks %s"
+
+msgid "mid %s"
+msgstr "vidējā %s"
+
+msgid "north +"
+msgstr "ziemeļi +"
+
+msgid "rural/suburban"
+msgstr "lauku/priepilsētas"
+
+msgid "sci. translit."
+msgstr "zinātniskā transliterācija"
+
+msgid "select all"
+msgstr "atlasīt visu"
+
+msgid "select none"
+msgstr "neatlasīt neko"
+
+msgid "select preference"
+msgstr "atlasīt preferenci"
+
+msgid "select standard"
+msgstr "atlasīt standartu"
+
+msgid "store preference"
+msgstr "saglabāt preferenci"
+
+msgid "suburban/urban"
+msgstr "priepilsētas/pilsētas"
+
+msgid "truly dark"
+msgstr "patiesi tumšs"
+
+msgid "unreadable snapshot"
+msgstr "neizlasāms momentuzņēmums"
+
+msgid "with Solar Dates"
+msgstr "ar Saules datumiem"
+
+msgid "… and moons"
+msgstr "… un mēness pavadoņi"

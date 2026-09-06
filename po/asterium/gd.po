@@ -1,0 +1,1996 @@
+# Asterium interface translation for gd.
+# Copyright (C) 2026 the Asterium authors
+# This file is distributed under the same licence as the Asterium package.
+#
+# MACHINE TRANSLATION, not reviewed by a speaker of this language.
+# Terminology follows upstream Stellarium's own gd catalogue, which was used
+# as a glossary, and every entry keeps the source's printf placeholders.
+# Corrections from a human translator are welcome and should simply replace these.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: asterium\n"
+"Language: gd\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%d bodies"
+msgstr "%d bhodhaig"
+
+msgid "%d object"
+msgstr "%d chuspair"
+
+msgid "%d objects"
+msgstr "%d cuspairean"
+
+msgid "%s colour"
+msgstr "%s dhath"
+
+msgid "%s from %s, ±%.0f m"
+msgstr "%s o %s, ±%.0f m"
+
+msgid "12-hour"
+msgstr "12-uair"
+
+msgid "1× below"
+msgstr "1× fodha"
+
+msgid "24-hour"
+msgstr "24-uair"
+
+msgid "A button to mark every object of the current observing list on the sky."
+msgstr "Putan gus gach cuspair air liosta an amhairc làithreach a chomharrachadh air an speur."
+
+msgid "A polygonal model for some small moons, asteroids and comets instead of a sphere"
+msgstr "Modail pholaganaich airson cuid de ghealachan beaga, astaraideanan is reultanan-cearbhach an àite cruinn"
+
+msgid "A touch-first planetarium forked from Stellarium, whose astronomy engine it uses unchanged. The interface is new; everything that draws the sky is upstream's work."
+msgstr "Planetarium tòiseach-fadadh air a bhreacadh bho Stellarium, agus a' cleachdadh a h-inneal reul-eòlach gun atharrachadh. Tha an eadar-aghaidh ùr; tha a h-uile càil a tha a' tarraing an speur ann an obair Stellarium."
+
+msgid "Abbreviated names"
+msgstr "Ainmean giorrach"
+
+msgid "About this sky culture"
+msgstr "Mu dhèidhinn an dualchais speura seo"
+
+msgid "Above altitude, °"
+msgstr "Os cionn àirde, °"
+
+msgid "Absolute scale"
+msgstr "Sgèile iomlan"
+
+msgid "Add %s"
+msgstr "Cuir ri %s"
+
+msgid "Additional information settings"
+msgstr "Roghainnean fiosrachaidh a bharrachd"
+
+msgid "Adjust brightness to bright objects"
+msgstr "Suidhich an soilleireachd do chuspairean soilleir"
+
+msgid "Algol-type eclipsing systems"
+msgstr "Siostaman foluain seòrsa Algol"
+
+msgid "Algorithm of ΔT"
+msgstr "Algorbam ΔT"
+
+msgid "All IDs"
+msgstr "Gach ID"
+
+msgid "All naked-eye planets"
+msgstr "Gach planaid fhaicsinneach"
+
+msgid "All solar eclipses"
+msgstr "Gach dubh-ghrèine"
+
+msgid "Allow negative hour angles"
+msgstr "Ceadaich ceàrnan uairean àicheil"
+
+msgid "Allow results outside the recommended time range of the orbital elements"
+msgstr "Ceadaich toraidhean a-muigh den raon ama moladh airson nan eileamaidean orbitail"
+
+msgid "Almanac: Sun, Moon and naked-eye planets"
+msgstr "Leabhar-dhàta bliadhnail: A' Ghrian, A' Ghealach agus planaidean gun dhìon-lèirs"
+
+msgid "Also find"
+msgstr "Lorg cuideachd"
+
+msgid "Also plot"
+msgstr "Dealbhaich cuideachd"
+
+msgid "Also show moons of selected object or planets"
+msgstr "Seall cuideachd gealachan an chuspair no planaid a thaghadh"
+
+msgid "Altitude limit, °"
+msgstr "Crìoch àirde, °"
+
+msgid "Amount"
+msgstr "Suim"
+
+msgid "An observer floats above its planet, so there is nowhere on it to stand. Choose another planet to come back down."
+msgstr "Tha neach-amhairc a' foluain os cionn a phlanaid, agus chan eil àite air an seasamh. Tagh planaid eile gus tilleadh sìos."
+
+msgid "And"
+msgstr "Agus"
+
+msgid "And also"
+msgstr "Agus cuideachd"
+
+msgid "And the next (years)"
+msgstr "Agus an ath- (bhliadhnaichean)"
+
+msgid "Ang. Size"
+msgstr "Meud Ceàrn."
+
+msgid "Angular distance between the Moon and selected object"
+msgstr "Astar ceàrnach eadar a' Ghealach agus an cuspair a thagh thu"
+
+msgid "Angular distance from the Moon for second object"
+msgstr "Astar ceàrnach on ghealach airson an dàrna cuspair"
+
+msgid "Angular distance from the Sun for second object"
+msgstr "Astar ceàrnach on ghrian airson an dàrna cuspair"
+
+msgid "Annual drift"
+msgstr "Drift bliadhnail"
+
+msgid "Aphelion"
+msgstr "Afelion"
+
+msgid "Appearance"
+msgstr "Coltas"
+
+msgid "Apply time interval limits to list"
+msgstr "Cuir crìochan ùine an aghaidh liosta"
+
+msgid "Art"
+msgstr "Ealain"
+
+msgid "Artificial satellites and unnamed stars are excluded from calculation."
+msgstr "Tha saidealan fuadain agus reultan gun ainm air an dùnadh a-mach bhon àireamhachadh."
+
+msgid "Asking for permission…"
+msgstr "A' faighneachd airson ceadachaidh…"
+
+msgid "Asks SIMBAD what it holds around the object that is selected now, and prints the answer as it comes back."
+msgstr "Faighneachd dha SIMBAD dè a th' aice mu bhòidhdeag an naidheachd seo agus a' clò-bhualadh an freagairt nuair a thilleas i."
+
+msgid "Ast. lines"
+msgstr "Loidh. ast."
+
+msgid "Ast. names"
+msgstr "Ainm. ast."
+
+msgid "Astronomical Almanac (1984)"
+msgstr "Almanac Reul-eòlach (1984)"
+
+msgid "Astronomical Almanac (default) enlarges by 2%; Danjon (1951) differs slightly"
+msgstr "Tha Astronomical Almanac (bunaiteach) ga mheudachadh le 2%; tha Danjon (1951) eadarsgèilich beag"
+
+msgid "Astronomical Twilight"
+msgstr "Glòmadh reul-eòlach"
+
+msgid "Astronomical night"
+msgstr "Oidhche reul-eòlach"
+
+msgid "At"
+msgstr "Aig"
+
+msgid "Atmosph."
+msgstr "Àile"
+
+msgid "Automatic closing dialog"
+msgstr "Còmhradh dùnaidh fèin-obrachail"
+
+msgid "Automatic transparency"
+msgstr "Trìd-dhoilleireachd fèin-obrachail"
+
+msgid "Axis distance"
+msgstr "Astar an axis"
+
+msgid "Azi. grid"
+msgstr "Grid azim."
+
+msgid "Azimuth and altitude rather than right ascension and declination"
+msgstr "Azimuth is àirde seach dìreadh deas is dì-chlaonadh"
+
+msgid "Azimuth vs. Time"
+msgstr "Azimuth an coimeas ama"
+
+msgid "Bad visibility conditions for current location"
+msgstr "Droch-bhalaichean sealladh airson an ionad làithreach"
+
+msgid "Beginning of center line; central eclipse begins"
+msgstr "Toiseachadh loidhne mheadhan; dubhradh meadhanach a' tòiseachadh"
+
+msgid "Below the horizon here."
+msgstr "Fodha an fàire an seo."
+
+msgid "Between objects"
+msgstr "Eadar chuspairean"
+
+msgid "Boundless"
+msgstr "Gun chrìoch"
+
+msgid "Bounds"
+msgstr "Crìochan"
+
+msgid "Bright Solar system objects (<%1 mag)"
+msgstr "Cuspairean soilleir an rian-ghrèine (<%1 meud.)"
+
+msgid "Bright barium stars"
+msgstr "Reultan barium soilleir"
+
+msgid "Bright carbon stars"
+msgstr "Reultan gualan soilleir"
+
+msgid "Bright nova stars"
+msgstr "Reultan nova soilleir"
+
+msgid "Bright supernova stars"
+msgstr "Reultan mòr-nòbha soilleir"
+
+msgid "Brighter than"
+msgstr "Nas soilleir na"
+
+msgid "By object type"
+msgstr "A-rèir seòrsa a' chuspair"
+
+msgid "By planet"
+msgstr "A-rèir planaid"
+
+msgid "Calculate"
+msgstr "Àireamhaich"
+
+msgid "Calculating…"
+msgstr "A' àireamhachadh…"
+
+msgid "Caldwell objects"
+msgstr "Cuspairean Caldwell"
+
+msgid "Cardinals"
+msgstr "Prìomh p."
+
+msgid "Catalogue numbers instead of common names"
+msgstr "Àireamhan catalog an àite ainmean cumanta"
+
+msgid "Category"
+msgstr "Roinn-seòrsa"
+
+msgid "Center of FOV"
+msgstr "Meadhan an raon-seallaidh"
+
+msgid "Centering button"
+msgstr "Putan meadhanaich"
+
+msgid "Central duration"
+msgstr "Fad na meadhain"
+
+msgid "Central eclipse begins"
+msgstr "Tòiseachadh an dubh-ghrèine meadhain"
+
+msgid "Central eclipse ends"
+msgstr "Crìoch an dubh-ghrèine meadhain"
+
+msgid "Centre"
+msgstr "Meadhan"
+
+msgid "Centre on object"
+msgstr "Meadhanaich air cuspair"
+
+msgid "Centre point"
+msgstr "Puing meadhain"
+
+msgid "Circles"
+msgstr "Cearcaill"
+
+msgid "Circular FOV"
+msgstr "Raon-seallaidh cruinn"
+
+msgid "City"
+msgstr "Baile"
+
+msgid "Civil Twilight"
+msgstr "Glòmadh catharra"
+
+msgid "Cleanup"
+msgstr "Glanadh"
+
+msgid "Clear recent searches"
+msgstr "Falamhaich lorgaichean o chionn ghoirid"
+
+msgid "Clear the selection - a touch screen has no right button"
+msgstr "Falamhaich an roghainn - chan eil putan deas air sgaileadh fadadh"
+
+msgid "Cleared."
+msgstr "Air fhalamhachadh."
+
+msgid "Click on star to show its constellation"
+msgstr "Cliog air reulan gus an reul-bhad aice a shealltainn"
+
+msgid "Close"
+msgstr "Dùin"
+
+msgid "Close what is open; from the sky, leave the app running"
+msgstr "Dùin na tha fosgailte; on speur, fàg an aplacaid a' ruith"
+
+msgid "Coarse"
+msgstr "Garbh"
+
+msgid "Color"
+msgstr "Dath"
+
+msgid "Color channel"
+msgstr "Seanal dhath"
+
+msgid "Color of Lunar station lines"
+msgstr "Dath loidhnichean stèisean gealachail"
+
+msgid "Color of orbits"
+msgstr "Dath nan reul-chuairt"
+
+msgid "Color of zodiac lines"
+msgstr "Dath loidhnichean grian-chrios"
+
+msgid "Colors of orbit lines"
+msgstr "Dathan loidhnichean nan reul-chuairt"
+
+msgid "Comets up to mag."
+msgstr "Reultanan-cearbhach thun mag."
+
+msgid "Compass"
+msgstr "Combaist"
+
+msgid "Config"
+msgstr "Rèiteachadh"
+
+msgid "Connecting line"
+msgstr "Loidhne cheangail"
+
+msgid "Const."
+msgstr "R.b."
+
+msgid "Constellations font size"
+msgstr "Meud a' chrutha-chlò air reul-bhadan"
+
+msgid "Contrast"
+msgstr "Eadar-dhealachadh"
+
+msgid "Coordinate system"
+msgstr "Siostam co-chomharran"
+
+msgid "Coordinates"
+msgstr "Co-chomharran"
+
+msgid "Copyright"
+msgstr "Còir-sgriobhaidh"
+
+msgid "Credits"
+msgstr "Creidsean"
+
+msgid "Culmination altitude"
+msgstr "Àirde na ruigsinne"
+
+msgid "Current FoV"
+msgstr "Raon-seallaidh làithreach"
+
+msgid "Custom"
+msgstr "Gnàthaichte"
+
+msgid "Custom FoV limit"
+msgstr "Crìoch raon-seallaidh gnàthaichte"
+
+msgid "Custom altitude of the Moon, °"
+msgstr "Àirde ghnàthaichte na Gealaich, °"
+
+msgid "Custom altitude of the Sun, °"
+msgstr "Àirde ghnàthaichte a' Ghrian, °"
+
+msgid "Custom values"
+msgstr "Luachan gnàthaichte"
+
+msgid "Cut the scale off below the limit"
+msgstr "Gearr an sgèile dheth fodha an crìoch"
+
+msgid "DATE AND TIME (UTC)"
+msgstr "CEANN-LÀ IS ÀM (UTC)"
+
+msgid "DSS survey"
+msgstr "Suirbhe DSS"
+
+msgid "Date and time"
+msgstr "Ceann-là agus àm"
+
+msgid "Date/time"
+msgstr "Ceann-là/àm"
+
+msgid "Dates"
+msgstr "Cinn-là"
+
+msgid "Dbl. stars"
+msgstr "Reultan dhùbailte"
+
+msgid "December solstice"
+msgstr "Grian-stad an Dùbhlaich"
+
+msgid "Decimal degrees. −33.87 means 33.87° south. Elevation is metres above sea level; it moves the horizon down by a few arcminutes."
+msgstr "Ceuman deicheach. −33.87 a' ciallachadh 33.87° gu deas. Tha àirde ann an meadhan-bhruadh os cionn leibheal na fairge; bidh i a' gluasad an fàire sìos le beagan mionaidean-arcsan."
+
+msgid "Degrees per year the longitude moves by"
+msgstr "Ceuman gach bliadhna a bhios an domhan-fhad a' gluasad"
+
+msgid "Degrees, hours and minutes as they are written - 12h30m49s, +41°16'09\", 187.7 - or plain decimal degrees."
+msgstr "Ceuman, uairean is mionaidean mar a tha iad sgrìobhte - 12u30m49d, +41°16'09\", 187.7 - no ceuman deicheach sìmplidh."
+
+msgid "Deletes all recent search object data, and the objects SIMBAD contributed."
+msgstr "Sguabs às gach dàta cuspair luirge o chionn ghoirid, agus na cuspairean a chuir SIMBAD ris."
+
+msgid "Designations for celestial coordinate systems"
+msgstr "Ainmeachaidhean air siostaman co-chomharran speurach"
+
+msgid "Designations for double stars"
+msgstr "Ainmeachaidhean air reultan dhùbailte"
+
+msgid "Designations for variable stars"
+msgstr "Ainmeachaidhean air reultan caochlaideach"
+
+msgid "Dim a survey near the horizon, as the air does"
+msgstr "Falaich suirbhe faisg air an fàire, mar a dhèanar an adhar"
+
+msgid "Dimensions"
+msgstr "Tomhasan"
+
+msgid "Distance, AU"
+msgstr "Astar, AE"
+
+msgid "Done"
+msgstr "Deiseil"
+
+msgid "Drag"
+msgstr "Tarraing"
+
+msgid "Draw deep-sky objects at all"
+msgstr "Tarraing cuspairean fad às gu lèir"
+
+msgid "Draw only polygon"
+msgstr "Tarraing polagain a-mhàin"
+
+msgid "Draw the enabled sky surveys"
+msgstr "Tarraing suirbhidhean speura a chaidh an gnìomhachadh"
+
+msgid "Draw the planets, moons and minor bodies"
+msgstr "Tarraing na planaidean, gealachan is bodhaichean beaga"
+
+msgid "Drawn larger than life, so a body that is a few arcseconds wide is visible at all. The position stays true."
+msgstr "Air tharraing nas motha na beatha, agus mar sin bidh bodhaig a tha beagan arcsan leud faicsinneach gu lèir. Bidh an t-ionad fìor."
+
+msgid "Duration"
+msgstr "Fad"
+
+msgid "Duration (years)"
+msgstr "Fad (bliadhnaichean)"
+
+msgid "Duration, months"
+msgstr "Fad, mìosan"
+
+msgid "Dusk"
+msgstr "Feasgar"
+
+msgid "Dynamic (FOV-based) Moon size"
+msgstr "Meud na Gealaich (stèidhichte air raon-seallaidh) dìnamaigeach"
+
+msgid "ELEV. M"
+msgstr "ÀIRDE. M"
+
+msgid "Earth shadow enlargement after Danjon"
+msgstr "Farsaingeachadh sgàil na Talmhainn an dèidh Danjon"
+
+msgid "Eastern quadrature"
+msgstr "Ceàrnag an ear"
+
+msgid "Ecl. grid"
+msgstr "Grid ecl."
+
+msgid "Eclipse begins; first contact with Earth"
+msgstr "Dubhradh a' tòiseachadh; a' chiad conaltradh ri an Talamh"
+
+msgid "Eclipse ends; last contact with Earth"
+msgstr "Dubhradh a' crìochnachadh; an conaltradh mu dheireadh ri an Talamh"
+
+msgid "Eclipses"
+msgstr "Dubh-ghréine"
+
+msgid "Eclipses are computed for observers on Earth."
+msgstr "Tha dubh-ghréine air an àireamhachadh airson neach-amhairc air an Talamh."
+
+msgid "Elev."
+msgstr "Àir."
+
+msgid "Elevation in metres"
+msgstr "Àirde ann an meadhan-bhruaidh"
+
+msgid "Elongations and quadratures"
+msgstr "Sìneadhain is ceithir-phuingean"
+
+msgid "Enabled only"
+msgstr "'Ga gnìomhachadh a-mhàin"
+
+msgid "End of center line; central eclipse ends"
+msgstr "Crìoch loidhne mheadhan; dubhradh meadhanach a' crìochnachadh"
+
+msgid "Enter Culture..."
+msgstr "Cuir a-steach Dualchas…"
+
+msgid "Equ. grid"
+msgstr "Grid m."
+
+msgid "Equ. mount"
+msgstr "Gl. meadh."
+
+msgid "Equatorial radii ratio"
+msgstr "Co-fharpais radiusan meadhan-chriosach"
+
+msgid "Evening"
+msgstr "Feasgar"
+
+msgid "Every"
+msgstr "Gach"
+
+msgid "Every name the object is catalogued under"
+msgstr "Gach ainm air a bheil an cuspair air a catalogadh"
+
+msgid "Exoplanetary systems"
+msgstr "Siostaman planaidean taobh thall"
+
+msgid "Exterior egress"
+msgstr "Falbh taobh a-muigh"
+
+msgid "Exterior ingress"
+msgstr "Naidheachd taobh a-muigh"
+
+msgid "Fades the ground as you look below the horizon or zoom in"
+msgstr "Crìonaidh an làr nuair a sheallas tu fon fhàire no a nì thu fòcas a-staigh"
+
+msgid "Fading duration"
+msgstr "Fad an solais a' crìonaichidh"
+
+msgid "Faintest shown"
+msgstr "An fhèusanta as lugha air a shealltainn"
+
+msgid "Favorites"
+msgstr "Annsachdan"
+
+msgid "Fetching the survey lists…"
+msgstr "A' faighinn nan liostanan suirbhe…"
+
+msgid "Filter"
+msgstr "Criathraich"
+
+msgid "Find a city"
+msgstr "Lorg baile"
+
+msgid "Fine"
+msgstr "Fìnealta"
+
+msgid "First %d of %d - filter to narrow it."
+msgstr "A' chiad %d de %d - criathraich gus a chùmhachadh."
+
+msgid "First body"
+msgstr "A' chiad bhodhaig"
+
+msgid "First graph"
+msgstr "A' chiad ghraf"
+
+msgid "Fix"
+msgstr "Ceartaich"
+
+msgid "Fixed Equator"
+msgstr "Crios-meadhain shuidhichte"
+
+msgid "Fixed Equatorial grid"
+msgstr "Griod meadhan-chriosach shuidhichte"
+
+msgid "Fixed instant"
+msgstr "Tiota shuidhichte"
+
+msgid "Flip buttons"
+msgstr "Putanan tilgidh"
+
+msgid "Flip horiz."
+msgstr "Flip còmhn."
+
+msgid "Flip vert."
+msgstr "Flip ingh."
+
+msgid "Font size"
+msgstr "Meud a' chrutha-chlò"
+
+msgid "Frame rate"
+msgstr "Ìre-gheal"
+
+msgid "From"
+msgstr "O"
+
+msgid "From year"
+msgstr "O bhliathna"
+
+msgid "Full screen"
+msgstr "Làn-sgrìn"
+
+msgid "Fullscreen button"
+msgstr "Putan làn-sgaileadh"
+
+msgid "Further reading"
+msgstr "Leughadh a bharrachd"
+
+msgid "GRS details…"
+msgstr "Fiosrachadh SPD…"
+
+msgid "Gal. grid"
+msgstr "Grid galax."
+
+msgid "Gamma, saturation, brightness, contrast, opacity, colour channel and inverted colours belong to one survey. Open a survey to set them."
+msgstr "Gamma, saturation, soilleireachd, eadar-dhealachadh, trìd-dhoilleireachd, seanal dhath is dathan inbhèartaichte a bhuineas do aon suirbhe. Fosgail suirbhe gus an suidheachadh."
+
+msgid "Gestures"
+msgstr "Ghluasadan"
+
+msgid "Go there"
+msgstr "Thig ann an siud"
+
+msgid "Go to position"
+msgstr "Rach gu ionad"
+
+msgid "Go to this eclipse"
+msgstr "Rach gu an dubh-ghrèine seo"
+
+msgid "Go to this moment"
+msgstr "Rach gu an tiota seo"
+
+msgid "Go to this transit"
+msgstr "Rach gu an trasnadh seo"
+
+msgid "Good visibility conditions for current location"
+msgstr "Math a bhalaichean sealladh airson an ionad làithreach"
+
+msgid "Great Red Spot"
+msgstr "An Spoit Mhòir Dheirg"
+
+msgid "Great Red Spot details"
+msgstr "Fiosrachadh air an Spoit Mhòir Dheirg"
+
+msgid "Greatest eastern elongation"
+msgstr "Sìneadh an ear as motha"
+
+msgid "Greatest eclipse"
+msgstr "Dubhradh as motha"
+
+msgid "Greatest elongation for an inner planet, quadrature for an outer one"
+msgstr "An sìneadh as motha airson planaid a-staigh, ceithir-phuing airson fear a-muigh"
+
+msgid "Greatest western elongation"
+msgstr "Sìneadh an iar as motha"
+
+msgid "Greek letters"
+msgstr "Litrichean na Greugais"
+
+msgid "Grid density"
+msgstr "Dùmhlachd grioid"
+
+msgid "Grids"
+msgstr "Grioda"
+
+msgid "Ground"
+msgstr "Làr"
+
+msgid "Gyro"
+msgstr "Gyro"
+
+msgid "Gyro mode"
+msgstr "Modh Gyro"
+
+msgid "Height"
+msgstr "Àirde"
+
+msgid "Heliocentric ecliptic positions of the major planets."
+msgstr "Ionadan èiclipteach grèin-mheadhonach nam planaidean mòra."
+
+msgid "Herschel 400 objects"
+msgstr "Cuspairean Herschel 400"
+
+msgid "HiPS"
+msgstr "HiPS"
+
+msgid "HiPS Surveys"
+msgstr "Suirbhidhean HiPS"
+
+msgid "Hide controls"
+msgstr "Falaich smachdan"
+
+msgid "Hide deep-sky objects fainter than the limit"
+msgstr "Falaich cuspairean fad às nach eil cho soilleir ris a' chrìoch"
+
+msgid "Hide orbits of minor bodies"
+msgstr "Falaich reul-chuairtean nan bodhaichean beaga"
+
+msgid "Highlight"
+msgstr "Soille."
+
+msgid "Highlight the objects of the observing list"
+msgstr "Soilleireachadh cuspairean an liosta bheachdachaidh"
+
+msgid "Hint circles marking each planet"
+msgstr "Cearcaill oidheaman a' comharrachadh gach planaid"
+
+msgid "Hints brightness"
+msgstr "Soilleireachd oidheaman"
+
+msgid "Hipparcos designations"
+msgstr "Ainmeachaidhean Hipparcos"
+
+msgid "Hour angles usually run 0...24h. This counts -12h...12h."
+msgstr "Bidh ceàrnan uairean a' ruith 0...24u mar as trice. Tha an seo a' cunntadh -12u...12u."
+
+msgid "How many"
+msgstr "Cia mheud"
+
+msgid "ICRS grid"
+msgstr "Griod ICRS"
+
+msgid "Include"
+msgstr "Gabh a-steach"
+
+msgid "Include bright comets"
+msgstr "Gabh reultanan-cearbhach soilleir a-steach"
+
+msgid "Include selected minor planets"
+msgstr "Gabh planaidean beaga a thaghadh a-steach"
+
+msgid "Inferior conjunction"
+msgstr "Co-nasgadh ìseal"
+
+msgid "Info label"
+msgstr "Leubail fiosrachaidh"
+
+msgid "Intercardinal points"
+msgstr "Puingean eadar-chombaist"
+
+msgid "Interior egress"
+msgstr "Falbh a-staigh"
+
+msgid "Interior ingress"
+msgstr "Naidheachd a-staigh"
+
+msgid "Interstellar objects"
+msgstr "Cuspairean eadar-reultach"
+
+msgid "Invariable plane of the Solar system"
+msgstr "Plèana seasmhach an rian-ghrèine"
+
+msgid "Isolated"
+msgstr "Aonaranach"
+
+msgid "Its elevation, and the civil, nautical and astronomical twilights"
+msgstr "An àirde aice, agus na prionnsabalan sìobhalt, muir-eòlach is reul-eòlach"
+
+msgid "Jovigraphic longitude of the spot in System II, in degrees"
+msgstr "Domhan-fhad Ioviugrafach an t-spot ann an Siostam II, ann an ceuman"
+
+msgid "June solstice"
+msgstr "Grian-stad an t-Iuchair"
+
+msgid "Label"
+msgstr "Leubail"
+
+msgid "Label colour"
+msgstr "Dath leubail"
+
+msgid "Label only features along the terminator"
+msgstr "Leubail feartan air an terminator a-mhàin"
+
+msgid "Labels and Markers amount"
+msgstr "Meud leubailean is chomharran"
+
+msgid "Labels brightness"
+msgstr "Soilleireachd leubailean"
+
+msgid "Largest, ′"
+msgstr "As motha, ′"
+
+msgid "Last known position"
+msgstr "An t-ionad as ùire a tha fios againn air"
+
+msgid "Lasting"
+msgstr "Maireann"
+
+msgid "Latest selected object"
+msgstr "An cuspair a thagh thu mu dheireadh"
+
+msgid "Latitude −90…90, longitude −180…180."
+msgstr "Domhan-leud −90…90, domhan-fhad −180…180."
+
+msgid "Layer appearance"
+msgstr "Coltas na h-ìre"
+
+msgid "Leaves the landscape visible in darkness"
+msgstr "Fàgail a' chrutha-tìre faicsinneach ann an dorchadas"
+
+msgid "Licence"
+msgstr "Ceadachas"
+
+msgid "Light pollution"
+msgstr "Truailleachadh solais"
+
+msgid "Light pollution from database"
+msgstr "Truailleachadh solais o bhànc-dàta"
+
+msgid "Limit angular separation"
+msgstr "Cuingich sgaradh ceàrnach"
+
+msgid "Limit angular size"
+msgstr "Crìoch meud ceàrnach"
+
+msgid "Limit magnitude"
+msgstr "Crìoch meudachd"
+
+msgid "Linear and angular distances between selected objects"
+msgstr "Astaran sreathach is ceàrnach eadar na cuspairean a thagh thu"
+
+msgid "Linear distance"
+msgstr "Astar sreathach"
+
+msgid "Lines"
+msgstr "Loidhn."
+
+msgid "Lines and circles"
+msgstr "Loidhnichean is cearcaill"
+
+msgid "List"
+msgstr "Liosta"
+
+msgid "List name"
+msgstr "Ainm na liosta"
+
+msgid "Lit windows, street lighting and the like"
+msgstr "Uinneagan soilsichte, soilseachaidh na sràide agus mar sin air adhart"
+
+msgid "Loading…"
+msgstr "'Ga luchdachadh…"
+
+msgid "Local solar eclipses"
+msgstr "Dubhraidhean grèine ionadail"
+
+msgid "Local time"
+msgstr "Àm ionadail"
+
+msgid "Local time, h"
+msgstr "Àm ionadail, u"
+
+msgid "Locate me"
+msgstr "Lorga mi"
+
+msgid "Locating…"
+msgstr "A' lorachadh…"
+
+msgid "Location from landscape"
+msgstr "Ionad on chruth-tìre"
+
+msgid "Location is switched off in the system settings."
+msgstr "Tha an ionad air a chur dheth ann an roghainnean an t-siostaim."
+
+msgid "Location permission refused. The other two ways still work."
+msgstr "Dhiult an t-eagal airson an ionad. Tha an dà dhòigh eile fhathast ag obair."
+
+msgid "Long press"
+msgstr "Fad-bhrùthadh"
+
+msgid "Longitude of GRS"
+msgstr "Domhan-fhad an GRS"
+
+msgid "Lunar Stations"
+msgstr "Stèiseanan na Gealaich"
+
+msgid "Lunar eclipses"
+msgstr "Dubhraidhean na Gealaich"
+
+msgid "Lunar elongation"
+msgstr "Sìneadh na Gealaich"
+
+msgid "Mag. 1"
+msgstr "Meud. 1"
+
+msgid "Mag. 2"
+msgstr "Meud. 2"
+
+msgid "Magnitudes"
+msgstr "Meudachdan"
+
+msgid "Major planets"
+msgstr "Planaidean mòra"
+
+msgid "Major planets by planet, minor bodies by type"
+msgstr "Planaidean mòra air an sgèileadh a rèir planaide, bhodhaigean beaga air an sgèileadh a rèir seòrsa"
+
+msgid "Map of the planet. Tap to set the observer's place."
+msgstr "Mapa den phlanaid. Brod air gus ionad an neach-amhairc a shuidheachadh."
+
+msgid "March equinox"
+msgstr "Co-fhadan-tràth an Mhàirt"
+
+msgid "Mark impact features with ellipses"
+msgstr "Comharraich feartan buaidhe le ellipsan"
+
+msgid "Mark minor bodies"
+msgstr "Comharraich bhodhaigean beaga"
+
+msgid "Markers"
+msgstr "Comharran"
+
+msgid "Markers sized by the object's angular size"
+msgstr "Comharran air an sgèileadh a-rèir meud ceàrnach a' chuspair"
+
+msgid "Master switch for the grids, lines and points below"
+msgstr "Am prìomh-ghnìomhaiche airson nan griodachan, loidhnichean is phuingean gu h-ìosal"
+
+msgid "Max items to display"
+msgstr "An àireamh as motha de nithean ri shealltainn"
+
+msgid "Max. results"
+msgstr "Toraidhean as motha"
+
+msgid "Max. search radius"
+msgstr "Radius luirg as motha"
+
+msgid "Maximum Solar altitude"
+msgstr "An àirde as motha den Ghrian"
+
+msgid "Maximum allowed separation"
+msgstr "Sgaradh as motha a tha ceadaichte"
+
+msgid "Maximum angular size"
+msgstr "Meud ceàrnach as motha"
+
+msgid "Maximum eclipse"
+msgstr "Dubhradh as motha"
+
+msgid "Maximum year"
+msgstr "A' bhliadhna as motha"
+
+msgid "Mean motion"
+msgstr "Gluasad meadhain"
+
+msgid "Mercury, Venus, Mars, Jupiter and Saturn at once. Earth only."
+msgstr "Mearcar, an Rìbhinn, an Corg, am Bliogh agus Satarn aig an aon àm. An Talamh a-mhàin."
+
+msgid "Messier objects"
+msgstr "Cuspairean Messier"
+
+msgid "Mid-transit"
+msgstr "Meadhan-thrasnadh"
+
+msgid "Milky Way brightness"
+msgstr "Soilleireachd Slighe Chlann Uisnich"
+
+msgid "Milky Way saturation"
+msgstr "Saturation Slighe Chlann Uisnich"
+
+msgid "Minimal angular size"
+msgstr "Meud ceàrnach as lugha"
+
+msgid "Minimal brightness"
+msgstr "Soilleireachd as lugha"
+
+msgid "Minimum Solar altitude"
+msgstr "An àirde as lugha den Ghrian"
+
+msgid "Minimum year"
+msgstr "A' bhliadhna as lugha"
+
+msgid "Minor bodies"
+msgstr "Bodhaigean beaga"
+
+msgid "Minutes before sunrise / after sunset"
+msgstr "Mionaidean ro èirigh a' ghrian / an dèidh dol fodha a' ghrian"
+
+msgid "Monthly Elevation"
+msgstr "Àirde Mìosail"
+
+msgid "Moon at"
+msgstr "A' Ghealach aig"
+
+msgid "Moon enters penumbra"
+msgstr "A' Ghealach a' dol a-steach don leth-umbra"
+
+msgid "Moon enters umbra"
+msgstr "A' Ghealach a' dol a-steach don umbra"
+
+msgid "Moon in zenith at"
+msgstr "A' Ghealach aig barr an speur aig"
+
+msgid "Moon leaves penumbra"
+msgstr "A' Ghealach a' fàgail an leth-umbra"
+
+msgid "Moon leaves umbra"
+msgstr "A' Ghealach a' fàgail an umbra"
+
+msgid "Moon's halo"
+msgstr "Halo na Gealaich"
+
+msgid "Moons of first body"
+msgstr "Gealaichean a' chiad bhaoghail"
+
+msgid "Morning"
+msgstr "Madainn"
+
+msgid "Morph. Descr."
+msgstr "Tuairisgeul Morf."
+
+msgid "Move the sky by pointing the phone at it"
+msgstr "Gluais an speur le bhith a' comharrachadh air a' fòn air"
+
+msgid "Move the sky with the phone"
+msgstr "Gluais an speur leis a' fòn"
+
+msgid "NGC/IC objects"
+msgstr "Cuspairean NGC/IC"
+
+msgid "Name for the new list"
+msgstr "Ainm airson an liosta ùr"
+
+msgid "Named features the landscape marks"
+msgstr "Feartan ainmichte a tha an cruth-tìre a' comharrachadh"
+
+msgid "Names"
+msgstr "Ainmean"
+
+msgid "Names beside the planets and their markers"
+msgstr "Ainmean ri taobh nam planaidean agus an comharran"
+
+msgid "Names in English"
+msgstr "Ainmean ann an Beurla"
+
+msgid "Nautical Twilight"
+msgstr "Glòmadh fairge"
+
+msgid "Neb. bg"
+msgstr "Bg neabul."
+
+msgid "Nebula background"
+msgstr "Cùlaibh nan nebula"
+
+msgid "Nebulae"
+msgstr "Neabul."
+
+msgid "New list"
+msgstr "Liosta ùr"
+
+msgid "Next"
+msgstr "An ath-fhear"
+
+msgid "Night"
+msgstr "Oidhche"
+
+msgid "No city matches that."
+msgstr "Chan eil baile sam bith a' freagairt sin."
+
+msgid "No eclipses found. Pick a range and calculate."
+msgstr "Cha robh dubhradh ann. Tagh raon agus àireamhaich."
+
+msgid "No fresh fix - the receiver may have no sky. Try again outdoors, or set the place another way."
+msgstr "Cha robh fix ùr ann - is dòcha nach eil fòn-ghabhail aig an inneal an speur. Feuch a-rithist taobh a-muigh, no cuir an ionad air dòigh eile."
+
+msgid "No surveys were found. The lists are downloaded, so this needs a connection."
+msgstr "Cha robh suirbhidhean ann. Tha na liostaichean air an luchdachadh síos, agus feumaidh seo ceangal."
+
+msgid "None downloaded yet"
+msgstr "Cha robh gin a luchdachadh síos fhathast"
+
+msgid "Normal"
+msgstr "Àbhaisteach"
+
+msgid "Not observable eclipse"
+msgstr "Dubhradh do-amhairc"
+
+msgid "Note: Local circumstances for eclipses during thousands of years in the past and future are not reliable due to uncertainty in ΔT which is caused by fluctuations in Earth's rotation."
+msgstr "Nota: Chan eil na h-iomlan-tràth ionadail airson dubhradhean thairis air mìltean de bhliadhnaichean san àm a dh'fhalbh agus san àm ri teachd earbsach air sgàth an dì-chinnteachd ann an ΔT a chaidh adhbhrachadh le atharrachadh ann an cuairteachadh na Talmhainn."
+
+msgid "Note: artificial satellites and unnamed stars are excluded from calculation"
+msgstr "Nota: Tha saileataidean fuadain agus reultan gun ainm air an dùnadh a-mach on àireamhachadh"
+
+msgid "Note: this tool doesn't apply the refraction correction for coordinates. Horizontal coordinates stop the clock, or the sky would turn away from the point while you arrive at it."
+msgstr "Nota: cha bhidh an inneal seo a' cur an cur den bhris solais air cho-chomharran. Bidh co-chomharran còmhnard a' stad an uaireadair, air neo bhiodh an speur a' tionndadh air falbh on phuing fhad 's a bhios tu a' tighinn dh'ionnsaigh."
+
+msgid "Notes: The quantity gamma is the minimum distance from the axis of lunar shadow cone to the center of Earth, in units of Earth’s equatorial radius. This distance is positive or negative, depending on whether the axis of the shadow cone passes north or south of the Earth's center. Path of solar eclipses during thousands of years in the past and future are not reliable due to uncertainty in ΔT which is caused by fluctuations in Earth's rotation."
+msgstr "Notaichean: Tha an meud gamma mar an astar as lugha o thuaidh gu deas on axis coil-sgàil na gealaich gu meadhan na Talmhainn, air a thomhas ann an radiusan meadhan-chriosach na Talmhainn. Tha an astar seo dearbhach no àicheil, a-rèir co dhiubh a bheil an axis den choil sgàil a' dol tuath no deas air meadhan na Talmhainn. Chan eil slighe nan dubhradhean grèine thairis air mìltean de bhliadhnaichean san àm a dh'fhalbh agus san àm ri teachd earbsach air sgàth an dì-chinnteachd ann an ΔT a chaidh adhbhrachadh le atharrachadh ann an cuairteachadh na Talmhainn."
+
+msgid "Notes: The quantity gamma is the minimum distance from the center of the Moon to the axis of Earth’s umbral shadow cone, in units of Earth’s equatorial radius. This distance is positive or negative, depending on whether the Moon passes north or south of the shadow cone axis. Local circumstances for eclipses during thousands of years in the past and future are not reliable due to uncertainty in ΔT which is caused by fluctuations in Earth's rotation."
+msgstr "Notaichean: Tha an meud gamma mar an astar as lugha o mheadhan na gealaich gu axis coil-umbra na Talmhainn, air a thomhas ann an radiusan meadhan-chriosach na Talmhainn. Tha an astar seo dearbhach no àicheil, a-rèir co dhiubh a bheil a' Ghealach a' dol tuath no deas on axis coil. Chan eil na h-iomlan-tràth ionadail airson dubhradhean thairis air mìltean de bhliadhnaichean san àm a dh'fhalbh agus san àm ri teachd earbsach air sgàth an dì-chinnteachd ann an ΔT a chaidh adhbhrachadh le atharrachadh ann an cuairteachadh na Talmhainn."
+
+msgid "Notes: Time in parentheses means the contact is invisible at current location. Transit times during thousands of years in the past and future are not reliable due to uncertainty in ΔT which is caused by fluctuations in Earth's rotation."
+msgstr "Notaichean: Tha àm ann an camagan a' ciallachadh gu bheil an conaltradh do-fhaicsinneach aig an ionad làithreach. Chan eil na h-uine thrasnaidh thairis air mìltean de bhliadhnaichean san àm a dh'fhalbh agus san àm ri teachd earbsach air sgàth an dì-chinnteachd ann an ΔT a chaidh adhbhrachadh le atharrachadh ann an cuairteachadh na Talmhainn."
+
+msgid "Nothing computed yet, or nothing in this category is up."
+msgstr "Cha robh dad air àireamhachadh fhathast, no cha robh dad san roinn-seòrsa seo suas."
+
+msgid "Nothing computed yet."
+msgstr "Cha robh dad air àireamhachadh fhathast."
+
+msgid "Nothing found for “%s”."
+msgstr "Gun deach dad a lorg airson \"%s\"."
+
+msgid "Nothing in this list matches."
+msgstr "Chan eil dad san liosta seo a' freagairt."
+
+msgid "Nothing in this list yet. Pick something out of the sky and tap the star on its card to keep it here."
+msgstr "Chan eil dad san liosta seo fhathast. Tagh rudeigin as an speur agus brod air an reul air a chlàr gus a chumail an seo."
+
+msgid "Nothing is selected. Pick an object in the sky first."
+msgstr "Chan eil dad air a thaghadh. Tagh cuspair san speur an toiseach."
+
+msgid "Nothing matches."
+msgstr "Chan eil dad a' freagairt."
+
+msgid "Nothing selected"
+msgstr "Chan eil dad air a thaghadh"
+
+msgid "Nothing to plot."
+msgstr "Chan eil dad ri phlota."
+
+msgid "Nothing to show."
+msgstr "Chan eil dad ri shealltainn."
+
+msgid "Now"
+msgstr "A-nis"
+
+msgid "N× above"
+msgstr "N× os cionn"
+
+msgid "OBJECT"
+msgstr "CUSPAIR"
+
+msgid "OBJECTS"
+msgstr "CUSPAIREAN"
+
+msgid "Objects which are up"
+msgstr "Cuspairean a tha suas"
+
+msgid "Observable duration"
+msgstr "Fad-ama faicsinneach"
+
+msgid "Observing list"
+msgstr "Liosta amhairc"
+
+msgid "Observing list highlight"
+msgstr "Soilleachadh liosta amhairc"
+
+msgid "Observing lists"
+msgstr "Liostaichean amhairc"
+
+msgid "On the sky"
+msgstr "Air an speur"
+
+msgid "One color"
+msgstr "Aon dath"
+
+msgid "Only for N latest selected objects"
+msgstr "A-mhàin airson an N cuspair as ùire a chaidh a thaghadh"
+
+msgid "Only for Solar elevation"
+msgstr "A-mhàin airson àirde na Grèine"
+
+msgid "Only list"
+msgstr "Liosta a-mhàin"
+
+msgid "Only one at a time"
+msgstr "Aon rud a-mhàin aig an aon àm"
+
+msgid "Only orbit for selected object…"
+msgstr "Reul-chuairt a-mhàin airson a' chuspair a chaidh a thaghadh…"
+
+msgid "Only orbits of major planets…"
+msgstr "Reul-chuairtean nam planaidean mòra a-mhàin…"
+
+msgid "Opac."
+msgstr "Opas."
+
+msgid "Open date and time"
+msgstr "Fosgail ceann-là is àm"
+
+msgid "Open location"
+msgstr "Fosgail an ionad"
+
+msgid "Opens the JUPOS project in a browser"
+msgstr "Fosglaichidh seo pròiseact JUPOS ann am brabhsair"
+
+msgid "Opposition of"
+msgstr "Dhìreadh a' chur a-mach de"
+
+msgid "Oppositions"
+msgstr "Curaidhean a-mach"
+
+msgid "Orbit colors"
+msgstr "Dathan nam reul-chuairt"
+
+msgid "Orbital periods ratio"
+msgstr "Co-fharpais ùinean na cuairte"
+
+msgid "Orbits"
+msgstr "Reul-chuairtean"
+
+msgid "Orbits of interstellar objects"
+msgstr "Reul-chuairtean nan cuspairean eadar-reultach"
+
+msgid "Orbits of moons"
+msgstr "Reul-chuairtean nan gealàn"
+
+msgid "Otherwise every move adopts the zone of the new place."
+msgstr "Air sgeul is gu bheil a h-uile gluasad a' gabhail ris an roinn-tìde den ionad ùr."
+
+msgid "Outline craters"
+msgstr "Oir-loidhnichean a' chriathraidh"
+
+msgid "PD (J2000)"
+msgstr "CP (J2000)"
+
+msgid "Pan the sky"
+msgstr "Gluais an speur gu sèasach"
+
+msgid "Partial eclipse begins"
+msgstr "Dubhradh leabhar a' tòiseachadh"
+
+msgid "Partial eclipse ends"
+msgstr "Dubhradh leabhar a' crìochnachadh"
+
+msgid "Partitions"
+msgstr "Pàirtean"
+
+msgid "Partitions thickness"
+msgstr "Tiughad nam pàirtean"
+
+msgid "Path width"
+msgstr "Leud an t-slighe"
+
+msgid "Pause"
+msgstr "Stad"
+
+msgid "Paused - start"
+msgstr "Stàpte - tòisich"
+
+msgid "Penumbral magnitude"
+msgstr "Meudachd leth-umbra"
+
+msgid "Perfect visibility conditions for current location"
+msgstr "Balaichean sealladh foirfe airson an ionad làithreach"
+
+msgid "Perihelion and aphelion"
+msgstr "Pearihelion is apohelion"
+
+msgid "Pick two different bodies to see how their distance changes."
+msgstr "Tagh dà bhодhaig eadar-dhealaichte gus faicinn mar a tha an astar aca a' cleachdadh."
+
+msgid "Pinch"
+msgstr "Fèulachadh"
+
+msgid "Planet"
+msgstr "Planaid"
+
+msgid "Planet and time zone"
+msgstr "Planaid agus roinn-tìde"
+
+msgid "Planetary nebulae (<%1 mag)"
+msgstr "Deargan-doireannan planaideach (<%1 meud.)"
+
+msgid "Planetary nomenclature"
+msgstr "Ainmeachadh nam planaidean"
+
+msgid "Planetary transits"
+msgstr "Trasnadhean nam planaidean"
+
+msgid "Planets"
+msgstr "Planaidean"
+
+msgid "Planets and Sun"
+msgstr "Planaidean agus A' Ghrian"
+
+msgid "Planets magnitude algorithm"
+msgstr "Algairim meudachd nam planaidean"
+
+msgid "Please select object to plot its 'Monthly Elevation' graph for the current year at selected time."
+msgstr "Tagh cuspair gus a ghraf \"Àirde Mhiosail\" a tharraing airson a' bhliadhna dhàitheanach aig an àm a thagh thu."
+
+msgid "Please select object to plot its graph 'Azimuth vs. Time'."
+msgstr "Tagh cuspair gus diagram \"Azimuth : Àm\" a tharraing dha."
+
+msgid "Pluto, Ceres, Pallas, Juno and Vesta"
+msgstr "Pluto, Ceres, Pallas, Juno agus Vesta"
+
+msgid "Point size"
+msgstr "Meud a' phuinge"
+
+msgid "Pointing"
+msgstr "A' comharrachadh"
+
+msgid "Polar distance"
+msgstr "Astar polar"
+
+msgid "Polar distance, not declination"
+msgstr "Astar polar, chan e dì-chlaonadh"
+
+msgid "Poles and points"
+msgstr "Pòlaichean is puingean"
+
+msgid "Polygon colour"
+msgstr "Dath a' pholagain"
+
+msgid "Positive values only"
+msgstr "Luachan dearbhach a-mhàin"
+
+msgid "Previous"
+msgstr "An rud roimhe"
+
+msgid "Pronounce"
+msgstr "Grad"
+
+msgid "Quadrature circle"
+msgstr "Cearcall ceithir-thromach"
+
+msgid "Query SIMBAD about selected object"
+msgstr "Faighneachd do SIMBAD mu dhèidhinn a' chuspair a chaidh a thaghadh"
+
+msgid "Query options"
+msgstr "Roghainnean faighneachd"
+
+msgid "Quit"
+msgstr "Fàg an-seo"
+
+msgid "Reading…"
+msgstr "A' leughadh…"
+
+msgid "Real time speed"
+msgstr "Luaths àm fìor"
+
+msgid "Rectangular FOV"
+msgstr "Raon-seallaidh ceart-cheàrnach"
+
+msgid "Refraction, extinction, sky brightness"
+msgstr "Ath-bhris solais, caochladh, soilleireachd an speur"
+
+msgid "Regions of the sky"
+msgstr "Sgìreachdan an speur"
+
+msgid "Relative scale"
+msgstr "Sgèile dhàimheach"
+
+msgid "Remove %s"
+msgstr "Thoir air falbh %s"
+
+msgid "Remove from observing list"
+msgstr "Thoir air falbh on liosta amhairc"
+
+msgid "Rename"
+msgstr "Ath-ainmich"
+
+msgid "Reset all"
+msgstr "Ath-shuidhich a h-uile"
+
+msgid "Restarting…"
+msgstr "A' tòiseachadh a-rithist…"
+
+msgid "Rises"
+msgstr "Èirighean"
+
+msgid "Rotation"
+msgstr "Cuairt"
+
+msgid "Running"
+msgstr "A' ruith"
+
+msgid "SIMBAD did not answer."
+msgstr "Cha tug SIMBAD freagairt."
+
+msgid "SIMBAD is switched off in the search options."
+msgstr "Tha SIMBAD air fhàgail dheth anns na roghainnean luirg."
+
+msgid "SIMBAD is switched off. Turn it on under Options to look objects up online."
+msgstr "Tha SIMBAD air a chur dheth. Cuir air a' bhogha gus amharc air cuspairean air-loidhne."
+
+msgid "SIMBAD server"
+msgstr "Frithealaiche SIMBAD"
+
+msgid "Save"
+msgstr "Sàbhail"
+
+msgid "Save either the current FOV and direction of view or all the current options for use at next startup. Restoring default settings requires a restart of the app."
+msgstr "Sàbhail an dàrna cuid an raon-seallaidh làithreach is stiùireadh an t-seallaidh no na roghainnean làithreach gu lèir airson a chleachdadh aig an ath-thòiseachadh. Feumaidh aisigean roghainnean bunaiteach ath-thòiseachadh den app."
+
+msgid "Save to observing list"
+msgstr "Sàbhail gu liosta amhairc"
+
+msgid "Scale"
+msgstr "Sgèile"
+
+msgid "Scale marker and label visibility by surface brightness"
+msgstr "Sgèilich ìomlaid an chomharra agus am faicsinn den leubail le soilleireachd an uachdair"
+
+msgid "Scales smoothly between 1× at the minimum field of view and the factor above at the maximum"
+msgstr "Sgèile gu socrach eadar 1× aig an raon-seallaidh as lugha agus an fhactar os cionn aig a' mhòrachd"
+
+msgid "Screen label"
+msgstr "Leubail na sgrìn"
+
+msgid "Search in list"
+msgstr "Lorg air an liosta"
+
+msgid "Seasons"
+msgstr "Ràithean"
+
+msgid "Second body"
+msgstr "An dàrna bodhaig"
+
+msgid "Second graph"
+msgstr "An dàrna graf"
+
+msgid "Second object"
+msgstr "An dàrna cuspair"
+
+msgid "Secondary intercardinal points"
+msgstr "Puingean combaiste meadhain dhàrna"
+
+msgid "See the sky through the ground"
+msgstr "Faic an speur tro an làr"
+
+msgid "Seen now"
+msgstr "Air fhaicinn a-nis"
+
+msgid "Select an object first: this asks SIMBAD what it holds around it."
+msgstr "Tagh cuspair an toiseach: tha seo ag iarraidh air SIMBAD dè tha i a' cumail mu thimcheall air."
+
+msgid "Select it and show its card"
+msgstr "Tagh e agus seall a chlàr"
+
+msgid "Select something in the sky first — this page works on the selection."
+msgstr "Tagh rudeigin san speur an toiseach — bidh an duilleag seo ag obair air an taghadh."
+
+msgid "Selected object"
+msgstr "Cuspair air a thaghadh"
+
+msgid "Sep."
+msgstr "Sgar."
+
+msgid "Separate colors for orbits of major planets"
+msgstr "Dathan fa leth airson reul-chuairtean nam planaidean mòra"
+
+msgid "September equinox"
+msgstr "Co-fhadan-tràth an t-Sultain"
+
+msgid "Server"
+msgstr "Frithealaiche"
+
+msgid "Set the clock to %s"
+msgstr "Cuir an uaireadair gu %s"
+
+msgid "Set the place"
+msgstr "Cuir an ionad"
+
+msgid "Set to now"
+msgstr "Cuir gu a-nis"
+
+msgid "Sets"
+msgstr "Suidhean"
+
+msgid "Shadow map for non-convex bodies. May coarsen the penumbra on some objects"
+msgstr "Mapa sgàile airson bhodhaigean nach eil drùdhach. Dh'fhaoidte gu bheil e a' dèanamh garbh air an leth-umbra air cuid de chuspairean"
+
+msgid "Shadow transit"
+msgstr "Trasnadh an sgàil"
+
+msgid "Shooting stars"
+msgstr "Reultan tìltich"
+
+msgid "Short notation for units of surface brightness"
+msgstr "Comharrachadh goirid airson aonad soilleireachd an uachdair"
+
+msgid "Short steps over a long duration are slow."
+msgstr "Tha geaman goirid fad ùine fhada slaodach."
+
+msgid "Show"
+msgstr "Seall"
+
+msgid "Show FOV center marker when position is search"
+msgstr "Seall comharra meadhan an raon-seallaidh nuair a bhios an ionad a' lorg"
+
+msgid "Show additional buttons"
+msgstr "Seall putanan a bharrachd"
+
+msgid "Show additional star names"
+msgstr "Seall ainmean reult a bharrachd"
+
+msgid "Show all information"
+msgstr "Seall a h-uile fiosrachadh"
+
+msgid "Show atmospheric extinction"
+msgstr "Seall caochladh àile"
+
+msgid "Show boundaries of constellations"
+msgstr "Seall crìochan nan reul-bhadan"
+
+msgid "Show button in addition to keyboard shortcut?"
+msgstr "Seall putan a bharrachd air gearr-amharc a' chhlàbhair?"
+
+msgid "Show controls"
+msgstr "Seall smachdan"
+
+msgid "Show each body where it was when the light left it (recommended)"
+msgstr "Seall gach bodhaig far an robh i nuair a dh'fhàg an solas i (sàr-mholadh)"
+
+msgid "Show frames per second beside the field of view"
+msgstr "Seall frèaman gach diog ri taobh an raon-seallaidh"
+
+msgid "Show illumination"
+msgstr "Seall soilleachadh"
+
+msgid "Show in sky"
+msgstr "Seall san speur"
+
+msgid "Show less"
+msgstr "Seall nas lugha"
+
+msgid "Show lunar stations (if defined)"
+msgstr "Seall stèiseanan na Gealaich (ma chaidh a mhìneachadh)"
+
+msgid "Show more"
+msgstr "Seall barrachd"
+
+msgid "Show objects which are up"
+msgstr "Seall cuspairean a tha suas"
+
+msgid "Show only named DSO"
+msgstr "Seall a-mhàin DSO air an ainmeachadh"
+
+msgid "Show only objects between the two sizes"
+msgstr "Seall a-mhàin cuspairean eadar an dà mheud"
+
+msgid "Show only the kinds ticked below"
+msgstr "Seall a-mhàin na seòrsachan a tha cromruithean gu h-ìosal"
+
+msgid "Show or hide the two rails of controls"
+msgstr "Seall no falaich an dà rèile de smachdan"
+
+msgid "Show orbit even if object is off screen"
+msgstr "Seall reul-chuairt eadhon tha an cuspair air falbh on sgrìn"
+
+msgid "Show orbit only for selected SSO"
+msgstr "Seall reul-chuairt a-mhàin airson SSO air a thaghadh"
+
+msgid "Show orbits"
+msgstr "Seall reul-chuairtean"
+
+msgid "Show orbits of major planets"
+msgstr "Seall reul-chuairtean nam planaidean mòra"
+
+msgid "Show special nomenclature points only"
+msgstr "Seall puingean ainmeachaidh sònrachte a-mhàin"
+
+msgid "Show surveys"
+msgstr "Seall suirbhidhean"
+
+msgid "Show this survey"
+msgstr "Seall an suirbhidh seo"
+
+msgid "Show tiny circles for minor bodies regardless of magnitude"
+msgstr "Seall cearcaill bheag airson bodhaigean beaga a dh'aindeoin meudachd"
+
+msgid "Show trails"
+msgstr "Seall lorgan"
+
+msgid "Show zodiac (if defined)"
+msgstr "Seall grian-chrios (ma chaidh a mhìneachadh)"
+
+msgid "Simbad Lookup Error: %s"
+msgstr "Mearachd fhilleadh Simbad: %s"
+
+msgid "Simbad Lookup: querying"
+msgstr "Filleadh Simbad: a' faighneachd"
+
+msgid "Simulation"
+msgstr "Samhlachadh"
+
+msgid "Sky Culture"
+msgstr "Dualchas an speura"
+
+msgid "Sky and viewing options"
+msgstr "Speur agus roghainnean sealladh"
+
+msgid "Sky culture"
+msgstr "Dualchas an speura"
+
+msgid "Slow down"
+msgstr "Mall"
+
+msgid "Smallest, ′"
+msgstr "As lugha, ′"
+
+msgid "Solar altitude for Twilight Finder"
+msgstr "Àirde grèine airson an Lorg-tràth-oidhche"
+
+msgid "Solar elongation"
+msgstr "Sìneadh grèine"
+
+msgid "Special points only"
+msgstr "Puingean sònraichte a-mhàin"
+
+msgid "Spectral Class"
+msgstr "Clas speactral"
+
+msgid "Speed up"
+msgstr "Luathich"
+
+msgid "Spiky stars"
+msgstr "Reultan gràmach"
+
+msgid "Stand where the landscape was shot, on the planet it names"
+msgstr "Seasamh far an deach an cruth-tìre a ghabhail, air a' phlanaid air am ainm a tha i"
+
+msgid "Star, planet, catalogue number…"
+msgstr "Reultan, planaid, àireamh catalogach…"
+
+msgid "Started"
+msgstr "Air tòiseachadh"
+
+msgid "Startup FOV"
+msgstr "Raon-seallaidh tòiseachaidh"
+
+msgid "Startup direction of view"
+msgstr "Taobh-sealladh tòiseachaidh"
+
+msgid "Stationary (begin prograde motion)"
+msgstr "Seasmhach (toiseachadh gluasad àm-fharsain)"
+
+msgid "Stationary (begin retrograde motion)"
+msgstr "Seasmhach (toiseachadh gluasad cùl-fharsain)"
+
+msgid "Stellarium's user guide covers the astronomy this app shares with it: stellarium.org/documentation"
+msgstr "Tha leabhar-stiùiridh an neach-cleachdaidh aig Stellarium a' còmhdach an reul-eòlais a bhios an aplacaid seo a' roinn ris: stellarium.org/documentation"
+
+msgid "Step, hours"
+msgstr "Ceum, uairean"
+
+msgid "Stop clock when starting"
+msgstr "Stad an uaireadair nuair a bhios e tòiseachadh"
+
+msgid "Strasbourg astronomical Data Center (France)"
+msgstr "Ionad Dàta Reul-eòlach Strasbourg (An Fhraing)"
+
+msgid "Style"
+msgstr "Stoidhle"
+
+msgid "Sun altitude"
+msgstr "Àirde na grèine"
+
+msgid "Sun at"
+msgstr "A' Ghrian aig"
+
+msgid "Sun's altitude"
+msgstr "Àirde na grèine"
+
+msgid "Sun's corona"
+msgstr "Copan na grèine"
+
+msgid "Sun's glare"
+msgstr "Soilleireachd na grèine"
+
+msgid "Sun, planets and moons of first body and observer's planet"
+msgstr "A' Ghrian, planaidean agus gealaichean a' chiad bhaoghail agus planaid an neach-amhairc"
+
+msgid "Sun, planets and moons of observer's planet"
+msgstr "A' Ghrian, planaidean agus gealaichean planaid an neach-amhairc"
+
+msgid "Sunlight scattered by interplanetary dust"
+msgstr "Solus-gréine air a sgaoileadh le dust eadar-phleanaidach"
+
+msgid "Superior conjunction"
+msgstr "Co-nasgadh àrd"
+
+msgid "Switch this off to see the trails for all Solar system bodies"
+msgstr "Cuir seo dheth gus na lorgan airson gach bodhaig an rian-ghrèine fhaicinn"
+
+msgid "Symbiotic stars"
+msgstr "Reultan co-bhith-eòlach"
+
+msgid "System date at"
+msgstr "Ceann-latha an t-siostaim aig"
+
+msgid "Tabular output for coordinates and time"
+msgstr "Toradh clàir airson nan co-chomharran is an ama"
+
+msgid "Tap a colour to change it. Changes show on the sky at once and are kept."
+msgstr "Thig air dath gus a thilgeil. Nithear na h-atharrachaidhean air an speur mu dheas agus thèid an gleidheadh."
+
+msgid "Tap again to confirm"
+msgstr "Thig a-rithist gus dearbhachadh"
+
+msgid "Tap an object"
+msgstr "Thig air cuspair"
+
+msgid "Tap the chart to read a value."
+msgstr "Thig air a' ghraf gus luach a leughadh."
+
+msgid "Tap the clock"
+msgstr "Thig air an uaireadair"
+
+msgid "Tap the gear"
+msgstr "Thig air a' ghèarradh"
+
+msgid "Tap the map to stand there."
+msgstr "Thig air a' mhapa gus seasamh ann."
+
+msgid "Tap the place"
+msgstr "Thig air an àite"
+
+msgid "Tap to confirm"
+msgstr "Thig gus dearbhachadh"
+
+msgid "Tertiary intercardinal points"
+msgstr "Prìomh-phuingean eadar-cardinal threas-dhreuchd"
+
+msgid "Text angle"
+msgstr "Ceàrn an teacsa"
+
+msgid "The Great Red Spot drifts in System II longitude. Enter a recent measurement and the drift rate to carry it forward from."
+msgstr "Bidh a' Spoit Mhòir Dheirg a' foluain ann an domhan-fhad Siostam II. Cuir a-steach tomhas o chionn ghoirid agus an ìre foluain gus a ghabhail air adhart bho."
+
+msgid "The algorithm is based on visual observations 1877-1891 by G. Müller and was still republished in the Explanatory Supplement to the Astronomical Ephemeris (1961)."
+msgstr "Tha an algorithm stèidhichte air beachdan lèirsinn 1877-1891 le G. Müller agus bha e ath-fhoillseachte san Explanatory Supplement to the Astronomical Ephemeris (1961)."
+
+msgid "The algorithm was published by A. Mallama & J. L. Hilton: Computing apparent planetary magnitudes for the Astronomical Almanac. Astronomy&Computing 25 (2018) 10-24."
+msgstr "Bha an algorithm foillseachte le A. Mallama & J. L. Hilton: Computing apparent planetary magnitudes for the Astronomical Almanac. Astronomy&Computing 25 (2018) 10-24."
+
+msgid "The algorithm was published in the 2nd edition of the Explanatory Supplement to the Astronomical Almanac (1992)."
+msgstr "Bha an algorithm foillseachte san 2na deasachadh den Explanatory Supplement to the Astronomical Almanac (1992)."
+
+msgid "The algorithm was published in the 3rd edition of the Explanatory Supplement to the Astronomical Almanac (2013)."
+msgstr "Bha an algorithm foillseachte san 3mh deasachadh den Explanatory Supplement to the Astronomical Almanac (2013)."
+
+msgid "The algorithm was used in the Astronomical Almanac (1984 and later) and gives V (instrumental) magnitudes (allegedly from D.L. Harris)."
+msgstr "Bha an algorithm air a chleachdadh san Astronomical Almanac (1984 agus nas fhaide air adhart) agus bha e a' toirt meudachdan V (inneal-inntrighe) (gun dhàna o D.L. Harris)."
+
+msgid "The classical cepheids"
+msgstr "Na Cepheids clasaigeach"
+
+msgid "The colour each kind of object is drawn in"
+msgstr "An dath air a tha gach seòrsa cuspair air a tharraing ann"
+
+msgid "The engine did not answer with any colours."
+msgstr "Cha do fhreagair an einnsean le dathan sam bith."
+
+msgid "The galactic band"
+msgstr "Am bann reul-chriosach"
+
+msgid "The greatest eclipse is invisible in current location"
+msgstr "Tha an dubhradh as motha do-fhaicsinneach san ionad làithreach"
+
+msgid "The horizon outline instead of the panorama"
+msgstr "Oir-loidhne an fàire an àite a' phanoramic"
+
+msgid "The path each body has taken across the sky"
+msgstr "An slighe a thug gach bodhaig thairis air an speur"
+
+msgid "The shortest label the culture defines"
+msgstr "An leubhail as giorra a tha an dualchas a' mìneachadh"
+
+msgid "Thickness"
+msgstr "Tiughad"
+
+msgid "This copy ships no scripts."
+msgstr "Chan eil sgriobtan sam bith ann san chopaidh seo."
+
+msgid "This device has no location service."
+msgstr "Chan eil seirbheis ionaid air an uidheam seo."
+
+msgid "This part of the engine exposes no settings on this build."
+msgstr "Chan eil roghainnean sam bith fosgailte aig a' phàirt seo den einnsean air a' bhuildeadh seo."
+
+msgid "This tool works on Earth only!"
+msgstr "Chan obraich an tòl seo ach air an Talamh!"
+
+msgid "This tool works on Earth only. Short steps over a long duration are slow."
+msgstr "Bidh an inneal seo ag obair air an Talamh a-mhàin. Bidh ceuman goirid thairis air fad fhada slaodach."
+
+msgid "This year"
+msgstr "Am bliadhna seo"
+
+msgid "Time of day"
+msgstr "Ùine an latha"
+
+msgid "Time span"
+msgstr "Fad ama"
+
+msgid "Time step"
+msgstr "Ceum ama"
+
+msgid "To the next (mths)"
+msgstr "Chun an ath fhear (mìosan)"
+
+msgid "To the next, months"
+msgstr "Chun an ath fhear, mìosan"
+
+msgid "Today"
+msgstr "An-diugh"
+
+msgid "Toggle display of nebula images."
+msgstr "Toglaich taisbeanadh ìomhaighean neul-speurach."
+
+msgid "Toggle display of the button for the Digitized Sky Survey."
+msgstr "Toglaich taisbeanadh a' phutan airson Suirbhe an Speur Digitealaichte."
+
+msgid "Toggle display of the button for the HiPS Surveys. Select a survey in the View settings."
+msgstr "Toglaich taisbeanadh a' phutan airson Suirbhidhean HiPS. Tagh suirbhe ann an roghainnean an t-Sealladh."
+
+msgid "Toggle drawing Sun's glare"
+msgstr "Toglaich tarraing soilleireachd na grèine"
+
+msgid "Toggle drawing halo around the Moon"
+msgstr "Toglaich tarraing fàinne timcheall a' Ghealach"
+
+msgid "Toggle permanent drawing of Sun's corona when atmosphere is disabled"
+msgstr "Toglaich tarraing buan a' chopan grèine nuair a bhios an àile à comas"
+
+msgid "Total eclipse begins"
+msgstr "Dubhradh iomlan a' tòiseachadh"
+
+msgid "Total eclipse ends"
+msgstr "Dubhradh iomlan a' crìochnachadh"
+
+msgid "Trails"
+msgstr "Lorgan"
+
+msgid "Translated"
+msgstr "Air a thionndadh"
+
+msgid "Transparency"
+msgstr "Trìd-dhoilleireachd"
+
+msgid "Twilight and rise and set times are worked out for an observer on Earth. Move back to Earth to see them."
+msgstr "Tha tràth-oidhche agus uairean èirigh is dol fodha air an obraicheadh a-mach airson neach-amhairc air an Talamh. Thig air ais dhan Talamh gus iad fhaicinn."
+
+msgid "Twinkle"
+msgstr "Drithlioch"
+
+msgid "Twinkle amount"
+msgstr "Meud an drithlich"
+
+msgid "Twinkle even without atmosphere"
+msgstr "Drithlioch eadhon gun àile"
+
+msgid "Twinkle is caused by atmospheric turbulence; this shows it regardless"
+msgstr "Tha drithlioch air adhbhar buaireadh an àile; seallaidh seo e co-dhiù"
+
+msgid "Type a name, a Bayer letter or a catalogue number - Vega, α Lyr, M 31, NGC 224."
+msgstr "Sgrìobh ainm, litir Bayer no àireamh catalogach - Vega, α Lyr, M 31, NGC 224."
+
+msgid "Umbral magnitude"
+msgstr "Meudachd umbra"
+
+msgid "Up to mag."
+msgstr "Suas gu meud."
+
+msgid "Use common symbols for coordinate systems"
+msgstr "Cleachd samhlaidhean cumanta airson siostaman nan co-chomharran"
+
+msgid "Use distance from North Celestial Pole, not declination from equator in equatorial coordinates"
+msgstr "Cleachd astar o Phòla Speura a Tuath, chan e dì-chlaonadh on chrios-meadhain ann an co-chomharran meadhan-chriosach"
+
+msgid "Use mag/arcsec^2 for surface brightness"
+msgstr "Cleachd mag/arcsec^2 airson soilleireachd an uachdair"
+
+msgid "Use my location"
+msgstr "Cleachd mo ionad"
+
+msgid "Use sorting by string length"
+msgstr "Cleachd rèiteachadh a-rèir fad an t-sreang"
+
+msgid "Use the date now shown in the sky"
+msgstr "Cleachd an ceann-là a tha ri fhaicinn air an speur"
+
+msgid "Use the value in landscape.ini when it has one"
+msgstr "Cleachd an luach ann an landscape.ini nuair a tha e ann"
+
+msgid "Use the value stored for this location"
+msgstr "Cleachd an luach stòrte airson an ionad seo"
+
+msgid "Var. stars"
+msgstr "Reultan var."
+
+msgid "Version %s  ·  Qt %s"
+msgstr "Tionndadh %s  ·  Qt %s"
+
+msgid "View recent GRS measurements"
+msgstr "Seall tomhasan GRS o chionn ghoirid"
+
+msgid "Visibility"
+msgstr "Faicsinneachd"
+
+msgid "Western quadrature"
+msgstr "Ceàrnag an iar"
+
+msgid "When a search result is chosen"
+msgstr "Nuair a thèid toradh luirg a thaghadh"
+
+msgid "Where Jupiter's Great Red Spot was, and when"
+msgstr "Far an robh Spot Mòr Dearg Iùpiter, agus cuin"
+
+msgid "Width"
+msgstr "Leud"
+
+msgid "Working out the contact times…"
+msgstr "A' obraicheadh a-mach na h-uairean conaltraidh…"
+
+msgid "Zodiac and lunar stations"
+msgstr "Grian-chrios is stèiseanaidhean gealachail"
+
+msgid "Zodiacal Light brightness"
+msgstr "Soilleireachd Solais Grian-chriosach"
+
+msgid "Zoom in and out"
+msgstr "Fòcas a-staigh is a-mach"
+
+msgid "after sunset"
+msgstr "às dèidh dol fodha na grèine"
+
+msgid "before sunrise"
+msgstr "ro èirigh na grèine"
+
+msgid "bright suburban"
+msgstr "fo-bhaile soilleir"
+
+msgid "engine ready, interface going live"
+msgstr "einnsean deiseil, eadar-aghaidh a' falbh beò"
+
+msgid "excellent dark sky"
+msgstr "speur dorcha air leth-mhath"
+
+msgid "inner city"
+msgstr "baile a-staigh"
+
+msgid "mag %s"
+msgstr "meud %s"
+
+msgid "max %s"
+msgstr "as motha %s"
+
+msgid "mid %s"
+msgstr "meadhan %s"
+
+msgid "rural/suburban"
+msgstr "dùthchail/baile-bheag"
+
+msgid "select all"
+msgstr "tagh a h-uile"
+
+msgid "select none"
+msgstr "tagh gin"
+
+msgid "select preference"
+msgstr "tagh roghainn"
+
+msgid "select standard"
+msgstr "tagh àbhaist"
+
+msgid "store preference"
+msgstr "stòr roghainn"
+
+msgid "suburban/urban"
+msgstr "baile-bheag/baile-mòr"
+
+msgid "truly dark"
+msgstr "fìor dhorcha"
+
+msgid "unreadable snapshot"
+msgstr "dealbh-bheirte nach ghabh leughadh"
+
+msgid "with Solar Dates"
+msgstr "le ceann-laithean grèine"
+
+msgid "… and moons"
+msgstr "… agus gealach"

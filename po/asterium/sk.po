@@ -1,0 +1,1417 @@
+# Asterium interface translation for sk.
+# Copyright (C) 2026 the Asterium authors
+# This file is distributed under the same licence as the Asterium package.
+#
+# MACHINE TRANSLATION, not reviewed by a speaker of this language.
+# Terminology follows upstream Stellarium's own sk catalogue, which was used
+# as a glossary, and every entry keeps the source's printf placeholders.
+# Corrections from a human translator are welcome and should simply replace these.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: asterium\n"
+"Language: sk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%d bodies"
+msgstr "%d telies"
+
+msgid "%d object"
+msgstr "%d objekt"
+
+msgid "%d objects"
+msgstr "%d objektov"
+
+msgid "%s colour"
+msgstr "%s farba"
+
+msgid "%s from %s, ±%.0f m"
+msgstr "%s z %s, ±%.0f m"
+
+msgid "12-hour"
+msgstr "12-hodinový"
+
+msgid "1× below"
+msgstr "1× pod"
+
+msgid "24-hour"
+msgstr "24-hodinový"
+
+msgid "A button to mark every object of the current observing list on the sky."
+msgstr "Tlačidlo na označenie každého objektu zo súčasného zoznamu pozorovaní na oblohe."
+
+msgid "A polygonal model for some small moons, asteroids and comets instead of a sphere"
+msgstr "Polygonálny model niektorých malých mesiacov, asteroidov a komét namiesto gule"
+
+msgid "A touch-first planetarium forked from Stellarium, whose astronomy engine it uses unchanged. The interface is new; everything that draws the sky is upstream's work."
+msgstr "Planetárium zamerané na dotyky rozštepené zo Stellaria, ktorého astronomický engine používa nezmenený. Rozhranie je nové; všetko, čo kreslí oblohu, je práca upstream."
+
+msgid "About this sky culture"
+msgstr "O tejto kultúre oblohy"
+
+msgid "Above altitude, °"
+msgstr "Nad výškou, °"
+
+msgid "Absolute scale"
+msgstr "Absolútna mierka"
+
+msgid "Add %s"
+msgstr "Pridať %s"
+
+msgid "Adjust brightness to bright objects"
+msgstr "Prispôsobiť jasnosť svetlým objektom"
+
+msgid "Algorithm of ΔT"
+msgstr "Algoritmus ΔT"
+
+msgid "All naked-eye planets"
+msgstr "Všetky planéty viditeľné voľným okom"
+
+msgid "All solar eclipses"
+msgstr "Všetky slnečné zatmenia"
+
+msgid "Allow negative hour angles"
+msgstr "Povoliť záporné hodinové uhly"
+
+msgid "Allow results outside the recommended time range of the orbital elements"
+msgstr "Povoliť výsledky mimo odporúčaného časového rozsahu orbitálnych prvkov"
+
+msgid "Also find"
+msgstr "Nájsť aj"
+
+msgid "Also plot"
+msgstr "Vykresliť aj"
+
+msgid "Also show moons of selected object or planets"
+msgstr "Zobraziť aj mesiace vybraného objektu alebo planét"
+
+msgid "Altitude limit, °"
+msgstr "Limit výšky, °"
+
+msgid "Amount"
+msgstr "Množstvo"
+
+msgid "An observer floats above its planet, so there is nowhere on it to stand. Choose another planet to come back down."
+msgstr "Pozorovateľ sa vznáša nad svojou planétou, takže na nej nie je kde stáť. Vyberte si inú planétu, aby ste sa vrátili na zem."
+
+msgid "And"
+msgstr "A"
+
+msgid "And also"
+msgstr "A tiež"
+
+msgid "And the next (years)"
+msgstr "A nasledujúci (roky)"
+
+msgid "Annual drift"
+msgstr "Ročný posun"
+
+msgid "Appearance"
+msgstr "Vzhľad"
+
+msgid "Apply time interval limits to list"
+msgstr "Aplikovať limity časového intervalu na zoznam"
+
+msgid "Art"
+msgstr "Obrázky"
+
+msgid "Artificial satellites and unnamed stars are excluded from calculation."
+msgstr "Umelé satelity a nepomenované hviezdy sú vylúčené z výpočtu."
+
+msgid "Asking for permission…"
+msgstr "Žiadame o povolenie…"
+
+msgid "Asks SIMBAD what it holds around the object that is selected now, and prints the answer as it comes back."
+msgstr "Pýta sa SIMBAD, čo má okolo objektu, ktorý je teraz vybraný, a vytlačí odpoveď, keď príde späť."
+
+msgid "Ast. lines"
+msgstr "Ast. čiary"
+
+msgid "Ast. names"
+msgstr "Ast. mená"
+
+msgid "Astronomical Almanac (default) enlarges by 2%; Danjon (1951) differs slightly"
+msgstr "Astronomický almanach (predvolený) zväčšuje o 2 %; Danjon (1951) sa líši mierne"
+
+msgid "Astronomical night"
+msgstr "Astronomická noc"
+
+msgid "At"
+msgstr "V"
+
+msgid "Atmosph."
+msgstr "Atmosf."
+
+msgid "Automatic transparency"
+msgstr "Automatická priehľadnosť"
+
+msgid "Axis distance"
+msgstr "Vzdialenosť osi"
+
+msgid "Azi. grid"
+msgstr "Azim. mr."
+
+msgid "Azimuth and altitude rather than right ascension and declination"
+msgstr "Azimut a výška namiesto rektascenzie a deklinácie"
+
+msgid "Below the horizon here."
+msgstr "Pod horizontom tu."
+
+msgid "Between objects"
+msgstr "Medzi objektmi"
+
+msgid "Boundless"
+msgstr "Bez hraníc"
+
+msgid "Bounds"
+msgstr "Hranice"
+
+msgid "Brighter than"
+msgstr "Jasnejší ako"
+
+msgid "By object type"
+msgstr "Podľa typu objektu"
+
+msgid "By planet"
+msgstr "Podľa planéty"
+
+msgid "Calculating…"
+msgstr "Počítam…"
+
+msgid "Cardinals"
+msgstr "Sv. strany"
+
+msgid "Catalogue numbers instead of common names"
+msgstr "Čísla katalógov namiesto bežných mien"
+
+msgid "Category"
+msgstr "Kategória"
+
+msgid "Central duration"
+msgstr "Stredné trvanie"
+
+msgid "Centre"
+msgstr "Stred"
+
+msgid "Centre on object"
+msgstr "Centrovať na objekt"
+
+msgid "Centre point"
+msgstr "Stredný bod"
+
+msgid "Circles"
+msgstr "Kružnice"
+
+msgid "City"
+msgstr "Mesto"
+
+msgid "Cleanup"
+msgstr "Vyčistenie"
+
+msgid "Clear recent searches"
+msgstr "Vyčistiť nedávne hľadania"
+
+msgid "Clear the selection - a touch screen has no right button"
+msgstr "Vyčistiť výber - dotykový displej nemá tlačidlo vpravo"
+
+msgid "Cleared."
+msgstr "Vyčistené."
+
+msgid "Close"
+msgstr "Zatvoriť"
+
+msgid "Close what is open; from the sky, leave the app running"
+msgstr "Zatvoriť čo je otvorené; z oblohy, nechajte aplikáciu bežať"
+
+msgid "Coarse"
+msgstr "Hrubý"
+
+msgid "Color"
+msgstr "Farba"
+
+msgid "Color channel"
+msgstr "Farebný kanál"
+
+msgid "Color of orbits"
+msgstr "Farba obežných dráh"
+
+msgid "Colors of orbit lines"
+msgstr "Farby čiar obežných dráh"
+
+msgid "Comets up to mag."
+msgstr "Kométy do mag."
+
+msgid "Compass"
+msgstr "Kompas"
+
+msgid "Connecting line"
+msgstr "Spojovacia čiara"
+
+msgid "Contrast"
+msgstr "Kontrast"
+
+msgid "Coordinate system"
+msgstr "Súradnicový systém"
+
+msgid "Coordinates"
+msgstr "Súradnice"
+
+msgid "Copyright"
+msgstr "Autorské práva"
+
+msgid "Credits"
+msgstr "Autorstvo"
+
+msgid "Custom"
+msgstr "Vlastný"
+
+msgid "Custom altitude of the Moon, °"
+msgstr "Vlastná výška Mesiaca, °"
+
+msgid "Custom altitude of the Sun, °"
+msgstr "Vlastná výška Slnka, °"
+
+msgid "Custom values"
+msgstr "Vlastné hodnoty"
+
+msgid "Cut the scale off below the limit"
+msgstr "Vyrezať mierku pod limitom"
+
+msgid "DATE AND TIME (UTC)"
+msgstr "DÁTUM A ČAS (UTC)"
+
+msgid "Date and time"
+msgstr "Dátum a čas"
+
+msgid "Date/time"
+msgstr "Dátum/čas"
+
+msgid "Dates"
+msgstr "Dátumy"
+
+msgid "December solstice"
+msgstr "Decembrový slnovrat"
+
+msgid "Decimal degrees. −33.87 means 33.87° south. Elevation is metres above sea level; it moves the horizon down by a few arcminutes."
+msgstr "Desatinné stupne. −33,87 znamená 33,87° na juh. Výška je metre nad morom; posúva horizont o pár arcminút."
+
+msgid "Degrees per year the longitude moves by"
+msgstr "Stupňov za rok sa zemepisná dĺžka posúva"
+
+msgid "Degrees, hours and minutes as they are written - 12h30m49s, +41°16'09\", 187.7 - or plain decimal degrees."
+msgstr "Stupne, hodiny a minúty, ako sú napísané - 12h30m49s, +41°16'09\", 187,7 - alebo jednoduché desatinné stupne."
+
+msgid "Deletes all recent search object data, and the objects SIMBAD contributed."
+msgstr "Vymaže všetky nedávne údaje o hľadaných objektoch a objekty, ktoré prispeli SIMBAD."
+
+msgid "Designations for double stars"
+msgstr "Označenia pre dvojhviezdy"
+
+msgid "Designations for variable stars"
+msgstr "Označenia pre premenné hviezdy"
+
+msgid "Dim a survey near the horizon, as the air does"
+msgstr "Zoslabenie prehliadky blízko horizontu, ako to robí vzduch"
+
+msgid "Done"
+msgstr "Hotovo"
+
+msgid "Drag"
+msgstr "Ťah"
+
+msgid "Draw deep-sky objects at all"
+msgstr "Vykresliť objekty hlbokého vesmíru vôbec"
+
+msgid "Draw the enabled sky surveys"
+msgstr "Vykresliť povolené nebeské prehliadky"
+
+msgid "Draw the planets, moons and minor bodies"
+msgstr "Vykresliť planéty, mesiace a malé telesá"
+
+msgid "Drawn larger than life, so a body that is a few arcseconds wide is visible at all. The position stays true."
+msgstr "Nakreslené väčšie ako v živote, takže teleso, ktoré má rozmer niekoľko oblúkových sekúnd, je viditeľné. Poloha zostáva pravdivá."
+
+msgid "Duration (years)"
+msgstr "Trvanie (roky)"
+
+msgid "Duration, months"
+msgstr "Trvanie, mesiace"
+
+msgid "Dynamic (FOV-based) Moon size"
+msgstr "Dynamická (na základe FOV) veľkosť Mesiaca"
+
+msgid "Ecl. grid"
+msgstr "Ekl. mr."
+
+msgid "Eclipses are computed for observers on Earth."
+msgstr "Zatmenia sú počítané pre pozorovateľov na Zemi."
+
+msgid "Elevation in metres"
+msgstr "Výška v metroch"
+
+msgid "Elongations and quadratures"
+msgstr "Elongácie a kvadratúry"
+
+msgid "Enabled only"
+msgstr "Len povolené"
+
+msgid "Enter Culture..."
+msgstr "Zadajte kultúru..."
+
+msgid "Equ. grid"
+msgstr "Rovn. mr."
+
+msgid "Equ. mount"
+msgstr "Rovn. mont."
+
+msgid "Equatorial radii ratio"
+msgstr "Pomer rovníkových polomerov"
+
+msgid "Evening"
+msgstr "Večer"
+
+msgid "Every"
+msgstr "Každý"
+
+msgid "Every name the object is catalogued under"
+msgstr "Každé meno, pod ktorým je objekt katalogizovaný"
+
+msgid "Exterior egress"
+msgstr "Vonkajší výstup"
+
+msgid "Exterior ingress"
+msgstr "Vonkajší vstup"
+
+msgid "Fades the ground as you look below the horizon or zoom in"
+msgstr "Sprehľadní terén, keď sa pozeráte pod horizont alebo približujete"
+
+msgid "Fading duration"
+msgstr "Trvanie stmavania"
+
+msgid "Faintest shown"
+msgstr "Najslabší zobrazený"
+
+msgid "Favorites"
+msgstr "Obľúbené"
+
+msgid "Fetching the survey lists…"
+msgstr "Načítavam zoznamy prehliadok…"
+
+msgid "Find a city"
+msgstr "Nájdite mesto"
+
+msgid "Fine"
+msgstr "Jemný"
+
+msgid "First %d of %d - filter to narrow it."
+msgstr "Prvých %d z %d - filter na zúženie."
+
+msgid "First body"
+msgstr "Prvé teleso"
+
+msgid "First graph"
+msgstr "Prvý graf"
+
+msgid "Fixed instant"
+msgstr "Pevný čas"
+
+msgid "Flip horiz."
+msgstr "Prevr. vod."
+
+msgid "Flip vert."
+msgstr "Prevr. zv."
+
+msgid "Frame rate"
+msgstr "Snímková frekvencia"
+
+msgid "From"
+msgstr "Z"
+
+msgid "Full screen"
+msgstr "Plná obr."
+
+msgid "Further reading"
+msgstr "Ďalšie čítanie"
+
+msgid "GRS details…"
+msgstr "Detaily VČŠ…"
+
+msgid "Gal. grid"
+msgstr "Gal. mr."
+
+msgid "Gamma, saturation, brightness, contrast, opacity, colour channel and inverted colours belong to one survey. Open a survey to set them."
+msgstr "Gama, saturácia, jasnosť, kontrast, opacita, farebný kanál a inverzné farby patria k jednej prehliadke. Otvorte prehliadku, aby ste ich nastavili."
+
+msgid "Gestures"
+msgstr "Gestá"
+
+msgid "Go there"
+msgstr "Ísť tam"
+
+msgid "Go to this eclipse"
+msgstr "Ísť na toto zatmenie"
+
+msgid "Go to this moment"
+msgstr "Ísť na tento moment"
+
+msgid "Go to this transit"
+msgstr "Ísť na tento prechod"
+
+msgid "Great Red Spot"
+msgstr "Veľké červené miesto"
+
+msgid "Great Red Spot details"
+msgstr "Detaily Veľkého červeného miesta"
+
+msgid "Greatest elongation for an inner planet, quadrature for an outer one"
+msgstr "Najväčšia elongácia pre vnútornú planétu, kvadratúra pre vonkajšiu"
+
+msgid "Greek letters"
+msgstr "Grécke písmená"
+
+msgid "Grid density"
+msgstr "Hustota mriežky"
+
+msgid "Grids"
+msgstr "Mriežky"
+
+msgid "Ground"
+msgstr "Terén"
+
+msgid "Gyro"
+msgstr "Giroskop"
+
+msgid "Gyro mode"
+msgstr "Režim Gyro"
+
+msgid "Height"
+msgstr "Výška"
+
+msgid "Heliocentric ecliptic positions of the major planets."
+msgstr "Heliocentriche ekliptikálne polohy veľkých planét."
+
+msgid "HiPS"
+msgstr "HiPS"
+
+msgid "Hide controls"
+msgstr "Skryť prvky ovládania"
+
+msgid "Hide deep-sky objects fainter than the limit"
+msgstr "Skryť objekty hlbokého vesmíru slabšie ako limit"
+
+msgid "Hide orbits of minor bodies"
+msgstr "Skryť obežné dráhy malých telies"
+
+msgid "Highlight"
+msgstr "Zvýraznenie"
+
+msgid "Highlight the objects of the observing list"
+msgstr "Zvýrazniť objekty zoznamu pozorovaní"
+
+msgid "Hint circles marking each planet"
+msgstr "Krúžky pomôcok označujúce každú planétu"
+
+msgid "Hints brightness"
+msgstr "Jasnosť pomôcok"
+
+msgid "Hipparcos designations"
+msgstr "Designácie Hipparcos"
+
+msgid "Hour angles usually run 0...24h. This counts -12h...12h."
+msgstr "Hodinové uhly zvyčajne bežia 0...24h. Toto počítá -12h...12h."
+
+msgid "How many"
+msgstr "Koľko"
+
+msgid "ICRS grid"
+msgstr "ICRS mr."
+
+msgid "Include"
+msgstr "Zahrnúť"
+
+msgid "Include bright comets"
+msgstr "Zahrnúť jasné kométy"
+
+msgid "Intercardinal points"
+msgstr "Medzisvietové body"
+
+msgid "Interior egress"
+msgstr "Vnútorný výstup"
+
+msgid "Interior ingress"
+msgstr "Vnútorný vstup"
+
+msgid "Its elevation, and the civil, nautical and astronomical twilights"
+msgstr "Jej výška a občianski, námorný a astronomický súmrak"
+
+msgid "Jovigraphic longitude of the spot in System II, in degrees"
+msgstr "Joviografická dĺžka miesta v systéme II, v stupňoch"
+
+msgid "June solstice"
+msgstr "Júnový slnovrat"
+
+msgid "Label"
+msgstr "Menovka"
+
+msgid "Label colour"
+msgstr "Farba menovky"
+
+msgid "Labels and Markers amount"
+msgstr "Množstvo menoviek a značiek"
+
+msgid "Labels brightness"
+msgstr "Jasnosť menoviek"
+
+msgid "Largest, ′"
+msgstr "Najväčší, ′"
+
+msgid "Last known position"
+msgstr "Posledná známa poloha"
+
+msgid "Lasting"
+msgstr "Trvajúci"
+
+msgid "Latitude −90…90, longitude −180…180."
+msgstr "Zemepisná šírka −90…90, zemepisná dĺžka −180…180."
+
+msgid "Layer appearance"
+msgstr "Vzhľad vrstvy"
+
+msgid "Leaves the landscape visible in darkness"
+msgstr "Ponecháva terén viditeľný v tme"
+
+msgid "Licence"
+msgstr "Licencia"
+
+msgid "Light pollution"
+msgstr "Svetelné znečistenie"
+
+msgid "Light pollution from database"
+msgstr "Svetelné znečistenie z databázy"
+
+msgid "Limit angular separation"
+msgstr "Obmedziť uhlovú vzdialenosť"
+
+msgid "Limit angular size"
+msgstr "Limitovať uhlovú veľkosť"
+
+msgid "Limit magnitude"
+msgstr "Limitovať magnitúdu"
+
+msgid "Linear distance"
+msgstr "Lineárna vzdialenosť"
+
+msgid "Lines"
+msgstr "Čiary"
+
+msgid "Lines and circles"
+msgstr "Čiary a kružnice"
+
+msgid "List"
+msgstr "Zoznam"
+
+msgid "List name"
+msgstr "Názov zoznamu"
+
+msgid "Lit windows, street lighting and the like"
+msgstr "Osvetlené okná, pouličné osvetlenie a podobne"
+
+msgid "Loading…"
+msgstr "Načítavam…"
+
+msgid "Local solar eclipses"
+msgstr "Miestne slnečné zatmenia"
+
+msgid "Local time"
+msgstr "Miestny čas"
+
+msgid "Local time, h"
+msgstr "Miestny čas, h"
+
+msgid "Locate me"
+msgstr "Lokalizuj ma"
+
+msgid "Locating…"
+msgstr "Lokalizujem…"
+
+msgid "Location is switched off in the system settings."
+msgstr "Umiestnenie je vypnuté v nastaveniach systému."
+
+msgid "Location permission refused. The other two ways still work."
+msgstr "Povolenie polohy bolo odmietnuté. Ďalšie dva spôsoby stále fungujú."
+
+msgid "Long press"
+msgstr "Dlhé stlačenie"
+
+msgid "Longitude of GRS"
+msgstr "Dĺžka VČŠ"
+
+msgid "Lunar eclipses"
+msgstr "Mesačné zatmenia"
+
+msgid "Magnitudes"
+msgstr "Magnitúdy"
+
+msgid "Major planets by planet, minor bodies by type"
+msgstr "Veľké planéty podľa planéty, malé telesá podľa typu"
+
+msgid "Map of the planet. Tap to set the observer's place."
+msgstr "Mapa planéty. Poklepaním nastavte miesto pozorovateľa."
+
+msgid "March equinox"
+msgstr "Marcová rovnodennosť"
+
+msgid "Markers"
+msgstr "Značky"
+
+msgid "Markers sized by the object's angular size"
+msgstr "Značky veľkosti podľa uhlovej veľkosti objektu"
+
+msgid "Master switch for the grids, lines and points below"
+msgstr "Hlavný vypínač pre mriežky, čiary a body nižšie"
+
+msgid "Max items to display"
+msgstr "Max položky k zobrazeniu"
+
+msgid "Max. results"
+msgstr "Max. výsledky"
+
+msgid "Maximum allowed separation"
+msgstr "Maximálna povolená separácia"
+
+msgid "Maximum angular size"
+msgstr "Maximálna uhlová veľkosť"
+
+msgid "Maximum year"
+msgstr "Maximálny rok"
+
+msgid "Mean motion"
+msgstr "Stredný pohyb"
+
+msgid "Mercury, Venus, Mars, Jupiter and Saturn at once. Earth only."
+msgstr "Merkúr, Venuša, Mars, Jupiter a Saturn naraz. Len Zem."
+
+msgid "Milky Way brightness"
+msgstr "Jasnosť Mliečnej cesty"
+
+msgid "Milky Way saturation"
+msgstr "Saturácia Mliečnej cesty"
+
+msgid "Minimal angular size"
+msgstr "Minimálna uhlová veľkosť"
+
+msgid "Minimal brightness"
+msgstr "Minimálna jasnosť"
+
+msgid "Minimum year"
+msgstr "Minimálny rok"
+
+msgid "Minutes before sunrise / after sunset"
+msgstr "Minúty pred východom / po zákade"
+
+msgid "Moon at"
+msgstr "Mesiac v"
+
+msgid "Moon in zenith at"
+msgstr "Mesiac v zenite v"
+
+msgid "Morning"
+msgstr "Ráno"
+
+msgid "Move the sky by pointing the phone at it"
+msgstr "Posúvajte oblohu smerovaním telefónu na ňu"
+
+msgid "Move the sky with the phone"
+msgstr "Posúvajte oblohu s telefónom"
+
+msgid "Name for the new list"
+msgstr "Názov nového zoznamu"
+
+msgid "Named features the landscape marks"
+msgstr "Pomenované prvky, ktoré terén označuje"
+
+msgid "Names"
+msgstr "Mená"
+
+msgid "Names beside the planets and their markers"
+msgstr "Mená vedľa planét a ich značiek"
+
+msgid "Names in English"
+msgstr "Mená v angličtine"
+
+msgid "Neb. bg"
+msgstr "Hmlov. poz."
+
+msgid "Nebulae"
+msgstr "Hmloviny"
+
+msgid "Next"
+msgstr "Ďalej"
+
+msgid "Night"
+msgstr "Noc"
+
+msgid "No city matches that."
+msgstr "Žiadne mesto sa tomu nepriamo nerovná."
+
+msgid "No eclipses found. Pick a range and calculate."
+msgstr "Nenájdené žiadne zatmenia. Vyberte si rozsah a vypočítajte."
+
+msgid "No fresh fix - the receiver may have no sky. Try again outdoors, or set the place another way."
+msgstr "Žiadna čerstvá oprava - prijímač možno nemá oblohu. Skúste znova vonku alebo nastavte miesto iným spôsobom."
+
+msgid "No surveys were found. The lists are downloaded, so this needs a connection."
+msgstr "Nenájdené žiadne prehliadky. Zoznamy sú stiahnuté, takže to vyžaduje pripojenie."
+
+msgid "None downloaded yet"
+msgstr "Zatiaľ nič stiahnuté"
+
+msgid "Note: this tool doesn't apply the refraction correction for coordinates. Horizontal coordinates stop the clock, or the sky would turn away from the point while you arrive at it."
+msgstr "Poznámka: tento nástroj neaplikuje korekciu refrakcie pre súradnice. Horizontálne súradnice zastavujú hodiny, inak by sa obloha otáčala od bodu, zatiaľ čo sa tam dostávate."
+
+msgid "Nothing computed yet, or nothing in this category is up."
+msgstr "Zatiaľ nič vypočítané, alebo v tejto kategórií nie je nič viditeľné."
+
+msgid "Nothing computed yet."
+msgstr "Zatiaľ nič vypočítané."
+
+msgid "Nothing found for “%s”."
+msgstr "Nič nenajdené pre \"%s\"."
+
+msgid "Nothing in this list matches."
+msgstr "V zozname nič nepokladá."
+
+msgid "Nothing in this list yet. Pick something out of the sky and tap the star on its card to keep it here."
+msgstr "V zozname zatiaľ nič. Vyberte si niečo z oblohy a klepnite na hviezdu na jeho karte, aby ste ju sem uložili."
+
+msgid "Nothing is selected. Pick an object in the sky first."
+msgstr "Nič nie je vybraté. Najprv vyberte objekt na oblohe."
+
+msgid "Nothing matches."
+msgstr "Nič sa nezhoduje."
+
+msgid "Nothing selected"
+msgstr "Nič nie je vybraté"
+
+msgid "Nothing to plot."
+msgstr "Nič sa nevykresľuje."
+
+msgid "Nothing to show."
+msgstr "Nič sa nezobrazuje."
+
+msgid "N× above"
+msgstr "N× vyššie"
+
+msgid "OBJECT"
+msgstr "OBJEKT"
+
+msgid "OBJECTS"
+msgstr "OBJEKTY"
+
+msgid "Objects which are up"
+msgstr "Objekty, ktoré sú viditeľné"
+
+msgid "Observable duration"
+msgstr "Pozorovateľné trvanie"
+
+msgid "Observing list highlight"
+msgstr "Zvýraznenie zoznamu pozorovaní"
+
+msgid "On the sky"
+msgstr "Na oblohe"
+
+msgid "One color"
+msgstr "Jedna farba"
+
+msgid "Only for N latest selected objects"
+msgstr "Len pre N posledných vybraných objektov"
+
+msgid "Only list"
+msgstr "Len zoznam"
+
+msgid "Only orbit for selected object…"
+msgstr "Len orbita pre vybraný objekt…"
+
+msgid "Only orbits of major planets…"
+msgstr "Len obežné dráhy hlavných planét…"
+
+msgid "Open date and time"
+msgstr "Otvoriť dátum a čas"
+
+msgid "Open location"
+msgstr "Otvoriť polohu"
+
+msgid "Opens the JUPOS project in a browser"
+msgstr "Otvorí projekt JUPOS v prehliadači"
+
+msgid "Opposition of"
+msgstr "Opozícia"
+
+msgid "Oppositions"
+msgstr "Opozície"
+
+msgid "Orbit colors"
+msgstr "Farby orbít"
+
+msgid "Orbital periods ratio"
+msgstr "Pomer obežných periód"
+
+msgid "Orbits"
+msgstr "Obežné dráhy"
+
+msgid "Orbits of interstellar objects"
+msgstr "Obežné dráhy medzistellárnych objektov"
+
+msgid "Orbits of moons"
+msgstr "Obežné dráhy mesiacov"
+
+msgid "Otherwise every move adopts the zone of the new place."
+msgstr "Inak sa pri každom pohybe prijme časová zóna nového miesta."
+
+msgid "Pan the sky"
+msgstr "Panoráma oblohy"
+
+msgid "Partial eclipse begins"
+msgstr "Čiastkové zatmenie začína"
+
+msgid "Partial eclipse ends"
+msgstr "Čiastkové zatmenie končí"
+
+msgid "Partitions"
+msgstr "Delenia"
+
+msgid "Partitions thickness"
+msgstr "Hrúbka delení"
+
+msgid "Path width"
+msgstr "Šírka cesty"
+
+msgid "Pause"
+msgstr "Pozastaviť"
+
+msgid "Paused - start"
+msgstr "Pozastavené - spustiť"
+
+msgid "Penumbral magnitude"
+msgstr "Magnitúda penumbry"
+
+msgid "Perihelion and aphelion"
+msgstr "Perihél a afél"
+
+msgid "Pick two different bodies to see how their distance changes."
+msgstr "Vyberte si dve rôzne telesá, aby ste videli, ako sa mení ich vzdialenosť."
+
+msgid "Pinch"
+msgstr "Stlačenie"
+
+msgid "Planet and time zone"
+msgstr "Planéta a časová zóna"
+
+msgid "Planetary nomenclature"
+msgstr "Názvoslovie útvarov"
+
+msgid "Planetary transits"
+msgstr "Prechody planét"
+
+msgid "Planets"
+msgstr "Planéty"
+
+msgid "Pluto, Ceres, Pallas, Juno and Vesta"
+msgstr "Pluto, Ceres, Pallas, Juno a Vesta"
+
+msgid "Point size"
+msgstr "Veľkosť bodu"
+
+msgid "Pointing"
+msgstr "Ukazovanie"
+
+msgid "Polar distance"
+msgstr "Polárna vzdialenosť"
+
+msgid "Polar distance, not declination"
+msgstr "Polárna vzdialenosť, nie deklinácia"
+
+msgid "Poles and points"
+msgstr "Póly a body"
+
+msgid "Polygon colour"
+msgstr "Farba mnohouholníka"
+
+msgid "Positive values only"
+msgstr "Len kladné hodnoty"
+
+msgid "Previous"
+msgstr "Predchádzajúce"
+
+msgid "Pronounce"
+msgstr "Vyslovovať"
+
+msgid "Query options"
+msgstr "Možnosti dopytu"
+
+msgid "Quit"
+msgstr "Ukončiť"
+
+msgid "Reading…"
+msgstr "Čítanie…"
+
+msgid "Real time speed"
+msgstr "Rýchlosť v reálnom čase"
+
+msgid "Refraction, extinction, sky brightness"
+msgstr "Lom, extinktúra, jasnosť oblohy"
+
+msgid "Relative scale"
+msgstr "Relatívna škála"
+
+msgid "Remove %s"
+msgstr "Odstrániť %s"
+
+msgid "Remove from observing list"
+msgstr "Odstrániť zo zoznamu pozorovaní"
+
+msgid "Rename"
+msgstr "Premenovať"
+
+msgid "Reset all"
+msgstr "Resetovať všetko"
+
+msgid "Restarting…"
+msgstr "Reštartovanie…"
+
+msgid "Rises"
+msgstr "Východy"
+
+msgid "Rotation"
+msgstr "Rotácia"
+
+msgid "Running"
+msgstr "Bežiaci"
+
+msgid "SIMBAD did not answer."
+msgstr "SIMBAD neodpovedal."
+
+msgid "SIMBAD is switched off in the search options."
+msgstr "SIMBAD je vypnutý v možnostiach vyhľadávania."
+
+msgid "SIMBAD is switched off. Turn it on under Options to look objects up online."
+msgstr "SIMBAD je vypnutý. Zapnite ho v Možnostiach, aby ste objekty vyhľadávali online."
+
+msgid "SIMBAD server"
+msgstr "Server SIMBAD"
+
+msgid "Saturation"
+msgstr "Nasýtenie"
+
+msgid "Save either the current FOV and direction of view or all the current options for use at next startup. Restoring default settings requires a restart of the app."
+msgstr "Uložite buď súčasné FOV a smer pohľadu, alebo všetky aktuálne možnosti na použitie pri ďalšom spustení. Obnovenie predvolených nastavení vyžaduje reštart aplikácie."
+
+msgid "Save to observing list"
+msgstr "Uložiť do zoznamu pozorovaní"
+
+msgid "Scale"
+msgstr "Škála"
+
+msgid "Scale marker and label visibility by surface brightness"
+msgstr "Škálovať viditeľnosť značky a pomenovania na základe povrchovej jasnosti"
+
+msgid "Scales smoothly between 1× at the minimum field of view and the factor above at the maximum"
+msgstr "Plynulo škáluje medzi 1× pri minimalnom zornom poli a faktorom vyššie pri maxime"
+
+msgid "Search in list"
+msgstr "Hľadať v zozname"
+
+msgid "Second body"
+msgstr "Druhé teleso"
+
+msgid "Second graph"
+msgstr "Druhý graf"
+
+msgid "Second object"
+msgstr "Druhý objekt"
+
+msgid "Secondary intercardinal points"
+msgstr "Sekundárne medzikardinálne body"
+
+msgid "See the sky through the ground"
+msgstr "Vidieť oblohu skrz terén"
+
+msgid "Select an object first: this asks SIMBAD what it holds around it."
+msgstr "Najprv vyberte objekt: to sa pýta v SIMBADe, čo je okolo."
+
+msgid "Select it and show its card"
+msgstr "Vyberte si a zobrazte jeho kartu"
+
+msgid "Select something in the sky first — this page works on the selection."
+msgstr "Vyberte si niečo na oblohe - táto stránka funguje na výbere."
+
+msgid "Selected object"
+msgstr "Vybraný objekt"
+
+msgid "Separate colors for orbits of major planets"
+msgstr "Rôzne farby pre obežné dráhy hlavných planét"
+
+msgid "September equinox"
+msgstr "Septemberová rovnodennosť"
+
+msgid "Set the clock to %s"
+msgstr "Nastaviť hodiny na %s"
+
+msgid "Set the place"
+msgstr "Nastaviť miesto"
+
+msgid "Set to now"
+msgstr "Nastaviť na teraz"
+
+msgid "Sets"
+msgstr "Západy"
+
+msgid "Shadow map for non-convex bodies. May coarsen the penumbra on some objects"
+msgstr "Mapa tieňa pre nekonvexné telesá. Môže hrubificovať penumbru na niektorých objektoch"
+
+msgid "Shooting stars"
+msgstr "Padajúce hviezdy"
+
+msgid "Short steps over a long duration are slow."
+msgstr "Krátke kroky počas dlhého trvania sú pomalé."
+
+msgid "Show"
+msgstr "Zobraziť"
+
+msgid "Show all information"
+msgstr "Zobraziť všetky informácie"
+
+msgid "Show atmospheric extinction"
+msgstr "Zobraziť atmosférickú extiktúru"
+
+msgid "Show controls"
+msgstr "Zobraziť ovládacie prvky"
+
+msgid "Show each body where it was when the light left it (recommended)"
+msgstr "Zobraziť každé teleso tam, kde bolo, keď od neho odišlo svetlo (odporúčané)"
+
+msgid "Show frames per second beside the field of view"
+msgstr "Zobraziť snímky za sekundu vedľa zorného poľa"
+
+msgid "Show illumination"
+msgstr "Zobraziť osvetlenie"
+
+msgid "Show in sky"
+msgstr "Zobraziť na oblohe"
+
+msgid "Show less"
+msgstr "Zobraziť menej"
+
+msgid "Show more"
+msgstr "Zobraziť viac"
+
+msgid "Show objects which are up"
+msgstr "Zobraziť objekty, ktoré sú viditeľné"
+
+msgid "Show only objects between the two sizes"
+msgstr "Zobraziť len objekty medzi dvoma veľkosťami"
+
+msgid "Show only the kinds ticked below"
+msgstr "Zobraziť len druhy zaškrtnuté nižšie"
+
+msgid "Show or hide the two rails of controls"
+msgstr "Zobraziť alebo skryť dve koľaje ovládacích prvkov"
+
+msgid "Show surveys"
+msgstr "Zobraziť prehliadky"
+
+msgid "Show this survey"
+msgstr "Zobraziť túto prehliadku"
+
+msgid "Simbad Lookup Error: %s"
+msgstr "Chyba vyhľadávania Simbad: %s"
+
+msgid "Simbad Lookup: querying"
+msgstr "Vyhľadávanie Simbad: dotazovanie"
+
+msgid "Simulation"
+msgstr "Simulácia"
+
+msgid "Sky and viewing options"
+msgstr "Možnosti oblohy a pozorovania"
+
+msgid "Sky culture"
+msgstr "Kultúra oblohy"
+
+msgid "Slow down"
+msgstr "Spomaliť"
+
+msgid "Smallest, ′"
+msgstr "Najmenší, ′"
+
+msgid "Solar altitude for Twilight Finder"
+msgstr "Slnečná výška pre Vyhľadávač súmrakov"
+
+msgid "Solar elongation"
+msgstr "Slnečná elongácia"
+
+msgid "Speed up"
+msgstr "Urýchliť"
+
+msgid "Stand where the landscape was shot, on the planet it names"
+msgstr "Postavte sa tam, kde bol terén fotografovaný, na planéte, ktorú menuje"
+
+msgid "Star, planet, catalogue number…"
+msgstr "Hviezda, planéta, katalógové číslo…"
+
+msgid "Started"
+msgstr "Spustené"
+
+msgid "Startup FOV"
+msgstr "FOV pri spustení"
+
+msgid "Startup direction of view"
+msgstr "Smer pohľadu pri spustení"
+
+msgid "Stellarium's user guide covers the astronomy this app shares with it: stellarium.org/documentation"
+msgstr "Príručka Stellaria pokrýva astronómiu, ktorú táto aplikácia zdieľa: stellarium.org/documentation"
+
+msgid "Step, hours"
+msgstr "Krok, hodiny"
+
+msgid "Style"
+msgstr "Štýl"
+
+msgid "Sun altitude"
+msgstr "Slnečná výška"
+
+msgid "Sun at"
+msgstr "Slnko v"
+
+msgid "Sun's altitude"
+msgstr "Slnečná výška"
+
+msgid "Sunlight scattered by interplanetary dust"
+msgstr "Slnečné svetlo rozptýlené medziplanetárnym prachom"
+
+msgid "Switch this off to see the trails for all Solar system bodies"
+msgstr "Vypnite to, aby ste videli stopy všetkých telies slnečnej sústavy"
+
+msgid "System date at"
+msgstr "Systémový dátum o"
+
+msgid "Tap a colour to change it. Changes show on the sky at once and are kept."
+msgstr "Klepnite na farbu, aby ste ju zmenili. Zmeny sa okamžite zobrazia na oblohe a zachovajú sa."
+
+msgid "Tap again to confirm"
+msgstr "Klepnite znova na potvrdenie"
+
+msgid "Tap an object"
+msgstr "Klepnite na objekt"
+
+msgid "Tap the chart to read a value."
+msgstr "Klepnite na graf a prečítajte si hodnotu."
+
+msgid "Tap the clock"
+msgstr "Klepnite na hodiny"
+
+msgid "Tap the gear"
+msgstr "Klepnite na ozubené koleso"
+
+msgid "Tap the map to stand there."
+msgstr "Klepnite na mapu a postavte sa tam."
+
+msgid "Tap the place"
+msgstr "Klepnite na miesto"
+
+msgid "Tap to confirm"
+msgstr "Klepnite na potvrdenie"
+
+msgid "Tertiary intercardinal points"
+msgstr "Terciárne medzikardinálne body"
+
+msgid "The Great Red Spot drifts in System II longitude. Enter a recent measurement and the drift rate to carry it forward from."
+msgstr "Veľké červené škvrna sa pohybuje v dĺžke systému II. Zadajte nedávne meranie a rýchlosť pohybu, aby sa mohla presunúť dopredu."
+
+msgid "The algorithm is based on visual observations 1877-1891 by G. Müller and was still republished in the Explanatory Supplement to the Astronomical Ephemeris (1961)."
+msgstr "Algoritmus je založený na vizuálnych pozorovaní 1877-1891 od G. Müllera a bol ešte vydaný v dodatku k Astronomickej efemeridi (1961)."
+
+msgid "The algorithm was published by A. Mallama & J. L. Hilton: Computing apparent planetary magnitudes for the Astronomical Almanac. Astronomy&Computing 25 (2018) 10-24."
+msgstr "Algoritmus publikovali A. Mallama & J. L. Hilton: Computing apparent planetary magnitudes for the Astronomical Almanac. Astronomy&Computing 25 (2018) 10-24."
+
+msgid "The algorithm was published in the 2nd edition of the Explanatory Supplement to the Astronomical Almanac (1992)."
+msgstr "Algoritmus bol vydaný v 2. vydaní dodatku k Astronomickému almanachu (1992)."
+
+msgid "The algorithm was published in the 3rd edition of the Explanatory Supplement to the Astronomical Almanac (2013)."
+msgstr "Algoritmus bol vydaný v 3. vydaní dodatku k Astronomickému almanachu (2013)."
+
+msgid "The algorithm was used in the Astronomical Almanac (1984 and later) and gives V (instrumental) magnitudes (allegedly from D.L. Harris)."
+msgstr "Algoritmus bol použitý v Astronomickom almanachu (1984 a neskôr) a dáva V (inštrumentálne) magnitúdy (údajne od D.L. Harrisa)."
+
+msgid "The colour each kind of object is drawn in"
+msgstr "Farba, v ktorej sa nakresluje každý druh objektu"
+
+msgid "The engine did not answer with any colours."
+msgstr "Motor neodpovedal s akýmikoľvek farbami."
+
+msgid "The galactic band"
+msgstr "Galaktický pás"
+
+msgid "The horizon outline instead of the panorama"
+msgstr "Obrysy horizontu namiesto panorámy"
+
+msgid "The path each body has taken across the sky"
+msgstr "Cesta, ktorú každé teleso prešlo cez oblohu"
+
+msgid "The shortest label the culture defines"
+msgstr "Najkratší názov, ktorý kultúra definuje"
+
+msgid "Thickness"
+msgstr "Hrúbka"
+
+msgid "This copy ships no scripts."
+msgstr "Táto kópia neobsahuje žiadne skripty."
+
+msgid "This device has no location service."
+msgstr "Toto zariadenie nemá službu polohy."
+
+msgid "This part of the engine exposes no settings on this build."
+msgstr "Táto časť motora nezverejňuje žiadne nastavenia v tomto zostavení."
+
+msgid "This tool works on Earth only!"
+msgstr "Tento nástroj funguje len na Zemi!"
+
+msgid "This tool works on Earth only. Short steps over a long duration are slow."
+msgstr "Tento nástroj funguje iba na Zemi. Krátke kroky počas dlhého trvania sú pomalé."
+
+msgid "This year"
+msgstr "Tento rok"
+
+msgid "Time of day"
+msgstr "Čas v deň"
+
+msgid "Time span"
+msgstr "Časové rozpätie"
+
+msgid "Time step"
+msgstr "Časový krok"
+
+msgid "To the next (mths)"
+msgstr "Na ďalšie (mes.)"
+
+msgid "To the next, months"
+msgstr "Na ďalšie, mesiace"
+
+msgid "Trails"
+msgstr "Stopy"
+
+msgid "Translated"
+msgstr "Preložené"
+
+msgid "Transparency"
+msgstr "Priehľadnosť"
+
+msgid "Twilight and rise and set times are worked out for an observer on Earth. Move back to Earth to see them."
+msgstr "Časy súmraku a východu a západu sú vypočítané pre pozorovateľa na Zemi. Vráťte sa na Zem, aby ste ich videli."
+
+msgid "Twinkle"
+msgstr "Trblietavosť"
+
+msgid "Twinkle amount"
+msgstr "Množstvo trblietavosti"
+
+msgid "Twinkle even without atmosphere"
+msgstr "Trblietavosť aj bez atmosféry"
+
+msgid "Twinkle is caused by atmospheric turbulence; this shows it regardless"
+msgstr "Trblietavosť je spôsobená atmosférickým turbulenciou; toto to ukazuje bez ohľadu na to"
+
+msgid "Type a name, a Bayer letter or a catalogue number - Vega, α Lyr, M 31, NGC 224."
+msgstr "Napíšte meno, Bayerovo písmeno alebo katalógové číslo - Vega, α Lyr, M 31, NGC 224."
+
+msgid "Umbral magnitude"
+msgstr "Magnitúda umbry"
+
+msgid "Up to mag."
+msgstr "Do mag."
+
+msgid "Use common symbols for coordinate systems"
+msgstr "Použiť bežné symboly pre sústavy súradníc"
+
+msgid "Use distance from North Celestial Pole, not declination from equator in equatorial coordinates"
+msgstr "Použiť vzdialenosť od severného nebeského pólu, nie deklináciu od rovníka v rovníkových súradniciach"
+
+msgid "Use my location"
+msgstr "Použiť moju polohu"
+
+msgid "Use the date now shown in the sky"
+msgstr "Použiť dátum teraz zobrazený na oblohe"
+
+msgid "Use the value in landscape.ini when it has one"
+msgstr "Použiť hodnotu v landscape.ini, keď ju má"
+
+msgid "Use the value stored for this location"
+msgstr "Použiť hodnotu uloženú pre túto polohu"
+
+msgid "Version %s  ·  Qt %s"
+msgstr "Verzia %s  ·  Qt %s"
+
+msgid "Visibility"
+msgstr "Viditeľnosť"
+
+msgid "When a search result is chosen"
+msgstr "Keď je vybraný výsledok vyhľadávania"
+
+msgid "Where Jupiter's Great Red Spot was, and when"
+msgstr "Kde bola Jupiterov Veľká červená škvrna a kedy"
+
+msgid "Width"
+msgstr "Šírka"
+
+msgid "Working out the contact times…"
+msgstr "Výpočet časov kontaktu…"
+
+msgid "Zodiac and lunar stations"
+msgstr "Zvieratník a mesačné zastavenia"
+
+msgid "Zodiacal Light brightness"
+msgstr "Jasnosť zodiakálneho svetla"
+
+msgid "Zoom in and out"
+msgstr "Priblíženie a oddialenie"
+
+msgid "after sunset"
+msgstr "po západe slnka"
+
+msgid "before sunrise"
+msgstr "pred východom slnka"
+
+msgid "bright suburban"
+msgstr "jasná predmestská oblasť"
+
+msgid "east +"
+msgstr "východ +"
+
+msgid "engine ready, interface going live"
+msgstr "motor pripravený, rozhranie sa spúšťa"
+
+msgid "excellent dark sky"
+msgstr "vynikajúca tmavá obloha"
+
+msgid "inner city"
+msgstr "vnútorné mestá"
+
+msgid "north +"
+msgstr "sever +"
+
+msgid "rural/suburban"
+msgstr "vidiek/predmestie"
+
+msgid "suburban/urban"
+msgstr "predmestie/mestá"
+
+msgid "truly dark"
+msgstr "naozaj tmavá"
+
+msgid "unreadable snapshot"
+msgstr "nečitateľný záznam"
+
+msgid "… and moons"
+msgstr "… a mesiace"

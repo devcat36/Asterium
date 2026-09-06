@@ -1,0 +1,1357 @@
+# Asterium interface translation for lt.
+# Copyright (C) 2026 the Asterium authors
+# This file is distributed under the same licence as the Asterium package.
+#
+# MACHINE TRANSLATION, not reviewed by a speaker of this language.
+# Terminology follows upstream Stellarium's own lt catalogue, which was used
+# as a glossary, and every entry keeps the source's printf placeholders.
+# Corrections from a human translator are welcome and should simply replace these.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: asterium\n"
+"Language: lt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%d bodies"
+msgstr "%d kūnų"
+
+msgid "%d object"
+msgstr "%d objektas"
+
+msgid "%d objects"
+msgstr "%d objektų"
+
+msgid "%s colour"
+msgstr "%s spalva"
+
+msgid "%s from %s, ±%.0f m"
+msgstr "%s iš %s, ±%.0f m"
+
+msgid "12-hour"
+msgstr "12 val."
+
+msgid "24-hour"
+msgstr "24 val."
+
+msgid "A button to mark every object of the current observing list on the sky."
+msgstr "Mygtukas, skirtas pažymėti visus dabartinio stebėjimo sąrašo objektus danguje."
+
+msgid "A polygonal model for some small moons, asteroids and comets instead of a sphere"
+msgstr "Daugiakampis modelis kai kuriems mažiems Mėnuliams, asteroidams ir kometoms vietoj sferos"
+
+msgid "A touch-first planetarium forked from Stellarium, whose astronomy engine it uses unchanged. The interface is new; everything that draws the sky is upstream's work."
+msgstr "Pirmiausia liestinis planetarijus, atšakota iš Stellarium, kurio astronomijos variklis naudojamas nepakitęs. Sąsaja yra nauja; viskas, kas piešia dangų, yra iš šaltinio."
+
+msgid "About this sky culture"
+msgstr "Apie šią dangaus kultūrą"
+
+msgid "Above altitude, °"
+msgstr "Virš aukščio, °"
+
+msgid "Absolute scale"
+msgstr "Absoliuti skalė"
+
+msgid "Add %s"
+msgstr "Pridėti %s"
+
+msgid "Adjust brightness to bright objects"
+msgstr "Reguliuoti šviesumą šviesiem objektams"
+
+msgid "Algorithm of ΔT"
+msgstr "ΔT algoritmas"
+
+msgid "All naked-eye planets"
+msgstr "Visos žaliuoju žvilgsniu matomi planetos"
+
+msgid "All solar eclipses"
+msgstr "Visi sauliniai užtemimai"
+
+msgid "Allow negative hour angles"
+msgstr "Leisti neigiamus valandų kampus"
+
+msgid "Allow results outside the recommended time range of the orbital elements"
+msgstr "Leisti rezultatus šalia rekomenduojamo orbitų elementų laiko diapazono"
+
+msgid "Also find"
+msgstr "Taip pat rasti"
+
+msgid "Also plot"
+msgstr "Taip pat nubraižyti"
+
+msgid "Also show moons of selected object or planets"
+msgstr "Taip pat rodyti pasirinkto objekto arba planetų Mėnulius"
+
+msgid "Altitude limit, °"
+msgstr "Aukščio riba, °"
+
+msgid "Amount"
+msgstr "Kiekis"
+
+msgid "An observer floats above its planet, so there is nowhere on it to stand. Choose another planet to come back down."
+msgstr "Stebėtojas plūdu virš jos planetos, todėl ant jos nėra kur stoti. Pasirinkite kitą planetą, kad grįžtumėte žemyn."
+
+msgid "And"
+msgstr "Ir"
+
+msgid "And also"
+msgstr "Ir taip pat"
+
+msgid "And the next (years)"
+msgstr "Ir kiti (metai)"
+
+msgid "Annual drift"
+msgstr "Metinis driftas"
+
+msgid "Appearance"
+msgstr "Išvaizda"
+
+msgid "Art"
+msgstr "Menas"
+
+msgid "Artificial satellites and unnamed stars are excluded from calculation."
+msgstr "Dirbtiniai palydovai ir nevardintos žvaigždės yra neįtrauktos į skaičiavimą."
+
+msgid "Asking for permission…"
+msgstr "Prašant leidimo…"
+
+msgid "Asks SIMBAD what it holds around the object that is selected now, and prints the answer as it comes back."
+msgstr "Klausia SIMBAD apie tai, ką jis laiko aplink šiuo metu parinktą objektą, ir spausdina atsakymą grįžus."
+
+msgid "Ast. lines"
+msgstr "Ast. lin."
+
+msgid "Ast. names"
+msgstr "Ast. pavad."
+
+msgid "Astronomical Almanac (default) enlarges by 2%; Danjon (1951) differs slightly"
+msgstr "Astronominis Almanachas (numatytasis) padidina 2%; Danjon (1951) šiek tiek skiriasi"
+
+msgid "Astronomical night"
+msgstr "Astronominė naktis"
+
+msgid "At"
+msgstr "Ties"
+
+msgid "Atmosph."
+msgstr "Atmos."
+
+msgid "Automatic transparency"
+msgstr "Automatinis skaidrumas"
+
+msgid "Axis distance"
+msgstr "Ašies atstumas"
+
+msgid "Azi. grid"
+msgstr "Azi. tink."
+
+msgid "Azimuth and altitude rather than right ascension and declination"
+msgstr "Azimutas ir aukštis, o ne rektascensija ir deklinacija"
+
+msgid "Below the horizon here."
+msgstr "Žemiau horizonto čia."
+
+msgid "Between objects"
+msgstr "Tarp objektų"
+
+msgid "Boundless"
+msgstr "Begalinis"
+
+msgid "Bounds"
+msgstr "Ribos"
+
+msgid "Brighter than"
+msgstr "Šviesesnė negu"
+
+msgid "By object type"
+msgstr "Pagal objekto tipą"
+
+msgid "By planet"
+msgstr "Pagal planetą"
+
+msgid "Calculating…"
+msgstr "Skaičiuojama…"
+
+msgid "Cardinals"
+msgstr "Pasaulio k."
+
+msgid "Catalogue numbers instead of common names"
+msgstr "Katalogo numeriai vietoj bendrinių pavadinimų"
+
+msgid "Category"
+msgstr "Kategorija"
+
+msgid "Central duration"
+msgstr "Centrinė trukmė"
+
+msgid "Centre"
+msgstr "Centras"
+
+msgid "Centre on object"
+msgstr "Centruoti objektą"
+
+msgid "Centre point"
+msgstr "Centrinis taškas"
+
+msgid "Circles"
+msgstr "Apskritimai"
+
+msgid "City"
+msgstr "Miestas"
+
+msgid "Cleanup"
+msgstr "Valyma"
+
+msgid "Clear recent searches"
+msgstr "Išvalyti neseniai ieškotus"
+
+msgid "Clear the selection - a touch screen has no right button"
+msgstr "Išvalyti pasirinkimą – liestinis ekranas neturi dešinio mygtuko"
+
+msgid "Cleared."
+msgstr "Išvalyta."
+
+msgid "Close"
+msgstr "Uždaryti"
+
+msgid "Close what is open; from the sky, leave the app running"
+msgstr "Uždaryti atidarytą; iš dangaus, palikti programą veikiančią"
+
+msgid "Color"
+msgstr "Spalva"
+
+msgid "Color channel"
+msgstr "Spalvų kanalas"
+
+msgid "Color of orbits"
+msgstr "Orbitų spalva"
+
+msgid "Colors of orbit lines"
+msgstr "Orbitų linijų spalvos"
+
+msgid "Comets up to mag."
+msgstr "Kometos iki ršk."
+
+msgid "Compass"
+msgstr "Kompasas"
+
+msgid "Connecting line"
+msgstr "Sujungimo linija"
+
+msgid "Contrast"
+msgstr "Kontrastas"
+
+msgid "Coordinate system"
+msgstr "Koordinačių sistema"
+
+msgid "Coordinates"
+msgstr "Koordinatės"
+
+msgid "Copyright"
+msgstr "Autorinės teisės"
+
+msgid "Custom"
+msgstr "Pasirinktas"
+
+msgid "Custom altitude of the Moon, °"
+msgstr "Pasirinktasis Mėnulio aukštis, °"
+
+msgid "Custom altitude of the Sun, °"
+msgstr "Pasirinktasis Saulės aukštis, °"
+
+msgid "Custom values"
+msgstr "Pasirinktosios reikšmės"
+
+msgid "Cut the scale off below the limit"
+msgstr "Nukirpti skalę žemiau ribos"
+
+msgid "DATE AND TIME (UTC)"
+msgstr "DATA IR LAIKAS (UTC)"
+
+msgid "Date and time"
+msgstr "Data ir laikas"
+
+msgid "Date/time"
+msgstr "Data/laikas"
+
+msgid "Dates"
+msgstr "Datos"
+
+msgid "December solstice"
+msgstr "Gruodžio saulėgrįža"
+
+msgid "Decimal degrees. −33.87 means 33.87° south. Elevation is metres above sea level; it moves the horizon down by a few arcminutes."
+msgstr "Dešimtainiai laipsniai. −33.87 reiškia 33.87° į pietus. Aukštis yra metrai virš jūros lygio; jis juda horizontą žemyn dėl kelių lanko minučių."
+
+msgid "Degrees per year the longitude moves by"
+msgstr "Laipsniai per metus, kuriuos ilguma juda"
+
+msgid "Degrees, hours and minutes as they are written - 12h30m49s, +41°16'09\", 187.7 - or plain decimal degrees."
+msgstr "Laipsniai, valandos ir minutės, kaip jos parašytos – 12h30m49s, +41°16'09\", 187.7 – arba paprastas dešimtainiai laipsniai."
+
+msgid "Deletes all recent search object data, and the objects SIMBAD contributed."
+msgstr "Panaikintas visus neseniai ieškotus objektų duomenis ir objektus, kuriuos prisidėjo SIMBAD."
+
+msgid "Designations for double stars"
+msgstr "Žymėjimai dviems žvaigždėms"
+
+msgid "Designations for variable stars"
+msgstr "Žymėjimai kintamoms žvaigždėms"
+
+msgid "Dim a survey near the horizon, as the air does"
+msgstr "Suteminti tyrimą šalia horizonto, kaip daro oras"
+
+msgid "Done"
+msgstr "Atlikta"
+
+msgid "Drag"
+msgstr "Vilkti"
+
+msgid "Draw deep-sky objects at all"
+msgstr "Piešti giliojo kosmoso objektus apskritai"
+
+msgid "Draw the enabled sky surveys"
+msgstr "Piešti įjungtus dangaus tyrimus"
+
+msgid "Draw the planets, moons and minor bodies"
+msgstr "Piešti planetas, Mėnulius ir mažuosius kūnus"
+
+msgid "Drawn larger than life, so a body that is a few arcseconds wide is visible at all. The position stays true."
+msgstr "Nupiešta didesnė nei gyvenime, kad kūnas, kuris yra keletas lanko sekundžių pločio, būtų visiškai matomas. Padėtis lieka teisinga."
+
+msgid "Duration (years)"
+msgstr "Trukmė (metai)"
+
+msgid "Duration, months"
+msgstr "Trukmė, mėnesiai"
+
+msgid "ELEV. M"
+msgstr "AUKŠ. M"
+
+msgid "Ecl. grid"
+msgstr "Ekl. tink."
+
+msgid "Eclipses are computed for observers on Earth."
+msgstr "Užtemimai apskaičiuoti Žemės stebėtojams."
+
+msgid "Elevation in metres"
+msgstr "Aukštis metrais"
+
+msgid "Elongations and quadratures"
+msgstr "Elongacijos ir kvadratūros"
+
+msgid "Equ. grid"
+msgstr "Ekv. tink."
+
+msgid "Equ. mount"
+msgstr "Ekv. mont."
+
+msgid "Equatorial radii ratio"
+msgstr "Ekvatorinio spindulio santykis"
+
+msgid "Every"
+msgstr "Kiekvienas"
+
+msgid "Every name the object is catalogued under"
+msgstr "Kiekvienas pavadinimas, kuriuo objektas katalogizuojamas"
+
+msgid "Exterior egress"
+msgstr "Išorinė išeiga"
+
+msgid "Exterior ingress"
+msgstr "Išorinė įeiga"
+
+msgid "Fades the ground as you look below the horizon or zoom in"
+msgstr "Išblukina žemę, kai žiūrite žemiau horizonto arba priartinate"
+
+msgid "Fading duration"
+msgstr "Žeidimo trukmė"
+
+msgid "Faintest shown"
+msgstr "Nusilpnintoji rodytas"
+
+msgid "Favorites"
+msgstr "Mėgstamiausi"
+
+msgid "Fetching the survey lists…"
+msgstr "Gaunami tyrimų sąrašai…"
+
+msgid "Find a city"
+msgstr "Rasti miestą"
+
+msgid "First %d of %d - filter to narrow it."
+msgstr "Pirmieji %d iš %d – filtruoti, kad susiaurinti."
+
+msgid "First body"
+msgstr "Pirmasis kūnas"
+
+msgid "First graph"
+msgstr "Pirmasis grafikas"
+
+msgid "Fixed instant"
+msgstr "Fiksuotas momentas"
+
+msgid "Flip horiz."
+msgstr "Apv. hor."
+
+msgid "Flip vert."
+msgstr "Apv. vert."
+
+msgid "Frame rate"
+msgstr "Kadrų norma"
+
+msgid "From"
+msgstr "Nuo"
+
+msgid "Full screen"
+msgstr "Viso ekrano"
+
+msgid "Further reading"
+msgstr "Tolesniam skaitymui"
+
+msgid "GRS details…"
+msgstr "DRT detalės…"
+
+msgid "Gal. grid"
+msgstr "Gal. tink."
+
+msgid "Gamma, saturation, brightness, contrast, opacity, colour channel and inverted colours belong to one survey. Open a survey to set them."
+msgstr "Gama, sodrumas, šviesumas, kontrastas, skaidrumas, spalvų kanalas ir invertuotos spalvos priklauso vienam tyrimui. Atidarykite tyrimą, jei norite juos nustatyti."
+
+msgid "Gestures"
+msgstr "Žestyrai"
+
+msgid "Go there"
+msgstr "Eiti ten"
+
+msgid "Go to this eclipse"
+msgstr "Eiti į šį užtemimą"
+
+msgid "Go to this moment"
+msgstr "Eiti į šį momentą"
+
+msgid "Go to this transit"
+msgstr "Eiti į šį tranzitą"
+
+msgid "Great Red Spot"
+msgstr "Didysis Raudonasis Dėmė"
+
+msgid "Great Red Spot details"
+msgstr "Didžiojo Raudonojo Dėmės detalės"
+
+msgid "Greatest elongation for an inner planet, quadrature for an outer one"
+msgstr "Didžiausia elongacija vidinei planetai, kvadratūra išorinei"
+
+msgid "Greek letters"
+msgstr "Graikų abėcėlė"
+
+msgid "Grid density"
+msgstr "Tinklelio tankis"
+
+msgid "Grids"
+msgstr "Tinkleliai"
+
+msgid "Ground"
+msgstr "Žemė"
+
+msgid "Gyro"
+msgstr "Žiro"
+
+msgid "Gyro mode"
+msgstr "Žiro režimas"
+
+msgid "Height"
+msgstr "Aukštis"
+
+msgid "Heliocentric ecliptic positions of the major planets."
+msgstr "Heliocentrinės ekliptikos didžiųjų planetų padėtys."
+
+msgid "HiPS"
+msgstr "HiPS"
+
+msgid "Hide controls"
+msgstr "Slėpti kontroles"
+
+msgid "Hide deep-sky objects fainter than the limit"
+msgstr "Slėpti silpnesnius giliojo kosmoso objektus nei riba"
+
+msgid "Hide orbits of minor bodies"
+msgstr "Slėpti mažųjų kūnų orbitas"
+
+msgid "Highlight"
+msgstr "Paryškinti"
+
+msgid "Highlight the objects of the observing list"
+msgstr "Paryškinti stebėjimo sąrašo objektus"
+
+msgid "Hint circles marking each planet"
+msgstr "Žinyno apskritimai pažymintys kiekvieną planetą"
+
+msgid "Hints brightness"
+msgstr "Žinyno šviesumas"
+
+msgid "Hipparcos designations"
+msgstr "Hipparcos žymėjimai"
+
+msgid "How many"
+msgstr "Kiek"
+
+msgid "ICRS grid"
+msgstr "ICRS tink."
+
+msgid "Include"
+msgstr "Įtraukti"
+
+msgid "Include bright comets"
+msgstr "Įtraukti ryškias kometas"
+
+msgid "Intercardinal points"
+msgstr "Tarpinės pasaulio kryptys"
+
+msgid "Interior egress"
+msgstr "Vidinė išeiga"
+
+msgid "Interior ingress"
+msgstr "Vidinė įeiga"
+
+msgid "Its elevation, and the civil, nautical and astronomical twilights"
+msgstr "Jos aukštis, ir šiviliniai, laivybos ir astronominiai skaisčiai"
+
+msgid "Jovigraphic longitude of the spot in System II, in degrees"
+msgstr "Jovigrafinis Sistemos II dėmės ilgumos dydis, laipsnyse"
+
+msgid "June solstice"
+msgstr "Birželio saulėgrįža"
+
+msgid "Label"
+msgstr "Žymė"
+
+msgid "Label colour"
+msgstr "Žymės spalva"
+
+msgid "Labels and Markers amount"
+msgstr "Žymių ir žymelių kiekis"
+
+msgid "Labels brightness"
+msgstr "Žymių šviesumas"
+
+msgid "Largest, ′"
+msgstr "Didžiausias, ′"
+
+msgid "Last known position"
+msgstr "Paskutinioji žinoma padėtis"
+
+msgid "Lasting"
+msgstr "Besitęsiantis"
+
+msgid "Latitude −90…90, longitude −180…180."
+msgstr "Platuma −90…90, ilguma −180…180."
+
+msgid "Leaves the landscape visible in darkness"
+msgstr "Palieka kraštovaizdį matomi tamsoje"
+
+msgid "Licence"
+msgstr "Licencija"
+
+msgid "Light pollution"
+msgstr "Šviesos taršos"
+
+msgid "Light pollution from database"
+msgstr "Šviesos tarša iš duomenų bazės"
+
+msgid "Limit angular separation"
+msgstr "Apriboti kampinį atskyrą"
+
+msgid "Limit angular size"
+msgstr "Riboti kampinį dydį"
+
+msgid "Limit magnitude"
+msgstr "Riboti ryškumą"
+
+msgid "Linear distance"
+msgstr "Linijinis atstumas"
+
+msgid "Lines"
+msgstr "Linijos"
+
+msgid "Lines and circles"
+msgstr "Linijos ir apskritimai"
+
+msgid "List"
+msgstr "Sąrašas"
+
+msgid "List name"
+msgstr "Sąrašo pavadinimas"
+
+msgid "Lit windows, street lighting and the like"
+msgstr "Apšviestuose langai, gatvės apšvietimas ir panašus"
+
+msgid "Loading…"
+msgstr "Kraunama…"
+
+msgid "Local solar eclipses"
+msgstr "Vietiniai sauliniai užtemimai"
+
+msgid "Local time"
+msgstr "Vietinis laikas"
+
+msgid "Local time, h"
+msgstr "Vietinis laikas, val"
+
+msgid "Locate me"
+msgstr "Rasti mane"
+
+msgid "Locating…"
+msgstr "Randama…"
+
+msgid "Location is switched off in the system settings."
+msgstr "Vieta yra išjungta sistemos nustatymuose."
+
+msgid "Location permission refused. The other two ways still work."
+msgstr "Vietos leidimas atmestas. Kiti du būdai vis dar veikia."
+
+msgid "Long press"
+msgstr "Ilgas spaudimas"
+
+msgid "Longitude of GRS"
+msgstr "DRT ilguma"
+
+msgid "Lunar eclipses"
+msgstr "Mėnulio užtemimai"
+
+msgid "Magnitudes"
+msgstr "Ryškiai"
+
+msgid "Major planets by planet, minor bodies by type"
+msgstr "Didžiosios planetos pagal planetą, mažieji kūnai pagal tipą"
+
+msgid "Map of the planet. Tap to set the observer's place."
+msgstr "Planetos žemėlapis. Palieskite, jei norite nustatyti stebėtojo vietą."
+
+msgid "March equinox"
+msgstr "Kovo lygiadienį"
+
+msgid "Markers"
+msgstr "Žymos"
+
+msgid "Markers sized by the object's angular size"
+msgstr "Žymos, pasiūlyta pagal objekto kampinį dydį"
+
+msgid "Master switch for the grids, lines and points below"
+msgstr "Pagrindinis jungiklis tinkleliams, linijoms ir taškams žemiau"
+
+msgid "Max items to display"
+msgstr "Maks. rodomų elementų"
+
+msgid "Max. results"
+msgstr "Maks. rezultatai"
+
+msgid "Maximum allowed separation"
+msgstr "Maksimali leidžiama atskyrimas"
+
+msgid "Maximum angular size"
+msgstr "Maksimalus kampinis dydis"
+
+msgid "Mean motion"
+msgstr "Vidutinis judėjimas"
+
+msgid "Mercury, Venus, Mars, Jupiter and Saturn at once. Earth only."
+msgstr "Merkurijus, Venera, Marsas, Jupiteris ir Saturnas vienu metu. Tik Žemė."
+
+msgid "Milky Way brightness"
+msgstr "Paukščių Tako šviesumas"
+
+msgid "Milky Way saturation"
+msgstr "Paukščių Tako sodrumas"
+
+msgid "Minimal angular size"
+msgstr "Minimalus kampinis dydis"
+
+msgid "Minimal brightness"
+msgstr "Minimalus šviesumas"
+
+msgid "Minutes before sunrise / after sunset"
+msgstr "Minutės prieš saulėtekį / po saulėlydžio"
+
+msgid "Moon at"
+msgstr "Mėnulis ties"
+
+msgid "Moon in zenith at"
+msgstr "Mėnulis zenite ties"
+
+msgid "Move the sky by pointing the phone at it"
+msgstr "Judinkite dangų rodydami telefoną į jį"
+
+msgid "Move the sky with the phone"
+msgstr "Judinkite dangų su telefonu"
+
+msgid "Name for the new list"
+msgstr "Naujo sąrašo pavadinimas"
+
+msgid "Named features the landscape marks"
+msgstr "Pavadinti kraštovaizdžio pažymėti objektai"
+
+msgid "Names"
+msgstr "Pavadinimai"
+
+msgid "Names beside the planets and their markers"
+msgstr "Pavadinimai šalia planetų ir jų žymų"
+
+msgid "Names in English"
+msgstr "Pavadinimai anglų kalba"
+
+msgid "Neb. bg"
+msgstr "Ūk. fonas"
+
+msgid "Nebulae"
+msgstr "Ūkai"
+
+msgid "Night"
+msgstr "Naktis"
+
+msgid "No city matches that."
+msgstr "Joks miestas neatitinka to."
+
+msgid "No eclipses found. Pick a range and calculate."
+msgstr "Užtemimai nerastas. Pasirinkite diapazoną ir apskaičiuokite."
+
+msgid "No fresh fix - the receiver may have no sky. Try again outdoors, or set the place another way."
+msgstr "Nėra šviežio fiksuoto taško – imtuvas gali neturėti dangaus. Pabandykite iš naujo lauke arba nustatykite vietą kitaip."
+
+msgid "No surveys were found. The lists are downloaded, so this needs a connection."
+msgstr "Tyrimai nerastas. Sąrašai yra atsisiunčiami, todėl tai reikalauja ryšio."
+
+msgid "None downloaded yet"
+msgstr "Nė vienas dar neatsisiųstas"
+
+msgid "Note: this tool doesn't apply the refraction correction for coordinates. Horizontal coordinates stop the clock, or the sky would turn away from the point while you arrive at it."
+msgstr "Pastaba: šis įrankis neatliekataikę refrakcijos korekcijos koordinatėms. Horizontinės koordinatės sustabdo laikrodį, kitaip dangus pasiskirstų nuo taško jums atėjus."
+
+msgid "Nothing computed yet, or nothing in this category is up."
+msgstr "Nieko dar neapskaičiuota, arba nieko šioje kategorijoje nėra aukštyn."
+
+msgid "Nothing computed yet."
+msgstr "Nieko dar neapskaičiuota."
+
+msgid "Nothing found for “%s”."
+msgstr "Nieko nerasta „%s\"."
+
+msgid "Nothing in this list matches."
+msgstr "Nieks šiame sąraše neatitinka."
+
+msgid "Nothing in this list yet. Pick something out of the sky and tap the star on its card to keep it here."
+msgstr "Nieko šiame sąraše dar. Pasirinkite ką nors iš dangaus ir paspauskite žvaigždę jos kortelėje, jei norite ją čia palikti."
+
+msgid "Nothing is selected. Pick an object in the sky first."
+msgstr "Nieks neparinktas. Pirma pasirinkite objektą danguje."
+
+msgid "Nothing matches."
+msgstr "Nieks neatitinka."
+
+msgid "Nothing selected"
+msgstr "Nieks neparinktas"
+
+msgid "Nothing to plot."
+msgstr "Nieko braižyti."
+
+msgid "Nothing to show."
+msgstr "Nieko rodyti."
+
+msgid "N× above"
+msgstr "N× aukščiau"
+
+msgid "OBJECT"
+msgstr "OBJEKTAS"
+
+msgid "OBJECTS"
+msgstr "OBJEKTAI"
+
+msgid "Objects which are up"
+msgstr "Objektai, kurie yra aukštyn"
+
+msgid "Observable duration"
+msgstr "Stebima trukmė"
+
+msgid "Observing list highlight"
+msgstr "Stebėjimo sąrašo paryškinimas"
+
+msgid "On the sky"
+msgstr "Danguje"
+
+msgid "One color"
+msgstr "Viena spalva"
+
+msgid "Only for N latest selected objects"
+msgstr "Tik N naujausių pasirinktų objektų"
+
+msgid "Only list"
+msgstr "Tik sąrašas"
+
+msgid "Only orbit for selected object…"
+msgstr "Tik pasirinkto objekto orbita…"
+
+msgid "Only orbits of major planets…"
+msgstr "Tik didžiųjų planetų orbitos…"
+
+msgid "Open date and time"
+msgstr "Atidaryti datą ir laiką"
+
+msgid "Open location"
+msgstr "Atidaryti vietą"
+
+msgid "Opens the JUPOS project in a browser"
+msgstr "Atidaryti JUPOS projektą naršyklėje"
+
+msgid "Opposition of"
+msgstr "Opozicija"
+
+msgid "Oppositions"
+msgstr "Opozicijos"
+
+msgid "Orbit colors"
+msgstr "Orbitų spalvos"
+
+msgid "Orbital periods ratio"
+msgstr "Orbitinių periodų santykis"
+
+msgid "Orbits"
+msgstr "Orbitos"
+
+msgid "Orbits of interstellar objects"
+msgstr "Tarpžvaigždinių objektų orbitos"
+
+msgid "Orbits of moons"
+msgstr "Palydovų orbitos"
+
+msgid "Otherwise every move adopts the zone of the new place."
+msgstr "Kitu atveju kiekvienas judėjimas priima naujos vietos laiko juostą."
+
+msgid "Pan the sky"
+msgstr "Slinkti po dangų"
+
+msgid "Partial eclipse begins"
+msgstr "Dalinis užtemimas prasideda"
+
+msgid "Partial eclipse ends"
+msgstr "Dalinis užtemimas baigiasi"
+
+msgid "Partitions"
+msgstr "Pertvaros"
+
+msgid "Partitions thickness"
+msgstr "Pertvarų storis"
+
+msgid "Path width"
+msgstr "Kelio plotis"
+
+msgid "Pause"
+msgstr "Pauzė"
+
+msgid "Paused - start"
+msgstr "Sustabdyta - pradėti"
+
+msgid "Penumbral magnitude"
+msgstr "Penumbrinė reikšmė"
+
+msgid "Perihelion and aphelion"
+msgstr "Perihelis ir afelias"
+
+msgid "Pick two different bodies to see how their distance changes."
+msgstr "Pasirinkite du skirtingus kūnus, kad matytumėte, kaip keičiasi jų atstumas."
+
+msgid "Pinch"
+msgstr "Suspaudimas"
+
+msgid "Planet and time zone"
+msgstr "Planeta ir laiko juosta"
+
+msgid "Planetary nomenclature"
+msgstr "Planetų nomenklatūra"
+
+msgid "Planetary transits"
+msgstr "Planetų tranzitai"
+
+msgid "Planets"
+msgstr "Planetos"
+
+msgid "Pluto, Ceres, Pallas, Juno and Vesta"
+msgstr "Pluton, Keresė, Palada, Junona ir Vesta"
+
+msgid "Point size"
+msgstr "Taško dydis"
+
+msgid "Pointing"
+msgstr "Nukreipimas"
+
+msgid "Poles and points"
+msgstr "Poliai ir taškai"
+
+msgid "Polygon colour"
+msgstr "Daugiakampio spalva"
+
+msgid "Positive values only"
+msgstr "Tik teigiamos reikšmės"
+
+msgid "Query options"
+msgstr "Užklausos nustatymai"
+
+msgid "Quit"
+msgstr "Išeiti"
+
+msgid "Reading…"
+msgstr "Skaitoma…"
+
+msgid "Real time speed"
+msgstr "Realus laiko greitis"
+
+msgid "Refraction, extinction, sky brightness"
+msgstr "Refraktografija, ekstinkcija, dangaus ryškis"
+
+msgid "Relative scale"
+msgstr "Santykinis mastelis"
+
+msgid "Remove %s"
+msgstr "Pašalinti %s"
+
+msgid "Remove from observing list"
+msgstr "Pašalinti iš stebėjimo sąrašo"
+
+msgid "Rename"
+msgstr "Pervadinti"
+
+msgid "Restarting…"
+msgstr "Iš naujo paleidžiama…"
+
+msgid "Rises"
+msgstr "Teka"
+
+msgid "Rotation"
+msgstr "Sukimas"
+
+msgid "Running"
+msgstr "Veikia"
+
+msgid "SIMBAD did not answer."
+msgstr "SIMBAD neatsiliepė."
+
+msgid "SIMBAD is switched off in the search options."
+msgstr "SIMBAD yra išjungta paieškos nustatymuose."
+
+msgid "SIMBAD is switched off. Turn it on under Options to look objects up online."
+msgstr "SIMBAD yra išjungtas. Įjunkite jį Nustatymuose, kad galėtumėte ieškoti objektų internete."
+
+msgid "SIMBAD server"
+msgstr "SIMBAD serveris"
+
+msgid "Saturation"
+msgstr "Sodrumas"
+
+msgid "Save either the current FOV and direction of view or all the current options for use at next startup. Restoring default settings requires a restart of the app."
+msgstr "Išsaugokite dabartinį RL ir vaizdo kryptį arba visus dabartinius nustatymus naudoti kitą kartą. Numatytųjų nustatymų atkūrimas reikalauja programos perkrovimo."
+
+msgid "Save to observing list"
+msgstr "Išsaugoti stebėjimo sąraše"
+
+msgid "Scale"
+msgstr "Mastelis"
+
+msgid "Scale marker and label visibility by surface brightness"
+msgstr "Žymeklio ir žymos matomumo mastelis pagal paviršiaus ryškumą"
+
+msgid "Scales smoothly between 1× at the minimum field of view and the factor above at the maximum"
+msgstr "Sklandžiai keičiasi nuo 1× esant minimaliam RL ir faktoriui esant maksimaliam"
+
+msgid "Search in list"
+msgstr "Ieškoti sąraše"
+
+msgid "Second body"
+msgstr "Antrasis kūnas"
+
+msgid "Second graph"
+msgstr "Antrasis grafikas"
+
+msgid "Second object"
+msgstr "Antrasis objektas"
+
+msgid "Secondary intercardinal points"
+msgstr "Antriniai tarpkryptiniai taškai"
+
+msgid "See the sky through the ground"
+msgstr "Matyti dangų per žemę"
+
+msgid "Select an object first: this asks SIMBAD what it holds around it."
+msgstr "Pirmiausia pasirinkite objektą: tai klausia SIMBAD ką ji laiko aplink."
+
+msgid "Select it and show its card"
+msgstr "Pasirinkite jį ir parodykite jo kortelę"
+
+msgid "Select something in the sky first — this page works on the selection."
+msgstr "Pirmiausia pasirinkite ką nors danguje — šis puslapis veikia su pasirinkimu."
+
+msgid "Separate colors for orbits of major planets"
+msgstr "Atskiros spalvos didžiųjų planetų orbitoms"
+
+msgid "September equinox"
+msgstr "Rugsėjo lygiadienį"
+
+msgid "Server"
+msgstr "Serveris"
+
+msgid "Set the clock to %s"
+msgstr "Nustatyti laikrodį į %s"
+
+msgid "Set the place"
+msgstr "Nustatyti vietą"
+
+msgid "Set to now"
+msgstr "Nustatyti dabar"
+
+msgid "Sets"
+msgstr "Leidžiasi"
+
+msgid "Shadow map for non-convex bodies. May coarsen the penumbra on some objects"
+msgstr "Šešėlio žemėlapis neišgaubtiems kūnams. Gali grubinti penumbrą kai kuriems objektams."
+
+msgid "Shooting stars"
+msgstr "Šviesuliai"
+
+msgid "Short steps over a long duration are slow."
+msgstr "Trumpi žingsniai per ilgą trukmę yra lėti."
+
+msgid "Show"
+msgstr "Rodyti"
+
+msgid "Show all information"
+msgstr "Rodyti visą informaciją"
+
+msgid "Show controls"
+msgstr "Rodyti valdiklius"
+
+msgid "Show each body where it was when the light left it (recommended)"
+msgstr "Rodyti kiekvieną kūną ten, kur jis buvo, kai jį paliko šviesa (rekomenduojama)"
+
+msgid "Show frames per second beside the field of view"
+msgstr "Rodyti kadrus per sekundę šalia matymo lauko"
+
+msgid "Show illumination"
+msgstr "Rodyti apšvietimą"
+
+msgid "Show in sky"
+msgstr "Rodyti danguje"
+
+msgid "Show less"
+msgstr "Rodyti mažiau"
+
+msgid "Show more"
+msgstr "Rodyti daugiau"
+
+msgid "Show objects which are up"
+msgstr "Rodyti objektus virš horizonto"
+
+msgid "Show only objects between the two sizes"
+msgstr "Rodyti tik objektus tarp dviejų dydžių"
+
+msgid "Show only the kinds ticked below"
+msgstr "Rodyti tik pažymėtus tipus žemiau"
+
+msgid "Show or hide the two rails of controls"
+msgstr "Rodyti arba slėpti du valdiklių bėgius"
+
+msgid "Show surveys"
+msgstr "Rodyti apklausas"
+
+msgid "Show this survey"
+msgstr "Rodyti šią apklausą"
+
+msgid "Simbad Lookup Error: %s"
+msgstr "Simbad paieškos klaida: %s"
+
+msgid "Simbad Lookup: querying"
+msgstr "Simbad paieška: daryti užklausą"
+
+msgid "Simulation"
+msgstr "Simuliacija"
+
+msgid "Sky and viewing options"
+msgstr "Dangaus ir peržiūros nustatymai"
+
+msgid "Sky culture"
+msgstr "Dangaus kultūra"
+
+msgid "Slow down"
+msgstr "Sulėtinti"
+
+msgid "Smallest, ′"
+msgstr "Mažiausia, ′"
+
+msgid "Solar altitude for Twilight Finder"
+msgstr "Saulės altitudė šviesos radikliui"
+
+msgid "Solar elongation"
+msgstr "Saulės elongacija"
+
+msgid "Speed up"
+msgstr "Pagreitinti"
+
+msgid "Stand where the landscape was shot, on the planet it names"
+msgstr "Stokite ten, kur buvo fotografuojamas kraštovaizdis, ant planetos, kurią jis vadina"
+
+msgid "Star, planet, catalogue number…"
+msgstr "Žvaigždė, planeta, katalogo numeris…"
+
+msgid "Started"
+msgstr "Pradėta"
+
+msgid "Startup FOV"
+msgstr "RL paleidžiant"
+
+msgid "Startup direction of view"
+msgstr "Vaizdo krypties paleidžiant"
+
+msgid "Stellarium's user guide covers the astronomy this app shares with it: stellarium.org/documentation"
+msgstr "Stellarium naudotojo vadove aprašyta astronomija, kuri bendra šiai programai: stellarium.org/documentation"
+
+msgid "Step, hours"
+msgstr "Žingsnis, valandos"
+
+msgid "Style"
+msgstr "Stilius"
+
+msgid "Sun altitude"
+msgstr "Saulės altitudė"
+
+msgid "Sun at"
+msgstr "Saulė ties"
+
+msgid "Sun's altitude"
+msgstr "Saulės altitudė"
+
+msgid "Sunlight scattered by interplanetary dust"
+msgstr "Šviesa, išsklaidyta tarpplanetine dulke"
+
+msgid "Switch this off to see the trails for all Solar system bodies"
+msgstr "Išjunkite tai, norėdami matyti takus visiems Saulės sistemos kūnams"
+
+msgid "System date at"
+msgstr "Sistemos data"
+
+msgid "Tap a colour to change it. Changes show on the sky at once and are kept."
+msgstr "Spustelėkite spalvą, norėdami ją pakeisti. Pakeitimai nedelsiant pasirodo danguje ir lieka išsaugoti."
+
+msgid "Tap again to confirm"
+msgstr "Spustelėkite dar kartą patvirtinimui"
+
+msgid "Tap an object"
+msgstr "Spustelėkite objektą"
+
+msgid "Tap the chart to read a value."
+msgstr "Spustelėkite diagramą, norėdami perskaityti reikšmę."
+
+msgid "Tap the clock"
+msgstr "Spustelėkite laikrodį"
+
+msgid "Tap the gear"
+msgstr "Spustelėkite krumpliaratį"
+
+msgid "Tap the map to stand there."
+msgstr "Spustelėkite žemėlapį, norėdami ten stoti."
+
+msgid "Tap the place"
+msgstr "Spustelėkite vietą"
+
+msgid "Tap to confirm"
+msgstr "Spustelėkite patvirtinimui"
+
+msgid "Tertiary intercardinal points"
+msgstr "Tretiniai tarpkryptiniai taškai"
+
+msgid "The Great Red Spot drifts in System II longitude. Enter a recent measurement and the drift rate to carry it forward from."
+msgstr "Didysis Raudonasis Dėmė slinkta II sistemos ilgumoje. Įveskite naujausią matavimą ir slinktimo greitį."
+
+msgid "The algorithm is based on visual observations 1877-1891 by G. Müller and was still republished in the Explanatory Supplement to the Astronomical Ephemeris (1961)."
+msgstr "Algoritmas grindžiamas G. Müller atlikytais stebėjimais 1877-1891 ir buvo paskelbtas Astronominio efemeridės aiškinamajame priede (1961)."
+
+msgid "The algorithm was published by A. Mallama & J. L. Hilton: Computing apparent planetary magnitudes for the Astronomical Almanac. Astronomy&Computing 25 (2018) 10-24."
+msgstr "Algoritmas buvo paskelbtas A. Mallama ir J. L. Hilton: Computing apparent planetary magnitudes for the Astronomical Almanac. Astronomy&Computing 25 (2018) 10-24."
+
+msgid "The algorithm was published in the 2nd edition of the Explanatory Supplement to the Astronomical Almanac (1992)."
+msgstr "Algoritmas buvo paskelbtas antrajame Astronominio Almanacho aiškinamojo priedo leidime (1992)."
+
+msgid "The algorithm was published in the 3rd edition of the Explanatory Supplement to the Astronomical Almanac (2013)."
+msgstr "Algoritmas buvo paskelbtas trečiajame Astronominio Almanacho aiškinamojo priedo leidime (2013)."
+
+msgid "The algorithm was used in the Astronomical Almanac (1984 and later) and gives V (instrumental) magnitudes (allegedly from D.L. Harris)."
+msgstr "Algoritmas buvo naudojamas Astronominiame Almanacha (1984 ir vėliau) ir pateikė V (instrumentinio) ryskio reikšmes."
+
+msgid "The colour each kind of object is drawn in"
+msgstr "Spalva, kuria nubrėžtas kiekvienas objekto tipas"
+
+msgid "The engine did not answer with any colours."
+msgstr "Variklis neatsakė jokiomis spalvomis."
+
+msgid "The galactic band"
+msgstr "Galaktikos juosta"
+
+msgid "The horizon outline instead of the panorama"
+msgstr "Horizonto kontūras vietoj panoramos"
+
+msgid "The path each body has taken across the sky"
+msgstr "Kelias, kurį kiekvienas kūnas praleido per dangų"
+
+msgid "The shortest label the culture defines"
+msgstr "Trumpiausias kultūros apibrėžtas žymuo"
+
+msgid "Thickness"
+msgstr "Storis"
+
+msgid "This copy ships no scripts."
+msgstr "Šis egzempliorius neturi scenarijų."
+
+msgid "This device has no location service."
+msgstr "Šis įrenginys neturi vietovės paslaugos."
+
+msgid "This part of the engine exposes no settings on this build."
+msgstr "Šios variklio dalies nustatymai nėra rodomi šioje versijoje."
+
+msgid "This tool works on Earth only!"
+msgstr "Šis įrankis veikia tik Žemėje!"
+
+msgid "This tool works on Earth only. Short steps over a long duration are slow."
+msgstr "Šis įrankis veikia tik žemėje. Trumpi žingsniai per ilgą trukmę yra lėti."
+
+msgid "This year"
+msgstr "Šiais metais"
+
+msgid "Time of day"
+msgstr "Dienos laikas"
+
+msgid "Time span"
+msgstr "Laiko diapazonas"
+
+msgid "Time step"
+msgstr "Laiko žingsnis"
+
+msgid "To the next (mths)"
+msgstr "Iki kito (mėn.)"
+
+msgid "To the next, months"
+msgstr "Iki kito, mėnesiai"
+
+msgid "Trails"
+msgstr "Takai"
+
+msgid "Translated"
+msgstr "Išversta"
+
+msgid "Transparency"
+msgstr "Skaidrumas"
+
+msgid "Twilight and rise and set times are worked out for an observer on Earth. Move back to Earth to see them."
+msgstr "Sumražystė ir tekėjimo bei leidimosi laikai apskaičiuojami žemės stebėtojui. Grįžkite į žemę, norėdami juos pamatyti."
+
+msgid "Twinkle"
+msgstr "Mirgimas"
+
+msgid "Twinkle amount"
+msgstr "Mirgulio kiekis"
+
+msgid "Twinkle even without atmosphere"
+msgstr "Mirginti netgi be atmosferos"
+
+msgid "Twinkle is caused by atmospheric turbulence; this shows it regardless"
+msgstr "Mirgimą sukelia atmosferos turbulencija; tai jį parodo neatsižvelgiant"
+
+msgid "Type a name, a Bayer letter or a catalogue number - Vega, α Lyr, M 31, NGC 224."
+msgstr "Įveskite pavadinimą, Bajerio raidę arba katalogo numerį - Vega, α Lyr, M 31, NGC 224."
+
+msgid "Umbral magnitude"
+msgstr "Umbrinė reikšmė"
+
+msgid "Up to mag."
+msgstr "Iki rysk."
+
+msgid "Use my location"
+msgstr "Naudoti mano vietą"
+
+msgid "Use the date now shown in the sky"
+msgstr "Naudokite dabar danguje rodytą datą"
+
+msgid "Use the value in landscape.ini when it has one"
+msgstr "Naudokite landscape.ini reikšmę, kai ji yra"
+
+msgid "Use the value stored for this location"
+msgstr "Naudokite šiai vietai saugotą reikšmę"
+
+msgid "Version %s  ·  Qt %s"
+msgstr "Versija %s  ·  Qt %s"
+
+msgid "When a search result is chosen"
+msgstr "Kai pasirinktas paieškos rezultatas"
+
+msgid "Where Jupiter's Great Red Spot was, and when"
+msgstr "Kur buvo Jupiterio Didysis Raudonasis Dėmė ir kada"
+
+msgid "Width"
+msgstr "Plotis"
+
+msgid "Working out the contact times…"
+msgstr "Skaičiuojami sąlyčio laikai…"
+
+msgid "Zodiac and lunar stations"
+msgstr "Zodiakas ir mėnulio stotys"
+
+msgid "Zodiacal Light brightness"
+msgstr "Zodiako šviesos ryškumas"
+
+msgid "Zoom in and out"
+msgstr "Priartinti ir nutolinti"
+
+msgid "after sunset"
+msgstr "po saulėlydžio"
+
+msgid "before sunrise"
+msgstr "prieš saulėtekį"
+
+msgid "bright suburban"
+msgstr "šviesi priemiestinė"
+
+msgid "east +"
+msgstr "rytai +"
+
+msgid "engine ready, interface going live"
+msgstr "variklis paruoštas, sąsaja pradeda veikti"
+
+msgid "excellent dark sky"
+msgstr "puikus tamsusis dangus"
+
+msgid "inner city"
+msgstr "vidurmiesčio"
+
+msgid "mag %s"
+msgstr "rysk. %s"
+
+msgid "max %s"
+msgstr "maks. %s"
+
+msgid "mid %s"
+msgstr "vid. %s"
+
+msgid "north +"
+msgstr "šiaur. +"
+
+msgid "rural/suburban"
+msgstr "kaimas / priemiesčiai"
+
+msgid "suburban/urban"
+msgstr "priemiesčiai / miestas"
+
+msgid "truly dark"
+msgstr "tikrai tamsu"
+
+msgid "unreadable snapshot"
+msgstr "neskaitomas momentinis vaizdas"
+
+msgid "… and moons"
+msgstr "… ir palydovai"

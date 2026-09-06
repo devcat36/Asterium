@@ -1,0 +1,1468 @@
+# Asterium interface translation for ja.
+# Copyright (C) 2026 the Asterium authors
+# This file is distributed under the same licence as the Asterium package.
+#
+# MACHINE TRANSLATION, not reviewed by a speaker of this language.
+# Terminology follows upstream Stellarium's own ja catalogue, which was used
+# as a glossary, and every entry keeps the source's printf placeholders.
+# Corrections from a human translator are welcome and should simply replace these.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: asterium\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%d bodies"
+msgstr "%d個の天体"
+
+msgid "%d object"
+msgstr "%d個の天体"
+
+msgid "%d objects"
+msgstr "%d個の天体"
+
+msgid "%s colour"
+msgstr "%s色"
+
+msgid "%s from %s, ±%.0f m"
+msgstr "%sから%s、±%.0f m"
+
+msgid "12-hour"
+msgstr "12時間制"
+
+msgid "1× below"
+msgstr "1倍以下"
+
+msgid "24-hour"
+msgstr "24時間制"
+
+msgid "A button to mark every object of the current observing list on the sky."
+msgstr "現在の観測リストのすべての天体を空に表示するボタン"
+
+msgid "A polygonal model for some small moons, asteroids and comets instead of a sphere"
+msgstr "小惑星、彗星などの球体の代わりに多面体モデルを使用する"
+
+msgid "A touch-first planetarium forked from Stellarium, whose astronomy engine it uses unchanged. The interface is new; everything that draws the sky is upstream's work."
+msgstr "Stellariumから派生した、タッチ優先のプラネタリウム。天文学エンジンは変更なし。インターフェースは新しい; 空を描く部分はすべて上流の作品。"
+
+msgid "Abbreviated names"
+msgstr "略称"
+
+msgid "About this sky culture"
+msgstr "この星の文化について"
+
+msgid "Above altitude, °"
+msgstr "高度以上、°"
+
+msgid "Absolute scale"
+msgstr "絶対スケール"
+
+msgid "Add %s"
+msgstr "%sを追加"
+
+msgid "Adjust brightness to bright objects"
+msgstr "明るい天体に合わせて明るさを調整"
+
+msgid "Algorithm of ΔT"
+msgstr "ΔTのアルゴリズム"
+
+msgid "All naked-eye planets"
+msgstr "肉眼で見える全ての惑星"
+
+msgid "All solar eclipses"
+msgstr "すべての日食"
+
+msgid "Allow negative hour angles"
+msgstr "負の時角を許可"
+
+msgid "Allow results outside the recommended time range of the orbital elements"
+msgstr "軌道要素の推奨時間範囲外の結果を許可"
+
+msgid "Almanac"
+msgstr "天文暦"
+
+msgid "Also find"
+msgstr "また検索"
+
+msgid "Also plot"
+msgstr "もプロット"
+
+msgid "Also show moons of selected object or planets"
+msgstr "選択天体または惑星の衛星も表示"
+
+msgid "Altitude limit, °"
+msgstr "高度限界、°"
+
+msgid "Amount"
+msgstr "量"
+
+msgid "An observer floats above its planet, so there is nowhere on it to stand. Choose another planet to come back down."
+msgstr "観測者は惑星上空に浮かんでいるため、立つ場所がありません。別の惑星を選んで戻ってください。"
+
+msgid "And"
+msgstr "および"
+
+msgid "And also"
+msgstr "およびまた"
+
+msgid "And the next (years)"
+msgstr "および次 (年)"
+
+msgid "Annual drift"
+msgstr "年間推移"
+
+msgid "Appearance"
+msgstr "外観"
+
+msgid "Apply time interval limits to list"
+msgstr "リストに時間間隔制限を適用"
+
+msgid "Art"
+msgstr "星座絵"
+
+msgid "Artificial satellites and unnamed stars are excluded from calculation."
+msgstr "人工衛星と無名星は計算から除外されます。"
+
+msgid "Asking for permission…"
+msgstr "許可を求めています…"
+
+msgid "Asks SIMBAD what it holds around the object that is selected now, and prints the answer as it comes back."
+msgstr "選択中の天体の周辺でSIMBADが保持している情報を問い合わせて、答えを表示します。"
+
+msgid "Ast. lines"
+msgstr "星線"
+
+msgid "Ast. names"
+msgstr "星名"
+
+msgid "Astronomical Almanac (default) enlarges by 2%; Danjon (1951) differs slightly"
+msgstr "天文暦(デフォルト)は2%拡大; Danjon(1951)はわずかに異なる"
+
+msgid "Astronomical night"
+msgstr "天文夜"
+
+msgid "At"
+msgstr "に"
+
+msgid "Atmosph."
+msgstr "大気"
+
+msgid "Automatic transparency"
+msgstr "自動透明度"
+
+msgid "Axis distance"
+msgstr "軸距離"
+
+msgid "Azi. grid"
+msgstr "方位/高度"
+
+msgid "Azimuth and altitude rather than right ascension and declination"
+msgstr "赤経・赤緯ではなく方位角・高度を使用"
+
+msgid "Below the horizon here."
+msgstr "ここでは地平線下です。"
+
+msgid "Between objects"
+msgstr "天体間"
+
+msgid "Boundless"
+msgstr "制限なし"
+
+msgid "Bounds"
+msgstr "境界線"
+
+msgid "Brighter than"
+msgstr "より明るい"
+
+msgid "By object type"
+msgstr "天体の種類で"
+
+msgid "By planet"
+msgstr "惑星ごと"
+
+msgid "Calculating…"
+msgstr "計算中…"
+
+msgid "Cardinals"
+msgstr "方位"
+
+msgid "Catalogue numbers instead of common names"
+msgstr "一般名ではなくカタログ番号"
+
+msgid "Category"
+msgstr "カテゴリ"
+
+msgid "Central duration"
+msgstr "中心食の継続時間"
+
+msgid "Centre"
+msgstr "天体中心"
+
+msgid "Centre on object"
+msgstr "天体を中心に"
+
+msgid "Centre point"
+msgstr "中心点"
+
+msgid "Circles"
+msgstr "円"
+
+msgid "City"
+msgstr "都市"
+
+msgid "Cleanup"
+msgstr "クリーンアップ"
+
+msgid "Clear recent searches"
+msgstr "最近の検索をクリア"
+
+msgid "Clear the selection - a touch screen has no right button"
+msgstr "選択をクリア - タッチスクリーンには右ボタンがありません"
+
+msgid "Cleared."
+msgstr "クリアされました。"
+
+msgid "Close"
+msgstr "閉じる"
+
+msgid "Close what is open; from the sky, leave the app running"
+msgstr "開いているものを閉じる。空からはアプリを実行したままにする"
+
+msgid "Coarse"
+msgstr "粗い"
+
+msgid "Color"
+msgstr "色"
+
+msgid "Color channel"
+msgstr "色チャンネル"
+
+msgid "Color of orbits"
+msgstr "軌道の色"
+
+msgid "Colors of orbit lines"
+msgstr "軌道線の色"
+
+msgid "Comets up to mag."
+msgstr "等級までの彗星。"
+
+msgid "Compass"
+msgstr "方位磁針"
+
+msgid "Connecting line"
+msgstr "接続線"
+
+msgid "Contrast"
+msgstr "コントラスト"
+
+msgid "Coordinate system"
+msgstr "座標系"
+
+msgid "Coordinates"
+msgstr "座標"
+
+msgid "Copyright"
+msgstr "著作権"
+
+msgid "Credits"
+msgstr "クレジット"
+
+msgid "Custom"
+msgstr "カスタム"
+
+msgid "Custom altitude of the Moon, °"
+msgstr "月のカスタム高度、°"
+
+msgid "Custom altitude of the Sun, °"
+msgstr "太陽のカスタム高度、°"
+
+msgid "Custom values"
+msgstr "カスタム値"
+
+msgid "Cut the scale off below the limit"
+msgstr "制限以下のスケールをカット"
+
+msgid "DATE AND TIME (UTC)"
+msgstr "日付と時刻 (UTC)"
+
+msgid "Date and time"
+msgstr "日付と時刻"
+
+msgid "Date/time"
+msgstr "日付/時刻"
+
+msgid "Dates"
+msgstr "日付"
+
+msgid "December solstice"
+msgstr "冬至"
+
+msgid "Decimal degrees. −33.87 means 33.87° south. Elevation is metres above sea level; it moves the horizon down by a few arcminutes."
+msgstr "十進角。−33.87は南33.87°を意味します。高度は海抜メートル; 地平線を数分弧下に移動します。"
+
+msgid "Degrees per year the longitude moves by"
+msgstr "経度が1年で移動する度数"
+
+msgid "Degrees, hours and minutes as they are written - 12h30m49s, +41°16'09\", 187.7 - or plain decimal degrees."
+msgstr "記述通りの度・時・分 - 12h30m49s、+41°16'09\"、187.7 - または十進角。"
+
+msgid "Deletes all recent search object data, and the objects SIMBAD contributed."
+msgstr "すべての最近検索した天体データとSIMBADが提供した天体を削除します。"
+
+msgid "Designations for double stars"
+msgstr "二重星の記号"
+
+msgid "Designations for variable stars"
+msgstr "変光星の記号"
+
+msgid "Dim a survey near the horizon, as the air does"
+msgstr "大気と同じように地平線近くのサーベイを暗くする"
+
+msgid "Done"
+msgstr "完了"
+
+msgid "Drag"
+msgstr "ドラッグ"
+
+msgid "Draw deep-sky objects at all"
+msgstr "深宇宙天体をすべて描画"
+
+msgid "Draw the enabled sky surveys"
+msgstr "有効なスカイサーベイを描画"
+
+msgid "Draw the planets, moons and minor bodies"
+msgstr "惑星、衛星、小天体を描画"
+
+msgid "Drawn larger than life, so a body that is a few arcseconds wide is visible at all. The position stays true."
+msgstr "実際より大きく描画されるため、数秒角の幅の天体も表示されます。位置は正確です。"
+
+msgid "Duration (years)"
+msgstr "継続時間 (年)"
+
+msgid "Duration, months"
+msgstr "継続時間、月"
+
+msgid "Dusk"
+msgstr "黄昏"
+
+msgid "Dynamic (FOV-based) Moon size"
+msgstr "動的(視野ベース)月サイズ"
+
+msgid "ELEV. M"
+msgstr "標高 m"
+
+msgid "Ecl. grid"
+msgstr "黄経/黄緯"
+
+msgid "Eclipses are computed for observers on Earth."
+msgstr "食の計算は地球上の観測者向けです。"
+
+msgid "Elevation in metres"
+msgstr "標高(メートル)"
+
+msgid "Elongations and quadratures"
+msgstr "離角と矩位置"
+
+msgid "Enabled only"
+msgstr "有効のみ"
+
+msgid "Enter Culture..."
+msgstr "文化を入力..."
+
+msgid "Equ. grid"
+msgstr "赤経/赤緯"
+
+msgid "Equ. mount"
+msgstr "赤道儀"
+
+msgid "Equatorial radii ratio"
+msgstr "赤道半径比"
+
+msgid "Evening"
+msgstr "夜間"
+
+msgid "Every"
+msgstr "毎"
+
+msgid "Every name the object is catalogued under"
+msgstr "天体が掲載されているすべての名前"
+
+msgid "Exterior egress"
+msgstr "外部外脱出"
+
+msgid "Exterior ingress"
+msgstr "外部外進入"
+
+msgid "Fades the ground as you look below the horizon or zoom in"
+msgstr "地平線より下を見たりズームインすると地面が薄くなります"
+
+msgid "Fading duration"
+msgstr "フェーディング期間"
+
+msgid "Faintest shown"
+msgstr "最も暗い表示"
+
+msgid "Favorites"
+msgstr "お気に入り"
+
+msgid "Fetching the survey lists…"
+msgstr "サーベイリストを取得中…"
+
+msgid "Find a city"
+msgstr "都市を検索"
+
+msgid "Fine"
+msgstr "細かい"
+
+msgid "First %d of %d - filter to narrow it."
+msgstr "最初の%dは%d個中 - フィルターで絞り込み。"
+
+msgid "First body"
+msgstr "最初の天体"
+
+msgid "First graph"
+msgstr "最初のグラフ"
+
+msgid "Fixed instant"
+msgstr "固定時刻"
+
+msgid "Flip horiz."
+msgstr "左右反転"
+
+msgid "Flip vert."
+msgstr "上下反転"
+
+msgid "Frame rate"
+msgstr "フレームレート"
+
+msgid "From"
+msgstr "から"
+
+msgid "Full screen"
+msgstr "全画面"
+
+msgid "Further reading"
+msgstr "さらに詳しい情報"
+
+msgid "GRS details…"
+msgstr "大赤斑の詳細…"
+
+msgid "Gal. grid"
+msgstr "銀経/銀緯"
+
+msgid "Gamma, saturation, brightness, contrast, opacity, colour channel and inverted colours belong to one survey. Open a survey to set them."
+msgstr "ガンマ、彩度、明るさ、コントラスト、不透明度、色チャンネル、反転色は1つのサーベイに属します。設定するサーベイを開いてください。"
+
+msgid "Gestures"
+msgstr "ジェスチャー"
+
+msgid "Go there"
+msgstr "そこへ行く"
+
+msgid "Go to this eclipse"
+msgstr "この食へ移動"
+
+msgid "Go to this moment"
+msgstr "この時刻へ移動"
+
+msgid "Go to this transit"
+msgstr "この正中へ移動"
+
+msgid "Great Red Spot"
+msgstr "大赤斑"
+
+msgid "Great Red Spot details"
+msgstr "大赤斑の詳細"
+
+msgid "Greatest elongation for an inner planet, quadrature for an outer one"
+msgstr "内惑星の最大離角、外惑星の矩位置"
+
+msgid "Greek letters"
+msgstr "ギリシャ文字"
+
+msgid "Grid density"
+msgstr "グリッド密度"
+
+msgid "Grids"
+msgstr "グリッド"
+
+msgid "Ground"
+msgstr "地表"
+
+msgid "Gyro"
+msgstr "ジャイロ"
+
+msgid "Gyro mode"
+msgstr "ジャイロモード"
+
+msgid "Height"
+msgstr "高さ"
+
+msgid "Heliocentric ecliptic positions of the major planets."
+msgstr "主要惑星の太陽中心黄道座標。"
+
+msgid "HiPS"
+msgstr "HiPS"
+
+msgid "Hide controls"
+msgstr "操作を隠す"
+
+msgid "Hide deep-sky objects fainter than the limit"
+msgstr "制限より暗い深宇宙天体を隠す"
+
+msgid "Hide orbits of minor bodies"
+msgstr "小天体の軌道を隠す"
+
+msgid "Highlight"
+msgstr "ハイライト"
+
+msgid "Highlight the objects of the observing list"
+msgstr "観測リストの天体を強調表示"
+
+msgid "Hint circles marking each planet"
+msgstr "各惑星を標すヒント円"
+
+msgid "Hints brightness"
+msgstr "ヒント明るさ"
+
+msgid "Hipparcos designations"
+msgstr "ヒッパルコス記号"
+
+msgid "Hour angles usually run 0...24h. This counts -12h...12h."
+msgstr "時角は通常0...24h。これは-12h...12h。"
+
+msgid "How many"
+msgstr "いくつ"
+
+msgid "ICRS grid"
+msgstr "ICRS"
+
+msgid "Include"
+msgstr "含める"
+
+msgid "Include bright comets"
+msgstr "明るい彗星を含める"
+
+msgid "Info label"
+msgstr "情報ラベル"
+
+msgid "Intercardinal points"
+msgstr "間方位"
+
+msgid "Interior egress"
+msgstr "内部外脱出"
+
+msgid "Interior ingress"
+msgstr "内部外進入"
+
+msgid "Its elevation, and the civil, nautical and astronomical twilights"
+msgstr "その標高、および市民・航海・天文薄明"
+
+msgid "Jovigraphic longitude of the spot in System II, in degrees"
+msgstr "システムIIでのスポットのジョビグラフ経度(度)"
+
+msgid "June solstice"
+msgstr "夏至"
+
+msgid "Label"
+msgstr "ラベル"
+
+msgid "Label colour"
+msgstr "ラベル色"
+
+msgid "Labels and Markers amount"
+msgstr "ラベルとマーカーの量"
+
+msgid "Labels brightness"
+msgstr "ラベルの明るさ"
+
+msgid "Largest, ′"
+msgstr "最大、′"
+
+msgid "Last known position"
+msgstr "最後に知られた位置"
+
+msgid "Lasting"
+msgstr "続く"
+
+msgid "Latitude −90…90, longitude −180…180."
+msgstr "緯度−90…90、経度−180…180。"
+
+msgid "Layer appearance"
+msgstr "レイヤー外観"
+
+msgid "Leaves the landscape visible in darkness"
+msgstr "風景を暗闇でも見えるようにしておく"
+
+msgid "Licence"
+msgstr "ライセンス"
+
+msgid "Light pollution"
+msgstr "光害"
+
+msgid "Light pollution from database"
+msgstr "データベースからの光害"
+
+msgid "Limit angular separation"
+msgstr "離角の上限"
+
+msgid "Limit angular size"
+msgstr "角サイズを制限"
+
+msgid "Limit magnitude"
+msgstr "等級を制限"
+
+msgid "Linear distance"
+msgstr "実距離"
+
+msgid "Lines"
+msgstr "線"
+
+msgid "Lines and circles"
+msgstr "線と円"
+
+msgid "List"
+msgstr "一覧"
+
+msgid "List name"
+msgstr "リスト名"
+
+msgid "Lit windows, street lighting and the like"
+msgstr "明かり、街灯など"
+
+msgid "Loading…"
+msgstr "読み込み中…"
+
+msgid "Local solar eclipses"
+msgstr "局所日食"
+
+msgid "Local time"
+msgstr "地方時"
+
+msgid "Local time, h"
+msgstr "地方時、h"
+
+msgid "Locate me"
+msgstr "現在地を検索"
+
+msgid "Locating…"
+msgstr "検索中…"
+
+msgid "Location is switched off in the system settings."
+msgstr "位置情報がシステム設定で無効になっています。"
+
+msgid "Location permission refused. The other two ways still work."
+msgstr "位置情報の許可が拒否されました。他の2つの方法はまだ機能します。"
+
+msgid "Long press"
+msgstr "長押し"
+
+msgid "Longitude of GRS"
+msgstr "大赤斑の経度"
+
+msgid "Lunar eclipses"
+msgstr "月食"
+
+msgid "Magnitudes"
+msgstr "等級"
+
+msgid "Major planets by planet, minor bodies by type"
+msgstr "主要惑星は惑星別、小天体は種類別"
+
+msgid "Map of the planet. Tap to set the observer's place."
+msgstr "惑星の地図。タップして観測者の位置を設定。"
+
+msgid "March equinox"
+msgstr "春分"
+
+msgid "Markers"
+msgstr "マーカー"
+
+msgid "Markers sized by the object's angular size"
+msgstr "天体の角サイズによるマーカーサイズ"
+
+msgid "Master switch for the grids, lines and points below"
+msgstr "以下のグリッド、線、点のマスタースイッチ"
+
+msgid "Max items to display"
+msgstr "表示する最大項目数"
+
+msgid "Max. results"
+msgstr "最大結果数"
+
+msgid "Maximum allowed separation"
+msgstr "許可された最大分離"
+
+msgid "Maximum angular size"
+msgstr "最大角サイズ"
+
+msgid "Maximum year"
+msgstr "最大年"
+
+msgid "Mean motion"
+msgstr "平均運動"
+
+msgid "Mercury, Venus, Mars, Jupiter and Saturn at once. Earth only."
+msgstr "水星、金星、火星、木星、土星をまとめて。地球のみ。"
+
+msgid "Milky Way brightness"
+msgstr "天の川の明るさ"
+
+msgid "Milky Way saturation"
+msgstr "天の川の彩度"
+
+msgid "Minimal angular size"
+msgstr "最小角サイズ"
+
+msgid "Minimal brightness"
+msgstr "最小明るさ"
+
+msgid "Minimum year"
+msgstr "最小年"
+
+msgid "Minutes before sunrise / after sunset"
+msgstr "日出前/日没後(分)"
+
+msgid "Moon at"
+msgstr "月"
+
+msgid "Moon in zenith at"
+msgstr "月が天頂に来る時刻"
+
+msgid "Morning"
+msgstr "朝"
+
+msgid "Move the sky by pointing the phone at it"
+msgstr "スマートフォンを向けることで空を移動"
+
+msgid "Move the sky with the phone"
+msgstr "スマートフォンで空を移動"
+
+msgid "Name for the new list"
+msgstr "新しいリストの名前"
+
+msgid "Named features the landscape marks"
+msgstr "風景が標す命名済み特徴"
+
+msgid "Names"
+msgstr "名前"
+
+msgid "Names beside the planets and their markers"
+msgstr "惑星とそのマーカーの横の名前"
+
+msgid "Names in English"
+msgstr "英語での名前"
+
+msgid "Neb. bg"
+msgstr "星雲背景"
+
+msgid "Nebulae"
+msgstr "星雲"
+
+msgid "Next"
+msgstr "次へ"
+
+msgid "Night"
+msgstr "夜"
+
+msgid "No city matches that."
+msgstr "その都市は見つかりません。"
+
+msgid "No eclipses found. Pick a range and calculate."
+msgstr "食が見つかりません。範囲を選択して計算してください。"
+
+msgid "No fresh fix - the receiver may have no sky. Try again outdoors, or set the place another way."
+msgstr "新しい測位がありません - 受信機は空を見えない可能性があります。屋外でもう一度試すか、別の方法で位置を設定してください。"
+
+msgid "No surveys were found. The lists are downloaded, so this needs a connection."
+msgstr "サーベイが見つかりません。リストはダウンロード済みなので、接続が必要です。"
+
+msgid "None downloaded yet"
+msgstr "まだダウンロードされていません"
+
+msgid "Normal"
+msgstr "通常"
+
+msgid "Note: this tool doesn't apply the refraction correction for coordinates. Horizontal coordinates stop the clock, or the sky would turn away from the point while you arrive at it."
+msgstr "注: このツールは座標の屈折補正を適用しません。地平座標では時計を止めるか、到着する間に空が地点から遠ざかります。"
+
+msgid "Nothing computed yet, or nothing in this category is up."
+msgstr "計算がまだ実行されていないか、このカテゴリーに該当するものはありません。"
+
+msgid "Nothing computed yet."
+msgstr "計算がまだ実行されていません。"
+
+msgid "Nothing found for “%s”."
+msgstr "「%s」が見つかりません。"
+
+msgid "Nothing in this list matches."
+msgstr "このリストに一致するものはありません。"
+
+msgid "Nothing in this list yet. Pick something out of the sky and tap the star on its card to keep it here."
+msgstr "このリストにはまだ何もありません。空から何かを選んで、カードの星をタップしてここに保存してください。"
+
+msgid "Nothing is selected. Pick an object in the sky first."
+msgstr "何も選択されていません。まず空から天体を選んでください。"
+
+msgid "Nothing matches."
+msgstr "一致するものはありません。"
+
+msgid "Nothing selected"
+msgstr "選択なし"
+
+msgid "Nothing to plot."
+msgstr "プロットするものがありません。"
+
+msgid "Nothing to show."
+msgstr "表示するものがありません。"
+
+msgid "N× above"
+msgstr "N倍以上"
+
+msgid "OBJECT"
+msgstr "天体"
+
+msgid "OBJECTS"
+msgstr "天体"
+
+msgid "Objects which are up"
+msgstr "出ている天体"
+
+msgid "Observable duration"
+msgstr "観測可能時間"
+
+msgid "Observing list highlight"
+msgstr "観測リストのハイライト"
+
+msgid "On the sky"
+msgstr "空に表示"
+
+msgid "One color"
+msgstr "1色"
+
+msgid "Only for N latest selected objects"
+msgstr "最新選択N個のみ"
+
+msgid "Only list"
+msgstr "リストのみ"
+
+msgid "Only orbit for selected object…"
+msgstr "選択された天体の軌道のみ…"
+
+msgid "Only orbits of major planets…"
+msgstr "主要惑星の軌道のみ…"
+
+msgid "Open date and time"
+msgstr "日付と時刻を開く"
+
+msgid "Open location"
+msgstr "観測場所を開く"
+
+msgid "Opens the JUPOS project in a browser"
+msgstr "ブラウザでJUPOSプロジェクトを開く"
+
+msgid "Opposition of"
+msgstr "の対立時"
+
+msgid "Oppositions"
+msgstr "対立時"
+
+msgid "Orbit colors"
+msgstr "軌道の色"
+
+msgid "Orbital periods ratio"
+msgstr "軌道周期比"
+
+msgid "Orbits"
+msgstr "軌道"
+
+msgid "Orbits of interstellar objects"
+msgstr "星間天体の軌道"
+
+msgid "Orbits of moons"
+msgstr "衛星の軌道"
+
+msgid "Otherwise every move adopts the zone of the new place."
+msgstr "そうでなければ、毎回の移動で新しい場所のタイムゾーンを採用します。"
+
+msgid "PD (J2000)"
+msgstr "位置差(J2000.0)"
+
+msgid "Pan the sky"
+msgstr "空をパン"
+
+msgid "Partial eclipse begins"
+msgstr "部分食の始まり"
+
+msgid "Partial eclipse ends"
+msgstr "部分食の終わり"
+
+msgid "Partitions"
+msgstr "分割線"
+
+msgid "Partitions thickness"
+msgstr "分割線の太さ"
+
+msgid "Path width"
+msgstr "パスの幅"
+
+msgid "Pause"
+msgstr "一時停止"
+
+msgid "Paused - start"
+msgstr "一時停止 - 開始"
+
+msgid "Penumbral magnitude"
+msgstr "半影の大きさ"
+
+msgid "Perihelion and aphelion"
+msgstr "近日点と遠日点"
+
+msgid "Pick two different bodies to see how their distance changes."
+msgstr "2つの異なる天体を選んで、その距離がどのように変わるかを見てください。"
+
+msgid "Pinch"
+msgstr "ピンチ"
+
+msgid "Planet and time zone"
+msgstr "惑星とタイムゾーン"
+
+msgid "Planetary nomenclature"
+msgstr "惑星の表面地形名"
+
+msgid "Planetary transits"
+msgstr "惑星の通過"
+
+msgid "Planets"
+msgstr "惑星"
+
+msgid "Pluto, Ceres, Pallas, Juno and Vesta"
+msgstr "冥王星、セレス、パラス、ジュノー、ベスタ"
+
+msgid "Point size"
+msgstr "ポイントサイズ"
+
+msgid "Pointing"
+msgstr "指差し"
+
+msgid "Polar distance"
+msgstr "極距離"
+
+msgid "Polar distance, not declination"
+msgstr "赤緯ではなく極距離"
+
+msgid "Poles and points"
+msgstr "極と地点"
+
+msgid "Polygon colour"
+msgstr "ポリゴンの色"
+
+msgid "Positive values only"
+msgstr "正の値のみ"
+
+msgid "Previous"
+msgstr "前"
+
+msgid "Pronounce"
+msgstr "発音"
+
+msgid "Query options"
+msgstr "検索オプション"
+
+msgid "Quit"
+msgstr "終了"
+
+msgid "Reading…"
+msgstr "読み込み中…"
+
+msgid "Real time speed"
+msgstr "リアルタイムスピード"
+
+msgid "Refraction, extinction, sky brightness"
+msgstr "屈折、消光、空の明るさ"
+
+msgid "Relative scale"
+msgstr "相対スケール"
+
+msgid "Remove %s"
+msgstr "%sを削除"
+
+msgid "Remove from observing list"
+msgstr "観測リストから削除"
+
+msgid "Rename"
+msgstr "名前を変更"
+
+msgid "Reset all"
+msgstr "すべてをリセット"
+
+msgid "Restarting…"
+msgstr "再起動中…"
+
+msgid "Rises"
+msgstr "出時刻"
+
+msgid "Rotation"
+msgstr "回転"
+
+msgid "Running"
+msgstr "実行中"
+
+msgid "SIMBAD did not answer."
+msgstr "SIMBADからの応答がありません。"
+
+msgid "SIMBAD is switched off in the search options."
+msgstr "検索オプションでSIMBADがオフになっています。"
+
+msgid "SIMBAD is switched off. Turn it on under Options to look objects up online."
+msgstr "SIMBADはオフです。オプションで有効にして、オンラインで天体を検索してください。"
+
+msgid "SIMBAD server"
+msgstr "SIMBADサーバー"
+
+msgid "Saros %s"
+msgstr "サロス周期%s"
+
+msgid "Saturation"
+msgstr "彩度"
+
+msgid "Save either the current FOV and direction of view or all the current options for use at next startup. Restoring default settings requires a restart of the app."
+msgstr "現在のFOVと表示方向、またはすべての現在のオプションを次の起動時に使用するために保存します。デフォルト設定の復元にはアプリの再起動が必要です。"
+
+msgid "Save to observing list"
+msgstr "観測リストに保存"
+
+msgid "Scale"
+msgstr "スケール"
+
+msgid "Scale marker and label visibility by surface brightness"
+msgstr "マーカーとラベルの表示をスケール表面の明るさで表示を決める"
+
+msgid "Scales smoothly between 1× at the minimum field of view and the factor above at the maximum"
+msgstr "最小視野角では1×、最大では上記の係数の間をスムーズにスケールします"
+
+msgid "Screen label"
+msgstr "スクリーンラベル"
+
+msgid "Search in list"
+msgstr "リストで検索"
+
+msgid "Second body"
+msgstr "2番目の天体"
+
+msgid "Second graph"
+msgstr "第2グラフ"
+
+msgid "Second object"
+msgstr "2番目の天体"
+
+msgid "Secondary intercardinal points"
+msgstr "副副方位"
+
+msgid "See the sky through the ground"
+msgstr "地面を通して空を見る"
+
+msgid "Seen now"
+msgstr "今見る"
+
+msgid "Select an object first: this asks SIMBAD what it holds around it."
+msgstr "先に天体を選択してください。SIMBADにその周辺の天体を問い合わせます。"
+
+msgid "Select it and show its card"
+msgstr "それを選んでカードを表示"
+
+msgid "Select something in the sky first — this page works on the selection."
+msgstr "最初に空から何かを選んでください。このページは選択で機能します。"
+
+msgid "Selected object"
+msgstr "選択された天体"
+
+msgid "Separate colors for orbits of major planets"
+msgstr "主要惑星の軌道の色を分ける"
+
+msgid "September equinox"
+msgstr "秋分"
+
+msgid "Server"
+msgstr "サーバー"
+
+msgid "Set the clock to %s"
+msgstr "時計を%sに設定"
+
+msgid "Set the place"
+msgstr "観測場所を設定"
+
+msgid "Set to now"
+msgstr "現在に設定"
+
+msgid "Sets"
+msgstr "没時刻"
+
+msgid "Shadow map for non-convex bodies. May coarsen the penumbra on some objects"
+msgstr "非凸体の影マップ。一部の天体に半影が粗くなる可能性があります"
+
+msgid "Shooting stars"
+msgstr "流星"
+
+msgid "Short steps over a long duration are slow."
+msgstr "長期間の短いステップは遅い。"
+
+msgid "Show"
+msgstr "表示"
+
+msgid "Show all information"
+msgstr "すべての情報を表示"
+
+msgid "Show atmospheric extinction"
+msgstr "大気消光を表示"
+
+msgid "Show controls"
+msgstr "コントロールを表示"
+
+msgid "Show each body where it was when the light left it (recommended)"
+msgstr "光が離れた時点での各天体の位置を表示(推奨)"
+
+msgid "Show frames per second beside the field of view"
+msgstr "フレームレートをFOVの横に表示"
+
+msgid "Show illumination"
+msgstr "照度を表示"
+
+msgid "Show in sky"
+msgstr "空に表示"
+
+msgid "Show less"
+msgstr "少なく表示"
+
+msgid "Show more"
+msgstr "更に表示"
+
+msgid "Show objects which are up"
+msgstr "出ている天体を表示"
+
+msgid "Show only named DSO"
+msgstr "名前のある星雲のみ表示"
+
+msgid "Show only objects between the two sizes"
+msgstr "2つのサイズ間のオブジェクトのみ表示"
+
+msgid "Show only the kinds ticked below"
+msgstr "下のチェックボックスを入れた種類のみ表示"
+
+msgid "Show or hide the two rails of controls"
+msgstr "コントロールレールを表示/非表示"
+
+msgid "Show surveys"
+msgstr "サーベイを表示"
+
+msgid "Show this survey"
+msgstr "このサーベイを表示"
+
+msgid "Simbad Lookup Error: %s"
+msgstr "SIMBAD検索エラー: %s"
+
+msgid "Simbad Lookup: querying"
+msgstr "SIMBAD検索: クエリ中"
+
+msgid "Simulation"
+msgstr "シミュレーション"
+
+msgid "Sky and viewing options"
+msgstr "空と表示オプション"
+
+msgid "Sky culture"
+msgstr "星の文化"
+
+msgid "Slow down"
+msgstr "スローダウン"
+
+msgid "Smallest, ′"
+msgstr "最小、′"
+
+msgid "Solar altitude for Twilight Finder"
+msgstr "トワイライトファインダーの太陽高度"
+
+msgid "Solar elongation"
+msgstr "太陽の離角"
+
+msgid "Special points only"
+msgstr "特殊地点のみ"
+
+msgid "Speed up"
+msgstr "スピードアップ"
+
+msgid "Stand where the landscape was shot, on the planet it names"
+msgstr "風景が撮影された場所に立つ、それが名付けた惑星の上"
+
+msgid "Star, planet, catalogue number…"
+msgstr "星、惑星、カタログ番号…"
+
+msgid "Started"
+msgstr "開始"
+
+msgid "Startup FOV"
+msgstr "起動時のFOV"
+
+msgid "Startup direction of view"
+msgstr "起動時の表示方向"
+
+msgid "Stellarium's user guide covers the astronomy this app shares with it: stellarium.org/documentation"
+msgstr "このアプリが共有する天文学についてはStellariumのユーザーガイドをご覧ください: stellarium.org/documentation"
+
+msgid "Step, hours"
+msgstr "ステップ、時間"
+
+msgid "Style"
+msgstr "スタイル"
+
+msgid "Sun altitude"
+msgstr "太陽高度"
+
+msgid "Sun at"
+msgstr "太陽"
+
+msgid "Sun's altitude"
+msgstr "太陽高度"
+
+msgid "Sunlight scattered by interplanetary dust"
+msgstr "惑星間塵で散乱した太陽光"
+
+msgid "Switch this off to see the trails for all Solar system bodies"
+msgstr "これをオフにすると、すべての太陽系天体の軌跡が表示されます"
+
+msgid "System date at"
+msgstr "システム日付"
+
+msgid "Tap a colour to change it. Changes show on the sky at once and are kept."
+msgstr "色をタップして変更します。変更は空にすぐに表示され、保存されます。"
+
+msgid "Tap again to confirm"
+msgstr "再度タップして確認"
+
+msgid "Tap an object"
+msgstr "天体をタップ"
+
+msgid "Tap the chart to read a value."
+msgstr "チャートをタップして値を読む"
+
+msgid "Tap the clock"
+msgstr "時計をタップ"
+
+msgid "Tap the gear"
+msgstr "ギアをタップ"
+
+msgid "Tap the map to stand there."
+msgstr "マップをタップしてそこに立つ"
+
+msgid "Tap the place"
+msgstr "場所をタップ"
+
+msgid "Tap to confirm"
+msgstr "タップして確認"
+
+msgid "Tertiary intercardinal points"
+msgstr "副副副方位"
+
+msgid "The Great Red Spot drifts in System II longitude. Enter a recent measurement and the drift rate to carry it forward from."
+msgstr "大赤斑はシステムII経度でドリフトします。最近の測定と計算開始点のドリフト率を入力してください。"
+
+msgid "The algorithm is based on visual observations 1877-1891 by G. Müller and was still republished in the Explanatory Supplement to the Astronomical Ephemeris (1961)."
+msgstr "このアルゴリズムはG.ミュラーによる1877-1891年の視覚的観測に基づき、天文暦補遺(1961年)で再出版されました。"
+
+msgid "The algorithm was published by A. Mallama & J. L. Hilton: Computing apparent planetary magnitudes for the Astronomical Almanac. Astronomy&Computing 25 (2018) 10-24."
+msgstr "このアルゴリズムはA.マラマ&J.L.ヒルトンによって出版されました。天文年鑑のための見かけ上の惑星光度の計算。天文学&計算25(2018)10-24。"
+
+msgid "The algorithm was published in the 2nd edition of the Explanatory Supplement to the Astronomical Almanac (1992)."
+msgstr "このアルゴリズムは天文暦補遺第2版(1992年)で出版されました。"
+
+msgid "The algorithm was published in the 3rd edition of the Explanatory Supplement to the Astronomical Almanac (2013)."
+msgstr "このアルゴリズムは天文暦補遺第3版(2013年)で出版されました。"
+
+msgid "The algorithm was used in the Astronomical Almanac (1984 and later) and gives V (instrumental) magnitudes (allegedly from D.L. Harris)."
+msgstr "このアルゴリズムは天文暦(1984年以降)で使用され、V(機器)等級を与えます(D.L.ハリスからの情報)。"
+
+msgid "The colour each kind of object is drawn in"
+msgstr "各種の天体が描画される色"
+
+msgid "The engine did not answer with any colours."
+msgstr "エンジンは色を返しませんでした。"
+
+msgid "The galactic band"
+msgstr "銀河バンド"
+
+msgid "The horizon outline instead of the panorama"
+msgstr "パノラマの代わりに地平線の輪郭"
+
+msgid "The path each body has taken across the sky"
+msgstr "各天体が空を横切った経路"
+
+msgid "The shortest label the culture defines"
+msgstr "文化が定義する最短ラベル"
+
+msgid "Thickness"
+msgstr "厚さ"
+
+msgid "This copy ships no scripts."
+msgstr "このコピーには付属スクリプトがありません。"
+
+msgid "This device has no location service."
+msgstr "このデバイスにはロケーションサービスがありません。"
+
+msgid "This part of the engine exposes no settings on this build."
+msgstr "エンジンのこの部分はこのビルドで設定を公開していません。"
+
+msgid "This tool works on Earth only!"
+msgstr "このツールは地球上でのみ機能します！"
+
+msgid "This tool works on Earth only. Short steps over a long duration are slow."
+msgstr "このツールは地球上のみで動作します。長期間の短いステップは遅い。"
+
+msgid "This year"
+msgstr "今年"
+
+msgid "Time of day"
+msgstr "時間帯"
+
+msgid "Time span"
+msgstr "期間"
+
+msgid "Time step"
+msgstr "タイムステップ"
+
+msgid "To the next (mths)"
+msgstr "次へ(月)"
+
+msgid "To the next, months"
+msgstr "次へ、月単位"
+
+msgid "Trails"
+msgstr "軌跡"
+
+msgid "Translated"
+msgstr "翻訳済み"
+
+msgid "Transparency"
+msgstr "透明度"
+
+msgid "Twilight and rise and set times are worked out for an observer on Earth. Move back to Earth to see them."
+msgstr "薄明と出没時刻は地球上の観測者のために計算されます。見るために地球に戻ってください。"
+
+msgid "Twinkle"
+msgstr "きらめき"
+
+msgid "Twinkle amount"
+msgstr "きらめき量"
+
+msgid "Twinkle even without atmosphere"
+msgstr "大気がなくてもきらめき"
+
+msgid "Twinkle is caused by atmospheric turbulence; this shows it regardless"
+msgstr "きらめきは大気乱流によって引き起こされます。これは関係なく表示されます。"
+
+msgid "Type a name, a Bayer letter or a catalogue number - Vega, α Lyr, M 31, NGC 224."
+msgstr "名前、バイエル符号、またはカタログ番号を入力してください - Vega、α Lyr、M 31、NGC 224。"
+
+msgid "Umbral magnitude"
+msgstr "本影の大きさ"
+
+msgid "Up to mag."
+msgstr "等級まで"
+
+msgid "Use common symbols for coordinate systems"
+msgstr "座標系に共通の記号を使用"
+
+msgid "Use distance from North Celestial Pole, not declination from equator in equatorial coordinates"
+msgstr "赤道座標系で赤緯ではなく北天の極からの距離を使用"
+
+msgid "Use my location"
+msgstr "現在位置を使用"
+
+msgid "Use the date now shown in the sky"
+msgstr "空に表示されている日付を使用"
+
+msgid "Use the value in landscape.ini when it has one"
+msgstr "landscape.iniの値がある場合は使用"
+
+msgid "Use the value stored for this location"
+msgstr "この場所に保存された値を使用"
+
+msgid "Version %s  ·  Qt %s"
+msgstr "バージョン %s  ·  Qt %s"
+
+msgid "Visibility"
+msgstr "可視性"
+
+msgid "When a search result is chosen"
+msgstr "検索結果が選択されたとき"
+
+msgid "Where Jupiter's Great Red Spot was, and when"
+msgstr "木星の大赤斑がどこにあり、いつあったか"
+
+msgid "Width"
+msgstr "幅"
+
+msgid "Working out the contact times…"
+msgstr "接触時刻を計算中…"
+
+msgid "Zodiac and lunar stations"
+msgstr "黄道帯と星宿"
+
+msgid "Zodiacal Light brightness"
+msgstr "黄道光の明るさ"
+
+msgid "Zoom in and out"
+msgstr "ズームイン・アウト"
+
+msgid "after sunset"
+msgstr "日没後"
+
+msgid "before sunrise"
+msgstr "日出前"
+
+msgid "bright suburban"
+msgstr "明るい郊外"
+
+msgid "east +"
+msgstr "東 +"
+
+msgid "engine ready, interface going live"
+msgstr "エンジン準備完了、インターフェース開始"
+
+msgid "excellent dark sky"
+msgstr "優れた暗空"
+
+msgid "inner city"
+msgstr "市街地"
+
+msgid "mag %s"
+msgstr "等級 %s"
+
+msgid "max %s"
+msgstr "最大 %s"
+
+msgid "mid %s"
+msgstr "中 %s"
+
+msgid "north +"
+msgstr "北 +"
+
+msgid "rural/suburban"
+msgstr "農村部/郊外"
+
+msgid "sci. translit."
+msgstr "学術音訳"
+
+msgid "suburban/urban"
+msgstr "郊外/都市部"
+
+msgid "truly dark"
+msgstr "本当に暗い"
+
+msgid "unreadable snapshot"
+msgstr "読み込めない画像"
+
+msgid "… and moons"
+msgstr "…と衛星"

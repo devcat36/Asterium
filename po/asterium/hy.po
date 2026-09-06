@@ -1,0 +1,2677 @@
+# Asterium interface translation for hy.
+# Copyright (C) 2026 the Asterium authors
+# This file is distributed under the same licence as the Asterium package.
+#
+# MACHINE TRANSLATION, not reviewed by a speaker of this language.
+# Terminology follows upstream Stellarium's own hy catalogue, which was used
+# as a glossary, and every entry keeps the source's printf placeholders.
+# Corrections from a human translator are welcome and should simply replace these.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: asterium\n"
+"Language: hy\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%d bodies"
+msgstr "%d մարմին"
+
+msgid "%d object"
+msgstr "%d օբյեկտ"
+
+msgid "%d objects"
+msgstr "%d օբյեկտ"
+
+msgid "%s colour"
+msgstr "%s գույն"
+
+msgid "%s from %s, ±%.0f m"
+msgstr "%s-ից %s, ±%.0f m"
+
+msgid "12-hour"
+msgstr "12 ժամային"
+
+msgid "12h"
+msgstr "12ժ"
+
+msgid "1× below"
+msgstr "1× ցածր"
+
+msgid "24-hour"
+msgstr "24 ժամային"
+
+msgid "24h"
+msgstr "24ժ"
+
+msgid "A button to mark every object of the current observing list on the sky."
+msgstr "Տարածական կետ, որ նշում է հաղորդման ցանկի բոլոր օբյեկտները։"
+
+msgid "A button to toggle ecliptic grid of date"
+msgstr "Խավարածրային ցանցի անջատման կոճակ"
+
+msgid "A button to toggle galactic grid"
+msgstr "Գալակտիկական ցանցի անջատման կոճակ"
+
+msgid "A polygonal model for some small moons, asteroids and comets instead of a sphere"
+msgstr "Բազմանկյուն մոդել որոշ փոքր գիսաստղերի, աստերոիդների և գիսաբեղների համար՝ ոլորտի փոխարեն"
+
+msgid "A touch-first planetarium forked from Stellarium, whose astronomy engine it uses unchanged. The interface is new; everything that draws the sky is upstream's work."
+msgstr "Stellarium-ից ձուկ չանյալ պլանետարիում՝ հարմարեցված հպման համար։ Բոլորը, որ երկինքը նկարում է, բնօրինակից է։ Միայն ինտերֆեյսը նոր է։"
+
+msgid "Abbreviated names"
+msgstr "Սեղմ անվանումներ"
+
+msgid "About this sky culture"
+msgstr "Այս երկնքի մշակույթի մասին"
+
+msgid "Above altitude, °"
+msgstr "Բարձրության վերևում, °"
+
+msgid "Absolute scale"
+msgstr "Բացարձակ մասշտաբ"
+
+msgid "Activate this option to calculate azimuth from south towards west."
+msgstr "Ակտիվացրեք այս ընտրանքը ազիմուտը հարավից դեպի մյուս կողմ հաշվելու համար։"
+
+msgid "Active galaxies"
+msgstr "Ակտիվ գալակտիկաներ"
+
+msgid "Add %s"
+msgstr "Ավելացնել %s"
+
+msgid "Additional information settings"
+msgstr "Լրացուցիչ տեղեկատվության կարգավորումներ"
+
+msgid "Adjust brightness to bright objects"
+msgstr "Հարմարեցնել պայծառությունը պայծառ օբյեկտներին"
+
+msgid "Algol-type eclipsing systems"
+msgstr "Ալգոլ-տեսակի խավարող համակարգեր"
+
+msgid "Algorithm of ΔT"
+msgstr "ΔT-ի ալգորիթմ"
+
+msgid "All IDs"
+msgstr "Բոլոր ID-ներ"
+
+msgid "All naked-eye planets"
+msgstr "Բոլոր մերկ աչքով տեսանելի մոլորակներ"
+
+msgid "All solar eclipses"
+msgstr "Բոլոր արեգակային խավարածրումներ"
+
+msgid "Allow negative hour angles"
+msgstr "Թույլատրել բացասական ժամային անկյունները"
+
+msgid "Allow results outside the recommended time range of the orbital elements"
+msgstr "Թույլատրել արդյունքներ ուղեծրային տարրերի հորդորական ժամանակային շրջանակից դուրս"
+
+msgid "Almanac"
+msgstr "Ծառայաթերսեր"
+
+msgid "Almanac: Sun, Moon and naked-eye planets"
+msgstr "Տարեգիրք. Արեգակ, Լուսին և մերկ աչքով մոլորակներ"
+
+msgid "Also find"
+msgstr "Նաև գտնել"
+
+msgid "Also plot"
+msgstr "Նաև գծել"
+
+msgid "Also show moons of selected object or planets"
+msgstr "Ցույց տալ նաև ընտրված օբյեկտի կամ մոլորակների գիսաստղերը"
+
+msgid "Altitude limit, °"
+msgstr "Բարձրության սահման, °"
+
+msgid "Altitude vs. Time"
+msgstr "Բարձրություն ընդդեմ ժամանակի"
+
+msgid "Amount"
+msgstr "Քանակ"
+
+msgid "An observer floats above its planet, so there is nowhere on it to stand. Choose another planet to come back down."
+msgstr "Դիտորդը հայտնվել է մոլորակից վերևում, այստեղ ոչ մի մեջ կանգնել տեղ չկա։ Ընտրեք մեկ այլ մոլորակ վերադառնալու համար։"
+
+msgid "And"
+msgstr "ԵՒ"
+
+msgid "And also"
+msgstr "Իսկ նաև"
+
+msgid "And the next (years)"
+msgstr "Եւ հաջորդը (տարիներ)"
+
+msgid "Ang. Size"
+msgstr "Անկ. Չափ"
+
+msgid "Angular distance"
+msgstr "Անկային հեռավորություն"
+
+msgid "Angular distance between the Moon and selected object"
+msgstr "Անկ. հեռավ. Լուսնի և ընտրված մարմնի միջև"
+
+msgid "Angular distance from the Moon"
+msgstr "Անկ. հեռավ. Լուսնից"
+
+msgid "Angular distance from the Moon for second object"
+msgstr "Անկ. հեռավ. Լուսնից երկրորդ օբյեկտի համար"
+
+msgid "Angular distance from the Sun"
+msgstr "Անկ. հեռավ. Արեգակից"
+
+msgid "Angular distance from the Sun for second object"
+msgstr "Անկ. հեռավ. Արեգակից երկրորդ օբյեկտի համար"
+
+msgid "Angular size"
+msgstr "Անկ. չափ"
+
+msgid "Annual drift"
+msgstr "Տարեկան շեղում"
+
+msgid "Aphelion"
+msgstr "Ապհելիոն"
+
+msgid "Appearance"
+msgstr "Տեսք"
+
+msgid "Apply"
+msgstr "Կիրառել"
+
+msgid "Apply time interval limits to list"
+msgstr "Կիրառել ժամանակային միջակայքի սահմանները ցանկին"
+
+msgid "Art"
+msgstr "Արվեստ"
+
+msgid "Artificial satellites and unnamed stars are excluded from calculation."
+msgstr "Արհեստական արբանյակներ և անունծ աստղեր բացառվում են հաշվարկից։"
+
+msgid "Asking for permission…"
+msgstr "Թույլատրումի հայց ներկայացնել…"
+
+msgid "Asks SIMBAD what it holds around the object that is selected now, and prints the answer as it comes back."
+msgstr "SIMBAD-ից հարցնել, թե դա ինչ պահում է ընտրված օբյեկտի շուրջ, և տպել պատասխանը, երբ վերադարձ հաստատվի։"
+
+msgid "Ast. lines"
+msgstr "Աստ. գծեր"
+
+msgid "Ast. names"
+msgstr "Աստ. անվ."
+
+msgid "Asterisms font size"
+msgstr "Աստերիզմների տառատեսակի չափ"
+
+msgid "Asteroids"
+msgstr "Աստերոիդներ"
+
+msgid "Astronomical Almanac (1984)"
+msgstr "Աստղագիտական Ծառայաթերսեր (1984)"
+
+msgid "Astronomical Almanac (default) enlarges by 2%; Danjon (1951) differs slightly"
+msgstr "Astronomical Almanac (լռելյայն) մեծացնում է 2%-ով; Danjon (1951) տարբերվում է քիչ"
+
+msgid "Astronomical Twilight"
+msgstr "Աստղային մթնշաղ"
+
+msgid "Astronomical calculations"
+msgstr "Աստղագիտական հաշվարկներ"
+
+msgid "Astronomical night"
+msgstr "Աստղային գիշեր"
+
+msgid "At"
+msgstr "Ժամը"
+
+msgid "Atmosph."
+msgstr "Մթն."
+
+msgid "Atmosphere visualization"
+msgstr "Մթնոլորտի դիտակցում"
+
+msgid "Automatic closing dialog"
+msgstr "Ինքնաշխատ փակվող երկխոսություն"
+
+msgid "Automatic transparency"
+msgstr "Ինքնաշխատ թափանցիկություն"
+
+msgid "Axis distance"
+msgstr "Առանցքի հեռավորություն"
+
+msgid "Azi. grid"
+msgstr "Ազ. ցանց"
+
+msgid "Azimuth"
+msgstr "Ազիմուտ"
+
+msgid "Azimuth and altitude rather than right ascension and declination"
+msgstr "Ազիմուտ և բարձրություն՝ ուղղակի տեղաշարժ և թեքության փոխարեն"
+
+msgid "Azimuth from South"
+msgstr "Ազիմուտ հարավից"
+
+msgid "Azimuth vs. Time"
+msgstr "Ազիմուտ ընդդեմ ժամանակի"
+
+msgid "Back"
+msgstr "Ետ"
+
+msgid "Bad visibility conditions for current location"
+msgstr "Վատ տեսանելիության պայմաններ այս տեղայիցի համար"
+
+msgid "Beginning of center line; central eclipse begins"
+msgstr "Կենտրոն. գծի սկ.; կենտրոն. խավ. սկ."
+
+msgid "Below the horizon here."
+msgstr "Հորիզոնից ցածր այստեղ։"
+
+msgid "Between objects"
+msgstr "Օբյեկտների միջև"
+
+msgid "Blue"
+msgstr "Կապույտ"
+
+msgid "Boundless"
+msgstr "Անսահման"
+
+msgid "Bounds"
+msgstr "Սահմաններ"
+
+msgid "Bright Solar system objects (<%1 mag)"
+msgstr "Պայծառ Արեգակնային համակարգի մարմիններ (<%1 մ.)"
+
+msgid "Bright barium stars"
+msgstr "Պայծառ բարիում աստղեր"
+
+msgid "Bright carbon stars"
+msgstr "Պայծառ ածխածին աստղեր"
+
+msgid "Bright double stars"
+msgstr "Պայծառ երկակի աստղեր"
+
+msgid "Bright double stars (<%1 mag)"
+msgstr "Պայծառ երկակի աստղեր (<%1 մ.)"
+
+msgid "Bright galaxies (<%1 mag)"
+msgstr "Պայծառ գալակտիկաներ (<%1 մ.)"
+
+msgid "Bright nebulae"
+msgstr "Պայծառ միգամածություններ"
+
+msgid "Bright nebulae (<%1 mag)"
+msgstr "Պայծառ միգամածություններ (<%1 մ.)"
+
+msgid "Bright nova stars"
+msgstr "Պայծառ նոր աստղեր"
+
+msgid "Bright star clusters (<%1 mag)"
+msgstr "Պայծառ աստղային կուտակներ (<%1 մ.)"
+
+msgid "Bright stars"
+msgstr "Պայծառ աստղեր"
+
+msgid "Bright stars (<%1 mag)"
+msgstr "Պայծառ աստղեր (<%1 մ.)"
+
+msgid "Bright stars with high proper motion"
+msgstr "Պայծառ աստղեր բարձր սեփական շարժումով"
+
+msgid "Bright supernova stars"
+msgstr "Պայծառ գերնոր աստղեր"
+
+msgid "Bright variable stars"
+msgstr "Պայծառ փոփոխական աստղեր"
+
+msgid "Bright variable stars (<%1 mag)"
+msgstr "Պայծառ փոփոխական աստղեր (<%1 մ.)"
+
+msgid "Brighter than"
+msgstr "Ավելի պայծառ, քան"
+
+msgid "Brightness"
+msgstr "Պայծառություն"
+
+msgid "By object type"
+msgstr "Օբյեկտի տեսակով"
+
+msgid "By planet"
+msgstr "Մոլորակով"
+
+msgid "Calculate"
+msgstr "Հաշվել"
+
+msgid "Calculating…"
+msgstr "Հաշվարկում…"
+
+msgid "Caldwell objects"
+msgstr "Կալդվել մարմիններ"
+
+msgid "Cardinals"
+msgstr "Կողմեր"
+
+msgid "Catalogue numbers instead of common names"
+msgstr "Կատալոգի համարներ՝ ընդհանուր անունների փոխարեն"
+
+msgid "Category"
+msgstr "Կատեգորիա"
+
+msgid "Celestial poles (of date)"
+msgstr "Աշխարհի բևեռներ (հանգրվածության ամսաթիվ)"
+
+msgid "Center of FOV"
+msgstr "FOV-ի կենտրոն"
+
+msgid "Centering button"
+msgstr "Կենտրոնացման կոճակ"
+
+msgid "Central duration"
+msgstr "Կենտրոնային տևողություն"
+
+msgid "Central eclipse begins"
+msgstr "Կենտրոնային խավարածրումը սկսվում է"
+
+msgid "Central eclipse ends"
+msgstr "Կենտրոնային խավարածրումը ավարտվում է"
+
+msgid "Centre"
+msgstr "Կենտրոն"
+
+msgid "Centre on object"
+msgstr "Կենտրոն օբյեկտի վրա"
+
+msgid "Centre point"
+msgstr "Կենտրոնային կետ"
+
+msgid "Circles"
+msgstr "Շրջաններ"
+
+msgid "Circular FOV"
+msgstr "Շրջանային FOV"
+
+msgid "Circumpolar circles"
+msgstr "Բևեռային շրջաններ"
+
+msgid "City"
+msgstr "Քաղաք"
+
+msgid "Civil Twilight"
+msgstr "Քաղաքացիական մթնշաղ"
+
+msgid "Cleanup"
+msgstr "Մաքրում"
+
+msgid "Clear"
+msgstr "Մաքրել"
+
+msgid "Clear recent searches"
+msgstr "Մաքրել վերջերս փնտրածը"
+
+msgid "Clear the selection - a touch screen has no right button"
+msgstr "Մաքրել ընտրությունը - հպման էկրանը աջ կոճակ չունի"
+
+msgid "Cleared."
+msgstr "Մաքրվել է։"
+
+msgid "Click on star to show its constellation"
+msgstr "Կտտացրեք աստղի վրա՝ նրա համաստեղությունը ցույց տալու համար"
+
+msgid "Close"
+msgstr "Փակել"
+
+msgid "Close what is open; from the sky, leave the app running"
+msgstr "Փակել բացածը; երկնքից թողնել ծրագիրը գործարկել"
+
+msgid "Clusters of galaxies"
+msgstr "Գալակտիկական կուտակներ"
+
+msgid "Coarse"
+msgstr "Կոշտ"
+
+msgid "Color"
+msgstr "Գույն"
+
+msgid "Color channel"
+msgstr "Գույնային ալիք"
+
+msgid "Color of Lunar station lines"
+msgstr "Լուսնային կայանների գծերի գույն"
+
+msgid "Color of asterism lines"
+msgstr "Աստերիզմի գծերի գույն"
+
+msgid "Color of asterism names"
+msgstr "Աստերիզմի անունների գույն"
+
+msgid "Color of constellation boundaries"
+msgstr "Համաստեղության սահմանների գույն"
+
+msgid "Color of constellation lines"
+msgstr "Համաստեղության գծերի գույն"
+
+msgid "Color of constellation names"
+msgstr "Համաստեղության անունների գույն"
+
+msgid "Color of nomenclature labels"
+msgstr "Տեղանամերի պիտակների գույն"
+
+msgid "Color of orbits"
+msgstr "Ուղեծրերի գույն"
+
+msgid "Color of planet labels"
+msgstr "Մոլորակային պիտակների գույն"
+
+msgid "Color of ray helpers"
+msgstr "Ուղղորդիչների գույն"
+
+msgid "Color of trails"
+msgstr "Հետքերի գույն"
+
+msgid "Color of zodiac lines"
+msgstr "Կենդանակերպի գծերի գույն"
+
+msgid "Colors of orbit lines"
+msgstr "Ուղեծրային գծերի գույներ"
+
+msgid "Colures"
+msgstr "Կոլյուրներ"
+
+msgid "Comets"
+msgstr "Գիսաստղեր"
+
+msgid "Comets up to mag."
+msgstr "Գիսաբեղներ մինչև մեծ."
+
+msgid "Compass"
+msgstr "Կողմնացույց"
+
+msgid "Config"
+msgstr "Կոնֆիգ"
+
+msgid "Configure colors of markers"
+msgstr "Կարգավորել նշիչների գույներ"
+
+msgid "Configure colors of orbit lines"
+msgstr "Կարգավորել ուղեծրային գծերի գույներ"
+
+msgid "Conjunction"
+msgstr "Միացում"
+
+msgid "Connecting line"
+msgstr "Միացման գիծ"
+
+msgid "Const."
+msgstr "Համ."
+
+msgid "Constellations font size"
+msgstr "Համաստեղությունների տառատեսակի չափ"
+
+msgid "Contrast"
+msgstr "Հակադրություն"
+
+msgid "Coordinate system"
+msgstr "Կոորդինատային համակարգ"
+
+msgid "Coordinates"
+msgstr "Կոորդինատներ"
+
+msgid "Copyright"
+msgstr "Հեղինակային իրավունք"
+
+msgid "Credits"
+msgstr "Ընդունուրդներ"
+
+msgid "Cubewanos"
+msgstr "Կուբևանո"
+
+msgid "Culmination altitude"
+msgstr "Վեր. բարձր."
+
+msgid "Current FoV"
+msgstr "Ընթացիկ FOV"
+
+msgid "Custom"
+msgstr "Հատուկ"
+
+msgid "Custom FoV limit"
+msgstr "Սեղմ FOV սահման"
+
+msgid "Custom altitude of the Moon, °"
+msgstr "Լուսնի սեղմ բարձրություն, °"
+
+msgid "Custom altitude of the Sun, °"
+msgstr "Արեգակի սեղմ բարձրություն, °"
+
+msgid "Custom settings for position of GRS"
+msgstr "GRS-ի դիրքի սեղմ կարգավորումներ"
+
+msgid "Custom values"
+msgstr "Սեղմ արժեքներ"
+
+msgid "Cut the scale off below the limit"
+msgstr "Մասշտաբը բերել սահմանից ցածր"
+
+msgid "DATE AND TIME (UTC)"
+msgstr "ԱՄՍԱԹԻՎ ԵՆ ԺԱՄԱՆԱԿ (UTC)"
+
+msgid "DSS survey"
+msgstr "DSS հետազոտություն"
+
+msgid "Dark nebulae"
+msgstr "Մութ միգամածություններ"
+
+msgid "Data"
+msgstr "Տվյալներ"
+
+msgid "Date"
+msgstr "Ամսաթիվ"
+
+msgid "Date and time"
+msgstr "Ամսաթիվ և ժամանակ"
+
+msgid "Date/time"
+msgstr "Ամսաթիվ/ժամանակ"
+
+msgid "Dates"
+msgstr "Ամսաթվեր"
+
+msgid "Dawn"
+msgstr "Արևելք"
+
+msgid "Dbl. stars"
+msgstr "Երկար. աստղեր"
+
+msgid "December solstice"
+msgstr "Դեկ. արևադարձ"
+
+msgid "Decimal degrees. −33.87 means 33.87° south. Elevation is metres above sea level; it moves the horizon down by a few arcminutes."
+msgstr "Տասնորդական աստիճան։ −33.87 նշանակում է 33.87° հարավ։ Բարձրությունը ծովի մակարդակից վերևում մետրերով; այն հորիզոնը շեղում է մի քանի աղեղային րոպե ցածր։"
+
+msgid "Declination"
+msgstr "Թեքություն"
+
+msgid "Deep Sky"
+msgstr "Խորը երկինք"
+
+msgid "Degrees per year the longitude moves by"
+msgstr "Աստիճան ամեն տարի լայնությունը շարժվում է"
+
+msgid "Degrees, hours and minutes as they are written - 12h30m49s, +41°16'09\", 187.7 - or plain decimal degrees."
+msgstr "Աստիճան, ժամ և րոպե այնպես, ինչպես գրված են - 12h30m49s, +41°16'09\", 187.7 - կամ պարզ տասնորդական աստիճան։"
+
+msgid "Deletes all recent search object data, and the objects SIMBAD contributed."
+msgstr "Ջնջել բոլոր վերջերս փնտրված օբյեկտի տվյալները և SIMBAD-ի ներդրած օբյեկտները։"
+
+msgid "Designations for celestial coordinate systems"
+msgstr "Երկնային կոորդինատային համակարգերի նշանակումներ"
+
+msgid "Designations for double stars"
+msgstr "Երկար աստղերի նշանակումներ"
+
+msgid "Designations for variable stars"
+msgstr "Փոփոխական աստղերի նշանակումներ"
+
+msgid "Dim a survey near the horizon, as the air does"
+msgstr "Հորիզոնի մոտ հետազոտությունը մթուծել, ինչպես օդը"
+
+msgid "Dimensions"
+msgstr "Չափերը"
+
+msgid "Display formats of date and time"
+msgstr "Ամսաթվերի և ժամանակի ցուցադրման ձևերը"
+
+msgid "Display objects from catalogs"
+msgstr "Կատալոգներից օբյեկտներ ցուցադրել"
+
+msgid "Displayed"
+msgstr "Ցուցադրվել է"
+
+msgid "Dist."
+msgstr "Հեռավ."
+
+msgid "Distance"
+msgstr "Հեռավորություն"
+
+msgid "Distance, AU"
+msgstr "Հեռավ., ՀՎ"
+
+msgid "Done"
+msgstr "Ավարտվել է"
+
+msgid "Drag"
+msgstr "Քաշել"
+
+msgid "Draw deep-sky objects at all"
+msgstr "Նկարել խորը երկնային օբյեկտներ"
+
+msgid "Draw only polygon"
+msgstr "Նկարել միայն բազմանկյուն"
+
+msgid "Draw the enabled sky surveys"
+msgstr "Նկարել հասանելի երկնային հետազոտությունները"
+
+msgid "Draw the planets, moons and minor bodies"
+msgstr "Նկարել մոլորակներ, գիսաստղեր և փոքր մարմիններ"
+
+msgid "Drawn larger than life, so a body that is a few arcseconds wide is visible at all. The position stays true."
+msgstr "Նկարել ավելի մեծ, քան կյանքում, այնպես որ մի քանի աղեղային վայրկյան լայն մարմինը տեսանելի է։ Դիրքը մնում է ճիշտ։"
+
+msgid "Duration"
+msgstr "Տևողություն"
+
+msgid "Duration (years)"
+msgstr "Տևողություն (տարիներ)"
+
+msgid "Duration, months"
+msgstr "Տևողություն, ամիսներ"
+
+msgid "Dusk"
+msgstr "Մթնշաղ"
+
+msgid "Dwarf planets"
+msgstr "Մատիտ մոլորակներ"
+
+msgid "Dynamic (FOV-based) Moon size"
+msgstr "Դինամիկ (FOV-ի վրա հիմնված) լուսնի չափ"
+
+msgid "ELEV. M"
+msgstr "ԲԱՐՁՐ. M"
+
+msgid "Earth"
+msgstr "Երկիր"
+
+msgid "Earth penumbra"
+msgstr "Երկրի վիճաստվածքային ստվեր"
+
+msgid "Earth shadow enlargement after Danjon"
+msgstr "Երկրի ստվերի մեծացում Danjon-ի հետո"
+
+msgid "Earth umbra"
+msgstr "Երկրի խոր ստվեր"
+
+msgid "Eastern quadrature"
+msgstr "Արևելյան քառակցում"
+
+msgid "Ecl. grid"
+msgstr "Խավ. ցանց"
+
+msgid "Eclipse"
+msgstr "Խավարում"
+
+msgid "Eclipse begins; first contact with Earth"
+msgstr "Խավ. սկ.; առաջին շոշափում Երկրի հետ"
+
+msgid "Eclipse ends; last contact with Earth"
+msgstr "Խավ. ավ.; վերջին շոշափում Երկրի հետ"
+
+msgid "Eclipse magnitude"
+msgstr "Խավարածրման մեծություն"
+
+msgid "Eclipses"
+msgstr "Խավարածրումներ"
+
+msgid "Eclipses are computed for observers on Earth."
+msgstr "Խավարածրումները հաշվարկվում են Երկրի վրա դիտորդների համար։"
+
+msgid "Ecliptic"
+msgstr "Խավարածիր"
+
+msgid "Ecliptic (of date)"
+msgstr "Խավարածիր (հանգրվածության ամսաթիվ)"
+
+msgid "Ecliptic grid (of date)"
+msgstr "Խավարածրային ցանց (հանգրվածության ամսաթիվ)"
+
+msgid "Ecliptic poles (of date)"
+msgstr "Խավարածրի բևեռներ (հանգրվածության ամսաթիվ)"
+
+msgid "Elev."
+msgstr "Բար."
+
+msgid "Elevation"
+msgstr "Բարձրություն"
+
+msgid "Elevation in metres"
+msgstr "Բարձրություն մետրերով"
+
+msgid "Elong."
+msgstr "Պ."
+
+msgid "Elongation"
+msgstr "Շեղում"
+
+msgid "Elongations and quadratures"
+msgstr "Երկարածություններ և քառակուսուններ"
+
+msgid "Emission-line stars"
+msgstr "Արտանետման գծերի աստղեր"
+
+msgid "Enabled only"
+msgstr "Միայն հասանալի"
+
+msgid "End of center line; central eclipse ends"
+msgstr "Կենտրոն. գծի ավ.; կենտրոն. խավ. ավ."
+
+msgid "Enter Culture..."
+msgstr "Մտնել մշակույթ..."
+
+msgid "Ephemeris"
+msgstr "Էֆեմերիդներ"
+
+msgid "Equ. grid"
+msgstr "Հաս. ցանց"
+
+msgid "Equ. mount"
+msgstr "Հաս. մ."
+
+msgid "Equator (of date)"
+msgstr "Հասարակած (հանգրվածության ամսաթիվ)"
+
+msgid "Equatorial"
+msgstr "Հասարակածային"
+
+msgid "Equatorial grid (of date)"
+msgstr "Հասարակածային ցանց (հանգրվածության ամսաթիվ)"
+
+msgid "Equatorial radii ratio"
+msgstr "Հասարակ. շառավ. հար."
+
+msgid "Equinoxes (of date)"
+msgstr "Գիշերահավասարներ (հանգրվածության ամսաթիվ)"
+
+msgid "Evening"
+msgstr "Երեկո"
+
+msgid "Every"
+msgstr "Ամեն"
+
+msgid "Every name the object is catalogued under"
+msgstr "Ամեն անուն, որի տակ օբյեկտը կատալոգավորված է"
+
+msgid "Exoplanetary systems"
+msgstr "Արտամոլորակային համակարգեր"
+
+msgid "Explanatory Supplement (1992)"
+msgstr "Բացատրական հավելվածներ (1992)"
+
+msgid "Explanatory Supplement (2013)"
+msgstr "Բացատրական հավելվածներ (2013)"
+
+msgid "Exterior egress"
+msgstr "Արտաքին ելք"
+
+msgid "Exterior ingress"
+msgstr "Արտաքին մուտք"
+
+msgid "Extras"
+msgstr "Լրացուցիչներ"
+
+msgid "Fades the ground as you look below the horizon or zoom in"
+msgstr "Խամրեցնում է գետինը, երբ նայում եք հորիզոնից ցածր կամ մեծացնում"
+
+msgid "Fading duration"
+msgstr "Մարի տևողություն"
+
+msgid "Faintest shown"
+msgstr "Ամենասուր ցուցադրված"
+
+msgid "Favorites"
+msgstr "Տարածված"
+
+msgid "Fetching the survey lists…"
+msgstr "Հետազոտական ցուցակները բերում…"
+
+msgid "Field of view"
+msgstr "Տեսուչ դաշտ"
+
+msgid "Filter"
+msgstr "Ծրտմել"
+
+msgid "Filter by type"
+msgstr "Ծրտմել տեսակով"
+
+msgid "Find a city"
+msgstr "Գտնել քաղաք"
+
+msgid "Fine"
+msgstr "Նուրբ"
+
+msgid "First %d of %d - filter to narrow it."
+msgstr "Առաջինը %d-ից %d - ծրտմել այն նեղացնելու համար։"
+
+msgid "First body"
+msgstr "Առաջին մարմին"
+
+msgid "First celestial body"
+msgstr "Առաջին երկնային մարմին"
+
+msgid "First graph"
+msgstr "Առաջին գրաֆիկ"
+
+msgid "Fix"
+msgstr "Կանգնել"
+
+msgid "Fixed Equator"
+msgstr "Ֆիքսված հասարակած"
+
+msgid "Fixed instant"
+msgstr "Ֆիքսված ակնթարթ"
+
+msgid "Flip buttons"
+msgstr "Շրջել կոճակները"
+
+msgid "Flip horiz."
+msgstr "Շրջ. հորիզ."
+
+msgid "Flip vert."
+msgstr "Շրջ. ուղղ."
+
+msgid "Font size"
+msgstr "Տառատեսակի չափ"
+
+msgid "Frame rate"
+msgstr "Կադրերի արագությունը"
+
+msgid "From"
+msgstr "Սկսել"
+
+msgid "From year"
+msgstr "Տարից"
+
+msgid "Full screen"
+msgstr "Լիէկրան"
+
+msgid "Fullscreen button"
+msgstr "Ամբողջ էկրանի կոճակ"
+
+msgid "Further reading"
+msgstr "Հետագա ընթերցում"
+
+msgid "GRS details…"
+msgstr "GRS մանրամասներ…"
+
+msgid "Gal. grid"
+msgstr "Գալ. ցանց"
+
+msgid "Galactic"
+msgstr "Գալակտիկական"
+
+msgid "Galaxies"
+msgstr "Գալակտիկաներ"
+
+msgid "Gamma"
+msgstr "Գամմա"
+
+msgid "Gamma, saturation, brightness, contrast, opacity, colour channel and inverted colours belong to one survey. Open a survey to set them."
+msgstr "Գամմա, հագեցվածություն, պայծառություն, հակադրություն, անթափանցելիություն, գույնային ալիք և հակադարձ գույներ պատկանում են մեկ հետազոտությանը։ Բացեք հետազոտություն՝ դրանք սահմանելու համար։"
+
+msgid "Generic"
+msgstr "Ընդհանուր"
+
+msgid "Gestures"
+msgstr "Շարժումներ"
+
+msgid "Globular star clusters"
+msgstr "Գնդաձև աստղային կուտակներ"
+
+msgid "Go there"
+msgstr "Գնալ այնտեղ"
+
+msgid "Go to position"
+msgstr "Գնալ դիրքին"
+
+msgid "Go to this eclipse"
+msgstr "Գնալ այս խավարման"
+
+msgid "Go to this moment"
+msgstr "Գնալ այս պահին"
+
+msgid "Go to this transit"
+msgstr "Գնալ այս անցմանը"
+
+msgid "Good visibility conditions for current location"
+msgstr "Լավ տեսանելիության պայմաններ այս տեղայիցի համար"
+
+msgid "Graphs"
+msgstr "Գրաֆիկներ"
+
+msgid "Great Red Spot"
+msgstr "Մեծ Կարմիր Բծ"
+
+msgid "Great Red Spot details"
+msgstr "Մեծ Կարմիր Բծի մանրամասները"
+
+msgid "Greatest eastern elongation"
+msgstr "Մեծագույն արևելյան շեղում"
+
+msgid "Greatest eclipse"
+msgstr "Մեծագույն խավարում"
+
+msgid "Greatest elongation for an inner planet, quadrature for an outer one"
+msgstr "Ամենամեծ հեռացումը ներքին մոլորակի համար, քառակուսություն՝ արտաքին մոլորակի համար"
+
+msgid "Greatest western elongation"
+msgstr "Մեծագույն արևմտյան շեղում"
+
+msgid "Greek letters"
+msgstr "Հունական տառեր"
+
+msgid "Greek letters for Bayer designations"
+msgstr "Հունական տառեր Բայերի նշանակումների համար"
+
+msgid "Green"
+msgstr "Կանաչ"
+
+msgid "Grid density"
+msgstr "Ցանցի խտություն"
+
+msgid "Grids"
+msgstr "Ցանցեր"
+
+msgid "Ground"
+msgstr "Գետին"
+
+msgid "Gyro"
+msgstr "Գիրոսկոպ"
+
+msgid "Gyro mode"
+msgstr "Գիրոսկոպի ռեժիմ"
+
+msgid "Height"
+msgstr "Բարձրություն"
+
+msgid "Heliocentric distance"
+msgstr "Արեգակակենտրոն հեռավ."
+
+msgid "Heliocentric ecliptic positions of the major planets."
+msgstr "Հելիոկենտրոնային խավարածրային դիրքեր հիմնական մոլորակների։"
+
+msgid "Herschel 400 objects"
+msgstr "Հերշել 400 մարմիններ"
+
+msgid "HiPS"
+msgstr "HiPS"
+
+msgid "Hide controls"
+msgstr "Թաքցնել վերահսկումները"
+
+msgid "Hide deep-sky objects fainter than the limit"
+msgstr "Թաքցնել խորը-երկինքի առարկաները սահմանից ավելի թույլ"
+
+msgid "Hide nomenclature on the celestial body of observer"
+msgstr "Թաքցնել երկնային մարմնի նոմենկլատուրա դիտորդի համար"
+
+msgid "Hide orbits of minor bodies"
+msgstr "Թաքցնել փոքր մարմինների ուղեծրերը"
+
+msgid "Highlight"
+msgstr "Ընդգծել"
+
+msgid "Highlight the objects of the observing list"
+msgstr "Ընդգծել դիտարկման ցանկի մարմինները"
+
+msgid "Hint circles marking each planet"
+msgstr "Հուշազ շրջաններ, որոնք նշում են յուրաքանչյուր մոլորակ"
+
+msgid "Hints"
+msgstr "Հուշումներ"
+
+msgid "Hints brightness"
+msgstr "Հուշումների պայծառությունը"
+
+msgid "Horizontal"
+msgstr "Հորիզոնական"
+
+msgid "Horizontal coordinates"
+msgstr "Հորիզոնական կոորդինատներ"
+
+msgid "Hour angles usually run 0...24h. This counts -12h...12h."
+msgstr "Ժամային անկյունները սովորաբար տեղի են ունենում 0...24ժ։ Սա հաշվում է −12ժ...12ժ։"
+
+msgid "How many"
+msgstr "Քանի"
+
+msgid "ICRS grid"
+msgstr "ICRS ցանց"
+
+msgid "Include"
+msgstr "Ներառել"
+
+msgid "Include bright comets"
+msgstr "Ներառել պայծառ գիսաստղեր"
+
+msgid "Include selected minor planets"
+msgstr "Ներառել ընտրված փոքր մոլորակներ"
+
+msgid "Inferior conjunction"
+msgstr "Ստորագյա միացում"
+
+msgid "Info label"
+msgstr "Տեղեկատվական պիտակ"
+
+msgid "Interacting galaxies"
+msgstr "Փոխազդող գալակտիկաներ"
+
+msgid "Intercardinal points"
+msgstr "Արմատական կետեր"
+
+msgid "Interior egress"
+msgstr "Ներքին ելք"
+
+msgid "Interior ingress"
+msgstr "Ներքին մուտք"
+
+msgid "Interstellar objects"
+msgstr "Միջաստղային մարմիններ"
+
+msgid "Invariable plane of the Solar system"
+msgstr "Արեգակային համակարգի անփոփոխ հարթակը"
+
+msgid "Isolated"
+msgstr "Մեկուսացված"
+
+msgid "Its elevation, and the civil, nautical and astronomical twilights"
+msgstr "Դրա բարձրացումը, ինչպես նաև քաղաքացիական, ծովային և աստղագիտական մթնամշակը"
+
+msgid "Jovigraphic longitude of the spot in System II, in degrees"
+msgstr "Բծի բարձրաչափական երկայնություն II համակարգում, աստիճաններով"
+
+msgid "Julian day"
+msgstr "Հուլիանական օր"
+
+msgid "June solstice"
+msgstr "Հուն. արևադարձ"
+
+msgid "Label"
+msgstr "Պիտակ"
+
+msgid "Label colour"
+msgstr "Պիտակի գույն"
+
+msgid "Label only features along the terminator"
+msgstr "Պիտակավորել միայն տերմինատորի երկայնքով գտնվող առանձնահատկությունները"
+
+msgid "Labels"
+msgstr "Պիտակներ"
+
+msgid "Labels and Markers amount"
+msgstr "Պիտակների և նշիչների քանակ"
+
+msgid "Labels brightness"
+msgstr "Պիտակների պայծառությունը"
+
+msgid "Largest, ′"
+msgstr "Ամենամեծ, ′"
+
+msgid "Last known position"
+msgstr "Վերջին հայտնի դիրք"
+
+msgid "Lasting"
+msgstr "Տևական"
+
+msgid "Latest selected object"
+msgstr "Վերջին ընտրված մարմին"
+
+msgid "Latitude"
+msgstr "Լայնություն"
+
+msgid "Latitude −90…90, longitude −180…180."
+msgstr "Լայնություն −90…90, երկայնություն −180…180։"
+
+msgid "Layer appearance"
+msgstr "Շերտի տեսք"
+
+msgid "Leaves the landscape visible in darkness"
+msgstr "Թողնում է բնապատկերը տեսանելի խավարում"
+
+msgid "Licence"
+msgstr "Թույլատրագիր"
+
+msgid "Light pollution"
+msgstr "Լույսի աղտություն"
+
+msgid "Light pollution from database"
+msgstr "Լույսի աղտություն տվյալների բազայից"
+
+msgid "Limit angular separation"
+msgstr "Սահմանել անկ. բաժան."
+
+msgid "Limit angular size"
+msgstr "Սահմանել անկյունային չափ"
+
+msgid "Limit magnitude"
+msgstr "Սահմանել աստղային մեծությունը"
+
+msgid "Limit the magnitude of solar system objects"
+msgstr "Սահմանել արեգակային համակարգի առարկաների աստղային մեծությունը"
+
+msgid "Line"
+msgstr "Տող"
+
+msgid "Line thickness"
+msgstr "Տողի հաստությունը"
+
+msgid "Linear and angular distances between selected objects"
+msgstr "Գծային և անկ. հեռավ. ընտրված մարմինների միջև"
+
+msgid "Linear distance"
+msgstr "Գծային հեռավ."
+
+msgid "Lines"
+msgstr "Գծեր"
+
+msgid "Lines and circles"
+msgstr "Գծեր և շրջաններ"
+
+msgid "List"
+msgstr "Ցանկ"
+
+msgid "List name"
+msgstr "Ցանկի անունը"
+
+msgid "Lists"
+msgstr "Ցանկեր"
+
+msgid "Lit windows, street lighting and the like"
+msgstr "Լուսավորված պատուհաններ, փողոցային լուսավորություն և նմանատիպ"
+
+msgid "Loading…"
+msgstr "Բեռնում…"
+
+msgid "Local Mean Solar Time"
+msgstr "Տեղական միջին արեգակային ժամանակ"
+
+msgid "Local Time"
+msgstr "Տեղական ժամանակ"
+
+msgid "Local True Solar Time"
+msgstr "Տեղական ճշմարիտ արեգակային ժամանակ"
+
+msgid "Local solar eclipses"
+msgstr "Տեղական արեգակային խավարումներ"
+
+msgid "Local time"
+msgstr "Տեղական ժամանակ"
+
+msgid "Local time, h"
+msgstr "Տեղական ժամանակ, ժ"
+
+msgid "Locate me"
+msgstr "Գտնել ինձ"
+
+msgid "Locating…"
+msgstr "Գտնում…"
+
+msgid "Location from landscape"
+msgstr "Տեղադրություն բնապատկերից"
+
+msgid "Location is switched off in the system settings."
+msgstr "Տեղադրությունը անջատված է համակարգի կարգավորումներում։"
+
+msgid "Location permission refused. The other two ways still work."
+msgstr "Տեղադրության թույլտվությունը մերժված է։ Մյուս երկու եղանակները դեռ շահագործվում են։"
+
+msgid "Lock position when coordinates are used"
+msgstr "Կողպել դիրքը կոորդինատներ օգտագործելիս"
+
+msgid "Long press"
+msgstr "Երկար սեղմել"
+
+msgid "Longitude"
+msgstr "Երկայնություն"
+
+msgid "Longitude of GRS"
+msgstr "GRS-ի երկայնություն"
+
+msgid "Lunar Elongation"
+msgstr "Լուսնային հեռացում"
+
+msgid "Lunar Stations"
+msgstr "Լուսնային կայաններ"
+
+msgid "Lunar eclipses"
+msgstr "Լուսնային խավարումներ"
+
+msgid "Lunar elongation"
+msgstr "Լուսնային հեռացում"
+
+msgid "Mag."
+msgstr "Մե."
+
+msgid "Mag. 1"
+msgstr "Մեծ. 1"
+
+msgid "Mag. 2"
+msgstr "Մեծ. 2"
+
+msgid "Magnitudes"
+msgstr "Աստղային մեծություններ"
+
+msgid "Major planets"
+msgstr "Հիմնական մոլորակներ"
+
+msgid "Major planets by planet, minor bodies by type"
+msgstr "Հիմնական մոլորակներ մոլորակով, փոքր մարմիններ տեսակով"
+
+msgid "Map of the planet. Tap to set the observer's place."
+msgstr "Մոլորակի քարտեզ։ Հպել դիտորդի տեղն ընտրելու համար։"
+
+msgid "March equinox"
+msgstr "Մարտ. գիշերահավասար."
+
+msgid "Mark impact features with ellipses"
+msgstr "Նշել ազդեցության առանձնահատկությունները էլիպսներով"
+
+msgid "Mark minor bodies"
+msgstr "Նշել փոքր մարմիններ"
+
+msgid "Markers"
+msgstr "Նշիչներ"
+
+msgid "Markers sized by the object's angular size"
+msgstr "Նշիչներ, որոնց չափը որոշվում է առարկայի անկյունային չափով"
+
+msgid "Master switch for the grids, lines and points below"
+msgstr "Ցանցերի, գծերի և ստորև նշված կետերի հիմնական անջատիչ"
+
+msgid "Max"
+msgstr "Առավ."
+
+msgid "Max items to display"
+msgstr "Ցուցադրելու առավագույն տարրեր"
+
+msgid "Max. results"
+msgstr "Առավ. արդյունքներ"
+
+msgid "Max. search radius"
+msgstr "Առավ. որոնման շառավիղ"
+
+msgid "Maximum Solar altitude"
+msgstr "Արեգակի առավագույն բարձրությունը"
+
+msgid "Maximum allowed separation"
+msgstr "Առավագույն թույլատրված բաժանում"
+
+msgid "Maximum angular size"
+msgstr "Առավագույն անկյունային չափ"
+
+msgid "Maximum eclipse"
+msgstr "Առավագույն խավարում"
+
+msgid "Maximum year"
+msgstr "Առավագույն տարի"
+
+msgid "Mean motion"
+msgstr "Միջին շարժում"
+
+msgid "Mercury, Venus, Mars, Jupiter and Saturn at once. Earth only."
+msgstr "Mercury, Venus, Mars, Jupiter and Saturn միասին։ Միայն Երկիր։"
+
+msgid "Messier objects"
+msgstr "Messier մարմիններ"
+
+msgid "Mid-transit"
+msgstr "Անցման միջնակետ"
+
+msgid "Milky Way"
+msgstr "Լուսամբուն"
+
+msgid "Milky Way brightness"
+msgstr "Լուսամբունի պայծառություն"
+
+msgid "Milky Way saturation"
+msgstr "Լուսամբունի հագեցվածություն"
+
+msgid "Min"
+msgstr "Նվազ."
+
+msgid "Minimal angular size"
+msgstr "Նվազագույն անկյունային չափ"
+
+msgid "Minimal brightness"
+msgstr "Նվազագույն պայծառություն"
+
+msgid "Minimum Solar altitude"
+msgstr "Արեգակի նվազագույն բարձրությունը"
+
+msgid "Minimum year"
+msgstr "Նվազագույն տարի"
+
+msgid "Minor bodies"
+msgstr "Փոքր մարմիններ"
+
+msgid "Minutes before sunrise / after sunset"
+msgstr "Արեգակի ծագումից առաջ / մայր մտնելուց հետո րոպե"
+
+msgid "Month"
+msgstr "Ամիս"
+
+msgid "Monthly Elevation"
+msgstr "Ամսական բարձրացում"
+
+msgid "Moon at"
+msgstr "Լուսինը ժ-ին"
+
+msgid "Moon enters penumbra"
+msgstr "Լուսինը մտնում է կիսաստվածի մեջ"
+
+msgid "Moon enters umbra"
+msgstr "Լուսինը մտնում է ստվածի մեջ"
+
+msgid "Moon in zenith at"
+msgstr "Լուսինը զենիտում"
+
+msgid "Moon leaves penumbra"
+msgstr "Լուսինը դուրս է գալիս կիսաստվածից"
+
+msgid "Moon leaves umbra"
+msgstr "Լուսինը դուրս է գալիս ստվածից"
+
+msgid "Moon's halo"
+msgstr "Լուսնի հեղուկի շրջա"
+
+msgid "Moons of first body"
+msgstr "Առաջին մարմնի լուսինները"
+
+msgid "Morning"
+msgstr "Առավոտ"
+
+msgid "Morph. Descr."
+msgstr "Մորֆ. Նկ."
+
+msgid "Morphological description"
+msgstr "Մորֆոլոգիական նկարագրություն"
+
+msgid "Move the sky by pointing the phone at it"
+msgstr "Շարժել երկինքը հեռախոսին այն ուղղելով"
+
+msgid "Move the sky with the phone"
+msgstr "Շարժել երկինքը հեռախոսի հետ"
+
+msgid "NGC/IC objects"
+msgstr "NGC/IC մարմիններ"
+
+msgid "Name for the new list"
+msgstr "Նոր ցանկի անունը"
+
+msgid "Named features the landscape marks"
+msgstr "Անվանված առանձնահատկություններ, որոնք բնապատկերը նշում է"
+
+msgid "Names"
+msgstr "Անունները"
+
+msgid "Names beside the planets and their markers"
+msgstr "Անունները մոլորակների և նրանց նշիչների կողքին"
+
+msgid "Names in English"
+msgstr "Անունները անգլերեն"
+
+msgid "Nautical Twilight"
+msgstr "Ծովային մթնշաղ"
+
+msgid "Neb. bg"
+msgstr "Միգ. ֆոն"
+
+msgid "Nebula background"
+msgstr "Մոգեղեն ֆոն"
+
+msgid "Nebulae"
+msgstr "Միգամ."
+
+msgid "New list"
+msgstr "Նոր ցանկ"
+
+msgid "Next"
+msgstr "Հաջորդ"
+
+msgid "Night"
+msgstr "Գիշեր"
+
+msgid "No city matches that."
+msgstr "Ոչ մի քաղաք չի համապատասխանում դրան։"
+
+msgid "No eclipses found. Pick a range and calculate."
+msgstr "Խավարումներ չեն գտնվել։ Ընտրեք միջակայք և հաշվեք։"
+
+msgid "No fresh fix - the receiver may have no sky. Try again outdoors, or set the place another way."
+msgstr "Նոր ֆիքսեր չկան՝ ստացողը կարող է երկինք չունենալ։ Կրկին փորձեք բացօթյա կամ այլ կերպ սահմանեք տեղը։"
+
+msgid "No surveys were found. The lists are downloaded, so this needs a connection."
+msgstr "Հետազոտություններ չեն գտնվել։ Ցանկերը ներբեռնվել են, այնպես որ սա անհրաժեշտ է կապ։"
+
+msgid "None downloaded yet"
+msgstr "Դեռ ոչ մեկ ներբեռնված չէ"
+
+msgid "Normal"
+msgstr "Նորմալ"
+
+msgid "Not observable eclipse"
+msgstr "Չդիտարկվող խավարում"
+
+msgid "Note: Local circumstances for eclipses during thousands of years in the past and future are not reliable due to uncertainty in ΔT which is caused by fluctuations in Earth's rotation."
+msgstr "Նշում. Խավարումների տեղային հանգամանքները հազարամյա ժամանակահատվածների համար անվստահելի են ΔT-ի անորոշության պատճառով, որը Երկրի ռոտացիայի տատանումներից է հետևում:"
+
+msgid "Note: artificial satellites and unnamed stars are excluded from calculation"
+msgstr "Նշում. Արհեստական արբանյակներ և անանուն աստղեր բացառված են հաշվարկից"
+
+msgid "Note: this tool doesn't apply the refraction correction for coordinates. Horizontal coordinates stop the clock, or the sky would turn away from the point while you arrive at it."
+msgstr "Նշում. այս գործիքը չի կիրառում բեկման ուղղումը կոորդինատների համար։ Հորիզոնական կոորդինատները կանգ կացնում են ժամացույցը, կամ երկինքը կպատկեր լինի կետից, երբ դուք հասկանում եք դրան։"
+
+msgid "Notes: The quantity gamma is the minimum distance from the axis of lunar shadow cone to the center of Earth, in units of Earth’s equatorial radius. This distance is positive or negative, depending on whether the axis of the shadow cone passes north or south of the Earth's center. Path of solar eclipses during thousands of years in the past and future are not reliable due to uncertainty in ΔT which is caused by fluctuations in Earth's rotation."
+msgstr "Նշումներ. γ մեծությունը լուսնային ստվածի կոնի առանցքից Երկրի կենտրոն հեռավորության նվազագույն արժեքն է, Երկրի հասարակածային շառավղի միավորներով: Այս հեռավորությունը դրական կամ բացասական է՝ կախված նրանից, թե ստվածի կոնի առանցքը Երկրի կենտրոնից հյուսիսից կամ հարավից է անցնում: Արեգակնային խավարումների ուղեծրերը հազարամյա ժամանակահատվածների համար անվստահելի են ΔT-ի անորոշության պատճառով, որը Երկրի ռոտացիայի տատանումներից է հետևում:"
+
+msgid "Notes: The quantity gamma is the minimum distance from the center of the Moon to the axis of Earth’s umbral shadow cone, in units of Earth’s equatorial radius. This distance is positive or negative, depending on whether the Moon passes north or south of the shadow cone axis. Local circumstances for eclipses during thousands of years in the past and future are not reliable due to uncertainty in ΔT which is caused by fluctuations in Earth's rotation."
+msgstr "Նշումներ. γ մեծությունը Լուսնի կենտրոնից Երկրի ստվածային կոնի առանցք հեռավորության նվազագույն արժեքն է, Երկրի հասարակածային շառավղի միավորներով: Այս հեռավորությունը դրական կամ բացասական է՝ կախված նրանից, թե Լուսինը ստվածի կոնի առանցքից հյուսիսից կամ հարավից է անցնում: Խավարումների տեղային հանգամանքները հազարամյա ժամանակահատվածների համար անվստահելի են ΔT-ի անորոշության պատճառով, որը Երկրի ռոտացիայի տատանումներից է հետևում:"
+
+msgid "Notes: Time in parentheses means the contact is invisible at current location. Transit times during thousands of years in the past and future are not reliable due to uncertainty in ΔT which is caused by fluctuations in Earth's rotation."
+msgstr "Նշումներ. Փակագծերում գրված ժամանակը նշանակում է, որ շոշափումը այս տեղայում չեզում է: Անցման ժամերը հազարամյա ժամանակահատվածների համար անվստահելի են ΔT-ի անորոշության պատճառով, որը Երկրի ռոտացիայի տատանումներից է հետևում:"
+
+msgid "Nothing computed yet, or nothing in this category is up."
+msgstr "Դեռ ոչ մեկ հաշվարկված, կամ այս կատեգորիայում ոչ մեկ ամբ-վան չկա։"
+
+msgid "Nothing computed yet."
+msgstr "Դեռ ոչ մեկ հաշվարկված։"
+
+msgid "Nothing found for “%s”."
+msgstr "Ոչինչ չի գտնվել \"%s\"-ի համար:"
+
+msgid "Nothing in this list matches."
+msgstr "Ոչ մեկ այս ցանկում չի համապատասխանում։"
+
+msgid "Nothing in this list yet. Pick something out of the sky and tap the star on its card to keep it here."
+msgstr "Ոչ մեկ այս ցանկում դեռ։ Ընտրեք ինչ-որ բան երկինքից և հպել աստղային չափը դրա քարտեզի վրա պահելու համար այստեղ։"
+
+msgid "Nothing is selected. Pick an object in the sky first."
+msgstr "Ոչ մեկ ընտրված չէ։ Առաջինը ընտրեք առարկա երկինքից։"
+
+msgid "Nothing matches."
+msgstr "Ոչ մեկ չի համապատասխանում։"
+
+msgid "Nothing selected"
+msgstr "Ոչ մեկ ընտրված չէ"
+
+msgid "Nothing to plot."
+msgstr "Գծվածք չկա։"
+
+msgid "Nothing to show."
+msgstr "Ցույց տալու բան չկա։"
+
+msgid "Now"
+msgstr "Այժմ"
+
+msgid "N× above"
+msgstr "N× վերև"
+
+msgid "OBJECT"
+msgstr "ԱՌԱՐԿԱ"
+
+msgid "OBJECTS"
+msgstr "ԱՌԱՐԿԱՆԵՐ"
+
+msgid "Object"
+msgstr "Առարկա"
+
+msgid "Object 1"
+msgstr "Առարկա 1"
+
+msgid "Object 2"
+msgstr "Առարկա 2"
+
+msgid "Objects which are up"
+msgstr "Առարկաներ, որոնք բարձր են"
+
+msgid "Observable duration"
+msgstr "Դիտելի տևողություն"
+
+msgid "Observing list"
+msgstr "Դիտողական ցանկ"
+
+msgid "Observing list highlight"
+msgstr "Դիտողական ցանկի ընդգծում"
+
+msgid "Observing lists"
+msgstr "Դիտողական ցանկեր"
+
+msgid "Occultation"
+msgstr "Ծածկում"
+
+msgid "On the sky"
+msgstr "Երկնքում"
+
+msgid "One color"
+msgstr "Մեկ գույն"
+
+msgid "One color for all orbits"
+msgstr "Մեկ գույն բոլոր ուղեծրերի համար"
+
+msgid "Only for N latest selected objects"
+msgstr "Միայն N-ի վերջին ընտրված առարկաների համար"
+
+msgid "Only for Solar elevation"
+msgstr "Միայն արեգակային բարձրացման համար"
+
+msgid "Only list"
+msgstr "Միայն ցանկ"
+
+msgid "Only one at a time"
+msgstr "Միայն մեկ անընդմեջ"
+
+msgid "Only orbit for selected object…"
+msgstr "Միայն ընտրված առարկայի ուղեծր…"
+
+msgid "Only orbits of major planets…"
+msgstr "Միայն հիմնական մոլորակների ուղեծրեր…"
+
+msgid "Oort cloud objects"
+msgstr "Օորտ ամպի մարմիններ"
+
+msgid "Opac."
+msgstr "Անթափ."
+
+msgid "Opacity"
+msgstr "Անթափանցություն"
+
+msgid "Open date and time"
+msgstr "Բացել ամսաթիվը և ժամանակը"
+
+msgid "Open location"
+msgstr "Բացել տեղադրությունը"
+
+msgid "Open star clusters"
+msgstr "Բաց աստղային կուտակներ"
+
+msgid "Opens the JUPOS project in a browser"
+msgstr "Բացել JUPOS նախագիծը բրաուզերում"
+
+msgid "Opposition"
+msgstr "Հակադրություն"
+
+msgid "Opposition of"
+msgstr "Հակադրություն"
+
+msgid "Oppositions"
+msgstr "Հակադրություններ"
+
+msgid "Orbit colors"
+msgstr "Ուղեծրի գույներ"
+
+msgid "Orbital periods ratio"
+msgstr "Ուղեծրային պարբերությունների հար."
+
+msgid "Orbital velocity"
+msgstr "Ուղեծրային արագություն"
+
+msgid "Orbits"
+msgstr "Ուղեծրեր"
+
+msgid "Orbits of Oort cloud objects"
+msgstr "Oort ամպի առարկաների ուղեծրեր"
+
+msgid "Orbits of comets"
+msgstr "Գիսաստղերի ուղեծրեր"
+
+msgid "Orbits of cubewanos"
+msgstr "Cubewanos-ի ուղեծրեր"
+
+msgid "Orbits of dwarf planets"
+msgstr "Թզուկ մոլորակների ուղեծրեր"
+
+msgid "Orbits of interstellar objects"
+msgstr "Աստղերի միջև առարկաների ուղեծրեր"
+
+msgid "Orbits of major planets"
+msgstr "Հիմնական մոլորակների ուղեծրեր"
+
+msgid "Orbits of minor planets"
+msgstr "Փոքր մոլորակների ուղեծրեր"
+
+msgid "Orbits of moons"
+msgstr "Լուսինների ուղեծրեր"
+
+msgid "Orbits of plutinos"
+msgstr "Plutinos-ի ուղեծրեր"
+
+msgid "Orbits of scattered disk objects"
+msgstr "Ցրված դիսկի առարկաների ուղեծրեր"
+
+msgid "Orbits of sednoids"
+msgstr "Sednoids-ի ուղեծրեր"
+
+msgid "Otherwise every move adopts the zone of the new place."
+msgstr "Հակառակ դեպքում յուրաքանչյուր շարժում ընդունում է նոր տեղի գոտին։"
+
+msgid "Outline craters"
+msgstr "Ուրվագծել խառնարկերը"
+
+msgid "PD (J2000)"
+msgstr "ՀՀ (J2000)"
+
+msgid "Pan the sky"
+msgstr "Պանել երկինքը"
+
+msgid "Partial eclipse begins"
+msgstr "Մասնակի խավարումը սկսվում է"
+
+msgid "Partial eclipse ends"
+msgstr "Մասնակի խավարումը ավարտվում է"
+
+msgid "Partitions"
+msgstr "Պառակցումներ"
+
+msgid "Partitions thickness"
+msgstr "Պառակցումների հաստությունը"
+
+msgid "Path width"
+msgstr "Ուղու լայնությունը"
+
+msgid "Pause"
+msgstr "Դադար"
+
+msgid "Paused - start"
+msgstr "Դադարեցված − սկսել"
+
+msgid "Penumbral magnitude"
+msgstr "Կիսաստվերային աստղային մեծություն"
+
+msgid "Per."
+msgstr "Պար."
+
+msgid "Perfect visibility conditions for current location"
+msgstr "Կատարյալ տեսանելիության պայմաններ այս տեղայիցի համար"
+
+msgid "Perihelion"
+msgstr "Պերիհելիոն"
+
+msgid "Perihelion and aphelion"
+msgstr "Պերիհելիոն և ապհելիոն"
+
+msgid "Phase"
+msgstr "Փուլ"
+
+msgid "Phase angle"
+msgstr "Փուլի անկ."
+
+msgid "Phenomena"
+msgstr "Երևույթներ"
+
+msgid "Pick two different bodies to see how their distance changes."
+msgstr "Ընտրեք երկու տարբեր մարմիններ՝ տեսնելու համար, թե ինչպես է փոխվում նրանց հեռավորությունը։"
+
+msgid "Pinch"
+msgstr "Ծակել"
+
+msgid "Planet"
+msgstr "Մոլորակ"
+
+msgid "Planet and time zone"
+msgstr "Մոլորակ և ժամային գոտի"
+
+msgid "Planet markers"
+msgstr "Մոլորակների նշիչներ"
+
+msgid "Planetary nebulae"
+msgstr "Մոլորակային միգամածություններ"
+
+msgid "Planetary nebulae (<%1 mag)"
+msgstr "Մոլորակային միգամածություններ (<%1 մ.)"
+
+msgid "Planetary nomenclature"
+msgstr "Մոլորակային նոմենկլատուրա"
+
+msgid "Planetary transits"
+msgstr "Մոլորակների տրանզիտներ"
+
+msgid "Planets"
+msgstr "Մոլորակներ"
+
+msgid "Planets and Sun"
+msgstr "Մոլորակներ և Արեգակ"
+
+msgid "Planets magnitude algorithm"
+msgstr "Մոլորակների աստղային մեծության ալգորիթմ"
+
+msgid "Please select object to plot its 'Monthly Elevation' graph for the current year at selected time."
+msgstr "Ընտրեք մարմին նրա 'Ամսական բարձրություն' գրաֆիկը գծելու համար ընթացիկ տարում:"
+
+msgid "Please select object to plot its graph 'Altitude vs. Time'."
+msgstr "Ընտրեք մարմին 'Բարձրություն ընդդեմ ժամանակի' գրաֆիկը գծելու համար:"
+
+msgid "Please select object to plot its graph 'Azimuth vs. Time'."
+msgstr "Ընտրեք մարմին 'Ազիմուտ ընդդեմ ժամանակի' գրաֆիկը գծելու համար:"
+
+msgid "Plutinos"
+msgstr "Պլուտինո"
+
+msgid "Pluto, Ceres, Pallas, Juno and Vesta"
+msgstr "Պլուտո, Ցերես, Պալաս, Հունո և Վեստա"
+
+msgid "Point size"
+msgstr "Կետի չափը"
+
+msgid "Pointing"
+msgstr "Ուղղում"
+
+msgid "Polar distance"
+msgstr "Բևեռային հեռավորություն"
+
+msgid "Polar distance, not declination"
+msgstr "Բևեռային հեռավորություն, ոչ թե լայնություն"
+
+msgid "Poles and points"
+msgstr "Բևեռներ և կետեր"
+
+msgid "Polygon colour"
+msgstr "Բազմանկյունի գույն"
+
+msgid "Position"
+msgstr "Դիրք"
+
+msgid "Position angle"
+msgstr "Դիրքային անկյուն"
+
+msgid "Positions"
+msgstr "Դիրքերը"
+
+msgid "Positive values only"
+msgstr "Միայն դրական արժեքներ"
+
+msgid "Precession circles"
+msgstr "Պրեցեսիայի շրջանակներ"
+
+msgid "Previous"
+msgstr "Նախորդ"
+
+msgid "Pronounce"
+msgstr "Արտասանել"
+
+msgid "Pulsars"
+msgstr "Պալսար"
+
+msgid "Quadrature circle"
+msgstr "Քառակցի շրջանակ"
+
+msgid "Query SIMBAD about selected object"
+msgstr "SIMBAD-ից հարցեր ընտրված օբյեկտի մասին"
+
+msgid "Query options"
+msgstr "Հարցման ընտրանքներ"
+
+msgid "Quit"
+msgstr "Ելք"
+
+msgid "Quit button"
+msgstr "Ելքի կոճակ"
+
+msgid "Range"
+msgstr "Միջակայք"
+
+msgid "Reading…"
+msgstr "Ընթերցում…"
+
+msgid "Real time speed"
+msgstr "Իրական ժամանակի արագություն"
+
+msgid "Recent Searches"
+msgstr "Վերջին որոնումներ"
+
+msgid "Rectangular FOV"
+msgstr "Ուղղանկյուն տեսական դաշտ"
+
+msgid "Refraction, extinction, sky brightness"
+msgstr "Բեկում, մթագնություն, երկնքի պայծառություն"
+
+msgid "Regions of the sky"
+msgstr "Երկնքի շրջաններ"
+
+msgid "Relative scale"
+msgstr "Հարաբերական մասշտաբ"
+
+msgid "Remove %s"
+msgstr "Հեռացնել %s"
+
+msgid "Remove from observing list"
+msgstr "Հեռացնել դիտարկումների ցանկից"
+
+msgid "Rename"
+msgstr "Վերանվանել"
+
+msgid "Reset"
+msgstr "Վերսկսել"
+
+msgid "Reset all"
+msgstr "Վերասկսել բոլորը"
+
+msgid "Restarting…"
+msgstr "Վերսկսում…"
+
+msgid "Results"
+msgstr "Արդյունքներ"
+
+msgid "Right ascension"
+msgstr "Աջ ծագում"
+
+msgid "Rise"
+msgstr "Ծագում"
+
+msgid "Rises"
+msgstr "Ծագումներ"
+
+msgid "Rotation"
+msgstr "Պտույտ"
+
+msgid "Running"
+msgstr "Աշխատում է"
+
+msgid "SIMBAD did not answer."
+msgstr "SIMBAD պատասխան չտվեց:"
+
+msgid "SIMBAD is switched off in the search options."
+msgstr "SIMBAD-ը անջատված է որոնման ընտրանքներում:"
+
+msgid "SIMBAD is switched off. Turn it on under Options to look objects up online."
+msgstr "SIMBAD-ը անջատված է: Միացրեք այն Ընտրանքներում՝ առցանց օբյեկտներ փնտրելու համար:"
+
+msgid "SIMBAD server"
+msgstr "SIMBAD հաղորդակցման սերվեր"
+
+msgid "Saros"
+msgstr "Սարոս"
+
+msgid "Saros %s"
+msgstr "Սարոս %s"
+
+msgid "Saturation"
+msgstr "Հագեցածություն"
+
+msgid "Save"
+msgstr "Հիշել"
+
+msgid "Save either the current FOV and direction of view or all the current options for use at next startup. Restoring default settings requires a restart of the app."
+msgstr "Հիշել ընթացիկ տեսական դաշտը և դիտման ուղղությունը կամ բոլոր ընթացիկ ընտրանքները հաջորդ գործարկման համար: Լռելյայն կարգավորումների վերականգնումը պահանջում է ծրագրի վերսկսում:"
+
+msgid "Save to observing list"
+msgstr "Հիշել դիտարկումների ցանկում"
+
+msgid "Save view"
+msgstr "Հիշել տեսքը"
+
+msgid "Scale"
+msgstr "Մասշտաբ"
+
+msgid "Scale factor"
+msgstr "Մասշտաբային գործակից"
+
+msgid "Scale marker and label visibility by surface brightness"
+msgstr "Մասշտաբել նշիչ և պիտակ տեսանելիությունը մակերեսի պայծառության կախված"
+
+msgid "Scales smoothly between 1× at the minimum field of view and the factor above at the maximum"
+msgstr "Մասշտաբել հարթ 1×-ից տեսական դաշտի նվազագույնում մինչև վերը նշված գործակիցը առավելագույնում"
+
+msgid "Scattered disc objects"
+msgstr "Ցրված սկավառակի մարմիններ"
+
+msgid "Screen label"
+msgstr "Էկրանի պիտակ"
+
+msgid "Search"
+msgstr "Փնտրել"
+
+msgid "Search in list"
+msgstr "Փնտրել ցանկում"
+
+msgid "Search in list..."
+msgstr "Փնտրել ցանկում…"
+
+msgid "Search options"
+msgstr "Փնտրման ընտրանքներ"
+
+msgid "Seasons"
+msgstr "Եղանակներ"
+
+msgid "Second body"
+msgstr "Երկրորդ մարմին"
+
+msgid "Second celestial body"
+msgstr "Երկրորդ երկնային մարմին"
+
+msgid "Second graph"
+msgstr "Երկրորդ գրաֆիկ"
+
+msgid "Second object"
+msgstr "Երկրորդ օբյեկտ"
+
+msgid "Secondary intercardinal points"
+msgstr "Երկրորդային միջանկար կողային կետեր"
+
+msgid "Sednoids"
+msgstr "Սեդնոիդ"
+
+msgid "See the sky through the ground"
+msgstr "Տեսել երկինքը գետնի միջով"
+
+msgid "Seen now"
+msgstr "Տեսված հիմա"
+
+msgid "Select an object first: this asks SIMBAD what it holds around it."
+msgstr "Նախ ընտրեք մարմին. SIMBAD-ը հարցնում է, թե ինչ է այն պահում դրա շուրջ:"
+
+msgid "Select it and show its card"
+msgstr "Ընտրեք այն և ցուցադրեք դրա քարտը"
+
+msgid "Select something in the sky first — this page works on the selection."
+msgstr "Նախ ընտրեք բան երկնքից — այս էջը աշխատում է ընտրության հետ:"
+
+msgid "Selected object"
+msgstr "Ընտրված օբյեկտ"
+
+msgid "Sep."
+msgstr "Բաժան."
+
+msgid "Separate colors for orbits by object type"
+msgstr "Առանձին գույներ ուղեծրերի համար ըստ օբյեկտի տեսակի"
+
+msgid "Separate colors for orbits of major planets"
+msgstr "Առանձին գույներ հիմնական մոլորակների ուղեծրերի համար"
+
+msgid "Separation"
+msgstr "Անջատում"
+
+msgid "September equinox"
+msgstr "Սեպտ. գիշերահավասար."
+
+msgid "Server"
+msgstr "Հաղորդակցման սերվեր"
+
+msgid "Set"
+msgstr "Սահմանել"
+
+msgid "Set the clock to %s"
+msgstr "Ժամացույցը հավաքել %s"
+
+msgid "Set the place"
+msgstr "Սահմանել տեղը"
+
+msgid "Set to now"
+msgstr "Սահմանել հիմա"
+
+msgid "Sets"
+msgstr "Հավաքածուներ"
+
+msgid "Shadow map for non-convex bodies. May coarsen the penumbra on some objects"
+msgstr "Ստվերների քարտե ոչ ուռուցիկ մարմինների համար: Կարող է կոշկել ստվերահեղ շրջանը որոշ օբյեկտների վրա"
+
+msgid "Shadow transit"
+msgstr "Ստվածի անցում"
+
+msgid "Shooting stars"
+msgstr "Թռչող աստղեր"
+
+msgid "Short notation for units of surface brightness"
+msgstr "Մակերեսային պայծառության միավորների կարճ նշում"
+
+msgid "Short steps over a long duration are slow."
+msgstr "Կարճ քայլերը երկար տևողության ընթացքում դանդաղ են:"
+
+msgid "Show"
+msgstr "Ցույց տալ"
+
+msgid "Show FOV center marker when position is search"
+msgstr "Ցուցադրել FOV կենտրոն նշիչ, երբ դիրքը փնտրվում է"
+
+msgid "Show additional buttons"
+msgstr "Ցուցադրել լրացուցիչ կոճակներ"
+
+msgid "Show additional star names"
+msgstr "Ցուցադրել լրացուցիչ աստղերի անունները"
+
+msgid "Show all information"
+msgstr "Ցուցադրել բոլոր տեղեկատվություն"
+
+msgid "Show atmospheric extinction"
+msgstr "Ցուցադրել մթնոլորտային մակածում"
+
+msgid "Show boundaries of constellations"
+msgstr "Ցուցադրել համաստեղությունների սահմաններ"
+
+msgid "Show button in addition to keyboard shortcut?"
+msgstr "Ցուցադրել կոճակ ստեղնաշարի դյուրակցի հետ միասին?"
+
+msgid "Show controls"
+msgstr "Ցուցադրել կառավարման մեխանիզմներ"
+
+msgid "Show each body where it was when the light left it (recommended)"
+msgstr "Ցուցադրել յուրաքանչյուր մարմինը այնտեղ, որտեղ էր, երբ լույսը թողել (առաջարկվում է)"
+
+msgid "Show frames per second beside the field of view"
+msgstr "Ցուցադրել կադրերի քանակն օրորցում կամ տեսական դաշտի կողքին"
+
+msgid "Show hints and labels for planetary features"
+msgstr "Ցուցադրել հուշումներ և պիտակներ մոլորակային հատկանիշների համար"
+
+msgid "Show illumination"
+msgstr "Ցուցադրել լուսավորություն"
+
+msgid "Show in sky"
+msgstr "Ցուցադրել երկնքում"
+
+msgid "Show less"
+msgstr "Ցուցադրել ավելի քիչ"
+
+msgid "Show lunar stations (if defined)"
+msgstr "Ցուցադրել լուսային կայանները (եթե սահմանված է)"
+
+msgid "Show more"
+msgstr "Ցուցադրել ավելին"
+
+msgid "Show objects which are up"
+msgstr "Ցուցադրել այն օբյեկտներ, որոնք վերևում են"
+
+msgid "Show only named DSO"
+msgstr "Ցուցադրել միայն անվանված DSO-ները"
+
+msgid "Show only objects between the two sizes"
+msgstr "Ցուցադրել միայն երկու չափերի միջև օբյեկտներ"
+
+msgid "Show only the kinds ticked below"
+msgstr "Ցուցադրել միայն ստուգված տեսակները ստորև"
+
+msgid "Show or hide the two rails of controls"
+msgstr "Ցուցադրել կամ թաքցնել կառավարման երկու ռելսերը"
+
+msgid "Show orbit even if object is off screen"
+msgstr "Ցուցադրել ուղեծիր նույնիսկ, եթե օբյեկտը պատի տակ"
+
+msgid "Show orbit only for selected SSO"
+msgstr "Ցուցադրել ուղեծիր միայն ընտրված SSO-ի համար"
+
+msgid "Show orbits"
+msgstr "Ցուցադրել ուղեծրեր"
+
+msgid "Show orbits of major planets"
+msgstr "Ցուցադրել հիմնական մոլորակների ուղեծրերը"
+
+msgid "Show planetary nomenclature"
+msgstr "Ցուցադրել մոլորակային նոմենկլատուրա"
+
+msgid "Show special nomenclature points only"
+msgstr "Ցուցադրել միայն հատուկ նոմենկլատուրայի կետերը"
+
+msgid "Show surveys"
+msgstr "Ցուցադրել հետազոտություններ"
+
+msgid "Show this survey"
+msgstr "Ցուցադրել այս հետազոտությունը"
+
+msgid "Show tiny circles for minor bodies regardless of magnitude"
+msgstr "Ցուցադրել փոքր շրջանակներ փոքր մարմինների համար՝ անկախ մեծությունից"
+
+msgid "Show trails"
+msgstr "Ցուցադրել հետքերը"
+
+msgid "Show zodiac (if defined)"
+msgstr "Ցուցադրել կենդանակերպ (եթե սահմանված է)"
+
+msgid "Sidereal time"
+msgstr "Աստղային ժամանակ"
+
+msgid "Simbad Lookup Error: %s"
+msgstr "Simbad որոնման սխալ: %s"
+
+msgid "Simbad Lookup: querying"
+msgstr "Simbad որոնում՝ հարցում"
+
+msgid "Simulate self-shadowing"
+msgstr "Մոդելավորել ինքնածառայում"
+
+msgid "Simulation"
+msgstr "Մոդելավորում"
+
+msgid "Sky Culture"
+msgstr "Երկնքի մշակույթ"
+
+msgid "Sky and viewing options"
+msgstr "Երկնքի և դիտման ընտրանքներ"
+
+msgid "Sky culture"
+msgstr "Երկնքի մշակույթ"
+
+msgid "Slow down"
+msgstr "Դանդաղեցնել"
+
+msgid "Smallest, ′"
+msgstr "Ամենափոքր, ′"
+
+msgid "Solar System"
+msgstr "Արևային համակարգ"
+
+msgid "Solar System objects"
+msgstr "Արևային համակարգի օբյեկտներ"
+
+msgid "Solar altitude for Twilight Finder"
+msgstr "Արևային բարձրություն Մթնշաղի որոնողի համար"
+
+msgid "Solar elongation"
+msgstr "Արևային երկարացում"
+
+msgid "Solar system"
+msgstr "Արեգակնային համակարգ"
+
+msgid "Solar system objects"
+msgstr "Արեգակնային համակարգի մարմիններ"
+
+msgid "Solar system objects: comets"
+msgstr "Արեգակնային համակարգի մարմիններ. գիսաստղեր"
+
+msgid "Solar system objects: minor bodies"
+msgstr "Արեգակնային համակարգի մարմիններ. փոքր մարմիններ"
+
+msgid "Solar system objects: planets"
+msgstr "Արեգակնային համակարգի մարմիններ. մոլորակներ"
+
+msgid "Solstices (of date)"
+msgstr "Արևադարձ (տվյալ ամսաթվի)"
+
+msgid "Some objects may be found after activation respective plug-ins"
+msgstr "Որոշ օբյեկտներ կարող են գտնվել համապատասխան բալկերի ակտիվացումից հետո"
+
+msgid "Special points only"
+msgstr "Միայն հատուկ կետերը"
+
+msgid "Spectral Class"
+msgstr "Սպեկտրային դաս"
+
+msgid "Speed up"
+msgstr "Արագացնել"
+
+msgid "Spiky stars"
+msgstr "Սուր աստղեր"
+
+msgid "Stand where the landscape was shot, on the planet it names"
+msgstr "Կանգնեք այնտեղ, որտեղ վերցվել է լանդշաֆտը, այն մոլորակի վրա, որի անունն ունի"
+
+msgid "Star, planet, catalogue number…"
+msgstr "Աստղ, մոլորակ, կատալոգի համար…"
+
+msgid "Started"
+msgstr "Սկսվել"
+
+msgid "Starting"
+msgstr "Սկսում"
+
+msgid "Startup FOV"
+msgstr "Սկզբնական տեսական դաշտ"
+
+msgid "Startup direction of view"
+msgstr "Սկզբնական դիտման ուղղություն"
+
+msgid "Stationary (begin prograde motion)"
+msgstr "Անշարժ (պրոգրադային շարժ. սկ.)"
+
+msgid "Stationary (begin retrograde motion)"
+msgstr "Անշարժ (ռետրոգրադային շարժ. սկ.)"
+
+msgid "Stellarium's user guide covers the astronomy this app shares with it: stellarium.org/documentation"
+msgstr "Stellarium-ի օգնական նյութերը ընդգրկում են այս ծրագիրի հետ կիսված աստղային գիտությունը՝ stellarium.org/documentation"
+
+msgid "Step, hours"
+msgstr "Քայլ, ժամեր"
+
+msgid "Stop clock when starting"
+msgstr "Կանգնեցնել ժամացույցը սկսելիս"
+
+msgid "Strasbourg astronomical Data Center (France)"
+msgstr "Ստրասբուրգի աստղագիտական տվյալների կենտրոն (Ֆրանսիա)"
+
+msgid "Style"
+msgstr "Ոճ"
+
+msgid "Sun altitude"
+msgstr "Արեգակի բարձրություն"
+
+msgid "Sun at"
+msgstr "Արեգակը ժ-ին"
+
+msgid "Sun's altitude"
+msgstr "Արեգակի բարձրություն"
+
+msgid "Sun's corona"
+msgstr "Արեգակի օտար"
+
+msgid "Sun's glare"
+msgstr "Արեգակի փայլ"
+
+msgid "Sun, planets and moons of first body and observer's planet"
+msgstr "Արեգակ, մոլորակներ և առաջին մարմնի լուսինները և դիտարկողի մոլորակը"
+
+msgid "Sun, planets and moons of observer's planet"
+msgstr "Արեգակ, մոլորակներ և դիտարկողի մոլորակի լուսինները"
+
+msgid "Sunlight scattered by interplanetary dust"
+msgstr "Արեգակնային լույս, որ ցրված է մոլորակների միջև փոշով"
+
+msgid "Supergalactic"
+msgstr "Սուպերգալակտիկական"
+
+msgid "Superior conjunction"
+msgstr "Բարձրագյա միացում"
+
+msgid "Supernova candidates"
+msgstr "Գերնոր փոխանցիկ թեկնածուներ"
+
+msgid "Supernova remnant candidates"
+msgstr "Գերնոր մնացորդի թեկնածուներ"
+
+msgid "Supernova remnants"
+msgstr "Գերնոր մնացորդներ"
+
+msgid "Surveys"
+msgstr "Հետազոտություններ"
+
+msgid "Switch this off to see the trails for all Solar system bodies"
+msgstr "Անջատեք սա բոլոր Արևային համակարգի մարմինների հետքերը տեսնելու համար"
+
+msgid "Symbiotic stars"
+msgstr "Սիմբիոտիկ աստղեր"
+
+msgid "Synodic period"
+msgstr "Սինոդիկական պարբերություն"
+
+msgid "System date at"
+msgstr "Համակարգի ամսաթիվ"
+
+msgid "System default"
+msgstr "Համակարգի լռելյայն"
+
+msgid "Table"
+msgstr "Աղյուսակ"
+
+msgid "Tabular output for coordinates and time"
+msgstr "Աղյուսակային ելք կոորդինատների և ժամանակի համար"
+
+msgid "Tap a colour to change it. Changes show on the sky at once and are kept."
+msgstr "Հպեք գույնը՝ այն փոխելու համար: Փոփոխությունները ցուցադրվում են երկնքում միանգամից և պահվում:"
+
+msgid "Tap again to confirm"
+msgstr "Հպեք կրկին՝ հաստատելու համար"
+
+msgid "Tap an object"
+msgstr "Հպեք օբյեկտին"
+
+msgid "Tap the chart to read a value."
+msgstr "Հպեք գծապատկերին՝ արժեք ընդունելու համար:"
+
+msgid "Tap the clock"
+msgstr "Հպեք ժամացույցին"
+
+msgid "Tap the gear"
+msgstr "Հպեք գլանին"
+
+msgid "Tap the map to stand there."
+msgstr "Հպեք քարտեզին՝ այնտեղ կանգնելու համար:"
+
+msgid "Tap the place"
+msgstr "Հպեք տեղին"
+
+msgid "Tap to confirm"
+msgstr "Հպեք՝ հաստատելու համար"
+
+msgid "Tertiary intercardinal points"
+msgstr "Երրորդային միջանկար կողային կետեր"
+
+msgid "Text angle"
+msgstr "Տեքստի անկյուն"
+
+msgid "The Great Red Spot drifts in System II longitude. Enter a recent measurement and the drift rate to carry it forward from."
+msgstr "Մեծ Կարմիր Հատ շարժվում է II համակարգի երկայնության մեջ: Մուտքագրեք վերջին չափումը և տեղաշարժի դրույքաչափը՝ այն առաջ տանելու համար:"
+
+msgid "The algorithm is based on visual observations 1877-1891 by G. Müller and was still republished in the Explanatory Supplement to the Astronomical Ephemeris (1961)."
+msgstr "Ալգորիթմը հիմնված է 1877-1891 թվականներում G. Müller-ի տեսողական դիտարկումների վրա և վերապահարկայլ հրատարակվել է Astronomical Ephemeris-ի Բացատրական Հավելվածում (1961):"
+
+msgid "The algorithm was published by A. Mallama & J. L. Hilton: Computing apparent planetary magnitudes for the Astronomical Almanac. Astronomy&Computing 25 (2018) 10-24."
+msgstr "Ալգորիթմը հրատարակվել է A. Mallama և J. L. Hilton-ի կողմից՝ Astronomical Almanac-ի համար երեւացող մոլորակային մեծությունների հաշվարկ: Astronomy&Computing 25 (2018) 10-24:"
+
+msgid "The algorithm was published in the 2nd edition of the Explanatory Supplement to the Astronomical Almanac (1992)."
+msgstr "Ալգորիթմը հրատարակվել է Astronomical Almanac-ի Բացատրական Հավելվածի 2-րդ հրատարակության մեջ (1992):"
+
+msgid "The algorithm was published in the 3rd edition of the Explanatory Supplement to the Astronomical Almanac (2013)."
+msgstr "Ալգորիթմը հրատարակվել է Astronomical Almanac-ի Բացատրական Հավելվածի 3-րդ հրատարակության մեջ (2013):"
+
+msgid "The algorithm was used in the Astronomical Almanac (1984 and later) and gives V (instrumental) magnitudes (allegedly from D.L. Harris)."
+msgstr "Ալգորիթմը օգտագործվել է Astronomical Almanac-ում (1984 և ավելի ուշ) և տալիս է V (գործիքային) մեծությունները (ենթադրաբար D.L. Harris-ից):"
+
+msgid "The classical cepheids"
+msgstr "Դասական Փեյդեր"
+
+msgid "The colour each kind of object is drawn in"
+msgstr "Գույն, որով յուրաքանչյուր տեսակի օբյեկտ գծվում է"
+
+msgid "The engine did not answer with any colours."
+msgstr "Շարժիչը չպատասխանեց որևէ գույներով:"
+
+msgid "The galactic band"
+msgstr "Գալակտիկական շերտ"
+
+msgid "The greatest eclipse is invisible in current location"
+msgstr "Մեծագույն խավարումը չեզում է այս տեղայից"
+
+msgid "The horizon outline instead of the panorama"
+msgstr "Հորիզոնի ուրվագիծ՝ պանորամայի փոխարեն"
+
+msgid "The path each body has taken across the sky"
+msgstr "Ուղին, որով յուրաքանչյուր մարմին անցել է երկնքում"
+
+msgid "The shortest label the culture defines"
+msgstr "Ամենակարճ պիտակը, որ մշակույթը սահմանում է"
+
+msgid "Thickness"
+msgstr "Հաստություն"
+
+msgid "This copy ships no scripts."
+msgstr "Այս պատճենը չի պարունակում սցենարներ:"
+
+msgid "This device has no location service."
+msgstr "Այս սարքն չունի գտնվելու վայրի ծառայություն:"
+
+msgid "This part of the engine exposes no settings on this build."
+msgstr "Շարժիչի այս մասը չի բացահայտում կարգավորումներ այս կառուցման մեջ:"
+
+msgid "This tool works on Earth only!"
+msgstr "Այս գործիքը աշխատում է միայն Երկրի վրա!"
+
+msgid "This tool works on Earth only. Short steps over a long duration are slow."
+msgstr "Այս գործիքն աշխատում է միայն Երկրի վրա: Կարճ քայլերը երկար տևողության ընթացքում դանդաղ են:"
+
+msgid "This year"
+msgstr "Այս տարի"
+
+msgid "Time"
+msgstr "Ժամանակ"
+
+msgid "Time correction"
+msgstr "Ժամանակի ուղղում"
+
+msgid "Time of day"
+msgstr "Օրվա ժամանակ"
+
+msgid "Time span"
+msgstr "Ժամանակային միջակայք"
+
+msgid "Time step"
+msgstr "Ժամանակային քայլ"
+
+msgid "Time zone"
+msgstr "Ժամային գոտի"
+
+msgid "To the next (mths)"
+msgstr "Հաջորդին (ամս)"
+
+msgid "To the next, months"
+msgstr "Հաջորդին, ամսներ"
+
+msgid "Today"
+msgstr "Այսօր"
+
+msgid "Toggle display of nebula images."
+msgstr "Միացնել/անջատել մառախլի պատկերների ցուցադրումը:"
+
+msgid "Toggle display of the button for the Digitized Sky Survey."
+msgstr "Միացնել/անջատել Թվային երկնքի հետազոտության կոճակի ցուցադրումը:"
+
+msgid "Toggle display of the button for the HiPS Surveys. Select a survey in the View settings."
+msgstr "Միացնել/անջատել HiPS հետազոտությունների կոճակի ցուցադրումը: Ընտրեք հետազոտություն Տեսք կարգավորումներում:"
+
+msgid "Toggle drawing Sun's glare"
+msgstr "Միացնել/անջատել Արեգակի փայլի գծում"
+
+msgid "Toggle drawing halo around the Moon"
+msgstr "Միացնել/անջատել Լուսնի շուրջ հալոի գծում"
+
+msgid "Toggle permanent drawing of Sun's corona when atmosphere is disabled"
+msgstr "Միացնել/անջատել Արեգակի օտարի մշտական գծումը, երբ մթնոլորտը անջատված է"
+
+msgid "Toggle the usage of background under GUI buttons"
+msgstr "Միացնել/անջատել ֆոնի օգտագործումը GUI կոճակների տակ"
+
+msgid "Total eclipse begins"
+msgstr "Լրիվ խավ. սկ."
+
+msgid "Total eclipse ends"
+msgstr "Լրիվ խավ. ավ."
+
+msgid "Trails"
+msgstr "Հետքերը"
+
+msgid "Transit"
+msgstr "Տրանզիտ"
+
+msgid "Translated"
+msgstr "Թարգմանված"
+
+msgid "Transparency"
+msgstr "Թափանցիկություն"
+
+msgid "Twilight and rise and set times are worked out for an observer on Earth. Move back to Earth to see them."
+msgstr "Մթնշաղ և ծագման և մայր ժամանակներ հաշվարկվել են Երկրի վրա դիտորդի համար: Վերադարձ Երկիր՝ դրանք տեսնելու համար:"
+
+msgid "Twinkle"
+msgstr "Երկլկտում"
+
+msgid "Twinkle amount"
+msgstr "Երկլկտման քանակ"
+
+msgid "Twinkle even without atmosphere"
+msgstr "Երկլկտում նույնիսկ առանց մթնոլորտի"
+
+msgid "Twinkle is caused by atmospheric turbulence; this shows it regardless"
+msgstr "Երկլկտումը պատճառված մթնոլորտային տուրբուլենտության կողմից; սա ցուցադրում է այն, այլապես"
+
+msgid "Type a name, a Bayer letter or a catalogue number - Vega, α Lyr, M 31, NGC 224."
+msgstr "Մուտքագրեք անուն, Բայերի տառ կամ ցանցային համարակ - Վեղա, α Lyr, M 31, NGC 224."
+
+msgid "Types"
+msgstr "Տեսակներ"
+
+msgid "Umbral magnitude"
+msgstr "Ստվերային մեծություն"
+
+msgid "University of Strasbourg (France)"
+msgstr "Ստրազբուրգի համալսարան (Ֆրանսիա)"
+
+msgid "Unnamed star"
+msgstr "Անանուն աստղ"
+
+msgid "Up to mag."
+msgstr "Մինչև մ."
+
+msgid "Update"
+msgstr "Թարմացնել"
+
+msgid "Use SIMBAD"
+msgstr "Օգտագործել SIMBAD"
+
+msgid "Use additional names of DSO"
+msgstr "Օգտագործել DSO-ի լրացուցիչ անուններ"
+
+msgid "Use autofill only from the beginning of words"
+msgstr "Ինքնալրացում միայն բառերի սկզբից"
+
+msgid "Use buttons background"
+msgstr "Կոճակների ֆոն"
+
+msgid "Use common symbols for coordinate systems"
+msgstr "Ընդհանուր նշաններ կոորդինատային համակարգերի համար"
+
+msgid "Use custom time zone"
+msgstr "Կարգավորված ժամանակային գոտի"
+
+msgid "Use decimal degrees"
+msgstr "Տասնորդական աստիճան"
+
+msgid "Use decimal degrees for coordinates"
+msgstr "Տասնորդական աստիճան կոորդինատների համար"
+
+msgid "Use designations for screen labels"
+msgstr "Անվանումներ էկրանի պիտակների համար"
+
+msgid "Use distance from North Celestial Pole, not declination from equator in equatorial coordinates"
+msgstr "Հեռավորություն Հյուսիսային երկնային բևեռից (ոչ շեղում հասարակածից)"
+
+msgid "Use mag/arcsec^2 for surface brightness"
+msgstr "Մակերեսային պայծառության համար օգտագործել mag/arcsec^2"
+
+msgid "Use more accurate 3D models (where available)"
+msgstr "Ավելի ճշգրիտ 3D մոդելներ (հասանելի դեպքում)"
+
+msgid "Use my location"
+msgstr "Իմ տեղադրությունը"
+
+msgid "Use on-line astronomical database SIMBAD"
+msgstr "Առցանց SIMBAD տվյալների շտեղ"
+
+msgid "Use outlines for big deep-sky objects"
+msgstr "Ուրվագծեր մեծ երկնային օբյեկտների համար"
+
+msgid "Use proportional hints"
+msgstr "Համաչափ հուշումներ"
+
+msgid "Use sorting by string length"
+msgstr "Տեսակավորում տողի երկարությամբ"
+
+msgid "Use surface brightness"
+msgstr "Մակերևութային պայծառություն"
+
+msgid "Use the date now shown in the sky"
+msgstr "Երկնքում ցուցադրված ամսաթիվը"
+
+msgid "Use the value in landscape.ini when it has one"
+msgstr "landscape.ini-ից (եթե առկա է)"
+
+msgid "Use the value stored for this location"
+msgstr "Պահպանված արժեք այս տեղադրության համար"
+
+msgid "Var. stars"
+msgstr "Փոփոխական աստղեր"
+
+msgid "Version"
+msgstr "Տարբերակ"
+
+msgid "Version %s  ·  Qt %s"
+msgstr "Տարբերակ %s  ·  Qt %s"
+
+msgid "Vertical viewport offset"
+msgstr "Ուղղաձիգ շեղում"
+
+msgid "View recent GRS measurements"
+msgstr "GRS-ի վերջին չափումները"
+
+msgid "Visibility"
+msgstr "Տեսանելիություն"
+
+msgid "Visual magnitude based on phase angle and albedo."
+msgstr "Տեսական մեծություն՝ հիմնված փուլային անկյան և ալբեդոյի վրա։"
+
+msgid "Western quadrature"
+msgstr "Արևմտյան քառակցում"
+
+msgid "When a search result is chosen"
+msgstr "Որոնման արդյունք ընտրելիս"
+
+msgid "Where Jupiter's Great Red Spot was, and when"
+msgstr "Լուսնթագի Մեծ Կարմիր Բծի հայտնի վայրը"
+
+msgid "Width"
+msgstr "Լայնություն"
+
+msgid "Working out the contact times…"
+msgstr "Շփման ժամանակները հաշվվում են…"
+
+msgid "Year"
+msgstr "Տարի"
+
+msgid "Zenith and Nadir"
+msgstr "Զենիտ և Նադիր"
+
+msgid "Zodiac"
+msgstr "Կենդանակերպ"
+
+msgid "Zodiac and lunar stations"
+msgstr "Կենդանակերպ և լուսնային կայարաններ"
+
+msgid "Zodiacal Light brightness"
+msgstr "Կենդանակերպային լույսի պայծառություն"
+
+msgid "Zoom in and out"
+msgstr "Մեծացնել և փոքրացնել"
+
+msgid "after sunset"
+msgstr "մայրամուտից հետո"
+
+msgid "before sunrise"
+msgstr "լուսամուտից առաջ"
+
+msgid "bright suburban"
+msgstr "պայծառ ամբ"
+
+msgid "east +"
+msgstr "արևելք +"
+
+msgid "engine ready, interface going live"
+msgstr "շարժիչ պատրաստ, ինտերֆեյս անցնում"
+
+msgid "excellent dark sky"
+msgstr "հիանալի մութ երկինք"
+
+msgid "from landscape, if given"
+msgstr "բնապատկերից (եթե տրված է)"
+
+msgid "inner city"
+msgstr "քաղաքի կենտրոն"
+
+msgid "mag %s"
+msgstr "մ %s"
+
+msgid "max %s"
+msgstr "առավ %s"
+
+msgid "mid %s"
+msgstr "միջ %s"
+
+msgid "north +"
+msgstr "հյուսիս +"
+
+msgid "rural/suburban"
+msgstr "գյուղական/կիսաքաղաքային"
+
+msgid "sci. translit."
+msgstr "գիտ. տրանսլ."
+
+msgid "select all"
+msgstr "ընտրել բոլորը"
+
+msgid "select none"
+msgstr "չընտրել որևէ"
+
+msgid "select preference"
+msgstr "նախապատվություն ընտրել"
+
+msgid "select standard"
+msgstr "ստանդարտ ընտրել"
+
+msgid "store preference"
+msgstr "նախապատվություն պահել"
+
+msgid "suburban/urban"
+msgstr "կիսաքաղաքային/քաղաքային"
+
+msgid "truly dark"
+msgstr "իսկապես մութ"
+
+msgid "unreadable snapshot"
+msgstr "չընկալի պատկերումը"
+
+msgid "with Solar Dates"
+msgstr "Արեգակային ամսաթվերով"
+
+msgid "… and moons"
+msgstr "… և լուսիններ"

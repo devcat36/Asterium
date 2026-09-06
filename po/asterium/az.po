@@ -1,0 +1,2623 @@
+# Asterium interface translation for az.
+# Copyright (C) 2026 the Asterium authors
+# This file is distributed under the same licence as the Asterium package.
+#
+# MACHINE TRANSLATION, not reviewed by a speaker of this language.
+# Terminology follows upstream Stellarium's own az catalogue, which was used
+# as a glossary, and every entry keeps the source's printf placeholders.
+# Corrections from a human translator are welcome and should simply replace these.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: asterium\n"
+"Language: az\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%d bodies"
+msgstr "%d cisim"
+
+msgid "%d object"
+msgstr "%d obyekt"
+
+msgid "%d objects"
+msgstr "%d obyekt"
+
+msgid "%s colour"
+msgstr "%s rəngi"
+
+msgid "%s from %s, ±%.0f m"
+msgstr "%s dən %s, ±%.0f m"
+
+msgid "12-hour"
+msgstr "12 saatlik"
+
+msgid "1× below"
+msgstr "1× aşağıda"
+
+msgid "24-hour"
+msgstr "24 saatlik"
+
+msgid "A button to mark every object of the current observing list on the sky."
+msgstr "Cari müşahidə siyahısının hər bir obyektini səmada işarələmək üçün düymə."
+
+msgid "A button to toggle ecliptic grid of date"
+msgstr "Tarixə görə ekliptika şəbəkəsini aç/kapa üçün düymə"
+
+msgid "A button to toggle equatorial J2000 grid"
+msgstr "Ekvatorial J2000 şəbəkəsini aç/kapa üçün düymə"
+
+msgid "A button to toggle galactic grid"
+msgstr "Qalaktik şəbəkəni aç/kapa üçün düymə"
+
+msgid "A polygonal model for some small moons, asteroids and comets instead of a sphere"
+msgstr "Bəzi kiçik peykləri, asteroid və kometləri sfera yerinə çoxüzlü model kimi göstər"
+
+msgid "A touch-first planetarium forked from Stellarium, whose astronomy engine it uses unchanged. The interface is new; everything that draws the sky is upstream's work."
+msgstr "Stellarium-dan branşlaşdırılmış, onun astronomiya mühərriki dəyişilməz istifadə edən toxunuş-əvvəl planetarium. İnterfeys yenidir; səmanı rəsm edən hər şey yuxarının işidir."
+
+msgid "Abbreviated names"
+msgstr "Qısaldılmış adlar"
+
+msgid "About this sky culture"
+msgstr "Bu səma kulturu haqqında"
+
+msgid "Above altitude, °"
+msgstr "Hündürlükdən yuxarı, °"
+
+msgid "Absolute scale"
+msgstr "Mütləq miqyas"
+
+msgid "Activate this option to calculate azimuth from south towards west."
+msgstr "Azimutu cənubdan qərb istiqamətinə hesablamaq üçün bu seçənəyi aktivləşdir."
+
+msgid "Active galaxies"
+msgstr "Aktiv qalaktikalar"
+
+msgid "Add %s"
+msgstr "%s əlavə et"
+
+msgid "Additional information settings"
+msgstr "Əlavə məlumat qurğuları"
+
+msgid "Adjust brightness to bright objects"
+msgstr "Parlaqlığı parlaq obyektlərə uyğunlaşdır"
+
+msgid "Algol-type eclipsing systems"
+msgstr "Algol-tipi tutulma sistemləri"
+
+msgid "Algorithm of ΔT"
+msgstr "ΔT alqoritmi"
+
+msgid "All IDs"
+msgstr "Bütün ID-lər"
+
+msgid "All naked-eye planets"
+msgstr "Bütün gözlə görülən planetlər"
+
+msgid "All solar eclipses"
+msgstr "Bütün günəş tutulmaları"
+
+msgid "Allow negative hour angles"
+msgstr "Mənfi saat bucaqlarına icazə ver"
+
+msgid "Allow results outside the recommended time range of the orbital elements"
+msgstr "Orbital elementlərin tövsiyə edilən zaman aralığının kənarında nəticələrə icazə ver"
+
+msgid "Almanac"
+msgstr "Almanax"
+
+msgid "Almanac: Sun, Moon and naked-eye planets"
+msgstr "Almanax: Günəş, Ay və gözlə görünən planetlər"
+
+msgid "Also find"
+msgstr "Həm də tap"
+
+msgid "Also plot"
+msgstr "Həm də çiz"
+
+msgid "Also show moons of selected object or planets"
+msgstr "Seçilmiş obyekt və ya planetlərin peyklərini də göstər"
+
+msgid "Altitude limit, °"
+msgstr "Hündürlük həddi, °"
+
+msgid "Altitude vs. Time"
+msgstr "Hündürlük vs. Vaxt"
+
+msgid "Amount"
+msgstr "Miqdar"
+
+msgid "An observer floats above its planet, so there is nowhere on it to stand. Choose another planet to come back down."
+msgstr "Müşahidəçi planetinin üzərində asılı qalır, ona qalmaq üçün heç bir yeri yoxdur. Aşağıya qayıtmaq üçün başqa bir planet seç."
+
+msgid "And"
+msgstr "Və"
+
+msgid "And also"
+msgstr "Və həm də"
+
+msgid "And the next (years)"
+msgstr "Və sonrakı (illər)"
+
+msgid "Ang. Size"
+msgstr "Bucaq. Ölçü"
+
+msgid "Angular distance"
+msgstr "Bucaq məsafəsi"
+
+msgid "Angular distance between the Moon and selected object"
+msgstr "Ay ilə seçilmiş obyekt arasında bucaq məsafəsi"
+
+msgid "Angular distance from the Moon"
+msgstr "Aydan bucaq məsafəsi"
+
+msgid "Angular distance from the Moon for second object"
+msgstr "İkinci obyekt üçün Aydan bucaq məsafəsi"
+
+msgid "Angular distance from the Sun"
+msgstr "Günəşdən bucaq məsafəsi"
+
+msgid "Angular distance from the Sun for second object"
+msgstr "İkinci obyekt üçün Günəşdən bucaq məsafəsi"
+
+msgid "Angular size"
+msgstr "Bucaq ölçüsü"
+
+msgid "Annual drift"
+msgstr "İllik sürülmə"
+
+msgid "Appearance"
+msgstr "Görünüş"
+
+msgid "Apply time interval limits to list"
+msgstr "Siyahıya zaman intervalı limitlərini tətbiq et"
+
+msgid "Art"
+msgstr "Təsvir"
+
+msgid "Artificial satellites and unnamed stars are excluded from calculation."
+msgstr "Süni peyklər və adı olmayan ulduzlar hesablamadan kənarlaşdırılır."
+
+msgid "Asking for permission…"
+msgstr "İcazə istəniyor…"
+
+msgid "Asks SIMBAD what it holds around the object that is selected now, and prints the answer as it comes back."
+msgstr "SIMBAD-dan indi seçilmiş obyekt ətrafında nə olduğunu soruşur və cavabı alındığı kimi çap edir."
+
+msgid "Ast. lines"
+msgstr "Ast. cizgi"
+
+msgid "Ast. names"
+msgstr "Ast. adları"
+
+msgid "Asterisms"
+msgstr "Ulduz topaları"
+
+msgid "Asterisms font size"
+msgstr "Ulduz topaları şrift ölçüsü"
+
+msgid "Astronomical Almanac (1984)"
+msgstr "Astronomik Almanax (1984)"
+
+msgid "Astronomical Almanac (default) enlarges by 2%; Danjon (1951) differs slightly"
+msgstr "Astronomik Almanak (əsas) 2% böyütür; Danjon (1951) bir az fərqlənir"
+
+msgid "Astronomical Twilight"
+msgstr "Astronomik Alacakaranlıq"
+
+msgid "Astronomical calculations"
+msgstr "Astronomik hesablamalar"
+
+msgid "Astronomical night"
+msgstr "Astronomik gecə"
+
+msgid "At"
+msgstr "Vaxtda"
+
+msgid "Atmosph."
+msgstr "Atmosf."
+
+msgid "Atmosphere visualization"
+msgstr "Atmosfer vizualizasiyası"
+
+msgid "Automatic closing dialog"
+msgstr "Avtomatik bağlanış dialoqu"
+
+msgid "Automatic transparency"
+msgstr "Avtomatik şəffaflıq"
+
+msgid "Axis distance"
+msgstr "Ox məsafəsi"
+
+msgid "Azi. grid"
+msgstr "Azi. şəbəkə"
+
+msgid "Azimuth"
+msgstr "Azimut"
+
+msgid "Azimuth and altitude rather than right ascension and declination"
+msgstr "Sağ asensiya və deklinasiya yerinə azimut və hündürlük"
+
+msgid "Azimuth from South"
+msgstr "Cənubdan azimut"
+
+msgid "Azimuth vs. Time"
+msgstr "Azimut vs. Vaxt"
+
+msgid "Back"
+msgstr "Geri"
+
+msgid "Bad visibility conditions for current location"
+msgstr "Cari mövqe üçün pis görünüş şəraiti"
+
+msgid "Beginning of center line; central eclipse begins"
+msgstr "Mərkəz xəttinin başlanğıcı; mərkəzi tutulma başlayır"
+
+msgid "Below the horizon here."
+msgstr "Burada ufüqün altında."
+
+msgid "Between objects"
+msgstr "Obyektlər arasında"
+
+msgid "Boundless"
+msgstr "Sınırsız"
+
+msgid "Bounds"
+msgstr "Sərhədlər"
+
+msgid "Bright Solar system objects (<%1 mag)"
+msgstr "Parlaq Günəş Sistemi obyektləri (<%1 böyüklüyü)"
+
+msgid "Bright barium stars"
+msgstr "Parlaq barium ulduzları"
+
+msgid "Bright carbon stars"
+msgstr "Parlaq karbon ulduzları"
+
+msgid "Bright double stars"
+msgstr "Parlaq ikili ulduzlar"
+
+msgid "Bright double stars (<%1 mag)"
+msgstr "Parlaq ikili ulduzlar (<%1 böyüklüyü)"
+
+msgid "Bright galaxies (<%1 mag)"
+msgstr "Parlaq qalaktikalar (<%1 böyüklüyü)"
+
+msgid "Bright nebulae"
+msgstr "Parlaq tümanlar"
+
+msgid "Bright nebulae (<%1 mag)"
+msgstr "Parlaq tümanlar (<%1 böyüklüyü)"
+
+msgid "Bright nova stars"
+msgstr "Parlaq nova ulduzları"
+
+msgid "Bright star clusters (<%1 mag)"
+msgstr "Parlaq ulduz topları (<%1 böyüklüyü)"
+
+msgid "Bright stars"
+msgstr "Parlaq ulduzlar"
+
+msgid "Bright stars (<%1 mag)"
+msgstr "Parlaq ulduzlar (<%1 böyüklüyü)"
+
+msgid "Bright stars with high proper motion"
+msgstr "Yüksək öz hərəkətli parlaq ulduzlar"
+
+msgid "Bright supernova stars"
+msgstr "Parlaq supernova ulduzları"
+
+msgid "Bright variable stars"
+msgstr "Parlaq dəyişkən ulduzlar"
+
+msgid "Bright variable stars (<%1 mag)"
+msgstr "Parlaq dəyişkən ulduzlar (<%1 böyüklüyü)"
+
+msgid "Brighter than"
+msgstr "Daha parlaq"
+
+msgid "Brightness"
+msgstr "Parlaqlıq"
+
+msgid "By object type"
+msgstr "Obyekt növünə görə"
+
+msgid "By planet"
+msgstr "Planeta göstərə"
+
+msgid "Calculate"
+msgstr "Hesabla"
+
+msgid "Calculating…"
+msgstr "Hesablama…"
+
+msgid "Caldwell objects"
+msgstr "Caldwell obyektləri"
+
+msgid "Cardinals"
+msgstr "Cəhətlər"
+
+msgid "Catalogue numbers instead of common names"
+msgstr "Ümumi adlar yerinə katalog nömrələri"
+
+msgid "Category"
+msgstr "Kateqoriya"
+
+msgid "Celestial poles (J2000)"
+msgstr "Səma qütbləri (J2000)"
+
+msgid "Celestial poles (of date)"
+msgstr "Səma qütbləri (tarix)"
+
+msgid "Center of FOV"
+msgstr "FOV mərkəzi"
+
+msgid "Centering button"
+msgstr "Mərkəzləşdirmə düyməsi"
+
+msgid "Central duration"
+msgstr "Mərkəzi müddət"
+
+msgid "Central eclipse begins"
+msgstr "Mərkəzi tutulma başlayır"
+
+msgid "Central eclipse ends"
+msgstr "Mərkəzi tutulma bitir"
+
+msgid "Centre"
+msgstr "Mərkəz"
+
+msgid "Centre on object"
+msgstr "Obyekt üzərində mərkəzlə"
+
+msgid "Centre point"
+msgstr "Mərkəz nöqtəsi"
+
+msgid "Circles"
+msgstr "Dairələr"
+
+msgid "Circular FOV"
+msgstr "Dairəvi FOV"
+
+msgid "Circumpolar circles"
+msgstr "Qütb ətrafı dairələr"
+
+msgid "City"
+msgstr "Şəhər"
+
+msgid "Civil Twilight"
+msgstr "Mənzil Alacakaranlığı"
+
+msgid "Cleanup"
+msgstr "Təmizlə"
+
+msgid "Clear"
+msgstr "Sil"
+
+msgid "Clear recent searches"
+msgstr "Son axtarışları sil"
+
+msgid "Clear the selection - a touch screen has no right button"
+msgstr "Seçimi sil - toxunuş ekranında sağ düymə yoxdur"
+
+msgid "Cleared."
+msgstr "Silindi."
+
+msgid "Click on star to show its constellation"
+msgstr "Bürcsünü göstərmək üçün ulduz üzərində klikləyin"
+
+msgid "Close"
+msgstr "Bağla"
+
+msgid "Close what is open; from the sky, leave the app running"
+msgstr "Açıq olanı bağla; səmadan, tətbiqi işlətməyə davam et"
+
+msgid "Clusters of galaxies"
+msgstr "Qalaktika topları"
+
+msgid "Coarse"
+msgstr "Qaba"
+
+msgid "Color"
+msgstr "Rəng"
+
+msgid "Color channel"
+msgstr "Rəng kanalı"
+
+msgid "Color of Lunar station lines"
+msgstr "Aysal istasiya xətlərinin rəngi"
+
+msgid "Color of asterism lines"
+msgstr "Ulduz topası cizgilərinin rəngi"
+
+msgid "Color of asterism names"
+msgstr "Ulduz topası adlarının rəngi"
+
+msgid "Color of constellation boundaries"
+msgstr "Bürc sərhədlərinin rəngi"
+
+msgid "Color of constellation lines"
+msgstr "Bürc xətlərinin rəngi"
+
+msgid "Color of constellation names"
+msgstr "Bürc adlarının rəngi"
+
+msgid "Color of nomenclature labels"
+msgstr "Nomenklatura etiketlərinin rəngi"
+
+msgid "Color of orbits"
+msgstr "Orbitin rəngi"
+
+msgid "Color of planet labels"
+msgstr "Planeta etiketlərinin rəngi"
+
+msgid "Color of ray helpers"
+msgstr "İstiqamətləyici xətlərinin rəngi"
+
+msgid "Color of trails"
+msgstr "İz xətlərinin rəngi"
+
+msgid "Color of zodiac lines"
+msgstr "Zodiak xətlərinin rəngi"
+
+msgid "Colors of orbit lines"
+msgstr "Orbit xətlərinin rəngləri"
+
+msgid "Colures"
+msgstr "Kolurlar"
+
+msgid "Comets up to mag."
+msgstr "Kometlər ölçüyə"
+
+msgid "Compass"
+msgstr "Kompas"
+
+msgid "Config"
+msgstr "Konfiqurasiyon"
+
+msgid "Configure colors of markers"
+msgstr "Markerlərin rənglərini konfiqurasiya et"
+
+msgid "Configure colors of orbit lines"
+msgstr "Orbit xətlərinin rənglərini konfiqurasiya et"
+
+msgid "Conjunction"
+msgstr "Birləşmə"
+
+msgid "Connecting line"
+msgstr "Birləşdirən xətt"
+
+msgid "Const."
+msgstr "Bürc."
+
+msgid "Constellations font size"
+msgstr "Bürclərin şrift ölçüsü"
+
+msgid "Contrast"
+msgstr "Kontrast"
+
+msgid "Coordinate system"
+msgstr "Koordinat sistemi"
+
+msgid "Coordinates"
+msgstr "Koordinatlar"
+
+msgid "Copyright"
+msgstr "Müəlliflik hüququ"
+
+msgid "Credits"
+msgstr "Kreditlər"
+
+msgid "Culmination altitude"
+msgstr "Zənil hündürlüyü"
+
+msgid "Current FoV"
+msgstr "Cari FOV"
+
+msgid "Custom"
+msgstr "Fərdi"
+
+msgid "Custom FoV limit"
+msgstr "Fərdi FOV həddi"
+
+msgid "Custom altitude of the Moon, °"
+msgstr "Ayın fərdi hündürlüyü, °"
+
+msgid "Custom altitude of the Sun, °"
+msgstr "Günəşin fərdi hündürlüyü, °"
+
+msgid "Custom settings for position of GRS"
+msgstr "GRS mövqeyi üçün fərdi qurğular"
+
+msgid "Custom values"
+msgstr "Fərdi dəyərlər"
+
+msgid "Cut the scale off below the limit"
+msgstr "Miqyası limitin altında kəs"
+
+msgid "DATE AND TIME (UTC)"
+msgstr "TARİX VƏ VAXT (UTC)"
+
+msgid "DSS survey"
+msgstr "DSS sorğusu"
+
+msgid "Dark nebulae"
+msgstr "Tünd tümanlar"
+
+msgid "Data"
+msgstr "Məlumat"
+
+msgid "Date"
+msgstr "Tarix"
+
+msgid "Date and time"
+msgstr "Tarix və vaxt"
+
+msgid "Date/time"
+msgstr "Tarix/vaxt"
+
+msgid "Dates"
+msgstr "Tarixlər"
+
+msgid "Dawn"
+msgstr "Subh"
+
+msgid "Dbl. stars"
+msgstr "Qoşa ulduzlar"
+
+msgid "Dec (J2000)"
+msgstr "Deklinasiya (J2000)"
+
+msgid "December solstice"
+msgstr "Dekabr bərabərləşməsi"
+
+msgid "Decimal degrees. −33.87 means 33.87° south. Elevation is metres above sea level; it moves the horizon down by a few arcminutes."
+msgstr "Onluq dərəcələr. −33.87 cənubda 33.87° deməkdir. Hündürlük dəniz səviyyəsindən metrlə; ufüqu bir neçə arkminut aşağı aparır."
+
+msgid "Declination"
+msgstr "Deklinasiya"
+
+msgid "Deep Sky"
+msgstr "Dərin Səma"
+
+msgid "Degrees per year the longitude moves by"
+msgstr "Uzunluğun hər il hərəkət etdiyi dərəcə"
+
+msgid "Degrees, hours and minutes as they are written - 12h30m49s, +41°16'09\", 187.7 - or plain decimal degrees."
+msgstr "Yazıldığı kimi dərəcələr, saatlar və dəqiqələr - 12h30m49s, +41°16'09\", 187.7 - və ya sadəcə onluq dərəcələr."
+
+msgid "Deletes all recent search object data, and the objects SIMBAD contributed."
+msgstr "Bütün son axtarış obyekt məlumatlarını və SIMBAD-ın qatdığı obyektləri silir."
+
+msgid "Designations for celestial coordinate systems"
+msgstr "Səma koordinat sistemləri üçün işarələr"
+
+msgid "Designations for double stars"
+msgstr "Qoşa ulduzlar üçün işarələr"
+
+msgid "Designations for variable stars"
+msgstr "Dəyişən ulduzlar üçün işarələr"
+
+msgid "Dim a survey near the horizon, as the air does"
+msgstr "Havayı olduğu kimi ufüq yaxınlığında sorğunu sönük et"
+
+msgid "Dimensions"
+msgstr "Ölçülər"
+
+msgid "Display formats of date and time"
+msgstr "Tarix və vaxtın göstərilmə formatları"
+
+msgid "Display objects from catalogs"
+msgstr "Kataloglardan obyektləri göstər"
+
+msgid "Displayed"
+msgstr "Göstərilən"
+
+msgid "Dist."
+msgstr "Məs."
+
+msgid "Distance, AU"
+msgstr "Məsafə, AU"
+
+msgid "Done"
+msgstr "Hazır"
+
+msgid "Drag"
+msgstr "Sür"
+
+msgid "Draw deep-sky objects at all"
+msgstr "Dərin səma obyektlərini tamamilə çiz"
+
+msgid "Draw only polygon"
+msgstr "Yalnız çoxbucaqlı çiz"
+
+msgid "Draw the enabled sky surveys"
+msgstr "Qabaqdan qurulmuş səma sorğularını çiz"
+
+msgid "Draw the planets, moons and minor bodies"
+msgstr "Planetləri, peykləri və kiçik cisimlər çiz"
+
+msgid "Drawn larger than life, so a body that is a few arcseconds wide is visible at all. The position stays true."
+msgstr "Həyattan daha böyük çizilmiş, belə ki, bir neçə arksekund genişliyində bir cisim tamamilə görünür. Mövqe doğru qalır."
+
+msgid "Duration"
+msgstr "Müddət"
+
+msgid "Duration (years)"
+msgstr "Müddət (illər)"
+
+msgid "Duration, months"
+msgstr "Müddət, aylar"
+
+msgid "Dusk"
+msgstr "Axşam"
+
+msgid "Dwarf planets"
+msgstr "Cırcır planetlər"
+
+msgid "Dynamic (FOV-based) Moon size"
+msgstr "Dinamik (FOV-əsaslı) Ay ölçüsü"
+
+msgid "ELEV. M"
+msgstr "HÜNDÜRLÜK. M"
+
+msgid "Earth"
+msgstr "Yer"
+
+msgid "Earth penumbra"
+msgstr "Yer yarı kölgəsi"
+
+msgid "Earth shadow enlargement after Danjon"
+msgstr "Danjon-dan sonra Yer kölgəsinin genişləndirilməsi"
+
+msgid "Earth umbra"
+msgstr "Yer tam kölgəsi"
+
+msgid "Eastern quadrature"
+msgstr "Şərq kvadraturası"
+
+msgid "Ecl. grid"
+msgstr "Ekl. şəbəkə"
+
+msgid "Eclipse"
+msgstr "Tutulma"
+
+msgid "Eclipse begins; first contact with Earth"
+msgstr "Tutulma başlayır; Torpaqla ilk təmas"
+
+msgid "Eclipse ends; last contact with Earth"
+msgstr "Tutulma bitir; Torpaqla son təmas"
+
+msgid "Eclipse magnitude"
+msgstr "Tutulma böyüklüyü"
+
+msgid "Eclipses"
+msgstr "Tutulmalar"
+
+msgid "Eclipses are computed for observers on Earth."
+msgstr "Tutulmalar Yerüzündəki müşahidəçilər üçün hesablanır."
+
+msgid "Ecliptic"
+msgstr "Ekliptika"
+
+msgid "Ecliptic (J2000)"
+msgstr "Ekliptika (J2000)"
+
+msgid "Ecliptic (J2000.0)"
+msgstr "Ekliptika (J2000.0)"
+
+msgid "Ecliptic (of date)"
+msgstr "Ekliptika (tarix)"
+
+msgid "Ecliptic grid (J2000)"
+msgstr "Ekliptika şəbəkəsi (J2000)"
+
+msgid "Ecliptic grid (of date)"
+msgstr "Ekliptika şəbəkəsi (tarix)"
+
+msgid "Ecliptic poles (J2000)"
+msgstr "Ekliptika qütbləri (J2000)"
+
+msgid "Ecliptic poles (of date)"
+msgstr "Ekliptika qütbləri (tarix)"
+
+msgid "Elev."
+msgstr "Hünd."
+
+msgid "Elevation"
+msgstr "Hündürlük"
+
+msgid "Elevation in metres"
+msgstr "Hündürlük metrlərdə"
+
+msgid "Elong."
+msgstr "Uzan."
+
+msgid "Elongation"
+msgstr "Uzaklaşma"
+
+msgid "Elongations and quadratures"
+msgstr "Elongasiyalar və kvadraturalar"
+
+msgid "Emission-line stars"
+msgstr "Emissiya xətti ulduzları"
+
+msgid "Enabled only"
+msgstr "Yalnız aktivləşdirilmiş"
+
+msgid "End of center line; central eclipse ends"
+msgstr "Mərkəz xəttinin sonu; mərkəzi tutulma bitir"
+
+msgid "Enter Culture..."
+msgstr "Mədəniyyət daxil et…"
+
+msgid "Ephemeris"
+msgstr "Efemeris"
+
+msgid "Equ. grid"
+msgstr "Ekv. şəbəkə"
+
+msgid "Equ. mount"
+msgstr "Ekv. montaj"
+
+msgid "Equator (of date)"
+msgstr "Ekvator (tarix)"
+
+msgid "Equatorial"
+msgstr "Ekvatorial"
+
+msgid "Equatorial (J2000.0)"
+msgstr "Ekvatorial (J2000.0)"
+
+msgid "Equatorial grid (J2000)"
+msgstr "Ekvatorial şəbəkə (J2000)"
+
+msgid "Equatorial grid (of date)"
+msgstr "Ekvatorial şəbəkə (tarix)"
+
+msgid "Equatorial radii ratio"
+msgstr "Ekvator radiusu nisbəti"
+
+msgid "Equinoxes (J2000)"
+msgstr "Ekinokslər (J2000)"
+
+msgid "Equinoxes (of date)"
+msgstr "Ekinokslər (tarix)"
+
+msgid "Evening"
+msgstr "Axşam"
+
+msgid "Every"
+msgstr "Hər"
+
+msgid "Every name the object is catalogued under"
+msgstr "Objektin kataloq altında salmaldığı hər ad"
+
+msgid "Exoplanetary systems"
+msgstr "Exoplanetli sistemlər"
+
+msgid "Explanatory Supplement (1992)"
+msgstr "İzahlı Əlavə (1992)"
+
+msgid "Explanatory Supplement (2013)"
+msgstr "İzahlı Əlavə (2013)"
+
+msgid "Exterior egress"
+msgstr "Xarici çıxış"
+
+msgid "Exterior ingress"
+msgstr "Xarici girişi"
+
+msgid "Extras"
+msgstr "Əlavələr"
+
+msgid "Fades the ground as you look below the horizon or zoom in"
+msgstr "Üfüqün altına baxdıqda və ya böyütdükdə torpağı solğunlaşdırır"
+
+msgid "Fading duration"
+msgstr "Solma müddəti"
+
+msgid "Faintest shown"
+msgstr "Ən zəif göstərilən"
+
+msgid "Favorites"
+msgstr "Sevimlilər"
+
+msgid "Fetching the survey lists…"
+msgstr "Sorğu siyahılarını alınır…"
+
+msgid "Field of view"
+msgstr "Görmə sahəsi"
+
+msgid "Filter"
+msgstr "Filtr"
+
+msgid "Filter by type"
+msgstr "Növ üzrə filtrə"
+
+msgid "Find a city"
+msgstr "Şəhər tap"
+
+msgid "Fine"
+msgstr "Yaxşı"
+
+msgid "First %d of %d - filter to narrow it."
+msgstr "Birincisi %d %d-dən - daraltmaq üçün filtrə."
+
+msgid "First body"
+msgstr "Birinci cisim"
+
+msgid "First celestial body"
+msgstr "Birinci səma cismi"
+
+msgid "First graph"
+msgstr "Birinci qraf"
+
+msgid "Fix"
+msgstr "Düzəlt"
+
+msgid "Fixed Equator"
+msgstr "Sabit Ekvator"
+
+msgid "Fixed Equatorial grid"
+msgstr "Sabit Ekvatorial şəbəkə"
+
+msgid "Fixed instant"
+msgstr "Sabit an"
+
+msgid "Flip buttons"
+msgstr "Düymələri çevir"
+
+msgid "Flip horiz."
+msgstr "Üfüqi çevir"
+
+msgid "Flip vert."
+msgstr "Dikey çevir"
+
+msgid "Font size"
+msgstr "Şrift ölçüsü"
+
+msgid "Frame rate"
+msgstr "Kadr tezliyi"
+
+msgid "From"
+msgstr "Kənardan"
+
+msgid "From year"
+msgstr "İldən"
+
+msgid "Full screen"
+msgstr "Tam ekran"
+
+msgid "Fullscreen button"
+msgstr "Tam ekran düyməsi"
+
+msgid "Further reading"
+msgstr "Əlavə oxu"
+
+msgid "GRS details…"
+msgstr "GRS detalları…"
+
+msgid "Gal. grid"
+msgstr "Qal. şəbəkə"
+
+msgid "Galactic"
+msgstr "Qalaktik"
+
+msgid "Galaxies"
+msgstr "Qalaktikalar"
+
+msgid "Gamma"
+msgstr "Qamma"
+
+msgid "Gamma, saturation, brightness, contrast, opacity, colour channel and inverted colours belong to one survey. Open a survey to set them."
+msgstr "Qamma, doyğunluq, parlaqlıq, kontrastlılıq, qeyri-şəffaflıq, rəng kanallı və tərsinə çevrilmiş rənglər bir sorğuya aiddir. Onları təyin etmək üçün sorğu açın."
+
+msgid "Generic"
+msgstr "Ümumi"
+
+msgid "Gestures"
+msgstr "Jestlər"
+
+msgid "Globular star clusters"
+msgstr "Qlobular ulduz topları"
+
+msgid "Go there"
+msgstr "Ora get"
+
+msgid "Go to position"
+msgstr "Mövqeyə get"
+
+msgid "Go to this eclipse"
+msgstr "Bu tutuluma get"
+
+msgid "Go to this moment"
+msgstr "Bu ana get"
+
+msgid "Go to this transit"
+msgstr "Bu keçişə get"
+
+msgid "Good visibility conditions for current location"
+msgstr "Cari mövqe üçün yaxşı görünüş şəraiti"
+
+msgid "Graphs"
+msgstr "Qrafiklər"
+
+msgid "Great Red Spot"
+msgstr "Böyük Qırmızı Nöqtə"
+
+msgid "Great Red Spot details"
+msgstr "Böyük Qırmızı Nöqtə detalları"
+
+msgid "Greatest eastern elongation"
+msgstr "Ən böyük şərq uzaklaşması"
+
+msgid "Greatest eclipse"
+msgstr "Ən böyük tutulma"
+
+msgid "Greatest elongation for an inner planet, quadrature for an outer one"
+msgstr "Daxili planet üçün ən böyük uzadılma, xarici planet üçün kvadratura"
+
+msgid "Greatest western elongation"
+msgstr "Ən böyük qərb uzaklaşması"
+
+msgid "Greek letters"
+msgstr "Yunan hərfləri"
+
+msgid "Grid density"
+msgstr "Şəbəkə sıxlığı"
+
+msgid "Grids"
+msgstr "Şəbəkələr"
+
+msgid "Ground"
+msgstr "Torpaq"
+
+msgid "Gyro"
+msgstr "Qiroskop"
+
+msgid "Gyro mode"
+msgstr "Qiroskop rejimi"
+
+msgid "Harvard-Smithsonian Center for Astrophysics (USA)"
+msgstr "Harvardın-Smitson Astrofizika Mərkəzi (ABŞ)"
+
+msgid "Height"
+msgstr "Hündürlük"
+
+msgid "Heliocentric distance"
+msgstr "Helisentrik məsafə"
+
+msgid "Heliocentric ecliptic positions of the major planets."
+msgstr "Böyük planetlərin helisentrik ekliptik mövqeləri."
+
+msgid "Herschel 400 objects"
+msgstr "Herschel 400 obyektləri"
+
+msgid "HiPS"
+msgstr "HiPS"
+
+msgid "HiPS Surveys"
+msgstr "HiPS Sorğuları"
+
+msgid "Hide controls"
+msgstr "Nəzarətləri gizlət"
+
+msgid "Hide deep-sky objects fainter than the limit"
+msgstr "Limitdən zəifləri gizlət"
+
+msgid "Hide nomenclature on the celestial body of observer"
+msgstr "Müşahidəçinin göy cismində nomenklaturanı gizlət"
+
+msgid "Hide orbits of minor bodies"
+msgstr "Kiçik cisimlərin orbitlərini gizlət"
+
+msgid "Highlight"
+msgstr "Vurğula"
+
+msgid "Highlight the objects of the observing list"
+msgstr "Müşahidə siyahısının obyektlərini vurğula"
+
+msgid "Hint circles marking each planet"
+msgstr "Hər bir planeti işarələyən ipucu dairələri"
+
+msgid "Hints"
+msgstr "İpuçları"
+
+msgid "Hints brightness"
+msgstr "İpuçlarının parlaqlığı"
+
+msgid "Hipparcos designations"
+msgstr "Hipparcos işarələri"
+
+msgid "Horizontal"
+msgstr "Üfqi"
+
+msgid "Hour angles usually run 0...24h. This counts -12h...12h."
+msgstr "Saat bucaqları adətən 0...24s edir. Bu -12s...12s sayır."
+
+msgid "How many"
+msgstr "Neçə"
+
+msgid "ICRS grid"
+msgstr "ICRS şəbəkə"
+
+msgid "Include"
+msgstr "Daxil et"
+
+msgid "Include bright comets"
+msgstr "Parlaq kometləri daxil et"
+
+msgid "Include selected minor planets"
+msgstr "Seçilmiş kiçik planetləri daxil et"
+
+msgid "Inferior conjunction"
+msgstr "Aşağı birləşmə"
+
+msgid "Info label"
+msgstr "İnfo etiket"
+
+msgid "Interacting galaxies"
+msgstr "Qarşılıqlı əlaqədə olan qalaktikalar"
+
+msgid "Intercardinal points"
+msgstr "Araazimutal nöqtələr"
+
+msgid "Interior egress"
+msgstr "İç çıxış"
+
+msgid "Interior ingress"
+msgstr "İç daxılış"
+
+msgid "Interstellar objects"
+msgstr "Uldudarası obyektlər"
+
+msgid "Invariable plane of the Solar system"
+msgstr "Günəş Sisteminin dəyişməz müstəvisi"
+
+msgid "Isolated"
+msgstr "İzolə olunmuş"
+
+msgid "Its elevation, and the civil, nautical and astronomical twilights"
+msgstr "Onun hündürlüyü, vətəndaş, dənizçilik və astronomik alaqaranı"
+
+msgid "Jovigraphic longitude of the spot in System II, in degrees"
+msgstr "Sistem II-də nöqtənin joviqrafik uzunluğu, dərəcələrdə"
+
+msgid "Julian day"
+msgstr "Yulian günü"
+
+msgid "June solstice"
+msgstr "İyun bərabərləşməsi"
+
+msgid "Label"
+msgstr "Etiket"
+
+msgid "Label colour"
+msgstr "Etiket rəngi"
+
+msgid "Label only features along the terminator"
+msgstr "Yalnız terminator boyunca xüsusiyyətləri etiketlə"
+
+msgid "Labels and Markers amount"
+msgstr "Etiketlər və Markerlərin Miqdarı"
+
+msgid "Labels brightness"
+msgstr "Etiketlərin parlaqlığı"
+
+msgid "Language settings"
+msgstr "Dil qurğuları"
+
+msgid "Largest, ′"
+msgstr "Ən böyük, ′"
+
+msgid "Last known position"
+msgstr "Son məlum mövqe"
+
+msgid "Lasting"
+msgstr "Uzun sürən"
+
+msgid "Latest selected object"
+msgstr "Son seçilmiş obyekt"
+
+msgid "Latitude"
+msgstr "Enlik"
+
+msgid "Latitude −90…90, longitude −180…180."
+msgstr "Enlik −90…90, uzunluq −180…180."
+
+msgid "Layer appearance"
+msgstr "Qat görünüşü"
+
+msgid "Leaves the landscape visible in darkness"
+msgstr "Mənzərəni qaranlıqda göriş qoyur"
+
+msgid "Licence"
+msgstr "Lisenziya"
+
+msgid "Light pollution"
+msgstr "İşıq çirkləşdirilməsi"
+
+msgid "Light pollution from database"
+msgstr "Verilənlər bazasından işıq çirkləşdirilməsi"
+
+msgid "Limit angular separation"
+msgstr "Bucaq fərqini sınırlandır"
+
+msgid "Limit angular size"
+msgstr "Bucaq ölçüsünü məhdudlaşdır"
+
+msgid "Limit magnitude"
+msgstr "Ölçüyü məhdudlaşdır"
+
+msgid "Limit the magnitude of solar system objects"
+msgstr "Günəş Sistemi objektlərinin ölçüsünü məhdudlaşdır"
+
+msgid "Line"
+msgstr "Xətt"
+
+msgid "Line thickness"
+msgstr "Xəttin qalınlığı"
+
+msgid "Linear and angular distances between selected objects"
+msgstr "Seçilmiş obyektlər arasında xətti və bucaq məsafələri"
+
+msgid "Linear distance"
+msgstr "Xətti məsafə"
+
+msgid "Lines"
+msgstr "Xətlər"
+
+msgid "Lines and circles"
+msgstr "Xətlər və dairələr"
+
+msgid "List"
+msgstr "Siyahı"
+
+msgid "List name"
+msgstr "Siyahı adı"
+
+msgid "Lit windows, street lighting and the like"
+msgstr "Işıqlı pəncərələr, küçə işıqlandırması və s."
+
+msgid "Loading…"
+msgstr "Yüklənir…"
+
+msgid "Local Mean Solar Time"
+msgstr "Lokal Orta Günəş Vaxtı"
+
+msgid "Local Time"
+msgstr "Yerli vaxt"
+
+msgid "Local True Solar Time"
+msgstr "Lokal Həqiqi Günəş Vaxtı"
+
+msgid "Local solar eclipses"
+msgstr "Lokal Günəş tutulması"
+
+msgid "Local time"
+msgstr "Lokal vaxt"
+
+msgid "Local time, h"
+msgstr "Lokal vaxt, s"
+
+msgid "Locate me"
+msgstr "Məni tapın"
+
+msgid "Locating…"
+msgstr "Tapılır…"
+
+msgid "Location from landscape"
+msgstr "Mənzərədən mövqe"
+
+msgid "Location is switched off in the system settings."
+msgstr "Mövqe sistem qurğularında söndürülüb."
+
+msgid "Location permission refused. The other two ways still work."
+msgstr "Mövqe icazəsi rədd edildi. Digər iki yol hələ də işləyir."
+
+msgid "Lock position when coordinates are used"
+msgstr "Koordinatlar işlənərkən mövqeyi qeyd et"
+
+msgid "Long press"
+msgstr "Uzun basış"
+
+msgid "Longitude"
+msgstr "Uzunluq"
+
+msgid "Longitude of GRS"
+msgstr "GRS uzunluğu"
+
+msgid "Lunar Elongation"
+msgstr "Ay Uzadılması"
+
+msgid "Lunar Stations"
+msgstr "Ay İstansiyaları"
+
+msgid "Lunar eclipses"
+msgstr "Ay tutulması"
+
+msgid "Lunar elongation"
+msgstr "Ay uzadılması"
+
+msgid "Mag."
+msgstr "Ölç."
+
+msgid "Mag. 1"
+msgstr "Böy. 1"
+
+msgid "Mag. 2"
+msgstr "Böy. 2"
+
+msgid "Magnitudes"
+msgstr "Ölçülər"
+
+msgid "Major planets"
+msgstr "Böyük planetlər"
+
+msgid "Major planets by planet, minor bodies by type"
+msgstr "Böyük planetləri planetlə, kiçik cisimlər növ üzrə"
+
+msgid "Map of the planet. Tap to set the observer's place."
+msgstr "Planetin xəritəsi. Müşahidəçinin yerini təyin etmək üçün toxunun."
+
+msgid "March equinox"
+msgstr "Mart tənəffüsü"
+
+msgid "Mark impact features with ellipses"
+msgstr "Zərbə xüsusiyyətlərini ellipslərlə işarələ"
+
+msgid "Mark minor bodies"
+msgstr "Kiçik cisimlərini işarələ"
+
+msgid "Markers"
+msgstr "Markerləri"
+
+msgid "Markers sized by the object's angular size"
+msgstr "Cismin bucaq ölçüsü ilə ölçülən markerləri"
+
+msgid "Master switch for the grids, lines and points below"
+msgstr "Aşağıdakı şəbəkələr, xətlər və nöqtələr üçün əsas açar"
+
+msgid "Max"
+msgstr "Maks"
+
+msgid "Max items to display"
+msgstr "Göstərilən maksimal əşyalar"
+
+msgid "Max. results"
+msgstr "Maks. nəticələr"
+
+msgid "Max. search radius"
+msgstr "Maks. axtarış radiusu"
+
+msgid "Maximum Solar altitude"
+msgstr "Maksimal Günəş hündürlüyü"
+
+msgid "Maximum allowed separation"
+msgstr "Maksimal icazəli ayrılma"
+
+msgid "Maximum angular size"
+msgstr "Maksimal bucaq ölçüsü"
+
+msgid "Maximum eclipse"
+msgstr "Maksimal tutulum"
+
+msgid "Maximum year"
+msgstr "Maksimal il"
+
+msgid "Mean motion"
+msgstr "Orta hərəkət"
+
+msgid "Mercury, Venus, Mars, Jupiter and Saturn at once. Earth only."
+msgstr "Merkuri, Venera, Mars, Yupiter və Saturn bir vaxtda. Yalnız Dünya."
+
+msgid "Messier objects"
+msgstr "Messier obyektləri"
+
+msgid "Mid-transit"
+msgstr "Keçişin ortası"
+
+msgid "Milky Way"
+msgstr "Süd Yolu"
+
+msgid "Milky Way brightness"
+msgstr "Süd Yolu parlaqlığı"
+
+msgid "Milky Way saturation"
+msgstr "Süd Yolu doyğunluğu"
+
+msgid "Minimal angular size"
+msgstr "Minimal bucaq ölçüsü"
+
+msgid "Minimal brightness"
+msgstr "Minimal parlaqlıq"
+
+msgid "Minimum Solar altitude"
+msgstr "Minimal Günəş hündürlüyü"
+
+msgid "Minimum year"
+msgstr "Minimal il"
+
+msgid "Minor bodies"
+msgstr "Kiçik cisimlər"
+
+msgid "Minutes before sunrise / after sunset"
+msgstr "Günəş doğuşundan əvvəl / batışından sonra keçən dəqiqə"
+
+msgid "Month"
+msgstr "Ay"
+
+msgid "Monthly Elevation"
+msgstr "Aylıq Hündürlük"
+
+msgid "Moon at"
+msgstr "Ay:"
+
+msgid "Moon enters penumbra"
+msgstr "Ay çölə gölgəyə daxil olur"
+
+msgid "Moon enters umbra"
+msgstr "Ay qara gölgəyə daxil olur"
+
+msgid "Moon in zenith at"
+msgstr "Ay zenitdə"
+
+msgid "Moon leaves penumbra"
+msgstr "Ay çölə gölgədən çıxır"
+
+msgid "Moon leaves umbra"
+msgstr "Ay qara gölgədən çıxır"
+
+msgid "Moon's halo"
+msgstr "Ayın haleosu"
+
+msgid "Moons of first body"
+msgstr "Birinci cismin uyduları"
+
+msgid "Morning"
+msgstr "Səhər"
+
+msgid "Morph. Descr."
+msgstr "Morf. Təsviri"
+
+msgid "Move the sky by pointing the phone at it"
+msgstr "Telefonunu göyə yönəltərək səmanı hərəkit etdir"
+
+msgid "Move the sky with the phone"
+msgstr "Telefonla səmanı hərəkit etdir"
+
+msgid "NGC/IC objects"
+msgstr "NGC/IC obyektləri"
+
+msgid "Name for the new list"
+msgstr "Yeni siyahı üçün ad"
+
+msgid "Named features the landscape marks"
+msgstr "Mənzərənin işarələdiyi adlandırılmış xüsusiyyətlər"
+
+msgid "Names"
+msgstr "Adlar"
+
+msgid "Names beside the planets and their markers"
+msgstr "Planetlərin yanında və onların markerlərinin yanında adlar"
+
+msgid "Names in English"
+msgstr "İngilis dilində adlar"
+
+msgid "Nautical Twilight"
+msgstr "Dənizçi Alacakaranlığı"
+
+msgid "Neb. bg"
+msgstr "Tüm. fon"
+
+msgid "Nebula background"
+msgstr "Tumanıq fonu"
+
+msgid "Nebulae"
+msgstr "Tümanlar"
+
+msgid "New list"
+msgstr "Yeni siyahı"
+
+msgid "Next"
+msgstr "Sonrakı"
+
+msgid "Night"
+msgstr "Gecə"
+
+msgid "No city matches that."
+msgstr "Heç bir şəhər uyğun deyil."
+
+msgid "No eclipses found. Pick a range and calculate."
+msgstr "Tutulum tapılmadı. Diapazonu seç və hesabla."
+
+msgid "No fresh fix - the receiver may have no sky. Try again outdoors, or set the place another way."
+msgstr "Yeni məlumat yoxdur - qəbulçu göyü olmaya bilər. Açıq havada yenidən cəhd edin və ya yeri başqa cəhətdən təyin edin."
+
+msgid "No surveys were found. The lists are downloaded, so this needs a connection."
+msgstr "Sorğu tapılmadı. Siyahılar yüklənir, buna görə bunun əlaqəsi lazımdır."
+
+msgid "None downloaded yet"
+msgstr "Hələ heç nə yüklənmədi"
+
+msgid "Not observable eclipse"
+msgstr "Görünməyən tutulma"
+
+msgid "Note: Local circumstances for eclipses during thousands of years in the past and future are not reliable due to uncertainty in ΔT which is caused by fluctuations in Earth's rotation."
+msgstr "Qeyd: Keçmiş və gələcəkdə minillər ərzində tutulmalar üçün yerli şəraitlər Dünya rotasyonundakı dəyişikliklərə səbəb olan ΔT qeyri-müəyyənliyinə görə etibarlı deyil."
+
+msgid "Note: artificial satellites and unnamed stars are excluded from calculation"
+msgstr "Qeyd: süni peykləri və adı olmayan ulduzlar hesablamadan istisna edilir"
+
+msgid "Note: this tool doesn't apply the refraction correction for coordinates. Horizontal coordinates stop the clock, or the sky would turn away from the point while you arrive at it."
+msgstr "Qeyd: bu alət koordinatlar üçün refraksiyon düzəlişini tətbiq etmir. Üfqi koordinatlar saatı durdurur, əks halda səma siz ora gələrkən nöqtədən çox çəkiləcək."
+
+msgid "Notes: The quantity gamma is the minimum distance from the axis of lunar shadow cone to the center of Earth, in units of Earth’s equatorial radius. This distance is positive or negative, depending on whether the axis of the shadow cone passes north or south of the Earth's center. Path of solar eclipses during thousands of years in the past and future are not reliable due to uncertainty in ΔT which is caused by fluctuations in Earth's rotation."
+msgstr "Qeydlər: Gamma kəmiyyəti Ay gölgə konusunun oxundan Dünya mərkəzinə qədər minimum məsafəsi, Dünya ekvator radiusunun vahidləri ilə. Bu məsafə müsbət və ya mənfi ola bilər, gölgə konusunun oxu Dünya mərkəzinin şimalında və ya cənubunda keçməsindən asılıdır. Keçmiş və gələcəkdə minillər ərzində günəş tutulmalarının yolu Dünya rotasyonundakı dəyişikliklərə səbəb olan ΔT qeyri-müəyyənliyinə görə etibarlı deyil."
+
+msgid "Notes: The quantity gamma is the minimum distance from the center of the Moon to the axis of Earth’s umbral shadow cone, in units of Earth’s equatorial radius. This distance is positive or negative, depending on whether the Moon passes north or south of the shadow cone axis. Local circumstances for eclipses during thousands of years in the past and future are not reliable due to uncertainty in ΔT which is caused by fluctuations in Earth's rotation."
+msgstr "Qeydlər: Gamma kəmiyyəti Ay mərkəzindən Dünya qara gölgə konusunun oxuna qədər minimum məsafə, Dünya ekvator radiusunun vahidləri ilə. Bu məsafə müsbət və ya mənfi ola bilər, Ayın gölgə konusunun oxunun şimalında və ya cənubunda keçməsindən asılıdır. Keçmiş və gələcəkdə minillər ərzində tutulmalar üçün yerli şəraitlər Dünya rotasyonundakı dəyişikliklərə səbəb olan ΔT qeyri-müəyyənliyinə görə etibarlı deyil."
+
+msgid "Notes: Time in parentheses means the contact is invisible at current location. Transit times during thousands of years in the past and future are not reliable due to uncertainty in ΔT which is caused by fluctuations in Earth's rotation."
+msgstr "Qeydlər: Mötərizədə göstərilən vaxt cari mövqədə təmasın görünməz olması deməkdir. Keçmiş və gələcəkdə minillər ərzində keçid vaxtları Dünya rotasyonundakı dəyişikliklərə səbəb olan ΔT qeyri-müəyyənliyinə görə etibarlı deyil."
+
+msgid "Nothing computed yet, or nothing in this category is up."
+msgstr "Hələ heç nə hesablanmayıb, və ya bu kateqoriyada heç nə yoxdur."
+
+msgid "Nothing computed yet."
+msgstr "Hələ heç nə hesablanmayıb."
+
+msgid "Nothing found for “%s”."
+msgstr "Heç nə tapılmadı \"%s\" üçün."
+
+msgid "Nothing in this list matches."
+msgstr "Bu siyahıda heç bir şey uyğun deyil."
+
+msgid "Nothing in this list yet. Pick something out of the sky and tap the star on its card to keep it here."
+msgstr "Bu siyahıda hələ heç nə yoxdur. Göydən bir şey seç və buraya qoymaq üçün kartında ulduza toxun."
+
+msgid "Nothing is selected. Pick an object in the sky first."
+msgstr "Heç nə seçilmədi. Əvvəlcə göydə bir cisim seç."
+
+msgid "Nothing matches."
+msgstr "Heç nə uyğun deyil."
+
+msgid "Nothing selected"
+msgstr "Heç nə seçilmədi"
+
+msgid "Nothing to plot."
+msgstr "Çəkiləcək nə yoxdur."
+
+msgid "Nothing to show."
+msgstr "Göstəriləcək nə yoxdur."
+
+msgid "Now"
+msgstr "İndi"
+
+msgid "N× above"
+msgstr "N× yuxarıda"
+
+msgid "OBJECT"
+msgstr "OBEKT"
+
+msgid "OBJECTS"
+msgstr "OBEKTLƏR"
+
+msgid "Object 1"
+msgstr "Cisim 1"
+
+msgid "Object 2"
+msgstr "Cisim 2"
+
+msgid "Objects which are up"
+msgstr "Yuxarıda olan cisimlər"
+
+msgid "Observable duration"
+msgstr "Müşahidə müddəti"
+
+msgid "Observing list"
+msgstr "Müşahidə siyahısı"
+
+msgid "Observing list highlight"
+msgstr "Müşahidə siyahısı vurğulanması"
+
+msgid "Observing lists"
+msgstr "Müşahidə siyahıları"
+
+msgid "Occultation"
+msgstr "Peykərdilmə"
+
+msgid "On the sky"
+msgstr "Göydə"
+
+msgid "One color"
+msgstr "Bir rəng"
+
+msgid "One color for all orbits"
+msgstr "Bütün orbitlər üçün bir rəng"
+
+msgid "Only for N latest selected objects"
+msgstr "Yalnız N son seçilmiş cisimlər üçün"
+
+msgid "Only for Solar elevation"
+msgstr "Yalnız Günəş hündürlüyü üçün"
+
+msgid "Only list"
+msgstr "Yalnız siyahı"
+
+msgid "Only one at a time"
+msgstr "Bir vaxtda yalnız bir"
+
+msgid "Only orbit for selected object…"
+msgstr "Yalnız seçilmiş cisim üçün orbit…"
+
+msgid "Only orbits of major planets…"
+msgstr "Yalnız böyük planetlərin orbitləri…"
+
+msgid "Oort cloud objects"
+msgstr "Oort bulutu obyektləri"
+
+msgid "Opac."
+msgstr "Qeyri-şəff."
+
+msgid "Open date and time"
+msgstr "Tarix və vaxtı açın"
+
+msgid "Open location"
+msgstr "Mövqe açın"
+
+msgid "Open star clusters"
+msgstr "Açıq ulduz topları"
+
+msgid "Opens the JUPOS project in a browser"
+msgstr "JUPOS layihəsini brauzerdə açır"
+
+msgid "Opposition"
+msgstr "Əks-təsir"
+
+msgid "Opposition of"
+msgstr "İrələyişin"
+
+msgid "Oppositions"
+msgstr "İrələyişlər"
+
+msgid "Orbit colors"
+msgstr "Orbit rəngləri"
+
+msgid "Orbital periods ratio"
+msgstr "Orbital dövrü nisbəti"
+
+msgid "Orbital velocity"
+msgstr "Orbital sürət"
+
+msgid "Orbits"
+msgstr "Orbitlər"
+
+msgid "Orbits of Oort cloud objects"
+msgstr "Oort bulutu cisimlərin orbitləri"
+
+msgid "Orbits of comets"
+msgstr "Kometlərin orbitləri"
+
+msgid "Orbits of cubewanos"
+msgstr "Kubevanolar orbitləri"
+
+msgid "Orbits of dwarf planets"
+msgstr "Cəc planetlərin orbitləri"
+
+msgid "Orbits of interstellar objects"
+msgstr "Ulduzlarası cisimlərinin orbitləri"
+
+msgid "Orbits of major planets"
+msgstr "Böyük planetlərin orbitləri"
+
+msgid "Orbits of minor planets"
+msgstr "Kiçik planetlərin orbitləri"
+
+msgid "Orbits of moons"
+msgstr "Peyklərin orbitləri"
+
+msgid "Orbits of plutinos"
+msgstr "Plutinolar orbitləri"
+
+msgid "Orbits of scattered disk objects"
+msgstr "Səpələnmiş disk cisimlərin orbitləri"
+
+msgid "Orbits of sednoids"
+msgstr "Sednoidlərin orbitləri"
+
+msgid "Otherwise every move adopts the zone of the new place."
+msgstr "Əks halda hər hərəkat yeni yerin zonasını qəbul edir."
+
+msgid "Outline craters"
+msgstr "Kraterləri çəkiliş"
+
+msgid "Pan the sky"
+msgstr "Səmanı sürüş"
+
+msgid "Partial eclipse begins"
+msgstr "Qismən tutulum başlayır"
+
+msgid "Partial eclipse ends"
+msgstr "Qismən tutulum bitir"
+
+msgid "Partitions"
+msgstr "Bölmələr"
+
+msgid "Partitions thickness"
+msgstr "Bölmələrin qalınlığı"
+
+msgid "Path width"
+msgstr "Yol genişliyi"
+
+msgid "Pause"
+msgstr "Duraklat"
+
+msgid "Paused - start"
+msgstr "Duraklaldı - başlat"
+
+msgid "Penumbral magnitude"
+msgstr "Yarıkölgə böyüklüyü"
+
+msgid "Per."
+msgstr "Dövr."
+
+msgid "Perfect visibility conditions for current location"
+msgstr "Cari mövqe üçün mükəmməl görünüş şəraiti"
+
+msgid "Perihelion and aphelion"
+msgstr "Perihelion və aphelion"
+
+msgid "Phase"
+msgstr "Faza"
+
+msgid "Phase angle"
+msgstr "Faza bucağı"
+
+msgid "Phenomena"
+msgstr "Hadisələr"
+
+msgid "Pick two different bodies to see how their distance changes."
+msgstr "İki fərqli cisim seç onların məsafəsinin necə dəyişdiyini görmək üçün."
+
+msgid "Pinch"
+msgstr "Qısmalama"
+
+msgid "Planet and time zone"
+msgstr "Planet və Saat qurşağı"
+
+msgid "Planet markers"
+msgstr "Planet markerləri"
+
+msgid "Planetary nebulae"
+msgstr "Planetar tümanlar"
+
+msgid "Planetary nebulae (<%1 mag)"
+msgstr "Planetar tümanlar (<%1 böyüklüyü)"
+
+msgid "Planetary nomenclature"
+msgstr "Planet nomenklaturası"
+
+msgid "Planetary transits"
+msgstr "Planet keçişləri"
+
+msgid "Planets"
+msgstr "Planetler"
+
+msgid "Planets and Sun"
+msgstr "Planetlər və Günəş"
+
+msgid "Planets magnitude algorithm"
+msgstr "Planetlərin Ölçü alqoritmi"
+
+msgid "Please select object to plot its 'Monthly Elevation' graph for the current year at selected time."
+msgstr "Cari il üçün seçilmiş vaxtda onun 'Aylıq Hündürlüyü' qrafikini çəkmək üçün lütfən obyekt seçin."
+
+msgid "Please select object to plot its graph 'Altitude vs. Time'."
+msgstr "Onun 'Hündürlük əleyhinə Vaxt' qrafikini çəkmək üçün lütfən obyekt seçin."
+
+msgid "Please select object to plot its graph 'Azimuth vs. Time'."
+msgstr "Onun 'Azimut əleyhinə Vaxt' qrafikini çəkmək üçün lütfən obyekt seçin."
+
+msgid "Plutinos"
+msgstr "Plutinolər"
+
+msgid "Point size"
+msgstr "Nöqtə ölçüsü"
+
+msgid "Pointing"
+msgstr "Göstərmə"
+
+msgid "Polar distance"
+msgstr "Qütb məsafəsi"
+
+msgid "Polar distance, not declination"
+msgstr "Qütb məsafəsi, dəklinasiya deyil"
+
+msgid "Poles and points"
+msgstr "Qütblər və nöqtələr"
+
+msgid "Polygon colour"
+msgstr "Çoxbucaqlı rəngi"
+
+msgid "Position angle"
+msgstr "Mövqe bucağı"
+
+msgid "Positions"
+msgstr "Mövqelər"
+
+msgid "Positive values only"
+msgstr "Yalnız müsbət dəyərlər"
+
+msgid "Precession circles"
+msgstr "Presesiya dairələri"
+
+msgid "Previous"
+msgstr "Əvvəlki"
+
+msgid "Program Language"
+msgstr "Proqram Dili"
+
+msgid "Projected Solar Equator"
+msgstr "Proyektə edilmiş Günəş Ekvatoru"
+
+msgid "Pronounce"
+msgstr "Tələffüz et"
+
+msgid "Quadrature circle"
+msgstr "Kvadratura dairəsi"
+
+msgid "Query SIMBAD about selected object"
+msgstr "SIMBAD-da seçilən obyekt haqqında sorğu"
+
+msgid "Query options"
+msgstr "Sorğu seçənəkləri"
+
+msgid "Quit"
+msgstr "Çıxış"
+
+msgid "Quit button"
+msgstr "Çıxış düyməsi"
+
+msgid "Range"
+msgstr "Aralıq"
+
+msgid "Reading…"
+msgstr "Oxunur…"
+
+msgid "Real time speed"
+msgstr "Həqiqi vaxt sürəti"
+
+msgid "Recent Searches"
+msgstr "Sonuncu Axtarışlar"
+
+msgid "Rectangular FOV"
+msgstr "Düzbucaqlı Görmə Sahəsi"
+
+msgid "Refraction, extinction, sky brightness"
+msgstr "Refraksiya, sönmə, səma parlaqlığı"
+
+msgid "Regions of the sky"
+msgstr "Səmanın bölgələri"
+
+msgid "Relative scale"
+msgstr "Nisbi miqyas"
+
+msgid "Remove %s"
+msgstr "%s-ni sil"
+
+msgid "Remove from observing list"
+msgstr "Müşahidə siyahısından sil"
+
+msgid "Rename"
+msgstr "Adını dəyiş"
+
+msgid "Reset"
+msgstr "Sıfırla"
+
+msgid "Reset all"
+msgstr "Hamısını sıfırla"
+
+msgid "Restarting…"
+msgstr "Yenidən başladılır…"
+
+msgid "Right ascension"
+msgstr "Sağ yüksəlmə"
+
+msgid "Rise"
+msgstr "Çıxış"
+
+msgid "Rises"
+msgstr "Çıxışlar"
+
+msgid "Rotation"
+msgstr "Fırlanma"
+
+msgid "Running"
+msgstr "İşləyir"
+
+msgid "SIMBAD did not answer."
+msgstr "SIMBAD cavab vermədi."
+
+msgid "SIMBAD is switched off in the search options."
+msgstr "SIMBAD axtarış seçənəklərində söndürülüb."
+
+msgid "SIMBAD is switched off. Turn it on under Options to look objects up online."
+msgstr "SIMBAD söndürülüb. Onlayn olaraq obyektləri axtarmaq üçün Seçənəklər altında açın."
+
+msgid "SIMBAD server"
+msgstr "SIMBAD serveri"
+
+msgid "Saturation"
+msgstr "Doyum"
+
+msgid "Save"
+msgstr "Qeyd et"
+
+msgid "Save either the current FOV and direction of view or all the current options for use at next startup. Restoring default settings requires a restart of the app."
+msgstr "Cari Görmə Sahəsi və baxış istiqamətini ya da sonrakı başlanğıç üçün bütün cari seçənəkləri qeyd edin. İlkin seçənəkləri bərpa etmək tətbiqin yenidən başladılmasını tələb edir."
+
+msgid "Save to observing list"
+msgstr "Müşahidə siyahısına qeyd et"
+
+msgid "Save view"
+msgstr "Görünüşü qeyd et"
+
+msgid "Scale"
+msgstr "Miqyas"
+
+msgid "Scale factor"
+msgstr "Miqyas əmsalı"
+
+msgid "Scale marker and label visibility by surface brightness"
+msgstr "Markeri və etiketin görünürlüyünü səth parlaqlığı ilə miqyasla"
+
+msgid "Scales smoothly between 1× at the minimum field of view and the factor above at the maximum"
+msgstr "Minimum görmə sahəsində 1× ilə maksimumda yuxarıdakı əmsal arasında hamar şəkildə miqyaslanır"
+
+msgid "Scattered disc objects"
+msgstr "Səpilmiş disk obyektləri"
+
+msgid "Screen label"
+msgstr "Ekran etiketini"
+
+msgid "Search"
+msgstr "Axtar"
+
+msgid "Search in list"
+msgstr "Siyahıda axtar"
+
+msgid "Seasons"
+msgstr "Fəsillər"
+
+msgid "Second body"
+msgstr "İkinci cisim"
+
+msgid "Second celestial body"
+msgstr "İkinci Göy cismi"
+
+msgid "Second graph"
+msgstr "İkinci qrafik"
+
+msgid "Second object"
+msgstr "İkinci obyekt"
+
+msgid "Secondary intercardinal points"
+msgstr "İkinci ara kardinal nöqtələri"
+
+msgid "Sednoids"
+msgstr "Sednoidlər"
+
+msgid "See the sky through the ground"
+msgstr "Torpaq vasitəsilə səmanı görün"
+
+msgid "Seen now"
+msgstr "İndi görünür"
+
+msgid "Select an object first: this asks SIMBAD what it holds around it."
+msgstr "Əvvəlcə bir obyekt seçin: bu SIMBAD-dan onun ətrafında nə tutduğunu soruşur."
+
+msgid "Select it and show its card"
+msgstr "Seçin və onun kartını göstərin"
+
+msgid "Select something in the sky first — this page works on the selection."
+msgstr "Əvvəlcə səmada bir şey seçin — bu səhifə seçim üzərində işləyir."
+
+msgid "Selected object"
+msgstr "Seçilən obyekt"
+
+msgid "Sep."
+msgstr "Ayır."
+
+msgid "Separate colors for orbits by object type"
+msgstr "Orbit rəngləri obyekt növünə göre ayırmaq"
+
+msgid "Separate colors for orbits of major planets"
+msgstr "Böyük planetlərin orbit rəngləri üçün ayrı rənglər"
+
+msgid "Separation"
+msgstr "Ayrılma"
+
+msgid "September equinox"
+msgstr "Sentyabr tənəffüsü"
+
+msgid "Set"
+msgstr "Təyin et"
+
+msgid "Set the clock to %s"
+msgstr "Saatı %s-ə təyin et"
+
+msgid "Set the place"
+msgstr "Yerini təyin et"
+
+msgid "Set to now"
+msgstr "İndi kimi təyin et"
+
+msgid "Sets"
+msgstr "Setlər"
+
+msgid "Shadow map for non-convex bodies. May coarsen the penumbra on some objects"
+msgstr "Qabarıq olmayan cisimlərin gölgə xəritəsi. Bəzi cisimlərə düşən xəyal kötü gedə bilər"
+
+msgid "Shadow transit"
+msgstr "Gölgə keçişi"
+
+msgid "Shooting stars"
+msgstr "Akan ulduzlar"
+
+msgid "Short notation for units of surface brightness"
+msgstr "Səth parlaqlığı vahidləri üçün qısa notasiya"
+
+msgid "Short steps over a long duration are slow."
+msgstr "Uzun müddətdə qısa addımlar yavaş gedir."
+
+msgid "Show"
+msgstr "Göstər"
+
+msgid "Show FOV center marker when position is search"
+msgstr "Mövqe axtarıldıqda Görmə Sahəsi mərkəz markerini göstər"
+
+msgid "Show additional buttons"
+msgstr "Əlavə düymələri göstər"
+
+msgid "Show additional star names"
+msgstr "Əlavə ulduz adlarını göstər"
+
+msgid "Show all information"
+msgstr "Bütün məlumatı göstər"
+
+msgid "Show atmospheric extinction"
+msgstr "Atmosfer sönməsini göstər"
+
+msgid "Show boundaries of constellations"
+msgstr "Bürclərin sərhədlərini göstər"
+
+msgid "Show button in addition to keyboard shortcut?"
+msgstr "Klaviatura qısayolu ilə birlikdə düymə göstərəl?"
+
+msgid "Show controls"
+msgstr "Nəzarət elementlərini göstər"
+
+msgid "Show each body where it was when the light left it (recommended)"
+msgstr "Hər bir cismi işıq tərk etdiyi zaman nəhayətində olduğu yerdə göstər (tövsiyə olunur)"
+
+msgid "Show frames per second beside the field of view"
+msgstr "Görmə Sahəsinin yanında saniyəyə düşən çərçivələri göstər"
+
+msgid "Show hints and labels for planetary features"
+msgstr "Planet xüsusiyyətləri üçün ipuçlarını və etiketləri göstər"
+
+msgid "Show illumination"
+msgstr "İşıqlandırmanı göstər"
+
+msgid "Show in sky"
+msgstr "Səmada göstər"
+
+msgid "Show less"
+msgstr "Daha az göstər"
+
+msgid "Show lunar stations (if defined)"
+msgstr "Ay stansiyalarını göstər (təyin edilmişdirsə)"
+
+msgid "Show more"
+msgstr "Daha çox göstər"
+
+msgid "Show objects which are up"
+msgstr "Yuxarıda olan cisimlərini göstər"
+
+msgid "Show only named DSO"
+msgstr "Yalnız adlandırılmış Dərin Səma Cisimlərini göstər"
+
+msgid "Show only objects between the two sizes"
+msgstr "Yalnız iki ölçü arasında olan cisimlərini göstər"
+
+msgid "Show only the kinds ticked below"
+msgstr "Yalnız aşağıda işarələnmiş növləri göstər"
+
+msgid "Show or hide the two rails of controls"
+msgstr "Nəzarət elementlərinin iki relsini göstər və ya gizlət"
+
+msgid "Show orbit even if object is off screen"
+msgstr "Cisim ekrandan çıxsa belə, orbitini göstər"
+
+msgid "Show orbit only for selected SSO"
+msgstr "Seçilən Günəş Sistemi Objekti üçün orbitini yalnız göstər"
+
+msgid "Show orbits"
+msgstr "Orbitləri göstər"
+
+msgid "Show orbits of major planets"
+msgstr "Böyük planetlərin orbitlərini göstər"
+
+msgid "Show planetary nomenclature"
+msgstr "Planet nomenklaturasını göstər"
+
+msgid "Show special nomenclature points only"
+msgstr "Yalnız xüsusi nomenklatura nöqtələrini göstər"
+
+msgid "Show surveys"
+msgstr "Tədqiqatları göstər"
+
+msgid "Show this survey"
+msgstr "Bu tədqiqatı göstər"
+
+msgid "Show tiny circles for minor bodies regardless of magnitude"
+msgstr "Ölçüdən asılı olmayaraq kiçik cisimlərin üçün kiçik dairələri göstər"
+
+msgid "Show trails"
+msgstr "Yolları göstər"
+
+msgid "Show zodiac (if defined)"
+msgstr "Zodiakı göstər (təyin edilmişdirsə)"
+
+msgid "Sidereal time"
+msgstr "Yulduz vaxtı"
+
+msgid "Simbad Lookup Error: %s"
+msgstr "Simbad Axtarış Xətası: %s"
+
+msgid "Simbad Lookup: querying"
+msgstr "Simbad Axtarış: sorğu edilir"
+
+msgid "Simulate self-shadowing"
+msgstr "Özünə gölgəsi modelləşdir"
+
+msgid "Simulation"
+msgstr "Modelləşdirmə"
+
+msgid "Sky Culture"
+msgstr "Səma Mədəniyyəti"
+
+msgid "Sky and viewing options"
+msgstr "Səma və baxış seçənəkləri"
+
+msgid "Sky culture"
+msgstr "Səma mədəniyyəti"
+
+msgid "Slow down"
+msgstr "Yavaşla"
+
+msgid "Smallest, ′"
+msgstr "Ən kiçik, ′"
+
+msgid "Solar altitude for Twilight Finder"
+msgstr "Alacakaranlıq Tapmacası üçün Günəş hündürlüyü"
+
+msgid "Solar elongation"
+msgstr "Günəş uzatması"
+
+msgid "Solar system"
+msgstr "Günəş Sistemi"
+
+msgid "Solar system objects"
+msgstr "Günəş Sistemi obyektləri"
+
+msgid "Solar system objects: comets"
+msgstr "Günəş Sistemi obyektləri: kometlər"
+
+msgid "Solar system objects: minor bodies"
+msgstr "Günəş Sistemi obyektləri: kiçik cisimlər"
+
+msgid "Solar system objects: planets"
+msgstr "Günəş Sistemi obyektləri: planetlər"
+
+msgid "Solstices (J2000)"
+msgstr "Qisstices (J2000)"
+
+msgid "Solstices (of date)"
+msgstr "Qisstices (tarixdən)"
+
+msgid "Some objects may be found after activation respective plug-ins"
+msgstr "Bəzi cisimlər müvafiq əlavələr aktivləşdirildikdən sonra tapıla bilər"
+
+msgid "Special points only"
+msgstr "Yalnız xüsusi nöqtələri"
+
+msgid "Spectral Class"
+msgstr "Spektr Sinfi"
+
+msgid "Speed up"
+msgstr "Sürətləndir"
+
+msgid "Spiky stars"
+msgstr "Tikan ulduzlar"
+
+msgid "Stand where the landscape was shot, on the planet it names"
+msgstr "Mənzərənin çəkildiyi yerdə, adını verdiyi planetsində durun"
+
+msgid "Star, planet, catalogue number…"
+msgstr "Ulduz, planet, kataloq nömrəsi…"
+
+msgid "Started"
+msgstr "Başladılır"
+
+msgid "Startup FOV"
+msgstr "Başlanğıc Görmə Sahəsi"
+
+msgid "Startup direction of view"
+msgstr "Başlanğıc baxış istiqaməti"
+
+msgid "Stationary (begin prograde motion)"
+msgstr "Stasionar (düz hərəkət başlayır)"
+
+msgid "Stationary (begin retrograde motion)"
+msgstr "Stasionar (geri hərəkət başlayır)"
+
+msgid "Stellarium's user guide covers the astronomy this app shares with it: stellarium.org/documentation"
+msgstr "Stellarium istifadəçi təlimatı bu tətbiq ilə paylaşdığı astronomiya məlumatlərini əhatə edir: stellarium.org/documentation"
+
+msgid "Step, hours"
+msgstr "Addım, saat"
+
+msgid "Stop clock when starting"
+msgstr "Başlayanda saatı dayandır"
+
+msgid "Strasbourg astronomical Data Center (France)"
+msgstr "Strasbourg Astronomik Məlumat Mərkəzi (Fransa)"
+
+msgid "Style"
+msgstr "Stil"
+
+msgid "Sun altitude"
+msgstr "Günəş hündürlüyü"
+
+msgid "Sun at"
+msgstr "Günəş:"
+
+msgid "Sun's altitude"
+msgstr "Günəşin hündürlüyü"
+
+msgid "Sun's corona"
+msgstr "Günəşin koronası"
+
+msgid "Sun's glare"
+msgstr "Günəşin parlayışı"
+
+msgid "Sun, planets and moons of first body and observer's planet"
+msgstr "Günəş, planetlər və birinci cismin uyduları ilə müşahidəçinin planetinin uyduları"
+
+msgid "Sun, planets and moons of observer's planet"
+msgstr "Müşahidəçinin planetinin Günəşi, planetləri və uyduları"
+
+msgid "Sunlight scattered by interplanetary dust"
+msgstr "Planetlərarası toz tərəfindən səpələnmiş günəş işığı"
+
+msgid "Supergalactic"
+msgstr "Superqalaktik"
+
+msgid "Superior conjunction"
+msgstr "Yuxarı birləşmə"
+
+msgid "Supernova candidates"
+msgstr "Supernova namizədləri"
+
+msgid "Supernova remnant candidates"
+msgstr "Supernova qalığı namizədləri"
+
+msgid "Supernova remnants"
+msgstr "Supernova qalıqları"
+
+msgid "Surveys"
+msgstr "Tədqiqatlar"
+
+msgid "Switch this off to see the trails for all Solar system bodies"
+msgstr "Bütün Günəş Sistemi cisimlərinin yollarını görmək üçün bunu söndürün"
+
+msgid "Symbiotic stars"
+msgstr "Sembyotik ulduzlar"
+
+msgid "Synodic period"
+msgstr "Sinodik dövrü"
+
+msgid "System date at"
+msgstr "Sistem tarixində"
+
+msgid "Table"
+msgstr "Cədvəl"
+
+msgid "Tabular output for coordinates and time"
+msgstr "Koordinatlar və vaxt üçün cədvəl şəklində çıxış"
+
+msgid "Tap a colour to change it. Changes show on the sky at once and are kept."
+msgstr "Dəyişmək üçün bir rəngə vurun. Dəyişikliklər səmada dərhal göstərilir və qorunur."
+
+msgid "Tap again to confirm"
+msgstr "Təsdiq etmək üçün yenidən vurun"
+
+msgid "Tap an object"
+msgstr "Bir obyektə vurun"
+
+msgid "Tap the chart to read a value."
+msgstr "Dəyər oxumaq üçün qrafa vurun."
+
+msgid "Tap the clock"
+msgstr "Saata vurun"
+
+msgid "Tap the gear"
+msgstr "Dişli çərxa vurun"
+
+msgid "Tap the map to stand there."
+msgstr "Orada durmaq üçün xəritəyə vurun."
+
+msgid "Tap the place"
+msgstr "Yerə vurun"
+
+msgid "Tap to confirm"
+msgstr "Təsdiq etmək üçün vurun"
+
+msgid "Tertiary intercardinal points"
+msgstr "Üçüncü ara kardinal nöqtələri"
+
+msgid "Text angle"
+msgstr "Mətn bucağı"
+
+msgid "The Great Red Spot drifts in System II longitude. Enter a recent measurement and the drift rate to carry it forward from."
+msgstr "Böyük Qırmızı Ləkə System II uzunluğunda sürüklənir. Ondan irəli aparmaq üçün son ölçümü və sürükləmə sürətini daxil edin."
+
+msgid "The algorithm is based on visual observations 1877-1891 by G. Müller and was still republished in the Explanatory Supplement to the Astronomical Ephemeris (1961)."
+msgstr "Alqoritm 1877-1891-ci illərdə G. Müller tərəfindən aparılan vizual müşahidələrə əsaslanır və hələ də Astronomik Efemeridə Fəsilləşdirici Əlavədə (1961) yenidən dərc edilmişdir."
+
+msgid "The algorithm was published by A. Mallama & J. L. Hilton: Computing apparent planetary magnitudes for the Astronomical Almanac. Astronomy&Computing 25 (2018) 10-24."
+msgstr "Alqoritm A. Mallama & J. L. Hilton tərəfindən dərc edilmişdir: Astronomik Alma Nəfsində aydın planet ölçülərinin hesablanması. Astronomy&Computing 25 (2018) 10-24."
+
+msgid "The algorithm was published in the 2nd edition of the Explanatory Supplement to the Astronomical Almanac (1992)."
+msgstr "Alqoritm Astronomik Alma Nəfsə Fəsilləşdirici Əlavənin 2-ci nəşrində (1992) dərc edilmişdir."
+
+msgid "The algorithm was published in the 3rd edition of the Explanatory Supplement to the Astronomical Almanac (2013)."
+msgstr "Alqoritm Astronomik Alma Nəfsə Fəsilləşdirici Əlavənin 3-cü nəşrində (2013) dərc edilmişdir."
+
+msgid "The algorithm was used in the Astronomical Almanac (1984 and later) and gives V (instrumental) magnitudes (allegedly from D.L. Harris)."
+msgstr "Alqoritm Astronomik Alma Nəfsində (1984 və sonrakı) istifadə edilmiş və V (instrumental) ölçüləri vermiş (D.L. Harris-dən olduğu iddia edilir)."
+
+msgid "The classical cepheids"
+msgstr "Klassik sefeydlər"
+
+msgid "The colour each kind of object is drawn in"
+msgstr "Hər bir cisimlər növünün çəkildiyι rəng"
+
+msgid "The engine did not answer with any colours."
+msgstr "Motor heç bir rəng ilə cavab vermədi."
+
+msgid "The galactic band"
+msgstr "Qalaktika zolağı"
+
+msgid "The greatest eclipse is invisible in current location"
+msgstr "Ən böyük tutulma cari mövqədə görünməzdir"
+
+msgid "The horizon outline instead of the panorama"
+msgstr "Panorama əvəzinə üfüq xətti"
+
+msgid "The path each body has taken across the sky"
+msgstr "Hər bir cismin səma boyunca keçdiyi yol"
+
+msgid "The shortest label the culture defines"
+msgstr "Mədəniyyətin təyin etdiyi ən qısa etiket"
+
+msgid "Thickness"
+msgstr "Qalınlıq"
+
+msgid "This copy ships no scripts."
+msgstr "Bu nüsxa heç bir skript gəmisi yoxdur."
+
+msgid "This device has no location service."
+msgstr "Bu cihazda yerləşdirmə xidməti yoxdur."
+
+msgid "This part of the engine exposes no settings on this build."
+msgstr "Motor bu hissəsi bu qurulumda heç bir ayarı işə salır."
+
+msgid "This tool works on Earth only!"
+msgstr "Bu alət yalnız Dünyada işləyir!"
+
+msgid "This tool works on Earth only. Short steps over a long duration are slow."
+msgstr "Bu alət yalnız Yerdə işləyir. Uzun müddətdə qısa addımlar yavaş gedir."
+
+msgid "This year"
+msgstr "Bu il"
+
+msgid "Time"
+msgstr "Vaxt"
+
+msgid "Time of day"
+msgstr "Günün vaxtı"
+
+msgid "Time span"
+msgstr "Vaxt aralığı"
+
+msgid "Time step"
+msgstr "Vaxt addımı"
+
+msgid "To the next (mths)"
+msgstr "Sonrakıya (ay)"
+
+msgid "To the next, months"
+msgstr "Sonrakıya, aylar"
+
+msgid "Today"
+msgstr "Bugün"
+
+msgid "Toggle display of nebula images."
+msgstr "Tumanlılıq şəkillərinin göstərilişini açıb-kapat."
+
+msgid "Toggle display of the button for the Digitized Sky Survey."
+msgstr "Rəqəmləşdirilmiş Səma Tədqiqatı düyməsinin göstərilişini açıb-kapat."
+
+msgid "Toggle display of the button for the HiPS Surveys. Select a survey in the View settings."
+msgstr "HiPS Tədqiqatları düyməsinin göstərilişini açıb-kapat. Baxış ayarlarından bir tədqiqat seçin."
+
+msgid "Toggle drawing Sun's glare"
+msgstr "Günəşin parlayışını çəkmə açıb-kapata."
+
+msgid "Toggle drawing halo around the Moon"
+msgstr "Ayın ətrafındakı halonu çəkmə açıb-kapata."
+
+msgid "Toggle permanent drawing of Sun's corona when atmosphere is disabled"
+msgstr "Atmosfer söndürüldüyündə Günəşin koronasının daimi çəkmə açıb-kapata."
+
+msgid "Toggle the usage of background under GUI buttons"
+msgstr "GUI düymələrinin altında fon istifadəsini açıb-kapata."
+
+msgid "Toggle vertical and horizontal image flip buttons."
+msgstr "Şəklərin şaquli və üfüqi çevirməsi düymələrini açıb-kapat."
+
+msgid "Total eclipse begins"
+msgstr "Tam tutulma başlayır"
+
+msgid "Total eclipse ends"
+msgstr "Tam tutulma bitir"
+
+msgid "Trails"
+msgstr "Yollar"
+
+msgid "Transit"
+msgstr "Keçiş"
+
+msgid "Translated"
+msgstr "Tərcümə edilmişdir"
+
+msgid "Transparency"
+msgstr "Şəffaflıq"
+
+msgid "Twilight"
+msgstr "Alacakaranlıq"
+
+msgid "Twilight and rise and set times are worked out for an observer on Earth. Move back to Earth to see them."
+msgstr "Alacakaranlıq və çıxış və batış vaxtları Yer üzərində müşahidəçi üçün işləniblər. Onları görmək üçün Yerə qayıdın."
+
+msgid "Twinkle"
+msgstr "Parlayış"
+
+msgid "Twinkle amount"
+msgstr "Parlayış miqdarı"
+
+msgid "Twinkle even without atmosphere"
+msgstr "Atmosfer olmadan belə parlayış"
+
+msgid "Twinkle is caused by atmospheric turbulence; this shows it regardless"
+msgstr "Parlayış atmosfer turbulentliyi tərəfindən səbəb olunur; bu bunu hər halda göstərir"
+
+msgid "Type a name, a Bayer letter or a catalogue number - Vega, α Lyr, M 31, NGC 224."
+msgstr "Bir ad, Bayer hərfi və ya kataloq nömrəsi yazın - Vega, α Lyr, M 31, NGC 224."
+
+msgid "Types"
+msgstr "Növlər"
+
+msgid "Umbral magnitude"
+msgstr "Həqiqi soya ölçüsü"
+
+msgid "Unnamed star"
+msgstr "Adı olmayan ulduz"
+
+msgid "Up to mag."
+msgstr "Mag. qədər"
+
+msgid "Update"
+msgstr "Yeniləstir"
+
+msgid "Use SIMBAD"
+msgstr "SIMBAD-dan istifadə et"
+
+msgid "Use additional names of DSO"
+msgstr "DSO-nun əlavə adlarını istifadə et"
+
+msgid "Use autofill only from the beginning of words"
+msgstr "Avtodoldurmanı yalnız sözlərin başlanğıcından istifadə et"
+
+msgid "Use buttons background"
+msgstr "Düymə fonundan istifadə et"
+
+msgid "Use common symbols for coordinate systems"
+msgstr "Koordinat sistemləri üçün ümumi simvollardan istifadə et"
+
+msgid "Use custom time zone"
+msgstr "Xüsusi saat qurşağından istifadə et"
+
+msgid "Use decimal degrees"
+msgstr "Onluq dərəcədən istifadə et"
+
+msgid "Use decimal degrees for coordinates"
+msgstr "Koordinatlar üçün onluq dərəcədən istifadə et"
+
+msgid "Use designations for screen labels"
+msgstr "Ekran etiketləri üçün təyinatlardan istifadə et"
+
+msgid "Use distance from North Celestial Pole, not declination from equator in equatorial coordinates"
+msgstr "Ekvatorial koordinatlarda ekvatordan sapma deyil, Şimal Səma Qütbündən məsafədən istifadə et"
+
+msgid "Use mag/arcsec^2 for surface brightness"
+msgstr "Səthi parlaqlığı üçün mag/arcsec^2 istifadə edin"
+
+msgid "Use more accurate 3D models (where available)"
+msgstr "Daha dəqiq 3D modellərindən istifadə et (əgər mövcuddursa)"
+
+msgid "Use my location"
+msgstr "Mənim mövqelərimi istifadə et"
+
+msgid "Use on-line astronomical database SIMBAD"
+msgstr "Onlayn astronomik SIMBAD bazasından istifadə et"
+
+msgid "Use outlines for big deep-sky objects"
+msgstr "Böyük göydən cəlbedici obyektlər üçün konturlardan istifadə et"
+
+msgid "Use proportional hints"
+msgstr "Proporsional ipuclarından istifadə et"
+
+msgid "Use sorting by string length"
+msgstr "Sətrin uzunluğuna görə çeşidləmədən istifadə et"
+
+msgid "Use surface brightness"
+msgstr "Səth parlaqlığından istifadə et"
+
+msgid "Use the date now shown in the sky"
+msgstr "Səmada göstərilən tarixdən istifadə et"
+
+msgid "Use the value in landscape.ini when it has one"
+msgstr "landscape.ini-də qiymətdən istifadə et (əgər varsa)"
+
+msgid "Use the value stored for this location"
+msgstr "Bu mövqe üçün saxlanılan qiymətdən istifadə et"
+
+msgid "Var. stars"
+msgstr "Dəyişən ulduzlar"
+
+msgid "Version %s  ·  Qt %s"
+msgstr "Buraxılış %s  ·  Qt %s"
+
+msgid "Vertical viewport offset"
+msgstr "Şaquli viewport ofset"
+
+msgid "View recent GRS measurements"
+msgstr "Yaxın zamankı GRS ölçmələrini göstər"
+
+msgid "Visibility"
+msgstr "Görünürlük"
+
+msgid "Visual magnitude based on phase angle and albedo."
+msgstr "Faza bucağı və albedoya əsasən vizual böyüklük."
+
+msgid "Western quadrature"
+msgstr "Qərb kvadraturası"
+
+msgid "When a search result is chosen"
+msgstr "Axtarış nəticəsi seçilən zaman"
+
+msgid "Where Jupiter's Great Red Spot was, and when"
+msgstr "Yupiterin Böyük Qırmızı Lağının harada və nə vaxt olduğu"
+
+msgid "Width"
+msgstr "Genişlik"
+
+msgid "Working out the contact times…"
+msgstr "Əlaqə vaxtları hesablanır…"
+
+msgid "Year"
+msgstr "İl"
+
+msgid "Zenith and Nadir"
+msgstr "Zenit və Nadir"
+
+msgid "Zodiac and lunar stations"
+msgstr "Zodiak və Ay stansiyaları"
+
+msgid "Zodiacal Light"
+msgstr "Zodiac işığı"
+
+msgid "Zodiacal Light brightness"
+msgstr "Zodiac işığının parlaqlığı"
+
+msgid "Zoom in and out"
+msgstr "Böyüt və kiçilt"
+
+msgid "after sunset"
+msgstr "günəş batdıqdan sonra"
+
+msgid "before sunrise"
+msgstr "günəş çıxmazdan əvvəl"
+
+msgid "bright suburban"
+msgstr "Parlaq şəhərətarafı"
+
+msgid "east +"
+msgstr "şərq +"
+
+msgid "engine ready, interface going live"
+msgstr "mühərrik hazır, interfeys canlı yayımlanır"
+
+msgid "excellent dark sky"
+msgstr "əla tünd səma"
+
+msgid "from landscape, if given"
+msgstr "mənzərədən, əgər verilərsə"
+
+msgid "inner city"
+msgstr "şəhərin daxili"
+
+msgid "mag %s"
+msgstr "böyüklük %s"
+
+msgid "max %s"
+msgstr "maks %s"
+
+msgid "mid %s"
+msgstr "orta %s"
+
+msgid "north +"
+msgstr "şimal +"
+
+msgid "rural/suburban"
+msgstr "qırış/yarımşəhər"
+
+msgid "sci. translit."
+msgstr "elmi transkrip."
+
+msgid "select all"
+msgstr "hamısını seç"
+
+msgid "select none"
+msgstr "heçini seçmə"
+
+msgid "select preference"
+msgstr "seçimi seç"
+
+msgid "select standard"
+msgstr "standartı seç"
+
+msgid "store preference"
+msgstr "seçimi saxla"
+
+msgid "suburban/urban"
+msgstr "yarımşəhər/şəhər"
+
+msgid "truly dark"
+msgstr "tam tünd"
+
+msgid "unreadable snapshot"
+msgstr "oxunmayan şəkil"
+
+msgid "with Solar Dates"
+msgstr "Günəş Tarixləri ilə"
+
+msgid "… and moons"
+msgstr "… və aylar"

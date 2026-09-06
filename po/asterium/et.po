@@ -1,0 +1,2362 @@
+# Asterium interface translation for et.
+# Copyright (C) 2026 the Asterium authors
+# This file is distributed under the same licence as the Asterium package.
+#
+# MACHINE TRANSLATION, not reviewed by a speaker of this language.
+# Terminology follows upstream Stellarium's own et catalogue, which was used
+# as a glossary, and every entry keeps the source's printf placeholders.
+# Corrections from a human translator are welcome and should simply replace these.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: asterium\n"
+"Language: et\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%d bodies"
+msgstr "%d keha"
+
+msgid "%d object"
+msgstr "%d objekt"
+
+msgid "%d objects"
+msgstr "%d objekti"
+
+msgid "%s colour"
+msgstr "%s värv"
+
+msgid "%s from %s, ±%.0f m"
+msgstr "%s %s-st, ±%.0f m"
+
+msgid "12-hour"
+msgstr "12-tunnine"
+
+msgid "1× below"
+msgstr "1× all"
+
+msgid "24-hour"
+msgstr "24-tunnine"
+
+msgid "A button to mark every object of the current observing list on the sky."
+msgstr "Nupp, et märkida iga praeguse jälgimisloendi objekti taevale."
+
+msgid "A button to toggle ecliptic grid of date"
+msgstr "Nupp kuupäeva ekliptilise koordinaatvõrgu lülitamiseks"
+
+msgid "A button to toggle equatorial J2000 grid"
+msgstr "Nupp ekvatoriaalsele J2000 koordinaatvõrgule lülitamiseks"
+
+msgid "A button to toggle galactic grid"
+msgstr "Nupp galaktilisele koordinaatvõrgule lülitamiseks"
+
+msgid "A polygonal model for some small moons, asteroids and comets instead of a sphere"
+msgstr "Hulknurkne mudel mõnedele väikestele kuudele, asteroididele ja komeetidele sfääri asemel"
+
+msgid "A touch-first planetarium forked from Stellarium, whose astronomy engine it uses unchanged. The interface is new; everything that draws the sky is upstream's work."
+msgstr "Puudutusega kasutamiseks optimeeritud planetaarium, mis on Stellariumi hargnemik, kasutades selle muutmata astronoomiamootorihat. Kasutajaliides on uus; kõik, mis joonistab taevast, on ülesvoolu töö."
+
+msgid "Abbreviated names"
+msgstr "Lühendatud nimed"
+
+msgid "About this sky culture"
+msgstr "Selle taevakultuuri kohta"
+
+msgid "Above altitude, °"
+msgstr "Üle kõrguse, °"
+
+msgid "Absolute scale"
+msgstr "Absoluutne skaala"
+
+msgid "Activate this option to calculate azimuth from south towards west."
+msgstr "Aktiveerige see valik asimuudi arvutamiseks lõunast lääne poole."
+
+msgid "Active galaxies"
+msgstr "Aktiivgalaktikad"
+
+msgid "Add %s"
+msgstr "Lisa %s"
+
+msgid "Adjust brightness to bright objects"
+msgstr "Kohanda heledust heledatele objektidele"
+
+msgid "Algol-type eclipsing systems"
+msgstr "Algol-tüüpi varjutussüsteemid"
+
+msgid "Algorithm of ΔT"
+msgstr "ΔT algoritm"
+
+msgid "All naked-eye planets"
+msgstr "Kõik palja silmaga nähtavad planeedid"
+
+msgid "All solar eclipses"
+msgstr "Kõik päikesevarjutused"
+
+msgid "Allow negative hour angles"
+msgstr "Luba negatiivseid tunninurki"
+
+msgid "Allow results outside the recommended time range of the orbital elements"
+msgstr "Luba tulemusi orbitaalelementide soovitatud ajavahemikust väljaspool"
+
+msgid "Almanac"
+msgstr "Taevakalender"
+
+msgid "Almanac: Sun, Moon and naked-eye planets"
+msgstr "Taevakalender: Päike, Kuu ja palja silmaga nähtavad planeedid"
+
+msgid "Also find"
+msgstr "Leia ka"
+
+msgid "Also plot"
+msgstr "Joonesta ka"
+
+msgid "Also show moons of selected object or planets"
+msgstr "Näita ka valitud objekti või planeetide kuusid"
+
+msgid "Altitude limit, °"
+msgstr "Kõrguse piirang, °"
+
+msgid "Altitude vs. Time"
+msgstr "Kõrgus vs. Aeg"
+
+msgid "Amount"
+msgstr "Kogus"
+
+msgid "An observer floats above its planet, so there is nowhere on it to stand. Choose another planet to come back down."
+msgstr "Vaatleja hõljub selle planeedi kohal, seega pole seal kuhugi seista. Valige teine planeet, et tagasi maale saada."
+
+msgid "And"
+msgstr "Ja"
+
+msgid "And also"
+msgstr "Ja ka"
+
+msgid "And the next (years)"
+msgstr "Ja järgmine (aastad)"
+
+msgid "Ang. Size"
+msgstr "Nurk. Suurus"
+
+msgid "Angular distance between the Moon and selected object"
+msgstr "Nurkkaugus Kuu ja valitud taevakeha vahel"
+
+msgid "Angular distance from the Moon for second object"
+msgstr "Nurkkaugus Kuust teisele objektile"
+
+msgid "Angular distance from the Sun for second object"
+msgstr "Nurkkaugus Päikesest teisele objektile"
+
+msgid "Angular size"
+msgstr "Nurkmõõt"
+
+msgid "Annual drift"
+msgstr "Aastane nihkumine"
+
+msgid "Antisolar point"
+msgstr "Antisolar punkt"
+
+msgid "Apex points"
+msgstr "Apeksi punktid"
+
+msgid "Aphelion"
+msgstr "Apheelion"
+
+msgid "Appearance"
+msgstr "Välimus"
+
+msgid "Apply time interval limits to list"
+msgstr "Rakenda ajavahemiku piiranguid loendile"
+
+msgid "Art"
+msgstr "Kunst"
+
+msgid "Artificial satellites and unnamed stars are excluded from calculation."
+msgstr "Tehissatelliiid ja nimetuta tähed on arvutusest välja jäetud."
+
+msgid "Asking for permission…"
+msgstr "Luba küsimise ajal…"
+
+msgid "Asks SIMBAD what it holds around the object that is selected now, and prints the answer as it comes back."
+msgstr "Küsib SIMBADilt, mis tal valitud objekti ümber on, ja prindib vastuse tagasi tulemise ajal."
+
+msgid "Ast. lines"
+msgstr "Täht. joon."
+
+msgid "Ast. names"
+msgstr "Täht. nim."
+
+msgid "Asterism labels"
+msgstr "Asterismi pealdised"
+
+msgid "Asterism lines"
+msgstr "Asterismi jooned"
+
+msgid "Asterisms"
+msgstr "Asterismid"
+
+msgid "Asterisms font size"
+msgstr "Asterismide kirjasuurus"
+
+msgid "Astronomical Almanac (default) enlarges by 2%; Danjon (1951) differs slightly"
+msgstr "Astronoomilised arvutused (vaikimisi) suurendavad 2% võrra; Danjon (1951) erineb veidi"
+
+msgid "Astronomical Twilight"
+msgstr "Astronoomiline hämarik"
+
+msgid "Astronomical night"
+msgstr "Astronoomiline öö"
+
+msgid "At"
+msgstr "Kell"
+
+msgid "Atmosph."
+msgstr "Atmosf."
+
+msgid "Atmosphere visualization"
+msgstr "Atmosfääri visualiseerimine"
+
+msgid "Automatic closing dialog"
+msgstr "Automaatne dialoogi sulgemine"
+
+msgid "Automatic transparency"
+msgstr "Automaatne läbipaistvus"
+
+msgid "Axis distance"
+msgstr "Telje kaugus"
+
+msgid "Azi. grid"
+msgstr "Hor. võrk"
+
+msgid "Azimuth and altitude rather than right ascension and declination"
+msgstr "Asimuut ja kõrgus otsetõusu ja kääne asemel"
+
+msgid "Azimuth from South"
+msgstr "Asimuut lõunast"
+
+msgid "Azimuth vs. Time"
+msgstr "Asimuut vs. Aeg"
+
+msgid "Bad visibility conditions for current location"
+msgstr "Halb nähtavus praeguses asukohas"
+
+msgid "Beginning of center line; central eclipse begins"
+msgstr "Keskkonna algus; keskne varjutus algab"
+
+msgid "Below the horizon here."
+msgstr "Siin horisondi all."
+
+msgid "Between objects"
+msgstr "Objektide vahel"
+
+msgid "Blue"
+msgstr "Sinine"
+
+msgid "Boundless"
+msgstr "Piiramatu"
+
+msgid "Bounds"
+msgstr "Piirid"
+
+msgid "Bright Solar system objects (<%1 mag)"
+msgstr "Eredad Päikesesüsteemi objektid (<%1 mag)"
+
+msgid "Bright barium stars"
+msgstr "Eredad baariumtähed"
+
+msgid "Bright carbon stars"
+msgstr "Eredad süsinikunähed"
+
+msgid "Bright nova stars"
+msgstr "Eredad noovad"
+
+msgid "Bright stars with high proper motion"
+msgstr "Eredad tähed suurte enda liikumistega"
+
+msgid "Bright supernova stars"
+msgstr "Eredad supernoova tähed"
+
+msgid "Brighter than"
+msgstr "Heledamad kui"
+
+msgid "By object type"
+msgstr "Objekti tüübi järgi"
+
+msgid "By planet"
+msgstr "Planeedi järgi"
+
+msgid "Calculate"
+msgstr "Arvuta"
+
+msgid "Calculating…"
+msgstr "Arvutamise ajal…"
+
+msgid "Caldwell objects"
+msgstr "Caldwelli objektid"
+
+msgid "Cardinals"
+msgstr "Ilmakaared"
+
+msgid "Catalogue numbers instead of common names"
+msgstr "Katalooginumbrid asemel üldnimesid"
+
+msgid "Category"
+msgstr "Kategooria"
+
+msgid "Celestial poles (J2000)"
+msgstr "Taevapoolused (J2000)"
+
+msgid "Celestial poles (of date)"
+msgstr "Taevapoolused (kuupäeva kohta)"
+
+msgid "Centering button"
+msgstr "Keskendumise nupp"
+
+msgid "Central duration"
+msgstr "Keskse kestus"
+
+msgid "Central eclipse begins"
+msgstr "Keskne varjutus algab"
+
+msgid "Central eclipse ends"
+msgstr "Keskne varjutus lõpeb"
+
+msgid "Centre"
+msgstr "Kese"
+
+msgid "Centre on object"
+msgstr "Tsentreeri objektile"
+
+msgid "Centre point"
+msgstr "Keskpunkt"
+
+msgid "Circles"
+msgstr "Ringid"
+
+msgid "Circular FOV"
+msgstr "Ümmargune FOV"
+
+msgid "Circumpolar circles"
+msgstr "Polaarringid"
+
+msgid "City"
+msgstr "Linn"
+
+msgid "Civil Twilight"
+msgstr "Tsiviilne hämarik"
+
+msgid "Cleanup"
+msgstr "Puhastamine"
+
+msgid "Clear"
+msgstr "Tühjenda"
+
+msgid "Clear recent searches"
+msgstr "Tühista hiljutised otsingud"
+
+msgid "Clear the selection - a touch screen has no right button"
+msgstr "Kustuta valik - puutetoonil pole paremklõpsu nuppu"
+
+msgid "Cleared."
+msgstr "Kustutatud."
+
+msgid "Click on star to show its constellation"
+msgstr "Kliki tähele, et näidata selle tähtkuju"
+
+msgid "Close"
+msgstr "Sulge"
+
+msgid "Close what is open; from the sky, leave the app running"
+msgstr "Sulge mis on lahti; taevast, jäta rakendus käivitama"
+
+msgid "Clusters of galaxies"
+msgstr "Galaktikparvede kogumed"
+
+msgid "Coarse"
+msgstr "Kare"
+
+msgid "Color"
+msgstr "Värv"
+
+msgid "Color channel"
+msgstr "Värvikanal"
+
+msgid "Color of Lunar station lines"
+msgstr "Kuu jaamade joonte värv"
+
+msgid "Color of asterism lines"
+msgstr "Asterismi joonte värv"
+
+msgid "Color of asterism names"
+msgstr "Asterismi nimede värv"
+
+msgid "Color of constellation lines"
+msgstr "Tähtkujude joonte värv"
+
+msgid "Color of nomenclature labels"
+msgstr "Nomenklatuuri pealdiste värv"
+
+msgid "Color of orbits"
+msgstr "Orbiitide värv"
+
+msgid "Color of planet labels"
+msgstr "Planeetide pealdiste värv"
+
+msgid "Color of ray helpers"
+msgstr "Viitavate joonte värv"
+
+msgid "Color of zodiac lines"
+msgstr "Loomyldringjoonte värv"
+
+msgid "Colors of orbit lines"
+msgstr "Orbiitide joonte värvid"
+
+msgid "Colures"
+msgstr "Koluurid"
+
+msgid "Comets up to mag."
+msgstr "Komeedid kuni mag."
+
+msgid "Compass"
+msgstr "Kompass"
+
+msgid "Config"
+msgstr "Seaded"
+
+msgid "Conjunction"
+msgstr "Konjunktsioon"
+
+msgid "Connecting line"
+msgstr "Ühendav joon"
+
+msgid "Const."
+msgstr "Tähtk."
+
+msgid "Constellations font size"
+msgstr "Tähtkujude kirjasuurus"
+
+msgid "Contrast"
+msgstr "Kontrast"
+
+msgid "Coordinate system"
+msgstr "Koordinaatsüsteem"
+
+msgid "Coordinates"
+msgstr "Koordinaadid"
+
+msgid "Copyright"
+msgstr "Autoriõigus"
+
+msgid "Credits"
+msgstr "Autorite nimekiri"
+
+msgid "Cubewanos"
+msgstr "Cubewanod"
+
+msgid "Culmination altitude"
+msgstr "Kulminatsiooni kõrgus"
+
+msgid "Current FoV"
+msgstr "Praegune FOV"
+
+msgid "Custom"
+msgstr "Kohandatud"
+
+msgid "Custom FoV limit"
+msgstr "Kohandatud FOV piirang"
+
+msgid "Custom altitude of the Moon, °"
+msgstr "Kuu kohandatud kõrgus, °"
+
+msgid "Custom altitude of the Sun, °"
+msgstr "Päikese kohandatud kõrgus, °"
+
+msgid "Custom settings for position of GRS"
+msgstr "GRS asukoha kohandatud sätted"
+
+msgid "Custom values"
+msgstr "Kohandatud väärtused"
+
+msgid "Cut the scale off below the limit"
+msgstr "Lõika skaala piirangust allapoole"
+
+msgid "DATE AND TIME (UTC)"
+msgstr "KUUPÄEV JA AEG (UTC)"
+
+msgid "DSS survey"
+msgstr "DSS uuring"
+
+msgid "Data"
+msgstr "Andmed"
+
+msgid "Date and time"
+msgstr "Kuupäev ja aeg"
+
+msgid "Date/time"
+msgstr "Kuupäev/aeg"
+
+msgid "Dates"
+msgstr "Kuupäevad"
+
+msgid "Dbl. stars"
+msgstr "Kahekordtähed"
+
+msgid "Dec (J2000)"
+msgstr "Kääne (J2000)"
+
+msgid "December solstice"
+msgstr "Detsembri pöördepäev"
+
+msgid "Decimal degrees. −33.87 means 33.87° south. Elevation is metres above sea level; it moves the horizon down by a few arcminutes."
+msgstr "Kümnendkraadid. −33.87 tähendab 33.87° lõunasse. Kõrgus on meetrites üle merepinna; see liigutab horisonti mõne kaareminuti võrra allapoole."
+
+msgid "Degrees per year the longitude moves by"
+msgstr "Kraadid aastas, mille võrra pikkuskraad liigub"
+
+msgid "Degrees, hours and minutes as they are written - 12h30m49s, +41°16'09\", 187.7 - or plain decimal degrees."
+msgstr "Kraadid, tunnid ja minutid nagu need kirjutatakse - 12h30m49s, +41°16'09\", 187.7 - või tavalised kümnendkraadid."
+
+msgid "Deletes all recent search object data, and the objects SIMBAD contributed."
+msgstr "Kustutab kõik hiljutised otsitud objekti andmed ja objektid, mille SIMBAD aitas."
+
+msgid "Designations for celestial coordinate systems"
+msgstr "Taevakehade koordinaatsüsteemide määramised"
+
+msgid "Designations for double stars"
+msgstr "Kahekordtähtede määramised"
+
+msgid "Designations for variable stars"
+msgstr "Muutuvate tähtede määramised"
+
+msgid "Dim a survey near the horizon, as the air does"
+msgstr "Halvendada uurimist horisondi lähedal, nagu õhk"
+
+msgid "Displayed"
+msgstr "Kuvatud"
+
+msgid "Dist."
+msgstr "Kaug."
+
+msgid "Distance, AU"
+msgstr "Kaugus, AÜ"
+
+msgid "Done"
+msgstr "Valmis"
+
+msgid "Drag"
+msgstr "Lohistamine"
+
+msgid "Draw deep-sky objects at all"
+msgstr "Joonesta süvataevamaastikke üldse"
+
+msgid "Draw only polygon"
+msgstr "Joonesta ainult hulknurk"
+
+msgid "Draw the enabled sky surveys"
+msgstr "Joonesta lubatud taevast uuringud"
+
+msgid "Draw the planets, moons and minor bodies"
+msgstr "Joonesta planeedid, kuud ja väikesed kehad"
+
+msgid "Drawn larger than life, so a body that is a few arcseconds wide is visible at all. The position stays true."
+msgstr "Joonestatud elust suuremalt, nii et keha, mis on mõni kaarisekund lai, on nähtav üldse. Asukoht jääb tõeseks."
+
+msgid "Duration"
+msgstr "Kestus"
+
+msgid "Duration (years)"
+msgstr "Kestus (aastad)"
+
+msgid "Duration, months"
+msgstr "Kestus, kuud"
+
+msgid "Dusk"
+msgstr "Õhtu"
+
+msgid "Dynamic (FOV-based) Moon size"
+msgstr "Dünaamiline (FOV-põhine) Kuu suurus"
+
+msgid "ELEV. M"
+msgstr "KÕRGUS. M"
+
+msgid "Earth penumbra"
+msgstr "Maa poolvarjutus"
+
+msgid "Earth shadow enlargement after Danjon"
+msgstr "Maa varju suurendamine pärast Danjoni"
+
+msgid "Earth umbra"
+msgstr "Maa varjutus"
+
+msgid "Eastern quadrature"
+msgstr "Idapoolne kvadratuur"
+
+msgid "Ecl. grid"
+msgstr "Ekl. võrk"
+
+msgid "Eclipse begins; first contact with Earth"
+msgstr "Varjutus algab; esimene puutepunkt Maaga"
+
+msgid "Eclipse ends; last contact with Earth"
+msgstr "Varjutus lõpeb; viimane puutepunkt Maaga"
+
+msgid "Eclipse magnitude"
+msgstr "Varjutuse suurus"
+
+msgid "Eclipses"
+msgstr "Varjutused"
+
+msgid "Eclipses are computed for observers on Earth."
+msgstr "Varjutused arvutatakse Maa peal asuvate vaatlejate jaoks."
+
+msgid "Ecliptic"
+msgstr "Ekliptika"
+
+msgid "Ecliptic (J2000)"
+msgstr "Ekliptika (J2000)"
+
+msgid "Ecliptic (J2000.0)"
+msgstr "Ekliptika (J2000.0)"
+
+msgid "Ecliptic (of date)"
+msgstr "Ekliptika (kuupäeva kohta)"
+
+msgid "Ecliptic grid (J2000)"
+msgstr "Ekliptiline koordinaatvõrk (J2000)"
+
+msgid "Ecliptic grid (of date)"
+msgstr "Ekliptiline koordinaatvõrk (kuupäeva kohta)"
+
+msgid "Ecliptic poles (J2000)"
+msgstr "Ekliptika poolused (J2000)"
+
+msgid "Ecliptic poles (of date)"
+msgstr "Ekliptika poolused (kuupäeva kohta)"
+
+msgid "Elev."
+msgstr "Kõrg."
+
+msgid "Elevation"
+msgstr "Kõrgus"
+
+msgid "Elevation in metres"
+msgstr "Kõrgus meetrites"
+
+msgid "Elongations and quadratures"
+msgstr "Pikenemised ja kvadratuurid"
+
+msgid "Emission-line stars"
+msgstr "Heledusjoone tähed"
+
+msgid "Enabled only"
+msgstr "Lubatud ainult"
+
+msgid "End of center line; central eclipse ends"
+msgstr "Keskkonna lõpp; keskne varjutus lõpeb"
+
+msgid "Enter Culture..."
+msgstr "Sisesta kultuur..."
+
+msgid "Equ. grid"
+msgstr "Ekv. võrk"
+
+msgid "Equ. mount"
+msgstr "Ekv. mont."
+
+msgid "Equator (J2000)"
+msgstr "Ekvator (J2000)"
+
+msgid "Equator (of date)"
+msgstr "Ekvator (kuupäeva kohta)"
+
+msgid "Equatorial"
+msgstr "Ekvatoriaalne"
+
+msgid "Equatorial (J2000.0)"
+msgstr "Ekvatoriaalne (J2000.0)"
+
+msgid "Equatorial grid (J2000)"
+msgstr "Ekvatoriaalne koordinaatvõrk (J2000)"
+
+msgid "Equatorial grid (of date)"
+msgstr "Ekvatoriaalne koordinaatvõrk (kuupäeva kohta)"
+
+msgid "Equatorial radii ratio"
+msgstr "Ekvatoriaalse raadiuse suhe"
+
+msgid "Equinoxes (J2000)"
+msgstr "Pööripäevad (J2000)"
+
+msgid "Equinoxes (of date)"
+msgstr "Pööripäevad (kuupäeva kohta)"
+
+msgid "Evening"
+msgstr "Õhtu"
+
+msgid "Every"
+msgstr "Iga"
+
+msgid "Every name the object is catalogued under"
+msgstr "Iga nimi, mille all objekt on kataloogis"
+
+msgid "Exoplanetary systems"
+msgstr "Eksoplaneetide süsteemid"
+
+msgid "Exterior egress"
+msgstr "Väline väljumis"
+
+msgid "Exterior ingress"
+msgstr "Väline sissetulek"
+
+msgid "Fades the ground as you look below the horizon or zoom in"
+msgstr "Hajutab maapinna, kui vaatate horisondi alla või suurendate"
+
+msgid "Fading duration"
+msgstr "Kadumise kestus"
+
+msgid "Faintest shown"
+msgstr "Kõige nõrgem näidatav"
+
+msgid "Favorites"
+msgstr "Lemmikud"
+
+msgid "Fetching the survey lists…"
+msgstr "Uuringu nimekirjade toomine…"
+
+msgid "Find a city"
+msgstr "Leia linn"
+
+msgid "Fine"
+msgstr "Peen"
+
+msgid "First %d of %d - filter to narrow it."
+msgstr "Esimene %d / %d - filtreeri, et kitsendada"
+
+msgid "First body"
+msgstr "Esimene keha"
+
+msgid "First celestial body"
+msgstr "Esimene taevakeha"
+
+msgid "First graph"
+msgstr "Esimene graafik"
+
+msgid "Fix"
+msgstr "Parandus"
+
+msgid "Fixed Equator"
+msgstr "Fikseeritud ekvator"
+
+msgid "Fixed Equatorial grid"
+msgstr "Fikseeritud ekvatoriaalne koordinaatvõrk"
+
+msgid "Fixed instant"
+msgstr "Fikseeritud hetk"
+
+msgid "Flip buttons"
+msgstr "Peegelda nuppe"
+
+msgid "Flip horiz."
+msgstr "Pööra hor."
+
+msgid "Flip vert."
+msgstr "Pööra vert."
+
+msgid "Frame rate"
+msgstr "Kaadriintensiivsus"
+
+msgid "From"
+msgstr "Alates"
+
+msgid "From year"
+msgstr "Aastast alates"
+
+msgid "Full screen"
+msgstr "Täisekraan"
+
+msgid "Fullscreen button"
+msgstr "Täisekraan nupp"
+
+msgid "Further reading"
+msgstr "Täiendav lugemine"
+
+msgid "GRS details…"
+msgstr "GRS üksikasjad…"
+
+msgid "Gal. grid"
+msgstr "Gal. võrk"
+
+msgid "Galactic"
+msgstr "Galaktiline"
+
+msgid "Gamma, saturation, brightness, contrast, opacity, colour channel and inverted colours belong to one survey. Open a survey to set them."
+msgstr "Gamma, küllastus, heledus, kontrast, läbipaistvus, värvikanal ja inverteeritud värvid kuuluvad ühele uuringule. Avage uuring nende määramiseks."
+
+msgid "Gestures"
+msgstr "Žestid"
+
+msgid "Go there"
+msgstr "Mingi sinna"
+
+msgid "Go to position"
+msgstr "Mine asukohale"
+
+msgid "Go to this eclipse"
+msgstr "Mine sellele varjutusele"
+
+msgid "Go to this moment"
+msgstr "Mine sellele hetkele"
+
+msgid "Go to this transit"
+msgstr "Mine sellele kulminatsioonile"
+
+msgid "Good visibility conditions for current location"
+msgstr "Hea nähtavus praeguses asukohas"
+
+msgid "Graphs"
+msgstr "Graafikud"
+
+msgid "Great Red Spot"
+msgstr "Suur punane laik"
+
+msgid "Great Red Spot details"
+msgstr "Suure punase laiguga üksikasjad"
+
+msgid "Greatest eastern elongation"
+msgstr "Suurim idapoolne eraldusnurk"
+
+msgid "Greatest eclipse"
+msgstr "Suurim varjutus"
+
+msgid "Greatest elongation for an inner planet, quadrature for an outer one"
+msgstr "Suurim pikeneks siseplaneedi jaoks, kvadratuur väliplaneedile"
+
+msgid "Greatest western elongation"
+msgstr "Suurim läänepoolne eraldusnurk"
+
+msgid "Greek letters"
+msgstr "Kreeka tähed"
+
+msgid "Greek letters for Bayer designations"
+msgstr "Kreeka tähed Bayeri määrangute jaoks"
+
+msgid "Green"
+msgstr "Roheline"
+
+msgid "Grid density"
+msgstr "Võrgu tihedus"
+
+msgid "Grids"
+msgstr "Võrgud"
+
+msgid "Ground"
+msgstr "Maapind"
+
+msgid "Gyro"
+msgstr "Güro"
+
+msgid "Gyro mode"
+msgstr "Güro režiim"
+
+msgid "Height"
+msgstr "Kõrgus"
+
+msgid "Heliocentric distance"
+msgstr "Heliotsentriline kaugus"
+
+msgid "Heliocentric ecliptic positions of the major planets."
+msgstr "Peaplaneetide heliotsentrilised ekliptilised asukohad."
+
+msgid "Herschel 400 objects"
+msgstr "Herscheli 400 objekti"
+
+msgid "HiPS"
+msgstr "HiPS"
+
+msgid "HiPS Surveys"
+msgstr "HiPS vaatlused"
+
+msgid "Hide controls"
+msgstr "Peida juhtelemendid"
+
+msgid "Hide deep-sky objects fainter than the limit"
+msgstr "Peida süvataevaese objektid, mis on määrast nõrgemad"
+
+msgid "Hide nomenclature on the celestial body of observer"
+msgstr "Peida nimetused vaatleja taevakehale"
+
+msgid "Hide orbits of minor bodies"
+msgstr "Peida väikekehadade orbiidid"
+
+msgid "Highlight"
+msgstr "Esiletõst."
+
+msgid "Highlight the objects of the observing list"
+msgstr "Tõsta esile vaatluste loendi objektid"
+
+msgid "Hint circles marking each planet"
+msgstr "Iga planeedi märkivad vihje ringid"
+
+msgid "Hints"
+msgstr "Vihjed"
+
+msgid "Hints brightness"
+msgstr "Vihje eredus"
+
+msgid "Hipparcos designations"
+msgstr "Hipparcos nimetused"
+
+msgid "Horizontal"
+msgstr "Horisontaalne"
+
+msgid "Horizontal coordinates"
+msgstr "Horisontaalsed koordinaadid"
+
+msgid "Hour angles usually run 0...24h. This counts -12h...12h."
+msgstr "Tunninurgad käivad tavaliselt 0...24h. See loendab -12h...12h."
+
+msgid "How many"
+msgstr "Mitme"
+
+msgid "ICRS grid"
+msgstr "ICRS võrk"
+
+msgid "Include"
+msgstr "Kaasa arvutamine"
+
+msgid "Include bright comets"
+msgstr "Kaasa heledad komeendid"
+
+msgid "Include selected minor planets"
+msgstr "Kaasa valitud väikeplaneedid"
+
+msgid "Inferior conjunction"
+msgstr "Alaline konjunktsioon"
+
+msgid "Info label"
+msgstr "Teabemärge"
+
+msgid "Interacting galaxies"
+msgstr "Interaktiivsed galaktikad"
+
+msgid "Intercardinal points"
+msgstr "Vahenilmakaared"
+
+msgid "Interior egress"
+msgstr "Sisemine väljumine"
+
+msgid "Interior ingress"
+msgstr "Sisemine sisenemine"
+
+msgid "Invariable plane of the Solar system"
+msgstr "Päikesesüsteemi muutumatu tasapind"
+
+msgid "Isolated"
+msgstr "Eraldatud"
+
+msgid "Its elevation, and the civil, nautical and astronomical twilights"
+msgstr "Selle kõrgus ning tsiviil-, meri- ja astronoomiline hämarikkus"
+
+msgid "Jovigraphic longitude of the spot in System II, in degrees"
+msgstr "Plekki jovigraafiline pikkuskraad II-s süsteemis, kraadides"
+
+msgid "Julian day"
+msgstr "Juliuse päev"
+
+msgid "June solstice"
+msgstr "Juuni pöördepäev"
+
+msgid "Label"
+msgstr "Märge"
+
+msgid "Label colour"
+msgstr "Märgise värv"
+
+msgid "Label only features along the terminator"
+msgstr "Märgista ainult termineesijoonel olevad tunnused"
+
+msgid "Labels and Markers amount"
+msgstr "Märgiste ja märgiste hulk"
+
+msgid "Labels brightness"
+msgstr "Märgiste eredus"
+
+msgid "Largest, ′"
+msgstr "Suurim, ′"
+
+msgid "Last known position"
+msgstr "Viimane teada asukoht"
+
+msgid "Lasting"
+msgstr "Kestus"
+
+msgid "Latitude −90…90, longitude −180…180."
+msgstr "Laiuskraad −90…90, pikkuskraad −180…180."
+
+msgid "Layer appearance"
+msgstr "Kihi ilmumine"
+
+msgid "Leaves the landscape visible in darkness"
+msgstr "Jätab maastiku nähtavaks pimeduses"
+
+msgid "Licence"
+msgstr "Litsents"
+
+msgid "Light pollution"
+msgstr "Valgussaaste"
+
+msgid "Light pollution from database"
+msgstr "Valgussaaste andmebaaasist"
+
+msgid "Limit angular separation"
+msgstr "Piirata nurkkaugust"
+
+msgid "Limit angular size"
+msgstr "Piira nurkkuju"
+
+msgid "Limit magnitude"
+msgstr "Piira tähesuurus"
+
+msgid "Limit the magnitude of solar system objects"
+msgstr "Piira päikesesüsteemi objektide tähesuurust"
+
+msgid "Line"
+msgstr "Joon"
+
+msgid "Line thickness"
+msgstr "Joone paksus"
+
+msgid "Linear and angular distances between selected objects"
+msgstr "Lineaarne ja nurkkaugus valitud objektide vahel"
+
+msgid "Linear distance"
+msgstr "Lineaarne kaugus"
+
+msgid "Lines"
+msgstr "Jooned"
+
+msgid "Lines and circles"
+msgstr "Jooned ja ringid"
+
+msgid "List"
+msgstr "Loend"
+
+msgid "List name"
+msgstr "Loendi nimi"
+
+msgid "Lit windows, street lighting and the like"
+msgstr "Valgustatud aknad, tänavavalgustus ja muud sarnased"
+
+msgid "Loading…"
+msgstr "Laadimise käigus…"
+
+msgid "Local solar eclipses"
+msgstr "Kohapealised päikese varjutused"
+
+msgid "Local time"
+msgstr "Kohalik aeg"
+
+msgid "Local time, h"
+msgstr "Kohalik aeg, h"
+
+msgid "Locate me"
+msgstr "Leia mind"
+
+msgid "Locating…"
+msgstr "Otsimise käigus…"
+
+msgid "Location from landscape"
+msgstr "Asukoht maastikust"
+
+msgid "Location is switched off in the system settings."
+msgstr "Asukoht on süsteemi seadetes välja lülitatud."
+
+msgid "Location permission refused. The other two ways still work."
+msgstr "Asukoha luba keeldunud. Kaks muud viisi töötavad ikkagi."
+
+msgid "Lock position when coordinates are used"
+msgstr "Lukusta asukoht koordinaatide kasutamisel"
+
+msgid "Long press"
+msgstr "Pikk vajutus"
+
+msgid "Longitude of GRS"
+msgstr "GRS pikkuskraad"
+
+msgid "Lunar Elongation"
+msgstr "Kuu pikendus"
+
+msgid "Lunar Stations"
+msgstr "Kuuhallistused"
+
+msgid "Lunar eclipses"
+msgstr "Kuu varjutused"
+
+msgid "Lunar elongation"
+msgstr "Kuu pikendus"
+
+msgid "Mag. 1"
+msgstr "Täh. 1"
+
+msgid "Mag. 2"
+msgstr "Täh. 2"
+
+msgid "Magnitudes"
+msgstr "Tähesuurused"
+
+msgid "Major planets"
+msgstr "Peaplaneedid"
+
+msgid "Major planets by planet, minor bodies by type"
+msgstr "Peaplaneedid planeetide kaupa, väikekehad tüübi järgi"
+
+msgid "Map of the planet. Tap to set the observer's place."
+msgstr "Planeedi kaart. Puudutage vaatleja asukoha määramiseks."
+
+msgid "March equinox"
+msgstr "Märtsi pööripäev"
+
+msgid "Mark impact features with ellipses"
+msgstr "Märgista löögi tunnused ellipsitega"
+
+msgid "Mark minor bodies"
+msgstr "Märgista väikekehad"
+
+msgid "Markers"
+msgstr "Märgised"
+
+msgid "Markers sized by the object's angular size"
+msgstr "Märgised, mille suurus on objekti nurkkuju järgi"
+
+msgid "Master switch for the grids, lines and points below"
+msgstr "Peamised lüliti võrkude, joonte ja punktide jaoks allpool"
+
+msgid "Max"
+msgstr "Maks"
+
+msgid "Max items to display"
+msgstr "Maks. kuvatavad üksused"
+
+msgid "Max. results"
+msgstr "Maks. tulemused"
+
+msgid "Max. search radius"
+msgstr "Maks. otsingu raadius"
+
+msgid "Maximum Solar altitude"
+msgstr "Maksimaalne Päikese kõrgus"
+
+msgid "Maximum allowed separation"
+msgstr "Maksimaalne lubatud kaugus"
+
+msgid "Maximum angular size"
+msgstr "Maksimaalne nurkkuju"
+
+msgid "Maximum eclipse"
+msgstr "Maksimaalne varjutus"
+
+msgid "Maximum year"
+msgstr "Maksimaalne aasta"
+
+msgid "Mean motion"
+msgstr "Keskmine liikumine"
+
+msgid "Mercury, Venus, Mars, Jupiter and Saturn at once. Earth only."
+msgstr "Merkuur, Veenus, Marss, Jupiter ja Saturn korraga. Ainult Maa."
+
+msgid "Messier objects"
+msgstr "Messieri objektid"
+
+msgid "Mid-transit"
+msgstr "Kesktransit"
+
+msgid "Milky Way brightness"
+msgstr "Linnutee eredus"
+
+msgid "Milky Way saturation"
+msgstr "Linnutee küllastus"
+
+msgid "Minimal angular size"
+msgstr "Minimaalne nurkkuju"
+
+msgid "Minimal brightness"
+msgstr "Minimaalne eredus"
+
+msgid "Minimum Solar altitude"
+msgstr "Minimaalne Päikese kõrgus"
+
+msgid "Minimum year"
+msgstr "Minimaalne aasta"
+
+msgid "Minor bodies"
+msgstr "Väikekehad"
+
+msgid "Minutes before sunrise / after sunset"
+msgstr "Minutit enne päikesetõusu / pärast loojangu"
+
+msgid "Month"
+msgstr "Kuu"
+
+msgid "Monthly Elevation"
+msgstr "Kuuline kõrgus"
+
+msgid "Moon at"
+msgstr "Kuu kohal"
+
+msgid "Moon enters penumbra"
+msgstr "Kuu siseneb poolvarjusse"
+
+msgid "Moon enters umbra"
+msgstr "Kuu siseneb varjusse"
+
+msgid "Moon in zenith at"
+msgstr "Kuu zeniibi kohal kell"
+
+msgid "Moon leaves penumbra"
+msgstr "Kuu lahkub poolvarjust"
+
+msgid "Moon leaves umbra"
+msgstr "Kuu lahkub varjust"
+
+msgid "Moon's halo"
+msgstr "Kuu aureool"
+
+msgid "Moons of first body"
+msgstr "Esimese taevakeha kuud"
+
+msgid "Morning"
+msgstr "Hommik"
+
+msgid "Morph. Descr."
+msgstr "Morfoloogiline kirj."
+
+msgid "Morphological description"
+msgstr "Morfoloogiline kirjeldus"
+
+msgid "Move the sky by pointing the phone at it"
+msgstr "Liiguta taevast, osutades telefoniiga sinna"
+
+msgid "Move the sky with the phone"
+msgstr "Liiguta taevast telefoniiga"
+
+msgid "NGC/IC objects"
+msgstr "NGC/IC objektid"
+
+msgid "Name for the new list"
+msgstr "Uue loendi nimi"
+
+msgid "Named features the landscape marks"
+msgstr "Nimetatud tunnused, mis maastik märgistab"
+
+msgid "Names"
+msgstr "Nimed"
+
+msgid "Names beside the planets and their markers"
+msgstr "Nimed planeetide ja nende märgiste kõrval"
+
+msgid "Names in English"
+msgstr "Nimed inglise keeles"
+
+msgid "Nautical Twilight"
+msgstr "Merretik hämarik"
+
+msgid "Neb. bg"
+msgstr "Uduk. taust"
+
+msgid "Nebula background"
+msgstr "Udustumla taust"
+
+msgid "Nebulae"
+msgstr "Udukogud"
+
+msgid "New list"
+msgstr "Uus loend"
+
+msgid "Next"
+msgstr "Järgmine"
+
+msgid "Night"
+msgstr "Öö"
+
+msgid "No city matches that."
+msgstr "Ükski linn pole selle kohta sobiv."
+
+msgid "No eclipses found. Pick a range and calculate."
+msgstr "Varjutusi ei leitud. Valige vahemik ja arvutage."
+
+msgid "No fresh fix - the receiver may have no sky. Try again outdoors, or set the place another way."
+msgstr "Uut asukohta ei saadud - vastuvõtjal ei pruugi olla langust. Proovige uuesti väljas või määrake koht muul viisil."
+
+msgid "No surveys were found. The lists are downloaded, so this needs a connection."
+msgstr "Vaatlusi ei leitud. Loendid on alla laaditud, nii et see vajab ühendust."
+
+msgid "None downloaded yet"
+msgstr "Ühtegi pole veel alla laaditud"
+
+msgid "Normal"
+msgstr "Tavaline"
+
+msgid "Not observable eclipse"
+msgstr "Vaadeldamatu varjutus"
+
+msgid "Note: Local circumstances for eclipses during thousands of years in the past and future are not reliable due to uncertainty in ΔT which is caused by fluctuations in Earth's rotation."
+msgstr "Märkus: Varjutuste kohalikud tingimused tuhandetest aastatest enne ja pärast ei ole usaldusväärsed ΔT määramatuse tõttu, mille põhjuseks on Maa pöörlemise kõikumised."
+
+msgid "Note: artificial satellites and unnamed stars are excluded from calculation"
+msgstr "Märkus: tehislikud satelliidid ja nimetud tähed on arvutustest välistatud"
+
+msgid "Note: this tool doesn't apply the refraction correction for coordinates. Horizontal coordinates stop the clock, or the sky would turn away from the point while you arrive at it."
+msgstr "Märkus: see tööriist ei rakenda murdumispot koordinaatidele. Horisontaalsed koordinaadid peatavad kellaaja, muidu pöörduks taevas ära punktist, kui sa sinna jõuaksid."
+
+msgid "Notes: The quantity gamma is the minimum distance from the axis of lunar shadow cone to the center of Earth, in units of Earth’s equatorial radius. This distance is positive or negative, depending on whether the axis of the shadow cone passes north or south of the Earth's center. Path of solar eclipses during thousands of years in the past and future are not reliable due to uncertainty in ΔT which is caused by fluctuations in Earth's rotation."
+msgstr "Märkused: Gamma on Kuu varjukoonuse teljest Maa keskpunkti minimaalne kaugus Maa ekvatoriaalse raadiuse ühikutes. See kaugus on positiivne või negatiivne, olenevalt sellest, kas varjukoonuse telg läbib Maa keskpunkti põhjust või lõunast. Päikese varjutuste rada tuhandetest aastatest enne ja pärast ei ole usaldusväärsed ΔT määramatuse tõttu, mille põhjuseks on Maa pöörlemise kõikumised."
+
+msgid "Notes: The quantity gamma is the minimum distance from the center of the Moon to the axis of Earth’s umbral shadow cone, in units of Earth’s equatorial radius. This distance is positive or negative, depending on whether the Moon passes north or south of the shadow cone axis. Local circumstances for eclipses during thousands of years in the past and future are not reliable due to uncertainty in ΔT which is caused by fluctuations in Earth's rotation."
+msgstr "Märkused: Gamma on Kuu keskpunktist Maa varjukoonuse teljeni minimaalne kaugus Maa ekvatoriaalse raadiuse ühikutes. See kaugus on positiivne või negatiivne, olenevalt sellest, kas Kuu läbib varjukoonuse telje põhjust või lõunast. Varjutuste kohalikud tingimused tuhandetest aastatest enne ja pärast ei ole usaldusväärsed ΔT määramatuse tõttu, mille põhjuseks on Maa pöörlemise kõikumised."
+
+msgid "Notes: Time in parentheses means the contact is invisible at current location. Transit times during thousands of years in the past and future are not reliable due to uncertainty in ΔT which is caused by fluctuations in Earth's rotation."
+msgstr "Märkused: Sulgudes olev aeg tähendab, et puutepunkt on praeguses asukohas nähtamatu. Transiidi ajad tuhandetest aastatest enne ja pärast ei ole usaldusväärsed ΔT määramatuse tõttu, mille põhjuseks on Maa pöörlemise kõikumised."
+
+msgid "Nothing computed yet, or nothing in this category is up."
+msgstr "Midagi ei ole veel arvutatud, või midagi selles kategoorias ei ole üleval."
+
+msgid "Nothing computed yet."
+msgstr "Midagi ei ole veel arvutatud."
+
+msgid "Nothing found for “%s”."
+msgstr "Tulemusi \"%s\"\" kohta ei leitud."
+
+msgid "Nothing in this list matches."
+msgstr "Midagi selles loendis ei kattu."
+
+msgid "Nothing in this list yet. Pick something out of the sky and tap the star on its card to keep it here."
+msgstr "Selles loendis pole veel midagi. Valige taevasest miski ja puudutage selle kaardi tärni, et see siin jääda."
+
+msgid "Nothing is selected. Pick an object in the sky first."
+msgstr "Midagi ei ole valitud. Valige enne taevaast objekt."
+
+msgid "Nothing matches."
+msgstr "Midagi ei kattu."
+
+msgid "Nothing selected"
+msgstr "Midagi pole valitud"
+
+msgid "Nothing to plot."
+msgstr "Midagi pole joonistada."
+
+msgid "Nothing to show."
+msgstr "Midagi pole näidata."
+
+msgid "Now"
+msgstr "Praegu"
+
+msgid "N× above"
+msgstr "N× eespool"
+
+msgid "O./C. longitude"
+msgstr "O./C. pikkuskraad"
+
+msgid "OBJECT"
+msgstr "OBJEKT"
+
+msgid "OBJECTS"
+msgstr "OBJEKTID"
+
+msgid "Object"
+msgstr "Objekt"
+
+msgid "Objects which are up"
+msgstr "Objektid, mis on üleval"
+
+msgid "Observable duration"
+msgstr "Jälgitav kestus"
+
+msgid "Observing list"
+msgstr "Jälgimise loend"
+
+msgid "Observing list highlight"
+msgstr "Jälgimise loendi esiletõstmine"
+
+msgid "Observing lists"
+msgstr "Jälgimise loendid"
+
+msgid "On the sky"
+msgstr "Taevas"
+
+msgid "One color"
+msgstr "Üks värv"
+
+msgid "Only for N latest selected objects"
+msgstr "Ainult N viimase valitud objekti jaoks"
+
+msgid "Only for Solar elevation"
+msgstr "Ainult Päikese kõrguse jaoks"
+
+msgid "Only list"
+msgstr "Ainult loend"
+
+msgid "Only one at a time"
+msgstr "Ainult üks korraga"
+
+msgid "Only orbit for selected object…"
+msgstr "Ainult valitud objekti orbiit…"
+
+msgid "Only orbits of major planets…"
+msgstr "Ainult peaplaneetide orbiidid…"
+
+msgid "Oort cloud objects"
+msgstr "Oorti pilve objektid"
+
+msgid "Opac."
+msgstr "Läbip."
+
+msgid "Opacity"
+msgstr "Läbipaistmatus"
+
+msgid "Open date and time"
+msgstr "Ava kuupäev ja kellaaeg"
+
+msgid "Open location"
+msgstr "Ava asukoht"
+
+msgid "Opens the JUPOS project in a browser"
+msgstr "Avab JUPOS projekti brauseris"
+
+msgid "Opposition"
+msgstr "Opositsioon"
+
+msgid "Opposition of"
+msgstr "Vastandpunkt"
+
+msgid "Oppositions"
+msgstr "Vastandpunktid"
+
+msgid "Orbit colors"
+msgstr "Orbiidi värvid"
+
+msgid "Orbital periods ratio"
+msgstr "Orbitaalsete perioodide suhe"
+
+msgid "Orbits"
+msgstr "Orbiidid"
+
+msgid "Orbits of Oort cloud objects"
+msgstr "Oorti pilve objektide orbiidid"
+
+msgid "Orbits of cubewanos"
+msgstr "Kubevano orbiidid"
+
+msgid "Orbits of interstellar objects"
+msgstr "Tähtedevaheliste objektide orbiidid"
+
+msgid "Orbits of major planets"
+msgstr "Peaplaneetide orbiidid"
+
+msgid "Orbits of minor planets"
+msgstr "Väikeplaneetide orbiidid"
+
+msgid "Orbits of moons"
+msgstr "Kuude orbiidid"
+
+msgid "Orbits of scattered disk objects"
+msgstr "Hajutatud ketase objektide orbiidid"
+
+msgid "Orbits of sednoids"
+msgstr "Sednoidi orbiidid"
+
+msgid "Otherwise every move adopts the zone of the new place."
+msgstr "Muul juhul omaksvõtab iga liikumine uue koha vööndit."
+
+msgid "Outline craters"
+msgstr "Kraatrite kontuurid"
+
+msgid "Pan the sky"
+msgstr "Paneeri taevast"
+
+msgid "Partial eclipse begins"
+msgstr "Osaline varjutus algab"
+
+msgid "Partial eclipse ends"
+msgstr "Osaline varjutus lõpeb"
+
+msgid "Partitions"
+msgstr "Eraldised"
+
+msgid "Partitions thickness"
+msgstr "Eraldiste paksus"
+
+msgid "Path width"
+msgstr "Raja laius"
+
+msgid "Pause"
+msgstr "Paus"
+
+msgid "Paused - start"
+msgstr "Pausitud - alusta"
+
+msgid "Penumbral magnitude"
+msgstr "Pooljäljetähesuuruse"
+
+msgid "Perfect visibility conditions for current location"
+msgstr "Täiuslik nähtavus praeguses asukohas"
+
+msgid "Perihelion"
+msgstr "Periheelion"
+
+msgid "Perihelion and aphelion"
+msgstr "Periheelium ja afeelium"
+
+msgid "Pick two different bodies to see how their distance changes."
+msgstr "Valige kaks erinevat keha, et näha, kuidas nende kaugus muutub."
+
+msgid "Pinch"
+msgstr "Pigista"
+
+msgid "Planet"
+msgstr "Planeet"
+
+msgid "Planet and time zone"
+msgstr "Planeet ja ajavöönd"
+
+msgid "Planetary nebulae (<%1 mag)"
+msgstr "Planetaarsed udukogud (<%1 mag)"
+
+msgid "Planetary nomenclature"
+msgstr "Planeedi nomenklatuur"
+
+msgid "Planetary transits"
+msgstr "Planeedi transiidid"
+
+msgid "Planets"
+msgstr "Planeedid"
+
+msgid "Planets magnitude algorithm"
+msgstr "Planeetide tähesuurus algoritm"
+
+msgid "Please select object to plot its 'Monthly Elevation' graph for the current year at selected time."
+msgstr "Palun vali objekt, et joonistada selle \"Igakuise kõrguse\" graafik praegusele aastale valitud ajal."
+
+msgid "Please select object to plot its graph 'Altitude vs. Time'."
+msgstr "Palun vali objekt, et joonistada selle \"Kõrgus vs Aeg\" graafik."
+
+msgid "Please select object to plot its graph 'Azimuth vs. Time'."
+msgstr "Palun vali objekt, et joonistada selle \"Asimuut vs Aeg\" graafik."
+
+msgid "Pluto, Ceres, Pallas, Juno and Vesta"
+msgstr "Pluuto, Tseeres, Pallas, Juuno ja Vesta"
+
+msgid "Point size"
+msgstr "Punkti suurus"
+
+msgid "Pointing"
+msgstr "Osutamine"
+
+msgid "Polar distance"
+msgstr "Polaarne kaugus"
+
+msgid "Polar distance, not declination"
+msgstr "Polaarne kaugus, mitte kääne"
+
+msgid "Poles and points"
+msgstr "Poolused ja punktid"
+
+msgid "Polygon colour"
+msgstr "Hulknurga värv"
+
+msgid "Positive values only"
+msgstr "Ainult positiivsed väärtused"
+
+msgid "Precession circles"
+msgstr "Pretsessiooni ringid"
+
+msgid "Previous"
+msgstr "Eelmine"
+
+msgid "Prime Vertical"
+msgstr "Esimene vertikaalne"
+
+msgid "Pronounce"
+msgstr "Häälda"
+
+msgid "Pulsars"
+msgstr "Pulsarid"
+
+msgid "Quadrature circle"
+msgstr "Kvadratuuri ring"
+
+msgid "Query SIMBAD about selected object"
+msgstr "Päringusse SIMBAD valitud objekti kohta"
+
+msgid "Query options"
+msgstr "Päringu valikud"
+
+msgid "Quit"
+msgstr "Välju"
+
+msgid "Quit button"
+msgstr "Väljumise nupp"
+
+msgid "RA (J2000)"
+msgstr "Otsetõus (J2000)"
+
+msgid "Range"
+msgstr "Vahemik"
+
+msgid "Reading…"
+msgstr "Lugemise käigus…"
+
+msgid "Real time speed"
+msgstr "Reaalne kiirus"
+
+msgid "Recent Searches"
+msgstr "Hiljutised otsingud"
+
+msgid "Rectangular FOV"
+msgstr "Ristkülikukujuline FOV"
+
+msgid "Red"
+msgstr "Punane"
+
+msgid "Refraction, extinction, sky brightness"
+msgstr "Murdumine, väljasuulamine, taevasädehoius"
+
+msgid "Regions of the sky"
+msgstr "Taeva piirkonnad"
+
+msgid "Relative scale"
+msgstr "Suhteline skaala"
+
+msgid "Remove %s"
+msgstr "Eemalda %s"
+
+msgid "Remove from observing list"
+msgstr "Eemalda vaatlusloendist"
+
+msgid "Rename"
+msgstr "Nimeta ümber"
+
+msgid "Reset all"
+msgstr "Taasta kõik"
+
+msgid "Restarting…"
+msgstr "Taaskäivitamine…"
+
+msgid "Results"
+msgstr "Tulemused"
+
+msgid "Rises"
+msgstr "Tõusud"
+
+msgid "Rotation"
+msgstr "Pöörlemine"
+
+msgid "Running"
+msgstr "Jookseb"
+
+msgid "SIMBAD did not answer."
+msgstr "SIMBAD ei vastanud."
+
+msgid "SIMBAD is switched off in the search options."
+msgstr "SIMBAD on otsingu valikutes välja lülitatud."
+
+msgid "SIMBAD is switched off. Turn it on under Options to look objects up online."
+msgstr "SIMBAD on väljalülitatud. Lülita see sisse valikutes, et otsida objekte internetist."
+
+msgid "Saturation"
+msgstr "Küllastumine"
+
+msgid "Save"
+msgstr "Salvesta"
+
+msgid "Save either the current FOV and direction of view or all the current options for use at next startup. Restoring default settings requires a restart of the app."
+msgstr "Salvesta kas praegune vaateväli ja vaatesuund või kõik praegused valikud järgmise käivitamise jaoks. Vaikimisi seadete taastamine nõuab rakenduse taaskäivitamist."
+
+msgid "Save to observing list"
+msgstr "Salvesta vaatluste loetellu"
+
+msgid "Save view"
+msgstr "Salvesta vaade"
+
+msgid "Scale"
+msgstr "Mõõtkava"
+
+msgid "Scale factor"
+msgstr "Mõõtkavategurit"
+
+msgid "Scale marker and label visibility by surface brightness"
+msgstr "Skaleeri märgiste ja siltide nähtavust pinna heleduse järgi"
+
+msgid "Scales smoothly between 1× at the minimum field of view and the factor above at the maximum"
+msgstr "Muutub sujuvalt 1× ja määratud teguri vahel minimaalsest ja maksimaalsest vaateväljast"
+
+msgid "Scattered disc objects"
+msgstr "Hajutatud ketta objektid"
+
+msgid "Screen label"
+msgstr "Ekraani silt"
+
+msgid "Search"
+msgstr "Otsi"
+
+msgid "Search in list"
+msgstr "Otsi loendist"
+
+msgid "Seasons"
+msgstr "Aastaajad"
+
+msgid "Second body"
+msgstr "Teine keha"
+
+msgid "Second celestial body"
+msgstr "Teine taevakeha"
+
+msgid "Second graph"
+msgstr "Teine graafik"
+
+msgid "Second object"
+msgstr "Teine objekt"
+
+msgid "Secondary intercardinal points"
+msgstr "Teisejärgulised intercardinal punktid"
+
+msgid "Sednoids"
+msgstr "Sednoidid"
+
+msgid "See the sky through the ground"
+msgstr "Näe taevast maapinna läbi"
+
+msgid "Seen now"
+msgstr "Nähtav nüüd"
+
+msgid "Select an object first: this asks SIMBAD what it holds around it."
+msgstr "Vali esmalt objekt: see küsib SIMBADilt, mis sellest ümber asub."
+
+msgid "Select it and show its card"
+msgstr "Vali see ja näita selle kaarti"
+
+msgid "Select something in the sky first — this page works on the selection."
+msgstr "Vali esmalt midagi taevast — see leht töötab valiku peal."
+
+msgid "Selected object"
+msgstr "Valitud objekt"
+
+msgid "Sep."
+msgstr "Kaug."
+
+msgid "Separate colors for orbits by object type"
+msgstr "Eri värvid orbiitidele objekti tüübi järgi"
+
+msgid "Separate colors for orbits of major planets"
+msgstr "Eri värvid suurplaneetide orbiitidele"
+
+msgid "September equinox"
+msgstr "Septembri pööripäev"
+
+msgid "Set the clock to %s"
+msgstr "Seadista kell %s"
+
+msgid "Set the place"
+msgstr "Seadista asukoht"
+
+msgid "Set to now"
+msgstr "Seadista praeguseks"
+
+msgid "Sets"
+msgstr "Loojangud"
+
+msgid "Shadow map for non-convex bodies. May coarsen the penumbra on some objects"
+msgstr "Varjukaart mittekumerate kehade jaoks. Võib hämardada varjutust mõnedel objektidel"
+
+msgid "Shadow transit"
+msgstr "Varjutransiit"
+
+msgid "Shooting stars"
+msgstr "Langevad tähed"
+
+msgid "Short notation for units of surface brightness"
+msgstr "Lühike märkus pinna heleduse ühikute jaoks"
+
+msgid "Short steps over a long duration are slow."
+msgstr "Lühikesed sammud pikema aja jooksul on aeglased."
+
+msgid "Show"
+msgstr "Näita"
+
+msgid "Show FOV center marker when position is search"
+msgstr "Näita vaatevälja keskpunkti märgist, kui asukoht on otsing"
+
+msgid "Show additional buttons"
+msgstr "Näita lisamisi nuppe"
+
+msgid "Show additional star names"
+msgstr "Näita täiendavaid tähte nimesid"
+
+msgid "Show all information"
+msgstr "Näita kõiki andmeid"
+
+msgid "Show atmospheric extinction"
+msgstr "Näita atmosfääri peegeldumist"
+
+msgid "Show controls"
+msgstr "Näita juhtelemente"
+
+msgid "Show each body where it was when the light left it (recommended)"
+msgstr "Näita iga keha seal, kus see oli, kui valgus lahkus (soovitatav)"
+
+msgid "Show frames per second beside the field of view"
+msgstr "Näita kaadrite arvu sekundis vaatevälja kõrval"
+
+msgid "Show hints and labels for planetary features"
+msgstr "Näita vihjeid ja silte planeetide tunnuste jaoks"
+
+msgid "Show illumination"
+msgstr "Näita valgustatust"
+
+msgid "Show in sky"
+msgstr "Näita taevas"
+
+msgid "Show less"
+msgstr "Näita vähem"
+
+msgid "Show lunar stations (if defined)"
+msgstr "Näita kuujaame (kui määratletud)"
+
+msgid "Show more"
+msgstr "Näita rohkem"
+
+msgid "Show objects which are up"
+msgstr "Näita objekte, mis on taevas"
+
+msgid "Show only named DSO"
+msgstr "Näita ainult nimega süvaaevaseid objekte"
+
+msgid "Show only objects between the two sizes"
+msgstr "Näita ainult objekte kahe suuruse vahel"
+
+msgid "Show only the kinds ticked below"
+msgstr "Näita ainult märgitud tüüpe"
+
+msgid "Show or hide the two rails of controls"
+msgstr "Näita või peida kahe juhtimisrööpa"
+
+msgid "Show orbit even if object is off screen"
+msgstr "Näita orbiiti isegi, kui objekt on ekraanil väljas"
+
+msgid "Show orbit only for selected SSO"
+msgstr "Näita orbiiti ainult valitud päikesesüsteemi objektile"
+
+msgid "Show orbits"
+msgstr "Näita orbiite"
+
+msgid "Show orbits of major planets"
+msgstr "Näita suurplaneetide orbiite"
+
+msgid "Show planetary nomenclature"
+msgstr "Näita planeetide nomenklatuuri"
+
+msgid "Show special nomenclature points only"
+msgstr "Näita ainult spetsiaalse nomenklatuuri punkte"
+
+msgid "Show surveys"
+msgstr "Näita uuringuid"
+
+msgid "Show this survey"
+msgstr "Näita seda uuringut"
+
+msgid "Show tiny circles for minor bodies regardless of magnitude"
+msgstr "Näita väikseid ringe väikestele kehadele sõltumata magnituudist"
+
+msgid "Show trails"
+msgstr "Näita liikumisteid"
+
+msgid "Show zodiac (if defined)"
+msgstr "Näita sodiaaki (kui määratletud)"
+
+msgid "Simbad Lookup Error: %s"
+msgstr "SIMBAD otsingu viga: %s"
+
+msgid "Simbad Lookup: querying"
+msgstr "SIMBAD otsing: päringu esitamine"
+
+msgid "Simulate self-shadowing"
+msgstr "Simuleeri enesevarjutust"
+
+msgid "Simulation"
+msgstr "Simulatsioon"
+
+msgid "Sky Culture"
+msgstr "Taevakultuuri"
+
+msgid "Sky and viewing options"
+msgstr "Taeva ja vaatamise valikud"
+
+msgid "Sky culture"
+msgstr "Taevakultuuri"
+
+msgid "Slow down"
+msgstr "Aeglusta"
+
+msgid "Smallest, ′"
+msgstr "Väikseim, ′"
+
+msgid "Solar altitude for Twilight Finder"
+msgstr "Päikese kõrgus Twilight Finderile"
+
+msgid "Solar elongation"
+msgstr "Päikese elongatsioon"
+
+msgid "Solar system objects: minor bodies"
+msgstr "Päikesesüsteemi objektid: väikesed kehad"
+
+msgid "Solstices (J2000)"
+msgstr "Pöördepäevad (J2000)"
+
+msgid "Solstices (of date)"
+msgstr "Pöördepäevad (vaatlusajal)"
+
+msgid "Some objects may be found after activation respective plug-ins"
+msgstr "Mõned objektid võivad leida pärast vastava pistikprogrammi aktiveerimist"
+
+msgid "Special points only"
+msgstr "Ainult spetsiaalpunktid"
+
+msgid "Spectral Class"
+msgstr "Spektraalklassi"
+
+msgid "Speed up"
+msgstr "Kiirendus"
+
+msgid "Spiky stars"
+msgstr "Teravad tähed"
+
+msgid "Stand where the landscape was shot, on the planet it names"
+msgstr "Seisa kus maastik on tehtud, planeedil, mille nime see kannab"
+
+msgid "Star, planet, catalogue number…"
+msgstr "Täht, planeet, katalooginumber…"
+
+msgid "Started"
+msgstr "Käivitatud"
+
+msgid "Starting"
+msgstr "Käivitamine"
+
+msgid "Startup FOV"
+msgstr "Käivitumisel vaateväli"
+
+msgid "Startup direction of view"
+msgstr "Käivitumisel vaatesuund"
+
+msgid "Stationary (begin prograde motion)"
+msgstr "Statsionaarne (alustab otsest liikumist)"
+
+msgid "Stationary (begin retrograde motion)"
+msgstr "Statsionaarne (alustab tagurpidi liikumist)"
+
+msgid "Stellarium's user guide covers the astronomy this app shares with it: stellarium.org/documentation"
+msgstr "Stellarium'i kasutamise juhend käsitleb astronoomiat, mida see rakendus jagab: stellarium.org/documentation"
+
+msgid "Step, hours"
+msgstr "Samm, tunnid"
+
+msgid "Stop clock when starting"
+msgstr "Peata kell käivitamisel"
+
+msgid "Strasbourg astronomical Data Center (France)"
+msgstr "Strasbourg' astronoomiline andmekeskus (Prantsusmaa)"
+
+msgid "Style"
+msgstr "Stiil"
+
+msgid "Sun altitude"
+msgstr "Päikese kõrgus"
+
+msgid "Sun at"
+msgstr "Päike kohal"
+
+msgid "Sun's altitude"
+msgstr "Päikese kõrgus"
+
+msgid "Sun's corona"
+msgstr "Päikese kroon"
+
+msgid "Sun's glare"
+msgstr "Päikese kirjus"
+
+msgid "Sun, planets and moons of first body and observer's planet"
+msgstr "Päike, planeedid ja kaaslased esimese keha ja vaatleja planeedi"
+
+msgid "Sun, planets and moons of observer's planet"
+msgstr "Päike, planeedid ja kaaslased vaatleja planeedi"
+
+msgid "Sunlight scattered by interplanetary dust"
+msgstr "Päikesevalgus hajutatud planeetidevahelise tolmu poolt"
+
+msgid "Supergalactic"
+msgstr "Supergalaktiline"
+
+msgid "Superior conjunction"
+msgstr "Ülempoolne konjunktsioon"
+
+msgid "Supernova remnant candidates"
+msgstr "Supernoova jäänuste kandidaadid"
+
+msgid "Switch this off to see the trails for all Solar system bodies"
+msgstr "Lülita see välja, et näha kõiki päikesesüsteemi kehade liikumisteid"
+
+msgid "Symbiotic stars"
+msgstr "Sümbioosid tähed"
+
+msgid "Synodic period"
+msgstr "Sinoodiline periood"
+
+msgid "System date at"
+msgstr "Süsteemi kuupäev"
+
+msgid "Table"
+msgstr "Tabel"
+
+msgid "Tabular output for coordinates and time"
+msgstr "Tabeli väljund koordinaatide ja aja jaoks"
+
+msgid "Tap a colour to change it. Changes show on the sky at once and are kept."
+msgstr "Puuduta värvi muutmiseks. Muudatused nähtavad on taevas kohe ja säilivad."
+
+msgid "Tap again to confirm"
+msgstr "Puuduta uuesti kinnitamiseks"
+
+msgid "Tap an object"
+msgstr "Puuduta objekti"
+
+msgid "Tap the chart to read a value."
+msgstr "Puuduta graafikut väärtuse lugemiseks."
+
+msgid "Tap the clock"
+msgstr "Puuduta kella"
+
+msgid "Tap the gear"
+msgstr "Puuduta hammasratta"
+
+msgid "Tap the map to stand there."
+msgstr "Puuduta kaarti seisumiseks sinna."
+
+msgid "Tap the place"
+msgstr "Puuduta asukohta"
+
+msgid "Tap to confirm"
+msgstr "Puuduta kinnitamiseks"
+
+msgid "Tertiary intercardinal points"
+msgstr "Kolmandjärgulised intercardinal punktid"
+
+msgid "Text angle"
+msgstr "Teksti nurk"
+
+msgid "The Great Red Spot drifts in System II longitude. Enter a recent measurement and the drift rate to carry it forward from."
+msgstr "Suur punane täpp triivib süsteemi II pikkuskraadis. Sisesta hiljutine mõõtmine ja triivi määr, et kanda see edasi."
+
+msgid "The algorithm is based on visual observations 1877-1891 by G. Müller and was still republished in the Explanatory Supplement to the Astronomical Ephemeris (1961)."
+msgstr "Algoritm põhineb G. Mülleri visuaalsetel vaatlustel 1877–1891 ja oli uuesti avaldatud Astronoomilise Taevakalendri Seletavas Täienduses (1961)."
+
+msgid "The algorithm was published by A. Mallama & J. L. Hilton: Computing apparent planetary magnitudes for the Astronomical Almanac. Astronomy&Computing 25 (2018) 10-24."
+msgstr "Algoritmi avaldas A. Mallama & J. L. Hilton: Computing apparent planetary magnitudes for the Astronomical Almanac. Astronomy&Computing 25 (2018) 10-24."
+
+msgid "The algorithm was published in the 2nd edition of the Explanatory Supplement to the Astronomical Almanac (1992)."
+msgstr "Algoritm avaldati Astronoomilise Almanahhi Seletava Täienduse 2. väljaandes (1992)."
+
+msgid "The algorithm was published in the 3rd edition of the Explanatory Supplement to the Astronomical Almanac (2013)."
+msgstr "Algoritm avaldati Astronoomilise Almanahhi Seletava Täienduse 3. väljaandes (2013)."
+
+msgid "The algorithm was used in the Astronomical Almanac (1984 and later) and gives V (instrumental) magnitudes (allegedly from D.L. Harris)."
+msgstr "Algoritmi kasutati Astronoomilises Almanahis (1984 ja hiljem) ja annab V (instrumentaalset) magnituudi (oletatavalt D.L. Harriselt)."
+
+msgid "The classical cepheids"
+msgstr "Klassikalised tsefeidiid"
+
+msgid "The colour each kind of object is drawn in"
+msgstr "Värvus, mille iga objekti tüüp on joonistatud"
+
+msgid "The engine did not answer with any colours."
+msgstr "Mootor ei vastanud ühegi värviga."
+
+msgid "The galactic band"
+msgstr "Galaktika band"
+
+msgid "The greatest eclipse is invisible in current location"
+msgstr "Suurim varjutus on praeguses asukohas nähtamatu"
+
+msgid "The horizon outline instead of the panorama"
+msgstr "Horisontiliin panoraama asemel"
+
+msgid "The path each body has taken across the sky"
+msgstr "Tee, mille iga keha on taevas võtnud"
+
+msgid "The shortest label the culture defines"
+msgstr "Lühim silt, mille kultuur määratleb"
+
+msgid "Thickness"
+msgstr "Paksus"
+
+msgid "This copy ships no scripts."
+msgstr "See koopia ei saabu skriptideta."
+
+msgid "This device has no location service."
+msgstr "Sellel seadmel pole asukohateenust."
+
+msgid "This part of the engine exposes no settings on this build."
+msgstr "Mootori see osa ei sisalda seadeid sellel ehitusel."
+
+msgid "This tool works on Earth only!"
+msgstr "See tööriist töötab ainult Maale!"
+
+msgid "This tool works on Earth only. Short steps over a long duration are slow."
+msgstr "See tööriist töötab ainult Maal. Lühikesed sammud pikema aja jooksul on aeglased."
+
+msgid "This year"
+msgstr "Sel aastal"
+
+msgid "Time of day"
+msgstr "Aeg päevast"
+
+msgid "Time span"
+msgstr "Ajavahemik"
+
+msgid "Time step"
+msgstr "Aja samm"
+
+msgid "To the next (mths)"
+msgstr "Järgmisele (kuud)"
+
+msgid "To the next, months"
+msgstr "Järgmisele, kuud"
+
+msgid "Today"
+msgstr "Täna"
+
+msgid "Toggle display of nebula images."
+msgstr "Lülita udukogude piltide kuvamist."
+
+msgid "Toggle display of the button for the Digitized Sky Survey."
+msgstr "Lülita Digitaliseeritud taeva uuringu nupu kuvamist."
+
+msgid "Toggle display of the button for the HiPS Surveys. Select a survey in the View settings."
+msgstr "Lülita HiPS uuringute nupu kuvamist. Vali uuringud vaate seadetes."
+
+msgid "Toggle drawing Sun's glare"
+msgstr "Lülita päikese kirjuse joonistamist"
+
+msgid "Toggle drawing halo around the Moon"
+msgstr "Lülita kuu ümber halo joonistamist"
+
+msgid "Toggle permanent drawing of Sun's corona when atmosphere is disabled"
+msgstr "Lülita päikese kroon joonistamist, kui atmosfäär on keelatud"
+
+msgid "Total eclipse begins"
+msgstr "Täielik varjutus algab"
+
+msgid "Total eclipse ends"
+msgstr "Täielik varjutus lõpeb"
+
+msgid "Trails"
+msgstr "Liikumisteed"
+
+msgid "Translated"
+msgstr "Tõlgitud"
+
+msgid "Transparency"
+msgstr "Läbipaistvus"
+
+msgid "Twilight and rise and set times are worked out for an observer on Earth. Move back to Earth to see them."
+msgstr "Hämariku ja tõusu ning loojangu ajad on arvutatud Maa vaatlejale. Pöördu tagasi Maale, et neid näha."
+
+msgid "Twinkle"
+msgstr "Vilkumine"
+
+msgid "Twinkle amount"
+msgstr "Vilkumise hulk"
+
+msgid "Twinkle even without atmosphere"
+msgstr "Vilkumine isegi ilma atmosfäärita"
+
+msgid "Twinkle is caused by atmospheric turbulence; this shows it regardless"
+msgstr "Vilkumine on põhjustatud atmosfääri turbulentsiga; see näitab seda igatahes"
+
+msgid "Type a name, a Bayer letter or a catalogue number - Vega, α Lyr, M 31, NGC 224."
+msgstr "Tipita nimi, Bayeri täht või katalooginumber - Vega, α Lyr, M 31, NGC 224."
+
+msgid "Umbral magnitude"
+msgstr "Umbra magnituud"
+
+msgid "University of Strasbourg (France)"
+msgstr "Strasbourg' ülikool (Prantsusmaa)"
+
+msgid "Up to mag."
+msgstr "Kuni mag."
+
+msgid "Update"
+msgstr "Värskenda"
+
+msgid "Use SIMBAD"
+msgstr "Kasuta SIMBADi"
+
+msgid "Use additional names of DSO"
+msgstr "Kasuta täiendavaid nimetusi süvaaevasele objektile"
+
+msgid "Use autofill only from the beginning of words"
+msgstr "Kasuta automaatset täitmist ainult sõnade algusest"
+
+msgid "Use common symbols for coordinate systems"
+msgstr "Kasuta ühiseid sümboleid koordinaatide süsteemidele"
+
+msgid "Use designations for screen labels"
+msgstr "Kasuta määranguid ekraani siltide jaoks"
+
+msgid "Use distance from North Celestial Pole, not declination from equator in equatorial coordinates"
+msgstr "Kasuta kaugust Põhja-taevapooluselt, mitte käände ekvaatorist taevapooluskoordinaatides"
+
+msgid "Use mag/arcsec^2 for surface brightness"
+msgstr "Kasuta pintheledusele mag/arcsek^2"
+
+msgid "Use my location"
+msgstr "Kasuta minu asukohta"
+
+msgid "Use on-line astronomical database SIMBAD"
+msgstr "Kasuta veebipõhiseid astronoomilisi andmebaasi SIMBADi"
+
+msgid "Use outlines for big deep-sky objects"
+msgstr "Kasuta kontuure suurte süvaaevasete objektide jaoks"
+
+msgid "Use proportional hints"
+msgstr "Kasuta proportsionaalseid vihjeid"
+
+msgid "Use sorting by string length"
+msgstr "Kasuta sorteerimist stringi pikkuse järgi"
+
+msgid "Use surface brightness"
+msgstr "Kasuta pinna heledust"
+
+msgid "Use the date now shown in the sky"
+msgstr "Kasuta nüüd taevas näidatavat kuupäeva"
+
+msgid "Use the value in landscape.ini when it has one"
+msgstr "Kasuta väärtust landscape.ini failist, kui see on olemas"
+
+msgid "Use the value stored for this location"
+msgstr "Kasuta selle asukoha jaoks salvestatud väärtust"
+
+msgid "Var. stars"
+msgstr "Muutuvad tähed"
+
+msgid "Version %s  ·  Qt %s"
+msgstr "Versioon %s  ·  Qt %s"
+
+msgid "Vertical viewport offset"
+msgstr "Vertikaalne vaateakna nihe"
+
+msgid "View recent GRS measurements"
+msgstr "Vaata hiljutiseid GRS mõõtmisi"
+
+msgid "Visibility"
+msgstr "Nähtavus"
+
+msgid "Visual magnitude based on phase angle and albedo."
+msgstr "Visuaalne magnituud faasi nurga ja albeedo põhjal."
+
+msgid "Western quadrature"
+msgstr "Läänepoolne kvadratuur"
+
+msgid "When a search result is chosen"
+msgstr "Kui otsingutulemus valitakse"
+
+msgid "Where Jupiter's Great Red Spot was, and when"
+msgstr "Kus oli Jupiteri suur punane täpp ja millal"
+
+msgid "Width"
+msgstr "Laius"
+
+msgid "Working out the contact times…"
+msgstr "Kontaktaegade arvutamine…"
+
+msgid "Year"
+msgstr "Aasta"
+
+msgid "Zenith and Nadir"
+msgstr "Senit ja Nadir"
+
+msgid "Zodiac"
+msgstr "Sodiaak"
+
+msgid "Zodiac and lunar stations"
+msgstr "Sodiaak ja kuujaamu"
+
+msgid "Zodiacal Light brightness"
+msgstr "Sodiaagivalguse eredus"
+
+msgid "Zoom in and out"
+msgstr "Suurenda ja vähenda"
+
+msgid "after sunset"
+msgstr "pärast loojangut"
+
+msgid "before sunrise"
+msgstr "enne päikesetõusu"
+
+msgid "bright suburban"
+msgstr "hele äärelinnak"
+
+msgid "east +"
+msgstr "ida +"
+
+msgid "engine ready, interface going live"
+msgstr "mootor valmis, liides käivitub"
+
+msgid "excellent dark sky"
+msgstr "suurepärane pime taevas"
+
+msgid "from landscape, if given"
+msgstr "maastikust, kui antud"
+
+msgid "inner city"
+msgstr "linnapiire"
+
+msgid "mid %s"
+msgstr "keskel %s"
+
+msgid "north +"
+msgstr "põhi +"
+
+msgid "rural/suburban"
+msgstr "maalakud/äärelinn"
+
+msgid "sci. translit."
+msgstr "teadusl. transl."
+
+msgid "select all"
+msgstr "vali kõik"
+
+msgid "select none"
+msgstr "eemalda kõik"
+
+msgid "select preference"
+msgstr "vali eelistus"
+
+msgid "select standard"
+msgstr "vali standard"
+
+msgid "store preference"
+msgstr "salvesta eelistus"
+
+msgid "suburban/urban"
+msgstr "äärelinn/linn"
+
+msgid "truly dark"
+msgstr "päris tume"
+
+msgid "unreadable snapshot"
+msgstr "loetamatu hetktõmmis"
+
+msgid "with Solar Dates"
+msgstr "päikese kuupäevadega"
+
+msgid "… and moons"
+msgstr "… ja kuud"

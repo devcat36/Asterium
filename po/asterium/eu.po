@@ -1,0 +1,2623 @@
+# Asterium interface translation for eu.
+# Copyright (C) 2026 the Asterium authors
+# This file is distributed under the same licence as the Asterium package.
+#
+# MACHINE TRANSLATION, not reviewed by a speaker of this language.
+# Terminology follows upstream Stellarium's own eu catalogue, which was used
+# as a glossary, and every entry keeps the source's printf placeholders.
+# Corrections from a human translator are welcome and should simply replace these.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: asterium\n"
+"Language: eu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%d bodies"
+msgstr "%d gorputz"
+
+msgid "%d object"
+msgstr "%d objektu"
+
+msgid "%d objects"
+msgstr "%d objektu"
+
+msgid "%s colour"
+msgstr "%s kolorea"
+
+msgid "%s from %s, ±%.0f m"
+msgstr "%s-tik %s-ra, ±%.0f m"
+
+msgid "12-hour"
+msgstr "12 orduko"
+
+msgid "1× below"
+msgstr "1× behean"
+
+msgid "24-hour"
+msgstr "24 orduko"
+
+msgid "A button to mark every object of the current observing list on the sky."
+msgstr "Botoia uneko behatze-zerrendarako objektu guztiak zeruan markatzen dituzten ala ez."
+
+msgid "A button to toggle ecliptic grid of date"
+msgstr "Epikaren data sortzailearen sareta txandakatzeko botoia."
+
+msgid "A button to toggle equatorial J2000 grid"
+msgstr "Ekuatorialaren J2000 sortzailearen sareta txandakatzeko botoia."
+
+msgid "A button to toggle galactic grid"
+msgstr "Galaxiaren sortzailearen sareta txandakatzeko botoia."
+
+msgid "A polygonal model for some small moons, asteroids and comets instead of a sphere"
+msgstr "Ilargitxo batzuen, asteroideen eta kometen eredu poligonala esferaaren ordez."
+
+msgid "A touch-first planetarium forked from Stellarium, whose astronomy engine it uses unchanged. The interface is new; everything that draws the sky is upstream's work."
+msgstr "Stellariumetik haraturiko ukapen-lehenentzako planetarioa, zeinaren astronomia motorra aldatuta ez erabiltzen duen. Interfazea berria da; zerua marraztzen duen guztia jatorrizkoaren lana da."
+
+msgid "Abbreviated names"
+msgstr "Izen laburtuak"
+
+msgid "About this sky culture"
+msgstr "Zeru-kultura honi buruz"
+
+msgid "Above altitude, °"
+msgstr "Altitudea gainean, °"
+
+msgid "Absolute scale"
+msgstr "Eskala absolutua"
+
+msgid "Activate this option to calculate azimuth from south towards west."
+msgstr "Gaitu aukera hau azimuta hegoaldean nola kalkulatzen duen mentutzeko."
+
+msgid "Active galaxies"
+msgstr "Galaxia aktiboak"
+
+msgid "Add %s"
+msgstr "Gehitu %s"
+
+msgid "Additional information settings"
+msgstr "Argibide gehigarriaren ezarpenak"
+
+msgid "Adjust brightness to bright objects"
+msgstr "Doitu argitasuna objektu argiak direnera."
+
+msgid "Algol-type eclipsing systems"
+msgstr "Algol motako eklipsatzaile sistemak"
+
+msgid "Algorithm of ΔT"
+msgstr "ΔT algoritmo"
+
+msgid "All IDs"
+msgstr "ID guztiak"
+
+msgid "All naked-eye planets"
+msgstr "Behamaino planeta guztiak"
+
+msgid "All solar eclipses"
+msgstr "Eguzki-elorduak guztiak"
+
+msgid "Allow negative hour angles"
+msgstr "Baimendu negatiboaren ordua angelu"
+
+msgid "Allow results outside the recommended time range of the orbital elements"
+msgstr "Baimendu emaitzak orbitaren elementuen gomendaturiko denbora-barrutitik kanpo"
+
+msgid "Almanac"
+msgstr "Almanaka"
+
+msgid "Almanac: Sun, Moon and naked-eye planets"
+msgstr "Egutegia: Eguzkia, Ilargia eta begiz ikusteko planetak"
+
+msgid "Also find"
+msgstr "Aurkitu ere"
+
+msgid "Also plot"
+msgstr "Irudikatu ere"
+
+msgid "Also show moons of selected object or planets"
+msgstr "Erakutsi ere hautaturiko objektuaren edo planeten ilargiak"
+
+msgid "Altitude limit, °"
+msgstr "Altitudea muga, °"
+
+msgid "Altitude vs. Time"
+msgstr "Altitudea vs. Denbora"
+
+msgid "Amount"
+msgstr "Kopurua"
+
+msgid "An observer floats above its planet, so there is nowhere on it to stand. Choose another planet to come back down."
+msgstr "Behatuleak bere planetaren gainean flotatzen du, beraz ez dago bertan jartzeko tokirik. Hautatu beste planeta bat beheitera datorren."
+
+msgid "And"
+msgstr "Eta"
+
+msgid "And also"
+msgstr "Eta ere"
+
+msgid "And the next (years)"
+msgstr "Eta hurrengoa (urteak)"
+
+msgid "Ang. Size"
+msgstr "Angeluen tamaña"
+
+msgid "Angular distance"
+msgstr "Angeluaren distantzia"
+
+msgid "Angular distance between the Moon and selected object"
+msgstr "Ilargiaren eta hautatutako objektuaren arteko angeluzko distantzia"
+
+msgid "Angular distance from the Moon"
+msgstr "Ilargiaren angeluzko distantzia"
+
+msgid "Angular distance from the Moon for second object"
+msgstr "Ilargiaren angeluzko distantzia bigarren objekturako"
+
+msgid "Angular distance from the Sun"
+msgstr "Eguzkiaren angeluzko distantzia"
+
+msgid "Angular distance from the Sun for second object"
+msgstr "Eguzkiaren angeluzko distantzia bigarren objekturako"
+
+msgid "Angular size"
+msgstr "Angeluzko tamaina"
+
+msgid "Annual drift"
+msgstr "Urteko desbidea"
+
+msgid "Antisolar point"
+msgstr "Eguzki-aurkakoaren puntua"
+
+msgid "Apex points"
+msgstr "Gailuraren puntuak"
+
+msgid "Aphelion"
+msgstr "Afelio"
+
+msgid "Appearance"
+msgstr "Itxura"
+
+msgid "Apply time interval limits to list"
+msgstr "Aplikatu denbora-tarte mugak zerrendara"
+
+msgid "Art"
+msgstr "Artea"
+
+msgid "Artificial satellites and unnamed stars are excluded from calculation."
+msgstr "Satelite artificialak eta izarrik gabekoak kalkulatik kanpo daude."
+
+msgid "Asking for permission…"
+msgstr "Baimena eskatzen…"
+
+msgid "Asks SIMBAD what it holds around the object that is selected now, and prints the answer as it comes back."
+msgstr "SIMBADari galdetzen dio orain hautaturiko objektuaren inguruan zer daukan, eta erantzuna botatzen du datoz datoz."
+
+msgid "Ast. lines"
+msgstr "Ast.lerroak"
+
+msgid "Ast. names"
+msgstr "Ast. izenak"
+
+msgid "Asterisms"
+msgstr "Asterismoak"
+
+msgid "Asterisms font size"
+msgstr "Asterismoen letra-tamaña"
+
+msgid "Astronomical Almanac (default) enlarges by 2%; Danjon (1951) differs slightly"
+msgstr "Astronomical Almanac (lehenetsia) 2% handitzen da; Danjon (1951) pixka bat desberdina da"
+
+msgid "Astronomical Twilight"
+msgstr "Ilunabarra astronomikoa"
+
+msgid "Astronomical calculations"
+msgstr "Kalkulazio astronomikoak"
+
+msgid "Astronomical night"
+msgstr "Gaua astronomikoa"
+
+msgid "At"
+msgstr "Nola"
+
+msgid "Atmosph."
+msgstr "Atmosf."
+
+msgid "Atmosphere visualization"
+msgstr "Atmosferaren bistaratze"
+
+msgid "Automatic closing dialog"
+msgstr "Automatikoki txardintzen den elkarrizketa"
+
+msgid "Automatic transparency"
+msgstr "Garridatasun automatikoa"
+
+msgid "Axis distance"
+msgstr "Ardatzaren distantzia"
+
+msgid "Azi. grid"
+msgstr "Azi. sareta"
+
+msgid "Azimuth"
+msgstr "Azimuta"
+
+msgid "Azimuth and altitude rather than right ascension and declination"
+msgstr "Azimuta eta altitudea baizik ez eskubidezko bizidunera eta deklarazioaren ordez"
+
+msgid "Azimuth from South"
+msgstr "Azimuta hegoaldean"
+
+msgid "Azimuth vs. Time"
+msgstr "Azimuta vs. Denbora"
+
+msgid "Back"
+msgstr "Atzera"
+
+msgid "Bad visibility conditions for current location"
+msgstr "Ikusteko baldintzak txarrak kokaleku honetarako"
+
+msgid "Beginning of center line; central eclipse begins"
+msgstr "Lerro zentralaren hasiera; eklipse zentrala hasten da"
+
+msgid "Below the horizon here."
+msgstr "Zerumugaren behean hemen."
+
+msgid "Between objects"
+msgstr "Objektuen artean"
+
+msgid "Boundless"
+msgstr "Mugarik gabea"
+
+msgid "Bounds"
+msgstr "Mugak"
+
+msgid "Bright Solar system objects (<%1 mag)"
+msgstr "Eguzki-sistemako objektu argiak (<%1 mag)"
+
+msgid "Bright barium stars"
+msgstr "Bario izar argiak"
+
+msgid "Bright carbon stars"
+msgstr "Karbono izar argiak"
+
+msgid "Bright double stars"
+msgstr "Izar biko argiak"
+
+msgid "Bright double stars (<%1 mag)"
+msgstr "Izar biko argiak (<%1 mag)"
+
+msgid "Bright galaxies (<%1 mag)"
+msgstr "Galaxia argiak (<%1 mag)"
+
+msgid "Bright nebulae"
+msgstr "Nebulosa argiak"
+
+msgid "Bright nebulae (<%1 mag)"
+msgstr "Nebulosa argiak (<%1 mag)"
+
+msgid "Bright nova stars"
+msgstr "Noba izar argiak"
+
+msgid "Bright star clusters (<%1 mag)"
+msgstr "Izarren multzo argiak (<%1 mag)"
+
+msgid "Bright stars"
+msgstr "Izar argiak"
+
+msgid "Bright stars (<%1 mag)"
+msgstr "Izar argiak (<%1 mag)"
+
+msgid "Bright stars with high proper motion"
+msgstr "Mugimendu propio altua duten izar argiak"
+
+msgid "Bright supernova stars"
+msgstr "Supernoaba izar argiak"
+
+msgid "Bright variable stars"
+msgstr "Aldakor izar argiak"
+
+msgid "Bright variable stars (<%1 mag)"
+msgstr "Aldakor izar argiak (<%1 mag)"
+
+msgid "Brighter than"
+msgstr "Arg gehiagoa baino"
+
+msgid "Brightness"
+msgstr "Argitasuna"
+
+msgid "By object type"
+msgstr "Objektu motaren arabera"
+
+msgid "By planet"
+msgstr "Planetaren arabera"
+
+msgid "Calculate"
+msgstr "Kalkulatu"
+
+msgid "Calculating…"
+msgstr "Kalkulatzen…"
+
+msgid "Caldwell objects"
+msgstr "Caldwell objektuak"
+
+msgid "Cardinals"
+msgstr "Puntu kard."
+
+msgid "Catalogue numbers instead of common names"
+msgstr "Katalogoen zenbakiak izen arrunten ordez"
+
+msgid "Category"
+msgstr "Kategoria"
+
+msgid "Celestial body"
+msgstr "Zeruko gorputza"
+
+msgid "Celestial poles (J2000)"
+msgstr "Zeruko poloak (J2000)"
+
+msgid "Celestial poles (of date)"
+msgstr "Zeruko poloak (dataren)"
+
+msgid "Center of FOV"
+msgstr "FOVaren zentroa"
+
+msgid "Centering button"
+msgstr "Zentratzeko botoia"
+
+msgid "Central duration"
+msgstr "Zentzuko iraupena"
+
+msgid "Central eclipse begins"
+msgstr "Zentzuko elorduak hasi"
+
+msgid "Central eclipse ends"
+msgstr "Zentzuko elorduak amaitu"
+
+msgid "Centre"
+msgstr "Zentroa"
+
+msgid "Centre on object"
+msgstr "Zentraitu objektuan"
+
+msgid "Centre point"
+msgstr "Zentzuko puntua"
+
+msgid "Circles"
+msgstr "Zirkuluak"
+
+msgid "Circular FOV"
+msgstr "FOV zirkularra"
+
+msgid "Circumpolar circles"
+msgstr "Zirkumpolarren zirkuluak"
+
+msgid "City"
+msgstr "Hiria"
+
+msgid "Civil Twilight"
+msgstr "Ilunabarra zibila"
+
+msgid "Cleanup"
+msgstr "Garbiketa"
+
+msgid "Clear"
+msgstr "Garbitu"
+
+msgid "Clear recent searches"
+msgstr "Garbitu azken bilaketak"
+
+msgid "Clear the selection - a touch screen has no right button"
+msgstr "Garbitu hautapena - ukapen-pantailak ez dauka eskubidezko botoiarik"
+
+msgid "Cleared."
+msgstr "Garbituak."
+
+msgid "Click on star to show its constellation"
+msgstr "Klik izarran bere konstelazioa ikusteko"
+
+msgid "Close"
+msgstr "Itxi"
+
+msgid "Close what is open; from the sky, leave the app running"
+msgstr "Itxi irikirik dagoena; zerutik, aplikazioa exekutatzen utzita"
+
+msgid "Clusters of galaxies"
+msgstr "Galaxien multzoa"
+
+msgid "Coarse"
+msgstr "Grosoa"
+
+msgid "Color"
+msgstr "Kolorea"
+
+msgid "Color channel"
+msgstr "Koloraren kanala"
+
+msgid "Color of Lunar station lines"
+msgstr "Ilargiaren estazioaren lerroen kolorea"
+
+msgid "Color of asterism lines"
+msgstr "Asterismo-lerroen kolorea"
+
+msgid "Color of asterism names"
+msgstr "Asterismo-izenen kolorea"
+
+msgid "Color of constellation boundaries"
+msgstr "Konstelazioen mugaken kolorea"
+
+msgid "Color of constellation lines"
+msgstr "Konstelazio lerroen kolorea"
+
+msgid "Color of constellation names"
+msgstr "Konstelazioen izenen kolorea"
+
+msgid "Color of nomenclature labels"
+msgstr "Nomenklaturaren etiketaren kolorea"
+
+msgid "Color of orbits"
+msgstr "Orbitaren kolorea"
+
+msgid "Color of planet labels"
+msgstr "Planetaren etiketaren kolorea"
+
+msgid "Color of ray helpers"
+msgstr "Laguntza izpien kolorea"
+
+msgid "Color of trails"
+msgstr "Bide-markaren kolorea"
+
+msgid "Color of zodiac lines"
+msgstr "Zodiako lerroen kolorea"
+
+msgid "Colors of orbit lines"
+msgstr "Orbitaren lerroen koloreak"
+
+msgid "Colures"
+msgstr "Koloreak"
+
+msgid "Comets up to mag."
+msgstr "Kometak mag. ditu"
+
+msgid "Compass"
+msgstr "Iparrorratz"
+
+msgid "Config"
+msgstr "Konfigurazioa"
+
+msgid "Configure colors of markers"
+msgstr "Konfiguratu markatzaileen koloreak"
+
+msgid "Configure colors of orbit lines"
+msgstr "Konfiguratu orbitaren lerroen koloreak"
+
+msgid "Conjunction"
+msgstr "Konjuntzio"
+
+msgid "Connecting line"
+msgstr "Konektatzeko lerroa"
+
+msgid "Const."
+msgstr "Konst."
+
+msgid "Constellations font size"
+msgstr "Konstelazioen letra-tamaña"
+
+msgid "Contrast"
+msgstr "Kontrastea"
+
+msgid "Coordinate system"
+msgstr "Koordenatu-sistema"
+
+msgid "Coordinates"
+msgstr "Koordenatuak"
+
+msgid "Copyright"
+msgstr "Egile-eskubidea"
+
+msgid "Credits"
+msgstr "Kredituak"
+
+msgid "Cubewanos"
+msgstr "Kubeanuak"
+
+msgid "Culmination altitude"
+msgstr "Kolinazio altitudea"
+
+msgid "Current FoV"
+msgstr "Unekoa FOV"
+
+msgid "Custom"
+msgstr "Pertsonalizatua"
+
+msgid "Custom FoV limit"
+msgstr "FOV muga pertsonalizatua"
+
+msgid "Custom altitude of the Moon, °"
+msgstr "Ilargiaren altitudea pertsonalizatua, °"
+
+msgid "Custom altitude of the Sun, °"
+msgstr "Eguzkiaren altitudea pertsonalizatua, °"
+
+msgid "Custom settings for position of GRS"
+msgstr "GRSaren posizioaren ezarpen pertsonalizatuak"
+
+msgid "Custom values"
+msgstr "Balioak pertsonalizatuak"
+
+msgid "Cut the scale off below the limit"
+msgstr "Ebaki eskalaren limitean behean"
+
+msgid "DATE AND TIME (UTC)"
+msgstr "DATA ETA ORDUA (UTC)"
+
+msgid "DSS survey"
+msgstr "DSS inkesta"
+
+msgid "Dark nebulae"
+msgstr "Nebulosa ilun"
+
+msgid "Data"
+msgstr "Datuak"
+
+msgid "Date"
+msgstr "Data"
+
+msgid "Date and time"
+msgstr "Data eta ordua"
+
+msgid "Date/time"
+msgstr "Data/ordua"
+
+msgid "Dates"
+msgstr "Datuak"
+
+msgid "Dbl. stars"
+msgstr "Bi. izarrak"
+
+msgid "Dec (J2000)"
+msgstr "Dekl. (J2000)"
+
+msgid "December solstice"
+msgstr "Abenduko solstizio"
+
+msgid "Decimal degrees. −33.87 means 33.87° south. Elevation is metres above sea level; it moves the horizon down by a few arcminutes."
+msgstr "Hamartar gradua. −33,87 esan nahi du 33,87° hegoaldean. Altitua itsas mailatik metroak; zerumugaren behera gutxi arcminuto batzuk mugitzen du."
+
+msgid "Declination"
+msgstr "Deklarazioa"
+
+msgid "Deep Sky"
+msgstr "Zeruaren sakona"
+
+msgid "Degrees per year the longitude moves by"
+msgstr "Gradu urtean longitudea mugitzen dena"
+
+msgid "Degrees, hours and minutes as they are written - 12h30m49s, +41°16'09\", 187.7 - or plain decimal degrees."
+msgstr "Gradua, orduak eta minutuak idatzita dauden bezala - 12h30m49s, +41°16'09\", 187,7 - edo hamartar gradua soila."
+
+msgid "Deletes all recent search object data, and the objects SIMBAD contributed."
+msgstr "Ezabatu bilaketa-objektuen datu azkenak, eta SIMBADek ekarritakoak."
+
+msgid "Designations for celestial coordinate systems"
+msgstr "Zeruko koordenatu-sistemen izendapeak"
+
+msgid "Designations for double stars"
+msgstr "Bi izarren izendapeak"
+
+msgid "Designations for variable stars"
+msgstr "Aldakor izarren izendapeak"
+
+msgid "Dim a survey near the horizon, as the air does"
+msgstr "Ilunak inkesta zerumugaren amaiera, airearen bezala"
+
+msgid "Dimensions"
+msgstr "Dimentsioak"
+
+msgid "Display formats of date and time"
+msgstr "Data eta orduaren bistaratze-formatuak"
+
+msgid "Display objects from catalogs"
+msgstr "Bistaratu objektuak katalogoetatik"
+
+msgid "Distance, AU"
+msgstr "Distantzia, AU"
+
+msgid "Done"
+msgstr "Egina"
+
+msgid "Drag"
+msgstr "Arrastoa"
+
+msgid "Draw deep-sky objects at all"
+msgstr "Marraztu zeruaren sakonearen objektuak guztira"
+
+msgid "Draw only polygon"
+msgstr "Marraztu poligonoa soila"
+
+msgid "Draw the enabled sky surveys"
+msgstr "Marraztu gaituak dauden zeruaren inkestak"
+
+msgid "Draw the planets, moons and minor bodies"
+msgstr "Marraztu planetak, ilargiak eta gorputz txikiak"
+
+msgid "Drawn larger than life, so a body that is a few arcseconds wide is visible at all. The position stays true."
+msgstr "Marraztua biziaren baino handiagoa, beraz gorputz batzuk segundu batzuen zabala dena ikusgai diren guztira. Posizioa egia geratzen da."
+
+msgid "Duration"
+msgstr "Iraupena"
+
+msgid "Duration (years)"
+msgstr "Iraupena (urteak)"
+
+msgid "Duration, months"
+msgstr "Iraupena, hilabeteak"
+
+msgid "Dusk"
+msgstr "Ilunabarra"
+
+msgid "Dwarf planets"
+msgstr "Planeta txikiak"
+
+msgid "Dynamic (FOV-based) Moon size"
+msgstr "Dinamikoa (FOV-oinarria) Ilargiaren tamaña"
+
+msgid "ELEV. M"
+msgstr "ALTI. M"
+
+msgid "Earth"
+msgstr "Lurra"
+
+msgid "Earth penumbra"
+msgstr "Lurraren penumbra"
+
+msgid "Earth shadow enlargement after Danjon"
+msgstr "Lurraren itzalaren enlargadura Danjon-en ondoren"
+
+msgid "Earth umbra"
+msgstr "Lurraren itzala"
+
+msgid "Eastern quadrature"
+msgstr "Ekialgo koadratura"
+
+msgid "Ecl. grid"
+msgstr "Ekl. sareta"
+
+msgid "Eclipse"
+msgstr "Eklipse"
+
+msgid "Eclipse begins; first contact with Earth"
+msgstr "Eklipsea hasten da; lehenengo kontaktua Lurrenarekin"
+
+msgid "Eclipse ends; last contact with Earth"
+msgstr "Eklipsea bukatu; azken kontaktua Lurrenarekin"
+
+msgid "Eclipse magnitude"
+msgstr "Elorduaren magnitudea"
+
+msgid "Eclipses"
+msgstr "Elorduak"
+
+msgid "Eclipses are computed for observers on Earth."
+msgstr "Elorduak kalkulatzen dira Lurra dauden behatzaileentzat."
+
+msgid "Ecliptic"
+msgstr "Epikaria"
+
+msgid "Ecliptic (J2000)"
+msgstr "Epikaria (J2000)"
+
+msgid "Ecliptic (J2000.0)"
+msgstr "Epikaria (J2000.0)"
+
+msgid "Ecliptic (of date)"
+msgstr "Epikaria (dataren)"
+
+msgid "Ecliptic grid"
+msgstr "Sareta epikaria"
+
+msgid "Ecliptic grid (J2000)"
+msgstr "Sareta epikaria (J2000)"
+
+msgid "Ecliptic grid (of date)"
+msgstr "Sareta epikaria (dataren)"
+
+msgid "Ecliptic poles (J2000)"
+msgstr "Epikariaren poloak (J2000)"
+
+msgid "Ecliptic poles (of date)"
+msgstr "Epikariaren poloak (dataren)"
+
+msgid "Elev."
+msgstr "Alt."
+
+msgid "Elevation"
+msgstr "Altitudea"
+
+msgid "Elevation in metres"
+msgstr "Altitudea metroak"
+
+msgid "Elong."
+msgstr "Elon."
+
+msgid "Elongation"
+msgstr "Elongazioa"
+
+msgid "Elongations and quadratures"
+msgstr "Luzaitzeak eta koadraturak"
+
+msgid "Emission-line stars"
+msgstr "Emisio-lerroko izar"
+
+msgid "Enabled only"
+msgstr "Gaituak soila"
+
+msgid "End of center line; central eclipse ends"
+msgstr "Lerro zentralaren bukera; eklipse zentrala bukatu"
+
+msgid "Enter Culture..."
+msgstr "Sartu Kultura..."
+
+msgid "Ephemeris"
+msgstr "Efemeridia"
+
+msgid "Equ. grid"
+msgstr "Ekua.sareta"
+
+msgid "Equ. mount"
+msgstr "Ekua. doia"
+
+msgid "Equator (J2000)"
+msgstr "Ekuatoriala (J2000)"
+
+msgid "Equator (of date)"
+msgstr "Ekuatoriala (dataren)"
+
+msgid "Equatorial"
+msgstr "Ekuatoriala"
+
+msgid "Equatorial (J2000.0)"
+msgstr "Ekuatoriala (J2000.0)"
+
+msgid "Equatorial grid (J2000)"
+msgstr "Sareta ekuatoriala (J2000)"
+
+msgid "Equatorial grid (of date)"
+msgstr "Sareta ekuatoriala (dataren)"
+
+msgid "Equatorial radii ratio"
+msgstr "Ekuatorial erradioen proportzio"
+
+msgid "Equinoxes (J2000)"
+msgstr "Ekuinotziak (J2000)"
+
+msgid "Equinoxes (of date)"
+msgstr "Ekuinotziak (dataren)"
+
+msgid "Evening"
+msgstr "Arratsaldea"
+
+msgid "Every"
+msgstr "Guztia"
+
+msgid "Every name the object is catalogued under"
+msgstr "Izena guztia objektua katalogoan dauden"
+
+msgid "Exoplanetary systems"
+msgstr "Exoplaneta sistemak"
+
+msgid "Exterior egress"
+msgstr "Kanpoko irteeraren"
+
+msgid "Exterior ingress"
+msgstr "Kanpoko sarreraren"
+
+msgid "Extras"
+msgstr "Gehigarriak"
+
+msgid "Fades the ground as you look below the horizon or zoom in"
+msgstr "Lurra lausotzen du zerumugaren azpira begiratzean edo handiagotzean"
+
+msgid "Fading duration"
+msgstr "Desagertzeko iraupena"
+
+msgid "Faintest shown"
+msgstr "Argnik gutxienekoa ikusita"
+
+msgid "Favorites"
+msgstr "Gogokoak"
+
+msgid "Fetching the survey lists…"
+msgstr "Inkesta-zerrendak osoa…"
+
+msgid "Field of view"
+msgstr "Ikuspegian eremua"
+
+msgid "Filter"
+msgstr "Fitxategi"
+
+msgid "Filter by type"
+msgstr "Fitxategi motaren arabera"
+
+msgid "Find a city"
+msgstr "Aurkitu hiria"
+
+msgid "Fine"
+msgstr "Fina"
+
+msgid "First %d of %d - filter to narrow it."
+msgstr "Lehena %d %d - fitxategi batzuta."
+
+msgid "First body"
+msgstr "Lehena gorputza"
+
+msgid "First celestial body"
+msgstr "Lehena zeruko gorputza"
+
+msgid "First graph"
+msgstr "Lehena grafikoa"
+
+msgid "Fix"
+msgstr "Finkatu"
+
+msgid "Fixed Equator"
+msgstr "Finkaturiko ekuatoriala"
+
+msgid "Fixed Equatorial grid"
+msgstr "Finkaturiko sareta ekuatoriala"
+
+msgid "Fixed instant"
+msgstr "Finkaturiko momentua"
+
+msgid "Flip buttons"
+msgstr "Txandakatzeko botoiak"
+
+msgid "Flip horiz."
+msgstr "Bilak.hori."
+
+msgid "Flip vert."
+msgstr "Bilak. ber."
+
+msgid "Font size"
+msgstr "Letra-tamaña"
+
+msgid "Frame rate"
+msgstr "Fotogramen taxa"
+
+msgid "From"
+msgstr "Nondik"
+
+msgid "From year"
+msgstr "Urtetik"
+
+msgid "Full screen"
+msgstr "Pant. osoa"
+
+msgid "Fullscreen button"
+msgstr "Pantaila osoa botoia"
+
+msgid "Further reading"
+msgstr "Gehiago irakurtzeko"
+
+msgid "GRS details…"
+msgstr "GRS xehetasunak…"
+
+msgid "Gal. grid"
+msgstr "Gal. sareta"
+
+msgid "Galactic"
+msgstr "Galaktikoa"
+
+msgid "Galactic center and anticenter"
+msgstr "Galaxiaren zentroa eta zentroarenaren aurkakoa"
+
+msgid "Galactic equator"
+msgstr "Galaxiaren ekuatorea"
+
+msgid "Galactic poles"
+msgstr "Galaxiaren poloak"
+
+msgid "Galaxies"
+msgstr "Galaxiak"
+
+msgid "Gamma, saturation, brightness, contrast, opacity, colour channel and inverted colours belong to one survey. Open a survey to set them."
+msgstr "Gamma, asetzea, disdira, kontrastea, itzaltzea, koloreak eta alderantzikatzea ikerketa-taldi baterako dira. Ireki ikerketa-taldia haiek ezartzeko."
+
+msgid "Generic"
+msgstr "Generikoa"
+
+msgid "Gestures"
+msgstr "Eginkerak"
+
+msgid "Globular star clusters"
+msgstr "Izarren multzo esferikoak"
+
+msgid "Go there"
+msgstr "Joan han"
+
+msgid "Go to position"
+msgstr "Joan posiziora"
+
+msgid "Go to this eclipse"
+msgstr "Joan eklipse horera"
+
+msgid "Go to this moment"
+msgstr "Joan une horera"
+
+msgid "Go to this transit"
+msgstr "Joan trantsitu horera"
+
+msgid "Good visibility conditions for current location"
+msgstr "Ikusteko baldintzak oneak kokaleku honetarako"
+
+msgid "Graphs"
+msgstr "Grafikoak"
+
+msgid "Great Red Spot"
+msgstr "Orban Gorria Handia"
+
+msgid "Great Red Spot details"
+msgstr "Orban Gorria Handiaren xehetasunak"
+
+msgid "Greatest eastern elongation"
+msgstr "Ekialgo elongazio handiena"
+
+msgid "Greatest eclipse"
+msgstr "Eklipse handiena"
+
+msgid "Greatest elongation for an inner planet, quadrature for an outer one"
+msgstr "Planeta barnearen elongazio gehiena, kanpo baten koadratura"
+
+msgid "Greatest western elongation"
+msgstr "Mendebalgo elongazio handiena"
+
+msgid "Greek letters"
+msgstr "Letra grekoak"
+
+msgid "Grid density"
+msgstr "Saretaren dentsitatea"
+
+msgid "Grids"
+msgstr "Saretakoak"
+
+msgid "Ground"
+msgstr "Lurra"
+
+msgid "Gyro"
+msgstr "Giroskopioa"
+
+msgid "Gyro mode"
+msgstr "Giroskopio modua"
+
+msgid "Height"
+msgstr "Altuera"
+
+msgid "Heliocentric distance"
+msgstr "Heliozentrikoko distantzia"
+
+msgid "Heliocentric ecliptic positions of the major planets."
+msgstr "Planeta handien heliozentriko ekliptiko posizioak."
+
+msgid "Herschel 400 objects"
+msgstr "Herschel 400 objektuak"
+
+msgid "HiPS"
+msgstr "HiPS"
+
+msgid "HiPS Surveys"
+msgstr "HiPS ikerketa-taldeak"
+
+msgid "Hide controls"
+msgstr "Kontrolak ezkutatu"
+
+msgid "Hide deep-sky objects fainter than the limit"
+msgstr "Ezkutatu zeru sakoneko objektuak limitea baino argalak"
+
+msgid "Hide nomenclature on the celestial body of observer"
+msgstr "Ezkutatu zeruko gorputzean izendapena"
+
+msgid "Hide orbits of minor bodies"
+msgstr "Ezkutatu gorputz txikien orbitak"
+
+msgid "Highlight"
+msgstr "Nabarmendu"
+
+msgid "Highlight the objects of the observing list"
+msgstr "Behaketa zerrendaren objektuak nabarmendu"
+
+msgid "Hint circles marking each planet"
+msgstr "Aholku zirkuluak planeta bakoitza markatzen"
+
+msgid "Hints"
+msgstr "Aholkuak"
+
+msgid "Hints brightness"
+msgstr "Aholkuen disdira"
+
+msgid "Hipparcos designations"
+msgstr "Hipparcos izendapenak"
+
+msgid "Horizontal"
+msgstr "Horizontala"
+
+msgid "Hour angles usually run 0...24h. This counts -12h...12h."
+msgstr "Orduen angeluak normalean 0...24h dira. Honek -12h...12h dauka."
+
+msgid "How many"
+msgstr "Zenbat"
+
+msgid "ICRS grid"
+msgstr "ICRS sareta"
+
+msgid "Include"
+msgstr "Barne hartu"
+
+msgid "Include bright comets"
+msgstr "Barne hartu kometa etereak"
+
+msgid "Include selected minor planets"
+msgstr "Barne hartu hautatutako planetoide txikiak"
+
+msgid "Inferior conjunction"
+msgstr "Konjuntzio inferiorea"
+
+msgid "Info label"
+msgstr "Informazioaren etiketa"
+
+msgid "Interacting galaxies"
+msgstr "Galaxia elkarreragileak"
+
+msgid "Intercardinal points"
+msgstr "Puntu interkardinala"
+
+msgid "Interior egress"
+msgstr "Barneko atera"
+
+msgid "Interior ingress"
+msgstr "Barneko sarrera"
+
+msgid "Interstellar objects"
+msgstr "Izar arteko objektuak"
+
+msgid "Invariable plane of the Solar system"
+msgstr "Eguzki-sistemaren plano aldagaitza"
+
+msgid "Isolated"
+msgstr "Isolatua"
+
+msgid "Its elevation, and the civil, nautical and astronomical twilights"
+msgstr "Bere altuera, eta zibil, itsasargi eta astronomia krepuskulu"
+
+msgid "Jovigraphic longitude of the spot in System II, in degrees"
+msgstr "Jovigrafia luzeera System II-n, gradutan"
+
+msgid "Julian day"
+msgstr "Julian eguna"
+
+msgid "June solstice"
+msgstr "Ekaineko solstizio"
+
+msgid "Label"
+msgstr "Etiketa"
+
+msgid "Label colour"
+msgstr "Etiketa kolorea"
+
+msgid "Label only features along the terminator"
+msgstr "Etiketa ezik ezaugarriak terminadorearen inguruan"
+
+msgid "Labels and Markers amount"
+msgstr "Etiketak eta markatzaileak kopurua"
+
+msgid "Labels brightness"
+msgstr "Etiketen disdira"
+
+msgid "Landscape labels"
+msgstr "Paisaiaren etiketak"
+
+msgid "Language settings"
+msgstr "Hizkuntzaren ezarpenak"
+
+msgid "Largest, ′"
+msgstr "Handiena, ′"
+
+msgid "Last known position"
+msgstr "Azken posizio ezaguna"
+
+msgid "Lasting"
+msgstr "Iraupena"
+
+msgid "Latest selected object"
+msgstr "Azken hautatutako objektua"
+
+msgid "Latitude"
+msgstr "Latitudea"
+
+msgid "Latitude −90…90, longitude −180…180."
+msgstr "Latitudea −90…90, longitudea −180…180."
+
+msgid "Layer appearance"
+msgstr "Gerutzaren itxura"
+
+msgid "Leaves the landscape visible in darkness"
+msgstr "Paisaia ikusgarria uzten du ilunabarean"
+
+msgid "Licence"
+msgstr "Lizentzia"
+
+msgid "Light pollution"
+msgstr "Argizale kutsatzea"
+
+msgid "Light pollution from database"
+msgstr "Daturik argizale kutsatzea"
+
+msgid "Limit angular separation"
+msgstr "Mugatu angeluzko bereizpena"
+
+msgid "Limit angular size"
+msgstr "Mugatu angeluaren tamaina"
+
+msgid "Limit magnitude"
+msgstr "Magnitudea mugatu"
+
+msgid "Limit the magnitude of solar system objects"
+msgstr "Mugatu eguzki-sistemako objektuen magnitudea"
+
+msgid "Line"
+msgstr "Lerroa"
+
+msgid "Line thickness"
+msgstr "Lerroaren lodiera"
+
+msgid "Linear and angular distances between selected objects"
+msgstr "Hautatutako objektuen arteko distantzia lineala eta angeluzkoa"
+
+msgid "Linear distance"
+msgstr "Distantzia lineala"
+
+msgid "Lines"
+msgstr "Lerroak"
+
+msgid "Lines and circles"
+msgstr "Lerroak eta zirkuluak"
+
+msgid "List"
+msgstr "Zerrenda"
+
+msgid "List name"
+msgstr "Zerrenda izena"
+
+msgid "Lit windows, street lighting and the like"
+msgstr "Argitutako leihoak, kaleko argia eta antzekoa"
+
+msgid "Loading…"
+msgstr "Kargatzen…"
+
+msgid "Local Mean Solar Time"
+msgstr "Tokiko batez besteko Eguzki Ordua"
+
+msgid "Local Time"
+msgstr "Ordu lokala"
+
+msgid "Local True Solar Time"
+msgstr "Tokiko benetako Eguzki Ordua"
+
+msgid "Local solar eclipses"
+msgstr "Tokiko Eguzkiaren eklipseak"
+
+msgid "Local time"
+msgstr "Tokiko ordua"
+
+msgid "Local time, h"
+msgstr "Tokiko ordua, h"
+
+msgid "Locate me"
+msgstr "Bilatu neure burua"
+
+msgid "Locating…"
+msgstr "Bilatzen…"
+
+msgid "Location from landscape"
+msgstr "Kokalekua paisaiatik"
+
+msgid "Location is switched off in the system settings."
+msgstr "Kokalekua desaktibatuta dago sistema ezarpenetan."
+
+msgid "Location permission refused. The other two ways still work."
+msgstr "Lokalizazioaren baimena ukatu. Beste bi bideek funtzionatu egiten dute."
+
+msgid "Lock position when coordinates are used"
+msgstr "Blokeatu posizioa koordenatua erabiltzean"
+
+msgid "Long press"
+msgstr "Sakatu eta mantendu"
+
+msgid "Longitude"
+msgstr "Longitudea"
+
+msgid "Longitude of GRS"
+msgstr "GRSaren longitudea"
+
+msgid "Lunar Elongation"
+msgstr "Ilargiaren elongazioa"
+
+msgid "Lunar Stations"
+msgstr "Ilargiaren estazionak"
+
+msgid "Lunar eclipses"
+msgstr "Ilargiaren eklipseak"
+
+msgid "Lunar elongation"
+msgstr "Ilargiaren elongazioa"
+
+msgid "Magnitudes"
+msgstr "Magnitudeak"
+
+msgid "Major planets"
+msgstr "Planeta handiak"
+
+msgid "Major planets by planet, minor bodies by type"
+msgstr "Planeta handiak planetaren arabera, gorputz txikiak motaren arabera"
+
+msgid "Map of the planet. Tap to set the observer's place."
+msgstr "Planetaren mapa. Sakatu behatlearen tokia ezartzeko."
+
+msgid "March equinox"
+msgstr "Martxoaren eguinoktzio"
+
+msgid "Mark impact features with ellipses"
+msgstr "Markatu kolpe ezaugarriak elipseekin"
+
+msgid "Mark minor bodies"
+msgstr "Markatu gorputz txikiak"
+
+msgid "Markers"
+msgstr "Markatzaileak"
+
+msgid "Markers sized by the object's angular size"
+msgstr "Markatzaileak objektuaren angeluaren tamainarengatik"
+
+msgid "Master switch for the grids, lines and points below"
+msgstr "Master switch saretarako, lerroetarako eta puntuetarako jarraian"
+
+msgid "Max"
+msgstr "Gehienez"
+
+msgid "Max items to display"
+msgstr "Erakusteko gehienez elementuak"
+
+msgid "Max. results"
+msgstr "Gehienez emaitzak"
+
+msgid "Max. search radius"
+msgstr "Gehienez bilaketa erradioa"
+
+msgid "Maximum Solar altitude"
+msgstr "Gehienez Eguzkiaren altitudea"
+
+msgid "Maximum allowed separation"
+msgstr "Gehienez baimendu bereizpena"
+
+msgid "Maximum angular size"
+msgstr "Gehienez angeluaren tamaina"
+
+msgid "Maximum eclipse"
+msgstr "Gehienez eklipsea"
+
+msgid "Maximum year"
+msgstr "Gehienez urtea"
+
+msgid "Mean motion"
+msgstr "Batez besteko mugimendua"
+
+msgid "Mercury, Venus, Mars, Jupiter and Saturn at once. Earth only."
+msgstr "Merkurio, Artizarra, Marte, Jupiter eta Saturno batera. Lurra bakarrik."
+
+msgid "Messier objects"
+msgstr "Messier objektuak"
+
+msgid "Mid-transit"
+msgstr "Trantsituaren erdian"
+
+msgid "Milky Way brightness"
+msgstr "Esne Bidearen disdira"
+
+msgid "Milky Way saturation"
+msgstr "Esne Bidearen asetzea"
+
+msgid "Min"
+msgstr "Gutxienez"
+
+msgid "Minimal angular size"
+msgstr "Gutxienez angeluaren tamaina"
+
+msgid "Minimal brightness"
+msgstr "Gutxienez disdira"
+
+msgid "Minimum Solar altitude"
+msgstr "Gutxienez Eguzkiaren altitudea"
+
+msgid "Minimum year"
+msgstr "Gutxienez urtea"
+
+msgid "Minor bodies"
+msgstr "Gorputz txikiak"
+
+msgid "Minutes before sunrise / after sunset"
+msgstr "Irteeraren aurretik / sartzearen ondoren minutuak"
+
+msgid "Month"
+msgstr "Hilabetea"
+
+msgid "Monthly Elevation"
+msgstr "Hilabeteko altuera"
+
+msgid "Moon at"
+msgstr "Ilargia:"
+
+msgid "Moon enters penumbra"
+msgstr "Ilargia penumbrara sartzen da"
+
+msgid "Moon enters umbra"
+msgstr "Ilargia umbrara sartzen da"
+
+msgid "Moon in zenith at"
+msgstr "Ilargia zenitan"
+
+msgid "Moon leaves penumbra"
+msgstr "Ilargia penumbrari uzten zaio"
+
+msgid "Moon leaves umbra"
+msgstr "Ilargia umbrari uzten zaio"
+
+msgid "Moon's halo"
+msgstr "Ilargiaren aroa"
+
+msgid "Moons of first body"
+msgstr "Lehenengo gorputzaren ilargiak"
+
+msgid "Morning"
+msgstr "Goiza"
+
+msgid "Morph. Descr."
+msgstr "Morfa. Desk."
+
+msgid "Morphological description"
+msgstr "Morfologia deskribapena"
+
+msgid "Move the sky by pointing the phone at it"
+msgstr "Mugitu zerua telefonoa seinalatuz"
+
+msgid "Move the sky with the phone"
+msgstr "Mugitu zerua telefonoaz"
+
+msgid "NGC/IC objects"
+msgstr "NGC/IC objektuak"
+
+msgid "Name for the new list"
+msgstr "Zerrenda berriaren izena"
+
+msgid "Named features the landscape marks"
+msgstr "Izendatutako ezaugarriak paisaia markatzen"
+
+msgid "Names"
+msgstr "Izenak"
+
+msgid "Names beside the planets and their markers"
+msgstr "Izenak planetaren alboan eta beren markatzaileetan"
+
+msgid "Names in English"
+msgstr "Izenak ingelesean"
+
+msgid "Nautical Twilight"
+msgstr "Ilunabarra itsasertzekoa"
+
+msgid "Neb. bg"
+msgstr "Neb. atze."
+
+msgid "Nebula background"
+msgstr "Nebularen atzeko planoa"
+
+msgid "Nebulae"
+msgstr "Nebulosa"
+
+msgid "New list"
+msgstr "Zerrenda berria"
+
+msgid "Next"
+msgstr "Hurrengoa"
+
+msgid "Night"
+msgstr "Gaua"
+
+msgid "No city matches that."
+msgstr "Inola hiriak ez dute hori bat dator."
+
+msgid "No eclipses found. Pick a range and calculate."
+msgstr "Inola eklipseak ez dira aurkitu. Hautatu barruti bat eta kalkulatu."
+
+msgid "No fresh fix - the receiver may have no sky. Try again outdoors, or set the place another way."
+msgstr "Fixes berriak ez - hartzaileak zerua ez du eduki daiteke. Saia aldaonean kanpoan, edo kokalekua beste modu batean ezarri."
+
+msgid "No surveys were found. The lists are downloaded, so this needs a connection."
+msgstr "Inola ikerketa-taldeak ez dira aurkitu. Zerrendak deskargatu egiten dira, beraz, konexio hau behar du."
+
+msgid "None downloaded yet"
+msgstr "Ez da ezer deskargatu oraindik"
+
+msgid "Normal"
+msgstr "Normala"
+
+msgid "Not observable eclipse"
+msgstr "Ikus ditzakeen ez den eklipsea"
+
+msgid "Note: Local circumstances for eclipses during thousands of years in the past and future are not reliable due to uncertainty in ΔT which is caused by fluctuations in Earth's rotation."
+msgstr "Oharra: Ekipse milenioetan zehar sortzutako lokalen inguruko egoera ez da segurua, baita etorkizunean ere, ΔT ziurgabetasuna dela eta, Lurren biraketa aldakorten ondorioz."
+
+msgid "Note: artificial satellites and unnamed stars are excluded from calculation"
+msgstr "Oharra: Satelite artifizialak eta izena gabeko izarrak kalkuluetatik baztertuta daude"
+
+msgid "Note: this tool doesn't apply the refraction correction for coordinates. Horizontal coordinates stop the clock, or the sky would turn away from the point while you arrive at it."
+msgstr "Oharra: tresna honek ez du frakzio zuzenketa aplikatzen koordenatuetan. Koordenatu horizontalak ordua geldiarazten dute, edo zerua puntuarengatik aldatuko litzateke tokira iristen zarenean."
+
+msgid "Notes: The quantity gamma is the minimum distance from the axis of lunar shadow cone to the center of Earth, in units of Earth’s equatorial radius. This distance is positive or negative, depending on whether the axis of the shadow cone passes north or south of the Earth's center. Path of solar eclipses during thousands of years in the past and future are not reliable due to uncertainty in ΔT which is caused by fluctuations in Earth's rotation."
+msgstr "Oharrak: Gamma kantitatea Ilargiaren itzalaren konoaren ardatzaren eta Lurraren zentraren artean dagoen gutxieneko distantzia da, Lurraren ekuatorial-erradioaren unitatean. Distantzia hau positiboa edo negatiboa da, itzalaren konoaren ardatza Lurraren zentroan iparralde edo hegoaldean dagoen ala ez, kontuan hartuta. Eguzkiaren ekipse-eremua milenioetan zehar sortzutako lokalen inguruko egoera ez da segurua, baita etorkizunean ere, ΔT ziurgabetasuna dela eta, Lurren biraketa aldakorten ondorioz."
+
+msgid "Notes: The quantity gamma is the minimum distance from the center of the Moon to the axis of Earth’s umbral shadow cone, in units of Earth’s equatorial radius. This distance is positive or negative, depending on whether the Moon passes north or south of the shadow cone axis. Local circumstances for eclipses during thousands of years in the past and future are not reliable due to uncertainty in ΔT which is caused by fluctuations in Earth's rotation."
+msgstr "Oharrak: Gamma kantitatea Ilargiaren zentroan eta Lurren umbraren itzalaren konoaren ardatzaren artean dagoen gutxieneko distantzia da, Lurraren ekuatorial-erradioaren unitatean. Distantzia hau positiboa edo negatiboa da, Ilargia itzalaren konoaren ardatzaren iparralde edo hegoaldean pasatzen den ala ez, kontuan hartuta. Ekipse milenioetan zehar sortzutako lokalen inguruko egoera ez da segurua, baita etorkizunean ere, ΔT ziurgabetasuna dela eta, Lurren biraketa aldakorten ondorioz."
+
+msgid "Notes: Time in parentheses means the contact is invisible at current location. Transit times during thousands of years in the past and future are not reliable due to uncertainty in ΔT which is caused by fluctuations in Earth's rotation."
+msgstr "Oharrak: Parentesian agertzen den denbora kontakturik ez dela ikusten oraingoan kokalekuan esan nahi du. Trantsitu denborak milenioetan zehar sortzutako lokalen inguruko egoera ez dira segurua, baita etorkizunean ere, ΔT ziurgabetasuna dela eta, Lurren biraketa aldakorten ondorioz."
+
+msgid "Nothing computed yet, or nothing in this category is up."
+msgstr "Ez da ezer kalkulatu oraindik, edo ez da ezer kategoria honetan."
+
+msgid "Nothing computed yet."
+msgstr "Ez da ezer kalkulatu oraindik."
+
+msgid "Nothing found for “%s”."
+msgstr "Ez da \"%s\"-rentzako ezer aurkitu."
+
+msgid "Nothing in this list matches."
+msgstr "Ez da ezer zerrenda honetan bat dator."
+
+msgid "Nothing in this list yet. Pick something out of the sky and tap the star on its card to keep it here."
+msgstr "Ez da ezer zerrenda honetan oraindik. Hautatu zerbait zerua atera eta sakatu bere txartelean izarra gordetzeko."
+
+msgid "Nothing is selected. Pick an object in the sky first."
+msgstr "Ez da ezer hautatu. Hautatu objektu bat zeruan lehenengo."
+
+msgid "Nothing matches."
+msgstr "Ez da ezer bat dator."
+
+msgid "Nothing selected"
+msgstr "Ez da ezer hautatu"
+
+msgid "Nothing to plot."
+msgstr "Ez da ezer grafikoa."
+
+msgid "Nothing to show."
+msgstr "Ez da ezer erakusteko."
+
+msgid "Now"
+msgstr "Orain"
+
+msgid "N× above"
+msgstr "N× gainean"
+
+msgid "OBJECT"
+msgstr "OBJEKTUA"
+
+msgid "OBJECTS"
+msgstr "OBJEKTUAK"
+
+msgid "Object 1"
+msgstr "Objektua 1"
+
+msgid "Object 2"
+msgstr "Objektua 2"
+
+msgid "Objects which are up"
+msgstr "Objektuak zein dira gorago"
+
+msgid "Observable duration"
+msgstr "Behaketa iraupena"
+
+msgid "Observing list"
+msgstr "Behatlearen zerrenda"
+
+msgid "Observing list highlight"
+msgstr "Behatlearen zerrenda nabarmentzea"
+
+msgid "Observing lists"
+msgstr "Behatlearen zerrendak"
+
+msgid "Occultation"
+msgstr "Okultazioa"
+
+msgid "On the sky"
+msgstr "Zeruak gainean"
+
+msgid "One color"
+msgstr "Kolorea bakar bat"
+
+msgid "One color for all orbits"
+msgstr "Kolorea bakar bat orbitaentzat guzietan"
+
+msgid "Only for N latest selected objects"
+msgstr "N azkeneko hautaturiko objektuentzat bakarrik"
+
+msgid "Only for Solar elevation"
+msgstr "Eguzki altuaerentzat bakarrik"
+
+msgid "Only list"
+msgstr "Zerrenda bakarrik"
+
+msgid "Only one at a time"
+msgstr "Bakar bat behin batean"
+
+msgid "Only orbit for selected object…"
+msgstr "Orbita bakarrik hautatutako objektuentzat…"
+
+msgid "Only orbits of major planets…"
+msgstr "Orbita bakarrik planeta handiena…"
+
+msgid "Oort cloud objects"
+msgstr "Oort hodeian objektuak"
+
+msgid "Opac."
+msgstr "Opak."
+
+msgid "Opacity"
+msgstr "Itzaltzea"
+
+msgid "Open date and time"
+msgstr "Ireki data eta ordua"
+
+msgid "Open location"
+msgstr "Ireki kokalekua"
+
+msgid "Open star clusters"
+msgstr "Izar multzo irekiak"
+
+msgid "Opens the JUPOS project in a browser"
+msgstr "JUPOS proiektu irekitzen du arakatzailean"
+
+msgid "Opposition"
+msgstr "Oposizioa"
+
+msgid "Opposition of"
+msgstr "Oposizioa"
+
+msgid "Oppositions"
+msgstr "Oposizionak"
+
+msgid "Orbit colors"
+msgstr "Orbitaren koloreak"
+
+msgid "Orbital periods ratio"
+msgstr "Orbita-periodoen proportzio"
+
+msgid "Orbital velocity"
+msgstr "Orbita-abiadura"
+
+msgid "Orbits"
+msgstr "Orbitak"
+
+msgid "Orbits of Oort cloud objects"
+msgstr "Oort hodei objektuen orbitak"
+
+msgid "Orbits of comets"
+msgstr "Kometa orbitak"
+
+msgid "Orbits of cubewanos"
+msgstr "Cubewano orbitak"
+
+msgid "Orbits of dwarf planets"
+msgstr "Planetoide txikien orbitak"
+
+msgid "Orbits of interstellar objects"
+msgstr "Izar bitarteko objektuen orbitak"
+
+msgid "Orbits of major planets"
+msgstr "Planeta handien orbitak"
+
+msgid "Orbits of minor planets"
+msgstr "Planetoide txikien orbitak"
+
+msgid "Orbits of moons"
+msgstr "Ilargien orbitak"
+
+msgid "Orbits of plutinos"
+msgstr "Plutino orbitak"
+
+msgid "Orbits of scattered disk objects"
+msgstr "Sakatuak diskoa objektuen orbitak"
+
+msgid "Orbits of sednoids"
+msgstr "Sednoid orbitak"
+
+msgid "Otherwise every move adopts the zone of the new place."
+msgstr "Bestela bada, mugimendu bakoitzak bere kokaleku berriaren eremua hartu egiten du."
+
+msgid "Outline craters"
+msgstr "Krater ertza"
+
+msgid "Pan the sky"
+msgstr "Mugitu zerua"
+
+msgid "Partial eclipse begins"
+msgstr "Eklipse partziala hasitzen du"
+
+msgid "Partial eclipse ends"
+msgstr "Eklipse partziala amaitzen da"
+
+msgid "Partitions"
+msgstr "Partizionak"
+
+msgid "Partitions thickness"
+msgstr "Partizionaren lodiera"
+
+msgid "Path width"
+msgstr "Bideko zabalera"
+
+msgid "Pause"
+msgstr "Pausatu"
+
+msgid "Paused - start"
+msgstr "Pausatuta - hasi"
+
+msgid "Penumbral magnitude"
+msgstr "Penumbraren magnitudea"
+
+msgid "Perfect visibility conditions for current location"
+msgstr "Ikusteko baldintzak perfektuak kokaleku honetarako"
+
+msgid "Perihelion"
+msgstr "Perihelio"
+
+msgid "Perihelion and aphelion"
+msgstr "Perihelioa eta afelioa"
+
+msgid "Phase angle"
+msgstr "Fasearen angelua"
+
+msgid "Phenomena"
+msgstr "Fenomenoak"
+
+msgid "Pick two different bodies to see how their distance changes."
+msgstr "Hautatu bi gorputz desberdin haien arteko distantzia nola aldatzen den ikusteko."
+
+msgid "Pinch"
+msgstr "Bilkatu"
+
+msgid "Planet"
+msgstr "Planeta"
+
+msgid "Planet and time zone"
+msgstr "Planeta eta ordu-eremua"
+
+msgid "Planet markers"
+msgstr "Planetaren markatzaileak"
+
+msgid "Planetary nebulae"
+msgstr "Nebulosa planetarioak"
+
+msgid "Planetary nebulae (<%1 mag)"
+msgstr "Nebulosa planetarioak (<%1 mag)"
+
+msgid "Planetary nomenclature"
+msgstr "Planetaren nomenklatura"
+
+msgid "Planetary transits"
+msgstr "Planetaren trantsioak"
+
+msgid "Planets"
+msgstr "Planetak"
+
+msgid "Planets and Sun"
+msgstr "Planetak eta Eguzkia"
+
+msgid "Planets magnitude algorithm"
+msgstr "Planetaren magnitudearen algoritmoa"
+
+msgid "Please select object to plot its 'Monthly Elevation' graph for the current year at selected time."
+msgstr "Mesedez, hautatu objektua \"Hilabeteko elebazioa\" grafikoa marrazteko oraingoan urtean."
+
+msgid "Please select object to plot its graph 'Altitude vs. Time'."
+msgstr "Mesedez, hautatu objektua \"Altitudea vs. Denbora\" grafikoa marrazteko."
+
+msgid "Please select object to plot its graph 'Azimuth vs. Time'."
+msgstr "Mesedez, hautatu objektua \"Azimuta vs. Denbora\" grafikoa marrazteko."
+
+msgid "Plutinos"
+msgstr "Plutinoak"
+
+msgid "Pluto, Ceres, Pallas, Juno and Vesta"
+msgstr "Pluto, Ceres, Pallas, Juno eta Vesta"
+
+msgid "Point size"
+msgstr "Puntuaren neurria"
+
+msgid "Pointing"
+msgstr "Seinalatzea"
+
+msgid "Polar distance"
+msgstr "Distantzia polarra"
+
+msgid "Polar distance, not declination"
+msgstr "Distantzia polarra, ez deklinazio"
+
+msgid "Poles and points"
+msgstr "Poloak eta puntuak"
+
+msgid "Polygon colour"
+msgstr "Poligono-kolorea"
+
+msgid "Position angle"
+msgstr "Posizio-angelua"
+
+msgid "Positions"
+msgstr "Posizioak"
+
+msgid "Positive values only"
+msgstr "Balio positiboak soilik"
+
+msgid "Precession circles"
+msgstr "Presesio-zirkuluak"
+
+msgid "Previous"
+msgstr "Aurrekoa"
+
+msgid "Program Language"
+msgstr "Programaren hizkuntza"
+
+msgid "Pronounce"
+msgstr "Ahoskatze"
+
+msgid "Quadrature circle"
+msgstr "Koadratura-zirkulu"
+
+msgid "Query SIMBAD about selected object"
+msgstr "Galdetu SIMBAD-i hautaturiko objektuari buruz"
+
+msgid "Query options"
+msgstr "Galdeketa-aukerak"
+
+msgid "Quit"
+msgstr "Irten"
+
+msgid "Quit button"
+msgstr "Itxi botoia"
+
+msgid "Range"
+msgstr "Tartea"
+
+msgid "Reading…"
+msgstr "Irakurtzen…"
+
+msgid "Real time speed"
+msgstr "Benetako denboraren abiadura"
+
+msgid "Recent Searches"
+msgstr "Azken bilaketak"
+
+msgid "Rectangular FOV"
+msgstr "Laukizuzen FOV"
+
+msgid "Refraction, extinction, sky brightness"
+msgstr "Refrakzioa, desagerpena, zeruaren argitasuna"
+
+msgid "Regions of the sky"
+msgstr "Zeruaren eremua"
+
+msgid "Relative scale"
+msgstr "Eskala erlatiboa"
+
+msgid "Remove %s"
+msgstr "Kendu %s"
+
+msgid "Remove from observing list"
+msgstr "Kendu behaketa-zerrendatik"
+
+msgid "Rename"
+msgstr "Berrizendatu"
+
+msgid "Reset"
+msgstr "Berrezarri"
+
+msgid "Reset all"
+msgstr "Berrezarri dena"
+
+msgid "Restarting…"
+msgstr "Berrabiarazten…"
+
+msgid "Results"
+msgstr "Emaitzak"
+
+msgid "Right ascension"
+msgstr "Zuzena igotze"
+
+msgid "Rises"
+msgstr "Ateratzen"
+
+msgid "Rotation"
+msgstr "Biraketa"
+
+msgid "Running"
+msgstr "Exekutatzen ari"
+
+msgid "SIMBAD did not answer."
+msgstr "SIMBAD-ek ez du erantzun."
+
+msgid "SIMBAD is switched off in the search options."
+msgstr "SIMBAD bila aukeran itzalita dago."
+
+msgid "SIMBAD is switched off. Turn it on under Options to look objects up online."
+msgstr "SIMBAD desaktibatuta dago. Aktibatu Aukerak atalean objektuak online bilatzeko."
+
+msgid "SIMBAD server"
+msgstr "SIMBAD zerbitzaria"
+
+msgid "Saturation"
+msgstr "Asetzea"
+
+msgid "Save"
+msgstr "Gorde"
+
+msgid "Save either the current FOV and direction of view or all the current options for use at next startup. Restoring default settings requires a restart of the app."
+msgstr "Gorde uneko FOVa eta bista-norabidea edo uneko aukera guztiak hurrengo hasieran erabiltzeko. Balio lehenetsiak berrezarritzeak aplikazioa berrabiarazi behar du."
+
+msgid "Save to observing list"
+msgstr "Gorde behaketa-zerrendara"
+
+msgid "Save view"
+msgstr "Gorde bista"
+
+msgid "Scale"
+msgstr "Eskala"
+
+msgid "Scale marker and label visibility by surface brightness"
+msgstr "Eskalatu markatzailea eta etiketaren ikusgarritasuna gainazalaren argitasunaren arabera"
+
+msgid "Scales smoothly between 1× at the minimum field of view and the factor above at the maximum"
+msgstr "Graduatuz aldatzen 1× uneko bista-eremu minimoaren eta goian dagoen faktorearen artean maksimoan"
+
+msgid "Scattered disc objects"
+msgstr "Diska zabalduaren objektuak"
+
+msgid "Screen label"
+msgstr "Pantailaren etiketa"
+
+msgid "Search"
+msgstr "Bilatu"
+
+msgid "Search in list"
+msgstr "Bilatu zerrendan"
+
+msgid "Search options"
+msgstr "Bilaketa-aukerak"
+
+msgid "Seasons"
+msgstr "Denboraldia"
+
+msgid "Second body"
+msgstr "Bigarren gorputza"
+
+msgid "Second celestial body"
+msgstr "Bigarren zeruko gorputza"
+
+msgid "Second graph"
+msgstr "Bigarren grafikoa"
+
+msgid "Second object"
+msgstr "Bigarren objektua"
+
+msgid "Secondary intercardinal points"
+msgstr "Bigarren mailauko kordinal-erdiko puntuak"
+
+msgid "Sednoids"
+msgstr "Sednoiak"
+
+msgid "See the sky through the ground"
+msgstr "Ikusi zerua lurren bidez"
+
+msgid "Seen now"
+msgstr "Orain ikusita"
+
+msgid "Select an object first: this asks SIMBAD what it holds around it."
+msgstr "Hautatu objektu bat lehenengo: hau SIMBAD-i eskatzen du zer duen inguruan."
+
+msgid "Select it and show its card"
+msgstr "Hautatu eta erakutsi bere txartela"
+
+msgid "Select something in the sky first — this page works on the selection."
+msgstr "Hautatu zerbait zeruan lehen — orri honek hautapenean lan egiten du."
+
+msgid "Selected object"
+msgstr "Hautaturiko objektua"
+
+msgid "Separate colors for orbits by object type"
+msgstr "Bereizitako koloreak orbitetan objektu motaren arabera"
+
+msgid "Separate colors for orbits of major planets"
+msgstr "Bereizitako koloreak planetarien handien orbitetan"
+
+msgid "Separation"
+msgstr "Bereizketa"
+
+msgid "September equinox"
+msgstr "Irailaren eguinoktzio"
+
+msgid "Server"
+msgstr "Zerbitzaria"
+
+msgid "Set the clock to %s"
+msgstr "Ezarri erlojua %s-etan"
+
+msgid "Set the place"
+msgstr "Ezarri kokalekua"
+
+msgid "Set to now"
+msgstr "Ezarri oraingoa"
+
+msgid "Sets"
+msgstr "Sartzen"
+
+msgid "Shadow map for non-convex bodies. May coarsen the penumbra on some objects"
+msgstr "Itzal-mapa gorputz ez-konbexuentzat. Baliteke penumbraren zabalera batzuetan objektuetan."
+
+msgid "Shadow transit"
+msgstr "Itzalaren trantsitua"
+
+msgid "Shooting stars"
+msgstr "Tirako izarrak"
+
+msgid "Short notation for units of surface brightness"
+msgstr "Notazio laburra gainazal-argitasunaren unitateentzat"
+
+msgid "Short steps over a long duration are slow."
+msgstr "Urrats laburrak denbora luzearen gainean motelak dira."
+
+msgid "Show"
+msgstr "Erakutsi"
+
+msgid "Show FOV center marker when position is search"
+msgstr "Erakutsi FOV-zentroko markatzailea posizioa bilatzen denean"
+
+msgid "Show additional buttons"
+msgstr "Erakutsi botoiaren osagarriak"
+
+msgid "Show additional star names"
+msgstr "Erakutsi izarren izen osagarriak"
+
+msgid "Show all information"
+msgstr "Erakutsi informazio guztia"
+
+msgid "Show atmospheric extinction"
+msgstr "Erakutsi atmosferaren desagerpena"
+
+msgid "Show boundaries of constellations"
+msgstr "Erakutsi konstelazioen mugak"
+
+msgid "Show button in addition to keyboard shortcut?"
+msgstr "Erakutsi botoia teklatu-laburtuaren gehigarri bezala?"
+
+msgid "Show controls"
+msgstr "Erakutsi kontrolak"
+
+msgid "Show each body where it was when the light left it (recommended)"
+msgstr "Erakutsi gorputz bakoitza non zegoen argia abiarazten zenean (gomendatuta)"
+
+msgid "Show frames per second beside the field of view"
+msgstr "Erakutsi segunduko fotogramak bista-eremuaren ondoan"
+
+msgid "Show hints and labels for planetary features"
+msgstr "Erakutsi aipamenak eta etiketak planetaren ezaugarrientzat"
+
+msgid "Show illumination"
+msgstr "Erakutsi iluminazioa"
+
+msgid "Show in sky"
+msgstr "Erakutsi zeruan"
+
+msgid "Show less"
+msgstr "Gutxiago erakutsi"
+
+msgid "Show lunar stations (if defined)"
+msgstr "Erakutsi ilargiko estazoak (definituta badaude)"
+
+msgid "Show more"
+msgstr "Gehiago erakutsi"
+
+msgid "Show objects which are up"
+msgstr "Erakutsi goranzko objektuak"
+
+msgid "Show only named DSO"
+msgstr "Erakutsi izena duten DSO soilik"
+
+msgid "Show only objects between the two sizes"
+msgstr "Erakutsi bi tamainen arteko objektuak soilik"
+
+msgid "Show only the kinds ticked below"
+msgstr "Erakutsi behean markatutako motak soilik"
+
+msgid "Show or hide the two rails of controls"
+msgstr "Erakutsi edo ezkutatu kontrolen bi errailek"
+
+msgid "Show orbit even if object is off screen"
+msgstr "Erakutsi orbita objektua pantailatik kanpo bada ere"
+
+msgid "Show orbit only for selected SSO"
+msgstr "Erakutsi orbita hautaturiko SSO-rentzat soilik"
+
+msgid "Show orbits"
+msgstr "Erakutsi orbitak"
+
+msgid "Show orbits of major planets"
+msgstr "Erakutsi planetarien handien orbitak"
+
+msgid "Show planetary nomenclature"
+msgstr "Erakutsi planetaren nomenklatura"
+
+msgid "Show special nomenclature points only"
+msgstr "Erakutsi nomenklatura-puntu bereziak soilik"
+
+msgid "Show surveys"
+msgstr "Erakutsi inkestak"
+
+msgid "Show this survey"
+msgstr "Erakutsi inkesta hau"
+
+msgid "Show tiny circles for minor bodies regardless of magnitude"
+msgstr "Erakutsi zirkulu txikiak gorputz txikientzat magnitudea nolakoa ere"
+
+msgid "Show trails"
+msgstr "Erakutsi pisteak"
+
+msgid "Show zodiac (if defined)"
+msgstr "Erakutsi zodiakoa (definituta badago)"
+
+msgid "Sidereal time"
+msgstr "Izar-ordua"
+
+msgid "Simbad Lookup Error: %s"
+msgstr "SIMBAD bilaketa errorea: %s"
+
+msgid "Simbad Lookup: querying"
+msgstr "SIMBAD bilaketa: galdetzen"
+
+msgid "Simulate self-shadowing"
+msgstr "Simulatu auto-itzaltzea"
+
+msgid "Simulation"
+msgstr "Simulazioa"
+
+msgid "Sky Culture"
+msgstr "Zeru-kultura"
+
+msgid "Sky and viewing options"
+msgstr "Zeru eta bista-aukerak"
+
+msgid "Sky culture"
+msgstr "Zeru-kultura"
+
+msgid "Slow down"
+msgstr "Moteldu"
+
+msgid "Smallest, ′"
+msgstr "Txikiena, ′"
+
+msgid "Solar altitude for Twilight Finder"
+msgstr "Eguzki-altitudea Eguerdiko Bilatzailearentzat"
+
+msgid "Solar elongation"
+msgstr "Eguzki-luzapena"
+
+msgid "Solar system"
+msgstr "Eguzki-sistema"
+
+msgid "Solar system objects"
+msgstr "Eguzki-sistemako objektuak"
+
+msgid "Solar system objects: comets"
+msgstr "Eguzki-sistemako objektuak: kometak"
+
+msgid "Solar system objects: minor bodies"
+msgstr "Eguzki-sistemako objektuak: gorputz txikiak"
+
+msgid "Solar system objects: planets"
+msgstr "Eguzki-sistemako objektuak: planetak"
+
+msgid "Solstices (J2000)"
+msgstr "Solstizioak (J2000)"
+
+msgid "Solstices (of date)"
+msgstr "Solstizioak (eguna)"
+
+msgid "Some objects may be found after activation respective plug-ins"
+msgstr "Batzuetan objektuak aurkitu daitezke konfiguratu ondoren"
+
+msgid "Special points only"
+msgstr "Puntu bereziak soilik"
+
+msgid "Spectral Class"
+msgstr "Espektral-klasea"
+
+msgid "Speed up"
+msgstr "Bizkortu"
+
+msgid "Spiky stars"
+msgstr "Askalarak izarrak"
+
+msgid "Stand where the landscape was shot, on the planet it names"
+msgstr "Zutatu panorama ateratzen zegoen tokian, bertan izena duen planetaren gainean"
+
+msgid "Star, planet, catalogue number…"
+msgstr "Izarra, planeta, katalogu zenbakia…"
+
+msgid "Started"
+msgstr "Hasita"
+
+msgid "Startup FOV"
+msgstr "Hasierako FOV"
+
+msgid "Startup direction of view"
+msgstr "Hasierako bista-norabidea"
+
+msgid "Stationary (begin prograde motion)"
+msgstr "Geldita (mugimendu progradua hasten da)"
+
+msgid "Stationary (begin retrograde motion)"
+msgstr "Geldita (mugimendu retrogradua hasten da)"
+
+msgid "Stellarium's user guide covers the astronomy this app shares with it: stellarium.org/documentation"
+msgstr "Stellarium-en erabiltzaile gidak aplikazio honen astronomia hartzen du: stellarium.org/documentation"
+
+msgid "Step, hours"
+msgstr "Pausua, orduak"
+
+msgid "Stop clock when starting"
+msgstr "Gelditu erlojua hasieran"
+
+msgid "Strasbourg astronomical Data Center (France)"
+msgstr "Strasbourg-eko Astronomical Data Center (Frantzia)"
+
+msgid "Style"
+msgstr "Estiloa"
+
+msgid "Sun altitude"
+msgstr "Eguzkiaren altitudea"
+
+msgid "Sun at"
+msgstr "Eguzkia:"
+
+msgid "Sun's altitude"
+msgstr "Eguzkiaren altitudea"
+
+msgid "Sun's corona"
+msgstr "Eguzkiaren koroa"
+
+msgid "Sun's glare"
+msgstr "Eguzkiaren aldizkia"
+
+msgid "Sun, planets and moons of first body and observer's planet"
+msgstr "Eguzkia, planetak eta lehenengo gorputzaren ilargiak eta behatzailearen planetaren ilargiak"
+
+msgid "Sun, planets and moons of observer's planet"
+msgstr "Eguzkia, planetak eta behatzailearen planetaren ilargiak"
+
+msgid "Sunlight scattered by interplanetary dust"
+msgstr "Planetaendako polbora batek sakabanatutako eguzkiaren argita"
+
+msgid "Supergalactic"
+msgstr "Supergalaktikoa"
+
+msgid "Supergalactic equator"
+msgstr "Supergalaktiko ekuadorea"
+
+msgid "Supergalactic grid"
+msgstr "Supergalaktiko sareta"
+
+msgid "Supergalactic poles"
+msgstr "Supergalaktiko poloak"
+
+msgid "Superior conjunction"
+msgstr "Konjuntzio superiorea"
+
+msgid "Supernova candidates"
+msgstr "Supernoaba hautagaiak"
+
+msgid "Supernova remnant candidates"
+msgstr "Supernoaba hondarren hautagaiak"
+
+msgid "Supernova remnants"
+msgstr "Supernoaba hondarrak"
+
+msgid "Surveys"
+msgstr "Inkestak"
+
+msgid "Switch this off to see the trails for all Solar system bodies"
+msgstr "Desaktibatu hau Eguzki-sistemako gorputz guztien pisteak ikusteko"
+
+msgid "Symbiotic stars"
+msgstr "Simbiotiko izarra"
+
+msgid "Synodic period"
+msgstr "Sinodiko periodoa"
+
+msgid "System date at"
+msgstr "Sistema data nola"
+
+msgid "Table"
+msgstr "Taula"
+
+msgid "Tabular output for coordinates and time"
+msgstr "Taularezko irteera koordinatuak eta denbora"
+
+msgid "Tap a colour to change it. Changes show on the sky at once and are kept."
+msgstr "Ukitu kolorea aldatzeko. Aldaketak zeruan ikusi dira eta gordetzen dira."
+
+msgid "Tap again to confirm"
+msgstr "Ukitu berriro berresteko"
+
+msgid "Tap an object"
+msgstr "Ukitu objektu bat"
+
+msgid "Tap the chart to read a value."
+msgstr "Ukitu grafikoa balioa irakurtzeko."
+
+msgid "Tap the clock"
+msgstr "Ukitu erlojua"
+
+msgid "Tap the gear"
+msgstr "Ukitu engragea"
+
+msgid "Tap the map to stand there."
+msgstr "Ukitu mapa han zutatzeko."
+
+msgid "Tap the place"
+msgstr "Ukitu lekua"
+
+msgid "Tap to confirm"
+msgstr "Ukitu berresteko"
+
+msgid "Tertiary intercardinal points"
+msgstr "Hirugarren mailauko kordinal-erdiko puntuak"
+
+msgid "Text angle"
+msgstr "Testuaren angelua"
+
+msgid "The Great Red Spot drifts in System II longitude. Enter a recent measurement and the drift rate to carry it forward from."
+msgstr "Lekuko Argi Mancha sistemaren II longitudean norabide egiten du. Sartu neurketa berria eta norabide-tasa aurrera eraman ahal izateko."
+
+msgid "The algorithm is based on visual observations 1877-1891 by G. Müller and was still republished in the Explanatory Supplement to the Astronomical Ephemeris (1961)."
+msgstr "Algoritmoa G. Müller-en bisualeko behaketan 1877-1891 oinarrituta dago eta Explanatory Supplement to the Astronomical Ephemeris-en (1961) berradierazi zen."
+
+msgid "The algorithm was published by A. Mallama & J. L. Hilton: Computing apparent planetary magnitudes for the Astronomical Almanac. Astronomy&Computing 25 (2018) 10-24."
+msgstr "Algoritmoa A. Mallama & J. L. Hilton-ek argitaratu zuten: Computing apparent planetary magnitudes for the Astronomical Almanac. Astronomy&Computing 25 (2018) 10-24."
+
+msgid "The algorithm was published in the 2nd edition of the Explanatory Supplement to the Astronomical Almanac (1992)."
+msgstr "Algoritmoa Explanatory Supplement to the Astronomical Almanac-en 2. edizioan argitaratu zen (1992)."
+
+msgid "The algorithm was published in the 3rd edition of the Explanatory Supplement to the Astronomical Almanac (2013)."
+msgstr "Algoritmoa Explanatory Supplement to the Astronomical Almanac-en 3. edizioan argitaratu zen (2013)."
+
+msgid "The algorithm was used in the Astronomical Almanac (1984 and later) and gives V (instrumental) magnitudes (allegedly from D.L. Harris)."
+msgstr "Algoritmoa Astronomical Almanac-ean (1984 eta aurrerago) erabili zen eta V (instrumental) magnitudeak ematen ditu (D.L. Harris-engatik omen)."
+
+msgid "The classical cepheids"
+msgstr "Cefeida klasikoak"
+
+msgid "The colour each kind of object is drawn in"
+msgstr "Kolorea objektu mota bakoitza margotzen den"
+
+msgid "The engine did not answer with any colours."
+msgstr "Motorra ez du erantzun kolorea batekin."
+
+msgid "The galactic band"
+msgstr "Galaktiaren banda"
+
+msgid "The greatest eclipse is invisible in current location"
+msgstr "Eklipse handiena ez da ikus oraingoan kokalekuan"
+
+msgid "The horizon outline instead of the panorama"
+msgstr "Zerumugaren kontornoa panoramaren ordez"
+
+msgid "The path each body has taken across the sky"
+msgstr "Bidea gorputz bakoitzak zeruanean egindako"
+
+msgid "The shortest label the culture defines"
+msgstr "Etiketak sakoenen kultura definitzen da"
+
+msgid "Thickness"
+msgstr "Lodiera"
+
+msgid "This copy ships no scripts."
+msgstr "Kopia honek ez du script-ik."
+
+msgid "This device has no location service."
+msgstr "Gailu honek ez du kokalekuaren zerbitzurik."
+
+msgid "This part of the engine exposes no settings on this build."
+msgstr "Motorraren zati honek ez du ezarpen batekin eraikitzean."
+
+msgid "This tool works on Earth only!"
+msgstr "Tresna hau Lurren soilik funtzionatzen du!"
+
+msgid "This tool works on Earth only. Short steps over a long duration are slow."
+msgstr "Tresna honek Lurrean soilik dabil. Urrats laburrak denbora luzearen gainean motelak dira."
+
+msgid "This year"
+msgstr "Urte hau"
+
+msgid "Time"
+msgstr "Denbora"
+
+msgid "Time of day"
+msgstr "Egunaren ordua"
+
+msgid "Time span"
+msgstr "Denboraldia"
+
+msgid "Time step"
+msgstr "Denboraren pausua"
+
+msgid "To the next (mths)"
+msgstr "Hurrengorantz (hil)"
+
+msgid "To the next, months"
+msgstr "Hurrengorantz, hilabete"
+
+msgid "Today"
+msgstr "Gaur"
+
+msgid "Toggle display of nebula images."
+msgstr "Txandakatu nebularen irudien bistaratzea."
+
+msgid "Toggle display of the button for the Digitized Sky Survey."
+msgstr "Txandakatu Digitized Sky Survey-ren botoiaren bistaratzea."
+
+msgid "Toggle display of the button for the HiPS Surveys. Select a survey in the View settings."
+msgstr "Txandakatu HiPS Surveys-en botoiaren bistaratzea. Hautatu inkesta View ezarpenen."
+
+msgid "Toggle drawing Sun's glare"
+msgstr "Txandakatu Eguzkiaren aldizkiaren marrazketa"
+
+msgid "Toggle drawing halo around the Moon"
+msgstr "Txandakatu Ilargiaren inguruko haloaren marrazketa"
+
+msgid "Toggle permanent drawing of Sun's corona when atmosphere is disabled"
+msgstr "Txandakatu Eguzkiaren koroaren irudi etengabea atmosfera desaktibatuta denean"
+
+msgid "Toggle the usage of background under GUI buttons"
+msgstr "Txandakatu atzealdearen erabilera GUI botoien azpian"
+
+msgid "Total eclipse begins"
+msgstr "Eklipse osoa hasten da"
+
+msgid "Total eclipse ends"
+msgstr "Eklipse osoa bukatu"
+
+msgid "Trails"
+msgstr "Pisteak"
+
+msgid "Transit"
+msgstr "Trantsioa"
+
+msgid "Translated"
+msgstr "Itzulita"
+
+msgid "Transparency"
+msgstr "Garridatasuna"
+
+msgid "Twilight and rise and set times are worked out for an observer on Earth. Move back to Earth to see them."
+msgstr "Eguerdikoak eta ateratze eta sartze orduak kalkulatuta daude Lurrean behatzaile baten baitan. Itzuli Lurrean ikusteko."
+
+msgid "Twinkle"
+msgstr "Txintildu"
+
+msgid "Twinkle amount"
+msgstr "Txintilduaren kantitatea"
+
+msgid "Twinkle even without atmosphere"
+msgstr "Izarren titilazioa atmosferaren gabe ere"
+
+msgid "Twinkle is caused by atmospheric turbulence; this shows it regardless"
+msgstr "Izarren titilazioa atmosferaren turbulentziaren ondorioa da; honek edozela ere erakusten du"
+
+msgid "Type a name, a Bayer letter or a catalogue number - Vega, α Lyr, M 31, NGC 224."
+msgstr "Sartu izena, Bayerren letra edo katalogo zenbakia - Vega, α Lyr, M 31, NGC 224."
+
+msgid "Types"
+msgstr "Motak"
+
+msgid "Umbral magnitude"
+msgstr "Umbralaren magnitudea"
+
+msgid "Unnamed star"
+msgstr "Izena gabeko izarra"
+
+msgid "Up to mag."
+msgstr "Mag. arte"
+
+msgid "Update"
+msgstr "Eguneratu"
+
+msgid "Use SIMBAD"
+msgstr "Erabili SIMBAD"
+
+msgid "Use additional names of DSO"
+msgstr "Erabili DSO-ren izen gehigarriak"
+
+msgid "Use autofill only from the beginning of words"
+msgstr "Erabili autobete soilik hitzaren hasieratik"
+
+msgid "Use buttons background"
+msgstr "Erabili botoien atzea"
+
+msgid "Use common symbols for coordinate systems"
+msgstr "Erabili koordenatu-sistemaren sinbolo arruntak"
+
+msgid "Use custom time zone"
+msgstr "Erabili ordu-eremua pertsonalizatua"
+
+msgid "Use decimal degrees"
+msgstr "Erabili hamartar-mailak"
+
+msgid "Use decimal degrees for coordinates"
+msgstr "Erabili hamartar-mailak koordenatuetan"
+
+msgid "Use designations for screen labels"
+msgstr "Erabili izendapenen etiketak pantailan"
+
+msgid "Use distance from North Celestial Pole, not declination from equator in equatorial coordinates"
+msgstr "Erabili Ipar Zeruko Poloaren distantzia, ez ekuatoreko deklinazio, koordenatu ekuatorialetan"
+
+msgid "Use mag/arcsec^2 for surface brightness"
+msgstr "Erabili mag/arcsec^2 azalaren argitasunarako"
+
+msgid "Use more accurate 3D models (where available)"
+msgstr "Erabili 3D eredu zehatzagoak (eskuragarri daudenean)"
+
+msgid "Use my location"
+msgstr "Erabili nire kokalekua"
+
+msgid "Use on-line astronomical database SIMBAD"
+msgstr "Erabili SIMBAD astronomia datu-basea"
+
+msgid "Use outlines for big deep-sky objects"
+msgstr "Erabili konturu-lerroak zeru sakona objektuetan"
+
+msgid "Use proportional hints"
+msgstr "Erabili aholku proportzionalak"
+
+msgid "Use sorting by string length"
+msgstr "Erabili hitz-luzerarentzako ordenaketa"
+
+msgid "Use surface brightness"
+msgstr "Erabili gainazalaren distira"
+
+msgid "Use the date now shown in the sky"
+msgstr "Erabili unean zeruan ageri den data"
+
+msgid "Use the value in landscape.ini when it has one"
+msgstr "Erabili landscape.ini-ko balioa baldin badauka"
+
+msgid "Use the value stored for this location"
+msgstr "Erabili kokaleku honentzat gordetako balioa"
+
+msgid "Var. stars"
+msgstr "Aldagaiak"
+
+msgid "Version %s  ·  Qt %s"
+msgstr "Bertsioa %s  ·  Qt %s"
+
+msgid "Vertical viewport offset"
+msgstr "Ikuspegiaren bertikalaren desplazamendua"
+
+msgid "View recent GRS measurements"
+msgstr "Ikusi GRS-aren neurketa berriak"
+
+msgid "Visibility"
+msgstr "Ikusgarritasuna"
+
+msgid "Visual magnitude based on phase angle and albedo."
+msgstr "Fase angelua eta albedoan oinarritutako ikusizko magnitudea."
+
+msgid "Western quadrature"
+msgstr "Mendebalgo koadratura"
+
+msgid "When a search result is chosen"
+msgstr "Bilaketa-emaitza hautatzean"
+
+msgid "Where Jupiter's Great Red Spot was, and when"
+msgstr "Jupiter-en Gorri Makularen noiz eta non"
+
+msgid "Width"
+msgstr "Zabalera"
+
+msgid "Working out the contact times…"
+msgstr "Kontaktu-denborak kalkulatzen…"
+
+msgid "Year"
+msgstr "Urtea"
+
+msgid "Zenith and Nadir"
+msgstr "Zenitea eta Nadir"
+
+msgid "Zodiac and lunar stations"
+msgstr "Zodiakoa eta ilargiaren estatuak"
+
+msgid "Zodiacal Light"
+msgstr "Argi Zodiakal"
+
+msgid "Zodiacal Light brightness"
+msgstr "Argi Zodiakalaren distira"
+
+msgid "Zoom in and out"
+msgstr "Handiagotu eta txikigotu"
+
+msgid "after sunset"
+msgstr "egunsaren ondoren"
+
+msgid "before sunrise"
+msgstr "egunsaren aurretik"
+
+msgid "bright suburban"
+msgstr "azotea argitsua"
+
+msgid "east +"
+msgstr "ekialdea +"
+
+msgid "engine ready, interface going live"
+msgstr "motorra prest, interfazea aktibatzen"
+
+msgid "excellent dark sky"
+msgstr "zeru ilun bikaina"
+
+msgid "from landscape, if given"
+msgstr "paisaiatik, jaso bada"
+
+msgid "inner city"
+msgstr "hiriko barrenean"
+
+msgid "north +"
+msgstr "iparrorra +"
+
+msgid "rural/suburban"
+msgstr "landa/azpihiri"
+
+msgid "sci. translit."
+msgstr "zient. transl."
+
+msgid "select all"
+msgstr "hautatu guztia"
+
+msgid "select none"
+msgstr "desegin hautapena"
+
+msgid "select preference"
+msgstr "hautatu lehentasuna"
+
+msgid "select standard"
+msgstr "hautatu estandarra"
+
+msgid "store preference"
+msgstr "gorde lehentasuna"
+
+msgid "suburban/urban"
+msgstr "azpihiri/hiriak"
+
+msgid "truly dark"
+msgstr "benetan iluna"
+
+msgid "unreadable snapshot"
+msgstr "irakurgarria ez den argazkia"
+
+msgid "with Solar Dates"
+msgstr "Eguzkiaren dategarekin"
+
+msgid "… and moons"
+msgstr "… eta ilargiak"

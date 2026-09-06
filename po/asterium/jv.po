@@ -1,0 +1,2896 @@
+# Asterium interface translation for jv.
+# Copyright (C) 2026 the Asterium authors
+# This file is distributed under the same licence as the Asterium package.
+#
+# MACHINE TRANSLATION, not reviewed by a speaker of this language.
+# Terminology follows upstream Stellarium's own jv catalogue, which was used
+# as a glossary, and every entry keeps the source's printf placeholders.
+# Corrections from a human translator are welcome and should simply replace these.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: asterium\n"
+"Language: jv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%d bodies"
+msgstr "%d bawana"
+
+msgid "%d object"
+msgstr "%d obyek"
+
+msgid "%d objects"
+msgstr "%d obyek"
+
+msgid "%s colour"
+msgstr "Warna %s"
+
+msgid "%s from %s, ±%.0f m"
+msgstr "%s saka %s, ±%.0f m"
+
+msgid "12-hour"
+msgstr "12-jam"
+
+msgid "12h"
+msgstr "12j"
+
+msgid "1× below"
+msgstr "1× ngisor"
+
+msgid "24-hour"
+msgstr "24-jam"
+
+msgid "24h"
+msgstr "24j"
+
+msgid "A button to mark every object of the current observing list on the sky."
+msgstr "Tombol kanggo menehi tandha saben obyek saka dhaftar panginten saiki ing langit."
+
+msgid "A button to toggle ecliptic grid of date"
+msgstr "Tombol kanggo nyalib-nyalib kisi ekliptika tanggal iki"
+
+msgid "A button to toggle equatorial J2000 grid"
+msgstr "Tombol kanggo nyalib-nyalib kisi ekuatorial J2000"
+
+msgid "A button to toggle galactic grid"
+msgstr "Tombol kanggo nyalib-nyalib kisi galaksi"
+
+msgid "A polygonal model for some small moons, asteroids and comets instead of a sphere"
+msgstr "Model poligonal kanggo bulan cilik, asteroid lan komet tinimbang bunder"
+
+msgid "A touch-first planetarium forked from Stellarium, whose astronomy engine it uses unchanged. The interface is new; everything that draws the sky is upstream's work."
+msgstr "Planetarium sing fokus turutan saka Stellarium, sing gunakaken mesin astronomi tanpa owah-owahan. Antarmuka anyar; kabeh sing nggambar langit minangka karya hulu."
+
+msgid "Abbreviated names"
+msgstr "Jeneng singkatan"
+
+msgid "About"
+msgstr "Babagan"
+
+msgid "About this sky culture"
+msgstr "Babagan kabudayan langit iki"
+
+msgid "Above altitude, °"
+msgstr "Ndhuwur ketinggian, °"
+
+msgid "Absolute scale"
+msgstr "Skala mutlak"
+
+msgid "Activate this option to calculate azimuth from south towards west."
+msgstr "Aktivake opsi iki kanggo ngetung azimut saka kidul menyang barat."
+
+msgid "Active galaxies"
+msgstr "Galaksi aktif"
+
+msgid "Add %s"
+msgstr "Tambah %s"
+
+msgid "Additional information settings"
+msgstr "Pengaturan informasi tambahan"
+
+msgid "Adjust brightness to bright objects"
+msgstr "Setel kecerahan kanggo obyek padhang"
+
+msgid "Algol-type eclipsing systems"
+msgstr "Sistem gerhana tipe Algol"
+
+msgid "Algorithm of ΔT"
+msgstr "Algoritma ΔT"
+
+msgid "All IDs"
+msgstr "Kabeh ID"
+
+msgid "All naked-eye planets"
+msgstr "Kabeh planet sing bisa dideleng"
+
+msgid "All solar eclipses"
+msgstr "Kabeh gerhana surya"
+
+msgid "Allow negative hour angles"
+msgstr "Paringna sudut jam negatif"
+
+msgid "Allow results outside the recommended time range of the orbital elements"
+msgstr "Paringna asil sajeroning wektu rekomendasi saka unsur orbit"
+
+msgid "Almanac"
+msgstr "Almanak"
+
+msgid "Almanac: Sun, Moon and naked-eye planets"
+msgstr "Almanak: Srengéngé, Bulan, lan planet sing bisa dilihat mata"
+
+msgid "Also find"
+msgstr "Uga golek"
+
+msgid "Also plot"
+msgstr "Uga plot"
+
+msgid "Also show moons of selected object or planets"
+msgstr "Uga tinunjuk bulan-bulane obyek utawa planet sing dipilih"
+
+msgid "Altitude"
+msgstr "Ketinggian"
+
+msgid "Altitude limit, °"
+msgstr "Wates ketinggian, °"
+
+msgid "Altitude vs. Time"
+msgstr "Ketinggian Vs. Wektu"
+
+msgid "Amount"
+msgstr "Jumlah"
+
+msgid "An observer floats above its planet, so there is nowhere on it to stand. Choose another planet to come back down."
+msgstr "Pengamat melayang ing ndhuwur planetane, mula ora ana panggonan kanggo mandheg. Pilih planet liya kanggo bali mudhun."
+
+msgid "And"
+msgstr "Lan"
+
+msgid "And also"
+msgstr "Lan uga"
+
+msgid "And the next (years)"
+msgstr "Lan sing sabanjure (taun)"
+
+msgid "Ang. Size"
+msgstr "Ukuran Ang."
+
+msgid "Angular distance"
+msgstr "Jarak sudut"
+
+msgid "Angular distance between the Moon and selected object"
+msgstr "Jarak sudut antarane Bulan lan objek sing dipilih"
+
+msgid "Angular distance from the Moon"
+msgstr "Jarak sudut saka Bulan"
+
+msgid "Angular distance from the Moon for second object"
+msgstr "Jarak sudut saka Bulan kanggo objek kapindho"
+
+msgid "Angular distance from the Sun"
+msgstr "Jarak sudut saka Srengéngé"
+
+msgid "Angular distance from the Sun for second object"
+msgstr "Jarak sudut saka Srengéngé kanggo objek kapindho"
+
+msgid "Angular size"
+msgstr "Ukuran sudut"
+
+msgid "Annual drift"
+msgstr "Hanyutan taunan"
+
+msgid "Antisolar point"
+msgstr "Titik antisurya"
+
+msgid "Apex points"
+msgstr "Titik puncak"
+
+msgid "Aphelion"
+msgstr "Afelion"
+
+msgid "Appearance"
+msgstr "Tampilan"
+
+msgid "Apply"
+msgstr "Terapke"
+
+msgid "Apply time interval limits to list"
+msgstr "Terapke wates interval wektu ing dhaftar"
+
+msgid "Art"
+msgstr "Seni"
+
+msgid "Artificial satellites and unnamed stars are excluded from calculation."
+msgstr "Satelit buatan lan bintang tanpa jeneng ora kalebu ing itungan."
+
+msgid "Asking for permission…"
+msgstr "Njaluk ijin…"
+
+msgid "Asks SIMBAD what it holds around the object that is selected now, and prints the answer as it comes back."
+msgstr "Takon SIMBAD apa sing ana sakubane obyek sing dipilih saiki, lan cetak jawabane minangka asil."
+
+msgid "Ast. lines"
+msgstr "Garis ast."
+
+msgid "Ast. names"
+msgstr "Naran ast."
+
+msgid "Asterism labels"
+msgstr "Tandha asterisme"
+
+msgid "Asterism lines"
+msgstr "Baris asterisme"
+
+msgid "Asterisms"
+msgstr "Asterisme"
+
+msgid "Asterisms font size"
+msgstr "Ukuran font asterisme"
+
+msgid "Asteroids"
+msgstr "Asteroid"
+
+msgid "Astronomical Almanac (1984)"
+msgstr "Almanak Astronomi (1984)"
+
+msgid "Astronomical Almanac (default) enlarges by 2%; Danjon (1951) differs slightly"
+msgstr "Astronomical Almanac (standar) nambah 2%; Danjon (1951) ibabahe beda sithik"
+
+msgid "Astronomical Twilight"
+msgstr "Sorot Astronomi"
+
+msgid "Astronomical calculations"
+msgstr "Itungan astronomi"
+
+msgid "Astronomical night"
+msgstr "Malam astronomi"
+
+msgid "At"
+msgstr "Ing"
+
+msgid "Atmosph."
+msgstr "Atm."
+
+msgid "Atmosphere visualization"
+msgstr "Visualisasi atmosfer"
+
+msgid "Author"
+msgstr "Penulis"
+
+msgid "Automatic closing dialog"
+msgstr "Dialog tutup otomatis"
+
+msgid "Automatic transparency"
+msgstr "Transparansi otomatis"
+
+msgid "Axis distance"
+msgstr "Jarak sumbu"
+
+msgid "Azi. grid"
+msgstr "Grid azi."
+
+msgid "Azimuth"
+msgstr "Azimut"
+
+msgid "Azimuth and altitude rather than right ascension and declination"
+msgstr "Azimut lan ketinggian tinimbang asensio rekta lan deklinasi"
+
+msgid "Azimuth from South"
+msgstr "Azimut saka Kidul"
+
+msgid "Azimuth vs. Time"
+msgstr "Azimut Vs. Wektu"
+
+msgid "Azimuthal grid"
+msgstr "Kisi azimut"
+
+msgid "Back"
+msgstr "Balik"
+
+msgid "Bad visibility conditions for current location"
+msgstr "Kondisi visibilitas kasar kanggo lokasi saiki"
+
+msgid "Beginning of center line; central eclipse begins"
+msgstr "Awal garis tengah; gerhana sentral mulai"
+
+msgid "Below the horizon here."
+msgstr "Ngisor ufuk ing kene."
+
+msgid "Between objects"
+msgstr "Antarane obyek"
+
+msgid "Blue"
+msgstr "Biru"
+
+msgid "Boundless"
+msgstr "Tanpa wates"
+
+msgid "Bounds"
+msgstr "Wates"
+
+msgid "Bright Solar system objects (<%1 mag)"
+msgstr "Objek Sistem Solar sing padhang (<%1 mag)"
+
+msgid "Bright barium stars"
+msgstr "Bintang barium sing padhang"
+
+msgid "Bright carbon stars"
+msgstr "Bintang karbon sing padhang"
+
+msgid "Bright double stars"
+msgstr "Bintang ganda sing padhang"
+
+msgid "Bright double stars (<%1 mag)"
+msgstr "Bintang ganda sing padhang (<%1 mag)"
+
+msgid "Bright galaxies (<%1 mag)"
+msgstr "Galaksi sing padhang (<%1 mag)"
+
+msgid "Bright nebulae"
+msgstr "Nebula sing padhang"
+
+msgid "Bright nebulae (<%1 mag)"
+msgstr "Nebula sing padhang (<%1 mag)"
+
+msgid "Bright nova stars"
+msgstr "Bintang nova sing padhang"
+
+msgid "Bright star clusters (<%1 mag)"
+msgstr "Kluster bintang sing padhang (<%1 mag)"
+
+msgid "Bright stars"
+msgstr "Bintang sing padhang"
+
+msgid "Bright stars (<%1 mag)"
+msgstr "Bintang sing padhang (<%1 mag)"
+
+msgid "Bright stars with high proper motion"
+msgstr "Bintang sing padhang kanthi gerakan diri dhuwur"
+
+msgid "Bright supernova stars"
+msgstr "Bintang supernova sing padhang"
+
+msgid "Bright variable stars"
+msgstr "Bintang variabel sing padhang"
+
+msgid "Bright variable stars (<%1 mag)"
+msgstr "Bintang variabel sing padhang (<%1 mag)"
+
+msgid "Brighter than"
+msgstr "Luwih padhang tinimbang"
+
+msgid "Brightness"
+msgstr "Kecerahan"
+
+msgid "By object type"
+msgstr "Miturut jinis obyek"
+
+msgid "By planet"
+msgstr "Miturut planet"
+
+msgid "Calculate"
+msgstr "Itunge"
+
+msgid "Calculating…"
+msgstr "Ngisung…"
+
+msgid "Caldwell objects"
+msgstr "Objek Caldwell"
+
+msgid "Cancel"
+msgstr "Batal"
+
+msgid "Cardinal points"
+msgstr "Titik kardhinal"
+
+msgid "Cardinals"
+msgstr "Kardinal"
+
+msgid "Catalogue numbers instead of common names"
+msgstr "Nomer katalog tinimbang jeneng umum"
+
+msgid "Category"
+msgstr "Kategori"
+
+msgid "Celestial Sphere"
+msgstr "Bola Langit"
+
+msgid "Celestial body"
+msgstr "Bawana langit"
+
+msgid "Celestial poles (J2000)"
+msgstr "Kutub langit (J2000)"
+
+msgid "Celestial poles (of date)"
+msgstr "Kutub langit (tanggal iki)"
+
+msgid "Center of FOV"
+msgstr "Tengah FOV"
+
+msgid "Centering button"
+msgstr "Tombol pemusatan"
+
+msgid "Central duration"
+msgstr "Durasi sentral"
+
+msgid "Central eclipse begins"
+msgstr "Gerhana sentral diwiwiti"
+
+msgid "Central eclipse ends"
+msgstr "Gerhana sentral rampung"
+
+msgid "Centre"
+msgstr "Pusat"
+
+msgid "Centre on object"
+msgstr "Pusat ing obyek"
+
+msgid "Centre point"
+msgstr "Titik pusat"
+
+msgid "Circles"
+msgstr "Bunder"
+
+msgid "Circular FOV"
+msgstr "FOV bunder"
+
+msgid "Circumpolar circles"
+msgstr "Bunder sirkumpolar"
+
+msgid "City"
+msgstr "Kutha"
+
+msgid "Civil Twilight"
+msgstr "Sorot Sipil"
+
+msgid "Cleanup"
+msgstr "Resiki"
+
+msgid "Clear"
+msgstr "Suda"
+
+msgid "Clear recent searches"
+msgstr "Suda pencarian anyar"
+
+msgid "Clear the selection - a touch screen has no right button"
+msgstr "Suda pilihan - layar turutan ora duwe tombol tengen"
+
+msgid "Cleared."
+msgstr "Sudah."
+
+msgid "Click on star to show its constellation"
+msgstr "Klik ing bintang kanggo nuduhake rasi bintange"
+
+msgid "Close"
+msgstr "Tutup"
+
+msgid "Close what is open; from the sky, leave the app running"
+msgstr "Tutup sing abang; saka langit, biyare app urip"
+
+msgid "Clusters of galaxies"
+msgstr "Kluster galaksi"
+
+msgid "Coarse"
+msgstr "Kasar"
+
+msgid "Color"
+msgstr "Warna"
+
+msgid "Color channel"
+msgstr "Saluran warna"
+
+msgid "Color of Lunar station lines"
+msgstr "Warna baris stasiun Bulan"
+
+msgid "Color of asterism lines"
+msgstr "Warna baris asterisme"
+
+msgid "Color of asterism names"
+msgstr "Warna jeneng asterisme"
+
+msgid "Color of constellation boundaries"
+msgstr "Warna wates rasi bintang"
+
+msgid "Color of constellation lines"
+msgstr "Warna baris rasi bintang"
+
+msgid "Color of constellation names"
+msgstr "Warna jeneng rasi bintang"
+
+msgid "Color of nomenclature labels"
+msgstr "Warna tandha nomenklatur"
+
+msgid "Color of orbits"
+msgstr "Warna orbit"
+
+msgid "Color of planet labels"
+msgstr "Warna tandha planet"
+
+msgid "Color of ray helpers"
+msgstr "Warna pembantu sinar"
+
+msgid "Color of trails"
+msgstr "Warna jejak"
+
+msgid "Color of zodiac lines"
+msgstr "Warna baris zodiak"
+
+msgid "Colors of orbit lines"
+msgstr "Warna baris orbit"
+
+msgid "Colures"
+msgstr "Kolurus"
+
+msgid "Comets"
+msgstr "Komet"
+
+msgid "Comets up to mag."
+msgstr "Komet nganti mag."
+
+msgid "Compass"
+msgstr "Kompas"
+
+msgid "Compass marks"
+msgstr "Tandha kompas"
+
+msgid "Config"
+msgstr "Konfigurasi"
+
+msgid "Configuration"
+msgstr "Konfigurasi"
+
+msgid "Configure colors of markers"
+msgstr "Konfigurasi warna tandha"
+
+msgid "Configure colors of orbit lines"
+msgstr "Konfigurasi warna baris orbit"
+
+msgid "Conjunction"
+msgstr "Konjungsi"
+
+msgid "Connecting line"
+msgstr "Baris koneksi"
+
+msgid "Const."
+msgstr "Konst."
+
+msgid "Constellation art"
+msgstr "Seni rasi bintang"
+
+msgid "Constellation boundaries"
+msgstr "Wates rasi bintang"
+
+msgid "Constellation labels"
+msgstr "Tandha rasi bintang"
+
+msgid "Constellation lines"
+msgstr "Baris rasi bintang"
+
+msgid "Constellations"
+msgstr "Rasi bintang"
+
+msgid "Constellations font size"
+msgstr "Ukuran font rasi bintang"
+
+msgid "Contrast"
+msgstr "Kontras"
+
+msgid "Coordinate system"
+msgstr "Sistem koordinat"
+
+msgid "Coordinates"
+msgstr "Koordinat"
+
+msgid "Copyright"
+msgstr "Hak cipta"
+
+msgid "Credits"
+msgstr "Kredit"
+
+msgid "Cubewanos"
+msgstr "Cubewano"
+
+msgid "Culmination altitude"
+msgstr "Tinggi puncak"
+
+msgid "Current FoV"
+msgstr "FOV saiki"
+
+msgid "Custom"
+msgstr "Khusus"
+
+msgid "Custom FoV limit"
+msgstr "Wates FOV ubahan"
+
+msgid "Custom altitude of the Moon, °"
+msgstr "Ketinggian Bulan ubahan, °"
+
+msgid "Custom altitude of the Sun, °"
+msgstr "Ketinggian Matahari ubahan, °"
+
+msgid "Custom settings for position of GRS"
+msgstr "Pengaturan ubahan kanggo posisi GRS"
+
+msgid "Custom values"
+msgstr "Nilai ubahan"
+
+msgid "Cut the scale off below the limit"
+msgstr "Potong skala ngisor wates"
+
+msgid "DATE AND TIME (UTC)"
+msgstr "TANGGAL LAN WEKTU (UTC)"
+
+msgid "DSS survey"
+msgstr "Survei DSS"
+
+msgid "Dark nebulae"
+msgstr "Nebula gelap"
+
+msgid "Date"
+msgstr "Tanggal"
+
+msgid "Date and time"
+msgstr "Tanggal lan wektu"
+
+msgid "Date/time"
+msgstr "Tanggal/wektu"
+
+msgid "Dates"
+msgstr "Tanggal"
+
+msgid "Dawn"
+msgstr "Subuh"
+
+msgid "Dbl. stars"
+msgstr "Bintang ganda"
+
+msgid "December solstice"
+msgstr "Solstis Desember"
+
+msgid "Decimal degrees. −33.87 means 33.87° south. Elevation is metres above sea level; it moves the horizon down by a few arcminutes."
+msgstr "Derajat desimal. −33.87 teges 33.87° kidul. Ketinggian yaiku meter ndhuwur permukaan laut; ngowahi ufuk mudhun sawetara arcmenit."
+
+msgid "Declination"
+msgstr "Deklinasi"
+
+msgid "Deep Sky"
+msgstr "Langit Jero"
+
+msgid "Deep-sky objects"
+msgstr "Objek langit dalam"
+
+msgid "Default options"
+msgstr "Opsi default"
+
+msgid "Degrees per year the longitude moves by"
+msgstr "Derajat per taun bujur gerak ing"
+
+msgid "Degrees, hours and minutes as they are written - 12h30m49s, +41°16'09\", 187.7 - or plain decimal degrees."
+msgstr "Derajat, jam lan menit minangka sing kaserat - 12j30m49s, +41°16'09\", 187.7 - utawa derajat desimal biasa."
+
+msgid "Delete"
+msgstr "Busak"
+
+msgid "Deletes all recent search object data, and the objects SIMBAD contributed."
+msgstr "Busak kabeh data obyek pencarian anyar, lan obyek sing SIMBAD kontribusi."
+
+msgid "Designations for celestial coordinate systems"
+msgstr "Sebutan kanggo sistem koordinat langit"
+
+msgid "Designations for double stars"
+msgstr "Sebutan kanggo bintang ganda"
+
+msgid "Designations for variable stars"
+msgstr "Sebutan kanggo bintang gragil"
+
+msgid "Dim a survey near the horizon, as the air does"
+msgstr "Gelap survei cedhak ufuk, kaya sing udhara lakoni"
+
+msgid "Dimensions"
+msgstr "Dimensi"
+
+msgid "Display formats of date and time"
+msgstr "Format tampilan tanggal lan wektu"
+
+msgid "Display objects from catalogs"
+msgstr "Tampilke obyek saka katalog"
+
+msgid "Displayed"
+msgstr "Ditampilke"
+
+msgid "Dist."
+msgstr "Jarak"
+
+msgid "Distance"
+msgstr "Jarak"
+
+msgid "Distance, AU"
+msgstr "Jarak, AU"
+
+msgid "Done"
+msgstr "Rampung"
+
+msgid "Drag"
+msgstr "Seret"
+
+msgid "Draw deep-sky objects at all"
+msgstr "Gambar obyek langit jero kabeh"
+
+msgid "Draw only polygon"
+msgstr "Gambar poligon wae"
+
+msgid "Draw the enabled sky surveys"
+msgstr "Gambar survei langit sing diaktifke"
+
+msgid "Draw the planets, moons and minor bodies"
+msgstr "Gambar planet, bulan lan bawana cilik"
+
+msgid "Drawn larger than life, so a body that is a few arcseconds wide is visible at all. The position stays true."
+msgstr "Digambar luwih gedhe tinimbang kayata, mula bawana sing sawetara arcsecond amba bisa dideleng. Posisine tetep bener."
+
+msgid "Duration"
+msgstr "Durasi"
+
+msgid "Duration (years)"
+msgstr "Durasi (taun)"
+
+msgid "Duration, months"
+msgstr "Durasi, bulan"
+
+msgid "Dusk"
+msgstr "Sore"
+
+msgid "Dwarf planets"
+msgstr "Planet katai"
+
+msgid "Dynamic (FOV-based) Moon size"
+msgstr "Ukuran Bulan dinamis (adhedhasar FOV)"
+
+msgid "Dynamic eye adaptation"
+msgstr "Adaptasi mata dinamis"
+
+msgid "Earth"
+msgstr "Bumi"
+
+msgid "Earth penumbra"
+msgstr "Penumbra Bumi"
+
+msgid "Earth shadow enlargement after Danjon"
+msgstr "Pembesaran bayangan Bumi sawise Danjon"
+
+msgid "Earth umbra"
+msgstr "Umbra Bumi"
+
+msgid "Eastern quadrature"
+msgstr "Kuadratur timur"
+
+msgid "Ecl. grid"
+msgstr "Grid ekl."
+
+msgid "Eclipse"
+msgstr "Gerhana"
+
+msgid "Eclipse begins; first contact with Earth"
+msgstr "Gerhana mulai; kontak pertama karo Bumi"
+
+msgid "Eclipse ends; last contact with Earth"
+msgstr "Gerhana selesai; kontak terakhir karo Bumi"
+
+msgid "Eclipse magnitude"
+msgstr "Magnitudo gerhana"
+
+msgid "Eclipses"
+msgstr "Gerhana"
+
+msgid "Eclipses are computed for observers on Earth."
+msgstr "Gerhana dihitung kanggo pangamat ing Bumi."
+
+msgid "Ecliptic"
+msgstr "Ekliptika"
+
+msgid "Ecliptic (J2000)"
+msgstr "Ekliptika (J2000)"
+
+msgid "Ecliptic (J2000.0)"
+msgstr "Ekliptika (J2000.0)"
+
+msgid "Ecliptic (of date)"
+msgstr "Ekliptika (tanggal iki)"
+
+msgid "Ecliptic grid"
+msgstr "Kisi ekliptika"
+
+msgid "Ecliptic grid (J2000)"
+msgstr "Kisi ekliptika (J2000)"
+
+msgid "Ecliptic grid (of date)"
+msgstr "Kisi ekliptika (tanggal iki)"
+
+msgid "Ecliptic poles (J2000)"
+msgstr "Kutub ekliptika (J2000)"
+
+msgid "Ecliptic poles (of date)"
+msgstr "Kutub ekliptika (tanggal iki)"
+
+msgid "Elev."
+msgstr "Ting."
+
+msgid "Elevation"
+msgstr "Ketinggian"
+
+msgid "Elevation in metres"
+msgstr "Ketinggian ing meter"
+
+msgid "Elongation"
+msgstr "Elongasi"
+
+msgid "Elongations and quadratures"
+msgstr "Elongasi lan kuadratur"
+
+msgid "Emission-line stars"
+msgstr "Bintang garis emisi"
+
+msgid "Enabled only"
+msgstr "Diaktifke wae"
+
+msgid "End of center line; central eclipse ends"
+msgstr "Akhir garis tengah; gerhana sentral selesai"
+
+msgid "Enter Culture..."
+msgstr "Masok Budaya..."
+
+msgid "Ephemeris"
+msgstr "Efemeris"
+
+msgid "Equ. grid"
+msgstr "Grid equ."
+
+msgid "Equ. mount"
+msgstr "Dudukan e."
+
+msgid "Equator (J2000)"
+msgstr "Katulistiwa (J2000)"
+
+msgid "Equator (of date)"
+msgstr "Katulistiwa (tanggal iki)"
+
+msgid "Equatorial"
+msgstr "Ekuatorial"
+
+msgid "Equatorial (J2000.0)"
+msgstr "Ekuatorial (J2000.0)"
+
+msgid "Equatorial grid (J2000)"
+msgstr "Kisi ekuatorial (J2000)"
+
+msgid "Equatorial grid (of date)"
+msgstr "Kisi ekuatorial (tanggal iki)"
+
+msgid "Equatorial radii ratio"
+msgstr "Rasio radii ekuatorial"
+
+msgid "Equinoxes (J2000)"
+msgstr "Ekuinoks (J2000)"
+
+msgid "Equinoxes (of date)"
+msgstr "Ekuinoks (tanggal iki)"
+
+msgid "Evening"
+msgstr "Sore"
+
+msgid "Every"
+msgstr "Saben"
+
+msgid "Every name the object is catalogued under"
+msgstr "Saben jeneng obyek katalog ing"
+
+msgid "Exoplanetary systems"
+msgstr "Sistem exoplanet"
+
+msgid "Explanatory Supplement (1992)"
+msgstr "Pelengkap Penjelasan (1992)"
+
+msgid "Explanatory Supplement (2013)"
+msgstr "Pelengkap Penjelasan (2013)"
+
+msgid "Exterior egress"
+msgstr "Keluar bagian luar"
+
+msgid "Exterior ingress"
+msgstr "Masuk bagian luar"
+
+msgid "Extras"
+msgstr "Tambahan"
+
+msgid "Fades the ground as you look below the horizon or zoom in"
+msgstr "Nyamarke lemah nalika ndeleng ngisor ufuk utawa nggedhekake"
+
+msgid "Fading duration"
+msgstr "Durasi pudar"
+
+msgid "Faintest shown"
+msgstr "Paling redup ditampilkan"
+
+msgid "Favorites"
+msgstr "Favorit"
+
+msgid "Fetching the survey lists…"
+msgstr "Ngambil daftar survey…"
+
+msgid "Field of view"
+msgstr "Medan pandang"
+
+msgid "Filter"
+msgstr "Panyaring"
+
+msgid "Filter by type"
+msgstr "Panyaring miturut jenis"
+
+msgid "Find a city"
+msgstr "Goleki kutha"
+
+msgid "Fine"
+msgstr "Apik"
+
+msgid "First %d of %d - filter to narrow it."
+msgstr "Kapisan %d saka %d - panyaring kanggo sipit."
+
+msgid "First body"
+msgstr "Badan kapisan"
+
+msgid "First celestial body"
+msgstr "Badan langit kapisan"
+
+msgid "First graph"
+msgstr "Grafik kapisan"
+
+msgid "Fix"
+msgstr "Tetep"
+
+msgid "Fixed Equator"
+msgstr "Ekuator tetep"
+
+msgid "Fixed Equatorial grid"
+msgstr "Jaringan ekuatorial tetep"
+
+msgid "Fixed instant"
+msgstr "Instan tetep"
+
+msgid "Flip buttons"
+msgstr "Balikok tombol"
+
+msgid "Flip horiz."
+msgstr "Balik hz."
+
+msgid "Flip vert."
+msgstr "Balik vert."
+
+msgid "Font size"
+msgstr "Ukuran font"
+
+msgid "Frame rate"
+msgstr "Tingkat frame"
+
+msgid "From"
+msgstr "Saka"
+
+msgid "From year"
+msgstr "Saka taun"
+
+msgid "Full screen"
+msgstr "Layar Penuh"
+
+msgid "Fullscreen button"
+msgstr "Tombol layar pinuh"
+
+msgid "Further reading"
+msgstr "Maca lanjut"
+
+msgid "GRS details…"
+msgstr "Rincian GRS…"
+
+msgid "Gal. grid"
+msgstr "Grid gal."
+
+msgid "Galactic"
+msgstr "Galaksi"
+
+msgid "Galactic center and anticenter"
+msgstr "Pusat galaksi lan antipusat"
+
+msgid "Galactic equator"
+msgstr "Ekuator galaksi"
+
+msgid "Galactic grid"
+msgstr "Jaringan galaksi"
+
+msgid "Galactic poles"
+msgstr "Kutub galaksi"
+
+msgid "Galaxies"
+msgstr "Galaksi"
+
+msgid "Gamma, saturation, brightness, contrast, opacity, colour channel and inverted colours belong to one survey. Open a survey to set them."
+msgstr "Gamma, kajenuhan, cahayana, kontras, opasitas, saluran warna lan warna terbalik duweni siji survey. Bukak survey kanggo nyetel."
+
+msgid "Generic"
+msgstr "Umum"
+
+msgid "Gestures"
+msgstr "Isyarat"
+
+msgid "Globular star clusters"
+msgstr "Kluster bintang globular"
+
+msgid "Go there"
+msgstr "Mangkat mrono"
+
+msgid "Go to position"
+msgstr "Mangkat menyang posisi"
+
+msgid "Go to this eclipse"
+msgstr "Mangkat menyang gerhana iki"
+
+msgid "Go to this moment"
+msgstr "Mangkat menyang wektu iki"
+
+msgid "Go to this transit"
+msgstr "Mangkat menyang transit iki"
+
+msgid "Good visibility conditions for current location"
+msgstr "Kondisi visibilitas apik kanggo lokasi saiki"
+
+msgid "Graphs"
+msgstr "Grafik"
+
+msgid "Great Red Spot"
+msgstr "Bintik Abang Gedhe"
+
+msgid "Great Red Spot details"
+msgstr "Rincian Bintik Abang Gedhe"
+
+msgid "Greatest eastern elongation"
+msgstr "Elongasi timur terbesar"
+
+msgid "Greatest eclipse"
+msgstr "Gerhana terbesar"
+
+msgid "Greatest elongation for an inner planet, quadrature for an outer one"
+msgstr "Elongasi paling gedhe kanggo planet dalam, kuadratur kanggo planet luar"
+
+msgid "Greatest western elongation"
+msgstr "Elongasi barat terbesar"
+
+msgid "Greek letters"
+msgstr "Huruf Yunani"
+
+msgid "Greek letters for Bayer designations"
+msgstr "Huruf Yunani kanggo sebutan Bayer"
+
+msgid "Green"
+msgstr "Ijo"
+
+msgid "Grid density"
+msgstr "Kapadatan jaringan"
+
+msgid "Grids"
+msgstr "Jaringan"
+
+msgid "Ground"
+msgstr "Tanah"
+
+msgid "Gyro"
+msgstr "Giroskop"
+
+msgid "Gyro mode"
+msgstr "Mode gyro"
+
+msgid "Height"
+msgstr "Dhuwur"
+
+msgid "Heliocentric distance"
+msgstr "Jarak heliosentrik"
+
+msgid "Heliocentric ecliptic positions of the major planets."
+msgstr "Posisi ekliptika heliosentrik saka planet-planet utama."
+
+msgid "Help"
+msgstr "Tulung"
+
+msgid "Herschel 400 objects"
+msgstr "Objek Herschel 400"
+
+msgid "HiPS"
+msgstr "HiPS"
+
+msgid "Hide controls"
+msgstr "Nyumpal kontrol"
+
+msgid "Hide deep-sky objects fainter than the limit"
+msgstr "Nyumpal obyek langit dalam sing luwih redup tinimbang wates"
+
+msgid "Hide nomenclature on the celestial body of observer"
+msgstr "Nyumpal nomenklatur ing badan langit panggung pangamat"
+
+msgid "Hide orbits of minor bodies"
+msgstr "Nyumpal orbit badan-badan cilik"
+
+msgid "Highlight"
+msgstr "Sorot"
+
+msgid "Highlight the objects of the observing list"
+msgstr "Sorot objek saka daftar pangamatan"
+
+msgid "Hint circles marking each planet"
+msgstr "Bunder petunjuk nandai saben planet"
+
+msgid "Hints"
+msgstr "Petunjuk"
+
+msgid "Hints brightness"
+msgstr "Cahayana petunjuk"
+
+msgid "Hipparcos designations"
+msgstr "Sebutan Hipparcos"
+
+msgid "Horizon"
+msgstr "Ufuk"
+
+msgid "Horizontal"
+msgstr "Horisontal"
+
+msgid "Horizontal coordinates"
+msgstr "Koordinat horisontal"
+
+msgid "Hour angles usually run 0...24h. This counts -12h...12h."
+msgstr "Sudut jam biasane mlaku 0...24h. Iki ngetung -12h...12h."
+
+msgid "How many"
+msgstr "Pira"
+
+msgid "ICRS grid"
+msgstr "Grid ICRS"
+
+msgid "Include"
+msgstr "Lebokaken"
+
+msgid "Include bright comets"
+msgstr "Lebokaken komet cahayang"
+
+msgid "Include selected minor planets"
+msgstr "Lebokaken planet cilik sing dipilih"
+
+msgid "Inferior conjunction"
+msgstr "Konjungsi inferior"
+
+msgid "Info label"
+msgstr "Label info"
+
+msgid "Interacting galaxies"
+msgstr "Galaksi sing berinteraksi"
+
+msgid "Intercardinal points"
+msgstr "Titik antarkardinal"
+
+msgid "Interior egress"
+msgstr "Keluar bagian dalam"
+
+msgid "Interior ingress"
+msgstr "Masuk bagian dalam"
+
+msgid "Interstellar objects"
+msgstr "Objek interstellar"
+
+msgid "Invariable plane of the Solar system"
+msgstr "Bidang tak berubah Sistem Surya"
+
+msgid "Invert colors"
+msgstr "Balikok warna"
+
+msgid "Isolated"
+msgstr "Kapisolan"
+
+msgid "Its elevation, and the civil, nautical and astronomical twilights"
+msgstr "Elevasine, lan twilight sipil, maritim lan astronomi"
+
+msgid "Jovigraphic longitude of the spot in System II, in degrees"
+msgstr "Longitud jovigrafis saka bintik ing Sistem II, ing derajat"
+
+msgid "Julian day"
+msgstr "Hari Julian"
+
+msgid "June solstice"
+msgstr "Solstis Juni"
+
+msgid "Label colour"
+msgstr "Warna label"
+
+msgid "Label only features along the terminator"
+msgstr "Label mung fitur sadumuk terminator"
+
+msgid "Labels"
+msgstr "Label"
+
+msgid "Labels and Markers"
+msgstr "Label lan Tanda"
+
+msgid "Labels and Markers amount"
+msgstr "Jumlah label lan tanda"
+
+msgid "Labels brightness"
+msgstr "Cahayana label"
+
+msgid "Landscape"
+msgstr "Pemandangan"
+
+msgid "Landscape labels"
+msgstr "Label pemandangan"
+
+msgid "Language settings"
+msgstr "Pengaturan basa"
+
+msgid "Largest, ′"
+msgstr "Paling gedhe, ′"
+
+msgid "Last known position"
+msgstr "Posisi pungkasan sing dikenal"
+
+msgid "Lasting"
+msgstr "Tahan lama"
+
+msgid "Latest selected object"
+msgstr "Objek sing paling akhir dipilih"
+
+msgid "Layer appearance"
+msgstr "Penampakan lapis"
+
+msgid "Leaves the landscape visible in darkness"
+msgstr "Ninggal pemandangan kelihatan ing peteng"
+
+msgid "Licence"
+msgstr "Lisensi"
+
+msgid "License"
+msgstr "Lisensi"
+
+msgid "Light pollution"
+msgstr "Polusi cahaya"
+
+msgid "Light pollution from database"
+msgstr "Polusi cahaya saka database"
+
+msgid "Limit angular separation"
+msgstr "Batasi pemisahan sudut"
+
+msgid "Limit angular size"
+msgstr "Watesin ukuran sudut"
+
+msgid "Limit magnitude"
+msgstr "Watesin magnitudo"
+
+msgid "Limit the magnitude of solar system objects"
+msgstr "Watesin magnitudo obyek sistem surya"
+
+msgid "Line"
+msgstr "Garis"
+
+msgid "Line thickness"
+msgstr "Kekantelan garis"
+
+msgid "Linear and angular distances between selected objects"
+msgstr "Jarak linear lan sudut antara objek sing dipilih"
+
+msgid "Linear distance"
+msgstr "Jarak linear"
+
+msgid "Lines"
+msgstr "Garis"
+
+msgid "Lines and circles"
+msgstr "Garis lan bunder"
+
+msgid "List"
+msgstr "Daftar"
+
+msgid "List name"
+msgstr "Jeneng daftar"
+
+msgid "Lists"
+msgstr "Daftar"
+
+msgid "Lit windows, street lighting and the like"
+msgstr "Jendela sing padhang, penerangan dalan lan sapanunggale"
+
+msgid "Loading…"
+msgstr "Ngisi…"
+
+msgid "Local Mean Solar Time"
+msgstr "Waktu Surya Rata-rata Lokal"
+
+msgid "Local Time"
+msgstr "Waktu Lokal"
+
+msgid "Local True Solar Time"
+msgstr "Waktu Surya Sejati Lokal"
+
+msgid "Local solar eclipses"
+msgstr "Gerhana surya lokal"
+
+msgid "Local time"
+msgstr "Waktu lokal"
+
+msgid "Local time, h"
+msgstr "Waktu lokal, h"
+
+msgid "Locate me"
+msgstr "Goleki aku"
+
+msgid "Locating…"
+msgstr "Goleki…"
+
+msgid "Location"
+msgstr "Lokasi"
+
+msgid "Location from landscape"
+msgstr "Lokasi saka pemandangan"
+
+msgid "Location is switched off in the system settings."
+msgstr "Lokasi dipateni ing pengaturan sistem."
+
+msgid "Location permission refused. The other two ways still work."
+msgstr "Ijin lokasi ora katarima. Rong cara liyane isih bisa."
+
+msgid "Lock position when coordinates are used"
+msgstr "Kunci posisi nalika koordinat digunakaken"
+
+msgid "Log"
+msgstr "Pencatatan"
+
+msgid "Long press"
+msgstr "Tekan lama"
+
+msgid "Longitude of GRS"
+msgstr "Longitude saka GRS"
+
+msgid "Lunar Elongation"
+msgstr "Elongasi Bulan"
+
+msgid "Lunar Stations"
+msgstr "Stasi Bulan"
+
+msgid "Lunar eclipses"
+msgstr "Gerhana bulan"
+
+msgid "Lunar elongation"
+msgstr "Elongasi bulan"
+
+msgid "Magnitude"
+msgstr "Magnitudo"
+
+msgid "Magnitudes"
+msgstr "Magnitudo"
+
+msgid "Main"
+msgstr "Utama"
+
+msgid "Major planets"
+msgstr "Planet utama"
+
+msgid "Major planets by planet, minor bodies by type"
+msgstr "Planet utama miturut planet, badan cilik miturut jenis"
+
+msgid "Map of the planet. Tap to set the observer's place."
+msgstr "Peta planet. Tap kanggo nyetel panggonan pangamat."
+
+msgid "March equinox"
+msgstr "Ekuinoks Maret"
+
+msgid "Mark impact features with ellipses"
+msgstr "Tandi fitur dampak karo elips"
+
+msgid "Mark minor bodies"
+msgstr "Tandi badan-badan cilik"
+
+msgid "Markers"
+msgstr "Tanda"
+
+msgid "Markers sized by the object's angular size"
+msgstr "Tanda ukuran miturut ukuran sudut obyek"
+
+msgid "Markings"
+msgstr "Tandhen"
+
+msgid "Master switch for the grids, lines and points below"
+msgstr "Saklar master kanggo jaringan, garis lan titik ing ngisor"
+
+msgid "Max"
+msgstr "Maks"
+
+msgid "Max items to display"
+msgstr "Item maks kanggo ditampilaken"
+
+msgid "Max. results"
+msgstr "Hasil maks."
+
+msgid "Max. search radius"
+msgstr "Radius pencarian maks."
+
+msgid "Maximum Solar altitude"
+msgstr "Altitude surya maksimal"
+
+msgid "Maximum allowed separation"
+msgstr "Separasi maksimal sing diidini"
+
+msgid "Maximum angular size"
+msgstr "Ukuran sudut maksimal"
+
+msgid "Maximum eclipse"
+msgstr "Gerhana maksimal"
+
+msgid "Maximum year"
+msgstr "Taun maksimal"
+
+msgid "Mean motion"
+msgstr "Gerakan rata-rata"
+
+msgid "Mercury"
+msgstr "Merkurius"
+
+msgid "Mercury, Venus, Mars, Jupiter and Saturn at once. Earth only."
+msgstr "Merkurius, Venus, Mars, Jupiter lan Saturnus bebarengan. Bumi mung."
+
+msgid "Messier objects"
+msgstr "Objek Messier"
+
+msgid "Mid-transit"
+msgstr "Pertengahan transit"
+
+msgid "Milky Way"
+msgstr "Jalan Susu"
+
+msgid "Milky Way brightness"
+msgstr "Cahayana Jalan Susu"
+
+msgid "Milky Way saturation"
+msgstr "Kajenuhan Jalan Susu"
+
+msgid "Minimal angular size"
+msgstr "Ukuran sudut minimal"
+
+msgid "Minimal brightness"
+msgstr "Cahayana minimal"
+
+msgid "Minimum Solar altitude"
+msgstr "Altitude surya minimal"
+
+msgid "Minimum year"
+msgstr "Taun minimal"
+
+msgid "Minor bodies"
+msgstr "Badan-badan cilik"
+
+msgid "Minutes before sunrise / after sunset"
+msgstr "Menit sakdurunge srengenge munggah / sawise srengenge tundhun"
+
+msgid "Miscellaneous"
+msgstr "Bermacam-macam"
+
+msgid "Month"
+msgstr "Bulan"
+
+msgid "Monthly Elevation"
+msgstr "Elevansi Bulanan"
+
+msgid "Moon"
+msgstr "Buwan"
+
+msgid "Moon at"
+msgstr "Bulan pukul"
+
+msgid "Moon enters penumbra"
+msgstr "Bulan ngglebeg penumbra"
+
+msgid "Moon enters umbra"
+msgstr "Bulan ngglebeg umbra"
+
+msgid "Moon in zenith at"
+msgstr "Buwan ing zenith ing"
+
+msgid "Moon leaves penumbra"
+msgstr "Bulan ninggal penumbra"
+
+msgid "Moon leaves umbra"
+msgstr "Bulan ninggal umbra"
+
+msgid "Moon's halo"
+msgstr "Cahaya buwan"
+
+msgid "Moons of first body"
+msgstr "Bulan saka badan pertama"
+
+msgid "Morning"
+msgstr "Esuk"
+
+msgid "Morph. Descr."
+msgstr "Deskr. Morf."
+
+msgid "Morphological description"
+msgstr "Deskripsi morfologi"
+
+msgid "Move the sky by pointing the phone at it"
+msgstr "Gerakaken langit karo nunjuk ponsel menyang ndhuwur"
+
+msgid "Move the sky with the phone"
+msgstr "Gerakaken langit karo ponsel"
+
+msgid "NGC/IC objects"
+msgstr "Objek NGC/IC"
+
+msgid "Name for the new list"
+msgstr "Jeneng kanggo daftar anyar"
+
+msgid "Named features the landscape marks"
+msgstr "Fitur jeneng sing tandi pemandangan"
+
+msgid "Names"
+msgstr "Jeneng"
+
+msgid "Names beside the planets and their markers"
+msgstr "Jeneng ing layah planet lan tanda-tandane"
+
+msgid "Names in English"
+msgstr "Jeneng ing Inggris"
+
+msgid "Nautical Twilight"
+msgstr "Sorot Nautika"
+
+msgid "Neb. bg"
+msgstr "Bg nebula"
+
+msgid "Nebula background"
+msgstr "Latar nebula"
+
+msgid "Nebulae"
+msgstr "Nebula"
+
+msgid "Neptune"
+msgstr "Neptunus"
+
+msgid "New list"
+msgstr "Daftar anyar"
+
+msgid "Next"
+msgstr "Sabanjure"
+
+msgid "Night"
+msgstr "Malam"
+
+msgid "Night mode"
+msgstr "Mode wengi"
+
+msgid "No city matches that."
+msgstr "Ora ana kutha sing cocog."
+
+msgid "No eclipses found. Pick a range and calculate."
+msgstr "Ora ana gerhana ditemokake. Pilih kisaran lan itunge."
+
+msgid "No fresh fix - the receiver may have no sky. Try again outdoors, or set the place another way."
+msgstr "Ora ana perbaikan anyar - penerima bisa uga ora duwe langit. Coba maneh ing luar, utawa nyetel panggonan cara liyane."
+
+msgid "No surveys were found. The lists are downloaded, so this needs a connection."
+msgstr "Ora ana survey ditemokake. Daftar-daftar diunduh, mula iki butuh koneksi."
+
+msgid "None downloaded yet"
+msgstr "Ora ana sing diunduh."
+
+msgid "Normal"
+msgstr "Biasa"
+
+msgid "Not observable eclipse"
+msgstr "Gerhana sing ora bisa diamati"
+
+msgid "Note: Local circumstances for eclipses during thousands of years in the past and future are not reliable due to uncertainty in ΔT which is caused by fluctuations in Earth's rotation."
+msgstr "Catatan: Kondisi lokal kanggo gerhana ing ribuan taon sing bakal dateng ora dhadiut ana ing ΔT sing disebabake dening fluktuasi rotasi Bumi."
+
+msgid "Note: artificial satellites and unnamed stars are excluded from calculation"
+msgstr "Catatan: satelit buatan lan bintang tanpa naran dikecualikan saka panggeron"
+
+msgid "Note: this tool doesn't apply the refraction correction for coordinates. Horizontal coordinates stop the clock, or the sky would turn away from the point while you arrive at it."
+msgstr "Cathetan: alat iki ora nerapaken koreksi refraksi kanggo koordinat. Koordinat horisontal mandheg jam, utawa langit bakal mutar saka titik nalika sampai."
+
+msgid "Notes: The quantity gamma is the minimum distance from the axis of lunar shadow cone to the center of Earth, in units of Earth’s equatorial radius. This distance is positive or negative, depending on whether the axis of the shadow cone passes north or south of the Earth's center. Path of solar eclipses during thousands of years in the past and future are not reliable due to uncertainty in ΔT which is caused by fluctuations in Earth's rotation."
+msgstr "Cathetan: Kuantitas gamma yaiku jarak minimal saka sumbu kerucut bayang-bayang Bulan menyang pusat Bumi, ing satuan radius ekuatorial Bumi. Jarak iki positif utawa negatif, gumantung ing sumbu kerucut bayang-bayang liwat lor utawa kidul saka pusat Bumi. Dalan gerhana surya ing ribuan taon sing bakal dateng ora dhadiut ana ing ΔT sing disebabake dening fluktuasi rotasi Bumi."
+
+msgid "Notes: The quantity gamma is the minimum distance from the center of the Moon to the axis of Earth’s umbral shadow cone, in units of Earth’s equatorial radius. This distance is positive or negative, depending on whether the Moon passes north or south of the shadow cone axis. Local circumstances for eclipses during thousands of years in the past and future are not reliable due to uncertainty in ΔT which is caused by fluctuations in Earth's rotation."
+msgstr "Cathetan: Kuantitas gamma yaiku jarak minimal saka pusat Bulan menyang sumbu kerucut bayang-bayang umbral Bumi, ing satuan radius ekuatorial Bumi. Jarak iki positif utawa negatif, gumantung ing Bulan liwat lor utawa kidul saka sumbu kerucut bayang-bayang. Kondisi lokal kanggo gerhana ing ribuan taon sing bakal dateng ora dhadiut ana ing ΔT sing disebabake dening fluktuasi rotasi Bumi."
+
+msgid "Notes: Time in parentheses means the contact is invisible at current location. Transit times during thousands of years in the past and future are not reliable due to uncertainty in ΔT which is caused by fluctuations in Earth's rotation."
+msgstr "Cathetan: Wektu ing kurung tegesé kontak ora katon ing lokasi saiki. Waktu transit ing ribuan taon sing bakal dateng ora dhadiut ana ing ΔT sing disebabake dening fluktuasi rotasi Bumi."
+
+msgid "Nothing computed yet, or nothing in this category is up."
+msgstr "Ora ana sing ditung, utawa ora ana ing kategori iki sing mudhun."
+
+msgid "Nothing computed yet."
+msgstr "Ora ana sing ditung."
+
+msgid "Nothing found for “%s”."
+msgstr "Ora ketemu kanggo \"%s\"."
+
+msgid "Nothing in this list matches."
+msgstr "Ora ana ing daftar iki sing cocog."
+
+msgid "Nothing in this list yet. Pick something out of the sky and tap the star on its card to keep it here."
+msgstr "Ora ana ing daftar iki. Pilih samubarang saka langit lan tap bintang ing kartune kanggo tetepake mrene."
+
+msgid "Nothing is selected. Pick an object in the sky first."
+msgstr "Ora ana sing dipilih. Pilih obyek ing langit dhisik."
+
+msgid "Nothing matches."
+msgstr "Ora ana sing cocog."
+
+msgid "Nothing selected"
+msgstr "Ora ana kapiilih"
+
+msgid "Nothing to plot."
+msgstr "Ora ana digambar."
+
+msgid "Nothing to show."
+msgstr "Ora ana ditampilake."
+
+msgid "Now"
+msgstr "Saiki"
+
+msgid "N× above"
+msgstr "N× ing dhuwur"
+
+msgid "O./C. longitude"
+msgstr "O./C. bujur"
+
+msgid "OBJECT"
+msgstr "OBJEK"
+
+msgid "OBJECTS"
+msgstr "OBJEK"
+
+msgid "Object"
+msgstr "Objek"
+
+msgid "Object 1"
+msgstr "Objek 1"
+
+msgid "Object 2"
+msgstr "Objek 2"
+
+msgid "Objects which are up"
+msgstr "Objek ing langit"
+
+msgid "Observable duration"
+msgstr "Durasi pandang"
+
+msgid "Observing list"
+msgstr "Daftar pangamatan"
+
+msgid "Observing list highlight"
+msgstr "Sorot daftar"
+
+msgid "Observing lists"
+msgstr "Daftar pangamatan"
+
+msgid "Occultation"
+msgstr "Oklutasi"
+
+msgid "On the sky"
+msgstr "Ing langit"
+
+msgid "One color"
+msgstr "Siji warna"
+
+msgid "One color for all orbits"
+msgstr "Siji warna kabeh orbit"
+
+msgid "Only for N latest selected objects"
+msgstr "Mung N objek anyar kapiilih"
+
+msgid "Only for Solar elevation"
+msgstr "Mung ketinggian Solar"
+
+msgid "Only list"
+msgstr "Mung daftar"
+
+msgid "Only one at a time"
+msgstr "Mung siji ing wedal"
+
+msgid "Only orbit for selected object…"
+msgstr "Orbit objek kapiilih…"
+
+msgid "Only orbits of major planets…"
+msgstr "Orbit planèt ageng…"
+
+msgid "Oort cloud objects"
+msgstr "Objek awan Oort"
+
+msgid "Opac."
+msgstr "Opak."
+
+msgid "Opacity"
+msgstr "Tembus pandang"
+
+msgid "Open date and time"
+msgstr "Buka tanggal lan wektu"
+
+msgid "Open location"
+msgstr "Buka lokasi"
+
+msgid "Open star clusters"
+msgstr "Kluster bintang terbuka"
+
+msgid "Opens the JUPOS project in a browser"
+msgstr "Mbuka JUPOS ing browser"
+
+msgid "Opposition"
+msgstr "Oposisi"
+
+msgid "Opposition of"
+msgstr "Oposisi"
+
+msgid "Oppositions"
+msgstr "Oposisi"
+
+msgid "Options"
+msgstr "Pilihan"
+
+msgid "Orbit colors"
+msgstr "Warna orbit"
+
+msgid "Orbital periods ratio"
+msgstr "Rasio periode orbital"
+
+msgid "Orbital velocity"
+msgstr "Kecepatan orbital"
+
+msgid "Orbits"
+msgstr "Orbit"
+
+msgid "Orbits of Oort cloud objects"
+msgstr "Orbit awan Oort"
+
+msgid "Orbits of comets"
+msgstr "Orbit komet"
+
+msgid "Orbits of cubewanos"
+msgstr "Orbit kubewano"
+
+msgid "Orbits of dwarf planets"
+msgstr "Orbit planèt kerdil"
+
+msgid "Orbits of interstellar objects"
+msgstr "Orbit objek antarstellar"
+
+msgid "Orbits of major planets"
+msgstr "Orbit planèt ageng"
+
+msgid "Orbits of minor planets"
+msgstr "Orbit planèt minor"
+
+msgid "Orbits of moons"
+msgstr "Orbit bulan"
+
+msgid "Orbits of plutinos"
+msgstr "Orbit plutino"
+
+msgid "Orbits of scattered disk objects"
+msgstr "Orbit disk kaserakan"
+
+msgid "Orbits of sednoids"
+msgstr "Orbit sednoid"
+
+msgid "Other"
+msgstr "Liyane"
+
+msgid "Otherwise every move adopts the zone of the new place."
+msgstr "Liyane saben gerak ngreman zona papan anyar."
+
+msgid "Outline craters"
+msgstr "Garis kawah"
+
+msgid "Pan the sky"
+msgstr "Geser langit"
+
+msgid "Partial eclipse begins"
+msgstr "Gerhana parsial diwiwiti"
+
+msgid "Partial eclipse ends"
+msgstr "Gerhana parsial rampung"
+
+msgid "Partitions"
+msgstr "Sekat"
+
+msgid "Partitions thickness"
+msgstr "Kathebelan sekat"
+
+msgid "Path width"
+msgstr "Jembar dalan"
+
+msgid "Paused - start"
+msgstr "Pause - Mulai"
+
+msgid "Penumbral magnitude"
+msgstr "Magnitudo penumbra"
+
+msgid "Perfect visibility conditions for current location"
+msgstr "Kondisi visibilitas sempurna kanggo lokasi saiki"
+
+msgid "Perihelion and aphelion"
+msgstr "Perihelion lan aphelion"
+
+msgid "Phase"
+msgstr "Fase"
+
+msgid "Phase angle"
+msgstr "Sudut fase"
+
+msgid "Phenomena"
+msgstr "Fenomena"
+
+msgid "Pick two different bodies to see how their distance changes."
+msgstr "Pilih loro badan beda kanggo weruh jarak owah."
+
+msgid "Pinch"
+msgstr "Cubit"
+
+msgid "Planet"
+msgstr "Planèt"
+
+msgid "Planet and time zone"
+msgstr "Planèt lan zona wektu"
+
+msgid "Planet markers"
+msgstr "Tandha planèt"
+
+msgid "Planetary nebulae"
+msgstr "Nebula planetary"
+
+msgid "Planetary nebulae (<%1 mag)"
+msgstr "Nebula planetary (<%1 mag)"
+
+msgid "Planetary nomenclature"
+msgstr "Nomenklatur planèter"
+
+msgid "Planetary transits"
+msgstr "Transit planèter"
+
+msgid "Planets"
+msgstr "Planèt"
+
+msgid "Planets and Sun"
+msgstr "Planet lan Srengéngé"
+
+msgid "Planets magnitude algorithm"
+msgstr "Algoritma magnitudo planèt"
+
+msgid "Please select object to plot its 'Monthly Elevation' graph for the current year at selected time."
+msgstr "Mangga pilih objek kanggo nggabar grafik 'Elevasi Bulanan' kanggo taun saiki ing wektu sing dipilih."
+
+msgid "Please select object to plot its graph 'Altitude vs. Time'."
+msgstr "Mangga pilih objek kanggo nggabar grafik 'Altitude vs. Waktu'."
+
+msgid "Please select object to plot its graph 'Azimuth vs. Time'."
+msgstr "Mangga pilih objek kanggo nggabar grafik 'Azimuth vs. Waktu'."
+
+msgid "Plutinos"
+msgstr "Plutino"
+
+msgid "Pluto, Ceres, Pallas, Juno and Vesta"
+msgstr "Pluto, Ceres, Pallas, Juno lan Vesta"
+
+msgid "Point size"
+msgstr "Ukuran titik"
+
+msgid "Pointing"
+msgstr "Tunjuk"
+
+msgid "Polar distance"
+msgstr "Jarak polar"
+
+msgid "Polar distance, not declination"
+msgstr "Jarak polar, ora deklinasi"
+
+msgid "Poles and points"
+msgstr "Kutub lan titik"
+
+msgid "Polygon colour"
+msgstr "Warna poligon"
+
+msgid "Position"
+msgstr "Posisi"
+
+msgid "Position angle"
+msgstr "Sudut posisi"
+
+msgid "Positions"
+msgstr "Posisi"
+
+msgid "Positive values only"
+msgstr "Mung nilai positif"
+
+msgid "Precession circles"
+msgstr "Bunder presesi"
+
+msgid "Previous"
+msgstr "Sadurunge"
+
+msgid "Prime Vertical"
+msgstr "Meridian Utama"
+
+msgid "Program Language"
+msgstr "Bahasa Program"
+
+msgid "Projected Solar Equator"
+msgstr "Katulusan Equator Solar"
+
+msgid "Projection"
+msgstr "Proyeksi"
+
+msgid "Pronounce"
+msgstr "Ucapan"
+
+msgid "Pulsars"
+msgstr "Pulsar"
+
+msgid "Quadrature circle"
+msgstr "Bunder kuadratur"
+
+msgid "Query SIMBAD about selected object"
+msgstr "Takon SIMBAD objek kapiilih"
+
+msgid "Query options"
+msgstr "Pilihan takon"
+
+msgid "Quit"
+msgstr "Metu"
+
+msgid "Quit button"
+msgstr "Tombol metu"
+
+msgid "Range"
+msgstr "Jarak"
+
+msgid "Ray helpers"
+msgstr "Bantuan sinar"
+
+msgid "Reading…"
+msgstr "Maca…"
+
+msgid "Real time speed"
+msgstr "Kecepatan nyata"
+
+msgid "Recent Searches"
+msgstr "Pencarian anyar"
+
+msgid "Rectangular FOV"
+msgstr "FOV persegi panjang"
+
+msgid "Red"
+msgstr "Abang"
+
+msgid "Refraction, extinction, sky brightness"
+msgstr "Refraksi, pemandaman, pecah langit"
+
+msgid "Refresh"
+msgstr "Segarake"
+
+msgid "Regions of the sky"
+msgstr "Wilayah ing langit"
+
+msgid "Relative scale"
+msgstr "Skala relatif"
+
+msgid "Remove %s"
+msgstr "Busak %s"
+
+msgid "Remove from observing list"
+msgstr "Busak saka daftar"
+
+msgid "Rename"
+msgstr "Ganti jeneng"
+
+msgid "Reset"
+msgstr "Balèk"
+
+msgid "Reset all"
+msgstr "Balèk kabeh"
+
+msgid "Restarting…"
+msgstr "Miwiti maneh…"
+
+msgid "Restore defaults"
+msgstr "Balèk patokan"
+
+msgid "Results"
+msgstr "Asil"
+
+msgid "Right ascension"
+msgstr "Asensio rekta"
+
+msgid "Rise"
+msgstr "Munggah"
+
+msgid "Rises"
+msgstr "Munggah"
+
+msgid "Rotation"
+msgstr "Rotasi"
+
+msgid "Running"
+msgstr "Mlaku"
+
+msgid "SIMBAD did not answer."
+msgstr "SIMBAD ora mangsuli."
+
+msgid "SIMBAD is switched off in the search options."
+msgstr "SIMBAD matine ing pilihan panggeron."
+
+msgid "SIMBAD is switched off. Turn it on under Options to look objects up online."
+msgstr "SIMBAD mati. Tukak ing Pilihan kanggo golek objek Online."
+
+msgid "SIMBAD server"
+msgstr "Server SIMBAD"
+
+msgid "Saturation"
+msgstr "Jenuh"
+
+msgid "Saturn"
+msgstr "Saturnus"
+
+msgid "Save"
+msgstr "Simpen"
+
+msgid "Save either the current FOV and direction of view or all the current options for use at next startup. Restoring default settings requires a restart of the app."
+msgstr "Simpen FOV lan arah pandangan utawa kabeh pilihan saiki kanggo miwit maneh. Balèk patokan merlokake restart."
+
+msgid "Save settings"
+msgstr "Simpen pengaturan"
+
+msgid "Save to observing list"
+msgstr "Simpen ing daftar"
+
+msgid "Save view"
+msgstr "Simpen pandangan"
+
+msgid "Scale"
+msgstr "Skala"
+
+msgid "Scale factor"
+msgstr "Faktor skala"
+
+msgid "Scale marker and label visibility by surface brightness"
+msgstr "Skala tandha lan label miturut terang permukaan"
+
+msgid "Scales smoothly between 1× at the minimum field of view and the factor above at the maximum"
+msgstr "Skala mulus antara 1× minimal lan faktor maksimal"
+
+msgid "Scattered disc objects"
+msgstr "Objek cakram tersebar"
+
+msgid "Screen label"
+msgstr "Label layar"
+
+msgid "Scripts"
+msgstr "Skrip"
+
+msgid "Search"
+msgstr "Golek"
+
+msgid "Search in list"
+msgstr "Golek daftar"
+
+msgid "Search in list..."
+msgstr "Golek daftar..."
+
+msgid "Search options"
+msgstr "Pilihan golek"
+
+msgid "Seasons"
+msgstr "Musim"
+
+msgid "Second body"
+msgstr "Badan loro"
+
+msgid "Second celestial body"
+msgstr "Badan langit loro"
+
+msgid "Second graph"
+msgstr "Grafik loro"
+
+msgid "Second object"
+msgstr "Objek loro"
+
+msgid "Secondary intercardinal points"
+msgstr "Titik interkardinal sekunder"
+
+msgid "Sednoids"
+msgstr "Sednoid"
+
+msgid "See the sky through the ground"
+msgstr "Weruh langit lumantar lemah"
+
+msgid "Seen now"
+msgstr "Kaweruhan saiki"
+
+msgid "Select an object first: this asks SIMBAD what it holds around it."
+msgstr "Pilih objek dhisik: iki takon SIMBAD apa sing dipundhut ing sakikilinge."
+
+msgid "Select it and show its card"
+msgstr "Pilih lan tampilake kartu e"
+
+msgid "Select single constellation"
+msgstr "Pilih siji konstelasi"
+
+msgid "Select something in the sky first — this page works on the selection."
+msgstr "Pilih menapa-menapa ing langit dhisik — kaca iki makarya ing pilihan."
+
+msgid "Selected object"
+msgstr "Objek kapiilih"
+
+msgid "Separate colors for orbits by object type"
+msgstr "Warna kapisah orbit miturut jenis"
+
+msgid "Separate colors for orbits of major planets"
+msgstr "Warna kapisah orbit planèt ageng"
+
+msgid "Separation"
+msgstr "Pamisahan"
+
+msgid "September equinox"
+msgstr "Ekuinoks September"
+
+msgid "Set"
+msgstr "Setel"
+
+msgid "Set the clock to %s"
+msgstr "Setel jam menyang %s"
+
+msgid "Set the place"
+msgstr "Setel papan"
+
+msgid "Set to now"
+msgstr "Setel saiki"
+
+msgid "Sets"
+msgstr "Tetapan"
+
+msgid "Shadow map for non-convex bodies. May coarsen the penumbra on some objects"
+msgstr "Peta bayang badan non-cembung. Bisa gasremen penumbra ing objek"
+
+msgid "Shadow transit"
+msgstr "Transit bayang"
+
+msgid "Shooting stars"
+msgstr "Bintang rebutan"
+
+msgid "Short notation for units of surface brightness"
+msgstr "Notasi cekak unit terang permukaan"
+
+msgid "Short steps over a long duration are slow."
+msgstr "Langkah cekak luwih alon."
+
+msgid "Show"
+msgstr "Tampilake"
+
+msgid "Show FOV center marker when position is search"
+msgstr "Tampilake tandha pusat FOV nalika golek posisi"
+
+msgid "Show additional buttons"
+msgstr "Tampilake tombol tambahan"
+
+msgid "Show additional star names"
+msgstr "Tampilake jeneng bintang tambahan"
+
+msgid "Show all information"
+msgstr "Tampilake kabeh informasi"
+
+msgid "Show atmospheric extinction"
+msgstr "Tampilake pemandaman atmosfer"
+
+msgid "Show boundaries of constellations"
+msgstr "Tampilake wates konstelasi"
+
+msgid "Show button in addition to keyboard shortcut?"
+msgstr "Tampilake tombol salawas shortcut?"
+
+msgid "Show controls"
+msgstr "Tampilake kontrol"
+
+msgid "Show each body where it was when the light left it (recommended)"
+msgstr "Tampilake saben badan nggone wektu cahya lunga (disarani)"
+
+msgid "Show fog"
+msgstr "Tampilake kabut"
+
+msgid "Show frames per second beside the field of view"
+msgstr "Tampilake frame/detik ing FOV"
+
+msgid "Show ground"
+msgstr "Tampilake lemah"
+
+msgid "Show hints and labels for planetary features"
+msgstr "Tampilake tilikan lan label fitur planèter"
+
+msgid "Show illumination"
+msgstr "Tampilake terang"
+
+msgid "Show in sky"
+msgstr "Tampilake ing langit"
+
+msgid "Show less"
+msgstr "Tampilake sigik"
+
+msgid "Show lunar stations (if defined)"
+msgstr "Tampilake stasiun bulan (yen katetapake)"
+
+msgid "Show more"
+msgstr "Tampilake luwih akeh"
+
+msgid "Show objects which are up"
+msgstr "Tampilake objek ing langit"
+
+msgid "Show only named DSO"
+msgstr "Tampilake mung DSO kajeneng"
+
+msgid "Show only objects between the two sizes"
+msgstr "Tampilake mung objek antarane loro ukuran"
+
+msgid "Show only the kinds ticked below"
+msgstr "Tampilake mung jinis ing ngisor"
+
+msgid "Show or hide the two rails of controls"
+msgstr "Tampilake utawa sumurupi loro rel kontrol"
+
+msgid "Show orbit even if object is off screen"
+msgstr "Tampilake orbit sanajan objek ora layar"
+
+msgid "Show orbit only for selected SSO"
+msgstr "Tampilake orbit mung SSO kapiilih"
+
+msgid "Show orbits"
+msgstr "Tampilake orbit"
+
+msgid "Show orbits of major planets"
+msgstr "Tampilake orbit planèt ageng"
+
+msgid "Show planetary nomenclature"
+msgstr "Tampilake nomenklatur planèter"
+
+msgid "Show special nomenclature points only"
+msgstr "Tampilake mung titik nomenklatur khusus"
+
+msgid "Show surveys"
+msgstr "Tampilake survei"
+
+msgid "Show this survey"
+msgstr "Tampilake survei iki"
+
+msgid "Show tiny circles for minor bodies regardless of magnitude"
+msgstr "Tampilake bunder cilik badan minor"
+
+msgid "Show trails"
+msgstr "Tampilake jejak"
+
+msgid "Show zodiac (if defined)"
+msgstr "Tampilake zodiak (yen katetapake)"
+
+msgid "Sidereal time"
+msgstr "Wektu sidereal"
+
+msgid "Simbad Lookup Error: %s"
+msgstr "Kesalahan Pencarian Simbad: %s"
+
+msgid "Simbad Lookup: querying"
+msgstr "Pencarian Simbad: nggolek"
+
+msgid "Simulate light speed"
+msgstr "Simulasi kecepatan cahya"
+
+msgid "Simulate self-shadowing"
+msgstr "Simulasi bayang dhewe"
+
+msgid "Simulation"
+msgstr "Simulasi"
+
+msgid "Sky"
+msgstr "Langit"
+
+msgid "Sky Culture"
+msgstr "Budaya Langit"
+
+msgid "Sky and viewing options"
+msgstr "Langit lan pilihan pandang"
+
+msgid "Sky culture"
+msgstr "Budaya langit"
+
+msgid "Slow down"
+msgstr "Alon-alon"
+
+msgid "Smallest, ′"
+msgstr "Paling cilik, ′"
+
+msgid "Solar System"
+msgstr "Sistem Solar"
+
+msgid "Solar System objects"
+msgstr "Objek Sistem Solar"
+
+msgid "Solar altitude for Twilight Finder"
+msgstr "Ketinggian Solar kanggo Pencari Senja"
+
+msgid "Solar elongation"
+msgstr "Elongasi Solar"
+
+msgid "Solar system"
+msgstr "Sistem Solar"
+
+msgid "Solar system objects"
+msgstr "Objek Sistem Solar"
+
+msgid "Solar system objects: comets"
+msgstr "Objek Sistem Solar: komet"
+
+msgid "Solar system objects: minor bodies"
+msgstr "Objek Sistem Solar: badan minor"
+
+msgid "Solar system objects: planets"
+msgstr "Objek Sistem Solar: planet"
+
+msgid "Solstices (J2000)"
+msgstr "Solstisi (J2000)"
+
+msgid "Solstices (of date)"
+msgstr "Solstisi (tanggal)"
+
+msgid "Some objects may be found after activation respective plug-ins"
+msgstr "Sawetara objek bisa ditemukan sawise aktivasi plug-in sing laras"
+
+msgid "Special points only"
+msgstr "Mung titik khusus"
+
+msgid "Spectral Class"
+msgstr "Kelas Spektral"
+
+msgid "Speed up"
+msgstr "Cepetake"
+
+msgid "Spiky stars"
+msgstr "Bintang runcing"
+
+msgid "Stand where the landscape was shot, on the planet it names"
+msgstr "Berdiri di mana lanskap difoto, di planet sing disebutake"
+
+msgid "Star, planet, catalogue number…"
+msgstr "Bintang, planet, nomer katalog…"
+
+msgid "Stars"
+msgstr "Bintang"
+
+msgid "Started"
+msgstr "Wis diwiwiti"
+
+msgid "Starting"
+msgstr "Ngiwiti"
+
+msgid "Startup FOV"
+msgstr "FOV Startup"
+
+msgid "Startup date and time"
+msgstr "Tanggal lan wektu startup"
+
+msgid "Startup direction of view"
+msgstr "Arah pandang startup"
+
+msgid "Stationary (begin prograde motion)"
+msgstr "Diam (mulai gerakan prograd)"
+
+msgid "Stationary (begin retrograde motion)"
+msgstr "Diam (mulai gerakan retrograd)"
+
+msgid "Stellarium's user guide covers the astronomy this app shares with it: stellarium.org/documentation"
+msgstr "Pandhuwan pangguna Stellarium nyakopi astronomè sing dibagi aplikasi iki: stellarium.org/documentation"
+
+msgid "Step, hours"
+msgstr "Langkah, jam"
+
+msgid "Stop a running script"
+msgstr "Mandegake skrip sing mlaku"
+
+msgid "Stop clock when starting"
+msgstr "Mandegake jam nalika ngiwiti"
+
+msgid "Strasbourg astronomical Data Center (France)"
+msgstr "Pusat Data Astronomi Strasbourg (Perancis)"
+
+msgid "Style"
+msgstr "Gaya"
+
+msgid "Sun"
+msgstr "Srengenge"
+
+msgid "Sun altitude"
+msgstr "Altitude srengenge"
+
+msgid "Sun at"
+msgstr "Srengéngé pukul"
+
+msgid "Sun's altitude"
+msgstr "Altitude srengenge"
+
+msgid "Sun's corona"
+msgstr "Korona srengenge"
+
+msgid "Sun's glare"
+msgstr "Kilauan srengenge"
+
+msgid "Sun, planets and moons of first body and observer's planet"
+msgstr "Srengéngé, planet lan bulan badan pertama lan planet pengamat"
+
+msgid "Sun, planets and moons of observer's planet"
+msgstr "Srengéngé, planet lan bulan planet pengamat"
+
+msgid "Sunlight scattered by interplanetary dust"
+msgstr "Cahya srengenge sing kasebar dening debu antara planet"
+
+msgid "Supergalactic"
+msgstr "Supergalaksi"
+
+msgid "Supergalactic equator"
+msgstr "Khatulistiwa supergalaksi"
+
+msgid "Supergalactic grid"
+msgstr "Jaringan supergalaksi"
+
+msgid "Supergalactic poles"
+msgstr "Kutub supergalaksi"
+
+msgid "Superior conjunction"
+msgstr "Konjungsi superior"
+
+msgid "Supernova candidates"
+msgstr "Kandidat supernova"
+
+msgid "Supernova remnant candidates"
+msgstr "Kandidat sisa supernova"
+
+msgid "Supernova remnants"
+msgstr "Sisa supernova"
+
+msgid "Surveys"
+msgstr "Survei"
+
+msgid "Switch this off to see the trails for all Solar system bodies"
+msgstr "Matikake iki kanggo ndeleng jejak kabeh benda Sistem Surya"
+
+msgid "Symbiotic stars"
+msgstr "Bintang simbiotik"
+
+msgid "Synodic period"
+msgstr "Periode sinodis"
+
+msgid "System date and time"
+msgstr "Tanggal lan wektu sistem"
+
+msgid "System date at"
+msgstr "Tanggal sistem ing"
+
+msgid "System default"
+msgstr "Default sistem"
+
+msgid "Table"
+msgstr "Tabel"
+
+msgid "Tabular output for coordinates and time"
+msgstr "Output tabel kanggo koordinat lan wektu"
+
+msgid "Tap a colour to change it. Changes show on the sky at once and are kept."
+msgstr "Ketok warna kanggo ngganti dheweke. Owah-owahan katon ing langit langsung lan disimpen."
+
+msgid "Tap again to confirm"
+msgstr "Ketok maneh kanggo ngonfirmasi"
+
+msgid "Tap an object"
+msgstr "Ketok sawijining objek"
+
+msgid "Tap the chart to read a value."
+msgstr "Ketok grafik kanggo maca nilai."
+
+msgid "Tap the clock"
+msgstr "Ketok jam"
+
+msgid "Tap the gear"
+msgstr "Ketok roda gigi"
+
+msgid "Tap the map to stand there."
+msgstr "Ketok peta kanggo ngadeg ing kono."
+
+msgid "Tap the place"
+msgstr "Ketok panggonan"
+
+msgid "Tap to confirm"
+msgstr "Ketok kanggo ngonfirmasi"
+
+msgid "Tertiary intercardinal points"
+msgstr "Titik antarkardinal tersier"
+
+msgid "Text angle"
+msgstr "Sudut teks"
+
+msgid "The Great Red Spot drifts in System II longitude. Enter a recent measurement and the drift rate to carry it forward from."
+msgstr "Bintik Merah Gedhe nglilir ing bujur Sistem II. Isi pengukuran anyar lan tingkat nglilir kanggo nerusake saka kana."
+
+msgid "The algorithm is based on visual observations 1877-1891 by G. Müller and was still republished in the Explanatory Supplement to the Astronomical Ephemeris (1961)."
+msgstr "Algoritma siji asale saka pengamatan visual 1877-1891 dening G. Müller lan isih diterbitake maneh ing Supplement Penjelas kanggo Ephemeris Astronomi (1961)."
+
+msgid "The algorithm was published by A. Mallama & J. L. Hilton: Computing apparent planetary magnitudes for the Astronomical Almanac. Astronomy&Computing 25 (2018) 10-24."
+msgstr "Algoritma diterbitake dening A. Mallama & J. L. Hilton: Computing apparent planetary magnitudes for the Astronomical Almanac. Astronomy&Computing 25 (2018) 10-24."
+
+msgid "The algorithm was published in the 2nd edition of the Explanatory Supplement to the Astronomical Almanac (1992)."
+msgstr "Algoritma diterbitake ing edisi 2 Supplement Penjelas kanggo Almanak Astronomi (1992)."
+
+msgid "The algorithm was published in the 3rd edition of the Explanatory Supplement to the Astronomical Almanac (2013)."
+msgstr "Algoritma diterbitake ing edisi 3 Supplement Penjelas kanggo Almanak Astronomi (2013)."
+
+msgid "The algorithm was used in the Astronomical Almanac (1984 and later) and gives V (instrumental) magnitudes (allegedly from D.L. Harris)."
+msgstr "Algoritma dianggo ing Almanak Astronomi (1984 lan sakwise) lan menehi magnitudo V (instrumental) (kabar saka D.L. Harris)."
+
+msgid "The classical cepheids"
+msgstr "Sefeida klasik"
+
+msgid "The colour each kind of object is drawn in"
+msgstr "Warna saben jenis objek ditarik"
+
+msgid "The engine did not answer with any colours."
+msgstr "Mesin ora njawab karo warna apa pun."
+
+msgid "The galactic band"
+msgstr "Pita galaksi"
+
+msgid "The greatest eclipse is invisible in current location"
+msgstr "Gerhana terbesar ora katon ing lokasi saiki"
+
+msgid "The horizon outline instead of the panorama"
+msgstr "Garis ufuk tinimbang panorama"
+
+msgid "The path each body has taken across the sky"
+msgstr "Dalan sing dijupuk saben benda ing langit"
+
+msgid "The shortest label the culture defines"
+msgstr "Label paling cendhak sing budaya tetapake"
+
+msgid "Thickness"
+msgstr "Ketebalan"
+
+msgid "This copy ships no scripts."
+msgstr "Salinan iki ora ngirim skrip."
+
+msgid "This device has no location service."
+msgstr "Perangkat iki ora duwe layanan lokasi."
+
+msgid "This part of the engine exposes no settings on this build."
+msgstr "Bagian mesin iki ora mbukak pengaturan ing build iki."
+
+msgid "This tool works on Earth only!"
+msgstr "Alat iki gumana ing Bumi mung!"
+
+msgid "This tool works on Earth only. Short steps over a long duration are slow."
+msgstr "Alat iki mung mampu di Bumi. Langkah cendhak sajroning durasi dawa alon."
+
+msgid "This year"
+msgstr "Taun iki"
+
+msgid "Time"
+msgstr "Wektu"
+
+msgid "Time correction"
+msgstr "Koreksi wektu"
+
+msgid "Time of day"
+msgstr "Wektu sasi"
+
+msgid "Time span"
+msgstr "Rentang wektu"
+
+msgid "Time step"
+msgstr "Langkah wektu"
+
+msgid "Time zone"
+msgstr "Zona wektu"
+
+msgid "To the next (mths)"
+msgstr "Menyang sing sabanjure (bln)"
+
+msgid "To the next, months"
+msgstr "Menyang sing sabanjure, bln"
+
+msgid "Today"
+msgstr "Dina iki"
+
+msgid "Toggle display of nebula images."
+msgstr "Alihke tampilan gambar nebula."
+
+msgid "Toggle display of the button for the Digitized Sky Survey."
+msgstr "Alihke tampilan tombol kanggo Survei Langit Digital."
+
+msgid "Toggle display of the button for the HiPS Surveys. Select a survey in the View settings."
+msgstr "Alihke tampilan tombol kanggo Survei HiPS. Pilih survei ing pengaturan Tampilan."
+
+msgid "Toggle drawing Sun's glare"
+msgstr "Alihke nggambar kilauan srengenge"
+
+msgid "Toggle drawing halo around the Moon"
+msgstr "Alihke nggambar halo watara Bulan"
+
+msgid "Toggle permanent drawing of Sun's corona when atmosphere is disabled"
+msgstr "Alihke nggambar tetep korona srengenge nalika atmosfer dipatikake"
+
+msgid "Toggle the usage of background under GUI buttons"
+msgstr "Alihke panggunaan latar belakang ing ngisor tombol GUI"
+
+msgid "Toggle vertical and horizontal image flip buttons."
+msgstr "Alihke tombol balik gambar vertikal lan horisontal."
+
+msgid "Total eclipse begins"
+msgstr "Gerhana total mulai"
+
+msgid "Total eclipse ends"
+msgstr "Gerhana total selesai"
+
+msgid "Trails"
+msgstr "Jejak"
+
+msgid "Translated"
+msgstr "Diterjemahake"
+
+msgid "Transparency"
+msgstr "Transparansi"
+
+msgid "Twilight"
+msgstr "Sorot"
+
+msgid "Twilight and rise and set times are worked out for an observer on Earth. Move back to Earth to see them."
+msgstr "Wektu senja lan terbit lan terbenam diolah kanggo pangamat ing Bumi. Mulih menyang Bumi kanggo ndeleng."
+
+msgid "Twinkle"
+msgstr "Kilauan"
+
+msgid "Twinkle amount"
+msgstr "Jumlah kilauan"
+
+msgid "Twinkle even without atmosphere"
+msgstr "Kilauan malah tanpa atmosfer"
+
+msgid "Twinkle is caused by atmospheric turbulence; this shows it regardless"
+msgstr "Kilauan disebabake dening turbulensi atmosfer; iki nuduhake tanpa kapadang"
+
+msgid "Type"
+msgstr "Jenis"
+
+msgid "Type a name, a Bayer letter or a catalogue number - Vega, α Lyr, M 31, NGC 224."
+msgstr "Ketik jeneng, huruf Bayer utawa nomer katalog - Vega, α Lyr, M 31, NGC 224."
+
+msgid "Types"
+msgstr "Jenis"
+
+msgid "Umbral magnitude"
+msgstr "Magnitudo penumbra"
+
+msgid "University of Strasbourg (France)"
+msgstr "Universitas Strasbourg (Perancis)"
+
+msgid "Unnamed star"
+msgstr "Bintang tanpa naran"
+
+msgid "Up to mag."
+msgstr "Nganti mag."
+
+msgid "Update"
+msgstr "Anyarake"
+
+msgid "Use SIMBAD"
+msgstr "Anggone SIMBAD"
+
+msgid "Use additional names of DSO"
+msgstr "Anggone jeneng tambahan DSO"
+
+msgid "Use autofill only from the beginning of words"
+msgstr "Anggone isian otomatis mung saka wiwitan tembung"
+
+msgid "Use buttons background"
+msgstr "Anggone latar belakang tombol"
+
+msgid "Use common symbols for coordinate systems"
+msgstr "Anggone simbol umum kanggo sistem koordinat"
+
+msgid "Use custom time zone"
+msgstr "Anggone zona wektu khusus"
+
+msgid "Use decimal degrees"
+msgstr "Anggone derajat desimal"
+
+msgid "Use decimal degrees for coordinates"
+msgstr "Anggone derajat desimal kanggo koordinat"
+
+msgid "Use designations for screen labels"
+msgstr "Anggone penunjukan kanggo label layar"
+
+msgid "Use distance from North Celestial Pole, not declination from equator in equatorial coordinates"
+msgstr "Anggone jarak saka Kutub Langit Lor, dudu deklinasi saka khatulistiwa ing koordinat ekuatorial"
+
+msgid "Use mag/arcsec^2 for surface brightness"
+msgstr "Gunakake mag/arcsec^2 kanggo cahya bedhaling"
+
+msgid "Use more accurate 3D models (where available)"
+msgstr "Anggone model 3D luwih akurat (yen kasedia)"
+
+msgid "Use my location"
+msgstr "Anggone lokasi ku"
+
+msgid "Use on-line astronomical database SIMBAD"
+msgstr "Anggone basis data astronomi daring SIMBAD"
+
+msgid "Use outlines for big deep-sky objects"
+msgstr "Anggone garis besar kanggo objek langit dalam gedhe"
+
+msgid "Use proportional hints"
+msgstr "Anggone petunjuk proporsional"
+
+msgid "Use sorting by string length"
+msgstr "Anggone penyortiran dening dawa string"
+
+msgid "Use surface brightness"
+msgstr "Anggone kecerahan permukaan"
+
+msgid "Use the date now shown in the sky"
+msgstr "Anggone tanggal sing ditampilake ing langit"
+
+msgid "Use the value in landscape.ini when it has one"
+msgstr "Anggone nilai ing landscape.ini nalika duwe"
+
+msgid "Use the value stored for this location"
+msgstr "Anggone nilai sing disimpen kanggo lokasi iki"
+
+msgid "Use this landscape as default"
+msgstr "Anggone lanskap iki minangka default"
+
+msgid "Use this sky culture as default"
+msgstr "Anggone budaya langit iki minangka default"
+
+msgid "Var. stars"
+msgstr "Bintang Var."
+
+msgid "Version"
+msgstr "Versi"
+
+msgid "Version %s  ·  Qt %s"
+msgstr "Versi %s  ·  Qt %s"
+
+msgid "Vertical viewport offset"
+msgstr "Offset viewport vertikal"
+
+msgid "View"
+msgstr "Tampilan"
+
+msgid "View recent GRS measurements"
+msgstr "Deleng pengukuran GRS anyar"
+
+msgid "Visibility"
+msgstr "Visibilitas"
+
+msgid "Visual magnitude based on phase angle and albedo."
+msgstr "Magnitudo visual adhedhasar sudut fase lan albedo."
+
+msgid "Western quadrature"
+msgstr "Kuadratur barat"
+
+msgid "When a search result is chosen"
+msgstr "Nalika hasil telusuran dipilih"
+
+msgid "Where Jupiter's Great Red Spot was, and when"
+msgstr "Ing ngendi Bintik Merah Gedhe Jupiter lan kapan"
+
+msgid "Width"
+msgstr "Jembar"
+
+msgid "Working out the contact times…"
+msgstr "Ngitung wektu kontak…"
+
+msgid "Year"
+msgstr "Taun"
+
+msgid "Zenith and Nadir"
+msgstr "Zenith lan Nadir"
+
+msgid "Zodiac"
+msgstr "Zodiak"
+
+msgid "Zodiac and lunar stations"
+msgstr "Zodiak lan stasiun lunar"
+
+msgid "Zodiacal Light"
+msgstr "Cahya Zodiak"
+
+msgid "Zodiacal Light brightness"
+msgstr "Kecerahan Cahya Zodiak"
+
+msgid "Zoom in and out"
+msgstr "Gedhekake lan cilikke"
+
+msgid "after sunset"
+msgstr "sawise srengéngé mudhun"
+
+msgid "before sunrise"
+msgstr "sadurunge srengéngé munggah"
+
+msgid "bright suburban"
+msgstr "pinggir cerah"
+
+msgid "east +"
+msgstr "wetan +"
+
+msgid "engine ready, interface going live"
+msgstr "mesin siap, antarmuka aktif"
+
+msgid "excellent dark sky"
+msgstr "langit peteng apik"
+
+msgid "from landscape, if given"
+msgstr "saka lanskap, yen diwenehi"
+
+msgid "inner city"
+msgstr "kota njero"
+
+msgid "max %s"
+msgstr "maks %s"
+
+msgid "mid %s"
+msgstr "tengah %s"
+
+msgid "north +"
+msgstr "lor +"
+
+msgid "rural/suburban"
+msgstr "desa/pinggir kutha"
+
+msgid "sci. translit."
+msgstr "sains. transliterasi"
+
+msgid "select all"
+msgstr "pilih kabeh"
+
+msgid "select none"
+msgstr "ora pilih"
+
+msgid "select preference"
+msgstr "pilih preferensi"
+
+msgid "select standard"
+msgstr "pilih standar"
+
+msgid "store preference"
+msgstr "simpen preferensi"
+
+msgid "suburban/urban"
+msgstr "pinggir kutha/kutha"
+
+msgid "truly dark"
+msgstr "bener-bener peteng"
+
+msgid "unreadable snapshot"
+msgstr "snapshot ora bisa diwaca"
+
+msgid "use current"
+msgstr "anggone saiki"
+
+msgid "with Solar Dates"
+msgstr "karo Tanggal Surya"
+
+msgid "… and moons"
+msgstr "… lan bulan"

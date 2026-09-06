@@ -1,0 +1,2650 @@
+# Asterium interface translation for br.
+# Copyright (C) 2026 the Asterium authors
+# This file is distributed under the same licence as the Asterium package.
+#
+# MACHINE TRANSLATION, not reviewed by a speaker of this language.
+# Terminology follows upstream Stellarium's own br catalogue, which was used
+# as a glossary, and every entry keeps the source's printf placeholders.
+# Corrections from a human translator are welcome and should simply replace these.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: asterium\n"
+"Language: br\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%d bodies"
+msgstr "%d korf"
+
+msgid "%d object"
+msgstr "%d ergorenn"
+
+msgid "%d objects"
+msgstr "%d ergorenn"
+
+msgid "%s colour"
+msgstr "Liv %s"
+
+msgid "%s from %s, ±%.0f m"
+msgstr "%s a-ziouer %s, ±%.0f m"
+
+msgid "12-hour"
+msgstr "12e"
+
+msgid "1× below"
+msgstr "1× dindan"
+
+msgid "24-hour"
+msgstr "24e"
+
+msgid "A button to mark every object of the current observing list on the sky."
+msgstr "Ur bouton evit merkañ pep ergorenn eus ar roll sellet eus ar poent-se war an oabl."
+
+msgid "A button to toggle ecliptic grid of date"
+msgstr "Ur bouton evit cheñch stad kael ekliptikel an deiziad."
+
+msgid "A button to toggle equatorial J2000 grid"
+msgstr "Ur bouton evit cheñch stad kael korrelvet J2000."
+
+msgid "A button to toggle galactic grid"
+msgstr "Ur bouton evit cheñch stad kael c'halaksiel."
+
+msgid "A polygonal model for some small moons, asteroids and comets instead of a sphere"
+msgstr "Ur model gorn-evel evit levennoù bihan, asteroïdoù ha kometed e-lec'h ur sfer."
+
+msgid "A touch-first planetarium forked from Stellarium, whose astronomy engine it uses unchanged. The interface is new; everything that draws the sky is upstream's work."
+msgstr "Ur planetarium savet gant ar biz e-kentañ, adkaset eus Stellarium, yec'h en deus eus e motout an astronomiezh, hep kemm. Nevez eo ar roud-kaoz; al labour-noz war an oabl a zo eus an tarzh."
+
+msgid "Abbreviated names"
+msgstr "Anv berret"
+
+msgid "About this sky culture"
+msgstr "Diwar-benn ar c'heñver-noz-mañ"
+
+msgid "Above altitude, °"
+msgstr "A-zoas an uc'h, °"
+
+msgid "Absolute scale"
+msgstr "Skuzh dieubet"
+
+msgid "Activate this option to calculate azimuth from south towards west."
+msgstr "Lañsañ an dibar-se evit jediñ an azimut diouzh ar su get brezel ar c'hornôg."
+
+msgid "Active galaxies"
+msgstr "Stergoumoulennoù aktiv"
+
+msgid "Add %s"
+msgstr "Ouzhpennañ %s"
+
+msgid "Additional information settings"
+msgstr "Arventennoù gouzout-tre ouzhpenn"
+
+msgid "Adjust brightness to bright objects"
+msgstr "Hendennañ an sklaer keit ha tizh an ergorenn sklaer."
+
+msgid "Algol-type eclipsing systems"
+msgstr "Reizhiadoù faillaenn diwar-benn Algol"
+
+msgid "Algorithm of ΔT"
+msgstr "Dalc'h-skouer ΔT"
+
+msgid "All IDs"
+msgstr "An holl zanvioù"
+
+msgid "All naked-eye planets"
+msgstr "An holl blanedenn gwelet gant ar skarv hep taol"
+
+msgid "All solar eclipses"
+msgstr "An holl ankounigoù al Heol"
+
+msgid "Allow negative hour angles"
+msgstr "Aotren ouzh-korn nerzh negañs"
+
+msgid "Allow results outside the recommended time range of the orbital elements"
+msgstr "Aotren d'eus disoc'hoù a zo tu-hont d'ar gantved amzer miñstre an hevelepioù an treuzoù."
+
+msgid "Almanac"
+msgstr "Almanak"
+
+msgid "Almanac: Sun, Moon and naked-eye planets"
+msgstr "Levr-amzer : an Heol, an Loar ha planedennoù diskar"
+
+msgid "Also find"
+msgstr "Klask ivez"
+
+msgid "Also plot"
+msgstr "Diskouez ivez"
+
+msgid "Also show moons of selected object or planets"
+msgstr "Diskouez ivez levennoù an ergorenn pe planedenn diuzet."
+
+msgid "Altitude"
+msgstr "Uc'h"
+
+msgid "Altitude limit, °"
+msgstr "Steud uc'h, °"
+
+msgid "Altitude vs. Time"
+msgstr "Uc'h kuzh an Amzer"
+
+msgid "Amount"
+msgstr "Kuzh"
+
+msgid "An observer floats above its planet, so there is nowhere on it to stand. Choose another planet to come back down."
+msgstr "Ur sell a heuilh al planedenn, neuze n'eus lec'h ebet d'e-unn arza. Diuzañ ur blanedenn all evit terzh."
+
+msgid "And"
+msgstr "Ha"
+
+msgid "And also"
+msgstr "Ha ivez"
+
+msgid "And the next (years)"
+msgstr "Ha kuzh ar c'hemm 'weles (bloazvezhioù)"
+
+msgid "Ang. Size"
+msgstr "Ment. kuzh"
+
+msgid "Angular distance"
+msgstr "Pellad ment"
+
+msgid "Angular distance between the Moon and selected object"
+msgstr "Pellster angular etre an Loar ha d'an ergorenn diuzet"
+
+msgid "Angular distance from the Moon"
+msgstr "Pellster angular diouzh an Loar"
+
+msgid "Angular distance from the Moon for second object"
+msgstr "Pellster angular diouzh an Loar evit an davet ergorenn"
+
+msgid "Angular distance from the Sun"
+msgstr "Pellster angular diouzh an Heol"
+
+msgid "Angular distance from the Sun for second object"
+msgstr "Pellster angular diouzh an Heol evit an davet ergorenn"
+
+msgid "Angular size"
+msgstr "Ment angular"
+
+msgid "Annual drift"
+msgstr "Klevañ bloas"
+
+msgid "Antisolar point"
+msgstr "Poent a-unwel d'an Heol"
+
+msgid "Apex points"
+msgstr "Poent an teuzienn"
+
+msgid "Appearance"
+msgstr "Neuzañ"
+
+msgid "Apply"
+msgstr "Adskoazañ"
+
+msgid "Apply time interval limits to list"
+msgstr "Adskoazañ steudoù ar mellad amzer d'ar roll."
+
+msgid "Art"
+msgstr "Sezamm"
+
+msgid "Artificial satellites and unnamed stars are excluded from calculation."
+msgstr "Lod-noz artifisiel ha stered hep anv a zo ezcluet eus ar jediñ."
+
+msgid "Asking for permission…"
+msgstr "Goulout aotre…"
+
+msgid "Asks SIMBAD what it holds around the object that is selected now, and prints the answer as it comes back."
+msgstr "Goulout d'eus SIMBAD petra en deus e-kuzh an ergorenn diuzet bremañ, hag implijout ar response."
+
+msgid "Ast. lines"
+msgstr "Linenn ast."
+
+msgid "Ast. names"
+msgstr "Anvioù ast."
+
+msgid "Asterisms"
+msgstr "Asterismioù"
+
+msgid "Asterisms font size"
+msgstr "Ment ar font asterism"
+
+msgid "AstroCalc"
+msgstr "AstroJediñ"
+
+msgid "Astronomical Almanac (1984)"
+msgstr "Almanak Astronomek (1984)"
+
+msgid "Astronomical Almanac (default) enlarges by 2%; Danjon (1951) differs slightly"
+msgstr "Almanak steronomek (dre ziouer) a zeskor gant 2%; Danjon (1951) a soñj kevatal"
+
+msgid "Astronomical Twilight"
+msgstr "Kuzh-heol stronomer"
+
+msgid "Astronomical calculations"
+msgstr "Jediñ astronomek"
+
+msgid "Astronomical night"
+msgstr "Noz stronomer"
+
+msgid "At"
+msgstr "E"
+
+msgid "Atmosph."
+msgstr "Atmosf."
+
+msgid "Atmosphere visualization"
+msgstr "Gwelet an atmosferenn"
+
+msgid "Automatic closing dialog"
+msgstr "Kuzh emgefreek ar gelier"
+
+msgid "Automatic transparency"
+msgstr "Treluzelezh emgefreek"
+
+msgid "Axis distance"
+msgstr "Pellad an ardamm"
+
+msgid "Azi. grid"
+msgstr "Kael azi."
+
+msgid "Azimuth and altitude rather than right ascension and declination"
+msgstr "Azimut hag uc'h e-lec'h hedkorn ha ledkorn."
+
+msgid "Azimuth from South"
+msgstr "Azimut diouzh ar Su"
+
+msgid "Azimuth vs. Time"
+msgstr "Azimut kuzh an Amzer"
+
+msgid "Back"
+msgstr "Distro"
+
+msgid "Bad visibility conditions for current location"
+msgstr "Dalvoudegezh fall evit al lec'h-mañ"
+
+msgid "Beginning of center line; central eclipse begins"
+msgstr "Kreizenn ar fillig ; faillaenn kreiz a gomañs"
+
+msgid "Below the horizon here."
+msgstr "Dindan an dremmwel amañ."
+
+msgid "Between objects"
+msgstr "A-greñv d'eus ergorenn"
+
+msgid "Boundless"
+msgstr "Hep steud"
+
+msgid "Bounds"
+msgstr "Harzoù"
+
+msgid "Bright Solar system objects (<%1 mag)"
+msgstr "Ergorennoù koskoriad an Heol skedus (<%1 meu)"
+
+msgid "Bright barium stars"
+msgstr "Stered barium skedus"
+
+msgid "Bright carbon stars"
+msgstr "Stered karbon skedus"
+
+msgid "Bright double stars"
+msgstr "Stered davelañ skedus"
+
+msgid "Bright double stars (<%1 mag)"
+msgstr "Stered davelañ skedus (<%1 meu)"
+
+msgid "Bright galaxies (<%1 mag)"
+msgstr "Stergoumoulennoù skedus (<%1 meu)"
+
+msgid "Bright nova stars"
+msgstr "Stered nova skedus"
+
+msgid "Bright star clusters (<%1 mag)"
+msgstr "Druilhadoù stered skedus (<%1 meu)"
+
+msgid "Bright stars"
+msgstr "Stered skedus"
+
+msgid "Bright stars (<%1 mag)"
+msgstr "Stered skedus (<%1 meu)"
+
+msgid "Bright stars with high proper motion"
+msgstr "Stered skedus gant ur mobilhed-uhelat uhel"
+
+msgid "Bright supernova stars"
+msgstr "Stered super-nova skedus"
+
+msgid "Bright variable stars"
+msgstr "Stered divergent skedus"
+
+msgid "Bright variable stars (<%1 mag)"
+msgstr "Stered divergent skedus (<%1 meu)"
+
+msgid "Brighter than"
+msgstr "Glaeroc'h eget"
+
+msgid "Brightness"
+msgstr "Sklaer"
+
+msgid "By object type"
+msgstr "Dre virc'h an ergorenn"
+
+msgid "By planet"
+msgstr "Dre blanedenn"
+
+msgid "Calculate"
+msgstr "Jediñ"
+
+msgid "Calculating…"
+msgstr "O jediñ…"
+
+msgid "Cardinals"
+msgstr "Pevar avel"
+
+msgid "Catalogue numbers instead of common names"
+msgstr "Niverioù ar C'hataloe e-lec'h anvioù eñvel."
+
+msgid "Category"
+msgstr "Rummad"
+
+msgid "Celestial poles (J2000)"
+msgstr "Poñsoù oabl (J2000)"
+
+msgid "Celestial poles (of date)"
+msgstr "Poñsoù oabl (an deiziad)"
+
+msgid "Center of FOV"
+msgstr "Kreñv an tach gwelet"
+
+msgid "Centering button"
+msgstr "Bouton kreñvañ"
+
+msgid "Central duration"
+msgstr "Pellañs ar kreñv"
+
+msgid "Central eclipse begins"
+msgstr "Ankouniged kreñv a zilec'h"
+
+msgid "Central eclipse ends"
+msgstr "Ankouniged kreñv a egor"
+
+msgid "Centre"
+msgstr "Kreiz"
+
+msgid "Centre on object"
+msgstr "Kreñvañ war an ergorenn"
+
+msgid "Centre point"
+msgstr "Poent kreñv"
+
+msgid "Circles"
+msgstr "Tachioù"
+
+msgid "Circular FOV"
+msgstr "Tach gwelet ront"
+
+msgid "Circumpolar circles"
+msgstr "Tachioù rol an pol"
+
+msgid "City"
+msgstr "Kêr"
+
+msgid "Civil Twilight"
+msgstr "Kuzh-heol seganti"
+
+msgid "Cleanup"
+msgstr "Skarzhañ"
+
+msgid "Clear"
+msgstr "Gwellañ"
+
+msgid "Clear recent searches"
+msgstr "Gwellañ ar klask nevez"
+
+msgid "Clear the selection - a touch screen has no right button"
+msgstr "Diguzh an diuzadenn - n'eus bouton dehoui war ur skramm-biz"
+
+msgid "Cleared."
+msgstr "Gwellet."
+
+msgid "Click on star to show its constellation"
+msgstr "Klikañ war ur stered evit diskouez e steredeg."
+
+msgid "Close"
+msgstr "Serriñ"
+
+msgid "Close what is open; from the sky, leave the app running"
+msgstr "Serriñ ar pezh zo open; diouzh an oabl, lezel ar c'hemer o labourat."
+
+msgid "Clusters of galaxies"
+msgstr "Druilhadoù stergoumoulennoù"
+
+msgid "Coarse"
+msgstr "Karr"
+
+msgid "Color"
+msgstr "Liv"
+
+msgid "Color channel"
+msgstr "Kañal liv"
+
+msgid "Color of Lunar station lines"
+msgstr "Liv ar linennoù al Loar"
+
+msgid "Color of asterism lines"
+msgstr "Liv linennoù an asterism"
+
+msgid "Color of asterism names"
+msgstr "Liv anv an asterism"
+
+msgid "Color of constellation boundaries"
+msgstr "Liv harzoù ar steredegoù"
+
+msgid "Color of constellation lines"
+msgstr "Liv linennoù ar steredegoù"
+
+msgid "Color of constellation names"
+msgstr "Liv anvioù ar steredegoù"
+
+msgid "Color of nomenclature labels"
+msgstr "Liv ar labelioù-anv"
+
+msgid "Color of orbits"
+msgstr "Liv an hevelepioù"
+
+msgid "Color of planet labels"
+msgstr "Liv al labelioù planedenn"
+
+msgid "Color of ray helpers"
+msgstr "Liv ar c'huzh sklaer"
+
+msgid "Color of trails"
+msgstr "Liv ar roudoù"
+
+msgid "Color of zodiac lines"
+msgstr "Liv linennoù ar zodiak"
+
+msgid "Colors of orbit lines"
+msgstr "Livioù linennoù an hevelepioù"
+
+msgid "Colures"
+msgstr "Kolurevioù"
+
+msgid "Comets up to mag."
+msgstr "Kometed betek mag."
+
+msgid "Compass"
+msgstr "Nadoz-vor"
+
+msgid "Config"
+msgstr "Kefluniadur"
+
+msgid "Configure colors of markers"
+msgstr "Kefluniadur livioù ar merkerioù"
+
+msgid "Configure colors of orbit lines"
+msgstr "Kefluniadur livioù linennoù an hevelepioù"
+
+msgid "Connecting line"
+msgstr "Linenn geñvet"
+
+msgid "Const."
+msgstr "Ster."
+
+msgid "Constellations font size"
+msgstr "Ment ar font steredegoù"
+
+msgid "Contrast"
+msgstr "Diskar"
+
+msgid "Coordinate system"
+msgstr "Reizhiad kuzh"
+
+msgid "Coordinates"
+msgstr "Kuzhioù"
+
+msgid "Copyright"
+msgstr "Gwir-aotre"
+
+msgid "Credits"
+msgstr "Merket"
+
+msgid "Cubewanos"
+msgstr "Kubevaniad"
+
+msgid "Culmination altitude"
+msgstr "Uhelaat war-dro"
+
+msgid "Current FoV"
+msgstr "Tach gwelet bremañ"
+
+msgid "Custom"
+msgstr "Dipered"
+
+msgid "Custom FoV limit"
+msgstr "Steud tach gwelet personet"
+
+msgid "Custom altitude of the Moon, °"
+msgstr "Uc'h personet al Loar, °"
+
+msgid "Custom altitude of the Sun, °"
+msgstr "Uc'h personet an Heol, °"
+
+msgid "Custom settings for position of GRS"
+msgstr "Arventennoù personet evit lec'h GRS"
+
+msgid "Custom values"
+msgstr "Gweredoù personet"
+
+msgid "Cut the scale off below the limit"
+msgstr "Puzhañ ar skuzh dindan ar steud"
+
+msgid "DATE AND TIME (UTC)"
+msgstr "DEIZIAD HA AMZER (UTC)"
+
+msgid "DSS survey"
+msgstr "Graet DSS"
+
+msgid "Data"
+msgstr "Roadoù"
+
+msgid "Date"
+msgstr "Deiziad"
+
+msgid "Date and time"
+msgstr "Deiziad ha amzer"
+
+msgid "Date/time"
+msgstr "Deiziad/amzer"
+
+msgid "Dates"
+msgstr "Deiziadoù"
+
+msgid "Dawn"
+msgstr "Kirri"
+
+msgid "Dbl. stars"
+msgstr "Stered daouvarc'h"
+
+msgid "Dec (J2000)"
+msgstr "Ledkorn (J2000)"
+
+msgid "December solstice"
+msgstr "Solstis Kerzu"
+
+msgid "Decimal degrees. −33.87 means 33.87° south. Elevation is metres above sea level; it moves the horizon down by a few arcminutes."
+msgstr "Beursoù decimal. −33.87 a dalvez 33.87° su. An urc'h a zo e meterioù a-zoas ar mare; en deus un dro d'an tremmwel a-is c'hoazh hañvek."
+
+msgid "Deep Sky"
+msgstr "Oabl Kuzh"
+
+msgid "Deep-sky objects"
+msgstr "Ergorennoù noz-kavet"
+
+msgid "Degrees per year the longitude moves by"
+msgstr "Beursoù dre vloaz ar hedred a zolc'h"
+
+msgid "Degrees, hours and minutes as they are written - 12h30m49s, +41°16'09\", 187.7 - or plain decimal degrees."
+msgstr "Beursoù, eurvezh ha munutoù evel ma 'z int yezet - 12h30m49s, +41°16'09\", 187.7 - pe beursoù decimal plijuz."
+
+msgid "Deletes all recent search object data, and the objects SIMBAD contributed."
+msgstr "Dilemel an holl roadoù klask nevez, ha ar ergorenn a rouz SIMBAD."
+
+msgid "Designations for celestial coordinate systems"
+msgstr "Anvoù evit reizhiadoù kuzh oabl"
+
+msgid "Designations for double stars"
+msgstr "Anvoù evit stered daouvarc'h"
+
+msgid "Designations for variable stars"
+msgstr "Anvoù evit stered changus"
+
+msgid "Dim a survey near the horizon, as the air does"
+msgstr "Diwanañ ur graet a-tost an dremmwel, evel ma ra an avel."
+
+msgid "Dimensions"
+msgstr "Soned"
+
+msgid "Display formats of date and time"
+msgstr "Furmadoù diskouez deiziad ha amzer"
+
+msgid "Display objects from catalogs"
+msgstr "Diskouez ergorenn diouzh ar gataloe"
+
+msgid "Displayed"
+msgstr "Diskouezet"
+
+msgid "Dist."
+msgstr "Pelld."
+
+msgid "Distance, AU"
+msgstr "Pellster, UA"
+
+msgid "Done"
+msgstr "Graet"
+
+msgid "Drag"
+msgstr "Tarc'hañ"
+
+msgid "Draw deep-sky objects at all"
+msgstr "Tresañ ergorenn oabl kuzh ha pep unan"
+
+msgid "Draw only polygon"
+msgstr "Tresañ kuzh an poligon"
+
+msgid "Draw the enabled sky surveys"
+msgstr "Tresañ ar graet oabl enaoget"
+
+msgid "Draw the planets, moons and minor bodies"
+msgstr "Tresañ ar blanedenn, levennoù ha korf bihan"
+
+msgid "Drawn larger than life, so a body that is a few arcseconds wide is visible at all. The position stays true."
+msgstr "Tresadennoù brassoc'h, neuze ur korf a zo a c'hantvedoù arcnod e-lañs a vez gwelet bepred. An lec'h a chom gwir."
+
+msgid "Duration"
+msgstr "Pellañs"
+
+msgid "Duration (years)"
+msgstr "Pellañs (bloazvezhioù)"
+
+msgid "Duration, months"
+msgstr "Pellañs, mizvezh"
+
+msgid "Dusk"
+msgstr "Kuzh-heol"
+
+msgid "Dynamic (FOV-based) Moon size"
+msgstr "Ment al Loar dre zoare (diouzh an tach)"
+
+msgid "Dynamic eye adaptation"
+msgstr "Endaoz al lagad aotren"
+
+msgid "ELEV. M"
+msgstr "UC'H M"
+
+msgid "Earth penumbra"
+msgstr "Koñferzh an Douar"
+
+msgid "Earth shadow enlargement after Danjon"
+msgstr "Brasadigezh an tonp Douar dre Danjon"
+
+msgid "Earth umbra"
+msgstr "Tonp gwir an Douar"
+
+msgid "Eastern quadrature"
+msgstr "Gwele Reter"
+
+msgid "Ecl. grid"
+msgstr "Kael ekl."
+
+msgid "Eclipse begins; first contact with Earth"
+msgstr "Faillaenn a gomañs ; tost kentañ gant an Douar"
+
+msgid "Eclipse ends; last contact with Earth"
+msgstr "Faillaenn a echuañs ; tost diwezhañ gant an Douar"
+
+msgid "Eclipse magnitude"
+msgstr "Meurez an ankouniged"
+
+msgid "Eclipses"
+msgstr "Ankounigedoù"
+
+msgid "Eclipses are computed for observers on Earth."
+msgstr "Ankounigedoù a zo jediñ evit ar gwellerien war an Douar."
+
+msgid "Ecliptic"
+msgstr "Ekliptikel"
+
+msgid "Ecliptic (J2000)"
+msgstr "Ekliptikel (J2000)"
+
+msgid "Ecliptic (J2000.0)"
+msgstr "Ekliptikel (J2000.0)"
+
+msgid "Ecliptic (of date)"
+msgstr "Ekliptikel (an deiziad)"
+
+msgid "Ecliptic grid (J2000)"
+msgstr "Kael ekliptikel (J2000)"
+
+msgid "Ecliptic grid (of date)"
+msgstr "Kael ekliptikel (an deiziad)"
+
+msgid "Ecliptic poles (J2000)"
+msgstr "Poñsoù ekliptikel (J2000)"
+
+msgid "Ecliptic poles (of date)"
+msgstr "Poñsoù ekliptikel (an deiziad)"
+
+msgid "Elev."
+msgstr "Uh."
+
+msgid "Elevation"
+msgstr "Urc'h"
+
+msgid "Elevation in metres"
+msgstr "Urc'h e meterioù"
+
+msgid "Elong."
+msgstr "Lon."
+
+msgid "Elongations and quadratures"
+msgstr "Hañvadoù ha kargeelloù"
+
+msgid "Emission-line stars"
+msgstr "Stered-linenn emañs"
+
+msgid "Enabled only"
+msgstr "Enablet hepken"
+
+msgid "End of center line; central eclipse ends"
+msgstr "Diwezhaat ar fillig ; faillaenn kreiz a echuañs"
+
+msgid "Enter Culture..."
+msgstr "Endelc'h ur c'heñver..."
+
+msgid "Ephemeris"
+msgstr "Efemeridi"
+
+msgid "Equ. grid"
+msgstr "Kael ek."
+
+msgid "Equ. mount"
+msgstr "Teuzh ek."
+
+msgid "Equator (J2000)"
+msgstr "Roud-evel (J2000)"
+
+msgid "Equator (of date)"
+msgstr "Roud-evel (an deiziad)"
+
+msgid "Equatorial"
+msgstr "Korrelvet"
+
+msgid "Equatorial (J2000.0)"
+msgstr "Korrelvet (J2000.0)"
+
+msgid "Equatorial grid (J2000)"
+msgstr "Kael korrelvet (J2000)"
+
+msgid "Equatorial grid (of date)"
+msgstr "Kael korrelvet (an deiziad)"
+
+msgid "Equatorial radii ratio"
+msgstr "Liv ar radiioù kevatal"
+
+msgid "Equinoxes (of date)"
+msgstr "Kedezioù (an deiziad)"
+
+msgid "Evening"
+msgstr "Kuzh"
+
+msgid "Every"
+msgstr "Pep"
+
+msgid "Every name the object is catalogued under"
+msgstr "Pep anv an ergorenn a zo lakaet e-gement ar gataloe."
+
+msgid "Exoplanetary systems"
+msgstr "Reizhiadoù exo-blanedennel"
+
+msgid "Explanatory Supplement (1992)"
+msgstr "Ouzhpennad Displegadur (1992)"
+
+msgid "Explanatory Supplement (2013)"
+msgstr "Ouzhpennad Displegadur (2013)"
+
+msgid "Exterior egress"
+msgstr "Ezklod diavaez"
+
+msgid "Exterior ingress"
+msgstr "Enklod diavaez"
+
+msgid "Extras"
+msgstr "Ouzhpennañoù"
+
+msgid "Fades the ground as you look below the horizon or zoom in"
+msgstr "Gwannaat a ra an douar pa sellit dindan an dremmwel pe pa vrasait"
+
+msgid "Fading duration"
+msgstr "Pellañs an todañ"
+
+msgid "Faintest shown"
+msgstr "Sklaerañ barzh"
+
+msgid "Favorites"
+msgstr "Kuzhet-penn"
+
+msgid "Fetching the survey lists…"
+msgstr "O tarc'hañ ar rolloù graet…"
+
+msgid "Field of view"
+msgstr "Tach gwelet"
+
+msgid "Filter"
+msgstr "Dielladur"
+
+msgid "Filter by type"
+msgstr "Dielladur dre virc'h"
+
+msgid "Find a city"
+msgstr "Klask ur gêr"
+
+msgid "Fine"
+msgstr "Fin"
+
+msgid "First %d of %d - filter to narrow it."
+msgstr "Kentañ %d eus %d - dielladur evit tostaat."
+
+msgid "First body"
+msgstr "Korf kentañ"
+
+msgid "First celestial body"
+msgstr "Korf oabl kentañ"
+
+msgid "First graph"
+msgstr "Graff kentañ"
+
+msgid "Fix"
+msgstr "Stok"
+
+msgid "Fixed Equator"
+msgstr "Roud-evel stoked"
+
+msgid "Fixed Equatorial grid"
+msgstr "Kael korrelvet stoked"
+
+msgid "Fixed instant"
+msgstr "Poent-amzer stoked"
+
+msgid "Flip buttons"
+msgstr "Tarc'hañ ar bouton"
+
+msgid "Flip horiz."
+msgstr "Adsevel zo."
+
+msgid "Flip vert."
+msgstr "Adsevel vl."
+
+msgid "Font size"
+msgstr "Ment ar font"
+
+msgid "Frame rate"
+msgstr "Taoladur ar skramm"
+
+msgid "From"
+msgstr "A-berzh"
+
+msgid "From year"
+msgstr "Adalek ar bloaz"
+
+msgid "Full screen"
+msgstr "Skramm leun"
+
+msgid "Fullscreen button"
+msgstr "Bouton skramm-klok"
+
+msgid "Further reading"
+msgstr "Lerc'h-lenn outi"
+
+msgid "GRS details…"
+msgstr "Munudoù GRS…"
+
+msgid "Gal. grid"
+msgstr "Kael gal."
+
+msgid "Galactic"
+msgstr "Galaksiel"
+
+msgid "Galactic center and anticenter"
+msgstr "Kreiz hag an-greiz galaksiel"
+
+msgid "Galactic equator"
+msgstr "Hekileder galaksiel"
+
+msgid "Galactic poles"
+msgstr "Poltaj galaksiel"
+
+msgid "Gamma, saturation, brightness, contrast, opacity, colour channel and inverted colours belong to one survey. Open a survey to set them."
+msgstr "Gamma, gwlev, soledenn, frodelh, obstrezh, kanal liv hag livioù eilpennañ a zao d'ur skeudenn hepken. Digeriñ ur skeudenn evit o staoliñ."
+
+msgid "Generic"
+msgstr "Pennvrezel"
+
+msgid "Gestures"
+msgstr "Gweredoù"
+
+msgid "Go there"
+msgstr "Mont war-du"
+
+msgid "Go to position"
+msgstr "Mont d'ar pozibl"
+
+msgid "Go to this eclipse"
+msgstr "Mont d'an diavaradenn-mañ"
+
+msgid "Go to this moment"
+msgstr "Mont d'ar mare-mañ"
+
+msgid "Go to this transit"
+msgstr "Mont d'ar treizhid-mañ"
+
+msgid "Good visibility conditions for current location"
+msgstr "Dalvoudegezh wellhe mat evit al lec'h-mañ"
+
+msgid "Graphs"
+msgstr "Grafikan"
+
+msgid "Great Red Spot"
+msgstr "Spod Ruz Bras"
+
+msgid "Great Red Spot details"
+msgstr "Munudoù Spod Ruz Bras"
+
+msgid "Greatest eastern elongation"
+msgstr "Elongation reter uhelañ"
+
+msgid "Greatest eclipse"
+msgstr "Faillaenn uhelañ"
+
+msgid "Greatest elongation for an inner planet, quadrature for an outer one"
+msgstr "Alc'hwez brasañ evit ur planed diabarzh, kwadratür evit unn diavarc'h"
+
+msgid "Greatest western elongation"
+msgstr "Elongation Kornôg uhelañ"
+
+msgid "Greek letters"
+msgstr "Lizherennoù C'hall"
+
+msgid "Greek letters for Bayer designations"
+msgstr "Lizherennoù C'hall evit anvizennoù Bayer"
+
+msgid "Grid density"
+msgstr "Drasted ar gael"
+
+msgid "Grids"
+msgstr "Kaelezoù"
+
+msgid "Ground"
+msgstr "Douar"
+
+msgid "Gyro"
+msgstr "Giro"
+
+msgid "Gyro mode"
+msgstr "Mod gyro"
+
+msgid "Height"
+msgstr "Uzchadusted"
+
+msgid "Heliocentric distance"
+msgstr "Pellster heliokentrel"
+
+msgid "Heliocentric ecliptic positions of the major planets."
+msgstr "Pozizioù heliokentrikel ekliptikel an drazenoù planedennoù."
+
+msgid "Herschel 400 objects"
+msgstr "Ergorennoù Herschel 400"
+
+msgid "HiPS"
+msgstr "HiPS"
+
+msgid "HiPS Surveys"
+msgstr "Klevout HiPS"
+
+msgid "Hide controls"
+msgstr "Kuzh an deñveroù"
+
+msgid "Hide deep-sky objects fainter than the limit"
+msgstr "Mirout an ergorennoù kuzh-oabl gwannoc'h eget al limit"
+
+msgid "Hide nomenclature on the celestial body of observer"
+msgstr "Mirout an anvizennoù war ar gorfolh sonieroù an selaouer"
+
+msgid "Hide orbits of minor bodies"
+msgstr "Mirout an trebiliadenoù an gorfolhed bihan"
+
+msgid "Highlight"
+msgstr "Risklañ"
+
+msgid "Highlight the objects of the observing list"
+msgstr "Soñjañ an ergorennoù eus ar roll-gwelet"
+
+msgid "Hint circles marking each planet"
+msgstr "Selloù tonnoù o merkañ pep planedenn"
+
+msgid "Hints"
+msgstr "Tonnoù"
+
+msgid "Hints brightness"
+msgstr "Soledenn ar tonnoù"
+
+msgid "Horizontal"
+msgstr "Stourvad"
+
+msgid "Horizontal coordinates"
+msgstr "Kordoñsoù stourvad"
+
+msgid "Hour angles usually run 0...24h. This counts -12h...12h."
+msgstr "Ar gwelerou-eur o vont aniveriñ e 0...24e. Hemañ a gont -12e...12e."
+
+msgid "How many"
+msgstr "Pegeit"
+
+msgid "ICRS grid"
+msgstr "Kael ICRS"
+
+msgid "Include"
+msgstr "Enclozañ"
+
+msgid "Include bright comets"
+msgstr "Enclozañ ar goulennoù soledenn"
+
+msgid "Include selected minor planets"
+msgstr "Enclozañ ar planedennoù bihan diuzet"
+
+msgid "Inferior conjunction"
+msgstr "E-kej-hed"
+
+msgid "Info label"
+msgstr "Label titouroù"
+
+msgid "Interacting galaxies"
+msgstr "Stergoumoulennoù ent-lakaozh"
+
+msgid "Intercardinal points"
+msgstr "Puntoù etregedkizikel"
+
+msgid "Interior egress"
+msgstr "Ezplijadur diabarzh"
+
+msgid "Interior ingress"
+msgstr "Digevradur diabarzh"
+
+msgid "Interstellar objects"
+msgstr "Ergorennoù steredmet"
+
+msgid "Invariable plane of the Solar system"
+msgstr "Planad stadel ar Koskoriad an Heol"
+
+msgid "Isolated"
+msgstr "Eneunanet"
+
+msgid "Its elevation, and the civil, nautical and astronomical twilights"
+msgstr "Hec'h uzchadusted hag ar skañved keñver, mor hag sterennoù"
+
+msgid "Jovigraphic longitude of the spot in System II, in degrees"
+msgstr "Hedred jovigrafek ar spod e Reizhiad II, e skoue"
+
+msgid "Julian day"
+msgstr "Deiz Julien"
+
+msgid "June solstice"
+msgstr "Solstis Mezheven"
+
+msgid "Label colour"
+msgstr "Liv ar label"
+
+msgid "Label only features along the terminator"
+msgstr "Label nemet ar c'harakterioù heñvel ar terminator"
+
+msgid "Labels"
+msgstr "Labelioù"
+
+msgid "Labels and Markers"
+msgstr "Labelioù hag Merkaoù"
+
+msgid "Labels and Markers amount"
+msgstr "Kuont ar labelioù hag ar merkaoù"
+
+msgid "Labels brightness"
+msgstr "Soledenn ar labelioù"
+
+msgid "Landscape labels"
+msgstr "Labelioù ar gweledva"
+
+msgid "Language settings"
+msgstr "Arventennoù ar yezh"
+
+msgid "Largest, ′"
+msgstr "Brasañ, ′"
+
+msgid "Last known position"
+msgstr "Darempred ar pozibl tremenet"
+
+msgid "Lasting"
+msgstr "Hanteroñs"
+
+msgid "Latest selected object"
+msgstr "Ergorenn diuzet nevez-kaozh"
+
+msgid "Latitude −90…90, longitude −180…180."
+msgstr "Ledred −90…90, hedred −180…180."
+
+msgid "Layer appearance"
+msgstr "Gweled ar vreuzel"
+
+msgid "Leaves the landscape visible in darkness"
+msgstr "Lezel ar gweledva gwelus en teñveled"
+
+msgid "Licence"
+msgstr "Aotre-implijout "
+
+msgid "Light pollution"
+msgstr "Gwechentrad al luc'h"
+
+msgid "Light pollution from database"
+msgstr "Gwechentrad al luc'h eus an diaz-klad"
+
+msgid "Limit angular separation"
+msgstr "Steuriñ an desparañs angular"
+
+msgid "Limit angular size"
+msgstr "Limit ment ar c'horn"
+
+msgid "Limit magnitude"
+msgstr "Limit a veurez"
+
+msgid "Limit the magnitude of solar system objects"
+msgstr "Limit a veurez an ergorennoù ar Koskoriad an Heol"
+
+msgid "Line"
+msgstr "Linenn"
+
+msgid "Line thickness"
+msgstr "Tizh ar linenn"
+
+msgid "Linear and angular distances between selected objects"
+msgstr "Pellteroù lineel hag angular etre an ergorennoù diuzet"
+
+msgid "Linear distance"
+msgstr "Pellster lineel"
+
+msgid "Lines"
+msgstr "Linennoù"
+
+msgid "Lines and circles"
+msgstr "Linennoù ha selladennoù"
+
+msgid "List"
+msgstr "Roll"
+
+msgid "List name"
+msgstr "Anv ar roll"
+
+msgid "Lists"
+msgstr "Rolloù"
+
+msgid "Lit windows, street lighting and the like"
+msgstr "Prenestr soledenn, al luc'h straed ha neuze kement"
+
+msgid "Loading…"
+msgstr "O kargiñ…"
+
+msgid "Local Mean Solar Time"
+msgstr "Amzer Heol Kuzh Lec'hel"
+
+msgid "Local Time"
+msgstr "Amzer-lec'h"
+
+msgid "Local True Solar Time"
+msgstr "Amzer Heol Gwir Lec'hel"
+
+msgid "Local solar eclipses"
+msgstr "Diavaradennoù heol lec'hel"
+
+msgid "Local time"
+msgstr "Amzer lec'hel"
+
+msgid "Local time, h"
+msgstr "Amzer lec'hel, e"
+
+msgid "Locate me"
+msgstr "Klask ac'hanon"
+
+msgid "Locating…"
+msgstr "O klask…"
+
+msgid "Location from landscape"
+msgstr "Lec'hiadur eus ar gweledva"
+
+msgid "Location is switched off in the system settings."
+msgstr "Lec'hiadur a zo lazhet en arventennoù ar reizhiad."
+
+msgid "Location permission refused. The other two ways still work."
+msgstr "Aotre-implijout lec'hiadur nac'het. An daou hent all a c'hoant c'hoant."
+
+msgid "Lock position when coordinates are used"
+msgstr "Prenañ ar pozibl pa vez implijet ar c'hordoñsoù"
+
+msgid "Long press"
+msgstr "Pression hir"
+
+msgid "Longitude of GRS"
+msgstr "Hedred GRS"
+
+msgid "Lunar Elongation"
+msgstr "Alc'hwez-kuzh Loarzh"
+
+msgid "Lunar Stations"
+msgstr "Stouzon Loarzh"
+
+msgid "Lunar eclipses"
+msgstr "Diavaradennoù an loar"
+
+msgid "Lunar elongation"
+msgstr "Alc'hwez-kuzh Loarzh"
+
+msgid "Mag."
+msgstr "Meu."
+
+msgid "Mag. 1"
+msgstr "Meu. 1"
+
+msgid "Mag. 2"
+msgstr "Meu. 2"
+
+msgid "Magnitudes"
+msgstr "Meurezoù"
+
+msgid "Major planets"
+msgstr "Planedennoù bras"
+
+msgid "Major planets by planet, minor bodies by type"
+msgstr "Planedennoù bras dre blaned, gorfolhed bihan dre zoare"
+
+msgid "Map of the planet. Tap to set the observer's place."
+msgstr "Kartez ar planed. Tapet evit staoliñ lec'h an diskoueler."
+
+msgid "March equinox"
+msgstr "Kedezh Meurzh"
+
+msgid "Mark impact features with ellipses"
+msgstr "Merkañ ar c'harakterioù taoubenn gant elipsoù"
+
+msgid "Mark minor bodies"
+msgstr "Merkañ ar gorfolhed bihan"
+
+msgid "Markers"
+msgstr "Merkaoù"
+
+msgid "Markers sized by the object's angular size"
+msgstr "Merkaoù ment dre ment horn an ergorenn"
+
+msgid "Markings"
+msgstr "Merkadurioù"
+
+msgid "Master switch for the grids, lines and points below"
+msgstr "Skouerañ-vrezel evit ar gaelezoù, linennoù hag ar puntoù dindan"
+
+msgid "Max items to display"
+msgstr "Max a dreuzoù d'hen diskouez"
+
+msgid "Max. results"
+msgstr "Max. disoc'hoù"
+
+msgid "Max. search radius"
+msgstr "Max. roud ar c'hlask"
+
+msgid "Maximum Solar altitude"
+msgstr "Uzchadusted heol brasañ"
+
+msgid "Maximum allowed separation"
+msgstr "Displegadur aotreet brasañ"
+
+msgid "Maximum angular size"
+msgstr "Ment horn brasañ"
+
+msgid "Maximum eclipse"
+msgstr "Diavaradenn brasañ"
+
+msgid "Maximum year"
+msgstr "Bloaz brasañ"
+
+msgid "Mean motion"
+msgstr "Mobilhed a-gumprenn"
+
+msgid "Mercury, Venus, Mars, Jupiter and Saturn at once. Earth only."
+msgstr "Merc'her, Gwener, Meurzh, Yaou hag Sadorn a zigemdro. Douar hepken."
+
+msgid "Mid-transit"
+msgstr "Hañvel-dreizh"
+
+msgid "Milky Way brightness"
+msgstr "Soledenn Hent Gwenn"
+
+msgid "Milky Way saturation"
+msgstr "Gwlev Hent Gwenn"
+
+msgid "Minimal angular size"
+msgstr "Ment horn vuziekañ"
+
+msgid "Minimal brightness"
+msgstr "Soledenn vuziekañ"
+
+msgid "Minimum Solar altitude"
+msgstr "Uzchadusted heol vuziekañ"
+
+msgid "Minimum year"
+msgstr "Bloaz vuziekañ"
+
+msgid "Minor bodies"
+msgstr "Gorfolhed bihan"
+
+msgid "Minutes before sunrise / after sunset"
+msgstr "Munutennoù a-raok an heol da godi / war-lerc'h an heol da kuzh"
+
+msgid "Month"
+msgstr "Miz"
+
+msgid "Monthly Elevation"
+msgstr "Uzchadusted Mizvezhel"
+
+msgid "Moon at"
+msgstr "An Loar e-guzh"
+
+msgid "Moon enters penumbra"
+msgstr "An Loar a ya er penumbra"
+
+msgid "Moon enters umbra"
+msgstr "An Loar a ya er falloenn"
+
+msgid "Moon in zenith at"
+msgstr "Loar e zenit en"
+
+msgid "Moon leaves penumbra"
+msgstr "An Loar a ya diwar ar penumbra"
+
+msgid "Moon leaves umbra"
+msgstr "An Loar a ya diwar ar falloenn"
+
+msgid "Moon's halo"
+msgstr "Haloù an loar"
+
+msgid "Moons of first body"
+msgstr "Loaroù ar gorff kentañ"
+
+msgid "Morning"
+msgstr "Beure"
+
+msgid "Morph. Descr."
+msgstr "Morph. Deskrivadur"
+
+msgid "Morphological description"
+msgstr "Deskrivadur morfologel"
+
+msgid "Move the sky by pointing the phone at it"
+msgstr "Kastiñ an oabl o tiskouez ar skramm anezhañ"
+
+msgid "Move the sky with the phone"
+msgstr "Kastiñ an oabl gant ar skramm"
+
+msgid "NGC/IC objects"
+msgstr "Ergorennoù NGC/IC"
+
+msgid "Name for the new list"
+msgstr "Anv evit ar roll nevez"
+
+msgid "Named features the landscape marks"
+msgstr "C'harakterioù anvet ar gweledva a zoareioù"
+
+msgid "Names"
+msgstr "Anvioù"
+
+msgid "Names beside the planets and their markers"
+msgstr "Anvioù ouzh an planedennoù hag ar merkaoù"
+
+msgid "Names in English"
+msgstr "Anvioù e saozneg"
+
+msgid "Nautical Twilight"
+msgstr "Kuzh-heol marc'h-mor"
+
+msgid "Neb. bg"
+msgstr "Nib. fond"
+
+msgid "Nebula background"
+msgstr "Drekleur nebulenn"
+
+msgid "Nebulae"
+msgstr "Nivlennoù"
+
+msgid "New list"
+msgstr "Roll nevez"
+
+msgid "Next"
+msgstr "A-zu"
+
+msgid "Night"
+msgstr "Noz"
+
+msgid "No city matches that."
+msgstr "N'eus ket kaer a zisplegañ gant se."
+
+msgid "No eclipses found. Pick a range and calculate."
+msgstr "N'eus ket diavaradenn kavet. Dibab ur reont ha reizhiañ."
+
+msgid "No fresh fix - the receiver may have no sky. Try again outdoors, or set the place another way."
+msgstr "N'eus ket savetenn nevez - ar c'hlasker a c'hell beza n'eus ket oabl. Klask en-dro en-tro, pe evit staoliñ an lec'h doare all."
+
+msgid "No surveys were found. The lists are downloaded, so this needs a connection."
+msgstr "N'eus ket skeudenn kavet. Ar rolloù a zo iskarget, neuze ret eo d'hemañ ur c'henaozadur."
+
+msgid "None downloaded yet"
+msgstr "Hini ebet iskargañ c'hoazh"
+
+msgid "Normal"
+msgstr "Douarontel"
+
+msgid "Not observable eclipse"
+msgstr "Faillaenn na c'haller ket gwelet"
+
+msgid "Note: Local circumstances for eclipses during thousands of years in the past and future are not reliable due to uncertainty in ΔT which is caused by fluctuations in Earth's rotation."
+msgstr "Notenn: Aozadur lec'hiel evit ar faillaennoù e pad a gannoù bleunv er rezañ hag er zont ne oar ket brav da-heul ar fazioen en ΔT en deus orin en diskouezh an toullañs en douarelezh an Douar."
+
+msgid "Note: artificial satellites and unnamed stars are excluded from calculation"
+msgstr "Notenn: ar sterizelloù artifisiel hag ar stered genwanelennoù a zo dilezet eus ar jediñ"
+
+msgid "Note: this tool doesn't apply the refraction correction for coordinates. Horizontal coordinates stop the clock, or the sky would turn away from the point while you arrive at it."
+msgstr "Notenn: an doare-mañ a ne aplika ket ar reizhiadur an distroñs evit ar c'hordoñsoù. Kordoñsoù stourvad a staoliñ an heol, pe an oabl a c'hallout kastiñ diouzh ar pounell ha ma c'helout kouzh."
+
+msgid "Notes: The quantity gamma is the minimum distance from the axis of lunar shadow cone to the center of Earth, in units of Earth’s equatorial radius. This distance is positive or negative, depending on whether the axis of the shadow cone passes north or south of the Earth's center. Path of solar eclipses during thousands of years in the past and future are not reliable due to uncertainty in ΔT which is caused by fluctuations in Earth's rotation."
+msgstr "Notennoù: Ar meuziad gamma a zo an pellster bihanañ diouzh an ardez ar c'huzhadennoù loar d'ar groñs an Douar, en unieted an tonbidrez kevatal an Douar. An pellster-mañ a zo pozitiv pe negatif, da-heul pe ouezhit an ardez ar c'huzhadennoù a-nord pe a-su an douar. Heol-redion ar faillaennoù heol e pad a gannoù bleunv er rezañ hag er zont ne oar ket brav da-heul ar fazioen en ΔT en deus orin en diskouezh an toullañs en douarelezh an Douar."
+
+msgid "Notes: The quantity gamma is the minimum distance from the center of the Moon to the axis of Earth’s umbral shadow cone, in units of Earth’s equatorial radius. This distance is positive or negative, depending on whether the Moon passes north or south of the shadow cone axis. Local circumstances for eclipses during thousands of years in the past and future are not reliable due to uncertainty in ΔT which is caused by fluctuations in Earth's rotation."
+msgstr "Notennoù: Ar meuziad gamma a zo an pellster bihanañ diouzh ar groñs an Loar d'an ardez ar c'huzhadennoù umbral an Douar, en unieted an tonbidrez kevatal an Douar. An pellster-mañ a zo pozitiv pe negatif, da-heul pe c'hoant an Loar a-nord pe a-su an ardez ar c'huzhadennoù. Aozadur lec'hiel evit ar faillaennoù e pad a gannoù bleunv er rezañ hag er zont ne oar ket brav da-heul ar fazioen en ΔT en deus orin en diskouezh an toullañs en douarelezh an Douar."
+
+msgid "Notes: Time in parentheses means the contact is invisible at current location. Transit times during thousands of years in the past and future are not reliable due to uncertainty in ΔT which is caused by fluctuations in Earth's rotation."
+msgstr "Notennoù: Amzer en tanvoù a dalvez an tost a zo diwellvij al lec'h-mañ. Amzerioù treizhid e pad a gannoù bleunv er rezañ hag er zont ne oar ket brav da-heul ar fazioen en ΔT en deus orin en diskouezh an toullañs en douarelezh an Douar."
+
+msgid "Nothing computed yet, or nothing in this category is up."
+msgstr "Nemet-tra reizhiet c'hoazh, pe nemet-tra en ar c'hategori-mañ zo er-maez."
+
+msgid "Nothing computed yet."
+msgstr "Nemet-tra reizhiet c'hoazh."
+
+msgid "Nothing found for “%s”."
+msgstr "Netra kavet evit \"%s\"."
+
+msgid "Nothing in this list matches."
+msgstr "Nemet-tra en ar roll-mañ a zisplegañ."
+
+msgid "Nothing in this list yet. Pick something out of the sky and tap the star on its card to keep it here."
+msgstr "Nemet-tra en ar roll-mañ c'hoazh. Dibab un dra euz an oabl hag tapet ar stered war hec'h kartenn evit lakaat."
+
+msgid "Nothing is selected. Pick an object in the sky first."
+msgstr "Nemet-tra diuzet. Dibab un ergorenn en an oabl kuzh."
+
+msgid "Nothing matches."
+msgstr "Nemet-tra a zisplegañ."
+
+msgid "Nothing selected"
+msgstr "Nemet-tra diuzet"
+
+msgid "Nothing to plot."
+msgstr "Nemet-tra da plotañ."
+
+msgid "Nothing to show."
+msgstr "Nemet-tra da ziskouez."
+
+msgid "Now"
+msgstr "Bremañ"
+
+msgid "N× above"
+msgstr "N× a-zerc'h"
+
+msgid "O./C. longitude"
+msgstr "O./K. hedred"
+
+msgid "OBJECT"
+msgstr "ERGORENN"
+
+msgid "OBJECTS"
+msgstr "ERGORENNOÙ"
+
+msgid "Object 1"
+msgstr "Ergorenn 1"
+
+msgid "Object 2"
+msgstr "Ergorenn 2"
+
+msgid "Objects which are up"
+msgstr "Ergorennoù a zo er-maez"
+
+msgid "Observable duration"
+msgstr "Dirazon gwelus"
+
+msgid "Observing list"
+msgstr "Roll gwelout"
+
+msgid "Observing list highlight"
+msgstr "Risklañ ar roll gwelout"
+
+msgid "Observing lists"
+msgstr "Rolloù gwelout"
+
+msgid "Occultation"
+msgstr "Kuzhadur"
+
+msgid "On the sky"
+msgstr "War an oabl"
+
+msgid "One color"
+msgstr "Unn liv"
+
+msgid "One color for all orbits"
+msgstr "Unn liv evit kement a drebiliadenoù"
+
+msgid "Only for N latest selected objects"
+msgstr "Nemet evit N diwezhan ergorennoù diuzet"
+
+msgid "Only for Solar elevation"
+msgstr "Nemet evit uzchadusted heol"
+
+msgid "Only list"
+msgstr "Nemet roll"
+
+msgid "Only one at a time"
+msgstr "Nemet unn hini war un tach"
+
+msgid "Only orbit for selected object…"
+msgstr "Nemet trebiliadenoù evit an ergorenn diuzet…"
+
+msgid "Only orbits of major planets…"
+msgstr "Nemet trebiliadenoù an drazenoù planedennoù…"
+
+msgid "Opac."
+msgstr "Opak."
+
+msgid "Opacity"
+msgstr "Klonegezh"
+
+msgid "Open date and time"
+msgstr "Digeriñ deiz ha eur"
+
+msgid "Open location"
+msgstr "Digeriñ lec'hiadur"
+
+msgid "Opens the JUPOS project in a browser"
+msgstr "Digeriñ ar raktres JUPOS en ur merdeer"
+
+msgid "Opposition"
+msgstr "Stourenn"
+
+msgid "Opposition of"
+msgstr "Displegadur"
+
+msgid "Oppositions"
+msgstr "Displegeduradoù"
+
+msgid "Orbit colors"
+msgstr "Livioù trebiliadenoù"
+
+msgid "Orbital periods ratio"
+msgstr "Liv ar periodoù orbizel"
+
+msgid "Orbital velocity"
+msgstr "Tizh orbizel"
+
+msgid "Orbits"
+msgstr "Trebiliadenoù"
+
+msgid "Orbits of Oort cloud objects"
+msgstr "Trebiliadenoù ergorennoù neuleuz Oort"
+
+msgid "Orbits of comets"
+msgstr "Trebiliadenoù goulennoù"
+
+msgid "Orbits of cubewanos"
+msgstr "Trebiliadenoù kubeanoù"
+
+msgid "Orbits of dwarf planets"
+msgstr "Trebiliadenoù planedennoù bihan"
+
+msgid "Orbits of interstellar objects"
+msgstr "Trebiliadenoù ergorennoù etre-sterennoù"
+
+msgid "Orbits of major planets"
+msgstr "Trebiliadenoù drazenoù planedennoù"
+
+msgid "Orbits of minor planets"
+msgstr "Trebiliadenoù planedennoù bihan"
+
+msgid "Orbits of moons"
+msgstr "Trebiliadenoù loarioù"
+
+msgid "Orbits of plutinos"
+msgstr "Trebiliadenoù plutinoù"
+
+msgid "Orbits of scattered disk objects"
+msgstr "Trebiliadenoù ergorennoù diskour ruziet"
+
+msgid "Orbits of sednoids"
+msgstr "Trebiliadenoù sednoidoù"
+
+msgid "Other"
+msgstr "All"
+
+msgid "Otherwise every move adopts the zone of the new place."
+msgstr "Anez-se kement a ster a zerc'h ar bed nevez."
+
+msgid "Outline craters"
+msgstr "Roud ar veulennoù"
+
+msgid "Pan the sky"
+msgstr "Tasadiñ an oabl"
+
+msgid "Partial eclipse begins"
+msgstr "Diavaradenn partiel a zav gantañ"
+
+msgid "Partial eclipse ends"
+msgstr "Amezdi kemm a zegemer"
+
+msgid "Partitions"
+msgstr "Rannadurioù"
+
+msgid "Partitions thickness"
+msgstr "Tralad ar rannadurioù"
+
+msgid "Path width"
+msgstr "Led ar hent"
+
+msgid "Pause"
+msgstr "Paouzañ"
+
+msgid "Paused - start"
+msgstr "Pauzet - en-dro"
+
+msgid "Penumbral magnitude"
+msgstr "Meurez an anavezva"
+
+msgid "Perfect visibility conditions for current location"
+msgstr "Dalvoudegezh wellhe perfet evit al lec'h-mañ"
+
+msgid "Perihelion and aphelion"
+msgstr "Perihelion ha aphelion"
+
+msgid "Phase"
+msgstr "Stadenn"
+
+msgid "Phase angle"
+msgstr "Angled ar gwele"
+
+msgid "Phenomena"
+msgstr "Dudi"
+
+msgid "Pick two different bodies to see how their distance changes."
+msgstr "Diuzañ daou gorf disheñvel evit gwelet penaos e chañch o ster."
+
+msgid "Pinch"
+msgstr "Pichennal"
+
+msgid "Planet"
+msgstr "Planedenn"
+
+msgid "Planet and time zone"
+msgstr "Planedenn ha sizhun an amzer"
+
+msgid "Planet markers"
+msgstr "Merkoù a blanedennoù"
+
+msgid "Planetary nebulae (<%1 mag)"
+msgstr "Nivlennoù planedennel (<%1 meu)"
+
+msgid "Planetary nomenclature"
+msgstr "Anvioù ar blanedennoù"
+
+msgid "Planetary transits"
+msgstr "Treizhid ar blanedennoù"
+
+msgid "Planets"
+msgstr "Planedennoù"
+
+msgid "Planets and Sun"
+msgstr "Planedennoù hag an Heol"
+
+msgid "Planets magnitude algorithm"
+msgstr "Roud ar meurezoù planedennoù"
+
+msgid "Please select object to plot its 'Monthly Elevation' graph for the current year at selected time."
+msgstr "Diuzit un ergorenn da diverkennat e graf 'Uhelaat ar Miz' evit ar bloaz-mañ d'an amzer diuzet."
+
+msgid "Please select object to plot its graph 'Altitude vs. Time'."
+msgstr "Diuzit un ergorenn da diverkennat e graf 'Uhelaat a-zivout Amzer'."
+
+msgid "Please select object to plot its graph 'Azimuth vs. Time'."
+msgstr "Diuzit un ergorenn da diverkennat e graf 'Azimut a-zivout Amzer'."
+
+msgid "Plutinos"
+msgstr "Plutinad"
+
+msgid "Pluto, Ceres, Pallas, Juno and Vesta"
+msgstr "Pluto, Ceres, Pallas, Juno ha Vesta"
+
+msgid "Point size"
+msgstr "Ment an poentoù"
+
+msgid "Pointing"
+msgstr "Teuliad"
+
+msgid "Polar distance"
+msgstr "Ster ar poal"
+
+msgid "Polar distance, not declination"
+msgstr "Ster ar poal, ket ledkorn"
+
+msgid "Poles and points"
+msgstr "Poaloù ha poentoù"
+
+msgid "Polygon colour"
+msgstr "Liv ar polygon"
+
+msgid "Position"
+msgstr "Lec'hiadur"
+
+msgid "Position angle"
+msgstr "Korn ar lec'hiadur"
+
+msgid "Positions"
+msgstr "Lec'hiadurioù"
+
+msgid "Positive values only"
+msgstr "Gwerzh pozitiv nemetik"
+
+msgid "Precession circles"
+msgstr "Linennoù ar raousted"
+
+msgid "Previous"
+msgstr "A-raok"
+
+msgid "Prime Vertical"
+msgstr "Hanternoz-heol"
+
+msgid "Program Language"
+msgstr "Yezh an programa"
+
+msgid "Projected Solar Equator"
+msgstr "Heolbarzh barzhet"
+
+msgid "Pronounce"
+msgstr "Lavarit"
+
+msgid "Quadrature circle"
+msgstr "Linennoù ar kwarter"
+
+msgid "Query SIMBAD about selected object"
+msgstr "Hizivaat SIMBAD a-ziv an ergorenn diuzet"
+
+msgid "Query options"
+msgstr "Dibarzhioù ar hizivaat"
+
+msgid "Quit"
+msgstr "Kuitaat"
+
+msgid "Quit button"
+msgstr "Bouton kuit"
+
+msgid "Range"
+msgstr "Sterzh"
+
+msgid "Ray helpers"
+msgstr "Skoazellioù ar spoellioù"
+
+msgid "Reading…"
+msgstr "O lenn…"
+
+msgid "Real time speed"
+msgstr "Tizh an amzer gwir"
+
+msgid "Recent Searches"
+msgstr "Klask nevez"
+
+msgid "Rectangular FOV"
+msgstr "Gwelet karr"
+
+msgid "Refraction, extinction, sky brightness"
+msgstr "Strom, diskar, sklaerder an oabl"
+
+msgid "Regions of the sky"
+msgstr "Ranndigoù an oabl"
+
+msgid "Relative scale"
+msgstr "Skal kammantel"
+
+msgid "Remove %s"
+msgstr "Dilemel %s"
+
+msgid "Remove from observing list"
+msgstr "Dilemel diouzh ar roll gwelet"
+
+msgid "Rename"
+msgstr "Adober anv"
+
+msgid "Reset"
+msgstr "Assav"
+
+msgid "Reset all"
+msgstr "Assav an holl"
+
+msgid "Restarting…"
+msgstr "O adkuzh…"
+
+msgid "Restore defaults"
+msgstr "Assav an diouer"
+
+msgid "Rise"
+msgstr "Tarzh"
+
+msgid "Rises"
+msgstr "Tarzhoù"
+
+msgid "Rotation"
+msgstr "Troñs"
+
+msgid "Running"
+msgstr "O redek"
+
+msgid "SIMBAD did not answer."
+msgstr "SIMBAD ne responte ket."
+
+msgid "SIMBAD is switched off in the search options."
+msgstr "SIMBAD a zo lamet e dibarzhioù an enklask."
+
+msgid "SIMBAD is switched off. Turn it on under Options to look objects up online."
+msgstr "SIMBAD a zo lamet. Kaskit anezhañ war-benn e-barzh Dibarzhioù evit klask ergorennoù en Hed."
+
+msgid "SIMBAD server"
+msgstr "Servijer SIMBAD"
+
+msgid "Saturation"
+msgstr "Tostikaat"
+
+msgid "Save"
+msgstr "Enrollañ"
+
+msgid "Save either the current FOV and direction of view or all the current options for use at next startup. Restoring default settings requires a restart of the app."
+msgstr "Enrollañ pe ar gwelet hag an tu gwelet bremañ pe an holl zibarzhioù evit an diwezh. Assav an diouer a rekis adkuzh an app."
+
+msgid "Save to observing list"
+msgstr "Enrollañ d'ar roll gwelet"
+
+msgid "Save view"
+msgstr "Enrollañ ar gwelet"
+
+msgid "Scale"
+msgstr "Skal"
+
+msgid "Scale factor"
+msgstr "Faktor skal"
+
+msgid "Scale marker and label visibility by surface brightness"
+msgstr "Skal ar merkoù ha anv dre sklaerder an urzh"
+
+msgid "Scales smoothly between 1× at the minimum field of view and the factor above at the maximum"
+msgstr "Skal a-ziouzer etre 1× er gwelet kuzh ha ar faktor a-us er gwelet bras"
+
+msgid "Scattered disc objects"
+msgstr "Ergorennoù an diskenn skrouilhet"
+
+msgid "Screen label"
+msgstr "Anv ar skramm"
+
+msgid "Search"
+msgstr "Klask"
+
+msgid "Search in list"
+msgstr "Klask en nroll"
+
+msgid "Search in list..."
+msgstr "Klask en nroll…"
+
+msgid "Search options"
+msgstr "Dibarzhioù klask"
+
+msgid "Seasons"
+msgstr "Amzeroù"
+
+msgid "Second body"
+msgstr "Eil gorf"
+
+msgid "Second celestial body"
+msgstr "Eil gorf egor"
+
+msgid "Second graph"
+msgstr "Eil grafik"
+
+msgid "Second object"
+msgstr "Eil ergorenn"
+
+msgid "Secondary intercardinal points"
+msgstr "Eil poentoù etremarked"
+
+msgid "Sednoids"
+msgstr "Sednoad"
+
+msgid "See the sky through the ground"
+msgstr "Gwelet an oabl hervez an douar"
+
+msgid "Seen now"
+msgstr "Gwelet bremañ"
+
+msgid "Select an object first: this asks SIMBAD what it holds around it."
+msgstr "Diuzit un ergorenn da gentañ: e koulz-se e c'houlennoc'h ouzh SIMBAD petra a zo e-uhelad anhañ."
+
+msgid "Select it and show its card"
+msgstr "Diuzañ anezhañ ha diskouez e gartenn"
+
+msgid "Select something in the sky first — this page works on the selection."
+msgstr "Diuzañ netra en oabl a-raok — ar bajenn-mañ a red war ar c'hoant."
+
+msgid "Selected object"
+msgstr "Ergorenn diuzet"
+
+msgid "Separate colors for orbits by object type"
+msgstr "Livioù ar roud etre doare an ergorenn"
+
+msgid "Separate colors for orbits of major planets"
+msgstr "Livioù ar roud etre planedennoù bras"
+
+msgid "Separation"
+msgstr "C'hallout"
+
+msgid "September equinox"
+msgstr "Kedezh Gwengolo"
+
+msgid "Server"
+msgstr "Servijer"
+
+msgid "Set"
+msgstr "Lakaat"
+
+msgid "Set the clock to %s"
+msgstr "Lakaat an eurel war %s"
+
+msgid "Set the place"
+msgstr "Lakaat al lec'h"
+
+msgid "Set to now"
+msgstr "Lakaat bremañ"
+
+msgid "Sets"
+msgstr "Kuzh"
+
+msgid "Shadow map for non-convex bodies. May coarsen the penumbra on some objects"
+msgstr "Karte an diskar evit korf nann-gounid. Gallout a soñj rent ar shadow war zra bennak"
+
+msgid "Shadow transit"
+msgstr "Treizhid ar c'huzhadennoù"
+
+msgid "Shooting stars"
+msgstr "Stered er-gwele"
+
+msgid "Short notation for units of surface brightness"
+msgstr "Notadur berr evit uned sklaerder"
+
+msgid "Short steps over a long duration are slow."
+msgstr "Pazenn berr war-dro unn amzer hir a zo kuzh."
+
+msgid "Show"
+msgstr "Diskouez"
+
+msgid "Show FOV center marker when position is search"
+msgstr "Diskouez merker ar c'huzh FOV m'eo an lec'hiadur klask"
+
+msgid "Show additional buttons"
+msgstr "Diskouez boutonioù a-ouzhpenn"
+
+msgid "Show additional star names"
+msgstr "Diskouez anvioù stered a-ouzhpenn"
+
+msgid "Show all information"
+msgstr "Diskouez an holl titouroù"
+
+msgid "Show atmospheric extinction"
+msgstr "Diskouez diskar an atmosfer"
+
+msgid "Show boundaries of constellations"
+msgstr "Diskouez harzoù ar steredegoù"
+
+msgid "Show button in addition to keyboard shortcut?"
+msgstr "Diskouez bouton ouzhpennad ouzh an lakaout barregezh?"
+
+msgid "Show controls"
+msgstr "Diskouez ar roulennoù"
+
+msgid "Show each body where it was when the light left it (recommended)"
+msgstr "Diskouez pep korf evel m'emañ penaos en deus an gouloù kuzhet (sizhunnet)"
+
+msgid "Show frames per second beside the field of view"
+msgstr "Diskouez ar tarzhoù a seblantad e-skroñs ar gwelet"
+
+msgid "Show hints and labels for planetary features"
+msgstr "Diskouez kuzh ha anv ar groñsoù planedennoù"
+
+msgid "Show illumination"
+msgstr "Diskouez ar sklaerder"
+
+msgid "Show in sky"
+msgstr "Diskouez en oabl"
+
+msgid "Show less"
+msgstr "Diskouez nebeutoc'h"
+
+msgid "Show lunar stations (if defined)"
+msgstr "Diskouez al lec'hiadurioù loarzh (mar en deus)"
+
+msgid "Show more"
+msgstr "Diskouez muioc'h"
+
+msgid "Show objects which are up"
+msgstr "Diskouez ergorennoù a zo war-uheloc'h"
+
+msgid "Show only named DSO"
+msgstr "Diskouez nemetik DSO anvezet"
+
+msgid "Show only objects between the two sizes"
+msgstr "Diskouez nemetik ergorennoù etre daou veuzer"
+
+msgid "Show only the kinds ticked below"
+msgstr "Diskouez nemetik an doareoù marchet a-is"
+
+msgid "Show or hide the two rails of controls"
+msgstr "Diskouez pe kuzh an daou hent ar roulennoù"
+
+msgid "Show orbit even if object is off screen"
+msgstr "Diskouez ar roud ma'z eo an ergorenn kuzhet"
+
+msgid "Show orbit only for selected SSO"
+msgstr "Diskouez ar roud nemetik evit SSO diuzet"
+
+msgid "Show orbits"
+msgstr "Diskouez ar roudoù"
+
+msgid "Show orbits of major planets"
+msgstr "Diskouez ar roudoù a blanedennoù bras"
+
+msgid "Show planetary nomenclature"
+msgstr "Diskouez anvioù ar blanedennoù"
+
+msgid "Show special nomenclature points only"
+msgstr "Diskouez nemetik poentoù anvioù ispisial"
+
+msgid "Show surveys"
+msgstr "Diskouez ar skanvadennoù"
+
+msgid "Show this survey"
+msgstr "Diskouez ar skanvadenn-mañ"
+
+msgid "Show tiny circles for minor bodies regardless of magnitude"
+msgstr "Diskouez sevelladoù bihan evit korf kuzh nezh an meurez"
+
+msgid "Show trails"
+msgstr "Diskouez an hentoù"
+
+msgid "Show zodiac (if defined)"
+msgstr "Diskouez an Zodiak (mar en deus)"
+
+msgid "Sidereal time"
+msgstr "Amzer ar stered"
+
+msgid "Simbad Lookup Error: %s"
+msgstr "Fazi Klask Simbad: %s"
+
+msgid "Simbad Lookup: querying"
+msgstr "Klask Simbad: o hizivaat"
+
+msgid "Simulate self-shadowing"
+msgstr "Heuliad an diskar dezhañ-unan"
+
+msgid "Simulation"
+msgstr "Heuliad"
+
+msgid "Sky Culture"
+msgstr "Seblantad an Oabl"
+
+msgid "Sky and viewing options"
+msgstr "An oabl ha dibarzhioù gwelet"
+
+msgid "Sky culture"
+msgstr "Seblantad an oabl"
+
+msgid "Slow down"
+msgstr "Mouellet"
+
+msgid "Smallest, ′"
+msgstr "Kleinañ, ′"
+
+msgid "Solar System objects"
+msgstr "Ergorennoù Koskoriad an Heol"
+
+msgid "Solar altitude for Twilight Finder"
+msgstr "Uhelded an Heol evit Kazeier an Teñval"
+
+msgid "Solar elongation"
+msgstr "Hedred an Heol"
+
+msgid "Solar system objects"
+msgstr "Ergorennoù koskoriad an Heol"
+
+msgid "Solar system objects: comets"
+msgstr "Ergorennoù koskoriad an Heol : stered-lostek"
+
+msgid "Solar system objects: minor bodies"
+msgstr "Ergorennoù koskoriad an Heol : tud-vrezel"
+
+msgid "Solar system objects: planets"
+msgstr "Ergorennoù koskoriad an Heol : planedennoù"
+
+msgid "Solstices (J2000)"
+msgstr "Kestoñs (J2000)"
+
+msgid "Solstices (of date)"
+msgstr "Kestoñs (an deiziad)"
+
+msgid "Some objects may be found after activation respective plug-ins"
+msgstr "Zro ergorennoù a c'hellomp kavet goude gweredekaat ar plugoù a-hend-all"
+
+msgid "Special points only"
+msgstr "Poentoù ispisial nemetik"
+
+msgid "Spectral Class"
+msgstr "Renkad spektral"
+
+msgid "Speed up"
+msgstr "Bremañ"
+
+msgid "Spiky stars"
+msgstr "Stered grañsek"
+
+msgid "Stand where the landscape was shot, on the planet it names"
+msgstr "Chom er lec'h m'eo bet torret ar gwelevennoù, en planedennoù a-anv"
+
+msgid "Star, planet, catalogue number…"
+msgstr "Stered, planedenn, niv an dugellienn…"
+
+msgid "Started"
+msgstr "Kreñvet"
+
+msgid "Starting"
+msgstr "O kuzh"
+
+msgid "Startup FOV"
+msgstr "FOV ar c'huzh"
+
+msgid "Startup date and time"
+msgstr "Deiziad ha amzer ar c'huzh"
+
+msgid "Startup direction of view"
+msgstr "Tu gwelet ar c'huzh"
+
+msgid "Stationary (begin prograde motion)"
+msgstr "Famat (mobilhed-raok a gomañs)"
+
+msgid "Stationary (begin retrograde motion)"
+msgstr "Famat (mobilhed-zont a gomañs)"
+
+msgid "Stellarium's user guide covers the astronomy this app shares with it: stellarium.org/documentation"
+msgstr "Lakaer-skoazell an implijer Stellarium a ziskouez ar steronomekiezh a c'houzañv an app-mañ gantañ: stellarium.org/documentation"
+
+msgid "Step, hours"
+msgstr "Pazenn, eurvezh"
+
+msgid "Stop clock when starting"
+msgstr "Paouez an eurel pa vez kreñvet"
+
+msgid "Strasbourg astronomical Data Center (France)"
+msgstr "Strasbourg astronomical Data Center (Frañs)"
+
+msgid "Style"
+msgstr "Doare"
+
+msgid "Sun altitude"
+msgstr "Uhelded an Heol"
+
+msgid "Sun at"
+msgstr "An Heol e-guzh"
+
+msgid "Sun's altitude"
+msgstr "Uhelded an Heol"
+
+msgid "Sun's corona"
+msgstr "Korona an Heol"
+
+msgid "Sun's glare"
+msgstr "Sklaerder an Heol"
+
+msgid "Sun, planets and moons of first body and observer's planet"
+msgstr "An Heol, planedennoù ha loaroù a gorff kentañ ha planedennoù an oberour"
+
+msgid "Sun, planets and moons of observer's planet"
+msgstr "An Heol, planedennoù ha loaroù planedennoù an oberour"
+
+msgid "Sunlight scattered by interplanetary dust"
+msgstr "Gouloù an Heol skerzhet gant pouldr interplanedel"
+
+msgid "Supergalactic"
+msgstr "Supergalaksiel"
+
+msgid "Supergalactic equator"
+msgstr "Heolbarzh supergalaksiel"
+
+msgid "Supergalactic grid"
+msgstr "Kael supergalaksiel"
+
+msgid "Supergalactic poles"
+msgstr "Poaloù supergalaksiel"
+
+msgid "Superior conjunction"
+msgstr "E-kej-uhel"
+
+msgid "Supernova candidates"
+msgstr "Kepñveroù super-nova"
+
+msgid "Supernova remnant candidates"
+msgstr "Kepñveroù lerc'h super-nova"
+
+msgid "Supernova remnants"
+msgstr "Lerc'h super-nova"
+
+msgid "Surveys"
+msgstr "Skanvadennoù"
+
+msgid "Switch this off to see the trails for all Solar system bodies"
+msgstr "Lamet-se evit gwelet an hentoù evit an holl ergorennoù Koskoriad an Heol"
+
+msgid "Symbiotic stars"
+msgstr "Stered c'hevrevarzh"
+
+msgid "Synodic period"
+msgstr "Periozh sinodik"
+
+msgid "System date and time"
+msgstr "Deiziad ha amzer ar reizhiad"
+
+msgid "System date at"
+msgstr "Deiziad ar reizhiad e"
+
+msgid "System default"
+msgstr "Diouer ar reizhiad"
+
+msgid "Table"
+msgstr "Tabl"
+
+msgid "Tabular output for coordinates and time"
+msgstr "Tabl emzalc'h evit studi ha amzer"
+
+msgid "Tap a colour to change it. Changes show on the sky at once and are kept."
+msgstr "Tapaout ur liv evit e c'hemmañ. Ar c'hemmoù a ziskouez en oabl ur wech ha vez saveet."
+
+msgid "Tap again to confirm"
+msgstr "Tapaout en-dro evit kastiñ"
+
+msgid "Tap an object"
+msgstr "Tapaout un ergorenn"
+
+msgid "Tap the chart to read a value."
+msgstr "Tapaout ar grafik evit lenn ur werzh."
+
+msgid "Tap the clock"
+msgstr "Tapaout an eurel"
+
+msgid "Tap the gear"
+msgstr "Tapaout ar roud"
+
+msgid "Tap the map to stand there."
+msgstr "Tapaout ar map evit chom e-se."
+
+msgid "Tap the place"
+msgstr "Tapaout al lec'h"
+
+msgid "Tap to confirm"
+msgstr "Tapaout evit kastiñ"
+
+msgid "Tertiary intercardinal points"
+msgstr "Trede poentoù etremarked"
+
+msgid "Text angle"
+msgstr "Korn an testenn"
+
+msgid "The Great Red Spot drifts in System II longitude. Enter a recent measurement and the drift rate to carry it forward from."
+msgstr "Plegad Ruz Bras a serr e hedred Reizhiad II. Enlakaat ur mesur nevez ha pec'h ar serr evit kenlabourat adal."
+
+msgid "The algorithm is based on visual observations 1877-1891 by G. Müller and was still republished in the Explanatory Supplement to the Astronomical Ephemeris (1961)."
+msgstr "Roud an aotreizhiad a zo steuñvet war oberiantoù gwelet 1877-1891 gant G. Müller ha menegañ a-raok e 1961."
+
+msgid "The algorithm was published by A. Mallama & J. L. Hilton: Computing apparent planetary magnitudes for the Astronomical Almanac. Astronomy&Computing 25 (2018) 10-24."
+msgstr "Roud an aotreizhiad a zo embannet gant A. Mallama & J. L. Hilton: Computing apparent planetary magnitudes for the Astronomical Almanac. Astronomy&Computing 25 (2018) 10-24."
+
+msgid "The algorithm was published in the 2nd edition of the Explanatory Supplement to the Astronomical Almanac (1992)."
+msgstr "Roud an aotreizhiad a zo embannet e 2. Glevout eus an Explanatory Supplement to the Astronomical Almanac (1992)."
+
+msgid "The algorithm was published in the 3rd edition of the Explanatory Supplement to the Astronomical Almanac (2013)."
+msgstr "Roud an aotreizhiad a zo embannet e 3. Glevout eus an Explanatory Supplement to the Astronomical Almanac (2013)."
+
+msgid "The algorithm was used in the Astronomical Almanac (1984 and later) and gives V (instrumental) magnitudes (allegedly from D.L. Harris)."
+msgstr "Roud an aotreizhiad a zo bet implijout en Astronomical Almanac (1984 ha goude) ha roit V (instrumental) meurezoù (a soñj out a D.L. Harris)."
+
+msgid "The classical cepheids"
+msgstr "Ar cefeidoù klasel"
+
+msgid "The colour each kind of object is drawn in"
+msgstr "Liv pep sort ergorenn a zo skeudaet"
+
+msgid "The engine did not answer with any colours."
+msgstr "An motour n'eo ket respontet gant livioù."
+
+msgid "The galactic band"
+msgstr "Ar strouad c'halaksiel"
+
+msgid "The greatest eclipse is invisible in current location"
+msgstr "Ar faillaenn uhelañ a zo diwellvij al lec'h-mañ"
+
+msgid "The horizon outline instead of the panorama"
+msgstr "Dorenn ar dremmwel e-lerc'h ar skouer"
+
+msgid "The path each body has taken across the sky"
+msgstr "An hent pep korf en deus kaset a-nozh an oabl"
+
+msgid "The shortest label the culture defines"
+msgstr "An anv berraf ar seblantad a termeniñ"
+
+msgid "Thickness"
+msgstr "Tralad"
+
+msgid "This copy ships no scripts."
+msgstr "An nenpleg-mañ n'eo ket kaset skriptoù."
+
+msgid "This device has no location service."
+msgstr "Marevell-mañ n'eo ket servijer lec'hiadur."
+
+msgid "This part of the engine exposes no settings on this build."
+msgstr "Lodenn-mañ an motour n'eo ket diskouez dibarzhioù e-barzh ar c'huzh-mañ."
+
+msgid "This tool works on Earth only!"
+msgstr "An toul-mañ a c'hell labourat war an Douar hepken!"
+
+msgid "This tool works on Earth only. Short steps over a long duration are slow."
+msgstr "An tachad-mañ a red war an Douar nemetik. Pazenn berr war-dro unn amzer hir a zo kuzh."
+
+msgid "This year"
+msgstr "An bloaz-mañ"
+
+msgid "Time"
+msgstr "Amzer"
+
+msgid "Time correction"
+msgstr "Kemmañ an amzer"
+
+msgid "Time of day"
+msgstr "Amzer an deiz"
+
+msgid "Time span"
+msgstr "Urzh an amzer"
+
+msgid "Time step"
+msgstr "Pazenn amzer"
+
+msgid "Time zone"
+msgstr "Gwell-eur"
+
+msgid "To the next (mths)"
+msgstr "D'ar wechoañ (mizvezh)"
+
+msgid "To the next, months"
+msgstr "D'ar wechoañ, mizvezh"
+
+msgid "Today"
+msgstr "Hiziv"
+
+msgid "Toggle display of nebula images."
+msgstr "Eilañ diskouez ar skeudoù nebulaoù."
+
+msgid "Toggle display of the button for the Digitized Sky Survey."
+msgstr "Eilañ diskouez ar boton evit an Digitized Sky Survey."
+
+msgid "Toggle display of the button for the HiPS Surveys. Select a survey in the View settings."
+msgstr "Eilañ diskouez ar boton evit an HiPS Surveys. Diuzañ ur survae e Dibarzhioù View."
+
+msgid "Toggle drawing Sun's glare"
+msgstr "Eilañ an c'huzh solar"
+
+msgid "Toggle drawing halo around the Moon"
+msgstr "Eilañ an halo tro ar Loar"
+
+msgid "Toggle permanent drawing of Sun's corona when atmosphere is disabled"
+msgstr "Eilañ an tresadenn solar p'eo diweredekaet an atmosfer"
+
+msgid "Toggle the usage of background under GUI buttons"
+msgstr "Eilañ implijout an dreklaz dindan ar botonoù"
+
+msgid "Toggle vertical and horizontal image flip buttons."
+msgstr "Eilañ botonoù eilañ ar skeudoù"
+
+msgid "Total eclipse begins"
+msgstr "Faillaenn izel a gomañs"
+
+msgid "Total eclipse ends"
+msgstr "Faillaenn izel a echuañs"
+
+msgid "Trails"
+msgstr "Heuliadoù"
+
+msgid "Translated"
+msgstr "Troidigezhet"
+
+msgid "Transparency"
+msgstr "Treluzelezh"
+
+msgid "Twilight"
+msgstr "Kuzh-heol"
+
+msgid "Twilight and rise and set times are worked out for an observer on Earth. Move back to Earth to see them."
+msgstr "Ar gwele-noz hag amzerioù tiegezh hag dilarc'hañ a zo maklañ evit ur sper war an Douar. Distreit d'an Douar evit o gwelet."
+
+msgid "Twinkle"
+msgstr "Pellegañ"
+
+msgid "Twinkle amount"
+msgstr "Feur ar bellac'h"
+
+msgid "Twinkle even without atmosphere"
+msgstr "Pellegañ n'heus ket atmosfer"
+
+msgid "Twinkle is caused by atmospheric turbulence; this shows it regardless"
+msgstr "Ar bellac'h a zo graet gant ar fusvagadenn atmosferikel; an dra-mañ a ziskouez anezhi hag holl"
+
+msgid "Type a name, a Bayer letter or a catalogue number - Vega, α Lyr, M 31, NGC 224."
+msgstr "Skrivañ ur anv, ul lizherenn Bayer pe ul lizherenn katalog - Vega, α Lyr, M 31, NGC 224."
+
+msgid "Types"
+msgstr "Doareoù"
+
+msgid "Umbral magnitude"
+msgstr "Meurez umbral"
+
+msgid "Unnamed star"
+msgstr "Stered genwanelennoù"
+
+msgid "Up to mag."
+msgstr "Betek mag."
+
+msgid "Update"
+msgstr "Adkargañ"
+
+msgid "Use SIMBAD"
+msgstr "Implijout SIMBAD"
+
+msgid "Use additional names of DSO"
+msgstr "Implijout anvioù ouzhplennus eus DSO"
+
+msgid "Use autofill only from the beginning of words"
+msgstr "Implijout an leoning hepken eus tachenn ar gerioù"
+
+msgid "Use buttons background"
+msgstr "Implijout dreklaz ar botonoù"
+
+msgid "Use common symbols for coordinate systems"
+msgstr "Implijout simboù boutin evit ar sistemoù korizontoù"
+
+msgid "Use custom time zone"
+msgstr "Implijout gwell-eur personelezet"
+
+msgid "Use decimal degrees"
+msgstr "Implijout gradennoù dekimal"
+
+msgid "Use decimal degrees for coordinates"
+msgstr "Implijout gradennoù dekimal evit ar gorizontoù"
+
+msgid "Use designations for screen labels"
+msgstr "Implijout anvennoù evit lizennoù ar skramm"
+
+msgid "Use distance from North Celestial Pole, not declination from equator in equatorial coordinates"
+msgstr "Implijout an distañs diouzh ar Pal Oabl Norzh, n'eo ket an ledkorn eus ar steudad e gorizontoù ekwatorial"
+
+msgid "Use mag/arcsec^2 for surface brightness"
+msgstr "Implijout meu/arcsec^2 evit sklerijentez an urvad"
+
+msgid "Use more accurate 3D models (where available)"
+msgstr "Implijout modeloù 3D gwelloc'h (ma vez savet)"
+
+msgid "Use my location"
+msgstr "Implijout ma lec'hiadur"
+
+msgid "Use on-line astronomical database SIMBAD"
+msgstr "Implijout an diaz roadoù sterennomedel SIMBAD war ar roud"
+
+msgid "Use outlines for big deep-sky objects"
+msgstr "Implijout contrenoù evit ar groñsoeroù oabl brasañ"
+
+msgid "Use proportional hints"
+msgstr "Implijout sinaleioù prourvezh"
+
+msgid "Use sorting by string length"
+msgstr "Implijout rañsañ dre hirder ar gelennoù"
+
+msgid "Use surface brightness"
+msgstr "Implijout pellguzh ar roud"
+
+msgid "Use the date now shown in the sky"
+msgstr "Implijout an deiz graet en tregoneiñ er loar"
+
+msgid "Use the value in landscape.ini when it has one"
+msgstr "Implijout ar skoulm en landscape.ini m'he deus unan"
+
+msgid "Use the value stored for this location"
+msgstr "Implijout ar skoulm enrollet evit al lec'hiadur-mañ"
+
+msgid "Use this sky culture as default"
+msgstr "Implijout ar seblant-oabl-mañ dre ziouer"
+
+msgid "Var. stars"
+msgstr "Steredoù doare."
+
+msgid "Version %s  ·  Qt %s"
+msgstr "Stumm %s  ·  Qt %s"
+
+msgid "Vertical viewport offset"
+msgstr "Offset kuzh a-vrezel"
+
+msgid "View recent GRS measurements"
+msgstr "Gwelet ar mennoù GRS nevez-zo"
+
+msgid "Visibility"
+msgstr "Gweldigezh"
+
+msgid "Visual magnitude based on phase angle and albedo."
+msgstr "Meurez gwelus steudet war an c'horn-ster hag an albedo."
+
+msgid "Western quadrature"
+msgstr "Gwele Kornôg"
+
+msgid "When a search result is chosen"
+msgstr "Pa vez diuzet ur disoc'h kuñch"
+
+msgid "Where Jupiter's Great Red Spot was, and when"
+msgstr "Pelec'h e oa Tach Veur Ruz Yaou, ha pa"
+
+msgid "Width"
+msgstr "Led"
+
+msgid "Working out the contact times…"
+msgstr "O labourañ an amzerioù darempred…"
+
+msgid "Year"
+msgstr "Bloaz"
+
+msgid "Zenith and Nadir"
+msgstr "Zenith hag Nadir"
+
+msgid "Zodiac and lunar stations"
+msgstr "Zodiak hag stourmoù lunar"
+
+msgid "Zodiacal Light brightness"
+msgstr "Pellguzh Gouloù zodiakel"
+
+msgid "Zoom in and out"
+msgstr "Brasaat hag kuzhat"
+
+msgid "after sunset"
+msgstr "goude ar guloañs heol"
+
+msgid "before sunrise"
+msgstr "a-raok an dis-heol"
+
+msgid "bright suburban"
+msgstr "kuzh-houezh nevez"
+
+msgid "east +"
+msgstr "Levant +"
+
+msgid "engine ready, interface going live"
+msgstr "motor boutin, etrefaç o vont endalc'h"
+
+msgid "excellent dark sky"
+msgstr "oabl stouadig fallus"
+
+msgid "from landscape, if given"
+msgstr "eus gweledva, ma vez roet"
+
+msgid "inner city"
+msgstr "keñver-kañ"
+
+msgid "north +"
+msgstr "Norzh +"
+
+msgid "rural/suburban"
+msgstr "tiegezh/ar skritik"
+
+msgid "select all"
+msgstr "Diuzañ pep tra"
+
+msgid "select none"
+msgstr "N'diuzañ nemet"
+
+msgid "select preference"
+msgstr "Diuzañ ar c'hoant"
+
+msgid "select standard"
+msgstr "Diuzañ an standard"
+
+msgid "store preference"
+msgstr "Enrollañ ar c'hoant"
+
+msgid "suburban/urban"
+msgstr "ar skritik/kazegoù"
+
+msgid "truly dark"
+msgstr "gwir stouadig"
+
+msgid "unreadable snapshot"
+msgstr "Skeud n'haller ket lenn"
+
+msgid "use current"
+msgstr "Implijout an red-vremañ"
+
+msgid "with Solar Dates"
+msgstr "Gant deizioù an Sul"
+
+msgid "… and moons"
+msgstr "… hag loarioù"

@@ -1,0 +1,2752 @@
+# Asterium interface translation for lb.
+# Copyright (C) 2026 the Asterium authors
+# This file is distributed under the same licence as the Asterium package.
+#
+# MACHINE TRANSLATION, not reviewed by a speaker of this language.
+# Terminology follows upstream Stellarium's own lb catalogue, which was used
+# as a glossary, and every entry keeps the source's printf placeholders.
+# Corrections from a human translator are welcome and should simply replace these.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: asterium\n"
+"Language: lb\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%d bodies"
+msgstr "%d Kierpern"
+
+msgid "%d object"
+msgstr "%d Objet"
+
+msgid "%d objects"
+msgstr "%d Objete"
+
+msgid "%s colour"
+msgstr "%s Faarf"
+
+msgid "%s from %s, ±%.0f m"
+msgstr "%s vun %s, ±%.0f m"
+
+msgid "12-hour"
+msgstr "12-Stonn"
+
+msgid "1× below"
+msgstr "1× ënner"
+
+msgid "24-hour"
+msgstr "24-Stonn"
+
+msgid "A button to mark every object of the current observing list on the sky."
+msgstr "En Knäpp fir all Objete vun der aktueller Observatiounslëscht um Himmel z'markéieren."
+
+msgid "A button to toggle ecliptic grid of date"
+msgstr "En Knäpp fir d'Ekliptescht Gitter vum Datch an/ausschalten"
+
+msgid "A button to toggle equatorial J2000 grid"
+msgstr "En Knäpp fir d'Äquatorialt Gitter J2000 an/ausschalten"
+
+msgid "A button to toggle galactic grid"
+msgstr "En Knäpp fir d'Galaktescht Gitter an/ausschalten"
+
+msgid "A polygonal model for some small moons, asteroids and comets instead of a sphere"
+msgstr "En polygonales Modell fir e puer kleng Mound, Asteroiden a Komeeten amplaz vun enger Kugel"
+
+msgid "A touch-first planetarium forked from Stellarium, whose astronomy engine it uses unchanged. The interface is new; everything that draws the sky is upstream's work."
+msgstr "En Planetarium, deen Stellarium geforkt huet a seng Astronomie-Moteur onverännert benotzt. D'Interface ass nei; alles wat de Himmel zeechent, ass d'Aarbecht vum Original-Projet."
+
+msgid "Abbreviated names"
+msgstr "Ofkéierzungen"
+
+msgid "About"
+msgstr "Iwwer"
+
+msgid "About this sky culture"
+msgstr "Iwwer dës Himmelskultuur"
+
+msgid "Above altitude, °"
+msgstr "Iwwer Heicht, °"
+
+msgid "Absolute scale"
+msgstr "Absolut Skala"
+
+msgid "Activate this option to calculate azimuth from south towards west."
+msgstr "Dës Optioun aktivéieren fir Azimuth vum Süden no Westen auszereechnen."
+
+msgid "Active galaxies"
+msgstr "Aktiv Galaxiën"
+
+msgid "Add %s"
+msgstr "%s bäizeféigen"
+
+msgid "Additional information settings"
+msgstr "Zousätzlech Informatiouns-Astellungen"
+
+msgid "Adjust brightness to bright objects"
+msgstr "Helligkeit op hell Objete justéieren"
+
+msgid "Algol-type eclipsing systems"
+msgstr "Algol-Typ Fënster Systemer"
+
+msgid "Algorithm of ΔT"
+msgstr "Algorithmus vun ΔT"
+
+msgid "All naked-eye planets"
+msgstr "All Planéiten mat bloussem A"
+
+msgid "All solar eclipses"
+msgstr "All Sonnendäischterten"
+
+msgid "Allow negative hour angles"
+msgstr "Negativ Stounneswinkelen erlaabën"
+
+msgid "Allow results outside the recommended time range of the orbital elements"
+msgstr "Resultater auer vum empfohlene Zäitraum vun de Baannenelementer erlaabën"
+
+msgid "Almanac"
+msgstr "Almanach"
+
+msgid "Almanac: Sun, Moon and naked-eye planets"
+msgstr "Almanach: Sonn, Mound an Planéiten vu bloussem Aie"
+
+msgid "Also find"
+msgstr "Och fannen"
+
+msgid "Also plot"
+msgstr "Och placéieren"
+
+msgid "Also show moons of selected object or planets"
+msgstr "Och Mound vun engem ausgewielten Objet oder Planéiten weisen"
+
+msgid "Altitude"
+msgstr "Heicht"
+
+msgid "Altitude limit, °"
+msgstr "Heichtslimit, °"
+
+msgid "Altitude vs. Time"
+msgstr "Heicht vs. Zäit"
+
+msgid "Amount"
+msgstr "Montant"
+
+msgid "An observer floats above its planet, so there is nowhere on it to stand. Choose another planet to come back down."
+msgstr "En Observateur schwebbt iwwer sengem Planéit, sou datt et kee Plaz do ass ze stoen. Wiel en aneren Planéit fir zréck nobaklappen."
+
+msgid "And"
+msgstr "A"
+
+msgid "And also"
+msgstr "A sou"
+
+msgid "And the next (years)"
+msgstr "A déi nächst (Joren)"
+
+msgid "Ang. Size"
+msgstr "Ang. Gréisst"
+
+msgid "Angular distance"
+msgstr "Angular Distanz"
+
+msgid "Angular distance between the Moon and selected object"
+msgstr "Winkeldistanz tëschent Mound an ausgewielten Objet"
+
+msgid "Angular distance from the Moon"
+msgstr "Winkeldistanz vun der Mound"
+
+msgid "Angular distance from the Moon for second object"
+msgstr "Winkeldistanz vun der Mound fir zweeten Objet"
+
+msgid "Angular distance from the Sun"
+msgstr "Winkeldistanz vun der Sonn"
+
+msgid "Angular distance from the Sun for second object"
+msgstr "Winkeldistanz vun der Sonn fir zweeten Objet"
+
+msgid "Angular size"
+msgstr "Winkelegréisst"
+
+msgid "Annual drift"
+msgstr "Jäierlech Drift"
+
+msgid "Antisolar point"
+msgstr "Antisolar Punkt"
+
+msgid "Apex points"
+msgstr "Apex Punkte"
+
+msgid "Aphelion"
+msgstr "Aphélie"
+
+msgid "Appearance"
+msgstr "Aspect"
+
+msgid "Apply"
+msgstr "Applizéieren"
+
+msgid "Apply time interval limits to list"
+msgstr "Zäit-Intervall-Limiten op d'Lëscht applizéieren"
+
+msgid "Art"
+msgstr "Konscht"
+
+msgid "Artificial satellites and unnamed stars are excluded from calculation."
+msgstr "Kënschtlech Satelliten a benannt Stären sinn vun der Berechnung ausgeschloss."
+
+msgid "Asking for permission…"
+msgstr "Permissioun gefrot…"
+
+msgid "Asks SIMBAD what it holds around the object that is selected now, and prints the answer as it comes back."
+msgstr "Freet SIMBAD wat et ëm d'Objet dat elo ausgewielt ass hält, a dréckt d'Äntwert aus, wéi se zréckkoum."
+
+msgid "Ast. lines"
+msgstr "Ast. Linnen"
+
+msgid "Ast. names"
+msgstr "Ast. Numer"
+
+msgid "Asterisms"
+msgstr "Asterismen"
+
+msgid "Asterisms font size"
+msgstr "Asterismen Schrëftgréisst"
+
+msgid "Asteroids"
+msgstr "Asteroïden"
+
+msgid "Astronomical Almanac (default) enlarges by 2%; Danjon (1951) differs slightly"
+msgstr "Astronomeschen Almanach (Standard) vergréissert ëm 2%; Danjon (1951) weicht e bësse of"
+
+msgid "Astronomical Twilight"
+msgstr "Astronomescht Dämmerung"
+
+msgid "Astronomical calculations"
+msgstr "Astronomesch Berechnungen"
+
+msgid "Astronomical night"
+msgstr "Astronomescht Nuecht"
+
+msgid "At"
+msgstr "Um"
+
+msgid "Atmosph."
+msgstr "Atmosp."
+
+msgid "Atmosphere visualization"
+msgstr "Atmosphär Visualiséierung"
+
+msgid "Automatic closing dialog"
+msgstr "Automatesch Fermeture vum Dialog"
+
+msgid "Automatic transparency"
+msgstr "Automatesch Duerchsichtegkeet"
+
+msgid "Axis distance"
+msgstr "Achs Distanz"
+
+msgid "Azi. grid"
+msgstr "Azi. Gitter"
+
+msgid "Azimuth and altitude rather than right ascension and declination"
+msgstr "Azimuth a Heicht amplaz vun Rechter Aszensioun a Deklinatioun"
+
+msgid "Azimuth from South"
+msgstr "Azimuth vum Süden"
+
+msgid "Azimuth vs. Time"
+msgstr "Azimuth vs. Zäit"
+
+msgid "Back"
+msgstr "Zréck"
+
+msgid "Bad visibility conditions for current location"
+msgstr "Schlécht Sicht Konditioune fir aktuell Standuert"
+
+msgid "Beginning of center line; central eclipse begins"
+msgstr "Ufank vun der Zentrumliinn; zentral Fënster ufänkt"
+
+msgid "Below the horizon here."
+msgstr "Ënner dem Horizont hei."
+
+msgid "Between objects"
+msgstr "Tëschent Objeten"
+
+msgid "Blue"
+msgstr "Blo"
+
+msgid "Boundless"
+msgstr "Onbegränzt"
+
+msgid "Bounds"
+msgstr "Grenzen"
+
+msgid "Bright Solar system objects (<%1 mag)"
+msgstr "Hell Sonnenséystem Objeten (<%1 Mag.)"
+
+msgid "Bright barium stars"
+msgstr "Hell Barium Stären"
+
+msgid "Bright carbon stars"
+msgstr "Hell Kuelstoff Stären"
+
+msgid "Bright double stars"
+msgstr "Hell Duebelstären"
+
+msgid "Bright double stars (<%1 mag)"
+msgstr "Hell Duebelstären (<%1 Mag.)"
+
+msgid "Bright galaxies (<%1 mag)"
+msgstr "Hell Galaxiën (<%1 Mag.)"
+
+msgid "Bright nebulae"
+msgstr "Hell Nebulös"
+
+msgid "Bright nebulae (<%1 mag)"
+msgstr "Hell Nebulös (<%1 Mag.)"
+
+msgid "Bright nova stars"
+msgstr "Hell Nova Stären"
+
+msgid "Bright star clusters (<%1 mag)"
+msgstr "Hell Stären Klumpen (<%1 Mag.)"
+
+msgid "Bright stars"
+msgstr "Hell Stären"
+
+msgid "Bright stars (<%1 mag)"
+msgstr "Hell Stären (<%1 Mag.)"
+
+msgid "Bright stars with high proper motion"
+msgstr "Hell Stären mat héijer Eigenbewegung"
+
+msgid "Bright supernova stars"
+msgstr "Hell Supernova Stären"
+
+msgid "Bright variable stars"
+msgstr "Hell Variabel Stären"
+
+msgid "Bright variable stars (<%1 mag)"
+msgstr "Hell Variabel Stären (<%1 Mag.)"
+
+msgid "Brighter than"
+msgstr "Heller wéi"
+
+msgid "Brightness"
+msgstr "Helligkeit"
+
+msgid "By object type"
+msgstr "No Objekttyp"
+
+msgid "By planet"
+msgstr "No Planéit"
+
+msgid "Calculate"
+msgstr "Berechnen"
+
+msgid "Calculating…"
+msgstr "Berechnung lafen…"
+
+msgid "Caldwell objects"
+msgstr "Caldwell Objeten"
+
+msgid "Cancel"
+msgstr "Ofbriechen"
+
+msgid "Cardinal points"
+msgstr "Kardinalpunkte"
+
+msgid "Cardinals"
+msgstr "Kardinall"
+
+msgid "Catalogue numbers instead of common names"
+msgstr "Katalog Nummeren amplaz vun allgemengen Nimen"
+
+msgid "Category"
+msgstr "Kategorie"
+
+msgid "Celestial Sphere"
+msgstr "Himmelskugel"
+
+msgid "Celestial body"
+msgstr "Himmelskierpern"
+
+msgid "Celestial poles (J2000)"
+msgstr "Himmelspolen (J2000)"
+
+msgid "Celestial poles (of date)"
+msgstr "Himmelspolen (vum Datch)"
+
+msgid "Center of FOV"
+msgstr "Mëtt vum FOV"
+
+msgid "Centering button"
+msgstr "Zentrierungsknäpp"
+
+msgid "Central duration"
+msgstr "Zentral Dauer"
+
+msgid "Central eclipse begins"
+msgstr "Zentral Däischtert ufänkt"
+
+msgid "Central eclipse ends"
+msgstr "Zentral Däischtert endet"
+
+msgid "Centre"
+msgstr "Zentrum"
+
+msgid "Centre on object"
+msgstr "Op Objet zentréieren"
+
+msgid "Centre point"
+msgstr "Zentraalpunkt"
+
+msgid "Circles"
+msgstr "Kreeser"
+
+msgid "Circular FOV"
+msgstr "Kreisung FOV"
+
+msgid "Circumpolar circles"
+msgstr "Zirkumpolaire Kreeser"
+
+msgid "City"
+msgstr "Stad"
+
+msgid "Civil Twilight"
+msgstr "Zivil Dämmerung"
+
+msgid "Cleanup"
+msgstr "Opréimung"
+
+msgid "Clear"
+msgstr "Lere"
+
+msgid "Clear recent searches"
+msgstr "Rezent Sich lere"
+
+msgid "Clear the selection - a touch screen has no right button"
+msgstr "D'Selektioun lere - en Touchscreen huet kee rechtens Knäpp"
+
+msgid "Cleared."
+msgstr "Gelert."
+
+msgid "Click on star to show its constellation"
+msgstr "Op Stär klicken, fir hiert Stärebild ze weisen"
+
+msgid "Close"
+msgstr "Zoumaachen"
+
+msgid "Close what is open; from the sky, leave the app running"
+msgstr "Zoumaachen wat op ass; vum Himmel lafen d'App weiderschlafen"
+
+msgid "Clusters of galaxies"
+msgstr "Galaxien Klumpen"
+
+msgid "Coarse"
+msgstr "Rauh"
+
+msgid "Color"
+msgstr "Faarf"
+
+msgid "Color channel"
+msgstr "Faarf Kanal"
+
+msgid "Color of Lunar station lines"
+msgstr "Faarf vu Lunar Statioun Linnen"
+
+msgid "Color of asterism lines"
+msgstr "Faarf vu Asterismus Linnen"
+
+msgid "Color of asterism names"
+msgstr "Faarf vu Asterismus Nimen"
+
+msgid "Color of constellation boundaries"
+msgstr "Faarf vu Stärebiller Grenze"
+
+msgid "Color of constellation lines"
+msgstr "Faarf vu Stärebiller Linnen"
+
+msgid "Color of constellation names"
+msgstr "Faarf vu Stärebiller Nimen"
+
+msgid "Color of nomenclature labels"
+msgstr "Faarf vu Nomenklatur Beschrëftungen"
+
+msgid "Color of orbits"
+msgstr "Faarf vu Baanen"
+
+msgid "Color of planet labels"
+msgstr "Faarf vu Planéit Beschrëftungen"
+
+msgid "Color of ray helpers"
+msgstr "Faarf vu Stral Hëllefe"
+
+msgid "Color of trails"
+msgstr "Faarf vu Spueren"
+
+msgid "Color of zodiac lines"
+msgstr "Faarf vu Zodiak Linnen"
+
+msgid "Colors of orbit lines"
+msgstr "Faarven vu Baanen Linnen"
+
+msgid "Colures"
+msgstr "Koluren"
+
+msgid "Comets"
+msgstr "Kometen"
+
+msgid "Comets up to mag."
+msgstr "Komeeten bis Magnitud"
+
+msgid "Compass"
+msgstr "Kompass"
+
+msgid "Compass marks"
+msgstr "Kompass Marken"
+
+msgid "Config"
+msgstr "Konfiguratioun"
+
+msgid "Configuration"
+msgstr "Konfiguratioun"
+
+msgid "Configure colors of markers"
+msgstr "Faarven vu Markéierungen konfigureren"
+
+msgid "Configure colors of orbit lines"
+msgstr "Faarven vu Baanen Linnen konfigureren"
+
+msgid "Conjunction"
+msgstr "Konjunktioun"
+
+msgid "Connecting line"
+msgstr "Verbindungslinn"
+
+msgid "Const."
+msgstr "Konst."
+
+msgid "Constellations font size"
+msgstr "Stärebiller Schrëftgréisst"
+
+msgid "Contrast"
+msgstr "Kontrast"
+
+msgid "Coordinate system"
+msgstr "Koordinaten System"
+
+msgid "Coordinates"
+msgstr "Koordinaten"
+
+msgid "Copyright"
+msgstr "Urheberrecht"
+
+msgid "Credits"
+msgstr "Verdéngschter"
+
+msgid "Culmination altitude"
+msgstr "Kulminatioun Héicht"
+
+msgid "Current FoV"
+msgstr "Aktuell FOV"
+
+msgid "Custom"
+msgstr "Besonner"
+
+msgid "Custom FoV limit"
+msgstr "Custom FOV Limit"
+
+msgid "Custom altitude of the Moon, °"
+msgstr "Custom Heicht vum Mound, °"
+
+msgid "Custom altitude of the Sun, °"
+msgstr "Custom Heicht vun der Sonn, °"
+
+msgid "Custom settings for position of GRS"
+msgstr "Custom Astellungen fir d'Positioun vum GRS"
+
+msgid "Custom values"
+msgstr "Custom Wäerter"
+
+msgid "Cut the scale off below the limit"
+msgstr "D'Skala ënner dem Limit ofschneiden"
+
+msgid "DATE AND TIME (UTC)"
+msgstr "DATUM AN ZÄT (UTC)"
+
+msgid "DSS survey"
+msgstr "DSS Survey"
+
+msgid "Dark nebulae"
+msgstr "Donkel Nebulös"
+
+msgid "Data"
+msgstr "Daten"
+
+msgid "Date"
+msgstr "Datum"
+
+msgid "Date and time"
+msgstr "Datum a Zäit"
+
+msgid "Date/time"
+msgstr "Datum/Zäit"
+
+msgid "Dates"
+msgstr "Datem"
+
+msgid "Dbl. stars"
+msgstr "Doppel. Stären"
+
+msgid "Dec (J2000)"
+msgstr "Dekl. (J2000)"
+
+msgid "December solstice"
+msgstr "Dezember Sonnewend"
+
+msgid "Decimal degrees. −33.87 means 33.87° south. Elevation is metres above sea level; it moves the horizon down by a few arcminutes."
+msgstr "Dezimal Graden. −33.87 heescht 33.87° Süden. Heicht ass Meter iwwer dem Mieresspigel; et réckelt de Horizont e puer Arcminuten erof."
+
+msgid "Declination"
+msgstr "Deklinatioun"
+
+msgid "Deep Sky"
+msgstr "Déif Himmel"
+
+msgid "Default options"
+msgstr "Standard Optiounen"
+
+msgid "Degrees per year the longitude moves by"
+msgstr "Graden pro Joer d'Längt réckelt"
+
+msgid "Degrees, hours and minutes as they are written - 12h30m49s, +41°16'09\", 187.7 - or plain decimal degrees."
+msgstr "Graden, Stonnen a Minutten wéi se geschriwwe sinn - 12h30m49s, +41°16'09\", 187.7 - oder einfach Dezimal Graden."
+
+msgid "Delete"
+msgstr "Läschen"
+
+msgid "Deletes all recent search object data, and the objects SIMBAD contributed."
+msgstr "Läscht all rezent Sich Objete Daten, a d'Objete déi SIMBAD bäigedroen huet."
+
+msgid "Designations for celestial coordinate systems"
+msgstr "Bezeichnungen fir Himmelskrankensystemer"
+
+msgid "Designations for double stars"
+msgstr "Bezeichnungen fir Doppelstären"
+
+msgid "Designations for variable stars"
+msgstr "Bezeichnungen fir Verännerlesch Stären"
+
+msgid "Dim a survey near the horizon, as the air does"
+msgstr "Eng Ënnersiichung no dem Horizont dimmen, wéi d'Loft et mécht"
+
+msgid "Dimensions"
+msgstr "Dimensiounen"
+
+msgid "Display formats of date and time"
+msgstr "Affichage Formater vu Datum a Zäit"
+
+msgid "Display objects from catalogs"
+msgstr "Objete aus Katalogë affichéieren"
+
+msgid "Displayed"
+msgstr "Affichéiert"
+
+msgid "Distance, AU"
+msgstr "Distanz, AU"
+
+msgid "Done"
+msgstr "Genee"
+
+msgid "Drag"
+msgstr "Ziehe"
+
+msgid "Draw deep-sky objects at all"
+msgstr "Déif-Himmel Objete zechnen"
+
+msgid "Draw only polygon"
+msgstr "Nëmme Polygon zechnen"
+
+msgid "Draw the enabled sky surveys"
+msgstr "D'aktivéiert Himmel Ënnersiichungen zechnen"
+
+msgid "Draw the planets, moons and minor bodies"
+msgstr "D'Planéiten, Mound a Minutt Kierpern zechnen"
+
+msgid "Drawn larger than life, so a body that is a few arcseconds wide is visible at all. The position stays true."
+msgstr "Gréisser wéi d'Liewen gezechnt, sou datt e Kierpern deen e puer Arcsekonnen breet ass sichtbar ass. D'Positioun bleift wuer."
+
+msgid "Duration"
+msgstr "Dauer"
+
+msgid "Duration (years)"
+msgstr "Dauer (Joren)"
+
+msgid "Duration, months"
+msgstr "Dauer, Méint"
+
+msgid "Dusk"
+msgstr "Owesdämmerung"
+
+msgid "Dwarf planets"
+msgstr "Zwerch Planéiten"
+
+msgid "Dynamic (FOV-based) Moon size"
+msgstr "Dynamesch (FOV-baséiert) Mound Gréisst"
+
+msgid "Dynamic eye adaptation"
+msgstr "Dynamesch Ae Adaptatioun"
+
+msgid "ELEV. M"
+msgstr "HEICHT. M"
+
+msgid "Earth"
+msgstr "Äerd"
+
+msgid "Earth penumbra"
+msgstr "Äerd Halbschatten"
+
+msgid "Earth shadow enlargement after Danjon"
+msgstr "Äerd Schatten Vergréisserung no Danjon"
+
+msgid "Earth umbra"
+msgstr "Äerd Ëmbra"
+
+msgid "Eastern quadrature"
+msgstr "Oscht Quadratur"
+
+msgid "Ecl. grid"
+msgstr "Ekl. Gitter"
+
+msgid "Eclipse"
+msgstr "Fënster"
+
+msgid "Eclipse begins; first contact with Earth"
+msgstr "Fënster ufänkt; éischt Kontakt mat der Äerd"
+
+msgid "Eclipse ends; last contact with Earth"
+msgstr "Fënster ennt; letzter Kontakt mat der Äerd"
+
+msgid "Eclipses"
+msgstr "Däischterten"
+
+msgid "Eclipses are computed for observers on Earth."
+msgstr "Däischterten ginn fir Observatoren op der Äerd ausgerechent."
+
+msgid "Ecliptic"
+msgstr "Ekliptik"
+
+msgid "Ecliptic (J2000)"
+msgstr "Ekliptik (J2000)"
+
+msgid "Ecliptic (J2000.0)"
+msgstr "Ekliptik (J2000.0)"
+
+msgid "Ecliptic (of date)"
+msgstr "Ekliptik (vum Datch)"
+
+msgid "Ecliptic grid (J2000)"
+msgstr "Ekliptescht Gitter (J2000)"
+
+msgid "Ecliptic grid (of date)"
+msgstr "Ekliptescht Gitter (vum Datch)"
+
+msgid "Ecliptic poles (J2000)"
+msgstr "Ekliptescht Polen (J2000)"
+
+msgid "Ecliptic poles (of date)"
+msgstr "Ekliptescht Polen (vum Datch)"
+
+msgid "Elev."
+msgstr "Elév."
+
+msgid "Elevation"
+msgstr "Heicht"
+
+msgid "Elevation in metres"
+msgstr "Heicht a Meter"
+
+msgid "Elongation"
+msgstr "Elongatioun"
+
+msgid "Elongations and quadratures"
+msgstr "Alongations a Quadraturen"
+
+msgid "Emission-line stars"
+msgstr "Emissiouns-Liinn Stären"
+
+msgid "Enabled only"
+msgstr "Nëmme aktivéiert"
+
+msgid "End of center line; central eclipse ends"
+msgstr "Enn vun der Zentrumliinn; zentral Fënster ennt"
+
+msgid "Enter Culture..."
+msgstr "Kultuur asetzen…"
+
+msgid "Equ. grid"
+msgstr "Equ. Gitter"
+
+msgid "Equ. mount"
+msgstr "Equ. Mont."
+
+msgid "Equator (J2000)"
+msgstr "Äquator (J2000)"
+
+msgid "Equator (of date)"
+msgstr "Äquator (vum Datch)"
+
+msgid "Equatorial"
+msgstr "Äquatorialt"
+
+msgid "Equatorial (J2000.0)"
+msgstr "Äquatorialt (J2000.0)"
+
+msgid "Equatorial grid (J2000)"
+msgstr "Äquatorialt Gitter (J2000)"
+
+msgid "Equatorial grid (of date)"
+msgstr "Äquatorialt Gitter (vum Datch)"
+
+msgid "Equatorial radii ratio"
+msgstr "Äquatorial Radii Verhältnis"
+
+msgid "Equinoxes (J2000)"
+msgstr "Äquinoktien (J2000)"
+
+msgid "Equinoxes (of date)"
+msgstr "Äquinoktien (vum Datch)"
+
+msgid "Evening"
+msgstr "Owend"
+
+msgid "Every"
+msgstr "All"
+
+msgid "Every name the object is catalogued under"
+msgstr "All Nimm ënner deenen d'Objet katalogéiert ass"
+
+msgid "Exoplanetary systems"
+msgstr "Exoplanetär Systemer"
+
+msgid "Exterior egress"
+msgstr "Aussereg Ausgang"
+
+msgid "Exterior ingress"
+msgstr "Aussereg Agang"
+
+msgid "Extras"
+msgstr "Zousätzlechkeeite"
+
+msgid "Fades the ground as you look below the horizon or zoom in"
+msgstr "Blennt de Buedem aus, wann Dir ënner den Horizont kuckt oder erazoomt"
+
+msgid "Fading duration"
+msgstr "Verblässungs Dauer"
+
+msgid "Faintest shown"
+msgstr "Dämmste gezechent"
+
+msgid "Favorites"
+msgstr "Favoriten"
+
+msgid "Fetching the survey lists…"
+msgstr "D'Ënnersiichungs Lëschten fechen…"
+
+msgid "Field of view"
+msgstr "Sichtfeld"
+
+msgid "Filter by type"
+msgstr "No Typ filteren"
+
+msgid "Find a city"
+msgstr "Eng Stad fannen"
+
+msgid "Fine"
+msgstr "Fäin"
+
+msgid "First %d of %d - filter to narrow it."
+msgstr "Éischt %d vun %d - filteren fir ze verengen."
+
+msgid "First body"
+msgstr "Éischt Kierper"
+
+msgid "First celestial body"
+msgstr "Éischt Himmelskierper"
+
+msgid "First graph"
+msgstr "Éischt Grafik"
+
+msgid "Fix"
+msgstr "Fixéieren"
+
+msgid "Fixed Equator"
+msgstr "Fixéierten Äquator"
+
+msgid "Fixed Equatorial grid"
+msgstr "Fixéierten Equatorialt Gitter"
+
+msgid "Fixed instant"
+msgstr "Fixéierten Ament"
+
+msgid "Flip buttons"
+msgstr "Bäumer ëmbréien"
+
+msgid "Flip horiz."
+msgstr "Flip Horiz."
+
+msgid "Flip vert."
+msgstr "Flip Vert."
+
+msgid "Font size"
+msgstr "Schrëftgréisst"
+
+msgid "Frame rate"
+msgstr "Bild Taux"
+
+msgid "From"
+msgstr "Vun"
+
+msgid "From year"
+msgstr "Vun Joer"
+
+msgid "Full screen"
+msgstr "Vollbild"
+
+msgid "Fullscreen button"
+msgstr "Vollbildknäppchen"
+
+msgid "Further reading"
+msgstr "Weider Liese"
+
+msgid "GRS details…"
+msgstr "GRS Details…"
+
+msgid "Gal. grid"
+msgstr "Gal. Gitter"
+
+msgid "Galactic"
+msgstr "Galaktesch"
+
+msgid "Galactic center and anticenter"
+msgstr "Galaktesch Zentrum a Antizentra"
+
+msgid "Galaxies"
+msgstr "Galaxiën"
+
+msgid "Gamma, saturation, brightness, contrast, opacity, colour channel and inverted colours belong to one survey. Open a survey to set them."
+msgstr "Gamma, Sättigong, Hellekeet, Kontrast, Deckkraaft, Faarf Kanal a ëmgedréit Farwen gehéieren zu enger Ënnersokung. Öffne eng Ënnersokung fir se ze setzen."
+
+msgid "Generic"
+msgstr "Generesch"
+
+msgid "Gestures"
+msgstr "Gesten"
+
+msgid "Globular star clusters"
+msgstr "Kugel Stären Klumpen"
+
+msgid "Go there"
+msgstr "Do goen"
+
+msgid "Go to position"
+msgstr "An d'Positioun goen"
+
+msgid "Go to this eclipse"
+msgstr "An dës Däischtert goen"
+
+msgid "Go to this moment"
+msgstr "An dësen Ament goen"
+
+msgid "Go to this transit"
+msgstr "An dëse Transitioun goen"
+
+msgid "Good visibility conditions for current location"
+msgstr "Gutt Sicht Konditioune fir aktuell Standuert"
+
+msgid "Graphs"
+msgstr "Grafiken"
+
+msgid "Great Red Spot"
+msgstr "Grousst Roude Flack"
+
+msgid "Great Red Spot details"
+msgstr "Grousst Roude Flack Details"
+
+msgid "Greatest eastern elongation"
+msgstr "Gréisst Oscht Elongatioun"
+
+msgid "Greatest eclipse"
+msgstr "Gréisst Fënster"
+
+msgid "Greatest elongation for an inner planet, quadrature for an outer one"
+msgstr "Gréisst Verlängerung fir eng ënner Planéit, Quadratur fir eng äusser"
+
+msgid "Greatest western elongation"
+msgstr "Gréisst Wescht Elongatioun"
+
+msgid "Greek letters"
+msgstr "Griichesch Bréiwer"
+
+msgid "Greek letters for Bayer designations"
+msgstr "Griichesch Bréiwer fir Bayer Bezeichnungen"
+
+msgid "Green"
+msgstr "Gréng"
+
+msgid "Grid density"
+msgstr "Gitter Dicht"
+
+msgid "Grids"
+msgstr "Gitter"
+
+msgid "Ground"
+msgstr "Buedem"
+
+msgid "Gyro"
+msgstr "Kreisel"
+
+msgid "Gyro mode"
+msgstr "Gyro Modus"
+
+msgid "Height"
+msgstr "Héicht"
+
+msgid "Heliocentric distance"
+msgstr "Heliozentresch Distanz"
+
+msgid "Heliocentric ecliptic positions of the major planets."
+msgstr "Heliozentresch ekliptesch Positiounen vun de Haaptplanéiten."
+
+msgid "Help"
+msgstr "Hëllef"
+
+msgid "Herschel 400 objects"
+msgstr "Herschel 400 Objeten"
+
+msgid "HiPS"
+msgstr "HiPS"
+
+msgid "Hide controls"
+msgstr "Kontroller verstoppen"
+
+msgid "Hide deep-sky objects fainter than the limit"
+msgstr "Déiefspeier Objekter schwächer wéi d'Limit verstoppen"
+
+msgid "Hide nomenclature on the celestial body of observer"
+msgstr "Nomenklatur op de Himmelskierper vum Beobachter verstoppen"
+
+msgid "Hide orbits of minor bodies"
+msgstr "Ëmlafbunnen vu klenge Kierper verstoppen"
+
+msgid "Highlight"
+msgstr "Eraushiewen"
+
+msgid "Highlight the objects of the observing list"
+msgstr "Heiliicht d'Objeten vun der Observatiouns-Lëscht"
+
+msgid "Hint circles marking each planet"
+msgstr "Hëllef Kréiser déi all Planéit markéieren"
+
+msgid "Hints"
+msgstr "Hëllef Hënwäiser"
+
+msgid "Hints brightness"
+msgstr "Hëllef Hënwäiser Hellekeet"
+
+msgid "Hipparcos designations"
+msgstr "Hipparcos Bezeichnungen"
+
+msgid "Horizontal coordinates"
+msgstr "Horizontal Koordinaten"
+
+msgid "Hour angles usually run 0...24h. This counts -12h...12h."
+msgstr "Stonn Winkelen lafen normalerweise 0...24h. Dëst zielt -12h...12h."
+
+msgid "How many"
+msgstr "Wéi vill"
+
+msgid "ICRS grid"
+msgstr "ICRS Gitter"
+
+msgid "Include"
+msgstr "Abegraff"
+
+msgid "Include bright comets"
+msgstr "Héll Kometen abegraff"
+
+msgid "Include selected minor planets"
+msgstr "Ausgewiel kleng Planéiten abegraff"
+
+msgid "Inferior conjunction"
+msgstr "Inferéier Konjunktioun"
+
+msgid "Info label"
+msgstr "Info Etikett"
+
+msgid "Interacting galaxies"
+msgstr "Interaktioun Galaxiën"
+
+msgid "Intercardinal points"
+msgstr "Zwëschekaardinal Punkte"
+
+msgid "Interior egress"
+msgstr "Interior Ausgang"
+
+msgid "Interior ingress"
+msgstr "Interior Agangs"
+
+msgid "Interstellar objects"
+msgstr "Interstellär Objeten"
+
+msgid "Invariable plane of the Solar system"
+msgstr "Invariabel Flugel vum Sonnesystem"
+
+msgid "Invert colors"
+msgstr "Farwen ëmdréien"
+
+msgid "Isolated"
+msgstr "Isoléiert"
+
+msgid "Its elevation, and the civil, nautical and astronomical twilights"
+msgstr "Seng Elevatioun, an d'Bürger-, Seefärer- a Astronomesch Tëschendämmerungen"
+
+msgid "Jovigraphic longitude of the spot in System II, in degrees"
+msgstr "Jovigrafesch Längtegra vum Flack an System II, a Grad"
+
+msgid "Julian day"
+msgstr "Julianesch Dag"
+
+msgid "June solstice"
+msgstr "Juni Sonnewend"
+
+msgid "Label"
+msgstr "Etikett"
+
+msgid "Label colour"
+msgstr "Etikett Faarf"
+
+msgid "Label only features along the terminator"
+msgstr "Etikett nëmme Karakteristiken laanscht de Terminateur"
+
+msgid "Labels"
+msgstr "Etiketten"
+
+msgid "Labels and Markers"
+msgstr "Etiketten a Markéirer"
+
+msgid "Labels and Markers amount"
+msgstr "Etiketten a Markéirer Quantitéit"
+
+msgid "Labels brightness"
+msgstr "Etiketten Hellekeet"
+
+msgid "Landscape labels"
+msgstr "Landschaft Etiketten"
+
+msgid "Language settings"
+msgstr "Sprooch Astellungen"
+
+msgid "Largest, ′"
+msgstr "Gréissten, ′"
+
+msgid "Last known position"
+msgstr "Lescht bekannt Positioun"
+
+msgid "Lasting"
+msgstr "Dauer"
+
+msgid "Latest selected object"
+msgstr "Letzter ausgewielten Objet"
+
+msgid "Latitude"
+msgstr "Breedegrad"
+
+msgid "Latitude −90…90, longitude −180…180."
+msgstr "Breedegrad −90…90, Längtegra −180…180."
+
+msgid "Layer appearance"
+msgstr "Schicht Aussehen"
+
+msgid "Leaves the landscape visible in darkness"
+msgstr "Leeft d'Landschaft siichtbar an der Duuschterkheet"
+
+msgid "Licence"
+msgstr "Lizenz"
+
+msgid "License"
+msgstr "Lizenz"
+
+msgid "Light pollution"
+msgstr "Lëchtverschmotzong"
+
+msgid "Light pollution from database"
+msgstr "Lëchtverschmotzong vun der Datenbänk"
+
+msgid "Limit angular separation"
+msgstr "Grenz Winkel Trennung"
+
+msgid "Limit angular size"
+msgstr "Limit Winkelmass"
+
+msgid "Limit magnitude"
+msgstr "Limit Magnitud"
+
+msgid "Limit the magnitude of solar system objects"
+msgstr "Limit d'Magnitud vun de Sonnensystem Objekter"
+
+msgid "Line"
+msgstr "Linn"
+
+msgid "Line thickness"
+msgstr "Linn Déck"
+
+msgid "Linear and angular distances between selected objects"
+msgstr "Linear an Winkel Distanzen tëschent ausgewielten Objeten"
+
+msgid "Linear distance"
+msgstr "Linear Distanz"
+
+msgid "Lines"
+msgstr "Linnen"
+
+msgid "Lines and circles"
+msgstr "Linnen a Kréiser"
+
+msgid "List"
+msgstr "Lësch"
+
+msgid "List name"
+msgstr "Lësch Numm"
+
+msgid "Lists"
+msgstr "Lëschten"
+
+msgid "Lit windows, street lighting and the like"
+msgstr "Beléicht Fënster, Strooss Beléierung a ähnleches"
+
+msgid "Loading…"
+msgstr "Lueden…"
+
+msgid "Local Mean Solar Time"
+msgstr "Lokal Mëttel Solar Zäit"
+
+msgid "Local Time"
+msgstr "Lokal Zäit"
+
+msgid "Local True Solar Time"
+msgstr "Lokal Wouer Solar Zäit"
+
+msgid "Local solar eclipses"
+msgstr "Lokal Sonnendäischterten"
+
+msgid "Local time"
+msgstr "Lokal Zäit"
+
+msgid "Local time, h"
+msgstr "Lokal Zäit, h"
+
+msgid "Locate me"
+msgstr "Mech lokaliséieren"
+
+msgid "Locating…"
+msgstr "Lokaliséiere…"
+
+msgid "Location from landscape"
+msgstr "Standuert vun der Landschaft"
+
+msgid "Location is switched off in the system settings."
+msgstr "Standuert ass an de System Astellungen ausgeschalt."
+
+msgid "Location permission refused. The other two ways still work."
+msgstr "Standuert Autorisatioun refuséiert. Déi aner zwee Weeër funktionéieren nach."
+
+msgid "Lock position when coordinates are used"
+msgstr "Positioun spären wann Koordinaten benotzt gi"
+
+msgid "Log"
+msgstr "Protokoll"
+
+msgid "Long press"
+msgstr "Laang Drëck"
+
+msgid "Longitude"
+msgstr "Längtegra"
+
+msgid "Longitude of GRS"
+msgstr "Längtegra vun GRS"
+
+msgid "Lunar Elongation"
+msgstr "Mound Verlängerung"
+
+msgid "Lunar Stations"
+msgstr "Mound Statiounen"
+
+msgid "Lunar eclipses"
+msgstr "Mounddäischterten"
+
+msgid "Lunar elongation"
+msgstr "Mound Verlängerung"
+
+msgid "Magnitudes"
+msgstr "Magnituden"
+
+msgid "Main"
+msgstr "Haapt"
+
+msgid "Major planets"
+msgstr "Haaptplanéiten"
+
+msgid "Major planets by planet, minor bodies by type"
+msgstr "Haaptplanéiten no Planéit, kleng Kierper no Typ"
+
+msgid "Map of the planet. Tap to set the observer's place."
+msgstr "Kart vun der Planéit. Tippen fir d'Standuert vum Beobachter ze setzen."
+
+msgid "March equinox"
+msgstr "Mäerz Equinox"
+
+msgid "Mark impact features with ellipses"
+msgstr "Mark Impakt Karakteristiken mat Ellipsen"
+
+msgid "Mark minor bodies"
+msgstr "Mark kleng Kierper"
+
+msgid "Markers"
+msgstr "Markéirer"
+
+msgid "Markers sized by the object's angular size"
+msgstr "Markéirer gréissert no der Winkelmass vum Objet"
+
+msgid "Markings"
+msgstr "Markéierungen"
+
+msgid "Master switch for the grids, lines and points below"
+msgstr "Haapt Schalter fir d'Gitter, Linnen a Punkte drënner"
+
+msgid "Max items to display"
+msgstr "Max Elementer ze weisen"
+
+msgid "Max. results"
+msgstr "Max. Resultater"
+
+msgid "Max. search radius"
+msgstr "Max. Sich Radius"
+
+msgid "Maximum Solar altitude"
+msgstr "Maximum Solar Héicht"
+
+msgid "Maximum allowed separation"
+msgstr "Maximum erlaabt Separatioun"
+
+msgid "Maximum angular size"
+msgstr "Maximum Winkelmass"
+
+msgid "Maximum eclipse"
+msgstr "Maximum Däischtert"
+
+msgid "Maximum year"
+msgstr "Maximum Joer"
+
+msgid "Mean motion"
+msgstr "Mëttel Bewegung"
+
+msgid "Mercury"
+msgstr "Merkur"
+
+msgid "Mercury, Venus, Mars, Jupiter and Saturn at once. Earth only."
+msgstr "Merkur, Venus, Mars, Jupiter a Saturn zur selwechter Zäit. Nëmme Äerd."
+
+msgid "Messier objects"
+msgstr "Messier Objeten"
+
+msgid "Mid-transit"
+msgstr "Mid-Transitioun"
+
+msgid "Milky Way brightness"
+msgstr "Mëllechstrooss Hellekeet"
+
+msgid "Milky Way saturation"
+msgstr "Mëllechstrooss Sättigong"
+
+msgid "Minimal angular size"
+msgstr "Minimal Winkelmass"
+
+msgid "Minimal brightness"
+msgstr "Minimal Hellekeet"
+
+msgid "Minimum Solar altitude"
+msgstr "Minimum Solar Héicht"
+
+msgid "Minimum year"
+msgstr "Minimum Joer"
+
+msgid "Minor bodies"
+msgstr "Kleng Kierper"
+
+msgid "Minutes before sunrise / after sunset"
+msgstr "Minutten virun dem Sonnenopgank / no dem Sonnenënnergang"
+
+msgid "Miscellaneous"
+msgstr "Divers"
+
+msgid "Month"
+msgstr "Mount"
+
+msgid "Monthly Elevation"
+msgstr "Monatlich Elevatioun"
+
+msgid "Moon at"
+msgstr "Mound um"
+
+msgid "Moon enters penumbra"
+msgstr "Mound geet an Halbschatten"
+
+msgid "Moon enters umbra"
+msgstr "Mound geet an Kernschatten"
+
+msgid "Moon in zenith at"
+msgstr "Mound am Zenith bei"
+
+msgid "Moon leaves penumbra"
+msgstr "Mound verloosst Halbschatten"
+
+msgid "Moon leaves umbra"
+msgstr "Mound verloosst Kernschatten"
+
+msgid "Moon's halo"
+msgstr "Mound seng Halo"
+
+msgid "Moons of first body"
+msgstr "Mound vun éischt Kierper"
+
+msgid "Morning"
+msgstr "Moien"
+
+msgid "Morph. Descr."
+msgstr "Morph. Beschr."
+
+msgid "Morphological description"
+msgstr "Morphologesch Beschreiwung"
+
+msgid "Move the sky by pointing the phone at it"
+msgstr "Beweeg de Himmel andeems du de Telefon drop riichteg"
+
+msgid "Move the sky with the phone"
+msgstr "Beweeg de Himmel mam Telefon"
+
+msgid "NGC/IC objects"
+msgstr "NGC/IC Objeten"
+
+msgid "Name for the new list"
+msgstr "Numm fir d'nei Lësch"
+
+msgid "Named features the landscape marks"
+msgstr "Benannt Karakteristiken déi d'Landschaft markéiert"
+
+msgid "Names"
+msgstr "Nummen"
+
+msgid "Names beside the planets and their markers"
+msgstr "Nummen niest de Planéiten a hir Markéirer"
+
+msgid "Names in English"
+msgstr "Nummen op Englesch"
+
+msgid "Nautical Twilight"
+msgstr "Nautik Dämmerung"
+
+msgid "Neb. bg"
+msgstr "Neb. hg"
+
+msgid "Nebula background"
+msgstr "Nebula Hintergrund"
+
+msgid "Nebulae"
+msgstr "Nebulös"
+
+msgid "New list"
+msgstr "Nei Lësch"
+
+msgid "Next"
+msgstr "Nächst"
+
+msgid "Night"
+msgstr "Nuecht"
+
+msgid "No city matches that."
+msgstr "Keng Stad passt do."
+
+msgid "No eclipses found. Pick a range and calculate."
+msgstr "Keng Däischterten fonnt. Wiel eng Räich a berechent."
+
+msgid "No fresh fix - the receiver may have no sky. Try again outdoors, or set the place another way."
+msgstr "Keng fräisch Fixiéierung - de Receiver kann keng Himmel hunn. Versich nees am Fräien, oder setz d'Plaz op eng aner Aart."
+
+msgid "No surveys were found. The lists are downloaded, so this needs a connection."
+msgstr "Keng Ënnersokungen fonnt. D'Lëschten sinn erofgelueden, sou dëst braucht eng Verbindung."
+
+msgid "None downloaded yet"
+msgstr "Nach näischt erofgelueden"
+
+msgid "Not observable eclipse"
+msgstr "Net observéierbar Fënster"
+
+msgid "Note: Local circumstances for eclipses during thousands of years in the past and future are not reliable due to uncertainty in ΔT which is caused by fluctuations in Earth's rotation."
+msgstr "Note: Lokal Ëmstänn fir Fënster während tausenden Joren an der Vergaangenheet an der Zukunft sinn net zouverlässeg wégen Onsécherheet an ΔT déi vun Fluktuatiounen an der Äerd Rotatioun verursaacht gëtt."
+
+msgid "Note: artificial satellites and unnamed stars are excluded from calculation"
+msgstr "Note: Künstlech Satelliten an unbenannt Stären sinn vun der Berechnung ausgeschloss"
+
+msgid "Note: this tool doesn't apply the refraction correction for coordinates. Horizontal coordinates stop the clock, or the sky would turn away from the point while you arrive at it."
+msgstr "Bemierking: dëse Wärkstéck applizéiert d'Refraktioun Korrektur fir Koordinaten net. Horizontal Koordinaten stoppen d'Auer, oder de Himmel géif sech vum Punkt ofdroen während du et chargéierst."
+
+msgid "Notes: The quantity gamma is the minimum distance from the axis of lunar shadow cone to the center of Earth, in units of Earth’s equatorial radius. This distance is positive or negative, depending on whether the axis of the shadow cone passes north or south of the Earth's center. Path of solar eclipses during thousands of years in the past and future are not reliable due to uncertainty in ΔT which is caused by fluctuations in Earth's rotation."
+msgstr "Noten: Déi Quantitéit Gamma ass déi Minimaldistanz vun der Achs vun der Mound Schattenkeegel zum Zentrum vun der Äerd, an Eenheete vun der Äerd Äquatorial Radius. Dës Distanz ass positiv oder negativ, ofhängeg dovun ob d'Achs vun der Schattenkeegel nërdlech oder südlech vun der Äerd Zentrum leeft. Wee vun de Sonnen Fënster während tausenden Joren an der Vergaangenheet an der Zukunft sinn net zouverlässeg wégen Onsécherheet an ΔT déi vun Fluktuatiounen an der Äerd Rotatioun verursaacht gëtt."
+
+msgid "Notes: The quantity gamma is the minimum distance from the center of the Moon to the axis of Earth’s umbral shadow cone, in units of Earth’s equatorial radius. This distance is positive or negative, depending on whether the Moon passes north or south of the shadow cone axis. Local circumstances for eclipses during thousands of years in the past and future are not reliable due to uncertainty in ΔT which is caused by fluctuations in Earth's rotation."
+msgstr "Noten: Déi Quantitéit Gamma ass déi Minimaldistanz vun dem Zentrum vun der Mound zur Achs vun der Äerd Kernschatten Keegel, an Eenheete vun der Äerd Äquatorial Radius. Dës Distanz ass positiv oder negativ, ofhängeg dovun ob d'Mound nërdlech oder südlech vun der Schattenkeegel Achs leeft. Lokal Ëmstänn fir Fënster während tausenden Joren an der Vergaangenheet an der Zukunft sinn net zouverlässeg wégen Onsécherheet an ΔT déi vun Fluktuatiounen an der Äerd Rotatioun verursaacht gëtt."
+
+msgid "Notes: Time in parentheses means the contact is invisible at current location. Transit times during thousands of years in the past and future are not reliable due to uncertainty in ΔT which is caused by fluctuations in Earth's rotation."
+msgstr "Noten: Zäit an Klammeren heescht de Kontakt ass onsiichtbar um aktuellen Plaz. Transit Zäiten während tausenden Joren an der Vergaangenheet an der Zukunft sinn net zouverlässeg wégen Onsécherheet an ΔT déi vun Fluktuatiounen an der Äerd Rotatioun verursaacht gëtt."
+
+msgid "Nothing computed yet, or nothing in this category is up."
+msgstr "Näischt berechent nach, oder näischt an dëser Kategorie ass uewen."
+
+msgid "Nothing computed yet."
+msgstr "Näischt berechent nach."
+
+msgid "Nothing found for “%s”."
+msgstr "Näischt fonnt fir \"%s\"."
+
+msgid "Nothing in this list matches."
+msgstr "Näischt an dëser Lësch passt."
+
+msgid "Nothing in this list yet. Pick something out of the sky and tap the star on its card to keep it here."
+msgstr "Näischt an dëser Lësch nach. Weiel eppes aus dem Himmel an tippen op de Stär op sengem Kaart fir et hei ze halen."
+
+msgid "Nothing is selected. Pick an object in the sky first."
+msgstr "Näischt ausgewéilt. Weiel en Objet am Himmel éischt."
+
+msgid "Nothing matches."
+msgstr "Näischt passt."
+
+msgid "Nothing selected"
+msgstr "Näischt ausgewéilt"
+
+msgid "Nothing to plot."
+msgstr "Näischt fir ze plotten."
+
+msgid "Nothing to show."
+msgstr "Näischt ze weisen."
+
+msgid "Now"
+msgstr "Elo"
+
+msgid "N× above"
+msgstr "N× uewen"
+
+msgid "O./C. longitude"
+msgstr "Beob./Ber. Längt"
+
+msgid "OBJECT"
+msgstr "OBJET"
+
+msgid "OBJECTS"
+msgstr "OBJETEN"
+
+msgid "Object"
+msgstr "Objet"
+
+msgid "Object 1"
+msgstr "Objet 1"
+
+msgid "Object 2"
+msgstr "Objet 2"
+
+msgid "Objects which are up"
+msgstr "Objeten déi uewen sinn"
+
+msgid "Observable duration"
+msgstr "Observable Dauer"
+
+msgid "Observing list"
+msgstr "Beobachtungs Lësch"
+
+msgid "Observing list highlight"
+msgstr "Beobachtungs Lësch Eraushiewen"
+
+msgid "Observing lists"
+msgstr "Beobachtungs Lëschten"
+
+msgid "Occultation"
+msgstr "Okkultatioun"
+
+msgid "On the sky"
+msgstr "Am Himmel"
+
+msgid "One color"
+msgstr "Eng Faarf"
+
+msgid "One color for all orbits"
+msgstr "Eng Faarf fir all Ëmlafbunnen"
+
+msgid "Only for N latest selected objects"
+msgstr "Nëmme fir N lescht ausgewielt Objeten"
+
+msgid "Only for Solar elevation"
+msgstr "Nëmme fir Solar Elevatioun"
+
+msgid "Only list"
+msgstr "Nëmme Lësch"
+
+msgid "Only one at a time"
+msgstr "Nëmme een op eng Zäit"
+
+msgid "Only orbit for selected object…"
+msgstr "Nëmme Ëmlaf fir ausgewéilt Objet…"
+
+msgid "Only orbits of major planets…"
+msgstr "Nëmme Ëmlafbunnen vun Haaptplanéiten…"
+
+msgid "Oort cloud objects"
+msgstr "Oort Wolk Objeten"
+
+msgid "Opacity"
+msgstr "Deckkraaft"
+
+msgid "Open date and time"
+msgstr "Datum an Zäit opmaachen"
+
+msgid "Open location"
+msgstr "Standuert opmaachen"
+
+msgid "Open star clusters"
+msgstr "Ofen Stären Klumpen"
+
+msgid "Opens the JUPOS project in a browser"
+msgstr "Öffnet de JUPOS-Projekt an engem Browser"
+
+msgid "Opposition"
+msgstr "Opposioun"
+
+msgid "Opposition of"
+msgstr "Opposition vu"
+
+msgid "Oppositions"
+msgstr "Oppositiounen"
+
+msgid "Options"
+msgstr "Optiounen"
+
+msgid "Orbit colors"
+msgstr "Orbit-Faarf"
+
+msgid "Orbital periods ratio"
+msgstr "Orbital Perioden Verhältnis"
+
+msgid "Orbits"
+msgstr "Orbiten"
+
+msgid "Orbits of Oort cloud objects"
+msgstr "Orbiten vun Oort-Wollek-Objekter"
+
+msgid "Orbits of comets"
+msgstr "Orbiten vun Kometen"
+
+msgid "Orbits of cubewanos"
+msgstr "Orbiten vun Cubewano"
+
+msgid "Orbits of dwarf planets"
+msgstr "Orbiten vun Zwärgplanéiten"
+
+msgid "Orbits of interstellar objects"
+msgstr "Orbiten vun Interstellare Objekter"
+
+msgid "Orbits of major planets"
+msgstr "Orbiten vun Haaptplanéiten"
+
+msgid "Orbits of minor planets"
+msgstr "Orbiten vun Klengplanéiten"
+
+msgid "Orbits of moons"
+msgstr "Orbiten vun Mound"
+
+msgid "Orbits of plutinos"
+msgstr "Orbiten vun Plutino"
+
+msgid "Orbits of scattered disk objects"
+msgstr "Orbiten vun Scattered-Disk-Objekter"
+
+msgid "Orbits of sednoids"
+msgstr "Orbiten vun Sednoid"
+
+msgid "Other"
+msgstr "Aner"
+
+msgid "Otherwise every move adopts the zone of the new place."
+msgstr "Soss iwwernimmt all Beweegung d'Zäitzon vun der nächster Plaz."
+
+msgid "Outline craters"
+msgstr "Kraaterkontounen"
+
+msgid "Pan the sky"
+msgstr "Den Himmel verschiwen"
+
+msgid "Partial eclipse begins"
+msgstr "Partielle Däischtert fänkt un"
+
+msgid "Partial eclipse ends"
+msgstr "Partielle Däischtert endt"
+
+msgid "Partitions"
+msgstr "Partitioune"
+
+msgid "Partitions thickness"
+msgstr "Partitioune Déck"
+
+msgid "Path width"
+msgstr "Wee Breet"
+
+msgid "Pause"
+msgstr "Paus"
+
+msgid "Paused - start"
+msgstr "Pauséiert - starten"
+
+msgid "Penumbral magnitude"
+msgstr "Magnitud vun der Penumbra"
+
+msgid "Perfect visibility conditions for current location"
+msgstr "Perfekt Sicht Konditioune fir aktuell Standuert"
+
+msgid "Perihelion"
+msgstr "Perihélie"
+
+msgid "Perihelion and aphelion"
+msgstr "Perihel an Aphel"
+
+msgid "Phase angle"
+msgstr "Phas Wénkel"
+
+msgid "Phenomena"
+msgstr "Phänomener"
+
+msgid "Pick two different bodies to see how their distance changes."
+msgstr "Wéilt zwee verschidden Himmelskierper fir ze gesinn, wéi sech hir Distanz ännert."
+
+msgid "Pinch"
+msgstr "Kneife"
+
+msgid "Planet"
+msgstr "Planéit"
+
+msgid "Planet and time zone"
+msgstr "Planéit an Zäitzon"
+
+msgid "Planet markers"
+msgstr "Planéit-Markéierer"
+
+msgid "Planetary nebulae"
+msgstr "Planetär Nebulös"
+
+msgid "Planetary nebulae (<%1 mag)"
+msgstr "Planetär Nebulös (<%1 Mag.)"
+
+msgid "Planetary nomenclature"
+msgstr "Planéitar Nomenklatur"
+
+msgid "Planetary transits"
+msgstr "Planéit-Transitiounen"
+
+msgid "Planets"
+msgstr "Planéiten"
+
+msgid "Planets and Sun"
+msgstr "Planéiten an Sonn"
+
+msgid "Planets magnitude algorithm"
+msgstr "Magnitud-Algorithmus vu Planéite"
+
+msgid "Please select object to plot its 'Monthly Elevation' graph for the current year at selected time."
+msgstr "Bitte wielen Objet fir säi 'Monthly Elevation' Grafik fir dat aktuell Joer op ausgewielter Zäit ze plotten."
+
+msgid "Please select object to plot its graph 'Altitude vs. Time'."
+msgstr "Bitte wielen Objet fir säi Grafik 'Héicht vs. Zäit' ze plotten."
+
+msgid "Please select object to plot its graph 'Azimuth vs. Time'."
+msgstr "Bitte wielen Objet fir säi Grafik 'Azimut vs. Zäit' ze plotten."
+
+msgid "Plutinos"
+msgstr "Plutino"
+
+msgid "Pluto, Ceres, Pallas, Juno and Vesta"
+msgstr "Pluto, Ceres, Pallas, Juno an Vesta"
+
+msgid "Point size"
+msgstr "Punkt-Gréisst"
+
+msgid "Pointing"
+msgstr "Weisen"
+
+msgid "Polar distance"
+msgstr "Polare Distanz"
+
+msgid "Polar distance, not declination"
+msgstr "Polare Distanz, net Deklination"
+
+msgid "Poles and points"
+msgstr "Polen an Punkter"
+
+msgid "Polygon colour"
+msgstr "Polygon-Faarf"
+
+msgid "Position"
+msgstr "Positioun"
+
+msgid "Position angle"
+msgstr "Positiounswinkel"
+
+msgid "Positions"
+msgstr "Positioune"
+
+msgid "Positive values only"
+msgstr "Nëmme positiv Wäerter"
+
+msgid "Precession circles"
+msgstr "Präzessiounskreëser"
+
+msgid "Previous"
+msgstr "Fréier"
+
+msgid "Prime Vertical"
+msgstr "Primen Vertikal"
+
+msgid "Program Language"
+msgstr "Programm-Sprooch"
+
+msgid "Projected Solar Equator"
+msgstr "Projezeiert Sonn-Äquator"
+
+msgid "Projection"
+msgstr "Projektioun"
+
+msgid "Pronounce"
+msgstr "Ausspriechen"
+
+msgid "Pulsars"
+msgstr "Pulsaren"
+
+msgid "Quadrature circle"
+msgstr "Quadratur-Kreis"
+
+msgid "Query SIMBAD about selected object"
+msgstr "SIMBAD ofrechnen iwwer gewielten Objet"
+
+msgid "Query options"
+msgstr "Offro-Optiounen"
+
+msgid "Quit"
+msgstr "Ophalen"
+
+msgid "Quit button"
+msgstr "Betënde Knäppchen"
+
+msgid "Range"
+msgstr "Beräich"
+
+msgid "Ray helpers"
+msgstr "Stral-Hëlfer"
+
+msgid "Reading…"
+msgstr "Liest…"
+
+msgid "Real time speed"
+msgstr "Echtzäit-Vitesse"
+
+msgid "Recent Searches"
+msgstr "Rezent Sichungen"
+
+msgid "Rectangular FOV"
+msgstr "Rechteckigt Siichtfeld"
+
+msgid "Red"
+msgstr "Rout"
+
+msgid "Refraction, extinction, sky brightness"
+msgstr "Breching, Extinktion, Himmelshellekeeet"
+
+msgid "Refresh"
+msgstr "Aktualiséieren"
+
+msgid "Regions of the sky"
+msgstr "Regioune vun der Himmel"
+
+msgid "Relative scale"
+msgstr "Relativ Skala"
+
+msgid "Remove %s"
+msgstr "Ewechhuelen %s"
+
+msgid "Remove from observing list"
+msgstr "Vun Beobuchtungslëscht ewechhuelen"
+
+msgid "Rename"
+msgstr "Ëmbennéinen"
+
+msgid "Reset all"
+msgstr "Alles zerécksetzen"
+
+msgid "Restarting…"
+msgstr "Nei starten…"
+
+msgid "Restore defaults"
+msgstr "Standard zeréckherstellten"
+
+msgid "Results"
+msgstr "Resultater"
+
+msgid "Right ascension"
+msgstr "Rietsklaarmung"
+
+msgid "Rises"
+msgstr "Opgäng"
+
+msgid "Rotation"
+msgstr "Rotatioun"
+
+msgid "Running"
+msgstr "Leeft"
+
+msgid "SIMBAD did not answer."
+msgstr "SIMBAD huet net geäntwert."
+
+msgid "SIMBAD is switched off in the search options."
+msgstr "SIMBAD ass an de Sich Optiounen ausgeschalt."
+
+msgid "SIMBAD is switched off. Turn it on under Options to look objects up online."
+msgstr "SIMBAD ass ausgeschalt. Schalte si ënner Optiounen un fir Objekter online oofzerechnen."
+
+msgid "SIMBAD server"
+msgstr "SIMBAD Server"
+
+msgid "Saturation"
+msgstr "Sättigement"
+
+msgid "Save"
+msgstr "Späicheren"
+
+msgid "Save either the current FOV and direction of view or all the current options for use at next startup. Restoring default settings requires a restart of the app."
+msgstr "Späicherung entweder d'aktuell Siichtfeld an Siichtrichtung oder all aktuell Optiounen fir d'nächst Start. Standard Astellungen zeréckherstellten erfuerdert eng Nei-Start vun der App."
+
+msgid "Save settings"
+msgstr "Astellungen späicheren"
+
+msgid "Save to observing list"
+msgstr "Op Beobuchtungslëscht späicheren"
+
+msgid "Save view"
+msgstr "Siicht späicheren"
+
+msgid "Scale"
+msgstr "Skala"
+
+msgid "Scale factor"
+msgstr "Skala-Faktor"
+
+msgid "Scale marker and label visibility by surface brightness"
+msgstr "Markéierer an Etikett Siichtbarkeet no Uewerfläch Hellekeeet skalieren"
+
+msgid "Scales smoothly between 1× at the minimum field of view and the factor above at the maximum"
+msgstr "Skaliert glat tëschent 1× beim Minimum Siichtfeld an dem Faktor uewen beim Maximum"
+
+msgid "Scattered disc objects"
+msgstr "Zerstraut Disk Objeten"
+
+msgid "Screen label"
+msgstr "Bild-Etikett"
+
+msgid "Scripts"
+msgstr "Skripter"
+
+msgid "Search"
+msgstr "Sich"
+
+msgid "Search in list"
+msgstr "An der Lëscht sich"
+
+msgid "Search in list..."
+msgstr "An der Lëscht sich…"
+
+msgid "Search options"
+msgstr "Sich-Optiounen"
+
+msgid "Seasons"
+msgstr "Jorzeiten"
+
+msgid "Second body"
+msgstr "Zweeten Kierper"
+
+msgid "Second celestial body"
+msgstr "Zweeten Himmelskierper"
+
+msgid "Second graph"
+msgstr "Zweete Grafik"
+
+msgid "Second object"
+msgstr "Zweeten Objet"
+
+msgid "Secondary intercardinal points"
+msgstr "Sekundär Interkardinal Punkter"
+
+msgid "Sednoids"
+msgstr "Sednoid"
+
+msgid "See the sky through the ground"
+msgstr "Den Himmel duerch d'Äerd gesinn"
+
+msgid "Seen now"
+msgstr "Elo gesinn"
+
+msgid "Select an object first: this asks SIMBAD what it holds around it."
+msgstr "Wielen Objet éischt: dëst freet SIMBAD wat se ronderëm huet."
+
+msgid "Select it and show its card"
+msgstr "Wéilt et an weist seng Kaart"
+
+msgid "Select something in the sky first — this page works on the selection."
+msgstr "Wéilt eppes am Himmel fir erschte — dës Säit funktionnéiert op d'Selektioun."
+
+msgid "Selected object"
+msgstr "Gewielten Objet"
+
+msgid "Separate colors for orbits by object type"
+msgstr "Getrennte Faarbfir Orbiten no Objekttyp"
+
+msgid "Separate colors for orbits of major planets"
+msgstr "Getrennte Faarbfir Orbiten vu Haaptplanéiten"
+
+msgid "Separation"
+msgstr "Separatioun"
+
+msgid "September equinox"
+msgstr "September Equinox"
+
+msgid "Set the clock to %s"
+msgstr "D'Auer op %s stellen"
+
+msgid "Set the place"
+msgstr "D'Plaz stellen"
+
+msgid "Set to now"
+msgstr "Op elo stellen"
+
+msgid "Sets"
+msgstr "Ënnergäng"
+
+msgid "Shadow map for non-convex bodies. May coarsen the penumbra on some objects"
+msgstr "Schoatte Kaart fir net-konvex Kierper. Kann d'Penumbra op e puer Objekter vergrëberen."
+
+msgid "Shadow transit"
+msgstr "Schatten Transit"
+
+msgid "Shooting stars"
+msgstr "Réischtster"
+
+msgid "Short notation for units of surface brightness"
+msgstr "Kuerz Notatioun fir Ënheeten vu Uewerfläch Hellekeeet"
+
+msgid "Short steps over a long duration are slow."
+msgstr "Kuerz Schrëtt iwwer eng laang Dauer sinn lues."
+
+msgid "Show"
+msgstr "Weisen"
+
+msgid "Show FOV center marker when position is search"
+msgstr "Siichtfeld Zentrum Markéierer weisen wann Positioun gesicht ass"
+
+msgid "Show additional buttons"
+msgstr "Zousätzlech Knäppcher weisen"
+
+msgid "Show additional star names"
+msgstr "Zousätzlech Stärennemm weisen"
+
+msgid "Show all information"
+msgstr "All Informatioune weisen"
+
+msgid "Show atmospheric extinction"
+msgstr "Atmospher Extinktion weisen"
+
+msgid "Show boundaries of constellations"
+msgstr "Grenze vu Stärebiller weisen"
+
+msgid "Show button in addition to keyboard shortcut?"
+msgstr "Knäppchen zousätzlech zu Tastatur Kierzwee weisen?"
+
+msgid "Show controls"
+msgstr "Kontroller weisen"
+
+msgid "Show each body where it was when the light left it (recommended)"
+msgstr "Weis all Kierper wou et war wann d'Liicht et verlooss huet (recommandéiert)"
+
+msgid "Show fog"
+msgstr "Niwwel weisen"
+
+msgid "Show frames per second beside the field of view"
+msgstr "Frames pro Sekonn nieft dem Siichtfeld weisen"
+
+msgid "Show ground"
+msgstr "Buedem weisen"
+
+msgid "Show hints and labels for planetary features"
+msgstr "Wënker an Etikett fir Planéit Feature weisen"
+
+msgid "Show illumination"
+msgstr "Hallefachtung weisen"
+
+msgid "Show in sky"
+msgstr "Am Himmel weisen"
+
+msgid "Show less"
+msgstr "Manner weisen"
+
+msgid "Show lunar stations (if defined)"
+msgstr "Mound Statiounen weisen (wann definéiert)"
+
+msgid "Show more"
+msgstr "Méi weisen"
+
+msgid "Show objects which are up"
+msgstr "Objekter weisen déi uewen sinn"
+
+msgid "Show only named DSO"
+msgstr "Nëmme benommt DSO weisen"
+
+msgid "Show only objects between the two sizes"
+msgstr "Nëmme Objekter tëschent de zwee Gréisste weisen"
+
+msgid "Show only the kinds ticked below"
+msgstr "Nëmme d'Sorten ungecat ënnen weisen"
+
+msgid "Show or hide the two rails of controls"
+msgstr "D'zwee Schën vu Kontroller weisen oder verstoppen"
+
+msgid "Show orbit even if object is off screen"
+msgstr "Orbit weisen och wann Objet affer Bild ass"
+
+msgid "Show orbit only for selected SSO"
+msgstr "Orbit nëmme fir gewielten SSO weisen"
+
+msgid "Show orbits"
+msgstr "Orbiten weisen"
+
+msgid "Show orbits of major planets"
+msgstr "Orbiten vu Haaptplanéiten weisen"
+
+msgid "Show planetary nomenclature"
+msgstr "Planéitar Nomenklatur weisen"
+
+msgid "Show special nomenclature points only"
+msgstr "Nëmme speziell Nomenklatur Punkter weisen"
+
+msgid "Show surveys"
+msgstr "Ëmfroen weisen"
+
+msgid "Show this survey"
+msgstr "Dës Ëmfro weisen"
+
+msgid "Show tiny circles for minor bodies regardless of magnitude"
+msgstr "Kleng Kreëser fir kleng Kierper weisen, egal vu Magnitud"
+
+msgid "Show trails"
+msgstr "Spueren weisen"
+
+msgid "Show zodiac (if defined)"
+msgstr "Zodiak weisen (wann definéiert)"
+
+msgid "Sidereal time"
+msgstr "Stäre Zäit"
+
+msgid "Simbad Lookup Error: %s"
+msgstr "Simbad Sichfehler: %s"
+
+msgid "Simbad Lookup: querying"
+msgstr "Simbad Sich: ofrechnen"
+
+msgid "Simulate light speed"
+msgstr "Liichtgeschwindegkeet simuléieren"
+
+msgid "Simulate self-shadowing"
+msgstr "Selbst-Schoatte simuléieren"
+
+msgid "Simulation"
+msgstr "Simulatioun"
+
+msgid "Sky"
+msgstr "Himmel"
+
+msgid "Sky Culture"
+msgstr "Himmel-Kultur"
+
+msgid "Sky and viewing options"
+msgstr "Himmel an Siicht Optiounen"
+
+msgid "Sky culture"
+msgstr "Himmel-Kultur"
+
+msgid "Slow down"
+msgstr "Lues goen"
+
+msgid "Smallest, ′"
+msgstr "Klengste, ′"
+
+msgid "Solar System"
+msgstr "Sonnesystem"
+
+msgid "Solar System objects"
+msgstr "Sonnesystem Objekter"
+
+msgid "Solar altitude for Twilight Finder"
+msgstr "Sonn Héicht fir Twilight Finder"
+
+msgid "Solar elongation"
+msgstr "Sonn Elongatioun"
+
+msgid "Solar system"
+msgstr "Sonnenséystem"
+
+msgid "Solar system objects"
+msgstr "Sonnenséystem Objeten"
+
+msgid "Solar system objects: comets"
+msgstr "Sonnenséystem Objeten: Kometen"
+
+msgid "Solar system objects: minor bodies"
+msgstr "Sonnenséystem Objeten: kleng Kierper"
+
+msgid "Solar system objects: planets"
+msgstr "Sonnenséystem Objeten: Planéiten"
+
+msgid "Solstices (J2000)"
+msgstr "Sonnwendungen (J2000)"
+
+msgid "Solstices (of date)"
+msgstr "Sonnwendungen (vum Datum)"
+
+msgid "Some objects may be found after activation respective plug-ins"
+msgstr "E puer Objekter kënne fonnt ginn nom Aktivéierung vu respektiv Plug-ins"
+
+msgid "Special points only"
+msgstr "Nëmme speziell Punkter"
+
+msgid "Spectral Class"
+msgstr "Spektral Klass"
+
+msgid "Speed up"
+msgstr "Billes goen"
+
+msgid "Spiky stars"
+msgstr "Stächelich Stären"
+
+msgid "Stand where the landscape was shot, on the planet it names"
+msgstr "Stéck wou d'Landschaft opgeholl gouf, op de Planéit deen et nennt"
+
+msgid "Star, planet, catalogue number…"
+msgstr "Stär, Planéit, Katalog Nummber…"
+
+msgid "Started"
+msgstr "Gestëmpt"
+
+msgid "Starting"
+msgstr "Starten"
+
+msgid "Startup FOV"
+msgstr "Start Siichtfeld"
+
+msgid "Startup date and time"
+msgstr "Start Datum an Zäit"
+
+msgid "Startup direction of view"
+msgstr "Start Siichtrichtung"
+
+msgid "Stationary (begin prograde motion)"
+msgstr "Stationär (Ufank prograd Bewegung)"
+
+msgid "Stationary (begin retrograde motion)"
+msgstr "Stationär (Ufank retrograd Bewegung)"
+
+msgid "Stellarium's user guide covers the astronomy this app shares with it: stellarium.org/documentation"
+msgstr "De Benotzerguide vum Stellarium behandelt d'Astronomie, déi dës App mat him deelt: stellarium.org/documentation"
+
+msgid "Step, hours"
+msgstr "Schrëtt, Stonne"
+
+msgid "Stop a running script"
+msgstr "Eng leefend Skripted stoppen"
+
+msgid "Stop clock when starting"
+msgstr "Auer stoppen wann starten"
+
+msgid "Strasbourg astronomical Data Center (France)"
+msgstr "Strasbourg astronomescht Datenzenter (Frankräich)"
+
+msgid "Style"
+msgstr "Stil"
+
+msgid "Sun altitude"
+msgstr "Sonn Héicht"
+
+msgid "Sun at"
+msgstr "Sonn um"
+
+msgid "Sun's altitude"
+msgstr "Sonn seng Héicht"
+
+msgid "Sun's corona"
+msgstr "Sonn seng Corona"
+
+msgid "Sun's glare"
+msgstr "Sonn seng Glaare"
+
+msgid "Sun, planets and moons of first body and observer's planet"
+msgstr "Sonn, Planéiten an Mound vum éischten Kierper an dem Observatéier seng Planéit"
+
+msgid "Sun, planets and moons of observer's planet"
+msgstr "Sonn, Planéiten an Mound vum Observatéier seng Planéit"
+
+msgid "Sunlight scattered by interplanetary dust"
+msgstr "Sonnliicht duerch interplanétare Staab verspreet"
+
+msgid "Supergalactic"
+msgstr "Supergalaktesch"
+
+msgid "Superior conjunction"
+msgstr "Superéier Konjunktioun"
+
+msgid "Supernova candidates"
+msgstr "Supernova Kandidaten"
+
+msgid "Supernova remnant candidates"
+msgstr "Supernova Rescht Kandidaten"
+
+msgid "Supernova remnants"
+msgstr "Supernova Rescht"
+
+msgid "Surveys"
+msgstr "Ëmfroen"
+
+msgid "Switch this off to see the trails for all Solar system bodies"
+msgstr "Schalte dëst aus fir d'Spueren fir all Sonnesystem Kierper ze gesinn"
+
+msgid "Symbiotic stars"
+msgstr "Symbiotescht Stären"
+
+msgid "Synodic period"
+msgstr "Synodesch Periode"
+
+msgid "System date and time"
+msgstr "System Datum an Zäit"
+
+msgid "System date at"
+msgstr "System Datum um"
+
+msgid "System default"
+msgstr "System Standard"
+
+msgid "Table"
+msgstr "Tabell"
+
+msgid "Tabular output for coordinates and time"
+msgstr "Tabellesch Output fir Koordinate an Zäit"
+
+msgid "Tap a colour to change it. Changes show on the sky at once and are kept."
+msgstr "Tippt eng Faarf fir se ze änneren. Ännerunge weisen am Himmel direkt an ginn behalen."
+
+msgid "Tap again to confirm"
+msgstr "Tippt erëm fir ze bestätegen"
+
+msgid "Tap an object"
+msgstr "Tippt en Objet"
+
+msgid "Tap the chart to read a value."
+msgstr "Tippt op d'Grafik fir e Wäert ze liesen."
+
+msgid "Tap the clock"
+msgstr "Klickt op d'Auer"
+
+msgid "Tap the gear"
+msgstr "Klickt op de Roue"
+
+msgid "Tap the map to stand there."
+msgstr "Klickt op d'Kaart fir do z'stoen."
+
+msgid "Tap the place"
+msgstr "Klickt op d'Plaz"
+
+msgid "Tap to confirm"
+msgstr "Klickt fir z'confirméieren"
+
+msgid "Tertiary intercardinal points"
+msgstr "Tërtsiär Zwëschendirektioune"
+
+msgid "Text angle"
+msgstr "Wénkel vum Text"
+
+msgid "The Great Red Spot drifts in System II longitude. Enter a recent measurement and the drift rate to carry it forward from."
+msgstr "De Grousséng Roude Fleck drifft a Längengradé vum System II. Gitt eng rezent Messung an d'Drifttempérance fir se virzefëren."
+
+msgid "The algorithm is based on visual observations 1877-1891 by G. Müller and was still republished in the Explanatory Supplement to the Astronomical Ephemeris (1961)."
+msgstr "Den Algorithmus ass baséiert op visuell Observatiounen 1877-1891 vum G. Müller a gouf nach ëmmer erëm publizéiert am Explanatory Supplement zur Astronomical Ephemeris (1961)."
+
+msgid "The algorithm was published by A. Mallama & J. L. Hilton: Computing apparent planetary magnitudes for the Astronomical Almanac. Astronomy&Computing 25 (2018) 10-24."
+msgstr "Den Algorithmus gouf vum A. Mallama & J. L. Hilton publizéiert: Computing apparent planetary magnitudes for the Astronomical Almanac. Astronomy&Computing 25 (2018) 10-24."
+
+msgid "The algorithm was published in the 2nd edition of the Explanatory Supplement to the Astronomical Almanac (1992)."
+msgstr "Den Algorithmus gouf an der 2. Editioun vum Explanatory Supplement zur Astronomical Almanac publizéiert (1992)."
+
+msgid "The algorithm was published in the 3rd edition of the Explanatory Supplement to the Astronomical Almanac (2013)."
+msgstr "Den Algorithmus gouf an der 3. Editioun vum Explanatory Supplement zur Astronomical Almanac publizéiert (2013)."
+
+msgid "The algorithm was used in the Astronomical Almanac (1984 and later) and gives V (instrumental) magnitudes (allegedly from D.L. Harris)."
+msgstr "Den Algorithmus gouf am Astronomical Almanac (1984 an vun do un) notzt a gëtt V (Instrumentell) Magnitudes (angeblig vum D.L. Harris)."
+
+msgid "The classical cepheids"
+msgstr "Déi klassesch Cepheid"
+
+msgid "The colour each kind of object is drawn in"
+msgstr "D'Faarf fir jed Suertz Objeten"
+
+msgid "The engine did not answer with any colours."
+msgstr "Den Motor huet net mat Farwen geäntwert."
+
+msgid "The galactic band"
+msgstr "De galakteschen Bann"
+
+msgid "The greatest eclipse is invisible in current location"
+msgstr "Déi gréisst Fënster ass onsiichtbar um aktuellen Plaz"
+
+msgid "The horizon outline instead of the panorama"
+msgstr "D'Horizont Linn amplaz vum Panorama"
+
+msgid "The path each body has taken across the sky"
+msgstr "De Bahn dee jidder Kierper iwwer den Himmel ginn huet"
+
+msgid "The shortest label the culture defines"
+msgstr "Déi kuerste Beschrëftung déi d'Kultur definéiert"
+
+msgid "Thickness"
+msgstr "Déckt"
+
+msgid "This copy ships no scripts."
+msgstr "Dës Versioun huet keng Scripter."
+
+msgid "This device has no location service."
+msgstr "Dës Appareil huet kee Lokalisatiounssystem."
+
+msgid "This part of the engine exposes no settings on this build."
+msgstr "Dëse Deel vum Motor huet op dëser Versioun keng Astellungen."
+
+msgid "This tool works on Earth only!"
+msgstr "Dëst Tool funktionéiert nëmmen op der Äerd!"
+
+msgid "This tool works on Earth only. Short steps over a long duration are slow."
+msgstr "Dësen Tool funktionéiert nëmmen op der Äerd. Kuerz Intervaller iwwer eng laang Dauer sinn lues."
+
+msgid "This year"
+msgstr "Dëst Joer"
+
+msgid "Time"
+msgstr "Zäit"
+
+msgid "Time correction"
+msgstr "Zäitkorrektioun"
+
+msgid "Time of day"
+msgstr "Zäitpunkt vum Dag"
+
+msgid "Time span"
+msgstr "Zäitreie"
+
+msgid "Time step"
+msgstr "Zäitschrëtt"
+
+msgid "Time zone"
+msgstr "Zäitzon"
+
+msgid "To the next (mths)"
+msgstr "Zur Nächster (Méint)"
+
+msgid "To the next, months"
+msgstr "Zur Nächster, Méint"
+
+msgid "Today"
+msgstr "Haut"
+
+msgid "Toggle display of nebula images."
+msgstr "Nebelabiller opsplënnen"
+
+msgid "Toggle display of the button for the Digitized Sky Survey."
+msgstr "Knäppchen fir Digitized Sky Survey opsplënnen"
+
+msgid "Toggle display of the button for the HiPS Surveys. Select a survey in the View settings."
+msgstr "Knäppchen fir HiPS Surveys opsplënnen. Wielt eng Survei an de Ablesunsënstallung."
+
+msgid "Toggle drawing Sun's glare"
+msgstr "Sonneglaaner opsplënnen"
+
+msgid "Toggle drawing halo around the Moon"
+msgstr "Mound Halo opsplënnen"
+
+msgid "Toggle permanent drawing of Sun's corona when atmosphere is disabled"
+msgstr "Sonnekoroun permanéint opsplënnen, wann d'Atmosphär ausgeschalt ass"
+
+msgid "Toggle the usage of background under GUI buttons"
+msgstr "Hannergrond ënner GUI Knäppcher opsplënnen"
+
+msgid "Toggle vertical and horizontal image flip buttons."
+msgstr "Vertikal- a Horizontal-Flip Knäppcher opsplënnen"
+
+msgid "Total eclipse begins"
+msgstr "Total Fënster ufänkt"
+
+msgid "Total eclipse ends"
+msgstr "Total Fënster ennt"
+
+msgid "Trails"
+msgstr "Baire"
+
+msgid "Transit"
+msgstr "Transitioun"
+
+msgid "Translated"
+msgstr "Iwwersaat"
+
+msgid "Transparency"
+msgstr "Duerchsichtegkeet"
+
+msgid "Twilight and rise and set times are worked out for an observer on Earth. Move back to Earth to see them."
+msgstr "Dammerung-, Opgank- a Ënnergangsäiten ginn fir en Observateur op der Äerd ausgerechent. Gitt zréck op d'Äerd fir se ze gesinn."
+
+msgid "Twinkle"
+msgstr "Stierselen"
+
+msgid "Twinkle amount"
+msgstr "Stierselen Intensitéit"
+
+msgid "Twinkle even without atmosphere"
+msgstr "Stierselen och ouni Atmosphär"
+
+msgid "Twinkle is caused by atmospheric turbulence; this shows it regardless"
+msgstr "Stierselen gëtt duerch Luftturbulenz verursaacht; dëse Modus weist et egal"
+
+msgid "Type a name, a Bayer letter or a catalogue number - Vega, α Lyr, M 31, NGC 224."
+msgstr "Gitt e Numm, e Bayer Bréif oder eng Katalognummer - Vega, α Lyr, M 31, NGC 224."
+
+msgid "Types"
+msgstr "Typë"
+
+msgid "Umbral magnitude"
+msgstr "Magnitud vum Shattumaart"
+
+msgid "University of Strasbourg (France)"
+msgstr "Universitéit vu Stréisbourg (Frankreich)"
+
+msgid "Unnamed star"
+msgstr "Unbenannt Stär"
+
+msgid "Up to mag."
+msgstr "Bis op mag."
+
+msgid "Update"
+msgstr "Aktualiséieren"
+
+msgid "Use SIMBAD"
+msgstr "SIMBAD benotzen"
+
+msgid "Use additional names of DSO"
+msgstr "Zousätzlech Noomë vu DSO benotzen"
+
+msgid "Use autofill only from the beginning of words"
+msgstr "Autofill nëmmen vum Ufank vu Wierder benotzen"
+
+msgid "Use buttons background"
+msgstr "Knäppcher Hannergrond benotzen"
+
+msgid "Use common symbols for coordinate systems"
+msgstr "Allgemeng Symbole fir Koordinatensystemer benotzen"
+
+msgid "Use custom time zone"
+msgstr "Benotzerdefinéiert Zäitzon benotzen"
+
+msgid "Use decimal degrees"
+msgstr "Dezimalgraden benotzen"
+
+msgid "Use decimal degrees for coordinates"
+msgstr "Dezimalgraden fir Koordinaten benotzen"
+
+msgid "Use designations for screen labels"
+msgstr "Bézeichnunge fir Bildschierm-Beschrëftunge benotzen"
+
+msgid "Use distance from North Celestial Pole, not declination from equator in equatorial coordinates"
+msgstr "Distanz vum Nordpol benotzen, net Déklinatioun vum Äquator an equatorialen Koordinaten"
+
+msgid "Use mag/arcsec^2 for surface brightness"
+msgstr "Benotz mag/arcsec^2 fir Flächenhelligkeit"
+
+msgid "Use more accurate 3D models (where available)"
+msgstr "Méi präzis 3D Modeller benotzen (wou verfügbar)"
+
+msgid "Use my location"
+msgstr "Meng Lokalisatioun benotzen"
+
+msgid "Use on-line astronomical database SIMBAD"
+msgstr "SIMBAD Datebas online benotzen"
+
+msgid "Use outlines for big deep-sky objects"
+msgstr "Austrëss fir grouss Déipthimmel Objeten benotzen"
+
+msgid "Use proportional hints"
+msgstr "Proportiounell Hëllefen benotzen"
+
+msgid "Use sorting by string length"
+msgstr "No Stringlängd sortéieren"
+
+msgid "Use surface brightness"
+msgstr "Oflächenhelleegkeet benotzen"
+
+msgid "Use the date now shown in the sky"
+msgstr "D'Datum benotzen dat elo um Himmel gez'eechent gëtt"
+
+msgid "Use the value in landscape.ini when it has one"
+msgstr "De Wert aus landscape.ini benotzen wann et en huet"
+
+msgid "Use the value stored for this location"
+msgstr "De gespäicherte Wert fir dës Standuert benotzen"
+
+msgid "Use this landscape as default"
+msgstr "Dës Landschaft als Standard benotzen"
+
+msgid "Use this sky culture as default"
+msgstr "Dës Himmelkultur als Standard benotzen"
+
+msgid "Var. stars"
+msgstr "Variabel Stären"
+
+msgid "Version"
+msgstr "Versioun"
+
+msgid "Version %s  ·  Qt %s"
+msgstr "Versioun %s  ·  Qt %s"
+
+msgid "Vertical viewport offset"
+msgstr "Vertikal Ansichtsfenster-Offset"
+
+msgid "View"
+msgstr "Ablesung"
+
+msgid "View recent GRS measurements"
+msgstr "Rezent GRS Messunge kucken"
+
+msgid "Visibility"
+msgstr "Sichtegkeet"
+
+msgid "Visual magnitude based on phase angle and albedo."
+msgstr "Visuell Magnitud baséiert op Phasenwinkel a Albedo."
+
+msgid "Western quadrature"
+msgstr "Wescht Quadratur"
+
+msgid "When a search result is chosen"
+msgstr "Wann eng Sichresultat ausgewielt gëtt"
+
+msgid "Where Jupiter's Great Red Spot was, and when"
+msgstr "Wou de Grousséng Roude Fleck vum Jupiter war, an wéini"
+
+msgid "Width"
+msgstr "Breet"
+
+msgid "Working out the contact times…"
+msgstr "D'Kontaktzäiten ginn ausgerechent…"
+
+msgid "Year"
+msgstr "Joer"
+
+msgid "Zenith and Nadir"
+msgstr "Zenit an Nadir"
+
+msgid "Zodiac"
+msgstr "Zodiak"
+
+msgid "Zodiac and lunar stations"
+msgstr "Zodiak a Mondstatiounen"
+
+msgid "Zodiacal Light brightness"
+msgstr "Zodiakalliicht Hellektung"
+
+msgid "Zoom in and out"
+msgstr "Zoomen An- a Auszoom"
+
+msgid "after sunset"
+msgstr "no Sonneënner"
+
+msgid "before sunrise"
+msgstr "virun Sonneaufgang"
+
+msgid "bright suburban"
+msgstr "hell suburbanesch"
+
+msgid "east +"
+msgstr "Oost +"
+
+msgid "engine ready, interface going live"
+msgstr "Motor bereet, Interface geet live"
+
+msgid "excellent dark sky"
+msgstr "ausgezeechent däischter Himmel"
+
+msgid "from landscape, if given"
+msgstr "vun der Landschaft, wann ginn"
+
+msgid "inner city"
+msgstr "Bannerstuat"
+
+msgid "north +"
+msgstr "Norden +"
+
+msgid "rural/suburban"
+msgstr "Ländlech/Vorstadt"
+
+msgid "select all"
+msgstr "Alles auswielen"
+
+msgid "select none"
+msgstr "Näischt auswielen"
+
+msgid "select preference"
+msgstr "Préférence auswielen"
+
+msgid "select standard"
+msgstr "Standard auswielen"
+
+msgid "store preference"
+msgstr "Préférence spéicheren"
+
+msgid "suburban/urban"
+msgstr "Vorstadt/Urbain"
+
+msgid "truly dark"
+msgstr "richteg däischter"
+
+msgid "unreadable snapshot"
+msgstr "onlesbar Bildschierm-Screenshot"
+
+msgid "use current"
+msgstr "Aktuell benotzen"
+
+msgid "with Solar Dates"
+msgstr "mat Sonnendatum"
+
+msgid "… and moons"
+msgstr "… a Monder"

@@ -1,0 +1,2173 @@
+# Asterium interface translation for ro.
+# Copyright (C) 2026 the Asterium authors
+# This file is distributed under the same licence as the Asterium package.
+#
+# MACHINE TRANSLATION, not reviewed by a speaker of this language.
+# Terminology follows upstream Stellarium's own ro catalogue, which was used
+# as a glossary, and every entry keeps the source's printf placeholders.
+# Corrections from a human translator are welcome and should simply replace these.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: asterium\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%d bodies"
+msgstr "%d corpuri"
+
+msgid "%d object"
+msgstr "%d obiect"
+
+msgid "%d objects"
+msgstr "%d obiecte"
+
+msgid "%s colour"
+msgstr "culoare %s"
+
+msgid "%s from %s, ±%.0f m"
+msgstr "%s de la %s, ±%.0f m"
+
+msgid "12-hour"
+msgstr "12 ore"
+
+msgid "1× below"
+msgstr "1× dedesubt"
+
+msgid "24-hour"
+msgstr "24 de ore"
+
+msgid "A button to mark every object of the current observing list on the sky."
+msgstr "Un buton pentru a marca fiecare obiect din lista de observare actuală pe cer."
+
+msgid "A button to toggle ecliptic grid of date"
+msgstr "Un buton pentru a comuta grila ecliptică de dată"
+
+msgid "A button to toggle galactic grid"
+msgstr "Un buton pentru a comuta grila galactică"
+
+msgid "A polygonal model for some small moons, asteroids and comets instead of a sphere"
+msgstr "Un model poligonal pentru unele luni mici, asteroizi și comete în loc de o sferă"
+
+msgid "A touch-first planetarium forked from Stellarium, whose astronomy engine it uses unchanged. The interface is new; everything that draws the sky is upstream's work."
+msgstr "Un planetariu cu prioritate tactilă bifurcat din Stellarium, al cărui motor de astronomie îl folosește nemodificat. Interfața este nouă; totul ce desenează cerul este lucrul upstream."
+
+msgid "Abbreviated names"
+msgstr "Nume abreviate"
+
+msgid "About this sky culture"
+msgstr "Despre această cultură cerească"
+
+msgid "Above altitude, °"
+msgstr "Deasupra altitudinii, °"
+
+msgid "Absolute scale"
+msgstr "Scară absolută"
+
+msgid "Activate this option to calculate azimuth from south towards west."
+msgstr "Activați această opțiune pentru a calcula azimutul din sud spre vest."
+
+msgid "Add %s"
+msgstr "Adaugă %s"
+
+msgid "Additional information settings"
+msgstr "Setări informații suplimentare"
+
+msgid "Adjust brightness to bright objects"
+msgstr "Ajustează luminozitatea obiectelor luminoase"
+
+msgid "Algol-type eclipsing systems"
+msgstr "Sisteme eclipsante de tip Algol"
+
+msgid "Algorithm of ΔT"
+msgstr "Algoritm de ΔT"
+
+msgid "All IDs"
+msgstr "Toate ID-urile"
+
+msgid "All naked-eye planets"
+msgstr "Toate planetele vizibile cu ochiul liber"
+
+msgid "All solar eclipses"
+msgstr "Toate eclipsele solare"
+
+msgid "Allow negative hour angles"
+msgstr "Permite unghiuri orare negative"
+
+msgid "Allow results outside the recommended time range of the orbital elements"
+msgstr "Permite rezultate în afara intervalului de timp recomandat al elementelor orbitale"
+
+msgid "Almanac"
+msgstr "Almanah"
+
+msgid "Almanac: Sun, Moon and naked-eye planets"
+msgstr "Almanah: Soare, Lună și planete vizibile cu ochiul liber"
+
+msgid "Also find"
+msgstr "Și găsește"
+
+msgid "Also plot"
+msgstr "Și trasează"
+
+msgid "Also show moons of selected object or planets"
+msgstr "Arată și lunile obiectelor selectate sau planetelor"
+
+msgid "Altitude limit, °"
+msgstr "Limita de altitudine, °"
+
+msgid "Amount"
+msgstr "Cantitate"
+
+msgid "An observer floats above its planet, so there is nowhere on it to stand. Choose another planet to come back down."
+msgstr "Un observator plutește deasupra planetei sale, deci nu are unde să stea. Alegeți o altă planetă pentru a reveni."
+
+msgid "And"
+msgstr "Și"
+
+msgid "And also"
+msgstr "Și de asemenea"
+
+msgid "And the next (years)"
+msgstr "Și următorul (ani)"
+
+msgid "Ang. Size"
+msgstr "Mărime unghiulară"
+
+msgid "Angular distance between the Moon and selected object"
+msgstr "Distanță unghiulară între Lună și obiectul selectat"
+
+msgid "Angular distance from the Moon"
+msgstr "Distanță unghiulară de la Lună"
+
+msgid "Angular distance from the Moon for second object"
+msgstr "Distanță unghiulară de la Lună pentru al doilea obiect"
+
+msgid "Angular distance from the Sun"
+msgstr "Distanță unghiulară de la Soare"
+
+msgid "Angular distance from the Sun for second object"
+msgstr "Distanță unghiulară de la Soare pentru al doilea obiect"
+
+msgid "Angular size"
+msgstr "Dimensiune unghiulară"
+
+msgid "Annual drift"
+msgstr "Deriva anuală"
+
+msgid "Aphelion"
+msgstr "Afeliu"
+
+msgid "Appearance"
+msgstr "Aspect"
+
+msgid "Apply time interval limits to list"
+msgstr "Aplică limite de interval de timp la listă"
+
+msgid "Art"
+msgstr "Artă"
+
+msgid "Artificial satellites and unnamed stars are excluded from calculation."
+msgstr "Sateliții artificiali și stelele nenumite sunt excluși din calcul."
+
+msgid "Asking for permission…"
+msgstr "Se cere permisiune…"
+
+msgid "Asks SIMBAD what it holds around the object that is selected now, and prints the answer as it comes back."
+msgstr "Întreabă SIMBAD ce ține în jurul obiectului selectat acum și tipărește răspunsul pe măsură ce vine."
+
+msgid "Ast. lines"
+msgstr "Linii ast."
+
+msgid "Ast. names"
+msgstr "Nume ast."
+
+msgid "Asterisms"
+msgstr "Asterisme"
+
+msgid "Asterisms font size"
+msgstr "Dimensiune font asterisme"
+
+msgid "Astronomical Almanac (1984)"
+msgstr "Almanahul Astronomic (1984)"
+
+msgid "Astronomical Almanac (default) enlarges by 2%; Danjon (1951) differs slightly"
+msgstr "Almanahul Astronomic (implicit) mărește cu 2%; Danjon (1951) diferă ușor"
+
+msgid "Astronomical Twilight"
+msgstr "Amurg astronomic"
+
+msgid "Astronomical night"
+msgstr "Noapte astronomică"
+
+msgid "At"
+msgstr "La"
+
+msgid "Atmosph."
+msgstr "Atmosf."
+
+msgid "Automatic closing dialog"
+msgstr "Dialog de închidere automată"
+
+msgid "Automatic transparency"
+msgstr "Transparență automată"
+
+msgid "Axis distance"
+msgstr "Distanța axei"
+
+msgid "Azi. grid"
+msgstr "Grilă azi."
+
+msgid "Azimuth and altitude rather than right ascension and declination"
+msgstr "Azimut și altitudine în loc de ascensie dreapta și declinație"
+
+msgid "Azimuth from South"
+msgstr "Azimut din sud"
+
+msgid "Beginning of center line; central eclipse begins"
+msgstr "Începutul liniei centrale; eclipsa centrală începe"
+
+msgid "Below the horizon here."
+msgstr "Sub orizont aici."
+
+msgid "Between objects"
+msgstr "Între obiecte"
+
+msgid "Boundless"
+msgstr "Fără limite"
+
+msgid "Bounds"
+msgstr "Limitele"
+
+msgid "Bright Solar system objects (<%1 mag)"
+msgstr "Obiecte strălucitoare din Sistemul Solar (magnitudine <%1)"
+
+msgid "Bright barium stars"
+msgstr "Stele strălucitoare de bariu"
+
+msgid "Bright carbon stars"
+msgstr "Stele strălucitoare de carbon"
+
+msgid "Bright double stars"
+msgstr "Stele duble strălucitoare"
+
+msgid "Bright double stars (<%1 mag)"
+msgstr "Stele duble strălucitoare (magnitudine <%1)"
+
+msgid "Bright nebulae"
+msgstr "Nebuloase strălucitoare"
+
+msgid "Bright nebulae (<%1 mag)"
+msgstr "Nebuloase strălucitoare (magnitudine <%1)"
+
+msgid "Bright nova stars"
+msgstr "Stele nova strălucitoare"
+
+msgid "Bright star clusters (<%1 mag)"
+msgstr "Roiuri de stele strălucitoare (magnitudine <%1)"
+
+msgid "Bright stars"
+msgstr "Stele strălucitoare"
+
+msgid "Bright stars with high proper motion"
+msgstr "Stele strălucitoare cu mișcare proprie mare"
+
+msgid "Bright supernova stars"
+msgstr "Stele supernova strălucitoare"
+
+msgid "Bright variable stars"
+msgstr "Stele variabile strălucitoare"
+
+msgid "Bright variable stars (<%1 mag)"
+msgstr "Stele variabile strălucitoare (magnitudine <%1)"
+
+msgid "Brighter than"
+msgstr "Mai luminoase decât"
+
+msgid "By object type"
+msgstr "După tipul obiectului"
+
+msgid "By planet"
+msgstr "După planetă"
+
+msgid "Calculate"
+msgstr "Calculează"
+
+msgid "Calculating…"
+msgstr "Se calculează…"
+
+msgid "Caldwell objects"
+msgstr "Obiecte Caldwell"
+
+msgid "Cardinals"
+msgstr "Cardinale"
+
+msgid "Catalogue numbers instead of common names"
+msgstr "Numere din catalog în loc de nume comune"
+
+msgid "Category"
+msgstr "Categorie"
+
+msgid "Celestial poles (J2000)"
+msgstr "Poli celestiali (J2000)"
+
+msgid "Celestial poles (of date)"
+msgstr "Poli celestiali (de dată)"
+
+msgid "Center of FOV"
+msgstr "Centru FOV"
+
+msgid "Centering button"
+msgstr "Buton de centrare"
+
+msgid "Central duration"
+msgstr "Durată centrală"
+
+msgid "Central eclipse begins"
+msgstr "Eclipsa centrală începe"
+
+msgid "Central eclipse ends"
+msgstr "Eclipsa centrală se termină"
+
+msgid "Centre"
+msgstr "Centru"
+
+msgid "Centre on object"
+msgstr "Centru pe obiect"
+
+msgid "Centre point"
+msgstr "Punct central"
+
+msgid "Circles"
+msgstr "Cercuri"
+
+msgid "Circular FOV"
+msgstr "FOV circular"
+
+msgid "City"
+msgstr "Oraș"
+
+msgid "Civil Twilight"
+msgstr "Amurg civil"
+
+msgid "Cleanup"
+msgstr "Curățare"
+
+msgid "Clear"
+msgstr "Șterge"
+
+msgid "Clear recent searches"
+msgstr "Șterge căutările recente"
+
+msgid "Clear the selection - a touch screen has no right button"
+msgstr "Șterge selecția - ecranul tactil nu are buton dreapta"
+
+msgid "Cleared."
+msgstr "Șters."
+
+msgid "Click on star to show its constellation"
+msgstr "Faceți clic pe stea pentru a-i arăta constelația"
+
+msgid "Close"
+msgstr "Închide"
+
+msgid "Close what is open; from the sky, leave the app running"
+msgstr "Închide ce este deschis; din cer, lasă aplicația în funcțiune"
+
+msgid "Clusters of galaxies"
+msgstr "Roiuri de galaxii"
+
+msgid "Coarse"
+msgstr "Gros"
+
+msgid "Color"
+msgstr "Culoare"
+
+msgid "Color channel"
+msgstr "Canal de culoare"
+
+msgid "Color of Lunar station lines"
+msgstr "Culoarea liniilor stației lunare"
+
+msgid "Color of asterism lines"
+msgstr "Culoarea liniilor asterismului"
+
+msgid "Color of asterism names"
+msgstr "Culoarea numelor asterismului"
+
+msgid "Color of constellation lines"
+msgstr "Culoarea liniilor constelației"
+
+msgid "Color of constellation names"
+msgstr "Culoarea numelor constelației"
+
+msgid "Color of orbits"
+msgstr "Culoarea orbitelor"
+
+msgid "Color of ray helpers"
+msgstr "Culoarea asistenților ray"
+
+msgid "Color of zodiac lines"
+msgstr "Culoarea liniilor zodiacale"
+
+msgid "Colors of orbit lines"
+msgstr "Culorile liniilor orbitale"
+
+msgid "Colures"
+msgstr "Coluri"
+
+msgid "Comets up to mag."
+msgstr "Comete până la mag."
+
+msgid "Compass"
+msgstr "Busolă"
+
+msgid "Conjunction"
+msgstr "Conjuncție"
+
+msgid "Connecting line"
+msgstr "Linie de conexiune"
+
+msgid "Constellations font size"
+msgstr "Dimensiune font constelații"
+
+msgid "Coordinate system"
+msgstr "Sistem de coordonate"
+
+msgid "Coordinates"
+msgstr "Coordonate"
+
+msgid "Copyright"
+msgstr "Drepturi de autor"
+
+msgid "Credits"
+msgstr "Credite"
+
+msgid "Culmination altitude"
+msgstr "Altitudinea culminației"
+
+msgid "Current FoV"
+msgstr "FOV actual"
+
+msgid "Custom"
+msgstr "Personalizat"
+
+msgid "Custom FoV limit"
+msgstr "Limită FOV personalizată"
+
+msgid "Custom altitude of the Moon, °"
+msgstr "Altitudine personalizată a Lunii, °"
+
+msgid "Custom altitude of the Sun, °"
+msgstr "Altitudine personalizată a Soarelui, °"
+
+msgid "Custom settings for position of GRS"
+msgstr "Setări personalizate pentru poziția GRS"
+
+msgid "Custom values"
+msgstr "Valori personalizate"
+
+msgid "Cut the scale off below the limit"
+msgstr "Tăiați scara sub limită"
+
+msgid "DATE AND TIME (UTC)"
+msgstr "DATĂ ȘI ORĂ (UTC)"
+
+msgid "DSS survey"
+msgstr "Sondaj DSS"
+
+msgid "Date and time"
+msgstr "Data și ora"
+
+msgid "Date/time"
+msgstr "Dată/oră"
+
+msgid "Dates"
+msgstr "Date"
+
+msgid "Dbl. stars"
+msgstr "Stele duble"
+
+msgid "Dec (J2000)"
+msgstr "Dec. (J2000)"
+
+msgid "December solstice"
+msgstr "Solstițiul din decembrie"
+
+msgid "Decimal degrees. −33.87 means 33.87° south. Elevation is metres above sea level; it moves the horizon down by a few arcminutes."
+msgstr "Grade zecimale. −33,87 înseamnă 33,87° sud. Elevaţia este în metri deasupra nivelului mării; mișcă orizontul cu câteva arcminute în jos."
+
+msgid "Deep Sky"
+msgstr "Cer profund"
+
+msgid "Degrees per year the longitude moves by"
+msgstr "Grade pe an la care se mișcă longitudinea"
+
+msgid "Degrees, hours and minutes as they are written - 12h30m49s, +41°16'09\", 187.7 - or plain decimal degrees."
+msgstr "Grade, ore și minute așa cum sunt scrise - 12h30m49s, +41°16'09\", 187,7 - sau grade zecimale simple."
+
+msgid "Deletes all recent search object data, and the objects SIMBAD contributed."
+msgstr "Șterge toate datele obiectelor de căutare recente și obiectele pe care le-a contribuit SIMBAD."
+
+msgid "Designations for celestial coordinate systems"
+msgstr "Desemnări pentru sisteme de coordonate celestiale"
+
+msgid "Designations for double stars"
+msgstr "Desemnări pentru stele duble"
+
+msgid "Designations for variable stars"
+msgstr "Desemnări pentru stele variabile"
+
+msgid "Dim a survey near the horizon, as the air does"
+msgstr "Estompează un sondaj aproape de orizont, cum face aerul"
+
+msgid "Display formats of date and time"
+msgstr "Formate de afișare ale datei și orei"
+
+msgid "Display objects from catalogs"
+msgstr "Afișează obiecte din cataloage"
+
+msgid "Distance, AU"
+msgstr "Distanță, UA"
+
+msgid "Done"
+msgstr "Gata"
+
+msgid "Drag"
+msgstr "Trage"
+
+msgid "Draw deep-sky objects at all"
+msgstr "Desenează obiecte de cer profund în general"
+
+msgid "Draw the enabled sky surveys"
+msgstr "Desenează sondajele cerului activate"
+
+msgid "Draw the planets, moons and minor bodies"
+msgstr "Desenează planetele, lunile și corpurile minore"
+
+msgid "Drawn larger than life, so a body that is a few arcseconds wide is visible at all. The position stays true."
+msgstr "Desenat mai mare decât viața, deci un corp care are lățimea de câteva arcsecunde este vizibil. Poziția rămâne adevărată."
+
+msgid "Duration"
+msgstr "Durată"
+
+msgid "Duration (years)"
+msgstr "Durată (ani)"
+
+msgid "Duration, months"
+msgstr "Durată, luni"
+
+msgid "Dusk"
+msgstr "Amurg"
+
+msgid "Dynamic (FOV-based) Moon size"
+msgstr "Dimensiune lunară dinamică (bazată pe FOV)"
+
+msgid "Earth"
+msgstr "Pământ"
+
+msgid "Earth shadow enlargement after Danjon"
+msgstr "Mărire umbra pământului după Danjon"
+
+msgid "Eastern quadrature"
+msgstr "Cuadratura de est"
+
+msgid "Ecl. grid"
+msgstr "Grilă ecl."
+
+msgid "Eclipse begins; first contact with Earth"
+msgstr "Eclipsa începe; primul contact cu Pământul"
+
+msgid "Eclipse ends; last contact with Earth"
+msgstr "Eclipsa se termină; ultimul contact cu Pământul"
+
+msgid "Eclipses"
+msgstr "Eclipse"
+
+msgid "Eclipses are computed for observers on Earth."
+msgstr "Eclipse sunt calculate pentru observatori de pe Pământ."
+
+msgid "Ecliptic"
+msgstr "Ecliptică"
+
+msgid "Ecliptic (J2000)"
+msgstr "Ecliptică (J2000)"
+
+msgid "Ecliptic (J2000.0)"
+msgstr "Ecliptică (J2000.0)"
+
+msgid "Ecliptic (of date)"
+msgstr "Ecliptică (de dată)"
+
+msgid "Ecliptic grid (J2000)"
+msgstr "Grilă ecliptică (J2000)"
+
+msgid "Ecliptic grid (of date)"
+msgstr "Grilă ecliptică (de dată)"
+
+msgid "Ecliptic poles (J2000)"
+msgstr "Poli ecliptici (J2000)"
+
+msgid "Ecliptic poles (of date)"
+msgstr "Poli ecliptici (de dată)"
+
+msgid "Elevation"
+msgstr "Elevaţie"
+
+msgid "Elevation in metres"
+msgstr "Elevaţie în metri"
+
+msgid "Elongations and quadratures"
+msgstr "Elongații și cadraturi"
+
+msgid "Emission-line stars"
+msgstr "Stele cu linii de emisie"
+
+msgid "Enabled only"
+msgstr "Numai activate"
+
+msgid "End of center line; central eclipse ends"
+msgstr "Sfârșitul liniei centrale; eclipsa centrală se termină"
+
+msgid "Enter Culture..."
+msgstr "Introduceți cultura..."
+
+msgid "Equ. grid"
+msgstr "Grilă ecu."
+
+msgid "Equ. mount"
+msgstr "Mont. ecu."
+
+msgid "Equator (of date)"
+msgstr "Ecuator (de dată)"
+
+msgid "Equatorial grid (J2000)"
+msgstr "Grilă ecuatorială (J2000)"
+
+msgid "Equatorial grid (of date)"
+msgstr "Grilă ecuatorială (de dată)"
+
+msgid "Equatorial radii ratio"
+msgstr "Raportul razelor ecuatoriale"
+
+msgid "Equinoxes (of date)"
+msgstr "Echinocții (de dată)"
+
+msgid "Evening"
+msgstr "Seară"
+
+msgid "Every"
+msgstr "Fiecare"
+
+msgid "Every name the object is catalogued under"
+msgstr "Fiecare nume sub care obiectul este catalogat"
+
+msgid "Exoplanetary systems"
+msgstr "Sisteme exoplanetare"
+
+msgid "Explanatory Supplement (1992)"
+msgstr "Supliment explicativ (1992)"
+
+msgid "Explanatory Supplement (2013)"
+msgstr "Supliment explicativ (2013)"
+
+msgid "Exterior egress"
+msgstr "Egresie exterioară"
+
+msgid "Exterior ingress"
+msgstr "Ingresie exterioară"
+
+msgid "Fades the ground as you look below the horizon or zoom in"
+msgstr "Estompează solul când priviți sub orizont sau măriți"
+
+msgid "Fading duration"
+msgstr "Durată estompare"
+
+msgid "Faintest shown"
+msgstr "Cel mai slab arătat"
+
+msgid "Favorites"
+msgstr "Favorite"
+
+msgid "Fetching the survey lists…"
+msgstr "Se preiau listele de sondaje…"
+
+msgid "Filter"
+msgstr "Filtru"
+
+msgid "Find a city"
+msgstr "Găsiți un oraș"
+
+msgid "Fine"
+msgstr "Fin"
+
+msgid "First %d of %d - filter to narrow it."
+msgstr "Primele %d din %d - filtrează pentru a o restrânge."
+
+msgid "First body"
+msgstr "Primul corp"
+
+msgid "First graph"
+msgstr "Primul grafic"
+
+msgid "Fix"
+msgstr "Fixare"
+
+msgid "Fixed Equator"
+msgstr "Ecuator fix"
+
+msgid "Fixed Equatorial grid"
+msgstr "Grilă ecuatorială fixă"
+
+msgid "Fixed instant"
+msgstr "Moment fix"
+
+msgid "Flip buttons"
+msgstr "Buton comutare mod telescop"
+
+msgid "Flip horiz."
+msgstr "Răstur. h."
+
+msgid "Flip vert."
+msgstr "Răstur. v."
+
+msgid "Font size"
+msgstr "Dimensiune font"
+
+msgid "Frame rate"
+msgstr "Viteză cadru"
+
+msgid "From"
+msgstr "Din"
+
+msgid "From year"
+msgstr "Din an"
+
+msgid "Full screen"
+msgstr "Plin ecran"
+
+msgid "Fullscreen button"
+msgstr "Buton ecran complet"
+
+msgid "Further reading"
+msgstr "Lectură suplimentară"
+
+msgid "GRS details…"
+msgstr "Detalii GRS…"
+
+msgid "Gal. grid"
+msgstr "Grilă gal."
+
+msgid "Gamma, saturation, brightness, contrast, opacity, colour channel and inverted colours belong to one survey. Open a survey to set them."
+msgstr "Gamma, saturație, luminozitate, contrast, opacitate, canal de culoare și culori inversate aparțin unui sondaj. Deschideți un sondaj pentru a le seta."
+
+msgid "Gestures"
+msgstr "Gesturi"
+
+msgid "Go there"
+msgstr "Merge acolo"
+
+msgid "Go to position"
+msgstr "Merge la poziție"
+
+msgid "Go to this eclipse"
+msgstr "Merge la această eclipsă"
+
+msgid "Go to this moment"
+msgstr "Merge la acest moment"
+
+msgid "Go to this transit"
+msgstr "Merge la acest tranzit"
+
+msgid "Great Red Spot"
+msgstr "Marea Pată Roșie"
+
+msgid "Great Red Spot details"
+msgstr "Detalii Marea Pată Roșie"
+
+msgid "Greatest eastern elongation"
+msgstr "Cea mai mare elongație de est"
+
+msgid "Greatest eclipse"
+msgstr "Cea mai mare eclipsă"
+
+msgid "Greatest elongation for an inner planet, quadrature for an outer one"
+msgstr "Cea mai mare elongație pentru o planetă interioară, cvadratură pentru una exterioară"
+
+msgid "Greatest western elongation"
+msgstr "Cea mai mare elongație de vest"
+
+msgid "Greek letters"
+msgstr "Litere greceşti"
+
+msgid "Grid density"
+msgstr "Densitate grilă"
+
+msgid "Grids"
+msgstr "Grilă"
+
+msgid "Ground"
+msgstr "Pământ"
+
+msgid "Gyro"
+msgstr "Giroscop"
+
+msgid "Gyro mode"
+msgstr "Mod Giroscop"
+
+msgid "Harvard-Smithsonian Center for Astrophysics (USA)"
+msgstr "Centrul Harvard-Smithsonian de Astrofizică (SUA)"
+
+msgid "Height"
+msgstr "Înălțime"
+
+msgid "Heliocentric distance"
+msgstr "Distanța heliocentrică"
+
+msgid "Heliocentric ecliptic positions of the major planets."
+msgstr "Poziții ecliptice heliocentrici ale planetelor majore."
+
+msgid "Herschel 400 objects"
+msgstr "Obiecte Herschel 400"
+
+msgid "HiPS"
+msgstr "HiPS"
+
+msgid "HiPS Surveys"
+msgstr "Sondaje HiPS"
+
+msgid "Hide controls"
+msgstr "Ascunde comenzi"
+
+msgid "Hide deep-sky objects fainter than the limit"
+msgstr "Ascunde obiecte din cer profund mai slabe decât limita"
+
+msgid "Hide nomenclature on the celestial body of observer"
+msgstr "Ascunde nomenclatura pe corpul celest al observatorului"
+
+msgid "Hide orbits of minor bodies"
+msgstr "Ascunde orbitele corpurilor minore"
+
+msgid "Highlight"
+msgstr "Evidențiere"
+
+msgid "Highlight the objects of the observing list"
+msgstr "Evidențiază obiectele din lista de observație"
+
+msgid "Hint circles marking each planet"
+msgstr "Cercuri de sugestie marcând fiecare planetă"
+
+msgid "Hints brightness"
+msgstr "Luminozitate sugestii"
+
+msgid "Hipparcos designations"
+msgstr "Desemnări Hipparcos"
+
+msgid "Hour angles usually run 0...24h. This counts -12h...12h."
+msgstr "Unghiurile horare obișnuit merg 0...24h. Aceasta numără -12h...12h."
+
+msgid "How many"
+msgstr "Câți"
+
+msgid "ICRS grid"
+msgstr "Grilă ICRS"
+
+msgid "Include bright comets"
+msgstr "Include comete luminoase"
+
+msgid "Include selected minor planets"
+msgstr "Include planetele minore selectate"
+
+msgid "Inferior conjunction"
+msgstr "Conjuncție inferioară"
+
+msgid "Info label"
+msgstr "Etichetă info"
+
+msgid "Intercardinal points"
+msgstr "Puncte intercardinale"
+
+msgid "Interior egress"
+msgstr "Ieșire interioară"
+
+msgid "Interior ingress"
+msgstr "Intrare interioară"
+
+msgid "Interstellar objects"
+msgstr "Obiecte interstelar"
+
+msgid "Invariable plane of the Solar system"
+msgstr "Planul invariabil al sistemului solar"
+
+msgid "Isolated"
+msgstr "Izolat"
+
+msgid "Its elevation, and the civil, nautical and astronomical twilights"
+msgstr "Elevația sa, și crepuscule civil, nautic și astronomic"
+
+msgid "Jovigraphic longitude of the spot in System II, in degrees"
+msgstr "Longitudine jovigrafică a punctului în Sistemul II, în grade"
+
+msgid "Julian day"
+msgstr "Zi iuliană"
+
+msgid "June solstice"
+msgstr "Solstițiul din iunie"
+
+msgid "Label"
+msgstr "Etichetă"
+
+msgid "Label colour"
+msgstr "Culoarea etichetei"
+
+msgid "Label only features along the terminator"
+msgstr "Etichetează numai caracteristicile de-a lungul terminator"
+
+msgid "Labels and Markers amount"
+msgstr "Cantitate de etichete și marcheri"
+
+msgid "Labels brightness"
+msgstr "Luminozitate etichete"
+
+msgid "Largest, ′"
+msgstr "Cel mai mare, ′"
+
+msgid "Last known position"
+msgstr "Ultima poziție cunoscută"
+
+msgid "Lasting"
+msgstr "Durată"
+
+msgid "Latest selected object"
+msgstr "Ultimul obiect selectat"
+
+msgid "Latitude −90…90, longitude −180…180."
+msgstr "Latitudine −90…90, longitudine −180…180."
+
+msgid "Layer appearance"
+msgstr "Aspect strat"
+
+msgid "Leaves the landscape visible in darkness"
+msgstr "Lasă peisajul vizibil în întuneric"
+
+msgid "Licence"
+msgstr "Licență"
+
+msgid "Light pollution"
+msgstr "Poluare luminoasă"
+
+msgid "Light pollution from database"
+msgstr "Poluare luminoasă din bază de date"
+
+msgid "Limit angular separation"
+msgstr "Limitează separarea unghiulară"
+
+msgid "Limit angular size"
+msgstr "Limitează dimensiunea unghiulară"
+
+msgid "Limit magnitude"
+msgstr "Limitează magnitudinea"
+
+msgid "Line"
+msgstr "Linie"
+
+msgid "Linear and angular distances between selected objects"
+msgstr "Distanțe liniare și unghiulare între obiectele selectate"
+
+msgid "Linear distance"
+msgstr "Distanța liniară"
+
+msgid "Lines"
+msgstr "Linii"
+
+msgid "Lines and circles"
+msgstr "Linii și cercuri"
+
+msgid "List"
+msgstr "Listă"
+
+msgid "List name"
+msgstr "Nume listă"
+
+msgid "Lit windows, street lighting and the like"
+msgstr "Ferestre iluminate, iluminat stradal și asemănător"
+
+msgid "Loading…"
+msgstr "Se încarcă…"
+
+msgid "Local Mean Solar Time"
+msgstr "Ora locală medie solară"
+
+msgid "Local Time"
+msgstr "Ora locală"
+
+msgid "Local True Solar Time"
+msgstr "Ora locală adevărată solară"
+
+msgid "Local solar eclipses"
+msgstr "Eclipse solare locale"
+
+msgid "Local time"
+msgstr "Ora locală"
+
+msgid "Local time, h"
+msgstr "Ora locală, h"
+
+msgid "Locate me"
+msgstr "Localizează-mă"
+
+msgid "Locating…"
+msgstr "Se localizează…"
+
+msgid "Location from landscape"
+msgstr "Locație din peisaj"
+
+msgid "Location is switched off in the system settings."
+msgstr "Locația este dezactivată în setările sistemului."
+
+msgid "Location permission refused. The other two ways still work."
+msgstr "Permisiune locație refuzată. Celelalte două moduri încă funcționează."
+
+msgid "Lock position when coordinates are used"
+msgstr "Blochează poziția când sunt folosite coordonate"
+
+msgid "Long press"
+msgstr "Apăsare lungă"
+
+msgid "Longitude of GRS"
+msgstr "Longitudine GRS"
+
+msgid "Lunar Elongation"
+msgstr "Elongație lunară"
+
+msgid "Lunar Stations"
+msgstr "Stații lunare"
+
+msgid "Lunar eclipses"
+msgstr "Eclipse lunare"
+
+msgid "Lunar elongation"
+msgstr "Elongație lunară"
+
+msgid "Magnitudes"
+msgstr "Magnitudini"
+
+msgid "Major planets"
+msgstr "Planete majore"
+
+msgid "Major planets by planet, minor bodies by type"
+msgstr "Planete majore după planetă, corpuri minore după tip"
+
+msgid "Map of the planet. Tap to set the observer's place."
+msgstr "Hartă a planetei. Atingeți pentru a seta locul observatorului."
+
+msgid "March equinox"
+msgstr "Echinocțiul din martie"
+
+msgid "Mark impact features with ellipses"
+msgstr "Marcați caracteristicile de impact cu elipse"
+
+msgid "Mark minor bodies"
+msgstr "Marcați corpurile minore"
+
+msgid "Markers"
+msgstr "Marcheri"
+
+msgid "Markers sized by the object's angular size"
+msgstr "Marcheri dimensionați după dimensiunea unghiulară a obiectului"
+
+msgid "Master switch for the grids, lines and points below"
+msgstr "Comutator principal pentru grilele, liniile și punctele de mai jos"
+
+msgid "Max items to display"
+msgstr "Articole max de afișat"
+
+msgid "Max. results"
+msgstr "Max. rezultate"
+
+msgid "Max. search radius"
+msgstr "Max. rază de căutare"
+
+msgid "Maximum Solar altitude"
+msgstr "Altitudine solară maximă"
+
+msgid "Maximum allowed separation"
+msgstr "Separare maximă permisă"
+
+msgid "Maximum angular size"
+msgstr "Dimensiune unghiulară maximă"
+
+msgid "Maximum eclipse"
+msgstr "Eclipsă maximă"
+
+msgid "Maximum year"
+msgstr "An maxim"
+
+msgid "Mean motion"
+msgstr "Mișcarea medie"
+
+msgid "Mercury, Venus, Mars, Jupiter and Saturn at once. Earth only."
+msgstr "Mercur, Venus, Marte, Jupiter și Saturn deodată. Doar Pământul."
+
+msgid "Messier objects"
+msgstr "Obiecte Messier"
+
+msgid "Mid-transit"
+msgstr "Tranzit mediu"
+
+msgid "Milky Way brightness"
+msgstr "Luminozitate Calea Lactee"
+
+msgid "Milky Way saturation"
+msgstr "Saturație Calea Lactee"
+
+msgid "Minimal angular size"
+msgstr "Dimensiune unghiulară minimă"
+
+msgid "Minimal brightness"
+msgstr "Luminozitate minimă"
+
+msgid "Minimum Solar altitude"
+msgstr "Altitudine solară minimă"
+
+msgid "Minimum year"
+msgstr "An minim"
+
+msgid "Minor bodies"
+msgstr "Corpuri minore"
+
+msgid "Minutes before sunrise / after sunset"
+msgstr "Minute înainte de răsărit / după apus"
+
+msgid "Moon at"
+msgstr "Luna la"
+
+msgid "Moon enters penumbra"
+msgstr "Luna intră în penumbră"
+
+msgid "Moon enters umbra"
+msgstr "Luna intră în umbră"
+
+msgid "Moon in zenith at"
+msgstr "Luna în zenit la"
+
+msgid "Moon leaves penumbra"
+msgstr "Luna iese din penumbră"
+
+msgid "Moon leaves umbra"
+msgstr "Luna iese din umbră"
+
+msgid "Moon's halo"
+msgstr "Halou lunar"
+
+msgid "Moons of first body"
+msgstr "Lunile primului corp"
+
+msgid "Morning"
+msgstr "Dimineață"
+
+msgid "Move the sky by pointing the phone at it"
+msgstr "Mutați cerul arătând telefonul la el"
+
+msgid "Move the sky with the phone"
+msgstr "Mutați cerul cu telefonul"
+
+msgid "NGC/IC objects"
+msgstr "Obiecte NGC/IC"
+
+msgid "Name for the new list"
+msgstr "Nume pentru noua listă"
+
+msgid "Named features the landscape marks"
+msgstr "Caracteristici numite pe care le marchează peisajul"
+
+msgid "Names"
+msgstr "Nume"
+
+msgid "Names beside the planets and their markers"
+msgstr "Nume lângă planete și markerii lor"
+
+msgid "Names in English"
+msgstr "Nume în limba engleză"
+
+msgid "Nautical Twilight"
+msgstr "Amurg nautic"
+
+msgid "Neb. bg"
+msgstr "Fund neb."
+
+msgid "Nebula background"
+msgstr "Fundal nebuloasă"
+
+msgid "Nebulae"
+msgstr "Nebuloasă"
+
+msgid "New list"
+msgstr "Listă nouă"
+
+msgid "Next"
+msgstr "Următorul"
+
+msgid "Night"
+msgstr "Noapte"
+
+msgid "No city matches that."
+msgstr "Nicio oraș nu se potrivește cu asta."
+
+msgid "No eclipses found. Pick a range and calculate."
+msgstr "Nu au fost găsite eclipse. Alegeți un interval și calculați."
+
+msgid "No fresh fix - the receiver may have no sky. Try again outdoors, or set the place another way."
+msgstr "Nicio poziție recentă - receptorul poate să nu aibă cer. Încercați din nou în aer liber, sau setați locul într-un alt fel."
+
+msgid "No surveys were found. The lists are downloaded, so this needs a connection."
+msgstr "Nu au fost găsite sondaje. Listele sunt descărcate, deci aceasta necesită o conexiune."
+
+msgid "None downloaded yet"
+msgstr "Niciuna descarcată încă"
+
+msgid "Note: Local circumstances for eclipses during thousands of years in the past and future are not reliable due to uncertainty in ΔT which is caused by fluctuations in Earth's rotation."
+msgstr "Notă: Circumstanțele locale pentru eclipsele din mii de ani în trecut și viitor nu sunt fiabile din cauza incertitudinii în ΔT care este cauzată de fluctuațiile rotației Pământului."
+
+msgid "Note: this tool doesn't apply the refraction correction for coordinates. Horizontal coordinates stop the clock, or the sky would turn away from the point while you arrive at it."
+msgstr "Notă: acest instrument nu aplică corecția de refracție pentru coordonate. Coordonatele orizontale opresc ceasul, altfel cerul s-ar întoarce departe de punct în timp ce ajungi la el."
+
+msgid "Notes: The quantity gamma is the minimum distance from the axis of lunar shadow cone to the center of Earth, in units of Earth’s equatorial radius. This distance is positive or negative, depending on whether the axis of the shadow cone passes north or south of the Earth's center. Path of solar eclipses during thousands of years in the past and future are not reliable due to uncertainty in ΔT which is caused by fluctuations in Earth's rotation."
+msgstr "Note: Cantitatea gamma este distanța minimă de la axa conului umbrelor lunare până la centrul Pământului, în unități ale razei ecuatoriale a Pământului. Această distanță este pozitivă sau negativă, în funcție de faptul că axa conului de umbră trece la nord sau la sud de centrul Pământului. Căile eclipselor solare din mii de ani în trecut și viitor nu sunt fiabile din cauza incertitudinii în ΔT care este cauzată de fluctuațiile rotației Pământului."
+
+msgid "Notes: The quantity gamma is the minimum distance from the center of the Moon to the axis of Earth’s umbral shadow cone, in units of Earth’s equatorial radius. This distance is positive or negative, depending on whether the Moon passes north or south of the shadow cone axis. Local circumstances for eclipses during thousands of years in the past and future are not reliable due to uncertainty in ΔT which is caused by fluctuations in Earth's rotation."
+msgstr "Note: Cantitatea gamma este distanța minimă de la centrul Lunii la axa conului umbrelor pământești, în unități ale razei ecuatoriale a Pământului. Această distanță este pozitivă sau negativă, în funcție de faptul că Luna trece la nord sau la sud de axa conului de umbră. Circumstanțele locale pentru eclipsele din mii de ani în trecut și viitor nu sunt fiabile din cauza incertitudinii în ΔT care este cauzată de fluctuațiile rotației Pământului."
+
+msgid "Notes: Time in parentheses means the contact is invisible at current location. Transit times during thousands of years in the past and future are not reliable due to uncertainty in ΔT which is caused by fluctuations in Earth's rotation."
+msgstr "Note: Ora în paranteză înseamnă că contactul este invizibil la locația curentă. Timpii tranzitului din mii de ani în trecut și viitor nu sunt fiabili din cauza incertitudinii în ΔT care este cauzată de fluctuațiile rotației Pământului."
+
+msgid "Nothing computed yet, or nothing in this category is up."
+msgstr "Nimic calculat încă, sau nimic în această categorie nu este sus."
+
+msgid "Nothing computed yet."
+msgstr "Nimic calculat încă."
+
+msgid "Nothing found for “%s”."
+msgstr "Nimic găsit pentru \"%s\"."
+
+msgid "Nothing in this list matches."
+msgstr "Nimic din această listă nu se potrivește."
+
+msgid "Nothing in this list yet. Pick something out of the sky and tap the star on its card to keep it here."
+msgstr "Nimic în această listă încă. Alegeți ceva din cer și atingeți steaua din cartea sa pentru a o păstra aici."
+
+msgid "Nothing is selected. Pick an object in the sky first."
+msgstr "Nimic nu este selectat. Alegeți mai întâi un obiect din cer."
+
+msgid "Nothing matches."
+msgstr "Nimic nu se potrivește."
+
+msgid "Nothing selected"
+msgstr "Nimic selectat"
+
+msgid "Nothing to plot."
+msgstr "Nimic de reprezentat."
+
+msgid "Nothing to show."
+msgstr "Nimic de arătat."
+
+msgid "Now"
+msgstr "Acum"
+
+msgid "N× above"
+msgstr "N× deasupra"
+
+msgid "OBJECT"
+msgstr "OBIECT"
+
+msgid "OBJECTS"
+msgstr "OBIECTE"
+
+msgid "Objects which are up"
+msgstr "Obiecte care sunt sus"
+
+msgid "Observable duration"
+msgstr "Durată observabilă"
+
+msgid "Observing list"
+msgstr "Listă de observații"
+
+msgid "Observing list highlight"
+msgstr "Evidențiere listă de observații"
+
+msgid "Observing lists"
+msgstr "Liste de observații"
+
+msgid "Occultation"
+msgstr "Ocultație"
+
+msgid "On the sky"
+msgstr "Pe cer"
+
+msgid "One color"
+msgstr "O culoare"
+
+msgid "Only for N latest selected objects"
+msgstr "Numai pentru ultimele N obiecte selectate"
+
+msgid "Only for Solar elevation"
+msgstr "Numai pentru elevație solară"
+
+msgid "Only list"
+msgstr "Doar listă"
+
+msgid "Only one at a time"
+msgstr "Doar una la o dată"
+
+msgid "Only orbit for selected object…"
+msgstr "Doar orbită pentru obiectul selectat…"
+
+msgid "Only orbits of major planets…"
+msgstr "Doar orbite ale planetelor majore…"
+
+msgid "Open date and time"
+msgstr "Deschideți data și ora"
+
+msgid "Open location"
+msgstr "Deschideți locația"
+
+msgid "Opens the JUPOS project in a browser"
+msgstr "Deschide proiectul JUPOS într-un browser"
+
+msgid "Opposition of"
+msgstr "Opoziție a"
+
+msgid "Oppositions"
+msgstr "Opoziții"
+
+msgid "Orbit colors"
+msgstr "Culori orbită"
+
+msgid "Orbital periods ratio"
+msgstr "Raportul perioadelor orbitale"
+
+msgid "Orbits"
+msgstr "Orbite"
+
+msgid "Orbits of interstellar objects"
+msgstr "Orbite ale obiectelor interstelar"
+
+msgid "Orbits of moons"
+msgstr "Orbite ale lunilor"
+
+msgid "Otherwise every move adopts the zone of the new place."
+msgstr "În caz contrar, fiecare mișcare adoptă zona noului loc."
+
+msgid "Outline craters"
+msgstr "Schițe cratere"
+
+msgid "Pan the sky"
+msgstr "Panoramați cerul"
+
+msgid "Partial eclipse begins"
+msgstr "Începe eclipsa parțială"
+
+msgid "Partial eclipse ends"
+msgstr "Se încheie eclipsa parțială"
+
+msgid "Partitions"
+msgstr "Partiții"
+
+msgid "Partitions thickness"
+msgstr "Grosime partiții"
+
+msgid "Path width"
+msgstr "Lățime cale"
+
+msgid "Pause"
+msgstr "Pauză"
+
+msgid "Paused - start"
+msgstr "Pauza - start"
+
+msgid "Penumbral magnitude"
+msgstr "Magnitudine penumbră"
+
+msgid "Perihelion"
+msgstr "Periheliu"
+
+msgid "Perihelion and aphelion"
+msgstr "Periheliu și afeliu"
+
+msgid "Phenomena"
+msgstr "Fenomene"
+
+msgid "Pick two different bodies to see how their distance changes."
+msgstr "Alegeți doi corpuri diferite pentru a vedea cum se schimbă distanța lor."
+
+msgid "Pinch"
+msgstr "Jeturi"
+
+msgid "Planet"
+msgstr "Planetă"
+
+msgid "Planet and time zone"
+msgstr "Planetă și fus orar"
+
+msgid "Planetary nebulae (<%1 mag)"
+msgstr "Nebuloase planetare (magnitudine <%1)"
+
+msgid "Planetary nomenclature"
+msgstr "Nomenclatură planetară"
+
+msgid "Planetary transits"
+msgstr "Tranzite planetare"
+
+msgid "Planets"
+msgstr "Planete"
+
+msgid "Planets and Sun"
+msgstr "Planete și Soare"
+
+msgid "Planets magnitude algorithm"
+msgstr "Algoritm magnitudine planete"
+
+msgid "Pluto, Ceres, Pallas, Juno and Vesta"
+msgstr "Pluto, Ceres, Pallas, Juno și Vesta"
+
+msgid "Point size"
+msgstr "Dimensiune punct"
+
+msgid "Pointing"
+msgstr "Indicare"
+
+msgid "Polar distance"
+msgstr "Distanță polară"
+
+msgid "Polar distance, not declination"
+msgstr "Distanță polară, nu declinație"
+
+msgid "Poles and points"
+msgstr "Poli și puncte"
+
+msgid "Polygon colour"
+msgstr "Culoare poligon"
+
+msgid "Positive values only"
+msgstr "Numai valori pozitive"
+
+msgid "Precession circles"
+msgstr "Cercuri precesiune"
+
+msgid "Previous"
+msgstr "Anterior"
+
+msgid "Pronounce"
+msgstr "Pronunță"
+
+msgid "Quadrature circle"
+msgstr "Cerc pătratură"
+
+msgid "Query SIMBAD about selected object"
+msgstr "Interogare SIMBAD despre obiectul selectat"
+
+msgid "Query options"
+msgstr "Opțiuni interogare"
+
+msgid "Quit"
+msgstr "Ieșire"
+
+msgid "Quit button"
+msgstr "Buton Ieșire"
+
+msgid "Range"
+msgstr "Interval"
+
+msgid "Reading…"
+msgstr "Se citește…"
+
+msgid "Real time speed"
+msgstr "Viteză timp real"
+
+msgid "Recent Searches"
+msgstr "Căutări recente"
+
+msgid "Rectangular FOV"
+msgstr "FOV dreptunghiular"
+
+msgid "Refraction, extinction, sky brightness"
+msgstr "Refracție, extincție, luminozitate cer"
+
+msgid "Regions of the sky"
+msgstr "Regiuni ale cerului"
+
+msgid "Relative scale"
+msgstr "Scară relativă"
+
+msgid "Remove %s"
+msgstr "Eliminați %s"
+
+msgid "Remove from observing list"
+msgstr "Eliminați din lista de observații"
+
+msgid "Rename"
+msgstr "Redenumire"
+
+msgid "Reset"
+msgstr "Resetare"
+
+msgid "Reset all"
+msgstr "Resetare toți"
+
+msgid "Restarting…"
+msgstr "Se repornește…"
+
+msgid "Rises"
+msgstr "Răsăriri"
+
+msgid "Rotation"
+msgstr "Rotație"
+
+msgid "Running"
+msgstr "Se execută"
+
+msgid "SIMBAD did not answer."
+msgstr "SIMBAD nu a răspuns."
+
+msgid "SIMBAD is switched off in the search options."
+msgstr "SIMBAD este dezactivat în opțiunile de căutare."
+
+msgid "SIMBAD is switched off. Turn it on under Options to look objects up online."
+msgstr "SIMBAD este dezactivat. Activați-l sub Opțiuni pentru a căuta obiecte online."
+
+msgid "SIMBAD server"
+msgstr "Server SIMBAD"
+
+msgid "Saturation"
+msgstr "Saturație"
+
+msgid "Save"
+msgstr "Salvare"
+
+msgid "Save either the current FOV and direction of view or all the current options for use at next startup. Restoring default settings requires a restart of the app."
+msgstr "Salvați fie FOV-ul actual și direcția de vizionare, fie toate opțiunile actuale pentru utilizare la lansarea următoare. Restaurarea setărilor implicite necesită repornirea aplicației."
+
+msgid "Save to observing list"
+msgstr "Salvare la lista de observații"
+
+msgid "Save view"
+msgstr "Salvare vizualizare"
+
+msgid "Scale"
+msgstr "Scară"
+
+msgid "Scale marker and label visibility by surface brightness"
+msgstr "Scalare vizibilitate marcaj și etichetă după luminozitate suprafață"
+
+msgid "Scales smoothly between 1× at the minimum field of view and the factor above at the maximum"
+msgstr "Scalează uniform între 1× la câmpul vizual minim și factorul de mai sus la maximum"
+
+msgid "Screen label"
+msgstr "Etichetă ecran"
+
+msgid "Search in list"
+msgstr "Caută în listă"
+
+msgid "Seasons"
+msgstr "Anotimpuri"
+
+msgid "Second body"
+msgstr "Al doilea corp"
+
+msgid "Second graph"
+msgstr "Al doilea grafic"
+
+msgid "Second object"
+msgstr "Al doilea obiect"
+
+msgid "Secondary intercardinal points"
+msgstr "Puncte intercardinale secundare"
+
+msgid "Sednoids"
+msgstr "Sednoizi"
+
+msgid "See the sky through the ground"
+msgstr "Vedeți cerul prin sol"
+
+msgid "Seen now"
+msgstr "Văzut acum"
+
+msgid "Select an object first: this asks SIMBAD what it holds around it."
+msgstr "Selectează mai întâi un obiect: aceasta îi cere SIMBAD ce ține în jurul lui."
+
+msgid "Select it and show its card"
+msgstr "Selectați-l și arătați cartea sa"
+
+msgid "Select something in the sky first — this page works on the selection."
+msgstr "Selectați mai întâi ceva din cer — această pagină funcționează pe selecție."
+
+msgid "Selected object"
+msgstr "Obiect selectat"
+
+msgid "Separate colors for orbits of major planets"
+msgstr "Culori separate pentru orbite ale planetelor majore"
+
+msgid "September equinox"
+msgstr "Echinocțiul din septembrie"
+
+msgid "Set the clock to %s"
+msgstr "Setează ceasul la %s"
+
+msgid "Set the place"
+msgstr "Setează locul"
+
+msgid "Set to now"
+msgstr "Setează la acum"
+
+msgid "Sets"
+msgstr "Apusuri"
+
+msgid "Shadow map for non-convex bodies. May coarsen the penumbra on some objects"
+msgstr "Hartă de umbre pentru corpuri non-convexe. Poate face penumbra mai grosieră pe unele obiecte"
+
+msgid "Shadow transit"
+msgstr "Tranzitul umbrei"
+
+msgid "Shooting stars"
+msgstr "Stele cădătoare"
+
+msgid "Short notation for units of surface brightness"
+msgstr "Notație scurtă pentru unitățile de luminozitate de suprafață"
+
+msgid "Short steps over a long duration are slow."
+msgstr "Pași scurți pe o durată lungă sunt lenti."
+
+msgid "Show"
+msgstr "Arată"
+
+msgid "Show FOV center marker when position is search"
+msgstr "Arată marcajul central FOV când poziția este căutare"
+
+msgid "Show additional star names"
+msgstr "Arată nume suplimentare de stele"
+
+msgid "Show all information"
+msgstr "Arată toate informațiile"
+
+msgid "Show atmospheric extinction"
+msgstr "Arată extincția atmosferică"
+
+msgid "Show boundaries of constellations"
+msgstr "Arată limitele constelațiilor"
+
+msgid "Show button in addition to keyboard shortcut?"
+msgstr "Arați buton pe lângă comanda rapidă de tastatură?"
+
+msgid "Show controls"
+msgstr "Arată comenzile"
+
+msgid "Show each body where it was when the light left it (recommended)"
+msgstr "Arată fiecare corp unde era când lumina l-a părăsit (recomandat)"
+
+msgid "Show frames per second beside the field of view"
+msgstr "Arată cadre pe secundă lângă câmpul vizual"
+
+msgid "Show illumination"
+msgstr "Arată iluminarea"
+
+msgid "Show in sky"
+msgstr "Arată în cer"
+
+msgid "Show less"
+msgstr "Arată mai puțin"
+
+msgid "Show lunar stations (if defined)"
+msgstr "Arată stații lunare (dacă sunt definite)"
+
+msgid "Show more"
+msgstr "Arată mai mult"
+
+msgid "Show objects which are up"
+msgstr "Arată obiectele care sunt sus"
+
+msgid "Show only named DSO"
+msgstr "Arată doar DSO numite"
+
+msgid "Show only objects between the two sizes"
+msgstr "Arată doar obiectele între cele două mărimi"
+
+msgid "Show only the kinds ticked below"
+msgstr "Arată doar tipurile bifate mai jos"
+
+msgid "Show or hide the two rails of controls"
+msgstr "Arată sau ascunde cele două șine de comenzi"
+
+msgid "Show orbit even if object is off screen"
+msgstr "Arată orbita chiar dacă obiectul este în afara ecranului"
+
+msgid "Show orbit only for selected SSO"
+msgstr "Arată orbita numai pentru SSO selectat"
+
+msgid "Show orbits of major planets"
+msgstr "Arată orbitele planetelor mari"
+
+msgid "Show special nomenclature points only"
+msgstr "Arată doar punctele speciale de nomenclatură"
+
+msgid "Show surveys"
+msgstr "Arată sondajele"
+
+msgid "Show this survey"
+msgstr "Arată acest sondaj"
+
+msgid "Show tiny circles for minor bodies regardless of magnitude"
+msgstr "Arată cercuri mici pentru corpuri minore indiferent de magnitudine"
+
+msgid "Show zodiac (if defined)"
+msgstr "Arată zodia (dacă este definită)"
+
+msgid "Sidereal time"
+msgstr "Timp sideral"
+
+msgid "Simbad Lookup Error: %s"
+msgstr "Eroare căutare Simbad: %s"
+
+msgid "Simbad Lookup: querying"
+msgstr "Căutare Simbad: interogare"
+
+msgid "Simulation"
+msgstr "Simulare"
+
+msgid "Sky Culture"
+msgstr "Reprezentare autohtonă"
+
+msgid "Sky and viewing options"
+msgstr "Opțiuni cer și vizualizare"
+
+msgid "Sky culture"
+msgstr "Reprezentare autohtonă"
+
+msgid "Slow down"
+msgstr "Încetinește"
+
+msgid "Smallest, ′"
+msgstr "Cel mai mic, ′"
+
+msgid "Solar altitude for Twilight Finder"
+msgstr "Altitudine solară pentru Twilight Finder"
+
+msgid "Solar elongation"
+msgstr "Elongație solară"
+
+msgid "Solar system objects"
+msgstr "Obiecte din sistemul solar"
+
+msgid "Solar system objects: comets"
+msgstr "Obiecte din sistemul solar: comete"
+
+msgid "Solar system objects: minor bodies"
+msgstr "Obiecte din sistemul solar: corpuri minore"
+
+msgid "Solstices (J2000)"
+msgstr "Solstiții (J2000)"
+
+msgid "Solstices (of date)"
+msgstr "Solstiții (la dată)"
+
+msgid "Special points only"
+msgstr "Doar puncte speciale"
+
+msgid "Speed up"
+msgstr "Accelerează"
+
+msgid "Stand where the landscape was shot, on the planet it names"
+msgstr "Stai unde peisajul a fost fotografiat, pe planeta pe care o numește"
+
+msgid "Star, planet, catalogue number…"
+msgstr "Stea, planetă, număr catalog…"
+
+msgid "Started"
+msgstr "Pornit"
+
+msgid "Startup FOV"
+msgstr "FOV la pornire"
+
+msgid "Startup direction of view"
+msgstr "Direcție de vizualizare la pornire"
+
+msgid "Stationary (begin prograde motion)"
+msgstr "Staționar (început mișcare progradă)"
+
+msgid "Stationary (begin retrograde motion)"
+msgstr "Staționar (început mișcare retrogradă)"
+
+msgid "Stellarium's user guide covers the astronomy this app shares with it: stellarium.org/documentation"
+msgstr "Ghidul utilizatorului Stellarium acoperă astronomia pe care această aplicație o împărtășește cu ea: stellarium.org/documentation"
+
+msgid "Step, hours"
+msgstr "Pas, ore"
+
+msgid "Stop clock when starting"
+msgstr "Oprește ceasul la pornire"
+
+msgid "Strasbourg astronomical Data Center (France)"
+msgstr "Centrul de Date Astronomice Strasbourg (Franța)"
+
+msgid "Style"
+msgstr "Stil"
+
+msgid "Sun altitude"
+msgstr "Altitudine soare"
+
+msgid "Sun at"
+msgstr "Soarele la"
+
+msgid "Sun's altitude"
+msgstr "Altitudinea soarelui"
+
+msgid "Sun's corona"
+msgstr "Coroana soarelui"
+
+msgid "Sun's glare"
+msgstr "Orbirea soarelui"
+
+msgid "Sun, planets and moons of first body and observer's planet"
+msgstr "Soare, planete și luni ale primului corp și planeta observatorului"
+
+msgid "Sun, planets and moons of observer's planet"
+msgstr "Soare, planete și luni ale planetei observatorului"
+
+msgid "Sunlight scattered by interplanetary dust"
+msgstr "Lumina soarelui împrăștiată de praf interplanetar"
+
+msgid "Superior conjunction"
+msgstr "Conjuncție superioară"
+
+msgid "Supernova candidates"
+msgstr "Candidați supernovă"
+
+msgid "Supernova remnant candidates"
+msgstr "Candidați pentru rămășițe de supernovă"
+
+msgid "Switch this off to see the trails for all Solar system bodies"
+msgstr "Dezactivează aceasta pentru a vedea traseele tuturor corpurilor sistemului solar"
+
+msgid "Symbiotic stars"
+msgstr "Stele simbiotice"
+
+msgid "System date at"
+msgstr "Data sistemului la"
+
+msgid "Table"
+msgstr "Tabel"
+
+msgid "Tabular output for coordinates and time"
+msgstr "Ieșire tabelară pentru coordonate și timp"
+
+msgid "Tap a colour to change it. Changes show on the sky at once and are kept."
+msgstr "Atingeți o culoare pentru a o schimba. Modificările apar pe cer imediat și sunt păstrate."
+
+msgid "Tap again to confirm"
+msgstr "Atingeți din nou pentru a confirma"
+
+msgid "Tap an object"
+msgstr "Atingeți un obiect"
+
+msgid "Tap the chart to read a value."
+msgstr "Atingeți graficul pentru a citi o valoare."
+
+msgid "Tap the clock"
+msgstr "Atingeți ceasul"
+
+msgid "Tap the gear"
+msgstr "Atingeți roata dințată"
+
+msgid "Tap the map to stand there."
+msgstr "Atingeți harta pentru a sta acolo."
+
+msgid "Tap the place"
+msgstr "Atingeți locul"
+
+msgid "Tap to confirm"
+msgstr "Atingeți pentru a confirma"
+
+msgid "Tertiary intercardinal points"
+msgstr "Puncte intercardinal terțiare"
+
+msgid "Text angle"
+msgstr "Unghi text"
+
+msgid "The Great Red Spot drifts in System II longitude. Enter a recent measurement and the drift rate to carry it forward from."
+msgstr "Marea Pată Roșie se deplasează în longitudinea Sistemului II. Introduceți o măsurare recentă și rata de derivă pentru a o duce mai departe."
+
+msgid "The algorithm is based on visual observations 1877-1891 by G. Müller and was still republished in the Explanatory Supplement to the Astronomical Ephemeris (1961)."
+msgstr "Algoritmul se bazează pe observații vizuale 1877-1891 de G. Müller și a fost republicat în Suplimentul Explicativ la Efemeridele Astronomice (1961)."
+
+msgid "The algorithm was published by A. Mallama & J. L. Hilton: Computing apparent planetary magnitudes for the Astronomical Almanac. Astronomy&Computing 25 (2018) 10-24."
+msgstr "Algoritmul a fost publicat de A. Mallama & J. L. Hilton: Computing apparent planetary magnitudes for the Astronomical Almanac. Astronomy&Computing 25 (2018) 10-24."
+
+msgid "The algorithm was published in the 2nd edition of the Explanatory Supplement to the Astronomical Almanac (1992)."
+msgstr "Algoritmul a fost publicat în a 2-a ediție a Suplimentului Explicativ la Almanahul Astronomic (1992)."
+
+msgid "The algorithm was published in the 3rd edition of the Explanatory Supplement to the Astronomical Almanac (2013)."
+msgstr "Algoritmul a fost publicat în a 3-a ediție a Suplimentului Explicativ la Almanahul Astronomic (2013)."
+
+msgid "The algorithm was used in the Astronomical Almanac (1984 and later) and gives V (instrumental) magnitudes (allegedly from D.L. Harris)."
+msgstr "Algoritmul a fost folosit în Almanahul Astronomic (1984 și mai târziu) și oferă magnitudini V (instrumentale) (pretins de D.L. Harris)."
+
+msgid "The classical cepheids"
+msgstr "Cefeidele clasice"
+
+msgid "The colour each kind of object is drawn in"
+msgstr "Culoarea în care este desenat fiecare tip de obiect"
+
+msgid "The engine did not answer with any colours."
+msgstr "Motorul nu a răspuns cu vreo culoare."
+
+msgid "The galactic band"
+msgstr "Banda galactică"
+
+msgid "The horizon outline instead of the panorama"
+msgstr "Conturul orizontului în loc de panoramă"
+
+msgid "The path each body has taken across the sky"
+msgstr "Calea pe care fiecare corp a luat-o pe cer"
+
+msgid "The shortest label the culture defines"
+msgstr "Cea mai scurtă etichetă pe care o definește cultura"
+
+msgid "Thickness"
+msgstr "Grosime"
+
+msgid "This copy ships no scripts."
+msgstr "Această copie nu conține scripturi."
+
+msgid "This device has no location service."
+msgstr "Acest dispozitiv nu are serviciu de locație."
+
+msgid "This part of the engine exposes no settings on this build."
+msgstr "Această parte a motorului nu expune nicio setare în această compilație."
+
+msgid "This tool works on Earth only!"
+msgstr "Acest instrument funcționează doar pe Pământ!"
+
+msgid "This tool works on Earth only. Short steps over a long duration are slow."
+msgstr "Acest instrument funcționează doar pe Pământ. Pași scurți pe o durată lungă sunt lenti."
+
+msgid "This year"
+msgstr "În acest an"
+
+msgid "Time of day"
+msgstr "Ora zilei"
+
+msgid "Time span"
+msgstr "Interval de timp"
+
+msgid "Time step"
+msgstr "Pas de timp"
+
+msgid "To the next (mths)"
+msgstr "Până la următoarele (luni)"
+
+msgid "To the next, months"
+msgstr "Până la următoarele, luni"
+
+msgid "Today"
+msgstr "Azi"
+
+msgid "Toggle display of nebula images."
+msgstr "Comutați afișarea imaginilor nebuloase."
+
+msgid "Toggle display of the button for the Digitized Sky Survey."
+msgstr "Comutați afișarea butonului pentru Digitized Sky Survey."
+
+msgid "Toggle display of the button for the HiPS Surveys. Select a survey in the View settings."
+msgstr "Comutați afișarea butonului pentru HiPS Surveys. Selectați un sondaj în setările de vizualizare."
+
+msgid "Toggle drawing Sun's glare"
+msgstr "Comutați desenarea orbirii soarelui"
+
+msgid "Toggle drawing halo around the Moon"
+msgstr "Comutați desenarea aureolei în jurul Lunii"
+
+msgid "Toggle permanent drawing of Sun's corona when atmosphere is disabled"
+msgstr "Comutați desenarea permanentă a coronaei soarelui atunci când atmosfera este dezactivată"
+
+msgid "Toggle the usage of background under GUI buttons"
+msgstr "Comutați utilizarea plăcii de bază sub butoanele GUI"
+
+msgid "Total eclipse begins"
+msgstr "Eclipsa totală începe"
+
+msgid "Total eclipse ends"
+msgstr "Eclipsa totală se termină"
+
+msgid "Trails"
+msgstr "Trasee"
+
+msgid "Transit"
+msgstr "Tranzit"
+
+msgid "Translated"
+msgstr "Tradus"
+
+msgid "Transparency"
+msgstr "Transparență"
+
+msgid "Twilight and rise and set times are worked out for an observer on Earth. Move back to Earth to see them."
+msgstr "Orele crepusculare și de răsărit și apus sunt calculate pentru un observator pe Pământ. Reveniți pe Pământ pentru a le vedea."
+
+msgid "Twinkle"
+msgstr "Sclipire"
+
+msgid "Twinkle amount"
+msgstr "Cantitate sclipire"
+
+msgid "Twinkle even without atmosphere"
+msgstr "Sclipire chiar fără atmosferă"
+
+msgid "Twinkle is caused by atmospheric turbulence; this shows it regardless"
+msgstr "Sclipirea este cauzată de turbulența atmosferică; aceasta o arată indiferent"
+
+msgid "Type a name, a Bayer letter or a catalogue number - Vega, α Lyr, M 31, NGC 224."
+msgstr "Introduceți un nume, o literă Bayer sau un număr catalog - Vega, α Lyr, M 31, NGC 224."
+
+msgid "Umbral magnitude"
+msgstr "Magnitudine umbrală"
+
+msgid "Up to mag."
+msgstr "Până la mag."
+
+msgid "Use SIMBAD"
+msgstr "Utilizați SIMBAD"
+
+msgid "Use additional names of DSO"
+msgstr "Utilizați nume suplimentare de DSO"
+
+msgid "Use buttons background"
+msgstr "Utilizați placa de bază a butoanelor"
+
+msgid "Use common symbols for coordinate systems"
+msgstr "Utilizați simboluri obișnuite pentru sisteme de coordonate"
+
+msgid "Use distance from North Celestial Pole, not declination from equator in equatorial coordinates"
+msgstr "Utilizați distanța de la Polul Ceresc Nord, nu declinația de la ecuator în coordonate ecuatoriale"
+
+msgid "Use mag/arcsec^2 for surface brightness"
+msgstr "Utilizați mag/arcsec^2 pentru luminozitate de suprafață"
+
+msgid "Use my location"
+msgstr "Utilizați locația mea"
+
+msgid "Use on-line astronomical database SIMBAD"
+msgstr "Utilizați baza de date astronomică on-line SIMBAD"
+
+msgid "Use outlines for big deep-sky objects"
+msgstr "Utilizați contururi pentru obiecte mari ale cerului profund"
+
+msgid "Use proportional hints"
+msgstr "Utilizați sugestii proporționale"
+
+msgid "Use sorting by string length"
+msgstr "Utilizați sortarea după lungimea șirului"
+
+msgid "Use surface brightness"
+msgstr "Utilizați luminozitatea de suprafață"
+
+msgid "Use the date now shown in the sky"
+msgstr "Utilizați data acum afișată pe cer"
+
+msgid "Use the value in landscape.ini when it has one"
+msgstr "Utilizați valoarea din landscape.ini când are una"
+
+msgid "Use the value stored for this location"
+msgstr "Utilizați valoarea stocată pentru această locație"
+
+msgid "Var. stars"
+msgstr "Stele variabile"
+
+msgid "Version %s  ·  Qt %s"
+msgstr "Versiune %s  ·  Qt %s"
+
+msgid "View recent GRS measurements"
+msgstr "Vedeți măsurări recente GRS"
+
+msgid "Visibility"
+msgstr "Vizibilitate"
+
+msgid "Visual magnitude based on phase angle and albedo."
+msgstr "Magnitudine vizuală bazată pe unghi de fază și albedo."
+
+msgid "Western quadrature"
+msgstr "Cuadratura de vest"
+
+msgid "When a search result is chosen"
+msgstr "Când este ales un rezultat de căutare"
+
+msgid "Where Jupiter's Great Red Spot was, and when"
+msgstr "Unde era Marea Pată Roșie a lui Jupiter și când"
+
+msgid "Width"
+msgstr "Lățime"
+
+msgid "Working out the contact times…"
+msgstr "Se calculează orele de contact…"
+
+msgid "Zodiac and lunar stations"
+msgstr "Zodiac și stații lunare"
+
+msgid "Zodiacal Light brightness"
+msgstr "Luminozitate Lumină zodiacală"
+
+msgid "Zoom in and out"
+msgstr "Mări și micșorează"
+
+msgid "after sunset"
+msgstr "după apus"
+
+msgid "before sunrise"
+msgstr "înainte de răsărit"
+
+msgid "bright suburban"
+msgstr "suburbani luminosi"
+
+msgid "east +"
+msgstr "est +"
+
+msgid "engine ready, interface going live"
+msgstr "motor gata, interfață în direct"
+
+msgid "excellent dark sky"
+msgstr "cer extrem de întunecat"
+
+msgid "inner city"
+msgstr "centru al orașului"
+
+msgid "north +"
+msgstr "nord +"
+
+msgid "sci. translit."
+msgstr "transl. știință."
+
+msgid "select all"
+msgstr "selectează tot"
+
+msgid "select none"
+msgstr "nu selecta nimic"
+
+msgid "select preference"
+msgstr "selectează preferință"
+
+msgid "select standard"
+msgstr "selectează standard"
+
+msgid "store preference"
+msgstr "stochează preferință"
+
+msgid "truly dark"
+msgstr "cu adevărat întunecat"
+
+msgid "unreadable snapshot"
+msgstr "instantaneu ilizibil"
+
+msgid "with Solar Dates"
+msgstr "cu date solare"
+
+msgid "… and moons"
+msgstr "… și luni"
