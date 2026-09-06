@@ -63,10 +63,7 @@ void NomenclatureMgr::init()
 {
 	texPointer = StelApp::getInstance().getTextureManager().createTexture(StelFileMgr::getInstallationDir()+"/textures/pointeur2.png");
 
-	// Load the nomenclature
 	NomenclatureItem::createNameLists();
-	loadNomenclature();
-	loadSpecialNomenclature();
 
 	QSettings *conf = StelApp::getInstance().getSettings();
 	setColor(Vec3f(                    conf->value("color/planet_nomenclature_color", "0.1,1.0,0.1").toString()));
@@ -95,6 +92,17 @@ void NomenclatureMgr::init()
 	QString displayGroup = N_("Display Options");
 	addAction("actionShow_Planets_Nomenclature", displayGroup, N_("Nomenclature labels"), "flagShowNomenclature", "Alt+N");
 	addAction("actionShow_Planets_Nomenclature_SpecialPoints_Only", displayGroup, N_("Special nomenclature points only"), "specialNomenclatureOnlyDisplayed");
+}
+
+void NomenclatureMgr::ensureLoaded() const
+{
+	if (nomenclatureLoaded)
+		return;
+	nomenclatureLoaded = true;
+	NomenclatureMgr* self = const_cast<NomenclatureMgr*>(this);
+	self->loadNomenclature();
+	self->loadSpecialNomenclature();
+	self->updateI18n();
 }
 
 void NomenclatureMgr::updateNomenclatureData()
@@ -286,6 +294,10 @@ void NomenclatureMgr::deinit()
 
 void NomenclatureMgr::draw(StelCore* core)
 {
+	if (NomenclatureItem::labelsFader.getInterstate()<=0.f
+	    && (!sObjMgr->getFlagSelectedObjectPointer()
+	        || sObjMgr->getSelectedObject("NomenclatureItem").isEmpty()))
+		return;
 	StelProjectorP prj = core->getProjection(StelCore::FrameJ2000);
 	StelPainter painter(prj);
 	painter.setBlending(true);
@@ -295,6 +307,8 @@ void NomenclatureMgr::draw(StelCore* core)
 
 	if (NomenclatureItem::labelsFader.getInterstate()<=0.f)
 	    return;
+
+	ensureLoaded();
 
 	QFont font=QGuiApplication::font();
 	font.setPixelSize(fontSize);
@@ -361,6 +375,7 @@ void NomenclatureMgr::drawPointer(StelCore* core, StelPainter& painter)
 
 QList<StelObjectP> NomenclatureMgr::searchAround(const Vec3d& av, double limitFov, const StelCore* core) const
 {
+	ensureLoaded();
 	QList<StelObjectP> result;
 
 	const bool withAberration=core->getUseAberration();
@@ -390,6 +405,7 @@ QList<StelObjectP> NomenclatureMgr::searchAround(const Vec3d& av, double limitFo
 
 StelObjectP NomenclatureMgr::searchByName(const QString& englishName) const
 {
+	ensureLoaded();
 	if (getFlagShowNomenclature())
 	{
 		NomenclatureItem::NomenclatureItemType niType;
@@ -407,6 +423,7 @@ StelObjectP NomenclatureMgr::searchByName(const QString& englishName) const
 
 StelObjectP NomenclatureMgr::searchByNameI18n(const QString& nameI18n) const
 {
+	ensureLoaded();
 	if (getFlagShowNomenclature())
 	{
 		NomenclatureItem::NomenclatureItemType niType;
@@ -424,6 +441,7 @@ StelObjectP NomenclatureMgr::searchByNameI18n(const QString& nameI18n) const
 
 QVector<QPair<QString,StelObjectP>> NomenclatureMgr::listAllObjects(bool inEnglish) const
 {
+	ensureLoaded();
 	QVector<QPair<QString,StelObjectP>> result;
 
 	if (getFlagShowNomenclature())
@@ -453,6 +471,7 @@ QVector<QPair<QString,StelObjectP>> NomenclatureMgr::listAllObjects(bool inEngli
 
 QVector<QPair<QString,StelObjectP>> NomenclatureMgr::listAllObjectsByType(const QString &objType, bool inEnglish) const
 {
+	ensureLoaded();
 	QMap<QString,StelObjectP> map;
 
 	if (getFlagShowNomenclature())
@@ -528,6 +547,8 @@ const Vec3f& NomenclatureMgr::getColor(void) const
 
 void NomenclatureMgr::setFlagShowNomenclature(bool b)
 {
+	if (b)
+		ensureLoaded();
 	if (getFlagShowNomenclature() != b)
 	{
 		NomenclatureItem::setFlagLabels(b);

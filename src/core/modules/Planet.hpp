@@ -567,7 +567,7 @@ public:
 	void drawOrbit(const StelCore*);
 
 	static constexpr int ORBIT_SEGMENTS = 360;
-	Vec3d orbit[ORBIT_SEGMENTS+1];  // store heliocentric coordinates for drawing the orbit
+	Vec3d* orbit = Q_NULLPTR;
 	double deltaJDE;                // time difference between positional updates.
 	double deltaOrbitJDE;
 	bool closeOrbit;                // whether to connect the beginning of the orbit line to

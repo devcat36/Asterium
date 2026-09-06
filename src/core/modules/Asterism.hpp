@@ -163,6 +163,11 @@ private:
 
 	SphericalCap boundingCap;
 
+	mutable std::vector<Vec3d> segmentPosCache;
+	mutable double segmentPosJDE = -1e30;
+	mutable bool segmentPosAberration = false;
+	mutable bool segmentPosParallax = false;
+
 	//! Define whether lines and names must be drawn
 	LinearFader lineFader, rayHelperFader, nameFader;
 

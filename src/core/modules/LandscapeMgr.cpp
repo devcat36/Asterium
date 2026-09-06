@@ -184,6 +184,7 @@ void Cardinals::draw(const StelCore* core, double latitude) const
 		Vec3f xy;
 		sPainter.setColor(color, fader4WCR.getInterstate());
 		sPainter.setBlending(true);
+		sPainter.beginTextBatch();
 		QMapIterator<Cardinals::CompassDirection, Vec3f> it4w(rose4winds);
 		while(it4w.hasNext())
 		{
@@ -281,6 +282,7 @@ void Cardinals::draw(const StelCore* core, double latitude) const
 				}
 			}
 		}
+		sPainter.endTextBatch();
 	}
 }
 

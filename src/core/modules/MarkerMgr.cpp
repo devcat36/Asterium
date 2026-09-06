@@ -331,6 +331,8 @@ void MarkerMgr::init()
 
 void MarkerMgr::draw(StelCore* core)
 {
+	if (allMarkers.isEmpty())
+		return;
 	StelPainter sPainter(core->getProjection(StelCore::FrameJ2000));
 	for (auto* m : std::as_const(allMarkers))
 	{

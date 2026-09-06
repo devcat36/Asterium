@@ -37,6 +37,7 @@ import android.view.ViewGroup;
 import android.view.WindowInsets;
 import android.view.WindowInsetsController;
 import android.view.WindowManager;
+import android.window.OnBackInvokedDispatcher;
 
 import org.qtproject.qt.android.bindings.QtActivity;
 
@@ -77,6 +78,16 @@ public class AsteriumActivity extends QtActivity
 		overlay.setLayoutParams(new android.widget.FrameLayout.LayoutParams(
 				ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT,
 				Gravity.FILL));
+
+		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU)
+			getOnBackInvokedDispatcher().registerOnBackInvokedCallback(
+					OnBackInvokedDispatcher.PRIORITY_DEFAULT, this::back);
+	}
+
+	private void back()
+	{
+		if (overlay == null || !overlay.handleBack())
+			moveTaskToBack(true);
 	}
 
 	@Override
@@ -100,10 +111,7 @@ public class AsteriumActivity extends QtActivity
 		if (event.getKeyCode() == KeyEvent.KEYCODE_BACK)
 		{
 			if (event.getAction() == KeyEvent.ACTION_UP && !event.isCanceled())
-			{
-				if (overlay == null || !overlay.handleBack())
-					moveTaskToBack(true);
-			}
+				back();
 			return true;
 		}
 		return super.dispatchKeyEvent(event);

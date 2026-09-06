@@ -98,7 +98,7 @@ final class OcularBar extends FrameLayout
 		bar.addView(crosshairs);
 
 		settings = new ImageView(context);
-		settings.setImageDrawable(Theme.gear(Theme.TEXT));
+		settings.setImageDrawable(Theme.layers(Theme.TEXT));
 		settings.setScaleType(ImageView.ScaleType.FIT_CENTER);
 		settings.setContentDescription(T.t("Oculars"));
 		Theme.padding(settings, 11, 11, 11, 11);
@@ -282,7 +282,12 @@ final class OcularBar extends FrameLayout
 		}
 		crosshairs.setVisibility(lit[0] ? VISIBLE : GONE);
 		handle.setVisibility(lit[0] || lit[1] ? VISIBLE : GONE);
-		handleText.setText(T.t(oculars.optString(lit[1] ? "sensorName" : "eyepiece")));
+		if (lit[0] || lit[1])
+		{
+			final String label = T.t(oculars.optString(lit[1] ? "sensorName" : "eyepiece"));
+			if (!label.contentEquals(handleText.getText()))
+				handleText.setText(label);
+		}
 
 		final boolean marked = oculars.optBoolean("crosshairs");
 		if (marked == crosshairsLit)

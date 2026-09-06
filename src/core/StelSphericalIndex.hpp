@@ -217,6 +217,11 @@ private:
 			//! Insert the given element in the given node.
 			void insert(Node& node, const NodeElem& el, int level)
 			{
+				insert(node, el, level, el.obj->getRegion());
+			}
+
+			void insert(Node& node, const NodeElem& el, int level, const SphericalRegionP& region)
+			{
 				if (node.children.isEmpty())
 				{
 					node.elements.append(el);
@@ -238,9 +243,9 @@ private:
 				// If we have children and one of them contains the element, store it in a sub-level
 				for (auto& child : node.children)
 				{
-					if (((SphericalRegion*)&(child.triangle))->contains(el.obj->getRegion().data()))
+					if (((SphericalRegion*)&(child.triangle))->contains(region.data()))
 					{
-						insert(child, el, level + 1);
+						insert(child, el, level + 1, region);
 						return;
 					}
 				}

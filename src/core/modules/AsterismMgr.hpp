@@ -268,6 +268,8 @@ private:
 
 	QString currentSkyCultureID;
 
+	bool anythingToDraw() const;
+
 	bool linesDisplayed;
 	bool rayHelpersDisplayed;
 	bool namesDisplayed;

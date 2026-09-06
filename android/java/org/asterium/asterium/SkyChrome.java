@@ -175,7 +175,7 @@ final class SkyChrome extends FrameLayout
 		rightColumn.setGravity(Gravity.END);
 
 		gear = new ImageView(context);
-		gear.setImageDrawable(Theme.gear(Theme.TEXT));
+		gear.setImageDrawable(Theme.layers(Theme.TEXT));
 		gear.setScaleType(ImageView.ScaleType.FIT_CENTER);
 		Theme.padding(gear, 9, 9, 9, 9);
 		gear.setContentDescription(T.t("Show controls"));
@@ -636,9 +636,14 @@ final class SkyChrome extends FrameLayout
 
 	private void styleTransportKey(ImageView key, String iconStem, boolean on)
 	{
+		final String wanted = iconStem + (on ? "+" : "-");
+		if (wanted.equals(key.getTag()))
+			return;
+		key.setTag(wanted);
 		key.setImageDrawable(Theme.icon(getContext(), iconStem, on));
 		key.setAlpha(on ? 1f : 0.6f);
-		key.setBackground(keyBackground());
+		if (key.getBackground() == null)
+			key.setBackground(keyBackground());
 	}
 
 	private void playPause()
@@ -668,7 +673,7 @@ final class SkyChrome extends FrameLayout
 		captionParams.topMargin = Theme.dp(4);
 		cell.addView(caption, captionParams);
 
-		cell.setTag(new Object[] { action, iconStem, glyph, caption });
+		cell.setTag(new Object[] { action, iconStem, glyph, caption, null });
 		cell.setOnClickListener(v -> NativeBridge.send("action", action));
 
 		final LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(
@@ -682,6 +687,9 @@ final class SkyChrome extends FrameLayout
 	private void styleToolbarButton(View cell, boolean on)
 	{
 		final Object[] parts = (Object[]) cell.getTag();
+		if (parts[4] != null && (Boolean) parts[4] == on)
+			return;
+		parts[4] = on;
 		final ImageView glyph = (ImageView) parts[2];
 		final TextView caption = (TextView) parts[3];
 		glyph.setImageDrawable(Theme.icon(getContext(), (String) parts[1], on));
@@ -718,6 +726,14 @@ final class SkyChrome extends FrameLayout
 
 		edges = new Rect(insets);
 		placeWash(sideBySide);
+	}
+
+	boolean collapse()
+	{
+		if (tablet || !expanded)
+			return false;
+		setExpanded(false);
+		return true;
 	}
 
 	void setExpanded(boolean value)
@@ -913,18 +929,24 @@ final class SkyChrome extends FrameLayout
 		}
 	}
 
+	private static void retext(TextView view, String value)
+	{
+		if (!value.contentEquals(view.getText()))
+			view.setText(value);
+	}
+
 	void onState(JSONObject state)
 	{
 		pointer.setObserver(state.optDouble("lat", Double.NaN),
 		                    state.optDouble("lon", Double.NaN));
 
 		final String fps = state.optString("fps");
-		placeText.setText(state.optString("place"));
-		statsText.setText("FOV " + state.optString("fov")
+		retext(placeText, state.optString("place"));
+		retext(statsText, "FOV " + state.optString("fov")
 				+ (fps.isEmpty() ? "" : "  " + fps + " FPS"));
 
-		clockText.setText(state.optString("clock"));
-		rateText.setText(state.optString("tz") + " · " + state.optString("rateText"));
+		retext(clockText, state.optString("clock"));
+		retext(rateText, state.optString("tz") + " · " + state.optString("rateText"));
 
 		final double rate = state.optDouble("rate", 0.);
 		final boolean stopped = rate == 0.;

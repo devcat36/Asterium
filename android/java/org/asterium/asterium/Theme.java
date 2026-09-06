@@ -149,9 +149,9 @@ final class Theme
 			icons.put(name, drawn);
 			return drawn;
 		}
-		Bitmap bitmap = read(context, "gui/" + name + ".png");
+		Bitmap bitmap = read(context, "gui/" + name + ".png", dp(TOUCH));
 		if (bitmap == null)
-			bitmap = read(context, "gui/" + stem + ".png");
+			bitmap = read(context, "gui/" + stem + ".png", dp(TOUCH));
 		if (bitmap == null)
 			return null;
 		final Drawable drawable = new android.graphics.drawable.BitmapDrawable(
@@ -160,11 +160,24 @@ final class Theme
 		return drawable;
 	}
 
-	private static Bitmap read(Context context, String assetPath)
+	private static Bitmap read(Context context, String assetPath, int wantPx)
 	{
+		final BitmapFactory.Options bounds = new BitmapFactory.Options();
+		bounds.inJustDecodeBounds = true;
 		try (InputStream in = context.getAssets().open(assetPath))
 		{
-			return BitmapFactory.decodeStream(in);
+			BitmapFactory.decodeStream(in, null, bounds);
+		}
+		catch (Exception e)
+		{
+			return null;
+		}
+		final BitmapFactory.Options options = new BitmapFactory.Options();
+		final int edge = Math.max(bounds.outWidth, bounds.outHeight);
+		options.inSampleSize = wantPx > 0 ? Math.max(1, edge / Math.max(1, wantPx)) : 1;
+		try (InputStream in = context.getAssets().open(assetPath))
+		{
+			return BitmapFactory.decodeStream(in, null, options);
 		}
 		catch (Exception e)
 		{
@@ -172,24 +185,25 @@ final class Theme
 		}
 	}
 
-	static Drawable gear(int color)
+	static Drawable layers(int color)
 	{
-		final float centre = 50f, tooth = 47f, root = 33f, hole = 14f;
 		final Path path = new Path();
-		path.setFillType(Path.FillType.EVEN_ODD);
-		for (int i = 0; i < 8; ++i)
-		{
-			final float base = i * 45f;
-			vertex(path, centre, base - 17f, root, i == 0);
-			vertex(path, centre, base - 11f, tooth, false);
-			vertex(path, centre, base + 11f, tooth, false);
-			vertex(path, centre, base + 17f, root, false);
-		}
+		path.moveTo(50f, 6f);
+		path.lineTo(90f, 29f);
+		path.lineTo(50f, 52f);
+		path.lineTo(10f, 29f);
 		path.close();
-		path.addCircle(centre, centre, hole, Path.Direction.CCW);
+		path.moveTo(10f, 51f);
+		path.lineTo(50f, 74f);
+		path.lineTo(90f, 51f);
+		path.moveTo(10f, 72f);
+		path.lineTo(50f, 95f);
+		path.lineTo(90f, 72f);
 
 		final ShapeDrawable drawable = new ShapeDrawable(new PathShape(path, 100f, 100f));
 		drawable.getPaint().setColor(color);
+		drawable.getPaint().setStyle(Paint.Style.STROKE);
+		drawable.getPaint().setStrokeWidth(8f);
 		drawable.setIntrinsicWidth(dp(24));
 		drawable.setIntrinsicHeight(dp(24));
 		return drawable;
@@ -198,24 +212,8 @@ final class Theme
 	static Drawable gyro(Context context, boolean glow)
 	{
 		final Path path = new Path();
-		path.setFillType(Path.FillType.EVEN_ODD);
-		path.addRoundRect(34f, 32f, 66f, 83.4f, 4.5f, 4.5f, Path.Direction.CW);
-		path.addRoundRect(38.2f, 37.1f, 61.8f, 75.2f, 1.5f, 1.5f, Path.Direction.CW);
-		path.addCircle(50f, 79.3f, 2.7f, Path.Direction.CW);
-
-		final float mid = 36f, band = 3f, head = 9.5f, sweep = 84f;
-		final float from = 270f - sweep / 2f, to = 270f + sweep / 2f;
-		path.arcTo(ring(mid + band), from, sweep, true);
-		path.arcTo(ring(mid - band), to, -sweep, false);
-		path.close();
-		vertex(path, 50f, to, mid + head, true);
-		vertex(path, 50f, to, mid - head, false);
-		vertex(path, 50f, to + 19f, mid, false);
-		path.close();
-		vertex(path, 50f, from, mid + head, true);
-		vertex(path, 50f, from, mid - head, false);
-		vertex(path, 50f, from - 19f, mid, false);
-		path.close();
+		orbit(path, 40f, 21f, -45f, 10f, 320f);
+		path.addRoundRect(new RectF(42f, 36f, 58f, 64f), 4f, 4f, Path.Direction.CW);
 
 		final int size = dp(64);
 		final float margin = size * 0.05f;
@@ -240,42 +238,48 @@ final class Theme
 		return new android.graphics.drawable.BitmapDrawable(context.getResources(), bitmap);
 	}
 
-	private static RectF ring(float radius)
+	private static void orbit(Path path, float rx, float ry, float tilt, float start, float sweep)
 	{
-		return new RectF(50f - radius, 50f - radius, 50f + radius, 50f + radius);
+		final float band = 3.5f, head = 9.5f, reach = 13f;
+		final float end = start + sweep;
+		final Path loop = new Path();
+		ovalArc(loop, rx + band, ry + band, start, end, true);
+		ovalArc(loop, rx - band, ry - band, end, start, false);
+		loop.close();
+		final double at = Math.toRadians(end);
+		final float ex = 50f + rx * (float) Math.cos(at);
+		final float ey = 50f + ry * (float) Math.sin(at);
+		float tx = -rx * (float) Math.sin(at) * Math.signum(sweep);
+		float ty = ry * (float) Math.cos(at) * Math.signum(sweep);
+		final float norm = (float) Math.hypot(tx, ty);
+		tx /= norm;
+		ty /= norm;
+		loop.moveTo(ex - ty * head, ey + tx * head);
+		loop.lineTo(ex + ty * head, ey - tx * head);
+		loop.lineTo(ex + tx * reach, ey + ty * reach);
+		loop.close();
+		final Matrix spin = new Matrix();
+		spin.setRotate(tilt, 50f, 50f);
+		loop.transform(spin);
+		path.addPath(loop);
 	}
 
-	private static void vertex(Path path, float centre, float degrees, float radius, boolean first)
+	private static void ovalArc(Path path, float rx, float ry, float from, float to, boolean first)
+	{
+		final int steps = 64;
+		for (int i = 0; i <= steps; ++i)
+			ovalVertex(path, rx, ry, from + (to - from) * i / steps, first && i == 0);
+	}
+
+	private static void ovalVertex(Path path, float rx, float ry, float degrees, boolean first)
 	{
 		final double angle = Math.toRadians(degrees);
-		final float x = centre + radius * (float) Math.cos(angle);
-		final float y = centre + radius * (float) Math.sin(angle);
+		final float x = 50f + rx * (float) Math.cos(angle);
+		final float y = 50f + ry * (float) Math.sin(angle);
 		if (first)
 			path.moveTo(x, y);
 		else
 			path.lineTo(x, y);
-	}
-
-	static Drawable star(int color, boolean filled)
-	{
-		final Path path = new Path();
-		for (int i = 0; i < 5; ++i)
-		{
-			vertex(path, 50f, i * 72f - 90f, 46f, i == 0);
-			vertex(path, 50f, i * 72f - 54f, 19f, false);
-		}
-		path.close();
-		final ShapeDrawable drawable = new ShapeDrawable(new PathShape(path, 100f, 100f));
-		drawable.getPaint().setColor(color);
-		if (!filled)
-		{
-			drawable.getPaint().setStyle(Paint.Style.STROKE);
-			drawable.getPaint().setStrokeWidth(7f);
-			drawable.getPaint().setStrokeJoin(Paint.Join.ROUND);
-		}
-		drawable.setIntrinsicWidth(dp(16));
-		drawable.setIntrinsicHeight(dp(16));
-		return drawable;
 	}
 
 	static GradientDrawable box(int fill, int radiusDp, int strokeColor)

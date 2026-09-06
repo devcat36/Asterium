@@ -42,6 +42,7 @@
 #include <QStringList>
 #include <QSettings>
 #include <QDebug>
+#include <vector>
 #include <QtGlobal>
 
 // The 0.025 corresponds to the maximum eye resolution in degree
@@ -53,6 +54,7 @@ StelSkyDrawer::StelSkyDrawer(StelCore* acore) :
 	eye(acore->getToneReproducer()),
 	vao(new QOpenGLVertexArrayObject),
 	vbo(new QOpenGLBuffer(QOpenGLBuffer::VertexBuffer)),
+	ibo(new QOpenGLBuffer(QOpenGLBuffer::IndexBuffer)),
 	maxAdaptFov(180.f),
 	minAdaptFov(0.1f),
 	lnfovFactor(0.f),
@@ -127,14 +129,13 @@ StelSkyDrawer::StelSkyDrawer(StelCore* acore) :
 	setT(conf->value("landscape/turbidity",5.).toDouble());
 
 	// Initialize buffers for use by gl vertex array
-	vertexArray = new StarVertex[maxPointSources*6];
-	
-	textureCoordArray = new unsigned char[maxPointSources*6*2];
+	vertexArray = new StarVertex[maxPointSources*4];
+
+	textureCoordArray = new unsigned char[maxPointSources*4*2];
 	for (unsigned int i=0;i<maxPointSources; ++i)
 	{
-		static const unsigned char texElems[] = {0, 0, 255, 0, 255, 255, 0, 0, 255, 255, 0, 255};
-		unsigned char* elem = &textureCoordArray[i*6*2];
-		std::memcpy(elem, texElems, 12);
+		static const unsigned char texElems[] = {0, 0, 255, 0, 255, 255, 0, 255};
+		std::memcpy(&textureCoordArray[i*4*2], texElems, 8);
 	}
 	texImgHalo=QImage(StelFileMgr::getInstallationDir()+"/textures/star16x16.png");
 	texImgHaloSpiky=QImage(StelFileMgr::getInstallationDir()+"/textures/star16x16_rays.png");
@@ -175,7 +176,7 @@ void StelSkyDrawer::init()
 	texHaloRayed = StelApp::getInstance().getTextureManager().createTexture(texImgHaloSpiky);
 	texBigHalo = StelApp::getInstance().getTextureManager().createTexture(StelFileMgr::getInstallationDir()+"/textures/haloLune.png");
 	texSunHalo = StelApp::getInstance().getTextureManager().createTexture(StelFileMgr::getInstallationDir()+"/textures/halo.png");	
-	texSunCorona = StelApp::getInstance().getTextureManager().createTexture(StelFileMgr::getInstallationDir()+"/textures/corona.png");
+	texSunCorona = StelApp::getInstance().getTextureManager().createTextureThread(StelFileMgr::getInstallationDir()+"/textures/corona.png");
 
 	// Create shader program
 	QOpenGLShader vshader(QOpenGLShader::Vertex);
@@ -220,7 +221,21 @@ void StelSkyDrawer::init()
 	vbo->create();
 	vbo->bind();
 	vbo->setUsagePattern(QOpenGLBuffer::StreamDraw);
-	vbo->allocate(maxPointSources*6*sizeof(StarVertex) + maxPointSources*6*2);
+	vbo->allocate(maxPointSources*4*sizeof(StarVertex) + maxPointSources*4*2);
+	vbo->write(maxPointSources*4*sizeof(StarVertex), textureCoordArray, maxPointSources*4*2);
+
+	std::vector<unsigned short> starIndices(maxPointSources*6);
+	for (unsigned int i=0;i<maxPointSources; ++i)
+	{
+		const unsigned short v = static_cast<unsigned short>(i*4);
+		unsigned short* e = &starIndices[i*6];
+		e[0]=v; e[1]=v+1; e[2]=v+2; e[3]=v; e[4]=v+2; e[5]=v+3;
+	}
+	ibo->create();
+	ibo->bind();
+	ibo->setUsagePattern(QOpenGLBuffer::StaticDraw);
+	ibo->allocate(starIndices.data(), int(starIndices.size()*sizeof(unsigned short)));
+	ibo->release();
 
 	if(vao->create())
 	{
@@ -239,7 +254,7 @@ void StelSkyDrawer::setupCurrentVAO()
 	vbo->bind();
 	starShaderProgram->setAttributeBuffer(starShaderVars.pos, GL_FLOAT, 0, 2, sizeof(StarVertex));
 	starShaderProgram->setAttributeBuffer(starShaderVars.color, GL_UNSIGNED_BYTE, offsetof(StarVertex,color), 3, sizeof(StarVertex));
-	starShaderProgram->setAttributeBuffer(starShaderVars.texCoord, GL_UNSIGNED_BYTE, maxPointSources*6*sizeof(StarVertex), 2, 0);
+	starShaderProgram->setAttributeBuffer(starShaderVars.texCoord, GL_UNSIGNED_BYTE, maxPointSources*4*sizeof(StarVertex), 2, 0);
 	vbo->release();
 	starShaderProgram->enableAttributeArray(starShaderVars.pos);
 	starShaderProgram->enableAttributeArray(starShaderVars.color);
@@ -469,15 +484,16 @@ void StelSkyDrawer::postDrawPointSource(StelPainter* sPainter, bool drawInCorona
 	const QMatrix4x4 qMat=sPainter->getProjector()->getProjectionMatrix().toQMatrix();
 
 	vbo->bind();
-	vbo->write(0, vertexArray, nbPointSources*6*sizeof(StarVertex));
-	vbo->write(maxPointSources*6*sizeof(StarVertex), textureCoordArray, nbPointSources*6*2);
+	vbo->write(0, vertexArray, nbPointSources*4*sizeof(StarVertex));
 	vbo->release();
 
 	starShaderProgram->bind();
 	starShaderProgram->setUniformValue(starShaderVars.projectionMatrix, qMat);
 	
 	bindVAO();
-	glDrawArrays(GL_TRIANGLES, 0, static_cast<GLsizei>(nbPointSources)*6);
+	ibo->bind();
+	glDrawElements(GL_TRIANGLES, static_cast<GLsizei>(nbPointSources)*6, GL_UNSIGNED_SHORT, nullptr);
+	ibo->release();
 	releaseVAO();
 
 	starShaderProgram->release();
@@ -523,11 +539,9 @@ bool StelSkyDrawer::drawPointSource(StelPainter* sPainter, const Vec3d& v, const
 		static_cast<unsigned char>(std::min(static_cast<int>(color[2]*tw*255+0.5f), 255))};
 	
 	// Store the drawing instructions in the vertex arrays
-	StarVertex* vx = &(vertexArray[nbPointSources*6]);
+	StarVertex* vx = &(vertexArray[nbPointSources*4]);
 	vx->pos.set(win[0]-radius,win[1]-radius); std::memcpy(vx->color, starColor, 3); ++vx;
 	vx->pos.set(win[0]+radius,win[1]-radius); std::memcpy(vx->color, starColor, 3); ++vx;
-	vx->pos.set(win[0]+radius,win[1]+radius); std::memcpy(vx->color, starColor, 3); ++vx;
-	vx->pos.set(win[0]-radius,win[1]-radius); std::memcpy(vx->color, starColor, 3); ++vx;
 	vx->pos.set(win[0]+radius,win[1]+radius); std::memcpy(vx->color, starColor, 3); ++vx;
 	vx->pos.set(win[0]-radius,win[1]+radius); std::memcpy(vx->color, starColor, 3); ++vx;
 

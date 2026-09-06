@@ -116,6 +116,9 @@ StelMovementMgr::StelMovementMgr(StelCore* acore)
 	, hasDragged(false)
 	, previousX(0)
 	, previousY(0)
+	, flingRate(0., 0.)
+	, zoomRate(0.)
+	, pinchLogScale(0.)
 	, beforeTimeDragTimeRate(0.0)
 	, dragTimeMode(false)
 	, zoomMove()
@@ -603,10 +606,31 @@ bool StelMovementMgr::handlePinch(qreal scale, bool started)
 
 	static double previousFov = 0;
 	if (started)
+	{
 		previousFov = getAimFov();
+		pinchClock.start();
+		pinchLogScale = 0.;
+		zoomRate = 0.;
+	}
 	if (scale>0)
+	{
 		zoomTo(previousFov/scale, 0);
+		const double logScale = std::log(scale);
+		const double seconds = pinchClock.isValid() ? pinchClock.restart() / 1000. : 0.;
+		if (seconds > 0.)
+			zoomRate = 0.5 * zoomRate + 0.5 * (logScale - pinchLogScale) / seconds;
+		pinchLogScale = logScale;
+	}
 	return true;
+}
+
+void StelMovementMgr::releasePinch()
+{
+	if (!pinchClock.isValid() || pinchClock.elapsed() > 80)
+		zoomRate = 0.;
+	else
+		zoomRate *= 0.66;
+	pinchClock.invalidate();
 }
 
 void StelMovementMgr::handleMouseClicks(QMouseEvent* event)
@@ -656,6 +680,9 @@ void StelMovementMgr::handleMouseClicks(QMouseEvent* event)
 				hasDragged = false;
 				previousX = eventPosX;
 				previousY = eventPosY;
+				flingRate.set(0., 0.);
+				zoomRate = 0.;
+				dragClock.invalidate();
 				event->accept();
 				return;
 			}
@@ -664,6 +691,10 @@ void StelMovementMgr::handleMouseClicks(QMouseEvent* event)
 				isDragging = false;
 				if (hasDragged)
 				{
+					if (!dragClock.isValid() || dragClock.elapsed() > 80)
+						flingRate.set(0., 0.);
+					else
+						flingRate *= 0.66;
 					event->accept();
 					if (dragTimeMode)
 					{
@@ -1110,6 +1141,26 @@ void StelMovementMgr::updateMotion(double deltaTime)
 	updateVisionVector(deltaTime);
 	panView(deltaAz, deltaAlt);
 	updateAutoZoom(deltaTime);
+
+	if (flingRate[0] != 0. || flingRate[1] != 0.)
+	{
+		if (flagAutoMove)
+			flingRate.set(0., 0.);
+		else if (!isDragging)
+		{
+			panView(flingRate[0]*deltaTime, flingRate[1]*deltaTime);
+			flingRate *= std::exp(-deltaTime / 0.35);
+			if (flingRate.norm() < currentFov*M_PI_180*0.06)
+				flingRate.set(0., 0.);
+		}
+	}
+	if (zoomRate != 0. && !pinchClock.isValid())
+	{
+		setFov(currentFov * std::exp(-zoomRate * deltaTime));
+		zoomRate *= std::exp(-deltaTime / 0.35);
+		if (std::fabs(zoomRate) < 0.15)
+			zoomRate = 0.;
+	}
 }
 
 // Called after manual FOV changes so viewport-offset tracking uses the FOV
@@ -1679,7 +1730,18 @@ void StelMovementMgr::dragView(int x1, int y1, int x2, int y2)
 		double az1, alt1, az2, alt2;
 		StelUtils::rectToSphe(&az1, &alt1, j2000ToMountFrame(tempvec1));
 		StelUtils::rectToSphe(&az2, &alt2, j2000ToMountFrame(tempvec2));
-		panView(az2-az1, alt1-alt2);
+		double deltaAz = az2-az1;
+		if (deltaAz > M_PI)
+			deltaAz -= 2.*M_PI;
+		else if (deltaAz < -M_PI)
+			deltaAz += 2.*M_PI;
+		const double deltaAlt = alt1-alt2;
+		panView(deltaAz, deltaAlt);
+		const double seconds = dragClock.isValid() ? dragClock.restart() / 1000. : 0.;
+		if (seconds > 0.)
+			flingRate = flingRate * 0.5 + Vec2d(deltaAz, deltaAlt) * (0.5 / seconds);
+		else if (!dragClock.isValid())
+			dragClock.start();
 	}
 	setFlagTracking(false);
 	setFlagLockEquPos(false);
@@ -1754,6 +1816,8 @@ void StelMovementMgr::updateAutoZoom(double deltaTime)
 void StelMovementMgr::zoomTo(double aim_fov, float zoomDuration)
 {
 	zoomDuration /= movementsSpeedFactor;
+	if (zoomDuration > 0.f)
+		zoomRate = 0.;
 	zoomMove.setTarget(currentFov, aim_fov, zoomDuration);
 	flagAutoZoom = true;
 }

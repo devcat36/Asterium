@@ -132,6 +132,9 @@ void SporadicMeteorMgr::draw(StelCore* core)
 		return;
 	}
 
+	if (activeMeteors.isEmpty())
+		return;
+
 	// step through and draw all active meteors
 	StelPainter sPainter(core->getProjection(StelCore::FrameAltAz));
 	for (auto* m: std::as_const(activeMeteors))

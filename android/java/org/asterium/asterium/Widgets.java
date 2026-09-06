@@ -52,7 +52,8 @@ final class Widgets
 
 	static void setStarred(ImageView star, boolean saved)
 	{
-		star.setImageDrawable(Theme.star(saved ? Theme.ACCENT : Theme.TEXT_DIM, saved));
+		star.setImageDrawable(Theme.icon(star.getContext(), "btObsList", saved));
+		star.setAlpha(saved ? 1f : 0.72f);
 		star.setContentDescription(T.t(saved ? "Remove from observing list"
 		                                     : "Save to observing list"));
 		star.setTag(saved);

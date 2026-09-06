@@ -138,6 +138,7 @@ protected:
 
 	//! The texture of the tile
 	StelTextureSP tex;
+	double timeWhenTextureUnused = -1.;
 
 	//! Minimum resolution of the data of the texture in degree/pixel
 	float minResolution;
@@ -157,7 +158,8 @@ private:
 
 	//! Return the list of tiles which should be drawn.
 	//! @param result a map containing resolution, pointer to the tiles
-	void getTilesToDraw(QMultiMap<double, StelSkyImageTile*>& result, StelCore* core, const SphericalRegionP& viewPortPoly, float limitLuminance, bool recheckIntersect=true);
+	void releaseUnusedTexture();
+	void getTilesToDraw(QMultiMap<double, StelSkyImageTile*>& result, StelCore* core, const SphericalRegionP& viewPortPoly, float limitLuminance, float degPerPixel, bool recheckIntersect=true);
 
 	//! Draw the image on the screen.
 	//! @return true if the tile was actually displayed

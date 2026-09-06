@@ -536,7 +536,7 @@ void SpecialZoneArray<Star>::draw(StelPainter* sPainter, int index, bool isInsid
 				if (!cap.contains(v))
 				{
 					isVisible = false;
-					continue;
+					break;
 				}
 			}
 			if (!isVisible)

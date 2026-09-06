@@ -44,6 +44,11 @@
 
 const QString Nebula::NEBULA_TYPE = QStringLiteral("Nebula");
 
+QHash<unsigned int, Nebula::Extras> Nebula::extrasByDSO;
+std::vector<unsigned int> Nebula::rareNumbers;
+std::vector<QString> Nebula::rareStrings;
+const QString Nebula::noDesignation;
+const Nebula::Extras Nebula::emptyExtras;
 StelTextureSP Nebula::texRegion;
 StelTextureSP Nebula::texPointElement;
 StelTextureSP Nebula::texPlanetaryNebula;
@@ -110,39 +115,9 @@ const QMap<Nebula::NebulaType, QString> Nebula::typeEnglishStringMap = // Maps t
 Nebula::Nebula()
 	: StelObject()
 	, DSO_nb(0)
-	, M_nb(0)
-	, NGC_nb(0)
-	, IC_nb(0)
-	, C_nb(0)
-	, B_nb(0)
-	, Sh2_nb(0)
-	, VdB_nb(0)
-	, RCW_nb(0)
-	, LDN_nb(0)
-	, LBN_nb(0)
-	, Cr_nb(0)
-	, Mel_nb(0)
 	, PGC_nb(0)
-	, UGC_nb(0)
-	, Arp_nb(0)
-	, VV_nb(0)
-	, DWB_nb(0)
-	, Tr_nb(0)
-	, St_nb(0)
-	, Ru_nb(0)
-	, VdBHa_nb(0)
-	, Ced_nb()
-	, PK_nb()
-	, PNG_nb()
-	, SNRG_nb()
-	, ACO_nb()
-	, HCG_nb()
-	, ESO_nb()
-	, VdBH_nb()
 	, withoutID(false)
 	, nameI18()
-	, discoverer()
-	, discoveryYear()
 	, mTypeString()
 	, bMag(99.)
 	, vMag(99.)
@@ -153,8 +128,6 @@ Nebula::Nebula()
 	, oDistanceErr(0.)
 	, redshift(99.)
 	, redshiftErr(0.)
-	, parallax(0.)
-	, parallaxErr(0.)
 	, nType()
 {
 	outlineSegments.clear();
@@ -178,7 +151,7 @@ QString Nebula::getMagnitudeInfoString(const StelCore *core, const InfoStringGro
 		float mage = getVMagnitudeWithExtinction(core, mag, magOffset);
 		bool hasAtmosphere = core->getSkyDrawer()->getFlagHasAtmosphere();
 		QString tmag = q_("Magnitude");
-		if (nType == NebDn || B_nb>0) // Dark nebulae or objects from Barnard catalog
+		if (nType == NebDn || catNum(CatB)>0) // Dark nebulae or objects from Barnard catalog
 			tmag = q_("Opacity");
 
 		if (bMag < 50.f && vMag > 50.f)
@@ -194,7 +167,7 @@ QString Nebula::getMagnitudeInfoString(const StelCore *core, const InfoStringGro
 		}
 
 		const float airmass = getAirmass(core);
-		if (nType != NebDn && B_nb==0 && airmass>-1.f) // Don't show extincted magnitude much below horizon where model is meaningless.
+		if (nType != NebDn && catNum(CatB)==0 && airmass>-1.f) // Don't show extincted magnitude much below horizon where model is meaningless.
 		{
 			emag = QString("%1 <b>%2</b> %3 <b>%4</b> %5)").arg(q_("reduced to"), QString::number(mage, 'f', decimals), q_("by"), QString::number(airmass, 'f', 2), q_("Airmasses"));
 			if (!bmag)
@@ -226,9 +199,10 @@ QStringList Nebula::getCultureLabels(StelObject::CulturalDisplayStyle style) con
 {
 	static StelSkyCultureMgr *scMgr=GETSTELMODULE(StelSkyCultureMgr);
 	QStringList labels;
-	if (culturalNames.isEmpty())
+	const Extras& e = readExtras();
+	if (e.culturalNames.isEmpty())
 		return labels;
-	for (auto &cName: culturalNames)
+	for (auto &cName: e.culturalNames)
 		{
 			const QString modernName= nameI18.isEmpty() ? getDSODesignation() : nameI18;
 			labels << scMgr->createCulturalLabel(cName, style, modernName);
@@ -251,7 +225,7 @@ QString Nebula::getInfoString(const StelCore *core, const InfoStringGroup& flags
 	if ((flags&Name) || (flags&CatalogNumber))
 		oss << (rtl ? "<h2 dir=\"rtl\">" : "<h2 dir=\"ltr\">");
 
-	if (!culturalNames.isEmpty() && flags&Name)
+	if (hasCulturalNames && flags&Name)
 		oss << getInfoLabel() << "<br/>";
 
 	if (!nameI18.isEmpty() && flags&Name)
@@ -267,6 +241,7 @@ QString Nebula::getInfoString(const StelCore *core, const InfoStringGroup& flags
 		if (!nameI18.isEmpty() && !withoutID && flags&Name)
 			oss << "<br>";
 
+		buildDesignations();
 		oss << designations.join(" - ");
 	}
 
@@ -367,6 +342,8 @@ QString Nebula::getInfoString(const StelCore *core, const InfoStringGroup& flags
 
 	if (flags&Distance)
 	{
+		const float parallax = readExtras().parallax;
+		const float parallaxErr = readExtras().parallaxErr;
 		if (qAbs(parallax)>0.f)
 		{
 			QString dx;
@@ -449,18 +426,20 @@ QString Nebula::getInfoString(const StelCore *core, const InfoStringGroup& flags
 
 			oss << QString("%1: %2").arg(q_("Redshift"), z) << "<br/>";
 		}
-		if (qAbs(parallax)>0.f)
+		const float parallax2 = readExtras().parallax;
+		const float parallaxErr2 = readExtras().parallaxErr;
+		if (qAbs(parallax2)>0.f)
 		{
 			QString px;
-			if (parallaxErr>0.f)
-				px = QString("%1%2%3").arg(QString::number(qAbs(parallax), 'f', 3)).arg(QChar(0x00B1)).arg(QString::number(parallaxErr, 'f', 3));
+			if (parallaxErr2>0.f)
+				px = QString("%1%2%3").arg(QString::number(qAbs(parallax2), 'f', 3)).arg(QChar(0x00B1)).arg(QString::number(parallaxErr2, 'f', 3));
 			else
-				px = QString("%1").arg(QString::number(qAbs(parallax), 'f', 3));
+				px = QString("%1").arg(QString::number(qAbs(parallax2), 'f', 3));
 
 			oss << QString("%1: %2 %3").arg(q_("Parallax"), px, qc_("mas", "parallax")) << "<br/>";
 		}
-		if (!discoverer.isEmpty())
-			oss << QString("%1: %2 (%3)").arg(q_("Discoverer"), discoverer, StelUtils::localeDiscoveryDateString(discoveryYear)) << "<br/>";
+		if (!readExtras().discoverer.isEmpty())
+			oss << QString("%1: %2 (%3)").arg(q_("Discoverer"), readExtras().discoverer, StelUtils::localeDiscoveryDateString(readExtras().discoveryYear)) << "<br/>";
 		if (!getMorphologicalTypeDescription().isEmpty())
 			oss << StelUtils::wrapText(QString("%1: %2.").arg(q_("Morphological description"), getMorphologicalTypeDescription())) << "<br/>";
 	}
@@ -479,6 +458,7 @@ QVariantMap Nebula::getInfoMap(const StelCore *core) const
 	map["type"]=getObjectTypeI18n(); // replace "Nebula" type by detail. This is localized.
 	map.insert("morpho", getMorphologicalTypeString());
 	map.insert("surface-brightness", getSurfaceBrightness(core));
+	buildDesignations();
 	map.insert("designations", withoutID ? QString() : designations.join(" - "));
 	map.insert("bmag", bMag);
 	if (vMag < 50 && bMag < 50)
@@ -729,7 +709,7 @@ float Nebula::getVisibilityLevelByMagnitude(void) const
 			if (majorAxisSize>0.f && mag<90.f)
 				lim = mLim - mag - 2.0f*qMin(majorAxisSize, 1.5f);
 			else
-				lim = (B_nb>0 ? 9.0f : 12.0f); // GZ I assume LDN objects are rather elusive.
+				lim = (catNum(CatB)>0 ? 9.0f : 12.0f); // GZ I assume LDN objects are rather elusive.
 		}
 		else if (nType==NebHII) // NebHII={Sharpless, LBN, RCW} but also M42.
 		{
@@ -746,13 +726,17 @@ float Nebula::getVisibilityLevelByMagnitude(void) const
 
 void Nebula::drawOutlines(StelPainter &sPainter, float maxMagHints) const
 {
+	size_t segments = outlineSegments.size();
+	if (segments==0 || !flagUseOutlines)
+		return;
+
 	if (!objectInDisplayedType())
 		return;
 
-	size_t segments = outlineSegments.size();
-
 	// tune limits for outlines
 	float oLim = getVisibilityLevelByMagnitude() - 3.f;
+	if (oLim>maxMagHints)
+		return;
 
 	sPainter.setColor(getHintColor(nType), hintsBrightness);
 	sPainter.setLineWidth(1.f * sPainter.getProjector()->getScreenScale());
@@ -801,7 +785,8 @@ void Nebula::renderDarkNebulaMarker(StelPainter& sPainter, const float x, const 
 
 	const float roundRadius = 0.35 * size;
 	const int numPointsInArc = std::lround(std::clamp(5*size/35, 5.f, 16.f));
-	std::vector<float> vertexData;
+	static std::vector<float> vertexData;
+	vertexData.clear();
 	vertexData.reserve(numPointsInArc*2*4);
 	const float leftOuterX = x - size;
 	const float leftInnerX = leftOuterX + roundRadius;
@@ -888,7 +873,8 @@ void Nebula::renderMarkerRoundedRect(StelPainter& sPainter, const float x, const
 
 	const float roundRadius = 0.35 * size;
 	const int numPointsInArc = std::lround(std::clamp(5*size/35, 5.f, 16.f));
-	std::vector<float> vertexData;
+	static std::vector<float> vertexData;
+	vertexData.clear();
 	vertexData.reserve(numPointsInArc*2*4);
 	const float leftOuterX = x - size;
 	const float leftInnerX = leftOuterX + roundRadius;
@@ -970,8 +956,9 @@ void Nebula::renderEllipticMarker(StelPainter& sPainter, const float x, const fl
 
 	const float radiusY = 0.35 * size;
 	const float radiusX = aspectRatio * radiusY;
-	const int numPoints = std::lround(std::clamp(size/3, 32.f, 4096.f));
-	std::vector<float> vertexData;
+	const int numPoints = std::lround(std::clamp(3.f*qMax(radiusX, radiusY), 12.f, 4096.f));
+	static std::vector<float> vertexData;
+	vertexData.clear();
 	vertexData.reserve(numPoints*2);
 	const float*const cossin = StelUtils::ComputeCosSinTheta(numPoints);
 	const auto cosa = std::cos(angle);
@@ -1003,6 +990,7 @@ void Nebula::renderMarkerPointedCircle(StelPainter& sPainter, const float x, con
 	size *= scale;
 
 	texPointElement->bind();
+	sPainter.setBatchTexture(texPointElement->glName());
 	sPainter.setColor(color, hintsBrightness);
 	sPainter.setBlending(true, GL_SRC_ALPHA, GL_ONE);
 	const auto numPoints = StelUtils::getSmallerPowerOfTwo(std::clamp(int(0.4f*size/scale), 8, 4096));
@@ -1010,7 +998,8 @@ void Nebula::renderMarkerPointedCircle(StelPainter& sPainter, const float x, con
 	if(insideRect)
 		size -= spriteSize*2;
 	const float*const cossin = StelUtils::ComputeCosSinRhoZone((2*M_PIf)/numPoints, numPoints, 0);
-	std::vector<Vec2f> points;
+	static std::vector<Vec2f> points;
+	points.clear();
 	points.reserve(numPoints);
 	for (int n = 0; n < numPoints; ++n)
 	{
@@ -1039,7 +1028,7 @@ float Nebula::getHintSize(StelPainter& sPainter) const
 	return qMax(size, scaledSize);
 }
 
-void Nebula::drawHints(StelPainter& sPainter, float maxMagHints, StelCore *core) const
+void Nebula::drawHints(StelPainter& sPainter, const Vec3d& XY, float maxMagHints, StelCore *core) const
 {
 	if (!objectInDisplayedType())
 		return;
@@ -1106,6 +1095,7 @@ void Nebula::drawHints(StelPainter& sPainter, float maxMagHints, StelCore *core)
 		case NebPossPN:
 		case NebPPN:
 			Nebula::texPlanetaryNebula->bind();
+			sPainter.setBatchTexture(Nebula::texPlanetaryNebula->glName());
 			break;
 		case NebDn:
 			renderDarkNebulaMarker(sPainter, XY[0], XY[1], finalSize, color);
@@ -1118,6 +1108,7 @@ void Nebula::drawHints(StelPainter& sPainter, float maxMagHints, StelCore *core)
 		}
 		case NebRegion:
 			Nebula::texRegion->bind();
+			sPainter.setBatchTexture(Nebula::texRegion->glName());
 			break;
 		case NebEMO:
 		case NebStar:
@@ -1135,7 +1126,7 @@ void Nebula::drawHints(StelPainter& sPainter, float maxMagHints, StelCore *core)
 	sPainter.drawSprite2dMode(static_cast<float>(XY[0]), static_cast<float>(XY[1]), finalSize);
 }
 
-void Nebula::drawLabel(StelPainter& sPainter, float maxMagLabel) const
+void Nebula::drawLabel(StelPainter& sPainter, const Vec3d& XY, float maxMagLabel) const
 {
 	if (!objectInDisplayedType())
 		return;
@@ -1163,64 +1154,64 @@ QString Nebula::getDSODesignation() const
 {
 	QString str = "";
 	// Get designation for DSO with priority as given here.
-	if (catalogFilters&CatM && M_nb>0)
-		str = QString("M %1").arg(M_nb);
-	else if (catalogFilters&CatC && C_nb>0)
-		str = QString("C %1").arg(C_nb);
-	else if (catalogFilters&CatNGC && NGC_nb>0)
-		str = QString("NGC %1").arg(NGC_nb);
-	else if (catalogFilters&CatIC && IC_nb>0)
-		str = QString("IC %1").arg(IC_nb);
-	else if (catalogFilters&CatB && B_nb>0)
-		str = QString("B %1").arg(B_nb);
-	else if (catalogFilters&CatSh2 && Sh2_nb>0)
-		str = QString("SH 2-%1").arg(Sh2_nb);
-	else if (catalogFilters&CatVdB && VdB_nb>0)
-		str = QString("vdB %1").arg(VdB_nb);
-	else if (catalogFilters&CatRCW && RCW_nb>0)
-		str = QString("RCW %1").arg(RCW_nb);
-	else if (catalogFilters&CatLDN && LDN_nb>0)
-		str = QString("LDN %1").arg(LDN_nb);
-	else if (catalogFilters&CatLBN && LBN_nb > 0)
-		str = QString("LBN %1").arg(LBN_nb);
-	else if (catalogFilters&CatCr && Cr_nb > 0)
-		str = QString("Cr %1").arg(Cr_nb);
-	else if (catalogFilters&CatMel && Mel_nb > 0)
-		str = QString("Mel %1").arg(Mel_nb);
+	if (catalogFilters&CatM && catNum(CatM)>0)
+		str = QString("M %1").arg(catNum(CatM));
+	else if (catalogFilters&CatC && catNum(CatC)>0)
+		str = QString("C %1").arg(catNum(CatC));
+	else if (catalogFilters&CatNGC && catNum(CatNGC)>0)
+		str = QString("NGC %1").arg(catNum(CatNGC));
+	else if (catalogFilters&CatIC && catNum(CatIC)>0)
+		str = QString("IC %1").arg(catNum(CatIC));
+	else if (catalogFilters&CatB && catNum(CatB)>0)
+		str = QString("B %1").arg(catNum(CatB));
+	else if (catalogFilters&CatSh2 && catNum(CatSh2)>0)
+		str = QString("SH 2-%1").arg(catNum(CatSh2));
+	else if (catalogFilters&CatVdB && catNum(CatVdB)>0)
+		str = QString("vdB %1").arg(catNum(CatVdB));
+	else if (catalogFilters&CatRCW && catNum(CatRCW)>0)
+		str = QString("RCW %1").arg(catNum(CatRCW));
+	else if (catalogFilters&CatLDN && catNum(CatLDN)>0)
+		str = QString("LDN %1").arg(catNum(CatLDN));
+	else if (catalogFilters&CatLBN && catNum(CatLBN) > 0)
+		str = QString("LBN %1").arg(catNum(CatLBN));
+	else if (catalogFilters&CatCr && catNum(CatCr) > 0)
+		str = QString("Cr %1").arg(catNum(CatCr));
+	else if (catalogFilters&CatMel && catNum(CatMel) > 0)
+		str = QString("Mel %1").arg(catNum(CatMel));
 	else if (catalogFilters&CatPGC && PGC_nb > 0)
 		str = QString("PGC %1").arg(PGC_nb);
-	else if (catalogFilters&CatUGC && UGC_nb > 0)
-		str = QString("UGC %1").arg(UGC_nb);
-	else if (catalogFilters&CatCed && !Ced_nb.isEmpty())
-		str = QString("Ced %1").arg(Ced_nb);
-	else if (catalogFilters&CatArp && Arp_nb > 0)
-		str = QString("Arp %1").arg(Arp_nb);
-	else if (catalogFilters&CatVV && VV_nb > 0)
-		str = QString("VV %1").arg(VV_nb);
-	else if (catalogFilters&CatPK && !PK_nb.isEmpty())
-		str = QString("PK %1").arg(PK_nb);
-	else if (catalogFilters&CatPNG && !PNG_nb.isEmpty())
-		str = QString("PN G%1").arg(PNG_nb);
-	else if (catalogFilters&CatSNRG && !SNRG_nb.isEmpty())
-		str = QString("SNR G%1").arg(SNRG_nb);
-	else if (catalogFilters&CatACO && !ACO_nb.isEmpty())
-		str = QString("Abell %1").arg(ACO_nb);
-	else if (catalogFilters&CatHCG && !HCG_nb.isEmpty())
-		str = QString("HCG %1").arg(HCG_nb);	
-	else if (catalogFilters&CatESO && !ESO_nb.isEmpty())
-		str = QString("ESO %1").arg(ESO_nb);
-	else if (catalogFilters&CatVdBH && !VdBH_nb.isEmpty())
-		str = QString("vdBH %1").arg(VdBH_nb);
-	else if (catalogFilters&CatDWB && DWB_nb > 0)
-		str = QString("DWB %1").arg(DWB_nb);
-	else if (catalogFilters&CatTr && Tr_nb > 0)
-		str = QString("Tr %1").arg(Tr_nb);
-	else if (catalogFilters&CatSt && St_nb > 0)
-		str = QString("St %1").arg(St_nb);
-	else if (catalogFilters&CatRu && Ru_nb > 0)
-		str = QString("Ru %1").arg(Ru_nb);
-	else if (catalogFilters&CatVdBHa && VdBHa_nb > 0)
-		str = QString("vdB-Ha %1").arg(VdBHa_nb);
+	else if (catalogFilters&CatUGC && catNum(CatUGC) > 0)
+		str = QString("UGC %1").arg(catNum(CatUGC));
+	else if (catalogFilters&CatCed && !catStr(CatCed).isEmpty())
+		str = QString("Ced %1").arg(catStr(CatCed));
+	else if (catalogFilters&CatArp && catNum(CatArp) > 0)
+		str = QString("Arp %1").arg(catNum(CatArp));
+	else if (catalogFilters&CatVV && catNum(CatVV) > 0)
+		str = QString("VV %1").arg(catNum(CatVV));
+	else if (catalogFilters&CatPK && !catStr(CatPK).isEmpty())
+		str = QString("PK %1").arg(catStr(CatPK));
+	else if (catalogFilters&CatPNG && !catStr(CatPNG).isEmpty())
+		str = QString("PN G%1").arg(catStr(CatPNG));
+	else if (catalogFilters&CatSNRG && !catStr(CatSNRG).isEmpty())
+		str = QString("SNR G%1").arg(catStr(CatSNRG));
+	else if (catalogFilters&CatACO && !catStr(CatACO).isEmpty())
+		str = QString("Abell %1").arg(catStr(CatACO));
+	else if (catalogFilters&CatHCG && !catStr(CatHCG).isEmpty())
+		str = QString("HCG %1").arg(catStr(CatHCG));	
+	else if (catalogFilters&CatESO && !catStr(CatESO).isEmpty())
+		str = QString("ESO %1").arg(catStr(CatESO));
+	else if (catalogFilters&CatVdBH && !catStr(CatVdBH).isEmpty())
+		str = QString("vdBH %1").arg(catStr(CatVdBH));
+	else if (catalogFilters&CatDWB && catNum(CatDWB) > 0)
+		str = QString("DWB %1").arg(catNum(CatDWB));
+	else if (catalogFilters&CatTr && catNum(CatTr) > 0)
+		str = QString("Tr %1").arg(catNum(CatTr));
+	else if (catalogFilters&CatSt && catNum(CatSt) > 0)
+		str = QString("St %1").arg(catNum(CatSt));
+	else if (catalogFilters&CatRu && catNum(CatRu) > 0)
+		str = QString("Ru %1").arg(catNum(CatRu));
+	else if (catalogFilters&CatVdBHa && catNum(CatVdBHa) > 0)
+		str = QString("vdB-Ha %1").arg(catNum(CatVdBHa));
 
 	return str;
 }
@@ -1228,78 +1219,127 @@ QString Nebula::getDSODesignation() const
 QString Nebula::getDSODesignationWIC() const
 {
 	if (!withoutID)
+	{
+		buildDesignations();
 		return designations.first();
+	}
 	else
 		return QString();
 }
 
+
+void Nebula::buildDesignations() const
+{
+	if (designationsBuilt)
+		return;
+	designationsBuilt = true;
+	if (catNum(CatM) > 0) designations << QString("M %1").arg(catNum(CatM));
+	if (catNum(CatC) > 0)  designations << QString("C %1").arg(catNum(CatC));
+	if (catNum(CatNGC) > 0) designations << QString("NGC %1").arg(catNum(CatNGC));
+	if (catNum(CatIC) > 0) designations << QString("IC %1").arg(catNum(CatIC));
+	if (catNum(CatB) > 0) designations << QString("B %1").arg(catNum(CatB));
+	if (catNum(CatSh2) > 0) designations << QString("SH 2-%1").arg(catNum(CatSh2));
+	if (catNum(CatVdB) > 0) designations << QString("vdB %1").arg(catNum(CatVdB));
+	if (catNum(CatRCW) > 0) designations << QString("RCW %1").arg(catNum(CatRCW));
+	if (catNum(CatLDN) > 0) designations << QString("LDN %1").arg(catNum(CatLDN));
+	if (catNum(CatLBN) > 0) designations << QString("LBN %1").arg(catNum(CatLBN));
+	if (catNum(CatCr) > 0) designations << QString("Cr %1").arg(catNum(CatCr));
+	if (catNum(CatMel) > 0) designations << QString("Mel %1").arg(catNum(CatMel));
+	if (PGC_nb > 0) designations << QString("PGC %1").arg(PGC_nb);
+	if (catNum(CatUGC) > 0) designations << QString("UGC %1").arg(catNum(CatUGC));
+	if (!catStr(CatCed).isEmpty()) designations << QString("Ced %1").arg(catStr(CatCed));
+	if (catNum(CatArp) > 0) designations << QString("Arp %1").arg(catNum(CatArp));
+	if (catNum(CatVV) > 0) designations << QString("VV %1").arg(catNum(CatVV));
+	if (!catStr(CatPK).isEmpty()) designations << QString("PK %1").arg(catStr(CatPK));
+	if (!catStr(CatPNG).isEmpty()) designations << QString("PN G%1").arg(catStr(CatPNG));
+	if (!catStr(CatSNRG).isEmpty()) designations << QString("SNR G%1").arg(catStr(CatSNRG));
+	if (!catStr(CatACO).isEmpty()) designations << QString("Abell %1").arg(catStr(CatACO));
+	if (!catStr(CatHCG).isEmpty()) designations << QString("HCG %1").arg(catStr(CatHCG));
+	if (!catStr(CatESO).isEmpty()) designations << QString("ESO %1").arg(catStr(CatESO));
+	if (!catStr(CatVdBH).isEmpty()) designations << QString("vdBH %1").arg(catStr(CatVdBH));
+	if (catNum(CatDWB) > 0) designations << QString("DWB %1").arg(catNum(CatDWB));
+	if (catNum(CatTr) > 0) designations << QString("Tr %1").arg(catNum(CatTr));
+	if (catNum(CatSt) > 0) designations << QString("St %1").arg(catNum(CatSt));
+	if (catNum(CatRu) > 0) designations << QString("Ru %1").arg(catNum(CatRu));
+	if (catNum(CatVdBHa) > 0) designations << QString("vdB-Ha %1").arg(catNum(CatVdBHa));
+}
 
 void Nebula::readDSO(QDataStream &in)
 {
 	float	ra, dec;
 	unsigned int oType; // Kludge for MSVC2017
 
+	float parallaxRead = 0.f, parallaxErrRead = 0.f;
+	unsigned int NGC=0, IC=0, M=0, C=0, B=0, Sh2=0, VdB=0, RCW=0, LDN=0, LBN=0, Cr=0,
+		Mel=0, UGC=0, Arp=0, VV=0, DWB=0, Tr=0, St=0, Ru=0, VdBHa=0;
+	QString Ced, PK, PNG, SNRG, ACO, HCG, ESO, VdBH;
 	in	>> DSO_nb >> ra >> dec >> bMag >> vMag >> oType >> mTypeString >> majorAxisSize >> minorAxisSize
-		>> orientationAngle >> redshift >> redshiftErr >> parallax >> parallaxErr >> oDistance >> oDistanceErr
-		>> NGC_nb >> IC_nb >> M_nb >> C_nb >> B_nb >> Sh2_nb >> VdB_nb >> RCW_nb >> LDN_nb >> LBN_nb >> Cr_nb
-		>> Mel_nb >> PGC_nb >> UGC_nb >> Ced_nb >> Arp_nb >> VV_nb >> PK_nb >> PNG_nb >> SNRG_nb >> ACO_nb
-		>> HCG_nb >> ESO_nb >> VdBH_nb >> DWB_nb >> Tr_nb >> St_nb >> Ru_nb >> VdBHa_nb;
+		>> orientationAngle >> redshift >> redshiftErr >> parallaxRead >> parallaxErrRead >> oDistance >> oDistanceErr
+		>> NGC >> IC >> M >> C >> B >> Sh2 >> VdB >> RCW >> LDN >> LBN >> Cr
+		>> Mel >> PGC_nb >> UGC >> Ced >> Arp >> VV >> PK >> PNG >> SNRG >> ACO
+		>> HCG >> ESO >> VdBH >> DWB >> Tr >> St >> Ru >> VdBHa;
 
-	Ced_nb = Ced_nb.trimmed();
-	PK_nb = PK_nb.trimmed();
-	PNG_nb = PNG_nb.trimmed();
-	SNRG_nb = SNRG_nb.trimmed();
-	ACO_nb = ACO_nb.trimmed();
-	HCG_nb = HCG_nb.trimmed();
-	ESO_nb = ESO_nb.trimmed();
-	VdBH_nb = VdBH_nb.trimmed();
+	if (parallaxRead != 0.f || parallaxErrRead != 0.f)
+	{
+		Extras& e = ownExtras();
+		e.parallax = parallaxRead;
+		e.parallaxErr = parallaxErrRead;
+	}
 
-	const unsigned int f = NGC_nb + IC_nb + M_nb + C_nb + B_nb + Sh2_nb + VdB_nb + RCW_nb + LDN_nb + LBN_nb + Cr_nb + Mel_nb + PGC_nb + UGC_nb + Arp_nb + VV_nb + DWB_nb + Tr_nb + St_nb + Ru_nb + VdBHa_nb;
-	if (f==0 && Ced_nb.isEmpty() && PK_nb.isEmpty() && PNG_nb.isEmpty() && SNRG_nb.isEmpty() && ACO_nb.isEmpty() && HCG_nb.isEmpty() && ESO_nb.isEmpty() && VdBH_nb.isEmpty())
+	static QHash<QString, QString> mTypePool;
+	if (!mTypeString.isEmpty())
+		mTypeString = *mTypePool.insert(mTypeString, mTypeString);
+
+	Ced = Ced.trimmed();
+	PK = PK.trimmed();
+	PNG = PNG.trimmed();
+	SNRG = SNRG.trimmed();
+	ACO = ACO.trimmed();
+	HCG = HCG.trimmed();
+	ESO = ESO.trimmed();
+	VdBH = VdBH.trimmed();
+
+	const std::pair<quint32, unsigned int> numbered[] = {
+		{CatNGC, NGC}, {CatIC, IC}, {CatM, M}, {CatC, C}, {CatB, B}, {CatSh2, Sh2},
+		{CatLBN, LBN}, {CatLDN, LDN}, {CatRCW, RCW}, {CatVdB, VdB}, {CatCr, Cr},
+		{CatMel, Mel}, {CatUGC, UGC}, {CatArp, Arp}, {CatVV, VV}, {CatDWB, DWB},
+		{CatTr, Tr}, {CatSt, St}, {CatRu, Ru}, {CatVdBHa, VdBHa}};
+	const std::pair<quint32, const QString*> named[] = {
+		{CatCed, &Ced}, {CatPK, &PK}, {CatPNG, &PNG}, {CatSNRG, &SNRG},
+		{CatACO, &ACO}, {CatHCG, &HCG}, {CatESO, &ESO}, {CatVdBH, &VdBH}};
+
+	catalogueMask = 0;
+	for (const auto& entry : numbered)
+		if (entry.second > 0)
+			catalogueMask |= entry.first;
+	for (const auto& entry : named)
+		if (!entry.second->isEmpty())
+			catalogueMask |= entry.first;
+	if (PGC_nb > 0)
+		catalogueMask |= CatPGC;
+	if (catalogueMask == 0)
+	{
 		withoutID = true;
+		catalogueMask = CatOther;
+	}
 
-	if (M_nb > 0) designations << QString("M %1").arg(M_nb);
-	if (C_nb > 0)  designations << QString("C %1").arg(C_nb);
-	if (NGC_nb > 0) designations << QString("NGC %1").arg(NGC_nb);
-	if (IC_nb > 0) designations << QString("IC %1").arg(IC_nb);
-	if (B_nb > 0) designations << QString("B %1").arg(B_nb);
-	if (Sh2_nb > 0) designations << QString("SH 2-%1").arg(Sh2_nb);
-	if (VdB_nb > 0) designations << QString("vdB %1").arg(VdB_nb);
-	if (RCW_nb > 0) designations << QString("RCW %1").arg(RCW_nb);
-	if (LDN_nb > 0) designations << QString("LDN %1").arg(LDN_nb);
-	if (LBN_nb > 0) designations << QString("LBN %1").arg(LBN_nb);
-	if (Cr_nb > 0) designations << QString("Cr %1").arg(Cr_nb);
-	if (Mel_nb > 0) designations << QString("Mel %1").arg(Mel_nb);
-	if (PGC_nb > 0) designations << QString("PGC %1").arg(PGC_nb);
-	if (UGC_nb > 0) designations << QString("UGC %1").arg(UGC_nb);
-	if (!Ced_nb.isEmpty()) designations << QString("Ced %1").arg(Ced_nb);
-	if (Arp_nb > 0) designations << QString("Arp %1").arg(Arp_nb);
-	if (VV_nb > 0) designations << QString("VV %1").arg(VV_nb);
-	if (!PK_nb.isEmpty()) designations << QString("PK %1").arg(PK_nb);
-	if (!PNG_nb.isEmpty()) designations << QString("PN G%1").arg(PNG_nb);
-	if (!SNRG_nb.isEmpty()) designations << QString("SNR G%1").arg(SNRG_nb);
-	if (!ACO_nb.isEmpty()) designations << QString("Abell %1").arg(ACO_nb);
-	if (!HCG_nb.isEmpty()) designations << QString("HCG %1").arg(HCG_nb);
-	if (!ESO_nb.isEmpty()) designations << QString("ESO %1").arg(ESO_nb);
-	if (!VdBH_nb.isEmpty()) designations << QString("vdBH %1").arg(VdBH_nb);
-	if (DWB_nb > 0) designations << QString("DWB %1").arg(DWB_nb);
-	if (Tr_nb > 0) designations << QString("Tr %1").arg(Tr_nb);
-	if (St_nb > 0) designations << QString("St %1").arg(St_nb);
-	if (Ru_nb > 0) designations << QString("Ru %1").arg(Ru_nb);
-	if (VdBHa_nb > 0) designations << QString("vdB-Ha %1").arg(VdBHa_nb);
+	rareNumbersOffset = quint32(rareNumbers.size());
+	for (const auto& entry : numbered)
+		if (entry.second > 0)
+			rareNumbers.push_back(entry.second);
+	rareStringsOffset = quint32(rareStrings.size());
+	for (const auto& entry : named)
+		if (!entry.second->isEmpty())
+			rareStrings.push_back(*entry.second);
 
 	StelUtils::spheToRect(ra,dec,XYZ);
 	Q_ASSERT(fabs(XYZ.normSquared()-1.)<1e-9);
 	nType = static_cast<Nebula::NebulaType>(oType);
-	pointRegion = SphericalRegionP(new SphericalPoint(getJ2000EquatorialPos(Q_NULLPTR)));
+	updateTypeMask();
 }
 
-bool Nebula::objectInDisplayedType() const
+void Nebula::updateTypeMask()
 {
-	if (!flagUseTypeFilters)
-		return true;
-
-	// a QMap which translates all defined nTypes to yet another int for easier filtering. Note some nTypes (commented away) have not been translated so far and are just qualified as "other/unknown"!
 	static const QMap<NebulaType, int>map={
 		{NebGx			,  0 },  // m Galaxy
 		{NebAGx			,  1 },  // Active galaxy
@@ -1329,86 +1369,40 @@ bool Nebula::objectInDisplayedType() const
 		{NebPossQSO		,  1 },  // Possible Quasar
 		{NebPossPN		,  7 },  // Possible Planetary Nebula
 		{NebPPN			,  7 },  // Protoplanetary Nebula
-		//{NebStar		,    },  // Star
-		//{NebSymbioticStar	,    },  // Symbiotic Star
-		//{NebEmissionLineStar	,    },  // Emission-line Star
 		{NebSNC			,  8 },  // Supernova Candidate
 		{NebSNRC		,  8 },  // Supernova Remnant Candidate
 		{NebGxCl		, 10 },  // Cluster of Galaxies
 		{NebPartOfGx		,  3 },  // Part of a Galaxy (from 24.4)
-		//{NebRegion		,    },  // Region of the sky
 		{NebUnknown		, 12 }   // m Unknown type, catalog errors, "Unidentified Southern Objects" etc.
 	};
-	const int cntype = map.value(nType, 12);
-	// These "displayed types" are now:
-	// 0 = Galaxies
-	// 1 = Active Galaxies
-	// 2 = Interacting Galaxies
-	// 3 = Open Star Clusters
-	// 4 = Hydrogen regions (include interstellar matter)
-	// 5 = Bright Nebulae
-	// 6 = Dark Nebulae
-	// 7 = Planetary Nebulae
-	// 8 = Supernova Remnants
-	// 9 = Cl. assoc.w.Neb
-	//10 = Galaxy cluster
-	//11 = Globular Cluster
-	//12 = Unknown or other
-	// TODO: Why can we not just map to TypeGroupFlags and need yet another cntype index?
+	switch (map.value(nType, 12))
+	{
+		case  0: typeMask = TypeGalaxies; break;
+		case  1: typeMask = TypeActiveGalaxies; break;
+		case  2: typeMask = TypeInteractingGalaxies; break;
+		case  3: typeMask = TypeOpenStarClusters; break;
+		case  4: typeMask = TypeHydrogenRegions; break;
+		case  5: typeMask = TypeBrightNebulae; break;
+		case  6: typeMask = TypeDarkNebulae; break;
+		case  7: typeMask = TypePlanetaryNebulae; break;
+		case  8: typeMask = TypeSupernovaRemnants; break;
+		case  9: typeMask = TypeOpenStarClusters | TypeBrightNebulae | TypeHydrogenRegions; break;
+		case 10: typeMask = TypeGalaxyClusters; break;
+		case 11: typeMask = TypeGlobularStarClusters; break;
+		default: typeMask = TypeOther; break;
+	}
+}
 
-	bool r = ( (typeFilters&TypeGalaxies             && cntype==0)
-		|| (typeFilters&TypeActiveGalaxies       && cntype==1)
-		|| (typeFilters&TypeInteractingGalaxies  && cntype==2)
-		|| (typeFilters&TypeOpenStarClusters     && cntype==3)
-		|| (typeFilters&TypeGlobularStarClusters && cntype==11)
-		|| (typeFilters&TypeHydrogenRegions      && cntype==4)
-		|| (typeFilters&TypeBrightNebulae        && cntype==5)
-		|| (typeFilters&TypeDarkNebulae          && cntype==6)
-		|| (typeFilters&TypePlanetaryNebulae     && cntype==7)
-		|| (typeFilters&TypeSupernovaRemnants    && cntype==8)
-		|| ((typeFilters&TypeOpenStarClusters || typeFilters&TypeBrightNebulae || typeFilters&TypeHydrogenRegions) && cntype==9)
-		|| (typeFilters&TypeGalaxyClusters       && cntype==10)
-		|| (typeFilters&TypeOther                && cntype==12));
-
-	return r;
+bool Nebula::objectInDisplayedType() const
+{
+	if (!flagUseTypeFilters)
+		return true;
+	return (typeMask & static_cast<quint32>(typeFilters.toInt())) != 0;
 }
 
 bool Nebula::objectInDisplayedCatalog() const
 {
-	bool r = ( ((catalogFilters&CatM)     && (M_nb>0))
-		|| ((catalogFilters&CatC)     && (C_nb>0))
-		|| ((catalogFilters&CatNGC)   && (NGC_nb>0))
-		|| ((catalogFilters&CatIC)    && (IC_nb>0))
-		|| ((catalogFilters&CatB)     && (B_nb>0))
-		|| ((catalogFilters&CatSh2)   && (Sh2_nb>0))
-		|| ((catalogFilters&CatVdB)   && (VdB_nb>0))
-		|| ((catalogFilters&CatRCW)   && (RCW_nb>0))
-		|| ((catalogFilters&CatLDN)   && (LDN_nb>0))
-		|| ((catalogFilters&CatLBN)   && (LBN_nb>0))
-		|| ((catalogFilters&CatCr)    && (Cr_nb>0))
-		|| ((catalogFilters&CatMel)   && (Mel_nb>0))
-		|| ((catalogFilters&CatPGC)   && (PGC_nb>0))
-		|| ((catalogFilters&CatUGC)   && (UGC_nb>0))
-		|| ((catalogFilters&CatCed)   && !(Ced_nb.isEmpty()))
-		|| ((catalogFilters&CatArp)   && (Arp_nb>0))
-		|| ((catalogFilters&CatVV)    && (VV_nb>0))
-		|| ((catalogFilters&CatPK)    && !(PK_nb.isEmpty()))
-		|| ((catalogFilters&CatPNG)   && !(PNG_nb.isEmpty()))
-		|| ((catalogFilters&CatSNRG)  && !(SNRG_nb.isEmpty()))
-		|| ((catalogFilters&CatACO)   && (!ACO_nb.isEmpty()))
-		|| ((catalogFilters&CatHCG)   && (!HCG_nb.isEmpty()))
-		|| ((catalogFilters&CatESO)   && (!ESO_nb.isEmpty()))
-		|| ((catalogFilters&CatVdBH)  && (!VdBH_nb.isEmpty()))
-		|| ((catalogFilters&CatDWB)   && (DWB_nb>0))
-		|| ((catalogFilters&CatTr)    && (Tr_nb>0))
-		|| ((catalogFilters&CatSt)    && (St_nb>0))
-		|| ((catalogFilters&CatRu)    && (Ru_nb>0))
-		|| ((catalogFilters&CatVdBHa) && (VdBHa_nb>0)))
-
-		// Special case: objects without ID from current catalogs
-		|| ((catalogFilters&CatOther) && withoutID);
-
-	return r;
+	return (catalogueMask & static_cast<quint32>(catalogFilters.toInt())) != 0;
 }
 
 bool Nebula::objectInAllowedSizeRangeLimits(void) const
@@ -1732,9 +1726,9 @@ QString Nebula::getNarration(const StelCore *core, const InfoStringGroup &flags)
 	// Name
 	const QString designation = getDSODesignationWIC();
 	QStringList names = {getNameI18n()};
-	if (culturalNames.length()>0)
+	if (hasCulturalNames)
 	{
-		for (const StelObject::CulturalName &cName: culturalNames)
+		for (const StelObject::CulturalName &cName: readExtras().culturalNames)
 			names.append(cName.translatedI18n);
 	}
 	names.removeDuplicates();
@@ -1751,6 +1745,8 @@ QString Nebula::getNarration(const StelCore *core, const InfoStringGroup &flags)
 
 	if (flags&Distance)// Distance. Taken from getInfoString. Maybe move that to a private method...
 	{
+		const float parallax = readExtras().parallax;
+		const float parallaxErr = readExtras().parallaxErr;
 		if (qAbs(parallax)>0.f)
 		{
 			QString dx;
@@ -1837,23 +1833,25 @@ QString Nebula::getNarration(const StelCore *core, const InfoStringGroup &flags)
 
 			res += QString("%1 %2").arg(qc_("Its redshift is", "object narration"), z);
 		}
-		if (qAbs(parallax)>0.5f)
+		const float parallax2 = readExtras().parallax;
+		const float parallaxErr2 = readExtras().parallaxErr;
+		if (qAbs(parallax2)>0.5f)
 		{
 			QString px;
-			if (parallaxErr>0.f)
-				px = QString("%1 %2 %3").arg(StelUtils::narrateDecimal(qAbs(parallax), 3), qc_("plus minus", "object narration"), StelUtils::narrateDecimal(parallaxErr, 3));
+			if (parallaxErr2>0.f)
+				px = QString("%1 %2 %3").arg(StelUtils::narrateDecimal(qAbs(parallax2), 3), qc_("plus minus", "object narration"), StelUtils::narrateDecimal(parallaxErr2, 3));
 			else
-				px = QString("%1").arg(StelUtils::narrateDecimal(qAbs(parallax), 3));
+				px = QString("%1").arg(StelUtils::narrateDecimal(qAbs(parallax2), 3));
 
 			res += QString("%1 %2 %3").arg(qc_("Its Parallax", "object narration"), px, qc_("milli-arcseconds", "parallax"));
 		}
 
 
-		if (!discoverer.isEmpty())
+		if (!readExtras().discoverer.isEmpty())
 		{
-			res.append(qc_("It was discovered by", "object narration") + " " + discoverer);
-			if (!discoveryYear.isEmpty())
-				res.append(" " + qc_("in the year", "object narration") + " " + discoveryYear);
+			res.append(qc_("It was discovered by", "object narration") + " " + readExtras().discoverer);
+			if (!readExtras().discoveryYear.isEmpty())
+				res.append(" " + qc_("in the year", "object narration") + " " + readExtras().discoveryYear);
 			res.append(". ");
 		}
 

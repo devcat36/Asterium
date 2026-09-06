@@ -50,12 +50,14 @@ public:
 	struct StelTextureParams
 	{
 		StelTextureParams(bool qgenerateMipmaps=false, GLint afiltering=GL_LINEAR,
-				  GLint awrapMode=GL_CLAMP_TO_EDGE, bool qfilterMipmaps=false, int decimateBy=1)
+				  GLint awrapMode=GL_CLAMP_TO_EDGE, bool qfilterMipmaps=false, int decimateBy=1,
+				  int aMaxEdge=0)
 			: generateMipmaps(qgenerateMipmaps)
 			, filterMipmaps(qfilterMipmaps)
 			, filtering(afiltering)
 			, wrapMode(awrapMode)
 			, decimation(decimateBy)
+			, maxEdge(aMaxEdge)
 		{
 		}
 		//! Define if mipmaps must be created.
@@ -70,6 +72,7 @@ public:
 		//! Allow a reduction of the size of the texture image (useful for very limited hardware)
 		//! The image size will be divided by this factor (e.g. 2, 3, 4, ...)
 		int decimation;
+		int maxEdge;
 	};
 
 	//! Destructor
@@ -143,7 +146,7 @@ private:
 	//! @param decimateBy: On limited platforms we must be able to reduce texture sizes. Divide
 	//! texture size in both dimensions by this number.
 	static GLData imageToGLData(const QImage    &image, const int decimateBy);
-	static GLData loadFromPath( const QString    &path, const int decimateBy);
+	static GLData loadFromPath( const QString    &path, const int decimateBy, const int maxEdge);
 	static GLData loadFromData( const QByteArray &data, const QString& path, const int decimateBy);
 
 	//! Private constructor
@@ -202,6 +205,9 @@ private:
 
 	//! OpenGL id
 	GLuint id = 0;
+public:
+	GLuint glName() const {return id;}
+private:
 
 	GLsizei width = -1;	//! Texture image width
 	GLsizei height = -1;	//! Texture image height

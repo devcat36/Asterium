@@ -22,12 +22,17 @@
 
 #include <QJsonObject>
 #include <QString>
+#include <QStringList>
 
 #include "StelObjectType.hpp"
 
 class StelMovementMgr;
 
 void asteriumMoveToSelected(StelMovementMgr* movement, const StelObjectP& object, float duration);
+
+QStringList asteriumObsKeys(const StelObjectP& object);
+
+bool asteriumObsHoldsAny(const QStringList& keys);
 
 namespace AsteriumAstroCalc
 {

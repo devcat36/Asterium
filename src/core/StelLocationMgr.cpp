@@ -35,6 +35,7 @@
 #include <QUrl>
 #include <QUrlQuery>
 #include <QSettings>
+#include <QSet>
 #include <QTimeZone>
 #include <QTimer>
 #include <QApplication>
@@ -479,21 +480,7 @@ StelLocationMgr::StelLocationMgr()
 	if (conf->value("devel/convert_locations_list", false).toBool())
 		generateBinaryLocationFile("data/base_locations.txt", false, "data/base_locations.bin");
 
-	locations = loadCitiesBin("data/base_locations.bin.gz");
-	if (locations.isEmpty())
-		locations = loadCitiesBin("data/base_locations.bin");
-	if (locations.isEmpty())
-		qWarning() << "No location catalogue could be loaded - the location list will be empty.";
-#if QT_VERSION >= QT_VERSION_CHECK(5,15,0)
-	locations.insert(loadCities("data/user_locations.txt", true));
-#else
-	locations.unite(loadCities("data/user_locations.txt", true));
-#endif
-	// Init to Paris France because it's the center of the world.
-	lastResortLocation = locationForString(conf->value("init_location/last_location", "Paris, Western Europe").toString());
-
 	planetName="Earth";
-	planetSurfaceMap=QImage(":/graphicGui/miscWorldMap.jpg");
 	connect(StelApp::getInstance().getCore(), &StelCore::locationChanged, this, &StelLocationMgr::changePlanetMapForLocation);
 
 	// configure the QGeoPositionInfoSource which can be queried from OS
@@ -542,8 +529,27 @@ StelLocationMgr::StelLocationMgr(const LocationList &locations)
 	lastResortLocation = locationForString(conf->value("init_location/last_location", "Paris, Western Europe").toString());
 }
 
+void StelLocationMgr::ensureLocations() const
+{
+	if (locationsLoaded)
+		return;
+	locationsLoaded = true;
+	StelLocationMgr* self = const_cast<StelLocationMgr*>(this);
+	self->locations = loadCitiesBin("data/base_locations.bin.gz");
+	if (self->locations.isEmpty())
+		self->locations = loadCitiesBin("data/base_locations.bin");
+	if (self->locations.isEmpty())
+		qWarning() << "No location catalogue could be loaded - the location list will be empty.";
+#if QT_VERSION >= QT_VERSION_CHECK(5,15,0)
+	self->locations.insert(loadCities("data/user_locations.txt", true));
+#else
+	self->locations.unite(loadCities("data/user_locations.txt", true));
+#endif
+}
+
 void StelLocationMgr::setLocations(const LocationList &locations)
 {
+	ensureLocations();
 	this->locations.clear();
 	for (const auto& loc : locations)
 	{
@@ -597,7 +603,8 @@ LocationMap StelLocationMgr::loadCitiesBin(const QString& fileName)
 	}
 	// Now res has all location data. However, some timezone names are not available in various versions of Qt.
 	// Sanity checks: It seems we must translate timezone names. Quite a number on Windows, but also still some on Linux.
-	QList<QByteArray> availableTimeZoneList=QTimeZone::availableTimeZoneIds();
+	const QList<QByteArray> availableTimeZoneIds=QTimeZone::availableTimeZoneIds();
+	const QSet<QByteArray> availableTimeZoneList(availableTimeZoneIds.constBegin(), availableTimeZoneIds.constEnd());
 	QStringList unknownTZlist;
 	for (auto& loc : res)
 	{
@@ -629,6 +636,16 @@ LocationMap StelLocationMgr::loadCitiesBin(const QString& fileName)
 		qInfo() << "Please report these timezone names (this logfile) to the Stellarium developers.";
 		// Note to developers: Fill those names and replacements to the map above.
 	}
+	QHash<QString, QString> pool;
+	for (auto& loc : res)
+	{
+		loc.region       = *pool.insert(loc.region,       loc.region);
+		loc.state        = *pool.insert(loc.state,        loc.state);
+		loc.planetName   = *pool.insert(loc.planetName,   loc.planetName);
+		loc.landscapeKey = *pool.insert(loc.landscapeKey, loc.landscapeKey);
+		loc.ianaTimeZone = *pool.insert(loc.ianaTimeZone, loc.ianaTimeZone);
+	}
+
 
 	return res;
 }
@@ -722,6 +739,32 @@ static float parseAngle(const QString& s, bool* ok)
 
 const StelLocation StelLocationMgr::locationForString(const QString& s) const
 {
+	if (s.count("\t")>6)
+		return StelLocation::createFromLine(s);
+
+	static const QRegularExpression coordsOnly("(.+),\\s*(.+),\\s*(.+)");
+	const QRegularExpressionMatch coordsMatch = coordsOnly.match(s);
+	if (coordsMatch.hasMatch())
+	{
+		bool okLat=false, okLon=false, okAlt=false;
+		const double lat = parseAngle(coordsMatch.captured(1).trimmed(), &okLat);
+		const double lon = parseAngle(coordsMatch.captured(2).trimmed(), &okLon);
+		const int alt = coordsMatch.captured(3).trimmed().toInt(&okAlt);
+		if (okLat && okLon && okAlt)
+		{
+			StelLocation coords;
+			coords.role='X';
+			coords.setLatitude(lat);
+			coords.setLongitude(lon);
+			coords.altitude = alt;
+			coords.name = QString("%1, %2").arg(QString::number(coords.getLatitude(), 'f', 2),
+			                                    QString::number(coords.getLongitude(), 'f', 2));
+			coords.planetName = "Earth";
+			return coords;
+		}
+	}
+
+	ensureLocations();
 	if (locations.contains(s))
 		return locations.value(s);
 
@@ -819,12 +862,14 @@ const StelLocation StelLocationMgr::locationFromCLI() const
 // Get whether a location can be permanently added to the list of user locations
 bool StelLocationMgr::canSaveUserLocation(const StelLocation& loc) const
 {
+	ensureLocations();
 	return loc.isValid() && !locations.contains(loc.getID());
 }
 
 // Add permanently a location to the list of user locations
 bool StelLocationMgr::saveUserLocation(const StelLocation& loc)
 {
+	ensureLocations();
 	if (!canSaveUserLocation(loc))
 		return false;
 
@@ -875,6 +920,7 @@ bool StelLocationMgr::saveUserLocation(const StelLocation& loc)
 // If the location comes from the base read only list, it cannot be deleted
 bool StelLocationMgr::canDeleteUserLocation(const QString& id) const
 {
+	ensureLocations();
 	auto iter=locations.find(id);
 
 	// If it's not known at all there is a problem
@@ -888,6 +934,7 @@ bool StelLocationMgr::canDeleteUserLocation(const QString& id) const
 // If the location comes from the base read only list, it cannot be deleted and false is returned
 bool StelLocationMgr::deleteUserLocation(const QString& id)
 {
+	ensureLocations();
 	if (!canDeleteUserLocation(id))
 		return false;
 
@@ -1212,6 +1259,7 @@ void StelLocationMgr::gpsQueryError(const QString &err)
 
 LocationMap StelLocationMgr::pickLocationsNearby(const QString &planetName, const float longitude, const float latitude, const float radiusDegrees)
 {
+	ensureLocations();
 	QMap<QString, StelLocation> results;
 	QMapIterator<QString, StelLocation> iter(locations);
 	while (iter.hasNext())
@@ -1602,7 +1650,7 @@ void StelLocationMgr::changePlanetMapForLocation(StelLocation loc)
 
 	planetName=loc.planetName;
 	if (planetName=="Earth")
-		planetSurfaceMap=QImage(":/graphicGui/miscWorldMap.jpg");
+		planetSurfaceMap=QImage();
 	else
 	{
 		SolarSystem *ssm=GETSTELMODULE(SolarSystem);
@@ -1620,6 +1668,9 @@ void StelLocationMgr::changePlanetMapForLocation(StelLocation loc)
 
 QColor StelLocationMgr::getColorForCoordinates(const double lng, const double lat) const
 {
+	if (planetSurfaceMap.isNull())
+		planetSurfaceMap=QImage(":/graphicGui/miscWorldMap.jpg");
+
 	QPoint imgPoint( (lng+180.)/ 360. * planetSurfaceMap.width(),
 			 (90.-lat) / 180. * planetSurfaceMap.height());
 
@@ -1631,6 +1682,12 @@ QColor StelLocationMgr::getColorForCoordinates(const double lng, const double la
 //! Return a valid location when no valid one was found.
 const StelLocation& StelLocationMgr::getLastResortLocation()
 {
+	if (!lastResortLocation.isValid())
+	{
+		QSettings* conf = StelApp::getInstance().getSettings();
+		lastResortLocation = locationForString(
+			conf->value("init_location/last_location", "Paris, Western Europe").toString());
+	}
 	// Unfortunately the isValid test is super lame.
 	if (!lastResortLocation.isValid())
 		// Fallback to Paris France because it's the center of the world.

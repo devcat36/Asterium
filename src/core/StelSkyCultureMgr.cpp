@@ -155,8 +155,7 @@ QString StelSkyCultureMgr::getSkyCultureEnglishName(const QString& idFromJSON) c
 
 StelSkyCultureMgr::StelSkyCultureMgr(): flagOverrideUseCommonNames(false), flagUseAbbreviatedNames(false)
 {
-	setObjectName("StelSkyCultureMgr");        
-	makeCulturesList(); // First load needed for testing only.
+	setObjectName("StelSkyCultureMgr");
 }
 
 StelSkyCultureMgr::~StelSkyCultureMgr()
@@ -223,18 +222,6 @@ void StelSkyCultureMgr::makeCulturesList()
 		}
 		culture.beginTime = data["beginTime"].toInt();
 		culture.endTime = data["endTime"].toInt();
-		if (data["constellations"].isArray())
-		{
-			culture.constellations = data["constellations"].toArray();
-		}
-		else
-		{
-			qWarning() << "No \"constellations\" array found in JSON data in sky culture directory"
-			           << QDir::toNativeSeparators(dir);
-		}
-
-		culture.asterisms = data["asterisms"].toArray();
-		culture.langsUseNativeNames = data["langs_use_native_names"].toArray();
 
 		culture.boundariesType = StelSkyCulture::BoundariesType::None; // default value if not specified in the JSON file
 		if (data.contains("edges") && data.contains("edges_type"))
@@ -251,15 +238,8 @@ void StelSkyCultureMgr::makeCulturesList()
 				                     << ": " << type << ". Will resort to Own.";
 			culture.boundariesType = map.value(typeSimp, StelSkyCulture::BoundariesType::Own);
 		}
-		culture.boundaries = data["edges"].toArray();
 		culture.boundariesEpoch = data["edges_epoch"].toString("J2000");
 		culture.fallbackToInternationalNames = (flagOverrideUseCommonNames || data["fallback_to_international_names"].toBool());
-		culture.names = data["common_names"].toObject();
-
-		if (data.contains("zodiac"))
-			culture.zodiac = data["zodiac"].toObject();
-		if (data.contains("lunar_system"))
-			culture.lunarSystem = data["lunar_system"].toObject();
 
 		const auto classifications = data["classification"].toArray();
 		if (classifications.isEmpty())
@@ -313,6 +293,31 @@ void StelSkyCultureMgr::reloadSkyCulture()
 }
 
 //! Set the current sky culture from the passed directory
+void StelSkyCultureMgr::loadCultureData(const QString& dir, StelSkyCulture& culture) const
+{
+	const QString filePath = StelFileMgr::findFile("skycultures/" + dir + "/index.json");
+	if (filePath.isEmpty())
+		return;
+	QFile file(filePath);
+	if (!file.open(QFile::ReadOnly))
+		return;
+	const auto jsonDoc = QJsonDocument::fromJson(file.readAll());
+	if (!jsonDoc.isObject())
+		return;
+	const auto data = jsonDoc.object();
+	if (data["constellations"].isArray())
+		culture.constellations = data["constellations"].toArray();
+	else
+		qWarning() << "No \"constellations\" array found in JSON data in sky culture directory"
+		           << QDir::toNativeSeparators(dir);
+	culture.asterisms = data["asterisms"].toArray();
+	culture.langsUseNativeNames = data["langs_use_native_names"].toArray();
+	culture.boundaries = data["edges"].toArray();
+	culture.names = data["common_names"].toObject();
+	culture.zodiac = data.contains("zodiac") ? data["zodiac"].toObject() : QJsonObject();
+	culture.lunarSystem = data.contains("lunar_system") ? data["lunar_system"].toObject() : QJsonObject();
+}
+
 bool StelSkyCultureMgr::setCurrentSkyCultureID(const QString& cultureDir)
 {
 	QString scID = cultureDir;
@@ -326,6 +331,7 @@ bool StelSkyCultureMgr::setCurrentSkyCultureID(const QString& cultureDir)
 	}
 
 	currentSkyCulture = dirToNameEnglish[scID];
+	loadCultureData(scID, currentSkyCulture);
 
 	// Lookup culture Style!
 	setScreenLabelStyle(getScreenLabelStyle());

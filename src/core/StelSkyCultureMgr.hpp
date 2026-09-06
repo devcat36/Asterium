@@ -357,6 +357,7 @@ signals:
 private:
 	//! Scan all sky cultures to get their names and other properties.
 	void makeCulturesList();
+	void loadCultureData(const QString& dir, StelSkyCulture& culture) const;
 
 	//! Read the English name of the sky culture from description file.
 	//! @param idFromJSON the id from \p index.json that will be used as a default name if an error occurs.

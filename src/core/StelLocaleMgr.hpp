@@ -177,8 +177,9 @@ private:
 	static void createNameLists();
 	// The translator used for astronomical object naming
 	std::unique_ptr<StelTranslator> skyTranslator;
-	std::unique_ptr<StelTranslator> planetaryFeaturesTranslator;
-	std::unique_ptr<StelTranslator> scriptsTranslator;
+	mutable std::unique_ptr<StelTranslator> planetaryFeaturesTranslator;
+	mutable std::unique_ptr<StelTranslator> scriptsTranslator;
+	QString deferredTranslatorLanguage;
 	std::unique_ptr<StelTranslator> skyCultureDescriptionsTranslator;
 	StelCore* core;
 	

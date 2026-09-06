@@ -144,11 +144,25 @@ StelTexture::GLData StelTexture::imageToGLData(const QImage &image, const int de
 /*************************************************************************
  Defined to be passed to QtConcurrent::run
  *************************************************************************/
-StelTexture::GLData StelTexture::loadFromPath(const QString &path, const int decimateBy)
+StelTexture::GLData StelTexture::loadFromPath(const QString &path, const int decimateBy, const int maxEdge)
 {
 	try
 	{
 		QImageReader imgReader(path);
+		int remainingDecimation = decimateBy;
+		const QSize full = imgReader.size();
+		int divisor = qMax(1, decimateBy);
+		if (maxEdge > 0 && full.isValid())
+		{
+			const int edge = qMax(full.width(), full.height()) / divisor;
+			if (edge > maxEdge)
+				divisor *= (edge + maxEdge - 1) / maxEdge;
+		}
+		if (divisor > 1 && full.isValid() && full.width() >= divisor && full.height() >= divisor)
+		{
+			imgReader.setScaledSize(QSize(full.width()/divisor, full.height()/divisor));
+			remainingDecimation = 1;
+		}
 		QImage img = imgReader.read();
 		if (img.isNull())
 		{
@@ -159,7 +173,7 @@ StelTexture::GLData StelTexture::loadFromPath(const QString &path, const int dec
 			if (error==QImageReader::InvalidDataError)
 				qCritical() << "This may also indicate an out-of-memory error.";
 		}
-		return imageToGLData(img, decimateBy);
+		return imageToGLData(img, remainingDecimation);
 	}
 	catch(std::bad_alloc& ex) //this catches out-of-memory errors from file conversion
 	{
@@ -294,8 +308,8 @@ bool StelTexture::load()
 	// Not a remote file, start a loader from local file.
 	if (loader == Q_NULLPTR)
 	{
-		startAsyncLoader(static_cast<GLData(*)(const QString&, const int)>(loadFromPath),
-		                 fullPath, loadParams.decimation);
+		startAsyncLoader(static_cast<GLData(*)(const QString&, const int, const int)>(loadFromPath),
+		                 fullPath, loadParams.decimation, loadParams.maxEdge);
 		return false;
 	}
 	// Wait until the loader finish.

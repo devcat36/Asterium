@@ -76,7 +76,7 @@ public:
 	LocationList getAll() const {return locations.values();}
 
 	//! Returns a map of all loaded locations. The key is the location ID, suitable for a list view.
-	LocationMap getAllMap() const { return locations; }
+	LocationMap getAllMap() const { ensureLocations(); return locations; }
 
 	//! Return the StelLocation from a CLI
 	const StelLocation locationFromCLI() const;
@@ -208,8 +208,9 @@ private:
 	static LocationMap loadCities(const QString& fileName, bool isUserLocation);
 	static LocationMap loadCitiesBin(const QString& fileName);
 
-	//! The list of all loaded locations
-	LocationMap locations;
+	mutable bool locationsLoaded = false;
+	void ensureLocations() const;
+	mutable LocationMap locations;
 	//! A Map which has to be used to replace, system- and Qt-version dependent,
 	//! timezone names from our location database to the code names currently used by Qt.
 	//! Required to avoid https://bugs.launchpad.net/stellarium/+bug/1662132,
@@ -229,7 +230,7 @@ private:
 
 	//! Used to sample a color from our current planet's surface map.
 	//! This must be kept in-sync with the map shown in the LocationDialog.
-	QImage planetSurfaceMap;
+	mutable QImage planetSurfaceMap;
 	//! Auxiliary to the surface map. This tracks whether we actually have to load a new image.
 	QString planetName;
 

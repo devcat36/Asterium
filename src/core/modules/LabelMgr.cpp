@@ -503,6 +503,8 @@ void LabelMgr::init()
 
 void LabelMgr::draw(StelCore* core)
 {
+	if (allLabels.isEmpty())
+		return;
 	StelPainter sPainter(core->getProjection(StelCore::FrameJ2000));
 	for (auto* l : std::as_const(allLabels))
 	{

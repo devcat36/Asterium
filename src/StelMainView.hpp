@@ -216,7 +216,8 @@ public slots:
 	//! Get the current maximum frames per second.
 	float getMaxFps() const {return maxfps;}
 	//! Get the desired frame rate: a number in [minfps, maxfps]
-	float getDesiredFps() const { return needsMaxFPS() ? maxfps : minfps; }
+	float getDesiredFps() const { return coveredFps>0.f ? coveredFps : (needsMaxFPS() ? maxfps : minfps); }
+	void setCoveredFps(float f) { coveredFps = f; }
 	//! Set the minimum time between frames (in milliseconds).
 	//! @param m the new setting.
 	void setMinTimeBetweenFrames(int m) {minTimeBetweenFrames = qMax(0, m); StelApp::immediateSave("video/min_time_between_frames", minTimeBetweenFrames); emit minTimeBetweenFramesChanged(minTimeBetweenFrames);}
@@ -379,6 +380,7 @@ private:
 	float minfps;
 	//! The maximum desired frame rate in frame per second.
 	float maxfps;
+	float coveredFps = 0.f;
 	//! The minimum desired time between frames, in milliseconds.
 	int minTimeBetweenFrames;
 	QTimer* fpsTimer;

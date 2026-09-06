@@ -23,10 +23,13 @@
 #define NEBULA_HPP
 
 #include "StelObject.hpp"
+#include "OptionalString.hpp"
+#include "OptionalList.hpp"
 #include "StelTranslator.hpp"
 #include "StelTextureTypes.hpp"
 
 #include <QString>
+#include <vector>
 
 class StelPainter;
 class QDataStream;
@@ -198,7 +201,7 @@ public:
 	QString getI18nAliases() const;
 
 	//! retrieve pronunciation from the first of the cultural names
-	QString getNamePronounce() const override {return (culturalNames.empty() ? "" : culturalNames.constFirst().pronounceI18n);}
+	QString getNamePronounce() const override {return (readExtras().culturalNames.empty() ? "" : readExtras().culturalNames.constFirst().pronounceI18n);}
 	//! Combine screen label from various components, depending on settings in SkyCultureMgr
 	QString getScreenLabel() const override;
 	//! Combine InfoString label from various components, depending on settings in SkyCultureMgr
@@ -210,7 +213,7 @@ public:
 	//! with the circle center assumed to be at getJ2000EquatorialPos().
 	//! @return radius in degree. This value is the apparent angular size of the object, and is independent of the current FOV.
 	double getAngularRadius(const StelCore*) const override;
-	SphericalRegionP getRegion() const override {return pointRegion;}
+	SphericalRegionP getRegion() const override {return SphericalRegionP(new SphericalPoint(XYZ));}
 
 	// Methods specific to Nebula
 	void setLabelColor(const Vec3f& v) {labelColor = v;}
@@ -248,12 +251,13 @@ public:
 	//! adds a name to the list of common alias names
 	void addNameAlias(const QString &name) { if (!englishAliases.contains(name)) englishAliases.append(name);}
 	//! Removes englishName, any aliases and cultural names
-	void removeAllNames() { englishName.clear(); englishAliases.clear(); culturalNames.clear();}
+	void removeAllNames() { englishName.clear(); englishAliases.clear(); clearCulturalNames();}
 	//! Add a name for the currently set skyculture
-	void addCulturalName(const StelObject::CulturalName &culturalName){culturalNames.append(culturalName);}
+	void addCulturalName(const StelObject::CulturalName &culturalName){ownExtras().culturalNames.append(culturalName); hasCulturalNames=true;}
+	void clearCulturalNames() { if (hasCulturalNames) { ownExtras().culturalNames.clear(); hasCulturalNames=false; } }
 
 	//! Set additional information pieces
-	void setDiscoveryData(const QString &discovererName, const QString &year) { discoverer = discovererName; discoveryYear = year; }
+	void setDiscoveryData(const QString &discovererName, const QString &year) { Extras& e=ownExtras(); e.discoverer=discovererName; e.discoveryYear=year; }
 
 	//! Get designation for DSO (with priority: M, C, NGC, IC, B, Sh2, vdB, RCW, LDN, LBN, Cr, Mel, PGC, UGC, Ced, Arp, VV, PK, PN G, SNR G, ACO, HCG, ESO, vdBH, DWB, Tr, St, Ru, vdB-Ha)
 	//! from the first catalog that is activated.
@@ -288,7 +292,7 @@ private:
 		for (auto &alias : englishAliases)
 			nameI18Aliases.append(trans.qtranslate(alias));
 
-		for (StelObject::CulturalName cName : std::as_const(culturalNames))
+		for (StelObject::CulturalName cName : std::as_const(readExtras().culturalNames))
 		{
 			cName.pronounceI18n = trans.qtranslate(cName.pronounce);
 			cName.translatedI18n = trans.qtranslate(cName.translated);
@@ -297,8 +301,8 @@ private:
 
 	void readDSO(QDataStream& in);
 
-	void drawLabel(StelPainter& sPainter, float maxMagLabel) const;
-	void drawHints(StelPainter& sPainter, float maxMagHints, StelCore *core) const;
+	void drawLabel(StelPainter& sPainter, const Vec3d& XY, float maxMagLabel) const;
+	void drawHints(StelPainter& sPainter, const Vec3d& XY, float maxMagHints, StelCore *core) const;
 	void drawOutlines(StelPainter& sPainter, float maxMagHints) const;
 	void renderDarkNebulaMarker(StelPainter& sPainter, float x, float y, float size, Vec3f color) const;
 	void renderRoundMarker(StelPainter& sPainter, float x, float y, float size, Vec3f color, bool crossed) const;
@@ -320,43 +324,61 @@ private:
 	QString getConcentrationClass(QString cc) const;
 
 	unsigned int DSO_nb;
-	unsigned int M_nb;          //!< Messier Catalog number
-	unsigned int NGC_nb;        //!< New General Catalog number
-	unsigned int IC_nb;         //!< Index Catalog number
-	unsigned int C_nb;          //!< Caldwell Catalog number
-	unsigned int B_nb;          //!< Barnard Catalog number (Dark Nebulae)
-	unsigned int Sh2_nb;        //!< Sharpless Catalog number (Catalogue of HII Regions (Sharpless, 1959))
-	unsigned int VdB_nb;        //!< van den Bergh Catalog number (Catalogue of Reflection Nebulae (van den Bergh, 1966))
-	unsigned int RCW_nb;        //!< RCW Catalog number (H-α emission regions in Southern Milky Way (Rodgers+, 1960))
-	unsigned int LDN_nb;        //!< LDN Catalog number (Lynds' Catalogue of Dark Nebulae (Lynds, 1962))
-	unsigned int LBN_nb;        //!< LBN Catalog number (Lynds' Catalogue of Bright Nebulae (Lynds, 1965))
-	unsigned int Cr_nb;         //!< Collinder Catalog number
-	unsigned int Mel_nb;        //!< Melotte Catalog number
 	unsigned int PGC_nb;        //!< PGC number (Catalog of galaxies)
-	unsigned int UGC_nb;        //!< UGC number (The Uppsala General Catalogue of Galaxies)
-	unsigned int Arp_nb;        //!< Arp number (Atlas of Peculiar Galaxies (Arp, 1966))
-	unsigned int VV_nb;         //!< VV number (The Catalogue of Interacting Galaxies (Vorontsov-Velyaminov+, 2001))
-	unsigned int DWB_nb;        //!< DWB number (Catalogue and distances of optically visible H II regions (Dickel+, 1969))
-	unsigned int Tr_nb;         //!< Tr number (Trumpler Catalogue)
-	unsigned int St_nb;         //!< St number (Stock Catalogue)
-	unsigned int Ru_nb;         //!< Ru number (Ruprecht Catalogue)
-	unsigned int VdBHa_nb;      //!< vdB-Ha number (van den Bergh-Hagen Catalogue)
-	QString Ced_nb;             //!< Ced number (Cederblad Catalog of bright diffuse Galactic nebulae)
-	QString PK_nb;              //!< PK number (Catalogue of Galactic Planetary Nebulae)
-	QString PNG_nb;             //!< PN G number (Strasbourg-ESO Catalogue of Galactic Planetary Nebulae (Acker+, 1992))
-	QString SNRG_nb;            //!< SNR G number (A catalogue of Galactic supernova remnants (Green, 2014))
-	QString ACO_nb;             //!< ACO number (Rich Clusters of Galaxies (Abell+, 1989))
-	QString HCG_nb;             //!< HCG number (Hickson Compact Group (Hickson, 1989))
-	QString ESO_nb;             //!< ESO number (ESO/Uppsala Survey of the ESO(B) Atlas (Lauberts, 1982))
-	QString VdBH_nb;            //!< VdBH number (Southern Stars embedded in nebulosity (van den Bergh+, 1975))
+	quint32 rareNumbersOffset = 0;
+	quint32 rareStringsOffset = 0;
 	bool withoutID;
-	QString englishName;        //!< English (preferred) name
-	QStringList englishAliases; //!< English aliases
-	QString nameI18;            //!< Nebula (preferred) name in user language
-	QStringList nameI18Aliases; //!< Nebula aliases in user language
-	QList<StelObject::CulturalName> culturalNames; //!< describes native names used in non-modern Skycultures. Usually just one, but there may be more!
-	QString discoverer;         //!< The name of discoverer
-	QString discoveryYear;      //!< Year(s) of discovery
+	mutable bool designationsBuilt = false;
+	bool hasExtras = false;
+	bool hasCulturalNames = false;
+	quint32 catalogueMask = 0;
+	quint32 typeMask = 0;
+
+	static constexpr quint32 numericCatalogues = CatNGC|CatIC|CatM|CatC|CatB|CatSh2|CatLBN|CatLDN
+		|CatRCW|CatVdB|CatCr|CatMel|CatUGC|CatArp|CatVV|CatDWB|CatTr|CatSt|CatRu|CatVdBHa;
+	static constexpr quint32 stringCatalogues = CatCed|CatPK|CatPNG|CatSNRG|CatACO|CatHCG|CatESO|CatVdBH;
+	static std::vector<unsigned int> rareNumbers;
+	static std::vector<QString> rareStrings;
+	static const QString noDesignation;
+
+	unsigned int catNum(quint32 bit) const
+	{
+		if (!(catalogueMask & bit))
+			return 0;
+		return rareNumbers[rareNumbersOffset
+			+ quint32(qPopulationCount(quint32(catalogueMask & numericCatalogues & (bit-1))))];
+	}
+	const QString& catStr(quint32 bit) const
+	{
+		if (!(catalogueMask & bit))
+			return noDesignation;
+		return rareStrings[rareStringsOffset
+			+ quint32(qPopulationCount(quint32(catalogueMask & stringCatalogues & (bit-1))))];
+	}
+	void updateTypeMask();
+
+	struct Extras
+	{
+		QString discoverer;
+		QString discoveryYear;
+		QList<StelObject::CulturalName> culturalNames;
+		float parallax = 0.f;
+		float parallaxErr = 0.f;
+	};
+	static QHash<unsigned int, Extras> extrasByDSO;
+	static const Extras emptyExtras;
+	Extras& ownExtras() { hasExtras = true; return extrasByDSO[DSO_nb]; }
+	const Extras& readExtras() const
+	{
+		if (!hasExtras)
+			return emptyExtras;
+		const auto it = extrasByDSO.constFind(DSO_nb);
+		return it == extrasByDSO.constEnd() ? emptyExtras : *it;
+	}
+	OptionalString englishName;        //!< English (preferred) name
+	OptionalList<QStringList> englishAliases; //!< English aliases
+	OptionalString nameI18;            //!< Nebula (preferred) name in user language
+	OptionalList<QStringList> nameI18Aliases; //!< Nebula aliases in user language
 	QString mTypeString;        //!< Morphological type of object (as string)
 	float bMag;                 //!< B magnitude
 	float vMag;                 //!< V magnitude. For Dark Nebulae, opacity is stored here.
@@ -367,14 +389,11 @@ private:
 	float oDistanceErr;         //!< Error of distance (kpc)
 	float redshift;
 	float redshiftErr;
-	float parallax;
-	float parallaxErr;
 	Vec3d XYZ;                  //!< Cartesian equatorial position (J2000.0)
-	Vec3d XY;                   //!< to store temporary 2D screen position
 	NebulaType nType;
 
-	SphericalRegionP pointRegion;
-	QStringList designations;       // List of Catalog number entries
+	mutable OptionalList<QStringList> designations;       // List of Catalog number entries
+	void buildDesignations() const;
 
 	static StelTextureSP texRegion;				// The symbolic dashed shape texture
 	static StelTextureSP texPointElement;
@@ -405,7 +424,7 @@ private:
 	static double minSizeLimit;
 	static double maxSizeLimit;
 
-	std::vector<std::vector<Vec3d> *> outlineSegments;
+	OptionalList<QList<std::vector<Vec3d> *>> outlineSegments;
 };
 
 Q_DECLARE_OPERATORS_FOR_FLAGS(Nebula::CatalogGroup)

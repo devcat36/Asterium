@@ -24,10 +24,12 @@ import android.view.Gravity;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.util.ArrayList;
@@ -166,6 +168,7 @@ final class WutPage extends AstroCalcPage
 	private final class Row extends LinearLayout
 	{
 		private final TextView name, type, mag, times;
+		private final ImageView star;
 		private final LinearLayout detail;
 
 		Row(Context context)
@@ -203,6 +206,11 @@ final class WutPage extends AstroCalcPage
 					new LayoutParams(LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT);
 			numberParams.leftMargin = Theme.dp(10);
 			head.addView(numbers, numberParams);
+
+			star = Widgets.starButton(context, false);
+			final LayoutParams starParams = new LayoutParams(Theme.dp(40), Theme.dp(40));
+			starParams.leftMargin = Theme.dp(6);
+			head.addView(star, starParams);
 			addView(head);
 
 			detail = new LinearLayout(context);
@@ -222,6 +230,21 @@ final class WutPage extends AstroCalcPage
 			final String rise = entry.optString("rise"), sets = entry.optString("set");
 			times.setText(T.t(rise.equals("—") && sets.equals("—")
 					? entry.optString("transit") : rise + " → " + sets));
+
+			Widgets.setStarred(star, entry.optBoolean("saved"));
+			star.setOnClickListener(v ->
+			{
+				final boolean saved = !Widgets.starred(star);
+				NativeBridge.send("obslist.toggle", entry.optString("select"));
+				Widgets.setStarred(star, saved);
+				try
+				{
+					entry.put("saved", saved);
+				}
+				catch (JSONException ignored)
+				{
+				}
+			});
 
 			setBackground(Theme.pressable(Theme.box(open ? Theme.FILL_SOFT : 0, 0), 0));
 			setOnClickListener(v -> click.run());

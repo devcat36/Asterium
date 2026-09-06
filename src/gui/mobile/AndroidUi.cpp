@@ -35,6 +35,7 @@
 #include "StelFileMgr.hpp"
 #include "StelSkyDrawer.hpp"
 #include "StelGui.hpp"
+#include <malloc.h>
 #include "StelMainView.hpp"
 #include "StelLogger.hpp"
 #include "LandscapeMgr.hpp"
@@ -70,6 +71,8 @@
 #include <QMetaObject>
 #include <QRegularExpression>
 #include <QSet>
+#include <QDebug>
+#include <QElapsedTimer>
 #include <QSettings>
 #include <QTime>
 #include <QTimeZone>
@@ -79,6 +82,9 @@
 
 #include <algorithm>
 #include <cmath>
+#include <iterator>
+#include <vector>
+#include <numeric>
 #include <memory>
 #include <utility>
 
@@ -132,7 +138,51 @@ QString asteriumFormatSimTime(double jd, const QString& format)
 }
 
 static bool asteriumViewHeld = false;
+static QElapsedTimer asteriumPointBlend;
 static int asteriumFindNudge = 0;
+
+static bool asteriumFrame(Vec3d dir, const Vec3d& up, Mat3d& frame)
+{
+	dir.normalize();
+	Vec3d side = dir ^ up;
+	if (side.norm() < 1e-9)
+		return false;
+	side.normalize();
+	frame = Mat3d(dir, side, side ^ dir);
+	return true;
+}
+
+static Vec3d asteriumRotationAxis(const Mat3d& rotation, double angle)
+{
+	const Vec3d skew(rotation[5] - rotation[7], rotation[6] - rotation[2], rotation[1] - rotation[3]);
+	if (angle < M_PI - 1e-3)
+		return skew;
+	int i = 0;
+	if (rotation[4] > rotation[0])
+		i = 1;
+	if (rotation[8] > rotation[i * 4])
+		i = 2;
+	Vec3d axis(0., 0., 0.);
+	axis[i] = std::sqrt(qMax(0., (rotation[i * 4] + 1.) / 2.));
+	for (int j = 0; j < 3; ++j)
+		if (j != i)
+			axis[j] = (rotation[j * 3 + i] + rotation[i * 3 + j]) / (4. * axis[i]);
+	return axis.dot(skew) < 0. ? axis * -1. : axis;
+}
+
+static void asteriumBlendView(const Vec3d& fromDir, const Vec3d& fromUp, Vec3d& dir, Vec3d& up, double t)
+{
+	Mat3d from, to;
+	if (!asteriumFrame(fromDir, fromUp, from) || !asteriumFrame(dir, up, to))
+		return;
+	const Mat3d rotation = to * from.transpose();
+	const double angle = std::acos(qBound(-1., (rotation.trace() - 1.) / 2., 1.));
+	if (angle < 1e-6)
+		return;
+	const Mat4d partial = Mat4d::rotation(asteriumRotationAxis(rotation, angle), angle * t);
+	dir = partial.multiplyWithoutTranslation(Vec3d(from[0], from[1], from[2]));
+	up = partial.multiplyWithoutTranslation(Vec3d(from[6], from[7], from[8]));
+}
 
 void asteriumMoveToSelected(StelMovementMgr* movement, const StelObjectP& object, float duration)
 {
@@ -1121,6 +1171,38 @@ QSettings* config()
 	return StelApp::getInstance().getSettings();
 }
 
+void logFrameTiming()
+{
+	static const bool enabled = config()->value("bench/frame_log", false).toBool();
+	if (!enabled)
+		return;
+	static QElapsedTimer clock;
+	static qint64 previous = 0;
+	static QList<qint64> gaps;
+	if (!clock.isValid())
+	{
+		clock.start();
+		previous = 0;
+		return;
+	}
+	const qint64 now = clock.nsecsElapsed();
+	gaps.append(now - previous);
+	previous = now;
+	if (gaps.size() < 300)
+		return;
+	QList<qint64> sorted = gaps;
+	gaps.clear();
+	std::sort(sorted.begin(), sorted.end());
+	const qint64 total = std::accumulate(sorted.cbegin(), sorted.cend(), qint64(0));
+	const auto milli = [](qint64 ns) { return ns / 1.0e6; };
+	qInfo().noquote() << QString("ASTBENCH frames=%1 fps=%2 p50=%3 p90=%4 p99=%5")
+				 .arg(sorted.size())
+				 .arg(sorted.size() * 1.0e9 / double(total), 0, 'f', 2)
+				 .arg(milli(sorted.at(sorted.size() / 2)), 0, 'f', 3)
+				 .arg(milli(sorted.at(sorted.size() * 9 / 10)), 0, 'f', 3)
+				 .arg(milli(sorted.at(sorted.size() * 99 / 100)), 0, 'f', 3);
+}
+
 bool searchFlag(const char* key, bool fallback)
 {
 	return config()->value(QString("search/%1").arg(key), fallback).toBool();
@@ -1678,6 +1760,22 @@ void obsHighlight(bool on)
 }
 }
 
+QStringList asteriumObsKeys(const StelObjectP& object)
+{
+	if (object.isNull())
+		return QStringList();
+	return QStringList{ obsKey(object), object->getEnglishName() };
+}
+
+bool asteriumObsHoldsAny(const QStringList& keys)
+{
+	obsLoad();
+	for (const QString& key : keys)
+		if (!key.isEmpty() && obs.members.contains(key))
+			return true;
+	return false;
+}
+
 extern "C" JNIEXPORT void JNICALL
 Java_org_asterium_asterium_NativeBridge_nativeSend(JNIEnv* env, jclass, jint token,
                                                      jstring verb, jstring arg)
@@ -1776,6 +1874,7 @@ bool AndroidUi::ready()
 
 void AndroidUi::update()
 {
+	logFrameTiming();
 	if (!uiInstance)
 		return;
 	if (!uiInstance->announced)
@@ -1785,6 +1884,11 @@ void AndroidUi::update()
 		QJniObject::callStaticMethod<void>(kBridgeClass, "onEngineReady", "()V");
 		uiInstance->setObsListHighlight(
 				config()->value("gui/obslist_highlight", true).toBool());
+#ifdef M_PURGE_ALL
+		mallopt(M_PURGE_ALL, 0);
+#elif defined(M_PURGE)
+		mallopt(M_PURGE, 0);
+#endif
 	}
 	if (uiInstance->sinceSnapshot.elapsed() < 250)
 		return;
@@ -1932,7 +2036,7 @@ QString AndroidUi::snapshot() const
 
 	QJsonObject out;
 
-	const double jd = core->getJD();
+	const double jd = std::round(core->getJD()*86400.)/86400.;
 	out["clock"] = asteriumFormatSimTime(jd, "yyyy-MM-dd HH:mm:ss");
 	out["jd"] = jd;
 
@@ -1943,7 +2047,7 @@ QString AndroidUi::snapshot() const
 	            .arg(std::abs(offsetMinutes) / 60)
 	            .arg(std::abs(offsetMinutes) % 60 ? QString(":%1").arg(std::abs(offsetMinutes) % 60, 2, 10, QChar('0'))
 	                                              : QString());
-	out["sidereal"] = StelUtils::radToHmsStr(core->getLocalSiderealTime(), true).trimmed();
+	out["sidereal"] = StelUtils::radToHmsStr(core->getLocalSiderealTime(), false).trimmed();
 
 	int year = 0, month = 0, day = 0, hour = 0, minute = 0, second = 0;
 	StelUtils::getDateTimeFromJulianDay(jd + offset / 24., &year, &month, &day,
@@ -2036,10 +2140,17 @@ QString AndroidUi::snapshot() const
 	QJsonObject toggles;
 	if (actions)
 	{
-		for (const ToolbarEntry& entry : kToolbar)
+		static std::vector<StelAction*> toolbarActions;
+		if (toolbarActions.size() != std::size(kToolbar))
 		{
-			if (StelAction* a = actions->findAction(entry.action))
-				toggles[entry.action] = toolbarState(entry.action, a);
+			toolbarActions.clear();
+			for (const ToolbarEntry& entry : kToolbar)
+				toolbarActions.push_back(actions->findAction(entry.action));
+		}
+		for (size_t i = 0; i < std::size(kToolbar); ++i)
+		{
+			if (StelAction* a = toolbarActions[i])
+				toggles[kToolbar[i].action] = toolbarState(kToolbar[i].action, a);
 		}
 	}
 	out["toggles"] = toggles;
@@ -2059,6 +2170,12 @@ void AndroidUi::perform(const QString& verb, const QString& arg)
 
 	const QString key = arg.section('=', 0, 0);
 	const QString value = arg.section('=', 1);
+
+	if (verb == "view.covered")
+	{
+		StelMainView::getInstance().setCoveredFps(arg == "1" ? 4.f : 0.f);
+		return;
+	}
 
 	if (AsteriumAstroCalc::perform(verb, arg) || AsteriumOculars::perform(verb, arg))
 		return;
@@ -2214,6 +2331,10 @@ void AndroidUi::perform(const QString& verb, const QString& arg)
 	else if (verb == "view.hold")
 	{
 		asteriumViewHeld = arg.toInt() != 0;
+		if (asteriumViewHeld)
+			asteriumPointBlend.start();
+		if (StelMovementMgr* mv = core->getMovementMgr())
+			mv->cancelDrag();
 	}
 	else if (verb == "view.point")
 	{
@@ -2225,8 +2346,14 @@ void AndroidUi::perform(const QString& verb, const QString& arg)
 			return Vec3d(-n.at(i + 1).toDouble(), n.at(i).toDouble(), n.at(i + 2).toDouble());
 		};
 		mv->setFlagTracking(false);
-		mv->setViewUpVectorJ2000(core->altAzToJ2000(toAltAz(3), StelCore::RefractionOff));
-		mv->setViewDirectionJ2000(core->altAzToJ2000(toAltAz(0), StelCore::RefractionOff));
+		Vec3d up = core->altAzToJ2000(toAltAz(3), StelCore::RefractionOff);
+		Vec3d dir = core->altAzToJ2000(toAltAz(0), StelCore::RefractionOff);
+		const double progress = asteriumPointBlend.isValid() ? asteriumPointBlend.elapsed() / 1000. : 1.;
+		if (progress < 1.)
+			asteriumBlendView(mv->getViewDirectionJ2000(), mv->getViewUpVectorJ2000(), dir, up,
+			                  progress * progress);
+		mv->setViewUpVectorJ2000(up);
+		mv->setViewDirectionJ2000(dir);
 	}
 	else if (verb == "city.set")
 	{
@@ -3591,5 +3718,7 @@ bool AndroidUi::obsListHighlight() const { return false; }
 void AndroidUi::setObsListHighlight(bool) {}
 bool AndroidUi::flagShowFps() const { return false; }
 void AndroidUi::setFlagShowFps(bool) {}
+QStringList asteriumObsKeys(const StelObjectP&) { return QStringList(); }
+bool asteriumObsHoldsAny(const QStringList&) { return false; }
 
 #endif

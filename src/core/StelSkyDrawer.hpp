@@ -435,6 +435,7 @@ private:
 
 	std::unique_ptr<QOpenGLVertexArrayObject> vao;
 	std::unique_ptr<QOpenGLBuffer> vbo;
+	std::unique_ptr<QOpenGLBuffer> ibo;
 
 	Extinction extinction;
 	Refraction refraction;
@@ -530,7 +531,7 @@ private:
 	//! Current number of sources stored in the buffers (still to display)
 	unsigned int nbPointSources;
 	//! Maximum number of sources which can be stored in the buffers
-	constexpr static unsigned int maxPointSources=1000;
+	constexpr static unsigned int maxPointSources=8192;
 
 	//! The maximum transformed luminance to apply at the next update
 	float maxLum;

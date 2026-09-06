@@ -170,7 +170,9 @@ private:
 	// Font used for displaying our text
 	int fontSize;
 	StelTextureSP texPointer;	
-	QMultiHash<PlanetP, NomenclatureItemP> nomenclatureItems;
+	mutable bool nomenclatureLoaded = false;
+	void ensureLoaded() const;
+	mutable QMultiHash<PlanetP, NomenclatureItemP> nomenclatureItems;
 };
 
 #endif /* NOMENCLATUREMGR_HPP */

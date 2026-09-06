@@ -270,7 +270,8 @@ QList<double> nightMoments(StelCore* core, SolarSystem* solarSystem, int interva
 
 QJsonObject row(StelCore* core, const QString& name, const QString& designation, float magnitude,
                 const Vec4d& rts, double maxElevation, double angularSize,
-                const QString& constellation, const QString& objectType, bool decimalDegrees)
+                const QString& constellation, const QString& objectType, bool decimalDegrees,
+                const StelObjectP& object)
 {
 	const double utcShift = core->getUTCOffset(core->getJD()) / 24.;
 
@@ -296,6 +297,7 @@ QJsonObject row(StelCore* core, const QString& name, const QString& designation,
 	entry["name"] = name;
 
 	entry["select"] = designation;
+	entry["obs"] = QJsonArray::fromStringList(asteriumObsKeys(object));
 	entry["mag"] = magnitude > 98.f ? kDash : QString::number(static_cast<double>(magnitude), 'f', 2);
 	entry["rise"] = rise;
 	entry["transit"] = transit;
@@ -349,7 +351,7 @@ void calculate()
 		const double top = culminationElevation(object, core);
 		kRows.append(row(core, name, designation, magnitude, rts, top, angularSize,
 		                 core->getIAUConstellation(object->getEquinoxEquatorialPos(core)),
-		                 object->getObjectTypeI18n(), decimalDegrees));
+		                 object->getObjectTypeI18n(), decimalDegrees, object));
 	};
 
 	const auto keepStar = [&](const StelObjectP& object, double angularSize)
@@ -390,7 +392,7 @@ void calculate()
 		kRows.append(row(core, name, designation, magnitude, rts, top,
 		                 object->getAngularRadius(core),
 		                 core->getIAUConstellation(asObject->getEquinoxEquatorialPos(core)),
-		                 asObject->getObjectTypeI18n(), decimalDegrees));
+		                 asObject->getObjectTypeI18n(), decimalDegrees, asObject));
 	};
 
 	for (const double moment : moments)
@@ -796,7 +798,17 @@ void state(QJsonObject& out)
 	out["elevLabel"] = ct_("Elev.");
 
 	out["when"] = kWhen;
-	out["rows"] = kRows;
+	QJsonArray rows;
+	for (const QJsonValue& value : std::as_const(kRows))
+	{
+		QJsonObject entry = value.toObject();
+		QStringList keys;
+		for (const QJsonValue& key : entry.value("obs").toArray())
+			keys << key.toString();
+		entry["saved"] = asteriumObsHoldsAny(keys);
+		rows.append(entry);
+	}
+	out["rows"] = rows;
 }
 }
 

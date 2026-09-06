@@ -374,14 +374,28 @@ void Asterism::drawOptim(StelPainter& sPainter, const StelCore* core, const Sphe
 		sPainter.setColor(rayHelperColor, rayHelperFader.getInterstate());
 	}
 
-	Vec3d star1;
-	Vec3d star2;
+	const bool aberration = core->getUseAberration();
+	const bool parallax = core->getUseParallax();
+	if (segmentPosCache.size() != asterism.size()
+	    || aberration != segmentPosAberration
+	    || parallax != segmentPosParallax
+	    || fabs(core->getJDE() - segmentPosJDE) > 0.25)
+	{
+		segmentPosAberration = aberration;
+		segmentPosParallax = parallax;
+		segmentPosJDE = core->getJDE();
+		segmentPosCache.resize(asterism.size());
+		for (size_t i = 0; i < asterism.size(); ++i)
+		{
+			segmentPosCache[i] = asterism[i]->getJ2000EquatorialPos(core);
+			segmentPosCache[i].normalize();
+		}
+	}
+
 	for (unsigned int i = 0; i < asterism.size() / 2; ++i)
 	{
-		star1=asterism[2*i]->getJ2000EquatorialPos(core);
-		star2=asterism[2*i+1]->getJ2000EquatorialPos(core);
-		star1.normalize();
-		star2.normalize();
+		const Vec3d& star1=segmentPosCache[2*i];
+		const Vec3d& star2=segmentPosCache[2*i+1];
 		if (star1.fuzzyEquals(star2))
 		{
 			// draw single-star segment as circle

@@ -244,8 +244,29 @@ void AsteriumOculars::install()
 		loaded->init();
 		modules.setPluginLoadAtStartup(kOculars, true);
 	}
-	StelApp::getInstance().getStelPropertyManager()->setStelPropertyValue(
-			"Oculars.flagGuiPanelEnabled", QVariant(false), true);
+	StelPropertyMgr* properties = StelApp::getInstance().getStelPropertyManager();
+	properties->setStelPropertyValue("Oculars.flagGuiPanelEnabled", QVariant(false), true);
+
+	static const struct { const char* property; const char* key; int floor; } kSelections[] = {
+		{ "Oculars.selectedOcularIndex",    "ocular_index",    0  },
+		{ "Oculars.selectedTelescopeIndex", "telescope_index", 0  },
+		{ "Oculars.selectedCCDIndex",       "ccd_index",       0  },
+		{ "Oculars.selectedLensIndex",      "lens_index",      -1 },
+	};
+	for (const auto& selection : kSelections)
+	{
+		StelProperty* property = properties->getProperty(QLatin1String(selection.property), true);
+		if (!property)
+			continue;
+		QObject::connect(property, &StelProperty::changed, property, [selection](const QVariant& value)
+		{
+			QSettings* equipment = equipmentFile();
+			if (!equipment)
+				return;
+			equipment->setValue(QLatin1String(selection.key), qMax(selection.floor, value.toInt()));
+			equipment->sync();
+		});
+	}
 }
 
 void AsteriumOculars::addSnapshot(QJsonObject& out)

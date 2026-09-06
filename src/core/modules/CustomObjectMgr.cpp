@@ -386,6 +386,11 @@ void CustomObjectMgr::removeCustomObject(QString englishName)
 
 void CustomObjectMgr::draw(StelCore* core)
 {
+	static StelObjectMgr *selectionMgr=GETSTELMODULE(StelObjectMgr);
+	if (customObjects.isEmpty() && persistentObjects.isEmpty()
+	    && (!selectionMgr->getFlagSelectedObjectPointer()
+	        || selectionMgr->getSelectedObject("CustomObject").isEmpty()))
+		return;
 	StelProjectorP prj = core->getProjection(StelCore::FrameJ2000);
 	StelPainter painter(prj);
 	QFont font=QGuiApplication::font();

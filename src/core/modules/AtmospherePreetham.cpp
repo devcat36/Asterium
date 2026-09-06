@@ -186,13 +186,19 @@ void AtmospherePreetham::computeColor(StelCore* core, const double JD, const Pla
 		posGridBuffer.allocate(posGrid.constData(), static_cast<int>((1+skyResolutionX)*(1+skyResolutionY))*8);
 		posGridBuffer.release();
 		
-		// Generate the indices used to draw the quads
-		unsigned short* indices = new unsigned short[static_cast<size_t>((skyResolutionX+1)*skyResolutionY*2)];
+		indicesCount = static_cast<int>((skyResolutionX+1)*skyResolutionY*2 + (skyResolutionY-1)*2);
+		unsigned short* indices = new unsigned short[static_cast<size_t>(indicesCount)];
 		int i=0;
 		for (unsigned int y2=0; y2<skyResolutionY; ++y2)
 		{
 			unsigned short g0 = static_cast<unsigned short>(y2*(1+skyResolutionX));
 			unsigned short g1 = static_cast<unsigned short>((y2+1)*(1+skyResolutionX));
+			if (y2>0)
+			{
+				indices[i] = indices[i-1];
+				++i;
+				indices[i++] = g0;
+			}
 			for (unsigned int x2=0; x2<=skyResolutionX; ++x2)
 			{
 				indices[i++]=g0++;
@@ -205,7 +211,7 @@ void AtmospherePreetham::computeColor(StelCore* core, const double JD, const Pla
 		indicesBuffer.setUsagePattern(QOpenGLBuffer::StaticDraw);
 		indicesBuffer.create();
 		indicesBuffer.bind();
-		indicesBuffer.allocate(indices, static_cast<int>((skyResolutionX+1)*skyResolutionY*2*2));
+		indicesBuffer.allocate(indices, indicesCount*2);
 		indicesBuffer.release();
 		delete[] indices;
 		indices=Q_NULLPTR;
@@ -441,12 +447,7 @@ void AtmospherePreetham::draw(StelCore* core)
 	// And draw everything at once
 	bindVAO();
 	GL(indicesBuffer.bind());
-	std::size_t shift=0;
-	for (unsigned int y=0;y<skyResolutionY;++y)
-	{
-		sPainter.glFuncs()->glDrawElements(GL_TRIANGLE_STRIP, static_cast<int>((skyResolutionX+1)*2), GL_UNSIGNED_SHORT, reinterpret_cast<void*>(shift));
-		shift += static_cast<size_t>((skyResolutionX+1)*2*2);
-	}
+	sPainter.glFuncs()->glDrawElements(GL_TRIANGLE_STRIP, indicesCount, GL_UNSIGNED_SHORT, Q_NULLPTR);
 	GL(indicesBuffer.release());
 	releaseVAO();
 	

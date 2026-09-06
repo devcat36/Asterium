@@ -205,6 +205,13 @@ private:
 	//! For non-IAU constellations, a skyculture designer must invent it. (usually 2-5 Latin letters and numerics)
 	//! This MUST be filled and be unique within a sky culture.
 	//! @note Given their possible screen use, using numerical labels as abbreviation is not recommended.
+	mutable QString labelCache;
+	mutable int labelCacheStyle = -1;
+	mutable int labelCacheGeneration = -1;
+	mutable int labelCachePixelSize = -1;
+	mutable float labelCacheHalfWidth = 0.f;
+	static int labelGeneration;
+
 	QString abbreviation;
 	//! Translated version of abbreviation (the short name or designation of constellations)
 	//! Latin-based languages should not translate it, but it may be useful to translate for other glyph systems.
@@ -223,7 +230,11 @@ private:
 	int beginSeason;
 	//! Month [1..12] of end visibility of constellation (seasonal rules)
 	int endSeason;
-	//! List of stars forming the segments
+	mutable std::vector<Vec3d> segmentPosCache;
+	mutable double segmentPosJDE = -1e30;
+	mutable bool segmentPosAberration = false;
+	mutable bool segmentPosParallax = false;
+
 	std::vector<StelObjectP> constellation;
 	//! List of coordinates forming the segments of a dark constellation (outlining dark cloud in front of the Milky Way)
 	//! If this is not empty, the constellation is a "dark constellation"

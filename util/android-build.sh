@@ -93,6 +93,7 @@ echo "==> configure ($ABI, Qt $QT_VERSION)"
     -DENABLE_QTWEBENGINE=0 \
     -DENABLE_SHOWMYSKY=0 \
     -DENABLE_SPEECH=0 \
+    -DENABLE_MEDIA=0 \
     -DENABLE_CCACHE=0 \
     -DENABLE_PCH=0
 
@@ -113,6 +114,7 @@ if [[ $WITH_ASSETS -eq 1 ]]; then
     mkdir -p "$ASSETS_DIR"
     rsync -a --delete --delete-excluded --exclude 'territory.geojson' \
           --exclude '/scenery3d' --exclude '/webroot' \
+          --exclude '/nebulae/*/catalog.txt' \
           --exclude '/data/stellarium.ico' --exclude '/data/stellarium-gray.ico' \
           "$DATA_SRC/" "$ASSETS_DIR/"
     echo "    assets: $(du -sh "$ASSETS_DIR" | cut -f1)"

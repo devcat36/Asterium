@@ -54,6 +54,27 @@ static const int TEX_CACHE_LIMIT = 7000000;
 QOpenGLVertexArrayObject* vao;
 QOpenGLBuffer* verticesVBO;
 QOpenGLBuffer* indicesVBO;
+int verticesVBOCapacity = 0;
+int indicesVBOCapacity = 0;
+
+
+void reserveVertices(int bytes)
+{
+	if (bytes > verticesVBOCapacity)
+	{
+		verticesVBOCapacity = bytes + bytes/2;
+		verticesVBO->allocate(verticesVBOCapacity);
+	}
+}
+
+void reserveIndices(int bytes)
+{
+	if (bytes > indicesVBOCapacity)
+	{
+		indicesVBOCapacity = bytes + bytes/2;
+		indicesVBO->allocate(indicesVBOCapacity);
+	}
+}
 }
 
 #ifndef NDEBUG
@@ -66,6 +87,9 @@ QOpenGLShaderProgram* StelPainter::adjustedTexturesShaderProgram=Q_NULLPTR;
 QOpenGLShaderProgram* StelPainter::textShaderProgram=Q_NULLPTR;
 QOpenGLShaderProgram* StelPainter::basicShaderProgram=Q_NULLPTR;
 QOpenGLShaderProgram* StelPainter::colorShaderProgram=Q_NULLPTR;
+std::vector<Vec3f> StelPainter::wideLineBatchVertices;
+std::vector<StelPainter::PackedColor> StelPainter::wideLineBatchColors;
+bool StelPainter::wideLineBatchActive=false;
 QOpenGLShaderProgram* StelPainter::texturesColorShaderProgram=Q_NULLPTR;
 QOpenGLShaderProgram* StelPainter::wideLineShaderProgram=Q_NULLPTR;
 QOpenGLShaderProgram* StelPainter::colorfulWideLineShaderProgram=Q_NULLPTR;
@@ -167,6 +191,10 @@ bool StelPainter::linkProg(QOpenGLShaderProgram* prog, const QString& name)
 
 StelPainter::StelPainter(const StelProjectorP& proj)
 	: QOpenGLFunctions(QOpenGLContext::currentContext())
+	, viewportSizeCached(false)
+	, textBatchActive(false)
+	, texturedBatchActive(false)
+	, batchTexture(0)
 	, glState(this)
 {
 	Q_ASSERT(proj);
@@ -206,6 +234,8 @@ StelPainter::StelPainter(const StelProjectorP& proj)
 		indicesVBO->setUsagePattern(QOpenGLBuffer::StreamDraw);
 		verticesVBO->create();
 		verticesVBO->setUsagePattern(QOpenGLBuffer::StreamDraw);
+		verticesVBOCapacity = 0;
+		indicesVBOCapacity = 0;
 	}
 }
 
@@ -238,7 +268,10 @@ StelPainter::~StelPainter()
 
 void StelPainter::setFont(const QFont& font)
 {
+	if (currentFont == font && !currentFontKey.isEmpty())
+		return;
 	currentFont = font;
+	currentFontKey = font.key().toUtf8();
 }
 
 void StelPainter::setColor(float r, float g, float b, float a)
@@ -764,7 +797,9 @@ struct StringTexture
 StringTexture* StelPainter::getTextTexture(const QString& str, int pixelSize) const
 {
 	const bool halo = textHaloStrength > 0.f;
-	QByteArray hash = str.toUtf8() + QByteArray::number(pixelSize) + currentFont.key().toUtf8()
+	if (currentFontKey.isEmpty())
+		currentFontKey = currentFont.key().toUtf8();
+	QByteArray hash = str.toUtf8() + QByteArray::number(pixelSize) + currentFontKey
 	                  + (halo ? "+h" : "");
 	StringTexture* cachedTex = texCache.object(hash);
 	if (cachedTex)
@@ -810,116 +845,244 @@ StringTexture* StelPainter::getTextTexture(const QString& str, int pixelSize) co
 	return texCache.object(hash);
 }
 
+void StelPainter::beginTextBatch()
+{
+	if (textBatchActive)
+		return;
+	textBatchActive = true;
+	textBatchQuads.clear();
+	textBatchItems.clear();
+}
+
+void StelPainter::endTextBatch()
+{
+	if (!textBatchActive)
+		return;
+	textBatchActive = false;
+	if (textBatchItems.empty())
+		return;
+
+	GLint oldTex = 0;
+	glActiveTexture(GL_TEXTURE0);
+	glGetIntegerv(GL_TEXTURE_BINDING_2D, &oldTex);
+	const bool oldBlending = glState.blend;
+	const GLenum oldSrc = glState.blendSrc, oldDst = glState.blendDst;
+	setBlending(true);
+
+	const Mat4f& m = getProjector()->getProjectionMatrix();
+	const QMatrix4x4 qMat(m[0], m[4], m[8], m[12],
+	                      m[1], m[5], m[9], m[13],
+	                      m[2], m[6], m[10], m[14],
+	                      m[3], m[7], m[11], m[15]);
+
+	vao->bind();
+	verticesVBO->bind();
+	auto& pr = *textShaderProgram;
+	pr.bind();
+	reserveVertices(int(textBatchQuads.size()*sizeof(float)));
+	verticesVBO->write(0, textBatchQuads.data(),
+	                      static_cast<int>(textBatchQuads.size() * sizeof(float)));
+	const int stride = 4 * sizeof(GLfloat);
+	pr.setAttributeBuffer(textShaderVars.vertex, GL_FLOAT, 0, 2, stride);
+	pr.enableAttributeArray(textShaderVars.vertex);
+	pr.setAttributeBuffer(textShaderVars.texCoord, GL_FLOAT, 2 * sizeof(GLfloat), 2, stride);
+	pr.enableAttributeArray(textShaderVars.texCoord);
+	pr.setUniformValue(textShaderVars.projectionMatrix, qMat);
+
+	GLuint boundTexture = 0;
+	Vec4f setColor(-1.f, -1.f, -1.f, -1.f);
+	float setHalo = -1.f;
+	for (size_t i = 0; i < textBatchItems.size(); ++i)
+	{
+		const TextBatchItem& item = textBatchItems[i];
+		if (item.texture != boundTexture)
+		{
+			boundTexture = item.texture;
+			glBindTexture(GL_TEXTURE_2D, boundTexture);
+		}
+		if (item.color != setColor)
+		{
+			setColor = item.color;
+			pr.setUniformValue(textShaderVars.textColor, setColor.toQVector());
+		}
+		if (item.halo != setHalo)
+		{
+			setHalo = item.halo;
+			pr.setUniformValue(textShaderVars.haloStrength, setHalo);
+		}
+		glDrawArrays(TriangleStrip, static_cast<GLint>(i) * 4, 4);
+	}
+
+	pr.release();
+	verticesVBO->release();
+	vao->release();
+	setBlending(oldBlending, oldSrc, oldDst);
+	glBindTexture(GL_TEXTURE_2D, oldTex);
+	textBatchQuads.clear();
+	textBatchItems.clear();
+}
+
+void StelPainter::beginTexturedBatch()
+{
+	if (texturedBatchActive)
+		return;
+	texturedBatchActive = true;
+	batchTexture = 0;
+	texturedBatchVertices.clear();
+	texturedBatchItems.clear();
+}
+
+void StelPainter::flushTexturedBatch()
+{
+	if (!texturedBatchActive)
+		return;
+	texturedBatchActive = false;
+	if (texturedBatchItems.empty())
+		return;
+
+	const Mat4f& m = getProjector()->getProjectionMatrix();
+	const QMatrix4x4 qMat(m[0], m[4], m[8], m[12],
+	                      m[1], m[5], m[9], m[13],
+	                      m[2], m[6], m[10], m[14],
+	                      m[3], m[7], m[11], m[15]);
+
+	vao->bind();
+	verticesVBO->bind();
+	auto* pr = texturesShaderProgram;
+	pr->bind();
+	reserveVertices(int(texturedBatchVertices.size()*sizeof(float)));
+	verticesVBO->write(0, texturedBatchVertices.data(),
+	                      static_cast<int>(texturedBatchVertices.size() * sizeof(float)));
+	const int stride = 5 * sizeof(GLfloat);
+	pr->setAttributeBuffer(texturesShaderVars.vertex, GL_FLOAT, 0, 3, stride);
+	pr->enableAttributeArray(texturesShaderVars.vertex);
+	pr->setAttributeBuffer(texturesShaderVars.texCoord, GL_FLOAT, 3 * sizeof(GLfloat), 2, stride);
+	pr->enableAttributeArray(texturesShaderVars.texCoord);
+	pr->setUniformValue(texturesShaderVars.projectionMatrix, qMat);
+
+	GLuint boundTexture = 0;
+	Vec4f setColor(-1.f, -1.f, -1.f, -1.f);
+	for (const TexturedBatchItem& item : texturedBatchItems)
+	{
+		setBlending(item.blend, item.blendSrc, item.blendDst);
+		if (item.texture != boundTexture)
+		{
+			boundTexture = item.texture;
+			glActiveTexture(GL_TEXTURE0);
+			glBindTexture(GL_TEXTURE_2D, boundTexture);
+		}
+		if (item.color != setColor)
+		{
+			setColor = item.color;
+			pr->setUniformValue(texturesShaderVars.texColor, setColor.toQVector());
+		}
+		glDrawArrays(GL_TRIANGLES, item.first, item.count);
+	}
+
+	pr->release();
+	verticesVBO->release();
+	vao->release();
+	texturedBatchVertices.clear();
+	texturedBatchItems.clear();
+}
+
 void StelPainter::drawText(float x, float y, const QString& str, float angleDeg, float xshift, float yshift, bool noGravity)
 {
 	if (prj->gravityLabels && !noGravity)
 	{
 		drawTextGravity180(x, y, str, xshift, yshift);
+		return;
+	}
+
+	StringTexture* tex = getTextTexture(str, currentFont.pixelSize());
+	Q_ASSERT(tex);
+	if (!noGravity)
+		angleDeg += prj->defaultAngleForGravityText;
+	xshift += tex->baselineShift.x();
+	yshift += tex->baselineShift.y();
+
+	float quad[16];
+	static const float vertexBase[] = {0., 0., 1., 0., 0., 1., 1., 1.};
+	if (std::fabs(angleDeg)>1.f*M_PI_180f)
+	{
+		const float cosr = std::cos(angleDeg * M_PI_180f);
+		const float sinr = std::sin(angleDeg * M_PI_180f);
+		for (int i = 0; i < 4; ++i)
+		{
+			quad[i*4+0] = x + (tex->size.width()*vertexBase[i*2]+xshift) * cosr - (tex->size.height()*vertexBase[i*2+1]+yshift) * sinr;
+			quad[i*4+1] = y + (tex->size.width()*vertexBase[i*2]+xshift) * sinr + (tex->size.height()*vertexBase[i*2+1]+yshift) * cosr;
+		}
 	}
 	else
 	{
-		StringTexture* tex = getTextTexture(str, currentFont.pixelSize());
-		Q_ASSERT(tex);
-		if (!noGravity)
-			angleDeg += prj->defaultAngleForGravityText;
-		GLint oldTex = 0;
-		glActiveTexture(GL_TEXTURE0);
-		glGetIntegerv(GL_TEXTURE_BINDING_2D, &oldTex);
-		tex->texture->bind(0);
-		xshift += tex->baselineShift.x();
-		yshift += tex->baselineShift.y();
-
-		static float vertexData[8];
-		// compute the vertex coordinates applying the translation and the rotation
-		static const float vertexBase[] = {0., 0., 1., 0., 0., 1., 1., 1.};
-		if (std::fabs(angleDeg)>1.f*M_PI_180f)
+		for (int i = 0; i < 4; ++i)
 		{
-			const float cosr = std::cos(angleDeg * M_PI_180f);
-			const float sinr = std::sin(angleDeg * M_PI_180f);
-			for (int i = 0; i < 8; i+=2)
-			{
-				vertexData[i]   = x + (tex->size.width()*vertexBase[i]+xshift) * cosr - (tex->size.height()*vertexBase[i+1]+yshift) * sinr;
-				vertexData[i+1] = y + (tex->size.width()*vertexBase[i]+xshift) * sinr + (tex->size.height()*vertexBase[i+1]+yshift) * cosr;
-			}
+			quad[i*4+0] = int(x + tex->size.width()*vertexBase[i*2]+xshift);
+			quad[i*4+1] = int(y + tex->size.height()*vertexBase[i*2+1]+yshift);
 		}
-		else
-		{
-			for (int i = 0; i < 8; i+=2)
-			{
-				vertexData[i]   = int(x + tex->size.width()*vertexBase[i]+xshift);
-				vertexData[i+1] = int(y + tex->size.height()*vertexBase[i+1]+yshift);
-			}
-		}
-
-		float texCoords[8];
-		for (int i=0;i<4;i++)
-		{
-			texCoords[i*2+0] = static_cast<float>(tex->getTexSize().width()) * (i % 2);
-			texCoords[i*2+1] = static_cast<float>(tex->getTexSize().height()) * (1 - i / 2);
-		}
-		setTexCoordPointer(2, GL_FLOAT, texCoords);
-
-		//text drawing requires blending, but we reset GL state afterwards if necessary
-		bool oldBlending = glState.blend;
-		GLenum oldSrc = glState.blendSrc, oldDst = glState.blendDst;
-		setBlending(true);
-		enableClientStates(true, true);
-		setVertexPointer(2, GL_FLOAT, vertexData);
-
-		const Mat4f& m = getProjector()->getProjectionMatrix();
-		const QMatrix4x4 qMat(m[0], m[4], m[8], m[12],
-		                      m[1], m[5], m[9], m[13],
-		                      m[2], m[6], m[10], m[14],
-		                      m[3], m[7], m[11], m[15]);
-
-		vao->bind();
-		verticesVBO->bind();
-		const GLsizeiptr vertexCount = 4;
-
-		auto& pr = *textShaderProgram;
-		pr.bind();
-
-		const auto bufferSize = vertexArray.vertexSizeInBytes()*vertexCount +
-		                        texCoordArray.vertexSizeInBytes()*vertexCount;
-		verticesVBO->allocate(bufferSize);
-		const auto vertexDataSize = vertexArray.vertexSizeInBytes()*vertexCount;
-		verticesVBO->write(0, vertexArray.pointer, vertexDataSize);
-		const auto texCoordDataOffset = vertexDataSize;
-		const auto texCoordDataSize = texCoordArray.vertexSizeInBytes()*vertexCount;
-		verticesVBO->write(texCoordDataOffset, texCoordArray.pointer, texCoordDataSize);
-
-		pr.setAttributeBuffer(textShaderVars.vertex, vertexArray.type, 0, vertexArray.size);
-		pr.enableAttributeArray(textShaderVars.vertex);
-		pr.setUniformValue(textShaderVars.projectionMatrix, qMat);
-		pr.setUniformValue(textShaderVars.textColor, currentColor.toQVector());
-		pr.setUniformValue(textShaderVars.haloStrength, textHaloStrength);
-		pr.setAttributeBuffer(textShaderVars.texCoord, texCoordArray.type,
-		                      texCoordDataOffset, texCoordArray.size);
-		pr.enableAttributeArray(textShaderVars.texCoord);
-
-		glDrawArrays(TriangleStrip, 0, vertexCount);
-
-		verticesVBO->release();
-		vao->release();
-
-		pr.release();
-
-		setBlending(oldBlending, oldSrc, oldDst);
-		enableClientStates(false, false);
-		glBindTexture(GL_TEXTURE_2D, oldTex);
 	}
+	for (int i=0;i<4;i++)
+	{
+		quad[i*4+2] = static_cast<float>(tex->getTexSize().width()) * (i % 2);
+		quad[i*4+3] = static_cast<float>(tex->getTexSize().height()) * (1 - i / 2);
+	}
+
+	if (textBatchActive)
+	{
+		textBatchQuads.insert(textBatchQuads.end(), quad, quad + 16);
+		textBatchItems.push_back({tex->texture->textureId(), currentColor, textHaloStrength});
+		return;
+	}
+
+	GLint oldTex = 0;
+	glActiveTexture(GL_TEXTURE0);
+	glGetIntegerv(GL_TEXTURE_BINDING_2D, &oldTex);
+	tex->texture->bind(0);
+
+	//text drawing requires blending, but we reset GL state afterwards if necessary
+	const bool oldBlending = glState.blend;
+	const GLenum oldSrc = glState.blendSrc, oldDst = glState.blendDst;
+	setBlending(true);
+
+	const Mat4f& m = getProjector()->getProjectionMatrix();
+	const QMatrix4x4 qMat(m[0], m[4], m[8], m[12],
+	                      m[1], m[5], m[9], m[13],
+	                      m[2], m[6], m[10], m[14],
+	                      m[3], m[7], m[11], m[15]);
+
+	vao->bind();
+	verticesVBO->bind();
+	auto& pr = *textShaderProgram;
+	pr.bind();
+	reserveVertices(int(sizeof quad));
+	verticesVBO->write(0, quad, sizeof quad);
+	const int stride = 4 * sizeof(GLfloat);
+	pr.setAttributeBuffer(textShaderVars.vertex, GL_FLOAT, 0, 2, stride);
+	pr.enableAttributeArray(textShaderVars.vertex);
+	pr.setAttributeBuffer(textShaderVars.texCoord, GL_FLOAT, 2 * sizeof(GLfloat), 2, stride);
+	pr.enableAttributeArray(textShaderVars.texCoord);
+	pr.setUniformValue(textShaderVars.projectionMatrix, qMat);
+	pr.setUniformValue(textShaderVars.textColor, currentColor.toQVector());
+	pr.setUniformValue(textShaderVars.haloStrength, textHaloStrength);
+
+	glDrawArrays(TriangleStrip, 0, 4);
+
+	pr.release();
+	verticesVBO->release();
+	vao->release();
+	setBlending(oldBlending, oldSrc, oldDst);
+	glBindTexture(GL_TEXTURE_2D, oldTex);
 }
 
-// Recursive method cutting a small circle in small segments
-inline void fIter(const StelProjectorP& prj, const Vec3d& p1, const Vec3d& p2, Vec3d& win1, Vec3d& win2, std::list<Vec3d>& vertexList, const std::list<Vec3d>::const_iterator& iter, double radius, const Vec3d& center, int nbI=0, bool checkCrossDiscontinuity=true)
+inline void fIter(const StelProjectorP& prj, const Vec3d& p1, const Vec3d& p2, Vec3d& win1, Vec3d& win2, std::vector<Vec3d>& out, double radius, const Vec3d& center, float maxSegmentSq, int nbI=0, bool checkCrossDiscontinuity=true)
 {
 	const bool crossDiscontinuity = checkCrossDiscontinuity && prj->intersectViewportDiscontinuity(p1+center, p2+center);
 	if (crossDiscontinuity && nbI>=10)
 	{
 		win1[2]=-2.;
 		win2[2]=-2.;
-		vertexList.insert(iter, win1);
-		vertexList.insert(iter, win2);
+		out.push_back(win1);
+		out.push_back(win2);
 		return;
 	}
 
@@ -936,12 +1099,14 @@ inline void fIter(const StelProjectorP& prj, const Vec3d& p1, const Vec3d& p2, V
 
 	const float dist = std::sqrt((v10*v10+v11*v11)*(v20*v20+v21*v21));
 	const float cosAngle = (v10*v20+v11*v21)/dist;
-	if ((cosAngle>-0.999f || dist>50*50 || crossDiscontinuity) && nbI<10)
+	if ((cosAngle>-0.999f || dist>maxSegmentSq || crossDiscontinuity) && nbI<10)
 	{
 		// Use the 3rd component of the vector to store whether the vertex is valid
 		win3[2]= isValidVertex ? 1.0 : -1.;
-		fIter(prj, p1, newVertex, win1, win3, vertexList, vertexList.insert(iter, win3), radius, center, nbI+1, crossDiscontinuity || dist>50*50);
-		fIter(prj, newVertex, p2, win3, win2, vertexList, iter, radius, center, nbI+1, crossDiscontinuity || dist>50*50 );
+		const Vec3d midpoint = win3;
+		fIter(prj, p1, newVertex, win1, win3, out, radius, center, maxSegmentSq, nbI+1, crossDiscontinuity || dist>maxSegmentSq);
+		out.push_back(midpoint);
+		fIter(prj, newVertex, p2, win3, win2, out, radius, center, maxSegmentSq, nbI+1, crossDiscontinuity || dist>maxSegmentSq);
 	}
 }
 
@@ -996,40 +1161,43 @@ void StelPainter::drawSmallCircleArc(const Vec3d& start, const Vec3d& stop, cons
 {
 	Q_ASSERT(smallCircleVertexArray.empty());
 
-	std::list<Vec3d> tessArc;	// Contains the list of projected points from the tesselated arc. (QLinkedList no longer available in Qt6.)
+	static std::vector<Vec3d> tessArc;
+	tessArc.clear();
 	Vec3d win1, win2;
 	win1[2] = prj->project(start, win1) ? 1.0 : -1.;
 	win2[2] = prj->project(stop, win2) ? 1.0 : -1.;
 	tessArc.push_back(win1);
 
+	const float maxSegment = 50.f * static_cast<float>(prj->getDevicePixelsPerPixel());
+	const float maxSegmentSq = maxSegment*maxSegment;
 
 	if (rotCenter.normSquared()<1e-11)
 	{
 		// Great circle
 		// Perform the tesselation of the arc in small segments in a way so that the lines look smooth
-		fIter(prj, start, stop, win1, win2, tessArc, tessArc.insert(tessArc.end(), win2), 1, rotCenter);
+		fIter(prj, start, stop, win1, win2, tessArc, 1, rotCenter, maxSegmentSq);
 	}
 	else
 	{
 		Vec3d tmp = (rotCenter^start)/rotCenter.norm();
 		const double radius = fabs(tmp.norm());
 		// Perform the tesselation of the arc in small segments in a way so that the lines look smooth
-		fIter(prj, start-rotCenter, stop-rotCenter, win1, win2, tessArc, tessArc.insert(tessArc.end(), win2), radius, rotCenter);
+		fIter(prj, start-rotCenter, stop-rotCenter, win1, win2, tessArc, radius, rotCenter, maxSegmentSq);
 	}
 
+	tessArc.push_back(win2);
+
 	// And draw.
-	std::list<Vec3d>::const_iterator i = tessArc.cbegin();
-	//while (i<tessArc.cend())
-	while (std::next(i, 1) != tessArc.cend())
+	for (size_t idx = 0; idx + 1 < tessArc.size(); ++idx)
 	{
-		const Vec3d& p1 = *i;
-		const Vec3d& p2 = *(++i);
+		const Vec3d& p1 = tessArc[idx];
+		const Vec3d& p2 = tessArc[idx+1];
 		const bool p1InViewport = prj->checkInViewport(p1);
 		const bool p2InViewport = prj->checkInViewport(p2);
 		if ((p1[2]>0 && p1InViewport) || (p2[2]>0 && p2InViewport))
 		{
 			smallCircleVertexArray.append(p1.toVec3f()); //Vec3f(static_cast<float>(p1[0]), static_cast<float>(p1[1]), static_cast<float>(p1[2])));
-			if (std::next(i,1)==tessArc.cend())
+			if (idx+2 == tessArc.size())
 			{
 				smallCircleVertexArray.append(p2.toVec3f()); //Vec3f(static_cast<float>(p2[0]), static_cast<float>(p2[1]), static_cast<float>(p2[2])));
 				drawSmallCircleVertexArray();
@@ -1701,13 +1869,14 @@ void StelPainter::drawStelVertexArray(const StelVertexArray& arr, bool checkDisc
 		return;
 	}
 
-	QVector<Vec3d> aberredVertex(arr.vertex.size());
+	QVector<Vec3d> aberredVertex;
 	if (aberration==Vec3d(0.))
 	{
 		setVertexPointer(3, GL_DOUBLE, arr.vertex.constData());
 	}
 	else
 	{
+		aberredVertex.resize(arr.vertex.size());
 		for (int i=0; i<arr.vertex.size(); i++)
 		{
 			Q_ASSERT(qFuzzyCompare(arr.vertex.at(i).normSquared(), 1.0));
@@ -1821,7 +1990,7 @@ void StelPainter::drawCircle(float x, float y, float r)
 	const float d = (v_center-center).norm();
 	if (d > r+R || d < r-R)
 		return;
-	const int segments = 180;
+	const int segments = std::clamp(static_cast<int>(std::lround(3.f*r)), 12, 180);
 	const float phi = 2.0f*M_PIf/segments;
 	const float cp = std::cos(phi);
 	const float sp = std::sin(phi);
@@ -1832,13 +2001,13 @@ void StelPainter::drawCircle(float x, float y, float r)
 	for (int i=0;i<segments;i++)
 	{
 		circleVertexArray[i].set(x+dx,y+dy,0);
-		r = dx*cp-dy*sp;
+		const float nx = dx*cp-dy*sp;
 		dy = dx*sp+dy*cp;
-		dx = r;
+		dx = nx;
 	}
 	enableClientStates(true);
 	setVertexPointer(3, GL_FLOAT, circleVertexArray.data());
-	drawFromArray(LineLoop, 180, 0, false);
+	drawFromArray(LineLoop, segments, 0, false);
 	enableClientStates(false);
 }
 
@@ -1852,8 +2021,9 @@ void StelPainter::drawEllipse(double x, double y, double rX, double rY, double a
 
 	//const float radiusY = 0.35 * size;
 	//const float radiusX = aspectRatio * radiusY;
-	const int numPoints = std::lround(std::clamp(qMax(rX, rY)/3, 32., 1024.));
-	std::vector<float> vertexData;
+	const int numPoints = std::lround(std::clamp(3.*qMax(rX, rY), 12., 1024.));
+	static std::vector<float> vertexData;
+	vertexData.clear();
 	vertexData.reserve(numPoints*2);
 	const float*const cossin = StelUtils::ComputeCosSinTheta(numPoints);
 	const auto cosa = std::cos(angle);
@@ -1896,10 +2066,8 @@ void StelPainter::drawSprite2dMode(float x, float y, float radius)
 
 void StelPainter::drawSprite2dMode(const std::vector<Vec2f>& points, float radius)
 {
-	std::vector<Vec2f> texCoordData;
-	// Each sprite has 2 triangles, each with separate 3 vertices
-	texCoordData.reserve(points.size() * (2*3));
-	for (size_t i = 0; i < points.size(); ++i)
+	static std::vector<Vec2f> texCoordData;
+	while (texCoordData.size() < points.size() * (2*3))
 	{
 		texCoordData.emplace_back(0.f, 0.f);
 		texCoordData.emplace_back(1.f, 0.f);
@@ -1913,7 +2081,8 @@ void StelPainter::drawSprite2dMode(const std::vector<Vec2f>& points, float radiu
 	// Takes into account device pixel density and global scale ratio, as we are drawing 2D stuff.
 	radius *= static_cast<float>(prj->getDevicePixelsPerPixel());
 
-	std::vector<Vec2f> vertexData;
+	static std::vector<Vec2f> vertexData;
+	vertexData.clear();
 	// Each sprite has 2 triangles, each with separate 3 vertices
 	vertexData.reserve(points.size() * (2*3));
 	for (size_t i = 0; i < points.size(); ++i)
@@ -2738,25 +2907,77 @@ void StelPainter::enableClientStates(bool vertex, bool texture, bool color, bool
 	normalArray.enabled = normal;
 }
 
+Vec2f StelPainter::viewportSizeForWideLines()
+{
+	if (!viewportSizeCached)
+	{
+		GLint viewport[4] = {};
+		glGetIntegerv(GL_VIEWPORT, viewport);
+		cachedViewportSize = Vec2f(viewport[2], viewport[3]);
+		viewportSizeCached = true;
+	}
+	return cachedViewportSize;
+}
+
+void StelPainter::beginWideLineBatch()
+{
+	wideLineBatchActive = true;
+	wideLineBatchVertices.clear();
+	wideLineBatchColors.clear();
+}
+
+void StelPainter::flushWideLineBatch()
+{
+	wideLineBatchActive = false;
+	if (wideLineBatchVertices.empty())
+		return;
+
+	vao->bind();
+	verticesVBO->bind();
+	const auto vertexBytes = GLsizeiptr(wideLineBatchVertices.size() * sizeof(Vec3f));
+	const auto colorBytes = GLsizeiptr(wideLineBatchColors.size() * sizeof(PackedColor));
+	reserveVertices(int(vertexBytes + colorBytes));
+	verticesVBO->write(0, wideLineBatchVertices.data(), vertexBytes);
+	verticesVBO->write(vertexBytes, wideLineBatchColors.data(), colorBytes);
+
+	auto* pr = colorShaderProgram;
+	pr->bind();
+	pr->setAttributeBuffer(colorShaderVars.vertex, GL_FLOAT, 0, 3);
+	pr->enableAttributeArray(colorShaderVars.vertex);
+	pr->enableAttributeArray(colorShaderVars.color);
+	glVertexAttribPointer(colorShaderVars.color, 4, GL_UNSIGNED_BYTE, GL_TRUE, 0,
+	                      reinterpret_cast<const void*>(vertexBytes));
+	pr->setUniformValue(colorShaderVars.projectionMatrix, QMatrix4x4{});
+
+	glDrawArrays(GL_TRIANGLES, 0, GLsizei(wideLineBatchVertices.size()));
+
+	pr->disableAttributeArray(colorShaderVars.color);
+	pr->disableAttributeArray(colorShaderVars.vertex);
+	pr->release();
+	verticesVBO->release();
+	vao->release();
+
+	wideLineBatchVertices.clear();
+	wideLineBatchColors.clear();
+}
+
 void StelPainter::drawFixedColorWideLinesAsQuads(const ArrayDesc& vertexArray, int count, int offset,
 													 const Mat4f& projMat, const DrawingMode mode)
 {
 	if(count < 2) return;
 
-	GLint viewport[4] = {};
-	glGetIntegerv(GL_VIEWPORT, viewport);
-	const auto viewportSize = Vec2f(viewport[2], viewport[3]);
+	const auto viewportSize = viewportSizeForWideLines();
 
-	std::vector<Vec4f> newVertices;
-	if(mode == LineStrip)
-		newVertices.reserve((count-1)*6);
-	else
-		newVertices.reserve(count*6);
-	newVertices.resize((count-1)*6);
-	Q_ASSERT(vertexArray.type == GL_FLOAT);
-	const auto lineVertData = static_cast<const float*>(vertexArray.pointer) + vertexArray.size*offset;
+	const bool batching = wideLineBatchActive;
+	std::vector<Vec3f> localVertices;
+	std::vector<Vec3f>& newVertices = batching ? wideLineBatchVertices : localVertices;
+	const size_t base = newVertices.size();
 	const int step = mode==Lines ? 2 : 1;
 	const bool connected = mode!=Lines;
+	newVertices.reserve(base + size_t(count)*6);
+	newVertices.resize(base + size_t(connected ? count-1 : count/2)*6);
+	Q_ASSERT(vertexArray.type == GL_FLOAT);
+	const auto lineVertData = static_cast<const float*>(vertexArray.pointer) + vertexArray.size*offset;
 	Vec2f prevV1aNDC, prevV1bNDC, prevLineDirNDC;
 	for(int n = 0; n < count-1; n += step)
 	{
@@ -2830,65 +3051,76 @@ void StelPainter::drawFixedColorWideLinesAsQuads(const ArrayDesc& vertexArray, i
 			if(processLineSide(prevV1aNDC, v0aNDC))
 			{
 				// Extrapolate the previous line end forward to the intersection
-				newVertices[6*(n-1)+2][0] = v0aNDC[0]*clip0[3];
-				newVertices[6*(n-1)+2][1] = v0aNDC[1]*clip0[3];
-				newVertices[6*(n-1)+3][0] = v0aNDC[0]*clip0[3];
-				newVertices[6*(n-1)+3][1] = v0aNDC[1]*clip0[3];
+				newVertices[base+6*(n-1)+2][0] = v0aNDC[0];
+				newVertices[base+6*(n-1)+2][1] = v0aNDC[1];
+				newVertices[base+6*(n-1)+3][0] = v0aNDC[0];
+				newVertices[base+6*(n-1)+3][1] = v0aNDC[1];
 			}
 
 			// Process the second side of the line (we call it B)
 			if(processLineSide(prevV1bNDC, v0bNDC))
 			{
 				// Extrapolate the previous line end forward to the intersection
-				newVertices[6*(n-1)+5][0] = v0bNDC[0]*clip0[3];
-				newVertices[6*(n-1)+5][1] = v0bNDC[1]*clip0[3];
+				newVertices[base+6*(n-1)+5][0] = v0bNDC[0];
+				newVertices[base+6*(n-1)+5][1] = v0bNDC[1];
 			}
 		}
 		prevV1aNDC = v1aNDC;
 		prevV1bNDC = v1bNDC;
 		prevLineDirNDC = lineDirNDC;
 
-		// 2D clip space coordinates of the new pairs (a,b) of vertices for each input vertex (0,1)
-		const Vec2f v0a_xy = v0aNDC*clip0[3];
-		const Vec2f v0b_xy = v0bNDC*clip0[3];
-		const Vec2f v1a_xy = v1aNDC*clip1[3];
-		const Vec2f v1b_xy = v1bNDC*clip1[3];
+		const auto v0a = Vec3f(v0aNDC[0], v0aNDC[1], ndc0[2]);
+		const auto v0b = Vec3f(v0bNDC[0], v0bNDC[1], ndc0[2]);
+		const auto v1a = Vec3f(v1aNDC[0], v1aNDC[1], ndc1[2]);
+		const auto v1b = Vec3f(v1bNDC[0], v1bNDC[1], ndc1[2]);
 
-		// Final 4D coordinates of the new vertices
-		const auto v0a = Vec4f(v0a_xy[0], v0a_xy[1], clip0[2], clip0[3]);
-		const auto v0b = Vec4f(v0b_xy[0], v0b_xy[1], clip0[2], clip0[3]);
-		const auto v1a = Vec4f(v1a_xy[0], v1a_xy[1], clip1[2], clip1[3]);
-		const auto v1b = Vec4f(v1b_xy[0], v1b_xy[1], clip1[2], clip1[3]);
+		const size_t segment = base + 6*size_t(connected ? n : n/2);
+		newVertices[segment+0] = v0a;
+		newVertices[segment+1] = v0b;
+		newVertices[segment+2] = v1a;
 
-		newVertices[6*n+0] = v0a;
-		newVertices[6*n+1] = v0b;
-		newVertices[6*n+2] = v1a;
-
-		newVertices[6*n+3] = v1a;
-		newVertices[6*n+4] = v0b;
-		newVertices[6*n+5] = v1b;
+		newVertices[segment+3] = v1a;
+		newVertices[segment+4] = v0b;
+		newVertices[segment+5] = v1b;
 	}
 	if(mode == LineLoop)
 	{
 		// Connect the ends
 		const auto lastN = newVertices.size()-1;
-		Q_ASSERT(lastN >= 2);
-		newVertices.push_back(newVertices[lastN-2]);
-		newVertices.push_back(newVertices[lastN]);
-		newVertices.push_back(newVertices[0]);
+		Q_ASSERT(lastN >= base+2);
+		const Vec3f a = newVertices[lastN-2];
+		const Vec3f b = newVertices[lastN];
+		const Vec3f c = newVertices[base];
+		const Vec3f d = newVertices[base+1];
+		newVertices.push_back(a);
+		newVertices.push_back(b);
+		newVertices.push_back(c);
 
-		newVertices.push_back(newVertices[0]);
-		newVertices.push_back(newVertices[lastN]);
-		newVertices.push_back(newVertices[1]);
+		newVertices.push_back(c);
+		newVertices.push_back(b);
+		newVertices.push_back(d);
 	}
+
+	if (batching)
+	{
+		const PackedColor packed = {{
+			static_cast<GLubyte>(qBound(0.f, currentColor[0], 1.f)*255.f + 0.5f),
+			static_cast<GLubyte>(qBound(0.f, currentColor[1], 1.f)*255.f + 0.5f),
+			static_cast<GLubyte>(qBound(0.f, currentColor[2], 1.f)*255.f + 0.5f),
+			static_cast<GLubyte>(qBound(0.f, currentColor[3], 1.f)*255.f + 0.5f)}};
+		wideLineBatchColors.resize(newVertices.size(), packed);
+		return;
+	}
+
 	vao->bind();
 	verticesVBO->bind();
 
-	verticesVBO->allocate(newVertices.data(), newVertices.size() * sizeof newVertices[0]);
+	reserveVertices(int(newVertices.size() * sizeof newVertices[0]));
+	verticesVBO->write(0, newVertices.data(), int(newVertices.size() * sizeof newVertices[0]));
 
 	const auto& pr = basicShaderProgram;
 	pr->bind();
-	pr->setAttributeBuffer(basicShaderVars.vertex, vertexArray.type, 0, 4);
+	pr->setAttributeBuffer(basicShaderVars.vertex, GL_FLOAT, 0, 3);
 	pr->enableAttributeArray(basicShaderVars.vertex);
 	pr->setUniformValue(basicShaderVars.projectionMatrix, QMatrix4x4{});
 	pr->setUniformValue(basicShaderVars.color, currentColor.toQVector());
@@ -2935,7 +3167,45 @@ void StelPainter::drawFromArray(DrawingMode mode, int count, int offset, bool do
 	const bool lineMode = mode==LineStrip || mode==LineLoop || mode==Lines;
 	const bool isCoreProfile = StelMainView::getInstance().getGLInformation().isCoreProfile;
 	const bool isGLES = StelMainView::getInstance().getGLInformation().isGLES;
-	const bool wideLineMode = lineMode && glState.lineWidth>1;
+	if (texturedBatchActive && !indices && batchTexture!=0
+	    && (mode==Triangles || (mode==TriangleStrip && count==4))
+	    && texCoordArray.enabled && !colorArray.enabled && !normalArray.enabled
+	    && projectedVertexArray.type == GL_FLOAT
+	    && (projectedVertexArray.size == 2 || projectedVertexArray.size == 3)
+	    && texCoordArray.type == GL_FLOAT && texCoordArray.size == 2)
+	{
+		const int stride = projectedVertexArray.size;
+		const float* pos = static_cast<const float*>(projectedVertexArray.pointer) + stride*offset;
+		const float* uv = static_cast<const float*>(texCoordArray.pointer) + 2*offset;
+		const int first = static_cast<int>(texturedBatchVertices.size() / 5);
+		const auto append = [&](int v)
+		{
+			texturedBatchVertices.push_back(pos[stride*v+0]);
+			texturedBatchVertices.push_back(pos[stride*v+1]);
+			texturedBatchVertices.push_back(stride==3 ? pos[stride*v+2] : 0.f);
+			texturedBatchVertices.push_back(uv[2*v+0]);
+			texturedBatchVertices.push_back(uv[2*v+1]);
+		};
+		int emitted = 0;
+		if (mode==TriangleStrip)
+		{
+			for (int v : {0, 1, 2, 2, 1, 3})
+				append(v);
+			emitted = 6;
+		}
+		else
+		{
+			texturedBatchVertices.reserve(texturedBatchVertices.size() + size_t(count)*5);
+			for (int v = 0; v < count; ++v)
+				append(v);
+			emitted = count;
+		}
+		texturedBatchItems.push_back({batchTexture, currentColor, first, emitted,
+		                              glState.blend, glState.blendSrc, glState.blendDst});
+		return;
+	}
+
+	const bool wideLineMode = lineMode && (glState.lineWidth>1 || wideLineBatchActive);
 	if(wideLineMode && (isCoreProfile || isGLES) && projectedVertexArray.type == GL_FLOAT)
 	{
 		const bool fixedColor = !texCoordArray.enabled && !colorArray.enabled && !normalArray.enabled;
@@ -2956,7 +3226,8 @@ void StelPainter::drawFromArray(DrawingMode mode, int count, int offset, bool do
 	if(indices)
 	{
 		indicesVBO->bind();
-		indicesVBO->allocate(indices+offset, count * sizeof indices[0]);
+		reserveIndices(int(count * sizeof indices[0]));
+		indicesVBO->write(0, indices+offset, int(count * sizeof indices[0]));
 		numberOfVerticesToCopy = 1 + *std::max_element(indices + offset, indices + offset + count);
 	}
 
@@ -2969,7 +3240,8 @@ void StelPainter::drawFromArray(DrawingMode mode, int count, int offset, bool do
 		pr = coreProfileWideLineMode ? wideLineShaderProgram : basicShaderProgram;
 		pr->bind();
 
-		verticesVBO->allocate(projectedVertexArray.pointer, projectedVertexArray.vertexSizeInBytes()*numberOfVerticesToCopy);
+		reserveVertices(projectedVertexArray.vertexSizeInBytes()*numberOfVerticesToCopy);
+		verticesVBO->write(0, projectedVertexArray.pointer, projectedVertexArray.vertexSizeInBytes()*numberOfVerticesToCopy);
 
 #ifdef GL_MULTISAMPLE
 		if(multisamplingEnabled && glState.lineSmooth)
@@ -3003,7 +3275,7 @@ void StelPainter::drawFromArray(DrawingMode mode, int count, int offset, bool do
 
 		const auto bufferSize = projectedVertexArray.vertexSizeInBytes()*numberOfVerticesToCopy +
 								texCoordArray.vertexSizeInBytes()*numberOfVerticesToCopy;
-		verticesVBO->allocate(bufferSize);
+		reserveVertices(bufferSize);
 		const auto vertexDataSize = projectedVertexArray.vertexSizeInBytes()*numberOfVerticesToCopy;
 		verticesVBO->write(0, projectedVertexArray.pointer, vertexDataSize);
 		const auto texCoordDataOffset = vertexDataSize;
@@ -3036,7 +3308,7 @@ void StelPainter::drawFromArray(DrawingMode mode, int count, int offset, bool do
 		const auto bufferSize = projectedVertexArray.vertexSizeInBytes()*numberOfVerticesToCopy +
 								texCoordArray.vertexSizeInBytes()*numberOfVerticesToCopy +
 								colorArray.vertexSizeInBytes()*numberOfVerticesToCopy;
-		verticesVBO->allocate(bufferSize);
+		reserveVertices(bufferSize);
 		const auto vertexDataSize = projectedVertexArray.vertexSizeInBytes()*numberOfVerticesToCopy;
 		verticesVBO->write(0, projectedVertexArray.pointer, vertexDataSize);
 		const auto texCoordDataOffset = vertexDataSize;
@@ -3070,7 +3342,7 @@ void StelPainter::drawFromArray(DrawingMode mode, int count, int offset, bool do
 
 		const auto bufferSize = projectedVertexArray.vertexSizeInBytes()*numberOfVerticesToCopy +
 								colorArray.vertexSizeInBytes()*numberOfVerticesToCopy;
-		verticesVBO->allocate(bufferSize);
+		reserveVertices(bufferSize);
 		const auto vertexDataSize = projectedVertexArray.vertexSizeInBytes()*numberOfVerticesToCopy;
 		verticesVBO->write(0, projectedVertexArray.pointer, vertexDataSize);
 		const auto colorDataOffset = vertexDataSize;

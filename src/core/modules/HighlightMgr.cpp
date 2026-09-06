@@ -67,6 +67,8 @@ void HighlightMgr::deinit()
 
 void HighlightMgr::draw(StelCore* core)
 {
+	if (highlightList.isEmpty())
+		return;
 	StelProjectorP prj = core->getProjection(StelCore::FrameJ2000);
 	StelPainter painter(prj);
 

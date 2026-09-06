@@ -20,6 +20,7 @@
 #include "Constellation.hpp"
 #include "ConstellationMgr.hpp"
 #include "StelApp.hpp"
+#include <QSettings>
 #include "StelSRGB.hpp"
 #include "StelCore.hpp"
 #include "StelFileMgr.hpp"
@@ -211,6 +212,24 @@ void Planet::PlanetOBJModel::performScaling(double scale)
 	needsRescale = false;
 }
 
+namespace
+{
+int planetTextureMaxEdge()
+{
+	static const int maxEdge = []
+	{
+		QSettings* conf = StelApp::getInstance().getSettings();
+#if defined(Q_OS_ANDROID)
+		const int fallback = 2048;
+#else
+		const int fallback = 0;
+#endif
+		return qMax(0, conf ? conf->value("astro/planet_texture_max_edge", fallback).toInt() : fallback);
+	}();
+	return maxEdge;
+}
+}
+
 Planet::Planet(const QString& englishName,
                double radius,
                double oblateness,
@@ -295,7 +314,7 @@ Planet::Planet(const QString& englishName,
 		QString texMapFile = StelFileMgr::findFile("textures/"+texMapName, StelFileMgr::File);
 		if (!texMapFile.isEmpty())
 		{
-			texMap = texMan.createTextureThread(texMapFile, StelTexture::StelTextureParams(true, GL_LINEAR, GL_REPEAT), false);
+			texMap = texMan.createTextureThread(texMapFile, StelTexture::StelTextureParams(true, GL_LINEAR, GL_REPEAT, false, 1, planetTextureMaxEdge()));
 			texMapFileOrig = texMapFile;
 		}
 		else
@@ -309,7 +328,7 @@ Planet::Planet(const QString& englishName,
 		QString normalMapFile = StelFileMgr::findFile("textures/"+normalMapName, StelFileMgr::File);
 		if (!normalMapFile.isEmpty())
 		{
-			normalMap = texMan.createTextureThread(normalMapFile, StelTexture::StelTextureParams(true, GL_LINEAR, GL_REPEAT), false);
+			normalMap = texMan.createTextureThread(normalMapFile, StelTexture::StelTextureParams(true, GL_LINEAR, GL_REPEAT, false, 1, planetTextureMaxEdge()));
 			normalMapFileOrig = normalMapFile;
 		}
 	}
@@ -319,7 +338,7 @@ Planet::Planet(const QString& englishName,
 		QString horizonMapFile = StelFileMgr::findFile("textures/"+horizonMapName, StelFileMgr::File);
 		if (!horizonMapFile.isEmpty())
 		{
-			horizonMap = texMan.createTextureThread(horizonMapFile, StelTexture::StelTextureParams(true, GL_LINEAR, GL_REPEAT), false);
+			horizonMap = texMan.createTextureThread(horizonMapFile, StelTexture::StelTextureParams(true, GL_LINEAR, GL_REPEAT, false, 1, planetTextureMaxEdge()));
 			horizonMapFileOrig = horizonMapFile;
 		}
 	}
@@ -357,6 +376,7 @@ Planet::~Planet()
 {
 	delete rings;
 	delete objModel;
+	delete[] orbit;
 
 	if(const auto ctx = QOpenGLContext::currentContext())
 	{
@@ -385,14 +405,14 @@ void Planet::resetTextures()
 	auto& texMan = StelApp::getInstance().getTextureManager();
 	// restore texture
 	if (!texMapFileOrig.isEmpty())
-		texMap = texMan.createTextureThread(texMapFileOrig, StelTexture::StelTextureParams(true, GL_LINEAR, GL_REPEAT));
+		texMap = texMan.createTextureThread(texMapFileOrig, StelTexture::StelTextureParams(true, GL_LINEAR, GL_REPEAT, false, 1, planetTextureMaxEdge()));
 
 	// restore normal map
 	if (!normalMapFileOrig.isEmpty())
-		normalMap = texMan.createTextureThread(normalMapFileOrig, StelTexture::StelTextureParams(true, GL_LINEAR, GL_REPEAT));
+		normalMap = texMan.createTextureThread(normalMapFileOrig, StelTexture::StelTextureParams(true, GL_LINEAR, GL_REPEAT, false, 1, planetTextureMaxEdge()));
 
 	if (!horizonMapFileOrig.isEmpty())
-		horizonMap = texMan.createTextureThread(horizonMapFileOrig, StelTexture::StelTextureParams(true, GL_LINEAR, GL_REPEAT));
+		horizonMap = texMan.createTextureThread(horizonMapFileOrig, StelTexture::StelTextureParams(true, GL_LINEAR, GL_REPEAT, false, 1, planetTextureMaxEdge()));
 }
 
 void Planet::replaceTexture(const QString &texName)
@@ -402,7 +422,7 @@ void Planet::replaceTexture(const QString &texName)
 		auto& texMan = StelApp::getInstance().getTextureManager();
 		QString texMapFile = StelFileMgr::findFile("scripts/" + texName, StelFileMgr::File);
 		if (!texMapFile.isEmpty())
-			texMap = texMan.createTextureThread(texMapFile, StelTexture::StelTextureParams(true, GL_LINEAR, GL_REPEAT));
+			texMap = texMan.createTextureThread(texMapFile, StelTexture::StelTextureParams(true, GL_LINEAR, GL_REPEAT, false, 1, planetTextureMaxEdge()));
 		else
 			qWarning()<<"Cannot resolve path to texture file"<<texName<<"of object"<<englishName;
 	}
@@ -6016,6 +6036,8 @@ Vec3f Planet::getCurrentOrbitColor() const
 
 void Planet::computeOrbit()
 {
+	if (!orbit)
+		orbit = new Vec3d[ORBIT_SEGMENTS+1];
 	double dateJDE = lastJDE;
 	// For open Kepler orbits, compute only the static segment around epoch which was defined by orbit_good!
 	KeplerOrbit *keplerOrbit=static_cast<KeplerOrbit*>(orbitPtr);
@@ -6070,6 +6092,8 @@ void Planet::drawOrbit(const StelCore* core)
 		if (!hasValidPositionalData(lastJDE, PositionQuality::OrbitPlotting))
 			return;
 	}
+	if (!orbit)
+		orbit = new Vec3d[ORBIT_SEGMENTS+1];
 	bool fromMoonPerspective = false;
 	if (core->getCurrentPlanet()->pType == isMoon || core->getCurrentPlanet()->pType == isObserver)  // if I am a moon or observer of a planet
 	{

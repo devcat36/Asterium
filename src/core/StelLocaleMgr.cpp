@@ -74,13 +74,9 @@ void StelLocaleMgr::setAppLanguage(const QString& newAppLanguageName, bool refre
 	skyTranslator.reset(new StelSkyTranslator(newAppLanguageName));
 	qInfo().noquote() << "Sky language:" << skyTranslator->getTrueLocaleName();
 
-	// Update the translator with new locale name
-	planetaryFeaturesTranslator.reset(new StelTranslator("stellarium-planetary-features", newAppLanguageName));
-	qInfo().noquote() << "Planetary features language:" << planetaryFeaturesTranslator->getTrueLocaleName();
-
-	// Update the translator with new locale name
-	scriptsTranslator.reset(new StelTranslator("stellarium-scripts", newAppLanguageName));
-	qInfo().noquote() << "Scripts language:" << scriptsTranslator->getTrueLocaleName();
+	deferredTranslatorLanguage = newAppLanguageName;
+	planetaryFeaturesTranslator.reset();
+	scriptsTranslator.reset();
 
 	// Update the translator with new locale name
 	skyCultureDescriptionsTranslator.reset(new StelTranslator("stellarium-skycultures-descriptions", newAppLanguageName));
@@ -117,6 +113,8 @@ const StelTranslator& StelLocaleMgr::getSkyTranslator() const
 
 const StelTranslator& StelLocaleMgr::getPlanetaryFeaturesTranslator() const
 {
+	if (!planetaryFeaturesTranslator)
+		planetaryFeaturesTranslator.reset(new StelTranslator("stellarium-planetary-features", deferredTranslatorLanguage));
 	return *planetaryFeaturesTranslator;
 }
 
@@ -127,6 +125,8 @@ const StelTranslator &StelLocaleMgr::getAppStelTranslator() const
 
 const StelTranslator& StelLocaleMgr::getScriptsTranslator() const
 {
+	if (!scriptsTranslator)
+		scriptsTranslator.reset(new StelTranslator("stellarium-scripts", deferredTranslatorLanguage));
 	return *scriptsTranslator;
 }
 

@@ -366,6 +366,9 @@ void main(void)
 	if (c[1]<0) c[1]=0;
 	if (c[2]<0) c[2]=0;
 
+	if (qMax(c[0], qMax(c[1], c[2])) < 1.f/512.f)
+		return;
+
 	renderProgram->bind();
 
 	renderProgram->setUniformValue(shaderVars.extinctionEnabled, drawer->getFlagHasAtmosphere() && extinction.getExtinctionCoefficient()>=0.01f);

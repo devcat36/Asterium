@@ -932,9 +932,10 @@ void StelMainView::init()
 	glInfo.vendor = QString(reinterpret_cast<const char*>(glInfo.functions->glGetString(GL_VENDOR)));
 	glInfo.renderer = QString(reinterpret_cast<const char*>(glInfo.functions->glGetString(GL_RENDERER)));
 	const auto format = glInfo.mainContext->format();
-	glInfo.supportsLuminanceTextures = format.profile() == QSurfaceFormat::CompatibilityProfile ||
-	                                   format.majorVersion() < 3;
 	glInfo.isGLES = format.renderableType()==QSurfaceFormat::OpenGLES;
+	glInfo.supportsLuminanceTextures = glInfo.isGLES ||
+	                                   format.profile() == QSurfaceFormat::CompatibilityProfile ||
+	                                   format.majorVersion() < 3;
 	glInfo.majorVersion = format.majorVersion();
 	qInfo().nospace() << "Luminance textures are " << (glInfo.supportsLuminanceTextures ? "" : "not ") << "supported";
 	glInfo.isCoreProfile = format.profile() == QSurfaceFormat::CoreProfile;
@@ -948,6 +949,8 @@ void StelMainView::init()
 	// And we do need to check that high-graphics functions are available, since GL3.0 is not sufficient.
 	glInfo.isHighGraphicsMode = glInfo.majorVersion >= 3 && !!StelOpenGL::highGraphicsFunctions();
 	if (qApp->property("onetime_force_low_graphics").toBool())
+		glInfo.isHighGraphicsMode = false;
+	if (!configuration->value("video/high_graphics_mode", true).toBool())
 		glInfo.isHighGraphicsMode = false;
         #endif
 	qInfo() << "Running in" << (glInfo.isHighGraphicsMode ? "High" : "Low") << "Graphics Mode";
@@ -1664,6 +1667,8 @@ void StelMainView::contextDestroyed()
 #if defined(Q_OS_ANDROID)
 void StelMainView::endPinch()
 {
+	if (pinchActive && StelApp::getInstance().getCore()->getMovementMgr())
+		StelApp::getInstance().getCore()->getMovementMgr()->releasePinch();
 	pinchActive = false;
 	pinchStartDistance = 0.;
 	if (rootItem)

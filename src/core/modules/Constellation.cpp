@@ -46,6 +46,7 @@
 
 const QString Constellation::CONSTELLATION_TYPE = QStringLiteral("Constellation");
 
+int Constellation::labelGeneration = 0;
 Vec3f Constellation::lineColor = Vec3f(0.4f,0.4f,0.8f);
 Vec3f Constellation::labelColor = Vec3f(0.4f,0.4f,0.8f);
 Vec3f Constellation::boundaryColor = Vec3f(0.8f,0.3f,0.3f);
@@ -398,12 +399,28 @@ void Constellation::drawOptim(StelPainter& sPainter, const StelCore* core, const
 			sPainter.drawGreatCircleArc(pos1, pos2, &viewportHalfspace);
 		}
 	else
+	{
+		const bool aberration = core->getUseAberration();
+		const bool parallax = core->getUseParallax();
+		if (segmentPosCache.size() != size_t(numberOfSegments)*2
+		    || aberration != segmentPosAberration
+		    || parallax != segmentPosParallax
+		    || fabs(core->getJDE() - segmentPosJDE) > 0.25)
+		{
+			segmentPosAberration = aberration;
+			segmentPosParallax = parallax;
+			segmentPosJDE = core->getJDE();
+			segmentPosCache.resize(size_t(numberOfSegments)*2);
+			for (unsigned int i=0;i<numberOfSegments*2;++i)
+			{
+				segmentPosCache[i] = constellation[i]->getJ2000EquatorialPos(core);
+				segmentPosCache[i].normalize();
+			}
+		}
 		for (unsigned int i=0;i<numberOfSegments;++i)
 		{
-			Vec3d star1=constellation[2*i]->getJ2000EquatorialPos(core);
-			Vec3d star2=constellation[2*i+1]->getJ2000EquatorialPos(core);
-			star1.normalize();
-			star2.normalize();
+			const Vec3d& star1=segmentPosCache[2*i];
+			const Vec3d& star2=segmentPosCache[2*i+1];
 			if (star1.fuzzyEquals(star2))
 			{
 				// draw single-star segment as circle
@@ -413,6 +430,7 @@ void Constellation::drawOptim(StelPainter& sPainter, const StelCore* core, const
 			else
 				sPainter.drawGreatCircleArc(star1, star2, &viewportHalfspace);
 		}
+	}
 }
 
 // observer centered J2000 coordinates.
@@ -442,9 +460,24 @@ void Constellation::drawName(const Vec3d &xyName, StelPainter& sPainter) const
 	// TODO: Find a solution of fallbacks when components are missing?
 	if (isSeasonallyVisible())
 	{
-		QString name = getScreenLabel();
+		static StelSkyCultureMgr *scMgr=GETSTELMODULE(StelSkyCultureMgr);
+		const int style = static_cast<int>(scMgr->getScreenLabelStyle())*2
+				+ (scMgr->getFlagUseAbbreviatedNames() ? 1 : 0);
+		if (style != labelCacheStyle || labelGeneration != labelCacheGeneration)
+		{
+			labelCacheStyle = style;
+			labelCacheGeneration = labelGeneration;
+			labelCache = getCultureLabel(scMgr->getScreenLabelStyle());
+			labelCachePixelSize = -1;
+		}
+		const int pixelSize = sPainter.getFontPixelSize();
+		if (pixelSize != labelCachePixelSize)
+		{
+			labelCachePixelSize = pixelSize;
+			labelCacheHalfWidth = sPainter.getFontMetrics().boundingRect(labelCache).width()/2.f;
+		}
 		sPainter.setColor(labelColor, nameFader.getInterstate());
-		sPainter.drawText(static_cast<float>(xyName[0]), static_cast<float>(xyName[1]), name, 0., -sPainter.getFontMetrics().boundingRect(name).width()/2, 0, false);
+		sPainter.drawText(static_cast<float>(xyName[0]), static_cast<float>(xyName[1]), labelCache, 0., -labelCacheHalfWidth, 0, false);
 	}
 }
 
@@ -460,6 +493,7 @@ void Constellation::drawArtOptim(StelPainter& sPainter, const SphericalRegion& r
 			// The texture is not fully loaded
 			if (artTexture->bind()==false)
 				return;
+			sPainter.setBatchTexture(artTexture->glName());
 
 			sPainter.drawStelVertexArray(artPolygon, false, obsVelocity);
 		}

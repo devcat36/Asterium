@@ -50,6 +50,7 @@ final class Overlay extends FrameLayout implements NativeBridge.StateListener
 	private Rect insets = new Rect(0, 0, 0, 0);
 	private boolean insetsApplied = false;
 	private boolean night = false;
+	private boolean skyWasHidden;
 	private boolean inOcularView = false;
 
 	Overlay(Context context)
@@ -76,15 +77,20 @@ final class Overlay extends FrameLayout implements NativeBridge.StateListener
 	protected void onLayout(boolean changed, int left, int top, int right, int bottom)
 	{
 		super.onLayout(changed, left, top, right, bottom);
-		if (getContext() instanceof AsteriumActivity)
-			((AsteriumActivity) getContext()).applySystemBars();
-		applyInsets();
+		if (changed)
+		{
+			if (getContext() instanceof AsteriumActivity)
+				((AsteriumActivity) getContext()).applySystemBars();
+			applyInsets();
+		}
 		ocularBar.place();
 	}
 
 	@Override
 	public WindowInsets onApplyWindowInsets(WindowInsets applied)
 	{
+		if (getContext() instanceof AsteriumActivity)
+			((AsteriumActivity) getContext()).applySystemBars();
 		applyInsets();
 		return super.onApplyWindowInsets(applied);
 	}
@@ -266,6 +272,8 @@ final class Overlay extends FrameLayout implements NativeBridge.StateListener
 			ocularBar.leave();
 			return true;
 		}
+		if (chrome.collapse())
+			return true;
 		final JSONObject state = NativeBridge.lastState();
 		if (state != null && state.optJSONObject("sel") != null)
 		{
@@ -328,7 +336,14 @@ final class Overlay extends FrameLayout implements NativeBridge.StateListener
 		final boolean covered = !sheets.isEmpty() && !isTablet();
 		chrome.setVisibility(covered || inOcularView ? GONE : VISIBLE);
 		ocularBar.setVisibility(inOcularView && !covered ? VISIBLE : GONE);
-		chrome.setActiveSheet(topRailSheetId());
+		final String opaque = topRailSheetId();
+		chrome.setActiveSheet(opaque);
+		final boolean skyHidden = !isTablet() && opaque != null;
+		if (skyHidden != skyWasHidden)
+		{
+			skyWasHidden = skyHidden;
+			NativeBridge.send("view.covered", skyHidden ? "1" : "0");
+		}
 	}
 
 	void openById(String id)
@@ -407,7 +422,7 @@ final class Overlay extends FrameLayout implements NativeBridge.StateListener
 		}
 
 		chrome.onState(state);
-		for (Sheet sheet : sheets)
+		for (Sheet sheet : new java.util.ArrayList<>(sheets))
 			sheet.onState(state);
 
 		final JSONObject toggles = state.optJSONObject("toggles");

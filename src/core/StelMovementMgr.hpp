@@ -29,6 +29,7 @@
 #include <QTimer>
 #include <QCursor>
 #include <QEasingCurve>
+#include <QElapsedTimer>
 
 //! @class Smoother
 //! Compute smooth animation for a given float value.
@@ -174,7 +175,9 @@ public:
 
 	void setDragTriggerDistance(float d) {dragTriggerDistance=d;}
 
-	void cancelDrag() {isDragging=false; hasDragged=false;}
+	void cancelDrag() {isDragging=false; hasDragged=false; flingRate.set(0., 0.); zoomRate = 0.;}
+
+	void releasePinch();
 
 	Vec3d j2000ToMountFrame(const Vec3d& v) const;
 	Vec3d mountFrameToJ2000(const Vec3d& v) const;
@@ -585,6 +588,11 @@ private:
 	// Mouse control options
 	bool isDragging, hasDragged;
 	int previousX, previousY;
+	Vec2d flingRate;
+	QElapsedTimer dragClock;
+	double zoomRate;
+	QElapsedTimer pinchClock;
+	double pinchLogScale;
 
 	// Contains the last N real time / JD times pairs associated with the last N mouse move events at screen coordinates x/y
 	struct DragHistoryEntry

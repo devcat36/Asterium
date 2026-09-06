@@ -228,6 +228,7 @@ SplashScreen::SplashScreenWidget::SplashScreenWidget(const double sizeRatio)
 
 	setFont(splashFont);
 
+#if !defined(ASTERIUM_BRANDED_SPLASH_PIXMAP)
 	titleFont.setPixelSize(55 * sizeRatio);
 	titleFont.setWeight(QFont::Bold);
 	titleFont.setHintingPreference(QFont::PreferFullHinting);
@@ -247,6 +248,7 @@ SplashScreen::SplashScreenWidget::SplashScreenWidget(const double sizeRatio)
 	setBestFontStretch(*textHolder, versionFont, versionText,
 	                   lastTitleLetterBR.width());
 	versionHM = getRealTextWidthAndOffset(*textHolder, versionFont, versionText);
+#endif
 
 	setPixmap(canvas);
 	qInfo().noquote() << QString("Splash: canvas %1x%2, text %3px")

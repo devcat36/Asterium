@@ -290,13 +290,13 @@ struct Star
       }
 
       // look up if hip is in the binary star map
-      binaryorbitstar bso = StarMgr::getBinaryOrbitData(star_id);
-      // check if bso is empty or not
-      if (bso.hip == 0)
+      const binaryorbitstar* found = StarMgr::findBinaryOrbit(star_id);
+      if (!found || found->hip == 0)
       {
          // exit the function because nothing to do, not a binary star
          return;
       }
+      const binaryorbitstar& bso = *found;
 
       // Orbital elements of the secondary star
       double binary_period = bso.binary_period;  // Orbital period [days]

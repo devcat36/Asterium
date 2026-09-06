@@ -64,6 +64,7 @@ private:
 	QVarLengthArray<Vec2f> posGrid;
 	QOpenGLBuffer posGridBuffer;
 	QOpenGLBuffer indicesBuffer;
+	int indicesCount = 0;
 	QVarLengthArray<Vec4f> colorGrid;
 	QOpenGLBuffer colorGridBuffer;
 	QOpenGLVertexArrayObject vao;

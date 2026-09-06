@@ -168,6 +168,7 @@ void SkyGui::init(StelGui* astelGui)
 	bottomBar->setVisible(false);
 	buttonBarsFrame->setVisible(false);
 	infoPanel->setVisible(false);
+	progressBarMgr->setVisible(false);
 	connect(&StelApp::getInstance(), &StelApp::colorSchemeChanged, this, &SkyGui::setStelStyle);
 	connect(&StelApp::getInstance(), &StelApp::screenFontSizeChanged, this, &SkyGui::updateInfoPanelPos);
 	updateBarsPos();

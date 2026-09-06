@@ -269,8 +269,7 @@ void viewportEdgeIntersectCallback(const Vec3d& screenPos, const Vec3d& directio
 				}
 				else
 				{
-					if (QList<StelCore::FrameType>{StelCore::FrameObservercentricEclipticJ2000, StelCore::FrameObservercentricEclipticOfDate,
-						StelCore::FrameGalactic, StelCore::FrameSupergalactic}.contains(d->frameType))
+					if ((d->frameType==StelCore::FrameObservercentricEclipticJ2000 || d->frameType==StelCore::FrameObservercentricEclipticOfDate || d->frameType==StelCore::FrameGalactic || d->frameType==StelCore::FrameSupergalactic))
 						text = StelUtils::radToDmsStrAdapt(textAngle);
 					else
 					{
@@ -377,6 +376,8 @@ void SkyGrid::draw(const StelCore* core) const
 	QFont font=QGuiApplication::font();
 	font.setPixelSize(fontSize);
 	sPainter.setFont(font);
+	sPainter.beginWideLineBatch();
+	sPainter.beginTextBatch();
 
 	ViewportEdgeIntersectCallbackData userData(&sPainter);
 	// make text colors just a bit brighter. (But if >1, QColor::setRgb fails and makes text invisible.)
@@ -579,6 +580,8 @@ void SkyGrid::draw(const StelCore* core) const
 		}
 	}
 
+	sPainter.flushWideLineBatch();
+	sPainter.endTextBatch();
 	if (lineThickness>1)
 		sPainter.setLineWidth(1); // reset thickness of line
 	sPainter.setLineSmooth(false);
@@ -831,7 +834,7 @@ void SkyLine::draw(StelPainter &sPainter, const float oldLineWidth) const
 	// Draw the line
 
 	// Precession, Circumpolar and umbra circles are Small Circles, all others are Great Circles.
-	if (QList<SKY_LINE_TYPE>({PRECESSIONCIRCLE_N, PRECESSIONCIRCLE_S, CIRCUMPOLARCIRCLE_N, CIRCUMPOLARCIRCLE_S, EARTH_UMBRA, EARTH_PENUMBRA}).contains(line_type))
+	if ((line_type==PRECESSIONCIRCLE_N || line_type==PRECESSIONCIRCLE_S || line_type==CIRCUMPOLARCIRCLE_N || line_type==CIRCUMPOLARCIRCLE_S || line_type==EARTH_UMBRA || line_type==EARTH_PENUMBRA))
 	{
 		// partitions for precession. (mark millennia!)
 		double lat=0.;

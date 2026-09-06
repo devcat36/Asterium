@@ -88,6 +88,14 @@ void StelButton::initCtor(const QPixmap& apixOn,
 						  bool noBackground,
 						  bool isTristate)
 {
+#if defined(Q_OS_ANDROID)
+	QPixmap blank(1, 1);
+	blank.fill(Qt::transparent);
+	pixOn = blank;
+	pixOff = blank;
+	pixHover = blank;
+	pixNoChange = blank;
+#else
 	// Allow a much-wanted brightness tweak, at least manually configured.
 	const float brightenFactor=qBound(1.f, StelApp::getInstance().getSettings()->value("gui/pixmaps_brightness", 1.0).toFloat(), 1.8f);
 	QImage pixOnImg=apixOn.toImage();
@@ -102,6 +110,7 @@ void StelButton::initCtor(const QPixmap& apixOn,
 	pixOff = QPixmap::fromImage(pixOffImg);
 	pixHover = QPixmap::fromImage(pixHoverImg);
 	pixNoChange = QPixmap::fromImage(pixNoChangeImg);
+#endif
 
 	if(!pixmapsScale)
 	{

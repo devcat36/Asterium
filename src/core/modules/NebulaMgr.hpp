@@ -1088,7 +1088,6 @@ private:
 	QStringList unwantedReferences;
 
 	QVector<NebulaP> dsoArray;		// The DSO list
-	QHash<unsigned int, NebulaP> dsoIndex;
 	// A struct that holds a NebulaP and user-accepted references from the loaded nebulaSet (usually nebulae/default/names.dat)
 	struct NebulaWithReferences {
 		NebulaP nebula;

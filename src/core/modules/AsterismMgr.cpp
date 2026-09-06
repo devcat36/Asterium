@@ -281,9 +281,26 @@ void AsterismMgr::setRayHelperThickness(const int thickness)
 	}
 }
 
+bool AsterismMgr::anythingToDraw() const
+{
+	if (linesDisplayed || rayHelpersDisplayed || namesDisplayed)
+		return true;
+	for (auto* asterism : asterisms)
+	{
+		if (asterism->lineFader.getInterstate() > 0.f
+		    || asterism->rayHelperFader.getInterstate() > 0.f
+		    || asterism->nameFader.getInterstate() > 0.f)
+			return true;
+	}
+	return false;
+}
+
 void AsterismMgr::draw(StelCore* core)
 {
 	if (!core->getFlagClearSky())
+		return;
+
+	if (!anythingToDraw())
 		return;
 
 	const StelProjectorP prj = core->getProjection(StelCore::FrameJ2000);
@@ -314,11 +331,13 @@ void AsterismMgr::drawLines(StelPainter& sPainter, const StelCore* core) const
 	sPainter.setLineSmooth(true);
 
 	const SphericalCap& viewportHalfspace = sPainter.getProjector()->getBoundingCap();
+	sPainter.beginWideLineBatch();
 	for (auto* asterism : asterisms)
 	{
 		if (asterism->isAsterism())
 			asterism->drawOptim(sPainter, core, viewportHalfspace);
 	}
+	sPainter.flushWideLineBatch();
 	if (asterismLineThickness>1 || ppx>1.f)
 		sPainter.setLineWidth(1); // restore line thickness
 	sPainter.setLineSmooth(false);
@@ -337,11 +356,13 @@ void AsterismMgr::drawRayHelpers(StelPainter& sPainter, const StelCore* core) co
 	sPainter.setLineSmooth(true);
 
 	const SphericalCap& viewportHalfspace = sPainter.getProjector()->getBoundingCap();
+	sPainter.beginWideLineBatch();
 	for (auto* asterism : asterisms)
 	{
 		if (!asterism->isAsterism())
 			asterism->drawOptim(sPainter, core, viewportHalfspace);
 	}
+	sPainter.flushWideLineBatch();
 	if (rayHelperThickness>1 || ppx>1.f)
 		sPainter.setLineWidth(1); // restore line thickness
 	sPainter.setLineSmooth(false);
@@ -354,6 +375,7 @@ void AsterismMgr::drawNames(StelPainter& sPainter, const Vec3d &obsVelocity) con
 		return;
 
 	sPainter.setBlending(true);
+	sPainter.beginTextBatch();
 	for (auto* asterism : asterisms)
 	{
 		if (!asterism->flagAsterism) continue;
@@ -371,6 +393,7 @@ void AsterismMgr::drawNames(StelPainter& sPainter, const Vec3d &obsVelocity) con
 				asterism->drawName(xyName, sPainter);
 		}
 	}
+	sPainter.endTextBatch();
 }
 
 Asterism* AsterismMgr::findFromAbbreviation(const QString& abbreviation) const

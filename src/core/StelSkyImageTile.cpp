@@ -96,13 +96,8 @@ void StelSkyImageTile::draw(StelCore* core, StelPainter& sPainter, float opacity
 
 	const float limitLuminance = core->getSkyDrawer()->getLimitLuminance();
 	QMultiMap<double, StelSkyImageTile*> result;
-	// TODO: adjust that viewportconvexpolygon by aberration to select the right tiles.
-	// I thought the viewportpolygon needs to be enlarged just a bit. (I use 20 arcseconds here as estimate of max. aberration from earth.)
-	//getTilesToDraw(result, core, prj->getViewportConvexPolygon(0,0)->getEnlarged(20./3600.*M_PI_180 *core->getAberrationFactor()), limitLuminance, true);
-	// But it seems not even the AllSky region prevents clipping, so it must be caused somewhere else.
-//	const SphericalCap& hp = prj->getBoundingCap();
-//	getTilesToDraw(result, core, SphericalRegionP(new SphericalCap(hp)), limitLuminance, true);
-	getTilesToDraw(result, core, SphericalRegionP(new AllSkySphericalRegion()), limitLuminance, true);
+	const float degPerPixel = 1.f/prj->getPixelPerRadAtCenter()*M_180_PIf;
+	getTilesToDraw(result, core, prj->getViewportConvexPolygon(4.f, 4.f), limitLuminance, degPerPixel, true);
 
 	int numToBeLoaded=0;
 	for (auto* t : std::as_const(result))
@@ -112,18 +107,31 @@ void StelSkyImageTile::draw(StelCore* core, StelPainter& sPainter, float opacity
 
 	// Draw in the good order
 	sPainter.setBlending(true, GL_ONE, GL_ONE);
+	sPainter.beginTexturedBatch();
 	auto i = result.end();
 	while (i!=result.begin())
 	{
 		--i;
 		i.value()->drawTile(core, sPainter, vel);
 	}
+	sPainter.flushTexturedBatch();
 
 	deleteUnusedSubTiles();
 }
 
+void StelSkyImageTile::releaseUnusedTexture()
+{
+	if (tex.isNull())
+		return;
+	const double now = StelApp::getInstance().getTotalRunTime();
+	if (timeWhenTextureUnused < 0.)
+		timeWhenTextureUnused = now;
+	else if (now - timeWhenTextureUnused > 20.)
+		tex.clear();
+}
+
 // Return the list of tiles which should be drawn.
-void StelSkyImageTile::getTilesToDraw(QMultiMap<double, StelSkyImageTile*>& result, StelCore* core, const SphericalRegionP& viewPortPoly, float limitLuminance, bool recheckIntersect)
+void StelSkyImageTile::getTilesToDraw(QMultiMap<double, StelSkyImageTile*>& result, StelCore* core, const SphericalRegionP& viewPortPoly, float limitLuminance, float degPerPixel, bool recheckIntersect)
 {
 #ifndef NDEBUG
 	// When this method is called, we can assume that:
@@ -204,6 +212,7 @@ void StelSkyImageTile::getTilesToDraw(QMultiMap<double, StelSkyImageTile*>& resu
 	// The tile is outside screen
 	if (fullInScreen==false && intersectScreen==false)
 	{
+		releaseUnusedTexture();
 		// Schedule a deletion
 		scheduleChildsDeletion();
 		return;
@@ -211,6 +220,7 @@ void StelSkyImageTile::getTilesToDraw(QMultiMap<double, StelSkyImageTile*>& resu
 
 	// The tile is in screen, and it is a precondition that its resolution is higher than the limit
 	// make sure that it's not going to be deleted
+	timeWhenTextureUnused = -1.;
 	cancelDeletion();
 
 	if (noTexture==false)
@@ -219,7 +229,12 @@ void StelSkyImageTile::getTilesToDraw(QMultiMap<double, StelSkyImageTile*>& resu
 		{
 			// The tile has an associated texture, but it is not yet loaded: load it now
 			StelTextureMgr& texMgr=StelApp::getInstance().getTextureManager();
-			tex = texMgr.createTextureThread(absoluteImageURI, StelTexture::StelTextureParams(true, GL_LINEAR, GL_CLAMP_TO_EDGE, false, decimation));
+#if defined(Q_OS_ANDROID)
+			const int maxEdge = 512;
+#else
+			const int maxEdge = 0;
+#endif
+			tex = texMgr.createTextureThread(absoluteImageURI, StelTexture::StelTextureParams(true, GL_LINEAR, GL_CLAMP_TO_EDGE, false, decimation, maxEdge));
 			if (!tex)
 			{
 				qWarning() << "Can't create tile: " << absoluteImageURI;
@@ -233,7 +248,6 @@ void StelSkyImageTile::getTilesToDraw(QMultiMap<double, StelSkyImageTile*>& resu
 	}
 
 	// Check if we reach the resolution limit
-	const float degPerPixel = 1.f/core->getProjection(StelCore::FrameJ2000)->getPixelPerRadAtCenter()*M_180_PIf;
 	if (degPerPixel < minResolution)
 	{
 		if (subTiles.isEmpty() && !subTilesUrls.isEmpty())
@@ -263,7 +277,7 @@ void StelSkyImageTile::getTilesToDraw(QMultiMap<double, StelSkyImageTile*>& resu
 		// Try to add the subtiles
 		for (auto* tile : std::as_const(subTiles))
 		{
-			qobject_cast<StelSkyImageTile*>(tile)->getTilesToDraw(result, core, viewPortPoly, limitLuminance, !fullInScreen);
+			qobject_cast<StelSkyImageTile*>(tile)->getTilesToDraw(result, core, viewPortPoly, limitLuminance, degPerPixel, !fullInScreen);
 		}
 	}
 	else
@@ -279,6 +293,7 @@ bool StelSkyImageTile::drawTile(StelCore* core, StelPainter& sPainter, const Vec
 {
 	if (!tex->bind())
 		return false;
+	sPainter.setBatchTexture(tex->glName());
 
 	if (!texFader)
 	{

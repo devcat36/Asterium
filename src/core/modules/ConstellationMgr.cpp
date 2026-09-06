@@ -536,6 +536,8 @@ void ConstellationMgr::setLunarSystemThickness(const int thickness)
 
 void ConstellationMgr::loadLinesNamesAndArt(const StelSkyCulture &culture)
 {
+	for (auto* constellation : constellations)
+		delete constellation;
 	constellations.clear();
 	Constellation::seasonalRuleEnabled = false;
 
@@ -724,10 +726,12 @@ void ConstellationMgr::drawArt(StelPainter& sPainter, const Vec3d &obsVelocity) 
 	sPainter.setCullFace(true);
 
 	SphericalRegionP region = sPainter.getProjector()->getViewportConvexPolygon();
+	sPainter.beginTexturedBatch();
 	for (auto* constellation : constellations)
 	{
 		constellation->drawArtOptim(sPainter, *region, obsVelocity);
 	}
+	sPainter.flushTexturedBatch();
 
 	sPainter.setCullFace(false);
 }
@@ -743,10 +747,12 @@ void ConstellationMgr::drawLines(StelPainter& sPainter, const StelCore* core) co
 	sPainter.setLineSmooth(true);
 
 	const SphericalCap& viewportHalfspace = sPainter.getProjector()->getBoundingCap();
+	sPainter.beginWideLineBatch();
 	for (auto* constellation : constellations)
 	{
 		constellation->drawOptim(sPainter, core, viewportHalfspace);
 	}
+	sPainter.flushWideLineBatch();
 	if (constellationLineThickness>1 || scale>1.f)
 		sPainter.setLineWidth(1); // restore line thickness
 	sPainter.setLineSmooth(false);
@@ -756,6 +762,7 @@ void ConstellationMgr::drawLines(StelPainter& sPainter, const StelCore* core) co
 void ConstellationMgr::drawNames(StelPainter& sPainter, const Vec3d &obsVelocity) const
 {
 	sPainter.setBlending(true);
+	sPainter.beginTextBatch();
 	for (auto* constellation : constellations)
 	{
 		for (int i=0; i<constellation->XYZname.size(); ++i)
@@ -771,6 +778,7 @@ void ConstellationMgr::drawNames(StelPainter& sPainter, const Vec3d &obsVelocity
 				constellation->drawName(xyName, sPainter);
 		}
 	}
+	sPainter.endTextBatch();
 }
 
 Constellation* ConstellationMgr::findFromAbbreviation(const QString& abbreviation) const
@@ -801,6 +809,7 @@ QStringList ConstellationMgr::getConstellationsEnglishNames()
 
 void ConstellationMgr::updateI18n()
 {
+	++Constellation::labelGeneration;
 	const StelTranslator& trans = StelApp::getInstance().getLocaleMgr().getSkyTranslator();
 
 	for (auto* constellation : std::as_const(constellations))
@@ -1695,10 +1704,12 @@ void ConstellationMgr::drawBoundaries(StelPainter& sPainter, const Vec3d &obsVel
 	if (boundariesThickness>1 || scale>1.f)
 		sPainter.setLineWidth(boundariesThickness*scale); // set line thickness
 	sPainter.setLineSmooth(true);
+	sPainter.beginWideLineBatch();
 	for (auto* constellation : constellations)
 	{
 		constellation->drawBoundaryOptim(sPainter, obsVelocity);
 	}
+	sPainter.flushWideLineBatch();
 	if (boundariesThickness>1 || scale>1.f)
 		sPainter.setLineWidth(1); // restore line thickness
 	sPainter.setLineSmooth(false);
@@ -1712,10 +1723,12 @@ void ConstellationMgr::drawHulls(StelPainter& sPainter, const Vec3d &obsVelocity
 	if (hullsThickness>1 || scale>1.f)
 		sPainter.setLineWidth(hullsThickness*scale); // set line thickness
 	sPainter.setLineSmooth(true);
+	sPainter.beginWideLineBatch();
 	for (auto* constellation : constellations)
 	{
 		constellation->drawHullOptim(sPainter, obsVelocity);
 	}
+	sPainter.flushWideLineBatch();
 	if (hullsThickness>1 || scale>1.f)
 		sPainter.setLineWidth(1); // restore line thickness
 	sPainter.setLineSmooth(false);

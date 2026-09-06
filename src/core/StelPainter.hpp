@@ -21,6 +21,7 @@
 #define STELPAINTER_HPP
 
 #include <memory>
+#include <vector>
 #include "StelOpenGL.hpp"
 #include "VecMath.hpp"
 #include "StelSphereGeometry.hpp"
@@ -260,6 +261,7 @@ public:
 
 	//! Get the font metrics for the current font.
 	QFontMetrics getFontMetrics() const;
+	int getFontPixelSize() const { return currentFont.pixelSize(); }
 
 	//! Enable OpenGL blending. By default, blending is disabled.
 	//! The additional parameters specify the blending mode, the default parameters are suitable for
@@ -354,6 +356,16 @@ public:
 	//! @return true if the link was successful.
 	static bool linkProg(class QOpenGLShaderProgram* prog, const QString& name);
 
+	void beginWideLineBatch();
+	void flushWideLineBatch();
+
+	void beginTextBatch();
+	void endTextBatch();
+
+	void beginTexturedBatch();
+	void flushTexturedBatch();
+	void setBatchTexture(unsigned int name) { batchTexture = name; }
+
 private:
 	friend class StelTextureMgr;
 	friend class StelTexture;
@@ -401,6 +413,27 @@ private:
 	ArrayDesc projectArray(const ArrayDesc& array, int offset, int count, const unsigned short *indices=Q_NULLPTR);
 
 	void drawFixedColorWideLinesAsQuads(const ArrayDesc& vertexArray, int count, int offset, const Mat4f& projMat, DrawingMode mode);
+	Vec2f viewportSizeForWideLines();
+
+	struct TextBatchItem { GLuint texture; Vec4f color; float halo; };
+	bool textBatchActive;
+	GLint textBatchOldTexture;
+	bool textBatchOldBlend;
+	GLenum textBatchOldSrc;
+	GLenum textBatchOldDst;
+	std::vector<float> textBatchQuads;
+	std::vector<TextBatchItem> textBatchItems;
+
+	struct TexturedBatchItem { GLuint texture; Vec4f color; int first; int count; bool blend; GLenum blendSrc; GLenum blendDst; };
+	bool texturedBatchActive;
+	GLuint batchTexture;
+	std::vector<float> texturedBatchVertices;
+	std::vector<TexturedBatchItem> texturedBatchItems;
+
+	struct PackedColor { GLubyte c[4]; };
+	static std::vector<Vec3f> wideLineBatchVertices;
+	static std::vector<PackedColor> wideLineBatchColors;
+	static bool wideLineBatchActive;
 
 	//! Project the passed triangle on the screen ensuring that it will look smooth, even for non linear distortion
 	//! by splitting it into subtriangles. The resulting vertex arrays are appended to the passed out* ones.
@@ -444,6 +477,9 @@ private:
 
 	//! The used for text drawing
 	QFont currentFont;
+	mutable QByteArray currentFontKey;
+	Vec2f cachedViewportSize;
+	bool viewportSizeCached;
 
 	Vec4f currentColor;
 	//! Saturation effect adjustment.

@@ -625,7 +625,7 @@ struct DrawNebulaFuncObject
 		if (!n->objectInDisplayedCatalog())
 			return;
 
-		if (n->flagShowOnlyNamedDSO && n->getEnglishName().isEmpty() && n->culturalNames.isEmpty())
+		if (n->flagShowOnlyNamedDSO && n->getEnglishName().isEmpty() && !n->hasCulturalNames)
 			return;
 
 		if (!n->objectInAllowedSizeRangeLimits())
@@ -637,11 +637,12 @@ struct DrawNebulaFuncObject
 		if ((drawer->getFlagNebulaMagnitudeLimit()) && (mag > static_cast<float>(drawer->getCustomNebulaMagnitudeLimit())))
 			return;
 
-		if (n->majorAxisSize>angularSizeLimit || n->majorAxisSize==0.f || mag <= maxMagHints)
+		if (n->majorAxisSize>angularSizeLimit || mag <= maxMagHints || !n->outlineSegments.empty())
 		{
-			sPainter->getProjector()->project(n->getJ2000EquatorialPos(core),n->XY);
-			n->drawLabel(*sPainter, maxMagLabels);
-			n->drawHints(*sPainter, maxMagHints, core);
+			Vec3d XY;
+			sPainter->getProjector()->project(n->getJ2000EquatorialPos(core), XY);
+			n->drawLabel(*sPainter, XY, maxMagLabels);
+			n->drawHints(*sPainter, XY, maxMagHints, core);
 			n->drawOutlines(*sPainter, maxMagHints);
 		}
 	}
@@ -869,7 +870,13 @@ void NebulaMgr::draw(StelCore* core)
 		float maxMagHints  = computeMaxMagHint(skyDrawer);
 		float maxMagLabels = skyDrawer->getLimitMagnitude()-2.f+static_cast<float>(labelsAmount*1.2)-2.f;
 		DrawNebulaFuncObject func(maxMagHints, maxMagLabels, &sPainter, core, hintsFader.getInterstate()<=0.f);
+		sPainter.beginWideLineBatch();
+		sPainter.beginTexturedBatch();
+		sPainter.beginTextBatch();
 		nebGrid.processIntersectingPointInRegions(p.data(), func);
+		sPainter.flushWideLineBatch();
+		sPainter.flushTexturedBatch();
+		sPainter.endTextBatch();
 	}
 
 	static StelObjectMgr *som=GETSTELMODULE(StelObjectMgr);
@@ -935,7 +942,7 @@ void NebulaMgr::loadNebulaSet(const QString& setName)
 	QString dsoNamesPath = StelFileMgr::findFile("nebulae/" + setName + "/names.dat");
 
 	dsoArray.clear();
-	dsoIndex.clear();
+	dsoArray.reserve(95000);
 	nebGrid.clear();
 
 	if (flagConverter)
@@ -1017,8 +1024,12 @@ QList<StelObjectP> NebulaMgr::searchAround(const Vec3d& av, double limitFov, con
 
 NebulaP NebulaMgr::searchDSO(unsigned int DSO) const
 {
-	if (dsoIndex.contains(DSO))
-		return dsoIndex[DSO];
+	if (DSO >= 1 && DSO <= static_cast<unsigned int>(dsoArray.size())
+	    && dsoArray.at(static_cast<int>(DSO)-1)->DSO_nb == DSO)
+		return dsoArray.at(static_cast<int>(DSO)-1);
+	for (const auto& n : dsoArray)
+		if (n->DSO_nb == DSO)
+			return n;
 	return NebulaP();
 }
 
@@ -1026,7 +1037,7 @@ NebulaP NebulaMgr::searchDSO(unsigned int DSO) const
 NebulaP NebulaMgr::searchM(unsigned int M) const
 {
 	for (const auto& n : dsoArray)
-		if (n->M_nb == M)
+		if (n->catNum(Nebula::CatM) == M)
 			return n;
 	return NebulaP();
 }
@@ -1034,7 +1045,7 @@ NebulaP NebulaMgr::searchM(unsigned int M) const
 NebulaP NebulaMgr::searchNGC(unsigned int NGC) const
 {
 	for (const auto& n : dsoArray)
-		if (n->NGC_nb == NGC)
+		if (n->catNum(Nebula::CatNGC) == NGC)
 			return n;
 	return NebulaP();
 }
@@ -1042,7 +1053,7 @@ NebulaP NebulaMgr::searchNGC(unsigned int NGC) const
 NebulaP NebulaMgr::searchIC(unsigned int IC) const
 {
 	for (const auto& n : dsoArray)
-		if (n->IC_nb == IC)
+		if (n->catNum(Nebula::CatIC) == IC)
 			return n;
 	return NebulaP();
 }
@@ -1050,7 +1061,7 @@ NebulaP NebulaMgr::searchIC(unsigned int IC) const
 NebulaP NebulaMgr::searchC(unsigned int C) const
 {
 	for (const auto& n : dsoArray)
-		if (n->C_nb == C)
+		if (n->catNum(Nebula::CatC) == C)
 			return n;
 	return NebulaP();
 }
@@ -1058,7 +1069,7 @@ NebulaP NebulaMgr::searchC(unsigned int C) const
 NebulaP NebulaMgr::searchB(unsigned int B) const
 {
 	for (const auto& n : dsoArray)
-		if (n->B_nb == B)
+		if (n->catNum(Nebula::CatB) == B)
 			return n;
 	return NebulaP();
 }
@@ -1066,7 +1077,7 @@ NebulaP NebulaMgr::searchB(unsigned int B) const
 NebulaP NebulaMgr::searchSh2(unsigned int Sh2) const
 {
 	for (const auto& n : dsoArray)
-		if (n->Sh2_nb == Sh2)
+		if (n->catNum(Nebula::CatSh2) == Sh2)
 			return n;
 	return NebulaP();
 }
@@ -1074,7 +1085,7 @@ NebulaP NebulaMgr::searchSh2(unsigned int Sh2) const
 NebulaP NebulaMgr::searchVdB(unsigned int VdB) const
 {
 	for (const auto& n : dsoArray)
-		if (n->VdB_nb == VdB)
+		if (n->catNum(Nebula::CatVdB) == VdB)
 			return n;
 	return NebulaP();
 }
@@ -1082,7 +1093,7 @@ NebulaP NebulaMgr::searchVdB(unsigned int VdB) const
 NebulaP NebulaMgr::searchVdBHa(unsigned int VdBHa) const
 {
 	for (const auto& n : dsoArray)
-		if (n->VdBHa_nb == VdBHa)
+		if (n->catNum(Nebula::CatVdBHa) == VdBHa)
 			return n;
 	return NebulaP();
 }
@@ -1090,7 +1101,7 @@ NebulaP NebulaMgr::searchVdBHa(unsigned int VdBHa) const
 NebulaP NebulaMgr::searchRCW(unsigned int RCW) const
 {
 	for (const auto& n : dsoArray)
-		if (n->RCW_nb == RCW)
+		if (n->catNum(Nebula::CatRCW) == RCW)
 			return n;
 	return NebulaP();
 }
@@ -1098,7 +1109,7 @@ NebulaP NebulaMgr::searchRCW(unsigned int RCW) const
 NebulaP NebulaMgr::searchLDN(unsigned int LDN) const
 {
 	for (const auto& n : dsoArray)
-		if (n->LDN_nb == LDN)
+		if (n->catNum(Nebula::CatLDN) == LDN)
 			return n;
 	return NebulaP();
 }
@@ -1106,7 +1117,7 @@ NebulaP NebulaMgr::searchLDN(unsigned int LDN) const
 NebulaP NebulaMgr::searchLBN(unsigned int LBN) const
 {
 	for (const auto& n : dsoArray)
-		if (n->LBN_nb == LBN)
+		if (n->catNum(Nebula::CatLBN) == LBN)
 			return n;
 	return NebulaP();
 }
@@ -1114,7 +1125,7 @@ NebulaP NebulaMgr::searchLBN(unsigned int LBN) const
 NebulaP NebulaMgr::searchCr(unsigned int Cr) const
 {
 	for (const auto& n : dsoArray)
-		if (n->Cr_nb == Cr)
+		if (n->catNum(Nebula::CatCr) == Cr)
 			return n;
 	return NebulaP();
 }
@@ -1122,7 +1133,7 @@ NebulaP NebulaMgr::searchCr(unsigned int Cr) const
 NebulaP NebulaMgr::searchMel(unsigned int Mel) const
 {
 	for (const auto& n : dsoArray)
-		if (n->Mel_nb == Mel)
+		if (n->catNum(Nebula::CatMel) == Mel)
 			return n;
 	return NebulaP();
 }
@@ -1138,7 +1149,7 @@ NebulaP NebulaMgr::searchPGC(unsigned int PGC) const
 NebulaP NebulaMgr::searchUGC(unsigned int UGC) const
 {
 	for (const auto& n : dsoArray)
-		if (n->UGC_nb == UGC)
+		if (n->catNum(Nebula::CatUGC) == UGC)
 			return n;
 	return NebulaP();
 }
@@ -1147,7 +1158,7 @@ NebulaP NebulaMgr::searchCed(QString Ced) const
 {
 	Ced = Ced.trimmed();
 	for (const auto& n : dsoArray)
-		if (n->Ced_nb.compare(Ced, Qt::CaseInsensitive) == 0)
+		if (n->catStr(Nebula::CatCed).compare(Ced, Qt::CaseInsensitive) == 0)
 			return n;
 	return NebulaP();
 }
@@ -1155,7 +1166,7 @@ NebulaP NebulaMgr::searchCed(QString Ced) const
 NebulaP NebulaMgr::searchArp(unsigned int Arp) const
 {
 	for (const auto& n : dsoArray)
-		if (n->Arp_nb == Arp)
+		if (n->catNum(Nebula::CatArp) == Arp)
 			return n;
 	return NebulaP();
 }
@@ -1163,7 +1174,7 @@ NebulaP NebulaMgr::searchArp(unsigned int Arp) const
 NebulaP NebulaMgr::searchVV(unsigned int VV) const
 {
 	for (const auto& n : dsoArray)
-		if (n->VV_nb == VV)
+		if (n->catNum(Nebula::CatVV) == VV)
 			return n;
 	return NebulaP();
 }
@@ -1172,7 +1183,7 @@ NebulaP NebulaMgr::searchPK(QString PK) const
 {
 	PK = PK.trimmed();
 	for (const auto& n : dsoArray)
-		if (n->PK_nb.compare(PK, Qt::CaseInsensitive) == 0)
+		if (n->catStr(Nebula::CatPK).compare(PK, Qt::CaseInsensitive) == 0)
 			return n;
 	return NebulaP();
 }
@@ -1181,7 +1192,7 @@ NebulaP NebulaMgr::searchPNG(QString PNG) const
 {
 	PNG = PNG.trimmed();
 	for (const auto& n : dsoArray)
-		if (n->PNG_nb.compare(PNG, Qt::CaseInsensitive) == 0)
+		if (n->catStr(Nebula::CatPNG).compare(PNG, Qt::CaseInsensitive) == 0)
 			return n;
 	return NebulaP();
 }
@@ -1190,7 +1201,7 @@ NebulaP NebulaMgr::searchSNRG(QString SNRG) const
 {
 	SNRG = SNRG.trimmed();
 	for (const auto& n : dsoArray)
-		if (n->SNRG_nb.compare(SNRG, Qt::CaseInsensitive) == 0)
+		if (n->catStr(Nebula::CatSNRG).compare(SNRG, Qt::CaseInsensitive) == 0)
 			return n;
 	return NebulaP();
 }
@@ -1199,7 +1210,7 @@ NebulaP NebulaMgr::searchACO(QString ACO) const
 {
 	ACO = ACO.trimmed();
 	for (const auto& n : dsoArray)
-		if (n->ACO_nb.compare(ACO, Qt::CaseInsensitive) == 0)
+		if (n->catStr(Nebula::CatACO).compare(ACO, Qt::CaseInsensitive) == 0)
 			return n;
 	return NebulaP();
 }
@@ -1208,7 +1219,7 @@ NebulaP NebulaMgr::searchHCG(QString HCG) const
 {
 	HCG = HCG.trimmed();
 	for (const auto& n : dsoArray)
-		if (n->HCG_nb.compare(HCG, Qt::CaseInsensitive) == 0)
+		if (n->catStr(Nebula::CatHCG).compare(HCG, Qt::CaseInsensitive) == 0)
 			return n;
 	return NebulaP();
 }
@@ -1217,7 +1228,7 @@ NebulaP NebulaMgr::searchESO(QString ESO) const
 {
 	ESO = ESO.trimmed();
 	for (const auto& n : dsoArray)
-		if (n->ESO_nb.compare(ESO, Qt::CaseInsensitive) == 0)
+		if (n->catStr(Nebula::CatESO).compare(ESO, Qt::CaseInsensitive) == 0)
 			return n;
 	return NebulaP();
 }
@@ -1226,7 +1237,7 @@ NebulaP NebulaMgr::searchVdBH(QString VdBH) const
 {
 	VdBH = VdBH.trimmed();
 	for (const auto& n : dsoArray)
-		if (n->VdBH_nb.compare(VdBH, Qt::CaseInsensitive) == 0)
+		if (n->catStr(Nebula::CatVdBH).compare(VdBH, Qt::CaseInsensitive) == 0)
 			return n;
 	return NebulaP();
 }
@@ -1234,7 +1245,7 @@ NebulaP NebulaMgr::searchVdBH(QString VdBH) const
 NebulaP NebulaMgr::searchDWB(unsigned int DWB) const
 {
 	for (const auto& n : dsoArray)
-		if (n->DWB_nb == DWB)
+		if (n->catNum(Nebula::CatDWB) == DWB)
 			return n;
 	return NebulaP();
 }
@@ -1242,7 +1253,7 @@ NebulaP NebulaMgr::searchDWB(unsigned int DWB) const
 NebulaP NebulaMgr::searchTr(unsigned int Tr) const
 {
 	for (const auto& n : dsoArray)
-		if (n->Tr_nb == Tr)
+		if (n->catNum(Nebula::CatTr) == Tr)
 			return n;
 	return NebulaP();
 }
@@ -1250,7 +1261,7 @@ NebulaP NebulaMgr::searchTr(unsigned int Tr) const
 NebulaP NebulaMgr::searchSt(unsigned int St) const
 {
 	for (const auto& n : dsoArray)
-		if (n->St_nb == St)
+		if (n->catNum(Nebula::CatSt) == St)
 			return n;
 	return NebulaP();
 }
@@ -1258,7 +1269,7 @@ NebulaP NebulaMgr::searchSt(unsigned int St) const
 NebulaP NebulaMgr::searchRu(unsigned int Ru) const
 {
 	for (const auto& n : dsoArray)
-		if (n->Ru_nb == Ru)
+		if (n->catNum(Nebula::CatRu) == Ru)
 			return n;
 	return NebulaP();
 }
@@ -1585,13 +1596,11 @@ bool NebulaMgr::loadDSOCatalog(const QString &filename)
 		else
 		{
 			// Create a new Nebula record
-			NebulaP e = NebulaP(new Nebula);
+			NebulaP e = NebulaP::create();
 			e->readDSO(ins);
 
 			dsoArray.append(e);
 			nebGrid.insert(qSharedPointerCast<StelRegionObject>(e));
-			if (e->DSO_nb!=0)
-				dsoIndex.insert(e->DSO_nb, e);
 		}
 		++totalRecords;
 	}
@@ -1973,7 +1982,7 @@ int NebulaMgr::loadCultureSpecificNames(const QJsonObject& data)
 	const StelTranslator& trans = StelApp::getInstance().getLocaleMgr().getSkyTranslator();
 
 	for (const auto& n : std::as_const(dsoArray))
-		n->culturalNames.clear();
+		n->clearCulturalNames();
 
 	int loadedTotal = 0;
 	for (auto it = data.begin(); it != data.end(); ++it)
@@ -2204,15 +2213,15 @@ QVector<QPair<QString,StelObjectP>> NebulaMgr::listMatchingObjects(const QString
 	{
 		for (const auto& n : dsoArray)
 		{
-			if (n->M_nb==0) continue;
-			QString constw = QString("M%1").arg(n->M_nb);
+			if (n->catNum(Nebula::CatM)==0) continue;
+			QString constw = QString("M%1").arg(n->catNum(Nebula::CatM));
 			QString constws = constw.mid(0, objUpper.size());
 			if (constws.toUpper()==objUpper)
 			{
 				result.append({constw, StelObjectP(n)});
 				continue;	// Prevent adding both forms for name
 			}
-			constw = QString("M %1").arg(n->M_nb);
+			constw = QString("M %1").arg(n->catNum(Nebula::CatM));
 			constws = constw.mid(0, objUpper.size());
 			if (constws.toUpper()==objUpper)
 				result.append({constw, StelObjectP(n)});
@@ -2224,18 +2233,18 @@ QVector<QPair<QString,StelObjectP>> NebulaMgr::listMatchingObjects(const QString
 	{
 		for (const auto& n : dsoArray)
 		{
-			if (n->Mel_nb==0) continue;
-			QString constw = QString("Mel%1").arg(n->Mel_nb);
+			if (n->catNum(Nebula::CatMel)==0) continue;
+			QString constw = QString("Mel%1").arg(n->catNum(Nebula::CatMel));
 			QString constws = constw.mid(0, objUpper.size());
-			QString constws2 = QString("Melotte%1").arg(n->Mel_nb).mid(0, objUpper.size());
+			QString constws2 = QString("Melotte%1").arg(n->catNum(Nebula::CatMel)).mid(0, objUpper.size());
 			if (constws.toUpper()==objUpper || constws2.toUpper()==objUpper)
 			{
 				result.append({constw, StelObjectP(n)});
 				continue;	// Prevent adding both forms for name
 			}
-			constw = QString("Mel %1").arg(n->Mel_nb);
+			constw = QString("Mel %1").arg(n->catNum(Nebula::CatMel));
 			constws = constw.mid(0, objUpper.size());
-			constws2 = QString("Melotte %1").arg(n->Mel_nb).mid(0, objUpper.size());
+			constws2 = QString("Melotte %1").arg(n->catNum(Nebula::CatMel)).mid(0, objUpper.size());
 			if (constws.toUpper()==objUpper || constws2.toUpper()==objUpper)
 				result.append({constw, StelObjectP(n)});
 		}
@@ -2246,15 +2255,15 @@ QVector<QPair<QString,StelObjectP>> NebulaMgr::listMatchingObjects(const QString
 	{
 		for (const auto& n : dsoArray)
 		{
-			if (n->IC_nb==0) continue;
-			QString constw = QString("IC%1").arg(n->IC_nb);
+			if (n->catNum(Nebula::CatIC)==0) continue;
+			QString constw = QString("IC%1").arg(n->catNum(Nebula::CatIC));
 			QString constws = constw.mid(0, objUpper.size());
 			if (constws.toUpper()==objUpper)
 			{
 				result.append({constw, StelObjectP(n)});
 				continue;	// Prevent adding both forms for name
 			}
-			constw = QString("IC %1").arg(n->IC_nb);
+			constw = QString("IC %1").arg(n->catNum(Nebula::CatIC));
 			constws = constw.mid(0, objUpper.size());
 			if (constws.toUpper()==objUpper)
 				result.append({constw, StelObjectP(n)});
@@ -2264,15 +2273,15 @@ QVector<QPair<QString,StelObjectP>> NebulaMgr::listMatchingObjects(const QString
 	// Search by NGC numbers (possible formats are "NGC31" or "NGC 31")
 	for (const auto& n : dsoArray)
 	{
-		if (n->NGC_nb==0) continue;
-		QString constw = QString("NGC%1").arg(n->NGC_nb);
+		if (n->catNum(Nebula::CatNGC)==0) continue;
+		QString constw = QString("NGC%1").arg(n->catNum(Nebula::CatNGC));
 		QString constws = constw.mid(0, objUpper.size());
 		if (constws.toUpper()==objUpper)
 		{
 			result.append({constw, StelObjectP(n)});
 			continue;
 		}
-		constw = QString("NGC %1").arg(n->NGC_nb);
+		constw = QString("NGC %1").arg(n->catNum(Nebula::CatNGC));
 		constws = constw.mid(0, objUpper.size());
 		if (constws.toUpper()==objUpper)
 			result.append({constw, StelObjectP(n)});
@@ -2303,15 +2312,15 @@ QVector<QPair<QString,StelObjectP>> NebulaMgr::listMatchingObjects(const QString
 	{
 		for (const auto& n : dsoArray)
 		{
-			if (n->UGC_nb==0) continue;
-			QString constw = QString("UGC%1").arg(n->UGC_nb);
+			if (n->catNum(Nebula::CatUGC)==0) continue;
+			QString constw = QString("UGC%1").arg(n->catNum(Nebula::CatUGC));
 			QString constws = constw.mid(0, objUpper.size());
 			if (constws.toUpper()==objUpper)
 			{
 				result.append({constw, StelObjectP(n)});
 				continue;	// Prevent adding both forms for name
 			}
-			constw = QString("UGC %1").arg(n->UGC_nb);
+			constw = QString("UGC %1").arg(n->catNum(Nebula::CatUGC));
 			constws = constw.mid(0, objUpper.size());
 			if (constws.toUpper()==objUpper)
 				result.append({constw, StelObjectP(n)});
@@ -2323,15 +2332,15 @@ QVector<QPair<QString,StelObjectP>> NebulaMgr::listMatchingObjects(const QString
 	{
 		for (const auto& n : dsoArray)
 		{
-			if (n->C_nb==0) continue;
-			QString constw = QString("C%1").arg(n->C_nb);
+			if (n->catNum(Nebula::CatC)==0) continue;
+			QString constw = QString("C%1").arg(n->catNum(Nebula::CatC));
 			QString constws = constw.mid(0, objUpper.size());
 			if (constws.toUpper()==objUpper)
 			{
 				result.append({constw, StelObjectP(n)});
 				continue;	// Prevent adding both forms for name
 			}
-			constw = QString("C %1").arg(n->C_nb);
+			constw = QString("C %1").arg(n->catNum(Nebula::CatC));
 			constws = constw.mid(0, objUpper.size());
 			if (constws.toUpper()==objUpper)
 				result.append({constw, StelObjectP(n)});
@@ -2343,18 +2352,18 @@ QVector<QPair<QString,StelObjectP>> NebulaMgr::listMatchingObjects(const QString
 	{
 		for (const auto& n : dsoArray)
 		{
-			if (n->Cr_nb==0) continue;
-			QString constw = QString("Cr%1").arg(n->Cr_nb);
+			if (n->catNum(Nebula::CatCr)==0) continue;
+			QString constw = QString("Cr%1").arg(n->catNum(Nebula::CatCr));
 			QString constws = constw.mid(0, objUpper.size());
-			QString constws2 = QString("Collinder%1").arg(n->Cr_nb).mid(0, objUpper.size());
+			QString constws2 = QString("Collinder%1").arg(n->catNum(Nebula::CatCr)).mid(0, objUpper.size());
 			if (constws.toUpper()==objUpper || constws2.toUpper()==objUpper)
 			{
 				result.append({constw, StelObjectP(n)});
 				continue;	// Prevent adding both forms for name
 			}
-			constw = QString("Cr %1").arg(n->Cr_nb);
+			constw = QString("Cr %1").arg(n->catNum(Nebula::CatCr));
 			constws = constw.mid(0, objUpper.size());
-			constws2 = QString("Collinder %1").arg(n->Cr_nb).mid(0, objUpper.size());
+			constws2 = QString("Collinder %1").arg(n->catNum(Nebula::CatCr)).mid(0, objUpper.size());
 			if (constws.toUpper()==objUpper || constws2.toUpper()==objUpper)
 				result.append({constw, StelObjectP(n)});
 		}
@@ -2365,15 +2374,15 @@ QVector<QPair<QString,StelObjectP>> NebulaMgr::listMatchingObjects(const QString
 	{
 		for (const auto& n : dsoArray)
 		{
-			if (n->Ced_nb.isEmpty()) continue;
-			QString constw = QString("Ced%1").arg(n->Ced_nb);
+			if (n->catStr(Nebula::CatCed).isEmpty()) continue;
+			QString constw = QString("Ced%1").arg(n->catStr(Nebula::CatCed));
 			QString constws = constw.mid(0, objUpper.size());
 			if (constws.toUpper()==objUpper)
 			{
 				result.append({constw, StelObjectP(n)});
 				continue;	// Prevent adding both forms for name
 			}
-			constw = QString("Ced %1").arg(n->Ced_nb);
+			constw = QString("Ced %1").arg(n->catStr(Nebula::CatCed));
 			constws = constw.mid(0, objUpper.size());
 			if (constws.toUpper()==objUpper)
 				result.append({constw, StelObjectP(n)});
@@ -2385,15 +2394,15 @@ QVector<QPair<QString,StelObjectP>> NebulaMgr::listMatchingObjects(const QString
 	{
 		for (const auto& n : dsoArray)
 		{
-			if (n->B_nb==0) continue;
-			QString constw = QString("B%1").arg(n->B_nb);
+			if (n->catNum(Nebula::CatB)==0) continue;
+			QString constw = QString("B%1").arg(n->catNum(Nebula::CatB));
 			QString constws = constw.mid(0, objUpper.size());
 			if (constws.toUpper()==objUpper)
 			{
 				result.append({constw, StelObjectP(n)});
 				continue;	// Prevent adding both forms for name
 			}
-			constw = QString("B %1").arg(n->B_nb);
+			constw = QString("B %1").arg(n->catNum(Nebula::CatB));
 			constws = constw.mid(0, objUpper.size());
 			if (constws.toUpper()==objUpper)
 				result.append({constw, StelObjectP(n)});
@@ -2405,15 +2414,15 @@ QVector<QPair<QString,StelObjectP>> NebulaMgr::listMatchingObjects(const QString
 	{
 		for (const auto& n : dsoArray)
 		{
-			if (n->Sh2_nb==0) continue;
-			QString constw = QString("SH2-%1").arg(n->Sh2_nb);
+			if (n->catNum(Nebula::CatSh2)==0) continue;
+			QString constw = QString("SH2-%1").arg(n->catNum(Nebula::CatSh2));
 			QString constws = constw.mid(0, objUpper.size());
 			if (constws.toUpper()==objUpper)
 			{
 				result.append({constw, StelObjectP(n)});
 				continue;	// Prevent adding both forms for name
 			}
-			constw = QString("SH 2-%1").arg(n->Sh2_nb);
+			constw = QString("SH 2-%1").arg(n->catNum(Nebula::CatSh2));
 			constws = constw.mid(0, objUpper.size());
 			if (constws.toUpper()==objUpper)
 				result.append({constw, StelObjectP(n)});
@@ -2425,15 +2434,15 @@ QVector<QPair<QString,StelObjectP>> NebulaMgr::listMatchingObjects(const QString
 	{
 		for (const auto& n : dsoArray)
 		{
-			if (n->VdB_nb==0) continue;
-			QString constw = QString("vdB%1").arg(n->VdB_nb);
+			if (n->catNum(Nebula::CatVdB)==0) continue;
+			QString constw = QString("vdB%1").arg(n->catNum(Nebula::CatVdB));
 			QString constws = constw.mid(0, objUpper.size());
 			if (constws.toUpper()==objUpper)
 			{
 				result.append({constw, StelObjectP(n)});
 				continue;	// Prevent adding both forms for name
 			}
-			constw = QString("vdB %1").arg(n->VdB_nb);
+			constw = QString("vdB %1").arg(n->catNum(Nebula::CatVdB));
 			constws = constw.mid(0, objUpper.size());
 			if (constws.toUpper()==objUpper)
 				result.append({constw, StelObjectP(n)});
@@ -2445,15 +2454,15 @@ QVector<QPair<QString,StelObjectP>> NebulaMgr::listMatchingObjects(const QString
 	{
 		for (const auto& n : dsoArray)
 		{
-			if (n->RCW_nb==0) continue;
-			QString constw = QString("RCW%1").arg(n->RCW_nb);
+			if (n->catNum(Nebula::CatRCW)==0) continue;
+			QString constw = QString("RCW%1").arg(n->catNum(Nebula::CatRCW));
 			QString constws = constw.mid(0, objUpper.size());
 			if (constws.toUpper()==objUpper)
 			{
 				result.append({constw, StelObjectP(n)});
 				continue;	// Prevent adding both forms for name
 			}
-			constw = QString("RCW %1").arg(n->RCW_nb);
+			constw = QString("RCW %1").arg(n->catNum(Nebula::CatRCW));
 			constws = constw.mid(0, objUpper.size());
 			if (constws.toUpper()==objUpper)
 				result.append({constw, StelObjectP(n)});
@@ -2465,15 +2474,15 @@ QVector<QPair<QString,StelObjectP>> NebulaMgr::listMatchingObjects(const QString
 	{
 		for (const auto& n : dsoArray)
 		{
-			if (n->LDN_nb==0) continue;
-			QString constw = QString("LDN%1").arg(n->LDN_nb);
+			if (n->catNum(Nebula::CatLDN)==0) continue;
+			QString constw = QString("LDN%1").arg(n->catNum(Nebula::CatLDN));
 			QString constws = constw.mid(0, objUpper.size());
 			if (constws.toUpper()==objUpper)
 			{
 				result.append({constw, StelObjectP(n)});
 				continue;	// Prevent adding both forms for name
 			}
-			constw = QString("LDN %1").arg(n->LDN_nb);
+			constw = QString("LDN %1").arg(n->catNum(Nebula::CatLDN));
 			constws = constw.mid(0, objUpper.size());
 			if (constws.toUpper()==objUpper)
 				result.append({constw, StelObjectP(n)});
@@ -2485,15 +2494,15 @@ QVector<QPair<QString,StelObjectP>> NebulaMgr::listMatchingObjects(const QString
 	{
 		for (const auto& n : dsoArray)
 		{
-			if (n->LBN_nb==0) continue;
-			QString constw = QString("LBN%1").arg(n->LBN_nb);
+			if (n->catNum(Nebula::CatLBN)==0) continue;
+			QString constw = QString("LBN%1").arg(n->catNum(Nebula::CatLBN));
 			QString constws = constw.mid(0, objUpper.size());
 			if (constws.toUpper()==objUpper)
 			{
 				result.append({constw, StelObjectP(n)});
 				continue;	// Prevent adding both forms for name
 			}
-			constw = QString("LBN %1").arg(n->LBN_nb);
+			constw = QString("LBN %1").arg(n->catNum(Nebula::CatLBN));
 			constws = constw.mid(0, objUpper.size());
 			if (constws.toUpper()==objUpper)
 				result.append({constw, StelObjectP(n)});
@@ -2505,15 +2514,15 @@ QVector<QPair<QString,StelObjectP>> NebulaMgr::listMatchingObjects(const QString
 	{
 		for (const auto& n : dsoArray)
 		{
-			if (n->Arp_nb==0) continue;
-			QString constw = QString("Arp%1").arg(n->Arp_nb);
+			if (n->catNum(Nebula::CatArp)==0) continue;
+			QString constw = QString("Arp%1").arg(n->catNum(Nebula::CatArp));
 			QString constws = constw.mid(0, objUpper.size());
 			if (constws.toUpper()==objUpper)
 			{
 				result.append({constw, StelObjectP(n)});
 				continue;	// Prevent adding both forms for name
 			}
-			constw = QString("Arp %1").arg(n->Arp_nb);
+			constw = QString("Arp %1").arg(n->catNum(Nebula::CatArp));
 			constws = constw.mid(0, objUpper.size());
 			if (constws.toUpper()==objUpper)
 				result.append({constw, StelObjectP(n)});
@@ -2525,15 +2534,15 @@ QVector<QPair<QString,StelObjectP>> NebulaMgr::listMatchingObjects(const QString
 	{
 		for (const auto& n : dsoArray)
 		{
-			if (n->VV_nb==0) continue;
-			QString constw = QString("VV%1").arg(n->VV_nb);
+			if (n->catNum(Nebula::CatVV)==0) continue;
+			QString constw = QString("VV%1").arg(n->catNum(Nebula::CatVV));
 			QString constws = constw.mid(0, objUpper.size());
 			if (constws.toUpper()==objUpper)
 			{
 				result.append({constw, StelObjectP(n)});
 				continue;	// Prevent adding both forms for name
 			}
-			constw = QString("VV %1").arg(n->VV_nb);
+			constw = QString("VV %1").arg(n->catNum(Nebula::CatVV));
 			constws = constw.mid(0, objUpper.size());
 			if (constws.toUpper()==objUpper)
 				result.append({constw, StelObjectP(n)});
@@ -2545,15 +2554,15 @@ QVector<QPair<QString,StelObjectP>> NebulaMgr::listMatchingObjects(const QString
 	{
 		for (const auto& n : dsoArray)
 		{
-			if (n->PK_nb.isEmpty()) continue;
-			QString constw = QString("PK%1").arg(n->PK_nb);
+			if (n->catStr(Nebula::CatPK).isEmpty()) continue;
+			QString constw = QString("PK%1").arg(n->catStr(Nebula::CatPK));
 			QString constws = constw.mid(0, objUpper.size());
 			if (constws.toUpper()==objUpper)
 			{
 				result.append({constw, StelObjectP(n)});
 				continue;	// Prevent adding both forms for name
 			}
-			constw = QString("PK %1").arg(n->PK_nb);
+			constw = QString("PK %1").arg(n->catStr(Nebula::CatPK));
 			constws = constw.mid(0, objUpper.size());
 			if (constws.toUpper()==objUpper)
 				result.append({constw, StelObjectP(n)});
@@ -2565,15 +2574,15 @@ QVector<QPair<QString,StelObjectP>> NebulaMgr::listMatchingObjects(const QString
 	{
 		for (const auto& n : dsoArray)
 		{
-			if (n->PNG_nb.isEmpty()) continue;
-			QString constw = QString("PNG%1").arg(n->PNG_nb);
+			if (n->catStr(Nebula::CatPNG).isEmpty()) continue;
+			QString constw = QString("PNG%1").arg(n->catStr(Nebula::CatPNG));
 			QString constws = constw.mid(0, objUpper.size());
 			if (constws.toUpper()==objUpper)
 			{
 				result.append({constw, StelObjectP(n)});
 				continue;	// Prevent adding both forms for name
 			}
-			constw = QString("PN G%1").arg(n->PNG_nb);
+			constw = QString("PN G%1").arg(n->catStr(Nebula::CatPNG));
 			constws = constw.mid(0, objUpper.size());
 			if (constws.toUpper()==objUpper)
 				result.append({constw, StelObjectP(n)});
@@ -2585,15 +2594,15 @@ QVector<QPair<QString,StelObjectP>> NebulaMgr::listMatchingObjects(const QString
 	{
 		for (const auto& n : dsoArray)
 		{
-			if (n->SNRG_nb.isEmpty()) continue;
-			QString constw = QString("SNRG%1").arg(n->SNRG_nb);
+			if (n->catStr(Nebula::CatSNRG).isEmpty()) continue;
+			QString constw = QString("SNRG%1").arg(n->catStr(Nebula::CatSNRG));
 			QString constws = constw.mid(0, objUpper.size());
 			if (constws.toUpper()==objUpper)
 			{
 				result.append({constw, StelObjectP(n)});
 				continue;	// Prevent adding both forms for name
 			}
-			constw = QString("SNR G%1").arg(n->SNRG_nb);
+			constw = QString("SNR G%1").arg(n->catStr(Nebula::CatSNRG));
 			constws = constw.mid(0, objUpper.size());
 			if (constws.toUpper()==objUpper)
 				result.append({constw, StelObjectP(n)});
@@ -2605,18 +2614,18 @@ QVector<QPair<QString,StelObjectP>> NebulaMgr::listMatchingObjects(const QString
 	{
 		for (const auto& n : dsoArray)
 		{
-			if (n->ACO_nb.isEmpty()) continue;
-			QString constw = QString("Abell%1").arg(n->ACO_nb);
+			if (n->catStr(Nebula::CatACO).isEmpty()) continue;
+			QString constw = QString("Abell%1").arg(n->catStr(Nebula::CatACO));
 			QString constws = constw.mid(0, objUpper.size());
-			QString constws2 = QString("ACO%1").arg(n->ACO_nb).mid(0, objUpper.size());
+			QString constws2 = QString("ACO%1").arg(n->catStr(Nebula::CatACO)).mid(0, objUpper.size());
 			if (constws.toUpper()==objUpper || constws2.toUpper()==objUpper)
 			{
 				result.append({constw, StelObjectP(n)});
 				continue;	// Prevent adding both forms for name
 			}
-			constw = QString("Abell %1").arg(n->ACO_nb);
+			constw = QString("Abell %1").arg(n->catStr(Nebula::CatACO));
 			constws = constw.mid(0, objUpper.size());
-			constws2 = QString("ACO %1").arg(n->ACO_nb).mid(0, objUpper.size());
+			constws2 = QString("ACO %1").arg(n->catStr(Nebula::CatACO)).mid(0, objUpper.size());
 			if (constws.toUpper()==objUpper || constws2.toUpper()==objUpper)
 				result.append({constw, StelObjectP(n)});
 		}
@@ -2627,15 +2636,15 @@ QVector<QPair<QString,StelObjectP>> NebulaMgr::listMatchingObjects(const QString
 	{
 		for (const auto& n : dsoArray)
 		{
-			if (n->HCG_nb.isEmpty()) continue;
-			QString constw = QString("HCG%1").arg(n->HCG_nb);
+			if (n->catStr(Nebula::CatHCG).isEmpty()) continue;
+			QString constw = QString("HCG%1").arg(n->catStr(Nebula::CatHCG));
 			QString constws = constw.mid(0, objUpper.size());
 			if (constws.toUpper()==objUpper)
 			{
 				result.append({constw, StelObjectP(n)});
 				continue;	// Prevent adding both forms for name
 			}
-			constw = QString("HCG %1").arg(n->HCG_nb);
+			constw = QString("HCG %1").arg(n->catStr(Nebula::CatHCG));
 			constws = constw.mid(0, objUpper.size());
 			if (constws.toUpper()==objUpper)
 				result.append({constw, StelObjectP(n)});
@@ -2647,15 +2656,15 @@ QVector<QPair<QString,StelObjectP>> NebulaMgr::listMatchingObjects(const QString
 	{
 		for (const auto& n : dsoArray)
 		{
-			if (n->ESO_nb.isEmpty()) continue;
-			QString constw = QString("ESO%1").arg(n->ESO_nb);
+			if (n->catStr(Nebula::CatESO).isEmpty()) continue;
+			QString constw = QString("ESO%1").arg(n->catStr(Nebula::CatESO));
 			QString constws = constw.mid(0, objUpper.size());
 			if (constws.toUpper()==objUpper)
 			{
 				result.append({constw, StelObjectP(n)});
 				continue;	// Prevent adding both forms for name
 			}
-			constw = QString("ESO %1").arg(n->ESO_nb);
+			constw = QString("ESO %1").arg(n->catStr(Nebula::CatESO));
 			constws = constw.mid(0, objUpper.size());
 			if (constws.toUpper()==objUpper)
 				result.append({constw, StelObjectP(n)});
@@ -2667,15 +2676,15 @@ QVector<QPair<QString,StelObjectP>> NebulaMgr::listMatchingObjects(const QString
 	{
 		for (const auto& n : dsoArray)
 		{
-			if (n->VdBH_nb.isEmpty()) continue;
-			QString constw = QString("vdBH%1").arg(n->VdBH_nb);
+			if (n->catStr(Nebula::CatVdBH).isEmpty()) continue;
+			QString constw = QString("vdBH%1").arg(n->catStr(Nebula::CatVdBH));
 			QString constws = constw.mid(0, objUpper.size());
 			if (constws.toUpper()==objUpper)
 			{
 				result.append({constw, StelObjectP(n)});
 				continue;	// Prevent adding both forms for name
 			}
-			constw = QString("vdBH %1").arg(n->VdBH_nb);
+			constw = QString("vdBH %1").arg(n->catStr(Nebula::CatVdBH));
 			constws = constw.mid(0, objUpper.size());
 			if (constws.toUpper()==objUpper)
 				result.append({constw, StelObjectP(n)});
@@ -2687,15 +2696,15 @@ QVector<QPair<QString,StelObjectP>> NebulaMgr::listMatchingObjects(const QString
 	{
 		for (const auto& n : dsoArray)
 		{
-			if (n->DWB_nb==0) continue;
-			QString constw = QString("DWB%1").arg(n->DWB_nb);
+			if (n->catNum(Nebula::CatDWB)==0) continue;
+			QString constw = QString("DWB%1").arg(n->catNum(Nebula::CatDWB));
 			QString constws = constw.mid(0, objUpper.size());
 			if (constws.toUpper()==objUpper)
 			{
 				result.append({constw, StelObjectP(n)});
 				continue;	// Prevent adding both forms for name
 			}
-			constw = QString("DWB %1").arg(n->DWB_nb);
+			constw = QString("DWB %1").arg(n->catNum(Nebula::CatDWB));
 			constws = constw.mid(0, objUpper.size());
 			if (constws.toUpper()==objUpper)
 				result.append({constw, StelObjectP(n)});
@@ -2707,18 +2716,18 @@ QVector<QPair<QString,StelObjectP>> NebulaMgr::listMatchingObjects(const QString
 	{
 		for (const auto& n : dsoArray)
 		{
-			if (n->Tr_nb==0) continue;
-			QString constw = QString("Tr%1").arg(n->Tr_nb);
+			if (n->catNum(Nebula::CatTr)==0) continue;
+			QString constw = QString("Tr%1").arg(n->catNum(Nebula::CatTr));
 			QString constws = constw.mid(0, objUpper.size());
-			QString constws2 = QString("Trumpler%1").arg(n->Tr_nb).mid(0, objUpper.size());
+			QString constws2 = QString("Trumpler%1").arg(n->catNum(Nebula::CatTr)).mid(0, objUpper.size());
 			if (constws.toUpper()==objUpper || constws2.toUpper()==objUpper)
 			{
 				result.append({constw, StelObjectP(n)});
 				continue;	// Prevent adding both forms for name
 			}
-			constw = QString("Tr %1").arg(n->Tr_nb);
+			constw = QString("Tr %1").arg(n->catNum(Nebula::CatTr));
 			constws = constw.mid(0, objUpper.size());
-			constws2 = QString("Trumpler %1").arg(n->Tr_nb).mid(0, objUpper.size());
+			constws2 = QString("Trumpler %1").arg(n->catNum(Nebula::CatTr)).mid(0, objUpper.size());
 			if (constws.toUpper()==objUpper || constws2.toUpper()==objUpper)
 				result.append({constw, StelObjectP(n)});
 		}
@@ -2729,18 +2738,18 @@ QVector<QPair<QString,StelObjectP>> NebulaMgr::listMatchingObjects(const QString
 	{
 		for (const auto& n : dsoArray)
 		{
-			if (n->St_nb==0) continue;
-			QString constw = QString("St%1").arg(n->St_nb);
+			if (n->catNum(Nebula::CatSt)==0) continue;
+			QString constw = QString("St%1").arg(n->catNum(Nebula::CatSt));
 			QString constws = constw.mid(0, objUpper.size());
-			QString constws2 = QString("Stock%1").arg(n->St_nb).mid(0, objUpper.size());
+			QString constws2 = QString("Stock%1").arg(n->catNum(Nebula::CatSt)).mid(0, objUpper.size());
 			if (constws.toUpper()==objUpper || constws2.toUpper()==objUpper)
 			{
 				result.append({constw, StelObjectP(n)});
 				continue;	// Prevent adding both forms for name
 			}
-			constw = QString("St %1").arg(n->St_nb);
+			constw = QString("St %1").arg(n->catNum(Nebula::CatSt));
 			constws = constw.mid(0, objUpper.size());
-			constws2 = QString("Stock %1").arg(n->St_nb).mid(0, objUpper.size());
+			constws2 = QString("Stock %1").arg(n->catNum(Nebula::CatSt)).mid(0, objUpper.size());
 			if (constws.toUpper()==objUpper || constws2.toUpper()==objUpper)
 				result.append({constw, StelObjectP(n)});
 		}
@@ -2751,18 +2760,18 @@ QVector<QPair<QString,StelObjectP>> NebulaMgr::listMatchingObjects(const QString
 	{
 		for (const auto& n : dsoArray)
 		{
-			if (n->Ru_nb==0) continue;
-			QString constw = QString("Ru%1").arg(n->Ru_nb);
+			if (n->catNum(Nebula::CatRu)==0) continue;
+			QString constw = QString("Ru%1").arg(n->catNum(Nebula::CatRu));
 			QString constws = constw.mid(0, objUpper.size());
-			QString constws2 = QString("Ruprecht%1").arg(n->Ru_nb).mid(0, objUpper.size());
+			QString constws2 = QString("Ruprecht%1").arg(n->catNum(Nebula::CatRu)).mid(0, objUpper.size());
 			if (constws.toUpper()==objUpper || constws2.toUpper()==objUpper)
 			{
 				result.append({constw, StelObjectP(n)});
 				continue;	// Prevent adding both forms for name
 			}
-			constw = QString("Ru %1").arg(n->Ru_nb);
+			constw = QString("Ru %1").arg(n->catNum(Nebula::CatRu));
 			constws = constw.mid(0, objUpper.size());
-			constws2 = QString("Ruprecht %1").arg(n->Ru_nb).mid(0, objUpper.size());
+			constws2 = QString("Ruprecht %1").arg(n->catNum(Nebula::CatRu)).mid(0, objUpper.size());
 			if (constws.toUpper()==objUpper || constws2.toUpper()==objUpper)
 				result.append({constw, StelObjectP(n)});
 		}
@@ -2773,15 +2782,15 @@ QVector<QPair<QString,StelObjectP>> NebulaMgr::listMatchingObjects(const QString
 	{
 		for (const auto& n : dsoArray)
 		{
-			if (n->VdBHa_nb==0) continue;
-			QString constw = QString("vdB-Ha%1").arg(n->VdBHa_nb);
+			if (n->catNum(Nebula::CatVdBHa)==0) continue;
+			QString constw = QString("vdB-Ha%1").arg(n->catNum(Nebula::CatVdBHa));
 			QString constws = constw.mid(0, objUpper.size());
 			if (constws.toUpper()==objUpper)
 			{
 				result.append({constw, StelObjectP(n)});
 				continue;	// Prevent adding both forms for name
 			}
-			constw = QString("vdB-Ha %1").arg(n->VdBHa_nb);
+			constw = QString("vdB-Ha %1").arg(n->catNum(Nebula::CatVdBHa));
 			constws = constw.mid(0, objUpper.size());
 			if (constws.toUpper()==objUpper)
 				result.append({constw, StelObjectP(n)});
@@ -2870,111 +2879,111 @@ QVector<QPair<QString,StelObjectP>> NebulaMgr::listAllObjectsByType(const QStrin
 			break;
 		case 100: // Messier Catalogue?
 			for (const auto& n : getDeepSkyObjectsByType(objType))
-				map[QString("M%1").arg(n->M_nb)] = StelObjectP(n);
+				map[QString("M%1").arg(n->catNum(Nebula::CatM))] = StelObjectP(n);
 			break;
 		case 101: // Caldwell Catalogue?
 			for (const auto& n : getDeepSkyObjectsByType(objType))
-				map[QString("C%1").arg(n->C_nb)] = StelObjectP(n);
+				map[QString("C%1").arg(n->catNum(Nebula::CatC))] = StelObjectP(n);
 			break;
 		case 102: // Barnard Catalogue?
 			for (const auto& n : getDeepSkyObjectsByType(objType))
-				map[QString("B %1").arg(n->B_nb)] = StelObjectP(n);
+				map[QString("B %1").arg(n->catNum(Nebula::CatB))] = StelObjectP(n);
 			break;
 		case 103: // Sharpless Catalogue?
 			for (const auto& n : getDeepSkyObjectsByType(objType))
-				map[QString("SH 2-%1").arg(n->Sh2_nb)] = StelObjectP(n);
+				map[QString("SH 2-%1").arg(n->catNum(Nebula::CatSh2))] = StelObjectP(n);
 			break;
 		case 104: // van den Bergh Catalogue
 			for (const auto& n : getDeepSkyObjectsByType(objType))
-				map[QString("vdB %1").arg(n->VdB_nb)] = StelObjectP(n);
+				map[QString("vdB %1").arg(n->catNum(Nebula::CatVdB))] = StelObjectP(n);
 			break;
 		case 105: // RCW Catalogue
 			for (const auto& n : getDeepSkyObjectsByType(objType))
-				map[QString("RCW %1").arg(n->RCW_nb)] = StelObjectP(n);
+				map[QString("RCW %1").arg(n->catNum(Nebula::CatRCW))] = StelObjectP(n);
 			break;
 		case 106: // Collinder Catalogue
 			for (const auto& n : getDeepSkyObjectsByType(objType))
-				map[QString("Cr %1").arg(n->Cr_nb)] = StelObjectP(n);
+				map[QString("Cr %1").arg(n->catNum(Nebula::CatCr))] = StelObjectP(n);
 			break;
 		case 107: // Melotte Catalogue
 			for (const auto& n : getDeepSkyObjectsByType(objType))
-				map[QString("Mel %1").arg(n->Mel_nb)] = StelObjectP(n);
+				map[QString("Mel %1").arg(n->catNum(Nebula::CatMel))] = StelObjectP(n);
 			break;
 		case 108: // New General Catalogue
 			for (const auto& n : getDeepSkyObjectsByType(objType))
-				map[QString("NGC %1").arg(n->NGC_nb)] = StelObjectP(n);
+				map[QString("NGC %1").arg(n->catNum(Nebula::CatNGC))] = StelObjectP(n);
 			break;
 		case 109: // Index Catalogue
 			for (const auto& n : getDeepSkyObjectsByType(objType))
-				map[QString("IC %1").arg(n->IC_nb)] = StelObjectP(n);
+				map[QString("IC %1").arg(n->catNum(Nebula::CatIC))] = StelObjectP(n);
 			break;
 		case 110: // Lynds' Catalogue of Bright Nebulae
 			for (const auto& n : getDeepSkyObjectsByType(objType))
-				map[QString("LBN %1").arg(n->LBN_nb)] = StelObjectP(n);
+				map[QString("LBN %1").arg(n->catNum(Nebula::CatLBN))] = StelObjectP(n);
 			break;
 		case 111: // Lynds' Catalogue of Dark Nebulae
 			for (const auto& n : getDeepSkyObjectsByType(objType))
-				map[QString("LDN %1").arg(n->LDN_nb)] = StelObjectP(n);
+				map[QString("LDN %1").arg(n->catNum(Nebula::CatLDN))] = StelObjectP(n);
 			break;
 		case 114: // Cederblad Catalog
 			for (const auto& n : getDeepSkyObjectsByType(objType))
-				map[QString("Ced %1").arg(n->Ced_nb)] = StelObjectP(n);
+				map[QString("Ced %1").arg(n->catStr(Nebula::CatCed))] = StelObjectP(n);
 			break;
 		case 115: // Atlas of Peculiar Galaxies (Arp)
 			for (const auto& n : getDeepSkyObjectsByType(objType))
-				map[QString("Arp %1").arg(n->Arp_nb)] = StelObjectP(n);
+				map[QString("Arp %1").arg(n->catNum(Nebula::CatArp))] = StelObjectP(n);
 			break;
 		case 116: // The Catalogue of Interacting Galaxies by Vorontsov-Velyaminov (VV)
 			for (const auto& n : getDeepSkyObjectsByType(objType))
-				map[QString("VV %1").arg(n->VV_nb)] = StelObjectP(n);
+				map[QString("VV %1").arg(n->catNum(Nebula::CatVV))] = StelObjectP(n);
 			break;
 		case 117: // Catalogue of Galactic Planetary Nebulae (PK)
 			for (const auto& n : getDeepSkyObjectsByType(objType))
-				map[QString("PK %1").arg(n->PK_nb)] = StelObjectP(n);
+				map[QString("PK %1").arg(n->catStr(Nebula::CatPK))] = StelObjectP(n);
 			break;
 		case 118: // Strasbourg-ESO Catalogue of Galactic Planetary Nebulae by Acker et. al. (PN G)
 			for (const auto& n : getDeepSkyObjectsByType(objType))
-				map[QString("PN G%1").arg(n->PNG_nb)] = StelObjectP(n);
+				map[QString("PN G%1").arg(n->catStr(Nebula::CatPNG))] = StelObjectP(n);
 			break;
 		case 119: // A catalogue of Galactic supernova remnants by Green (SNR G)
 			for (const auto& n : getDeepSkyObjectsByType(objType))
-				map[QString("SNR G%1").arg(n->SNRG_nb)] = StelObjectP(n);
+				map[QString("SNR G%1").arg(n->catStr(Nebula::CatSNRG))] = StelObjectP(n);
 			break;
 		case 120: // A Catalog of Rich Clusters of Galaxies by Abell et. al. (Abell (ACO))
 			for (const auto& n : getDeepSkyObjectsByType(objType))
-				map[QString("Abell %1").arg(n->ACO_nb)] = StelObjectP(n);
+				map[QString("Abell %1").arg(n->catStr(Nebula::CatACO))] = StelObjectP(n);
 			break;
 		case 121: // Hickson Compact Group by Hickson et. al. (HCG)
 			for (const auto& n : getDeepSkyObjectsByType(objType))
-				map[QString("HCG %1").arg(n->HCG_nb)] = StelObjectP(n);
+				map[QString("HCG %1").arg(n->catStr(Nebula::CatHCG))] = StelObjectP(n);
 			break;
 		case 122: // ESO/Uppsala Survey of the ESO(B) Atlas (ESO)
 			for (const auto& n : getDeepSkyObjectsByType(objType))
-				map[QString("ESO %1").arg(n->ESO_nb)] = StelObjectP(n);
+				map[QString("ESO %1").arg(n->catStr(Nebula::CatESO))] = StelObjectP(n);
 			break;
 		case 123: // Catalogue of southern stars embedded in nebulosity (vdBH)
 			for (const auto& n : getDeepSkyObjectsByType(objType))
-				map[QString("vdBH %1").arg(n->VdBH_nb)] = StelObjectP(n);
+				map[QString("vdBH %1").arg(n->catStr(Nebula::CatVdBH))] = StelObjectP(n);
 			break;
 		case 124: // Catalogue and distances of optically visible H II regions (DWB)
 			for (const auto& n : getDeepSkyObjectsByType(objType))
-				map[QString("DWB %1").arg(n->DWB_nb)] = StelObjectP(n);
+				map[QString("DWB %1").arg(n->catNum(Nebula::CatDWB))] = StelObjectP(n);
 			break;
 		case 125: // Trumpler Catalogue (Tr)
 			for (const auto& n : getDeepSkyObjectsByType(objType))
-				map[QString("Tr %1").arg(n->Tr_nb)] = StelObjectP(n);
+				map[QString("Tr %1").arg(n->catNum(Nebula::CatTr))] = StelObjectP(n);
 			break;
 		case 126: // Stock Catalogue (St)
 			for (const auto& n : getDeepSkyObjectsByType(objType))
-				map[QString("St %1").arg(n->St_nb)] = StelObjectP(n);
+				map[QString("St %1").arg(n->catNum(Nebula::CatSt))] = StelObjectP(n);
 			break;
 		case 127: // Ruprecht Catalogue (Ru)
 			for (const auto& n : getDeepSkyObjectsByType(objType))
-				map[QString("Ru %1").arg(n->Ru_nb)] = StelObjectP(n);
+				map[QString("Ru %1").arg(n->catNum(Nebula::CatRu))] = StelObjectP(n);
 			break;
 		case 128: // van den Bergh-Hagen Catalogue (VdB-Ha)
 			for (const auto& n : getDeepSkyObjectsByType(objType))
-				map[QString("vdB-Ha %1").arg(n->VdBHa_nb)] = StelObjectP(n);
+				map[QString("vdB-Ha %1").arg(n->catNum(Nebula::CatVdBHa))] = StelObjectP(n);
 			break;
 		case 150: // Dwarf galaxies [see NebulaList.hpp]
 		{
@@ -3057,84 +3066,84 @@ const QList<NebulaP> NebulaMgr::getDeepSkyObjectsByType(const QString &objType) 
 		case 100: // Messier Catalogue?
 			for (const auto& n : dsoArray)
 			{
-				if (n->M_nb>0)
+				if (n->catNum(Nebula::CatM)>0)
 					dso.append(n);
 			}
 			break;
 		case 101: // Caldwell Catalogue?
 			for (const auto& n : dsoArray)
 			{
-				if (n->C_nb>0)
+				if (n->catNum(Nebula::CatC)>0)
 					dso.append(n);
 			}
 			break;
 		case 102: // Barnard Catalogue?
 			for (const auto& n : dsoArray)
 			{
-				if (n->B_nb>0)
+				if (n->catNum(Nebula::CatB)>0)
 					dso.append(n);
 			}
 			break;
 		case 103: // Sharpless Catalogue?
 			for (const auto& n : dsoArray)
 			{
-				if (n->Sh2_nb>0)
+				if (n->catNum(Nebula::CatSh2)>0)
 					dso.append(n);
 			}
 			break;
 		case 104: // van den Bergh Catalogue
 			for (const auto& n : dsoArray)
 			{
-				if (n->VdB_nb>0)
+				if (n->catNum(Nebula::CatVdB)>0)
 					dso.append(n);
 			}
 			break;
 		case 105: // RCW Catalogue
 			for (const auto& n : dsoArray)
 			{
-				if (n->RCW_nb>0)
+				if (n->catNum(Nebula::CatRCW)>0)
 					dso.append(n);
 			}
 			break;
 		case 106: // Collinder Catalogue
 			for (const auto& n : dsoArray)
 			{
-				if (n->Cr_nb>0)
+				if (n->catNum(Nebula::CatCr)>0)
 					dso.append(n);
 			}
 			break;
 		case 107: // Melotte Catalogue
 			for (const auto& n : dsoArray)
 			{
-				if (n->Mel_nb>0)
+				if (n->catNum(Nebula::CatMel)>0)
 					dso.append(n);
 			}
 			break;
 		case 108: // New General Catalogue
 			for (const auto& n : dsoArray)
 			{
-				if (n->NGC_nb>0)
+				if (n->catNum(Nebula::CatNGC)>0)
 					dso.append(n);
 			}
 			break;
 		case 109: // Index Catalogue
 			for (const auto& n : dsoArray)
 			{
-				if (n->IC_nb>0)
+				if (n->catNum(Nebula::CatIC)>0)
 					dso.append(n);
 			}
 			break;
 		case 110: // Lynds' Catalogue of Bright Nebulae
 			for (const auto& n : dsoArray)
 			{
-				if (n->LBN_nb>0)
+				if (n->catNum(Nebula::CatLBN)>0)
 					dso.append(n);
 			}
 			break;
 		case 111: // Lynds' Catalogue of Dark Nebulae
 			for (const auto& n : dsoArray)
 			{
-				if (n->LDN_nb>0)
+				if (n->catNum(Nebula::CatLDN)>0)
 					dso.append(n);
 			}
 			break;
@@ -3148,112 +3157,112 @@ const QList<NebulaP> NebulaMgr::getDeepSkyObjectsByType(const QString &objType) 
 		case 113: // The Uppsala General Catalogue of Galaxies
 			for (const auto& n : dsoArray)
 			{
-				if (n->UGC_nb>0)
+				if (n->catNum(Nebula::CatUGC)>0)
 					dso.append(n);
 			}
 			break;
 		case 114: // Cederblad Catalog
 			for (const auto& n : dsoArray)
 			{
-				if (!n->Ced_nb.isEmpty())
+				if (!n->catStr(Nebula::CatCed).isEmpty())
 					dso.append(n);
 			}
 			break;
 		case 115: // Atlas of Peculiar Galaxies (Arp)
 			for (const auto& n : dsoArray)
 			{
-				if (n->Arp_nb>0)
+				if (n->catNum(Nebula::CatArp)>0)
 					dso.append(n);
 			}
 			break;
 		case 116: // The Catalogue of Interacting Galaxies by Vorontsov-Velyaminov (VV)
 			for (const auto& n : dsoArray)
 			{
-				if (n->VV_nb>0)
+				if (n->catNum(Nebula::CatVV)>0)
 					dso.append(n);
 			}
 			break;
 		case 117: // Catalogue of Galactic Planetary Nebulae (PK)
 			for (const auto& n : dsoArray)
 			{
-				if (!n->PK_nb.isEmpty())
+				if (!n->catStr(Nebula::CatPK).isEmpty())
 					dso.append(n);
 			}
 			break;
 		case 118: // Strasbourg-ESO Catalogue of Galactic Planetary Nebulae by Acker et. al. (PN G)
 			for (const auto& n : dsoArray)
 			{
-				if (!n->PNG_nb.isEmpty())
+				if (!n->catStr(Nebula::CatPNG).isEmpty())
 					dso.append(n);
 			}
 			break;
 		case 119: // A catalogue of Galactic supernova remnants by Green (SNR G)
 			for (const auto& n : dsoArray)
 			{
-				if (!n->SNRG_nb.isEmpty())
+				if (!n->catStr(Nebula::CatSNRG).isEmpty())
 					dso.append(n);
 			}
 			break;
 		case 120: // A Catalog of Rich Clusters of Galaxies by Abell et. al. (ACO)
 			for (const auto& n : dsoArray)
 			{
-				if (!n->ACO_nb.isEmpty())
+				if (!n->catStr(Nebula::CatACO).isEmpty())
 					dso.append(n);
 			}
 			break;
 		case 121: // Hickson Compact Group by Hickson et. al. (HCG)
 			for (const auto& n : dsoArray)
 			{
-				if (!n->HCG_nb.isEmpty())
+				if (!n->catStr(Nebula::CatHCG).isEmpty())
 					dso.append(n);
 			}
 			break;
 		case 122: // ESO/Uppsala Survey of the ESO(B) Atlas (ESO)
 			for (const auto& n : dsoArray)
 			{
-				if (!n->ESO_nb.isEmpty())
+				if (!n->catStr(Nebula::CatESO).isEmpty())
 					dso.append(n);
 			}
 			break;
 		case 123: // Catalogue of southern stars embedded in nebulosity (VdBH)
 			for (const auto& n : dsoArray)
 			{
-				if (!n->VdBH_nb.isEmpty())
+				if (!n->catStr(Nebula::CatVdBH).isEmpty())
 					dso.append(n);
 			}
 			break;
 		case 124: // Catalogue and distances of optically visible H II regions (DWB)
 			for (const auto& n : dsoArray)
 			{
-				if (n->DWB_nb > 0)
+				if (n->catNum(Nebula::CatDWB) > 0)
 					dso.append(n);
 			}
 			break;
 		case 125: // Trumpler Catalogue (Tr)
 			for (const auto& n : dsoArray)
 			{
-				if (n->Tr_nb > 0)
+				if (n->catNum(Nebula::CatTr) > 0)
 					dso.append(n);
 			}
 			break;
 		case 126: // Stock Catalogue (St)
 			for (const auto& n : dsoArray)
 			{
-				if (n->St_nb > 0)
+				if (n->catNum(Nebula::CatSt) > 0)
 					dso.append(n);
 			}
 			break;
 		case 127: // Ruprecht Catalogue (Ru)
 			for (const auto& n : dsoArray)
 			{
-				if (n->Ru_nb > 0)
+				if (n->catNum(Nebula::CatRu) > 0)
 					dso.append(n);
 			}
 			break;
 		case 128: // van den Bergh-Hagen Catalogue (VdB-Ha)
 			for (const auto& n : dsoArray)
 			{
-				if (n->VdBHa_nb > 0)
+				if (n->catNum(Nebula::CatVdBHa) > 0)
 					dso.append(n);
 			}
 			break;

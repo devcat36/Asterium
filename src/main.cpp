@@ -402,7 +402,11 @@ int main(int argc, char **argv)
 	StelFileMgr::setObsListDir(confSettings->value("main/observinglists_dir", StelFileMgr::getUserDir()).toString());
 
 	// Add the Noto & DejaVu fonts that we use everywhere in the program
+#if defined(Q_OS_ANDROID)
+	const QStringList customFonts = { "NotoSans-Regular.ttf", "NotoSansMono-Regular.ttf", "DejaVuSans.ttf", "DejaVuSansMono.ttf" };
+#else
 	const QStringList customFonts = { "NotoSans-Regular.ttf", "NotoSansMono-Regular.ttf", "NotoSansSC-Regular.otf", "DejaVuSans.ttf", "DejaVuSansMono.ttf" };
+#endif
 	for (auto &font: std::as_const(customFonts))
 	{
 		QString customFont = StelFileMgr::findFile(QString("data/%1").arg(font));

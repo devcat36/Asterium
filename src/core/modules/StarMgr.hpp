@@ -460,6 +460,17 @@ public:
 	//! @param hip The Hipparcos/Gaia number of star
 	//! @return binary orbit data
 	static binaryorbitstar getBinaryOrbitData(StarId hip);
+	static const binaryorbitstar* findBinaryOrbit(StarId hip);
+	static void ensureSearchIndices();
+	static void ensureStarDetails();
+	static const QHash<int, StarId>& saoStarsBy() { ensureSearchIndices(); return saoStarsIndex; }
+	static const QHash<int, StarId>& hdStarsBy() { ensureSearchIndices(); return hdStarsIndex; }
+	static const QHash<int, StarId>& hrStarsBy() { ensureSearchIndices(); return hrStarsIndex; }
+	static const QHash<QString, StarId>& varStarsBy() { ensureSearchIndices(); return varStarsIndex; }
+	static const QHash<QString, StarId>& wdsStarsBy() { ensureSearchIndices(); return wdsStarsIndex; }
+#if defined(Q_OS_ANDROID)
+	static QString extractCatalogForMapping(const QString& assetPath, const QString& fileName);
+#endif
 
 	static QString convertToSpectralType(int index);
 	static QString convertToComponentIds(int index);
@@ -475,14 +486,14 @@ public:
 	bool checkAndLoadCatalog(const QVariantMap& m, bool load);
 
 	//! Get the list of all Hipparcos stars.
-	const QList<StelObjectP>& getHipparcosStars() const { return hipparcosStars; }	
-	const QList<QPair<StelObjectP, float>>& getHipparcosHighPMStars() const { return hipStarsHighPM; }
-	const QList<QPair<StelObjectP, float>>& getHipparcosDoubleStars() const { return doubleHipStars; }
-	const QList<QPair<StelObjectP, float>>& getHipparcosVariableStars() const { return variableHipStars; }
-	const QList<QPair<StelObjectP, float>>& getHipparcosAlgolTypeStars() const { return algolTypeStars; }
-	const QList<QPair<StelObjectP, float>>& getHipparcosClassicalCepheidsTypeStars() const { return classicalCepheidsTypeStars; }
-	const QList<StelObjectP>& getHipparcosCarbonStars() const { return carbonStars; }
-	const QList<StelObjectP>& getHipparcosBariumStars() const { return bariumStars; }
+	const QList<StelObjectP>& getHipparcosStars() const { ensureHipparcosLists(); return hipparcosStars; }	
+	const QList<QPair<StelObjectP, float>>& getHipparcosHighPMStars() const { ensureHipparcosLists(); return hipStarsHighPM; }
+	const QList<QPair<StelObjectP, float>>& getHipparcosDoubleStars() const { ensureHipparcosLists(); return doubleHipStars; }
+	const QList<QPair<StelObjectP, float>>& getHipparcosVariableStars() const { ensureHipparcosLists(); return variableHipStars; }
+	const QList<QPair<StelObjectP, float>>& getHipparcosAlgolTypeStars() const { ensureHipparcosLists(); return algolTypeStars; }
+	const QList<QPair<StelObjectP, float>>& getHipparcosClassicalCepheidsTypeStars() const { ensureHipparcosLists(); return classicalCepheidsTypeStars; }
+	const QList<StelObjectP>& getHipparcosCarbonStars() const { ensureHipparcosLists(); return carbonStars; }
+	const QList<StelObjectP>& getHipparcosBariumStars() const { ensureHipparcosLists(); return bariumStars; }
 
 private slots:
 	//! Translate text.
@@ -538,15 +549,15 @@ private:
 
 	//! Loads GCVS from a file.
 	//! @param the path to a file containing the GCVS.
-	void loadGcvs(const QString& GcvsFileName);
+	static void loadGcvs(const QString& GcvsFileName);
 
 	//! Loads WDS from a file.
 	//! @param the path to a file containing the WDS.
-	void loadWds(const QString& WdsFileName);
+	static void loadWds(const QString& WdsFileName);
 
 	//! Loads cross-identification data from a file.
 	//! @param the path to a file containing the cross-identification data.
-	void loadCrossIdentificationData(const QString& crossIdFile);
+	static void loadCrossIdentificationData(const QString& crossIdFile);
 
 	//! Loads orbital parameters data for binary systems data from a file.
 	//! @param the path to a file containing the orbital parameters data for binary systems.
@@ -562,9 +573,8 @@ private:
 	//! Draw a nice animated pointer around the object.
 	void drawPointer(StelPainter& sPainter, const StelCore* core);
 
-	//! Fill hipparcosStars, hipStarsHighPM, doubleHipStars, variableHipStars, algolTypeStars,
-	//! classicalCepheidsTypeStars, carbonStars, bariumStars. Called once in init().
-	void populateHipparcosLists();
+	void populateHipparcosLists() const;
+	void ensureHipparcosLists() const { if (!hipparcosListsBuilt) populateHipparcosLists(); }
 	//! Load scientific star names, variable names, binary data, cross indices. Called once in init().
 	void populateStarsDesignations();
 
@@ -572,8 +582,9 @@ private:
 	void populateVariableStarsList();
 
 	//! List of all Hipparcos stars.
-	QList<StelObjectP> hipparcosStars, carbonStars, bariumStars;
-	QList<StelACStarData> doubleHipStars, variableHipStars, algolTypeStars, classicalCepheidsTypeStars, hipStarsHighPM;
+	mutable bool hipparcosListsBuilt = false;
+	mutable QList<StelObjectP> hipparcosStars, carbonStars, bariumStars;
+	mutable QList<StelACStarData> doubleHipStars, variableHipStars, algolTypeStars, classicalCepheidsTypeStars, hipStarsHighPM;
 
 	QMap<QString,StelObjectP> doubleStars; //!< Intersting double stars
 	QMap<QString,StelObjectP> variableStars; //!< Interesting variable stars
@@ -628,13 +639,15 @@ private:
 
 	static QHash<StarId, varstar> varStarsMap;
 	static QHash<QString, StarId> varStarsIndex;
+	static bool searchIndicesBuilt;
+	static bool starDetailsLoaded;
 
 	//! Washington Double Star catalog
 	static QHash<StarId, wds> wdsStarsMap;
 	static QHash<QString, StarId> wdsStarsIndex;
 
-	//! Cross index HIP/SAO/HD/HR
-	static QMap<QString, crossid> crossIdMap;
+	static QVector<crossid> crossIdIndex;
+	static QHash<QString, crossid> crossIdExtra;
 	static QHash<int, StarId> saoStarsIndex;
 	static QHash<int, StarId> hdStarsIndex;
 	static QHash<int, StarId> hrStarsIndex;
