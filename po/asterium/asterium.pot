@@ -69,10 +69,6 @@ msgstr ""
 msgid "A polygonal model for some small moons, asteroids and comets instead of a sphere"
 msgstr ""
 
-#: android/java/org/asterium/asterium/HelpSheet.java:92
-msgid "A touch-first planetarium forked from Stellarium, whose astronomy engine it uses unchanged. The interface is new; everything that draws the sky is upstream's work."
-msgstr ""
-
 #: android/java/org/asterium/asterium/ViewSheet.java:1044
 msgid "Abbreviated names"
 msgstr ""
@@ -307,6 +303,10 @@ msgstr ""
 
 #: android/java/org/asterium/asterium/ViewSheet.java:1085
 msgid "Asterisms font size"
+msgstr ""
+
+#: android/java/org/asterium/asterium/HelpSheet.java:92
+msgid "Asterium brings the night sky to your fingertips. Explore stars, planets, constellations, and distant galaxies through an interface designed for touch. Built on Stellarium’s astronomy engine, with offline access to a richly detailed sky."
 msgstr ""
 
 #: src/gui/mobile/AstroCalcPhenomena.cpp:1097 src/gui/mobile/AstroCalcWut.cpp:180

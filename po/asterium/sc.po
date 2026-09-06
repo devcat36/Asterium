@@ -45,9 +45,6 @@ msgstr "Unu tastu po marcare onni ogettu de sa lista de s'osservatzione in su ch
 msgid "A polygonal model for some small moons, asteroids and comets instead of a sphere"
 msgstr "Unu modellu poligonale po certos satellitis mannos, asteroides et isteddos coilongos in logu de una sfera"
 
-msgid "A touch-first planetarium forked from Stellarium, whose astronomy engine it uses unchanged. The interface is new; everything that draws the sky is upstream's work."
-msgstr "Unu planetariu a toccu primu isportzau dae Stellarium, chelu imperat su motore d'astronomia inalberadu. S'interface est noa; totu cale chi deseniat su chelu est uffiza de a cabedda."
-
 msgid "Abbreviated names"
 msgstr "Numenes abbreviados"
 
@@ -149,6 +146,9 @@ msgstr "Lin. ast."
 
 msgid "Ast. names"
 msgstr "Nom. ast."
+
+msgid "Asterium brings the night sky to your fingertips. Explore stars, planets, constellations, and distant galaxies through an interface designed for touch. Built on Stellarium’s astronomy engine, with offline access to a richly detailed sky."
+msgstr "Asterium ponet su chelu noturnu a punta de poddighes. Esplora istellas, planetas, costellatziones e galàssias lontanas cun un'interfache pensada pro su tocu. Basadu in su motore astronòmicu de Stellarium, cun atzessu chene connessione a unu chelu ricu de detàllios."
 
 msgid "Astronomical Almanac (1984)"
 msgstr "Almanaccu Astronomicu (1984)"

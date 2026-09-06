@@ -60,9 +60,6 @@ msgstr "Галактик торын сүндерү/кушу"
 msgid "A polygonal model for some small moons, asteroids and comets instead of a sphere"
 msgstr "Кайбер бәләкәй ай, астероидлар һәм кометалар өчен шар урынына күпбөлсәләр модель"
 
-msgid "A touch-first planetarium forked from Stellarium, whose astronomy engine it uses unchanged. The interface is new; everything that draws the sky is upstream's work."
-msgstr "Stellarium'дан сәләтләнгән һәм анын астрономия машинасын үзгәрешсез кулланган тронэнемәләре бирелгән планетарий. Интерфейс яңа; күк сызган һәммә нәмә юыннан."
-
 msgid "Abbreviated names"
 msgstr "Кыскартылган исемнәр"
 
@@ -218,6 +215,9 @@ msgstr "Астеризмнар"
 
 msgid "Asterisms font size"
 msgstr "Астеризмнар шрифт зурлыгы"
+
+msgid "Asterium brings the night sky to your fingertips. Explore stars, planets, constellations, and distant galaxies through an interface designed for touch. Built on Stellarium’s astronomy engine, with offline access to a richly detailed sky."
+msgstr "Asterium төнге күкне бармак очларыгызга китерә. Кагылу белән идарә итү өчен эшләнгән интерфейс аша йолдызларны, планеталарны, йолдызлыкларны һәм ерак галактикаларны өйрәнегез. Stellarium астрономия үзәгенә нигезләнгән кушымта җентекләп сурәтләнгән күкне интернетсыз да күзәтергә мөмкинлек бирә."
 
 msgid "Astronomical Almanac (1984)"
 msgstr "Астрономик Альманах (1984)"

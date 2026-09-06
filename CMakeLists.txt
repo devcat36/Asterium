@@ -21,6 +21,13 @@ SET_PROPERTY(GLOBAL PROPERTY USE_FOLDERS ON)
 ########### Project name ###########
 PROJECT(Stellarium C CXX)
 
+IF(ANDROID)
+     ADD_LINK_OPTIONS("LINKER:-z,max-page-size=16384" "LINKER:-z,common-page-size=16384")
+     IF(CMAKE_ANDROID_NDK_VERSION VERSION_LESS "27")
+          MESSAGE(FATAL_ERROR "Android requires NDK r27 or newer for a 16KB-aligned libc++_shared.so.")
+     ENDIF()
+ENDIF()
+
 SET(STELLARIUM_RELEASE_BUILD 0 CACHE BOOL "Set 1 to build as an official release (0 for development snapshots).")
 
 ########### Detect Qt version
@@ -32,6 +39,10 @@ IF(ENABLE_QT6)
 ENDIF()
 if (NOT Qt6_FOUND)
      FIND_PACKAGE(Qt5 REQUIRED COMPONENTS Core)
+ENDIF()
+
+IF(ANDROID AND (NOT Qt6_FOUND OR Qt6_VERSION VERSION_LESS "6.10.1"))
+     MESSAGE(FATAL_ERROR "Android requires Qt 6.10.1 or newer with 16KB-compatible native libraries.")
 ENDIF()
 
 # Activate this to error on all things deprecated in 5.15
@@ -63,7 +74,7 @@ ADD_DEFINITIONS(
      -DSTELLARIUM_PATCH=${STELLARIUM_PATCH}
 )
 SET(VERSION "${STELLARIUM_MAJOR}.${STELLARIUM_MINOR}.${STELLARIUM_PATCH}")
-SET(ASTERIUM_VERSION "1.2.0" CACHE STRING "Asterium release version; must match the source repository's release tag")
+SET(ASTERIUM_VERSION "1.2.1" CACHE STRING "Asterium release version; must match the source repository's release tag")
 ADD_DEFINITIONS(-DASTERIUM_VERSION="${ASTERIUM_VERSION}")
 SET(STELLARIUM_SERIES "${STELLARIUM_MAJOR}.0")
 SET(STELLARIUM_PUBLIC_VERSION "${STELLARIUM_MAJOR}.${STELLARIUM_MINOR}")

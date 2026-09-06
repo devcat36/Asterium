@@ -54,9 +54,6 @@ msgstr "Nupp galaktilisele koordinaatvõrgule lülitamiseks"
 msgid "A polygonal model for some small moons, asteroids and comets instead of a sphere"
 msgstr "Hulknurkne mudel mõnedele väikestele kuudele, asteroididele ja komeetidele sfääri asemel"
 
-msgid "A touch-first planetarium forked from Stellarium, whose astronomy engine it uses unchanged. The interface is new; everything that draws the sky is upstream's work."
-msgstr "Puudutusega kasutamiseks optimeeritud planetaarium, mis on Stellariumi hargnemik, kasutades selle muutmata astronoomiamootorihat. Kasutajaliides on uus; kõik, mis joonistab taevast, on ülesvoolu töö."
-
 msgid "Abbreviated names"
 msgstr "Lühendatud nimed"
 
@@ -197,6 +194,9 @@ msgstr "Asterismid"
 
 msgid "Asterisms font size"
 msgstr "Asterismide kirjasuurus"
+
+msgid "Asterium brings the night sky to your fingertips. Explore stars, planets, constellations, and distant galaxies through an interface designed for touch. Built on Stellarium’s astronomy engine, with offline access to a richly detailed sky."
+msgstr "Asterium toob öötaeva sinu sõrmeotsteni. Avasta tähti, planeete, tähtkujusid ja kaugeid galaktikaid puutetundlikuks juhtimiseks loodud liidese kaudu. Stellariumi astronoomiamootoril põhinev rakendus võimaldab uurida detailirohket taevast ka võrguühenduseta."
 
 msgid "Astronomical Almanac (default) enlarges by 2%; Danjon (1951) differs slightly"
 msgstr "Astronoomilised arvutused (vaikimisi) suurendavad 2% võrra; Danjon (1951) erineb veidi"

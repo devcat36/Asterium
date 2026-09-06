@@ -54,9 +54,6 @@ msgstr "Nút chuyển đổi lưới Ngân hà"
 msgid "A polygonal model for some small moons, asteroids and comets instead of a sphere"
 msgstr "Mô hình đa giác cho một số vệ tinh nhỏ, tiểu hành tinh và sao chổi thay vì hình cầu"
 
-msgid "A touch-first planetarium forked from Stellarium, whose astronomy engine it uses unchanged. The interface is new; everything that draws the sky is upstream's work."
-msgstr "Một ứng dụng thiên văn dành cho cảm ứng được phân nhánh từ Stellarium, sử dụng công cụ thiên văn của nó không thay đổi. Giao diện là mới; tất cả những gì vẽ bầu trời là công việc của phiên bản gốc."
-
 msgid "Abbreviated names"
 msgstr "Tên viết tắt"
 
@@ -194,6 +191,9 @@ msgstr "Nhóm sao"
 
 msgid "Asterisms font size"
 msgstr "Kích thước phông chữ nhóm sao"
+
+msgid "Asterium brings the night sky to your fingertips. Explore stars, planets, constellations, and distant galaxies through an interface designed for touch. Built on Stellarium’s astronomy engine, with offline access to a richly detailed sky."
+msgstr "Asterium mang bầu trời đêm đến đầu ngón tay bạn. Khám phá các ngôi sao, hành tinh, chòm sao và thiên hà xa xôi qua giao diện được thiết kế cho thao tác cảm ứng. Được xây dựng trên nền tảng thiên văn của Stellarium, ứng dụng cho phép bạn khám phá bầu trời giàu chi tiết ngay cả khi không có kết nối mạng."
 
 msgid "Astronomical Almanac (1984)"
 msgstr "Lịch thiên văn (1984)"

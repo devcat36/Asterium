@@ -45,9 +45,6 @@ msgstr "ปุ่มเพื่อทำเครื่องหมายวั
 msgid "A polygonal model for some small moons, asteroids and comets instead of a sphere"
 msgstr "แบบจำลองแบบหลายเหลี่ยมสำหรับดวงจันทร์ ดาวเคราะห์น้อย และดาวหางบางดวงแทนรูปทรงกลม"
 
-msgid "A touch-first planetarium forked from Stellarium, whose astronomy engine it uses unchanged. The interface is new; everything that draws the sky is upstream's work."
-msgstr "โปรแกรมสร้างเสริมประหม่า touch-first ที่แยกมาจาก Stellarium โดยใช้เครื่องมือดาราศาสตร์ของ Stellarium โดยไม่เปลี่ยนแปลง ส่วนต่อประสานผู้ใช้เป็นใหม่ แต่ทุกอย่างที่วาดท้องฟ้านั้นมาจากงานของต้นฉบับ"
-
 msgid "About this sky culture"
 msgstr "เกี่ยวกับกลุ่มดาวในวัฒนธรรมนี้"
 
@@ -128,6 +125,9 @@ msgstr "เส้นแรม"
 
 msgid "Ast. names"
 msgstr "ชื่อแรม"
+
+msgid "Asterium brings the night sky to your fingertips. Explore stars, planets, constellations, and distant galaxies through an interface designed for touch. Built on Stellarium’s astronomy engine, with offline access to a richly detailed sky."
+msgstr "Asterium นำท้องฟ้ายามค่ำคืนมาไว้ที่ปลายนิ้วของคุณ สำรวจดาวฤกษ์ ดาวเคราะห์ กลุ่มดาว และกาแล็กซีอันไกลโพ้นผ่านอินเทอร์เฟซที่ออกแบบมาสำหรับการสัมผัส พัฒนาบนเอนจินดาราศาสตร์ของ Stellarium ให้คุณเข้าถึงท้องฟ้าที่เต็มไปด้วยรายละเอียดได้แม้ไม่มีอินเทอร์เน็ต"
 
 msgid "Astronomical Almanac (default) enlarges by 2%; Danjon (1951) differs slightly"
 msgstr "Astronomical Almanac (ค่าปริยาย) ขยายขึ้นโดย 2%; Danjon (1951) แตกต่างไปเล็กน้อย"

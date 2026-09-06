@@ -42,9 +42,6 @@ msgstr "Mygtukas, skirtas pažymėti visus dabartinio stebėjimo sąrašo objekt
 msgid "A polygonal model for some small moons, asteroids and comets instead of a sphere"
 msgstr "Daugiakampis modelis kai kuriems mažiems Mėnuliams, asteroidams ir kometoms vietoj sferos"
 
-msgid "A touch-first planetarium forked from Stellarium, whose astronomy engine it uses unchanged. The interface is new; everything that draws the sky is upstream's work."
-msgstr "Pirmiausia liestinis planetarijus, atšakota iš Stellarium, kurio astronomijos variklis naudojamas nepakitęs. Sąsaja yra nauja; viskas, kas piešia dangų, yra iš šaltinio."
-
 msgid "About this sky culture"
 msgstr "Apie šią dangaus kultūrą"
 
@@ -125,6 +122,9 @@ msgstr "Ast. lin."
 
 msgid "Ast. names"
 msgstr "Ast. pavad."
+
+msgid "Asterium brings the night sky to your fingertips. Explore stars, planets, constellations, and distant galaxies through an interface designed for touch. Built on Stellarium’s astronomy engine, with offline access to a richly detailed sky."
+msgstr "Asterium atveria naktinį dangų pirštų galiukais. Tyrinėkite žvaigždes, planetas, žvaigždynus ir tolimas galaktikas naudodamiesi lietimui pritaikyta sąsaja. Programa veikia su Stellarium astronomijos varikliu ir leidžia tyrinėti detalų dangų net be interneto ryšio."
 
 msgid "Astronomical Almanac (default) enlarges by 2%; Danjon (1951) differs slightly"
 msgstr "Astronominis Almanachas (numatytasis) padidina 2%; Danjon (1951) šiek tiek skiriasi"

@@ -194,7 +194,7 @@ endorsed by the Stellarium project.
 	    FFmpeg builds Qt distributes for Android; the complete source code
 	    of FFmpeg releases is published at https://ffmpeg.org/releases/
 	    and https://ffmpeg.org/
-	2.10 Qt 6.8.3 is the application framework the program is built on, and
+	2.10 Qt 6.10.1 is the application framework the program is built on, and
 	    its shared libraries ship inside the Android package. Qt is
 	    copyright The Qt Company Ltd. and other contributors, and is used
 	    here under the GNU Lesser General Public License, version 3

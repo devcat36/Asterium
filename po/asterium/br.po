@@ -54,9 +54,6 @@ msgstr "Ur bouton evit cheñch stad kael c'halaksiel."
 msgid "A polygonal model for some small moons, asteroids and comets instead of a sphere"
 msgstr "Ur model gorn-evel evit levennoù bihan, asteroïdoù ha kometed e-lec'h ur sfer."
 
-msgid "A touch-first planetarium forked from Stellarium, whose astronomy engine it uses unchanged. The interface is new; everything that draws the sky is upstream's work."
-msgstr "Ur planetarium savet gant ar biz e-kentañ, adkaset eus Stellarium, yec'h en deus eus e motout an astronomiezh, hep kemm. Nevez eo ar roud-kaoz; al labour-noz war an oabl a zo eus an tarzh."
-
 msgid "Abbreviated names"
 msgstr "Anv berret"
 
@@ -209,6 +206,9 @@ msgstr "Asterismioù"
 
 msgid "Asterisms font size"
 msgstr "Ment ar font asterism"
+
+msgid "Asterium brings the night sky to your fingertips. Explore stars, planets, constellations, and distant galaxies through an interface designed for touch. Built on Stellarium’s astronomy engine, with offline access to a richly detailed sky."
+msgstr "Gant Asterium emañ oabl an noz e penn ho pizied. Ergerzhit ar stered, ar planedennoù, ar steredegoù hag ar galaksioù pell dre un etrefas savet evit an touchañ. Diazezet eo war keflusker steredoniezh Stellarium, gant moned ezlinenn d'un oabl pinvidik a vunudoù."
 
 msgid "AstroCalc"
 msgstr "AstroJediñ"

@@ -54,9 +54,6 @@ msgstr "මණ්දාකිණි දැල ටොගල් කිරීමට
 msgid "A polygonal model for some small moons, asteroids and comets instead of a sphere"
 msgstr "ගෝලය වෙනුවට කුඩා චන්ද්‍රයා, ග්‍රහක සහ දුම්කෙතුවලට බහුකෝණ ආකෘතිය"
 
-msgid "A touch-first planetarium forked from Stellarium, whose astronomy engine it uses unchanged. The interface is new; everything that draws the sky is upstream's work."
-msgstr "Stellarium සිට ගෝවා කරන ලද, එහි තාරකා විද්‍යා එංජින් නොවෙනස්ව භාවිතා කරන ස්පර්ශ-පළමු තාරකා ග්‍රහලෝක කේන්ද්‍රය. අතුරුමුහුණත නව ය; අහස අඳින සෑම දෙයක්ම upstream හි කාර්යයි."
-
 msgid "Abbreviated names"
 msgstr "සංක්ෂිප්ත නම්"
 
@@ -215,6 +212,9 @@ msgstr "තරු ගෝල"
 
 msgid "Asterisms font size"
 msgstr "තරු ගෝල ෆොන්ට ප්‍රමාණ"
+
+msgid "Asterium brings the night sky to your fingertips. Explore stars, planets, constellations, and distant galaxies through an interface designed for touch. Built on Stellarium’s astronomy engine, with offline access to a richly detailed sky."
+msgstr "Asterium රාත්‍රී අහස ඔබේ ඇඟිලි තුඩු වෙත ගෙන එයි. ස්පර්ශයෙන් භාවිත කිරීමට නිර්මාණය කළ අතුරුමුහුණතක් හරහා තරු, ග්‍රහලෝක, තාරකා මණ්ඩල සහ ඈත මන්දාකිණි ගවේෂණය කරන්න. Stellarium හි තාරකා විද්‍යා එන්ජිම මත ගොඩනගා ඇති මෙම යෙදුමෙන් අන්තර්ජාල සම්බන්ධතාවක් නොමැතිවද සියුම් විස්තරවලින් පිරුණු අහසක් දැකගත හැකිය."
 
 msgid "Asteroids"
 msgstr "ග්‍රහක"

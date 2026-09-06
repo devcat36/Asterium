@@ -54,9 +54,6 @@ msgstr "Poga, lai pārslēgtu galaktiskā tīkla displeja"
 msgid "A polygonal model for some small moons, asteroids and comets instead of a sphere"
 msgstr "Daudzstūra modelis dažiem maziem mēnešiem, asteroidiem un kometām, nevis sfēra"
 
-msgid "A touch-first planetarium forked from Stellarium, whose astronomy engine it uses unchanged. The interface is new; everything that draws the sky is upstream's work."
-msgstr "Ar skaņu vadīts planetārijs, nodalīts no Stellarium, kura astronomijas dzinēju tas lieto nemainīgs. Saskarne ir jauna; viss, kas zīmē debesis, ir pēctecīga darba."
-
 msgid "Abbreviated names"
 msgstr "Saīsināti nosaukumi"
 
@@ -215,6 +212,9 @@ msgstr "Zvaigznājumi"
 
 msgid "Asterisms font size"
 msgstr "Zvaigznājumu fonta lielums"
+
+msgid "Asterium brings the night sky to your fingertips. Explore stars, planets, constellations, and distant galaxies through an interface designed for touch. Built on Stellarium’s astronomy engine, with offline access to a richly detailed sky."
+msgstr "Asterium ļauj iepazīt nakts debesis ar pirkstu pieskārieniem. Izpētiet zvaigznes, planētas, zvaigznājus un tālas galaktikas, izmantojot saskarni, kas veidota skārienvadībai. Lietotne ir balstīta uz Stellarium astronomijas dzinēju un nodrošina piekļuvi detalizētām debesīm arī bez interneta savienojuma."
 
 msgid "Astronomical Almanac (1984)"
 msgstr "Astronomiskais almanahs (1984)"

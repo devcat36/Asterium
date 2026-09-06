@@ -42,9 +42,6 @@ msgstr "Tlačítko označující každý objekt z aktuálního pozorovacího sez
 msgid "A polygonal model for some small moons, asteroids and comets instead of a sphere"
 msgstr "Polygonální model pro některé malé měsíce, planetky a komety místo koule"
 
-msgid "A touch-first planetarium forked from Stellarium, whose astronomy engine it uses unchanged. The interface is new; everything that draws the sky is upstream's work."
-msgstr "Planetárium s přihlédnutím k dotykům vytvořené jako fork Stellaria, jehož astronomický engine se používá beze změny. Rozhraní je nové; vše, co kreslí oblohu, je prací původního projektu."
-
 msgid "About this sky culture"
 msgstr "O této nebeské kultuře"
 
@@ -125,6 +122,9 @@ msgstr "Ast. linky"
 
 msgid "Ast. names"
 msgstr "Ast. jména"
+
+msgid "Asterium brings the night sky to your fingertips. Explore stars, planets, constellations, and distant galaxies through an interface designed for touch. Built on Stellarium’s astronomy engine, with offline access to a richly detailed sky."
+msgstr "Asterium vám přináší noční oblohu na dosah prstů. Prozkoumávejte hvězdy, planety, souhvězdí a vzdálené galaxie prostřednictvím rozhraní navrženého pro dotykové ovládání. Využívá astronomický engine Stellaria a zpřístupňuje oblohu plnou detailů i bez připojení k internetu."
 
 msgid "Astronomical Almanac (default) enlarges by 2%; Danjon (1951) differs slightly"
 msgstr "Astronomical Almanac (default) zvětšuje o 2%; Danjon (1951) se liší mírně"

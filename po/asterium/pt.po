@@ -54,9 +54,6 @@ msgstr "Um botão para alternar a grelha galáctica"
 msgid "A polygonal model for some small moons, asteroids and comets instead of a sphere"
 msgstr "Um modelo poligonal para algumas pequenas luas, asteróides e cometas em vez de uma esfera"
 
-msgid "A touch-first planetarium forked from Stellarium, whose astronomy engine it uses unchanged. The interface is new; everything that draws the sky is upstream's work."
-msgstr "Um planetário otimizado para toque bifurcado do Stellarium, cujo motor astronómico utiliza inalterado. A interface é nova; tudo o que desenha o céu é trabalho do upstream."
-
 msgid "Abbreviated names"
 msgstr "Nomes abreviados"
 
@@ -176,6 +173,9 @@ msgstr "Nomes ast."
 
 msgid "Asterisms font size"
 msgstr "Tamanho da fonte de asterismos"
+
+msgid "Asterium brings the night sky to your fingertips. Explore stars, planets, constellations, and distant galaxies through an interface designed for touch. Built on Stellarium’s astronomy engine, with offline access to a richly detailed sky."
+msgstr "O Asterium traz o céu noturno para a ponta dos seus dedos. Explore estrelas, planetas, constelações e galáxias distantes através de uma interface concebida para o toque. Baseado no motor astronómico do Stellarium, com acesso sem ligação à Internet a um céu rico em detalhes."
 
 msgid "Astronomical Almanac (1984)"
 msgstr "Almanaque Astronómico (1984)"

@@ -60,9 +60,6 @@ msgstr "താരാപഥ ഗ്രിഡ് ടോഗിൾ ചെയ്യു
 msgid "A polygonal model for some small moons, asteroids and comets instead of a sphere"
 msgstr "ചെറിയ ചന്ദ്രനുകൾ, ഗ്രഹാണുക്കൾ, വാൽനക്ഷത്രങ്ങൾ എന്നിവയ്ക്ക് ഗോളത്തിന് പകരം ബഹുഭുജ മാതൃക"
 
-msgid "A touch-first planetarium forked from Stellarium, whose astronomy engine it uses unchanged. The interface is new; everything that draws the sky is upstream's work."
-msgstr "Stellarium-നിൽ നിന്ന് വിയോജിപ്പിച്ച ഒരു സ്പർശന-ആദ്യ പ്ലാനെറ്റേരിയം, അതിന്റെ ജ്യോതിർശാസ്ത്ര എഞ്ജിൻ മാറ്റമില്ലാതെ ഉപയോഗിക്കുന്നു. ഇന്റർഫേസ് പുതിയതാണ്; ആകാശം വരയ്ക്കുന്ന എല്ലാ കാര്യവും അപ്സ്ട്രീമിന്റെ ജോലിയാണ്."
-
 msgid "Abbreviated names"
 msgstr "ചുരുക്കിയ പേരുകൾ"
 
@@ -218,6 +215,9 @@ msgstr "താരസഞ്ചയങ്ങൾ"
 
 msgid "Asterisms font size"
 msgstr "താരസഞ്ചയ ഫോണ്ട് വലിപ്പം"
+
+msgid "Asterium brings the night sky to your fingertips. Explore stars, planets, constellations, and distant galaxies through an interface designed for touch. Built on Stellarium’s astronomy engine, with offline access to a richly detailed sky."
+msgstr "Asterium രാത്രിയാകാശത്തെ നിങ്ങളുടെ വിരൽത്തുമ്പിലെത്തിക്കുന്നു. സ്പർശനത്തിനായി രൂപകൽപ്പന ചെയ്ത ഇന്റർഫേസിലൂടെ നക്ഷത്രങ്ങൾ, ഗ്രഹങ്ങൾ, നക്ഷത്രരാശികൾ, വിദൂര ഗാലക്സികൾ എന്നിവ പര്യവേക്ഷണം ചെയ്യൂ. Stellarium-ന്റെ ജ്യോതിശാസ്ത്ര എൻജിനെ അടിസ്ഥാനമാക്കിയ ഈ ആപ്പിൽ സൂക്ഷ്മവിശദാംശങ്ങളുള്ള ആകാശം ഇന്റർനെറ്റ് ഇല്ലാതെയും കാണാം."
 
 msgid "Astronomical Almanac (1984)"
 msgstr "ജ്യോതിർശാസ്ത്ര കാലപഞ്ജിക (1984)"

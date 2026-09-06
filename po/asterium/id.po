@@ -45,9 +45,6 @@ msgstr "Tombol untuk menandai setiap objek dari daftar pengamatan saat ini di la
 msgid "A polygonal model for some small moons, asteroids and comets instead of a sphere"
 msgstr "Model poligonal untuk beberapa bulan kecil, asteroid, dan komet alih-alih bola"
 
-msgid "A touch-first planetarium forked from Stellarium, whose astronomy engine it uses unchanged. The interface is new; everything that draws the sky is upstream's work."
-msgstr "Planetarium yang berfokus pada sentuhan, bercabang dari Stellarium, yang menggunakan mesin astronominya tanpa perubahan. Antarmukanya baru; semua yang menggambar langit adalah pekerjaan hulu."
-
 msgid "About this sky culture"
 msgstr "Tentang budaya akasa ini"
 
@@ -131,6 +128,9 @@ msgstr "Garis ast."
 
 msgid "Ast. names"
 msgstr "Nama ast."
+
+msgid "Asterium brings the night sky to your fingertips. Explore stars, planets, constellations, and distant galaxies through an interface designed for touch. Built on Stellarium’s astronomy engine, with offline access to a richly detailed sky."
+msgstr "Asterium menghadirkan langit malam di ujung jari Anda. Jelajahi bintang, planet, rasi bintang, dan galaksi jauh melalui antarmuka yang dirancang untuk sentuhan. Dibangun di atas mesin astronomi Stellarium, dengan akses luring ke langit yang kaya detail."
 
 msgid "Astronomical Almanac (default) enlarges by 2%; Danjon (1951) differs slightly"
 msgstr "Astronomical Almanac (bawaan) membesar 2%; Danjon (1951) sedikit berbeda"

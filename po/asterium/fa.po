@@ -60,9 +60,6 @@ msgstr "دکمه‌ای برای تغییر وضعیت شبکهٔ کهکشانی
 msgid "A polygonal model for some small moons, asteroids and comets instead of a sphere"
 msgstr "یک مدل چندضلعی برای برخی ماه‌های کوچک، سیارکها و دنباله‌دارها به جای کره"
 
-msgid "A touch-first planetarium forked from Stellarium, whose astronomy engine it uses unchanged. The interface is new; everything that draws the sky is upstream's work."
-msgstr "پلانتاریومی مبتنی بر لمس فورک شده از Stellarium که موتور نجومی آن را بدون تغییر استفاده می‌کند. رابط جدید است؛ تمام چیزی که آسمان را رسم می‌کند از کار اصلی است."
-
 msgid "Abbreviated names"
 msgstr "نام‌های کوتاه"
 
@@ -191,6 +188,9 @@ msgstr "صورت‌های فرعی"
 
 msgid "Asterisms font size"
 msgstr "اندازهٔ قلم صورت‌های فرعی"
+
+msgid "Asterium brings the night sky to your fingertips. Explore stars, planets, constellations, and distant galaxies through an interface designed for touch. Built on Stellarium’s astronomy engine, with offline access to a richly detailed sky."
+msgstr "Asterium آسمان شب را به نوک انگشتان شما می‌آورد. ستارگان، سیاره‌ها، صورت‌های فلکی و کهکشان‌های دوردست را با رابطی طراحی‌شده برای لمس کاوش کنید. این برنامه بر پایهٔ موتور نجومی Stellarium ساخته شده و دسترسی آفلاین به آسمانی سرشار از جزئیات را فراهم می‌کند."
 
 msgid "Astronomical Almanac (1984)"
 msgstr "سالنامهٔ نجومی (۱۹۸۴)"

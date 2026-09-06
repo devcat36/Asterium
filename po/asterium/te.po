@@ -45,9 +45,6 @@ msgstr "ప్రస్తుత పరిశీలన జాబితలో ఉ
 msgid "A polygonal model for some small moons, asteroids and comets instead of a sphere"
 msgstr "చిన్న చంద్రులు, గ్రహశకలాలు, తోకచుక్కల కోసం గోళం బదులు బహుభుజ మోడల్"
 
-msgid "A touch-first planetarium forked from Stellarium, whose astronomy engine it uses unchanged. The interface is new; everything that draws the sky is upstream's work."
-msgstr "Stellarium నుండి ఫోర్క్ చేసిన టాచ్-ఫర్స్ట్ ప్లానెటేరియం, దీని ఖగోళ ఇంజిన్‌ను ఇది మార్పు లేకుండా వాడుతుంది. ఇంటర్‌ఫేస్ కొత్తది; ఆకాశాన్ని గీసే ప్రతిదీ అప్‌స్ట్రీమ్ యొక్క పని."
-
 msgid "Abbreviated names"
 msgstr "సంక్షిప్త పేర్లు"
 
@@ -155,6 +152,9 @@ msgstr "నక్ష. రేఖలు"
 
 msgid "Ast. names"
 msgstr "నక్ష.పేర్"
+
+msgid "Asterium brings the night sky to your fingertips. Explore stars, planets, constellations, and distant galaxies through an interface designed for touch. Built on Stellarium’s astronomy engine, with offline access to a richly detailed sky."
+msgstr "Asterium రాత్రి ఆకాశాన్ని మీ చేతివేళ్ల వద్దకు తీసుకువస్తుంది. స్పర్శతో ఉపయోగించేందుకు రూపొందించిన ఇంటర్‌ఫేస్ ద్వారా నక్షత్రాలు, గ్రహాలు, నక్షత్రరాశులు, సుదూర గెలాక్సీలను అన్వేషించండి. Stellarium ఖగోళ శాస్త్ర ఇంజిన్ ఆధారంగా రూపొందిన ఈ యాప్‌లో సూక్ష్మ వివరాలతో నిండిన ఆకాశాన్ని ఇంటర్నెట్ లేకుండానే చూడవచ్చు."
 
 msgid "Astronomical Almanac (1984)"
 msgstr "ఖగోళ పంచాంగం (1984)"

@@ -54,9 +54,6 @@ msgstr "તારાવીથિ જાળી આવતજાવતી કરવ
 msgid "A polygonal model for some small moons, asteroids and comets instead of a sphere"
 msgstr "ગોળાને બદલે કેટલાક નાના ચંદ્રો, ગ્રહાણુ અને ધૂમકેતુઓ માટે બહુકોણીય મોડલ"
 
-msgid "A touch-first planetarium forked from Stellarium, whose astronomy engine it uses unchanged. The interface is new; everything that draws the sky is upstream's work."
-msgstr "Stellarium પરથી ફોર્ક કરેલું સ્પર્શ-પ્રથમ પ્લેનેટેરિયમ, જેનું ખગોળ ઇંજીન અપરિવર્તિત છે. ઇન્ટરફેસ નવું છે; આકાશ દર્શાવતું બધું અપસ્ટ્રીમનું કાર્ય છે."
-
 msgid "Abbreviated names"
 msgstr "સંક્ષિપ્ત નામો"
 
@@ -221,6 +218,9 @@ msgstr "ન્યુનતર તારોના સમૂહો"
 
 msgid "Asterisms font size"
 msgstr "ન્યુનતર તારોના સમૂહો ફૉન્ટ કદ"
+
+msgid "Asterium brings the night sky to your fingertips. Explore stars, planets, constellations, and distant galaxies through an interface designed for touch. Built on Stellarium’s astronomy engine, with offline access to a richly detailed sky."
+msgstr "Asterium રાત્રિના આકાશને તમારી આંગળીના ટેરવે લાવે છે. સ્પર્શથી વાપરવા માટે બનાવેલા ઇન્ટરફેસ દ્વારા તારાઓ, ગ્રહો, તારામંડળો અને દૂરની આકાશગંગાઓનું અન્વેષણ કરો. Stellariumના ખગોળશાસ્ત્ર એન્જિન પર આધારિત આ ઍપમાં ઇન્ટરનેટ વિના પણ સૂક્ષ્મ વિગતોથી ભરપૂર આકાશ નિહાળી શકો છો."
 
 msgid "Asteroids"
 msgstr "ગ્રહાણુ"

@@ -54,9 +54,6 @@ msgstr "לחצן להפעלה/כיבוי רשת גלאקטית"
 msgid "A polygonal model for some small moons, asteroids and comets instead of a sphere"
 msgstr "מודל פוליגונלי עבור ירחים קטנים, אסטרואידים ושביטים במקום כדור"
 
-msgid "A touch-first planetarium forked from Stellarium, whose astronomy engine it uses unchanged. The interface is new; everything that draws the sky is upstream's work."
-msgstr "פלנטריום ראשון-מגע שנתפצל מ-Stellarium, משתמש במנוע האסטרונומיה שלו ללא שינוי. הממשק חדש; הכל שמצייר את השמיים הוא עבודת upstream."
-
 msgid "Abbreviated names"
 msgstr "שמות מקוצרים"
 
@@ -158,6 +155,9 @@ msgstr "קו. אסטריזם"
 
 msgid "Ast. names"
 msgstr "שם. אסטריזם"
+
+msgid "Asterium brings the night sky to your fingertips. Explore stars, planets, constellations, and distant galaxies through an interface designed for touch. Built on Stellarium’s astronomy engine, with offline access to a richly detailed sky."
+msgstr "Asterium מביא את שמי הלילה אל קצות האצבעות שלכם. גלו כוכבים, כוכבי לכת, קבוצות כוכבים וגלקסיות רחוקות באמצעות ממשק שתוכנן למגע. היישום מבוסס על המנוע האסטרונומי של Stellarium ומציע גישה לשמיים עשירים בפרטים גם ללא חיבור לאינטרנט."
 
 msgid "Astronomical Almanac (default) enlarges by 2%; Danjon (1951) differs slightly"
 msgstr "אלמנך אסטרונומי (ברירת מחדל) מגדיל ב-2%; Danjon (1951) שונה מעט"

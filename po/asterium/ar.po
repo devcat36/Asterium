@@ -45,9 +45,6 @@ msgstr "زر لتحديد كل جرم في قائمة الرصد الحالية 
 msgid "A polygonal model for some small moons, asteroids and comets instead of a sphere"
 msgstr "نموذج متعدد الأضلاع لبعض الأقمار الصغيرة والكويكبات والمذنبات بدلاً من الكرة"
 
-msgid "A touch-first planetarium forked from Stellarium, whose astronomy engine it uses unchanged. The interface is new; everything that draws the sky is upstream's work."
-msgstr "تطبيق فلكي يركز على اللمس مشتق من Stellarium، يستخدم محرك الفلك الخاص به دون تغيير. الواجهة جديدة؛ كل شيء يرسم السماء من عمل المشروع الأصلي."
-
 msgid "About this sky culture"
 msgstr "عن هذا التراث الفلكي"
 
@@ -131,6 +128,9 @@ msgstr "خ. كو"
 
 msgid "Ast. names"
 msgstr "أ. كو"
+
+msgid "Asterium brings the night sky to your fingertips. Explore stars, planets, constellations, and distant galaxies through an interface designed for touch. Built on Stellarium’s astronomy engine, with offline access to a richly detailed sky."
+msgstr "يضع Asterium سماء الليل بين يديك. استكشف النجوم والكواكب والكوكبات والمجرات البعيدة عبر واجهة مصممة للمس. يعتمد على محرك Stellarium الفلكي، ويتيح لك استكشاف سماء غنية بالتفاصيل دون اتصال بالإنترنت."
 
 msgid "AstroCalc"
 msgstr "حساب الفلك"

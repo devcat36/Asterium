@@ -54,9 +54,6 @@ msgstr "Butang untuk togol grid galaktik"
 msgid "A polygonal model for some small moons, asteroids and comets instead of a sphere"
 msgstr "Model poligonal untuk beberapa bulan kecil, asteroid dan komet sebaliknya sfera"
 
-msgid "A touch-first planetarium forked from Stellarium, whose astronomy engine it uses unchanged. The interface is new; everything that draws the sky is upstream's work."
-msgstr "Planetarium sentuh-pertama yang bercabang daripada Stellarium, yang mana enjin astronomi dikgunakan tanpa perubahan. Antara muka adalah baharu; segala yang melukis langit adalah kerja hulu."
-
 msgid "Abbreviated names"
 msgstr "Nama-nama Singkatan"
 
@@ -197,6 +194,9 @@ msgstr "Asterisma"
 
 msgid "Asterisms font size"
 msgstr "Saiz fon asterisma"
+
+msgid "Asterium brings the night sky to your fingertips. Explore stars, planets, constellations, and distant galaxies through an interface designed for touch. Built on Stellarium’s astronomy engine, with offline access to a richly detailed sky."
+msgstr "Asterium membawa langit malam ke hujung jari anda. Terokai bintang, planet, buruj dan galaksi jauh melalui antara muka yang direka untuk sentuhan. Dibina berasaskan enjin astronomi Stellarium, dengan akses luar talian kepada langit yang kaya dengan perincian."
 
 msgid "Astronomical Almanac (1984)"
 msgstr "Almanak Astronomi (1984)"

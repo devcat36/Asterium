@@ -54,9 +54,6 @@ msgstr "Pulsans ad reticulum galacticale commutandum"
 msgid "A polygonal model for some small moons, asteroids and comets instead of a sphere"
 msgstr "Exemplar polygonale pro lunulis, asteroidibus et cometis minoribus loco sphaerae"
 
-msgid "A touch-first planetarium forked from Stellarium, whose astronomy engine it uses unchanged. The interface is new; everything that draws the sky is upstream's work."
-msgstr "Planetarium tactui praefixum e Stellario scissum, cuius machinae astronomiae utitur immutata. Interfacies nova est; omnia quae caelum pingit ex ope praestante."
-
 msgid "Abbreviated names"
 msgstr "Nomina contracta"
 
@@ -206,6 +203,9 @@ msgstr "Asterismi"
 
 msgid "Asterisms font size"
 msgstr "Magnitudo fontium asterismorum"
+
+msgid "Asterium brings the night sky to your fingertips. Explore stars, planets, constellations, and distant galaxies through an interface designed for touch. Built on Stellarium’s astronomy engine, with offline access to a richly detailed sky."
+msgstr "Asterium caelum nocturnum ad digitos tuos adducit. Explora stellas, planetas, sidera et galaxias remotas per interfaciem tactui aptam. Machina astronomica Stellarium nititur et caelum multis singularibus expressum etiam sine conexione interretiali praebet."
 
 msgid "Astronomical Almanac (1984)"
 msgstr "Almanacum Astronomicum (1984)"

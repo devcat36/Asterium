@@ -45,9 +45,6 @@ msgstr "Un botó per marcar cada objecte de la llista actual d'observació al ce
 msgid "A polygonal model for some small moons, asteroids and comets instead of a sphere"
 msgstr "Un model poligonal per a alguns satèl·lits petits, asteroides i cometes en lloc d'una esfera"
 
-msgid "A touch-first planetarium forked from Stellarium, whose astronomy engine it uses unchanged. The interface is new; everything that draws the sky is upstream's work."
-msgstr "Un planetari prioritzat al tàctil bifurcat de Stellarium, el motor astronòmic del qual usa sense canvis. La interfície és nova; tot el que dibuixa el cel és obra de Stellarium."
-
 msgid "Abbreviated names"
 msgstr "Noms abreviats"
 
@@ -143,6 +140,9 @@ msgstr "Línies ast."
 
 msgid "Ast. names"
 msgstr "Noms ast."
+
+msgid "Asterium brings the night sky to your fingertips. Explore stars, planets, constellations, and distant galaxies through an interface designed for touch. Built on Stellarium’s astronomy engine, with offline access to a richly detailed sky."
+msgstr "Asterium posa el cel nocturn a l’abast dels dits. Explora estreles, planetes, constel·lacions i galàxies llunyanes amb una interfície dissenyada per al control tàctil. Basat en el motor astronòmic de Stellarium, amb accés sense connexió a un cel ple de detalls."
 
 msgid "Astronomical Almanac (1984)"
 msgstr "Almanac Astronòmic (1984)"

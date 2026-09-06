@@ -24,6 +24,9 @@ msgstr "Ast. lines"
 msgid "Ast. names"
 msgstr "Ast. names"
 
+msgid "Asterium brings the night sky to your fingertips. Explore stars, planets, constellations, and distant galaxies through an interface designed for touch. Built on Stellarium’s astronomy engine, with offline access to a richly detailed sky."
+msgstr "Asterium brings the night sky to your fingertips. Explore stars, planets, constellations, and distant galaxies through an interface designed for touch. Built on Stellarium’s astronomy engine, with offline access to a richly detailed sky."
+
 msgid "Atmosph."
 msgstr "Atmosph."
 

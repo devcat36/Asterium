@@ -89,9 +89,9 @@ final class HelpSheet extends Sheet
 		body.addView(version);
 
 		body.addView(Widgets.note(context,
-				"A touch-first planetarium forked from Stellarium, whose astronomy engine it "
-				+ "uses unchanged. The interface is new; everything that draws the sky is "
-				+ "upstream's work."));
+				"Asterium brings the night sky to your fingertips. Explore stars, planets, constellations, "
+				+ "and distant galaxies through an interface designed for touch. Built on Stellarium’s "
+				+ "astronomy engine, with offline access to a richly detailed sky."));
 
 		body.addView(Widgets.section(context, "Licence"));
 		body.addView(Widgets.note(context,

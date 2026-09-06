@@ -57,9 +57,6 @@ msgstr "Գալակտիկական ցանցի անջատման կոճակ"
 msgid "A polygonal model for some small moons, asteroids and comets instead of a sphere"
 msgstr "Բազմանկյուն մոդել որոշ փոքր գիսաստղերի, աստերոիդների և գիսաբեղների համար՝ ոլորտի փոխարեն"
 
-msgid "A touch-first planetarium forked from Stellarium, whose astronomy engine it uses unchanged. The interface is new; everything that draws the sky is upstream's work."
-msgstr "Stellarium-ից ձուկ չանյալ պլանետարիում՝ հարմարեցված հպման համար։ Բոլորը, որ երկինքը նկարում է, բնօրինակից է։ Միայն ինտերֆեյսը նոր է։"
-
 msgid "Abbreviated names"
 msgstr "Սեղմ անվանումներ"
 
@@ -203,6 +200,9 @@ msgstr "Աստ. անվ."
 
 msgid "Asterisms font size"
 msgstr "Աստերիզմների տառատեսակի չափ"
+
+msgid "Asterium brings the night sky to your fingertips. Explore stars, planets, constellations, and distant galaxies through an interface designed for touch. Built on Stellarium’s astronomy engine, with offline access to a richly detailed sky."
+msgstr "Asterium-ը գիշերային երկինքը բերում է ձեր մատների ծայրերին։ Բացահայտեք աստղերը, մոլորակները, համաստեղություններն ու հեռավոր գալակտիկաները հպումով կառավարման համար ստեղծված միջերեսով։ Հիմնված է Stellarium-ի աստղագիտական շարժիչի վրա և թույլ է տալիս ուսումնասիրել մանրամասներով հարուստ երկինքը նաև առանց համացանցի։"
 
 msgid "Asteroids"
 msgstr "Աստերոիդներ"

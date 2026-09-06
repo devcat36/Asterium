@@ -54,9 +54,6 @@ msgstr "En knap til at skifte galaktisk gitter"
 msgid "A polygonal model for some small moons, asteroids and comets instead of a sphere"
 msgstr "En polygonal model for nogle små måner, asteroider og kometer i stedet for en kugle"
 
-msgid "A touch-first planetarium forked from Stellarium, whose astronomy engine it uses unchanged. The interface is new; everything that draws the sky is upstream's work."
-msgstr "En berøringsorienteret planetarium forgrenet fra Stellarium, hvis astronomimotor den bruger uændret. Grænsefladen er ny; alt hvad der tegner himlen er oprindeligt arbejde."
-
 msgid "Abbreviated names"
 msgstr "Forkortede navne"
 
@@ -194,6 +191,9 @@ msgstr "Ast. linjer"
 
 msgid "Ast. names"
 msgstr "Ast. navne"
+
+msgid "Asterium brings the night sky to your fingertips. Explore stars, planets, constellations, and distant galaxies through an interface designed for touch. Built on Stellarium’s astronomy engine, with offline access to a richly detailed sky."
+msgstr "Asterium bringer nattehimlen til dine fingerspidser. Udforsk stjerner, planeter, stjernebilleder og fjerne galakser via en grænseflade designet til berøring. Bygget på Stellariums astronomimotor med offlineadgang til en detaljerig himmel."
 
 msgid "Astronomical Almanac (default) enlarges by 2%; Danjon (1951) differs slightly"
 msgstr "Astronomical Almanac (standard) forstørrer med 2%; Danjon (1951) afviger lidt"

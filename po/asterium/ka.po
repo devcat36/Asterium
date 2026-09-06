@@ -60,9 +60,6 @@ msgstr "ღილაკი გალაქტიკური ბადის ჩ
 msgid "A polygonal model for some small moons, asteroids and comets instead of a sphere"
 msgstr "პოლიგონური მოდელი რამდენიმე მცირე მთვარისათვის, ასტეროიდებისა და კომეტებისათვის სფეროს ნაცვლად"
 
-msgid "A touch-first planetarium forked from Stellarium, whose astronomy engine it uses unchanged. The interface is new; everything that draws the sky is upstream's work."
-msgstr "სტელიუმიდან განშტოებული ტაქტილური პლანეტარიუმი, რომელიც მის ასტრონომიულ ძრავას უცვლელი იყენებს. ინტერფეისი ახალია; ყველაფერი, რომელიც ცას ხაზავს, ზემოთიდან მოდის."
-
 msgid "Abbreviated names"
 msgstr "შემოკლებული სახელები"
 
@@ -224,6 +221,9 @@ msgstr "ასტერიზმები"
 
 msgid "Asterisms font size"
 msgstr "ასტერიზმების შრიფტის ზომა"
+
+msgid "Asterium brings the night sky to your fingertips. Explore stars, planets, constellations, and distant galaxies through an interface designed for touch. Built on Stellarium’s astronomy engine, with offline access to a richly detailed sky."
+msgstr "Asterium-ს ღამის ცა თქვენს თითის წვერებამდე მოაქვს. შეხებით მართვისთვის შექმნილი ინტერფეისით გამოიკვლიეთ ვარსკვლავები, პლანეტები, თანავარსკვლავედები და შორეული გალაქტიკები. აპი ეფუძნება Stellarium-ის ასტრონომიულ ძრავას და დეტალებით მდიდარ ცაზე წვდომას ინტერნეტის გარეშეც გთავაზობთ."
 
 msgid "Asteroids"
 msgstr "ასტეროიდები"

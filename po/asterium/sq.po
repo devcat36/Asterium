@@ -54,9 +54,6 @@ msgstr "Buton për të çaktivizuar rrjetën galaktike"
 msgid "A polygonal model for some small moons, asteroids and comets instead of a sphere"
 msgstr "Model poligonal për disa hëna të vogla, asteroidë dhe kometa në vend të sferës"
 
-msgid "A touch-first planetarium forked from Stellarium, whose astronomy engine it uses unchanged. The interface is new; everything that draws the sky is upstream's work."
-msgstr "Planetarium i zhvilluar për kontakt, i ndarë nga Stellarium, i cili përdor motorin e tij të pashpallë. Ndërfaqja është e re; gjithçka që vizaton qiellin është puna e zhvilluesit të mëparshëm."
-
 msgid "Abbreviated names"
 msgstr "Emra të shkurtuar"
 
@@ -209,6 +206,9 @@ msgstr "Asteroizmat"
 
 msgid "Asterisms font size"
 msgstr "Madhësia e fontit asteroizmash"
+
+msgid "Asterium brings the night sky to your fingertips. Explore stars, planets, constellations, and distant galaxies through an interface designed for touch. Built on Stellarium’s astronomy engine, with offline access to a richly detailed sky."
+msgstr "Asterium e sjell qiellin e natës në majë të gishtave tuaj. Eksploroni yje, planetë, yjësi dhe galaktika të largëta përmes një ndërfaqeje të krijuar për përdorim me prekje. I ndërtuar mbi motorin astronomik të Stellarium, ofron qasje pa internet në një qiell të pasur me hollësi."
 
 msgid "Astronomical Almanac (default) enlarges by 2%; Danjon (1951) differs slightly"
 msgstr "Almanaku Astronomik (parazgjedhje) zmadhon me 2%; Danjon (1951) ndryshon pakë"

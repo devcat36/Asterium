@@ -45,9 +45,6 @@ msgstr "Ґузік, каб пазначыць кожны аб'ект бягуч�
 msgid "A polygonal model for some small moons, asteroids and comets instead of a sphere"
 msgstr "Шматграннаяя мадэль для некаторых малых месяцаў, астэроідаў й камэт замест сфэры"
 
-msgid "A touch-first planetarium forked from Stellarium, whose astronomy engine it uses unchanged. The interface is new; everything that draws the sky is upstream's work."
-msgstr "Планетарый, заснаваная на дотыку й адгалінёваная ад Stellarium, чый астранамічны рухавік яна ўжывае без змены. Інтэрфэйс - новы; ўсё, што рысуе неба, - гэта праца апстрыма."
-
 msgid "Abbreviated names"
 msgstr "Скарочаныя назвы"
 
@@ -149,6 +146,9 @@ msgstr "Лін. астэр."
 
 msgid "Ast. names"
 msgstr "Назв. астэр"
+
+msgid "Asterium brings the night sky to your fingertips. Explore stars, planets, constellations, and distant galaxies through an interface designed for touch. Built on Stellarium’s astronomy engine, with offline access to a richly detailed sky."
+msgstr "З Asterium начное неба — на кончыках вашых пальцаў. Даследуйце зоркі, планеты, сузор’і і далёкія галактыкі праз інтэрфейс, створаны для сэнсарнага кіравання. Праграма працуе на астранамічным рухавіку Stellarium і адкрывае доступ да дэталёвага неба без падключэння да інтэрнэту."
 
 msgid "Astronomical Almanac (1984)"
 msgstr "Астранамічны альманах (1984)"

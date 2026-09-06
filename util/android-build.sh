@@ -38,8 +38,8 @@ done
 VERSION_CODE="${ASTERIUM_VERSION_CODE:-$(git -C "$ROOT" rev-list --count HEAD 2>/dev/null || echo 1)}"
 
 : "${ANDROID_SDK_ROOT:=$HOME/Library/Android/sdk}"
-: "${ANDROID_NDK_VERSION:=26.1.10909125}"
-: "${QT_VERSION:=6.8.3}"
+: "${ANDROID_NDK_VERSION:=27.2.12479018}"
+: "${QT_VERSION:=6.10.1}"
 : "${QT_ROOT:=$HOME/Qt/$QT_VERSION}"
 : "${JAVA_HOME:=$HOME/Library/Java/JavaVirtualMachines/temurin-21.0.3/Contents/Home}"
 
@@ -68,6 +68,22 @@ for required in "$QT_TARGET_DIR/bin/qt-cmake" "$ANDROID_NDK_ROOT" "$BUILD_TOOLS"
     [[ -e "$required" ]] || { echo "missing: $required" >&2; exit 1; }
 done
 
+READELF_CANDIDATES=("$ANDROID_NDK_ROOT"/toolchains/llvm/prebuilt/*/bin/llvm-readelf)
+READELF="${READELF_CANDIDATES[0]}"
+[[ -x "$READELF" ]] || { echo "missing llvm-readelf in $ANDROID_NDK_ROOT" >&2; exit 1; }
+
+if [[ $CLEAN -eq 0 && -f "$BUILD_DIR/CMakeCache.txt" ]]; then
+    for setting in "ANDROID_NDK=$ANDROID_NDK_ROOT" \
+                   "Qt6_DIR=$QT_TARGET_DIR/lib/cmake/Qt6" \
+                   "ANDROID_ABI=$ABI"; do
+        cached="$(sed -n "s|^${setting%%=*}:[^=]*=||p" "$BUILD_DIR/CMakeCache.txt")"
+        if [[ "$cached" != "${setting#*=}" ]]; then
+            echo "Android toolchain changed; rerun with --clean." >&2
+            exit 1
+        fi
+    done
+fi
+
 hard_rm() {
     local target="$1" attempt
     for attempt in 1 2 3; do
@@ -87,6 +103,8 @@ echo "==> configure ($ABI, Qt $QT_VERSION)"
     -DQT_HOST_PATH="$QT_HOST_DIR" \
     -DQt6LinguistTools_DIR="$QT_HOST_DIR/lib/cmake/Qt6LinguistTools" \
     -DANDROID_ABI="$ABI" \
+    -DANDROID_NDK="$ANDROID_NDK_ROOT" \
+    -DANDROID_SUPPORT_FLEXIBLE_PAGE_SIZES=ON \
     -DASTERIUM_VERSION_CODE="$VERSION_CODE" \
     -DCMAKE_BUILD_TYPE=Release \
     -DENABLE_TESTING=0 \
@@ -172,6 +190,9 @@ else
 fi
 [[ -f "$UNSIGNED" ]] || { echo "no package produced under $OUTPUTS" >&2; exit 1; }
 
+echo "==> verify native libraries (16KB ELF alignment)"
+python3 "$ROOT/util/check-android-page-size.py" --readelf "$READELF" "$UNSIGNED"
+
 KEYSTORE="${ASTERIUM_KEYSTORE:-$ROOT/.keystore/asterium-dev.keystore}"
 KEY_ALIAS="${ASTERIUM_KEY_ALIAS:-asterium}"
 STORE_PASS="${ASTERIUM_KEYSTORE_PASS:-asterium}"
@@ -202,7 +223,7 @@ if [[ $BUNDLE -eq 1 ]]; then
 else
     SIGNED="$OUT_DIR/asterium-$ABI.apk"
     echo "==> zipalign + sign"
-    "$BUILD_TOOLS/zipalign" -f -p 4 "$UNSIGNED" "$SIGNED.tmp"
+    "$BUILD_TOOLS/zipalign" -f -P 16 4 "$UNSIGNED" "$SIGNED.tmp"
     "$BUILD_TOOLS/apksigner" sign \
         --ks "$KEYSTORE" --ks-key-alias "$KEY_ALIAS" \
         --ks-pass "pass:$STORE_PASS" --key-pass "pass:$STORE_PASS" \
@@ -210,6 +231,7 @@ else
     rm -f "$SIGNED.tmp" "$SIGNED.idsig"
 
     "$BUILD_TOOLS/apksigner" verify --print-certs "$SIGNED" >/dev/null
+    "$BUILD_TOOLS/zipalign" -c -P 16 4 "$SIGNED"
     LABEL="APK"
 fi
 

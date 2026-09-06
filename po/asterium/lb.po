@@ -54,9 +54,6 @@ msgstr "En Knäpp fir d'Galaktescht Gitter an/ausschalten"
 msgid "A polygonal model for some small moons, asteroids and comets instead of a sphere"
 msgstr "En polygonales Modell fir e puer kleng Mound, Asteroiden a Komeeten amplaz vun enger Kugel"
 
-msgid "A touch-first planetarium forked from Stellarium, whose astronomy engine it uses unchanged. The interface is new; everything that draws the sky is upstream's work."
-msgstr "En Planetarium, deen Stellarium geforkt huet a seng Astronomie-Moteur onverännert benotzt. D'Interface ass nei; alles wat de Himmel zeechent, ass d'Aarbecht vum Original-Projet."
-
 msgid "Abbreviated names"
 msgstr "Ofkéierzungen"
 
@@ -212,6 +209,9 @@ msgstr "Asterismen"
 
 msgid "Asterisms font size"
 msgstr "Asterismen Schrëftgréisst"
+
+msgid "Asterium brings the night sky to your fingertips. Explore stars, planets, constellations, and distant galaxies through an interface designed for touch. Built on Stellarium’s astronomy engine, with offline access to a richly detailed sky."
+msgstr "Asterium bréngt den Nuetshimmel un deng Fangerspëtzten. Entdeck Stären, Planéiten, Stärebiller a wäit ewech Galaxien iwwer eng Uewerfläch, déi fir Touchbedienung entwéckelt gouf. Baséiert op der Astronomiemaschinn vu Stellarium, mat offline Zougang zu engem Himmel voller Detailer."
 
 msgid "Asteroids"
 msgstr "Asteroïden"

@@ -42,9 +42,6 @@ msgstr "Un botón para marcar cada objeto de la lista de observación actual en 
 msgid "A polygonal model for some small moons, asteroids and comets instead of a sphere"
 msgstr "Un modelo poligonal para algunas lunas pequeñas, asteroides y cometas en lugar de una esfera"
 
-msgid "A touch-first planetarium forked from Stellarium, whose astronomy engine it uses unchanged. The interface is new; everything that draws the sky is upstream's work."
-msgstr "Un planetario optimizado para pantalla táctil bifurcado de Stellarium, cuyo motor astronómico usa sin cambios. La interfaz es nueva; todo lo que dibuja el cielo es trabajo de la rama principal."
-
 msgid "About this sky culture"
 msgstr "Acerca de esta cultura estelar"
 
@@ -125,6 +122,9 @@ msgstr "Líneas ast."
 
 msgid "Ast. names"
 msgstr "Nom. ast."
+
+msgid "Asterium brings the night sky to your fingertips. Explore stars, planets, constellations, and distant galaxies through an interface designed for touch. Built on Stellarium’s astronomy engine, with offline access to a richly detailed sky."
+msgstr "Asterium pone el cielo nocturno al alcance de tus dedos. Explora estrellas, planetas, constelaciones y galaxias lejanas con una interfaz diseñada para el control táctil. Basado en el motor astronómico de Stellarium, con acceso sin conexión a un cielo lleno de detalles."
 
 msgid "Astronomical Almanac (default) enlarges by 2%; Danjon (1951) differs slightly"
 msgstr "El Almanaque Astronómico (predeterminado) se amplía en un 2%; Danjon (1951) difiere ligeramente"

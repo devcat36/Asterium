@@ -45,9 +45,6 @@ msgstr "Geçerli gözlem listesindeki her nesneyi gökyüzünde işaretlemek iç
 msgid "A polygonal model for some small moons, asteroids and comets instead of a sphere"
 msgstr "Bazı küçük uydular, asteroidler ve kuyruklu yıldızlar için bir küre yerine çokgen model"
 
-msgid "A touch-first planetarium forked from Stellarium, whose astronomy engine it uses unchanged. The interface is new; everything that draws the sky is upstream's work."
-msgstr "Stellarium'dan çatallanan, astronomi motorunu değişmeden kullanan dokunmatik-öncelikli bir planetaryum. Arayüz yenidir; gökyüzünü çizen her şey üreticinin çalışmasıdır."
-
 msgid "Abbreviated names"
 msgstr "Kısaltılmış adlar"
 
@@ -140,6 +137,9 @@ msgstr "Yıld.çizgi"
 
 msgid "Ast. names"
 msgstr "Yıld.adı"
+
+msgid "Asterium brings the night sky to your fingertips. Explore stars, planets, constellations, and distant galaxies through an interface designed for touch. Built on Stellarium’s astronomy engine, with offline access to a richly detailed sky."
+msgstr "Asterium gece gökyüzünü parmaklarınızın ucuna getirir. Dokunmatik kullanım için tasarlanmış bir arayüzle yıldızları, gezegenleri, takımyıldızları ve uzak galaksileri keşfedin. Stellarium’un astronomi motoru üzerine kurulu uygulama, ayrıntılarla dolu bir gökyüzüne çevrimdışı erişim sunar."
 
 msgid "Astronomical Almanac (default) enlarges by 2%; Danjon (1951) differs slightly"
 msgstr "Astronomical Almanac (varsayılan) %2 oranında büyütür; Danjon (1951) biraz farklılık gösterir"

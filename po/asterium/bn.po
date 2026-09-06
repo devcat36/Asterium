@@ -45,9 +45,6 @@ msgstr "বর্তমান পর্যবেক্ষণ তালিকা�
 msgid "A polygonal model for some small moons, asteroids and comets instead of a sphere"
 msgstr "ছোট উপগ্রহ, গ্রহাণু এবং ধূমকেতুর জন্য গোলক অপেক্ষা বহুভুজাকার মডেল"
 
-msgid "A touch-first planetarium forked from Stellarium, whose astronomy engine it uses unchanged. The interface is new; everything that draws the sky is upstream's work."
-msgstr "Stellarium থেকে বিভক্ত একটি স্পর্শ-প্রথম প্ল্যানেটেরিয়াম, যার জ্যোতির্বিজ্ঞান ইঞ্জিন অপরিবর্তিত ব্যবহৃত। ইন্টারফেসটি নতুন; আকাশ যা আঁকে তার সবকিছু আপস্ট্রীমের কাজ।"
-
 msgid "Abbreviated names"
 msgstr "সংক্ষিপ্ত নাম"
 
@@ -140,6 +137,9 @@ msgstr "নক্ষ. রেখা"
 
 msgid "Ast. names"
 msgstr "নক্ষত্র নাম"
+
+msgid "Asterium brings the night sky to your fingertips. Explore stars, planets, constellations, and distant galaxies through an interface designed for touch. Built on Stellarium’s astronomy engine, with offline access to a richly detailed sky."
+msgstr "Asterium রাতের আকাশকে নিয়ে আসে আপনার আঙুলের ডগায়। স্পর্শের জন্য তৈরি ইন্টারফেস দিয়ে তারা, গ্রহ, নক্ষত্রমণ্ডল ও দূরবর্তী ছায়াপথ অন্বেষণ করুন। Stellarium-এর জ্যোতির্বিজ্ঞান ইঞ্জিনের ওপর ভিত্তি করে তৈরি এই অ্যাপে ইন্টারনেট ছাড়াই সূক্ষ্ম বিবরণে সমৃদ্ধ আকাশ দেখুন।"
 
 msgid "Astronomical Almanac (default) enlarges by 2%; Danjon (1951) differs slightly"
 msgstr "জ্যোতিৰ্বৈজ্ঞানিক বর্ষপঞ্জি (ডিফল্ট) २% বৃদ্ধি করে; দ্যঁজঁ (१९५१) সামান্য ভিন্ন"

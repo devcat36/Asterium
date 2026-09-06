@@ -54,9 +54,6 @@ msgstr "Дугме за укључивање галактичке мреже"
 msgid "A polygonal model for some small moons, asteroids and comets instead of a sphere"
 msgstr "Полигонални модел за неке мале месеце, астероиде и комете уместо сфере"
 
-msgid "A touch-first planetarium forked from Stellarium, whose astronomy engine it uses unchanged. The interface is new; everything that draws the sky is upstream's work."
-msgstr "Планетаријум заснован на допиру, развијан од Stellarium-а, чији астрономски мотор користи без измена. Интерфејс је нов; све што исцрта небо је дело претходника."
-
 msgid "Abbreviated names"
 msgstr "Скраћена имена"
 
@@ -203,6 +200,9 @@ msgstr "Астеризми"
 
 msgid "Asterisms font size"
 msgstr "Величина фонта астеризама"
+
+msgid "Asterium brings the night sky to your fingertips. Explore stars, planets, constellations, and distant galaxies through an interface designed for touch. Built on Stellarium’s astronomy engine, with offline access to a richly detailed sky."
+msgstr "Asterium вам доноси ноћно небо надохват прстију. Истражујте звезде, планете, сазвежђа и удаљене галаксије путем интерфејса осмишљеног за управљање додиром. Заснован на астрономском погону Stellarium-а, пружа приступ небу богатом детаљима и без интернет везе."
 
 msgid "Astronomical Almanac (1984)"
 msgstr "Астрономски алманах (1984)"

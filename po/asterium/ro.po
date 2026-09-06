@@ -51,9 +51,6 @@ msgstr "Un buton pentru a comuta grila galactică"
 msgid "A polygonal model for some small moons, asteroids and comets instead of a sphere"
 msgstr "Un model poligonal pentru unele luni mici, asteroizi și comete în loc de o sferă"
 
-msgid "A touch-first planetarium forked from Stellarium, whose astronomy engine it uses unchanged. The interface is new; everything that draws the sky is upstream's work."
-msgstr "Un planetariu cu prioritate tactilă bifurcat din Stellarium, al cărui motor de astronomie îl folosește nemodificat. Interfața este nouă; totul ce desenează cerul este lucrul upstream."
-
 msgid "Abbreviated names"
 msgstr "Nume abreviate"
 
@@ -188,6 +185,9 @@ msgstr "Asterisme"
 
 msgid "Asterisms font size"
 msgstr "Dimensiune font asterisme"
+
+msgid "Asterium brings the night sky to your fingertips. Explore stars, planets, constellations, and distant galaxies through an interface designed for touch. Built on Stellarium’s astronomy engine, with offline access to a richly detailed sky."
+msgstr "Asterium aduce cerul nopții la îndemâna ta. Explorează stele, planete, constelații și galaxii îndepărtate printr-o interfață concepută pentru control tactil. Bazat pe motorul astronomic Stellarium, oferă acces offline la un cer bogat în detalii."
 
 msgid "Astronomical Almanac (1984)"
 msgstr "Almanahul Astronomic (1984)"

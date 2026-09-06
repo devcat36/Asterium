@@ -42,9 +42,6 @@ msgstr "标记当前观测列表中所有天体的按钮"
 msgid "A polygonal model for some small moons, asteroids and comets instead of a sphere"
 msgstr "对某些小月亮、小行星和彗星使用多边形模型而不是球体"
 
-msgid "A touch-first planetarium forked from Stellarium, whose astronomy engine it uses unchanged. The interface is new; everything that draws the sky is upstream's work."
-msgstr "一个基于触摸优先设计的行星仪，它是Stellarium的分支，使用其未修改的天文计算引擎。界面是新开发的；绘制天空的所有部分都是上游的工作。"
-
 msgid "About this sky culture"
 msgstr "关于此星空文化"
 
@@ -125,6 +122,9 @@ msgstr "星群线"
 
 msgid "Ast. names"
 msgstr "星群名"
+
+msgid "Asterium brings the night sky to your fingertips. Explore stars, planets, constellations, and distant galaxies through an interface designed for touch. Built on Stellarium’s astronomy engine, with offline access to a richly detailed sky."
+msgstr "Asterium 将夜空带到你的指尖。通过专为触控设计的界面，探索恒星、行星、星座和遥远的星系。基于 Stellarium 天文引擎，即使离线，也能欣赏细节丰富的星空。"
 
 msgid "AstroCalc"
 msgstr "天文计算"

@@ -54,9 +54,6 @@ msgstr "Qalaktik şəbəkəni aç/kapa üçün düymə"
 msgid "A polygonal model for some small moons, asteroids and comets instead of a sphere"
 msgstr "Bəzi kiçik peykləri, asteroid və kometləri sfera yerinə çoxüzlü model kimi göstər"
 
-msgid "A touch-first planetarium forked from Stellarium, whose astronomy engine it uses unchanged. The interface is new; everything that draws the sky is upstream's work."
-msgstr "Stellarium-dan branşlaşdırılmış, onun astronomiya mühərriki dəyişilməz istifadə edən toxunuş-əvvəl planetarium. İnterfeys yenidir; səmanı rəsm edən hər şey yuxarının işidir."
-
 msgid "Abbreviated names"
 msgstr "Qısaldılmış adlar"
 
@@ -197,6 +194,9 @@ msgstr "Ulduz topaları"
 
 msgid "Asterisms font size"
 msgstr "Ulduz topaları şrift ölçüsü"
+
+msgid "Asterium brings the night sky to your fingertips. Explore stars, planets, constellations, and distant galaxies through an interface designed for touch. Built on Stellarium’s astronomy engine, with offline access to a richly detailed sky."
+msgstr "Asterium gecə səmasını barmaqlarınızın ucuna gətirir. Toxunma üçün hazırlanmış interfeys vasitəsilə ulduzları, planetləri, bürcləri və uzaq qalaktikaları kəşf edin. Stellarium-un astronomiya mühərriki əsasında qurulub və zəngin detallı səmanı internet bağlantısı olmadan araşdırmağa imkan verir."
 
 msgid "Astronomical Almanac (1984)"
 msgstr "Astronomik Almanax (1984)"

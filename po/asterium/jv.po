@@ -60,9 +60,6 @@ msgstr "Tombol kanggo nyalib-nyalib kisi galaksi"
 msgid "A polygonal model for some small moons, asteroids and comets instead of a sphere"
 msgstr "Model poligonal kanggo bulan cilik, asteroid lan komet tinimbang bunder"
 
-msgid "A touch-first planetarium forked from Stellarium, whose astronomy engine it uses unchanged. The interface is new; everything that draws the sky is upstream's work."
-msgstr "Planetarium sing fokus turutan saka Stellarium, sing gunakaken mesin astronomi tanpa owah-owahan. Antarmuka anyar; kabeh sing nggambar langit minangka karya hulu."
-
 msgid "Abbreviated names"
 msgstr "Jeneng singkatan"
 
@@ -227,6 +224,9 @@ msgstr "Asterisme"
 
 msgid "Asterisms font size"
 msgstr "Ukuran font asterisme"
+
+msgid "Asterium brings the night sky to your fingertips. Explore stars, planets, constellations, and distant galaxies through an interface designed for touch. Built on Stellarium’s astronomy engine, with offline access to a richly detailed sky."
+msgstr "Asterium nggawa langit wengi menyang pucuk driji sampeyan. Jelajahi lintang, planèt, rasi lintang, lan galaksi adoh liwat antarmuka sing dirancang kanggo tutul. Adhedhasar mesin astronomi Stellarium, kanthi akses tanpa internet menyang langit sing sugih rincian."
 
 msgid "Asteroids"
 msgstr "Asteroid"

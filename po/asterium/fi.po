@@ -45,9 +45,6 @@ msgstr "Painike kaikkien nykyisen havaintoluettelon kohteiden merkitsemiseen tai
 msgid "A polygonal model for some small moons, asteroids and comets instead of a sphere"
 msgstr "Monikulmainen malli joillekin pienille kuille, asteroideille ja komeetoille pallon sijasta"
 
-msgid "A touch-first planetarium forked from Stellarium, whose astronomy engine it uses unchanged. The interface is new; everything that draws the sky is upstream's work."
-msgstr "Stellariumista muodostettu kosketusorientoitunut planetaario, jonka tähtitieteen moottoria se käyttää muuttamattomana. Käyttöliittymä on uusi; kaikki, joka piirtää taivaan, on alkuperäisen työtä."
-
 msgid "About this sky culture"
 msgstr "Tietoja tästä tähtitarustosta"
 
@@ -131,6 +128,9 @@ msgstr "Ast. viivat"
 
 msgid "Ast. names"
 msgstr "Ast. nimet"
+
+msgid "Asterium brings the night sky to your fingertips. Explore stars, planets, constellations, and distant galaxies through an interface designed for touch. Built on Stellarium’s astronomy engine, with offline access to a richly detailed sky."
+msgstr "Asterium tuo yötaivaan sormenpäidesi ulottuville. Tutki tähtiä, planeettoja, tähdistöjä ja kaukaisia galakseja kosketuskäyttöön suunnitellulla käyttöliittymällä. Stellariumin tähtitiedemoottoriin perustuva sovellus tarjoaa pääsyn yksityiskohtaiseen taivaaseen myös ilman verkkoyhteyttä."
 
 msgid "Astronomical Almanac (default) enlarges by 2%; Danjon (1951) differs slightly"
 msgstr "Astronomical Almanac (oletus) suurentaa 2 %:lla; Danjon (1951) eroaa hieman"

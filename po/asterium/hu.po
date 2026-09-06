@@ -54,9 +54,6 @@ msgstr "Gomb a galaktikus hálo megjelenítéséhez"
 msgid "A polygonal model for some small moons, asteroids and comets instead of a sphere"
 msgstr "Poligonális modell néhány holdhoz, aszteroidához és üstökösökhöz a gömb helyett"
 
-msgid "A touch-first planetarium forked from Stellarium, whose astronomy engine it uses unchanged. The interface is new; everything that draws the sky is upstream's work."
-msgstr "Az upstream Stellariumból forkollt, érintésvezérelt bolygótérképészeti alkalmazás, amelynek csillagászati motorja változatlan. A felület új; az égboltot rajzoló minden kód az upstream-től származik."
-
 msgid "Abbreviated names"
 msgstr "Rövidített nevek"
 
@@ -176,6 +173,9 @@ msgstr "Csill. név"
 
 msgid "Asterisms font size"
 msgstr "Aszterizmusok betűmérete"
+
+msgid "Asterium brings the night sky to your fingertips. Explore stars, planets, constellations, and distant galaxies through an interface designed for touch. Built on Stellarium’s astronomy engine, with offline access to a richly detailed sky."
+msgstr "Az Asterium karnyújtásnyira hozza az éjszakai égboltot. Fedezz fel csillagokat, bolygókat, csillagképeket és távoli galaxisokat az érintéses vezérlésre tervezett felületen. A Stellarium csillagászati motorjára épülő alkalmazás internetkapcsolat nélkül is hozzáférést biztosít a részletgazdag égbolthoz."
 
 msgid "Astronomical Almanac (default) enlarges by 2%; Danjon (1951) differs slightly"
 msgstr "Csillagászati Almanach (alapértelmezett) 2%-kal nagyít; a Danjon (1951) módszer enyhén eltér"

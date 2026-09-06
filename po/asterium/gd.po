@@ -45,9 +45,6 @@ msgstr "Putan gus gach cuspair air liosta an amhairc làithreach a chomharrachad
 msgid "A polygonal model for some small moons, asteroids and comets instead of a sphere"
 msgstr "Modail pholaganaich airson cuid de ghealachan beaga, astaraideanan is reultanan-cearbhach an àite cruinn"
 
-msgid "A touch-first planetarium forked from Stellarium, whose astronomy engine it uses unchanged. The interface is new; everything that draws the sky is upstream's work."
-msgstr "Planetarium tòiseach-fadadh air a bhreacadh bho Stellarium, agus a' cleachdadh a h-inneal reul-eòlach gun atharrachadh. Tha an eadar-aghaidh ùr; tha a h-uile càil a tha a' tarraing an speur ann an obair Stellarium."
-
 msgid "Abbreviated names"
 msgstr "Ainmean giorrach"
 
@@ -161,6 +158,9 @@ msgstr "Loidh. ast."
 
 msgid "Ast. names"
 msgstr "Ainm. ast."
+
+msgid "Asterium brings the night sky to your fingertips. Explore stars, planets, constellations, and distant galaxies through an interface designed for touch. Built on Stellarium’s astronomy engine, with offline access to a richly detailed sky."
+msgstr "Bheir Asterium speur na h-oidhche gu bàrr do chorragan. Rannsaich reultan, planaidean, reul-bhadan agus galacsaidhean fad às tro eadar-aghaidh a chaidh a dhealbhadh airson suathadh. Stèidhichte air einnsean reul-eòlais Stellarium, le cothrom air speur làn mion-fhiosrachaidh gun cheangal ris an eadar-lìon."
 
 msgid "Astronomical Almanac (1984)"
 msgstr "Almanac Reul-eòlach (1984)"

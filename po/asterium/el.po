@@ -54,9 +54,6 @@ msgstr "Κουμπί εναλλαγής γαλαξιακού πλέγματος"
 msgid "A polygonal model for some small moons, asteroids and comets instead of a sphere"
 msgstr "Πολυγωνικό μοντέλο για μερικούς μικρούς δορυφόρους, αστεροειδείς και κομήτες αντί σφαίρας"
 
-msgid "A touch-first planetarium forked from Stellarium, whose astronomy engine it uses unchanged. The interface is new; everything that draws the sky is upstream's work."
-msgstr "Ένα πλανητάριο με προτεραιότητα την αφή που είναι ένα fork του Stellarium, του οποίου χρησιμοποιεί το αμετάβλητο κινητήρα αστρονομίας. Η διεπαφή είναι νέα· όλα όσα σχεδιάζουν τον ουρανό είναι έργο του upstream."
-
 msgid "Abbreviated names"
 msgstr "Συντομευμένα ονόματα"
 
@@ -194,6 +191,9 @@ msgstr "Αστερισμοί"
 
 msgid "Asterisms font size"
 msgstr "Μέγεθος γραμματοσειράς αστερισμών"
+
+msgid "Asterium brings the night sky to your fingertips. Explore stars, planets, constellations, and distant galaxies through an interface designed for touch. Built on Stellarium’s astronomy engine, with offline access to a richly detailed sky."
+msgstr "Το Asterium φέρνει τον νυχτερινό ουρανό στα ακροδάχτυλά σας. Εξερευνήστε αστέρια, πλανήτες, αστερισμούς και μακρινούς γαλαξίες μέσα από ένα περιβάλλον σχεδιασμένο για χειρισμό αφής. Βασίζεται στην αστρονομική μηχανή του Stellarium και προσφέρει πρόσβαση σε έναν ουρανό πλούσιο σε λεπτομέρειες, ακόμη και χωρίς σύνδεση στο διαδίκτυο."
 
 msgid "Astronomical Almanac (1984)"
 msgstr "Αστρονομικό Ημερολόγιο (1984)"

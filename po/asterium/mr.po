@@ -60,9 +60,6 @@ msgstr "दिर्घीका जाल टॉगल करा"
 msgid "A polygonal model for some small moons, asteroids and comets instead of a sphere"
 msgstr "गोलाऐवजी काही लहान चंद्रांसाठी, लघुग्रहांसाठी आणि धूमकेतूंसाठी बहुभुज मॉडेल"
 
-msgid "A touch-first planetarium forked from Stellarium, whose astronomy engine it uses unchanged. The interface is new; everything that draws the sky is upstream's work."
-msgstr "Stellarium मधून fork केलेले एक स्पर्श-प्रथम ग्रह-गृह, ज्याचे खगोल इंजिन अपरिवर्तित वापरले जाते. इंटरफेस नवीन आहे; आकाश काढणारी सर्वकाही अपस्ट्रीमचे कार्य आहे."
-
 msgid "Abbreviated names"
 msgstr "संक्षिप्त नावे"
 
@@ -224,6 +221,9 @@ msgstr "नक्षत्र-समूह"
 
 msgid "Asterisms font size"
 msgstr "नक्षत्र-समूह फॉन्ट आकार"
+
+msgid "Asterium brings the night sky to your fingertips. Explore stars, planets, constellations, and distant galaxies through an interface designed for touch. Built on Stellarium’s astronomy engine, with offline access to a richly detailed sky."
+msgstr "Asterium रात्रीचे आकाश तुमच्या बोटांच्या टोकावर आणते. स्पर्शाने वापरण्यासाठी तयार केलेल्या इंटरफेसमधून तारे, ग्रह, तारकासमूह आणि दूरवरच्या दीर्घिकांचा शोध घ्या. Stellarium च्या खगोलशास्त्रीय इंजिनवर आधारित हे ॲप इंटरनेटशिवायही बारकाव्यांनी समृद्ध आकाश पाहण्याची सोय देते."
 
 msgid "Asteroids"
 msgstr "लघुग्रह"

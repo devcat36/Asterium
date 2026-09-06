@@ -54,9 +54,6 @@ msgstr "Gumb za vklop/izklop galaktične mreže"
 msgid "A polygonal model for some small moons, asteroids and comets instead of a sphere"
 msgstr "Poligonski model za nekatere male lune, asteroide in komete namesto krogle"
 
-msgid "A touch-first planetarium forked from Stellarium, whose astronomy engine it uses unchanged. The interface is new; everything that draws the sky is upstream's work."
-msgstr "Planetarij namenjen dotiku, razvejitvanega iz programa Stellarium, katerega astronomski pogon se ne spremeni. Vmesnik je nov; vse, kar risa nebo, je delo prvotne kode."
-
 msgid "Abbreviated names"
 msgstr "Okrajšana imena"
 
@@ -179,6 +176,9 @@ msgstr "Ast. imena"
 
 msgid "Asterisms font size"
 msgstr "Velikost pisave asterizmov"
+
+msgid "Asterium brings the night sky to your fingertips. Explore stars, planets, constellations, and distant galaxies through an interface designed for touch. Built on Stellarium’s astronomy engine, with offline access to a richly detailed sky."
+msgstr "Asterium vam približa nočno nebo s konicami prstov. Raziskujte zvezde, planete, ozvezdja in oddaljene galaksije prek vmesnika, zasnovanega za upravljanje na dotik. Temelji na astronomskem pogonu Stellariuma in omogoča dostop do neba, polnega podrobnosti, tudi brez internetne povezave."
 
 msgid "Astronomical Almanac (default) enlarges by 2%; Danjon (1951) differs slightly"
 msgstr "Astronomski almanah (privzeto) povečuje za 2%; Danjon (1951) se malo razlikuje"

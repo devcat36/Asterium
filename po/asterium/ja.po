@@ -45,9 +45,6 @@ msgstr "現在の観測リストのすべての天体を空に表示するボタ
 msgid "A polygonal model for some small moons, asteroids and comets instead of a sphere"
 msgstr "小惑星、彗星などの球体の代わりに多面体モデルを使用する"
 
-msgid "A touch-first planetarium forked from Stellarium, whose astronomy engine it uses unchanged. The interface is new; everything that draws the sky is upstream's work."
-msgstr "Stellariumから派生した、タッチ優先のプラネタリウム。天文学エンジンは変更なし。インターフェースは新しい; 空を描く部分はすべて上流の作品。"
-
 msgid "Abbreviated names"
 msgstr "略称"
 
@@ -137,6 +134,9 @@ msgstr "星線"
 
 msgid "Ast. names"
 msgstr "星名"
+
+msgid "Asterium brings the night sky to your fingertips. Explore stars, planets, constellations, and distant galaxies through an interface designed for touch. Built on Stellarium’s astronomy engine, with offline access to a richly detailed sky."
+msgstr "Asteriumで、夜空を指先に。タッチ操作のために設計されたインターフェースで、恒星、惑星、星座、遠くの銀河を探索できます。Stellariumの天文エンジンをベースに、細部まで描かれた星空をオフラインでも楽しめます。"
 
 msgid "Astronomical Almanac (default) enlarges by 2%; Danjon (1951) differs slightly"
 msgstr "天文暦(デフォルト)は2%拡大; Danjon(1951)はわずかに異なる"

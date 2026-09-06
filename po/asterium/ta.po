@@ -54,9 +54,6 @@ msgstr "அண்ட கட்டத்தை மாற்ற."
 msgid "A polygonal model for some small moons, asteroids and comets instead of a sphere"
 msgstr "சிறிய சந்திரக்கள், சிறுகோள்கள் மற்றும் வால்நட்சத்திரங்களுக்கு கோளத்திற்கு பதிலாக பலகோண மாதிரி"
 
-msgid "A touch-first planetarium forked from Stellarium, whose astronomy engine it uses unchanged. The interface is new; everything that draws the sky is upstream's work."
-msgstr "Stellarium-லிருந்து ஆக்கப்பட்ட தொடுப்பு-முதல் கோள்கள்ற். வானவியல் இயந்திரம் மாறாமல் பயன்படுத்தப்படுகிறது. இடைமுகம் புதிய; வானை வரையும் அனைத்தும் மேற்புற வேலை."
-
 msgid "Abbreviated names"
 msgstr "சுருக்கிய பெயர்கள்"
 
@@ -212,6 +209,9 @@ msgstr "கதிர்வங்கள்"
 
 msgid "Asterisms font size"
 msgstr "கதிர்வ எழுத்து அளவு"
+
+msgid "Asterium brings the night sky to your fingertips. Explore stars, planets, constellations, and distant galaxies through an interface designed for touch. Built on Stellarium’s astronomy engine, with offline access to a richly detailed sky."
+msgstr "Asterium இரவு வானத்தை உங்கள் விரல் நுனிக்குக் கொண்டுவருகிறது. தொடுதிரைக்காக வடிவமைக்கப்பட்ட இடைமுகத்தின் வழியே விண்மீன்கள், கோள்கள், விண்மீன் குழுக்கள் மற்றும் தொலைதூர விண்மீன் திரள்களை ஆராயுங்கள். Stellarium வானியல் இயந்திரத்தை அடிப்படையாகக் கொண்ட இந்தச் செயலியில், நுணுக்கமான விவரங்கள் நிறைந்த வானத்தை இணைய இணைப்பின்றியும் காணலாம்."
 
 msgid "Astronomical Almanac (1984)"
 msgstr "வானவியல் நாள்வாரி (1984)"

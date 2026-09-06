@@ -54,9 +54,6 @@ msgstr "ग्याल्याक्टिक ग्रिड टगल गर
 msgid "A polygonal model for some small moons, asteroids and comets instead of a sphere"
 msgstr "गोलाको सट्टा केही सानो चन्द्रमा, क्षुद्रग्रह र धूमकेतुको लागि बहुभुज मोडल"
 
-msgid "A touch-first planetarium forked from Stellarium, whose astronomy engine it uses unchanged. The interface is new; everything that draws the sky is upstream's work."
-msgstr "Stellarium बाट फोर्क गरिएको टच-पहिले ग्रहचक्र जसको खगोल इञ्जिन अपरिवर्तित प्रयोग गरिन्छ। इन्टरफेस नयाँ छ; आकाश आकर्षण गर्ने सबै अपस्ट्रिमको काम हो।"
-
 msgid "Abbreviated names"
 msgstr "संक्षिप्त नामहरु"
 
@@ -212,6 +209,9 @@ msgstr "तारा समूहहरु"
 
 msgid "Asterisms font size"
 msgstr "तारा समूह फन्ट आकार"
+
+msgid "Asterium brings the night sky to your fingertips. Explore stars, planets, constellations, and distant galaxies through an interface designed for touch. Built on Stellarium’s astronomy engine, with offline access to a richly detailed sky."
+msgstr "Asterium ले रातको आकाश तपाईंका औँलाका टुप्पामा ल्याउँछ। स्पर्शका लागि बनाइएको इन्टरफेसबाट तारा, ग्रह, तारामण्डल र टाढाका आकाशगङ्गाहरू अन्वेषण गर्नुहोस्। Stellarium को खगोल विज्ञान इन्जिनमा आधारित यो एपले इन्टरनेटबिनै सूक्ष्म विवरणले भरिएको आकाश हेर्न दिन्छ।"
 
 msgid "Astronomical Almanac (1984)"
 msgstr "खगोलीय पञ्जिका (1984)"
