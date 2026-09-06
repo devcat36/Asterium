@@ -630,9 +630,6 @@ msgstr "Сеткі"
 msgid "Ground"
 msgstr "Зямля"
 
-msgid "Gyro"
-msgstr "Жыра"
-
 msgid "Gyro mode"
 msgstr "Рэжым жыра"
 

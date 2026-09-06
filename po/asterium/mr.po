@@ -1026,9 +1026,6 @@ msgstr "जाळी"
 msgid "Ground"
 msgstr "भूमी"
 
-msgid "Gyro"
-msgstr "जायरो"
-
 msgid "Gyro mode"
 msgstr "जायरो पद्धत"
 

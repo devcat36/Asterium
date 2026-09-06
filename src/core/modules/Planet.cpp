@@ -2431,8 +2431,11 @@ QPair<double,double> Planet::getLunarEclipseMagnitudes() const
 float Planet::getSelectPriority(const StelCore* core) const
 {
 	static SolarSystem *ss=GETSTELMODULE(SolarSystem);
-	if (pType>=isAsteroid && ss->getFlagMarkers())
-		return getVMagnitude(core)-25.f;
+	if (pType>=isAsteroid && pType!=isDwarfPlanet)
+	{
+		const float mag = getVMagnitudeWithExtinction(core);
+		return ss->getFlagMarkers() ? qMin(mag, core->getSkyDrawer()->getLimitMagnitude()) : mag;
+	}
 
 	if( ss->getFlagHints() )
 	{

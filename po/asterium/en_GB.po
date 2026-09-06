@@ -81,9 +81,6 @@ msgstr "Gal. grid"
 msgid "Ground"
 msgstr "Ground"
 
-msgid "Gyro"
-msgstr "Gyro"
-
 msgid "HiPS"
 msgstr "HiPS"
 

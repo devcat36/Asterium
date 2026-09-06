@@ -1071,9 +1071,6 @@ msgstr "જાળીઓ"
 msgid "Ground"
 msgstr "જમીન"
 
-msgid "Gyro"
-msgstr "જાયરો"
-
 msgid "Gyro mode"
 msgstr "જાયરો પદ્ધતિ"
 

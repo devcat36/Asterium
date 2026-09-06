@@ -879,9 +879,6 @@ msgstr "شبکه‌ها"
 msgid "Ground"
 msgstr "زمین"
 
-msgid "Gyro"
-msgstr "ژیروسکوپ"
-
 msgid "Gyro mode"
 msgstr "حالت ژیروسکوپ"
 

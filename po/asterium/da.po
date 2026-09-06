@@ -861,9 +861,6 @@ msgstr "Gitterne"
 msgid "Ground"
 msgstr "Jord"
 
-msgid "Gyro"
-msgstr "Gyroskop"
-
 msgid "Gyro mode"
 msgstr "Gyro-tilstand"
 

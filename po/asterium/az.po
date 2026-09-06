@@ -975,9 +975,6 @@ msgstr "Şəbəkələr"
 msgid "Ground"
 msgstr "Torpaq"
 
-msgid "Gyro"
-msgstr "Qiroskop"
-
 msgid "Gyro mode"
 msgstr "Qiroskop rejimi"
 

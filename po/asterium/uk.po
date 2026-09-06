@@ -456,9 +456,6 @@ msgstr "Сітки"
 msgid "Ground"
 msgstr "Земля"
 
-msgid "Gyro"
-msgstr "Гіро"
-
 msgid "Gyro mode"
 msgstr "Режим гіро"
 

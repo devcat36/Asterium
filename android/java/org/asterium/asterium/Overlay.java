@@ -184,19 +184,20 @@ final class Overlay extends FrameLayout implements NativeBridge.StateListener
 		{
 			return new LayoutParams(LayoutParams.MATCH_PARENT, LayoutParams.MATCH_PARENT);
 		}
-		final boolean card = docksOverSky(sheet.id());
+		final String id = sheet.id();
+		final boolean card = docksOverSky(id);
 		final boolean hug = sheet.hugsContent();
 		final LayoutParams params = new LayoutParams(
 				Theme.dp(card ? CARD_WIDTH : MENU_WIDTH),
 				hug ? LayoutParams.WRAP_CONTENT : LayoutParams.MATCH_PARENT,
-				card ? android.view.Gravity.END | android.view.Gravity.BOTTOM
-				     : android.view.Gravity.START | android.view.Gravity.TOP);
-		if (card)
-			params.rightMargin = insets.right + Theme.dp(DOCK_EDGE);
+				(docksLeft(id) ? android.view.Gravity.START : android.view.Gravity.END)
+						| (card ? android.view.Gravity.BOTTOM : android.view.Gravity.TOP));
+		if (docksLeft(id))
+			params.leftMargin = insets.left + dockEdge(id);
 		else
-			params.leftMargin = insets.left + Theme.dp(DOCK_EDGE) + Theme.dp(Theme.RAIL_BUTTON + 28);
+			params.rightMargin = insets.right + dockEdge(id);
 		params.topMargin = insets.top + Theme.dp(DOCK_TOP);
-		params.bottomMargin = insets.bottom + Theme.dp(dockBottom(sheet.id()));
+		params.bottomMargin = insets.bottom + Theme.dp(dockBottom(id));
 		sheet.setDockLimits(maxDockHeight(card), card || hug ? 0f : MENU_MIN_RATIO);
 		return params;
 	}
@@ -204,6 +205,16 @@ final class Overlay extends FrameLayout implements NativeBridge.StateListener
 	private static boolean docksOverSky(String id)
 	{
 		return "info".equals(id) || "ocularpanel".equals(id);
+	}
+
+	private static boolean docksLeft(String id)
+	{
+		return "info".equals(id);
+	}
+
+	private static int dockEdge(String id)
+	{
+		return Theme.dp(DOCK_EDGE) + (docksOverSky(id) ? 0 : Theme.dp(Theme.RAIL_BUTTON + 28));
 	}
 
 	private static int dockBottom(String id)
@@ -218,27 +229,23 @@ final class Overlay extends FrameLayout implements NativeBridge.StateListener
 		return card ? Theme.dp(CARD_WIDTH * 3 / 2) : Theme.dp(MENU_WIDTH * 2);
 	}
 
-	private Rect dockRect(boolean card)
+	private Rect dockRect(String id)
 	{
+		final boolean card = docksOverSky(id);
 		int width = Theme.dp(card ? CARD_WIDTH : MENU_WIDTH);
 		final int top = insets.top + Theme.dp(DOCK_TOP);
-		final int floor = getHeight() - insets.bottom
-				- Theme.dp(card ? CARD_BOTTOM : MENU_BOTTOM);
+		final int floor = getHeight() - insets.bottom - Theme.dp(dockBottom(id));
 		final int height = Math.min(Math.max(floor - top, 0), maxDockHeight(card));
 		if (!card && height < width * MENU_MIN_RATIO)
 			width = Math.round(height / MENU_MIN_RATIO);
-		if (card)
+		final int roof = card ? floor - height : top;
+		if (docksLeft(id))
 		{
-			final int right = getWidth() - insets.right - Theme.dp(DOCK_EDGE);
-			return new Rect(right - width, floor - height, right, floor);
+			final int left = insets.left + dockEdge(id);
+			return new Rect(left, roof, left + width, roof + height);
 		}
-		final int left = insets.left + Theme.dp(DOCK_EDGE) + Theme.dp(Theme.RAIL_BUTTON + 28);
-		return new Rect(left, top, left + width, top + height);
-	}
-
-	private boolean docksOverlap()
-	{
-		return Rect.intersects(dockRect(false), dockRect(true));
+		final int right = getWidth() - insets.right - dockEdge(id);
+		return new Rect(right - width, roof, right, roof + height);
 	}
 
 	void close(Sheet sheet)
@@ -381,9 +388,10 @@ final class Overlay extends FrameLayout implements NativeBridge.StateListener
 			return;
 		}
 		final boolean card = docksOverSky(id);
-		final boolean overlap = docksOverlap();
+		final Rect wanted = dockRect(id);
 		for (Sheet sheet : new java.util.ArrayList<>(sheets))
-			if (docksOverSky(sheet.id()) == card || overlap)
+			if (docksOverSky(sheet.id()) == card
+					|| Rect.intersects(dockRect(sheet.id()), wanted))
 				close(sheet);
 	}
 

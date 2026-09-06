@@ -453,9 +453,6 @@ msgstr "Grades"
 msgid "Ground"
 msgstr "Superfície"
 
-msgid "Gyro"
-msgstr "Giroscópio"
-
 msgid "Gyro mode"
 msgstr "Modo de giroscópio"
 

@@ -492,9 +492,6 @@ msgstr "Griglie"
 msgid "Ground"
 msgstr "Orizzonte"
 
-msgid "Gyro"
-msgstr "Giroscopio"
-
 msgid "Gyro mode"
 msgstr "Modalità giroscopio"
 

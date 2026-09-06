@@ -519,9 +519,6 @@ msgstr "ছক"
 msgid "Ground"
 msgstr "ভূমি"
 
-msgid "Gyro"
-msgstr "জাইরো"
-
 msgid "Gyro mode"
 msgstr "জাইরো মোড"
 

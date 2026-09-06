@@ -1041,9 +1041,6 @@ msgstr "ბადეები"
 msgid "Ground"
 msgstr "მიწა"
 
-msgid "Gyro"
-msgstr "გირო"
-
 msgid "Gyro mode"
 msgstr "გირო რეჟიმი"
 

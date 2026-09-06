@@ -1008,9 +1008,6 @@ msgstr "Tīkli"
 msgid "Ground"
 msgstr "Apvārsnis"
 
-msgid "Gyro"
-msgstr "Žiroskops"
-
 msgid "Gyro mode"
 msgstr "Žiroskopa režīms"
 

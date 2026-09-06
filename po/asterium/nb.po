@@ -819,9 +819,6 @@ msgstr "Nett"
 msgid "Ground"
 msgstr "Landskap"
 
-msgid "Gyro"
-msgstr "Gyroskop"
-
 msgid "Gyro mode"
 msgstr "Gyromodus"
 

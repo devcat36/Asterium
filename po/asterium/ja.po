@@ -492,9 +492,6 @@ msgstr "グリッド"
 msgid "Ground"
 msgstr "地表"
 
-msgid "Gyro"
-msgstr "ジャイロ"
-
 msgid "Gyro mode"
 msgstr "ジャイロモード"
 

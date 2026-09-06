@@ -810,9 +810,6 @@ msgstr "Grilă"
 msgid "Ground"
 msgstr "Pământ"
 
-msgid "Gyro"
-msgstr "Giroscop"
-
 msgid "Gyro mode"
 msgstr "Mod Giroscop"
 

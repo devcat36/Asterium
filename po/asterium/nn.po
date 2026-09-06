@@ -978,9 +978,6 @@ msgstr "Nett"
 msgid "Ground"
 msgstr "Horisont"
 
-msgid "Gyro"
-msgstr "Gyroskop"
-
 msgid "Gyro mode"
 msgstr "Gyromodus"
 

@@ -666,9 +666,6 @@ msgstr "Griglie"
 msgid "Ground"
 msgstr "Terrinu"
 
-msgid "Gyro"
-msgstr "Giroscopiu"
-
 msgid "Gyro mode"
 msgstr "Modalidade Gyro"
 

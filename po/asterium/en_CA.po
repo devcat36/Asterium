@@ -114,9 +114,6 @@ msgstr "Galactic centre and anticentre"
 msgid "Ground"
 msgstr "Ground"
 
-msgid "Gyro"
-msgstr "Gyro"
-
 msgid "Harvard-Smithsonian Center for Astrophysics (USA)"
 msgstr "Harvard-Smithsonian Centre for Astrophysics (USA)"
 

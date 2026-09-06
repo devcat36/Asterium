@@ -747,9 +747,6 @@ msgstr "Grelhas"
 msgid "Ground"
 msgstr "Superfície"
 
-msgid "Gyro"
-msgstr "Giroscópio"
-
 msgid "Gyro mode"
 msgstr "Modo giroscópio"
 

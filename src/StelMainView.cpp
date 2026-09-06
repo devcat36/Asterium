@@ -598,7 +598,11 @@ private:
 				//note: the old code seems to have ignored double clicks
 				// and handled them the same as normal mouse presses
 				//if we ever want to handle double clicks, switch out these lines
+#if defined(Q_OS_ANDROID)
+				t = QEvent::MouseButtonPress;
+#else
 				t = QEvent::MouseButtonDblClick;
+#endif
 				//t = QEvent::MouseButtonPress;
 				break;
 			default:
@@ -1691,7 +1695,6 @@ void StelMainView::handleTouchForPinch(QObject* obj, QEvent* event)
 	if (StelDialog::topmostVisible())
 	{
 		endPinch();
-		tapPhase = NoTap;
 		return;
 	}
 
@@ -1749,60 +1752,8 @@ void StelMainView::handleTouchForPinch(QObject* obj, QEvent* event)
 					thereWasAnEvent();
 				}
 			}
-			else if (down <= 1 && !inTwoFingerGesture())
-			{
-				constexpr qint64 doubleTapMs = 400;
-				constexpr qreal doubleTapSlop = 40.;
-				const QPointF pos = points.isEmpty() ? lastTapPos : points.at(0).position();
-
-				if (event->type()==QEvent::TouchBegin)
-				{
-					if (tapPhase==AwaitingSecondPress
-					    && tapTimer.isValid() && tapTimer.elapsed() < doubleTapMs
-					    && QLineF(pos, lastTapPos).length() < doubleTapSlop)
-					{
-						tapPhase = NoTap;
-						tapTimer.invalidate();
-						StelCore* core = StelApp::getInstance().getCore();
-						StelMovementMgr* mvmgr = core->getMovementMgr();
-
-						const StelProjectorP prj = core->getProjection(StelCore::FrameJ2000);
-						Vec3d aim;
-						const qreal dpr = qMax(1.0, devicePixelRatioF());
-						if (prj->unProject(pos.x()*dpr, prj->getViewportHeight()-pos.y()*dpr, aim))
-						{
-							mvmgr->moveToJ2000(aim, mvmgr->mountFrameToJ2000(Vec3d(0., 0., 1.)), 0.25);
-						}
-						mvmgr->zoomTo(mvmgr->getAimFov()*0.5, 0.25);
-						thereWasAnEvent();
-					}
-					else
-					{
-						tapPhase = FirstPressDown;
-						tapTimer.restart();
-						lastTapPos = pos;
-					}
-				}
-				else if (event->type()==QEvent::TouchEnd)
-				{
-					if (tapPhase==FirstPressDown)
-					{
-						const bool wasATap = tapTimer.isValid()
-						                     && tapTimer.elapsed() < doubleTapMs
-						                     && QLineF(pos, lastTapPos).length() < doubleTapSlop;
-						tapPhase = wasATap ? AwaitingSecondPress : NoTap;
-						if (wasATap)
-							tapTimer.restart();
-					}
-				}
-				else if (event->type()==QEvent::TouchCancel)
-					tapPhase = NoTap;
-			}
-			else
-			{
+			else if (inTwoFingerGesture())
 				endPinch();
-				tapPhase = NoTap;
-			}
 			break;
 		}
 		default:

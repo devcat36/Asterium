@@ -251,6 +251,13 @@ SplashScreen::SplashScreenWidget::SplashScreenWidget(const double sizeRatio)
 #endif
 
 	setPixmap(canvas);
+#if defined(Q_OS_ANDROID)
+	if (QScreen* screen = QGuiApplication::primaryScreen())
+		connect(screen, &QScreen::geometryChanged, this, [this](const QRect& geometry)
+		{
+			fitTo(geometry.size());
+		});
+#endif
 	qInfo().noquote() << QString("Splash: canvas %1x%2, text %3px")
 	                     .arg(size().width()).arg(size().height()).arg(splashFont.pixelSize());
 }
@@ -259,13 +266,19 @@ void SplashScreen::SplashScreenWidget::resizeEvent(QResizeEvent* event)
 {
 	QSplashScreen::resizeEvent(event);
 #if defined(Q_OS_ANDROID)
-	if (pixmap().deviceIndependentSize().toSize() == size() || size().isEmpty())
+	fitTo(size());
+#endif
+}
+
+void SplashScreen::SplashScreenWidget::fitTo(const QSize& target)
+{
+	if (pixmap().deviceIndependentSize().toSize() == target || target.isEmpty())
 		return;
-	const QPixmap canvas = makePixmap(sizeRatio, size());
+	const QPixmap canvas = makePixmap(sizeRatio, target);
 	splashFont.setPixelSize(textPixelSize(sizeRatio));
 	setFont(splashFont);
 	setPixmap(canvas);
-#endif
+	qInfo().noquote() << QString("Splash: refit %1x%2").arg(target.width()).arg(target.height());
 }
 
 void SplashScreen::SplashScreenWidget::paintEvent(QPaintEvent* event)
@@ -308,10 +321,10 @@ void SplashScreen::SplashScreenWidget::drawContents(QPainter* painter)
 		return;
 	const QRect art = artRect.isValid() ? artRect : rect();
 	const int inset = qMax(8, QFontMetrics(splashFont).averageCharWidth() * 2);
-	const QRect band(art.left() + inset,
-	                 art.top() + static_cast<int>(art.height()*0.34),
-	                 art.width() - 2*inset,
-	                 static_cast<int>(art.height()*0.13));
+	const QRect band(inset,
+	                 art.top() + static_cast<int>(art.height()*0.40),
+	                 width() - 2*inset,
+	                 static_cast<int>(art.height()*0.06));
 	painter->setPen(QColor(0xd0, 0xd4, 0xe4));
 	painter->setFont(splashFont);
 	painter->drawText(band, Qt::AlignHCenter | Qt::AlignTop | Qt::TextWordWrap, statusMessage);
@@ -321,7 +334,7 @@ int SplashScreen::SplashScreenWidget::textPixelSize(const double sizeRatio) cons
 {
 #if defined(Q_OS_ANDROID)
 	if (!artRect.isEmpty())
-		return qBound(11, qRound(qMin(artRect.width(), artRect.height()) * 0.038), 40);
+		return qMax(1, qRound(artRect.height() * 0.017));
 #endif
 	return std::lround(BASE_FONT_SIZE * sizeRatio);
 }
@@ -340,9 +353,9 @@ QPixmap SplashScreen::SplashScreenWidget::makePixmap(const double sizeRatio, con
 			                     std::lround(screenSize.height()*dpr)));
 			canvas.setDevicePixelRatio(dpr);
 			canvas.fill(Qt::black);
-			const QPixmap art = pixmap.scaled(QSize(std::lround(screenSize.width() * 0.92 * dpr),
-			                                        std::lround(screenSize.height() * 0.62 * dpr)),
-			                                  Qt::KeepAspectRatio, Qt::SmoothTransformation);
+			const QPixmap art = pixmap.scaled(QSize(std::lround(screenSize.width() * dpr),
+			                                        std::lround(screenSize.height() * dpr)),
+			                                  Qt::KeepAspectRatioByExpanding, Qt::SmoothTransformation);
 			artRect = QRect(std::lround((screenSize.width() - art.width()/dpr) / 2),
 			                std::lround((screenSize.height() - art.height()/dpr) / 2),
 			                std::lround(art.width()/dpr), std::lround(art.height()/dpr));

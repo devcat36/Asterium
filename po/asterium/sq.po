@@ -909,9 +909,6 @@ msgstr "Rrjetë"
 msgid "Ground"
 msgstr "Truall"
 
-msgid "Gyro"
-msgstr "Xhiro"
-
 msgid "Gyro mode"
 msgstr "Mënyra xhiro"
 

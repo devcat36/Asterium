@@ -1026,9 +1026,6 @@ msgstr "ശൃംഖലകൾ"
 msgid "Ground"
 msgstr "ഭൗമോപരിതലം"
 
-msgid "Gyro"
-msgstr "ജിരോ"
-
 msgid "Gyro mode"
 msgstr "ജിരോസ്കോപ്പ് രീതി"
 

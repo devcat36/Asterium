@@ -1023,9 +1023,6 @@ msgstr "கட்டங்கள்"
 msgid "Ground"
 msgstr "தரை"
 
-msgid "Gyro"
-msgstr "சுழல்"
-
 msgid "Gyro mode"
 msgstr "சுழல் முறை"
 

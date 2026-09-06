@@ -510,9 +510,6 @@ msgstr "रेखाजाल"
 msgid "Ground"
 msgstr "धरती"
 
-msgid "Gyro"
-msgstr "जाइरो"
-
 msgid "Gyro mode"
 msgstr "जाइरो अनुकूल"
 

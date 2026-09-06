@@ -439,7 +439,7 @@ void LandscapeMgr::update(double deltaTime)
 		const StelMovementMgr *mvmgr = core->getMovementMgr();
 		double az, alt;
 		StelUtils::rectToSphe(&az, &alt, core->j2000ToAltAz(mvmgr->getViewDirectionJ2000(), StelCore::RefractionOff));
-		const double byAltitude = 0.30 * qBound(0., -alt*M_180_PI/20., 1.);
+		const double byAltitude = 0.50 * qBound(0., -alt*M_180_PI/20., 1.);
 		const double byFov      = qBound(0., (20.-mvmgr->getCurrentFov())/12., 1.);
 		autoTransparency = qMax(byAltitude, byFov);
 	}

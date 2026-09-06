@@ -480,9 +480,6 @@ msgstr "Mriežky"
 msgid "Ground"
 msgstr "Terén"
 
-msgid "Gyro"
-msgstr "Giroskop"
-
 msgid "Gyro mode"
 msgstr "Režim Gyro"
 

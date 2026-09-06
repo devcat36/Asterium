@@ -468,9 +468,6 @@ msgstr "กริด"
 msgid "Ground"
 msgstr "พื้น"
 
-msgid "Gyro"
-msgstr "ไจโรสโคป"
-
 msgid "Gyro mode"
 msgstr "โหมดไจโรสโคป"
 

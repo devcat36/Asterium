@@ -1026,9 +1026,6 @@ msgstr "Сеткалар"
 msgid "Ground"
 msgstr "Җир"
 
-msgid "Gyro"
-msgstr "Гиро"
-
 msgid "Gyro mode"
 msgstr "Гиро режимы"
 

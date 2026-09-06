@@ -438,9 +438,6 @@ msgstr "Rasters"
 msgid "Ground"
 msgstr "Grond"
 
-msgid "Gyro"
-msgstr "Beweging"
-
 msgid "Gyro mode"
 msgstr "Gyromodus"
 

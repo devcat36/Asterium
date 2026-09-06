@@ -516,9 +516,6 @@ msgstr "격자"
 msgid "Ground"
 msgstr "지면"
 
-msgid "Gyro"
-msgstr "자이로"
-
 msgid "Gyro mode"
 msgstr "자이로 모드"
 

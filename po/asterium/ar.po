@@ -486,9 +486,6 @@ msgstr "الشبكات"
 msgid "Ground"
 msgstr "الأرض"
 
-msgid "Gyro"
-msgstr "الجيروسكوب"
-
 msgid "Gyro mode"
 msgstr "وضع الجيروسكوب"
 

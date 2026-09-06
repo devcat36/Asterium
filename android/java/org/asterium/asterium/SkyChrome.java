@@ -48,7 +48,6 @@ final class SkyChrome extends FrameLayout
 	private final TextView placeText;
 	private final TextView statsText;
 	private final ImageView gear;
-	private final LinearLayout statusColumn;
 
 	private final LinearLayout windowRail;
 	private final View[] railButtons;
@@ -98,7 +97,6 @@ final class SkyChrome extends FrameLayout
 	private boolean finding = false;
 	private boolean lastTracking = false;
 	private int lastFindNudge = -1;
-	private View pointerCell;
 	private ValueAnimator washFade;
 	private float touchX, touchY;
 	private boolean touchJudged = false;
@@ -107,7 +105,9 @@ final class SkyChrome extends FrameLayout
 
 	private static final int RAIL_GAP = 12;
 
-	private static final int GEAR_TOP = 25;
+	private static final int RAIL_COLUMN_GAP = 2;
+
+	private static final int RAIL_PITCH = Theme.TOUCH + 2 * RAIL_COLUMN_GAP;
 
 	private static final float POINTER_SIZE = Theme.TOUCH * 0.9f;
 
@@ -170,10 +170,6 @@ final class SkyChrome extends FrameLayout
 				LayoutParams.MATCH_PARENT, LayoutParams.WRAP_CONTENT, Gravity.START | Gravity.TOP);
 		addView(statusBar, topParams);
 
-		final LinearLayout rightColumn = new LinearLayout(context);
-		rightColumn.setOrientation(LinearLayout.VERTICAL);
-		rightColumn.setGravity(Gravity.END);
-
 		gear = new ImageView(context);
 		gear.setImageDrawable(Theme.layers(Theme.TEXT));
 		gear.setScaleType(ImageView.ScaleType.FIT_CENTER);
@@ -182,14 +178,8 @@ final class SkyChrome extends FrameLayout
 		gear.setBackground(Theme.pressableCircle(
 				Theme.circle(Color.TRANSPARENT, Color.TRANSPARENT)));
 		gear.setOnClickListener(v -> setExpanded(!expanded));
-		final LinearLayout.LayoutParams gearParams = new LinearLayout.LayoutParams(
-				Theme.dp(Theme.TOUCH), Theme.dp(Theme.TOUCH));
-		gearParams.gravity = Gravity.END;
-		rightColumn.addView(gear, gearParams);
-
-		statusColumn = rightColumn;
-		addView(rightColumn, new LayoutParams(
-				Theme.dp(Theme.TOUCH), LayoutParams.WRAP_CONTENT, Gravity.END | Gravity.TOP));
+		addView(gear, new LayoutParams(
+				Theme.dp(Theme.TOUCH), Theme.dp(Theme.TOUCH), Gravity.END | Gravity.BOTTOM));
 
 		pointerToggle = new ImageView(context);
 		pointerToggle.setScaleType(ImageView.ScaleType.FIT_CENTER);
@@ -200,10 +190,10 @@ final class SkyChrome extends FrameLayout
 		pointerToggle.setBackground(Theme.pressableCircle(
 				Theme.circle(Color.TRANSPARENT, Color.TRANSPARENT)));
 		pointerToggle.setImageDrawable(Theme.icon(context, "gyro", false));
+		pointerToggle.setVisibility(pointer.available() ? VISIBLE : GONE);
 		stylePointerToggle();
-		placePointerToggle();
 		addView(pointerToggle, new LayoutParams(
-				Theme.dp(POINTER_SIZE), Theme.dp(POINTER_SIZE), Gravity.START | Gravity.TOP));
+				Theme.dp(POINTER_SIZE), Theme.dp(POINTER_SIZE), Gravity.START | Gravity.BOTTOM));
 
 		windowRail = new LinearLayout(context);
 		windowRail.setOrientation(LinearLayout.HORIZONTAL);
@@ -214,8 +204,7 @@ final class SkyChrome extends FrameLayout
 		for (int i = 0; i < WINDOWS.length; ++i)
 			railButtons[i] = railButton(context, WINDOWS[i][0], WINDOWS[i][1], WINDOWS[i][2]);
 		final LayoutParams railParams = new LayoutParams(
-				LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT,
-				(tablet ? Gravity.START : Gravity.END) | Gravity.TOP);
+				LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT, Gravity.END | Gravity.TOP);
 		railParams.rightMargin = railParams.leftMargin = Theme.dp(12);
 		addView(windowRail, railParams);
 
@@ -380,7 +369,12 @@ final class SkyChrome extends FrameLayout
 	protected void onLayout(boolean changed, int left, int top, int right, int bottomEdge)
 	{
 		super.onLayout(changed, left, top, right, bottomEdge);
-		layoutRail();
+		final int floor = sideBySide
+				? bottom.getTop() + infoCard.getTop() + (infoCard.getHeight() + gear.getHeight()) / 2
+				: bottom.getTop() + bottom.getPaddingTop() + infoCard.tabHeight() - Theme.dp(4);
+		gear.setTranslationY(Math.min(0, floor - gear.getBottom()));
+		pointerToggle.setTranslationY(gear.getTranslationY());
+		layoutRail(Math.round(gear.getTop() + gear.getTranslationY()));
 	}
 
 	@Override
@@ -424,29 +418,44 @@ final class SkyChrome extends FrameLayout
 		transportParams.width = wide ? width : LinearLayout.LayoutParams.MATCH_PARENT;
 		transportParams.height = wide ? LinearLayout.LayoutParams.MATCH_PARENT
 		                             : LinearLayout.LayoutParams.WRAP_CONTENT;
-		transportParams.leftMargin = Theme.dp(wide ? BOTTOM_GAP : 12);
-		transport.setLayoutParams(transportParams);
+		transportParams.rightMargin = Theme.dp(wide ? BOTTOM_GAP : 12);
+		bottomRow.removeView(transport);
+		bottomRow.addView(transport, wide ? 0 : 1, transportParams);
 
 		final LinearLayout.LayoutParams cardParams =
 				(LinearLayout.LayoutParams) infoCard.getLayoutParams();
 		cardParams.width = wide ? width : LinearLayout.LayoutParams.MATCH_PARENT;
-		cardParams.gravity = wide ? Gravity.END : Gravity.START;
-		cardParams.leftMargin = wide ? 0 : Theme.dp(12);
 		infoCard.setLayoutParams(cardParams);
 		infoCard.setTabShown(!wide);
+		keepCardSpace();
 
-		final LayoutParams railParams = (LayoutParams) windowRail.getLayoutParams();
-		railParams.gravity = (railOnLeft() ? Gravity.START : Gravity.END) | Gravity.TOP;
-		windowRail.setLayoutParams(railParams);
-		railRows = 0;
-		placePointerToggle();
+		placeCorners();
 		placeWash(wide);
 	}
 
-	private void placePointerToggle()
+	private void keepCardSpace()
 	{
-		pointerToggle.setVisibility(
-				pointer.available() && !(railOnLeft() && expanded) ? VISIBLE : GONE);
+		if (infoCard.getVisibility() != VISIBLE)
+			infoCard.setVisibility(sideBySide ? INVISIBLE : GONE);
+	}
+
+	private void placeCorners()
+	{
+		final LayoutParams railParams = (LayoutParams) windowRail.getLayoutParams();
+		final LayoutParams gearParams = (LayoutParams) gear.getLayoutParams();
+		gearParams.bottomMargin = edges.bottom + Theme.dp(12);
+		gearParams.rightMargin = sideBySide
+				? railParams.rightMargin + windowRail.getPaddingRight() + Theme.dp(RAIL_COLUMN_GAP)
+				: edges.right + Theme.dp(12);
+		gear.setLayoutParams(gearParams);
+
+		final LayoutParams toggleParams = (LayoutParams) pointerToggle.getLayoutParams();
+		final int centring = (Theme.dp(Theme.TOUCH) - Theme.dp(POINTER_SIZE)) / 2;
+		toggleParams.gravity = (sideBySide ? Gravity.END : Gravity.START) | Gravity.BOTTOM;
+		toggleParams.bottomMargin = gearParams.bottomMargin + centring;
+		toggleParams.leftMargin = edges.left + Theme.dp(12);
+		toggleParams.rightMargin = gearParams.rightMargin + Theme.dp(RAIL_PITCH) + centring;
+		pointerToggle.setLayoutParams(toggleParams);
 	}
 
 	private void stylePointerToggle()
@@ -465,22 +474,14 @@ final class SkyChrome extends FrameLayout
 		washed.setBackground(bottomWash);
 	}
 
-	private boolean railOnLeft()
-	{
-		return tablet || sideBySide;
-	}
-
-	private void layoutRail()
+	private void layoutRail(int floor)
 	{
 		final int gap = Theme.dp(RAIL_GAP);
-		final boolean left = railOnLeft();
-		final int from = (left ? statusBar.getBottom() : statusColumn.getBottom()) + gap;
-		final int floor = left ? bottom.getTop() + bottomRow.getTop()
-		                      : bottom.getTop() + bottom.getPaddingTop() + infoCard.tabHeight();
+		final int from = statusBar.getBottom() + gap;
 		final int band = floor - gap - from;
 		final int room = band - Theme.dp(12) + Theme.dp(4);
-		final int cell = Theme.dp(Theme.TOUCH + 4);
-		fillRail(Math.max(1, Math.min(WINDOWS.length, room / cell)), cell - Theme.dp(4));
+		final int cell = Theme.dp(RAIL_PITCH);
+		fillRail(Math.max(1, Math.min(WINDOWS.length, room / cell)), Theme.dp(Theme.TOUCH));
 		windowRail.setTranslationY(from + Math.max(0, band - windowRail.getHeight()) / 2f);
 	}
 
@@ -500,8 +501,8 @@ final class SkyChrome extends FrameLayout
 				column.setOrientation(LinearLayout.VERTICAL);
 				final LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(
 						LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT);
-				params.leftMargin = params.rightMargin = Theme.dp(2);
-				windowRail.addView(column, railOnLeft() ? windowRail.getChildCount() : 0, params);
+				params.leftMargin = params.rightMargin = Theme.dp(RAIL_COLUMN_GAP);
+				windowRail.addView(column, 0, params);
 			}
 			final View button = railButtons[i];
 			if (button.getParent() != null)
@@ -702,11 +703,6 @@ final class SkyChrome extends FrameLayout
 	void setInsets(Rect insets)
 	{
 		final int top = insets.top > 0 ? insets.top : Theme.dp(10);
-		final LayoutParams statusParams = (LayoutParams) statusColumn.getLayoutParams();
-		statusParams.topMargin = top + Theme.dp(GEAR_TOP);
-		statusParams.rightMargin = insets.right + Theme.dp(12);
-		statusColumn.setLayoutParams(statusParams);
-
 		final LayoutParams topParams = (LayoutParams) statusBar.getLayoutParams();
 		topParams.topMargin = top;
 		topParams.leftMargin = insets.left + Theme.dp(12);
@@ -718,13 +714,8 @@ final class SkyChrome extends FrameLayout
 		railParams.leftMargin = insets.left + Theme.dp(12);
 		windowRail.setLayoutParams(railParams);
 
-		final LayoutParams toggleParams = (LayoutParams) pointerToggle.getLayoutParams();
-		toggleParams.topMargin = top + Theme.dp(GEAR_TOP)
-				+ (Theme.dp(Theme.TOUCH) - Theme.dp(POINTER_SIZE)) / 2;
-		toggleParams.leftMargin = insets.left + Theme.dp(12);
-		pointerToggle.setLayoutParams(toggleParams);
-
 		edges = new Rect(insets);
+		placeCorners();
 		placeWash(sideBySide);
 	}
 
@@ -751,7 +742,6 @@ final class SkyChrome extends FrameLayout
 		fadeWash(value);
 		gear.animate().alpha(value ? 1f : 0.45f).setDuration(FADE_MS);
 		gear.setContentDescription(T.t(value ? "Hide controls" : "Show controls"));
-		placePointerToggle();
 		if (value && !toolbarBuilt)
 			buildToolbar();
 	}
@@ -825,14 +815,6 @@ final class SkyChrome extends FrameLayout
 			if (items == null || items.length() == 0)
 				return;
 			toolbar.removeAllViews();
-			if (pointer.available())
-			{
-				pointerCell = toolbarButton(getContext(), "pointer", "gyro",
-				                            "Gyro", pointer.isOn());
-				pointerCell.setContentDescription(T.t("Move the sky with the phone"));
-				pointerCell.setOnClickListener(v -> setPointing(!pointer.isOn()));
-				toolbar.addView(pointerCell);
-			}
 			for (int i = 0; i < items.length(); ++i)
 			{
 				final JSONObject item = items.optJSONObject(i);
@@ -852,8 +834,6 @@ final class SkyChrome extends FrameLayout
 	{
 		final boolean resume = value && !pointer.isOn() && lastTracking;
 		pointer.setEnabled(value);
-		if (pointerCell != null)
-			styleToolbarButton(pointerCell, pointer.isOn());
 		stylePointerToggle();
 		if (!pointer.isOn())
 			setFinding(false);
@@ -981,6 +961,7 @@ final class SkyChrome extends FrameLayout
 		finder.setFov(state.optDouble("fov", 60.));
 
 		infoCard.onState(state);
+		keepCardSpace();
 
 		final JSONObject toggles = state.optJSONObject("toggles");
 		if (toggles != null)

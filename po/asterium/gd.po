@@ -684,9 +684,6 @@ msgstr "Grioda"
 msgid "Ground"
 msgstr "Làr"
 
-msgid "Gyro"
-msgstr "Gyro"
-
 msgid "Gyro mode"
 msgstr "Modh Gyro"
 

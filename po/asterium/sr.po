@@ -903,9 +903,6 @@ msgstr "Мреже"
 msgid "Ground"
 msgstr "Тло"
 
-msgid "Gyro"
-msgstr "Жиро"
-
 msgid "Gyro mode"
 msgstr "Жиро режим"
 

@@ -469,6 +469,8 @@ void StelGui::init(QGraphicsWidget *atopLevelGraphicsWidget)
 #if defined(Q_OS_ANDROID)
 	AndroidUi::install();
 	StelApp::getInstance().getStelObjectMgr().setObjectSearchRadius(40.);
+	StelApp::getInstance().getStelObjectMgr().setDistanceWeight(0.5f / static_cast<float>(StelApp::getInstance().getDevicePixelsPerPixel()));
+	StelApp::getInstance().getCore()->getMovementMgr()->setDragTriggerDistance(10.f);
 	StelPainter::setTextHaloStrength(
 		conf->value("gui/sky_text_halo", 1.0).toFloat());
 	{

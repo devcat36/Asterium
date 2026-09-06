@@ -456,9 +456,6 @@ msgstr "Rutnät"
 msgid "Ground"
 msgstr "Marknivå"
 
-msgid "Gyro"
-msgstr "Gyroskop"
-
 msgid "Gyro mode"
 msgstr "Gyroläge"
 

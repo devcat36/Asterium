@@ -558,9 +558,6 @@ msgstr "Hnit"
 msgid "Ground"
 msgstr "Jörð"
 
-msgid "Gyro"
-msgstr "Gýróskóp"
-
 msgid "Gyro mode"
 msgstr "Gýróskóphamur"
 

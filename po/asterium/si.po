@@ -1002,9 +1002,6 @@ msgstr "දැල"
 msgid "Ground"
 msgstr "පොළොව"
 
-msgid "Gyro"
-msgstr "ගයිරෝ"
-
 msgid "Gyro mode"
 msgstr "ගයිරෝ මාදිලිය"
 

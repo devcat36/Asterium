@@ -570,9 +570,6 @@ msgstr "Мрежи"
 msgid "Ground"
 msgstr "Хоризонт"
 
-msgid "Gyro"
-msgstr "Жиро"
-
 msgid "Gyro mode"
 msgstr "Режим на жиро"
 

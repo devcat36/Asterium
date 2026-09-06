@@ -450,9 +450,6 @@ msgstr "Cuadrículas"
 msgid "Ground"
 msgstr "Suelo"
 
-msgid "Gyro"
-msgstr "Giroscopio"
-
 msgid "Gyro mode"
 msgstr "Modo giroscopio"
 

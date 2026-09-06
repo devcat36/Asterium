@@ -450,9 +450,6 @@ msgstr "Grelas"
 msgid "Ground"
 msgstr "Chan"
 
-msgid "Gyro"
-msgstr "Xiro"
-
 msgid "Gyro mode"
 msgstr "Modo xiro"
 

@@ -25,7 +25,6 @@
 #include <QEventLoop>
 #include <QOpenGLContext>
 #include <QTimer>
-#include <QElapsedTimer>
 #ifdef OPENGL_DEBUG_LOGGING
 class QOpenGLDebugLogger;
 class QOpenGLDebugMessage;
@@ -233,10 +232,6 @@ public slots:
 private:
 	bool pinchActive = false;
 	qreal pinchStartDistance = 0.;
-	enum TapPhase { NoTap, FirstPressDown, AwaitingSecondPress };
-	TapPhase tapPhase = NoTap;
-	QElapsedTimer tapTimer;
-	QPointF lastTapPos;
 	void handleTouchForPinch(QObject* obj, QEvent* event);
 	void endPinch();
 	bool inTwoFingerGesture() const;

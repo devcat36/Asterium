@@ -768,9 +768,6 @@ msgstr "Hálók"
 msgid "Ground"
 msgstr "Talaj"
 
-msgid "Gyro"
-msgstr "Giroszkóp"
-
 msgid "Gyro mode"
 msgstr "Giroszkóp mód"
 

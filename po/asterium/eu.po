@@ -984,9 +984,6 @@ msgstr "Saretakoak"
 msgid "Ground"
 msgstr "Lurra"
 
-msgid "Gyro"
-msgstr "Giroskopioa"
-
 msgid "Gyro mode"
 msgstr "Giroskopio modua"
 

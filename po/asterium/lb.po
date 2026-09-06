@@ -1005,9 +1005,6 @@ msgstr "Gitter"
 msgid "Ground"
 msgstr "Buedem"
 
-msgid "Gyro"
-msgstr "Kreisel"
-
 msgid "Gyro mode"
 msgstr "Gyro Modus"
 

@@ -615,9 +615,6 @@ msgstr "Mreže"
 msgid "Ground"
 msgstr "Tlo"
 
-msgid "Gyro"
-msgstr "Žiroskop"
-
 msgid "Gyro mode"
 msgstr "Mod žiroskopa"
 

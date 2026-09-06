@@ -969,9 +969,6 @@ msgstr "Kaelezoù"
 msgid "Ground"
 msgstr "Douar"
 
-msgid "Gyro"
-msgstr "Giro"
-
 msgid "Gyro mode"
 msgstr "Mod gyro"
 

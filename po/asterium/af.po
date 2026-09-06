@@ -963,9 +963,6 @@ msgstr "Roosters"
 msgid "Ground"
 msgstr "Grond"
 
-msgid "Gyro"
-msgstr "Gyro"
-
 msgid "Gyro mode"
 msgstr "Gyro-modus"
 

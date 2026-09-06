@@ -972,9 +972,6 @@ msgstr "Ցանցեր"
 msgid "Ground"
 msgstr "Գետին"
 
-msgid "Gyro"
-msgstr "Գիրոսկոպ"
-
 msgid "Gyro mode"
 msgstr "Գիրոսկոպի ռեժիմ"
 

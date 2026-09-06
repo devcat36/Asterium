@@ -711,9 +711,6 @@ msgstr "గ్రిడ్‌లు"
 msgid "Ground"
 msgstr "నేల"
 
-msgid "Gyro"
-msgstr "గైరో"
-
 msgid "Gyro mode"
 msgstr "గైరో మోడ్"
 

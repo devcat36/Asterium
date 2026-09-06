@@ -1080,9 +1080,6 @@ msgstr "Jaringan"
 msgid "Ground"
 msgstr "Tanah"
 
-msgid "Gyro"
-msgstr "Giroskop"
-
 msgid "Gyro mode"
 msgstr "Mode gyro"
 

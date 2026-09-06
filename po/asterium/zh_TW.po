@@ -507,9 +507,6 @@ msgstr "格線"
 msgid "Ground"
 msgstr "地面"
 
-msgid "Gyro"
-msgstr "陀螺儀"
-
 msgid "Gyro mode"
 msgstr "陀螺儀模式"
 

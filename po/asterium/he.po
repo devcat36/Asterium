@@ -630,9 +630,6 @@ msgstr "רשתות"
 msgid "Ground"
 msgstr "קרקע"
 
-msgid "Gyro"
-msgstr "ג'ירו"
-
 msgid "Gyro mode"
 msgstr "מצב ג'ירו"
 

@@ -516,9 +516,6 @@ msgstr "Izgaralar"
 msgid "Ground"
 msgstr "Yeryüzü"
 
-msgid "Gyro"
-msgstr "Jiro"
-
 msgid "Gyro mode"
 msgstr "Gyro modu"
 

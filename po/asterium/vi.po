@@ -876,9 +876,6 @@ msgstr "Lưới"
 msgid "Ground"
 msgstr "Mặt đất"
 
-msgid "Gyro"
-msgstr "Con quay"
-
 msgid "Gyro mode"
 msgstr "Chế độ Gyro"
 

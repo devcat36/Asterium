@@ -861,9 +861,6 @@ msgstr "Πλέγματα"
 msgid "Ground"
 msgstr "Έδαφος"
 
-msgid "Gyro"
-msgstr "Γυροσκόπιο"
-
 msgid "Gyro mode"
 msgstr "Κατάσταση γυροσκοπίου"
 

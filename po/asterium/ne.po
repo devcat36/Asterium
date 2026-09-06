@@ -975,9 +975,6 @@ msgstr "ग्रिडहरु"
 msgid "Ground"
 msgstr "मैदान"
 
-msgid "Gyro"
-msgstr "जायरो"
-
 msgid "Gyro mode"
 msgstr "जायरो मोड"
 

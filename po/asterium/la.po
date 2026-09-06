@@ -945,9 +945,6 @@ msgstr "Reticula"
 msgid "Ground"
 msgstr "Fundus"
 
-msgid "Gyro"
-msgstr "Gyroscopium"
-
 msgid "Gyro mode"
 msgstr "Modus gyroscopicus"
 

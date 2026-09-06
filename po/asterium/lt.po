@@ -456,9 +456,6 @@ msgstr "Tinkleliai"
 msgid "Ground"
 msgstr "Žemė"
 
-msgid "Gyro"
-msgstr "Žiro"
-
 msgid "Gyro mode"
 msgstr "Žiro režimas"
 

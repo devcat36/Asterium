@@ -621,9 +621,6 @@ msgstr "Siatki"
 msgid "Ground"
 msgstr "Ziemia"
 
-msgid "Gyro"
-msgstr "Żyro"
-
 msgid "Gyro mode"
 msgstr "Tryb żyro"
 

@@ -624,9 +624,6 @@ msgstr "Graelles"
 msgid "Ground"
 msgstr "Sòl"
 
-msgid "Gyro"
-msgstr "Giroscopi"
-
 msgid "Gyro mode"
 msgstr "Mode giroscòpic"
 

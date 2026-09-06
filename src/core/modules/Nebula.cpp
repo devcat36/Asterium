@@ -580,6 +580,8 @@ double Nebula::getAngularRadius(const StelCore *) const
 
 float Nebula::getSelectPriority(const StelCore* core) const
 {
+	if (nType==NebDn)
+		return (objectInDisplayedCatalog() && objectInDisplayedType()) ? 10.f : 30.f;
 	float selectPriority = StelObject::getSelectPriority(core);
 	const NebulaMgr* nebMgr = (static_cast<NebulaMgr*>(StelApp::getInstance().getModuleMgr().getModule("NebulaMgr")));
 	// minimize unwanted selection of the deep-sky objects

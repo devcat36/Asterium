@@ -456,9 +456,6 @@ msgstr "Gitternetze"
 msgid "Ground"
 msgstr "Boden"
 
-msgid "Gyro"
-msgstr "Gyroskop"
-
 msgid "Gyro mode"
 msgstr "Gyro-Modus"
 

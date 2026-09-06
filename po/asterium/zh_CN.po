@@ -462,9 +462,6 @@ msgstr "网格"
 msgid "Ground"
 msgstr "地面"
 
-msgid "Gyro"
-msgstr "陀螺仪"
-
 msgid "Gyro mode"
 msgstr "陀螺仪模式"
 

@@ -483,9 +483,6 @@ msgstr "Asteikat"
 msgid "Ground"
 msgstr "Maanpinta"
 
-msgid "Gyro"
-msgstr "Gyroskooppi"
-
 msgid "Gyro mode"
 msgstr "Gyro-tila"
 

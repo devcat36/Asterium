@@ -459,9 +459,6 @@ msgstr "Sítě"
 msgid "Ground"
 msgstr "Povrch"
 
-msgid "Gyro"
-msgstr "Gyroskop"
-
 msgid "Gyro mode"
 msgstr "Režim gyroskopu"
 

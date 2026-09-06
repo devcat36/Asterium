@@ -36,6 +36,7 @@ class SplashScreen
 	{
 		QPixmap makePixmap(double sizeRatio, const QSize& target);
 		int textPixelSize(double sizeRatio) const;
+		void fitTo(const QSize& target);
 	public:
 		SplashScreenWidget(double sizeRatio);
 		void setStatusMessage(const QString& m) { statusMessage = m; }

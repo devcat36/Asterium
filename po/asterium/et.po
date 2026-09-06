@@ -852,9 +852,6 @@ msgstr "Võrgud"
 msgid "Ground"
 msgstr "Maapind"
 
-msgid "Gyro"
-msgstr "Güro"
-
 msgid "Gyro mode"
 msgstr "Güro režiim"
 
