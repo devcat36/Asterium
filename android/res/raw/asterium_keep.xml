@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools"
+    tools:keep="@array/bundled_libs,@array/qt_libs,@array/load_local_libs,@string/use_local_qt_libs,@string/bundle_local_qt_libs,@string/system_libs_prefix" />

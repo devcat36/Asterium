@@ -1559,3 +1559,18 @@ msgstr "읽을 수 없는 스냅샷"
 
 msgid "… and moons"
 msgstr "… 그리고 위성들"
+
+msgid "Opacity"
+msgstr "불투명도"
+
+msgid "Label opacity"
+msgstr "레이블 불투명도"
+
+msgid "Enter a number within this range."
+msgstr "표시된 범위 안의 숫자를 입력하세요."
+
+msgid "Enter a whole number."
+msgstr "정수를 입력하세요."
+
+msgid "Restore default"
+msgstr "기본값 복원"

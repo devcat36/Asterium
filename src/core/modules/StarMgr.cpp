@@ -1516,7 +1516,7 @@ void StarMgr::draw(StelCore* core)
 	const GeodesicSearchResult* geodesic_search_result = core->getGeodesicGrid(maxSearchLevel)->search(viewportCaps,maxSearchLevel);
 
 	// Set temporary static variable for optimization
-	const float names_brightness = labelsFader.getInterstate() * starsFader.getInterstate();
+	const float names_brightness = labelsFader.getInterstate() * starsFader.getInterstate() * StelApp::getInstance().getOverlayOpacity(QStringLiteral("StarMgr.labels"));
 
 	// prepare for aberration: Explan. Suppl. 2013, (7.38)
 	const bool withAberration=core->getUseAberration();

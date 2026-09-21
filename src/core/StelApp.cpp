@@ -18,6 +18,7 @@
  */
 
 #include "StelApp.hpp"
+#include <cmath>
 
 #include "Dithering.hpp"
 #include "StelCore.hpp"
@@ -472,10 +473,29 @@ QStringList StelApp::getCommandlineArguments()
 	return qApp->property("stelCommandLine").toStringList();
 }
 
+void StelApp::setOverlayOpacity(const QString& key, float opacity)
+{
+	if (key.isEmpty() || key.contains('/') || !std::isfinite(opacity))
+		return;
+	opacity = qBound(0.f, opacity, 1.f);
+	overlayOpacities.insert(key, opacity);
+	confSettings->setValue("overlay_opacity/" + key, opacity);
+}
+
 void StelApp::init(QSettings* conf)
 {
 	gl = QOpenGLContext::currentContext()->functions();
 	confSettings = conf;
+	overlayOpacities.insert(QStringLiteral("ConstellationMgr.linesColor"), 0.15f);
+	confSettings->beginGroup("overlay_opacity");
+	for (const QString& key : confSettings->childKeys())
+	{
+		bool ok = false;
+		const float opacity = confSettings->value(key).toFloat(&ok);
+		if (ok && std::isfinite(opacity))
+			overlayOpacities.insert(key, qBound(0.f, opacity, 1.f));
+	}
+	confSettings->endGroup();
 
 	devicePixelsPerPixel = StelMainView::getInstance().devicePixelRatioF();
 	qInfo() << "Initial high-DPI scaling factor:" << devicePixelsPerPixel;

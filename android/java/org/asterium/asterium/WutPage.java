@@ -146,8 +146,10 @@ final class WutPage extends AstroCalcPage
 				() -> state.optJSONArray("intervals"), id -> set("wut_time_interval", id)));
 
 		controls.addView(sliderRow("Up to mag.", 0., 25., state.optDouble("mag", 10.),
+				"astrocalc/wut_magnitude_limit",
 				v -> set("wut_magnitude_limit", v)));
 		controls.addView(sliderRow("Above altitude, °", 0., 90., state.optDouble("altitude", 0.),
+				"astrocalc/wut_altitude_min",
 				v -> set("wut_altitude_min", v)));
 
 		if (!state.optBoolean("angularLimits", true))
@@ -160,8 +162,10 @@ final class WutPage extends AstroCalcPage
 			return;
 
 		controls.addView(sliderRow("Smallest, ′", 0., 600., state.optDouble("angularMin", 10.),
+				"astrocalc/wut_angular_limit_min",
 				v -> set("wut_angular_limit_min", v)));
 		controls.addView(sliderRow("Largest, ′", 0., 600., state.optDouble("angularMax", 600.),
+				"astrocalc/wut_angular_limit_max",
 				v -> set("wut_angular_limit_max", v)));
 	}
 

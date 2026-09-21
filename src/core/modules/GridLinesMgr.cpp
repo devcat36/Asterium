@@ -52,6 +52,7 @@ public:
 	void draw(const StelCore* prj) const;
 	void setFontSize(int newFontSize);
 	void setColor(const Vec3f& c) {color = c;}
+	void setOpacityKey(const QString& key) { opacityKey = key; }
 	const Vec3f& getColor() const {return color;}
 	void update(double deltaTime) {fader.update(static_cast<int>(deltaTime*1000));}
 	void setFadeDuration(float duration) {fader.setDuration(static_cast<int>(duration*1000.f));}
@@ -63,6 +64,7 @@ public:
 	double getSpacingMultiplier() const { return spacingMultiplier; }
 private:
 	Vec3f color;
+	QString opacityKey;
 	StelCore::FrameType frameType;
 	int fontSize;
 	LinearFader fader;
@@ -100,6 +102,7 @@ public:
 	static void deinit(); //! call once after deleting all lines.
 	void draw(StelCore* core) const;
 	void setColor(const Vec3f& c) {color = c;}
+	void setOpacityKey(const QString& key) { opacityKey = key; }
 	const Vec3f& getColor() const {return color;}
 	void update(double deltaTime) {fader.update(static_cast<int>(deltaTime*1000));}
 	void setFadeDuration(float duration) {fader.setDuration(static_cast<int>(duration*1000.f));}
@@ -115,6 +118,7 @@ private:
 	static QSharedPointer<Planet> earth, sun, moon;
 	SKY_POINT_TYPE point_type;
 	Vec3f color;
+	QString opacityKey;
 	StelCore::FrameType frameType;
 	LinearFader fader;
 	int fontSize;
@@ -368,6 +372,8 @@ void SkyGrid::draw(const StelCore* core) const
 
 	// Initialize a painter and set OpenGL state
 	StelPainter sPainter(prj);
+	sPainter.setLineOpacity(StelApp::getInstance().getOverlayOpacity(opacityKey));
+	sPainter.setTextOpacity(StelApp::getInstance().getOverlayOpacity(opacityKey + ".labels"));
 	sPainter.setBlending(true);
 	if (lineThickness>1.f)
 		sPainter.setLineWidth(lineThickness); // set line thickness
@@ -804,6 +810,8 @@ void SkyLine::draw(StelCore *core) const
 
 	// Initialize a painter and set openGL state
 	StelPainter sPainter(prj);
+	sPainter.setLineOpacity(StelApp::getInstance().getOverlayOpacity(opacityKey));
+	sPainter.setTextOpacity(StelApp::getInstance().getOverlayOpacity(opacityKey + ".labels"));
 	sPainter.setColor(color, fader.getInterstate());
 	sPainter.setBlending(true);
 	const float oldLineWidth=sPainter.getLineWidth();
@@ -1656,7 +1664,7 @@ void SkyPoint::draw(StelCore *core) const
 
 	// Initialize a painter and set openGL state
 	StelPainter sPainter(prj);
-	sPainter.setColor(color, fader.getInterstate());
+	sPainter.setColor(color, fader.getInterstate() * StelApp::getInstance().getOverlayOpacity(opacityKey));
 	//Vec4f textColor(color, fader.getInterstate());
 
 	QFont font=QGuiApplication::font();
@@ -1670,7 +1678,7 @@ void SkyPoint::draw(StelCore *core) const
 	const float size = 0.00001f*M_PI_180f*sPainter.getProjector()->getPixelPerRadAtCenter();
 	const float shift = pointSize + size/1.8f;
 
-	sPainter.setBlending(true, GL_ONE, GL_ONE);
+	sPainter.setBlending(true, GL_SRC_ALPHA, GL_ONE);
 
 	switch (point_type)
 	{
@@ -1781,52 +1789,99 @@ GridLinesMgr::GridLinesMgr()
 	SkyPoint::init();
 
 	equGrid = new SkyGrid(StelCore::FrameEquinoxEqu);
+	equGrid->setOpacityKey(QStringLiteral("GridLinesMgr.equatorGridColor"));
 	fixedEquatorialGrid = new SkyGrid(StelCore::FrameFixedEquatorial);
+	fixedEquatorialGrid->setOpacityKey(QStringLiteral("GridLinesMgr.fixedEquatorGridColor"));
 	equJ2000Grid = new SkyGrid(StelCore::FrameJ2000);
+	equJ2000Grid->setOpacityKey(QStringLiteral("GridLinesMgr.equatorJ2000GridColor"));
 	eclJ2000Grid = new SkyGrid(StelCore::FrameObservercentricEclipticJ2000);
+	eclJ2000Grid->setOpacityKey(QStringLiteral("GridLinesMgr.eclipticJ2000GridColor"));
 	eclGrid = new SkyGrid(StelCore::FrameObservercentricEclipticOfDate);
+	eclGrid->setOpacityKey(QStringLiteral("GridLinesMgr.eclipticGridColor"));
 	galacticGrid = new SkyGrid(StelCore::FrameGalactic);
+	galacticGrid->setOpacityKey(QStringLiteral("GridLinesMgr.galacticGridColor"));
 	supergalacticGrid = new SkyGrid(StelCore::FrameSupergalactic);
+	supergalacticGrid->setOpacityKey(QStringLiteral("GridLinesMgr.supergalacticGridColor"));
 	aziGrid = new SkyGrid(StelCore::FrameAltAz);
+	aziGrid->setOpacityKey(QStringLiteral("GridLinesMgr.azimuthalGridColor"));
 	equatorLine = new SkyLine(SkyLine::EQUATOR_OF_DATE);
+	equatorLine->setOpacityKey(QStringLiteral("GridLinesMgr.equatorLineColor"));
 	equatorJ2000Line = new SkyLine(SkyLine::EQUATOR_J2000);
+	equatorJ2000Line->setOpacityKey(QStringLiteral("GridLinesMgr.equatorJ2000LineColor"));
 	fixedEquatorLine = new SkyLine(SkyLine::FIXED_EQUATOR);
+	fixedEquatorLine->setOpacityKey(QStringLiteral("GridLinesMgr.fixedEquatorLineColor"));
 	eclipticJ2000Line = new SkyLine(SkyLine::ECLIPTIC_J2000);
+	eclipticJ2000Line->setOpacityKey(QStringLiteral("GridLinesMgr.eclipticJ2000LineColor"));
 	eclipticLine = new SkyLine(SkyLine::ECLIPTIC_OF_DATE);
+	eclipticLine->setOpacityKey(QStringLiteral("GridLinesMgr.eclipticLineColor"));
 	eclipticWithDateLine = new SkyLine(SkyLine::ECLIPTIC_WITH_DATE);
+	eclipticWithDateLine->setOpacityKey(QStringLiteral("GridLinesMgr.eclipticLineColor"));
 	invariablePlaneLine = new SkyLine(SkyLine::INVARIABLEPLANE);
+	invariablePlaneLine->setOpacityKey(QStringLiteral("GridLinesMgr.invariablePlaneLineColor"));
 	solarEquatorLine = new SkyLine(SkyLine::SOLAR_EQUATOR);
+	solarEquatorLine->setOpacityKey(QStringLiteral("GridLinesMgr.solarEquatorLineColor"));
 	precessionCircleN = new SkyLine(SkyLine::PRECESSIONCIRCLE_N);
+	precessionCircleN->setOpacityKey(QStringLiteral("GridLinesMgr.precessionCirclesColor"));
 	precessionCircleS = new SkyLine(SkyLine::PRECESSIONCIRCLE_S);
+	precessionCircleS->setOpacityKey(QStringLiteral("GridLinesMgr.precessionCirclesColor"));
 	meridianLine = new SkyLine(SkyLine::MERIDIAN);
+	meridianLine->setOpacityKey(QStringLiteral("GridLinesMgr.meridianLineColor"));
 	horizonLine = new SkyLine(SkyLine::HORIZON);
+	horizonLine->setOpacityKey(QStringLiteral("GridLinesMgr.horizonLineColor"));
 	galacticEquatorLine = new SkyLine(SkyLine::GALACTICEQUATOR);
+	galacticEquatorLine->setOpacityKey(QStringLiteral("GridLinesMgr.galacticEquatorLineColor"));
 	supergalacticEquatorLine = new SkyLine(SkyLine::SUPERGALACTICEQUATOR);
+	supergalacticEquatorLine->setOpacityKey(QStringLiteral("GridLinesMgr.supergalacticEquatorLineColor"));
 	longitudeLine = new SkyLine(SkyLine::LONGITUDE);
+	longitudeLine->setOpacityKey(QStringLiteral("GridLinesMgr.longitudeLineColor"));
 	quadratureLine = new SkyLine(SkyLine::QUADRATURE);
+	quadratureLine->setOpacityKey(QStringLiteral("GridLinesMgr.quadratureLineColor"));
 	primeVerticalLine = new SkyLine(SkyLine::PRIME_VERTICAL);
+	primeVerticalLine->setOpacityKey(QStringLiteral("GridLinesMgr.primeVerticalLineColor"));
 	currentVerticalLine = new SkyLine(SkyLine::CURRENT_VERTICAL);
+	currentVerticalLine->setOpacityKey(QStringLiteral("GridLinesMgr.currentVerticalLineColor"));
 	colureLine_1 = new SkyLine(SkyLine::COLURE_1);
+	colureLine_1->setOpacityKey(QStringLiteral("GridLinesMgr.colureLinesColor"));
 	colureLine_2 = new SkyLine(SkyLine::COLURE_2);
+	colureLine_2->setOpacityKey(QStringLiteral("GridLinesMgr.colureLinesColor"));
 	circumpolarCircleN = new SkyLine(SkyLine::CIRCUMPOLARCIRCLE_N);
+	circumpolarCircleN->setOpacityKey(QStringLiteral("GridLinesMgr.circumpolarCirclesColor"));
 	circumpolarCircleS = new SkyLine(SkyLine::CIRCUMPOLARCIRCLE_S);
+	circumpolarCircleS->setOpacityKey(QStringLiteral("GridLinesMgr.circumpolarCirclesColor"));
 	umbraCircle = new SkyLine(SkyLine::EARTH_UMBRA);
+	umbraCircle->setOpacityKey(QStringLiteral("GridLinesMgr.umbraCircleColor"));
 	penumbraCircle = new SkyLine(SkyLine::EARTH_PENUMBRA);
+	penumbraCircle->setOpacityKey(QStringLiteral("GridLinesMgr.penumbraCircleColor"));
 	celestialJ2000Poles = new SkyPoint(SkyPoint::CELESTIALPOLES_J2000);
+	celestialJ2000Poles->setOpacityKey(QStringLiteral("GridLinesMgr.celestialJ2000PolesColor"));
 	celestialPoles = new SkyPoint(SkyPoint::CELESTIALPOLES_OF_DATE);
+	celestialPoles->setOpacityKey(QStringLiteral("GridLinesMgr.celestialPolesColor"));
 	zenithNadir = new SkyPoint(SkyPoint::ZENITH_NADIR);
+	zenithNadir->setOpacityKey(QStringLiteral("GridLinesMgr.zenithNadirColor"));
 	eclipticJ2000Poles = new SkyPoint(SkyPoint::ECLIPTICPOLES_J2000);
+	eclipticJ2000Poles->setOpacityKey(QStringLiteral("GridLinesMgr.eclipticJ2000PolesColor"));
 	eclipticPoles = new SkyPoint(SkyPoint::ECLIPTICPOLES_OF_DATE);
+	eclipticPoles->setOpacityKey(QStringLiteral("GridLinesMgr.eclipticPolesColor"));
 	galacticPoles = new SkyPoint(SkyPoint::GALACTICPOLES);
+	galacticPoles->setOpacityKey(QStringLiteral("GridLinesMgr.galacticPolesColor"));
 	galacticCenter = new SkyPoint(SkyPoint::GALACTICCENTER);
+	galacticCenter->setOpacityKey(QStringLiteral("GridLinesMgr.galacticCenterColor"));
 	supergalacticPoles = new SkyPoint(SkyPoint::SUPERGALACTICPOLES);
+	supergalacticPoles->setOpacityKey(QStringLiteral("GridLinesMgr.supergalacticPolesColor"));
 	equinoxJ2000Points = new SkyPoint(SkyPoint::EQUINOXES_J2000);
+	equinoxJ2000Points->setOpacityKey(QStringLiteral("GridLinesMgr.equinoxJ2000PointsColor"));
 	equinoxPoints = new SkyPoint(SkyPoint::EQUINOXES_OF_DATE);
+	equinoxPoints->setOpacityKey(QStringLiteral("GridLinesMgr.equinoxPointsColor"));
 	solsticeJ2000Points = new SkyPoint(SkyPoint::SOLSTICES_J2000);
+	solsticeJ2000Points->setOpacityKey(QStringLiteral("GridLinesMgr.solsticeJ2000PointsColor"));
 	solsticePoints = new SkyPoint(SkyPoint::SOLSTICES_OF_DATE);
+	solsticePoints->setOpacityKey(QStringLiteral("GridLinesMgr.solsticePointsColor"));
 	antisolarPoint = new SkyPoint(SkyPoint::ANTISOLAR);
+	antisolarPoint->setOpacityKey(QStringLiteral("GridLinesMgr.antisolarPointColor"));
 	umbraCenterPoint = new SkyPoint(SkyPoint::EARTH_UMBRA_CENTER);
-	apexPoints = new SkyPoint(SkyPoint::APEX);	
+	umbraCenterPoint->setOpacityKey(QStringLiteral("GridLinesMgr.umbraCircleColor"));
+	apexPoints = new SkyPoint(SkyPoint::APEX);
+	apexPoints->setOpacityKey(QStringLiteral("GridLinesMgr.apexPointsColor"));
 
 	earth = GETSTELMODULE(SolarSystem)->getEarth();
 	connect(GETSTELMODULE(SolarSystem), &SolarSystem::solarSystemDataReloaded, this, &GridLinesMgr::connectSolarSystem);

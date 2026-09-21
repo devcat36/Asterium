@@ -125,9 +125,11 @@ final class AlmanacPage extends AstroCalcPage
 		column.addView(numberRow("Minutes before sunrise / after sunset", state.optInt("minutes", 60),
 				value -> set("custom_minutes", String.valueOf(value))));
 		column.addView(sliderRow("Custom altitude of the Sun, °", -90., 90.,
-				state.optDouble("sunAltitude", -7.), value -> set("custom_sun_altitude", value)));
+				state.optDouble("sunAltitude", -7.), "astro/custom_sun_altitude",
+				value -> set("custom_sun_altitude", value)));
 		column.addView(sliderRow("Custom altitude of the Moon, °", -90., 90.,
-				state.optDouble("moonAltitude", 18.), value -> set("custom_moon_altitude", value)));
+				state.optDouble("moonAltitude", 18.), "astro/custom_moon_altitude",
+				value -> set("custom_moon_altitude", value)));
 		column.addView(Widgets.gap(context, 12));
 	}
 

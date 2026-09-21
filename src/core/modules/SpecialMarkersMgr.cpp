@@ -45,6 +45,7 @@ public:
 	virtual ~SpecialSkyMarker(){}
 	void draw(StelCore* core) const;
 	void setColor(const Vec3f& c) {color = c;}
+	void setOpacityKey(const QString& key) { opacityKey = key; }
 	const Vec3f& getColor() const {return color;}
 	void setAngularSize(const Vec2d& s) {angularSize = s;}
 	const Vec2d& getAngularSize() const {return angularSize;}
@@ -61,6 +62,7 @@ private:
 
 	SKY_MARKER_TYPE marker_type;
 	Vec3f color;
+	QString opacityKey;
 	Vec2d angularSize;
 	double rotationAngle;
 	StelCore::FrameType frameType;
@@ -88,7 +90,7 @@ void SpecialSkyMarker::drawFoVRect(const StelProjectorP& projector, const Mat4f&
 	StelPainter sPainter(projector);
 	sPainter.setLineSmooth(true);
 	sPainter.setBlending(true);
-	sPainter.setColor(color, fader.getInterstate());
+	sPainter.setColor(color, fader.getInterstate() * StelApp::getInstance().getOverlayOpacity(opacityKey));
 
 	const float tanFovX = std::tan(fovX/2);
 	const float tanFovY = std::tan(fovY/2);
@@ -154,7 +156,7 @@ void SpecialSkyMarker::draw(StelCore *core) const
 	StelPainter sPainter(prj);
 	StelProjector::StelProjectorParams params = core->getCurrentStelProjectorParams();
 	sPainter.setBlending(true);
-	sPainter.setColor(color, fader.getInterstate());
+	sPainter.setColor(color, fader.getInterstate() * StelApp::getInstance().getOverlayOpacity(opacityKey));
 	Vec2i centerScreen(prj->getViewportPosX() + prj->getViewportWidth() / 2, prj->getViewportPosY() + prj->getViewportHeight() / 2);
 
 	/////////////////////////////////////////////////
@@ -266,9 +268,13 @@ SpecialMarkersMgr::SpecialMarkersMgr()
 	setObjectName("SpecialMarkersMgr");
 
 	fovCenterMarker = new SpecialSkyMarker(SpecialSkyMarker::FOV_CENTER);
+	fovCenterMarker->setOpacityKey(QStringLiteral("SpecialMarkersMgr.fovCenterMarkerColor"));
 	fovCircularMarker = new SpecialSkyMarker(SpecialSkyMarker::FOV_CIRCULAR);
+	fovCircularMarker->setOpacityKey(QStringLiteral("SpecialMarkersMgr.fovCircularMarkerColor"));
 	fovRectangularMarker = new SpecialSkyMarker(SpecialSkyMarker::FOV_RECTANGULAR);
+	fovRectangularMarker->setOpacityKey(QStringLiteral("SpecialMarkersMgr.fovRectangularMarkerColor"));
 	compassMarks = new SpecialSkyMarker(SpecialSkyMarker::COMPASS_MARKS);
+	compassMarks->setOpacityKey(QStringLiteral("SpecialMarkersMgr.compassMarksColor"));
 }
 
 SpecialMarkersMgr::~SpecialMarkersMgr()

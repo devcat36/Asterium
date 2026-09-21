@@ -71,6 +71,7 @@ public:
 	void draw(StelCore* core) const;       // set up a painter and draw
 	void draw(StelPainter &painter, const float oldLineWidth) const; // draw with given painter
 	void setColor(const Vec3f& c) {color = c;}
+	void setOpacityKey(const QString& key) { opacityKey = key; }
 	void setPartitions(bool visible) {showPartitions = visible;}
 	bool showsPartitions() const {return showPartitions;}
 	const Vec3f& getColor() const {return color;}
@@ -103,6 +104,7 @@ private:
 	static QSharedPointer<Planet> earth, sun, moon;
 	SKY_LINE_TYPE line_type;
 	Vec3f color;
+	QString opacityKey;
 	StelCore::FrameType frameType;
 	LinearFader fader;
 	int fontSize;

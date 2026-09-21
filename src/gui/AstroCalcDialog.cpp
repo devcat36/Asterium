@@ -7744,6 +7744,7 @@ void AstroCalcDialog::populateTimeIntervalsList()
 	wut->addItem(qc_("In the Morning", "Celestial object is observed..."), "1");
 	wut->addItem(qc_("Around Midnight", "Celestial object is observed..."), "2");
 	wut->addItem(qc_("In Any Time of the Night", "Celestial object is observed..."), "3");
+	wut->addItem(qc_("At the Selected Time", "Celestial object is observed..."), "4");
 
 	index = wut->findData(selectedIntervalId, Qt::UserRole, Qt::MatchCaseSensitive);
 	if (index < 0)
@@ -8054,6 +8055,14 @@ void AstroCalcDialog::calculateWutObjects()
 		const double angularSizeLimitMin = ui->wutAngularSizeLimitMinSpinBox->valueDegrees();
 		const double angularSizeLimitMax = ui->wutAngularSizeLimitMaxSpinBox->valueDegrees();
 		const double altitudeLimitMin = ui->wutAltitudeMinSpinBox->valueDegrees();
+		const double sinAltitudeLimitMin = std::sin(altitudeLimitMin * M_PI_180);
+		const auto isAboveAltitudeLimit = [&](const auto& object)
+		{
+			if (!object->isAboveRealHorizon(core))
+				return false;
+			const Vec3d position = object->getAltAzPosAuto(core);
+			return position[2] > sinAltitudeLimitMin * position.norm();
+		};
 		const float magLimit = static_cast<float>(ui->wutMagnitudeDoubleSpinBox->value());
 		const double JD = core->getJD();
 		QSet<QString> objectsList;
@@ -8080,6 +8089,9 @@ void AstroCalcDialog::calculateWutObjects()
 				break;
 			case 3:
 				wutJDList << rts[0] << rts[1] + 0.5 << rts[2];
+				break;
+			case 4:
+				wutJDList << JD;
 				break;
 			default: // Evening
 				wutJDList << rts[2];
@@ -8113,7 +8125,7 @@ void AstroCalcDialog::calculateWutObjects()
 					{
 						// Filter for angular size is not applicable
 						const float mag = object->getVMagnitude(core);
-						if (mag <= magLimit && object->isAboveRealHorizon(core))
+						if (mag <= magLimit && isAboveAltitudeLimit(object))
 						{
 							designation = object->getEnglishName();
 							if (designation.isEmpty())
@@ -8240,7 +8252,7 @@ void AstroCalcDialog::calculateWutObjects()
 								break;
 						}
 
-						if (passByType && object->isAboveRealHorizon(core))
+						if (passByType && isAboveAltitudeLimit(object))
 						{
 							QString d = object->getDSODesignation();
 							if (d.isEmpty())
@@ -8308,7 +8320,7 @@ void AstroCalcDialog::calculateWutObjects()
 					for (const auto& object : allObjects)
 					{
 						const float mag = object->getVMagnitude(core);
-						if (object->getPlanetType() == pType && mag <= magLimit && object->isAboveRealHorizon(core))
+						if (object->getPlanetType() == pType && mag <= magLimit && isAboveAltitudeLimit(object))
 						{
 							if ((angularSizeLimit) && (!StelUtils::isWithin(object->getAngularRadius(core), angularSizeLimitMin, angularSizeLimitMax)))
 								continue;
@@ -8345,7 +8357,7 @@ void AstroCalcDialog::calculateWutObjects()
 					{
 						StelObjectP object = dblStar.first;
 						const float mag = object->getVMagnitude(core);
-						if (mag <= magLimit && object->isAboveRealHorizon(core))
+						if (mag <= magLimit && isAboveAltitudeLimit(object))
 						{
 							// convert from arc-seconds to degrees
 							if ((angularSizeLimit) && (!StelUtils::isWithin(static_cast<double>(dblStar.second)/3600.0, angularSizeLimitMin, angularSizeLimitMax)))
@@ -8385,7 +8397,7 @@ void AstroCalcDialog::calculateWutObjects()
 					{
 						StelObjectP object = varStar.first;
 						const float mag = object->getVMagnitude(core);
-						if (mag <= magLimit && object->isAboveRealHorizon(core))
+						if (mag <= magLimit && isAboveAltitudeLimit(object))
 						{
 							designation = object->getEnglishName();
 							if (designation.isEmpty())
@@ -8415,7 +8427,7 @@ void AstroCalcDialog::calculateWutObjects()
 					{
 						StelObjectP object = hpmStar.first;
 						const float mag = object->getVMagnitude(core);
-						if (mag <= magLimit && object->isAboveRealHorizon(core))
+						if (mag <= magLimit && isAboveAltitudeLimit(object))
 						{
 							designation = object->getEnglishName();
 							if (designation.isEmpty())
@@ -8444,7 +8456,7 @@ void AstroCalcDialog::calculateWutObjects()
 					{
 						const float mag = object->getVMagnitude(core);
 						Nebula::NebulaType ntype = object->getDSOType();
-						if (static_cast<bool>(tflags & Nebula::TypeActiveGalaxies) && (ntype == Nebula::NebQSO || ntype == Nebula::NebPossQSO || ntype == Nebula::NebAGx || ntype == Nebula::NebRGx || ntype == Nebula::NebBLA || ntype == Nebula::NebBLL) && mag <= magLimit && object->isAboveRealHorizon(core))
+						if (static_cast<bool>(tflags & Nebula::TypeActiveGalaxies) && (ntype == Nebula::NebQSO || ntype == Nebula::NebPossQSO || ntype == Nebula::NebAGx || ntype == Nebula::NebRGx || ntype == Nebula::NebBLA || ntype == Nebula::NebBLL) && mag <= magLimit && isAboveAltitudeLimit(object))
 						{
 							QString d = object->getDSODesignation();
 							if (d.isEmpty())
@@ -8485,7 +8497,7 @@ void AstroCalcDialog::calculateWutObjects()
 							for (const auto& object : GETSTELMODULE(Quasars)->getAllQuasars())
 							{
 								const float mag = object->getVMagnitude(core);
-								if (mag <= magLimit && object->isAboveRealHorizon(core))
+								if (mag <= magLimit && isAboveAltitudeLimit(object))
 								{
 									designation = object->getEnglishName();
 									if (!objectsList.contains(designation) && !designation.isEmpty())
@@ -8509,7 +8521,7 @@ void AstroCalcDialog::calculateWutObjects()
 					#ifdef USE_STATIC_PLUGIN_PULSARS					
 					for (const auto& object : GETSTELMODULE(Pulsars)->getAllPulsars())
 					{
-						if (object->isAboveRealHorizon(core))
+						if (isAboveAltitudeLimit(object))
 						{
 							designation = object->getEnglishName();
 							if (designation.isEmpty())
@@ -8540,7 +8552,7 @@ void AstroCalcDialog::calculateWutObjects()
 					for (const auto& object : GETSTELMODULE(Exoplanets)->getAllExoplanetarySystems())
 					{
 						const float mag = object->getVMagnitude(core);
-						if (mag <= magLimit && object->isVMagnitudeDefined() && object->isAboveRealHorizon(core))
+						if (mag <= magLimit && object->isVMagnitudeDefined() && isAboveAltitudeLimit(object))
 						{
 							designation = object->getEnglishName();
 							if (!objectsList.contains(designation) && !designation.isEmpty())
@@ -8563,7 +8575,7 @@ void AstroCalcDialog::calculateWutObjects()
 					for (const auto& object : GETSTELMODULE(Novae)->getAllBrightNovae())
 					{
 						const float mag = object->getVMagnitude(core);
-						if (mag <= magLimit && object->isAboveRealHorizon(core))
+						if (mag <= magLimit && isAboveAltitudeLimit(object))
 						{
 							designation = object->getEnglishName();
 							if (!objectsList.contains(designation))
@@ -8586,7 +8598,7 @@ void AstroCalcDialog::calculateWutObjects()
 					for (const auto& object : GETSTELMODULE(Supernovae)->getAllBrightSupernovae())
 					{
 						const float mag = object->getVMagnitude(core);
-						if (mag <= magLimit && object->isAboveRealHorizon(core))
+						if (mag <= magLimit && isAboveAltitudeLimit(object))
 						{
 							designation = object->getEnglishName();
 							if (!objectsList.contains(designation))
@@ -8632,7 +8644,7 @@ void AstroCalcDialog::calculateWutObjects()
 					for (const auto& object : std::as_const(catDSO))
 					{
 						const float mag = object->getVMagnitude(core);
-						if (mag <= magLimit && object->isAboveRealHorizon(core))
+						if (mag <= magLimit && isAboveAltitudeLimit(object))
 						{
 							QString d = object->getDSODesignation();
 							if (d.isEmpty())

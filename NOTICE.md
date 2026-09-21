@@ -10,6 +10,14 @@ Stellarium as a touch-first Android application. The complete set of changes
 is the difference between that upstream commit and this repository; changes
 between releases are recorded in the git history.
 
+Android numeric settings use a value row that opens an editor with linked
+numeric input and a slider. Changes are validated and committed with Apply;
+Cancel leaves the setting unchanged. The editor also covers astronomy
+calculation controls and preserves nonlinear slider scales.
+Each numeric editor and color picker can restore its own factory default,
+using the bundled default configuration and engine defaults rather than
+the user's saved values.
+
 Asterium is not produced by, affiliated with, or endorsed by the Stellarium
 project. The name "Asterium" and the Asterium launcher icon exist to
 distinguish this fork from upstream; the "Stellarium" name and logo remain

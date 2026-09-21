@@ -156,6 +156,7 @@ final class ViewSheet extends PropertySheet
 				"Names beside the planets and their markers", "SolarSystem.labelsDisplayed");
 		addSlider(labels, "Labels and Markers amount", "SolarSystem.labelsAmount", 0., 10., 1);
 		addColor(labels, "Color of planet labels", "SolarSystem.labelsColor");
+		addOpacity(labels, "Opacity", "SolarSystem.labelsColor");
 
 		addSwitch(body, "Planet markers", "Hint circles marking each planet",
 		          "SolarSystem.flagHints");
@@ -186,6 +187,7 @@ final class ViewSheet extends PropertySheet
 		addSwitch(orbits, "… and moons", "Also show moons of selected object or planets",
 		          "SolarSystem.flagOrbitsWithMoons");
 		addSlider(orbits, "Thickness", "SolarSystem.orbitsThickness", linear(1., 5., 0, " px"));
+		addOpacity(orbits, "Opacity", "SolarSystem.orbits");
 		orbits.addView(Widgets.navigationRow(context, "Configure colors of orbit lines", null,
 				v -> overlay().open(new OrbitColorsSheet(context, overlay()))));
 
@@ -195,6 +197,7 @@ final class ViewSheet extends PropertySheet
 		addSlider(trails, "Thickness", "SolarSystem.trailsThickness", linear(1., 5., 0, " px"));
 		addSlider(trails, "Duration (years)", "SolarSystem.maxTrailTimeExtent", 1., 250., 0);
 		addColor(trails, "Color of trails", "SolarSystem.trailsColor");
+		addOpacity(trails, "Opacity", "SolarSystem.trailsColor");
 		final LinearLayout someTrails = addGroup(trails, "Only for N latest selected objects",
 				"Switch this off to see the trails for all Solar system bodies",
 				"SolarSystem.flagIsolatedTrails");
@@ -218,6 +221,7 @@ final class ViewSheet extends PropertySheet
 		addSwitch(names, "Special points only", "Show special nomenclature points only",
 		          "NomenclatureMgr.specialNomenclatureOnlyDisplayed");
 		addColor(names, "Color of nomenclature labels", "NomenclatureMgr.nomenclatureColor");
+		addOpacity(names, "Opacity", "NomenclatureMgr.nomenclatureColor");
 
 		body.addView(Widgets.section(context, "Scale"));
 		body.addView(Widgets.note(context,
@@ -328,7 +332,7 @@ final class ViewSheet extends PropertySheet
 		addSwitch(into, "Labels and Markers", "Draw deep-sky objects at all",
 		          "NebulaMgr.flagHintDisplayed");
 		addSlider(into, "Labels", "NebulaMgr.labelsAmount", 0., 10., 1);
-		addSlider(into, "Labels brightness", "NebulaMgr.labelsBrightness", 0., 1., 1);
+		addSlider(into, "Label opacity", "NebulaMgr.labelsBrightness", OPACITY);
 		addSlider(into, "Hints", "NebulaMgr.hintsAmount", 0., 10., 1);
 		addSlider(into, "Hints brightness", "NebulaMgr.hintsBrightness", 0., 1., 1);
 		addSwitch(into, "Use designations for screen labels",
@@ -474,6 +478,7 @@ final class ViewSheet extends PropertySheet
 
 		addSwitch(into, "Labels and Markers", null, "StarMgr.flagLabelsDisplayed");
 		addSlider(into, "Labels and Markers amount", "StarMgr.labelsAmount", 0., 10., 1);
+		addOpacity(into, "Label opacity", "StarMgr.labels");
 		addSwitch(into, "Show additional star names", null,
 		          "StarMgr.flagAdditionalNamesDisplayed");
 		addSwitch(into, "Use designations for screen labels", null,
@@ -608,6 +613,7 @@ final class ViewSheet extends PropertySheet
 		into.addView(polygon);
 		addSlider(polygon, "Thickness", "LandscapeMgr.polyLineThickness", 0., 5., 0);
 		addColor(polygon, "Polygon colour", "LandscapeMgr.polyLineColor");
+		addOpacity(polygon, "Opacity", "LandscapeMgr.polyLineColor");
 
 		final LinearLayout labels = nested(context);
 		addSwitch(into, "Landscape labels", "Named features the landscape marks",
@@ -616,6 +622,7 @@ final class ViewSheet extends PropertySheet
 		addSlider(labels, "Font size", "LandscapeMgr.labelFontSize", 5., 48., 0);
 		addSlider(labels, "Text angle", "LandscapeMgr.labelAngle", 0., 90., 0);
 		addColor(labels, "Label colour", "LandscapeMgr.labelColor");
+		addOpacity(labels, "Opacity", "LandscapeMgr.labelColor");
 
 		refreshLandscape();
 	}
@@ -809,6 +816,12 @@ final class ViewSheet extends PropertySheet
 					NativeBridge.send("prop.set", showProperty + "=" + checked);
 					extras.setVisibility(checked ? View.VISIBLE : View.GONE);
 				}));
+		addOpacity(extras, "Opacity", colourProperty);
+		if (colourProperty.startsWith("GridLinesMgr.")
+		    && (colourProperty.endsWith("GridColor") || colourProperty.endsWith("LineColor")
+		        || colourProperty.endsWith("LinesColor") || colourProperty.endsWith("CirclesColor")
+		        || colourProperty.endsWith("CircleColor")))
+			addOpacity(extras, "Label opacity", colourProperty + ".labels");
 		group.addView(extras);
 
 		into.addView(group);
@@ -864,7 +877,7 @@ final class ViewSheet extends PropertySheet
 		final GradientDrawable fill = Theme.box(current[0], 4, Theme.PANEL_EDGE);
 
 		final View view = Widgets.colorDot(context, fill, v ->
-				ColorPicker.show(context, label, current[0], chosen ->
+				ColorPicker.show(context, label, current[0], SettingDefaults.color(context, propertyId), chosen ->
 				{
 					current[0] = chosen;
 					fill.setColor(chosen);
@@ -913,6 +926,7 @@ final class ViewSheet extends PropertySheet
 		return new Scale(min, max, decimals)
 		{
 			@Override String readout(double value) { return format(value, decimals) + suffix; }
+			@Override String inputUnit() { return suffix.trim(); }
 		};
 	}
 
@@ -923,8 +937,18 @@ final class ViewSheet extends PropertySheet
 
 	private static final double DARKEST_MPSAS = 26.5, BRIGHTEST_MPSAS = 15.;
 
-	private static final Scale LIGHT_POLLUTION = new Scale(0., 1., 9)
+	private static final Scale LIGHT_POLLUTION = new Scale(0., 1., 12)
 	{
+		@Override double inputMin() { return BRIGHTEST_MPSAS; }
+		@Override double inputMax() { return DARKEST_MPSAS; }
+		@Override int inputDecimals() { return 2; }
+		@Override String inputUnit() { return "mag/arcsec²"; }
+		@Override double inputValue(double luminance)
+		{
+			return luminance > 0. ? Math.log10(luminance / 10.8e4) / -0.4 : DARKEST_MPSAS;
+		}
+		@Override double fromInput(double mpsas) { return 10.8e4 * Math.pow(10., -0.4 * mpsas); }
+
 		@Override
 		double value(double position)
 		{
@@ -999,6 +1023,8 @@ final class ViewSheet extends PropertySheet
 
 	private static final Scale FIELD_OF_VIEW = new Scale(0.001, 360., 3)
 	{
+		@Override String inputUnit() { return "°"; }
+
 		@Override
 		double value(double position) { return min * Math.pow(max / min, position); }
 
@@ -1051,11 +1077,13 @@ final class ViewSheet extends PropertySheet
 		addSlider(group, "Thickness", "ConstellationMgr.constellationLineThickness", 1., 5., 0);
 		addSlider(group, "Fading duration", "ConstellationMgr.linesFadeDuration", 0.1, 10., 1);
 		addColor(group, "Color of constellation lines", "ConstellationMgr.linesColor");
+		addOpacity(group, "Opacity", "ConstellationMgr.linesColor");
 
 		group = addGroup(into, "Constellation labels", null, "ConstellationMgr.namesDisplayed");
 		addSlider(group, "Constellations font size", "ConstellationMgr.fontSize", 8., 40., 0);
 		addSlider(group, "Fading duration", "ConstellationMgr.namesFadeDuration", 0.1, 10., 1);
 		addColor(group, "Color of constellation names", "ConstellationMgr.namesColor");
+		addOpacity(group, "Opacity", "ConstellationMgr.namesColor");
 
 		group = addGroup(into, "Constellation art", null, "ConstellationMgr.artDisplayed");
 		addSlider(group, "Brightness", "ConstellationMgr.artIntensity", 0., 1., 2);
@@ -1066,6 +1094,7 @@ final class ViewSheet extends PropertySheet
 		addSlider(group, "Thickness", "ConstellationMgr.boundariesThickness", 1., 5., 0);
 		addSlider(group, "Fading duration", "ConstellationMgr.boundariesFadeDuration", 0.1, 10., 1);
 		addColor(group, "Color of constellation boundaries", "ConstellationMgr.boundariesColor");
+		addOpacity(group, "Opacity", "ConstellationMgr.boundariesColor");
 
 		addSwitch(into, "Select single constellation", "Click on star to show its constellation",
 		          "ConstellationMgr.isolateSelected");
@@ -1080,16 +1109,19 @@ final class ViewSheet extends PropertySheet
 		addSlider(group, "Thickness", "AsterismMgr.asterismLineThickness", 1., 5., 0);
 		addSlider(group, "Fading duration", "AsterismMgr.linesFadeDuration", 0.1, 10., 1);
 		addColor(group, "Color of asterism lines", "AsterismMgr.linesColor");
+		addOpacity(group, "Opacity", "AsterismMgr.linesColor");
 
 		group = addGroup(asterisms, "Asterism labels", null, "AsterismMgr.namesDisplayed");
 		addSlider(group, "Asterisms font size", "AsterismMgr.fontSize", 8., 40., 0);
 		addSlider(group, "Fading duration", "AsterismMgr.namesFadeDuration", 0.1, 10., 1);
 		addColor(group, "Color of asterism names", "AsterismMgr.namesColor");
+		addOpacity(group, "Opacity", "AsterismMgr.namesColor");
 
 		group = addGroup(asterisms, "Ray helpers", null, "AsterismMgr.rayHelpersDisplayed");
 		addSlider(group, "Thickness", "AsterismMgr.rayHelperThickness", 1., 5., 0);
 		addSlider(group, "Fading duration", "AsterismMgr.rayHelpersFadeDuration", 0.1, 10., 1);
 		addColor(group, "Color of ray helpers", "AsterismMgr.rayHelpersColor");
+		addOpacity(group, "Opacity", "AsterismMgr.rayHelpersColor");
 
 		partitions = Widgets.section(context, "Zodiac and lunar stations");
 		into.addView(partitions);
@@ -1103,6 +1135,8 @@ final class ViewSheet extends PropertySheet
 		addSlider(group, "Thickness", "ConstellationMgr.zodiacThickness", 1., 5., 0);
 		addSlider(group, "Fading duration", "ConstellationMgr.zodiacFadeDuration", 0.1, 10., 1);
 		addColor(group, "Color of zodiac lines", "ConstellationMgr.zodiacColor");
+		addOpacity(group, "Opacity", "ConstellationMgr.zodiacColor");
+		addOpacity(group, "Label opacity", "ConstellationMgr.zodiacColor.labels");
 
 		lunarSystem = column(context);
 		into.addView(lunarSystem);
@@ -1113,6 +1147,8 @@ final class ViewSheet extends PropertySheet
 		addSlider(group, "Thickness", "ConstellationMgr.lunarSystemThickness", 1., 5., 0);
 		addSlider(group, "Fading duration", "ConstellationMgr.lunarSystemFadeDuration", 0.1, 10., 1);
 		addColor(group, "Color of Lunar station lines", "ConstellationMgr.lunarSystemColor");
+		addOpacity(group, "Opacity", "ConstellationMgr.lunarSystemColor");
+		addOpacity(group, "Label opacity", "ConstellationMgr.lunarSystemColor.labels");
 
 		asterisms.setVisibility(View.GONE);
 		partitions.setVisibility(View.GONE);

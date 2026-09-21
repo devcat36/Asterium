@@ -211,30 +211,30 @@ struct ToolbarEntry { const char* action; const char* icon; const char* caption;
 const char kFullScreen[] = "actionSet_Full_Screen_Global";
 bool fullScreenOn = true;
 const ToolbarEntry kToolbar[] = {
-	{ "actionShow_Constellation_Lines",      "ConstellationLines",  N_("Lines"),      ""                                             },
-	{ "actionShow_Constellation_Labels",     "ConstellationLabels", N_("Names"),      ""                                             },
-	{ "actionShow_Constellation_Art",        "ConstellationArt",    N_("Art"),        "StelGui.flagShowConstellationArtsButton"       },
-	{ "actionShow_Constellation_Boundaries", "ConstellationBoundaries", N_("Bounds"), "StelGui.flagShowConstellationBoundariesButton" },
-	{ "actionShow_Asterism_Lines",           "AsterismLines",       N_("Ast. lines"), "StelGui.flagShowAsterismLinesButton"           },
-	{ "actionShow_Asterism_Labels",          "AsterismLabels",      N_("Ast. names"), "StelGui.flagShowAsterismLabelsButton"          },
-	{ "actionShow_Equatorial_Grid",          "EquatorialGrid",      N_("Equ. grid"),  ""                                             },
-	{ "actionShow_Azimuthal_Grid",           "AzimuthalGrid",       N_("Azi. grid"),  ""                                             },
-	{ "actionShow_Ecliptic_Grid",            "EclipticGrid",        N_("Ecl. grid"),  "StelGui.flagShowEclipticGridButton"            },
-	{ "actionShow_Equatorial_J2000_Grid",    "EquatorialJ2000Grid", N_("ICRS grid"),  "StelGui.flagShowICRSGridButton"                },
-	{ "actionShow_Galactic_Grid",            "GalacticGrid",        N_("Gal. grid"),  "StelGui.flagShowGalacticGridButton"            },
+	{ "actionShow_Night_Mode",               "NightView",           N_("Night"),      "StelGui.flagShowNightmodeButton"               },
 	{ "actionShow_Ground",                   "Ground",              N_("Ground"),     ""                                             },
 	{ "actionShow_Atmosphere",               "Atmosphere",          N_("Atmosph."),   ""                                             },
 	{ "actionShow_Nebulas",                  "Nebula",              N_("Nebulae"),    ""                                             },
-	{ "actionShow_DSO_Textures",             "NebulaeBackground",   N_("Neb. bg"),    "StelGui.flagShowNebulaBackgroundButton"        },
 	{ "actionShow_Planets_Labels",           "Planets",             N_("Planets"),    ""                                             },
+	{ "actionShow_Constellation_Lines",      "ConstellationLines",  N_("Lines"),      ""                                             },
+	{ "actionShow_Constellation_Labels",     "ConstellationLabels", N_("Names"),      ""                                             },
+	{ "actionShow_Constellation_Art",        "ConstellationArt",    N_("Art"),        "StelGui.flagShowConstellationArtsButton"       },
+	{ "actionShow_ObsList_Highlight",        "ObsList",             N_("Highlight"),  "StelGui.flagShowObsListButton"                 },
+	{ "actionShow_Equatorial_Grid",          "EquatorialGrid",      N_("Equ. grid"),  ""                                             },
+	{ "actionShow_Azimuthal_Grid",           "AzimuthalGrid",       N_("Azi. grid"),  ""                                             },
 	{ "actionShow_Cardinal_Points",          "CardinalPoints",      N_("Cardinals"),  "StelGui.flagShowCardinalButton"                },
+	{ kFullScreen,                           "FullScreen",          N_("Full screen"), "StelGui.flagShowFullscreenButton"         },
+	{ "actionShow_Constellation_Boundaries", "ConstellationBoundaries", N_("Bounds"), "StelGui.flagShowConstellationBoundariesButton" },
+	{ "actionShow_Asterism_Lines",           "AsterismLines",       N_("Ast. lines"), "StelGui.flagShowAsterismLinesButton"           },
+	{ "actionShow_Asterism_Labels",          "AsterismLabels",      N_("Ast. names"), "StelGui.flagShowAsterismLabelsButton"          },
+	{ "actionShow_Ecliptic_Grid",            "EclipticGrid",        N_("Ecl. grid"),  "StelGui.flagShowEclipticGridButton"            },
+	{ "actionShow_Equatorial_J2000_Grid",    "EquatorialJ2000Grid", N_("ICRS grid"),  "StelGui.flagShowICRSGridButton"                },
+	{ "actionShow_Galactic_Grid",            "GalacticGrid",        N_("Gal. grid"),  "StelGui.flagShowGalacticGridButton"            },
+	{ "actionShow_DSO_Textures",             "NebulaeBackground",   N_("Neb. bg"),    "StelGui.flagShowNebulaBackgroundButton"        },
 	{ "actionShow_Compass_Marks",            "Compass",             N_("Compass"),    "StelGui.flagShowCompassButton"                 },
 	{ "actionSwitch_Equatorial_Mount",       "EquatorialMount",     N_("Equ. mount"), ""                                             },
 	{ "actionVertical_Flip",                 "FlipVertical",        N_("Flip vert."), "StelGui.flagShowFlipButtons"                   },
 	{ "actionHorizontal_Flip",               "FlipHorizontal",      N_("Flip horiz."),"StelGui.flagShowFlipButtons"                   },
-	{ "actionShow_Night_Mode",               "NightView",           N_("Night"),      "StelGui.flagShowNightmodeButton"               },
-	{ "actionShow_ObsList_Highlight",        "ObsList",             N_("Highlight"),  "StelGui.flagShowObsListButton"                 },
-	{ kFullScreen,                           "FullScreen",          N_("Full screen"), "StelGui.flagShowFullscreenButton"         },
 	{ "actionQuit_Global",                   "Quit",                N_("Quit"),       "StelGui.flagShowQuitButton"                    },
 };
 
@@ -1806,7 +1806,7 @@ void AndroidUi::setFlagShowFps(bool on)
 	if (fpsShown == on)
 		return;
 	fpsShown = on;
-	StelApp::immediateSave("gui/flag_show_fps", on);
+	config()->setValue("gui/flag_show_fps", on);
 	emit flagShowFpsChanged(on);
 }
 
@@ -2192,6 +2192,13 @@ void AndroidUi::perform(const QString& verb, const QString& arg)
 			a->trigger();
 			clampTimeRate(core);
 		}
+	}
+	else if (verb == "opacity.set")
+	{
+		bool ok = false;
+		const float opacity = value.toFloat(&ok);
+		if (ok)
+			app.setOverlayOpacity(key, opacity);
 	}
 	else if (verb == "prop.set")
 	{
@@ -3066,6 +3073,11 @@ QString AndroidUi::answer(const QString& verb, const QString& arg) const
 			props.append(item);
 		}
 		out["props"] = props;
+		QJsonObject opacities;
+		const auto& values = app.getOverlayOpacities();
+		for (auto it = values.cbegin(); it != values.cend(); ++it)
+			opacities[it.key()] = it.value();
+		out["opacities"] = opacities;
 	}
 	else if (verb == "projections")
 	{

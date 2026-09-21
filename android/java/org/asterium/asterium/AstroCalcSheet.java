@@ -31,7 +31,6 @@ import android.widget.HorizontalScrollView;
 import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.ScrollView;
-import android.widget.SeekBar;
 import android.widget.TextView;
 
 import org.json.JSONArray;
@@ -341,67 +340,37 @@ final class AstroCalcSheet extends Sheet
 	private ValueBinding magRow(Context context, String label, final double max, final String key,
 	                            final ValueSource current)
 	{
-		return sliderRow(context, label, 0., max, current, v -> set(key, v));
+		return sliderRow(context, label, 0., max, "astrocalc/" + key, current, v -> set(key, v));
 	}
 
 	private interface Commit { void with(String value); }
 
 	private ValueBinding sliderRow(Context context, String label, final double min, final double max,
-	                               final ValueSource current, final Commit commit)
+	                               String defaultKey, final ValueSource current, final Commit commit)
 	{
-		final LinearLayout group = new LinearLayout(context);
-		group.setOrientation(LinearLayout.VERTICAL);
-		Theme.padding(group, 16, 10, 16, 6);
-
-		final LinearLayout head = new LinearLayout(context);
-		head.setOrientation(LinearLayout.HORIZONTAL);
-		head.addView(Theme.text(context, label, 14, Theme.TEXT_CHIP, false),
-				new LinearLayout.LayoutParams(0, LinearLayout.LayoutParams.WRAP_CONTENT, 1f));
-		final TextView value = Theme.text(context, "", 14, Theme.ACCENT, true);
-		head.addView(value);
-		group.addView(head);
-
-		final SeekBar bar = Widgets.slider(context, (int) Math.round((max - min) * 10.), 0);
-		bar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener()
-		{
-			public void onProgressChanged(SeekBar seek, int progress, boolean fromUser)
-			{
-				value.setText(T.t(String.format(Locale.getDefault(), "%.1f", min + progress / 10.)));
-			}
-			public void onStartTrackingTouch(SeekBar seek) {}
-			public void onStopTrackingTouch(SeekBar seek)
-			{
-				commit.with(String.format(Locale.US, "%.2f", min + seek.getProgress() / 10.));
-			}
-		});
-		group.addView(bar);
-		return new ValueBinding(group, bar, value, current, min);
+		final PropertySheet.Scale scale = PropertySheet.linear(min, max, 1);
+		final NumericSetting row = new NumericSetting(context, label, scale, current.get(),
+				SettingDefaults.number(context, defaultKey),
+				next -> commit.with(scale.wire(next)));
+		return new ValueBinding(row, current);
 	}
 
 	private interface ValueSource { double get(); }
 
 	private static final class ValueBinding
 	{
-		final View view;
-		final SeekBar bar;
-		final TextView value;
+		final NumericSetting view;
 		final ValueSource source;
-		final double min;
 
-		ValueBinding(View view, SeekBar bar, TextView value, ValueSource source, double min)
+		ValueBinding(NumericSetting view, ValueSource source)
 		{
 			this.view = view;
-			this.bar = bar;
-			this.value = value;
 			this.source = source;
-			this.min = min;
 		}
 
 		void apply()
 		{
-			final double setting = source.get();
-			bar.setProgress((int) Math.round((setting - min) * 10.));
-			value.setText(T.t(String.format(Locale.getDefault(), "%.1f", setting)));
+			view.setValue(source.get());
 		}
 	}
 
@@ -766,6 +735,7 @@ final class AstroCalcSheet extends Sheet
 		group.addView(Widgets.pickerRow(context, "Every", stepValue, v -> pickStep()));
 
 		sunAltitude = sliderRow(context, "Sun altitude", -18., 0.,
+				"astrocalc/ephemeris_sun_altitude",
 				() -> eph.optDouble("sunAltitude", -10.0),
 				v -> setEphemeris("ephemeris_sun_altitude", v));
 		group.addView(sunAltitude.view);

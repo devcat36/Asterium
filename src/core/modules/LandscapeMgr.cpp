@@ -182,7 +182,7 @@ void Cardinals::draw(const StelCore* core, double latitude) const
 			vshift = static_cast<float>(screenFontSize + 12*fontSizeRatio)*ppx;
 
 		Vec3f xy;
-		sPainter.setColor(color, fader4WCR.getInterstate());
+		sPainter.setColor(color, fader4WCR.getInterstate() * StelApp::getInstance().getOverlayOpacity(QStringLiteral("LandscapeMgr.cardinalPointsColor")));
 		sPainter.setBlending(true);
 		sPainter.beginTextBatch();
 		QMapIterator<Cardinals::CompassDirection, Vec3f> it4w(rose4winds);
@@ -208,7 +208,7 @@ void Cardinals::draw(const StelCore* core, double latitude) const
 		if (fader8WCR.getInterstate()>0.f)
 		{
 			float minFader = qMin(fader4WCR.getInterstate(), fader8WCR.getInterstate());
-			sPainter.setColor(color, minFader);
+			sPainter.setColor(color, minFader * StelApp::getInstance().getOverlayOpacity(QStringLiteral("LandscapeMgr.cardinalPointsColor")));
 			sPainter.setFont(font8WCR);
 
 			QMapIterator<Cardinals::CompassDirection, Vec3f> it8w(rose8winds);
@@ -232,7 +232,7 @@ void Cardinals::draw(const StelCore* core, double latitude) const
 
 			if (fader16WCR.getInterstate()>0.f)
 			{
-				sPainter.setColor(color, qMin(minFader, fader16WCR.getInterstate()));
+				sPainter.setColor(color, qMin(minFader, fader16WCR.getInterstate()) * StelApp::getInstance().getOverlayOpacity(QStringLiteral("LandscapeMgr.cardinalPointsColor")));
 				sPainter.setFont(font16WCR);
 
 				QMapIterator<Cardinals::CompassDirection, Vec3f> it16w(rose16winds);
@@ -257,7 +257,7 @@ void Cardinals::draw(const StelCore* core, double latitude) const
 
 				if (fader32WCR.getInterstate()>0.f)
 				{
-					sPainter.setColor(color, qMin(minFader, fader32WCR.getInterstate()));
+					sPainter.setColor(color, qMin(minFader, fader32WCR.getInterstate()) * StelApp::getInstance().getOverlayOpacity(QStringLiteral("LandscapeMgr.cardinalPointsColor")));
 					sPainter.setFont(font32WCR);
 
 					QMapIterator<Cardinals::CompassDirection, Vec3f> it32w(rose32winds);

@@ -10234,6 +10234,10 @@ msgctxt "Celestial object is observed..."
 msgid "In Any Time of the Night"
 msgstr "Em qualquer momento da noite"
 
+msgctxt "Celestial object is observed..."
+msgid "At the Selected Time"
+msgstr "No horário selecionado"
+
 #: src/gui/AstroCalcDialog.cpp:7766
 msgid "Bright stars"
 msgstr "Estrelas brilhantes"

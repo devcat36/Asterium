@@ -18,6 +18,7 @@
  */
 
 #include "StelPainter.hpp"
+#include <QScopedValueRollback>
 
 #include "StelApp.hpp"
 #include "StelMainView.hpp"
@@ -994,6 +995,9 @@ void StelPainter::drawText(float x, float y, const QString& str, float angleDeg,
 		return;
 	}
 
+	if (textOpacity <= 0.f)
+		return;
+	QScopedValueRollback<float> opacityGuard(currentColor[3], currentColor[3] * textOpacity);
 	StringTexture* tex = getTextTexture(str, currentFont.pixelSize());
 	Q_ASSERT(tex);
 	if (!noGravity)
@@ -3165,6 +3169,7 @@ void StelPainter::drawFromArray(DrawingMode mode, int count, int offset, bool do
 	const QMatrix4x4 qMat(m[0], m[4], m[8], m[12], m[1], m[5], m[9], m[13], m[2], m[6], m[10], m[14], m[3], m[7], m[11], m[15]);
 
 	const bool lineMode = mode==LineStrip || mode==LineLoop || mode==Lines;
+	QScopedValueRollback<float> opacityGuard(currentColor[3], currentColor[3] * (lineMode ? lineOpacity : 1.f));
 	const bool isCoreProfile = StelMainView::getInstance().getGLInformation().isCoreProfile;
 	const bool isGLES = StelMainView::getInstance().getGLInformation().isGLES;
 	if (texturedBatchActive && !indices && batchTexture!=0

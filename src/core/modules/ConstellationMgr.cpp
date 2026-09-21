@@ -70,7 +70,7 @@ ConstellationMgr::ConstellationMgr(StarMgr *_hip_stars)
 	  lunarSystemFadeDuration(1.),
 	  checkLoadingData(false),
 	  fontSize(15),
-	  constellationLineThickness(1),
+	  constellationLineThickness(2),
 	  boundariesThickness(1),
 	  hullsThickness(1),
 	  zodiacThickness(1),
@@ -112,7 +112,9 @@ void ConstellationMgr::init()
 	setFlagArt(conf->value("viewing/flag_constellation_art", false).toBool());
 	setFlagIsolateSelected(conf->value("viewing/flag_constellation_isolate_selected", false).toBool());
 	setFlagConstellationPick(conf->value("viewing/flag_constellation_pick", false).toBool());
-	setConstellationLineThickness(conf->value("viewing/constellation_line_thickness", 1).toInt());
+	if (conf->value("viewing/constellation_line_thickness", 2).toFloat() < 1.f)
+		conf->setValue("viewing/constellation_line_thickness", 1);
+	setConstellationLineThickness(conf->value("viewing/constellation_line_thickness", 2).toInt());
 	setBoundariesThickness(conf->value("viewing/constellation_boundaries_thickness", 1).toInt());
 	setBoundariesFadeDuration(conf->value("viewing/constellation_boundaries_fade_duration", 1.0f).toFloat());
 	setHullsThickness(conf->value("viewing/constellation_hulls_thickness", 1).toInt());
@@ -129,7 +131,7 @@ void ConstellationMgr::init()
 
 	// Load colors from config file
 	QString defaultColor = conf->value("color/default_color").toString();
-	setLinesColor(Vec3f(conf->value("color/const_lines_color", defaultColor).toString()));
+	setLinesColor(Vec3f(conf->value("color/const_lines_color", conf->value("color/const_names_color", defaultColor)).toString()));
 	setBoundariesColor(Vec3f(conf->value("color/const_boundary_color", "0.8,0.3,0.3").toString()));
 	setHullsColor(Vec3f(conf->value("color/const_hull_color", "0.6,0.2,0.2").toString()));
 	setZodiacColor(Vec3f(conf->value("color/skyculture_zodiac_color", "1.0,1.0,0.0").toString()));
@@ -1745,12 +1747,16 @@ void ConstellationMgr::drawZodiac(StelPainter& sPainter, const Vec3d &obsVelocit
 	zodiac->centerLine->setColor(zodiacColor);
 	zodiac->centerLine->setLineThickness(zodiacThickness);
 	zodiac->centerLine->setPartThickness(zodiacThickness);
+	sPainter.setLineOpacity(StelApp::getInstance().getOverlayOpacity(QStringLiteral("ConstellationMgr.zodiacColor")));
+	sPainter.setTextOpacity(StelApp::getInstance().getOverlayOpacity(QStringLiteral("ConstellationMgr.zodiacColor.labels")));
 	sPainter.setBlending(true);
 	const float oldLineWidth=sPainter.getLineWidth();
 	sPainter.setLineWidth(zodiacThickness);
 	sPainter.setLineSmooth(true);
 	zodiac->draw(sPainter, obsVelocity);
 	sPainter.setLineWidth(oldLineWidth); // restore line thickness
+	sPainter.setLineOpacity(1.f);
+	sPainter.setTextOpacity(1.f);
 }
 // Draw the lunar system lines, if any is defined in the current skyculture.
 // @param obsVelocity is the speed vector of the observer planet to distort lunarSystem lines by aberration.
@@ -1763,12 +1769,16 @@ void ConstellationMgr::drawLunarSystem(StelPainter& sPainter, const Vec3d &obsVe
 	lunarSystem->centerLine->setColor(lunarSystemColor);
 	lunarSystem->centerLine->setLineThickness(lunarSystemThickness);
 	lunarSystem->centerLine->setPartThickness(lunarSystemThickness);
+	sPainter.setLineOpacity(StelApp::getInstance().getOverlayOpacity(QStringLiteral("ConstellationMgr.lunarSystemColor")));
+	sPainter.setTextOpacity(StelApp::getInstance().getOverlayOpacity(QStringLiteral("ConstellationMgr.lunarSystemColor.labels")));
 	sPainter.setBlending(true);
 	const float oldLineWidth=sPainter.getLineWidth();
 	sPainter.setLineWidth(lunarSystemThickness);
 	sPainter.setLineSmooth(true);
 	lunarSystem->draw(sPainter, obsVelocity);
 	sPainter.setLineWidth(oldLineWidth); // restore line thickness
+	sPainter.setLineOpacity(1.f);
+	sPainter.setTextOpacity(1.f);
 }
 
 //! Returns the translated name of the Zodiac system

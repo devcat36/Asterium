@@ -25,6 +25,7 @@
 #include <qguiapplication.h>
 #include <QString>
 #include <QObject>
+#include <QMap>
 #include <QRandomGenerator>
 #include "StelTextureTypes.hpp"
 #include "StelModule.hpp"
@@ -197,6 +198,10 @@ public:
 
 	//! Return the main configuration options
 	QSettings* getSettings() const {return confSettings;}
+
+	float getOverlayOpacity(const QString& key) const { return overlayOpacities.value(key, 1.f); }
+	const QMap<QString, float>& getOverlayOpacities() const { return overlayOpacities; }
+	void setOverlayOpacity(const QString& key, float opacity);
 
 	//! Return the currently used style
 	const QString getCurrentStelStyle() const {
@@ -516,6 +521,7 @@ private:
 	bool flagNightVision;
 
 	QSettings* confSettings;
+	QMap<QString, float> overlayOpacities;
 
 	// Define whether the StelApp instance has completed initialization
 	bool initialized;

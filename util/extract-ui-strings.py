@@ -36,6 +36,7 @@ NOT_PROSE = {
     'AstrAlm1984', 'ExpSup1992', 'ExpSup2013', 'Mallama2018', 'Mueller1893',
     'dd-mm-yyyy', 'mm-dd-yyyy', 'HH:mm', '-off', '-on', '.png',
     '12h30m49.4s', 'Translit', 'Native', 'Modern', 'license:',
+    'landscape/transparency',
 }
 
 

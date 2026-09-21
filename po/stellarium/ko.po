@@ -9971,6 +9971,10 @@ msgctxt "Celestial object is observed..."
 msgid "In Any Time of the Night"
 msgstr "밤 아무 때"
 
+msgctxt "Celestial object is observed..."
+msgid "At the Selected Time"
+msgstr "현재 설정한 시간"
+
 #: src/gui/AstroCalcDialog.cpp:7755
 msgid "Bright stars"
 msgstr "밝은 별"

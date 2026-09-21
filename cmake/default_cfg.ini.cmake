@@ -75,7 +75,7 @@ mag_converter_min_fov               = 0.001
 #bv_color_+3.00 = 0,1,0
 
 labels_amount                       = 3.0
-init_light_pollution_luminance      = 0.00014344
+init_light_pollution_luminance      = 0.000051708816
 
 [gui]
 flag_show_flip_buttons              = false
@@ -172,7 +172,7 @@ antisolar_point_color               = 0.9,0.3,0.5
 apex_points_color                   = 0.8,0.2,0.3
 
 # Constellations
-const_lines_color                   = 0.2,0.2,0.6
+const_lines_color                   = 0.4,0.6,0.9
 const_names_color                   = 0.4,0.6,0.9
 const_boundary_color                = 0.3,0.1,0.1
 #DSO
@@ -243,6 +243,7 @@ flag_constellation_name             = true
 flag_constellation_art              = false
 flag_constellation_boundaries       = false
 flag_constellation_isolate_selected = false
+constellation_line_thickness        = 2
 flag_azimuthal_grid                 = false
 flag_equatorial_grid                = false
 flag_equatorial_J2000_grid          = false
@@ -305,6 +306,9 @@ flag_use_de430                      = false
 flag_use_de431                      = false
 de430_path                          = ""
 de431_path                          = ""
+
+[overlay_opacity]
+ConstellationMgr.linesColor         = 0.15
 
 [init_location]
 location                            = auto

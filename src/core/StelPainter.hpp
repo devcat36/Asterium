@@ -285,6 +285,8 @@ public:
 
 	//! Sets the line width. Default is 1.0f.
 	void setLineWidth(float width);
+	void setLineOpacity(float opacity) { lineOpacity = qBound(0.f, opacity, 1.f); }
+	void setTextOpacity(float opacity) { textOpacity = qBound(0.f, opacity, 1.f); }
 	//! Gets the line width.
 	float getLineWidth() const {return glState.lineWidth;}
 
@@ -482,6 +484,8 @@ private:
 	bool viewportSizeCached;
 
 	Vec4f currentColor;
+	float lineOpacity = 1.f;
+	float textOpacity = 1.f;
 	//! Saturation effect adjustment.
 	float saturation = 1.f;
 	float textureGamma = 1.f;

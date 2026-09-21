@@ -9868,6 +9868,10 @@ msgctxt "Celestial object is observed..."
 msgid "In Any Time of the Night"
 msgstr "Kurdo Natën"
 
+msgctxt "Celestial object is observed..."
+msgid "At the Selected Time"
+msgstr "Në kohën e zgjedhur"
+
 #: src/gui/AstroCalcDialog.cpp:7755
 msgid "Bright stars"
 msgstr ""

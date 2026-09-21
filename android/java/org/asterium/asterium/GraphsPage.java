@@ -200,12 +200,14 @@ final class GraphsPage extends AstroCalcPage
 		if (positive)
 			controls.addView(sliderRow("Altitude limit, °", -85., 85.,
 					state.optDouble("positiveLimit", 0.),
+					"astrocalc/altvstime_positive_limit",
 					v -> set("altvstime_positive_limit", whole(v))));
 	}
 
 	private void buildMonthlyControls()
 	{
 		controls.addView(sliderRow("Local time, h", 0., 23., state.optDouble("hour", 0.),
+				"astrocalc/me_time",
 				v -> set("me_time", whole(v))));
 		final boolean positive = state.optBoolean("positiveOnly", false);
 		controls.addView(switchRow("Positive values only", "Cut the scale off below the limit",
@@ -213,6 +215,7 @@ final class GraphsPage extends AstroCalcPage
 		if (positive)
 			controls.addView(sliderRow("Altitude limit, °", 0., 85.,
 					state.optDouble("positiveLimit", 0.),
+					"astrocalc/me_positive_limit",
 					v -> set("me_positive_limit", whole(v))));
 	}
 

@@ -331,7 +331,7 @@ void Landscape::drawHorizonLine(StelCore* core, StelPainter& painter)
 	painter.setProjector(prj);
 	painter.setLineSmooth(true);
 	painter.setBlending(true);
-	painter.setColor(horizonPolygonLineColor, landFader.getInterstate());
+	painter.setColor(horizonPolygonLineColor, landFader.getInterstate() * StelApp::getInstance().getOverlayOpacity(QStringLiteral("LandscapeMgr.polyLineColor")));
 	const float lineWidth=painter.getLineWidth();
 	const float ppx = static_cast<float>(prj->getDevicePixelsPerPixel());
 	painter.setLineWidth(horizonPolygonLineThickness*ppx);
@@ -434,7 +434,7 @@ void Landscape::drawLabels(StelCore* core, StelPainter *painter)
 	font.setPixelSize(fontSize);
 	painter->setFont(font);
 	QFontMetrics fm(font);
-	painter->setColor(labelColor, labelFader.getInterstate()*landFader.getInterstate());
+	painter->setColor(labelColor, labelFader.getInterstate()*landFader.getInterstate() * StelApp::getInstance().getOverlayOpacity(QStringLiteral("LandscapeMgr.labelColor")));
 
 	painter->setBlending(true);
 	painter->setLineSmooth(true);

@@ -256,8 +256,11 @@ QString objectTypeFor(int category)
 	return types.value(category, QString());
 }
 
-QList<double> nightMoments(StelCore* core, SolarSystem* solarSystem, int interval)
+QList<double> observationMoments(StelCore* core, SolarSystem* solarSystem, int interval)
 {
+	if (interval == 4)
+		return { core->getJD() };
+
 	const Vec4d rts = solarSystem->getSun()->getRTSTime(core, -6.);
 	switch (interval)
 	{
@@ -330,12 +333,20 @@ void calculate()
 	const double angularSizeLimitMin = settingDouble("wut_angular_limit_min", 10.0) / 60.;
 	const double angularSizeLimitMax = settingDouble("wut_angular_limit_max", 600.0) / 60.;
 	const double altitudeLimitMin = settingDouble("wut_altitude_min", 0.0);
+	const double sinAltitudeLimitMin = std::sin(altitudeLimitMin * M_PI_180);
+	const auto isAboveAltitudeLimit = [&](const auto& object)
+	{
+		if (!object->isAboveRealHorizon(core))
+			return false;
+		const Vec3d position = object->getAltAzPosAuto(core);
+		return position[2] > sinAltitudeLimitMin * position.norm();
+	};
 	const float magLimit = static_cast<float>(settingDouble("wut_magnitude_limit", 10.0));
 	const int category = kCategory;
 
 	const double currentJD = core->getJD();
 	const QList<double> moments =
-			nightMoments(core, solarSystem, settingInt("wut_time_interval", 0));
+			observationMoments(core, solarSystem, settingInt("wut_time_interval", 0));
 	if (!moments.isEmpty())
 		kWhen = asteriumFormatSimTime(moments.first(), "yyyy-MM-dd HH:mm");
 
@@ -413,7 +424,7 @@ void calculate()
 					stars = starMgr->getHipparcosBariumStars();
 				for (const StelObjectP& object : std::as_const(stars))
 				{
-					if (object->getVMagnitude(core) <= magLimit && object->isAboveRealHorizon(core))
+					if (object->getVMagnitude(core) <= magLimit && isAboveAltitudeLimit(object))
 						keepStar(object, 0.);
 				}
 				break;
@@ -515,7 +526,7 @@ void calculate()
 								mag = 99.f;
 							break;
 					}
-					if (wanted && object->isAboveRealHorizon(core))
+					if (wanted && isAboveAltitudeLimit(object))
 						keepDso(object, mag);
 				}
 				break;
@@ -548,7 +559,7 @@ void calculate()
 				{
 					if (object->getPlanetType() != wantedType
 					    || object->getVMagnitude(core) > magLimit
-					    || !object->isAboveRealHorizon(core))
+					    || !isAboveAltitudeLimit(object))
 						continue;
 					if (angularSizeLimit
 					    && !StelUtils::isWithin(object->getAngularRadius(core),
@@ -566,7 +577,7 @@ void calculate()
 				for (const StelACStarData& pair : starMgr->getHipparcosDoubleStars())
 				{
 					const StelObjectP object = pair.first;
-					if (object->getVMagnitude(core) > magLimit || !object->isAboveRealHorizon(core))
+					if (object->getVMagnitude(core) > magLimit || !isAboveAltitudeLimit(object))
 						continue;
 
 					if (angularSizeLimit
@@ -589,7 +600,7 @@ void calculate()
 				for (const StelACStarData& pair : std::as_const(stars))
 				{
 					if (pair.first->getVMagnitude(core) <= magLimit
-					    && pair.first->isAboveRealHorizon(core))
+					    && isAboveAltitudeLimit(pair.first))
 						keepStar(pair.first, 0.);
 				}
 				break;
@@ -599,7 +610,7 @@ void calculate()
 				for (const StelACStarData& pair : starMgr->getHipparcosHighPMStars())
 				{
 					if (pair.first->getVMagnitude(core) <= magLimit
-					    && pair.first->isAboveRealHorizon(core))
+					    && isAboveAltitudeLimit(pair.first))
 						keepStar(pair.first, 0.);
 				}
 				break;
@@ -614,7 +625,7 @@ void calculate()
 					    && (ntype == Nebula::NebQSO || ntype == Nebula::NebPossQSO
 					        || ntype == Nebula::NebAGx || ntype == Nebula::NebRGx
 					        || ntype == Nebula::NebBLA || ntype == Nebula::NebBLL)
-					    && mag <= magLimit && object->isAboveRealHorizon(core))
+					    && mag <= magLimit && isAboveAltitudeLimit(object))
 						keepDso(object, mag);
 				}
 #ifdef USE_STATIC_PLUGIN_QUASARS
@@ -624,7 +635,7 @@ void calculate()
 					for (const auto& object : GETSTELMODULE(Quasars)->getAllQuasars())
 					{
 						if (object->getVMagnitude(core) > magLimit
-						    || !object->isAboveRealHorizon(core)
+						    || !isAboveAltitudeLimit(object)
 						    || object->getEnglishName().isEmpty())
 							continue;
 						keep(qSharedPointerCast<StelObject>(object), object->getNameI18n(),
@@ -639,7 +650,7 @@ void calculate()
 #ifdef USE_STATIC_PLUGIN_PULSARS
 				for (const auto& object : GETSTELMODULE(Pulsars)->getAllPulsars())
 				{
-					if (!object->isAboveRealHorizon(core))
+					if (!isAboveAltitudeLimit(object))
 						continue;
 					QString designation = object->getEnglishName();
 					if (designation.isEmpty())
@@ -661,7 +672,7 @@ void calculate()
 				for (const auto& object : GETSTELMODULE(Exoplanets)->getAllExoplanetarySystems())
 				{
 					if (object->getVMagnitude(core) > magLimit || !object->isVMagnitudeDefined()
-					    || !object->isAboveRealHorizon(core) || object->getEnglishName().isEmpty())
+					    || !isAboveAltitudeLimit(object) || object->getEnglishName().isEmpty())
 						continue;
 					keep(qSharedPointerCast<StelObject>(object), object->getNameI18n().trimmed(),
 					     object->getEnglishName(), object->getVMagnitude(core), 0.);
@@ -674,7 +685,7 @@ void calculate()
 #ifdef USE_STATIC_PLUGIN_NOVAE
 				for (const auto& object : GETSTELMODULE(Novae)->getAllBrightNovae())
 				{
-					if (object->getVMagnitude(core) <= magLimit && object->isAboveRealHorizon(core))
+					if (object->getVMagnitude(core) <= magLimit && isAboveAltitudeLimit(object))
 						keep(qSharedPointerCast<StelObject>(object), object->getNameI18n(),
 						     object->getEnglishName(), object->getVMagnitude(core), 0.);
 				}
@@ -686,7 +697,7 @@ void calculate()
 #ifdef USE_STATIC_PLUGIN_SUPERNOVAE
 				for (const auto& object : GETSTELMODULE(Supernovae)->getAllBrightSupernovae())
 				{
-					if (object->getVMagnitude(core) <= magLimit && object->isAboveRealHorizon(core))
+					if (object->getVMagnitude(core) <= magLimit && isAboveAltitudeLimit(object))
 						keep(qSharedPointerCast<StelObject>(object), object->getNameI18n(),
 						     object->getEnglishName(), object->getVMagnitude(core), 0.);
 				}
@@ -713,7 +724,7 @@ void calculate()
 
 				for (const NebulaP& object : std::as_const(catalogue))
 				{
-					if (object->getVMagnitude(core) <= magLimit && object->isAboveRealHorizon(core))
+					if (object->getVMagnitude(core) <= magLimit && isAboveAltitudeLimit(object))
 						keepDso(object, object->getVMagnitude(core));
 				}
 				break;
@@ -763,13 +774,13 @@ void state(QJsonObject& out)
 	out["category"] = QString::number(kCategory);
 
 	const char* const intervals[] = { "In the Evening", "In the Morning", "Around Midnight",
-	                                  "In Any Time of the Night" };
+	                                  "In Any Time of the Night", "At the Selected Time" };
 	QJsonArray whens;
-	for (int i = 0; i < 4; ++i)
+	for (const char* interval : intervals)
 	{
 		QJsonObject entry;
-		entry["id"] = QString::number(i);
-		entry["name"] = qc_(QString::fromUtf8(intervals[i]), "Celestial object is observed...");
+		entry["id"] = QString::number(whens.size());
+		entry["name"] = qc_(QString::fromUtf8(interval), "Celestial object is observed...");
 		whens.append(entry);
 	}
 	out["intervals"] = whens;

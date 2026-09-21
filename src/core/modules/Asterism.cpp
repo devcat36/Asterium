@@ -364,14 +364,14 @@ void Asterism::drawOptim(StelPainter& sPainter, const StelCore* core, const Sphe
 		if (lineFader.getInterstate()<=0.0001f)
 			return;
 
-		sPainter.setColor(lineColor, lineFader.getInterstate());
+		sPainter.setColor(lineColor, lineFader.getInterstate() * StelApp::getInstance().getOverlayOpacity(QStringLiteral("AsterismMgr.linesColor")));
 	}
 	else
 	{
 		if (rayHelperFader.getInterstate()<=0.0001f)
 			return;
 
-		sPainter.setColor(rayHelperColor, rayHelperFader.getInterstate());
+		sPainter.setColor(rayHelperColor, rayHelperFader.getInterstate() * StelApp::getInstance().getOverlayOpacity(QStringLiteral("AsterismMgr.rayHelpersColor")));
 	}
 
 	const bool aberration = core->getUseAberration();
@@ -435,7 +435,7 @@ void Asterism::drawName(const Vec3d &xyName, StelPainter& sPainter) const
 		return;
 
 	QString name = getScreenLabel();
-	sPainter.setColor(labelColor, nameFader.getInterstate());
+	sPainter.setColor(labelColor, nameFader.getInterstate() * StelApp::getInstance().getOverlayOpacity(QStringLiteral("AsterismMgr.namesColor")));
 	sPainter.drawText(static_cast<float>(xyName[0]), static_cast<float>(xyName[1]), name, 0., -sPainter.getFontMetrics().boundingRect(name).width()/2, 0, false);
 }
 

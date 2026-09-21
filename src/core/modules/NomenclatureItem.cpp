@@ -518,7 +518,7 @@ void NomenclatureItem::draw(StelCore* core, StelPainter *painter, const float fo
 		if ( (nType<NomenclatureItem::niSpecialPointPole) && showTerminatorZoneOnly && (solarAltitude > terminatorMaxAltitude || solarAltitude < terminatorMinAltitude) )
 			return;
 		const float brightness=(nType>=NomenclatureItem::niSpecialPointPole ? 0.5f : (solarAltitude<0. ? 0.25f : 1.0f));
-		painter->setColor(color*brightness, labelsFader.getInterstate());
+		painter->setColor(color*brightness, labelsFader.getInterstate() * StelApp::getInstance().getOverlayOpacity(QStringLiteral("NomenclatureMgr.nomenclatureColor")));
 		painter->drawCircle(static_cast<float>(srcPos[0]), static_cast<float>(srcPos[1]), 2.f);
 		// Highlight a few mostly circular classes with ellipses:
 		// - Craters

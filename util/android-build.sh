@@ -189,6 +189,8 @@ else
     UNSIGNED="$OUTPUTS/apk/release/android-build-release-unsigned.apk"
 fi
 [[ -f "$UNSIGNED" ]] || { echo "no package produced under $OUTPUTS" >&2; exit 1; }
+MAPPING="$OUTPUTS/mapping/release/mapping.txt"
+[[ -s "$MAPPING" ]] || { echo "no R8 mapping produced at $MAPPING" >&2; exit 1; }
 
 echo "==> verify native libraries (16KB ELF alignment)"
 python3 "$ROOT/util/check-android-page-size.py" --readelf "$READELF" "$UNSIGNED"
@@ -235,5 +237,9 @@ else
     LABEL="APK"
 fi
 
+MAPPING_OUT="$OUT_DIR/asterium-$ABI-v$VERSION_CODE-$LABEL-mapping.txt"
+cp "$MAPPING" "$MAPPING_OUT"
+
 echo
 echo "$LABEL: $SIGNED ($(du -h "$SIGNED" | cut -f1), versionCode $VERSION_CODE)"
+echo "R8 mapping: $MAPPING_OUT"

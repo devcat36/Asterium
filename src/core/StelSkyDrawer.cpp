@@ -107,7 +107,7 @@ StelSkyDrawer::StelSkyDrawer(StelCore* acore) :
 	setFlagNebulaMagnitudeLimit(conf->value("astro/flag_nebula_magnitude_limit", false).toBool());
 	setCustomNebulaMagnitudeLimit(conf->value("astro/nebula_magnitude_limit", 8.5).toDouble());
 
-	setLightPollutionLuminance(conf->value("stars/init_light_pollution_luminance", StelCore::bortleScaleIndexToLuminance(3)).toFloat());
+	setLightPollutionLuminance(conf->value("stars/init_light_pollution_luminance", StelCore::bortleScaleIndexToLuminance(2)).toFloat());
 	setRelativeStarScale(conf->value("stars/relative_scale", 1.0).toDouble());
 	setAbsoluteStarScale(conf->value("stars/absolute_scale", 1.0).toDouble());
 	setExtinctionCoefficient(conf->value("landscape/atmospheric_extinction_coefficient", 0.13).toDouble());

@@ -79,7 +79,8 @@ final class DsoColorsSheet extends Sheet
 		group.addView(row);
 		group.addView(Widgets.hairline(context));
 
-		row.setOnClickListener(v -> ColorPicker.show(context, label, currentColor(swatch), chosen ->
+		row.setOnClickListener(v -> ColorPicker.show(context, label, currentColor(swatch),
+				SettingDefaults.color(context, propertyId), chosen ->
 		{
 			swatch.setColor(chosen);
 			NativeBridge.send("prop.set", propertyId + "=" + ColorPicker.hex(chosen));

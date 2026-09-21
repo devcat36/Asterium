@@ -387,7 +387,7 @@ void Constellation::drawOptim(StelPainter& sPainter, const StelCore* core, const
 
 	const bool isDarkConstellation = !(dark_constellation.empty());
 	const float darkFactor = (isDarkConstellation? 0.6667f : 1.0f);
-	sPainter.setColor(lineColor*darkFactor, lineFader.getInterstate());
+	sPainter.setColor(lineColor*darkFactor, lineFader.getInterstate() * StelApp::getInstance().getOverlayOpacity(QStringLiteral("ConstellationMgr.linesColor")));
 
 	if (isDarkConstellation)
 		for (unsigned int i=0;i<numberOfSegments;++i)
@@ -476,7 +476,7 @@ void Constellation::drawName(const Vec3d &xyName, StelPainter& sPainter) const
 			labelCachePixelSize = pixelSize;
 			labelCacheHalfWidth = sPainter.getFontMetrics().boundingRect(labelCache).width()/2.f;
 		}
-		sPainter.setColor(labelColor, nameFader.getInterstate());
+		sPainter.setColor(labelColor, nameFader.getInterstate() * StelApp::getInstance().getOverlayOpacity(QStringLiteral("ConstellationMgr.namesColor")));
 		sPainter.drawText(static_cast<float>(xyName[0]), static_cast<float>(xyName[1]), labelCache, 0., -labelCacheHalfWidth, 0, false);
 	}
 }
@@ -544,7 +544,7 @@ void Constellation::drawBoundaryOptim(StelPainter& sPainter, const Vec3d& obsVel
 		return;
 
 	sPainter.setBlending(true);
-	sPainter.setColor(boundaryColor, boundaryFader.getInterstate());
+	sPainter.setColor(boundaryColor, boundaryFader.getInterstate() * StelApp::getInstance().getOverlayOpacity(QStringLiteral("ConstellationMgr.boundariesColor")));
 
 	unsigned int i, j;
 	size_t size;
@@ -578,7 +578,7 @@ void Constellation::drawHullOptim(StelPainter& sPainter, const Vec3d& obsVelocit
 		return;
 
 	sPainter.setBlending(true);
-	sPainter.setColor(hullColor, hullFader.getInterstate());
+	sPainter.setColor(hullColor, hullFader.getInterstate() * StelApp::getInstance().getOverlayOpacity(QStringLiteral("ConstellationMgr.hullsColor")));
 
 	sPainter.drawSphericalRegion(convexHull.data(), StelPainter::SphericalPolygonDrawModeBoundary, nullptr, true, 5, obsVelocity); // draw nice with aberration
 }

@@ -245,37 +245,12 @@ abstract class AstroCalcPage
 	}
 
 	protected View sliderRow(String label, final double min, final double max, double value,
-	                         final TextAction commit)
+	                         String defaultKey, final TextAction commit)
 	{
-		final LinearLayout group = new LinearLayout(context());
-		group.setOrientation(LinearLayout.VERTICAL);
-		Theme.padding(group, 16, 10, 16, 6);
-
-		final LinearLayout head = new LinearLayout(context());
-		head.setOrientation(LinearLayout.HORIZONTAL);
-		head.addView(Theme.text(context(), label, 14, Theme.TEXT_CHIP, false),
-				new LinearLayout.LayoutParams(0, LinearLayout.LayoutParams.WRAP_CONTENT, 1f));
-		final TextView shown = Theme.text(context(), "", 14, Theme.ACCENT, true);
-		head.addView(shown);
-		group.addView(head);
-
-		final android.widget.SeekBar bar = Widgets.slider(context(),
-				(int) Math.round((max - min) * 10.), (int) Math.round((value - min) * 10.));
-		shown.setText(T.t(String.format(Locale.getDefault(), "%.1f", value)));
-		bar.setOnSeekBarChangeListener(new android.widget.SeekBar.OnSeekBarChangeListener()
-		{
-			public void onProgressChanged(android.widget.SeekBar seek, int progress, boolean fromUser)
-			{
-				shown.setText(T.t(String.format(Locale.getDefault(), "%.1f", min + progress / 10.)));
-			}
-			public void onStartTrackingTouch(android.widget.SeekBar seek) {}
-			public void onStopTrackingTouch(android.widget.SeekBar seek)
-			{
-				commit.with(String.format(Locale.US, "%.2f", min + seek.getProgress() / 10.));
-			}
-		});
-		group.addView(bar);
-		return group;
+		final PropertySheet.Scale scale = PropertySheet.linear(min, max, 1);
+		return new NumericSetting(context(), label, scale, value,
+				SettingDefaults.number(context(), defaultKey),
+				next -> commit.with(scale.wire(next)));
 	}
 
 	protected View switchRow(String label, String sub, boolean checked,

@@ -98,7 +98,7 @@ final class OcularBar extends FrameLayout
 		bar.addView(crosshairs);
 
 		settings = new ImageView(context);
-		settings.setImageDrawable(Theme.layers(Theme.TEXT));
+		settings.setImageDrawable(Theme.gear(Theme.TEXT));
 		settings.setScaleType(ImageView.ScaleType.FIT_CENTER);
 		settings.setContentDescription(T.t("Oculars"));
 		Theme.padding(settings, 11, 11, 11, 11);

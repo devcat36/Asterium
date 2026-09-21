@@ -36,6 +36,7 @@ import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.LinearLayout;
+import android.widget.ScrollView;
 
 final class ColorPicker
 {
@@ -46,7 +47,7 @@ final class ColorPicker
 		void set(int color);
 	}
 
-	static void show(Context context, String title, int initial, Picked picked)
+	static void show(Context context, String title, int initial, Integer defaultColor, Picked picked)
 	{
 		final float[] hsv = new float[3];
 		Color.colorToHSV(initial, hsv);
@@ -82,11 +83,6 @@ final class ColorPicker
 		barParams.topMargin = Theme.dp(16);
 		column.addView(bar, barParams);
 
-		final LinearLayout.LayoutParams doneParams = new LinearLayout.LayoutParams(
-				LinearLayout.LayoutParams.MATCH_PARENT, Theme.dp(46));
-		doneParams.topMargin = Theme.dp(16);
-		column.addView(Widgets.primaryButton(context, "Done", v -> dialog.dismiss()), doneParams);
-
 		final Runnable changed = () ->
 		{
 			final int color = Color.HSVToColor(hsv);
@@ -98,16 +94,38 @@ final class ColorPicker
 		field.onChange = changed;
 		bar.onChange = changed;
 
-		dialog.setContentView(column);
+		if (defaultColor != null)
+		{
+			final LinearLayout.LayoutParams restoreParams = new LinearLayout.LayoutParams(
+					LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT);
+			restoreParams.topMargin = Theme.dp(16);
+			column.addView(Widgets.secondaryButton(context, "Restore default", v ->
+			{
+				Color.colorToHSV(defaultColor, hsv);
+				preview.setColor(defaultColor);
+				field.invalidate();
+				bar.invalidate();
+				picked.set(defaultColor);
+			}), restoreParams);
+		}
+		final LinearLayout.LayoutParams doneParams = new LinearLayout.LayoutParams(
+				LinearLayout.LayoutParams.MATCH_PARENT, Theme.dp(48));
+		doneParams.topMargin = Theme.dp(10);
+		column.addView(Widgets.primaryButton(context, "Done", v -> dialog.dismiss()), doneParams);
+
+		final ScrollView scroll = new ScrollView(context);
+		scroll.addView(column);
+		dialog.setContentView(scroll);
 		final Window window = dialog.getWindow();
 		if (window != null)
-		{
 			window.setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+		dialog.show();
+		if (window != null)
+		{
 			final int screen = context.getResources().getDisplayMetrics().widthPixels;
 			window.setLayout(Math.min(Theme.dp(330), screen - Theme.dp(40)),
 			                 WindowManager.LayoutParams.WRAP_CONTENT);
 		}
-		dialog.show();
 	}
 
 	private static final class Field extends View

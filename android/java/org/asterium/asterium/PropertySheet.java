@@ -23,7 +23,6 @@ import android.content.Context;
 import android.view.Gravity;
 import android.view.View;
 import android.widget.LinearLayout;
-import android.widget.SeekBar;
 import android.widget.TextView;
 
 import org.json.JSONArray;
@@ -40,6 +39,7 @@ abstract class PropertySheet extends Sheet
 	private int page = 0;
 
 	private final Map<String, JSONObject> values = new HashMap<>();
+	private JSONObject opacities = new JSONObject();
 
 	PropertySheet(Context context, Overlay overlay, String id, String title, String[][] pages)
 	{
@@ -79,6 +79,7 @@ abstract class PropertySheet extends Sheet
 		{
 			NativeBridge.request("props", "", payload ->
 			{
+				opacities = payload.optJSONObject("opacities");
 				final JSONArray list = payload.optJSONArray("props");
 				for (int i = 0; list != null && i < list.length(); ++i)
 				{
@@ -93,6 +94,7 @@ abstract class PropertySheet extends Sheet
 		pageBody.addView(Widgets.section(getContext(), pages[index][0] + " settings"));
 		NativeBridge.request("props", module, payload ->
 		{
+			opacities = payload.optJSONObject("opacities");
 			final JSONArray list = payload.optJSONArray("props");
 			if (list == null || list.length() == 0)
 			{
@@ -140,6 +142,7 @@ abstract class PropertySheet extends Sheet
 			final boolean whole = "int".equals(type);
 			final Scale scale = linear(whole ? 0. : -span, span, whole ? 0 : 2);
 			return sliderRow(context, label, scale, current,
+					SettingDefaults.number(context, id),
 					value -> NativeBridge.send("prop.set", id + "=" + scale.wire(value)));
 		}
 		return Widgets.valueRow(context, label, property.optString("value"));
@@ -275,6 +278,14 @@ abstract class PropertySheet extends Sheet
 		});
 	}
 
+	protected void addOpacity(LinearLayout into, String label, final String key)
+	{
+		final double opacity = opacities == null ? 1. : opacities.optDouble(key, 1.);
+		into.addView(sliderRow(getContext(), label, OPACITY, opacity,
+				SettingDefaults.opacity(getContext(), key),
+				value -> NativeBridge.send("opacity.set", key + "=" + format(value, 2))));
+	}
+
 	protected void addColor(LinearLayout into, String label, String propertyId)
 	{
 		final JSONObject property = value(propertyId);
@@ -305,7 +316,8 @@ abstract class PropertySheet extends Sheet
 
 		final int[] held = { color };
 		swatch.setBackground(Theme.box(color, 6, Theme.PANEL_EDGE));
-		row.setOnClickListener(v -> ColorPicker.show(context, label, held[0], chosen ->
+		row.setOnClickListener(v -> ColorPicker.show(context, label, held[0],
+				SettingDefaults.color(context, propertyId), chosen ->
 		{
 			held[0] = chosen;
 			swatch.setBackground(Theme.box(chosen, 6, Theme.PANEL_EDGE));
@@ -338,7 +350,26 @@ abstract class PropertySheet extends Sheet
 		String wire(double value) { return format(value, decimals); }
 
 		String readout(double value) { return format(value, decimals); }
+
+		double inputValue(double value) { return value; }
+		double fromInput(double value) { return value; }
+		double inputMin() { return min; }
+		double inputMax() { return max; }
+		int inputDecimals() { return decimals; }
+		String inputUnit() { return ""; }
+		String input(double value) { return format(inputValue(value), inputDecimals()); }
 	}
+
+	protected static final Scale OPACITY = new Scale(0., 1., 2)
+	{
+		@Override
+		String readout(double value) { return format(value * 100., 0) + "%"; }
+		@Override double inputValue(double value) { return value * 100.; }
+		@Override double fromInput(double value) { return value / 100.; }
+		@Override double inputMax() { return 100.; }
+		@Override int inputDecimals() { return 0; }
+		@Override String inputUnit() { return "%"; }
+	};
 
 	protected static Scale linear(double min, double max, int decimals)
 	{
@@ -362,46 +393,14 @@ abstract class PropertySheet extends Sheet
 		final JSONObject property = values.get(propertyId);
 		into.addView(sliderRow(getContext(), label, scale,
 				property == null ? scale.min : property.optDouble("value", scale.min),
+				SettingDefaults.number(getContext(), propertyId),
 				value -> NativeBridge.send("prop.set", propertyId + "=" + scale.wire(value))));
 	}
 
 	static View sliderRow(Context context, String label, final Scale scale, double value,
-	                      final OnSlide listener)
+	                      Double defaultValue, final OnSlide listener)
 	{
-		final LinearLayout row = new LinearLayout(context);
-		row.setOrientation(LinearLayout.VERTICAL);
-		Theme.padding(row, 16, 8, 16, 10);
-
-		final LinearLayout heading = new LinearLayout(context);
-		heading.setOrientation(LinearLayout.HORIZONTAL);
-		heading.setGravity(Gravity.CENTER_VERTICAL);
-		heading.addView(Theme.text(context, label, 14, Theme.TEXT_CHIP, false),
-				new LinearLayout.LayoutParams(0, LinearLayout.LayoutParams.WRAP_CONTENT, 1f));
-		final TextView readout = Theme.text(context, scale.readout(value), 12, Theme.ACCENT, true);
-		readout.setGravity(Gravity.END);
-		heading.addView(readout);
-		row.addView(heading);
-
-		final int steps = scale.decimals == 0
-				? Math.max(1, Math.min(1000, (int) Math.round(scale.max - scale.min)))
-				: 1000;
-		final SeekBar bar = Widgets.slider(context, steps,
-				(int) Math.round(scale.position(value) * steps));
-		bar.setContentDescription(T.t(label));
-		bar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener()
-		{
-			public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser)
-			{
-				final double now = scale.value(progress / (double) steps);
-				readout.setText(T.t(scale.readout(now)));
-				if (fromUser)
-					listener.slid(now);
-			}
-			public void onStartTrackingTouch(SeekBar seekBar) {}
-			public void onStopTrackingTouch(SeekBar seekBar) {}
-		});
-		row.addView(bar);
-		return row;
+		return new NumericSetting(context, label, scale, value, defaultValue, listener);
 	}
 
 	static String format(double value, int decimals)

@@ -7494,7 +7494,7 @@ msgstr ""
 msgid ""
 "The following links are external web links, and will launch your web "
 "browser:\n"
-msgstr "కింద ఇచ్చినవి అంతర్జాల లింకులు. ఇవి మీ బ్రౌజరులో ఓపెనౌతాయి:\\n"
+msgstr "కింద ఇచ్చినవి అంతర్జాల లింకులు. ఇవి మీ బ్రౌజరులో ఓపెనౌతాయి:\n"
 
 #. TRANSLATORS: The text between braces is the text of an HTML link.
 #: src/gui/HelpDialog.cpp:459
@@ -9913,6 +9913,10 @@ msgstr "సుమారుగా అర్థరాత్రి"
 msgctxt "Celestial object is observed..."
 msgid "In Any Time of the Night"
 msgstr "రాత్రి ఏ సమయంలోనైనా"
+
+msgctxt "Celestial object is observed..."
+msgid "At the Selected Time"
+msgstr "ఎంచుకున్న సమయంలో"
 
 #: src/gui/AstroCalcDialog.cpp:7755
 msgid "Bright stars"

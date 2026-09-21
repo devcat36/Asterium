@@ -1997,7 +1997,7 @@ void SolarSystem::draw(StelCore* core)
 	{
 		StelPainter sPainter(core->getProjection2d());
 		const float ppx = static_cast<float>(sPainter.getProjector()->getDevicePixelsPerPixel());
-		allTrails->setOpacity(trailFader.getInterstate());
+		allTrails->setOpacity(trailFader.getInterstate() * StelApp::getInstance().getOverlayOpacity(QStringLiteral("SolarSystem.trailsColor")));
 		if (trailsThickness>1 || ppx>1.f)
 			sPainter.setLineWidth(trailsThickness*ppx);
 		allTrails->draw(core, &sPainter);

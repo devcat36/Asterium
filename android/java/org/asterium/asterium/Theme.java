@@ -185,6 +185,37 @@ final class Theme
 		}
 	}
 
+	static Drawable gear(int color)
+	{
+		final Path path = new Path();
+		final float[] radii = {34f, 44f, 44f, 34f};
+		final float[] offsets = {-17f, -12f, 12f, 17f};
+		for (int tooth = 0; tooth < 8; ++tooth)
+		{
+			for (int point = 0; point < radii.length; ++point)
+			{
+				final double angle = Math.toRadians(tooth * 45f + offsets[point]);
+				final float x = 50f + radii[point] * (float) Math.cos(angle);
+				final float y = 50f + radii[point] * (float) Math.sin(angle);
+				if (tooth == 0 && point == 0)
+					path.moveTo(x, y);
+				else
+					path.lineTo(x, y);
+			}
+		}
+		path.close();
+		path.addCircle(50f, 50f, 14f, Path.Direction.CW);
+
+		final ShapeDrawable drawable = new ShapeDrawable(new PathShape(path, 100f, 100f));
+		drawable.getPaint().setColor(color);
+		drawable.getPaint().setStyle(Paint.Style.STROKE);
+		drawable.getPaint().setStrokeWidth(6f);
+		drawable.getPaint().setStrokeJoin(Paint.Join.ROUND);
+		drawable.setIntrinsicWidth(dp(24));
+		drawable.setIntrinsicHeight(dp(24));
+		return drawable;
+	}
+
 	static Drawable layers(int color)
 	{
 		final Path path = new Path();

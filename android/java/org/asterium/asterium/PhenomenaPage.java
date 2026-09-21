@@ -26,7 +26,6 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.LinearLayout;
 import android.widget.ListView;
-import android.widget.SeekBar;
 import android.widget.TextView;
 
 import org.json.JSONObject;
@@ -46,8 +45,8 @@ final class PhenomenaPage extends AstroCalcPage
 
 	private String from = "";
 
-	private TextView bodyValue, groupValue, fromValue, selectedNote, separationValue;
-	private SeekBar separationBar;
+	private TextView bodyValue, groupValue, fromValue, selectedNote;
+	private NumericSetting separationSetting;
 	private View durationRow, oppositionRow, perihelionRow, quadratureRow;
 	private TextView durationField;
 
@@ -161,36 +160,16 @@ final class PhenomenaPage extends AstroCalcPage
 
 	private View separationRow()
 	{
-		final Context context = context();
-		final LinearLayout box = new LinearLayout(context);
-		box.setOrientation(LinearLayout.VERTICAL);
-		Theme.padding(box, 16, 10, 16, 6);
-
-		final LinearLayout head = new LinearLayout(context);
-		head.setOrientation(LinearLayout.HORIZONTAL);
-
-		head.addView(Theme.text(context, "Maximum allowed separation", 14, Theme.TEXT_CHIP, false),
-				new LinearLayout.LayoutParams(0, LinearLayout.LayoutParams.WRAP_CONTENT, 1f));
-		separationValue = Theme.text(context, "", 14, Theme.ACCENT, true);
-		head.addView(separationValue);
-		box.addView(head);
-
-		separationBar = Widgets.slider(context, 200, 10);
-		separationBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener()
+		final PropertySheet.Scale scale = new PropertySheet.Scale(0., 20., 5)
 		{
-			public void onProgressChanged(SeekBar seek, int progress, boolean fromUser)
-			{
-				separationValue.setText(T.t(degreesMinutesSeconds(progress / 10.)));
-			}
-			public void onStartTrackingTouch(SeekBar seek) {}
-			public void onStopTrackingTouch(SeekBar seek)
-			{
-				set("phenomena_angular_separation",
-						String.format(Locale.US, "%.5f", seek.getProgress() / 10.));
-			}
-		});
-		box.addView(separationBar);
-		return box;
+			@Override String readout(double value) { return degreesMinutesSeconds(value); }
+			@Override String inputUnit() { return "°"; }
+		};
+		separationSetting = new NumericSetting(context(), "Maximum allowed separation", scale,
+				state.optDouble("separation", 1.0),
+				SettingDefaults.number(context(), "astrocalc/phenomena_angular_separation"),
+				next -> set("phenomena_angular_separation", scale.wire(next)));
+		return separationSetting;
 	}
 
 	private static String degreesMinutesSeconds(double degrees)
@@ -248,12 +227,9 @@ final class PhenomenaPage extends AstroCalcPage
 					: "Currently selected: " + selected));
 		}
 
-		if (separationBar != null)
-		{
-			final double degrees = state.optDouble("separation", 1.0);
-			separationBar.setProgress((int) Math.round(degrees * 10.));
-			separationValue.setText(T.t(degreesMinutesSeconds(degrees)));
-		}
+		if (separationSetting != null)
+			separationSetting.setValue(state.optDouble("separation", 1.0));
+
 		if (durationField != null && !durationField.hasFocus())
 			durationField.setText(T.t(String.valueOf(state.optInt("months", 1))));
 

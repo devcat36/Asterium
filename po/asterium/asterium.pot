@@ -9,7 +9,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: android/java/org/asterium/asterium/AstroCalcSheet.java:623
+#: android/java/org/asterium/asterium/AstroCalcSheet.java:592
 msgid "%d bodies"
 msgstr ""
 
@@ -21,12 +21,16 @@ msgstr ""
 msgid "%d objects"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:873
+#: android/java/org/asterium/asterium/ViewSheet.java:886
 msgid "%s colour"
 msgstr ""
 
 #: android/java/org/asterium/asterium/LocationSheet.java:376
 msgid "%s from %s, ±%.0f m"
+msgstr ""
+
+#: android/java/org/asterium/asterium/ViewSheet.java:824
+msgid ".labels"
 msgstr ""
 
 #: android/java/org/asterium/asterium/ConfigSheet.java:55
@@ -37,7 +41,7 @@ msgstr ""
 msgid "12h"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:231
+#: android/java/org/asterium/asterium/ViewSheet.java:235
 msgid "1× below"
 msgstr ""
 
@@ -65,11 +69,11 @@ msgstr ""
 msgid "A button to toggle galactic grid"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:268
+#: android/java/org/asterium/asterium/ViewSheet.java:272
 msgid "A polygonal model for some small moons, asteroids and comets instead of a sphere"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:1044
+#: android/java/org/asterium/asterium/ViewSheet.java:1070
 msgid "Abbreviated names"
 msgstr ""
 
@@ -77,15 +81,15 @@ msgstr ""
 msgid "About"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:1195
+#: android/java/org/asterium/asterium/ViewSheet.java:1231
 msgid "About this sky culture"
 msgstr ""
 
-#: android/java/org/asterium/asterium/WutPage.java:150
+#: android/java/org/asterium/asterium/WutPage.java:151
 msgid "Above altitude, °"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:462
+#: android/java/org/asterium/asterium/ViewSheet.java:466
 msgid "Absolute scale"
 msgstr ""
 
@@ -133,7 +137,7 @@ msgstr ""
 msgid "All IDs"
 msgstr ""
 
-#: android/java/org/asterium/asterium/AstroCalcSheet.java:733
+#: android/java/org/asterium/asterium/AstroCalcSheet.java:702
 msgid "All naked-eye planets"
 msgstr ""
 
@@ -145,11 +149,11 @@ msgstr ""
 msgid "Allow negative hour angles"
 msgstr ""
 
-#: android/java/org/asterium/asterium/AstroCalcSheet.java:789
+#: android/java/org/asterium/asterium/AstroCalcSheet.java:759
 msgid "Allow results outside the recommended time range of the orbital elements"
 msgstr ""
 
-#: android/java/org/asterium/asterium/AstroCalcSheet.java:47
+#: android/java/org/asterium/asterium/AstroCalcSheet.java:46
 msgid "Almanac"
 msgstr ""
 
@@ -157,7 +161,7 @@ msgstr ""
 msgid "Almanac: Sun, Moon and naked-eye planets"
 msgstr ""
 
-#: android/java/org/asterium/asterium/PhenomenaPage.java:149
+#: android/java/org/asterium/asterium/PhenomenaPage.java:148
 msgid "Also find"
 msgstr ""
 
@@ -165,15 +169,15 @@ msgstr ""
 msgid "Also plot"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:186
+#: android/java/org/asterium/asterium/ViewSheet.java:187
 msgid "Also show moons of selected object or planets"
 msgstr ""
 
-#: android/java/org/asterium/asterium/EclipsesPage.java:411 android/java/org/asterium/asterium/RtsPage.java:292 android/java/org/asterium/asterium/SearchSheet.java:468 android/java/org/asterium/asterium/ViewSheet.java:721 src/gui/mobile/AndroidUi.cpp:752 src/gui/mobile/AndroidUi.cpp:3690 src/gui/mobile/AstroCalcGraphs.cpp:273 src/gui/mobile/AstroCalcGraphs.cpp:350 src/gui/mobile/AstroCalcGraphs.cpp:449
+#: android/java/org/asterium/asterium/EclipsesPage.java:411 android/java/org/asterium/asterium/RtsPage.java:292 android/java/org/asterium/asterium/SearchSheet.java:468 android/java/org/asterium/asterium/ViewSheet.java:728 src/gui/mobile/AndroidUi.cpp:752 src/gui/mobile/AndroidUi.cpp:3702 src/gui/mobile/AstroCalcGraphs.cpp:273 src/gui/mobile/AstroCalcGraphs.cpp:350 src/gui/mobile/AstroCalcGraphs.cpp:449
 msgid "Altitude"
 msgstr ""
 
-#: android/java/org/asterium/asterium/GraphsPage.java:201 android/java/org/asterium/asterium/GraphsPage.java:214
+#: android/java/org/asterium/asterium/GraphsPage.java:201 android/java/org/asterium/asterium/GraphsPage.java:216
 msgid "Altitude limit, °"
 msgstr ""
 
@@ -181,7 +185,7 @@ msgstr ""
 msgid "Altitude vs. Time"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:597
+#: android/java/org/asterium/asterium/ViewSheet.java:602
 msgid "Amount"
 msgstr ""
 
@@ -189,11 +193,11 @@ msgstr ""
 msgid "An observer floats above its planet, so there is nowhere on it to stand. Choose another planet to come back down."
 msgstr ""
 
-#: android/java/org/asterium/asterium/PhenomenaPage.java:129
+#: android/java/org/asterium/asterium/PhenomenaPage.java:128
 msgid "And"
 msgstr ""
 
-#: android/java/org/asterium/asterium/AstroCalcSheet.java:730
+#: android/java/org/asterium/asterium/AstroCalcSheet.java:699
 msgid "And also"
 msgstr ""
 
@@ -201,7 +205,7 @@ msgstr ""
 msgid "And the next (years)"
 msgstr ""
 
-#: android/java/org/asterium/asterium/WutPage.java:266 src/gui/mobile/AstroCalcWut.cpp:788
+#: android/java/org/asterium/asterium/WutPage.java:270 src/gui/mobile/AstroCalcWut.cpp:799
 msgid "Ang. Size"
 msgstr ""
 
@@ -237,7 +241,7 @@ msgstr ""
 msgid "Annual drift"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:749
+#: android/java/org/asterium/asterium/ViewSheet.java:756
 msgid "Antisolar point"
 msgstr ""
 
@@ -245,7 +249,7 @@ msgstr ""
 msgid "Apache-2.0"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:748
+#: android/java/org/asterium/asterium/ViewSheet.java:755
 msgid "Apex points"
 msgstr ""
 
@@ -253,11 +257,11 @@ msgstr ""
 msgid "Aphelion"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:778
+#: android/java/org/asterium/asterium/ViewSheet.java:785
 msgid "Appearance"
 msgstr ""
 
-#: android/java/org/asterium/asterium/GrsSheet.java:83
+#: android/java/org/asterium/asterium/GrsSheet.java:83 android/java/org/asterium/asterium/NumericSetting.java:201
 msgid "Apply"
 msgstr ""
 
@@ -269,7 +273,7 @@ msgstr ""
 msgid "Apply time interval limits to list"
 msgstr ""
 
-#: src/gui/mobile/AndroidUi.cpp:216
+#: src/gui/mobile/AndroidUi.cpp:219
 msgid "Art"
 msgstr ""
 
@@ -281,27 +285,27 @@ msgstr ""
 msgid "Asks SIMBAD what it holds around the object that is selected now, and prints the answer as it comes back."
 msgstr ""
 
-#: src/gui/mobile/AndroidUi.cpp:218
+#: src/gui/mobile/AndroidUi.cpp:228
 msgid "Ast. lines"
 msgstr ""
 
-#: src/gui/mobile/AndroidUi.cpp:219
+#: src/gui/mobile/AndroidUi.cpp:229
 msgid "Ast. names"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ConfigSheet.java:214 android/java/org/asterium/asterium/ViewSheet.java:1084
+#: android/java/org/asterium/asterium/ConfigSheet.java:214 android/java/org/asterium/asterium/ViewSheet.java:1114
 msgid "Asterism labels"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ConfigSheet.java:213 android/java/org/asterium/asterium/ViewSheet.java:1079
+#: android/java/org/asterium/asterium/ConfigSheet.java:213 android/java/org/asterium/asterium/ViewSheet.java:1108
 msgid "Asterism lines"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:1077
+#: android/java/org/asterium/asterium/ViewSheet.java:1106
 msgid "Asterisms"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:1085
+#: android/java/org/asterium/asterium/ViewSheet.java:1115
 msgid "Asterisms font size"
 msgstr ""
 
@@ -313,15 +317,15 @@ msgstr ""
 msgid "Asteroids"
 msgstr ""
 
-#: android/java/org/asterium/asterium/SkyChrome.java:121
+#: android/java/org/asterium/asterium/SkyChrome.java:123
 msgid "AstroCalc"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:288
+#: android/java/org/asterium/asterium/ViewSheet.java:292
 msgid "Astronomical Almanac (1984)"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:274
+#: android/java/org/asterium/asterium/ViewSheet.java:278
 msgid "Astronomical Almanac (default) enlarges by 2%; Danjon (1951) differs slightly"
 msgstr ""
 
@@ -329,7 +333,7 @@ msgstr ""
 msgid "Astronomical Twilight"
 msgstr ""
 
-#: android/java/org/asterium/asterium/AstroCalcSheet.java:114
+#: android/java/org/asterium/asterium/AstroCalcSheet.java:113
 msgid "Astronomical calculations"
 msgstr ""
 
@@ -337,11 +341,11 @@ msgstr ""
 msgid "Astronomical night"
 msgstr ""
 
-#: android/java/org/asterium/asterium/AstroCalcSheet.java:741
+#: android/java/org/asterium/asterium/AstroCalcSheet.java:710
 msgid "At"
 msgstr ""
 
-#: src/gui/mobile/AndroidUi.cpp:226
+#: src/gui/mobile/AndroidUi.cpp:215
 msgid "Atmosph."
 msgstr ""
 
@@ -361,7 +365,7 @@ msgstr ""
 msgid "Automatic closing dialog"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:599
+#: android/java/org/asterium/asterium/ViewSheet.java:604
 msgid "Automatic transparency"
 msgstr ""
 
@@ -369,15 +373,15 @@ msgstr ""
 msgid "Axis distance"
 msgstr ""
 
-#: src/gui/mobile/AndroidUi.cpp:221
+#: src/gui/mobile/AndroidUi.cpp:224
 msgid "Azi. grid"
 msgstr ""
 
-#: android/java/org/asterium/asterium/EclipsesPage.java:412 android/java/org/asterium/asterium/SearchSheet.java:465 src/gui/mobile/AndroidUi.cpp:750 src/gui/mobile/AndroidUi.cpp:3688 src/gui/mobile/AstroCalcGraphs.cpp:386 src/gui/mobile/AstroCalcGraphs.cpp:440
+#: android/java/org/asterium/asterium/EclipsesPage.java:412 android/java/org/asterium/asterium/SearchSheet.java:465 src/gui/mobile/AndroidUi.cpp:750 src/gui/mobile/AndroidUi.cpp:3700 src/gui/mobile/AstroCalcGraphs.cpp:386 src/gui/mobile/AstroCalcGraphs.cpp:440
 msgid "Azimuth"
 msgstr ""
 
-#: android/java/org/asterium/asterium/AstroCalcSheet.java:334 android/java/org/asterium/asterium/AstroCalcSheet.java:785
+#: android/java/org/asterium/asterium/AstroCalcSheet.java:333 android/java/org/asterium/asterium/AstroCalcSheet.java:755
 msgid "Azimuth and altitude rather than right ascension and declination"
 msgstr ""
 
@@ -389,7 +393,7 @@ msgstr ""
 msgid "Azimuth vs. Time"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:707
+#: android/java/org/asterium/asterium/ViewSheet.java:714
 msgid "Azimuthal grid"
 msgstr ""
 
@@ -409,7 +413,7 @@ msgstr ""
 msgid "Below the horizon here."
 msgstr ""
 
-#: android/java/org/asterium/asterium/PhenomenaPage.java:124
+#: android/java/org/asterium/asterium/PhenomenaPage.java:123
 msgid "Between objects"
 msgstr ""
 
@@ -437,11 +441,11 @@ msgstr ""
 msgid "Bogdan Marinov"
 msgstr ""
 
-#: android/java/org/asterium/asterium/AstroCalcSheet.java:788
+#: android/java/org/asterium/asterium/AstroCalcSheet.java:758
 msgid "Boundless"
 msgstr ""
 
-#: src/gui/mobile/AndroidUi.cpp:217
+#: src/gui/mobile/AndroidUi.cpp:227
 msgid "Bounds"
 msgstr ""
 
@@ -509,11 +513,11 @@ msgstr ""
 msgid "Bright variable stars (<%1 mag)"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:165
+#: android/java/org/asterium/asterium/ViewSheet.java:166
 msgid "Brighter than"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:586 android/java/org/asterium/asterium/ViewSheet.java:1061
+#: android/java/org/asterium/asterium/ViewSheet.java:591 android/java/org/asterium/asterium/ViewSheet.java:1089
 msgid "Brightness"
 msgstr ""
 
@@ -525,11 +529,11 @@ msgstr ""
 msgid "By planet"
 msgstr ""
 
-#: android/java/org/asterium/asterium/AstroCalcSheet.java:202 android/java/org/asterium/asterium/EclipsesPage.java:68 android/java/org/asterium/asterium/PhenomenaPage.java:66 android/java/org/asterium/asterium/RtsPage.java:61 android/java/org/asterium/asterium/WutPage.java:55
+#: android/java/org/asterium/asterium/AstroCalcSheet.java:201 android/java/org/asterium/asterium/EclipsesPage.java:68 android/java/org/asterium/asterium/PhenomenaPage.java:65 android/java/org/asterium/asterium/RtsPage.java:61 android/java/org/asterium/asterium/WutPage.java:55
 msgid "Calculate"
 msgstr ""
 
-#: android/java/org/asterium/asterium/AstroCalcSheet.java:235 android/java/org/asterium/asterium/EclipsesPage.java:139 android/java/org/asterium/asterium/PhenomenaPage.java:113 android/java/org/asterium/asterium/RtsPage.java:100 android/java/org/asterium/asterium/WutPage.java:98
+#: android/java/org/asterium/asterium/AstroCalcSheet.java:234 android/java/org/asterium/asterium/EclipsesPage.java:139 android/java/org/asterium/asterium/PhenomenaPage.java:112 android/java/org/asterium/asterium/RtsPage.java:100 android/java/org/asterium/asterium/WutPage.java:98
 msgid "Calculating…"
 msgstr ""
 
@@ -537,43 +541,43 @@ msgstr ""
 msgid "Caldwell objects"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ObsListSheet.java:294 android/java/org/asterium/asterium/ObsListSheet.java:295
+#: android/java/org/asterium/asterium/NumericSetting.java:200 android/java/org/asterium/asterium/ObsListSheet.java:294 android/java/org/asterium/asterium/ObsListSheet.java:295
 msgid "Cancel"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ConfigSheet.java:224 android/java/org/asterium/asterium/ViewSheet.java:751 android/java/org/asterium/asterium/ViewSheet.java:752
+#: android/java/org/asterium/asterium/ConfigSheet.java:224 android/java/org/asterium/asterium/ViewSheet.java:758 android/java/org/asterium/asterium/ViewSheet.java:759
 msgid "Cardinal points"
 msgstr ""
 
-#: src/gui/mobile/AndroidUi.cpp:230
+#: src/gui/mobile/AndroidUi.cpp:225
 msgid "Cardinals"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:335
+#: android/java/org/asterium/asterium/ViewSheet.java:339
 msgid "Catalogue numbers instead of common names"
 msgstr ""
 
-#: android/java/org/asterium/asterium/AstroCalcSheet.java:327 android/java/org/asterium/asterium/AstroCalcSheet.java:461 android/java/org/asterium/asterium/WutPage.java:140 android/java/org/asterium/asterium/WutPage.java:140
+#: android/java/org/asterium/asterium/AstroCalcSheet.java:326 android/java/org/asterium/asterium/AstroCalcSheet.java:430 android/java/org/asterium/asterium/WutPage.java:140 android/java/org/asterium/asterium/WutPage.java:140
 msgid "Category"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:698
+#: android/java/org/asterium/asterium/ViewSheet.java:705
 msgid "Celestial Sphere"
 msgstr ""
 
-#: android/java/org/asterium/asterium/AstroCalcSheet.java:725 android/java/org/asterium/asterium/GraphsPage.java:223
+#: android/java/org/asterium/asterium/AstroCalcSheet.java:694 android/java/org/asterium/asterium/GraphsPage.java:226
 msgid "Celestial body"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:736
+#: android/java/org/asterium/asterium/ViewSheet.java:743
 msgid "Celestial poles (J2000)"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:737
+#: android/java/org/asterium/asterium/ViewSheet.java:744
 msgid "Celestial poles (of date)"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:761
+#: android/java/org/asterium/asterium/ViewSheet.java:768
 msgid "Center of FOV"
 msgstr ""
 
@@ -593,7 +597,7 @@ msgstr ""
 msgid "Centre on object"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:732
+#: android/java/org/asterium/asterium/ViewSheet.java:739
 msgid "Centre point"
 msgstr ""
 
@@ -605,15 +609,23 @@ msgstr ""
 msgid "Chip width:"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:727
+#: android/java/org/asterium/asterium/ViewSheet.java:823
+msgid "CircleColor"
+msgstr ""
+
+#: android/java/org/asterium/asterium/ViewSheet.java:734
 msgid "Circles"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:763
+#: android/java/org/asterium/asterium/ViewSheet.java:822
+msgid "CirclesColor"
+msgstr ""
+
+#: android/java/org/asterium/asterium/ViewSheet.java:770
 msgid "Circular FOV"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:728
+#: android/java/org/asterium/asterium/ViewSheet.java:735
 msgid "Circumpolar circles"
 msgstr ""
 
@@ -625,11 +637,11 @@ msgstr ""
 msgid "Civil Twilight"
 msgstr ""
 
-#: android/java/org/asterium/asterium/EclipsesPage.java:62 android/java/org/asterium/asterium/PhenomenaPage.java:65 android/java/org/asterium/asterium/RtsPage.java:56
+#: android/java/org/asterium/asterium/EclipsesPage.java:62 android/java/org/asterium/asterium/PhenomenaPage.java:64 android/java/org/asterium/asterium/RtsPage.java:56
 msgid "Cleanup"
 msgstr ""
 
-#: android/java/org/asterium/asterium/AstroCalcSheet.java:201 android/java/org/asterium/asterium/WutPage.java:50
+#: android/java/org/asterium/asterium/AstroCalcSheet.java:200 android/java/org/asterium/asterium/WutPage.java:50
 msgid "Clear"
 msgstr ""
 
@@ -641,7 +653,7 @@ msgstr ""
 msgid "Cleared."
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:1070
+#: android/java/org/asterium/asterium/ViewSheet.java:1099
 msgid "Click on star to show its constellation"
 msgstr ""
 
@@ -653,11 +665,11 @@ msgstr ""
 msgid "Clusters of galaxies"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:880
+#: android/java/org/asterium/asterium/ViewSheet.java:893
 msgid "Coarse"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:788 android/java/org/asterium/asterium/ViewSheet.java:823
+#: android/java/org/asterium/asterium/ViewSheet.java:795 android/java/org/asterium/asterium/ViewSheet.java:836
 msgid "Color"
 msgstr ""
 
@@ -665,31 +677,31 @@ msgstr ""
 msgid "Color for focuser overlay line"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:1115
+#: android/java/org/asterium/asterium/ViewSheet.java:1149
 msgid "Color of Lunar station lines"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:1082
+#: android/java/org/asterium/asterium/ViewSheet.java:1111
 msgid "Color of asterism lines"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:1087
+#: android/java/org/asterium/asterium/ViewSheet.java:1117
 msgid "Color of asterism names"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:1068
+#: android/java/org/asterium/asterium/ViewSheet.java:1096
 msgid "Color of constellation boundaries"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:1053
+#: android/java/org/asterium/asterium/ViewSheet.java:1079
 msgid "Color of constellation lines"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:1058
+#: android/java/org/asterium/asterium/ViewSheet.java:1085
 msgid "Color of constellation names"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:220
+#: android/java/org/asterium/asterium/ViewSheet.java:223
 msgid "Color of nomenclature labels"
 msgstr ""
 
@@ -701,15 +713,15 @@ msgstr ""
 msgid "Color of planet labels"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:1092
+#: android/java/org/asterium/asterium/ViewSheet.java:1123
 msgid "Color of ray helpers"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:197
+#: android/java/org/asterium/asterium/ViewSheet.java:199
 msgid "Color of trails"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:1105
+#: android/java/org/asterium/asterium/ViewSheet.java:1137
 msgid "Color of zodiac lines"
 msgstr ""
 
@@ -721,7 +733,7 @@ msgstr ""
 msgid "Colors of orbit lines"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:726
+#: android/java/org/asterium/asterium/ViewSheet.java:733
 msgid "Colures"
 msgstr ""
 
@@ -729,19 +741,19 @@ msgstr ""
 msgid "Comets"
 msgstr ""
 
-#: android/java/org/asterium/asterium/AstroCalcSheet.java:593
+#: android/java/org/asterium/asterium/AstroCalcSheet.java:562
 msgid "Comets up to mag."
 msgstr ""
 
-#: src/gui/mobile/AndroidUi.cpp:231
+#: src/gui/mobile/AndroidUi.cpp:234
 msgid "Compass"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ConfigSheet.java:227 android/java/org/asterium/asterium/ViewSheet.java:757
+#: android/java/org/asterium/asterium/ConfigSheet.java:227 android/java/org/asterium/asterium/ViewSheet.java:764
 msgid "Compass marks"
 msgstr ""
 
-#: android/java/org/asterium/asterium/HelpSheet.java:32 android/java/org/asterium/asterium/SkyChrome.java:120
+#: android/java/org/asterium/asterium/HelpSheet.java:32 android/java/org/asterium/asterium/SkyChrome.java:122
 msgid "Config"
 msgstr ""
 
@@ -753,11 +765,11 @@ msgstr ""
 msgid "Configure &Oculars"
 msgstr ""
 
-#: android/java/org/asterium/asterium/DsoColorsSheet.java:36 android/java/org/asterium/asterium/ViewSheet.java:358
+#: android/java/org/asterium/asterium/DsoColorsSheet.java:36 android/java/org/asterium/asterium/ViewSheet.java:362
 msgid "Configure colors of markers"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:189
+#: android/java/org/asterium/asterium/ViewSheet.java:191
 msgid "Configure colors of orbit lines"
 msgstr ""
 
@@ -765,35 +777,35 @@ msgstr ""
 msgid "Conjunction"
 msgstr ""
 
-#: android/java/org/asterium/asterium/AstroCalcSheet.java:797
+#: android/java/org/asterium/asterium/AstroCalcSheet.java:767
 msgid "Connecting line"
 msgstr ""
 
-#: android/java/org/asterium/asterium/WutPage.java:268
+#: android/java/org/asterium/asterium/WutPage.java:272
 msgid "Const."
 msgstr ""
 
-#: android/java/org/asterium/asterium/ConfigSheet.java:212 android/java/org/asterium/asterium/ViewSheet.java:1060
+#: android/java/org/asterium/asterium/ConfigSheet.java:212 android/java/org/asterium/asterium/ViewSheet.java:1088
 msgid "Constellation art"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ConfigSheet.java:211 android/java/org/asterium/asterium/ViewSheet.java:1064
+#: android/java/org/asterium/asterium/ConfigSheet.java:211 android/java/org/asterium/asterium/ViewSheet.java:1092
 msgid "Constellation boundaries"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:1055
+#: android/java/org/asterium/asterium/ViewSheet.java:1082
 msgid "Constellation labels"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:1049
+#: android/java/org/asterium/asterium/ViewSheet.java:1075
 msgid "Constellation lines"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:1047
+#: android/java/org/asterium/asterium/ViewSheet.java:1073
 msgid "Constellations"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:1056
+#: android/java/org/asterium/asterium/ViewSheet.java:1083
 msgid "Constellations font size"
 msgstr ""
 
@@ -821,7 +833,7 @@ msgstr ""
 msgid "Culmination altitude"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:499
+#: android/java/org/asterium/asterium/ViewSheet.java:504
 msgid "Current FoV"
 msgstr ""
 
@@ -829,11 +841,11 @@ msgstr ""
 msgid "Custom"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:502
+#: android/java/org/asterium/asterium/ViewSheet.java:507
 msgid "Custom FoV limit"
 msgstr ""
 
-#: android/java/org/asterium/asterium/AlmanacPage.java:129
+#: android/java/org/asterium/asterium/AlmanacPage.java:130
 msgid "Custom altitude of the Moon, °"
 msgstr ""
 
@@ -849,7 +861,7 @@ msgstr ""
 msgid "Custom values"
 msgstr ""
 
-#: android/java/org/asterium/asterium/GraphsPage.java:198 android/java/org/asterium/asterium/GraphsPage.java:211
+#: android/java/org/asterium/asterium/GraphsPage.java:198 android/java/org/asterium/asterium/GraphsPage.java:213
 msgid "Cut the scale off below the limit"
 msgstr ""
 
@@ -869,15 +881,15 @@ msgstr ""
 msgid "Date"
 msgstr ""
 
-#: android/java/org/asterium/asterium/AstroCalcSheet.java:1054 android/java/org/asterium/asterium/PhenomenaPage.java:347 android/java/org/asterium/asterium/TimeSheet.java:53
+#: android/java/org/asterium/asterium/AstroCalcSheet.java:1024 android/java/org/asterium/asterium/PhenomenaPage.java:323 android/java/org/asterium/asterium/TimeSheet.java:53
 msgid "Date and time"
 msgstr ""
 
-#: android/java/org/asterium/asterium/SkyChrome.java:116
+#: android/java/org/asterium/asterium/SkyChrome.java:118
 msgid "Date/time"
 msgstr ""
 
-#: android/java/org/asterium/asterium/AstroCalcSheet.java:800
+#: android/java/org/asterium/asterium/AstroCalcSheet.java:770
 msgid "Dates"
 msgstr ""
 
@@ -885,11 +897,11 @@ msgstr ""
 msgid "Dawn"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:481
+#: android/java/org/asterium/asterium/ViewSheet.java:486
 msgid "Dbl. stars"
 msgstr ""
 
-#: src/gui/mobile/AndroidUi.cpp:753 src/gui/mobile/AndroidUi.cpp:3691
+#: src/gui/mobile/AndroidUi.cpp:753 src/gui/mobile/AndroidUi.cpp:3703
 msgid "Dec (J2000)"
 msgstr ""
 
@@ -933,11 +945,11 @@ msgstr ""
 msgid "Designations for celestial coordinate systems"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:481
+#: android/java/org/asterium/asterium/ViewSheet.java:486
 msgid "Designations for double stars"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:483
+#: android/java/org/asterium/asterium/ViewSheet.java:488
 msgid "Designations for variable stars"
 msgstr ""
 
@@ -961,15 +973,15 @@ msgstr ""
 msgid "Display formats of date and time"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:312
+#: android/java/org/asterium/asterium/ViewSheet.java:316
 msgid "Display objects from catalogs"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:787 android/java/org/asterium/asterium/ViewSheet.java:822
+#: android/java/org/asterium/asterium/ViewSheet.java:794 android/java/org/asterium/asterium/ViewSheet.java:835
 msgid "Displayed"
 msgstr ""
 
-#: src/gui/mobile/AndroidUi.cpp:772 src/gui/mobile/AndroidUi.cpp:3692
+#: src/gui/mobile/AndroidUi.cpp:772 src/gui/mobile/AndroidUi.cpp:3704
 msgid "Dist."
 msgstr ""
 
@@ -981,15 +993,15 @@ msgstr ""
 msgid "Distance, AU"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ColorPicker.java:88
+#: android/java/org/asterium/asterium/ColorPicker.java:114
 msgid "Done"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:328
+#: android/java/org/asterium/asterium/ViewSheet.java:332
 msgid "Draw deep-sky objects at all"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:606
+#: android/java/org/asterium/asterium/ViewSheet.java:611
 msgid "Draw only polygon"
 msgstr ""
 
@@ -997,19 +1009,19 @@ msgstr ""
 msgid "Draw the planets, moons and minor bodies"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:224
+#: android/java/org/asterium/asterium/ViewSheet.java:228
 msgid "Drawn larger than life, so a body that is a few arcseconds wide is visible at all. The position stays true."
 msgstr ""
 
-#: android/java/org/asterium/asterium/AlmanacPage.java:214 android/java/org/asterium/asterium/AstroCalcSheet.java:749 android/java/org/asterium/asterium/EclipsesPage.java:334 android/java/org/asterium/asterium/EclipsesPage.java:353 android/java/org/asterium/asterium/EclipsesPage.java:426 src/gui/mobile/AstroCalcAlmanac.cpp:187 src/gui/mobile/AstroCalcAlmanac.cpp:194 src/gui/mobile/AstroCalcAlmanac.cpp:201 src/gui/mobile/AstroCalcAlmanac.cpp:210
+#: android/java/org/asterium/asterium/AlmanacPage.java:216 android/java/org/asterium/asterium/AstroCalcSheet.java:718 android/java/org/asterium/asterium/EclipsesPage.java:334 android/java/org/asterium/asterium/EclipsesPage.java:353 android/java/org/asterium/asterium/EclipsesPage.java:426 src/gui/mobile/AstroCalcAlmanac.cpp:187 src/gui/mobile/AstroCalcAlmanac.cpp:194 src/gui/mobile/AstroCalcAlmanac.cpp:201 src/gui/mobile/AstroCalcAlmanac.cpp:210
 msgid "Duration"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:196
+#: android/java/org/asterium/asterium/ViewSheet.java:198
 msgid "Duration (years)"
 msgstr ""
 
-#: android/java/org/asterium/asterium/GraphsPage.java:236
+#: android/java/org/asterium/asterium/GraphsPage.java:239
 msgid "Duration, months"
 msgstr ""
 
@@ -1021,7 +1033,7 @@ msgstr ""
 msgid "Dwarf planets"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:228
+#: android/java/org/asterium/asterium/ViewSheet.java:232
 msgid "Dynamic (FOV-based) Moon size"
 msgstr ""
 
@@ -1037,15 +1049,15 @@ msgstr ""
 msgid "Earth"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:733
+#: android/java/org/asterium/asterium/ViewSheet.java:740
 msgid "Earth penumbra"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:273
+#: android/java/org/asterium/asterium/ViewSheet.java:277
 msgid "Earth shadow enlargement after Danjon"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:731
+#: android/java/org/asterium/asterium/ViewSheet.java:738
 msgid "Earth umbra"
 msgstr ""
 
@@ -1053,7 +1065,7 @@ msgstr ""
 msgid "Eastern quadrature"
 msgstr ""
 
-#: src/gui/mobile/AndroidUi.cpp:222
+#: src/gui/mobile/AndroidUi.cpp:230
 msgid "Ecl. grid"
 msgstr ""
 
@@ -1073,7 +1085,7 @@ msgstr ""
 msgid "Eclipse magnitude"
 msgstr ""
 
-#: android/java/org/asterium/asterium/AstroCalcSheet.java:47
+#: android/java/org/asterium/asterium/AstroCalcSheet.java:46
 msgid "Eclipses"
 msgstr ""
 
@@ -1085,7 +1097,7 @@ msgstr ""
 msgid "Ecliptic"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:715
+#: android/java/org/asterium/asterium/ViewSheet.java:722
 msgid "Ecliptic (J2000)"
 msgstr ""
 
@@ -1093,7 +1105,7 @@ msgstr ""
 msgid "Ecliptic (J2000.0)"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:716
+#: android/java/org/asterium/asterium/ViewSheet.java:723
 msgid "Ecliptic (of date)"
 msgstr ""
 
@@ -1101,27 +1113,27 @@ msgstr ""
 msgid "Ecliptic grid"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:705
+#: android/java/org/asterium/asterium/ViewSheet.java:712
 msgid "Ecliptic grid (J2000)"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:706
+#: android/java/org/asterium/asterium/ViewSheet.java:713
 msgid "Ecliptic grid (of date)"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:738
+#: android/java/org/asterium/asterium/ViewSheet.java:745
 msgid "Ecliptic poles (J2000)"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:739
+#: android/java/org/asterium/asterium/ViewSheet.java:746
 msgid "Ecliptic poles (of date)"
 msgstr ""
 
-#: android/java/org/asterium/asterium/AstroCalcSheet.java:556 android/java/org/asterium/asterium/WutPage.java:262 src/gui/mobile/AstroCalcWut.cpp:798
+#: android/java/org/asterium/asterium/AstroCalcSheet.java:525 android/java/org/asterium/asterium/WutPage.java:266 src/gui/mobile/AstroCalcWut.cpp:809
 msgid "Elev."
 msgstr ""
 
-#: android/java/org/asterium/asterium/PhenomenaPage.java:353
+#: android/java/org/asterium/asterium/PhenomenaPage.java:329
 msgid "Elevation"
 msgstr ""
 
@@ -1129,7 +1141,7 @@ msgstr ""
 msgid "Elevation in metres"
 msgstr ""
 
-#: android/java/org/asterium/asterium/AstroCalcSheet.java:557 android/java/org/asterium/asterium/AstroCalcSheet.java:1060
+#: android/java/org/asterium/asterium/AstroCalcSheet.java:526 android/java/org/asterium/asterium/AstroCalcSheet.java:1030
 msgid "Elong."
 msgstr ""
 
@@ -1137,7 +1149,7 @@ msgstr ""
 msgid "Elongation"
 msgstr ""
 
-#: android/java/org/asterium/asterium/PhenomenaPage.java:154
+#: android/java/org/asterium/asterium/PhenomenaPage.java:153
 msgid "Elongations and quadratures"
 msgstr ""
 
@@ -1177,23 +1189,31 @@ msgstr ""
 msgid "Enter Culture..."
 msgstr ""
 
-#: android/java/org/asterium/asterium/AstroCalcSheet.java:47
+#: android/java/org/asterium/asterium/NumericSetting.java:172
+msgid "Enter a number within this range."
+msgstr ""
+
+#: android/java/org/asterium/asterium/NumericSetting.java:171
+msgid "Enter a whole number."
+msgstr ""
+
+#: android/java/org/asterium/asterium/AstroCalcSheet.java:46
 msgid "Ephemeris"
 msgstr ""
 
-#: src/gui/mobile/AndroidUi.cpp:220
+#: src/gui/mobile/AndroidUi.cpp:223
 msgid "Equ. grid"
 msgstr ""
 
-#: src/gui/mobile/AndroidUi.cpp:232
+#: src/gui/mobile/AndroidUi.cpp:235
 msgid "Equ. mount"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:712
+#: android/java/org/asterium/asterium/ViewSheet.java:719
 msgid "Equator (J2000)"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:713
+#: android/java/org/asterium/asterium/ViewSheet.java:720
 msgid "Equator (of date)"
 msgstr ""
 
@@ -1209,11 +1229,11 @@ msgstr ""
 msgid "Equatorial Mount"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:702
+#: android/java/org/asterium/asterium/ViewSheet.java:709
 msgid "Equatorial grid (J2000)"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:703
+#: android/java/org/asterium/asterium/ViewSheet.java:710
 msgid "Equatorial grid (of date)"
 msgstr ""
 
@@ -1221,19 +1241,19 @@ msgstr ""
 msgid "Equatorial radii ratio"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:744
+#: android/java/org/asterium/asterium/ViewSheet.java:751
 msgid "Equinoxes (J2000)"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:745
+#: android/java/org/asterium/asterium/ViewSheet.java:752
 msgid "Equinoxes (of date)"
 msgstr ""
 
-#: android/java/org/asterium/asterium/AstroCalcSheet.java:922
+#: android/java/org/asterium/asterium/AstroCalcSheet.java:892
 msgid "Evening"
 msgstr ""
 
-#: android/java/org/asterium/asterium/AstroCalcSheet.java:766
+#: android/java/org/asterium/asterium/AstroCalcSheet.java:735
 msgid "Every"
 msgstr ""
 
@@ -1249,11 +1269,11 @@ msgstr ""
 msgid "Exoplanetary systems"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:289
+#: android/java/org/asterium/asterium/ViewSheet.java:293
 msgid "Explanatory Supplement (1992)"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:290
+#: android/java/org/asterium/asterium/ViewSheet.java:294
 msgid "Explanatory Supplement (2013)"
 msgstr ""
 
@@ -1281,15 +1301,15 @@ msgstr ""
 msgid "FOV: %1"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:600
+#: android/java/org/asterium/asterium/ViewSheet.java:605
 msgid "Fades the ground as you look below the horizon or zoom in"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:1052 android/java/org/asterium/asterium/ViewSheet.java:1057 android/java/org/asterium/asterium/ViewSheet.java:1062 android/java/org/asterium/asterium/ViewSheet.java:1067 android/java/org/asterium/asterium/ViewSheet.java:1081 android/java/org/asterium/asterium/ViewSheet.java:1086 android/java/org/asterium/asterium/ViewSheet.java:1091 android/java/org/asterium/asterium/ViewSheet.java:1104 android/java/org/asterium/asterium/ViewSheet.java:1114
+#: android/java/org/asterium/asterium/ViewSheet.java:1078 android/java/org/asterium/asterium/ViewSheet.java:1084 android/java/org/asterium/asterium/ViewSheet.java:1090 android/java/org/asterium/asterium/ViewSheet.java:1095 android/java/org/asterium/asterium/ViewSheet.java:1110 android/java/org/asterium/asterium/ViewSheet.java:1116 android/java/org/asterium/asterium/ViewSheet.java:1122 android/java/org/asterium/asterium/ViewSheet.java:1136 android/java/org/asterium/asterium/ViewSheet.java:1148
 msgid "Fading duration"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:246
+#: android/java/org/asterium/asterium/ViewSheet.java:250
 msgid "Faintest shown"
 msgstr ""
 
@@ -1297,7 +1317,7 @@ msgstr ""
 msgid "Favorites"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:760 android/java/org/asterium/asterium/ViewSheet.java:766
+#: android/java/org/asterium/asterium/ViewSheet.java:767 android/java/org/asterium/asterium/ViewSheet.java:773
 msgid "Field of view"
 msgstr ""
 
@@ -1309,7 +1329,7 @@ msgstr ""
 msgid "Filter"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:319
+#: android/java/org/asterium/asterium/ViewSheet.java:323
 msgid "Filter by type"
 msgstr ""
 
@@ -1317,7 +1337,7 @@ msgstr ""
 msgid "Find a city"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:880
+#: android/java/org/asterium/asterium/ViewSheet.java:893
 msgid "Fine"
 msgstr ""
 
@@ -1333,7 +1353,7 @@ msgstr ""
 msgid "First celestial body"
 msgstr ""
 
-#: android/java/org/asterium/asterium/GraphsPage.java:228 android/java/org/asterium/asterium/GraphsPage.java:228
+#: android/java/org/asterium/asterium/GraphsPage.java:231 android/java/org/asterium/asterium/GraphsPage.java:231
 msgid "First graph"
 msgstr ""
 
@@ -1341,11 +1361,11 @@ msgstr ""
 msgid "Fix"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:714
+#: android/java/org/asterium/asterium/ViewSheet.java:721
 msgid "Fixed Equator"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:704
+#: android/java/org/asterium/asterium/ViewSheet.java:711
 msgid "Fixed Equatorial grid"
 msgstr ""
 
@@ -1357,11 +1377,11 @@ msgstr ""
 msgid "Flip buttons"
 msgstr ""
 
-#: src/gui/mobile/AndroidUi.cpp:234
+#: src/gui/mobile/AndroidUi.cpp:237
 msgid "Flip horiz."
 msgstr ""
 
-#: src/gui/mobile/AndroidUi.cpp:233
+#: src/gui/mobile/AndroidUi.cpp:236
 msgid "Flip vert."
 msgstr ""
 
@@ -1369,7 +1389,7 @@ msgstr ""
 msgid "Focal length:"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:616
+#: android/java/org/asterium/asterium/ViewSheet.java:622
 msgid "Font size"
 msgstr ""
 
@@ -1381,7 +1401,7 @@ msgstr ""
 msgid "Free software. The source is under the GNU General Public License, version 2 or later; this app is a combined work with libraries that are GPLv3 only, so the app as installed is delivered to you under the GNU General Public License, version 3. The full texts are on the Licences page. The list of changes against upstream Stellarium is in NOTICE.md in the source."
 msgstr ""
 
-#: android/java/org/asterium/asterium/PhenomenaPage.java:140 android/java/org/asterium/asterium/RtsPage.java:121
+#: android/java/org/asterium/asterium/PhenomenaPage.java:139 android/java/org/asterium/asterium/RtsPage.java:121
 msgid "From"
 msgstr ""
 
@@ -1389,7 +1409,7 @@ msgstr ""
 msgid "From year"
 msgstr ""
 
-#: src/gui/mobile/AndroidUi.cpp:237
+#: src/gui/mobile/AndroidUi.cpp:226
 msgid "Full screen"
 msgstr ""
 
@@ -1397,7 +1417,7 @@ msgstr ""
 msgid "Fullscreen button"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:287
+#: android/java/org/asterium/asterium/ViewSheet.java:291
 msgid "G. Müller (1893)"
 msgstr ""
 
@@ -1409,11 +1429,11 @@ msgstr ""
 msgid "GPL-3.0"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:278
+#: android/java/org/asterium/asterium/ViewSheet.java:282
 msgid "GRS details…"
 msgstr ""
 
-#: src/gui/mobile/AndroidUi.cpp:224
+#: src/gui/mobile/AndroidUi.cpp:232
 msgid "Gal. grid"
 msgstr ""
 
@@ -1421,19 +1441,19 @@ msgstr ""
 msgid "Galactic"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:743
+#: android/java/org/asterium/asterium/ViewSheet.java:750
 msgid "Galactic center and anticenter"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:722
+#: android/java/org/asterium/asterium/ViewSheet.java:729
 msgid "Galactic equator"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ConfigSheet.java:221 android/java/org/asterium/asterium/ViewSheet.java:708
+#: android/java/org/asterium/asterium/ConfigSheet.java:221 android/java/org/asterium/asterium/ViewSheet.java:715
 msgid "Galactic grid"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:740
+#: android/java/org/asterium/asterium/ViewSheet.java:747
 msgid "Galactic poles"
 msgstr ""
 
@@ -1449,7 +1469,7 @@ msgstr ""
 msgid "General"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:284 android/java/org/asterium/asterium/ViewSheet.java:292
+#: android/java/org/asterium/asterium/ViewSheet.java:288 android/java/org/asterium/asterium/ViewSheet.java:296
 msgid "Generic"
 msgstr ""
 
@@ -1477,7 +1497,7 @@ msgstr ""
 msgid "Go to this eclipse"
 msgstr ""
 
-#: android/java/org/asterium/asterium/AstroCalcSheet.java:1061 android/java/org/asterium/asterium/PhenomenaPage.java:358
+#: android/java/org/asterium/asterium/AstroCalcSheet.java:1031 android/java/org/asterium/asterium/PhenomenaPage.java:334
 msgid "Go to this moment"
 msgstr ""
 
@@ -1489,11 +1509,11 @@ msgstr ""
 msgid "Good visibility conditions for current location"
 msgstr ""
 
-#: android/java/org/asterium/asterium/AstroCalcSheet.java:47 android/java/org/asterium/asterium/GraphsPage.java:47 android/java/org/asterium/asterium/PcPage.java:68
+#: android/java/org/asterium/asterium/AstroCalcSheet.java:46 android/java/org/asterium/asterium/GraphsPage.java:47 android/java/org/asterium/asterium/PcPage.java:68
 msgid "Graphs"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:277
+#: android/java/org/asterium/asterium/ViewSheet.java:281
 msgid "Great Red Spot"
 msgstr ""
 
@@ -1509,7 +1529,7 @@ msgstr ""
 msgid "Greatest eclipse"
 msgstr ""
 
-#: android/java/org/asterium/asterium/PhenomenaPage.java:155
+#: android/java/org/asterium/asterium/PhenomenaPage.java:154
 msgid "Greatest elongation for an inner planet, quadrature for an outer one"
 msgstr ""
 
@@ -1525,15 +1545,19 @@ msgstr ""
 msgid "Greek letters for Bayer designations"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:891
+#: android/java/org/asterium/asterium/ViewSheet.java:904
 msgid "Grid density"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:701
+#: android/java/org/asterium/asterium/ViewSheet.java:821
+msgid "GridColor"
+msgstr ""
+
+#: android/java/org/asterium/asterium/ViewSheet.java:708
 msgid "Grids"
 msgstr ""
 
-#: src/gui/mobile/AndroidUi.cpp:225
+#: src/gui/mobile/AndroidUi.cpp:214
 msgid "Ground"
 msgstr ""
 
@@ -1549,7 +1573,7 @@ msgstr ""
 msgid "Has permanent cross-hairs"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:773
+#: android/java/org/asterium/asterium/ViewSheet.java:780
 msgid "Height"
 msgstr ""
 
@@ -1557,11 +1581,11 @@ msgstr ""
 msgid "Heliocentric distance"
 msgstr ""
 
-#: android/java/org/asterium/asterium/AstroCalcSheet.java:574
+#: android/java/org/asterium/asterium/AstroCalcSheet.java:543
 msgid "Heliocentric ecliptic positions of the major planets."
 msgstr ""
 
-#: android/java/org/asterium/asterium/HelpSheet.java:51 android/java/org/asterium/asterium/SkyChrome.java:122
+#: android/java/org/asterium/asterium/HelpSheet.java:51 android/java/org/asterium/asterium/SkyChrome.java:124
 msgid "Help"
 msgstr ""
 
@@ -1569,11 +1593,11 @@ msgstr ""
 msgid "Herschel 400 objects"
 msgstr ""
 
-#: android/java/org/asterium/asterium/SkyChrome.java:734 android/java/org/asterium/asterium/SkyChrome.java:790
+#: android/java/org/asterium/asterium/SkyChrome.java:744 android/java/org/asterium/asterium/SkyChrome.java:800
 msgid "Hide controls"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:348
+#: android/java/org/asterium/asterium/ViewSheet.java:352
 msgid "Hide deep-sky objects fainter than the limit"
 msgstr ""
 
@@ -1581,15 +1605,15 @@ msgstr ""
 msgid "Hide grids and lines when enabled"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:207
+#: android/java/org/asterium/asterium/ViewSheet.java:210
 msgid "Hide nomenclature on the celestial body of observer"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:182
+#: android/java/org/asterium/asterium/ViewSheet.java:183
 msgid "Hide orbits of minor bodies"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ObsListSheet.java:120 src/gui/mobile/AndroidUi.cpp:236
+#: android/java/org/asterium/asterium/ObsListSheet.java:120 src/gui/mobile/AndroidUi.cpp:222
 msgid "Highlight"
 msgstr ""
 
@@ -1597,23 +1621,23 @@ msgstr ""
 msgid "Highlight the objects of the observing list"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:160
+#: android/java/org/asterium/asterium/ViewSheet.java:161
 msgid "Hint circles marking each planet"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:332
+#: android/java/org/asterium/asterium/ViewSheet.java:336
 msgid "Hints"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:333
+#: android/java/org/asterium/asterium/ViewSheet.java:337
 msgid "Hints brightness"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:485
+#: android/java/org/asterium/asterium/ViewSheet.java:490
 msgid "Hipparcos designations"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:718
+#: android/java/org/asterium/asterium/ViewSheet.java:725
 msgid "Horizon"
 msgstr ""
 
@@ -1621,7 +1645,7 @@ msgstr ""
 msgid "Horizontal"
 msgstr ""
 
-#: android/java/org/asterium/asterium/AstroCalcSheet.java:333 android/java/org/asterium/asterium/AstroCalcSheet.java:784
+#: android/java/org/asterium/asterium/AstroCalcSheet.java:332 android/java/org/asterium/asterium/AstroCalcSheet.java:754
 msgid "Horizontal coordinates"
 msgstr ""
 
@@ -1637,11 +1661,11 @@ msgstr ""
 msgid "Hour angles usually run 0...24h. This counts -12h...12h."
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:201
+#: android/java/org/asterium/asterium/ViewSheet.java:204
 msgid "How many"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ConfigSheet.java:218 src/gui/mobile/AndroidUi.cpp:223
+#: android/java/org/asterium/asterium/ConfigSheet.java:218 src/gui/mobile/AndroidUi.cpp:231
 msgid "ICRS grid"
 msgstr ""
 
@@ -1657,11 +1681,11 @@ msgstr ""
 msgid "Include"
 msgstr ""
 
-#: android/java/org/asterium/asterium/AstroCalcSheet.java:591
+#: android/java/org/asterium/asterium/AstroCalcSheet.java:560
 msgid "Include bright comets"
 msgstr ""
 
-#: android/java/org/asterium/asterium/AstroCalcSheet.java:587
+#: android/java/org/asterium/asterium/AstroCalcSheet.java:556
 msgid "Include selected minor planets"
 msgstr ""
 
@@ -1669,7 +1693,7 @@ msgstr ""
 msgid "Inferior conjunction"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:1166
+#: android/java/org/asterium/asterium/ViewSheet.java:1202
 msgid "Info label"
 msgstr ""
 
@@ -1677,7 +1701,7 @@ msgstr ""
 msgid "Interacting galaxies"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:754
+#: android/java/org/asterium/asterium/ViewSheet.java:761
 msgid "Intercardinal points"
 msgstr ""
 
@@ -1693,11 +1717,11 @@ msgstr ""
 msgid "Interstellar objects"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:730
+#: android/java/org/asterium/asterium/ViewSheet.java:737
 msgid "Invariable plane of the Solar system"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:1072
+#: android/java/org/asterium/asterium/ViewSheet.java:1101
 msgid "Isolated"
 msgstr ""
 
@@ -1709,7 +1733,7 @@ msgstr ""
 msgid "Jovigraphic longitude of the spot in System II, in degrees"
 msgstr ""
 
-#: android/java/org/asterium/asterium/AlmanacPage.java:213 android/java/org/asterium/asterium/TimeSheet.java:91
+#: android/java/org/asterium/asterium/AlmanacPage.java:215 android/java/org/asterium/asterium/TimeSheet.java:91
 msgid "Julian day"
 msgstr ""
 
@@ -1729,39 +1753,39 @@ msgstr ""
 msgid "LGPL-3.0"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:1179 android/java/org/asterium/asterium/ViewSheet.java:1182
+#: android/java/org/asterium/asterium/ViewSheet.java:1215 android/java/org/asterium/asterium/ViewSheet.java:1218
 msgid "Label"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:618
+#: android/java/org/asterium/asterium/ViewSheet.java:624
 msgid "Label colour"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:210
+#: android/java/org/asterium/asterium/ViewSheet.java:213
 msgid "Label only features along the terminator"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:330 android/java/org/asterium/asterium/ViewSheet.java:826
+#: android/java/org/asterium/asterium/ViewSheet.java:335 android/java/org/asterium/asterium/ViewSheet.java:481 android/java/org/asterium/asterium/ViewSheet.java:824 android/java/org/asterium/asterium/ViewSheet.java:1139 android/java/org/asterium/asterium/ViewSheet.java:1151
+msgid "Label opacity"
+msgstr ""
+
+#: android/java/org/asterium/asterium/ViewSheet.java:334 android/java/org/asterium/asterium/ViewSheet.java:839
 msgid "Labels"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:155 android/java/org/asterium/asterium/ViewSheet.java:328 android/java/org/asterium/asterium/ViewSheet.java:475
+#: android/java/org/asterium/asterium/ViewSheet.java:155 android/java/org/asterium/asterium/ViewSheet.java:332 android/java/org/asterium/asterium/ViewSheet.java:479
 msgid "Labels and Markers"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:157 android/java/org/asterium/asterium/ViewSheet.java:476
+#: android/java/org/asterium/asterium/ViewSheet.java:157 android/java/org/asterium/asterium/ViewSheet.java:480
 msgid "Labels and Markers amount"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:331
-msgid "Labels brightness"
-msgstr ""
-
-#: android/java/org/asterium/asterium/ViewSheet.java:49 android/java/org/asterium/asterium/ViewSheet.java:99 android/java/org/asterium/asterium/ViewSheet.java:554 android/java/org/asterium/asterium/ViewSheet.java:670
+#: android/java/org/asterium/asterium/ViewSheet.java:49 android/java/org/asterium/asterium/ViewSheet.java:99 android/java/org/asterium/asterium/ViewSheet.java:559 android/java/org/asterium/asterium/ViewSheet.java:677
 msgid "Landscape"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:613
+#: android/java/org/asterium/asterium/ViewSheet.java:619
 msgid "Landscape labels"
 msgstr ""
 
@@ -1769,7 +1793,7 @@ msgstr ""
 msgid "Language settings"
 msgstr ""
 
-#: android/java/org/asterium/asterium/WutPage.java:164
+#: android/java/org/asterium/asterium/WutPage.java:167
 msgid "Largest, ′"
 msgstr ""
 
@@ -1777,7 +1801,7 @@ msgstr ""
 msgid "Last known position"
 msgstr ""
 
-#: android/java/org/asterium/asterium/AstroCalcSheet.java:747
+#: android/java/org/asterium/asterium/AstroCalcSheet.java:716
 msgid "Lasting"
 msgstr ""
 
@@ -1797,7 +1821,7 @@ msgstr ""
 msgid "Leave the eyepiece view"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:583
+#: android/java/org/asterium/asterium/ViewSheet.java:588
 msgid "Leaves the landscape visible in darkness"
 msgstr ""
 
@@ -1837,23 +1861,23 @@ msgstr ""
 msgid "Light pollution from database"
 msgstr ""
 
-#: src/gui/mobile/AstroCalcWut.cpp:789
+#: src/gui/mobile/AstroCalcWut.cpp:800
 msgid "Limit angular separation"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:351 android/java/org/asterium/asterium/WutPage.java:156 src/gui/mobile/AstroCalcWut.cpp:790
+#: android/java/org/asterium/asterium/ViewSheet.java:355 android/java/org/asterium/asterium/WutPage.java:158 src/gui/mobile/AstroCalcWut.cpp:801
 msgid "Limit angular size"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:243 android/java/org/asterium/asterium/ViewSheet.java:348 android/java/org/asterium/asterium/ViewSheet.java:350 android/java/org/asterium/asterium/ViewSheet.java:471 android/java/org/asterium/asterium/ViewSheet.java:472
+#: android/java/org/asterium/asterium/ViewSheet.java:247 android/java/org/asterium/asterium/ViewSheet.java:352 android/java/org/asterium/asterium/ViewSheet.java:354 android/java/org/asterium/asterium/ViewSheet.java:475 android/java/org/asterium/asterium/ViewSheet.java:476
 msgid "Limit magnitude"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:244
+#: android/java/org/asterium/asterium/ViewSheet.java:248
 msgid "Limit the magnitude of solar system objects"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:712 android/java/org/asterium/asterium/ViewSheet.java:713 android/java/org/asterium/asterium/ViewSheet.java:714 android/java/org/asterium/asterium/ViewSheet.java:715 android/java/org/asterium/asterium/ViewSheet.java:716 android/java/org/asterium/asterium/ViewSheet.java:718 android/java/org/asterium/asterium/ViewSheet.java:719 android/java/org/asterium/asterium/ViewSheet.java:720 android/java/org/asterium/asterium/ViewSheet.java:721 android/java/org/asterium/asterium/ViewSheet.java:722 android/java/org/asterium/asterium/ViewSheet.java:723 android/java/org/asterium/asterium/ViewSheet.java:724 android/java/org/asterium/asterium/ViewSheet.java:725
+#: android/java/org/asterium/asterium/ViewSheet.java:719 android/java/org/asterium/asterium/ViewSheet.java:720 android/java/org/asterium/asterium/ViewSheet.java:721 android/java/org/asterium/asterium/ViewSheet.java:722 android/java/org/asterium/asterium/ViewSheet.java:723 android/java/org/asterium/asterium/ViewSheet.java:725 android/java/org/asterium/asterium/ViewSheet.java:726 android/java/org/asterium/asterium/ViewSheet.java:727 android/java/org/asterium/asterium/ViewSheet.java:728 android/java/org/asterium/asterium/ViewSheet.java:729 android/java/org/asterium/asterium/ViewSheet.java:730 android/java/org/asterium/asterium/ViewSheet.java:731 android/java/org/asterium/asterium/ViewSheet.java:732
 msgid "Line"
 msgstr ""
 
@@ -1861,8 +1885,12 @@ msgstr ""
 msgid "Line Color"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:780
+#: android/java/org/asterium/asterium/ViewSheet.java:787
 msgid "Line thickness"
+msgstr ""
+
+#: android/java/org/asterium/asterium/ViewSheet.java:821
+msgid "LineColor"
 msgstr ""
 
 #: src/gui/mobile/AstroCalcPc.cpp:253
@@ -1873,12 +1901,16 @@ msgstr ""
 msgid "Linear distance"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:726 src/gui/mobile/AndroidUi.cpp:214
+#: android/java/org/asterium/asterium/ViewSheet.java:733 src/gui/mobile/AndroidUi.cpp:217
 msgid "Lines"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:711
+#: android/java/org/asterium/asterium/ViewSheet.java:718
 msgid "Lines and circles"
+msgstr ""
+
+#: android/java/org/asterium/asterium/ViewSheet.java:822
+msgid "LinesColor"
 msgstr ""
 
 #: android/java/org/asterium/asterium/ObsListSheet.java:65 android/java/org/asterium/asterium/SearchSheet.java:524 android/java/org/asterium/asterium/SearchSheet.java:528
@@ -1893,7 +1925,7 @@ msgstr ""
 msgid "Lists"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:578
+#: android/java/org/asterium/asterium/ViewSheet.java:583
 msgid "Lit windows, street lighting and the like"
 msgstr ""
 
@@ -1917,11 +1949,11 @@ msgstr ""
 msgid "Local solar eclipses"
 msgstr ""
 
-#: android/java/org/asterium/asterium/AlmanacPage.java:212
+#: android/java/org/asterium/asterium/AlmanacPage.java:214
 msgid "Local time"
 msgstr ""
 
-#: android/java/org/asterium/asterium/GraphsPage.java:208
+#: android/java/org/asterium/asterium/GraphsPage.java:209
 msgid "Local time, h"
 msgstr ""
 
@@ -1933,11 +1965,11 @@ msgstr ""
 msgid "Locating…"
 msgstr ""
 
-#: android/java/org/asterium/asterium/LocationSheet.java:85 android/java/org/asterium/asterium/SkyChrome.java:115 android/java/org/asterium/asterium/SkyChrome.java:147 android/java/org/asterium/asterium/SkyChrome.java:789
+#: android/java/org/asterium/asterium/LocationSheet.java:85 android/java/org/asterium/asterium/SkyChrome.java:117 android/java/org/asterium/asterium/SkyChrome.java:149 android/java/org/asterium/asterium/SkyChrome.java:799
 msgid "Location"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:574
+#: android/java/org/asterium/asterium/ViewSheet.java:579
 msgid "Location from landscape"
 msgstr ""
 
@@ -1969,7 +2001,7 @@ msgstr ""
 msgid "Lunar Elongation"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:1109
+#: android/java/org/asterium/asterium/ViewSheet.java:1143
 msgid "Lunar Stations"
 msgstr ""
 
@@ -1981,15 +2013,15 @@ msgstr ""
 msgid "Lunar elongation"
 msgstr ""
 
-#: android/java/org/asterium/asterium/AstroCalcSheet.java:1057 android/java/org/asterium/asterium/RtsPage.java:293 android/java/org/asterium/asterium/WutPage.java:257 src/gui/mobile/AndroidUi.cpp:756 src/gui/mobile/AstroCalcWut.cpp:786
+#: android/java/org/asterium/asterium/AstroCalcSheet.java:1027 android/java/org/asterium/asterium/RtsPage.java:293 android/java/org/asterium/asterium/WutPage.java:261 src/gui/mobile/AndroidUi.cpp:756 src/gui/mobile/AstroCalcWut.cpp:797
 msgid "Mag."
 msgstr ""
 
-#: android/java/org/asterium/asterium/PhenomenaPage.java:349
+#: android/java/org/asterium/asterium/PhenomenaPage.java:325
 msgid "Mag. 1"
 msgstr ""
 
-#: android/java/org/asterium/asterium/PhenomenaPage.java:351
+#: android/java/org/asterium/asterium/PhenomenaPage.java:327
 msgid "Mag. 2"
 msgstr ""
 
@@ -1997,11 +2029,11 @@ msgstr ""
 msgid "Magnification: %1"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:242 src/gui/mobile/AstroCalcGraphs.cpp:229
+#: android/java/org/asterium/asterium/ViewSheet.java:246 src/gui/mobile/AstroCalcGraphs.cpp:229
 msgid "Magnitude"
 msgstr ""
 
-#: android/java/org/asterium/asterium/AstroCalcSheet.java:803
+#: android/java/org/asterium/asterium/AstroCalcSheet.java:773
 msgid "Magnitudes"
 msgstr ""
 
@@ -2009,7 +2041,7 @@ msgstr ""
 msgid "Main"
 msgstr ""
 
-#: android/java/org/asterium/asterium/AstroCalcSheet.java:259 android/java/org/asterium/asterium/ViewSheet.java:180
+#: android/java/org/asterium/asterium/AstroCalcSheet.java:258 android/java/org/asterium/asterium/ViewSheet.java:181
 msgid "Major planets"
 msgstr ""
 
@@ -2017,7 +2049,7 @@ msgstr ""
 msgid "Major planets by planet, minor bodies by type"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:291
+#: android/java/org/asterium/asterium/ViewSheet.java:295
 msgid "Mallama & Hilton (2018)"
 msgstr ""
 
@@ -2029,19 +2061,19 @@ msgstr ""
 msgid "March equinox"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:216
+#: android/java/org/asterium/asterium/ViewSheet.java:219
 msgid "Mark impact features with ellipses"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:162
+#: android/java/org/asterium/asterium/ViewSheet.java:163
 msgid "Mark minor bodies"
 msgstr ""
 
-#: android/java/org/asterium/asterium/AstroCalcSheet.java:794
+#: android/java/org/asterium/asterium/AstroCalcSheet.java:764
 msgid "Markers"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:339
+#: android/java/org/asterium/asterium/ViewSheet.java:343
 msgid "Markers sized by the object's angular size"
 msgstr ""
 
@@ -2053,7 +2085,7 @@ msgstr ""
 msgid "Mars"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:698
+#: android/java/org/asterium/asterium/ViewSheet.java:705
 msgid "Master switch for the grids, lines and points below"
 msgstr ""
 
@@ -2061,7 +2093,7 @@ msgstr ""
 msgid "Matt Hughes"
 msgstr ""
 
-#: android/java/org/asterium/asterium/GraphsPage.java:367
+#: android/java/org/asterium/asterium/GraphsPage.java:370
 msgid "Max"
 msgstr ""
 
@@ -2077,15 +2109,15 @@ msgstr ""
 msgid "Max. search radius"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:214
+#: android/java/org/asterium/asterium/ViewSheet.java:217
 msgid "Maximum Solar altitude"
 msgstr ""
 
-#: android/java/org/asterium/asterium/PhenomenaPage.java:172
+#: android/java/org/asterium/asterium/PhenomenaPage.java:168
 msgid "Maximum allowed separation"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:355
+#: android/java/org/asterium/asterium/ViewSheet.java:359
 msgid "Maximum angular size"
 msgstr ""
 
@@ -2105,11 +2137,11 @@ msgstr ""
 msgid "Mercury"
 msgstr ""
 
-#: android/java/org/asterium/asterium/AstroCalcSheet.java:734
+#: android/java/org/asterium/asterium/AstroCalcSheet.java:703
 msgid "Mercury, Venus, Mars, Jupiter and Saturn at once. Earth only."
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:719
+#: android/java/org/asterium/asterium/ViewSheet.java:726
 msgid "Meridian"
 msgstr ""
 
@@ -2133,19 +2165,19 @@ msgstr ""
 msgid "Milky Way saturation"
 msgstr ""
 
-#: android/java/org/asterium/asterium/GraphsPage.java:366
+#: android/java/org/asterium/asterium/GraphsPage.java:369
 msgid "Min"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:353
+#: android/java/org/asterium/asterium/ViewSheet.java:357
 msgid "Minimal angular size"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:583
+#: android/java/org/asterium/asterium/ViewSheet.java:588
 msgid "Minimal brightness"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:212
+#: android/java/org/asterium/asterium/ViewSheet.java:215
 msgid "Minimum Solar altitude"
 msgstr ""
 
@@ -2153,7 +2185,7 @@ msgstr ""
 msgid "Minimum year"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:238
+#: android/java/org/asterium/asterium/ViewSheet.java:242
 msgid "Minor bodies"
 msgstr ""
 
@@ -2173,7 +2205,7 @@ msgstr ""
 msgid "Monthly Elevation"
 msgstr ""
 
-#: android/java/org/asterium/asterium/EclipsesPage.java:387 android/java/org/asterium/asterium/GraphsPage.java:193 android/java/org/asterium/asterium/ViewSheet.java:226 src/gui/mobile/AstroCalcAlmanac.cpp:222 src/gui/mobile/AstroCalcGraphs.cpp:359
+#: android/java/org/asterium/asterium/EclipsesPage.java:387 android/java/org/asterium/asterium/GraphsPage.java:193 android/java/org/asterium/asterium/ViewSheet.java:230 src/gui/mobile/AstroCalcAlmanac.cpp:222 src/gui/mobile/AstroCalcGraphs.cpp:359
 msgid "Moon"
 msgstr ""
 
@@ -2201,7 +2233,7 @@ msgstr ""
 msgid "Moon leaves umbra"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:168
+#: android/java/org/asterium/asterium/ViewSheet.java:169
 msgid "Moon's halo"
 msgstr ""
 
@@ -2209,7 +2241,7 @@ msgstr ""
 msgid "Moons of first body"
 msgstr ""
 
-#: android/java/org/asterium/asterium/AstroCalcSheet.java:924
+#: android/java/org/asterium/asterium/AstroCalcSheet.java:894
 msgid "Morning"
 msgstr ""
 
@@ -2225,7 +2257,7 @@ msgstr ""
 msgid "Move the sky by pointing the phone at it"
 msgstr ""
 
-#: android/java/org/asterium/asterium/SkyChrome.java:184 android/java/org/asterium/asterium/SkyChrome.java:796
+#: android/java/org/asterium/asterium/SkyChrome.java:186 android/java/org/asterium/asterium/SkyChrome.java:806
 msgid "Move the sky with the phone"
 msgstr ""
 
@@ -2249,11 +2281,11 @@ msgstr ""
 msgid "Name:"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:613
+#: android/java/org/asterium/asterium/ViewSheet.java:619
 msgid "Named features the landscape marks"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:1041 src/gui/mobile/AndroidUi.cpp:215
+#: android/java/org/asterium/asterium/ViewSheet.java:1067 src/gui/mobile/AndroidUi.cpp:218
 msgid "Names"
 msgstr ""
 
@@ -2269,7 +2301,7 @@ msgstr ""
 msgid "Nautical Twilight"
 msgstr ""
 
-#: src/gui/mobile/AndroidUi.cpp:228
+#: src/gui/mobile/AndroidUi.cpp:233
 msgid "Neb. bg"
 msgstr ""
 
@@ -2277,7 +2309,7 @@ msgstr ""
 msgid "Nebula background"
 msgstr ""
 
-#: src/gui/mobile/AndroidUi.cpp:227
+#: src/gui/mobile/AndroidUi.cpp:220
 msgid "Nebulae"
 msgstr ""
 
@@ -2293,7 +2325,7 @@ msgstr ""
 msgid "New lens"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ObsListSheet.java:72 android/java/org/asterium/asterium/ObsListSheet.java:295 android/java/org/asterium/asterium/ObsListSheet.java:317 src/gui/mobile/AndroidUi.cpp:2579
+#: android/java/org/asterium/asterium/ObsListSheet.java:72 android/java/org/asterium/asterium/ObsListSheet.java:295 android/java/org/asterium/asterium/ObsListSheet.java:317 src/gui/mobile/AndroidUi.cpp:2586
 msgid "New list"
 msgstr ""
 
@@ -2305,11 +2337,11 @@ msgstr ""
 msgid "New telescope"
 msgstr ""
 
-#: android/java/org/asterium/asterium/AlmanacPage.java:227 android/java/org/asterium/asterium/OcularPanelSheet.java:71
+#: android/java/org/asterium/asterium/AlmanacPage.java:229 android/java/org/asterium/asterium/OcularPanelSheet.java:71
 msgid "Next"
 msgstr ""
 
-#: src/gui/mobile/AndroidUi.cpp:235
+#: src/gui/mobile/AndroidUi.cpp:216
 msgid "Night"
 msgstr ""
 
@@ -2329,7 +2361,7 @@ msgstr ""
 msgid "No fresh fix - the receiver may have no sky. Try again outdoors, or set the place another way."
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:880
+#: android/java/org/asterium/asterium/ViewSheet.java:893
 msgid "Normal"
 msgstr ""
 
@@ -2365,7 +2397,7 @@ msgstr ""
 msgid "Nothing computed yet, or nothing in this category is up."
 msgstr ""
 
-#: android/java/org/asterium/asterium/AstroCalcSheet.java:905 android/java/org/asterium/asterium/PhenomenaPage.java:265
+#: android/java/org/asterium/asterium/AstroCalcSheet.java:875 android/java/org/asterium/asterium/PhenomenaPage.java:241
 msgid "Nothing computed yet."
 msgstr ""
 
@@ -2381,7 +2413,7 @@ msgstr ""
 msgid "Nothing in this list yet. Pick something out of the sky and tap the star on its card to keep it here."
 msgstr ""
 
-#: android/java/org/asterium/asterium/PhenomenaPage.java:247
+#: android/java/org/asterium/asterium/PhenomenaPage.java:226
 msgid "Nothing is selected. Pick an object in the sky first."
 msgstr ""
 
@@ -2401,15 +2433,15 @@ msgstr ""
 msgid "Nothing to show."
 msgstr ""
 
-#: android/java/org/asterium/asterium/SkyChrome.java:256 android/java/org/asterium/asterium/SkyChrome.java:794
+#: android/java/org/asterium/asterium/SkyChrome.java:258 android/java/org/asterium/asterium/SkyChrome.java:804
 msgid "Now"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:232
+#: android/java/org/asterium/asterium/ViewSheet.java:236
 msgid "N× above"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:724
+#: android/java/org/asterium/asterium/ViewSheet.java:731
 msgid "O./C. longitude"
 msgstr ""
 
@@ -2421,15 +2453,15 @@ msgstr ""
 msgid "OBJECTS"
 msgstr ""
 
-#: android/java/org/asterium/asterium/AstroCalcSheet.java:727 android/java/org/asterium/asterium/AstroCalcSheet.java:728 android/java/org/asterium/asterium/GraphsPage.java:223 android/java/org/asterium/asterium/InfoSheet.java:44 android/java/org/asterium/asterium/PhenomenaPage.java:126 android/java/org/asterium/asterium/PhenomenaPage.java:126 android/java/org/asterium/asterium/SearchSheet.java:47
+#: android/java/org/asterium/asterium/AstroCalcSheet.java:696 android/java/org/asterium/asterium/AstroCalcSheet.java:697 android/java/org/asterium/asterium/GraphsPage.java:226 android/java/org/asterium/asterium/InfoSheet.java:44 android/java/org/asterium/asterium/PhenomenaPage.java:125 android/java/org/asterium/asterium/PhenomenaPage.java:125 android/java/org/asterium/asterium/SearchSheet.java:47
 msgid "Object"
 msgstr ""
 
-#: android/java/org/asterium/asterium/PhenomenaPage.java:348
+#: android/java/org/asterium/asterium/PhenomenaPage.java:324
 msgid "Object 1"
 msgstr ""
 
-#: android/java/org/asterium/asterium/PhenomenaPage.java:350
+#: android/java/org/asterium/asterium/PhenomenaPage.java:326
 msgid "Object 2"
 msgstr ""
 
@@ -2441,7 +2473,7 @@ msgstr ""
 msgid "Observable duration"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ObsListSheet.java:62 android/java/org/asterium/asterium/SkyChrome.java:119
+#: android/java/org/asterium/asterium/ObsListSheet.java:62 android/java/org/asterium/asterium/SkyChrome.java:121
 msgid "Observing list"
 msgstr ""
 
@@ -2485,7 +2517,7 @@ msgstr ""
 msgid "Off-Axis guider"
 msgstr ""
 
-#: android/java/org/asterium/asterium/AstroCalcSheet.java:793
+#: android/java/org/asterium/asterium/AstroCalcSheet.java:763
 msgid "On the sky"
 msgstr ""
 
@@ -2497,11 +2529,11 @@ msgstr ""
 msgid "One color for all orbits"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:198
+#: android/java/org/asterium/asterium/ViewSheet.java:201
 msgid "Only for N latest selected objects"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:209
+#: android/java/org/asterium/asterium/ViewSheet.java:212
 msgid "Only for Solar elevation"
 msgstr ""
 
@@ -2509,15 +2541,15 @@ msgstr ""
 msgid "Only list"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:1072
+#: android/java/org/asterium/asterium/ViewSheet.java:1101
 msgid "Only one at a time"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:184
+#: android/java/org/asterium/asterium/ViewSheet.java:185
 msgid "Only orbit for selected object…"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:182
+#: android/java/org/asterium/asterium/ViewSheet.java:183
 msgid "Only orbits of major planets…"
 msgstr ""
 
@@ -2525,8 +2557,12 @@ msgstr ""
 msgid "Oort cloud objects"
 msgstr ""
 
-#: src/gui/mobile/AndroidUi.cpp:756 src/gui/mobile/AstroCalcWut.cpp:786
+#: src/gui/mobile/AndroidUi.cpp:756 src/gui/mobile/AstroCalcWut.cpp:797
 msgid "Opac."
+msgstr ""
+
+#: android/java/org/asterium/asterium/ViewSheet.java:159 android/java/org/asterium/asterium/ViewSheet.java:190 android/java/org/asterium/asterium/ViewSheet.java:200 android/java/org/asterium/asterium/ViewSheet.java:224 android/java/org/asterium/asterium/ViewSheet.java:616 android/java/org/asterium/asterium/ViewSheet.java:625 android/java/org/asterium/asterium/ViewSheet.java:819 android/java/org/asterium/asterium/ViewSheet.java:1080 android/java/org/asterium/asterium/ViewSheet.java:1086 android/java/org/asterium/asterium/ViewSheet.java:1097 android/java/org/asterium/asterium/ViewSheet.java:1112 android/java/org/asterium/asterium/ViewSheet.java:1118 android/java/org/asterium/asterium/ViewSheet.java:1124 android/java/org/asterium/asterium/ViewSheet.java:1138 android/java/org/asterium/asterium/ViewSheet.java:1150
+msgid "Opacity"
 msgstr ""
 
 #: android/java/org/asterium/asterium/OcularsSheet.java:105
@@ -2545,15 +2581,15 @@ msgstr ""
 msgid "Opposition"
 msgstr ""
 
-#: android/java/org/asterium/asterium/AstroCalcSheet.java:778 android/java/org/asterium/asterium/AstroCalcSheet.java:779
+#: android/java/org/asterium/asterium/AstroCalcSheet.java:748 android/java/org/asterium/asterium/AstroCalcSheet.java:749
 msgid "Opposition of"
 msgstr ""
 
-#: android/java/org/asterium/asterium/PhenomenaPage.java:150
+#: android/java/org/asterium/asterium/PhenomenaPage.java:149
 msgid "Oppositions"
 msgstr ""
 
-#: android/java/org/asterium/asterium/SearchSheet.java:47 android/java/org/asterium/asterium/ViewSheet.java:562
+#: android/java/org/asterium/asterium/SearchSheet.java:47 android/java/org/asterium/asterium/ViewSheet.java:567
 msgid "Options"
 msgstr ""
 
@@ -2569,7 +2605,7 @@ msgstr ""
 msgid "Orbital velocity"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:176
+#: android/java/org/asterium/asterium/ViewSheet.java:177
 msgid "Orbits"
 msgstr ""
 
@@ -2625,11 +2661,11 @@ msgstr ""
 msgid "Otherwise every move adopts the zone of the new place."
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:216
+#: android/java/org/asterium/asterium/ViewSheet.java:219
 msgid "Outline craters"
 msgstr ""
 
-#: src/gui/mobile/AndroidUi.cpp:753 src/gui/mobile/AndroidUi.cpp:3691
+#: src/gui/mobile/AndroidUi.cpp:753 src/gui/mobile/AndroidUi.cpp:3703
 msgid "PD (J2000)"
 msgstr ""
 
@@ -2641,11 +2677,11 @@ msgstr ""
 msgid "Partial eclipse ends"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:825
+#: android/java/org/asterium/asterium/ViewSheet.java:838
 msgid "Partitions"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:781
+#: android/java/org/asterium/asterium/ViewSheet.java:788
 msgid "Partitions thickness"
 msgstr ""
 
@@ -2653,11 +2689,11 @@ msgstr ""
 msgid "Path width"
 msgstr ""
 
-#: android/java/org/asterium/asterium/SkyChrome.java:927
+#: android/java/org/asterium/asterium/SkyChrome.java:937
 msgid "Pause"
 msgstr ""
 
-#: android/java/org/asterium/asterium/SkyChrome.java:926
+#: android/java/org/asterium/asterium/SkyChrome.java:936
 msgid "Paused - start"
 msgstr ""
 
@@ -2681,11 +2717,11 @@ msgstr ""
 msgid "Perihelion"
 msgstr ""
 
-#: android/java/org/asterium/asterium/PhenomenaPage.java:152
+#: android/java/org/asterium/asterium/PhenomenaPage.java:151
 msgid "Perihelion and aphelion"
 msgstr ""
 
-#: android/java/org/asterium/asterium/AstroCalcSheet.java:1058 src/gui/mobile/AstroCalcGraphs.cpp:232
+#: android/java/org/asterium/asterium/AstroCalcSheet.java:1028 src/gui/mobile/AstroCalcGraphs.cpp:232
 msgid "Phase"
 msgstr ""
 
@@ -2693,7 +2729,7 @@ msgstr ""
 msgid "Phase angle"
 msgstr ""
 
-#: android/java/org/asterium/asterium/AstroCalcSheet.java:47
+#: android/java/org/asterium/asterium/AstroCalcSheet.java:46
 msgid "Phenomena"
 msgstr ""
 
@@ -2713,7 +2749,7 @@ msgstr ""
 msgid "Planet and time zone"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:160
+#: android/java/org/asterium/asterium/ViewSheet.java:161
 msgid "Planet markers"
 msgstr ""
 
@@ -2725,7 +2761,7 @@ msgstr ""
 msgid "Planetary nebulae (<%1 mag)"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:203
+#: android/java/org/asterium/asterium/ViewSheet.java:206
 msgid "Planetary nomenclature"
 msgstr ""
 
@@ -2733,7 +2769,7 @@ msgstr ""
 msgid "Planetary transits"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:236 src/gui/mobile/AndroidUi.cpp:229 src/gui/mobile/AstroCalcPhenomena.cpp:1097 src/gui/mobile/AstroCalcWut.cpp:174
+#: android/java/org/asterium/asterium/ViewSheet.java:240 src/gui/mobile/AndroidUi.cpp:221 src/gui/mobile/AstroCalcPhenomena.cpp:1097 src/gui/mobile/AstroCalcWut.cpp:174
 msgid "Planets"
 msgstr ""
 
@@ -2741,7 +2777,7 @@ msgstr ""
 msgid "Planets and Sun"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:250
+#: android/java/org/asterium/asterium/ViewSheet.java:254
 msgid "Planets magnitude algorithm"
 msgstr ""
 
@@ -2769,11 +2805,11 @@ msgstr ""
 msgid "Plutinos"
 msgstr ""
 
-#: android/java/org/asterium/asterium/AstroCalcSheet.java:588
+#: android/java/org/asterium/asterium/AstroCalcSheet.java:557
 msgid "Pluto, Ceres, Pallas, Juno and Vesta"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:782
+#: android/java/org/asterium/asterium/ViewSheet.java:789
 msgid "Point size"
 msgstr ""
 
@@ -2789,11 +2825,11 @@ msgstr ""
 msgid "Polar distance, not declination"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:735
+#: android/java/org/asterium/asterium/ViewSheet.java:742
 msgid "Poles and points"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:610
+#: android/java/org/asterium/asterium/ViewSheet.java:615
 msgid "Polygon colour"
 msgstr ""
 
@@ -2809,23 +2845,23 @@ msgstr ""
 msgid "Position angle:"
 msgstr ""
 
-#: android/java/org/asterium/asterium/AstroCalcSheet.java:47
+#: android/java/org/asterium/asterium/AstroCalcSheet.java:46
 msgid "Positions"
 msgstr ""
 
-#: android/java/org/asterium/asterium/GraphsPage.java:198 android/java/org/asterium/asterium/GraphsPage.java:211
+#: android/java/org/asterium/asterium/GraphsPage.java:198 android/java/org/asterium/asterium/GraphsPage.java:213
 msgid "Positive values only"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:727
+#: android/java/org/asterium/asterium/ViewSheet.java:734
 msgid "Precession circles"
 msgstr ""
 
-#: android/java/org/asterium/asterium/AlmanacPage.java:225 android/java/org/asterium/asterium/OcularPanelSheet.java:66
+#: android/java/org/asterium/asterium/AlmanacPage.java:227 android/java/org/asterium/asterium/OcularPanelSheet.java:66
 msgid "Previous"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:720
+#: android/java/org/asterium/asterium/ViewSheet.java:727
 msgid "Prime Vertical"
 msgstr ""
 
@@ -2845,15 +2881,15 @@ msgstr ""
 msgid "Program Language"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:725
+#: android/java/org/asterium/asterium/ViewSheet.java:732
 msgid "Projected Solar Equator"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:492 android/java/org/asterium/asterium/ViewSheet.java:514 android/java/org/asterium/asterium/ViewSheet.java:526
+#: android/java/org/asterium/asterium/ViewSheet.java:497 android/java/org/asterium/asterium/ViewSheet.java:519 android/java/org/asterium/asterium/ViewSheet.java:531
 msgid "Projection"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:1019 android/java/org/asterium/asterium/ViewSheet.java:1029
+#: android/java/org/asterium/asterium/ViewSheet.java:1045 android/java/org/asterium/asterium/ViewSheet.java:1055
 msgid "Pronounce"
 msgstr ""
 
@@ -2861,7 +2897,7 @@ msgstr ""
 msgid "Pulsars"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:729
+#: android/java/org/asterium/asterium/ViewSheet.java:736
 msgid "Quadrature circle"
 msgstr ""
 
@@ -2881,7 +2917,7 @@ msgstr ""
 msgid "Quit button"
 msgstr ""
 
-#: src/gui/mobile/AndroidUi.cpp:750 src/gui/mobile/AndroidUi.cpp:3688
+#: src/gui/mobile/AndroidUi.cpp:750 src/gui/mobile/AndroidUi.cpp:3700
 msgid "RA (J2000)"
 msgstr ""
 
@@ -2889,7 +2925,7 @@ msgstr ""
 msgid "Range"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:1089
+#: android/java/org/asterium/asterium/ViewSheet.java:1120
 msgid "Ray helpers"
 msgstr ""
 
@@ -2897,7 +2933,7 @@ msgstr ""
 msgid "Reading…"
 msgstr ""
 
-#: android/java/org/asterium/asterium/SkyChrome.java:255 android/java/org/asterium/asterium/SkyChrome.java:927
+#: android/java/org/asterium/asterium/SkyChrome.java:257 android/java/org/asterium/asterium/SkyChrome.java:937
 msgid "Real time speed"
 msgstr ""
 
@@ -2905,7 +2941,7 @@ msgstr ""
 msgid "Recent Searches"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:768
+#: android/java/org/asterium/asterium/ViewSheet.java:775
 msgid "Rectangular FOV"
 msgstr ""
 
@@ -2921,7 +2957,7 @@ msgstr ""
 msgid "Regions of the sky"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:463
+#: android/java/org/asterium/asterium/ViewSheet.java:467
 msgid "Relative scale"
 msgstr ""
 
@@ -2953,6 +2989,10 @@ msgstr ""
 msgid "Restore FOV to initial values"
 msgstr ""
 
+#: android/java/org/asterium/asterium/ColorPicker.java:102 android/java/org/asterium/asterium/NumericSetting.java:152
+msgid "Restore default"
+msgstr ""
+
 #: android/java/org/asterium/asterium/ConfigSheet.java:139
 msgid "Restore defaults"
 msgstr ""
@@ -2961,7 +3001,7 @@ msgstr ""
 msgid "Restore direction to initial values"
 msgstr ""
 
-#: android/java/org/asterium/asterium/AstroCalcPage.java:124 android/java/org/asterium/asterium/AstroCalcSheet.java:299 android/java/org/asterium/asterium/AstroCalcSheet.java:698 android/java/org/asterium/asterium/SearchSheet.java:301
+#: android/java/org/asterium/asterium/AstroCalcPage.java:124 android/java/org/asterium/asterium/AstroCalcSheet.java:298 android/java/org/asterium/asterium/AstroCalcSheet.java:667 android/java/org/asterium/asterium/SearchSheet.java:301
 msgid "Results"
 msgstr ""
 
@@ -2973,7 +3013,7 @@ msgstr ""
 msgid "Right ascension"
 msgstr ""
 
-#: android/java/org/asterium/asterium/RtsPage.java:289 android/java/org/asterium/asterium/RtsPage.java:300 android/java/org/asterium/asterium/WutPage.java:259 src/gui/mobile/AstroCalcAlmanac.cpp:208 src/gui/mobile/AstroCalcAlmanac.cpp:226 src/gui/mobile/AstroCalcAlmanac.cpp:240 src/gui/mobile/AstroCalcAlmanac.cpp:248
+#: android/java/org/asterium/asterium/RtsPage.java:289 android/java/org/asterium/asterium/RtsPage.java:300 android/java/org/asterium/asterium/WutPage.java:263 src/gui/mobile/AstroCalcAlmanac.cpp:208 src/gui/mobile/AstroCalcAlmanac.cpp:226 src/gui/mobile/AstroCalcAlmanac.cpp:240 src/gui/mobile/AstroCalcAlmanac.cpp:248
 msgid "Rise"
 msgstr ""
 
@@ -2981,7 +3021,7 @@ msgstr ""
 msgid "Rises"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:775
+#: android/java/org/asterium/asterium/ViewSheet.java:782
 msgid "Rotation"
 msgstr ""
 
@@ -3049,11 +3089,11 @@ msgstr ""
 msgid "Save view"
 msgstr ""
 
-#: android/java/org/asterium/asterium/GraphsPage.java:196 android/java/org/asterium/asterium/ViewSheet.java:222
+#: android/java/org/asterium/asterium/GraphsPage.java:196 android/java/org/asterium/asterium/ViewSheet.java:226
 msgid "Scale"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:227 android/java/org/asterium/asterium/ViewSheet.java:235 android/java/org/asterium/asterium/ViewSheet.java:237 android/java/org/asterium/asterium/ViewSheet.java:240
+#: android/java/org/asterium/asterium/ViewSheet.java:231 android/java/org/asterium/asterium/ViewSheet.java:239 android/java/org/asterium/asterium/ViewSheet.java:241 android/java/org/asterium/asterium/ViewSheet.java:244
 msgid "Scale factor"
 msgstr ""
 
@@ -3061,11 +3101,11 @@ msgstr ""
 msgid "Scale image circle"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:342
+#: android/java/org/asterium/asterium/ViewSheet.java:346
 msgid "Scale marker and label visibility by surface brightness"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:229
+#: android/java/org/asterium/asterium/ViewSheet.java:233
 msgid "Scales smoothly between 1× at the minimum field of view and the factor above at the maximum"
 msgstr ""
 
@@ -3073,7 +3113,7 @@ msgstr ""
 msgid "Scattered disc objects"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:1168
+#: android/java/org/asterium/asterium/ViewSheet.java:1204
 msgid "Screen label"
 msgstr ""
 
@@ -3081,7 +3121,7 @@ msgstr ""
 msgid "Scripts"
 msgstr ""
 
-#: android/java/org/asterium/asterium/SearchSheet.java:91 android/java/org/asterium/asterium/SkyChrome.java:118
+#: android/java/org/asterium/asterium/SearchSheet.java:91 android/java/org/asterium/asterium/SkyChrome.java:120
 msgid "Search"
 msgstr ""
 
@@ -3109,15 +3149,15 @@ msgstr ""
 msgid "Second celestial body"
 msgstr ""
 
-#: android/java/org/asterium/asterium/GraphsPage.java:233 android/java/org/asterium/asterium/GraphsPage.java:233
+#: android/java/org/asterium/asterium/GraphsPage.java:236 android/java/org/asterium/asterium/GraphsPage.java:236
 msgid "Second graph"
 msgstr ""
 
-#: android/java/org/asterium/asterium/AstroCalcSheet.java:731 android/java/org/asterium/asterium/PhenomenaPage.java:129
+#: android/java/org/asterium/asterium/AstroCalcSheet.java:700 android/java/org/asterium/asterium/PhenomenaPage.java:128
 msgid "Second object"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:755
+#: android/java/org/asterium/asterium/ViewSheet.java:762
 msgid "Secondary intercardinal points"
 msgstr ""
 
@@ -3125,11 +3165,11 @@ msgstr ""
 msgid "Sednoids"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:594
+#: android/java/org/asterium/asterium/ViewSheet.java:599
 msgid "See the sky through the ground"
 msgstr ""
 
-#: android/java/org/asterium/asterium/AstroCalcSheet.java:252
+#: android/java/org/asterium/asterium/AstroCalcSheet.java:251
 msgid "Seen now"
 msgstr ""
 
@@ -3137,7 +3177,7 @@ msgstr ""
 msgid "Select an object first: this asks SIMBAD what it holds around it."
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:1070
+#: android/java/org/asterium/asterium/ViewSheet.java:1099
 msgid "Select single constellation"
 msgstr ""
 
@@ -3169,7 +3209,7 @@ msgstr ""
 msgid "Sensors"
 msgstr ""
 
-#: src/gui/mobile/AndroidUi.cpp:766 src/gui/mobile/AstroCalcWut.cpp:788
+#: src/gui/mobile/AndroidUi.cpp:766 src/gui/mobile/AstroCalcWut.cpp:799
 msgid "Sep."
 msgstr ""
 
@@ -3181,7 +3221,7 @@ msgstr ""
 msgid "Separate colors for orbits of major planets"
 msgstr ""
 
-#: android/java/org/asterium/asterium/PhenomenaPage.java:352
+#: android/java/org/asterium/asterium/PhenomenaPage.java:328
 msgid "Separation"
 msgstr ""
 
@@ -3193,11 +3233,11 @@ msgstr ""
 msgid "Server"
 msgstr ""
 
-#: android/java/org/asterium/asterium/RtsPage.java:291 android/java/org/asterium/asterium/RtsPage.java:302 android/java/org/asterium/asterium/WutPage.java:264 src/gui/mobile/AstroCalcAlmanac.cpp:209 src/gui/mobile/AstroCalcAlmanac.cpp:227 src/gui/mobile/AstroCalcAlmanac.cpp:242 src/gui/mobile/AstroCalcAlmanac.cpp:250
+#: android/java/org/asterium/asterium/RtsPage.java:291 android/java/org/asterium/asterium/RtsPage.java:302 android/java/org/asterium/asterium/WutPage.java:268 src/gui/mobile/AstroCalcAlmanac.cpp:209 src/gui/mobile/AstroCalcAlmanac.cpp:227 src/gui/mobile/AstroCalcAlmanac.cpp:242 src/gui/mobile/AstroCalcAlmanac.cpp:250
 msgid "Set"
 msgstr ""
 
-#: android/java/org/asterium/asterium/AlmanacPage.java:189
+#: android/java/org/asterium/asterium/AlmanacPage.java:191
 msgid "Set the clock to %s"
 msgstr ""
 
@@ -3213,7 +3253,7 @@ msgstr ""
 msgid "Sets"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:271
+#: android/java/org/asterium/asterium/ViewSheet.java:275
 msgid "Shadow map for non-convex bodies. May coarsen the penumbra on some objects"
 msgstr ""
 
@@ -3229,7 +3269,7 @@ msgstr ""
 msgid "Short notation for units of surface brightness"
 msgstr ""
 
-#: android/java/org/asterium/asterium/GraphsPage.java:248
+#: android/java/org/asterium/asterium/GraphsPage.java:251
 msgid "Short steps over a long duration are slow."
 msgstr ""
 
@@ -3253,7 +3293,7 @@ msgstr ""
 msgid "Show additional buttons"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:477
+#: android/java/org/asterium/asterium/ViewSheet.java:482
 msgid "Show additional star names"
 msgstr ""
 
@@ -3269,7 +3309,7 @@ msgstr ""
 msgid "Show border circle"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:1064
+#: android/java/org/asterium/asterium/ViewSheet.java:1092
 msgid "Show boundaries of constellations"
 msgstr ""
 
@@ -3285,7 +3325,7 @@ msgstr ""
 msgid "Show compass rose"
 msgstr ""
 
-#: android/java/org/asterium/asterium/SkyChrome.java:175 android/java/org/asterium/asterium/SkyChrome.java:734 android/java/org/asterium/asterium/SkyChrome.java:790
+#: android/java/org/asterium/asterium/SkyChrome.java:177 android/java/org/asterium/asterium/SkyChrome.java:744 android/java/org/asterium/asterium/SkyChrome.java:800
 msgid "Show controls"
 msgstr ""
 
@@ -3293,7 +3333,7 @@ msgstr ""
 msgid "Show crosshairs"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:265
+#: android/java/org/asterium/asterium/ViewSheet.java:269
 msgid "Show each body where it was when the light left it (recommended)"
 msgstr ""
 
@@ -3301,7 +3341,7 @@ msgstr ""
 msgid "Show focuser overlay"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:580
+#: android/java/org/asterium/asterium/ViewSheet.java:585
 msgid "Show fog"
 msgstr ""
 
@@ -3309,27 +3349,27 @@ msgstr ""
 msgid "Show frames per second beside the field of view"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:577
+#: android/java/org/asterium/asterium/ViewSheet.java:582
 msgid "Show ground"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:205
+#: android/java/org/asterium/asterium/ViewSheet.java:208
 msgid "Show hints and labels for planetary features"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:578
+#: android/java/org/asterium/asterium/ViewSheet.java:583
 msgid "Show illumination"
 msgstr ""
 
-#: android/java/org/asterium/asterium/AstroCalcSheet.java:558 android/java/org/asterium/asterium/WutPage.java:271
+#: android/java/org/asterium/asterium/AstroCalcSheet.java:527 android/java/org/asterium/asterium/WutPage.java:275
 msgid "Show in sky"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:1210
+#: android/java/org/asterium/asterium/ViewSheet.java:1246
 msgid "Show less"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:1109
+#: android/java/org/asterium/asterium/ViewSheet.java:1143
 msgid "Show lunar stations (if defined)"
 msgstr ""
 
@@ -3337,7 +3377,7 @@ msgstr ""
 msgid "Show max exposure time for moving objects"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:1203 android/java/org/asterium/asterium/ViewSheet.java:1210
+#: android/java/org/asterium/asterium/ViewSheet.java:1239 android/java/org/asterium/asterium/ViewSheet.java:1246
 msgid "Show more"
 msgstr ""
 
@@ -3345,31 +3385,31 @@ msgstr ""
 msgid "Show objects which are up"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:346
+#: android/java/org/asterium/asterium/ViewSheet.java:350
 msgid "Show only named DSO"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:351
+#: android/java/org/asterium/asterium/ViewSheet.java:355
 msgid "Show only objects between the two sizes"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:319
+#: android/java/org/asterium/asterium/ViewSheet.java:323
 msgid "Show only the kinds ticked below"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:178
+#: android/java/org/asterium/asterium/ViewSheet.java:179
 msgid "Show orbit even if object is off screen"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:184
+#: android/java/org/asterium/asterium/ViewSheet.java:185
 msgid "Show orbit only for selected SSO"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:177
+#: android/java/org/asterium/asterium/ViewSheet.java:178
 msgid "Show orbits"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:180
+#: android/java/org/asterium/asterium/ViewSheet.java:181
 msgid "Show orbits of major planets"
 msgstr ""
 
@@ -3377,7 +3417,7 @@ msgstr ""
 msgid "Show pixel grid"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:204
+#: android/java/org/asterium/asterium/ViewSheet.java:207
 msgid "Show planetary nomenclature"
 msgstr ""
 
@@ -3385,19 +3425,19 @@ msgstr ""
 msgid "Show sensor crop overlay"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:218
+#: android/java/org/asterium/asterium/ViewSheet.java:221
 msgid "Show special nomenclature points only"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:163
+#: android/java/org/asterium/asterium/ViewSheet.java:164
 msgid "Show tiny circles for minor bodies regardless of magnitude"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:193
+#: android/java/org/asterium/asterium/ViewSheet.java:195
 msgid "Show trails"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:1099
+#: android/java/org/asterium/asterium/ViewSheet.java:1131
 msgid "Show zodiac (if defined)"
 msgstr ""
 
@@ -3417,15 +3457,15 @@ msgstr ""
 msgid "Simbad Lookup: querying"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:264
+#: android/java/org/asterium/asterium/ViewSheet.java:268
 msgid "Simulate light speed"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:270
+#: android/java/org/asterium/asterium/ViewSheet.java:274
 msgid "Simulate self-shadowing"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:263
+#: android/java/org/asterium/asterium/ViewSheet.java:267
 msgid "Simulation"
 msgstr ""
 
@@ -3441,15 +3481,15 @@ msgstr ""
 msgid "Sky and viewing options"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:1138
+#: android/java/org/asterium/asterium/ViewSheet.java:1174
 msgid "Sky culture"
 msgstr ""
 
-#: android/java/org/asterium/asterium/SkyChrome.java:253 android/java/org/asterium/asterium/SkyChrome.java:793
+#: android/java/org/asterium/asterium/SkyChrome.java:255 android/java/org/asterium/asterium/SkyChrome.java:803
 msgid "Slow down"
 msgstr ""
 
-#: android/java/org/asterium/asterium/WutPage.java:162
+#: android/java/org/asterium/asterium/WutPage.java:164
 msgid "Smallest, ′"
 msgstr ""
 
@@ -3485,11 +3525,11 @@ msgstr ""
 msgid "Solar system objects: planets"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:746
+#: android/java/org/asterium/asterium/ViewSheet.java:753
 msgid "Solstices (J2000)"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:747
+#: android/java/org/asterium/asterium/ViewSheet.java:754
 msgid "Solstices (of date)"
 msgstr ""
 
@@ -3501,7 +3541,7 @@ msgstr ""
 msgid "Source"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:218
+#: android/java/org/asterium/asterium/ViewSheet.java:221
 msgid "Special points only"
 msgstr ""
 
@@ -3509,15 +3549,15 @@ msgstr ""
 msgid "Spectral Class"
 msgstr ""
 
-#: android/java/org/asterium/asterium/SkyChrome.java:258 android/java/org/asterium/asterium/SkyChrome.java:795
+#: android/java/org/asterium/asterium/SkyChrome.java:260 android/java/org/asterium/asterium/SkyChrome.java:805
 msgid "Speed up"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:473
+#: android/java/org/asterium/asterium/ViewSheet.java:477
 msgid "Spiky stars"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:575
+#: android/java/org/asterium/asterium/ViewSheet.java:580
 msgid "Stand where the landscape was shot, on the planet it names"
 msgstr ""
 
@@ -3525,7 +3565,7 @@ msgstr ""
 msgid "Star, planet, catalogue number…"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:459 android/java/org/asterium/asterium/ViewSheet.java:461
+#: android/java/org/asterium/asterium/ViewSheet.java:463 android/java/org/asterium/asterium/ViewSheet.java:465
 msgid "Stars"
 msgstr ""
 
@@ -3533,7 +3573,7 @@ msgstr ""
 msgid "Started"
 msgstr ""
 
-#: android/java/org/asterium/asterium/AstroCalcSheet.java:739
+#: android/java/org/asterium/asterium/AstroCalcSheet.java:708
 msgid "Starting"
 msgstr ""
 
@@ -3561,7 +3601,7 @@ msgstr ""
 msgid "Stellarium is by Fabien Chereau and the Stellarium team, with star catalogues from Hipparcos, Tycho-2 and NOMAD, and distances from the Hipparcos new reduction (van Leeuwen 2007)."
 msgstr ""
 
-#: android/java/org/asterium/asterium/GraphsPage.java:238
+#: android/java/org/asterium/asterium/GraphsPage.java:241
 msgid "Step, hours"
 msgstr ""
 
@@ -3581,11 +3621,11 @@ msgstr ""
 msgid "Style"
 msgstr ""
 
-#: android/java/org/asterium/asterium/EclipsesPage.java:389 android/java/org/asterium/asterium/EclipsesPage.java:390 android/java/org/asterium/asterium/GraphsPage.java:190 android/java/org/asterium/asterium/ViewSheet.java:234 src/gui/mobile/AstroCalcAlmanac.cpp:204 src/gui/mobile/AstroCalcGraphs.cpp:353
+#: android/java/org/asterium/asterium/EclipsesPage.java:389 android/java/org/asterium/asterium/EclipsesPage.java:390 android/java/org/asterium/asterium/GraphsPage.java:190 android/java/org/asterium/asterium/ViewSheet.java:238 src/gui/mobile/AstroCalcAlmanac.cpp:204 src/gui/mobile/AstroCalcGraphs.cpp:353
 msgid "Sun"
 msgstr ""
 
-#: android/java/org/asterium/asterium/AstroCalcSheet.java:768
+#: android/java/org/asterium/asterium/AstroCalcSheet.java:737
 msgid "Sun altitude"
 msgstr ""
 
@@ -3597,11 +3637,11 @@ msgstr ""
 msgid "Sun's altitude"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:172
+#: android/java/org/asterium/asterium/ViewSheet.java:173
 msgid "Sun's corona"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:170
+#: android/java/org/asterium/asterium/ViewSheet.java:171
 msgid "Sun's glare"
 msgstr ""
 
@@ -3621,15 +3661,15 @@ msgstr ""
 msgid "Supergalactic"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:723
+#: android/java/org/asterium/asterium/ViewSheet.java:730
 msgid "Supergalactic equator"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:709
+#: android/java/org/asterium/asterium/ViewSheet.java:716
 msgid "Supergalactic grid"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:741
+#: android/java/org/asterium/asterium/ViewSheet.java:748
 msgid "Supergalactic poles"
 msgstr ""
 
@@ -3649,7 +3689,7 @@ msgstr ""
 msgid "Supernova remnants"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:199
+#: android/java/org/asterium/asterium/ViewSheet.java:202
 msgid "Switch this off to see the trails for all Solar system bodies"
 msgstr ""
 
@@ -3673,7 +3713,7 @@ msgstr ""
 msgid "System default"
 msgstr ""
 
-#: android/java/org/asterium/asterium/AstroCalcSheet.java:783
+#: android/java/org/asterium/asterium/AstroCalcSheet.java:753
 msgid "Table"
 msgstr ""
 
@@ -3717,11 +3757,11 @@ msgstr ""
 msgid "Telrad sight"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:756
+#: android/java/org/asterium/asterium/ViewSheet.java:763
 msgid "Tertiary intercardinal points"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:617
+#: android/java/org/asterium/asterium/ViewSheet.java:623
 msgid "Text angle"
 msgstr ""
 
@@ -3733,23 +3773,23 @@ msgstr ""
 msgid "The Oculars plug-in did not load on this build."
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:295
+#: android/java/org/asterium/asterium/ViewSheet.java:299
 msgid "The algorithm is based on visual observations 1877-1891 by G. Müller and was still republished in the Explanatory Supplement to the Astronomical Ephemeris (1961)."
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:303
+#: android/java/org/asterium/asterium/ViewSheet.java:307
 msgid "The algorithm was published by A. Mallama & J. L. Hilton: Computing apparent planetary magnitudes for the Astronomical Almanac. Astronomy&Computing 25 (2018) 10-24."
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:299
+#: android/java/org/asterium/asterium/ViewSheet.java:303
 msgid "The algorithm was published in the 2nd edition of the Explanatory Supplement to the Astronomical Almanac (1992)."
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:301
+#: android/java/org/asterium/asterium/ViewSheet.java:305
 msgid "The algorithm was published in the 3rd edition of the Explanatory Supplement to the Astronomical Almanac (2013)."
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:297
+#: android/java/org/asterium/asterium/ViewSheet.java:301
 msgid "The algorithm was used in the Astronomical Almanac (1984 and later) and gives V (instrumental) magnitudes (allegedly from D.L. Harris)."
 msgstr ""
 
@@ -3757,7 +3797,7 @@ msgstr ""
 msgid "The classical cepheids"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:359
+#: android/java/org/asterium/asterium/ViewSheet.java:363
 msgid "The colour each kind of object is drawn in"
 msgstr ""
 
@@ -3777,19 +3817,19 @@ msgstr ""
 msgid "The greatest eclipse is invisible in current location"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:606
+#: android/java/org/asterium/asterium/ViewSheet.java:611
 msgid "The horizon outline instead of the panorama"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:194
+#: android/java/org/asterium/asterium/ViewSheet.java:196
 msgid "The path each body has taken across the sky"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:1044
+#: android/java/org/asterium/asterium/ViewSheet.java:1070
 msgid "The shortest label the culture defines"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:188 android/java/org/asterium/asterium/ViewSheet.java:195 android/java/org/asterium/asterium/ViewSheet.java:609 android/java/org/asterium/asterium/ViewSheet.java:1051 android/java/org/asterium/asterium/ViewSheet.java:1066 android/java/org/asterium/asterium/ViewSheet.java:1080 android/java/org/asterium/asterium/ViewSheet.java:1090 android/java/org/asterium/asterium/ViewSheet.java:1103 android/java/org/asterium/asterium/ViewSheet.java:1113
+#: android/java/org/asterium/asterium/ViewSheet.java:189 android/java/org/asterium/asterium/ViewSheet.java:197 android/java/org/asterium/asterium/ViewSheet.java:614 android/java/org/asterium/asterium/ViewSheet.java:1077 android/java/org/asterium/asterium/ViewSheet.java:1094 android/java/org/asterium/asterium/ViewSheet.java:1109 android/java/org/asterium/asterium/ViewSheet.java:1121 android/java/org/asterium/asterium/ViewSheet.java:1135 android/java/org/asterium/asterium/ViewSheet.java:1147
 msgid "Thickness"
 msgstr ""
 
@@ -3801,7 +3841,7 @@ msgstr ""
 msgid "This device has no location service."
 msgstr ""
 
-#: android/java/org/asterium/asterium/PropertySheet.java:100
+#: android/java/org/asterium/asterium/PropertySheet.java:102
 msgid "This part of the engine exposes no settings on this build."
 msgstr ""
 
@@ -3809,11 +3849,11 @@ msgstr ""
 msgid "This tool works on Earth only!"
 msgstr ""
 
-#: android/java/org/asterium/asterium/GraphsPage.java:247
+#: android/java/org/asterium/asterium/GraphsPage.java:250
 msgid "This tool works on Earth only. Short steps over a long duration are slow."
 msgstr ""
 
-#: android/java/org/asterium/asterium/AlmanacPage.java:226
+#: android/java/org/asterium/asterium/AlmanacPage.java:228
 msgid "This year"
 msgstr ""
 
@@ -3829,11 +3869,11 @@ msgstr ""
 msgid "Time of day"
 msgstr ""
 
-#: android/java/org/asterium/asterium/AstroCalcSheet.java:737 android/java/org/asterium/asterium/PhenomenaPage.java:138
+#: android/java/org/asterium/asterium/AstroCalcSheet.java:706 android/java/org/asterium/asterium/PhenomenaPage.java:137
 msgid "Time span"
 msgstr ""
 
-#: android/java/org/asterium/asterium/AstroCalcSheet.java:999
+#: android/java/org/asterium/asterium/AstroCalcSheet.java:969
 msgid "Time step"
 msgstr ""
 
@@ -3845,7 +3885,7 @@ msgstr ""
 msgid "To the next (mths)"
 msgstr ""
 
-#: android/java/org/asterium/asterium/PhenomenaPage.java:141
+#: android/java/org/asterium/asterium/PhenomenaPage.java:140
 msgid "To the next, months"
 msgstr ""
 
@@ -3857,15 +3897,15 @@ msgstr ""
 msgid "Toggle display of nebula images."
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:170
+#: android/java/org/asterium/asterium/ViewSheet.java:171
 msgid "Toggle drawing Sun's glare"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:168
+#: android/java/org/asterium/asterium/ViewSheet.java:169
 msgid "Toggle drawing halo around the Moon"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:173
+#: android/java/org/asterium/asterium/ViewSheet.java:174
 msgid "Toggle permanent drawing of Sun's corona when atmosphere is disabled"
 msgstr ""
 
@@ -3885,19 +3925,19 @@ msgstr ""
 msgid "Total eclipse ends"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:192
+#: android/java/org/asterium/asterium/ViewSheet.java:194
 msgid "Trails"
 msgstr ""
 
-#: android/java/org/asterium/asterium/AstroCalcSheet.java:555 android/java/org/asterium/asterium/InfoSheet.java:142 android/java/org/asterium/asterium/RtsPage.java:290 android/java/org/asterium/asterium/RtsPage.java:301 android/java/org/asterium/asterium/WutPage.java:260
+#: android/java/org/asterium/asterium/AstroCalcSheet.java:524 android/java/org/asterium/asterium/InfoSheet.java:142 android/java/org/asterium/asterium/RtsPage.java:290 android/java/org/asterium/asterium/RtsPage.java:301 android/java/org/asterium/asterium/WutPage.java:264
 msgid "Transit"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:1022 android/java/org/asterium/asterium/ViewSheet.java:1031
+#: android/java/org/asterium/asterium/ViewSheet.java:1048 android/java/org/asterium/asterium/ViewSheet.java:1057
 msgid "Translated"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:594
+#: android/java/org/asterium/asterium/ViewSheet.java:599
 msgid "Transparency"
 msgstr ""
 
@@ -3909,19 +3949,19 @@ msgstr ""
 msgid "Twilight and rise and set times are worked out for an observer on Earth. Move back to Earth to see them."
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:465
+#: android/java/org/asterium/asterium/ViewSheet.java:469
 msgid "Twinkle"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:466
+#: android/java/org/asterium/asterium/ViewSheet.java:470
 msgid "Twinkle amount"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:467
+#: android/java/org/asterium/asterium/ViewSheet.java:471
 msgid "Twinkle even without atmosphere"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:468
+#: android/java/org/asterium/asterium/ViewSheet.java:472
 msgid "Twinkle is caused by atmospheric turbulence; this shows it regardless"
 msgstr ""
 
@@ -3949,11 +3989,11 @@ msgstr ""
 msgid "Unnamed star"
 msgstr ""
 
-#: android/java/org/asterium/asterium/AstroCalcSheet.java:329 android/java/org/asterium/asterium/WutPage.java:148
+#: android/java/org/asterium/asterium/AstroCalcSheet.java:328 android/java/org/asterium/asterium/WutPage.java:148
 msgid "Up to mag."
 msgstr ""
 
-#: android/java/org/asterium/asterium/AstroCalcSheet.java:207 android/java/org/asterium/asterium/GraphsPage.java:60
+#: android/java/org/asterium/asterium/AstroCalcSheet.java:206 android/java/org/asterium/asterium/GraphsPage.java:60
 msgid "Update"
 msgstr ""
 
@@ -3965,7 +4005,7 @@ msgstr ""
 msgid "Use SIMBAD"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:344
+#: android/java/org/asterium/asterium/ViewSheet.java:348
 msgid "Use additional names of DSO"
 msgstr ""
 
@@ -3997,7 +4037,7 @@ msgstr ""
 msgid "Use degrees and minutes for FOV of CCD"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:334 android/java/org/asterium/asterium/ViewSheet.java:479
+#: android/java/org/asterium/asterium/ViewSheet.java:338 android/java/org/asterium/asterium/ViewSheet.java:484
 msgid "Use designations for screen labels"
 msgstr ""
 
@@ -4013,7 +4053,7 @@ msgstr ""
 msgid "Use mag/arcsec^2 for surface brightness"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:267
+#: android/java/org/asterium/asterium/ViewSheet.java:271
 msgid "Use more accurate 3D models (where available)"
 msgstr ""
 
@@ -4025,11 +4065,11 @@ msgstr ""
 msgid "Use on-line astronomical database SIMBAD"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:337
+#: android/java/org/asterium/asterium/ViewSheet.java:341
 msgid "Use outlines for big deep-sky objects"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:339
+#: android/java/org/asterium/asterium/ViewSheet.java:343
 msgid "Use proportional hints"
 msgstr ""
 
@@ -4041,7 +4081,7 @@ msgstr ""
 msgid "Use sorting by string length"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:341
+#: android/java/org/asterium/asterium/ViewSheet.java:345
 msgid "Use surface brightness"
 msgstr ""
 
@@ -4049,7 +4089,7 @@ msgstr ""
 msgid "Use the date now shown in the sky"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:588
+#: android/java/org/asterium/asterium/ViewSheet.java:593
 msgid "Use the value in landscape.ini when it has one"
 msgstr ""
 
@@ -4057,15 +4097,15 @@ msgstr ""
 msgid "Use the value stored for this location"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:568
+#: android/java/org/asterium/asterium/ViewSheet.java:573
 msgid "Use this landscape as default"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:1144
+#: android/java/org/asterium/asterium/ViewSheet.java:1180
 msgid "Use this sky culture as default"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:483
+#: android/java/org/asterium/asterium/ViewSheet.java:488
 msgid "Var. stars"
 msgstr ""
 
@@ -4089,11 +4129,11 @@ msgstr ""
 msgid "Vertical size (height)"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:500
+#: android/java/org/asterium/asterium/ViewSheet.java:505
 msgid "Vertical viewport offset"
 msgstr ""
 
-#: android/java/org/asterium/asterium/SkyChrome.java:117
+#: android/java/org/asterium/asterium/SkyChrome.java:119
 msgid "View"
 msgstr ""
 
@@ -4105,7 +4145,7 @@ msgstr ""
 msgid "Visibility"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:305
+#: android/java/org/asterium/asterium/ViewSheet.java:309
 msgid "Visual magnitude based on phase angle and albedo."
 msgstr ""
 
@@ -4117,11 +4157,11 @@ msgstr ""
 msgid "When a search result is chosen"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:279
+#: android/java/org/asterium/asterium/ViewSheet.java:283
 msgid "Where Jupiter's Great Red Spot was, and when"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:771
+#: android/java/org/asterium/asterium/ViewSheet.java:778
 msgid "Width"
 msgstr ""
 
@@ -4133,15 +4173,15 @@ msgstr ""
 msgid "Year"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:742
+#: android/java/org/asterium/asterium/ViewSheet.java:749
 msgid "Zenith and Nadir"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:1099
+#: android/java/org/asterium/asterium/ViewSheet.java:1131
 msgid "Zodiac"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:1094
+#: android/java/org/asterium/asterium/ViewSheet.java:1126
 msgid "Zodiac and lunar stations"
 msgstr ""
 
@@ -4165,7 +4205,7 @@ msgstr ""
 msgid "before sunrise"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:921
+#: android/java/org/asterium/asterium/ViewSheet.java:935
 msgid "bright suburban"
 msgstr ""
 
@@ -4177,11 +4217,11 @@ msgstr ""
 msgid "engine ready, interface going live"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:920
+#: android/java/org/asterium/asterium/ViewSheet.java:934
 msgid "excellent dark sky"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:587
+#: android/java/org/asterium/asterium/ViewSheet.java:592
 msgid "from landscape, if given"
 msgstr ""
 
@@ -4189,12 +4229,16 @@ msgstr ""
 msgid "github.com/devcat36/Asterium"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:921
+#: android/java/org/asterium/asterium/ViewSheet.java:935
 msgid "inner city"
 msgstr ""
 
 #: android/java/org/asterium/asterium/InfoCard.java:292
 msgid "mag %s"
+msgstr ""
+
+#: android/java/org/asterium/asterium/ViewSheet.java:945
+msgid "mag/arcsec²"
 msgstr ""
 
 #: android/java/org/asterium/asterium/EclipsesPage.java:272
@@ -4209,11 +4253,11 @@ msgstr ""
 msgid "north +"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:920
+#: android/java/org/asterium/asterium/ViewSheet.java:934
 msgid "rural/suburban"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:1020 android/java/org/asterium/asterium/ViewSheet.java:1030
+#: android/java/org/asterium/asterium/ViewSheet.java:1046 android/java/org/asterium/asterium/ViewSheet.java:1056
 msgid "sci. translit."
 msgstr ""
 
@@ -4237,11 +4281,11 @@ msgstr ""
 msgid "store preference"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:921
+#: android/java/org/asterium/asterium/ViewSheet.java:935
 msgid "suburban/urban"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:920
+#: android/java/org/asterium/asterium/ViewSheet.java:934
 msgid "truly dark"
 msgstr ""
 
@@ -4253,7 +4297,7 @@ msgstr ""
 msgid "use current"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:717
+#: android/java/org/asterium/asterium/ViewSheet.java:724
 msgid "with Solar Dates"
 msgstr ""
 
@@ -4261,6 +4305,6 @@ msgstr ""
 msgid "yyyy-mm-dd (ISO 8601)"
 msgstr ""
 
-#: android/java/org/asterium/asterium/ViewSheet.java:186
+#: android/java/org/asterium/asterium/ViewSheet.java:187
 msgid "… and moons"
 msgstr ""
