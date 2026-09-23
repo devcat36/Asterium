@@ -29,6 +29,8 @@ import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
+import android.system.ErrnoException;
+import android.system.Os;
 import android.view.Gravity;
 import android.view.KeyEvent;
 import android.view.MotionEvent;
@@ -62,6 +64,14 @@ public class AsteriumActivity extends QtActivity
 	@Override
 	public void onCreate(Bundle savedInstanceState)
 	{
+		try
+		{
+			Os.setenv("QT_ANDROID_DISABLE_ACCESSIBILITY", "1", true);
+		}
+		catch (ErrnoException e)
+		{
+			throw new IllegalStateException("Unable to configure the sky renderer", e);
+		}
 		super.onCreate(savedInstanceState);
 
 		Theme.init(this);

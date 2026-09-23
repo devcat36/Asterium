@@ -308,7 +308,7 @@ de430_path                          = ""
 de431_path                          = ""
 
 [overlay_opacity]
-ConstellationMgr.linesColor         = 0.15
+ConstellationMgr.linesColor         = 0.20
 
 [init_location]
 location                            = auto

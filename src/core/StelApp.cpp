@@ -486,7 +486,7 @@ void StelApp::init(QSettings* conf)
 {
 	gl = QOpenGLContext::currentContext()->functions();
 	confSettings = conf;
-	overlayOpacities.insert(QStringLiteral("ConstellationMgr.linesColor"), 0.15f);
+	overlayOpacities.insert(QStringLiteral("ConstellationMgr.linesColor"), 0.20f);
 	confSettings->beginGroup("overlay_opacity");
 	for (const QString& key : confSettings->childKeys())
 	{
